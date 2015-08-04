@@ -1,0 +1,11 @@
+SOURCELONG:Gozzilioni Seafarer's Handbook	SOURCESHORT:SsH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-01
+
+#Weapon Groupings used to facilitate homebrews:		
+#	Sword, Spear, Axe, Bow, Unarmed	
+#	Melee, Ranged, Thrown, Spell	
+#	Bludgeoning, Slashing, Piercing	
+#	TwoHanded, DoubleWeapon, MeleeTwoHanded, Reach	
+#	MeleeSlashing, MeleePiercing, MeeleBludgeoning, RangedSlashing, RangedPiercing, RangedBludgeoning	
+#	RangedTouch	
+Crossbow (Light/Aquatic)	TYPE:Simple.Ranged.Piercing.RangedPiercing.TwoHanded.Crossbow.Aquatic
+Crossbow (Heavy/Aquatic)	TYPE:Simple.Ranged.Piercing.RangedPiercing.TwoHanded.Crossbow.Aquatic

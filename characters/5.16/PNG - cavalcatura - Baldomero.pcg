@@ -1,0 +1,370 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:3.5 RSRD|CAMPAIGN:Gozzilioni Base|CAMPAIGN:Gozzilioni Book of Exalted deeds|CAMPAIGN:Gozzilioni Book of Vile Darkness|CAMPAIGN:Gozzilioni Complete Adventurer|CAMPAIGN:Gozzilioni Complete Arcane|CAMPAIGN:Gozzilioni Complete Divine|CAMPAIGN:Gozzilioni Complete Warrior|CAMPAIGN:Gozzilioni DandD Wiki|CAMPAIGN:Gozzilioni Darkness and Dread|CAMPAIGN:Gozzilioni Draconomicon|CAMPAIGN:Gozzilioni Dungeon Master's Guide 2|CAMPAIGN:Gozzilioni Forgotten Realm|CAMPAIGN:Gozzilioni Magic Of Faerun|CAMPAIGN:Gozzilioni Modifiche a SRD|CAMPAIGN:Gozzilioni Monster Manual 2|CAMPAIGN:Gozzilioni Monster Mayehm|CAMPAIGN:Gozzilioni Necromancer Games Tome of Horror|CAMPAIGN:Gozzilioni Nephandum|CAMPAIGN:Gozzilioni Noble Steed|CAMPAIGN:Gozzilioni Option|CAMPAIGN:Gozzilioni Planar Handbook|CAMPAIGN:Gozzilioni Player's Handbook 2|CAMPAIGN:Gozzilioni Random Encounter|CAMPAIGN:Gozzilioni Savage Species|CAMPAIGN:Gozzilioni Seafarer's Handbook|CAMPAIGN:Gozzilioni Seas of Blood
+VERSION:5.16.2
+ROLLMETHOD:2|EXPRESSION:Standard Campaign
+PURCHASEPOINTS:Y|TYPE:Standard Campaign
+POOLPOINTS:62
+POOLPOINTSAVAIL:80
+GAMEMODE:35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+IGNORECOST:Y
+ALLOWDEBT:N
+AUTORESIZEGEAR:N
+
+# Character Bio
+CHARACTERNAME:Baldomero
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Maschio
+HANDED:Destra
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:10
+STAT:DEX|SCORE:11
+STAT:CON|SCORE:11
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:10
+ALIGN:TN
+RACE:Horse (Brabant)
+
+# Character Class(es)
+CLASS:Animal|SUBCLASS:None|LEVEL:3|SKILLPOOL:0
+CLASSABILITIESLEVEL:Animal=1|HITPOINTS:8|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Animal=2|HITPOINTS:5|SKILLSGAINED:1
+CLASSABILITIESLEVEL:Animal=3|HITPOINTS:4|SKILLSGAINED:1
+
+# Character Experience
+EXPERIENCE:0
+
+# Character Templates
+
+# Character Region
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Balance|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Concentration|OUTPUTORDER:5|
+SKILL:Craft (Untrained)|OUTPUTORDER:6|
+SKILL:Diplomacy|OUTPUTORDER:7|
+SKILL:Disguise|OUTPUTORDER:8|
+SKILL:Escape Artist|OUTPUTORDER:9|
+SKILL:Forgery|OUTPUTORDER:10|
+SKILL:Gather Information|OUTPUTORDER:11|
+SKILL:Heal|OUTPUTORDER:12|
+SKILL:Hide|OUTPUTORDER:13|
+SKILL:Intimidate|OUTPUTORDER:14|
+SKILL:Jump|OUTPUTORDER:15|
+SKILL:Listen|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Animal|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Move Silently|OUTPUTORDER:17|
+SKILL:Ride|OUTPUTORDER:18|
+SKILL:Search|OUTPUTORDER:19|
+SKILL:Sense Motive|OUTPUTORDER:20|
+SKILL:Spot|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Animal|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:22|
+SKILL:Swim|OUTPUTORDER:23|
+SKILL:Use Rope|OUTPUTORDER:24|
+
+# Character Languages
+
+
+# Character Feats
+FEATPOOL:-2.0
+
+# Character Abilities
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Endurance|TYPE:General.AnointedKnight.Scout.Knight.Worker.SteedGeneral|DESC:You gain a +%1 bonus on checks relating to stamina or extended physical activity. Also, you may sleep in light or medium armor without becoming fatigued.&pipe;EnduranceBonus
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Run|TYPE:General.SteedGeneral|DESC:When running, you move five times your normal speed or four times your speed (if wearing medium or heavy armor or carrying a medium or heavy load). If you make a jump after a running start, you gain a +4 bonus on your Jump check. While running, you retain your Dexterity bonus to AC.
+USERPOOL:FEAT|POOLPOINTS:0.0
+USERPOOL:Internal|POOLPOINTS:0.0
+USERPOOL:Special Ability|POOLPOINTS:0.0
+USERPOOL:Fighter Feat|POOLPOINTS:0.0
+USERPOOL:Wizard Feat|POOLPOINTS:0.0
+USERPOOL:Metamagic Feat|POOLPOINTS:0.0
+USERPOOL:Monk Feat|POOLPOINTS:0.0
+USERPOOL:Rogue Special Ability|POOLPOINTS:0.0
+USERPOOL:Ranger Combat Style|POOLPOINTS:0.0
+USERPOOL:Favored Enemy|POOLPOINTS:0.0
+USERPOOL:Favored Enemy Bonus|POOLPOINTS:0.0
+USERPOOL:Turn Undead|POOLPOINTS:0.0
+USERPOOL:Expert Class Skills|POOLPOINTS:0.0
+USERPOOL:High Arcana Ability|POOLPOINTS:0.0
+USERPOOL:Hierophant Ability|POOLPOINTS:0.0
+USERPOOL:Terrain Mastery|POOLPOINTS:0.0
+USERPOOL:Advanced Terrain Mastery|POOLPOINTS:0.0
+USERPOOL:Loremaster Secret|POOLPOINTS:0.0
+USERPOOL:Dragon Disciple Bonus Spell|POOLPOINTS:0.0
+USERPOOL:Ghost Ability|POOLPOINTS:0.0
+USERPOOL:Psion Feat|POOLPOINTS:0.0
+USERPOOL:Psychic Warrior Feat|POOLPOINTS:0.0
+USERPOOL:Psionic Fist Feat|POOLPOINTS:0.0
+USERPOOL:Improved Psicrystal Personality|POOLPOINTS:0.0
+USERPOOL:Elocator Transporter|POOLPOINTS:0.0
+USERPOOL:Thrallherd Charm Choice|POOLPOINTS:0.0
+USERPOOL:Thrallherd Dominate Choice|POOLPOINTS:0.0
+USERPOOL:Astral Construct Menu A Ability|POOLPOINTS:0.0
+USERPOOL:Astral Construct Menu B Ability|POOLPOINTS:0.0
+USERPOOL:Astral Construct Menu C Ability|POOLPOINTS:0.0
+USERPOOL:Epic Barbarian Feat|POOLPOINTS:0.0
+USERPOOL:Epic Bard Feat|POOLPOINTS:0.0
+USERPOOL:Epic Cleric Feat|POOLPOINTS:0.0
+USERPOOL:Epic Druid Feat|POOLPOINTS:0.0
+USERPOOL:Epic Fighter Feat|POOLPOINTS:0.0
+USERPOOL:Epic Monk Feat|POOLPOINTS:0.0
+USERPOOL:Epic Paladin Feat|POOLPOINTS:0.0
+USERPOOL:Epic Ranger Feat|POOLPOINTS:0.0
+USERPOOL:Epic Rogue Feat|POOLPOINTS:0.0
+USERPOOL:Epic Sorcerer Feat|POOLPOINTS:0.0
+USERPOOL:Epic Wizard Feat|POOLPOINTS:0.0
+USERPOOL:Epic Arcane Archer Feat|POOLPOINTS:0.0
+USERPOOL:Epic Arcane Trickster Feat|POOLPOINTS:0.0
+USERPOOL:Epic Assassin Feat|POOLPOINTS:0.0
+USERPOOL:Epic Blackguard Feat|POOLPOINTS:0.0
+USERPOOL:Epic Dragon Disciple Feat|POOLPOINTS:0.0
+USERPOOL:Epic Duelist Feat|POOLPOINTS:0.0
+USERPOOL:Epic Dwarven Defender Feat|POOLPOINTS:0.0
+USERPOOL:Epic Eldritch Knight Feat|POOLPOINTS:0.0
+USERPOOL:Epic Horizon Walker Feat|POOLPOINTS:0.0
+USERPOOL:Epic Loremaster Feat|POOLPOINTS:0.0
+USERPOOL:Epic Mystic Theurge Feat|POOLPOINTS:0.0
+USERPOOL:Epic Shadowdancer Feat|POOLPOINTS:0.0
+USERPOOL:Improved Terrain Mastery|POOLPOINTS:0.0
+USERPOOL:Infiltrator Specialist Training|POOLPOINTS:0.0
+USERPOOL:Agent Retriever Feat|POOLPOINTS:0.0
+USERPOOL:Cosmic Descryer Feat|POOLPOINTS:0.0
+USERPOOL:Divine Emissary Feat|POOLPOINTS:0.0
+USERPOOL:Guardian Paramount Feat|POOLPOINTS:0.0
+USERPOOL:High Proselytizer Feat|POOLPOINTS:0.0
+USERPOOL:Legendary Dreadnought Feat|POOLPOINTS:0.0
+USERPOOL:Perfect Wight Feat|POOLPOINTS:0.0
+USERPOOL:Epic Spellcasting Type|POOLPOINTS:0.0
+USERPOOL:Epic Psion Feat|POOLPOINTS:0.0
+USERPOOL:Epic Psychic Warrior Feat|POOLPOINTS:0.0
+USERPOOL:Epic Soulknife Feat|POOLPOINTS:0.0
+USERPOOL:Epic Cerebremancer Feat|POOLPOINTS:0.0
+USERPOOL:Salient Divine Ability|POOLPOINTS:0.0
+USERPOOL:Warlock Invocation|POOLPOINTS:0.0
+USERPOOL:Wonderworker Bonus|POOLPOINTS:0.0
+USERPOOL:Warlock Dark Invocation|POOLPOINTS:0.0
+USERPOOL:Warlock Greater Invocation|POOLPOINTS:0.0
+USERPOOL:Warlock Least Invocation|POOLPOINTS:0.0
+USERPOOL:Warlock Lesser Invocation|POOLPOINTS:0.0
+USERPOOL:Wonderworker Arcane|POOLPOINTS:0.0
+USERPOOL:Wonderworker Divine|POOLPOINTS:0.0
+USERPOOL:Wonderworker Psionic|POOLPOINTS:0.0
+USERPOOL:Abomination Strenght|POOLPOINTS:0.0
+USERPOOL:Abomination Weakness|POOLPOINTS:0.0
+USERPOOL:Monstrous Beast Attack|POOLPOINTS:0.0
+USERPOOL:Monstrous Beast Quality|POOLPOINTS:0.0
+USERPOOL:Ghost Brute Attack|POOLPOINTS:0.0
+USERPOOL:Chimeric Breath|POOLPOINTS:0.0
+USERPOOL:Monster of Legend Attack|POOLPOINTS:0.0
+USERPOOL:Monster of Legend Quality|POOLPOINTS:0.0
+USERPOOL:Monster of Legend Immunity|POOLPOINTS:0.0
+USERPOOL:Pyroclastic Half Dragon Immunity|POOLPOINTS:0.0
+USERPOOL:Divine Champion Feat|POOLPOINTS:0.0
+USERPOOL:Epic Eye of Horus-Re Feat|POOLPOINTS:0.0
+USERPOOL:Epic Hammer of Moradin Feat|POOLPOINTS:0.0
+USERPOOL:Epic Hathran Feat|POOLPOINTS:0.0
+USERPOOL:Epic Incantatrix Feat|POOLPOINTS:0.0
+USERPOOL:Epic Justiciar of Tyr Feat|POOLPOINTS:0.0
+USERPOOL:Epic Monk of the Long Death Feat|POOLPOINTS:0.0
+USERPOOL:Epic Morninglord of Lathander Feat|POOLPOINTS:0.0
+USERPOOL:Epic Runecaster Feat|POOLPOINTS:0.0
+USERPOOL:Epic Shaaryan Hunter Feat|POOLPOINTS:0.0
+USERPOOL:Epic Shadow Adept Feat|POOLPOINTS:0.0
+USERPOOL:Hexblade Feat|POOLPOINTS:0.0
+USERPOOL:Incantatrix Feat|POOLPOINTS:0.0
+USERPOOL:Ronin Feat|POOLPOINTS:0.0
+USERPOOL:Shadow Thief Feat|POOLPOINTS:0.0
+USERPOOL:Spellfire Hierophant Feat|POOLPOINTS:0.0
+USERPOOL:Spellguard Feat|POOLPOINTS:0.0
+USERPOOL:Spellsword Feat|POOLPOINTS:0.0
+USERPOOL:Worker Feat|POOLPOINTS:0.0
+USERPOOL:Epic Warmage Feat|POOLPOINTS:0.0
+USERPOOL:Epic Wu Jen Feat|POOLPOINTS:0.0
+USERPOOL:Dragon Shaman Feat|POOLPOINTS:0.0
+USERPOOL:Knight Feat|POOLPOINTS:0.0
+USERPOOL:Scout Feat|POOLPOINTS:0.0
+USERPOOL:Exemplar Feat|POOLPOINTS:0.0
+USERPOOL:Maester Feat|POOLPOINTS:0.0
+USERPOOL:Epic Dungeon Delver Feat|POOLPOINTS:0.0
+USERPOOL:Dragonrider Feat|POOLPOINTS:0.0
+USERPOOL:Sword of Righteousness Feat|POOLPOINTS:0.0
+USERPOOL:Vassal of Bahamut Feat|POOLPOINTS:0.0
+USERPOOL:Wonderworker Feat|POOLPOINTS:0.0
+USERPOOL:Flying Mount Feat|POOLPOINTS:0.0
+USERPOOL:Exalted Arcanist Feat|POOLPOINTS:0.0
+USERPOOL:Anointed Knight Feat|POOLPOINTS:0.0
+USERPOOL:Initiate of Pistis Sophia Feat|POOLPOINTS:0.0
+USERPOOL:Guild Wizard of Waterdeep Feat|POOLPOINTS:0.0
+USERPOOL:War Wizard of Cormyr Feat|POOLPOINTS:0.0
+USERPOOL:Violent Knowledge Feat|POOLPOINTS:0.0
+USERPOOL:Ancient Foe|POOLPOINTS:0.0
+USERPOOL:Ancient Foe Bonus|POOLPOINTS:0.0
+USERPOOL:Chosen Foe|POOLPOINTS:0.0
+USERPOOL:Chosen Foe Bonus|POOLPOINTS:0.0
+USERPOOL:Dark Nemesi|POOLPOINTS:0.0
+USERPOOL:Dark Nemesi Bonus|POOLPOINTS:0.0
+USERPOOL:Foe Hunter|POOLPOINTS:0.0
+USERPOOL:Foe Hunter Bonus|POOLPOINTS:0.0
+USERPOOL:Harper Favored Enemy|POOLPOINTS:0.0
+USERPOOL:Harper Favored Enemy Bonus|POOLPOINTS:0.0
+USERPOOL:Kharash Favored Enemy|POOLPOINTS:0.0
+USERPOOL:Kharash Favored Enemy Bonus|POOLPOINTS:0.0
+USERPOOL:Animal Lord First Totem|POOLPOINTS:0.0
+USERPOOL:Animal Lord Second Totem|POOLPOINTS:0.0
+USERPOOL:Anoint Ancestral Weapon|POOLPOINTS:0.0
+USERPOOL:Anoint Self|POOLPOINTS:0.0
+USERPOOL:Artisan Master Skills|POOLPOINTS:0.0
+USERPOOL:Black Magic Oil|POOLPOINTS:0.0
+USERPOOL:Black Magic Elixir|POOLPOINTS:0.0
+USERPOOL:Censure Fiend|POOLPOINTS:0.0
+USERPOOL:Cover Identity|POOLPOINTS:0.0
+USERPOOL:Draconic Heritage Ancestor|POOLPOINTS:0.0
+USERPOOL:Draconic Heritage Legacy|POOLPOINTS:0.0
+USERPOOL:Draconic Heritage Power|POOLPOINTS:0.0
+USERPOOL:Draconic Heritage Resistance|POOLPOINTS:0.0
+USERPOOL:Monk Resistance|POOLPOINTS:0.0
+USERPOOL:Dragon Shaman Aura|POOLPOINTS:0.0
+USERPOOL:Dragonkith Resistance|POOLPOINTS:0.0
+USERPOOL:Druid Shapeform|POOLPOINTS:0.0
+USERPOOL:Elemental Mastery|POOLPOINTS:0.0
+USERPOOL:Energy Focus|POOLPOINTS:0.0
+USERPOOL:Exotic Weapon Stunt|POOLPOINTS:0.0
+USERPOOL:Favored Soul Resistance|POOLPOINTS:0.0
+USERPOOL:Fearsome Reputation|POOLPOINTS:0.0
+USERPOOL:Geomancer Drift|POOLPOINTS:0.0
+USERPOOL:Geomancer Ley Line|POOLPOINTS:0.0
+USERPOOL:Great Oratory|POOLPOINTS:0.0
+USERPOOL:Hidecarved Immunity|POOLPOINTS:0.0
+USERPOOL:Hidecarved Increased Resistance|POOLPOINTS:0.0
+USERPOOL:Hidecarved Resistance|POOLPOINTS:0.0
+USERPOOL:Hurl Trick|POOLPOINTS:0.0
+USERPOOL:Immediate Magic|POOLPOINTS:0.0
+USERPOOL:Improved Caster Level|POOLPOINTS:0.0
+USERPOOL:Knight's Challenge|POOLPOINTS:0.0
+USERPOOL:Nature's Armament|POOLPOINTS:0.0
+USERPOOL:Martyr Champion Ability|POOLPOINTS:0.0
+USERPOOL:Precocious Apprentice Type|POOLPOINTS:0.0
+USERPOOL:Predator Animal|POOLPOINTS:0.0
+USERPOOL:Sentinel of Barrai Energy Resistance|POOLPOINTS:0.0
+USERPOOL:Skill Artistry|POOLPOINTS:0.0
+USERPOOL:Skill Level|POOLPOINTS:0.0
+USERPOOL:Skill Mastery|POOLPOINTS:0.0
+USERPOOL:Spell Secret|POOLPOINTS:0.0
+USERPOOL:Spirit Guide|POOLPOINTS:0.0
+USERPOOL:Stone Power|POOLPOINTS:0.0
+USERPOOL:Taboo|POOLPOINTS:0.0
+USERPOOL:Talon of Tiamat Immunity|POOLPOINTS:0.0
+USERPOOL:Tatoo Power|POOLPOINTS:0.0
+USERPOOL:Thrown Weapon Trick|POOLPOINTS:0.0
+USERPOOL:Turn Air|POOLPOINTS:0.0
+USERPOOL:Turn Cold|POOLPOINTS:0.0
+USERPOOL:Turn Earth|POOLPOINTS:0.0
+USERPOOL:Turn Fire|POOLPOINTS:0.0
+USERPOOL:Turn Water|POOLPOINTS:0.0
+USERPOOL:Warshaper Morph|POOLPOINTS:0.0
+USERPOOL:Harper Priest Blessing|POOLPOINTS:0.0
+USERPOOL:Mage Killer Improved Saves|POOLPOINTS:0.0
+USERPOOL:Mage Killer Spell Focus|POOLPOINTS:0.0
+USERPOOL:Hathran Spell|POOLPOINTS:0.0
+USERPOOL:Thrall of Demogorgon Ability|POOLPOINTS:0.0
+USERPOOL:Thrall of Orcus Ability|POOLPOINTS:0.0
+USERPOOL:Thrall of Orcus Deformity|POOLPOINTS:0.0
+USERPOOL:Warmage Sudden Ability|POOLPOINTS:0.0
+USERPOOL:Warlock Energy Resistance|POOLPOINTS:0.0
+USERPOOL:Steed Feat|POOLPOINTS:0.0
+USERPOOL:Steed Feat ~ General|POOLPOINTS:0.0
+USERPOOL:Steed Feat ~ Battle|POOLPOINTS:0.0
+ABILITY:Training Level|TYPE:NORMAL|CATEGORY:Special Ability|KEY:No Training|TYPE:Training.SpecialQuality|DESC:Standard creature.
+ABILITY:Training Level|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rideable|TYPE:Training.SpecialQuality|DESC:Rideable creature
+USERPOOL:Training Level|POOLPOINTS:0.0
+USERPOOL:Training Trick|POOLPOINTS:0.0
+USERPOOL:Advanced Training|POOLPOINTS:0.0
+ABILITY:Breed Classification|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Typical|TYPE:BreedClass
+USERPOOL:Breed Classification|POOLPOINTS:0.0
+USERPOOL:Regional|POOLPOINTS:0.0
+USERPOOL:Faerun Region|POOLPOINTS:0.0
+USERPOOL:Ravenloft Region|POOLPOINTS:0.0
+USERPOOL:No Region|POOLPOINTS:0.0
+USERPOOL:Exalted Feat|POOLPOINTS:0.0
+USERPOOL:Vile Feat|POOLPOINTS:0.0
+USERPOOL:Greater Turn Undead|POOLPOINTS:0.0
+USERPOOL:Red Wizard Feat|POOLPOINTS:0.0
+USERPOOL:Turn Lycanthrope|POOLPOINTS:0.0
+USERPOOL:Turn Scalykind|POOLPOINTS:0.0
+USERPOOL:Turn Ooze|POOLPOINTS:0.0
+USERPOOL:Turn Spider|POOLPOINTS:0.0
+USERPOOL:Epic Feat|POOLPOINTS:0.0
+USERPOOL:Two  Weapon Fighting Combat Style|POOLPOINTS:0.0
+USERPOOL:Archery Combat Style|POOLPOINTS:0.0
+USERPOOL:Reaver Feat|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Hoof]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Hoof (Natural/Primary)|OUTPUTORDER:2|COST:0|WT:0.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Hoof|DATA:KEY=Hoof]
+EQUIPNAME:Bit and Bridle|OUTPUTORDER:1|COST:2|WT:1.0|QUANTITY:1.0
+EQUIPNAME:Saddle (Military)|OUTPUTORDER:3|COST:20|WT:30.0|QUANTITY:1.0
+EQUIPSET:Set di default|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.1|VALUE:Hoof (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.2|VALUE:Bit and Bridle|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.3|VALUE:Saddle (Military)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0

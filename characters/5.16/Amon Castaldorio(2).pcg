@@ -1,0 +1,365 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:3.5 RSRD|CAMPAIGN:Gozzilioni Base|CAMPAIGN:Gozzilioni Dungeon Master's Guide 2|CAMPAIGN:Gozzilioni Forgotten Realm|CAMPAIGN:Gozzilioni Modifiche a SRD|CAMPAIGN:Gozzilioni Option|CAMPAIGN:Gozzilioni Player's Handbook 2
+VERSION:5.16.1
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+POOLPOINTS:93
+POOLPOINTSAVAIL:-1
+GAMEMODE:35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+IGNORECOST:Y
+ALLOWDEBT:N
+AUTORESIZEGEAR:N
+
+# Character Bio
+CHARACTERNAME:Amon Castaldorio
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:17
+GENDER:Maschio
+HANDED:Destra
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:19
+STAT:DEX|SCORE:13
+STAT:CON|SCORE:16
+STAT:INT|SCORE:12
+STAT:WIS|SCORE:12
+STAT:CHA|SCORE:9
+ALIGN:LN
+RACE:Human (Chondathans)
+
+# Character Class(es)
+CLASS:Fighter|SUBCLASS:None|LEVEL:1|SKILLPOOL:0
+CLASS:Psychic Warrior|SUBCLASS:None|LEVEL:3|SKILLPOOL:0|SPELLBASE:WIS|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:10|SKILLSGAINED:16
+CLASSABILITIESLEVEL:Psychic Warrior=1|HITPOINTS:7|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Psychic Warrior=2|HITPOINTS:7|SKILLSGAINED:4
+CLASSABILITIESLEVEL:Psychic Warrior=3|HITPOINTS:6|PRESTAT:STR=1|SKILLSGAINED:4
+
+# Character Experience
+EXPERIENCE:6000
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Human Turmish Region]
+TEMPLATESAPPLIED:[NAME:Psionic]
+
+# Character Region
+
+# Character Skills
+SKILL:Appraise|OUTPUTORDER:1|
+SKILL:Autohypnosis|OUTPUTORDER:2|CLASSBOUGHT:[CLASS:Psychic Warrior|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Balance|OUTPUTORDER:3|
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:Climb|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Concentration|OUTPUTORDER:6|CLASSBOUGHT:[CLASS:Psychic Warrior|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:7|
+SKILL:Diplomacy|OUTPUTORDER:8|
+SKILL:Disguise|OUTPUTORDER:9|
+SKILL:Escape Artist|OUTPUTORDER:10|
+SKILL:Forgery|OUTPUTORDER:11|
+SKILL:Gather Information|OUTPUTORDER:12|
+SKILL:Heal|OUTPUTORDER:13|
+SKILL:Hide|OUTPUTORDER:14|
+SKILL:Intimidate|OUTPUTORDER:15|CLASSBOUGHT:[CLASS:Fighter|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Jump|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Psionics)|OUTPUTORDER:17|CLASSBOUGHT:[CLASS:Psychic Warrior|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Listen|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:2|CLASSSKILL:N]
+SKILL:Move Silently|OUTPUTORDER:19|
+SKILL:Ride|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Fighter|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Search|OUTPUTORDER:21|
+SKILL:Sense Motive|OUTPUTORDER:22|
+SKILL:Spot|OUTPUTORDER:23|
+SKILL:Survival|OUTPUTORDER:24|
+SKILL:Swim|OUTPUTORDER:25|
+SKILL:Use Rope|OUTPUTORDER:26|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Turmic
+
+# Character Feats
+FEATPOOL:-3.0
+
+# Character Abilities
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Longsword|TYPE:General.Fighter.ShadowThief.DivineChampion.Knight|DESC:You gain a +1 bonus on all attack rolls you make using the selected weapon.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Initiative|TYPE:General.Fighter.DivineChampion|DESC:You get a +4 bonus on initiative checks.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Mobility|TYPE:General.Fighter.ModifyAC|DESC:You get a +%1 dodge bonus to Armor Class against attacks of opportunity caused when you move out of or within a threatened area.&pipe;MobilityBonus
+USERPOOL:FEAT|POOLPOINTS:0.0
+USERPOOL:Internal|POOLPOINTS:0.0
+USERPOOL:Special Ability|POOLPOINTS:0.0
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Quick Draw|TYPE:General.Fighter.DivineChampion.Knight|DESC:You can draw a weapon as a free action instead of as a move action. You can draw a hidden weapon as a move action. A character who has selected this feat may throw weapons at his full normal rate of attacks (much like a character with a bow).
+USERPOOL:Fighter Feat|POOLPOINTS:0.0
+USERPOOL:Wizard Feat|POOLPOINTS:0.0
+USERPOOL:Metamagic Feat|POOLPOINTS:0.0
+USERPOOL:Monk Feat|POOLPOINTS:0.0
+USERPOOL:Rogue Special Ability|POOLPOINTS:0.0
+USERPOOL:Ranger Combat Style|POOLPOINTS:0.0
+USERPOOL:Favored Enemy|POOLPOINTS:0.0
+USERPOOL:Favored Enemy Bonus|POOLPOINTS:0.0
+USERPOOL:Turn Undead|POOLPOINTS:0.0
+USERPOOL:Expert Class Skills|POOLPOINTS:0.0
+USERPOOL:High Arcana Ability|POOLPOINTS:0.0
+USERPOOL:Hierophant Ability|POOLPOINTS:0.0
+USERPOOL:Terrain Mastery|POOLPOINTS:0.0
+USERPOOL:Advanced Terrain Mastery|POOLPOINTS:0.0
+USERPOOL:Loremaster Secret|POOLPOINTS:0.0
+USERPOOL:Dragon Disciple Bonus Spell|POOLPOINTS:0.0
+USERPOOL:Ghost Ability|POOLPOINTS:0.0
+USERPOOL:Psion Feat|POOLPOINTS:0.0
+ABILITY:Psychic Warrior Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:General.Fighter.ModifyAC|DESC:During your action, you designate an opponent and receive a +%1 dodge bonus to Armor Class against attacks from that opponent.&pipe;DodgeBonusAC
+ABILITY:Psychic Warrior Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Psionic Weapon|TYPE:Psionic|DESC:You can charge your melee weapon with additional damage potential.
+USERPOOL:Psychic Warrior Feat|POOLPOINTS:0.0
+USERPOOL:Psionic Fist Feat|POOLPOINTS:0.0
+USERPOOL:Improved Psicrystal Personality|POOLPOINTS:0.0
+USERPOOL:Elocator Transporter|POOLPOINTS:0.0
+USERPOOL:Thrallherd Charm Choice|POOLPOINTS:0.0
+USERPOOL:Thrallherd Dominate Choice|POOLPOINTS:0.0
+USERPOOL:Astral Construct Menu A Ability|POOLPOINTS:0.0
+USERPOOL:Astral Construct Menu B Ability|POOLPOINTS:0.0
+USERPOOL:Astral Construct Menu C Ability|POOLPOINTS:0.0
+USERPOOL:Epic Barbarian Feat|POOLPOINTS:0.0
+USERPOOL:Epic Bard Feat|POOLPOINTS:0.0
+USERPOOL:Epic Cleric Feat|POOLPOINTS:0.0
+USERPOOL:Epic Druid Feat|POOLPOINTS:0.0
+USERPOOL:Epic Fighter Feat|POOLPOINTS:0.0
+USERPOOL:Epic Monk Feat|POOLPOINTS:0.0
+USERPOOL:Epic Paladin Feat|POOLPOINTS:0.0
+USERPOOL:Epic Ranger Feat|POOLPOINTS:0.0
+USERPOOL:Epic Rogue Feat|POOLPOINTS:0.0
+USERPOOL:Epic Sorcerer Feat|POOLPOINTS:0.0
+USERPOOL:Epic Wizard Feat|POOLPOINTS:0.0
+USERPOOL:Epic Arcane Archer Feat|POOLPOINTS:0.0
+USERPOOL:Epic Arcane Trickster Feat|POOLPOINTS:0.0
+USERPOOL:Epic Assassin Feat|POOLPOINTS:0.0
+USERPOOL:Epic Blackguard Feat|POOLPOINTS:0.0
+USERPOOL:Epic Dragon Disciple Feat|POOLPOINTS:0.0
+USERPOOL:Epic Duelist Feat|POOLPOINTS:0.0
+USERPOOL:Epic Dwarven Defender Feat|POOLPOINTS:0.0
+USERPOOL:Epic Eldritch Knight Feat|POOLPOINTS:0.0
+USERPOOL:Epic Horizon Walker Feat|POOLPOINTS:0.0
+USERPOOL:Epic Loremaster Feat|POOLPOINTS:0.0
+USERPOOL:Epic Mystic Theurge Feat|POOLPOINTS:0.0
+USERPOOL:Epic Shadowdancer Feat|POOLPOINTS:0.0
+USERPOOL:Improved Terrain Mastery|POOLPOINTS:0.0
+USERPOOL:Infiltrator Specialist Training|POOLPOINTS:0.0
+USERPOOL:Agent Retriever Feat|POOLPOINTS:0.0
+USERPOOL:Cosmic Descryer Feat|POOLPOINTS:0.0
+USERPOOL:Divine Emissary Feat|POOLPOINTS:0.0
+USERPOOL:Guardian Paramount Feat|POOLPOINTS:0.0
+USERPOOL:High Proselytizer Feat|POOLPOINTS:0.0
+USERPOOL:Legendary Dreadnought Feat|POOLPOINTS:0.0
+USERPOOL:Perfect Wight Feat|POOLPOINTS:0.0
+USERPOOL:Epic Spellcasting Type|POOLPOINTS:0.0
+USERPOOL:Epic Psion Feat|POOLPOINTS:0.0
+USERPOOL:Epic Psychic Warrior Feat|POOLPOINTS:0.0
+USERPOOL:Epic Soulknife Feat|POOLPOINTS:0.0
+USERPOOL:Epic Cerebremancer Feat|POOLPOINTS:0.0
+USERPOOL:Salient Divine Ability|POOLPOINTS:0.0
+USERPOOL:Warlock Invocation|POOLPOINTS:0.0
+USERPOOL:Wonderworker Bonus|POOLPOINTS:0.0
+USERPOOL:Warlock Dark Invocation|POOLPOINTS:0.0
+USERPOOL:Warlock Greater Invocation|POOLPOINTS:0.0
+USERPOOL:Warlock Least Invocation|POOLPOINTS:0.0
+USERPOOL:Warlock Lesser Invocation|POOLPOINTS:0.0
+USERPOOL:Wonderworker Arcane|POOLPOINTS:0.0
+USERPOOL:Wonderworker Divine|POOLPOINTS:0.0
+USERPOOL:Wonderworker Psionic|POOLPOINTS:0.0
+USERPOOL:Abomination Strenght|POOLPOINTS:0.0
+USERPOOL:Abomination Weakness|POOLPOINTS:0.0
+USERPOOL:Monstrous Beast Attack|POOLPOINTS:0.0
+USERPOOL:Monstrous Beast Quality|POOLPOINTS:0.0
+USERPOOL:Ghost Brute Attack|POOLPOINTS:0.0
+USERPOOL:Chimeric Breath|POOLPOINTS:0.0
+USERPOOL:Monster of Legend Attack|POOLPOINTS:0.0
+USERPOOL:Monster of Legend Quality|POOLPOINTS:0.0
+USERPOOL:Monster of Legend Immunity|POOLPOINTS:0.0
+USERPOOL:Pyroclastic Half Dragon Immunity|POOLPOINTS:0.0
+USERPOOL:Divine Champion Feat|POOLPOINTS:0.0
+USERPOOL:Epic Eye of Horus-Re Feat|POOLPOINTS:0.0
+USERPOOL:Epic Hammer of Moradin Feat|POOLPOINTS:0.0
+USERPOOL:Epic Hathran Feat|POOLPOINTS:0.0
+USERPOOL:Epic Incantatrix Feat|POOLPOINTS:0.0
+USERPOOL:Epic Justiciar of Tyr Feat|POOLPOINTS:0.0
+USERPOOL:Epic Monk of the Long Death Feat|POOLPOINTS:0.0
+USERPOOL:Epic Morninglord of Lathander Feat|POOLPOINTS:0.0
+USERPOOL:Epic Runecaster Feat|POOLPOINTS:0.0
+USERPOOL:Epic Shaaryan Hunter Feat|POOLPOINTS:0.0
+USERPOOL:Epic Shadow Adept Feat|POOLPOINTS:0.0
+USERPOOL:Hexblade Feat|POOLPOINTS:0.0
+USERPOOL:Incantatrix Feat|POOLPOINTS:0.0
+USERPOOL:Ronin Feat|POOLPOINTS:0.0
+USERPOOL:Shadow Thief Feat|POOLPOINTS:0.0
+USERPOOL:Spellfire Hierophant Feat|POOLPOINTS:0.0
+USERPOOL:Spellguard Feat|POOLPOINTS:0.0
+USERPOOL:Spellsword Feat|POOLPOINTS:0.0
+USERPOOL:Worker Feat|POOLPOINTS:0.0
+USERPOOL:Epic Warmage Feat|POOLPOINTS:0.0
+USERPOOL:Epic Wu Jen Feat|POOLPOINTS:0.0
+USERPOOL:Dragon Shaman Feat|POOLPOINTS:0.0
+USERPOOL:Knight Feat|POOLPOINTS:0.0
+USERPOOL:Scout Feat|POOLPOINTS:0.0
+USERPOOL:Exemplar Feat|POOLPOINTS:0.0
+USERPOOL:Maester Feat|POOLPOINTS:0.0
+USERPOOL:Epic Dungeon Delver Feat|POOLPOINTS:0.0
+USERPOOL:Dragonrider Feat|POOLPOINTS:0.0
+USERPOOL:Sword of Righteousness Feat|POOLPOINTS:0.0
+USERPOOL:Vassal of Bahamut Feat|POOLPOINTS:0.0
+USERPOOL:Wonderworker Feat|POOLPOINTS:0.0
+USERPOOL:Flying Mount Feat|POOLPOINTS:0.0
+USERPOOL:Exalted Arcanist Feat|POOLPOINTS:0.0
+USERPOOL:Anointed Knight Feat|POOLPOINTS:0.0
+USERPOOL:Initiate of Pistis Sophia Feat|POOLPOINTS:0.0
+USERPOOL:Guild Wizard of Waterdeep Feat|POOLPOINTS:0.0
+USERPOOL:War Wizard of Cormyr Feat|POOLPOINTS:0.0
+USERPOOL:Ancient Foe|POOLPOINTS:0.0
+USERPOOL:Ancient Foe Bonus|POOLPOINTS:0.0
+USERPOOL:Chosen Foe|POOLPOINTS:0.0
+USERPOOL:Chosen Foe Bonus|POOLPOINTS:0.0
+USERPOOL:Dark Nemesi|POOLPOINTS:0.0
+USERPOOL:Dark Nemesi Bonus|POOLPOINTS:0.0
+USERPOOL:Foe Hunter|POOLPOINTS:0.0
+USERPOOL:Foe Hunter Bonus|POOLPOINTS:0.0
+USERPOOL:Harper Favored Enemy|POOLPOINTS:0.0
+USERPOOL:Harper Favored Enemy Bonus|POOLPOINTS:0.0
+USERPOOL:Kharash Favored Enemy|POOLPOINTS:0.0
+USERPOOL:Kharash Favored Enemy Bonus|POOLPOINTS:0.0
+USERPOOL:Animal Lord First Totem|POOLPOINTS:0.0
+USERPOOL:Animal Lord Second Totem|POOLPOINTS:0.0
+USERPOOL:Anoint Ancestral Weapon|POOLPOINTS:0.0
+USERPOOL:Anoint Self|POOLPOINTS:0.0
+USERPOOL:Artisan Master Skills|POOLPOINTS:0.0
+USERPOOL:Censure Fiend|POOLPOINTS:0.0
+USERPOOL:Cover Identity|POOLPOINTS:0.0
+USERPOOL:Dragon Shaman Aura|POOLPOINTS:0.0
+USERPOOL:Dragonkith Resistance|POOLPOINTS:0.0
+USERPOOL:Druid Shapeform|POOLPOINTS:0.0
+USERPOOL:Elemental Mastery|POOLPOINTS:0.0
+USERPOOL:Energy Focus|POOLPOINTS:0.0
+USERPOOL:Exotic Weapon Stunt|POOLPOINTS:0.0
+USERPOOL:Fearsome Reputation|POOLPOINTS:0.0
+USERPOOL:Geomancer Drift|POOLPOINTS:0.0
+USERPOOL:Geomancer Ley Line|POOLPOINTS:0.0
+USERPOOL:Great Oratory|POOLPOINTS:0.0
+USERPOOL:Hidecarved Immunity|POOLPOINTS:0.0
+USERPOOL:Hidecarved Increased Resistance|POOLPOINTS:0.0
+USERPOOL:Hidecarved Resistance|POOLPOINTS:0.0
+USERPOOL:Hurl Trick|POOLPOINTS:0.0
+USERPOOL:Immediate Magic|POOLPOINTS:0.0
+USERPOOL:Improved Caster Level|POOLPOINTS:0.0
+USERPOOL:Knight's Challenge|POOLPOINTS:0.0
+USERPOOL:Nature's Armament|POOLPOINTS:0.0
+USERPOOL:Precocious Apprentice Type|POOLPOINTS:0.0
+USERPOOL:Predator Animal|POOLPOINTS:0.0
+USERPOOL:Sentinel of Barrai Energy Resistance|POOLPOINTS:0.0
+USERPOOL:Skill Artistry|POOLPOINTS:0.0
+USERPOOL:Skill Level|POOLPOINTS:0.0
+USERPOOL:Skill Mastery|POOLPOINTS:0.0
+USERPOOL:Spell Secret|POOLPOINTS:0.0
+USERPOOL:Spirit Guide|POOLPOINTS:0.0
+USERPOOL:Stone Power|POOLPOINTS:0.0
+USERPOOL:Taboo|POOLPOINTS:0.0
+USERPOOL:Talon of Tiamat Immunity|POOLPOINTS:0.0
+USERPOOL:Tatoo Power|POOLPOINTS:0.0
+USERPOOL:Thrown Weapon Trick|POOLPOINTS:0.0
+USERPOOL:Turn Air|POOLPOINTS:0.0
+USERPOOL:Turn Cold|POOLPOINTS:0.0
+USERPOOL:Turn Earth|POOLPOINTS:0.0
+USERPOOL:Turn Fire|POOLPOINTS:0.0
+USERPOOL:Turn Water|POOLPOINTS:0.0
+USERPOOL:Warshaper Morph|POOLPOINTS:0.0
+USERPOOL:Harper Priest Blessing|POOLPOINTS:0.0
+USERPOOL:Mage Killer Improved Saves|POOLPOINTS:0.0
+USERPOOL:Mage Killer Spell Focus|POOLPOINTS:0.0
+USERPOOL:Hathran Spell|POOLPOINTS:0.0
+ABILITY:Regional|TYPE:NORMAL|CATEGORY:Regional|KEY:Faerunian Region|TYPE:Regional
+USERPOOL:Regional|POOLPOINTS:0.0
+ABILITY:Faerun Region|TYPE:NORMAL|CATEGORY:Regional|KEY:Human Turmish Region|TYPE:FaerunRegion
+USERPOOL:Faerun Region|POOLPOINTS:0.0
+USERPOOL:Ravenloft Region|POOLPOINTS:0.0
+USERPOOL:No Region|POOLPOINTS:0.0
+USERPOOL:Greater Turn Undead|POOLPOINTS:0.0
+USERPOOL:Red Wizard Feat|POOLPOINTS:0.0
+USERPOOL:Turn Lycanthrope|POOLPOINTS:0.0
+USERPOOL:Turn Scalykind|POOLPOINTS:0.0
+USERPOOL:Turn Ooze|POOLPOINTS:0.0
+USERPOOL:Turn Spider|POOLPOINTS:0.0
+USERPOOL:Epic Feat|POOLPOINTS:0.0
+USERPOOL:Two  Weapon Fighting Combat Style|POOLPOINTS:0.0
+USERPOOL:Archery Combat Style|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Falchion]
+WEAPONPROF:[WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme]
+WEAPONPROF:[WEAPON:Halberd|WEAPON:Halfspear|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword]
+WEAPONPROF:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Sap|WEAPON:Scimitar]
+WEAPONPROF:[WEAPON:Scythe|WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells(Ray)|WEAPON:Spiked Armor]
+WEAPONPROF:[WEAPON:Sword (Bastard)|WEAPON:Sword (Cutlass)|WEAPON:Sword (Katana)|WEAPON:Sword (Saber)|WEAPON:Sword (Short)|WEAPON:Sword (Wakizashi)|WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:5|COST:0|WT:5.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:COSTMOD=-1]
+EQUIPNAME:Masterwork Longsword|OUTPUTORDER:3|COST:315.0|WT:4.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Masterwork Longsword|DATA:EQMOD=STEEL.MWORKW]
+EQUIPNAME:Dagger|OUTPUTORDER:2|COST:2.0|WT:1.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Dagger|DATA:EQMOD=STEEL]
+EQUIPNAME:Chain Shirt +1|OUTPUTORDER:1|COST:1250.0|WT:25.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Chain Shirt +1|DATA:EQMOD=STEEL.PLUS1A]
+EQUIPNAME:Masterwork Shield (Light/Metal)|OUTPUTORDER:4|COST:159.0|WT:6.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Masterwork Shield (Light/Metal)|DATA:EQMOD=STEEL.MWORKA]
+EQUIPSET:Set di default|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Body|ID:0.1.1|VALUE:Chain Shirt +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.2|VALUE:Masterwork Longsword|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shield|ID:0.1.3|VALUE:Masterwork Shield (Light/Metal)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.4|VALUE:Outfit (Traveler's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.5|VALUE:Dagger|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+SPELLNAME:Inertial Armor|TIMES:1|CLASS:Psychic Warrior|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Psychic Warrior]
+SPELLNAME:Precognition (Offensive)|TIMES:1|CLASS:Psychic Warrior|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Psychic Warrior]
+SPELLNAME:Vigor|TIMES:1|CLASS:Psychic Warrior|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Psychic Warrior]
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0

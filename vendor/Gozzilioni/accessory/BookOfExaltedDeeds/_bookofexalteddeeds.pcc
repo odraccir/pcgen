@@ -1,0 +1,80 @@
+CAMPAIGN:Gozzilioni Book of Exalted Deeds
+GAMEMODE:35e
+RANK:6
+TYPE:Gozzilioni.Partial.Accessory
+SETTING:Heroes
+SOURCELONG:Gozzilioni Book of Exalted Deeds
+SOURCESHORT:ExD
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2003-10
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2005 by me
+
+#INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
+INFOTEXT:mancano le armi itelligenti. mancano i png unici del Celestial Hebdomad, Five Companions, Court of the Star.
+#
+#PCC:@/d20ogl/srd35/rsrd.pcc
+
+#Book of Exalted Deeds
+ABILITY:exd_abilities.lst
+ABILITY:exd_abilities_classes.lst
+ABILITY:exd_abilities_races.lst
+ABILITYCATEGORY:exd_abilitycategories.lst
+CLASS:exd_classes.lst
+CLASS:exd_classes_monster_specific.lst
+COMPANIONMOD:exd_companionmods.lst
+DEITY:exd_deities.lst
+DOMAIN:exd_domains.lst
+EQUIPMENT:exd_equip.lst
+EQUIPMENT:exd_equip_arms_and_armor.lst
+EQUIPMENT:exd_equip_magic_items.lst
+EQUIPMOD:exd_equipmods.lst
+ABILITY:exd_feats.lst
+KIT:exd_kits.lst
+WEAPONPROF:exd_profs_weapon.lst
+RACE:exd_races.lst
+RACE:exd_races_companion.lst
+SPELL:exd_spells.lst
+SPELL:exd_spells_epic.lst
+TEMPLATE:exd_templates.lst
+TEMPLATE:exd_templates_hidden.lst
+
+#RULE:exd_rules.lst
+# SPELL:exd_spells_alternate_rule.lst|PRERULE:1,EXD_VAR_GOODSPELLS
+SPELL:exd_spells_alternate_rule.lst|PREVARGTEQ:EXD_VAR_GOODSPELLS,1
+
+ABILITY:&/Gozzilioni/core/MonsterManual2/mm2_abilities_races.lst|!PRECAMPAIGN:1,Gozzilioni Monster Manual 2
+ABILITY:&/Gozzilioni/core/MonsterManual/mm_abilities_races.lst|!PRECAMPAIGN:1,Gozzilioni Monster Manual
+KIT:&/Gozzilioni/core/MonsterManual/mm_kits.lst|(INCLUDE:Celestial Charger)|!PRECAMPAIGN:1,Gozzilioni Monster Manual
+
+
+#ABILITY:my_abilities.lst
+#ABILITYCATEGORY:my_ability_categories.lst
+#BIOSET:my_biosettings.lst
+#CLASS:my_classes.lst
+#COMPANIONMOD:my_companionmods.lst
+#DEITY:my_deities.lst
+#DOMAIN:my_domains.lst
+#EQUIPMENT:my_equipment.lst
+#EQUIPMOD:my_equipmods.lst
+#FEAT:my_feats.lst
+#KIT:my_kits.lst
+#LANGUAGE:my_languages.lst
+#RACE:my_races.lst
+#SKILL:my_skills.lst
+#SPELL:my_spells.lst
+#TEMPLATE:my_templates.lst
+#WEAPONPROF:my_weaponprofs.lst
+
+### You can hide TYPEs in the GUI - TYPEs are handy for organization, but some are only used for internal functions.
+#HIDETYPE:EQUIP|SpecialSuppressor
+#HIDETYPE:SKILL|Science
+#HIDETYPE:FEAT|Leadership
+
+#Remove the '#' in front of those lines referring to files that you actually want to load
+#Remember to set the GAMEMODE to the one you really want.
+#Options in the Open Source data are 3e, 35e, Modern, Deadlands, Sidewinder, Spycraft, or Xcrawl.
+
+#If you use this framework to set up a dataset of your own, then you may want to rename the folder and files to something
+#different. Otherwise if you ever should install a newer version of PCGen into your existing directory or needed to re-install
+#your existing installation of PCGen, your changes would get overwritten and thus be lost.

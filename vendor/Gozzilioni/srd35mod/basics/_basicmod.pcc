@@ -1,0 +1,66 @@
+CAMPAIGN:Gozzilioni Rsrd Modifications Basic
+GAMEMODE:35e
+RANK:5
+TYPE:Gozzilioni.Partial.Core
+SETTING:Heroes
+SOURCELONG:Gozzilioni Rsrd Modifications Basic
+SOURCESHORT:G
+SOURCEWEB:http://www.gozzilioni.net
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2005 by me
+SOURCEDATE:2003-07
+
+#INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
+#
+#PCC:@/d20ogl/srd35/rsrd.pcc
+#
+#Rsrd
+ABILITY:g_abilities.lst
+ABILITYCATEGORY:g_abilitycategories.lst
+CLASS:g_classes.lst
+DOMAIN:g_domains.lst
+EQUIPMENT:g_equip.lst
+EQUIPMOD:g_equipmods.lst
+KIT:g_kits.lst
+SKILL:g_skills.lst
+SPELL:g_spells.lst
+TEMPLATE:g_templates.lst
+TEMPLATE:g_templates_hidden.lst
+
+HIDETYPE:SKILL|Base|Appraise|Balance|Bluff|Climb|Concentration|Control Shape|Decipher Script|Diplomacy
+HIDETYPE:SKILL|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Handle Animal|Heal
+HIDETYPE:SKILL|Hide|Intimidate|Jump|Listen|Move Silently|Open Lock|Ride|Search|Sense Motive|Sleight of Hand
+HIDETYPE:SKILL|Speak Language|Spellcraft|Spot|Survival|Swim|Tumble|Use Magic Device|Use Rope
+HIDETYPE:SKILL|Craft (Alchemy)|Craft (Armorsmithing)|Craft (Blacksmithing)|Craft (Bowmaking)|Craft (Carpentry)|Craft (Leatherworking)|Craft (Painting)
+HIDETYPE:SKILL|Craft (Pottery)|Craft (Sculpting)|Craft (Shipmaking)|Craft (Stonemasonry)|Craft (Stoneworking)|Craft (Trapmaking)|Craft (Weaponsmithing)
+HIDETYPE:SKILL|Craft (Woodworking)
+HIDETYPE:SKILL|Knowledge (Arcana)|Knowledge (Architecture and Engineering)|Knowledge (Dungeoneering)|Knowledge (Geography)
+HIDETYPE:SKILL|Knowledge (History)|Knowledge (Local)|Knowledge (Nature)|Knowledge (Nobility and Royalty)
+HIDETYPE:SKILL|Knowledge (Religion)|Knowledge (The Planes)
+HIDETYPE:SKILL|Perform (Act)|Perform (Comedy)|Perform (Dance)|Perform (Keyboard Instruments)|Perform (Oratory)|Perform (Percussion Instruments)
+HIDETYPE:SKILL|Perform (Sing)|Perform (String Instruments)|Perform (Wind Instruments)
+HIDETYPE:SKILL|Profession (Hunter)|Profession (Miner)|Profession (Siege Engineer)
+HIDETYPE:SKILL|Literacy|Language
+
+HIDETYPE:CLASS|Psionic|Expert|Base
+
+HIDETYPE:FEAT|Wizard
+
+#BIOSET:my_biosettings.lst
+#CLASS:my_classes.lst
+#COMPANIONMOD:my_companionmods.lst
+#DEITY:my_deities.lst
+#DOMAIN:my_domains.lst
+#EQUIPMENT:my_equipment.lst
+#EQUIPMOD:my_equipmods.lst
+#FEAT:my_feats.lst
+#KIT:my_kits.lst
+#LANGUAGE:my_languages.lst
+#RACE:my_races.lst
+#SKILL:my_skills.lst
+#SPELL:my_spells.lst
+#TEMPLATE:my_templates.lst
+#WEAPONPROF:my_weaponprofs.lst
+
+#Remove the '#' in front of those lines referring to files that you actually want to load
+#Remember to set the GAMEMODE to the one you really want. Options are 3e, 35e, Modern, Deadlands, Sidewinder, Spycraft, or Xcrawl.

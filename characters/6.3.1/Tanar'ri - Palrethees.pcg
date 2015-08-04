@@ -1,0 +1,144 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:3.5 RSRD|CAMPAIGN:3.5 RSRD|CAMPAIGN:3.5 RSRD|CAMPAIGN:Gozzilioni Campaing Full Set
+VERSION:6.03.02-dev
+ROLLMETHOD:1|EXPRESSION:10
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Unnamed 1
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:11
+STAT:DEX|SCORE:10
+STAT:CON|SCORE:10
+STAT:INT|SCORE:11
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:11
+ALIGN:CE
+RACE:Demon (Palrethee)
+
+# Character Class(es)
+CLASS:Outsider|LEVEL:8|SKILLPOOL:99|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Outsider=1|HITPOINTS:4|SKILLSGAINED:36|SKILLSREMAINING:36
+CLASSABILITIESLEVEL:Outsider=2|HITPOINTS:5|SKILLSGAINED:9|SKILLSREMAINING:9
+CLASSABILITIESLEVEL:Outsider=3|HITPOINTS:4|SKILLSGAINED:9|SKILLSREMAINING:9
+CLASSABILITIESLEVEL:Outsider=4|HITPOINTS:5|SKILLSGAINED:9|SKILLSREMAINING:9
+CLASSABILITIESLEVEL:Outsider=5|HITPOINTS:4|SKILLSGAINED:9|SKILLSREMAINING:9
+CLASSABILITIESLEVEL:Outsider=6|HITPOINTS:5|SKILLSGAINED:9|SKILLSREMAINING:9
+CLASSABILITIESLEVEL:Outsider=7|HITPOINTS:4|SKILLSGAINED:9|SKILLSREMAINING:9
+CLASSABILITIESLEVEL:Outsider=8|HITPOINTS:5|PRESTAT:INT=1|PRESTAT:STR=1|PRESTAT:CHA=1|SKILLSGAINED:9|SKILLSREMAINING:9
+
+# Character Experience
+EXPERIENCE:21000
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Base Race Type|CHOSENTEMPLATE:[NAME:Base Race Type ~ Outsider]]
+TEMPLATESAPPLIED:[NAME:Base Race Type ~ Outsider]
+TEMPLATESAPPLIED:[NAME:Combat Expertise trade off]
+
+# Character Region
+REGION:None
+
+# Character Skills
+
+# Character Languages
+LANGUAGE:Abyssal|LANGUAGE:Celestial|LANGUAGE:Draconic|LANGUAGE:Telepathy
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Expertise|TYPE:General.Fighter.AttackOption.ModifyAC|DESC:When you use the attack action or the full attack action in melee, you can take a penalty of as much as %1 on your attack roll and add the same number as a dodge bonus to your Armor Class.&pipe;CombatExpertiseMax
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:General.Fighter.ModifyAC|DESC:During your action, you designate an opponent and receive a +%1 dodge bonus to Armor Class against attacks from that opponent.&pipe;FeatDodgeBonus
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Longsword|TYPE:General.Fighter|DESC:You gain a +1 bonus on all attack rolls you make using the selected weapon.
+USERPOOL:FEAT|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Boulder|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Falchion]
+WEAPONPROF:[WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme]
+WEAPONPROF:[WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Mace (Heavy)]
+WEAPONPROF:[WEAPON:Mace (Light)|WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe]
+WEAPONPROF:[WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Slam|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)]
+WEAPONPROF:[WEAPON:Spiked Armor|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:0.00
+EQUIPNAME:Longsword +1 (Flaming)|OUTPUTORDER:1|COST:8315.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword|DATA:NAME=Longsword +1 (Flaming)$EQMOD=STEEL.PLUS1W.FLM_M]
+EQUIPNAME:Slam (Natural/Primary)|OUTPUTORDER:2|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Slam|DATA:KEY=Slam]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.02|VALUE:Longsword +1 (Flaming)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.1|VALUE:Slam (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

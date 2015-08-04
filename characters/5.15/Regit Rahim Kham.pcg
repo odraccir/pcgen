@@ -1,0 +1,207 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:3.5 RSRD
+VERSION:5.15.9
+ROLLMETHOD:1|EXPRESSION:10
+PURCHASEPOINTS:N
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:35e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:N
+
+# Character Bio
+CHARACTERNAME:Regit Rahim Kham
+TABNAME:
+PLAYERNAME:
+HEIGHT:68
+WEIGHT:190
+AGE:0
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:17
+STAT:DEX|SCORE:14
+STAT:CON|SCORE:13
+STAT:INT|SCORE:12
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:8
+ALIGN:LG
+RACE:Human
+
+# Character Class(es)
+CLASS:Animal|SUBCLASS:None|LEVEL:6|SKILLPOOL:36
+CLASS:Fighter|SUBCLASS:None|LEVEL:6|SKILLPOOL:24
+CLASSABILITIESLEVEL:Animal=1|HITPOINTS:8|SKILLSGAINED:16|SKILLSREMAINING:16
+CLASSABILITIESLEVEL:Animal=2|HITPOINTS:5|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Animal=3|HITPOINTS:4|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Animal=4|HITPOINTS:5|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Animal=5|HITPOINTS:4|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Animal=6|HITPOINTS:5|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:5|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:6|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Fighter=3|HITPOINTS:5|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Fighter=4|HITPOINTS:6|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Fighter=5|HITPOINTS:5|SKILLSGAINED:4|SKILLSREMAINING:4
+CLASSABILITIESLEVEL:Fighter=6|HITPOINTS:6|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:4
+
+# Character Experience
+EXPERIENCE:105000
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Lycanthrope|CHOSENTEMPLATE:[NAME:Weretiger]|CHOSENTEMPLATE:[NAME:Natural Lycanthrope]]
+TEMPLATESAPPLIED:[NAME:Weretiger]
+TEMPLATESAPPLIED:[NAME:Natural Lycanthrope]
+
+# Character Region
+
+# Character Skills
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Elven
+
+# Character Feats
+FEATPOOL:-4.0
+
+# Character Abilities
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:General.Fighter.AttackOption|DESC:On your action, before making attack rolls for a round, you may choose to subtract up to %1 from all melee attack rolls and add the same number to all melee damage rolls.&pipe;PowerAttackMax
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Initiative|TYPE:General.Fighter|DESC:You get a +4 bonus on initiative checks.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:General.Fighter.ModifyAC|DESC:During your action, you designate an opponent and receive a +1 dodge bonus to Armor Class against attacks from that opponent.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Mobility|TYPE:General.Fighter.ModifyAC|DESC:You get a +4 dodge bonus to Armor Class against attacks of opportunity caused when you move out of or within a threatened area.
+USERPOOL:FEAT|POOLPOINTS:0.0
+USERPOOL:Internal|POOLPOINTS:0.0
+USERPOOL:Special Ability|POOLPOINTS:0.0
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Quick Draw|TYPE:General.Fighter|DESC:You can draw a weapon as a free action instead of as a move action. You can draw a hidden weapon as a move action. A character who has selected this feat may throw weapons at his full normal rate of attacks (much like a character with a bow).
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Halberd,Longsword|TYPE:General.Fighter|DESC:You gain a +1 bonus on all attack rolls you make using the selected weapon.
+ABILITY:Fighter Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Specialization|APPLIEDTO:Halberd|TYPE:Special.Fighter|DESC:You gain a +2 bonus on all damage rolls you make using the selected weapon.
+USERPOOL:Fighter Feat|POOLPOINTS:0.0
+USERPOOL:Wizard Feat|POOLPOINTS:0.0
+USERPOOL:Metamagic Feat|POOLPOINTS:0.0
+USERPOOL:Monk Feat|POOLPOINTS:0.0
+USERPOOL:Rogue Special Ability|POOLPOINTS:0.0
+USERPOOL:Ranger Combat Style|POOLPOINTS:0.0
+USERPOOL:Favored Enemy|POOLPOINTS:0.0
+USERPOOL:Favored Enemy Bonus|POOLPOINTS:0.0
+USERPOOL:Turn Undead|POOLPOINTS:0.0
+USERPOOL:Expert Class Skills|POOLPOINTS:0.0
+USERPOOL:High Arcana Ability|POOLPOINTS:0.0
+USERPOOL:Hierophant Ability|POOLPOINTS:0.0
+USERPOOL:Terrain Mastery|POOLPOINTS:0.0
+USERPOOL:Advanced Terrain Mastery|POOLPOINTS:0.0
+USERPOOL:Loremaster Secret|POOLPOINTS:0.0
+USERPOOL:Dragon Disciple Bonus Spell|POOLPOINTS:0.0
+USERPOOL:Ghost Ability|POOLPOINTS:0.0
+USERPOOL:Psion Feat|POOLPOINTS:0.0
+USERPOOL:Psychic Warrior Feat|POOLPOINTS:0.0
+USERPOOL:Psionic Fist Feat|POOLPOINTS:0.0
+USERPOOL:Improved Psicrystal Personality|POOLPOINTS:0.0
+USERPOOL:Elocator Transporter|POOLPOINTS:0.0
+USERPOOL:Thrallherd Charm Choice|POOLPOINTS:0.0
+USERPOOL:Thrallherd Dominate Choice|POOLPOINTS:0.0
+USERPOOL:Astral Construct Menu A Ability|POOLPOINTS:0.0
+USERPOOL:Astral Construct Menu B Ability|POOLPOINTS:0.0
+USERPOOL:Astral Construct Menu C Ability|POOLPOINTS:0.0
+USERPOOL:Epic Barbarian Feat|POOLPOINTS:0.0
+USERPOOL:Epic Bard Feat|POOLPOINTS:0.0
+USERPOOL:Epic Cleric Feat|POOLPOINTS:0.0
+USERPOOL:Epic Druid Feat|POOLPOINTS:0.0
+USERPOOL:Epic Fighter Feat|POOLPOINTS:0.0
+USERPOOL:Epic Monk Feat|POOLPOINTS:0.0
+USERPOOL:Epic Paladin Feat|POOLPOINTS:0.0
+USERPOOL:Epic Ranger Feat|POOLPOINTS:0.0
+USERPOOL:Epic Rogue Feat|POOLPOINTS:0.0
+USERPOOL:Epic Sorcerer Feat|POOLPOINTS:0.0
+USERPOOL:Epic Wizard Feat|POOLPOINTS:0.0
+USERPOOL:Epic Arcane Archer Feat|POOLPOINTS:0.0
+USERPOOL:Epic Arcane Trickster Feat|POOLPOINTS:0.0
+USERPOOL:Epic Assassin Feat|POOLPOINTS:0.0
+USERPOOL:Epic Blackguard Feat|POOLPOINTS:0.0
+USERPOOL:Epic Dragon Disciple Feat|POOLPOINTS:0.0
+USERPOOL:Epic Duelist Feat|POOLPOINTS:0.0
+USERPOOL:Epic Dwarven Defender Feat|POOLPOINTS:0.0
+USERPOOL:Epic Eldritch Knight Feat|POOLPOINTS:0.0
+USERPOOL:Epic Horizon Walker Feat|POOLPOINTS:0.0
+USERPOOL:Epic Loremaster Feat|POOLPOINTS:0.0
+USERPOOL:Epic Mystic Theurge Feat|POOLPOINTS:0.0
+USERPOOL:Epic Shadowdancer Feat|POOLPOINTS:0.0
+USERPOOL:Improved Terrain Mastery|POOLPOINTS:0.0
+USERPOOL:Infiltrator Specialist Training|POOLPOINTS:0.0
+USERPOOL:Agent Retriever Feat|POOLPOINTS:0.0
+USERPOOL:Cosmic Descryer Feat|POOLPOINTS:0.0
+USERPOOL:Divine Emissary Feat|POOLPOINTS:0.0
+USERPOOL:Guardian Paramount Feat|POOLPOINTS:0.0
+USERPOOL:High Proselytizer Feat|POOLPOINTS:0.0
+USERPOOL:Legendary Dreadnought Feat|POOLPOINTS:0.0
+USERPOOL:Perfect Wight Feat|POOLPOINTS:0.0
+USERPOOL:Epic Spellcasting Type|POOLPOINTS:0.0
+USERPOOL:Epic Psion Feat|POOLPOINTS:0.0
+USERPOOL:Epic Psychic Warrior Feat|POOLPOINTS:0.0
+USERPOOL:Epic Soulknife Feat|POOLPOINTS:0.0
+USERPOOL:Epic Cerebremancer Feat|POOLPOINTS:0.0
+USERPOOL:Salient Divine Ability|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Falchion|WEAPON:Flail]
+WEAPONPROF:[WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd]
+WEAPONPROF:[WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]
+WEAPONPROF:[WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe|WEAPON:Shieldbash (Heavy)]
+WEAPONPROF:[WEAPON:Shieldbash (Light)|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells(Ray)|WEAPON:Spiked Armor|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)]
+WEAPONPROF:[WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:0|COST:0|WT:5.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:COSTMOD=-1]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Age Set Selections
+AGESET:0:0:0:0:0:0:0:0:0:0
