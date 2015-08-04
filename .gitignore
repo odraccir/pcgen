@@ -9,7 +9,7 @@ plugins/**
 preview/**
 settings/**
 system/**
-!system/Gozzilioni/
+!system/gameModes/Gozzilioni/
 #system/gameModes/35e/**
 #system/gameModes/Darwins_World_2/**
 #system/gameModes/default/**
