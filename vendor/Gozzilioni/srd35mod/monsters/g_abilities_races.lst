@@ -1,7 +1,0 @@
-SOURCELONG:Gozzilioni Rsrd Modifications monster	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																																													
-																																																
-#																																																
-# Ability Name	Category of Ability	Type	Visible	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page																
-#CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Giant Traits|PRERACE:1,RACETYPE=Giant																																															
-#Giant Traits	CATEGORY:Special Ability	TYPE:TraitAbility	ABILITY:Special Ability|AUTOMATIC|Giant Shared ~ Rock Catching|Giant Shared ~ Rock Throwing							BONUS:VAR|HasLowLightVision|1																						SOURCEPAGE:MM2																
-CATEGORY=Special Ability|Giant Traits.MOD	ABILITY:Internal|AUTOMATIC|Race Traits ~ Giant	AUTO:LANG|Giant	AUTO:LANG|Common|PRESTAT:1,INT=10																																													
