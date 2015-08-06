@@ -61,3 +61,6 @@ NAME:AmmoStacksWithWeapon		PARM:AMMOSTACKSWITHWEAPON	DEFAULT:No				DESC:Do ammun
 
 #
 # Done
+#
+# Book of Exalted Deeds
+NAME:VariantGoodSpells		VAR:EXD_VAR_GOODSPELLS		DEFAULT:No					DESC:Consider the following spells from the PHB to have the good descriptor: good hope and shield other.
