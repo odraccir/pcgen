@@ -680,6 +680,7 @@ my %valid_game_modes = map { $_ => 1 } (
     'Starwars_Edge',
     'T20',
     'Traveller20',
+    'G35e',
 
 );
 
