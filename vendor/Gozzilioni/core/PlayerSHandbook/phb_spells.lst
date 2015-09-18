@@ -1,0 +1,5 @@
+SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																																																																
+#
+#
+Speak with Animals.COPY=Speak with Animals	KEY:Gnome ~ Speak with Animals
+Gnome ~ Speak with Animals.MOD	OUTPUTNAME:Speak with Animals (Burrowing only)	DURATION:1 Minute

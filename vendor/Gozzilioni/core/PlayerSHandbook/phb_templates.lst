@@ -1,0 +1,66 @@
+SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+
+# Human
+Human	VISIBLE:NO	KEY:Human Base	SUBRACE:Human
+# Dwarf
+Hill	VISIBLE:NO	KEY:Hill Dwarf	SUBRACE:Hill
+# Elf
+High	VISIBLE:NO	KEY:High Elf	SUBRACE:High
+# Gnome
+Rock	VISIBLE:NO	KEY:Rock Gnome	SUBRACE:Rock
+# Half-Elf
+Half-Elf	VISIBLE:NO	KEY:Half-Elf
+# Half-Orc
+Half-Orc	VISIBLE:NO	KEY:Half-Orc
+# Halfling
+Lightfoot	VISIBLE:NO	KEY:Lightfoot Halfling	SUBRACE:Lightfoot
+
+Languages	KEY:Human ~ Human ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:TYPE=Spoken
+Favored Class	KEY:Human ~ Human ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:HIGHESTLEVELCLASS
+Languages	KEY:Dwarf ~ Hill ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Dwarven	LANGBONUS:Giant,Gnome,Goblin,Orc,Terran,Undercommon
+Favored Class	KEY:Dwarf ~ Hill ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter
+Languages	KEY:Elf ~ High ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Elven	LANGBONUS:Draconic,Gnoll,Gnome,Goblin,Orc,Sylvan
+Favored Class	KEY:Elf ~ High ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Wizard
+Languages	KEY:Gnome ~ Rock ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Gnome	LANGBONUS:Draconic,Dwarven,Elven,Giant,Goblin,Orc
+Favored Class	KEY:Gnome ~ Rock ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Bard
+Languages	KEY:Half-Elf ~ Human ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Elven	LANGBONUS:TYPE=Spoken
+Favored Class	KEY:Half-Elf ~ Human ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:HIGHESTLEVELCLASS
+Languages	KEY:Half-Orc ~ Human ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Orc	LANGBONUS:Draconic,Giant,Gnoll,Goblin,Abyssal
+Favored Class	KEY:Half-Orc ~ Human ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Barbarian
+Languages	KEY:Halfling ~ Lightfoot ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Halfling	LANGBONUS:Dwarven,Elven,Gnome,Goblin,Orc
+Favored Class	KEY:Halfling ~ Lightfoot ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue
+
+Languages	KEY:Cleric ~ Bonus Languages	VISIBLE:NO	LANGBONUS:Celestial,Abyssal,Infernal
+Languages	KEY:Druid ~ Bonus Languages	VISIBLE:NO	AUTO:LANG|Druidic	LANGBONUS:Sylvan	BONUS:VAR|DruidicLanguage|1
+Languages	KEY:Wizard ~ Bonus Languages	VISIBLE:NO	LANGBONUS:Draconic
+
+###Block: Known First Base Class - Barbarian Illiteracy Support
+# Template Name	Visible	Template		Choose
+#First Base Class	VISIBLE:NO	TEMPLATE:%LIST	CHOOSE:TEMPLATE|QUALIFIED[TYPE=BaseClass]
+None	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	!PRECLASS:1,Barbarian=1
+Barbarian	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Barbarian=1
+Bard	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Bard=1
+Cleric	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Cleric=1
+Druid	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Druid=1
+Fighter	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Fighter=1
+Monk	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Monk=1
+Paladin	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Paladin=1
+Ranger	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Ranger=1
+Rogue	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Rogue=1
+Sorcerer	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Sorcerer=1
+Wizard	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Wizard=1
+
+Timeless Body ~ Adult	VISIBLE:NO	!PREAGESET:1,Middle Age	BONUS:STAT|STR,CON,DEX|1|PREMULT:2,[PREAGESET:1,Middle Age],[!PREAGESET:1,Old]	BONUS:STAT|STR,CON,DEX|3|PREMULT:2,[PREAGESET:1,Old],[!PREAGESET:1,Venerable]	BONUS:STAT|STR,CON,DEX|6|PREAGESET:1,Venerable
+Timeless Body ~ Middle Age	VISIBLE:NO	PREMULT:2,[PREAGESET:1,Middle Age],[!PREAGESET:1,Old]	BONUS:STAT|STR,CON,DEX|2|PREMULT:2,[PREAGESET:1,Old],[!PREAGESET:1,Venerable]	BONUS:STAT|STR,CON,DEX|5|PREAGESET:1,Venerable
+Timeless Body ~ Old	VISIBLE:NO	PREMULT:2,[PREAGESET:1,Old],[!PREAGESET:1,Venerable]	BONUS:STAT|STR,CON,DEX|3|PREAGESET:1,Venerable
+Timeless Body ~ Venerable	VISIBLE:NO	PREAGESET:1,Venerable
+Timeless Body	KEY:Druid ~ Timeless Body	PRECLASS:1,Druid=15	VISIBLE:NO	TEMPLATE:CHOOSE:Timeless Body ~ Adult|Timeless Body ~ Middle Age|Timeless Body ~ Old|Timeless Body ~ Venerable
+Timeless Body	KEY:Monk ~ Timeless Body	PRECLASS:1,Monk=17	VISIBLE:NO	TEMPLATE:CHOOSE:Timeless Body ~ Adult|Timeless Body ~ Middle Age|Timeless Body ~ Old|Timeless Body ~ Venerable
+Perfect Self	KEY:Monk ~ Perfect Self	PRECLASS:1,Monk=20	VISIBLE:NO	RACETYPE:Outsider	DR:10/Magic
+
+Spellbook	VISIBLE:NO	KIT:1|Wizard Spell Book
+
+# Animal Based Familiars change to a Magical Beast (Augmented Animal), all others remain the same race type.
+Familiar Race Change	VISIBLE:NO	TEMPLATE:CHOOSE:Animal Base|Non-Animal Base
+Animal Base	VISIBLE:NO	PRERACE:1,RACETYPE=Animal	RACETYPE:Magical Beast
+Non-Animal Base	VISIBLE:NO	!PRERACE:1,RACETYPE=Animal

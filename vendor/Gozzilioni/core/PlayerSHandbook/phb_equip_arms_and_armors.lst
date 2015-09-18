@@ -1,0 +1,4 @@
+SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																																																																
+#
+#
+Flurry of Blows			PROFICIENCY:WEAPON|Unarmed Strike	TYPE:Weapon.Natural.Melee.Simple.Bludgeoning.Unarmed.Finesseable	COST:0	WT:0	DAMAGE:1d3	CRITMULT:x2	CRITRANGE:1	MODS:NO	WIELD:Light	SIZE:M	SOURCEPAGE:PHB		BONUS:WEAPON|ATTACKS|FlurryOfBlowsAttacks|PREVAREQ:COUNT[EQTYPE.ARMOR.EQUIPPED],0	BONUS:WEAPON|TOHIT|min(-1*FlurryOfBlowsPenalty,0)|PREVAREQ:COUNT[EQTYPE.ARMOR.EQUIPPED],0	SPROP:Flurry of Blows can not be used when armored|PREVARNEQ:COUNT[EQTYPE.ARMOR.EQUIPPED],0

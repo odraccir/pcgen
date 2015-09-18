@@ -1,0 +1,4 @@
+SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																																															
+#																																																		
+# Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:																																													
+Literacy	USEUNTRAINED:NO			TYPE:None.Language.Literacy	SOURCEPAGE:G	BONUS:VAR|IlliteracyLVL|-1|PRESKILL:1,Literacy=1

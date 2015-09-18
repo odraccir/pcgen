@@ -270,7 +270,7 @@ UNITSET:Metric		HEIGHTUNIT:cm	HEIGHTFACTOR:2.54	HEIGHTPATTERN:#		DISTANCEUNIT:m	
 
 # CR calculation and XP awards
 CRTHRESHOLD:HD
-CRSTEPS:1/2
+CRSTEPS:1/2|1/3|1/4|1/6|1/8
 MONSTERROLES:Combat|Skill|Bard|Cleric|Druid|Sorcerer|Wizard
 MONSTERROLEDEFAULT:Combat
 
@@ -313,7 +313,7 @@ RESIZABLEEQUIPTYPE:Shield|Weapon|Armor|Ammunition|Resizable
 # Character Types:
 CHARACTERTYPE:PC|NPC
 
-DEFAULTDATASET:3.5 RSRD|SRD 3.5 for Game Masters (includes Monsters)
+DEFAULTDATASET:Gozzilioni Campaing Full Set
 
 #
 # DONE

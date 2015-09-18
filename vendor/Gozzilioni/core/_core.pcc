@@ -16,6 +16,9 @@ PUBNAMEWEB:http://www.gozzilioni.net
 ABILITY:g_abilities.lst
 ABILITYCATEGORY:g_abilitycategories.lst
 TEMPLATE:g_template.lst
+SKILL:g_skills.lst
+
+HIDETYPE:SKILL|Literacy
 
 # ENTRY DATE: 2015-08 
 # LST MONKEY: Riccardo

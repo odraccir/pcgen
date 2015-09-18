@@ -1,0 +1,35 @@
+SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																																																																
+																																																																			
+# Added alphabet type to each language in accordance with SkillsII
+# Alphabet type will be final type, such as:
+# Abyssal	TYPE:Spoken.Written.Read.Infernal
+# ... since the Abyssal language uses the Infernal Alphabet for its writing.
+# Per SkillsII, each language listed in Speak Language is also written/read
+# - Fluxxdog - Nov 4 08
+
+#	everyone's language
+# Language			Type								Var. Min. Value
+Common			TYPE:Spoken.Written.Read.Common
+
+#	racial languages (base races)
+Dwarven			TYPE:Spoken.Written.Read.Dwarven
+Elven				TYPE:Spoken.Written.Read.Elven
+Gnome				TYPE:Spoken.Written.Read.Dwarven
+Halfling			TYPE:Spoken.Written.Read.Common
+
+#
+Abyssal			TYPE:Spoken.Written.Read.Infernal
+Aquan			TYPE:Spoken.Written.Read.Elven
+Auran			TYPE:Spoken.Written.Read.Draconic
+Celestial			TYPE:Spoken.Written.Read.Celestial
+Draconic			TYPE:Spoken.Written.Read.Draconic
+Druidic			TYPE:Spoken.Written.Read.Druidic.Secret	PREVARGTEQ:DruidicLanguage,1
+Giant			TYPE:Spoken.Written.Read.Dwarven
+Goblin			TYPE:Spoken.Written.Read.Dwarven
+Gnoll			TYPE:Spoken.Written.Read.Common
+Ignan			TYPE:Spoken.Written.Read.Draconic
+Infernal			TYPE:Spoken.Written.Read.Infernal
+Orc			TYPE:Spoken.Written.Read.Dwarven
+Sylvan			TYPE:Spoken.Written.Read.Elven
+Terran			TYPE:Spoken.Written.Read.Dwarven
+Undercommon			TYPE:Spoken.Written.Read.Elven

@@ -1,0 +1,16 @@
+SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																																																																
+#
+###Automatic
+Spells (Ray)			TYPE:Simple.RangedTouch.Spell
+Spells (Touch)			TYPE:Simple.Touch.Spell
+Unarmed Strike			TYPE:Simple.Melee.Unarmed.Bludgeoning.Monk
+Gauntlet			TYPE:Simple.Melee.Unarmed.Bludgeoning
+Grapple			TYPE:Simple.Melee.Unarmed.Bludgeoning
+#
+Fake Auto	TYPE:Auto
+Fake Simple			TYPE:Simple.Melee
+Fake Martial			TYPE:Martial.Melee
+Fake Exotic			TYPE:Exotic.Melee
+#
+Shieldbash (Light)		TYPE:Martial.Melee.Bludgeoning.MeleeBludgeoning.Light.OneHandedMartial
+Shieldbash (Heavy)		TYPE:Martial.Melee.Bludgeoning.MeleeBludgeoning.OneHanded.OneHandedMartial
