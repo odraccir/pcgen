@@ -1,5 +1,14 @@
 SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																																																																
 #
-Light
-Medium
-Heavy
+Padded	TYPE:Armor.Light
+Leather	TYPE:Armor.Light
+Studded Leather	TYPE:Armor.Light
+Chain Shirt	TYPE:Armor.Light
+Hide	TYPE:Armor.Medium
+Scale Mail	TYPE:Armor.Medium
+Chainmail	TYPE:Armor.Medium
+Breastplate	TYPE:Armor.Medium
+Splint Mail	TYPE:Armor.Heavy
+Banded Mail	TYPE:Armor.Heavy
+Half-Plate	TYPE:Armor.Heavy
+Full Plate	TYPE:Armor.Heavy

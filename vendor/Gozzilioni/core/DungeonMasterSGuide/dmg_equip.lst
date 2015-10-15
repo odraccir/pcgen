@@ -1,0 +1,13 @@
+SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																
+#
+# Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property
+# From "summary of magic item creation costs"
+Potion	TYPE:Potion.Consumable	COST:0	WT:0	SOURCEPAGE:PHB	MODS:REQUIRED
+Rod	TYPE:Rod		COST:0	WT:0	SOURCEPAGE:PHB	MODS:REQUIRED
+Scroll	TYPE:Scroll.Consumable	COST:0	WT:0	SOURCEPAGE:PHB	MODS:REQUIRED
+Staff	TYPE:Staff		COST:0	WT:0	SOURCEPAGE:PHB	MODS:REQUIRED
+Wand	TYPE:Wand		COST:0	WT:0	SOURCEPAGE:PHB	MODS:REQUIRED
+
+# From Magic Overview "Components"
+Spell Component	TYPE:MaterialComponent.Consumable	COST:0	WT:0	MODS:REQUIRED	SOURCEPAGE:MagicOverview
+Spell Focus	TYPE:SpellFocus	COST:0	WT:0	MODS:REQUIRED	SOURCEPAGE:MagicOverview

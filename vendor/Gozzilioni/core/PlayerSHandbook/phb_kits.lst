@@ -3,3 +3,12 @@ SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.goz
 #
 STARTPACK:Wizard Spell Book	EQUIPBUY:0	PREMULT:2,[PREPCLEVEL:MAX=1],[PRECLASS:1,Wizard=1]
 GEAR:Spellbook (Wizard's/Blank)	LOCATION:Carried
+
+###Block: Awakened Animal and Tree
+
+STARTPACK:Awakened Animal	VISIBLE:NO	APPLY:INSTANT
+STAT:INT=roll("3d6")+var("STAT.3.BASE")-var("STAT.3")|CHA=roll("1d3")+var("STAT.5.BASE")
+
+STARTPACK:Awakened Tree	VISIBLE:NO	APPLY:INSTANT
+NAME:Awakened Tree
+STAT:INT=roll("3d6")|CHA=roll("3d6")|WIS=roll("3d6")

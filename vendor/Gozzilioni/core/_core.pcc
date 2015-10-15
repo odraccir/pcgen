@@ -15,6 +15,8 @@ PUBNAMEWEB:http://www.gozzilioni.net
 
 ABILITY:g_abilities.lst
 ABILITYCATEGORY:g_abilitycategories.lst
+DATACONTROL:g_datacontrol.lst
+EQUIPMOD:g_equipmods.lst
 TEMPLATE:g_template.lst
 SKILL:g_skills.lst
 

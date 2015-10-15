@@ -20,9 +20,15 @@ ABILITY:phb_abilities.lst
 ABILITY:phb_abilities_classes.lst
 ABILITY:phb_abilities_races.lst
 ABILITYCATEGORY:phb_abilitycategories.lst
+BIOSET:phb_biosettings.lst
 CLASS:phb_classes.lst
 COMPANIONMOD:phb_companionmods.lst
-EQUIPMENT:phb_equip_arms_and_armors.lst
+DEITY:phb_deities.lst
+DOMAIN:phb_domains.lst
+EQUIPMENT:phb_equip.lst
+EQUIPMENT:phb_equip_armors.lst
+EQUIPMENT:phb_equip_weapons.lst
+EQUIPMOD:phb_equipmods.lst
 ABILITY:phb_feats.lst
 KIT:phb_kits.lst
 LANGUAGE:phb_languages.lst
@@ -49,7 +55,12 @@ HIDETYPE:SKILL|Profession (Lumberjack)|Profession (Miller)|Profession (Miner)|Pr
 HIDETYPE:SKILL|Profession (Scribe)|Profession (Engineer)|Profession (Stablehand)|Profession (Tanner)|Profession (Teamster)|Profession (Woodcutter)
 HIDETYPE:SKILL|Ride|Search|Sense Motive|Sleight of Hand|Speak Language|Spellcraft|Spot|Survival|Swim|Tumble|Use Magic Device|Use Rope
 
-# HIDETYPE:FEAT|Wizard
+HIDETYPE:FEAT|Wizard
+
+HIDETYPE:SKILL|Craft (Blacksmithing)|Craft (Carpentry)|Craft (Leatherworking)|Craft (Painting)|Craft (Pottery)|Craft (Sculpting)
+HIDETYPE:SKILL|Craft (Shipmaking)|Craft (Stonemasonry)
+
+FORWARDREF:CLASS|Animal,Animal (Dire)
 
 # ENTRY DATE: 2015-08 
 # LST MONKEY: Riccardo

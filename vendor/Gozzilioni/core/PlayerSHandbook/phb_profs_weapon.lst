@@ -1,16 +1,91 @@
-SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																																																																
-#
-###Automatic
-Spells (Ray)			TYPE:Simple.RangedTouch.Spell
-Spells (Touch)			TYPE:Simple.Touch.Spell
-Unarmed Strike			TYPE:Simple.Melee.Unarmed.Bludgeoning.Monk
-Gauntlet			TYPE:Simple.Melee.Unarmed.Bludgeoning
-Grapple			TYPE:Simple.Melee.Unarmed.Bludgeoning
-#
-Fake Auto	TYPE:Auto
-Fake Simple			TYPE:Simple.Melee
-Fake Martial			TYPE:Martial.Melee
-Fake Exotic			TYPE:Exotic.Melee
-#
-Shieldbash (Light)		TYPE:Martial.Melee.Bludgeoning.MeleeBludgeoning.Light.OneHandedMartial
-Shieldbash (Heavy)		TYPE:Martial.Melee.Bludgeoning.MeleeBludgeoning.OneHanded.OneHandedMartial
+SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+#			
+### Weapon/Spell			
+### Simple/Martial/Exotic			
+### Melee/Ranged			
+### Bludgeoning/Piercing/Slashing			
+### Reach/Double/Thrown/Projectile/Ammunition			
+### Unharmed/Light/OneHanded/TwoHanded			
+###Automatic			
+Spells (Ray)	TYPE:Spell.Simple.Ranged.Touch.RangedTouch
+Spells (Touch)	TYPE:Spell.Simple.Melee.Touch.MeleeTouch
+Grapple	TYPE:Auto.Simple.Melee.Unarmed.Bludgeoning		
+#			
+# Fake Auto	TYPE:Auto		
+# Fake Simple	TYPE:Simple.Melee		
+# Fake Martial	TYPE:Martial.Melee		
+# Fake Exotic	TYPE:Exotic.Melee		
+#			
+Shieldbash (Light)	TYPE:Martial.Melee.Bludgeoning.MeleeBludgeoning.Light.OneHandedMartial		
+Shieldbash (Heavy)	TYPE:Martial.Melee.Bludgeoning.MeleeBludgeoning.OneHanded.OneHandedMartial		
+Spiked Armor	TYPE:Martial.Melee.Piercing.MeleePiercing.Light.LightMartial
+
+###Simple			
+Club	TYPE:Simple.Melee.Ranged.Bludgeoning.MeleeBludgeoning.RangedBludgeoning.OneHanded.Club		
+Crossbow (Heavy)	TYPE:Simple.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2	
+Crossbow (Light)	TYPE:Simple.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2	
+Dagger	TYPE:Simple.Melee.Ranged.Piercing.Slashing.MeleePiercing.MeleeSlashing.RangedPiercing.RangedSlashing.Light.Dagger		
+Dagger (Punching)	TYPE:Simple.Melee.Piercing.MeleePiercing.Light.Dagger		
+Dart	TYPE:Simple.Ranged.Piercing.RangedPiercing.Thrown.Dart		
+Gauntlet	TYPE:Simple.Melee.Bludgeoning.MeleeBludgeoning.Unarmed.Finesseable.Gauntlet		
+Gauntlet (Spiked)	TYPE:Simple.Melee.Piercing.MeleePiercing.Light.Finesseable.Gauntlet		
+Longspear	TYPE:Simple.Melee.Piercing.MeleePiercing.TwoHanded.Reach.Spear		
+Mace (Heavy)	TYPE:Simple.Melee.Bludgeoning.MeleeBludgeoning.OneHanded.Mace		
+Mace (Light)	TYPE:Simple.Melee.Bludgeoning.MeleeBludgeoning.Light.Mace		
+Morningstar	TYPE:Simple.Melee.Bludgeoning.Piercing.MeleeBludgeoning.MeleePiercing.OneHanded		
+Quarterstaff	TYPE:Simple.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Quarterstaff.DoubleWeapon		
+Shortspear	TYPE:Simple.Melee.Ranged.Piercing.MeleePiercing.RangedPiercing.OneHanded.Spear		
+Sickle	TYPE:Simple.Melee.Slashing.MeleeSlashing.Light.Sickle		
+Spear	TYPE:Simple.Melee.Ranged.Piercing.MeleePiercing.RangedPiercing.TwoHanded.Spear		
+Unarmed Strike	TYPE:Simple.Melee.Bludgeoning.MeleeBludgeoning.Unarmed		
+Javelin	TYPE:Weapon.Ranged.Thrown.Piercing.RangedPiercing.Javelin
+Sling	TYPE:Weapon.Ranged.Piercing.RangedPiercing.Sling
+###Martial			
+Axe (Throwing)	TYPE:Martial.Melee.Ranged.Slashing.MeleeSlashing.RangedSlashing.Light.Axe		
+Hammer (Light)	TYPE:Martial.Melee.Ranged.Bludgeoning.MeleeBludgeoning.RangedBludgeoning.Light.Hammer		
+Handaxe	TYPE:Martial.Melee.Slashing.MeleeSlashing.Light.Axe		
+Kukri	TYPE:Martial.Melee.Slashing.MeleeSlashing.Light.Dagger		
+Pick (Light)	TYPE:Martial.Melee.Piercing.MeleePiercing.Light.Pick		
+Sap	TYPE:Martial.Melee.Bludgeoniing.MeleeBludgeoning.Light.Sap		
+Sword (Short)	TYPE:Martial.Melee.Piercing.MeleePiercing.Light.Sword		
+Battleaxe	TYPE:Martial.Melee.Slashing.MeleeSlashing.OneHanded.Axe		
+Flail	TYPE:Martial.Melee.Bludgeoning.MeleeBludgeoning.OneHanded.Flail		
+Longsword	TYPE:Martial.Melee.Slashing.MeleeSlashing.OneHanded.Sword		
+Pick (Heavy)	TYPE:Martial.Melee.Piercing.MeleePiercing.OneHanded.Pick		
+Rapier	TYPE:Martial.Melee.Piercing.MeleePiercing.OneHanded.Rapier.Finesseable		
+Scimitar	TYPE:Martial.Melee.Slashing.MeleeSlashing.OneHanded.Scimitar		
+Trident	TYPE:Martial.Melee.Ranged.Piercing.MeleePiercing.RangedPiercing.OneHanded.Trident		
+Warhammer	TYPE:Martial.Melee.Bludgeoning.MeleeBludgeoning.OneHanded.Hammer		
+Falchion	TYPE:Martial.Melee.Slashing.MeleeSlashing.TwoHanded.Falchion		
+Glaive	TYPE:Martial.Melee.Slashing.MeleeSlashing.TwoHanded.Glaive		
+Greataxe	TYPE:Martial.Melee.Slashing.MeleeSlashing.TwoHanded.Axe		
+Greatclub	TYPE:Martial.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Club		
+Flail (Heavy)	TYPE:Martial.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Flail		
+Greatsword	TYPE:Martial.Melee.Slashing.MeleeSlashing.TwoHanded.Sword		
+Guisarme	TYPE:Martial.Melee.Slashing.MeleeSlashing.TwoHanded.Guisarme		
+Halberd	TYPE:Martial.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing.TwoHanded.Halberd		
+Lance	TYPE:Martial.Melee.Piercing.MeleePiercing.TwoHanded.Lance		
+Ranseur	TYPE:Martial.Melee.Piercing.MeleePiercing.TwoHanded.Ranseur		
+Scythe	TYPE:Martial.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing.TwoHanded.Scythe		
+Longbow	TYPE:Martial.Ranged.Piercing.RangedPiercing.Twohanded.Bow	HANDS:2	
+Shortbow	TYPE:Martial.Ranged.Piercing.RangedPiercing.Twohanded.Bow	HANDS:2	
+###Exotic			
+Kama	TYPE:Exotic.Melee.Slashing.MeleeSlashing.Light.Kama		
+Nunchaku	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.Light.Nunchaku		
+Sai	TYPE:Exotic.Melee.Ranged.Thrown.Bludgeoning.MeleeBludgeoning.Light.Sai		
+Siangham	TYPE:Exotic.Melee.Piercing.MeleePiercing.Light.Siangham		
+Sword (Bastard)	TYPE:Exotic.Martial.Melee.Slashing.MeleeSlashing.OneHanded.TwoHanded.Sword		
+Waraxe (Dwarven)	TYPE:Exotic.Melee.Slashing.MeleeSlashing.OneHanded.Axe.Dwarven		
+Whip	TYPE:Exotic.Melee.Slashing.MeleeSlashing.OneHanded.Reach.Whip.Finesseable		
+Axe (Double/Orc)	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.Axe.Orc.DoubleWeapon		
+Chain (Spiked)	TYPE:Exotic.Melee.Piercing.MeleePiercing.TwoHanded.Chain.Reach.Finesseable		
+Flail (Dire)	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Flail.DoubleWeapon		
+Hammer (Hooked/Gnome)	TYPE:Exotic.Melee.Bludgeoning.Piercing.MeleeBludgeoning.MeleePiercing.TwoHanded.Hammer.Gnome.DoubleWeapon		
+Sword (Two-Bladed)	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.Sword.DoubleWeapon		
+Urgosh (Dwarven)	TYPE:Exotic.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing.TwoHanded.DoubleWeapon.Dwarven		
+Bolas	TYPE:Exotic.Ranged.Thrown.Bludgeoning.RangedBludgeoning.Bolas
+Crossbow (Hand)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2	
+Crossbow (Repeating/Heavy)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2	
+Crossbow (Repeating/Light)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2	
+Net	TYPE:Exotic.Ranged.Thrown.Net
+Shuriken	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Shuriken		

@@ -1,90 +1,90 @@
 SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																																															
 #																																																		
 # Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:																																													
-Appraise	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:Intelligence.Appraise	SOURCEPAGE:PHB																																													
-Balance	USEUNTRAINED:YES	ACHECK:YES	KEYSTAT:DEX	TYPE:Dexterity.Balance	SOURCEPAGE:PHB																																													
-Bluff	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:Charisma.Bluff	SOURCEPAGE:PHB		BONUS:SKILL|Sleight of Hand,Diplomacy,Intimidate|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Bluff=5																																											
-Climb	USEUNTRAINED:YES	ACHECK:YES	KEYSTAT:STR	TYPE:Strength.Climb	SOURCEPAGE:PHB		BONUS:SKILL|Climb|8|PREMOVE:1,Climb=1|TYPE=Racial																																											
-Concentration	USEUNTRAINED:YES		KEYSTAT:CON	TYPE:Constitution.Concentration	SOURCEPAGE:PHB																																													
-Craft (Alchemy)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Craft.Craft (Alchemy)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Alchemy)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=AlchemyTools																																										
-Craft (Armorsmithing)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Craft.Craft (Armorsmithing)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Armorsmithing)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=ArmorsmithingTools																																										
-Craft (Bowmaking)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Craft.Craft (Bowmaking)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Bowmaking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=BowmakingTools																																										
-Craft (Trapmaking)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Craft.Craft (Trapmaking)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Trapmaking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=TrapmakingTools																																										
-Craft (Weaponsmithing)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Craft.Craft (Weaponsmithing)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Weaponsmithing)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=WeaponsmithingTools																																										
-Craft (Woodworking)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Craft.Craft (Woodworking)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Woodworking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=WoodworkingTools																																										
-Craft (Untrained)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:Intelligence.Craft.Craft (Woodworking)	SOURCEPAGE:PHB	VISIBLE:EXPORT																																												
-Decipher Script	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Decipher Script	SOURCEPAGE:PHB																																													
-Diplomacy	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:Charisma.Diplomacy	SOURCEPAGE:PHB																																													
-Disable Device	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Disable Device	SOURCEPAGE:PHB		TEMPDESC:Without tools, you must improvise, and you take a -2 circumstance penalty	TEMPBONUS:PC|SKILL|Disable Device|-2|!PREITEM:1,TYPE=ThiefTools																																										
-Disguise	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:Charisma.Disguise	SOURCEPAGE:PHB																																													
-Escape Artist	USEUNTRAINED:YES	ACHECK:YES	KEYSTAT:DEX	TYPE:Dexterity.Escape Artist	SOURCEPAGE:PHB																																													
-Forgery	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:Intelligence.Forgery	SOURCEPAGE:PHB																																													
-Gather Information	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:Charisma.Gather Information	SOURCEPAGE:PHB																																													
-Handle Animal	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Charisma.Handle Animal	SOURCEPAGE:PHB		BONUS:SKILL|Ride|SynergyBonus|PRESKILL:1,Handle Animal=5|TYPE=Synergy.STACK																																											
-Heal	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Heal	SOURCEPAGE:PHB																																													
-Hide	USEUNTRAINED:YES	ACHECK:YES	KEYSTAT:DEX	TYPE:Dexterity.Hide	SOURCEPAGE:PHB																																													
-Intimidate	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:Charisma.Intimidate	SOURCEPAGE:PHB																																													
-Jump	USEUNTRAINED:YES	ACHECK:YES	KEYSTAT:STR	TYPE:Strength.Jump	SOURCEPAGE:PHB		BONUS:SKILL|Tumble|SynergyBonus|PRESKILL:1,Jump=5|TYPE=Synergy.STACK	BONUS:SKILL|Jump|max(floor((var("MOVE[Walk]")-30)/10)*4,0)|TYPE=Speed.STACK	BONUS:SKILL|Jump|min(ceil((var("MOVE[Walk]")-30)/10)*6,0)|TYPE=Speed.STACK																																									
-Knowledge (Arcana)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Knowledge.Knowledge (Arcana)	SOURCEPAGE:PHB		BONUS:SKILL|Spellcraft|SynergyBonus|PRESKILL:1,Knowledge (Arcana)=5|TYPE=Synergy.STACK																																											
-Knowledge (Architecture and Engineering)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Knowledge.Knowledge (Architecture and Engineering)	SOURCEPAGE:PHB																																													
-Knowledge (Dungeoneering)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Knowledge.Knowledge (Dungeoneering)	SOURCEPAGE:PHB																																													
-Knowledge (Geography)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Knowledge.Knowledge (Geography)	SOURCEPAGE:PHB																																													
-Knowledge (History)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Knowledge.Knowledge (History)	SOURCEPAGE:PHB		BONUS:VAR|BardicKnowledge|2|PRESKILL:1,Knowledge (History)=5																																											
-Knowledge (Local)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Knowledge.Knowledge (Local)	SOURCEPAGE:PHB		BONUS:SKILL|Gather Information|SynergyBonus|PRESKILL:1,Knowledge (Local)=5|TYPE=Synergy.STACK																																											
-Knowledge (Nature)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Knowledge.Knowledge (Nature)	SOURCEPAGE:PHB																																													
-Knowledge (Nobility and Royalty)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Knowledge.Knowledge (Nobility and Royalty)	SOURCEPAGE:PHB		BONUS:SKILL|Diplomacy|SynergyBonus|PRESKILL:1,Knowledge (Nobility and Royalty)=5|TYPE=Synergy.STACK																																											
-Knowledge (Religion)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Knowledge.Knowledge (Religion)	SOURCEPAGE:PHB		BONUS:VAR|TurnCheckUndead|2|PRESKILL:1,Knowledge (Religion)=5																																											
-Knowledge (The Planes)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Knowledge.Knowledge (The Planes)	SOURCEPAGE:PHB																																													
-Listen	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Listen	SOURCEPAGE:PHB																																													
-Move Silently	USEUNTRAINED:YES	ACHECK:YES	KEYSTAT:DEX	TYPE:Dexterity.Move Silently	SOURCEPAGE:PHB																																													
-Open Lock	USEUNTRAINED:NO		KEYSTAT:DEX	TYPE:Dexterity.Open Lock	SOURCEPAGE:PHB		TEMPDESC:Attempting an Open Lock check without a set of thieves' tools imposes a -2 circumstance penalty on the check	TEMPBONUS:PC|SKILL|Open Lock|-2|TYPE=Circumstance|!PREITEM:1,TYPE=ThiefTools																																										
-Perform (Act)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Charisma.Perform.Perform (Act)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
-Perform (Comedy)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Charisma.Perform.Perform (Comedy)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
-Perform (Dance)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Charisma.Perform.Perform (Dance)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
-Perform (Keyboard Instruments)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Charisma.Perform.Perform (Keyboard Instruments)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
-Perform (Oratory)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Charisma.Perform.Perform (Oratory)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
-Perform (Percussion Instruments)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Charisma.Perform.Perform (Percussion Instruments)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
-Perform (String Instruments)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Charisma.Perform.Perform (String Instruments)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
-Perform (Wind Instruments)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Charisma.Perform.Perform (Wind Instruments)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
-Perform (Sing)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Charisma.Perform.Perform (Sing)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
-Perform (Untrained)	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:Charisma.Perform.Perform (Act)	SOURCEPAGE:PHB	VISIBLE:EXPORT																																												
-Profession (Apothecary)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Apothecary)	SOURCEPAGE:PHB																																													
-Profession (Boater)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Boater)	SOURCEPAGE:PHB																																													
-Profession (Bookkeeper)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Bookkeeper)	SOURCEPAGE:PHB																																													
-Profession (Brewer)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Brewer)	SOURCEPAGE:PHB																																													
-Profession (Cook)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Cook)	SOURCEPAGE:PHB																																													
-Profession (Driver)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Driver)	SOURCEPAGE:PHB																																													
-Profession (Farmer)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Farmer)	SOURCEPAGE:PHB																																													
-Profession (Fisher)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Fisher)	SOURCEPAGE:PHB																																													
-Profession (Guide)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Guide)	SOURCEPAGE:PHB																																													
-Profession (Herbalist)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Herbalist)	SOURCEPAGE:PHB																																													
-Profession (Herder)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Herder)	SOURCEPAGE:PHB																																													
-Profession (Hunter)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Hunter)	SOURCEPAGE:PHB																																													
-Profession (Innkeeper)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Innkeeper)	SOURCEPAGE:PHB																																													
-Profession (Lumberjack)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Lumberjack)	SOURCEPAGE:PHB																																													
-Profession (Miller)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Miller)	SOURCEPAGE:PHB																																													
-Profession (Miner)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Miner)	SOURCEPAGE:PHB																																													
-Profession (Porter)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Porter)	SOURCEPAGE:PHB																																													
-Profession (Rancher)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Rancher)	SOURCEPAGE:PHB																																													
-Profession (Sailor)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Sailor)	SOURCEPAGE:PHB																																													
-Profession (Scribe)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Scribe)	SOURCEPAGE:PHB																																													
-Profession (Engineer)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Engineer)	SOURCEPAGE:PHB																																													
-Profession (Stablehand)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Stablehand)	SOURCEPAGE:PHB																																													
-Profession (Tanner)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Tanner)	SOURCEPAGE:PHB																																													
-Profession (Teamster)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Teamster)	SOURCEPAGE:PHB																																													
-Profession (Woodcutter)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Profession.Profession (Woodcutter)	SOURCEPAGE:PHB																																													
-Ride	USEUNTRAINED:YES		KEYSTAT:DEX	TYPE:Dexterity.Ride	SOURCEPAGE:PHB		TEMPDESC:If you are riding bareback, or attempt to ride a creature that is ill suited as a mount, you take a -5 penalty on Ride checks.	TEMPBONUS:ANYPC|SKILL|Ride|-5|TYPE=Circumstance|!PREITEM:1,TYPE=Saddle																																										
-Search	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:Intelligence.Search	SOURCEPAGE:PHB																																													
-Sense Motive	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Sense Motive	SOURCEPAGE:PHB		BONUS:SKILL|Diplomacy|SynergyBonus|PRESKILL:1,Sense Motive=5|TYPE=Synergy.STACK																																											
-Sleight of Hand	USEUNTRAINED:NO	ACHECK:YES	KEYSTAT:DEX	TYPE:Dexterity.Sleight of Hand	SOURCEPAGE:PHB																																													
+Appraise	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:Skill.Intelligence.Appraise	SOURCEPAGE:PHB																																													
+Balance	USEUNTRAINED:YES	ACHECK:YES	KEYSTAT:DEX	TYPE:Skill.Dexterity.Balance	SOURCEPAGE:PHB																																													
+Bluff	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:Skill.Charisma.Bluff	SOURCEPAGE:PHB		BONUS:SKILL|Sleight of Hand,Diplomacy,Intimidate|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Bluff=5																																											
+Climb	USEUNTRAINED:YES	ACHECK:YES	KEYSTAT:STR	TYPE:Skill.Strength.Climb	SOURCEPAGE:PHB		BONUS:SKILL|Climb|8|PREMOVE:1,Climb=1|TYPE=Racial																																											
+Concentration	USEUNTRAINED:YES		KEYSTAT:CON	TYPE:Skill.Constitution.Concentration	SOURCEPAGE:PHB																																													
+Craft (Alchemy)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Alchemy)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Alchemy)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=AlchemyTools																																										
+Craft (Armorsmithing)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Armorsmithing)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Armorsmithing)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=ArmorsmithingTools																																										
+Craft (Bowmaking)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Bowmaking)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Bowmaking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=BowmakingTools																																										
+Craft (Trapmaking)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Trapmaking)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Trapmaking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=TrapmakingTools																																										
+Craft (Weaponsmithing)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Weaponsmithing)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Weaponsmithing)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=WeaponsmithingTools																																										
+Craft (Woodworking)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Woodworking)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Woodworking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=WoodworkingTools																																										
+Craft (Untrained)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Woodworking)	SOURCEPAGE:PHB	VISIBLE:EXPORT																																												
+Decipher Script	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Decipher Script	SOURCEPAGE:PHB																																													
+Diplomacy	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:Skill.Charisma.Diplomacy	SOURCEPAGE:PHB																																													
+Disable Device	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Disable Device	SOURCEPAGE:PHB		TEMPDESC:Without tools, you must improvise, and you take a -2 circumstance penalty	TEMPBONUS:PC|SKILL|Disable Device|-2|!PREITEM:1,TYPE=ThiefTools																																										
+Disguise	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:Skill.Charisma.Disguise	SOURCEPAGE:PHB																																													
+Escape Artist	USEUNTRAINED:YES	ACHECK:YES	KEYSTAT:DEX	TYPE:Skill.Dexterity.Escape Artist	SOURCEPAGE:PHB																																													
+Forgery	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:Skill.Intelligence.Forgery	SOURCEPAGE:PHB																																													
+Gather Information	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:Skill.Charisma.Gather Information	SOURCEPAGE:PHB																																													
+Handle Animal	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Handle Animal	SOURCEPAGE:PHB		BONUS:SKILL|Ride|SynergyBonus|PRESKILL:1,Handle Animal=5|TYPE=Synergy.STACK																																											
+Heal	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Heal	SOURCEPAGE:PHB																																													
+Hide	USEUNTRAINED:YES	ACHECK:YES	KEYSTAT:DEX	TYPE:Skill.Dexterity.Hide	SOURCEPAGE:PHB																																													
+Intimidate	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:Skill.Charisma.Intimidate	SOURCEPAGE:PHB																																													
+Jump	USEUNTRAINED:YES	ACHECK:YES	KEYSTAT:STR	TYPE:Skill.Strength.Jump	SOURCEPAGE:PHB		BONUS:SKILL|Tumble|SynergyBonus|PRESKILL:1,Jump=5|TYPE=Synergy.STACK	BONUS:SKILL|Jump|max(floor((var("MOVE[Walk]")-30)/10)*4,0)|TYPE=Speed.STACK	BONUS:SKILL|Jump|min(ceil((var("MOVE[Walk]")-30)/10)*6,0)|TYPE=Speed.STACK																																									
+Knowledge (Arcana)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Arcana)	SOURCEPAGE:PHB		BONUS:SKILL|Spellcraft|SynergyBonus|PRESKILL:1,Knowledge (Arcana)=5|TYPE=Synergy.STACK																																											
+Knowledge (Architecture and Engineering)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Architecture and Engineering)	SOURCEPAGE:PHB																																													
+Knowledge (Dungeoneering)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Dungeoneering)	SOURCEPAGE:PHB																																													
+Knowledge (Geography)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Geography)	SOURCEPAGE:PHB																																													
+Knowledge (History)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (History)	SOURCEPAGE:PHB		BONUS:VAR|BardicKnowledge|2|PRESKILL:1,Knowledge (History)=5																																											
+Knowledge (Local)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Local)	SOURCEPAGE:PHB		BONUS:SKILL|Gather Information|SynergyBonus|PRESKILL:1,Knowledge (Local)=5|TYPE=Synergy.STACK																																											
+Knowledge (Nature)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Nature)	SOURCEPAGE:PHB																																													
+Knowledge (Nobility and Royalty)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Nobility and Royalty)	SOURCEPAGE:PHB		BONUS:SKILL|Diplomacy|SynergyBonus|PRESKILL:1,Knowledge (Nobility and Royalty)=5|TYPE=Synergy.STACK																																											
+Knowledge (Religion)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Religion)	SOURCEPAGE:PHB		BONUS:VAR|TurnCheckUndead|2|PRESKILL:1,Knowledge (Religion)=5																																											
+Knowledge (The Planes)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (The Planes)	SOURCEPAGE:PHB																																													
+Listen	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Listen	SOURCEPAGE:PHB																																													
+Move Silently	USEUNTRAINED:YES	ACHECK:YES	KEYSTAT:DEX	TYPE:Skill.Dexterity.Move Silently	SOURCEPAGE:PHB																																													
+Open Lock	USEUNTRAINED:NO		KEYSTAT:DEX	TYPE:Skill.Dexterity.Open Lock	SOURCEPAGE:PHB		TEMPDESC:Attempting an Open Lock check without a set of thieves' tools imposes a -2 circumstance penalty on the check	TEMPBONUS:PC|SKILL|Open Lock|-2|TYPE=Circumstance|!PREITEM:1,TYPE=ThiefTools																																										
+Perform (Act)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Act)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
+Perform (Comedy)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Comedy)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
+Perform (Dance)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Dance)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
+Perform (Keyboard Instruments)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Keyboard Instruments)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
+Perform (Oratory)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Oratory)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
+Perform (Percussion Instruments)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Percussion Instruments)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
+Perform (String Instruments)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (String Instruments)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
+Perform (Wind Instruments)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Wind Instruments)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
+Perform (Sing)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Sing)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
+Perform (Untrained)	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Act)	SOURCEPAGE:PHB	VISIBLE:EXPORT																																												
+Profession (Apothecary)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Apothecary)	SOURCEPAGE:PHB																																													
+Profession (Boater)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Boater)	SOURCEPAGE:PHB																																													
+Profession (Bookkeeper)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Bookkeeper)	SOURCEPAGE:PHB																																													
+Profession (Brewer)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Brewer)	SOURCEPAGE:PHB																																													
+Profession (Cook)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Cook)	SOURCEPAGE:PHB																																													
+Profession (Driver)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Driver)	SOURCEPAGE:PHB																																													
+Profession (Farmer)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Farmer)	SOURCEPAGE:PHB																																													
+Profession (Fisher)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Fisher)	SOURCEPAGE:PHB																																													
+Profession (Guide)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Guide)	SOURCEPAGE:PHB																																													
+Profession (Herbalist)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Herbalist)	SOURCEPAGE:PHB																																													
+Profession (Herder)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Herder)	SOURCEPAGE:PHB																																													
+Profession (Hunter)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Hunter)	SOURCEPAGE:PHB																																													
+Profession (Innkeeper)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Innkeeper)	SOURCEPAGE:PHB																																													
+Profession (Lumberjack)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Lumberjack)	SOURCEPAGE:PHB																																													
+Profession (Miller)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Miller)	SOURCEPAGE:PHB																																													
+Profession (Miner)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Miner)	SOURCEPAGE:PHB																																													
+Profession (Porter)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Porter)	SOURCEPAGE:PHB																																													
+Profession (Rancher)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Rancher)	SOURCEPAGE:PHB																																													
+Profession (Sailor)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Sailor)	SOURCEPAGE:PHB																																													
+Profession (Scribe)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Scribe)	SOURCEPAGE:PHB																																													
+Profession (Engineer)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Engineer)	SOURCEPAGE:PHB																																													
+Profession (Stablehand)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Stablehand)	SOURCEPAGE:PHB																																													
+Profession (Tanner)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Tanner)	SOURCEPAGE:PHB																																													
+Profession (Teamster)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Teamster)	SOURCEPAGE:PHB																																													
+Profession (Woodcutter)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Woodcutter)	SOURCEPAGE:PHB																																													
+Ride	USEUNTRAINED:YES		KEYSTAT:DEX	TYPE:Skill.Dexterity.Ride	SOURCEPAGE:PHB		TEMPDESC:If you are riding bareback, or attempt to ride a creature that is ill suited as a mount, you take a -5 penalty on Ride checks.	TEMPBONUS:ANYPC|SKILL|Ride|-5|TYPE=Circumstance|!PREITEM:1,TYPE=Saddle																																										
+Search	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:Skill.Intelligence.Search	SOURCEPAGE:PHB																																													
+Sense Motive	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Sense Motive	SOURCEPAGE:PHB		BONUS:SKILL|Diplomacy|SynergyBonus|PRESKILL:1,Sense Motive=5|TYPE=Synergy.STACK																																											
+Sleight of Hand	USEUNTRAINED:NO	ACHECK:YES	KEYSTAT:DEX	TYPE:Skill.Dexterity.Sleight of Hand	SOURCEPAGE:PHB																																													
 Speak Language	USEUNTRAINED:NO			TYPE:None.Language.Speak Language	SOURCEPAGE:PHB	CHOOSE:LANG|TYPE=Spoken	AUTO:LANG|%LIST																																											
-Spellcraft	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Spellcraft	SOURCEPAGE:PHB																																													
-Spot	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Spot	SOURCEPAGE:PHB																																													
-Survival	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Wisdom.Survival	SOURCEPAGE:PHB		BONUS:SKILL|Knowledge (Nature)|SynergyBonus|PRESKILL:1,Survival=5|TYPE=Synergy.STACK																																											
-Swim	USEUNTRAINED:YES	ACHECK:DOUBLE	KEYSTAT:STR	TYPE:Strength.Swim	SOURCEPAGE:PHB		BONUS:SKILL|Swim|8|PREMOVE:1,Swim=1|TYPE=Racial																																											
-Tumble	USEUNTRAINED:NO	ACHECK:YES	KEYSTAT:DEX	TYPE:Dexterity.Tumble	SOURCEPAGE:PHB		BONUS:SKILL|Balance,Jump|SynergyBonus|PRESKILL:1,Tumble=5|TYPE=Synergy.STACK																																											
-Use Magic Device	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Charisma.Use Magic Device	SOURCEPAGE:PHB																																													
-Use Rope	USEUNTRAINED:YES		KEYSTAT:DEX	TYPE:Dexterity.Use Rope	SOURCEPAGE:PHB																																													
+Spellcraft	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Spellcraft	SOURCEPAGE:PHB																																													
+Spot	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Spot	SOURCEPAGE:PHB																																													
+Survival	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Survival	SOURCEPAGE:PHB		BONUS:SKILL|Knowledge (Nature)|SynergyBonus|PRESKILL:1,Survival=5|TYPE=Synergy.STACK																																											
+Swim	USEUNTRAINED:YES	ACHECK:DOUBLE	KEYSTAT:STR	TYPE:Skill.Strength.Swim	SOURCEPAGE:PHB		BONUS:SKILL|Swim|8|PREMOVE:1,Swim=1|TYPE=Racial																																											
+Tumble	USEUNTRAINED:NO	ACHECK:YES	KEYSTAT:DEX	TYPE:Skill.Dexterity.Tumble	SOURCEPAGE:PHB		BONUS:SKILL|Balance,Jump|SynergyBonus|PRESKILL:1,Tumble=5|TYPE=Synergy.STACK																																											
+Use Magic Device	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Use Magic Device	SOURCEPAGE:PHB																																													
+Use Rope	USEUNTRAINED:YES		KEYSTAT:DEX	TYPE:Skill.Dexterity.Use Rope	SOURCEPAGE:PHB																																													
 																																																		
 ###Block: Situation Skills for output only																																																		
 # Skill Name																																																		
@@ -93,6 +93,7 @@ Concentration.MOD	SITUATION:Cast defensively
 Disguise.MOD	SITUATION:Act in character																																																	
 Diplomacy.MOD	SITUATION:Wild Empathy (Animals)|Wild Empathy (Magical Beasts)																																																	
 Escape Artist.MOD	SITUATION:Escape from rope bonds																																																	
+Jump.MOD	SITUATION:Jump after running																																																	
 Search.MOD	SITUATION:Secret doors and hidden compartments																																																	
 Search.MOD	SITUATION:Notice unusual stonework																																																	
 Spellcraft.MOD	SITUATION:Decipher spell on scroll																																																	
@@ -107,6 +108,7 @@ Use Rope.MOD	SITUATION:Bind someone
 																																																		
 Diplomacy.MOD	SITUATION:Draconic Creatures																																																	
 Ride.MOD	SITUATION:Dragon																																																	
+Ride.MOD	SITUATION:Staying in the saddle																																																	
 																																																		
 Bluff.MOD							BONUS:SITUATION|Disguise=Act in character|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Bluff=5																																											
 Decipher Script.MOD							BONUS:SITUATION|Use Magic Device=Scroll|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Decipher Script=5																																											
@@ -154,3 +156,29 @@ Perform (Untrained).MOD								BONUS:SKILL|Perform ~ Percussion Instruments|var(
 Perform (Untrained).MOD								BONUS:SKILL|Perform ~ String Instruments|var("SKILL.Perform (String Instruments).MISC")	BONUS:SKILLRANK|Perform ~ String Instruments|skillinfo("TOTALRANK", "Perform (String Instruments)")																																									
 Perform (Untrained).MOD								BONUS:SKILL|Perform ~ Wind Instruments|var("SKILL.Perform (Wind Instruments).MISC")	BONUS:SKILLRANK|Perform ~ Wind Instruments|skillinfo("TOTALRANK", "Perform (Wind Instruments)")																																									
 Perform (Untrained).MOD								BONUS:SKILL|Perform ~ Sing|var("SKILL.Perform (Sing).MISC")	BONUS:SKILLRANK|Perform ~ Sing|skillinfo("TOTALRANK", "Perform (Sing)")																																									
+																																																		
+# Referenced by equipment																																																		
+Craft (Blacksmithing)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Craft.Craft (Blacksmithing)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Blacksmithing)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=BlacksmithingTools																																										
+Craft (Blacksmithing)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Craft ~ Blacksmithing	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Blacksmithing).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Blacksmithing)"),1]																																									
+Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Blacksmithing|var("SKILL.Craft (Blacksmithing).MISC")	BONUS:SKILLRANK|Craft ~ Blacksmithing|skillinfo("TOTALRANK", "Craft (Blacksmithing)")																																									
+Craft (Carpentry)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Craft.Craft (Carpentry)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Carpentry)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=CarpentryTools																																										
+Craft (Carpentry)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Craft ~ Carpentry	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Carpentry).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Carpentry)"),1]																																									
+Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Carpentry|var("SKILL.Craft (Carpentry).MISC")	BONUS:SKILLRANK|Craft ~ Carpentry|skillinfo("TOTALRANK", "Craft (Carpentry)")																																									
+Craft (Leatherworking)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Craft.Craft (Leatherworking)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Leatherworking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=LeatherworkingTools																																										
+Craft (Leatherworking)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Craft ~ Leatherworking	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Leatherworking).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Leatherworking)"),1]																																									
+Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Leatherworking|var("SKILL.Craft (Leatherworking).MISC")	BONUS:SKILLRANK|Craft ~ Leatherworking|skillinfo("TOTALRANK", "Craft (Leatherworking)")																																									
+Craft (Painting)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Craft.Craft (Painting)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Painting)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=PaintingTools																																										
+Craft (Painting)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Craft ~ Painting	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Painting).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Painting)"),1]																																									
+Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Painting|var("SKILL.Craft (Painting).MISC")	BONUS:SKILLRANK|Craft ~ Painting|skillinfo("TOTALRANK", "Craft (Painting)")																																									
+Craft (Pottery)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Craft.Craft (Pottery)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Pottery)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=PotteryTools																																										
+Craft (Pottery)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Craft ~ Pottery	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Pottery).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Pottery)"),1]																																									
+Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Pottery|var("SKILL.Craft (Pottery).MISC")	BONUS:SKILLRANK|Craft ~ Pottery|skillinfo("TOTALRANK", "Craft (Pottery)")																																									
+Craft (Sculpting)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Craft.Craft (Sculpting)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Sculpting)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=SculptingTools																																										
+Craft (Sculpting)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Craft ~ Sculpting	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Sculpting).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Sculpting)"),1]																																									
+Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Sculpting|var("SKILL.Craft (Sculpting).MISC")	BONUS:SKILLRANK|Craft ~ Sculpting|skillinfo("TOTALRANK", "Craft (Sculpting)")																																									
+Craft (Shipmaking)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Craft.Craft (Shipmaking)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Shipmaking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=ShipmakingTools																																										
+Craft (Shipmaking)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Craft ~ Shipmaking	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Shipmaking).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Shipmaking)"),1]																																									
+Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Shipmaking|var("SKILL.Craft (Shipmaking).MISC")	BONUS:SKILLRANK|Craft ~ Shipmaking|skillinfo("TOTALRANK", "Craft (Shipmaking)")																																									
+Craft (Stonemasonry)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Intelligence.Craft.Craft (Stonemasonry)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Stonemasonry)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=StonemasonryTools																																										
+Craft (Stonemasonry)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Craft ~ Stonemasonry	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Stonemasonry).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Stonemasonry)"),1]																																									
+Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Stonemasonry|var("SKILL.Craft (Stonemasonry).MISC")	BONUS:SKILLRANK|Craft ~ Stonemasonry|skillinfo("TOTALRANK", "Craft (Stonemasonry)")																																									

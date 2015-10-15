@@ -1,6 +1,6 @@
 SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																																																																
 #
-Buckler
-Light
-Heavy
-Tower
+Buckler	TYPE:Shield.Buckler
+Shield (Light)	TYPE:Shield.Light
+Shield (Heavy)	TYPE:Shield.Heavy
+Tower Shield	TYPE:Shield.Tower

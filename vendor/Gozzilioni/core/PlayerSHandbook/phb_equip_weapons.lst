@@ -1,0 +1,114 @@
+SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																						
+#																									
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:			
+Flurry of Blows			PROFICIENCY:WEAPON|Unarmed Strike	TYPE:Weapon.Natural.Melee.Simple.Bludgeoning.Unarmed.Finesseable	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	MODS:NO	SOURCEPAGE:PHB	SPROP:Flurry of Blows can not be used when armored|PREVARNEQ:COUNT[EQTYPE.ARMOR.EQUIPPED],0								BONUS:WEAPON|ATTACKS|FlurryOfBlowsAttacks|PREVAREQ:COUNT[EQTYPE.ARMOR.EQUIPPED],0	BONUS:WEAPON|TOHIT|min(-1*FlurryOfBlowsPenalty,0)|PREVAREQ:COUNT[EQTYPE.ARMOR.EQUIPPED],0	
+Grapple			PROFICIENCY:WEAPON|Grapple	TYPE:Weapon.Natural.Melee.Unarmed.Subdual	COST:0	WT:0	WIELD:Light		SIZE:M		CRITRANGE:1	CRITMULT:x2	MODS:NO	SOURCEPAGE:PHB											
+Shieldbash (Light)			PROFICIENCY:WEAPON|Shieldbash (Light)	TYPE:Weapon.Melee.Martial.Bludgeoning.Unarmed.Shieldbash	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:PHB	SPROP:Shieldbash attacks are considered to be offhanded attacks										
+Shieldbash (Heavy)			PROFICIENCY:WEAPON|Shieldbash (Heavy)	TYPE:Weapon.Melee.Martial.Bludgeoning.Unarmed.Shieldbash	COST:0	WT:0	WIELD:OneHanded		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:PHB	SPROP:Shieldbash attacks are considered to be offhanded attacks										
+Touch Attack (Grapple)			PROFICIENCY:WEAPON|Grapple	TYPE:Weapon.Natural.Melee.Unarmed	COST:0	WT:0	WIELD:Light		SIZE:M		CRITRANGE:1	CRITMULT:x2	MODS:NO	SOURCEPAGE:PHB											
+Touch Attack (Ray)			PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Ranged.Unarmed	COST:0	WT:0	WIELD:Light		SIZE:M		CRITRANGE:1	CRITMULT:x2	MODS:NO	SOURCEPAGE:PHB											
+Touch Attack			PROFICIENCY:WEAPON|Spells (Touch)	TYPE:Weapon.Ranged.Unarmed	COST:0	WT:0	WIELD:Light		SIZE:M		CRITRANGE:1	CRITMULT:x2	MODS:NO	SOURCEPAGE:PHB											
+																									
+Armor Spikes			PROFICIENCY:WEAPON|Spiked Armor	TYPE:Weapon.Martial.Melee.Piercing.Metal.Unarmed.Accessories	COST:0	WT:0	WIELD:Light	SLOTS:0		DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB	SPROP:deals extra piercing damage on a successful grapple attack.										
+																									
+																									
+																									
+																									
+# Simple Weapons																									
+## Unarmed																									
+Unarmed Strike			PROFICIENCY:WEAPON|Unarmed Strike	TYPE:Weapon.Natural.Melee.Simple.Bludgeoning.Unarmed.Subdual	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	MODS:NO	SOURCEPAGE:PHB											
+Gauntlet			PROFICIENCY:WEAPON|Gauntlet	TYPE:Weapon.Melee.Simple.Bludgeoning.Unarmed.Finesseable.Gauntlet	COST:2	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
+## Light																									
+Dagger			PROFICIENCY:WEAPON|Dagger	TYPE:Weapon.Melee.Ranged.Simple.Piercing.Slashing.Light.Dagger	COST:2	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB							RANGE:10				
+Dagger (Punching)	OUTPUTNAME:Dagger, Punching		PROFICIENCY:WEAPON|Dagger (Punching)	TYPE:Weapon.Melee.Simple.Piercing.Light.Dagger	COST:2	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:PHB											
+Gauntlet (Spiked)			PROFICIENCY:WEAPON|Gauntlet (Spiked)	TYPE:Weapon.Melee.Simple.Piercing.Unarmed.Finesseable.Gauntlet	COST:2	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB									BONUS:EQM|WEIGHTADD|-1|PREMULT:3,[PREEQUIP:1,TYPE.Armor],[PREEQUIP:1,TYPE.Medium,TYPE.Heavy],[!PREEQUIP:1,Breastplate]		
+Gauntlet (Locked)			PROFICIENCY:WEAPON|Gauntlet	TYPE:Weapon.Melee.Simple.Bludgeoning.Unarmed.Finesseable.Gauntlet	COST:8	WT:5	WIELD:Light		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB	SPROP:+10 vs. disarm								BONUS:EQM|WEIGHTADD|-5|PREMULT:3,[PREEQUIP:1,TYPE.Armor],[PREEQUIP:1,TYPE.Medium,TYPE.Heavy],[!PREEQUIP:1,Breastplate]		
+Mace (Light)	OUTPUTNAME:Mace, Light		PROFICIENCY:WEAPON|Mace (Light)	TYPE:Weapon.Melee.Simple.Bludgeoning.Light.Mace	COST:5	WT:4	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
+Sickle			PROFICIENCY:WEAPON|Sickle	TYPE:Weapon.Melee.Simple.Slashing.Light.Sickle	COST:6	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
+## OneHanded																									
+Club			PROFICIENCY:WEAPON|Club	TYPE:Weapon.Melee.Ranged.Simple.Bludgeoning.OneHanded.Ranged.Club	COST:0	WT:3	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:PHB							RANGE:10				
+Mace (Heavy)	OUTPUTNAME:Mace, Heavy		PROFICIENCY:WEAPON|Mace (Heavy)	TYPE:Weapon.Melee.Simple.Bludgeoning.OneHanded.Mace	COST:12	WT:8	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
+Morningstar			PROFICIENCY:WEAPON|Morningstar	TYPE:Weapon.Melee.Simple.Bludgeoning.Piercing.OneHanded	COST:8	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
+Shortspear			PROFICIENCY:WEAPON|Shortspear	TYPE:Weapon.Melee.Ranged.Simple.Bludgeoning.Piercing.OneHanded.Spear	COST:1	WT:3	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:PHB							RANGE:20				
+## TwoHanded																									
+Longspear			PROFICIENCY:WEAPON|Longspear	TYPE:Weapon.Melee.Simple.Piercing.TwoHanded.Spear	COST:5	WT:9	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD	SOURCEPAGE:PHB								REACHMULT:2			
+Quarterstaff			PROFICIENCY:WEAPON|Quarterstaff	TYPE:Weapon.Melee.Simple.Bludgeoning.TwoHanded.Quarterstaff	COST:0	WT:4	WIELD:TwoHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:PHB		ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD					
+Spear			PROFICIENCY:WEAPON|Spear	TYPE:Weapon.Melee.Ranged.Simple.Piercing.TwoHanded.Spear	COST:2	WT:6	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD	SOURCEPAGE:PHB							RANGE:20				
+## Ranged																									
+Crossbow (Heavy)			PROFICIENCY:WEAPON|Crossbow (Heavy)	TYPE:Weapon.Ranged.Simple.Piercing.Crossbow.Container	COST:50	WT:8			SIZE:M	DAMAGE:1d10	CRITRANGE:2	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:PHB							RANGE:120		CONTAINS:UNLIM|Bolt|SpecificBolt		
+Crossbow (Light)			PROFICIENCY:WEAPON|Crossbow (Light)	TYPE:Weapon.Ranged.Simple.Piercing.Crossbow.Container	COST:35	WT:4			SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:PHB							RANGE:80		CONTAINS:UNLIM|Bolt|SpecificBolt		
+Dart			PROFICIENCY:WEAPON|Dart	TYPE:Weapon.Ranged.Simple.Piercing.Thrown.Dart	COST:0.5	WT:0.5	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:PHB							RANGE:20				
+Javelin			PROFICIENCY:WEAPON|Javelin	TYPE:Weapon.Ranged.Thrown.Simple.Piercing.Javelin	COST:1	WT:2			SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:PHB							RANGE:30				
+Sling			PROFICIENCY:WEAPON|Sling	TYPE:Weapon.Ranged.Simple.Piercing.Sling.Container	COST:0	WT:0			SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:LEATHER	SOURCEPAGE:PHB							RANGE:50		CONTAINS:UNLIM|SlingStone|SpecificSlingStone	BONUS:WEAPON|DAMAGE|STR	
+																									
+# Martial Weapons																									
+## Light																									
+Axe (Throwing)	OUTPUTNAME:Axe, Throwing		PROFICIENCY:WEAPON|Axe (Throwing)	TYPE:Weapon.Melee.Ranged.Martial.Thrown.Slashing.Light.Axe	COST:8	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB							RANGE:10				
+Hammer (Light)	OUTPUTNAME:Hammer, Light		PROFICIENCY:WEAPON|Hammer (Light)	TYPE:Weapon.Melee.Ranged.Martial.Thrown.Bludgeoning.Light.Hammer	COST:1	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB							RANGE:20				
+Handaxe			PROFICIENCY:WEAPON|Handaxe	TYPE:Weapon.Melee.Martial.Slashing.Light.Axe	COST:6	WT:3	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:PHB											
+Kukri			PROFICIENCY:WEAPON|Kukri	TYPE:Weapon.Melee.Martial.Slashing.Light.Dagger	COST:8	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
+Pick (Light)	OUTPUTNAME:Pick, Light		PROFICIENCY:WEAPON|Pick (Light)	TYPE:Weapon.Melee.Martial.Piercing.Light.Pick	COST:4	WT:3	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x4	EQMOD:STEEL.WOOD	SOURCEPAGE:PHB											
+Sap			PROFICIENCY:WEAPON|Sap	TYPE:Weapon.Melee.Martial.Bludgeoning.Light.Sap	COST:1	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
+Sword (Short)	OUTPUTNAME:Sword, Short		PROFICIENCY:WEAPON|Short (Sword)	TYPE:Weapon.Melee.Martial.Piercing.Light.Sword	COST:10	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
+## OneHanded																									
+Battleaxe			PROFICIENCY:WEAPON|Battleaxe	TYPE:Weapon.Melee.Martial.Slashing.OneHanded.Axe	COST:10	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:PHB											
+Flail			PROFICIENCY:WEAPON|Flail	TYPE:Weapon.Melee.Martial.Bludgeoning.OneHanded.Flail	COST:8	WT:5	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
+Longsword			PROFICIENCY:WEAPON|Longsword	TYPE:Weapon.Melee.Martial.Slashing.OneHanded.Sword	COST:15	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
+Pick (Heavy)	OUTPUTNAME:Pick, Heavy		PROFICIENCY:WEAPON|Pick (Heavy)	TYPE:Weapon.Melee.Martial.Piercing.OneHanded.Pick	COST:8	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x4	EQMOD:STEEL.WOOD	SOURCEPAGE:PHB											
+Rapier			PROFICIENCY:WEAPON|Rapier	TYPE:Weapon.Melee.Martial.Piercing.OneHanded.Rapier	COST:20	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB									BONUS:WEAPON|DAMAGEMULT:2|-0.5		
+Scimitar			PROFICIENCY:WEAPON|Scimitar	TYPE:Weapon.Melee.Martial.Piercing.OneHanded.Scimitar	COST:15	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
+Trident			PROFICIENCY:WEAPON|Trident	TYPE:Weapon.Melee.Ranged.Thrown.Martial.Piercing.OneHanded.Trident	COST:15	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.WOOD	SOURCEPAGE:PHB							RANGE:10				
+Warhammer			PROFICIENCY:WEAPON|Warhammer	TYPE:Weapon.Melee.Martial.Bludgeoning.OneHanded.Hammer	COST:12	WT:5	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.WOOD	SOURCEPAGE:PHB											
+## TwoHanded																									
+Falchion			PROFICIENCY:WEAPON|Falchion	TYPE:Weapon.Melee.Martial.Slashing.TwoHanded.Falchion	COST:75	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d4	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
+Glaive			PROFICIENCY:WEAPON|Glaive	TYPE:Weapon.Melee.Martial.Slashing.TwoHanded.Glaive	COST:8	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:PHB								REACHMULT:2			
+Greataxe			PROFICIENCY:WEAPON|Greataxe	TYPE:Weapon.Melee.Martial.Slashing.TwoHanded.Axe	COST:20	WT:12	WIELD:TwoHanded		SIZE:M	DAMAGE:1d12	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.WOOD	SOURCEPAGE:PHB											
+Greatclub			PROFICIENCY:WEAPON|Greatclub	TYPE:Weapon.Melee.Martial.Bludgeoning.TwoHanded.Club	COST:5	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:PHB											
+Flail (Heavy)			PROFICIENCY:WEAPON|Flail (Heavy)	TYPE:Weapon.Melee.Martial.Bludgeoning.TwoHanded.Flail	COST:15	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
+Greatsword			PROFICIENCY:WEAPON|Greatsword	TYPE:Weapon.Melee.Martial.Slashing.TwoHanded.Sword	COST:50	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
+Guisarme			PROFICIENCY:WEAPON|Guisarme	TYPE:Weapon.Melee.Martial.Slashing.TwoHanded.Guisarme	COST:9	WT:12	WIELD:TwoHanded		SIZE:M	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.WOOD	SOURCEPAGE:PHB								REACHMULT:2			
+Halberd			PROFICIENCY:WEAPON|Halberd	TYPE:Weapon.Melee.Martial.Piercing.Slashing.TwoHanded.Halberd	COST:10	WT:12	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.WOOD	SOURCEPAGE:PHB								REACHMULT:2			
+Lance			PROFICIENCY:WEAPON|Lance	TYPE:Weapon.Melee.Martial.Piercing.TwoHanded.Lance	COST:10	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.WOOD	SOURCEPAGE:PHB	SPROP:One Handed when mounted, Two Handed otherwise.							REACHMULT:2			
+Ranseur			PROFICIENCY:WEAPON|Ranseur	TYPE:Weapon.Melee.Martial.Piercing.TwoHanded.Ranseur	COST:10	WT:12	WIELD:TwoHanded		SIZE:M	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.WOOD	SOURCEPAGE:PHB								REACHMULT:2			
+Schyte			PROFICIENCY:WEAPON|Scythe	TYPE:Weapon.Melee.Martial.Piercing.Slashing.TwoHanded.Scythe	COST:18	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x4	EQMOD:STEEL.WOOD	SOURCEPAGE:PHB											
+Longbow			PROFICIENCY:WEAPON|Longbow	TYPE:Weapon.Ranged.Martial.Piercing.Bow.Longbow.Container	COST:75	WT:3	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD	SOURCEPAGE:PHB							RANGE:100		CONTAINS:UNLIM|Arrow|SpecificArrow	BONUS:WEAPON|DAMAGE|min(STR,0)	
+Longbow (Composite)	OUTPUTNAME:Composite Longbow STR		PROFICIENCY:WEAPON|Longbow	TYPE:Weapon.Ranged.Martial.Piercing.Bow.Longbow.Composite.Container	COST:100	WT:3	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD	SOURCEPAGE:PHB							RANGE:110		CONTAINS:UNLIM|Arrow|SpecificArrow	BONUS:WEAPON|DAMAGE|min(STR,0)	MODS:REQUIRED
+Longbow (Composite +0)	OUTPUTNAME:Composite Longbow +0		PROFICIENCY:WEAPON|Longbow	TYPE:Weapon.Ranged.Martial.Piercing.Bow.Longbow.Composite.Container	COST:100	WT:3	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD	SOURCEPAGE:PHB							RANGE:110		CONTAINS:UNLIM|Arrow|SpecificArrow		MODS:NO
+Shortbow			PROFICIENCY:WEAPON|Shortbow	TYPE:Weapon.Ranged.Martial.Piercing.Bow.Shortbow.Container	COST:30	WT:2	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD	SOURCEPAGE:PHB							RANGE:60		CONTAINS:UNLIM|Arrow|SpecificArrow	BONUS:WEAPON|DAMAGE|min(STR,0)	
+Shortbow (Composite)	OUTPUTNAME:Composite Shortbow STR		PROFICIENCY:WEAPON|Shortbow	TYPE:Weapon.Ranged.Martial.Piercing.Bow.Shortbow.Composite.Container	COST:75	WT:2	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD	SOURCEPAGE:PHB							RANGE:70		CONTAINS:UNLIM|Arrow|SpecificArrow	BONUS:WEAPON|DAMAGE|min(STR,0)	MODS:REQUIRED
+Shortbow (Composite +0)	OUTPUTNAME:Composite Shortbow +0		PROFICIENCY:WEAPON|Shortbow	TYPE:Weapon.Ranged.Martial.Piercing.Bow.Shortbow.Composite.Container	COST:75	WT:2	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD	SOURCEPAGE:PHB							RANGE:70		CONTAINS:UNLIM|Arrow|SpecificArrow		MODS:NO
+																									
+# Exotic Weapons																									
+## Light																									
+Kama			PROFICIENCY:WEAPON|Kama	TYPE:Weapon.Melee.Exotic.Slashing.Light.Kama	COST:2	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
+Nunchaku			PROFICIENCY:WEAPON|Nunchaku	TYPE:Weapon.Melee.Exotic.Bludgeoning.Light.Nunchaku	COST:2	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:PHB											
+Sai			PROFICIENCY:WEAPON|Sai	TYPE:Weapon.Melee.Exotic.Bludgeoning.Light.Sai	COST:1	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB							RANGE:10				
+Siangham			PROFICIENCY:WEAPON|Siangham	TYPE:Weapon.Melee.Exotic.Piercing.Light.Sai	COST:3	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
+## OneHanded																									
+Sword (Bastard)			PROFICIENCY:WEAPON|Sword (Bastard)	TYPE:Weapon.Melee.Exotic.Slashing.OneHanded.Sword	COST:35	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB									BONUS:WEAPON|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Sword (Bastard))|PRESTAT:1,STR=13		
+Waraxe (Dwarven)	OUTPUTNAME:Waraxe, Dwarven		PROFICIENCY:WEAPON|Waraxe (Dwarven)	TYPE:Weapon.Melee.Exotic.Slashing.OneHanded.Axe.Dwarven	COST:30	WT:8	WIELD:OneHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.WOOD	SOURCEPAGE:PHB									BONUS:WEAPON|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Waraxe (Dwarven))|PRESTAT:1,STR=13		
+Whip			PROFICIENCY:WEAPON|Whip	TYPE:Weapon.Melee.Exotic.Slashing.OneHanded.Whip	COST:1	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	EQMOD:LEATHER	SOURCEPAGE:PHB								REACH:15			
+## TwoHanded																									
+Axe (Double/Orc)	OUTPUTNAME:Double Axe, Orc		PROFICIENCY:WEAPON|Axe (Double/Orc)	TYPE:Weapon.Melee.Exotic.Slashing.TwoHanded.Axe.Orc	COST:60	WT:15	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.WOOD	SOURCEPAGE:PHB		ALTTYPE:Weapon.Melee.Slashing	ALTDAMAGE:1d8	ALTCRITRANGE:1	ALTCRITMULT:x3	ALTEQMOD:STEEL.WOOD					
+Chain (Spiked)	OUTPUTNAME:Chain, Spiked		PROFICIENCY:WEAPON|Chain (Spiked)	TYPE:Weapon.Melee.Exotic.Piercing.TwoHanded.Chain	COST:25	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB								REACHMULT:2			
+Flail (Dire)			PROFICIENCY:WEAPON|Flail (Dire)	TYPE:Weapon.Melee.Martial.Bludgeoning.TwoHanded.Flail	COST:90	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB		ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d8	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:STEEL					
+Hammer (Hooked/Gnome)	OUTPUTNAME:Hammer, Gnome Hooked		PROFICIENCY:WEAPON|Hammer (Hooked/Gnome)	TYPE:Weapon.Melee.Exotic.Bludgeoning.TwoHanded.Hammer.Gnome	COST:20	WT:6	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:PHB		ALTTYPE:Weapon.Melee.Piercing	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x4	ALTEQMOD:STEEL					
+Sword (Two-Bladed)	OUTPUTNAME:Sword, Two-Bladed		PROFICIENCY:WEAPON|Sword (Two-Bladed)	TYPE:Weapon.Melee.Exotic.Slashing.TwoHanded.Sword	COST:100	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB		ALTTYPE:Weapon.Melee.Slashing	ALTDAMAGE:1d8	ALTCRITRANGE:2	ALTCRITMULT:x2	ALTEQMOD:STEEL					
+Urgosh (Dwarven)	OUTPUTNAME:Urgosh, Dwarven		PROFICIENCY:WEAPON|Urgosh (Dwarven)	TYPE:Weapon.Melee.Exotic.Slashing.TwoHanded.Dwarven	COST:50	WT:12	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:PHB		ALTTYPE:Weapon.Melee.Piercing	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x3	ALTEQMOD:STEEL					
+## Ranged																									
+Bolas			PROFICIENCY:WEAPON|Bolas	TYPE:Weapon.Ranged.Exotic.Bludgeoning.Thrown.Bolas	COST:5	WT:2			SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:LEATHER	SOURCEPAGE:PHB							RANGE:10				
+Crossbow (Hand)			PROFICIENCY:WEAPON|Crossbow (Hand)	TYPE:Weapon.Ranged.Exotic.Piercing.Crossbow.Container	COST:100	WT:2			SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:PHB							RANGE:30		CONTAINS:UNLIM|Bolt|SpecificBolt		
+Crossbow (Heavy/Repeating)			PROFICIENCY:WEAPON|Crossbow (Heavy/Repeating)	TYPE:Weapon.Ranged.Exotic.Piercing.Crossbow.Container	COST:400	WT:12			SIZE:M	DAMAGE:1d10	CRITRANGE:2	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:PHB							RANGE:120		CONTAINS:UNLIM|RepeatingBolt|SpecificRepeatingBolt		
+Crossbow (Light/Repeating)			PROFICIENCY:WEAPON|Crossbow (Light/Repeating)	TYPE:Weapon.Ranged.Exotic.Piercing.Crossbow.Container	COST:250	WT:6			SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:PHB							RANGE:80		CONTAINS:UNLIM|RepeatingBolt|SpecificRepeatingBolt		
+Net			PROFICIENCY:WEAPON|Net	TYPE:Weapon.Ranged.Exotic.Net	COST:20	WT:6			SIZE:M				EQMOD:LEATHER	SOURCEPAGE:PHB							RANGE:10				
+Shuriken			PROFICIENCY:WEAPON|Shuriken	TYPE:Weapon.Ranged.Exotic.Piercing.Shuriken	COST:1	WT:0.5			SIZE:M	DAMAGE:1d2	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.THROWN_AMMO	SOURCEPAGE:PHB							RANGE:10	BASEQTY:5			
+																									
+### Arrows																									
+Bolts (Crossbow/10)				TYPE:Ammunition.Standard.Bolt	COST:1	WT:1							EQMOD:STEEL.WOOD							SOURCEPAGE:PHB		BASEQTY:10	MODS:YES		
+Bolt (Crossbow)				TYPE:Ammunition.Standard.Bolt	COST:0.1	WT:0.1							EQMOD:STEEL.WOOD							SOURCEPAGE:PHB			MODS:YES		
+Bolts (Repeating Crossbow/5)				TYPE:Ammunition.Standard.RepeatingBolt	COST:1	WT:1							EQMOD:STEEL.WOOD							SOURCEPAGE:PHB		BASEQTY:5	MODS:YES		
+Bolt (Repeating Crossbow)				TYPE:Ammunition.Standard.RepeatingBolt	COST:0.25	WT:0.25							EQMOD:STEEL.WOOD							SOURCEPAGE:PHB			MODS:YES		
+Bullets (Sling/10)				TYPE:Ammunition.Standard.SlingStone	COST:0.1	WT:5							EQMOD:STEEL.WOOD							SOURCEPAGE:PHB		BASEQTY:10	MODS:YES		
+Bullet (Sling)				TYPE:Ammunition.Standard.SlingStone	COST:0.01	WT:0.5							EQMOD:STEEL.WOOD							SOURCEPAGE:PHB			MODS:YES		
+Arrows (20)				TYPE:Ammunition.Standard.Arrow	COST:1	WT:3							EQMOD:STEEL.WOOD							SOURCEPAGE:PHB		BASEQTY:20	MODS:YES		
+Arrow				TYPE:Ammunition.Standard.Arrow	COST:0.05	WT:0.15							EQMOD:STEEL.WOOD							SOURCEPAGE:PHB			MODS:YES		

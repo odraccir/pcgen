@@ -9713,6 +9713,14 @@ sub scan_for_deprecated_tags {
                $line_for_error
           );
      }
+     # [ 1938933 ] BONUS:DAMAGE and BONUS:TOHIT should be Deprecated
+     if ( $line =~ /\sBONUS:DAMAGE\s/ ) {
+          $logging->ewarn( $error_level,
+               qq{BONUS:DAMAGE is deprecated 5.5.8 - Remove 5.16.0 - Use BONUS:COMBAT|DAMAGE.x|y instead},
+               $file_for_error,
+               $line_for_error
+          );
+     }
 
      # [ 1938933 ] BONUS:DAMAGE and BONUS:TOHIT should be Deprecated
      if ( $line =~ /\sBONUS:TOHIT\s/ ) {
