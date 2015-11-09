@@ -1,0 +1,35 @@
+SOURCELONG:Gozzilioni Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+
+Gold	VISIBLE:NO	KEY:Gold Dwarf	SUBRACE:Gold
+Half-Human	VISIBLE:NO	KEY:Half-Elf ~ Half-Human
+
+Favored Class	KEY:Half-Elf ~ Half-Human ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Wizard
+
+Adept	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Adept=1
+Aristocrat	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Aristocrat=1
+Commoner	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Commoner=1
+Expert	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Expert=1
+Warrior	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Warrior=1
+Witch	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Witch=1
+
+Claws and Bite	KEY:Dragon Disciple ~ Claws and Bite	PRECLASS:1,Dragon Disciple=2	VISIBLE:NO	TEMPLATE:CHOOSE:Bite and Claws (Small)|Bite and Claws (Medium)|Bite and Claws (Large)
+
+Bite and Claws (Small)	VISIBLE:NO	PRESIZEEQ:S	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d3|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d4
+Bite and Claws (Medium)	VISIBLE:NO	PRESIZEEQ:M	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d4|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6
+Bite and Claws (Large)	VISIBLE:NO	PRESIZEEQ:L	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d6|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d8
+
+# Environment
+Heavy Gravity	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:The gravity on a plane with this trait is much more intense than on the Material Plane. Does not take into account the fact that all equipment weights are doubled (which affects movement, etc.)	TEMPBONUS:ANYPC|SKILL|Balance,Climb,Jump,Ride,Swim,Tumble|-2|TYPE=Circumstance	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2|TYPE=Circumstance	TEMPBONUS:ANYPC|RANGEMULT|PROJECTILE|-50	TEMPBONUS:ANYPC|RANGEMULT|THROWN|-50
+Light Gravity	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:The gravity on a plane with this trait is much more light than on the Material Plane. Does not take into account the fact that all equipment weights are doubled (which affects movement, etc.)	TEMPBONUS:ANYPC|SKILL|Balance,Ride,Swim,Tumble|-2|TYPE=Circumstance	TEMPBONUS:ANYPC|SKILL|Climb,Jump|2|TYPE=Circumstance	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2|TYPE=Circumstance	TEMPBONUS:ANYPC|RANGEMULT|PROJECTILE|50	TEMPBONUS:ANYPC|RANGEMULT|THROWN|50
+Minor Positive Dominant	VISIBLE:NO	TEMPDESC:Minor Positive-Dominant energy.	ABILITY:Special Ability|VIRTUAL|Fast Healing	TEMPBONUS:ANYPC|VAR|Fasthealing|2
+Major Positive Dominant	VISIBLE:NO	TEMPDESC:Major Positive-Dominant energy.	ABILITY:Special Ability|VIRTUAL|Fast Healing	TEMPBONUS:ANYPC|VAR|Fasthealing|5
+Mildly Aligned (Chaotic)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Mildly Chaotic Aligned Plane.  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA|-2|TYPE=Circumstance|PREALIGN:LG,LN,LE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LG,LN,LE
+Mildly Aligned (Evil)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Mildly Evil Aligned Plane.  Penalty applied to Skills and Turn Checks only.		TEMPBONUS:ANYPC|SKILL|STAT.CHA|-2|TYPE=Circumstance|PREALIGN:LG,NG,CG	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LG,NG,CG
+Mildly Aligned (Good)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Mildly Good Aligned Plane.  Penalty applied to Skills and Turn Checks only.		TEMPBONUS:ANYPC|SKILL|STAT.CHA|-2|TYPE=Circumstance|PREALIGN:LE,NE,CE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LE,NE,CE
+Mildly Aligned (Lawful)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Mildly Lawful Aligned Plane.  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA|-2|TYPE=Circumstance|PREALIGN:CG,CN,CE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:CG,CN,CE
+Strongly Aligned (Chaotic)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Strongly Chaotic Aligned Plane.  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA,STAT.INT,STAT.WIS|-2|TYPE=Circumstance|!PREALIGN:CG,CN,CE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LG,LN,LE
+Strongly Aligned (Evil)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Strongly Evil Aligned Plane.  Penalty applied to Skills and Turn Checks only.		TEMPBONUS:ANYPC|SKILL|STAT.CHA,STAT.INT,STAT.WIS|-2|TYPE=Circumstance|!PREALIGN:LE,NE,CE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LG,NG,CG
+Strongly Aligned (Good)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Strongly Good Aligned Plane.  Penalty applied to Skills and Turn Checks only.		TEMPBONUS:ANYPC|SKILL|STAT.CHA,STAT.INT,STAT.WIS|-2|TYPE=Circumstance|!PREALIGN:LG,NG,CG	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LE,NE,CE
+Strongly Aligned (Lawful)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Strongly Lawful Aligned Plane.  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA,STAT.INT,STAT.WIS|-2|TYPE=Circumstance|!PREALIGN:LG,LN,LE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:CG,CN,CE
+Mildly Aligned (Neutral)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Mildly Neutral Aligned Plane  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA|-2|TYPE=Circumstance|PREALIGN:LG,LE,CG,CE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LG,LE,CG,CE
+Strongly Aligned (Neutral)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Strongly Neutral Aligned Plane  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA,STAT.INT,STAT.WIS|-2|TYPE=Circumstance|!PREALIGN:LG,LE,CG,CE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LG,LE,CG,CE

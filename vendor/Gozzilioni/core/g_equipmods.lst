@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																																																													
+SOURCELONG:Gozzilioni Core Ruleset	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
 #																																																																
 # Modifier Name	Unique Key	Type	Plus	Cost	Visible	Type granted	Keys to replace	Source Page	Requirements					Spell Res.	Damage Reduction	BONUS:EQM	BONUS:EQMWEAPON	Bonus to skill			Modify VAR			Special Property			Virtual Feat	Choose	Apply to both heads																																			
 #	KEY:TWILGT	TYPE:Armor	PLUS:1		VISIBLE:QUALIFY			SOURCEPAGE:PHB2	PRETYPE:2,Enhancement,Armor							BONUS:EQMARMOR|SPELLFAILURE|-10														SPROP:Reduces 10% arcane spell failure																																		
@@ -14,3 +14,5 @@ Wield Two Step Greater No Penalty	KEY:PLUS2STEP_NO_PENALTY	TYPE:Weapon.Melee	VIS
 Wield Three Step Greater No Penalty	KEY:PLUS3STEP_NO_PENALTY	TYPE:Weapon.Melee	VISIBLE:QUALIFY	BONUS:WEAPON|WIELDCATEGORY|-3	BONUS:WEAPON|TOHIT|6
 
 Charges (10)	KEY:CHARGED_ITEM_10	COST:((BASECOST/10)*%CHARGES)-BASECOST	VISIBLE:NO	CHOOSE:NOCHOICE	CHARGES:1|10
+
+Eqmod Cost	KEY:EQ_COST_ADJ	NAMEOPT:NONAME	TYPE:Weapon.Ammunition.Armor.Shield	COST:0	VISIBLE:QUALIFY			SOURCEPAGE:H	PRETYPE:1,Weapon.Ammunition.Armor.Shiels																			TEMPVALUE:MIN=0|MAX=100000|TITLE=Cost of added Modifier	ASSIGNTOALL:YES	BONUS:ITEMCOST|TYPE.Weapon|-%CHOICE	BONUS:ITEMCOST|TYPE.Ammunition|-%CHOICE	BONUS:ITEMCOST|TYPE.Armor|-%CHOICE	BONUS:ITEMCOST|TYPE.Shield|-%CHOICE

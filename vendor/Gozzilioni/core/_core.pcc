@@ -13,9 +13,14 @@ PUBNAMELONG:Gozzilioni
 PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
+ALIGNMENT:g__align.lst
+SAVE:g__saves.lst
+STAT:g__stats.lst
+
+DATACONTROL:g_datacontrol.lst
+
 ABILITY:g_abilities.lst
 ABILITYCATEGORY:g_abilitycategories.lst
-DATACONTROL:g_datacontrol.lst
 EQUIPMOD:g_equipmods.lst
 TEMPLATE:g_template.lst
 SKILL:g_skills.lst

@@ -9,7 +9,7 @@ High	VISIBLE:NO	KEY:High Elf	SUBRACE:High
 # Gnome
 Rock	VISIBLE:NO	KEY:Rock Gnome	SUBRACE:Rock
 # Half-Elf
-Half-Elf	VISIBLE:NO	KEY:Half-Elf
+Half-Elf	VISIBLE:NO	KEY:Half-Elf ~ Half-Elf
 # Half-Orc
 Half-Orc	VISIBLE:NO	KEY:Half-Orc
 # Halfling
@@ -23,8 +23,8 @@ Languages	KEY:Elf ~ High ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Elven	LANGBONUS
 Favored Class	KEY:Elf ~ High ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Wizard
 Languages	KEY:Gnome ~ Rock ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Gnome	LANGBONUS:Draconic,Dwarven,Elven,Giant,Goblin,Orc
 Favored Class	KEY:Gnome ~ Rock ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Bard
-Languages	KEY:Half-Elf ~ Human ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Elven	LANGBONUS:TYPE=Spoken
-Favored Class	KEY:Half-Elf ~ Human ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:HIGHESTLEVELCLASS
+Languages	KEY:Half-Elf ~ Half-Elf ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Elven	LANGBONUS:TYPE=Spoken
+Favored Class	KEY:Half-Elf ~ Half-Elf ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:HIGHESTLEVELCLASS
 Languages	KEY:Half-Orc ~ Human ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Orc	LANGBONUS:Draconic,Giant,Gnoll,Goblin,Abyssal
 Favored Class	KEY:Half-Orc ~ Human ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Barbarian
 Languages	KEY:Halfling ~ Lightfoot ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Halfling	LANGBONUS:Dwarven,Elven,Gnome,Goblin,Orc
@@ -92,4 +92,4 @@ Kneeling	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are kneel
 Pinned	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You have been pinned.	TEMPBONUS:ANYPC|COMBAT|AC|-4
 Stunned	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are stunned, you drop everything held, and cannot take actions.	TEMPBONUS:ANYPC|COMBAT|AC|-2	TEMPBONUS:ANYPC|COMBAT|AC|-(max(DEX,0))|TYPE=Ability.STACK
 #
-Imbue Spell Like Ability ~ Cleric	VISIBLE:NO	CHOOSE:NUMBER|MIN=7|MAX=20|TITLE=Select Cleric Imbuing Spells upon you level	ADD:SPELLCASTER|Cleric	TEMPBONUS:PC|CASTERLEVEL|Cleric|%CHOICE
+Imbue Spell Like Ability ~ Cleric	VISIBLE:NO	TEMPVALUE:MIN=7|MAX=20|TITLE=Select Cleric Imbuing Spells upon you level	ADD:SPELLCASTER|Cleric	TEMPBONUS:PC|CASTERLEVEL|Cleric|%CHOICE

@@ -36,7 +36,10 @@ Boots		TYPE:Boot	COST:0	WT:0	SOURCEPAGE:PHB	MODS:REQUIRED	SLOTS:2
 Shoes		TYPE:Boot	COST:0	WT:0	SOURCEPAGE:PHB	MODS:REQUIRED	SLOTS:2		
 Art		TYPE:Art	COST:0	WT:0	SOURCEPAGE:PHB	MODS:REQUIRED			
 Gem		TYPE:Gem	COST:0	WT:0	SOURCEPAGE:PHB	MODS:REQUIRED			
-									
+#
+Spell Component	TYPE:MaterialComponent.Consumable	COST:0	WT:0	MODS:REQUIRED	SOURCEPAGE:PHB
+Spell Focus	TYPE:SpellFocus	COST:0	WT:0	MODS:REQUIRED	SOURCEPAGE:PHB
+
 # Trade Goods									
 Wheat (Per Lb.)		TYPE:Goods.Trade	COST:0.01	WT:1	SOURCEPAGE:PHB				
 Flour (Per Lb.)		TYPE:Goods.Trade	COST:0.02	WT:1	SOURCEPAGE:PHB				
@@ -235,8 +238,8 @@ Mule		TYPE:Goods.Creature.Container	COST:8		SOURCEPAGE:PHB	CONTAINS:*690|Any
 Feed (Per Day)		TYPE:Goods.Food	COST:0.05	WT:10	SOURCEPAGE:PHB				
 Horse (Heavy)		TYPE:Goods.Creature.Container	COST:200		SOURCEPAGE:PHB	CONTAINS:*600|Any			
 Horse (Light)		TYPE:Goods.Creature.Container	COST:75		SOURCEPAGE:PHB	CONTAINS:*450|Any			
-Warhorse (Heavy)		TYPE:Goods.Creature.Container	COST:400		SOURCEPAGE:PHB	CONTAINS:*900|Any			
-Warhorse (Light)		TYPE:Goods.Creature.Container	COST:150		SOURCEPAGE:PHB	CONTAINS:*690|Any			
+Horse (Warhorse/Heavy)		TYPE:Goods.Creature.Container	COST:400		SOURCEPAGE:PHB	CONTAINS:*900|Any			
+Horse (Warhorse/Light)		TYPE:Goods.Creature.Container	COST:150		SOURCEPAGE:PHB	CONTAINS:*690|Any			
 Pony		TYPE:Goods.Creature.Container	COST:30		SOURCEPAGE:PHB	CONTAINS:*225|Any			
 Warpony		TYPE:Goods.Creature.Container	COST:100		SOURCEPAGE:PHB	CONTAINS:*300|Any			
 Saddle (Military)	OUTPUTNAME:Saddle, [NAME]	TYPE:Goods.Saddle.Resizable	COST:20	WT:30	SOURCEPAGE:PHB	BONUS:SITUATION|Ride=Staying in the saddle|2|TYPE=Circumstance	SPROP:+2 circumstance bonus on Ride checks related to staying in the saddle	SORTKEY:Saddle (Military)	
@@ -273,37 +276,64 @@ Spells		TYPE:Service.SpellServices	COST:0		SOURCEPAGE:PHB	MODS:REQUIRED
 Lens (Ruby with Golden loop)		TYPE:Spellcomponent.SpellFocus	COST:1500	WT:0		SOURCEPAGE:PHB	DESC:Focus for Analyze Dweomer.
 Prayer Bead		TYPE:Spellcomponent.SpellFocus	COST:500	WT:0		SOURCEPAGE:PHB	DESC:Focus for Atonement.
 Sticks (Marked)		TYPE:Spellcomponent.SpellFocus	COST:25	WT:0		SOURCEPAGE:PHB	DESC:Focus for Augury.
-Reliquary		TYPE:Spellcomponent.SpellFocus	COST:500	WT:0		SOURCEPAGE:PHB	DESC:Focus for Cloak of Chaos, Holy Aura.
+Reliquary		TYPE:Spellcomponent.SpellFocus	COST:500	WT:0		SOURCEPAGE:PHB	DESC:Focus for Cloak of Chaos, Holy Aura, Shield of Law, Unholy Aura, Hallow, Unhallow.
 Statuette (Self/Ivory)		TYPE:Spellcomponent.SpellFocus	COST:1500	WT:0		SOURCEPAGE:PHB	DESC:Focus for Contingency.
 Strips (Set 4/Ivory)		TYPE:Spellcomponent.SpellFocus	COST:200	WT:0		SOURCEPAGE:PHB	DESC:Focus for Legend Lore.
 Miniature (Portal/Ivory)		TYPE:Spellcomponent.SpellFocus	COST:5	WT:0		SOURCEPAGE:PHB	DESC:Focus for Mordenkainen's Magnificent Mansion.
 Miniature (Sword/Platinum)		TYPE:Spellcomponent.SpellFocus	COST:250	WT:0		SOURCEPAGE:PHB	DESC:Focus for Mordenkainen's Sword.
 Marble		TYPE:Spellcomponent.SpellFocus	COST:5	WT:0		SOURCEPAGE:PHB	DESC:Focus for Mordenkainen's Magnificent Mansion.
 Spoon (Tiny/Silver)		TYPE:Spellcomponent.SpellFocus	COST:5	WT:0		SOURCEPAGE:PHB	DESC:Focus for Mordenkainen's Magnificent Mansion.
+Diamond		TYPE:Spellcomponent.SpellFocus	COST:1000	WT:0	SOURCEPAGE:PHB	DESC:Focus for Protection from Spells.
+Plaque (Ivory)		TYPE:Spellcomponent.SpellFocus	COST:500	WT:0		SOURCEPAGE:PHB	DESC:Focus for Rary's Mnemonic Enhancer.
+Statuette (small iron bars attached to two small canine, one black and one white)	KEY:Statuette 1	TYPE:Spellcomponent.SpellFocus	COST:50	WT:0		SOURCEPAGE:PHB	DESC:Focus for Repulsion.
+Mirror (Medium/Silver)		TYPE:Goods.General.Spellcomponent.SpellFocus	COST:1000	WT:0		SOURCEPAGE:PHB	DESC:Focus for Scrying.
+Font (Holy Water)		TYPE:Goods.General.Spellcomponent.SpellFocus	COST:100	WT:0		SOURCEPAGE:PHB	DESC:Focus for Scrying.
+Circlet (Jade)		TYPE:Goods.General.Headgear	COST:1500	WT:0		SOURCEPAGE:PHB	DESC:Focus for Shapechange.
+Ring (Platinum/50 mo)		TYPE:Goods.Ring	COST:50	WT:0		SOURCEPAGE:PHB	DESC:Focus for Shield Other.
 #
 Onyx (Black)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:0	WT:0	SOURCEPAGE:PHB	DESC:Material component for Animate Dead (25xHD), Create Undead (50xHD), Create Greater Undead (50xHD)	MODS:YES
+Diamond (500 mo)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:PHB	DESC:Material component for Protection from Spells
+Diamond (5000 mo)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:5000	WT:0	SOURCEPAGE:PHB	DESC:Material component for Raise Dead.
+Diamond (10000 mo)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:10000	WT:0	SOURCEPAGE:PHB	DESC:Material component for Resurrection.
+Diamond (25000 mo)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:25000	WT:0	SOURCEPAGE:PHB	DESC:Material component for True Resurrection.
 Opal		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:PHB	DESC:Material component for Binding (500*HD)	MODS:YES
 Jacinth		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	DESC:Material component for Astral Projection
 Sapphire		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	DESC:Material component for Drawmij's Instant Summoning
 Ruby		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:1500	WT:0	SOURCEPAGE:PHB	DESC:Material component for Forcecage.
 Clone's Lab Supplies		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	DESC:Material component for Clone
+Gem (Specific)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	DESC:Material component for Trap the Soul (1000*HD)	MODS:YES
 #
 Bar (Silver)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:5	WT:0	SOURCEPAGE:PHB	DESC:Material component for Astral Projection.
 Pearl (100Mo)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:PHB	DESC:Material component for Identify.
-Dust (Diamond)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:PHB	DESC:Material component for Nondetection.
-Dust (Gold)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:25	WT:0.5	SOURCEPAGE:PHB	DESC:Material component for Arcane Lock, Fire Trap.
+Pearl (1500Mo)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:1500	WT:0	SOURCEPAGE:PHB	DESC:Material component for Sympathy.
+Dust (Amber/1000 mo)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	DESC:Material component for Teleportation Circle.
+Dust (Diamond/50 mo)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:PHB	DESC:Material component for Nondetection.
+Dust (Diamond/250 mo)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:250	WT:0	SOURCEPAGE:PHB	DESC:Material component for Stoneskin.
+Dust (Diamond/100 mo)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:PHB	DESC:Material component for Restoration.
+Dust (Gold/25 mo)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:25	WT:0.5	SOURCEPAGE:PHB	DESC:Material component for Arcane Lock, Fire Trap.
+Dust (Gold/50 mo)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:50	WT:1	SOURCEPAGE:PHB	DESC:Material component for Wall of Iron.
 Dust (Ruby)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:PHB	DESC:Material component for Continual Flame.
 Dust (Silver)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:25	WT:5	SOURCEPAGE:PHB	DESC:Material component for Consecrate, Desecrate.
-Dust (Jade/small)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:10	WT:0	SOURCEPAGE:PHB	DESC:Material component for Magic Mouth.
-Dust (Jade)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:250	WT:0	SOURCEPAGE:PHB	DESC:Material component for False Vision.
-Powder (Diamond)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:200	WT:5	SOURCEPAGE:PHB	DESC:Material component for Greater Glyph of Warding.
+Dust (Jade/10mo)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:10	WT:0	SOURCEPAGE:PHB	DESC:Material component for Magic Mouth.
+Dust (Jade/25mo)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:25	WT:0	SOURCEPAGE:PHB	DESC:Material component for Programmed Image.
+Dust (Jade/250)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:250	WT:0	SOURCEPAGE:PHB	DESC:Material component for False Vision.
+Powder (Amber)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:500	WT:5	SOURCEPAGE:PHB	DESC:Material component for Sepia Snake Sigil.
+Powder (Diamond/200 mo)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:200	WT:5	SOURCEPAGE:PHB	DESC:Material component for Greater Glyph of Warding.
+Powder (Diamond/500 mo)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:PHB	DESC:Material component for Symbol of Death, Undeath to Death.
+Powder (Opal/500 mo)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:PHB	DESC:Material component for Symbol of Death.
+Powder (Diamond/2500 mo)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:2500	WT:0	SOURCEPAGE:PHB	DESC:Material component for Symbol of Persuasion.
+Powder (Opal/2500 mo)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:2500	WT:0	SOURCEPAGE:PHB	DESC:Material component for Symbol of Persuasion.
 Powder (Silver)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:25	WT:5	SOURCEPAGE:PHB	DESC:Material component for Bless Water, Curse Water.
 Powder (Pearl)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:PHB	DESC:Material component for Circle of Death.
 Powder (Jade)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:PHB	DESC:Material component for Permanent Image.
+Powder (Mix Diamond, Emerald, Ruby and Sapphire)	KEY:Powder 1	TYPE:Spellcomponent.MaterialComponent.Consumable	COST:5000	WT:0	SOURCEPAGE:PHB	DESC:Material component for Temporal Stasis.
 #
-Incense		TYPE:Goods.General.Spellcomponent.MaterialComponent.Consumable	COST:25	WT:1	SOURCEPAGE:PHB	DESC:Material component for Augury.
-Incense (Medium)		TYPE:Goods.General.Spellcomponent.MaterialComponent.Consumable	COST:250	WT:1	SOURCEPAGE:PHB	DESC:Material component for Legend Lore.
-Incense (Rare)		TYPE:Goods.General.Spellcomponent.MaterialComponent.Consumable	COST:1500	WT:1	SOURCEPAGE:PHB	DESC:Material component for Forbiddance.
+Incense (25 mo)		TYPE:Goods.General.Spellcomponent.MaterialComponent.Consumable	COST:25	WT:1	SOURCEPAGE:PHB	DESC:Material component for Augury.
+Incense (250 mo)		TYPE:Goods.General.Spellcomponent.MaterialComponent.Consumable	COST:250	WT:1	SOURCEPAGE:PHB	DESC:Material component for Legend Lore.
+Incense (1500 mo)		TYPE:Goods.General.Spellcomponent.MaterialComponent.Consumable	COST:1500	WT:1	SOURCEPAGE:PHB	DESC:Material component for Forbiddance.
 Statuette (Carved)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:0	WT:0	SOURCEPAGE:PHB	DESC:Material component for Binding	MODS:YES
-Mix (herbs, oils, incense)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	DESC:Material component for Hallow	MODS:YES
+Mix (herbs, oils, incense)	KEY:Mix 1	TYPE:Spellcomponent.MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	DESC:Material component for Hallow, Unhallow	MODS:YES
+Mix (rare oils and unguent)	KEY:Mix 2	TYPE:Spellcomponent.MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	DESC:Material component for Reincarnation	MODS:YES
+Ointment (mushroom powder, saffron and fat)	KEY:Ointment 1	TYPE:Spellcomponent.MaterialComponent.Consumable	COST:250	WT:0	SOURCEPAGE:PHB	DESC:Material component for True Seeing.
 Ink (1 Oz. Vial/lead)		TYPE:Goods.General.Writing.Liquid.Vial.Spellcomponent.MaterialComponent.Consumable	COST:50		SOURCEPAGE:PHB	DESC:Material component for Illusory Script.
+Doll (Replica)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:0	WT:0	SOURCEPAGE:PHB	DESC:Material component for Project Image.	MODS:YES

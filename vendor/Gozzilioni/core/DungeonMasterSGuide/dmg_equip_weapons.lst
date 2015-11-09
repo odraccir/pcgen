@@ -1,0 +1,61 @@
+SOURCELONG:Gozzilioni Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+#																							
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:	
+# Simple Weapons																							
+## Unarmed																							
+																							
+## Light																							
+Blowgun			PROFICIENCY:WEAPON|Blowgun	TYPE:Weapon.Ranged.Simple.Piercing.Light.Container	COST:1	WT:2	WIELD:Light		SIZE:M	DAMAGE:1	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:DMG							RANGE:120		CONTAINS:UNLIM|Needle|SpecificNeedle
+																							
+## OneHanded																							
+																							
+## TwoHanded																							
+																							
+## Ranged																							
+																							
+# Martial Weapons																							
+## Light																							
+Wakizashi			PROFICIENCY:WEAPON|Wakizashi	TYPE:Weapon.Melee.Martial.Slashing.Light.Sword	COST:300	WT:3	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW.EQ_COST_ADJ|300	SOURCEPAGE:DMG									
+																							
+## OneHanded																							
+																							
+## TwoHanded																							
+																							
+## Ranged																							
+																							
+# Exotic Weapons																							
+## Light																							
+Kusari-gama			PROFICIENCY:WEAPON|Kusari-gama	TYPE:Weapon.Melee.Exotic.Slashing.Light.Reach	COST:10	WT:3	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:DMG								REACHMULT:2	
+																							
+## OneHanded																							
+Katana			PROFICIENCY:WEAPON|Katana	TYPE:Weapon.Melee.Exotic.Slashing.OneHanded.Sword	COST:400	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW.EQ_COST_ADJ|300	SOURCEPAGE:DMG									
+																							
+## TwoHanded																							
+																							
+## Ranged																							
+Musket			PROFICIENCY:WEAPON|Firearm	TYPE:Weapon.Ranged.Exotic.Piercing.TwoHanded.Container.Firearm	COST:500	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:1d12	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:DMG							RANGE:150		CONTAINS:UNLIM|Bullet|SpecificBullet
+Pistol			PROFICIENCY:WEAPON|Firearm	TYPE:Weapon.Ranged.Exotic.Piercing.OneHanded.Container.Firearm	COST:250	WT:3	WIELD:OneHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:DMG							RANGE:50		CONTAINS:UNLIM|Bullet|SpecificBullet
+Pistol (Automatic)	OUTPUTNAME: Pistol, [NAME]		PROFICIENCY:WEAPON|Modern Firearm	TYPE:Weapon.Ranged.Exotic.Piercing.OneHanded.Container.Firearm	COST:0	WT:3	WIELD:OneHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:DMG							RANGE:40		CONTAINS:UNLIM|Bullet|SpecificBullet
+Pistol (Revolver)	OUTPUTNAME: Pistol, [NAME]		PROFICIENCY:WEAPON|Modern Firearm	TYPE:Weapon.Ranged.Exotic.Piercing.OneHanded.Container.Firearm	COST:0	WT:3	WIELD:OneHanded		SIZE:M	DAMAGE:2d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:DMG							RANGE:30		CONTAINS:UNLIM|Bullet|SpecificBullet
+Rifle (Hunting)	OUTPUTNAME: Rifle, [NAME]		PROFICIENCY:WEAPON|Modern Firearm	TYPE:Weapon.Ranged.Exotic.Piercing.TwoHanded.Container.Firearm	COST:0	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d10	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:DMG							RANGE:80		CONTAINS:UNLIM|Bullet|SpecificBullet
+Rifle (Automatic)	OUTPUTNAME: Rifle, [NAME]		PROFICIENCY:WEAPON|Modern Firearm	TYPE:Weapon.Ranged.Exotic.Piercing.TwoHanded.Container.Firearm	COST:0	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:DMG							RANGE:80		CONTAINS:UNLIM|Bullet|SpecificBullet
+Shotgun			PROFICIENCY:WEAPON|Modern Firearm	TYPE:Weapon.Ranged.Exotic.Piercing.TwoHanded.Container.Firearm	COST:0	WT:7	WIELD:TwoHanded		SIZE:M	DAMAGE:2d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:DMG							RANGE:30		CONTAINS:UNLIM|Bullet|SpecificBullet
+Grenade Launcher			PROFICIENCY:WEAPON|Modern Firearm	TYPE:Weapon.Ranged.Exotic.Piercing.TwoHanded.Container.Firearm	COST:0	WT:7	WIELD:TwoHanded		SIZE:M				EQMOD:STEEL	SOURCEPAGE:DMG							RANGE:70		CONTAINS:UNLIM|Grenade|SpecificGrenade
+Pistol (Laser)	OUTPUTNAME:Pistol, [NAME]		PROFICIENCY:WEAPON|Future Firearm	TYPE:Weapon.Ranged.Exotic.Piercing.OneHanded.Container.Firearm	COST:0	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:3d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:DMG	SPROP:15 shots/Energy Cell						RANGE:40		CONTAINS:1|EnergyCell
+Rifle (Antimatter)	OUTPUTNAME:Rifle, [NAME]		PROFICIENCY:WEAPON|Future Firearm	TYPE:Weapon.Ranged.Exotic.Piercing.TwoHanded.Firearm	COST:0	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:6d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:DMG	SPROP:2 shots/Energy Cell						RANGE:120		
+Flamer			PROFICIENCY:WEAPON|Future Firearm	TYPE:Weapon.Ranged.Exotic.Piercing.TwoHanded.Container.Firearm	COST:0	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:3d6			EQMOD:STEEL	SOURCEPAGE:DMG	SPROP:Fire damage. 10 shots/Fuel Pack						RANGE:20		CONTAINS:1|FuelPack
+Rifle (Laser)	OUTPUTNAME:Rifle, [NAME]		PROFICIENCY:WEAPON|Future Firearm	TYPE:Weapon.Ranged.Exotic.Piercing.TwoHanded.Firearm	COST:0	WT:7	WIELD:TwoHanded		SIZE:M	DAMAGE:3d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:DMG	SPROP:30 shots/Energy Cell						RANGE:100		
+																							
+# Arrows																							
+Needles (Blowgun/20)				TYPE:Ammunition.Standard.Needle	COST:1	WT:0							EQMOD:STEEL	SOURCEPAGE:DMG								BASEQTY:20	MODS:YES
+Needle (Blowgun)				TYPE:Ammunition.Standard.Needle	COST:0.05	WT:0							EQMOD:STEEL	SOURCEPAGE:DMG									MODS:YES
+Bullet (Firearm/10)				TYPE:Ammunition.Standard.Bullet	COST:3	WT:0							EQMOD:STEEL	SOURCEPAGE:DMG								BASEQTY:10	MODS:YES
+Bullet (Firearm)				TYPE:Ammunition.Standard.Bullet	COST:0.3	WT:0							EQMOD:STEEL	SOURCEPAGE:DMG									MODS:YES
+Energy Cell				TYPE:Ammunition.Standard.EnergyCell	COST:0	WT:1								SOURCEPAGE:DMG									
+Fuel Pack				TYPE:Ammunition.Standard.FuelPack	COST:0	WT:1								SOURCEPAGE:DMG									
+																							
+Bomb				TYPE:Weapon.Ranged.Piercing.Bomb	COST:150	WT:1	WIELD:Light		SIZE:M	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:DMG	SPROP:Fire damage						RANGE:10		
+Bomb (Smoke)				TYPE:Weapon.Ranged.Piercing.Bomb	COST:70	WT:1	WIELD:Light		SIZE:M	DAMAGE:0				SOURCEPAGE:DMG							RANGE:10		
+Grenade (Dynamite)				TYPE:Weapon.Ammunition.Ranged.Bludgeoning.Grenade	COST:0	WT:1	WIELD:Light		SIZE:M	DAMAGE:3d6			EQMOD:STEEL	SOURCEPAGE:DMG							RANGE:10		MODS:YES
+Grenade (Fragmentation)				TYPE:Weapon.Ammunition.Ranged.Bludgeoning.Grenade	COST:0	WT:1	WIELD:Light		SIZE:M	DAMAGE:4d6			EQMOD:STEEL	SOURCEPAGE:DMG							RANGE:10		MODS:YES
+Grenade (Smoke)				TYPE:Weapon.Ammunition.Ranged.Bludgeoning.Grenade	COST:0	WT:2	WIELD:Light		SIZE:M	DAMAGE:0			EQMOD:STEEL	SOURCEPAGE:DMG							RANGE:10		MODS:YES

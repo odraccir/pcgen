@@ -38,8 +38,8 @@ Shortspear	TYPE:Simple.Melee.Ranged.Piercing.MeleePiercing.RangedPiercing.OneHan
 Sickle	TYPE:Simple.Melee.Slashing.MeleeSlashing.Light.Sickle		
 Spear	TYPE:Simple.Melee.Ranged.Piercing.MeleePiercing.RangedPiercing.TwoHanded.Spear		
 Unarmed Strike	TYPE:Simple.Melee.Bludgeoning.MeleeBludgeoning.Unarmed		
-Javelin	TYPE:Weapon.Ranged.Thrown.Piercing.RangedPiercing.Javelin
-Sling	TYPE:Weapon.Ranged.Piercing.RangedPiercing.Sling
+Javelin	TYPE:Simple.Ranged.Thrown.Piercing.RangedPiercing.Javelin
+Sling	TYPE:Simple.Ranged.Piercing.RangedPiercing.Sling
 ###Martial			
 Axe (Throwing)	TYPE:Martial.Melee.Ranged.Slashing.MeleeSlashing.RangedSlashing.Light.Axe		
 Hammer (Light)	TYPE:Martial.Melee.Ranged.Bludgeoning.MeleeBludgeoning.RangedBludgeoning.Light.Hammer		
@@ -85,7 +85,7 @@ Sword (Two-Bladed)	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.Sword.Doub
 Urgosh (Dwarven)	TYPE:Exotic.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing.TwoHanded.DoubleWeapon.Dwarven		
 Bolas	TYPE:Exotic.Ranged.Thrown.Bludgeoning.RangedBludgeoning.Bolas
 Crossbow (Hand)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2	
-Crossbow (Repeating/Heavy)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2	
-Crossbow (Repeating/Light)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2	
+Crossbow (Heavy/Repeating)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2	
+Crossbow (Light/Repeating)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2	
 Net	TYPE:Exotic.Ranged.Thrown.Net
 Shuriken	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Shuriken		

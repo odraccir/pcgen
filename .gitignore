@@ -1,6 +1,7 @@
 .~lock.*
 *.bak
 *.log
+*.lck
 *.properties
 data/**
 docs/**

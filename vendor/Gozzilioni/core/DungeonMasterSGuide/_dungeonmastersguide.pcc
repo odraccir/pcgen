@@ -1,0 +1,46 @@
+CAMPAIGN:Gozzilioni Dungeon Master's Guide
+GAMEMODE:G35e
+RANK:1
+TYPE:Gozzilioni.Partial.Core
+SETTING:Heroes
+BOOKTYPE:Campaign
+SOURCELONG:Gozzilioni Dungeons Master's Guide
+SOURCESHORT:DMG
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2003-07
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+
+PRECAMPAIGN:1,Gozzilioni Core Ruleset
+
+ABILITY:dmg_abilities.lst
+ABILITY:dmg_abilities_classes.lst
+ABILITY:dmg_abilities_races.lst
+ABILITYCATEGORY:dmg_abilitycategories.lst
+CLASS:dmg_classes.lst
+COMPANIONMOD:dmg_companionmods.lst
+EQUIPMOD:dmg_equimods.lst
+EQUIPMENT:dmg_equip.lst
+EQUIPMENT:dmg_equip_weapons.lst
+ABILITY:dmg_feats.lst
+KIT:dmg_kits.lst
+WEAPONPROF:dmg_profs_weapon.lst
+SPELL:dmg_spells.lst
+TEMPLATE:dmg_templates.lst
+
+#
+FORWARDREF:ABILITY=Special Ability|Fast Healing
+
+# ENTRY DATE: 2015-08 
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

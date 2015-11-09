@@ -25,6 +25,8 @@ ABILITYCATEGORY:Breed Quality	CATEGORY:Special Ability	TYPE:BreedQuality	VISIBLE
 #Abilitygroup:Ability Focus																						
 ABILITYCATEGORY:Ability Focus	CATEGORY:Ability Focus		VISIBLE:NO	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Ability Focuses			DISPLAYLOCATION:Feats
 
+ABILITYCATEGORY:Skill Level	CATEGORY:Special Ability	TYPE:SkillLevel	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO	PLURAL:Skills Level	DISPLAYLOCATION:Class Abilities	
+
 #
 # End
 #

@@ -1,0 +1,24 @@
+SOURCELONG:Gozzilioni Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+#			
+### Weapon/Spell			
+### Simple/Martial/Exotic			
+### Melee/Ranged			
+### Bludgeoning/Piercing/Slashing			
+### Reach/Double/Thrown/Projectile/Ammunition			
+### Unharmed/Light/OneHanded/TwoHanded			
+###Automatic			
+			
+###Simple			
+Blowgun	TYPE:Simple.Ranged.Piercing.RangedPiercing.Light.Reach			
+
+###Martial			
+Wakizashi	TYPE:Martial.Melee.Slashing.MeleeSlashing.Light.Sword		
+			
+###Exotic			
+Kusari-gama	TYPE:Exotic.Melee.Slashing.MeleeSlashing.Light.Reach		
+Katana	TYPE:Exotic.Melee.Slashing.MeleeSlashing.OneHanded		
+
+###Firearms
+Firearm	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Light.OneHanded.TwoHanded
+Modern Firearm	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Light.OneHanded.TwoHanded
+Future Firearm	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Light.OneHanded.TwoHanded

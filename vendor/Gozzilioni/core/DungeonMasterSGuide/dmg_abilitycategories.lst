@@ -1,0 +1,44 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+
+# Subrace Support
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Adept Class Feature	CATEGORY:Special Ability	TYPE:AdeptClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Adept Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Aristocrat Class Feature	CATEGORY:Special Ability	TYPE:AristocratClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Aristocrat Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Commoner Class Feature	CATEGORY:Special Ability	TYPE:CommonerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Commoner Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Expert Class Feature	CATEGORY:Special Ability	TYPE:ExpertClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Expert Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Warrior Class Feature	CATEGORY:Special Ability	TYPE:WarriorClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Warrior Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Arcane Archer Class Feature	CATEGORY:Special Ability	TYPE:ArcaneArcherClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Arcane Archer Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Arcane Trickster Class Feature	CATEGORY:Special Ability	TYPE:ArcaneTricksterClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Arcane Trickster Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Archmage Class Feature	CATEGORY:Special Ability	TYPE:ArchmageClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Archmage Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Assassin Class Feature	CATEGORY:Special Ability	TYPE:AssassinClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Assassin Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Blackguard Class Feature	CATEGORY:Special Ability	TYPE:BlackguardClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Blackguard Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Dragon Disciple Class Feature	CATEGORY:Special Ability	TYPE:DragonDiscipleClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dragon Disciple Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Duelist Class Feature	CATEGORY:Special Ability	TYPE:DuelistClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Duelist Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Dwarven Defender Class Feature	CATEGORY:Special Ability	TYPE:DwarvenDefenderClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dwarven Defender Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Eldritch Knight Class Feature	CATEGORY:Special Ability	TYPE:EldritchKnightClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Eldritch Knight Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Hierophant Class Feature	CATEGORY:Special Ability	TYPE:HierophantClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Hierophant Class Features			DISPLAYLOCATION:Class Features
+
+ABILITYCATEGORY:Fiendish Servant Class Feature	CATEGORY:Special Ability	TYPE:FiendishServantClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Fiendish Servant Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Undead Companion Class Feature	CATEGORY:Special Ability	TYPE:UndeadCompanionClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Undead Companion Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups
+ABILITYCATEGORY:Simple Weapon Proficiency Choice	CATEGORY:Special Ability		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO	ABILITYLIST:Single Simple Weapon Proficiency										PLURAL:Simple Weapon Proficiency Choice			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Class Skill	CATEGORY:Special Ability	TYPE:ClassSkill	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Class Skills			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:High Arcana	CATEGORY:Special Ability	TYPE:HighArcana	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:High Arcanas			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Bonus Spell	CATEGORY:Special Ability	TYPE:BonusSpell	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Bonus Spells			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Hierophant Special Ability	CATEGORY:Special Ability	TYPE:HierophantSpecialAbility	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Hierophant Special Abilities			DISPLAYLOCATION:Class Features
+
+#Feats Ability pools
+
+#Companion Support
+ABILITYCATEGORY:Fiendish Servant Selection	CATEGORY:Internal	TYPE:FiendishServantSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Fiendish Servant Choice			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Undead Companion Selection	CATEGORY:Internal	TYPE:UndeadCompanionSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Undead Companion Choice			DISPLAYLOCATION:Class Features
+
+#other
+ABILITYCATEGORY:Spell-Like Ability Selection	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability									ABILITYLIST:Spell-Like Ability Selection												DISPLAYLOCATION:Class Features
+
+#
+# End
+#

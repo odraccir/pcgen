@@ -1,0 +1,1644 @@
+SOURCELONG:Gozzilioni Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07	
+				
+
+STARTPACK:Table 3-5 Treasure	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Treasure 3-5 Level 01	PREVAREQ:CR,1
+KIT:Treasure 3-5 Level 02	PREVAREQ:CR,2
+KIT:Treasure 3-5 Level 03	PREVAREQ:CR,3
+KIT:Treasure 3-5 Level 04	PREVAREQ:CR,4
+KIT:Treasure 3-5 Level 05	PREVAREQ:CR,5
+KIT:Treasure 3-5 Level 06	PREVAREQ:CR,6
+KIT:Treasure 3-5 Level 07	PREVAREQ:CR,7
+KIT:Treasure 3-5 Level 08	PREVAREQ:CR,8
+KIT:Treasure 3-5 Level 09	PREVAREQ:CR,9
+KIT:Treasure 3-5 Level 11	PREVAREQ:CR,11
+KIT:Treasure 3-5 Level 12	PREVAREQ:CR,12
+KIT:Treasure 3-5 Level 13	PREVAREQ:CR,13
+KIT:Treasure 3-5 Level 14	PREVAREQ:CR,14
+KIT:Treasure 3-5 Level 15	PREVAREQ:CR,15
+KIT:Treasure 3-5 Level 16	PREVAREQ:CR,16
+KIT:Treasure 3-5 Level 17	PREVAREQ:CR,17
+KIT:Treasure 3-5 Level 18	PREVAREQ:CR,18
+KIT:Treasure 3-5 Level 19	PREVAREQ:CR,19
+KIT:Treasure 3-5 Level 20	PREVAREQ:CR,20
+KIT:Treasure 3-5 Level 21	PREVAREQ:CR,21
+KIT:Treasure 3-5 Level 22	PREVAREQ:CR,22
+KIT:Treasure 3-5 Level 23	PREVAREQ:CR,23
+KIT:Treasure 3-5 Level 24	PREVAREQ:CR,24
+KIT:Treasure 3-5 Level 25	PREVAREQ:CR,25
+KIT:Treasure 3-5 Level 26	PREVAREQ:CR,26
+KIT:Treasure 3-5 Level 27	PREVAREQ:CR,27
+KIT:Treasure 3-5 Level 28	PREVAREQ:CR,28
+KIT:Treasure 3-5 Level 29	PREVAREQ:CR,29
+KIT:Treasure 3-5 Level 30	PREVAREQ:CR,30
+
+STARTPACK:Treasure 3-5 Level 01	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Level 1 ~ Coins				
+KIT:Level 1 ~ Goods				
+KIT:Level 1 ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 02	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Level 2 ~ Coins				
+KIT:Level 2 ~ Goods				
+KIT:Level 2 ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 03	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Level 3 ~ Coins				
+KIT:Level 3 ~ Goods				
+KIT:Level 3 ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 04	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Level 4 ~ Coins				
+KIT:Level 4 ~ Goods				
+KIT:Level 4 ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 05	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Level 5 ~ Coins				
+KIT:Level 5 ~ Goods				
+KIT:Level 5 ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 06	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Level 6 ~ Coins				
+KIT:Level 6 ~ Goods				
+KIT:Level 6 ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 07	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Level 7 ~ Coins				
+KIT:Level 7 ~ Goods				
+KIT:Level 7 ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 08	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Level 8 ~ Coins				
+KIT:Level 8 ~ Goods				
+KIT:Level 8 ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 09	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Level 9 ~ Coins				
+KIT:Level 9 ~ Goods				
+KIT:Level 9 ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 10	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Level 10 ~ Coins				
+KIT:Level 10 ~ Goods				
+KIT:Level 10 ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 11	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Level 11 ~ Coins				
+KIT:Level 11 ~ Goods				
+KIT:Level 11 ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 12	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Level 12 ~ Coins				
+KIT:Level 12 ~ Goods				
+KIT:Level 12 ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 13	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Level 13 ~ Coins				
+KIT:Level 13 ~ Goods				
+KIT:Level 13 ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 14	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Level 14 ~ Coins				
+KIT:Level 14 ~ Goods				
+KIT:Level 14 ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 15	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Level 15 ~ Coins				
+KIT:Level 15 ~ Goods				
+KIT:Level 15 ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 16	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Level 16 ~ Coins				
+KIT:Level 16 ~ Goods				
+KIT:Level 16 ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 17	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Level 17 ~ Coins				
+KIT:Level 17 ~ Goods				
+KIT:Level 17 ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 18	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
+KIT:Level 18 ~ Coins				
+KIT:Level 18 ~ Goods				
+KIT:Level 18 ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 19	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Level 19 ~ Coins				
+KIT:Level 19 ~ Goods				
+KIT:Level 19 ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 20	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Level 20 ~ Coins				
+KIT:Level 20 ~ Goods				
+KIT:Level 20 ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 21	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Treasure 3-5 Level 20				
+KIT:Level 21+ ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 22	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Treasure 3-5 Level 20				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 23	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Treasure 3-5 Level 20				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 24	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Treasure 3-5 Level 20				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 25	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Treasure 3-5 Level 20				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 26	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Treasure 3-5 Level 20				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 27	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Treasure 3-5 Level 20				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 28	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Treasure 3-5 Level 20				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 29	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Treasure 3-5 Level 20				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+				
+STARTPACK:Treasure 3-5 Level 30	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+KIT:Treasure 3-5 Level 20				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+KIT:Level 21+ ~ Items				
+				
+STARTPACK:Level 1 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Coin (Copper)	QTY:roll("1d6")*1000	OPTION:15,29		
+GEAR:Coin (Silver)	QTY:roll("1d8")*100	OPTION:30,52		
+GEAR:Coin (Gold)	QTY:roll("2d8")*10	OPTION:53,95		
+GEAR:Coin (Platinum)	QTY:roll("1d4")*10	OPTION:96,100		
+				
+STARTPACK:Level 2 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Coin (Copper)	QTY:roll("1d10")*1000	OPTION:14,23		
+GEAR:Coin (Silver)	QTY:roll("2d10")*100	OPTION:24,43		
+GEAR:Coin (Gold)	QTY:roll("4d10")*10	OPTION:44,95		
+GEAR:Coin (Platinum)	QTY:roll("2d8")*10	OPTION:96,100		
+				
+STARTPACK:Level 3 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Coin (Copper)	QTY:roll("2d10")*1000	OPTION:12,21		
+GEAR:Coin (Silver)	QTY:roll("4d8")*100	OPTION:22,41		
+GEAR:Coin (Gold)	QTY:roll("1d4")*100	OPTION:42,95		
+GEAR:Coin (Platinum)	QTY:roll("1d10")*10	OPTION:96,100		
+				
+STARTPACK:Level 4 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Coin (Copper)	QTY:roll("3d10")*1000	OPTION:12,21		
+GEAR:Coin (Silver)	QTY:roll("4d12")*1000	OPTION:22,41		
+GEAR:Coin (Gold)	QTY:roll("1d6")*100	OPTION:42,95		
+GEAR:Coin (Platinum)	QTY:roll("1d8")*10	OPTION:96,100		
+				
+STARTPACK:Level 5 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Coin (Copper)	QTY:roll("1d4")*10000	OPTION:11,19		
+GEAR:Coin (Silver)	QTY:roll("1d6")*1000	OPTION:20,38		
+GEAR:Coin (Gold)	QTY:roll("1d8")*100	OPTION:39,95		
+GEAR:Coin (Platinum)	QTY:roll("1d10")*10	OPTION:96,100		
+				
+STARTPACK:Level 6 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Coin (Copper)	QTY:roll("1d6")*10000	OPTION:11,18		
+GEAR:Coin (Silver)	QTY:roll("1d8")*1000	OPTION:19,37		
+GEAR:Coin (Gold)	QTY:roll("1d10")*100	OPTION:38,95		
+GEAR:Coin (Platinum)	QTY:roll("1d12")*10	OPTION:96,100		
+				
+STARTPACK:Level 7 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Coin (Copper)	QTY:roll("1d10")*10000	OPTION:12,18		
+GEAR:Coin (Silver)	QTY:roll("1d12")*1000	OPTION:19,35		
+GEAR:Coin (Gold)	QTY:roll("2d6")*100	OPTION:36,93		
+GEAR:Coin (Platinum)	QTY:roll("3d4")*10	OPTION:94,100		
+				
+STARTPACK:Level 8 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Coin (Copper)	QTY:roll("1d12")*10000	OPTION:11,15		
+GEAR:Coin (Silver)	QTY:roll("2d6")*1000	OPTION:16,29		
+GEAR:Coin (Gold)	QTY:roll("2d8")*100	OPTION:30,87		
+GEAR:Coin (Platinum)	QTY:roll("3d6")*10	OPTION:88,100		
+				
+STARTPACK:Level 9 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Coin (Copper)	QTY:roll("2d6")*10000	OPTION:11,15		
+GEAR:Coin (Silver)	QTY:roll("2d8")*1000	OPTION:16,29		
+GEAR:Coin (Gold)	QTY:roll("5d4")*100	OPTION:30,85		
+GEAR:Coin (Platinum)	QTY:roll("2d12")*10	OPTION:86,100		
+				
+STARTPACK:Level 10 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Coin (Silver)	QTY:roll("2d10")*1000	OPTION:11,24		
+GEAR:Coin (Gold)	QTY:roll("6d4")*100	OPTION:25,79		
+GEAR:Coin (Platinum)	QTY:roll("5d6")*10	OPTION:80,100		
+				
+STARTPACK:Level 11 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Coin (Silver)	QTY:roll("3d10")*1000	OPTION:9,14		
+GEAR:Coin (Gold)	QTY:roll("4d8")*100	OPTION:15,75		
+GEAR:Coin (Platinum)	QTY:roll("4d10")*10	OPTION:76,100		
+				
+STARTPACK:Level 12 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Coin (Silver)	QTY:roll("3d12")*1000	OPTION:9,14		
+GEAR:Coin (Gold)	QTY:roll("1d4")*1000	OPTION:15,75		
+GEAR:Coin (Platinum)	QTY:roll("1d4")*100	OPTION:76,100		
+				
+STARTPACK:Level 13 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Coin (Gold)	QTY:roll("1d4")*1000	OPTION:9,75		
+GEAR:Coin (Platinum)	QTY:roll("1d10")*100	OPTION:76,100		
+				
+STARTPACK:Level 14 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Coin (Gold)	QTY:roll("1d6")*1000	OPTION:9,75		
+GEAR:Coin (Platinum)	QTY:roll("1d12")*100	OPTION:76,100		
+				
+STARTPACK:Level 15 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Coin (Gold)	QTY:roll("1d8")*1000	OPTION:4,74		
+GEAR:Coin (Platinum)	QTY:roll("3d4")*100	OPTION:75,100		
+				
+STARTPACK:Level 16 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Coin (Gold)	QTY:roll("1d12")*1000	OPTION:9,75		
+GEAR:Coin (Platinum)	QTY:roll("3d4")*100	OPTION:76,100		
+				
+STARTPACK:Level 17 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Coin (Gold)	QTY:roll("3d4")*1000	OPTION:4,68		
+GEAR:Coin (Platinum)	QTY:roll("2d10")*100	OPTION:69,100		
+				
+STARTPACK:Level 18 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Coin (Gold)	QTY:roll("3d6")*1000	OPTION:3,65		
+GEAR:Coin (Platinum)	QTY:roll("5d4")*100	OPTION:66,100		
+				
+STARTPACK:Level 19 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Coin (Gold)	QTY:roll("3d8")*1000	OPTION:3,65		
+GEAR:Coin (Platinum)	QTY:roll("3d10")*100	OPTION:66,100		
+				
+STARTPACK:Level 20 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Coin (Gold)	QTY:roll("4d8")*1000	OPTION:3,65		
+GEAR:Coin (Platinum)	QTY:roll("4d10")*100	OPTION:66,100			
+				
+STARTPACK:Level 1 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:Treasure 3-6 Gems	OPTION:91,95			
+KIT:Treasure 3-7 Art Objects	OPTION:96,100			
+				
+STARTPACK:Level 2 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d3_gems	OPTION:82,95			
+KIT:1d3_art	OPTION:96,100			
+				
+STARTPACK:Level 3 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d3_gems	OPTION:78,95			
+KIT:1d3_art	OPTION:96,100			
+				
+STARTPACK:Level 4 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d4_gems	OPTION:71,95			
+KIT:1d3_art	OPTION:96,100			
+				
+STARTPACK:Level 5 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d4_gems	OPTION:61,95			
+KIT:1d4_art	OPTION:96,100			
+				
+STARTPACK:Level 6 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d4_gems	OPTION:57,92			
+KIT:1d4_art	OPTION:93,100			
+				
+STARTPACK:Level 7 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d4_gems	OPTION:49,88			
+KIT:1d4_art	OPTION:89,100			
+				
+STARTPACK:Level 8 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d6_gems	OPTION:46,85			
+KIT:1d4_art	OPTION:86,100			
+				
+STARTPACK:Level 9 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d8_gems	OPTION:41,80			
+KIT:1d4_art	OPTION:81,100			
+				
+STARTPACK:Level 10 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d8_gems	OPTION:41,80			
+KIT:1d6_art	OPTION:81,100			
+				
+STARTPACK:Level 11 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d10_gems	OPTION:25,74			
+KIT:1d6_art	OPTION:75,100			
+				
+STARTPACK:Level 12 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d10_gems	OPTION:18,70			
+KIT:1d8_art	OPTION:71,100			
+				
+STARTPACK:Level 13 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d12_gems	OPTION:12,66			
+KIT:1d10_art	OPTION:67,100			
+				
+STARTPACK:Level 14 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:2d8_gems	OPTION:12,66			
+KIT:2d6_art	OPTION:67,100			
+				
+STARTPACK:Level 15 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:2d10_gems	OPTION:10,65			
+KIT:2d8_art	OPTION:66,100			
+				
+STARTPACK:Level 16 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:4d6_gems	OPTION:8,64			
+KIT:2d10_art	OPTION:65,100			
+				
+STARTPACK:Level 17 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:4d8_gems	OPTION:5,54			
+KIT:3d8_art	OPTION:55,100			
+				
+STARTPACK:Level 18 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:3d12_gems	OPTION:12,66			
+KIT:3d10_art	OPTION:67,100			
+				
+STARTPACK:Level 19 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:6d6_gems	OPTION:12,66			
+KIT:6d6_art	OPTION:67,100			
+				
+STARTPACK:Level 20 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:4d10_gems	OPTION:3,38			
+KIT:7d6_art	OPTION:39,100			
+				
+STARTPACK:Level 1 ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:Treasure 3-8 Mundane Items	OPTION:50,85			
+KIT:1_item_minor	OPTION:86,100			
+				
+STARTPACK:Level 2 ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:Treasure 3-8 Mundane Items	OPTION:50,85			
+KIT:1_item_minor	OPTION:86,100			
+				
+STARTPACK:Level 3 ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d3_item_mundane	OPTION:50,79			
+KIT:1_item_minor	OPTION:80,100			
+				
+STARTPACK:Level 4 ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d4_item_mundane	OPTION:43,62			
+KIT:1_item_minor	OPTION:63,100			
+				
+STARTPACK:Level 5 ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d4_item_mundane	OPTION:58,67			
+KIT:1d3_item_minor	OPTION:58,100			
+				
+STARTPACK:Level 6 ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d4_item_mundane	OPTION:55,59			
+KIT:1d3_item_minor	OPTION:60,99			
+KIT:1_item_medium	OPTION:100			
+				
+STARTPACK:Level 7 ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d3_item_minor	OPTION:52,97			
+KIT:1_item_medium	OPTION:98,100			
+				
+STARTPACK:Level 8 ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d4_item_minor	OPTION:49,96			
+KIT:1_item_medium	OPTION:97,100			
+				
+STARTPACK:Level 9 ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d4_item_minor	OPTION:44,91			
+KIT:1_item_medium	OPTION:92,100			
+				
+STARTPACK:Level 10 ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d4_item_minor	OPTION:41,88			
+KIT:1_item_medium	OPTION:89,99			
+KIT:1_item_major	OPTION:100			
+				
+STARTPACK:Level 11 ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d4_item_minor	OPTION:32,84			
+KIT:1_item_medium	OPTION:85,98			
+KIT:1_item_major	OPTION:99,100			
+				
+STARTPACK:Level 12 ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d6_item_minor	OPTION:28,82			
+KIT:1_item_medium	OPTION:83,97			
+KIT:1_item_major	OPTION:98,100			
+				
+STARTPACK:Level 13 ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d6_item_minor	OPTION:20,58			
+KIT:1_item_medium	OPTION:59,92			
+KIT:1_item_major	OPTION:93,100			
+				
+STARTPACK:Level 14 ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d6_item_minor	OPTION:20,58			
+KIT:1_item_medium	OPTION:59,92			
+KIT:1_item_major	OPTION:93,100			
+				
+STARTPACK:Level 15 ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d10_item_minor	OPTION:12,46			
+KIT:1_item_medium	OPTION:47,90			
+KIT:1_item_major	OPTION:91,100			
+				
+STARTPACK:Level 16 ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d10_item_minor	OPTION:41,46			
+KIT:1d3_item_medium	OPTION:47,90			
+KIT:1_item_major	OPTION:91,100			
+				
+STARTPACK:Level 17 ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d3_item_medium	OPTION:34,83			
+KIT:1_item_major	OPTION:84,100			
+				
+STARTPACK:Level 18 ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d4_item_medium	OPTION:25,80			
+KIT:1_item_major	OPTION:81,100			
+				
+STARTPACK:Level 19 ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d4_item_medium	OPTION:5,70			
+KIT:1_item_major	OPTION:71,100			
+				
+STARTPACK:Level 20 ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:1d4_item_medium	OPTION:26,65			
+KIT:1d3_item_major	OPTION:66,100			
+				
+STARTPACK:Level 21+ ~ Items	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+KIT:1_item_major				
+				
+STARTPACK:1d3_gems	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d3")				
+KIT:Treasure 3-6 Gems	OPTION:1			
+KIT:Treasure 3-6 Gems	OPTION:1,2			
+KIT:Treasure 3-6 Gems	OPTION:1,3			
+				
+STARTPACK:1d4_gems	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d4")				
+KIT:Treasure 3-6 Gems	OPTION:1			
+KIT:Treasure 3-6 Gems	OPTION:1,2			
+KIT:Treasure 3-6 Gems	OPTION:1,3			
+KIT:Treasure 3-6 Gems	OPTION:1,4			
+				
+STARTPACK:1d6_gems	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d6")				
+KIT:Treasure 3-6 Gems	OPTION:1			
+KIT:Treasure 3-6 Gems	OPTION:1,2			
+KIT:Treasure 3-6 Gems	OPTION:1,3			
+KIT:Treasure 3-6 Gems	OPTION:1,4			
+KIT:Treasure 3-6 Gems	OPTION:1,5			
+KIT:Treasure 3-6 Gems	OPTION:1,6			
+				
+STARTPACK:1d8_gems	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d8")				
+KIT:Treasure 3-6 Gems	OPTION:1			
+KIT:Treasure 3-6 Gems	OPTION:1,2			
+KIT:Treasure 3-6 Gems	OPTION:1,3			
+KIT:Treasure 3-6 Gems	OPTION:1,4			
+KIT:Treasure 3-6 Gems	OPTION:1,5			
+KIT:Treasure 3-6 Gems	OPTION:1,6			
+KIT:Treasure 3-6 Gems	OPTION:1,7			
+KIT:Treasure 3-6 Gems	OPTION:1,8			
+				
+STARTPACK:1d10_gems	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d10")				
+KIT:Treasure 3-6 Gems	OPTION:1			
+KIT:Treasure 3-6 Gems	OPTION:1,2			
+KIT:Treasure 3-6 Gems	OPTION:1,3			
+KIT:Treasure 3-6 Gems	OPTION:1,4			
+KIT:Treasure 3-6 Gems	OPTION:1,5			
+KIT:Treasure 3-6 Gems	OPTION:1,6			
+KIT:Treasure 3-6 Gems	OPTION:1,7			
+KIT:Treasure 3-6 Gems	OPTION:1,8			
+KIT:Treasure 3-6 Gems	OPTION:1,9			
+KIT:Treasure 3-6 Gems	OPTION:1,10			
+				
+STARTPACK:1d12_gems	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d12")				
+KIT:Treasure 3-6 Gems	OPTION:1			
+KIT:Treasure 3-6 Gems	OPTION:1,2			
+KIT:Treasure 3-6 Gems	OPTION:1,3			
+KIT:Treasure 3-6 Gems	OPTION:1,4			
+KIT:Treasure 3-6 Gems	OPTION:1,5			
+KIT:Treasure 3-6 Gems	OPTION:1,6			
+KIT:Treasure 3-6 Gems	OPTION:1,7			
+KIT:Treasure 3-6 Gems	OPTION:1,8			
+KIT:Treasure 3-6 Gems	OPTION:1,9			
+KIT:Treasure 3-6 Gems	OPTION:1,10			
+KIT:Treasure 3-6 Gems	OPTION:1,11			
+KIT:Treasure 3-6 Gems	OPTION:1,12			
+				
+STARTPACK:2d8_gems	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("2d8")				
+KIT:Treasure 3-6 Gems				
+KIT:Treasure 3-6 Gems	OPTION:2			
+KIT:Treasure 3-6 Gems	OPTION:2,3			
+KIT:Treasure 3-6 Gems	OPTION:2,4			
+KIT:Treasure 3-6 Gems	OPTION:2,5			
+KIT:Treasure 3-6 Gems	OPTION:2,6			
+KIT:Treasure 3-6 Gems	OPTION:2,7			
+KIT:Treasure 3-6 Gems	OPTION:2,8			
+KIT:Treasure 3-6 Gems	OPTION:2,9			
+KIT:Treasure 3-6 Gems	OPTION:2,10			
+KIT:Treasure 3-6 Gems	OPTION:2,11			
+KIT:Treasure 3-6 Gems	OPTION:2,12			
+KIT:Treasure 3-6 Gems	OPTION:2,13			
+KIT:Treasure 3-6 Gems	OPTION:2,14			
+KIT:Treasure 3-6 Gems	OPTION:2,15			
+KIT:Treasure 3-6 Gems	OPTION:2,16			
+				
+STARTPACK:2d10_gems	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("2d10")				
+KIT:Treasure 3-6 Gems				
+KIT:Treasure 3-6 Gems	OPTION:2			
+KIT:Treasure 3-6 Gems	OPTION:2,3			
+KIT:Treasure 3-6 Gems	OPTION:2,4			
+KIT:Treasure 3-6 Gems	OPTION:2,5			
+KIT:Treasure 3-6 Gems	OPTION:2,6			
+KIT:Treasure 3-6 Gems	OPTION:2,7			
+KIT:Treasure 3-6 Gems	OPTION:2,8			
+KIT:Treasure 3-6 Gems	OPTION:2,9			
+KIT:Treasure 3-6 Gems	OPTION:2,10			
+KIT:Treasure 3-6 Gems	OPTION:2,11			
+KIT:Treasure 3-6 Gems	OPTION:2,12			
+KIT:Treasure 3-6 Gems	OPTION:2,13			
+KIT:Treasure 3-6 Gems	OPTION:2,14			
+KIT:Treasure 3-6 Gems	OPTION:2,15			
+KIT:Treasure 3-6 Gems	OPTION:2,16			
+KIT:Treasure 3-6 Gems	OPTION:2,17			
+KIT:Treasure 3-6 Gems	OPTION:2,18			
+KIT:Treasure 3-6 Gems	OPTION:2,19			
+KIT:Treasure 3-6 Gems	OPTION:2,20			
+
+STARTPACK:4d6_gems	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("4d6")				
+KIT:Treasure 3-6 Gems				
+KIT:Treasure 3-6 Gems				
+KIT:Treasure 3-6 Gems				
+KIT:Treasure 3-6 Gems	OPTION:4			
+KIT:Treasure 3-6 Gems	OPTION:4,3			
+KIT:Treasure 3-6 Gems	OPTION:4,4			
+KIT:Treasure 3-6 Gems	OPTION:4,5			
+KIT:Treasure 3-6 Gems	OPTION:4,6			
+KIT:Treasure 3-6 Gems	OPTION:4,7			
+KIT:Treasure 3-6 Gems	OPTION:4,8			
+KIT:Treasure 3-6 Gems	OPTION:4,9			
+KIT:Treasure 3-6 Gems	OPTION:4,10			
+KIT:Treasure 3-6 Gems	OPTION:4,11			
+KIT:Treasure 3-6 Gems	OPTION:4,12			
+KIT:Treasure 3-6 Gems	OPTION:4,13			
+KIT:Treasure 3-6 Gems	OPTION:4,14			
+KIT:Treasure 3-6 Gems	OPTION:4,15			
+KIT:Treasure 3-6 Gems	OPTION:4,16			
+KIT:Treasure 3-6 Gems	OPTION:4,17			
+KIT:Treasure 3-6 Gems	OPTION:4,18			
+KIT:Treasure 3-6 Gems	OPTION:4,19			
+KIT:Treasure 3-6 Gems	OPTION:4,20			
+KIT:Treasure 3-6 Gems	OPTION:4,21			
+KIT:Treasure 3-6 Gems	OPTION:4,22			
+KIT:Treasure 3-6 Gems	OPTION:4,23			
+KIT:Treasure 3-6 Gems	OPTION:4,24			
+				
+STARTPACK:4d8_gems	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("4d8")				
+KIT:Treasure 3-6 Gems				
+KIT:Treasure 3-6 Gems				
+KIT:Treasure 3-6 Gems				
+KIT:Treasure 3-6 Gems	OPTION:4			
+KIT:Treasure 3-6 Gems	OPTION:4,5			
+KIT:Treasure 3-6 Gems	OPTION:4,6			
+KIT:Treasure 3-6 Gems	OPTION:4,7			
+KIT:Treasure 3-6 Gems	OPTION:4,8			
+KIT:Treasure 3-6 Gems	OPTION:4,9			
+KIT:Treasure 3-6 Gems	OPTION:4,10			
+KIT:Treasure 3-6 Gems	OPTION:4,11			
+KIT:Treasure 3-6 Gems	OPTION:4,12			
+KIT:Treasure 3-6 Gems	OPTION:4,13			
+KIT:Treasure 3-6 Gems	OPTION:4,14			
+KIT:Treasure 3-6 Gems	OPTION:4,15			
+KIT:Treasure 3-6 Gems	OPTION:4,16			
+KIT:Treasure 3-6 Gems	OPTION:4,17			
+KIT:Treasure 3-6 Gems	OPTION:4,18			
+KIT:Treasure 3-6 Gems	OPTION:4,19			
+KIT:Treasure 3-6 Gems	OPTION:4,20			
+KIT:Treasure 3-6 Gems	OPTION:4,21			
+KIT:Treasure 3-6 Gems	OPTION:4,22			
+KIT:Treasure 3-6 Gems	OPTION:4,23			
+KIT:Treasure 3-6 Gems	OPTION:4,24			
+KIT:Treasure 3-6 Gems	OPTION:4,25			
+KIT:Treasure 3-6 Gems	OPTION:4,26			
+KIT:Treasure 3-6 Gems	OPTION:4,27			
+KIT:Treasure 3-6 Gems	OPTION:4,28			
+KIT:Treasure 3-6 Gems	OPTION:4,29			
+KIT:Treasure 3-6 Gems	OPTION:4,30			
+KIT:Treasure 3-6 Gems	OPTION:4,31			
+KIT:Treasure 3-6 Gems	OPTION:4,32			
+				
+STARTPACK:3d12_gems	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("3d12")				
+KIT:Treasure 3-6 Gems				
+KIT:Treasure 3-6 Gems				
+KIT:Treasure 3-6 Gems	OPTION:3			
+KIT:Treasure 3-6 Gems	OPTION:3,4			
+KIT:Treasure 3-6 Gems	OPTION:3,5			
+KIT:Treasure 3-6 Gems	OPTION:3,6			
+KIT:Treasure 3-6 Gems	OPTION:3,7			
+KIT:Treasure 3-6 Gems	OPTION:3,8			
+KIT:Treasure 3-6 Gems	OPTION:3,9			
+KIT:Treasure 3-6 Gems	OPTION:3,10			
+KIT:Treasure 3-6 Gems	OPTION:3,11			
+KIT:Treasure 3-6 Gems	OPTION:3,12			
+KIT:Treasure 3-6 Gems	OPTION:3,13			
+KIT:Treasure 3-6 Gems	OPTION:3,14			
+KIT:Treasure 3-6 Gems	OPTION:3,15			
+KIT:Treasure 3-6 Gems	OPTION:3,16			
+KIT:Treasure 3-6 Gems	OPTION:3,17			
+KIT:Treasure 3-6 Gems	OPTION:3,18			
+KIT:Treasure 3-6 Gems	OPTION:3,19			
+KIT:Treasure 3-6 Gems	OPTION:3,20			
+KIT:Treasure 3-6 Gems	OPTION:3,21			
+KIT:Treasure 3-6 Gems	OPTION:3,22			
+KIT:Treasure 3-6 Gems	OPTION:3,23			
+KIT:Treasure 3-6 Gems	OPTION:3,24			
+KIT:Treasure 3-6 Gems	OPTION:3,25			
+KIT:Treasure 3-6 Gems	OPTION:3,26			
+KIT:Treasure 3-6 Gems	OPTION:3,27			
+KIT:Treasure 3-6 Gems	OPTION:3,28			
+KIT:Treasure 3-6 Gems	OPTION:3,29			
+KIT:Treasure 3-6 Gems	OPTION:3,30			
+KIT:Treasure 3-6 Gems	OPTION:3,31			
+KIT:Treasure 3-6 Gems	OPTION:3,32			
+KIT:Treasure 3-6 Gems	OPTION:3,33			
+KIT:Treasure 3-6 Gems	OPTION:3,34			
+KIT:Treasure 3-6 Gems	OPTION:3,35			
+KIT:Treasure 3-6 Gems	OPTION:3,36			
+				
+STARTPACK:6d6_gems	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("6d6")				
+KIT:Treasure 3-6 Gems				
+KIT:Treasure 3-6 Gems				
+KIT:Treasure 3-6 Gems				
+KIT:Treasure 3-6 Gems				
+KIT:Treasure 3-6 Gems				
+KIT:Treasure 3-6 Gems	OPTION:6			
+KIT:Treasure 3-6 Gems	OPTION:6,7			
+KIT:Treasure 3-6 Gems	OPTION:6,8			
+KIT:Treasure 3-6 Gems	OPTION:6,9			
+KIT:Treasure 3-6 Gems	OPTION:6,10			
+KIT:Treasure 3-6 Gems	OPTION:6,11			
+KIT:Treasure 3-6 Gems	OPTION:6,12			
+KIT:Treasure 3-6 Gems	OPTION:6,13			
+KIT:Treasure 3-6 Gems	OPTION:6,14			
+KIT:Treasure 3-6 Gems	OPTION:6,15			
+KIT:Treasure 3-6 Gems	OPTION:6,16			
+KIT:Treasure 3-6 Gems	OPTION:6,17			
+KIT:Treasure 3-6 Gems	OPTION:6,18			
+KIT:Treasure 3-6 Gems	OPTION:6,19			
+KIT:Treasure 3-6 Gems	OPTION:6,20			
+KIT:Treasure 3-6 Gems	OPTION:6,21			
+KIT:Treasure 3-6 Gems	OPTION:6,22			
+KIT:Treasure 3-6 Gems	OPTION:6,23			
+KIT:Treasure 3-6 Gems	OPTION:6,24			
+KIT:Treasure 3-6 Gems	OPTION:6,25			
+KIT:Treasure 3-6 Gems	OPTION:6,26			
+KIT:Treasure 3-6 Gems	OPTION:6,27			
+KIT:Treasure 3-6 Gems	OPTION:6,28			
+KIT:Treasure 3-6 Gems	OPTION:6,29			
+KIT:Treasure 3-6 Gems	OPTION:6,30			
+KIT:Treasure 3-6 Gems	OPTION:6,31			
+KIT:Treasure 3-6 Gems	OPTION:6,32			
+KIT:Treasure 3-6 Gems	OPTION:6,33			
+KIT:Treasure 3-6 Gems	OPTION:6,34			
+KIT:Treasure 3-6 Gems	OPTION:6,35			
+KIT:Treasure 3-6 Gems	OPTION:6,36			
+				
+STARTPACK:4d10_gems	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("4d10")				
+KIT:Treasure 3-6 Gems				
+KIT:Treasure 3-6 Gems				
+KIT:Treasure 3-6 Gems				
+KIT:Treasure 3-6 Gems	OPTION:4			
+KIT:Treasure 3-6 Gems	OPTION:4,5			
+KIT:Treasure 3-6 Gems	OPTION:4,6			
+KIT:Treasure 3-6 Gems	OPTION:4,7			
+KIT:Treasure 3-6 Gems	OPTION:4,8			
+KIT:Treasure 3-6 Gems	OPTION:4,9			
+KIT:Treasure 3-6 Gems	OPTION:4,10			
+KIT:Treasure 3-6 Gems	OPTION:4,11			
+KIT:Treasure 3-6 Gems	OPTION:4,12			
+KIT:Treasure 3-6 Gems	OPTION:4,13			
+KIT:Treasure 3-6 Gems	OPTION:4,14			
+KIT:Treasure 3-6 Gems	OPTION:4,15			
+KIT:Treasure 3-6 Gems	OPTION:4,16			
+KIT:Treasure 3-6 Gems	OPTION:4,17			
+KIT:Treasure 3-6 Gems	OPTION:4,18			
+KIT:Treasure 3-6 Gems	OPTION:4,19			
+KIT:Treasure 3-6 Gems	OPTION:4,20			
+KIT:Treasure 3-6 Gems	OPTION:4,21			
+KIT:Treasure 3-6 Gems	OPTION:4,22			
+KIT:Treasure 3-6 Gems	OPTION:4,23			
+KIT:Treasure 3-6 Gems	OPTION:4,24			
+KIT:Treasure 3-6 Gems	OPTION:4,25			
+KIT:Treasure 3-6 Gems	OPTION:4,26			
+KIT:Treasure 3-6 Gems	OPTION:4,27			
+KIT:Treasure 3-6 Gems	OPTION:4,28			
+KIT:Treasure 3-6 Gems	OPTION:4,29			
+KIT:Treasure 3-6 Gems	OPTION:4,30			
+KIT:Treasure 3-6 Gems	OPTION:4,31			
+KIT:Treasure 3-6 Gems	OPTION:4,32			
+KIT:Treasure 3-6 Gems	OPTION:4,33			
+KIT:Treasure 3-6 Gems	OPTION:4,34			
+KIT:Treasure 3-6 Gems	OPTION:4,35			
+KIT:Treasure 3-6 Gems	OPTION:4,36			
+KIT:Treasure 3-6 Gems	OPTION:4,37			
+KIT:Treasure 3-6 Gems	OPTION:4,38			
+KIT:Treasure 3-6 Gems	OPTION:4,39			
+KIT:Treasure 3-6 Gems	OPTION:4,40			
+				
+STARTPACK:1d3_art	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d3")				
+KIT:Treasure 3-7 Art Objects	OPTION:1			
+KIT:Treasure 3-7 Art Objects	OPTION:1,2			
+KIT:Treasure 3-7 Art Objects	OPTION:1,3			
+				
+STARTPACK:1d4_art	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d4")				
+KIT:Treasure 3-7 Art Objects	OPTION:1			
+KIT:Treasure 3-7 Art Objects	OPTION:1,2			
+KIT:Treasure 3-7 Art Objects	OPTION:1,3			
+KIT:Treasure 3-7 Art Objects	OPTION:1,4			
+				
+STARTPACK:1d6_art	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d6")				
+KIT:Treasure 3-7 Art Objects	OPTION:1			
+KIT:Treasure 3-7 Art Objects	OPTION:1,2			
+KIT:Treasure 3-7 Art Objects	OPTION:1,3			
+KIT:Treasure 3-7 Art Objects	OPTION:1,4			
+KIT:Treasure 3-7 Art Objects	OPTION:1,5			
+KIT:Treasure 3-7 Art Objects	OPTION:1,6			
+				
+STARTPACK:1d8_art	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d8")				
+KIT:Treasure 3-7 Art Objects	OPTION:1			
+KIT:Treasure 3-7 Art Objects	OPTION:1,2			
+KIT:Treasure 3-7 Art Objects	OPTION:1,3			
+KIT:Treasure 3-7 Art Objects	OPTION:1,4			
+KIT:Treasure 3-7 Art Objects	OPTION:1,5			
+KIT:Treasure 3-7 Art Objects	OPTION:1,6			
+KIT:Treasure 3-7 Art Objects	OPTION:1,7			
+KIT:Treasure 3-7 Art Objects	OPTION:1,8			
+				
+STARTPACK:1d10_art	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d10")				
+KIT:Treasure 3-7 Art Objects	OPTION:1			
+KIT:Treasure 3-7 Art Objects	OPTION:1,2			
+KIT:Treasure 3-7 Art Objects	OPTION:1,3			
+KIT:Treasure 3-7 Art Objects	OPTION:1,4			
+KIT:Treasure 3-7 Art Objects	OPTION:1,5			
+KIT:Treasure 3-7 Art Objects	OPTION:1,6			
+KIT:Treasure 3-7 Art Objects	OPTION:1,7			
+KIT:Treasure 3-7 Art Objects	OPTION:1,8			
+KIT:Treasure 3-7 Art Objects	OPTION:1,9			
+KIT:Treasure 3-7 Art Objects	OPTION:1,10			
+				
+STARTPACK:2d6_art	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("2d6")				
+KIT:Treasure 3-7 Art Objects				
+KIT:Treasure 3-7 Art Objects	OPTION:2			
+KIT:Treasure 3-7 Art Objects	OPTION:2,3			
+KIT:Treasure 3-7 Art Objects	OPTION:2,4			
+KIT:Treasure 3-7 Art Objects	OPTION:2,5			
+KIT:Treasure 3-7 Art Objects	OPTION:2,6			
+KIT:Treasure 3-7 Art Objects	OPTION:2,7			
+KIT:Treasure 3-7 Art Objects	OPTION:2,8			
+KIT:Treasure 3-7 Art Objects	OPTION:2,9			
+KIT:Treasure 3-7 Art Objects	OPTION:2,10			
+KIT:Treasure 3-7 Art Objects	OPTION:2,11			
+KIT:Treasure 3-7 Art Objects	OPTION:2,12			
+				
+STARTPACK:2d8_art	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("2d8")				
+KIT:Treasure 3-7 Art Objects				
+KIT:Treasure 3-7 Art Objects	OPTION:2			
+KIT:Treasure 3-7 Art Objects	OPTION:2,3			
+KIT:Treasure 3-7 Art Objects	OPTION:2,4			
+KIT:Treasure 3-7 Art Objects	OPTION:2,5			
+KIT:Treasure 3-7 Art Objects	OPTION:2,6			
+KIT:Treasure 3-7 Art Objects	OPTION:2,7			
+KIT:Treasure 3-7 Art Objects	OPTION:2,8			
+KIT:Treasure 3-7 Art Objects	OPTION:2,9			
+KIT:Treasure 3-7 Art Objects	OPTION:2,10			
+KIT:Treasure 3-7 Art Objects	OPTION:2,11			
+KIT:Treasure 3-7 Art Objects	OPTION:2,12			
+KIT:Treasure 3-7 Art Objects	OPTION:2,13			
+KIT:Treasure 3-7 Art Objects	OPTION:2,14			
+KIT:Treasure 3-7 Art Objects	OPTION:2,15			
+KIT:Treasure 3-7 Art Objects	OPTION:2,16			
+				
+STARTPACK:2d10_art	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("2d10")				
+KIT:Treasure 3-7 Art Objects				
+KIT:Treasure 3-7 Art Objects	OPTION:2			
+KIT:Treasure 3-7 Art Objects	OPTION:2,3			
+KIT:Treasure 3-7 Art Objects	OPTION:2,4			
+KIT:Treasure 3-7 Art Objects	OPTION:2,5			
+KIT:Treasure 3-7 Art Objects	OPTION:2,6			
+KIT:Treasure 3-7 Art Objects	OPTION:2,7			
+KIT:Treasure 3-7 Art Objects	OPTION:2,8			
+KIT:Treasure 3-7 Art Objects	OPTION:2,9			
+KIT:Treasure 3-7 Art Objects	OPTION:2,10			
+KIT:Treasure 3-7 Art Objects	OPTION:2,11			
+KIT:Treasure 3-7 Art Objects	OPTION:2,12			
+KIT:Treasure 3-7 Art Objects	OPTION:2,13			
+KIT:Treasure 3-7 Art Objects	OPTION:2,14			
+KIT:Treasure 3-7 Art Objects	OPTION:2,15			
+KIT:Treasure 3-7 Art Objects	OPTION:2,16			
+KIT:Treasure 3-7 Art Objects	OPTION:2,17			
+KIT:Treasure 3-7 Art Objects	OPTION:2,18			
+KIT:Treasure 3-7 Art Objects	OPTION:2,19			
+KIT:Treasure 3-7 Art Objects	OPTION:2,20			
+				
+STARTPACK:3d8_art	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("3d8")				
+KIT:Treasure 3-7 Art Objects				
+KIT:Treasure 3-7 Art Objects				
+KIT:Treasure 3-7 Art Objects	OPTION:3   			
+KIT:Treasure 3-7 Art Objects	OPTION:3,4			
+KIT:Treasure 3-7 Art Objects	OPTION:3,5			
+KIT:Treasure 3-7 Art Objects	OPTION:3,6			
+KIT:Treasure 3-7 Art Objects	OPTION:3,7			
+KIT:Treasure 3-7 Art Objects	OPTION:3,8			
+KIT:Treasure 3-7 Art Objects	OPTION:3,9			
+KIT:Treasure 3-7 Art Objects	OPTION:3,10			
+KIT:Treasure 3-7 Art Objects	OPTION:3,11			
+KIT:Treasure 3-7 Art Objects	OPTION:3,12			
+KIT:Treasure 3-7 Art Objects	OPTION:3,13			
+KIT:Treasure 3-7 Art Objects	OPTION:3,14			
+KIT:Treasure 3-7 Art Objects	OPTION:3,15			
+KIT:Treasure 3-7 Art Objects	OPTION:3,16			
+KIT:Treasure 3-7 Art Objects	OPTION:3,17			
+KIT:Treasure 3-7 Art Objects	OPTION:3,18			
+KIT:Treasure 3-7 Art Objects	OPTION:3,19			
+KIT:Treasure 3-7 Art Objects	OPTION:3,20			
+KIT:Treasure 3-7 Art Objects	OPTION:3,21			
+KIT:Treasure 3-7 Art Objects	OPTION:3,22			
+KIT:Treasure 3-7 Art Objects	OPTION:3,23			
+KIT:Treasure 3-7 Art Objects	OPTION:3,24			
+				
+STARTPACK:3d10_art	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("3d10")				
+KIT:Treasure 3-7 Art Objects				
+KIT:Treasure 3-7 Art Objects				
+KIT:Treasure 3-7 Art Objects	OPTION:3   			
+KIT:Treasure 3-7 Art Objects	OPTION:3,4			
+KIT:Treasure 3-7 Art Objects	OPTION:3,5			
+KIT:Treasure 3-7 Art Objects	OPTION:3,6			
+KIT:Treasure 3-7 Art Objects	OPTION:3,7			
+KIT:Treasure 3-7 Art Objects	OPTION:3,8			
+KIT:Treasure 3-7 Art Objects	OPTION:3,9			
+KIT:Treasure 3-7 Art Objects	OPTION:3,10			
+KIT:Treasure 3-7 Art Objects	OPTION:3,11			
+KIT:Treasure 3-7 Art Objects	OPTION:3,12			
+KIT:Treasure 3-7 Art Objects	OPTION:3,13			
+KIT:Treasure 3-7 Art Objects	OPTION:3,14			
+KIT:Treasure 3-7 Art Objects	OPTION:3,15			
+KIT:Treasure 3-7 Art Objects	OPTION:3,16			
+KIT:Treasure 3-7 Art Objects	OPTION:3,17			
+KIT:Treasure 3-7 Art Objects	OPTION:3,18			
+KIT:Treasure 3-7 Art Objects	OPTION:3,19			
+KIT:Treasure 3-7 Art Objects	OPTION:3,20			
+KIT:Treasure 3-7 Art Objects	OPTION:3,21			
+KIT:Treasure 3-7 Art Objects	OPTION:3,22			
+KIT:Treasure 3-7 Art Objects	OPTION:3,23			
+KIT:Treasure 3-7 Art Objects	OPTION:3,24			
+KIT:Treasure 3-7 Art Objects	OPTION:3,25			
+KIT:Treasure 3-7 Art Objects	OPTION:3,26			
+KIT:Treasure 3-7 Art Objects	OPTION:3,27			
+KIT:Treasure 3-7 Art Objects	OPTION:3,28			
+KIT:Treasure 3-7 Art Objects	OPTION:3,29			
+KIT:Treasure 3-7 Art Objects	OPTION:3,30			
+				
+STARTPACK:6d6_art	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("6d6")				
+KIT:Treasure 3-7 Art Objects				
+KIT:Treasure 3-7 Art Objects				
+KIT:Treasure 3-7 Art Objects				
+KIT:Treasure 3-7 Art Objects				
+KIT:Treasure 3-7 Art Objects				
+KIT:Treasure 3-7 Art Objects	OPTION:6			
+KIT:Treasure 3-7 Art Objects	OPTION:6,7			
+KIT:Treasure 3-7 Art Objects	OPTION:6,8			
+KIT:Treasure 3-7 Art Objects	OPTION:6,9			
+KIT:Treasure 3-7 Art Objects	OPTION:6,10			
+KIT:Treasure 3-7 Art Objects	OPTION:6,11			
+KIT:Treasure 3-7 Art Objects	OPTION:6,12			
+KIT:Treasure 3-7 Art Objects	OPTION:6,13			
+KIT:Treasure 3-7 Art Objects	OPTION:6,14			
+KIT:Treasure 3-7 Art Objects	OPTION:6,15			
+KIT:Treasure 3-7 Art Objects	OPTION:6,16			
+KIT:Treasure 3-7 Art Objects	OPTION:6,17			
+KIT:Treasure 3-7 Art Objects	OPTION:6,18			
+KIT:Treasure 3-7 Art Objects	OPTION:6,19			
+KIT:Treasure 3-7 Art Objects	OPTION:6,20			
+KIT:Treasure 3-7 Art Objects	OPTION:6,21			
+KIT:Treasure 3-7 Art Objects	OPTION:6,22			
+KIT:Treasure 3-7 Art Objects	OPTION:6,23			
+KIT:Treasure 3-7 Art Objects	OPTION:6,24			
+KIT:Treasure 3-7 Art Objects	OPTION:6,25			
+KIT:Treasure 3-7 Art Objects	OPTION:6,26			
+KIT:Treasure 3-7 Art Objects	OPTION:6,27			
+KIT:Treasure 3-7 Art Objects	OPTION:6,28			
+KIT:Treasure 3-7 Art Objects	OPTION:6,29			
+KIT:Treasure 3-7 Art Objects	OPTION:6,30			
+KIT:Treasure 3-7 Art Objects	OPTION:6,31			
+KIT:Treasure 3-7 Art Objects	OPTION:6,32			
+KIT:Treasure 3-7 Art Objects	OPTION:6,33			
+KIT:Treasure 3-7 Art Objects	OPTION:6,34			
+KIT:Treasure 3-7 Art Objects	OPTION:6,35			
+KIT:Treasure 3-7 Art Objects	OPTION:6,36			
+				
+STARTPACK:7d6_art	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("7d6")				
+KIT:Treasure 3-7 Art Objects				
+KIT:Treasure 3-7 Art Objects				
+KIT:Treasure 3-7 Art Objects				
+KIT:Treasure 3-7 Art Objects				
+KIT:Treasure 3-7 Art Objects				
+KIT:Treasure 3-7 Art Objects				
+KIT:Treasure 3-7 Art Objects	OPTION:7			
+KIT:Treasure 3-7 Art Objects	OPTION:7,8			
+KIT:Treasure 3-7 Art Objects	OPTION:7,9			
+KIT:Treasure 3-7 Art Objects	OPTION:7,10			
+KIT:Treasure 3-7 Art Objects	OPTION:7,11			
+KIT:Treasure 3-7 Art Objects	OPTION:7,12			
+KIT:Treasure 3-7 Art Objects	OPTION:7,13			
+KIT:Treasure 3-7 Art Objects	OPTION:7,14			
+KIT:Treasure 3-7 Art Objects	OPTION:7,15			
+KIT:Treasure 3-7 Art Objects	OPTION:7,16			
+KIT:Treasure 3-7 Art Objects	OPTION:7,17			
+KIT:Treasure 3-7 Art Objects	OPTION:7,18			
+KIT:Treasure 3-7 Art Objects	OPTION:7,19			
+KIT:Treasure 3-7 Art Objects	OPTION:7,20			
+KIT:Treasure 3-7 Art Objects	OPTION:7,21			
+KIT:Treasure 3-7 Art Objects	OPTION:7,22			
+KIT:Treasure 3-7 Art Objects	OPTION:7,23			
+KIT:Treasure 3-7 Art Objects	OPTION:7,24			
+KIT:Treasure 3-7 Art Objects	OPTION:7,25			
+KIT:Treasure 3-7 Art Objects	OPTION:7,26			
+KIT:Treasure 3-7 Art Objects	OPTION:7,27			
+KIT:Treasure 3-7 Art Objects	OPTION:7,28			
+KIT:Treasure 3-7 Art Objects	OPTION:7,29			
+KIT:Treasure 3-7 Art Objects	OPTION:7,30			
+KIT:Treasure 3-7 Art Objects	OPTION:7,31			
+KIT:Treasure 3-7 Art Objects	OPTION:7,32			
+KIT:Treasure 3-7 Art Objects	OPTION:7,33			
+KIT:Treasure 3-7 Art Objects	OPTION:7,34			
+KIT:Treasure 3-7 Art Objects	OPTION:7,35			
+KIT:Treasure 3-7 Art Objects	OPTION:7,36			
+KIT:Treasure 3-7 Art Objects	OPTION:7,37			
+KIT:Treasure 3-7 Art Objects	OPTION:7,38			
+KIT:Treasure 3-7 Art Objects	OPTION:7,39			
+KIT:Treasure 3-7 Art Objects	OPTION:7,40			
+KIT:Treasure 3-7 Art Objects	OPTION:7,41			
+KIT:Treasure 3-7 Art Objects	OPTION:7,42			
+				
+STARTPACK:1d3_item_mundane	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d3")				
+KIT:Treasure 3-8 Mundane Items	OPTION:1			
+KIT:Treasure 3-8 Mundane Items	OPTION:1,2			
+KIT:Treasure 3-8 Mundane Items	OPTION:1,3			
+				
+STARTPACK:1d4_item_mundane	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d4")				
+KIT:Treasure 3-8 Mundane Items	OPTION:1			
+KIT:Treasure 3-8 Mundane Items	OPTION:1,2			
+KIT:Treasure 3-8 Mundane Items	OPTION:1,3			
+KIT:Treasure 3-8 Mundane Items	OPTION:1,4 			
+				
+STARTPACK:1d3_item_minor	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d3")				
+KIT:1_item_minor	OPTION:1			
+KIT:1_item_minor	OPTION:1,2			
+KIT:1_item_minor	OPTION:1,3			
+				
+STARTPACK:1d4_item_minor	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d4")				
+KIT:1_item_minor	OPTION:1			
+KIT:1_item_minor	OPTION:1,2			
+KIT:1_item_minor	OPTION:1,3			
+KIT:1_item_minor	OPTION:1,4			
+				
+STARTPACK:1d6_item_minor	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d6")				
+KIT:1_item_minor	OPTION:1			
+KIT:1_item_minor	OPTION:1,2			
+KIT:1_item_minor	OPTION:1,3			
+KIT:1_item_minor	OPTION:1,4			
+KIT:1_item_minor	OPTION:1,5			
+KIT:1_item_minor	OPTION:1,6			
+				
+STARTPACK:1d10_item_minor	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d10")				
+KIT:1_item_minor	OPTION:1			
+KIT:1_item_minor	OPTION:1,2			
+KIT:1_item_minor	OPTION:1,3			
+KIT:1_item_minor	OPTION:1,4			
+KIT:1_item_minor	OPTION:1,5			
+KIT:1_item_minor	OPTION:1,6			
+KIT:1_item_minor	OPTION:1,7			
+KIT:1_item_minor	OPTION:1,8			
+KIT:1_item_minor	OPTION:1,9			
+KIT:1_item_minor	OPTION:1,10			
+				
+STARTPACK:1d3_item_medium	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d3")				
+KIT:1_item_medium	OPTION:1			
+KIT:1_item_medium	OPTION:1,2			
+KIT:1_item_medium	OPTION:1,3			
+				
+STARTPACK:1d4_item_medium	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d4")				
+KIT:1_item_medium	OPTION:1			
+KIT:1_item_medium	OPTION:1,2			
+KIT:1_item_medium	OPTION:1,3			
+KIT:1_item_medium	OPTION:1,4			
+				
+STARTPACK:1d3_item_major	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d3")				
+KIT:1_item_major	OPTION:1			
+KIT:1_item_major	OPTION:1,2			
+KIT:1_item_major	OPTION:1,3			
+				
+STARTPACK:Treasure 3-6 Gems	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:Gems 10GP	OPTION:1,25			
+KIT:Gems 50GP	OPTION:26,50			
+KIT:Gems 100GP	OPTION:51,70			
+KIT:Gems 500GP	OPTION:71,90			
+KIT:Gems 1000GP	OPTION:91,99			
+KIT:Gems 5000GP	OPTION:100			
+				
+STARTPACK:Gems 10GP	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d12")				
+GEAR:Gem (Agate (Banded))	OPTION:1	EQMOD:GEM|EVAL(roll("4d4"))		
+GEAR:Gem (Agate (Eye))	OPTION:2	EQMOD:GEM|EVAL(roll("4d4"))		
+GEAR:Gem (Agate (Moss))	OPTION:3	EQMOD:GEM|EVAL(roll("4d4"))		
+GEAR:Gem (Azurite)	OPTION:4	EQMOD:GEM|EVAL(roll("4d4"))		
+GEAR:Gem (Quartz (Blue))	OPTION:5	EQMOD:GEM|EVAL(roll("4d4"))		
+GEAR:Gem (Hematite)	OPTION:6	EQMOD:GEM|EVAL(roll("4d4"))		
+GEAR:Gem (Lapis Lazuli)	OPTION:7	EQMOD:GEM|EVAL(roll("4d4"))		
+GEAR:Gem (Malachite)	OPTION:8	EQMOD:GEM|EVAL(roll("4d4"))		
+GEAR:Gem (Obsidian)	OPTION:9	EQMOD:GEM|EVAL(roll("4d4"))		
+GEAR:Gem (Rhodochrosite)	OPTION:10	EQMOD:GEM|EVAL(roll("4d4"))		
+GEAR:Gem (Turquoise (Tiger Eye))	OPTION:11	EQMOD:GEM|EVAL(roll("4d4"))		
+GEAR:Gem (Turquoise (Tiger Eye))	OPTION:12	EQMOD:GEM|EVAL(roll("4d4"))		
+				
+STARTPACK:Gems 50GP	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d17")				
+GEAR:Gem (Bloodstone)	OPTION:1	EQMOD:GEM|EVAL(roll("2d4")*10)		
+GEAR:Gem (Carnelian)	OPTION:2	EQMOD:GEM|EVAL(roll("2d4")*10)		
+GEAR:Gem (Chalcedony)	OPTION:3	EQMOD:GEM|EVAL(roll("2d4")*10)		
+GEAR:Gem (Chrysoprase)	OPTION:4	EQMOD:GEM|EVAL(roll("2d4")*10)		
+GEAR:Gem (Citrine)	OPTION:5	EQMOD:GEM|EVAL(roll("2d4")*10)		
+GEAR:Gem (Iolite)	OPTION:6	EQMOD:GEM|EVAL(roll("2d4")*10)		
+GEAR:Gem (Jasper)	OPTION:7	EQMOD:GEM|EVAL(roll("2d4")*10)		
+GEAR:Gem (Moonstone)	OPTION:8	EQMOD:GEM|EVAL(roll("2d4")*10)		
+GEAR:Gem (Onyx)	OPTION:9	EQMOD:GEM|EVAL(roll("2d4")*10)		
+GEAR:Gem (Peridot)	OPTION:10	EQMOD:GEM|EVAL(roll("2d4")*10)		
+GEAR:Gem (Rock Crystal (Clear Quartz))	OPTION:11	EQMOD:GEM|EVAL(roll("2d4")*10)		
+GEAR:Gem (Sard)	OPTION:12	EQMOD:GEM|EVAL(roll("2d4")*10)		
+GEAR:Gem (Sardonyx)	OPTION:13	EQMOD:GEM|EVAL(roll("2d4")*10)		
+GEAR:Gem (Quartz (Rose))	OPTION:14	EQMOD:GEM|EVAL(roll("2d4")*10)		
+GEAR:Gem (Quartz (Smoky))	OPTION:15	EQMOD:GEM|EVAL(roll("2d4")*10)		
+GEAR:Gem (Quartz (Star Rose))	OPTION:16	EQMOD:GEM|EVAL(roll("2d4")*10)		
+GEAR:Gem (Zircon)	OPTION:17	EQMOD:GEM|EVAL(roll("2d4")*10)		
+				
+STARTPACK:Gems 100GP	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d16")				
+GEAR:Gem (Amber)	OPTION:1	EQMOD:GEM|EVAL(roll("4d4")*10)		
+GEAR:Gem (Amethyst)	OPTION:2	EQMOD:GEM|EVAL(roll("4d4")*10)		
+GEAR:Gem (Chrysoberyl)	OPTION:3	EQMOD:GEM|EVAL(roll("4d4")*10)		
+GEAR:Gem (Coral)	OPTION:4	EQMOD:GEM|EVAL(roll("4d4")*10)		
+GEAR:Gem (Garnet (Red))	OPTION:5	EQMOD:GEM|EVAL(roll("4d4")*10)		
+GEAR:Gem (Garnet (Brown-Green))	OPTION:6	EQMOD:GEM|EVAL(roll("4d4")*10)		
+GEAR:Gem (Jade)	OPTION:7	EQMOD:GEM|EVAL(roll("4d4")*10)		
+GEAR:Gem (Jet)	OPTION:8	EQMOD:GEM|EVAL(roll("4d4")*10)		
+GEAR:Gem (Pearl (White))	OPTION:9	EQMOD:GEM|EVAL(roll("4d4")*10)		
+GEAR:Gem (Pearl (Golden))	OPTION:10	EQMOD:GEM|EVAL(roll("4d4")*10)		
+GEAR:Gem (Pearl (Pink))	OPTION:11	EQMOD:GEM|EVAL(roll("4d4")*10)		
+GEAR:Gem (Pearl (Silver))	OPTION:12	EQMOD:GEM|EVAL(roll("4d4")*10)		
+GEAR:Gem (Spinel (Red))	OPTION:13	EQMOD:GEM|EVAL(roll("4d4")*10)		
+GEAR:Gem (Spinel (Red-Brown))	OPTION:14	EQMOD:GEM|EVAL(roll("4d4")*10)		
+GEAR:Gem (Spinel (Deep Green))	OPTION:15	EQMOD:GEM|EVAL(roll("4d4")*10)		
+GEAR:Gem (Tourmaline)	OPTION:16	EQMOD:GEM|EVAL(roll("4d4")*10)		
+				
+STARTPACK:Gems 500GP	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d6")				
+GEAR:Gem (Alexandrite)	OPTION:1	EQMOD:GEM|EVAL(roll("2d4")*100)		
+GEAR:Gem (Aquamarine)	OPTION:2	EQMOD:GEM|EVAL(roll("2d4")*100)		
+GEAR:Gem (Garnet (Violet))	OPTION:3	EQMOD:GEM|EVAL(roll("2d4")*100)		
+GEAR:Gem (Pearl (Black))	OPTION:4	EQMOD:GEM|EVAL(roll("2d4")*100)		
+GEAR:Gem (Spinel (Deep Blue))	OPTION:5	EQMOD:GEM|EVAL(roll("2d4")*100)		
+GEAR:Gem (Topaz (Golden Yellow))	OPTION:6	EQMOD:GEM|EVAL(roll("2d4")*100)		
+				
+STARTPACK:Gems 1000GP	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d10")				
+GEAR:Gem (Emerald)	OPTION:1	EQMOD:GEM|EVAL(roll("4d4")*100)		
+GEAR:Gem (Opal (White))	OPTION:2	EQMOD:GEM|EVAL(roll("4d4")*100)		
+GEAR:Gem (Opal (Black))	OPTION:3	EQMOD:GEM|EVAL(roll("4d4")*100)		
+GEAR:Gem (Opal (Fire))	OPTION:4	EQMOD:GEM|EVAL(roll("4d4")*100)		
+GEAR:Gem (Sapphire (Blue))	OPTION:5	EQMOD:GEM|EVAL(roll("4d4")*100)		
+GEAR:Gem (Corundum (Firey Yellow))	OPTION:6	EQMOD:GEM|EVAL(roll("4d4")*100)		
+GEAR:Gem (Corundum (Rich Purple))	OPTION:7	EQMOD:GEM|EVAL(roll("4d4")*100)		
+GEAR:Gem (Star Sapphire (Blue))	OPTION:8	EQMOD:GEM|EVAL(roll("4d4")*100)		
+GEAR:Gem (Star Sapphire (Black))	OPTION:9	EQMOD:GEM|EVAL(roll("4d4")*100)		
+GEAR:Gem (Ruby (Star))	OPTION:10	EQMOD:GEM|EVAL(roll("4d4")*100)		
+				
+STARTPACK:Gems 5000GP	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d10")				
+GEAR:Gem (Emerald (Clearest Bright Green))	OPTION:1	EQMOD:GEM|EVAL(roll("2d4")*1000)		
+GEAR:Gem (Diamond (Blue-White))	OPTION:2	EQMOD:GEM|EVAL(roll("2d4")*1000)		
+GEAR:Gem (Diamond (Canary))	OPTION:3	EQMOD:GEM|EVAL(roll("2d4")*1000)		
+GEAR:Gem (Diamond (Pink))	OPTION:4	EQMOD:GEM|EVAL(roll("2d4")*1000)		
+GEAR:Gem (Diamond (Brown))	OPTION:5	EQMOD:GEM|EVAL(roll("2d4")*1000)		
+GEAR:Gem (Diamond (Blue))	OPTION:6	EQMOD:GEM|EVAL(roll("2d4")*1000)		
+GEAR:Gem (Jacinth)	OPTION:7	EQMOD:GEM|EVAL(roll("2d4")*1000)		
+				
+STARTPACK:Treasure 3-7 Art Objects	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:Arts 55GP	OPTION:1,10			
+KIT:Arts 105GP	OPTION:11,25			
+KIT:Arts 350GP	OPTION:26,40			
+KIT:Arts 550GP	OPTION:41,50			
+KIT:Arts 700GP	OPTION:51,60			
+KIT:Arts 1050GP	OPTION:61,70			
+KIT:Arts 1400GP	OPTION:71,80			
+KIT:Arts 1750GP	OPTION:81,85			
+KIT:Arts 2500GP	OPTION:86,90			
+KIT:Arts 3500GP	OPTION:91,95			
+KIT:Arts 5000GP	OPTION:96,99			
+KIT:Arts 7000GP	OPTION:100			
+				
+STARTPACK:Arts 55GP	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d4")				
+GEAR:Art (Silver Ewer)	OPTION:1	EQMOD:ART|EVAL(roll("1d10")*10)		
+GEAR:Art (Statuette (Carved Bone))	OPTION:2	EQMOD:ART|EVAL(roll("1d10")*10)		
+GEAR:Art (Statuette (Ivory))	OPTION:3	EQMOD:ART|EVAL(roll("1d10")*10)		
+GEAR:Art (Bracelet (Small/Gold/Finely Wrought))	OPTION:4	EQMOD:ART|EVAL(roll("1d10")*10)		
+				
+STARTPACK:Arts 105GP	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d3")				
+GEAR:Art (Vestments (Cloth of Gold))	OPTION:1	EQMOD:ART|EVAL(roll("3d6")*10)		
+GEAR:Art (Mask (Black Velvet with Numerous Citrines))	OPTION:2	EQMOD:ART|EVAL(roll("3d6")*10)		
+GEAR:Art (Chalice (Silver with Lapis Lazuli Gems)	OPTION:3	EQMOD:ART|EVAL(roll("3d6")*10)		
+				
+STARTPACK:Arts 350GP	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d4")				
+GEAR:Art (Tapestry (Large/Wool/Well-Done))	OPTION:1	EQMOD:ART|EVAL(roll("1d6")*100)		
+GEAR:Art (Mug (Brass with Jade Inlays))	OPTION:1	EQMOD:ART|EVAL(roll("1d6")*100)		
+				
+STARTPACK:Arts 550GP	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d2")				
+GEAR:Art (Comb (Silver with Moonstones))	OPTION:1	EQMOD:ART|EVAL(roll("1d10")*100)		
+GEAR:Art (Longsword (Silver-Plated with Jet Jewel in Hilt))	OPTION:2	EQMOD:ART|EVAL(roll("1d10")*100)		
+				
+STARTPACK:Arts 700GP	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d2")				
+GEAR:Art (Harp (Carved Exotic Wood with Ivory Inlay and Zircon Gems))	OPTION:1	EQMOD:ART|EVAL(roll("1d10")*100)		
+GEAR:Art (Idol (Solid Gold 10 lb.))	OPTION:2	EQMOD:ART|EVAL(roll("1d10")*100)		
+				
+STARTPACK:Arts 1050GP	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d3")				
+GEAR:Art (Comb (Gold Dragon with Red Garnet Eye))	OPTION:1	EQMOD:ART|EVAL(roll("3d6")*100)		
+GEAR:Art (Stopper Cork (Gold and Topaz))	OPTION:2	EQMOD:ART|EVAL(roll("3d6")*100)		
+GEAR:Art (Dagger (Ceremonial Electrum with Star Ruby in the Pommel))	OPTION:3	EQMOD:ART|EVAL(roll("3d6")*100)		
+				
+STARTPACK:Arts 1400GP	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d3")				
+GEAR:Art (Eyepatch (Mock Eye of Sapphire and Moonstone))	OPTION:1	EQMOD:ART|EVAL(roll("4d6")*100)		
+GEAR:Art (Pendant (Fire Opal on Fine Gold Chain))	OPTION:2	EQMOD:ART|EVAL(roll("4d6")*100)		
+GEAR:Art (Painting (Old Masterpiece))	OPTION:3	EQMOD:ART|EVAL(roll("4d6")*100)		
+				
+STARTPACK:Arts 1750GP	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d2")				
+GEAR:Art (Mantle (Embroidered Silk and Velvet with Numerous Moonstones))	OPTION:1	EQMOD:ART|EVAL(roll("5d6")*100)		
+GEAR:Art (Pendant (Sapphire on Gold Chain))	OPTION:2	EQMOD:ART|EVAL(roll("5d6")*100)		
+				
+STARTPACK:Arts 2500GP	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d3")				
+GEAR:Art (Glove (Embroidered and Bejeweled))	OPTION:1	EQMOD:ART|EVAL(roll("1d4")*1000)		
+GEAR:Art (Anklet (Jeweled))	OPTION:2	EQMOD:ART|EVAL(roll("1d4")*1000)		
+GEAR:Art (Music Box (Gold))	OPTION:3	EQMOD:ART|EVAL(roll("1d4")*1000)		
+				
+STARTPACK:Arts 3500GP	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d2")				
+GEAR:Art (Circlet (Golden with Four Aquamarines))	OPTION:1	EQMOD:ART|EVAL(roll("1d6")*1000)		
+GEAR:Art (Necklace (String of Small Pink Pearls))	OPTION:2	EQMOD:ART|EVAL(roll("1d6")*1000)		
+				
+STARTPACK:Arts 5000GP	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d2")				
+GEAR:Art (Crown (Jeweled Gold))	OPTION:1	EQMOD:ART|EVAL(roll("2d4")*1000)		
+GEAR:Art (Ring (Jeweled Electrum))	OPTION:2	EQMOD:ART|EVAL(roll("2d4")*1000)		
+				
+STARTPACK:Arts 7000GP	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d2")				
+GEAR:Art (Ring (Gold and Ruby))	OPTION:1	EQMOD:ART|EVAL(roll("2d6")*1000)		
+GEAR:Art (Cup (Gold Set with Emeralds))	OPTION:2	EQMOD:ART|EVAL(roll("2d6")*1000)		
+				
+STARTPACK:Treasure 3-8 Mundane Items	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:Treasure 3-8.1 Alchemical Item	OPTION:1,17			
+KIT:Treasure 3-8.2 Armor	OPTION:18,50			
+KIT:Treasure 3-8.3 Weapons	OPTION:51,83			
+KIT:Treasure 3-8.4 Tools and gear	OPTION:84,100			
+				
+STARTPACK:Treasure 3-8.1 Alchemical Item	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Alchemist Fire (Flask)	OPTION:1,12	QTY:roll("1d4")		
+GEAR:Acid (Flask)	OPTION:13,24	QTY:roll("2d4")		
+GEAR:Smokestick	OPTION:25,36	QTY:roll("1d4")		
+GEAR:Holy Water (Flask)	OPTION:37,48	QTY:roll("1d4")		
+GEAR:Antitoxin (Vial)	OPTION:49,62	QTY:roll("1d4")		
+GEAR:Everburning Torch	OPTION:63,74			
+GEAR:Tanglefoot Bag	OPTION:75,88	QTY:roll("1d4")		
+GEAR:Thunderstone	OPTION:89,100	QTY:roll("1d4")		
+				
+STARTPACK:Treasure 3-8.2 Armor	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:Treasure 3-8.2 Small Armor	OPTION:1,10				
+KIT:Treasure 3-8.2 Medium Armor	OPTION:11,100			
+				
+STARTPACK:Treasure 3-8.2 Small Armor	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Chain Shirt	OPTION:1,12	SIZE:S		
+GEAR:Studded Leather	OPTION:13,18	SIZE:S	EQMOD:MWORKA	
+GEAR:Breastplate	OPTION:19,26	SIZE:S		
+GEAR:Banded Mail	OPTION:27,34	SIZE:S		
+GEAR:Half-Plate	OPTION:35,54	SIZE:S		
+GEAR:Full Plate	OPTION:55,80	SIZE:S		
+KIT:Treasure 3-8.2.1 Darkwood Shield (Small)	OPTION:81,90			
+KIT:Treasure 3-8.2.2 Masterwork Shield (Small)	OPTION:91,100			
+				
+STARTPACK:Treasure 3-8.2.1 Darkwood Shield (Small)	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Buckler	OPTION:1,50	SIZE:S	EQMOD:DARKWOOD_A	
+GEAR:Shield (Heavy/Wooden)	OPTION:51,100	SIZE:S	EQMOD:DARKWOOD_A	
+				
+STARTPACK:Treasure 3-8.2.2 Masterwork Shield (Small)	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Buckler	OPTION:1,17	SIZE:S	EQMOD:MWORKA	
+GEAR:Shield (Light/Wooden)	OPTION:18,40	SIZE:S	EQMOD:MWORKA	
+GEAR:Shield (Light/Steel)	OPTION:41,60	SIZE:S	EQMOD:MWORKA	
+GEAR:Shield (Heavy/Wooden)	OPTION:91,83	SIZE:S	EQMOD:MWORKA	
+GEAR:Shield (Heavy/Steel)	OPTION:84,100	SIZE:S	EQMOD:MWORKA	
+				
+STARTPACK:Treasure 3-8.2 Medium Armor	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Chain Shirt	OPTION:1,12	SIZE:M		
+GEAR:Studded Leather	OPTION:13,18	SIZE:M	EQMOD:MWORKA	
+GEAR:Breastplate	OPTION:19,26	SIZE:M		
+GEAR:Banded Mail	OPTION:27,34	SIZE:M		
+GEAR:Half-Plate	OPTION:35,54	SIZE:M		
+GEAR:Full Plate	OPTION:55,80	SIZE:M		
+KIT:Treasure 3-8.2.1 Darkwood Shield (Medium)	OPTION:81,90			
+KIT:Treasure 3-8.2.2 Masterwork Shield (Medium)	OPTION:91,100			
+				
+STARTPACK:Treasure 3-8.2.1 Darkwood Shield (Medium)	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Buckler	OPTION:1,50	SIZE:M	EQMOD:DARKWOOD_A	
+GEAR:Shield (Heavy/Wooden)	OPTION:51,100	SIZE:M	EQMOD:DARKWOOD_A	
+				
+STARTPACK:Treasure 3-8.2.2 Masterwork Shield (Medium)	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Buckler	OPTION:1,17	SIZE:M	EQMOD:MWORKA	
+GEAR:Shield (Light/Wooden)	OPTION:18,40	SIZE:M	EQMOD:MWORKA	
+GEAR:Shield (Light/Steel)	OPTION:41,60	SIZE:M	EQMOD:MWORKA	
+GEAR:Shield (Heavy/Wooden)	OPTION:91,83	SIZE:M	EQMOD:MWORKA	
+GEAR:Shield (Heavy/Steel)	OPTION:84,100	SIZE:M	EQMOD:MWORKA	
+				
+STARTPACK:Treasure 3-8.3 Weapons	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+KIT:Treasure 7-11 Common Melee Weapons	OPTION:01,50			
+KIT:Treasure 7-12 Uncommon Weapons	OPTION:51,70			
+KIT:Treasure 7-13 Common Ranged Weapons	OPTION:71,100			
+				
+STARTPACK:Treasure 3-8.4 Tools and gear	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d100")				
+GEAR:Backpack	OPTION:1,3			
+GEAR:Crowbar	OPTION:4,6			
+GEAR:Lantern (Bullseye)	OPTION:7,11			
+GEAR:Lock (Very Simple)	OPTION:12,16			
+GEAR:Lock (Average)	OPTION:17,21			
+GEAR:Lock (Good)	OPTION:22,28			
+GEAR:Lock (Amazing)	OPTION:29,35			
+GEAR:Manacles (Masterwork/Medium)	OPTION:36,40			
+GEAR:Mirror (Small/Steel)	OPTION:41,43			
+GEAR:Rope (Silk/50 Ft.)	OPTION:44,46			
+GEAR:Spyglass	OPTION:47,53			
+KIT:Artisan's Tools (Masterwork)	OPTION:54,58			
+GEAR:Climber's Kit	OPTION:59,63			
+GEAR:Disguise Kit	OPTION:64,68			
+GEAR:Holy Symbol (Silver)	OPTION:74,77			
+GEAR:Hourglass	OPTION:78,81			
+GEAR:Magnifying Glass	OPTION:82,88			
+KIT:Musical Instrument (Masterwork)	OPTION:89,95			
+GEAR:Thieves' Tools	OPTION:96,100	EQMOD:MWORKT		
+				
+STARTPACK:Artisan's Tools (Masterwork)	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d13")				
+GEAR:Artisan's Tools (Armorsmithing)	OPTION:1	EQMOD:MWORKT		
+GEAR:Artisan's Tools (Bowmaking)	OPTION:2	EQMOD:MWORKT		
+GEAR:Artisan's Tools (Blacksmithing)	OPTION:3	EQMOD:MWORKT		
+GEAR:Artisan's Tools (Carpentry)	OPTION:4	EQMOD:MWORKT		
+GEAR:Artisan's Tools (Leatherworking)	OPTION:5	EQMOD:MWORKT		
+GEAR:Artisan's Tools (Painting)	OPTION:6	EQMOD:MWORKT		
+GEAR:Artisan's Tools (Pottery)	OPTION:7	EQMOD:MWORKT		
+GEAR:Artisan's Tools (Sculpting)	OPTION:8	EQMOD:MWORKT		
+GEAR:Artisan's Tools (Shipmaking)	OPTION:9	EQMOD:MWORKT		
+GEAR:Artisan's Tools (Stonemasonry)	OPTION:10	EQMOD:MWORKT		
+GEAR:Artisan's Tools (Trapmaking)	OPTION:11	EQMOD:MWORKT		
+GEAR:Artisan's Tools (Weaponsmithing)	OPTION:12	EQMOD:MWORKT		
+GEAR:Artisan's Tools (Woodworking)	OPTION:13	EQMOD:MWORKT		
+				
+STARTPACK:Musical Instrument (Masterwork)	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d13")				
+GEAR:Musical Instrument (Bells)	OPTION:1	EQMOD:MWORKI		
+GEAR:Musical Instrument (Chime)	OPTION:2	EQMOD:MWORKI		
+GEAR:Musical Instrument (Drum)	OPTION:3	EQMOD:MWORKI		
+GEAR:Musical Instrument (Gong)	OPTION:4	EQMOD:MWORKI		
+GEAR:Musical Instrument (Fiddle)	OPTION:5	EQMOD:MWORKI		
+GEAR:Musical Instrument (Harp)	OPTION:6	EQMOD:MWORKI		
+GEAR:Musical Instrument (Lute)	OPTION:7	EQMOD:MWORKI		
+GEAR:Musical Instrument (Mandolin)	OPTION:8	EQMOD:MWORKI		
+GEAR:Musical Instrument (Flute)	OPTION:9	EQMOD:MWORKI		
+GEAR:Musical Instrument (Pan Pipes)	OPTION:10	EQMOD:MWORKI		
+GEAR:Musical Instrument (Recorder)	OPTION:11	EQMOD:MWORKI		
+GEAR:Musical Instrument (Shawm)	OPTION:12	EQMOD:MWORKI		
+GEAR:Musical Instrument (Trumpet)	OPTION:13	EQMOD:MWORKI		
+
+STARTPACK:Starting Gold ~ Adept	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Adept=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("2d4")*10
+
+STARTPACK:Starting Gold ~ Aristocrat	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Aristocrat=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("6d8")*10
+
+STARTPACK:Starting Gold ~ Commoner	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Commoner=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("5d4")
+
+STARTPACK:Starting Gold ~ Expert	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Expert=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("3d4")*10
+
+STARTPACK:Starting Gold ~ Warrior	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Warrior=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("3d4")*10
+
+STARTPACK:Table 5-1 Charachter Wealth by Level	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	PREMULT:2,[PREVARGTEQ:CR,2],[PREVARLTEQ:CR,20]
+KIT:Starting Gold ~ CR02	PREVAREQ:CR,2
+KIT:Starting Gold ~ CR03	PREVAREQ:CR,3
+KIT:Starting Gold ~ CR04	PREVAREQ:CR,4
+KIT:Starting Gold ~ CR05	PREVAREQ:CR,5
+KIT:Starting Gold ~ CR06	PREVAREQ:CR,6
+KIT:Starting Gold ~ CR07	PREVAREQ:CR,7
+KIT:Starting Gold ~ CR08	PREVAREQ:CR,8
+KIT:Starting Gold ~ CR09	PREVAREQ:CR,9
+KIT:Starting Gold ~ CR10	PREVAREQ:CR,10
+KIT:Starting Gold ~ CR11	PREVAREQ:CR,11
+KIT:Starting Gold ~ CR12	PREVAREQ:CR,12
+KIT:Starting Gold ~ CR13	PREVAREQ:CR,13
+KIT:Starting Gold ~ CR14	PREVAREQ:CR,14
+KIT:Starting Gold ~ CR15	PREVAREQ:CR,15
+KIT:Starting Gold ~ CR16	PREVAREQ:CR,16
+KIT:Starting Gold ~ CR17	PREVAREQ:CR,17
+KIT:Starting Gold ~ CR18	PREVAREQ:CR,18
+KIT:Starting Gold ~ CR19	PREVAREQ:CR,19
+KIT:Starting Gold ~ CR20	PREVAREQ:CR,20
+
+STARTPACK:Starting Gold ~ CR02	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:2700
+
+STARTPACK:Starting Gold ~ CR03	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:2700
+
+STARTPACK:Starting Gold ~ CR04	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:5400
+
+STARTPACK:Starting Gold ~ CR05	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:9000
+
+STARTPACK:Starting Gold ~ CR06	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:13000
+
+STARTPACK:Starting Gold ~ CR07	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:19000
+
+STARTPACK:Starting Gold ~ CR08	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:27000
+
+STARTPACK:Starting Gold ~ CR09	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:36000
+
+STARTPACK:Starting Gold ~ CR10	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:49000
+
+STARTPACK:Starting Gold ~ CR11	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:66000
+
+STARTPACK:Starting Gold ~ CR12	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:88000
+
+STARTPACK:Starting Gold ~ CR13	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:110000
+
+STARTPACK:Starting Gold ~ CR14	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:150000
+
+STARTPACK:Starting Gold ~ CR15	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:200000
+
+STARTPACK:Starting Gold ~ CR16	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:260000
+
+STARTPACK:Starting Gold ~ CR17	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:340000
+
+STARTPACK:Starting Gold ~ CR18	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:440000
+
+STARTPACK:Starting Gold ~ CR19	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:580000
+
+STARTPACK:Starting Gold ~ CR20	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:760000

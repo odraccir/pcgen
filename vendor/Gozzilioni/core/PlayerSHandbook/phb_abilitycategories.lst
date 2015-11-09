@@ -29,6 +29,7 @@ ABILITYCATEGORY:Ranger Class Feature	CATEGORY:Special Ability	TYPE:RangerClassFe
 ABILITYCATEGORY:Rogue Class Feature	CATEGORY:Special Ability	TYPE:RogueClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Rogue Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Sorcerer Class Feature	CATEGORY:Special Ability	TYPE:SorcererClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Sorcerer Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Wizard Class Feature	CATEGORY:Special Ability	TYPE:WizardClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Wizard Class Features			DISPLAYLOCATION:Class Features
+
 ABILITYCATEGORY:Animal Companion Class Feature	CATEGORY:Special Ability	TYPE:AnimalCompanionClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Animal Companion Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Special Mount Class Feature	CATEGORY:Special Ability	TYPE:SpecialMountClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Special Mount Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Familiar Class Feature	CATEGORY:Special Ability	TYPE:FamiliarClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Familiar Class Features			DISPLAYLOCATION:Class Features

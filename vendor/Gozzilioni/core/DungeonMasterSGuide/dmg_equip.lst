@@ -1,13 +1,166 @@
-SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																
-#
-# Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property
-# From "summary of magic item creation costs"
-Potion	TYPE:Potion.Consumable	COST:0	WT:0	SOURCEPAGE:PHB	MODS:REQUIRED
-Rod	TYPE:Rod		COST:0	WT:0	SOURCEPAGE:PHB	MODS:REQUIRED
-Scroll	TYPE:Scroll.Consumable	COST:0	WT:0	SOURCEPAGE:PHB	MODS:REQUIRED
-Staff	TYPE:Staff		COST:0	WT:0	SOURCEPAGE:PHB	MODS:REQUIRED
-Wand	TYPE:Wand		COST:0	WT:0	SOURCEPAGE:PHB	MODS:REQUIRED
-
-# From Magic Overview "Components"
-Spell Component	TYPE:MaterialComponent.Consumable	COST:0	WT:0	MODS:REQUIRED	SOURCEPAGE:MagicOverview
-Spell Focus	TYPE:SpellFocus	COST:0	WT:0	MODS:REQUIRED	SOURCEPAGE:MagicOverview
+SOURCELONG:Gozzilioni Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																							
+#																										
+# Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property																		
+# From "summary of magic item creation costs"																										
+Potion		TYPE:Potion.Consumable	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Rod		TYPE:Rod	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Scroll		TYPE:Scroll.Consumable	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Staff		TYPE:Staff	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Wand		TYPE:Wand	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+																										
+###Block:Gems																										
+# Equipment Name	Output Name											Type					Cost		Weight	Requires Modification?	Source Page					Special Property
+Gem (Agate (Banded))	OUTPUTNAME:Banded Agate	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Agate (Eye))	OUTPUTNAME:Eye Agate	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Agate (Moss))	OUTPUTNAME:Moss Agate	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Alexandrite)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Amber)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Amethyst)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Aquamarine)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Azurite)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Bloodstone)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Carnelian)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Chalcedony)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Chrysoberyl)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Chrysoprase)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Citrine)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Coral)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Corundum (Firey Yellow))	OUTPUTNAME:Firey Yellow Corundum	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Corundum (Rich Purple))	OUTPUTNAME:Rich Purple Corundum	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Diamond (Blue-White))	OUTPUTNAME:Blue-White Diamond	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Diamond (Blue))	OUTPUTNAME:Blue Diamond	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Diamond (Brown))	OUTPUTNAME:Brown Diamond	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Diamond (Canary))	OUTPUTNAME:Canary Diamond	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Diamond (Pink))	OUTPUTNAME:Pink Diamond	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Emerald (Clearest Bright Green))	OUTPUTNAME:Clearest Bright Green Emerald	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Emerald)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Garnet (Brown-Green))	OUTPUTNAME:Brown-Green Garnet	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Garnet (Red))	OUTPUTNAME:Red Garnet	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Garnet (Violet))	OUTPUTNAME:Violet Garnet	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Hematite)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Iolite)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Jacinth)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Jade)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Jasper)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Jet)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Lapis Lazuli)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Malachite)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Moonstone)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Obsidian)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Onyx)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Opal (Black))	OUTPUTNAME:Black Opal	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Opal (Fire))	OUTPUTNAME:Fire Opal	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Opal (White))	OUTPUTNAME:White Opal	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Pearl (Black))	OUTPUTNAME:Black Pearl	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Pearl (Freshwater/Irregular))	OUTPUTNAME:Freshwater (Irregular) Pearl	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Pearl (Golden))	OUTPUTNAME:Golden Pearl	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Pearl (Pink))	OUTPUTNAME:Pink Pearl	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Pearl (Silver))	OUTPUTNAME:Silver Pearl	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Pearl (White))	OUTPUTNAME:White Pearl	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Peridot)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Quartz (Blue))	OUTPUTNAME:Blue Quartz	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Quartz (Rose))	OUTPUTNAME:Rose Quartz	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Quartz (Smoky))	OUTPUTNAME:Smoky Quartz	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Quartz (Star Rose))	OUTPUTNAME:Star Rose Quartz	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Rhodochrosite)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Rock Crystal (Clear Quartz))	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Ruby (Star))	OUTPUTNAME:Star Ruby	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Sapphire (Blue))	OUTPUTNAME:Blue Sapphire	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Sard)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Sardonyx)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Spinel (Deep Blue))	OUTPUTNAME:Deep Blue Spinel	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Spinel (Deep Green))	OUTPUTNAME:Deep Green Spinel	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Spinel (Red-Brown))	OUTPUTNAME:Red-Brown Spinel	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Spinel (Red))	OUTPUTNAME:Red Spinel	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Star Sapphire (Black))	OUTPUTNAME:Black Star Sapphire	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Star Sapphire (Blue))	OUTPUTNAME:Blue Star Sapphire	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Topaz (Golden Yellow))	OUTPUTNAME:Golden Yellow Topaz	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Tourmaline)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Turquoise (Tiger Eye))	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Zircon)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+																										
+Art (Silver Ewer)	OUTPUTNAME:[NAME]	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Statuette (Carved Bone))	OUTPUTNAME:Carved Bone Statuette	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Statuette (Ivory))	OUTPUTNAME:Ivory Statuette	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Bracelet (Small/Gold/Finely Wrought))	OUTPUTNAME:Finely Wrought Small Gold Bracelet	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Vestments (Cloth of Gold))	OUTPUTNAME:Cloth of Gold Vestments	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Mask (Black Velvet with Numerous Citrines))	OUTPUTNAME:Black Velvet Mask with Numerous Citrines	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Chalice (Silver with Lapis Lazuli Gems)	OUTPUTNAME:Silver Chalice with Lapis Lazuli Gems	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Tapestry (Large/Wool/Well-Done))	OUTPUTNAME:Large Well-Done Wool Tapestry	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Mug (Brass with Jade Inlays))	OUTPUTNAME:Brass Mug with Jade Inlays	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Comb (Silver with Moonstones))	OUTPUTNAME:Silver Comb with Moonstones	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Longsword (Silver-Plated with Jet Jewel in Hilt))	OUTPUTNAME:Silver-Plated Steel Longsword with Jet Jewel in Hilt	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Harp (Carved Exotic Wood with Ivory Inlay and Zircon Gems))	OUTPUTNAME:Carved Harp of Exotic Wood with Ivory Inlay and Zircon Gems	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Idol (Solid Gold 10 lb.))	OUTPUTNAME:Solid Gold Idol (10 lb.)	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Comb (Gold Dragon with Red Garnet Eye))	OUTPUTNAME:Gold Dragon Comb with Red Garnet Eye	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Stopper Cork (Gold and Topaz))	OUTPUTNAME:Gold and Topaz Stopper Cork	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Dagger (Ceremonial Electrum with Star Ruby in the Pommel))	OUTPUTNAME:Ceremonial Electrum Dagger with a Star Ruby in the Pommel	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Eyepatch (Mock Eye of Sapphire and Moonstone))	OUTPUTNAME:Eyepatch with Mock Eye of Sapphire and Moonstone	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Pendant (Fire Opal on Fine Gold Chain))	OUTPUTNAME:Fire Opal Pendant on a Fine Gold Chain	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Painting (Old Masterpiece))	OUTPUTNAME:Old Masterpiece Painting	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Mantle (Embroidered Silk and Velvet with Numerous Moonstones))	OUTPUTNAME:Embroidered Silk and Velvet Mantle with Numerous Moonstones	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Pendant (Sapphire on Gold Chain))	OUTPUTNAME:Sapphire Pendant on Gold Chain	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Glove (Embroidered and Bejeweled))	OUTPUTNAME:Embroidered and Bejeweled Glove	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Anklet (Jeweled))	OUTPUTNAME:Jeweled Anklet	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Music Box (Gold))	OUTPUTNAME:Gold Music Box	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Circlet (Golden with Four Aquamarines))	OUTPUTNAME:Golden Circlet with Four Aquamarines	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Necklace (String of Small Pink Pearls))	OUTPUTNAME:String of Small Pink Pearls (Necklace)	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Crown (Jeweled Gold))	OUTPUTNAME:Jeweled Gold Crown	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Ring (Jeweled Electrum))	OUTPUTNAME:Jeweled Electrum Ring	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Ring (Gold and Ruby))	OUTPUTNAME:Gold and Ruby Ring	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Art (Cup (Gold Set with Emeralds))	OUTPUTNAME:Gold Cup Set with Emeralds	TYPE:Goods.Art	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+																										
+###Block: Trap																										
+# Equipment Name	Output Name			Type				Cost		Weight	Define		Requires Modification?	Source Page			Special Property									
+Trap (Mechanical)	OUTPUTNAME:[NAME] Trap	TYPE:Trap.Mechanical	COST:1000	DEFINE:TrapCR|0	MODS:REQUIRED	SOURCEPAGE:DMG	SPROP:Trap CR %|TrapCR																			
+																										
+###Block: Wilderness																										
+# Equipment Name	Output Name			Type				Cost		Weight	Define		Requires Modification?	Source Page			Special Property									
+Catapult (Heavy)	TYPE:Goods.SiegeEngine	COST:800	SOURCEPAGE:DMG	SPROP:200' Range, 6d6 damage, 4 man crew																						
+Catapult (Light)	TYPE:Goods.SiegeEngine	COST:550	SOURCEPAGE:DMG	SPROP:150' Range, 4d6 damage, 2 man crew																						
+Ballista		TYPE:Goods.SiegeEngine	COST:500	SOURCEPAGE:DMG	SPROP:120' Range, 3d8 damage, 19-20 Critical, 1 man crew																					
+Ram			TYPE:Goods.SiegeEngine	COST:1000	SOURCEPAGE:DMG	SPROP:3d6 damage, 10 man crew																				
+Siege Tower		TYPE:Goods.SiegeEngine	COST:2000	SOURCEPAGE:DMG	SPROP:20 man crew																					
+																										
+###Block: Buildings																										
+# Equipment Name	Output Name			Type				Cost		Weight	Define		Requires Modification?	Source Page			Special Property									
+Building (Simple House)	TYPE:Goods.Building.Container	COST:1000	SOURCEPAGE:DMG	CONTAINS:UNLIM|Any																						
+Building (Grand House)	TYPE:Goods.Building.Container	COST:5000	SOURCEPAGE:DMG	CONTAINS:UNLIM|Any																						
+Building (Mansion)	TYPE:Goods.Building.Container	COST:100000	SOURCEPAGE:DMG	CONTAINS:UNLIM|Any																						
+Building (Tower)	TYPE:Goods.Building.Container	COST:50000	SOURCEPAGE:DMG	CONTAINS:UNLIM|Any																						
+Building (Keep)	TYPE:Goods.Building.Container	COST:150000	SOURCEPAGE:DMG	CONTAINS:UNLIM|Any																						
+Building (Castle)	TYPE:Goods.Building.Container	COST:500000	SOURCEPAGE:DMG	CONTAINS:UNLIM|Any																						
+Building (Castle/Huge)	TYPE:Goods.Building.Container	COST:1000000	SOURCEPAGE:DMG	CONTAINS:UNLIM|Any																						
+Building (Moat with Bridge)	TYPE:Goods.Building.Container	COST:50000	SOURCEPAGE:DMG	CONTAINS:UNLIM|Any																						
+																										
+###Block: Hireling Services																										
+# Equipment Name	Output Name			Type				Cost		Weight	Define		Requires Modification?	Source Page			Special Property									
+# Hireling (Alchemist)	TYPE:Ser																									
+Hireling (Alchemist)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:1	WT:0	SOURCEPAGE:DMG																				
+Hireling (Animal Tender/Groom)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.15	WT:0	SOURCEPAGE:DMG																				
+Hireling (Architect)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.5	WT:0	SOURCEPAGE:DMG																				
+Hireling (Engineer)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.5	WT:0	SOURCEPAGE:DMG																				
+Hireling (Barrister)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:1	WT:0	SOURCEPAGE:DMG																				
+Hireling (Clerk)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.4	WT:0	SOURCEPAGE:DMG																				
+Hireling (Cook)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.1	WT:0	SOURCEPAGE:DMG																				
+Hireling (Entertainer)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.4	WT:0	SOURCEPAGE:DMG																				
+Hireling (Performer)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.4	WT:0	SOURCEPAGE:DMG																				
+Hireling (Laborer)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.1	WT:0	SOURCEPAGE:DMG																				
+Hireling (Limner)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.6	WT:0	SOURCEPAGE:DMG																				
+Hireling (Maid)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.1	WT:0	SOURCEPAGE:DMG																				
+Hireling (Mason)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.3	WT:0	SOURCEPAGE:DMG																				
+Hireling (Mercenary)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.2	WT:0	SOURCEPAGE:DMG																				
+Hireling (Mercenary/Cavalry)	OUTPUTNAME: Cavalry Mercenary Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.4	WT:0	SOURCEPAGE:DMG																				
+Hireling (Mercenary/Leader)	OUTPUTNAME: Leader Mercenary Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.6	WT:0	SOURCEPAGE:DMG																				
+Hireling (Porter)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:1	WT:0.1	SOURCEPAGE:DMG																				
+Hireling (Sage)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:2	WT:0	SOURCEPAGE:DMG																				
+Hireling (Scribe)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.3	WT:0	SOURCEPAGE:DMG																				
+Hireling (Smith)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.4	WT:0	SOURCEPAGE:DMG																				
+Hireling (Teamster)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.3	WT:0	SOURCEPAGE:DMG																				
+Hireling (Valet/Lackey)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.2	WT:0	SOURCEPAGE:DMG																				
+																										
+###Block: Alchemical																										
+Keg		TYPE:Goods.General.Container.Resizable	COST:0	WT:5	SOURCEPAGE:DMG	CONTAINS:15|Liquid=15|SpellComponent=15|Poison=15|Potion=15|Powder=15																				
+Horn		TYPE:Goods.General.Container.Resizable	COST:0	WT:2	SOURCEPAGE:DMG	CONTAINS:2|Powder=2																				
+Gunpowder (Keg)		TYPE:Goods.Alchemical.Consumable.Keg.Powder	COST:250	WT:20	SOURCEPAGE:DMG																					
+Gunpowder (Horn)		TYPE:Goods.Alchemical.Consumable.Keg.Powder	COST:35	WT:2	SOURCEPAGE:DMG																					

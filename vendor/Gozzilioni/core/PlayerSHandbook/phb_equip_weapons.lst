@@ -49,7 +49,7 @@ Handaxe			PROFICIENCY:WEAPON|Handaxe	TYPE:Weapon.Melee.Martial.Slashing.Light.Ax
 Kukri			PROFICIENCY:WEAPON|Kukri	TYPE:Weapon.Melee.Martial.Slashing.Light.Dagger	COST:8	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
 Pick (Light)	OUTPUTNAME:Pick, Light		PROFICIENCY:WEAPON|Pick (Light)	TYPE:Weapon.Melee.Martial.Piercing.Light.Pick	COST:4	WT:3	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x4	EQMOD:STEEL.WOOD	SOURCEPAGE:PHB											
 Sap			PROFICIENCY:WEAPON|Sap	TYPE:Weapon.Melee.Martial.Bludgeoning.Light.Sap	COST:1	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
-Sword (Short)	OUTPUTNAME:Sword, Short		PROFICIENCY:WEAPON|Short (Sword)	TYPE:Weapon.Melee.Martial.Piercing.Light.Sword	COST:10	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
+Sword (Short)	OUTPUTNAME:Sword, Short		PROFICIENCY:WEAPON|Sword (Short)	TYPE:Weapon.Melee.Martial.Piercing.Light.Sword	COST:10	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
 ## OneHanded																									
 Battleaxe			PROFICIENCY:WEAPON|Battleaxe	TYPE:Weapon.Melee.Martial.Slashing.OneHanded.Axe	COST:10	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:PHB											
 Flail			PROFICIENCY:WEAPON|Flail	TYPE:Weapon.Melee.Martial.Bludgeoning.OneHanded.Flail	COST:8	WT:5	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB											
