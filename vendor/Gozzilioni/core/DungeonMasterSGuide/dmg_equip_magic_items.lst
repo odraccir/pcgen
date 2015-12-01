@@ -1,0 +1,1361 @@
+SOURCELONG:Gozzilioni Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																					
+#																								
+# Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property																
+##Block: Potions																								
+Potion (Cure Light Wound)		TYPE:Potion.Vial.Consumable	COST:50	WT:0	SOURCEPAGE:DMG																			
+Potion (Endure Elements)		TYPE:Potion.Vial.Consumable	COST:50	WT:0	SOURCEPAGE:DMG																			
+Potion (Hide from Animals)		TYPE:Potion.Vial.Consumable	COST:50	WT:0	SOURCEPAGE:DMG																			
+Potion (Hide from Undead)		TYPE:Potion.Vial.Consumable	COST:50	WT:0	SOURCEPAGE:DMG																			
+Potion (Jump)		TYPE:Potion.Vial.Consumable	COST:50	WT:0	SOURCEPAGE:DMG																			
+Potion (Mage Armor)		TYPE:Potion.Vial.Consumable	COST:50	WT:0	SOURCEPAGE:DMG																			
+Potion (Magic Fang)		TYPE:Potion.Vial.Consumable	COST:50	WT:0	SOURCEPAGE:DMG																			
+Potion (Magic Stone)		TYPE:Potion.Flask.Consumable	COST:50	WT:0	SOURCEPAGE:DMG																			
+Potion (Magic Weapon)		TYPE:Potion.Flask.Consumable	COST:50	WT:0	SOURCEPAGE:DMG																			
+Potion (Pass without Trace)		TYPE:Potion.Vial.Consumable	COST:50	WT:0	SOURCEPAGE:DMG																			
+Potion (Protection from Chaos)		TYPE:Potion.Vial.Consumable	COST:50	WT:0	SOURCEPAGE:DMG																			
+Potion (Protection from Evil)		TYPE:Potion.Vial.Consumable	COST:50	WT:0	SOURCEPAGE:DMG																			
+Potion (Protection from Good)		TYPE:Potion.Vial.Consumable	COST:50	WT:0	SOURCEPAGE:DMG																			
+Potion (Protection from Law)		TYPE:Potion.Vial.Consumable	COST:50	WT:0	SOURCEPAGE:DMG																			
+Potion (Remove Fear)		TYPE:Potion.Vial.Consumable	COST:50	WT:0	SOURCEPAGE:DMG																			
+Potion (Sanctuary)		TYPE:Potion.Vial.Consumable	COST:50	WT:0	SOURCEPAGE:DMG																			
+Potion (Shield of Faith +2)		TYPE:Potion.Vial.Consumable	COST:50	WT:0	SOURCEPAGE:DMG																			
+Potion (Shillelagh)		TYPE:Potion.Flask.Consumable	COST:50	WT:0	SOURCEPAGE:DMG																			
+Potion (Bless Weapon)		TYPE:Potion.Vial.Consumable	COST:100	WT:0	SOURCEPAGE:DMG																			
+Potion (Enlarge Person)		TYPE:Potion.Vial.Consumable	COST:250	WT:0	SOURCEPAGE:DMG																			
+Potion (Reduce Person)		TYPE:Potion.Vial.Consumable	COST:250	WT:0	SOURCEPAGE:DMG																			
+Potion (Aid)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Barkskin +2)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Bear's Endurance)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Blur)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Bull's Strength)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Cat's Grace)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Cure Moderate Wounds)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Darkness)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Delay Poison)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Eagle's Splendor)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Fox's Cunning)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Invisibility)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Lesser Restoration)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Levitate)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Misdirection)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Owl's Wisdom)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Protection from Arrows 10/Magic)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Remove Paralysis)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Resist Energy 10/Acid)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Resist Energy 10/Cold)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Resist Energy 10/Electricity)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Resist Energy 10/Fire)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Resist Energy 10/Sonic)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Shield of Faith +3)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Spider Climb)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Undetectable Alignment)		TYPE:Potion.Vial.Consumable	COST:300	WT:0	SOURCEPAGE:DMG																			
+Potion (Barkskin +3)		TYPE:Potion.Vial.Consumable	COST:600	WT:0	SOURCEPAGE:DMG																			
+Potion (Shield of Faith +4)		TYPE:Potion.Vial.Consumable	COST:600	WT:0	SOURCEPAGE:DMG																			
+Potion (Resist Energy 20/Acid)		TYPE:Potion.Vial.Consumable	COST:700	WT:0	SOURCEPAGE:DMG																			
+Potion (Resist Energy 20/Cold)		TYPE:Potion.Vial.Consumable	COST:700	WT:0	SOURCEPAGE:DMG																			
+Potion (Resist Energy 20/Electricity)		TYPE:Potion.Vial.Consumable	COST:700	WT:0	SOURCEPAGE:DMG																			
+Potion (Resist Energy 20/Fire)		TYPE:Potion.Vial.Consumable	COST:700	WT:0	SOURCEPAGE:DMG																			
+Potion (Resist Energy 20/Sonic)		TYPE:Potion.Vial.Consumable	COST:700	WT:0	SOURCEPAGE:DMG																			
+Potion (Cure Serious Wounds)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Daylight)		TYPE:Potion.Flask.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Displacement)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Flame Arrow)		TYPE:Potion.Flask.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Fly)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Gaseous Form)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Greater Magic Fang +1)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Greater Magic Weapon +1)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Haste)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Heroism)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Keen Edge)		TYPE:Potion.Flask.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Magic Circle against Evil)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Magic Circle against Good)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Magic Circle against Law)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Magic Circle against Chaos)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Magic Vestment +1)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Neutralize Poison)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Nondetection)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Protection from Energy/Acid)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Protection from Energy/Cold)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Protection from Energy/Electricity)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Protection from Energy/Fire)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Protection from Energy/Sonic)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Rage)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Remove Blindness/Deafness)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Remove Curse)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Remove Disease)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Tongues)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Water Breathiing)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Water Walk)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:DMG																			
+Potion (Barkskin +4)		TYPE:Potion.Vial.Consumable	COST:900	WT:0	SOURCEPAGE:DMG																			
+Potion (Shield of Faith +5)		TYPE:Potion.Vial.Consumable	COST:900	WT:0	SOURCEPAGE:DMG																			
+Potion (Good Hope)		TYPE:Potion.Vial.Consumable	COST:1050	WT:0	SOURCEPAGE:DMG																			
+Potion (Resist Energy 30/Acid)		TYPE:Potion.Vial.Consumable	COST:1100	WT:0	SOURCEPAGE:DMG																			
+Potion (Resist Energy 30/Cold)		TYPE:Potion.Vial.Consumable	COST:1100	WT:0	SOURCEPAGE:DMG																			
+Potion (Resist Energy 30/Electricity)		TYPE:Potion.Vial.Consumable	COST:1100	WT:0	SOURCEPAGE:DMG																			
+Potion (Resist Energy 30/Fire)		TYPE:Potion.Vial.Consumable	COST:1100	WT:0	SOURCEPAGE:DMG																			
+Potion (Resist Energy 30/Sonic)		TYPE:Potion.Vial.Consumable	COST:1100	WT:0	SOURCEPAGE:DMG																			
+Potion (Barkskin +5)		TYPE:Potion.Vial.Consumable	COST:1200	WT:0	SOURCEPAGE:DMG																			
+Potion (Greater Magic Fang +2)		TYPE:Potion.Vial.Consumable	COST:1200	WT:0	SOURCEPAGE:DMG																			
+Potion (Greater Magic Weapon +2)		TYPE:Potion.Flask.Consumable	COST:1200	WT:0	SOURCEPAGE:DMG																			
+Potion (Magic Vestment +2)		TYPE:Potion.Flask.Consumable	COST:1200	WT:0	SOURCEPAGE:DMG																			
+Potion (Protection from Arrows 15/Magic)		TYPE:Potion.Vial.Consumable	COST:1500	WT:0	SOURCEPAGE:DMG																			
+Potion (Greater Magic Fang +3)		TYPE:Potion.Vial.Consumable	COST:1800	WT:0	SOURCEPAGE:DMG																			
+Potion (Greater Magic Weapon +3)		TYPE:Potion.Flask.Consumable	COST:1800	WT:0	SOURCEPAGE:DMG																			
+Potion (Magic Vestment +3)		TYPE:Potion.Flask.Consumable	COST:1800	WT:0	SOURCEPAGE:DMG																			
+Potion (Greater Magic Fang +4)		TYPE:Potion.Vial.Consumable	COST:2400	WT:0	SOURCEPAGE:DMG																			
+Potion (Greater Magic Weapon +4)		TYPE:Potion.Flask.Consumable	COST:2400	WT:0	SOURCEPAGE:DMG																			
+Potion (Magic Vestment +4)		TYPE:Potion.Flask.Consumable	COST:2400	WT:0	SOURCEPAGE:DMG																			
+Potion (Greater Magic Fang +5)		TYPE:Potion.Vial.Consumable	COST:3000	WT:0	SOURCEPAGE:DMG																			
+Potion (Greater Magic Weapon +5)		TYPE:Potion.Flask.Consumable	COST:3000	WT:0	SOURCEPAGE:DMG																			
+Potion (Magic Vestment +5)		TYPE:Potion.Flask.Consumable	COST:3000	WT:0	SOURCEPAGE:DMG																			
+																								
+##Block: Rings																								
+Ring of Animal Friendship		TYPE:Ring	COST:10800	WT:0	SOURCEPAGE:DMG	SPELLS:Ring Animal Friendship|TIMES=ATWILL|CASTERLEVEL=3|Charm Animal																		
+Ring of Blinking		TYPE:Ring	COST:27000	WT:0	SOURCEPAGE:DMG	SPELLS:Ring Blinking|TIMES=ATWILL|CASTERLEVEL=7|Blink																		
+Ring of Chameleon Power		TYPE:Ring	COST:12700	WT:0	SOURCEPAGE:DMG	SPELLS:Ring Chameleon Power|TIMES=ATWILL|CASTERLEVEL=3|Disguise Self	TEMPBONUS:PC|SKILL|Hide|10|TYPE=Competence																	
+Ring of Climbing		TYPE:Ring	COST:2500	WT:0	SOURCEPAGE:DMG	BONUS:SKILL|Climb|5|TYPE=Competence																		
+Ring of Climbing, Improved	KEY:Ring of Climbing (Improved)	TYPE:Ring	COST:10000	WT:0	SOURCEPAGE:DMG	BONUS:SKILL|Climb|10|TYPE=Competence																		
+Ring of Counterspells		TYPE:Ring	COST:4000	WT:0	SOURCEPAGE:DMG																			
+Ring of Djinni Calling		TYPE:Ring	COST:125000	WT:0	SOURCEPAGE:DMG																			
+Ring of Elemental Command (Air)		TYPE:Ring	COST:200000	WT:0	SOURCEPAGE:DMG	ASPECT:Saves|-2 penalty against earth-based effects	SPELLS:Ring Elemental Command Air|TIMES=ATWILL|CASTERLEVEL:15|Feather Fall|Resist Energy ~ Electricity|Wind Wall	SPELLS:Ring Elemental Command Air|TIMES=2|CASTERLEVEL:15|Gust of Wind	SPELLS:Ring Elemental Command Air|TIMES=1|CASTERLEVEL:15|Air Walk ~ Seld only	SPELLS:Ring Elemental Command Air|TIMES=1|TIMEUNIT=Week|CASTERLEVEL:15|Chain Lightning														
+Ring of Elemental Command (Earth)		TYPE:Ring	COST:200000	WT:0	SOURCEPAGE:DMG	ASPECT:Saves|-2 penalty against air- or electricity-based effects	SPELLS:Ring Elemental Command Earth|TIMES=ATWILL|CASTERLEVEL:15|Meld into Stone|Soften Earth	SPELLS:Ring Elemental Command Earth|TIMES=2|CASTERLEVEL:15|Stone Shape	SPELLS:Ring Elemental Command Earth|TIMES=1|TIMEUNIT=Week|CASTERLEVEL:15|Stoneskin ~ Self only	SPELLS:Ring Elemental Command Earth|TIMES=2|TIMEUNIT=Week|CASTERLEVEL:15|Passwall	SPELLS:Ring Elemental Command Earth|TIMES=1|CASTERLEVEL:15|Wall of Stone													
+Ring of Elemental Command (Fire)		TYPE:Ring	COST:200000	WT:0	SOURCEPAGE:DMG	ASPECT:Saves|-2 penalty against water- or cold-based effects	SPELLS:Ring Elemental Command Fire|TIMES=ATWILL|CASTERLEVEL:15|Resist Energy ~ Fire|Burning Hands	SPELLS:Ring Elemental Command Fire|TIMES=2|CASTERLEVEL:15|Flaming Sphere|Pyrotechnics	SPELLS:Ring Elemental Command Fire|TIMES=1|CASTERLEVEL:15|Wall of Fire	SPELLS:Ring Elemental Command Fire|TIMES=2|TIMEUNIT=Week|CASTERLEVEL:15|Flame Strike														
+Ring of Elemental Command (Water)		TYPE:Ring	COST:200000	WT:0	SOURCEPAGE:DMG	ASPECT:Saves|-2 penalty against fire-based effects	SPELLS:Ring Elemental Command Fire|TIMES=ATWILL|CASTERLEVEL:15|Water Walk|Create Water|Water Breathing	SPELLS:Ring Elemental Command Water|TIMES=1|CASTERLEVEL:15|Wall of Ice	SPELLS:Ring Elemental Command Earth|TIMES=2|TIMEUNIT=Week|CASTERLEVEL:15|Ice Storm|Control Weather															
+Ring of Energy Resistance, Minor (Acid)	KEY:Ring of Energy Resistance (Minor/Acid)	TYPE:Ring	COST:12000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Acid	BONUS:VAR|AcidResistanceBonus|10|TYPE=Resistance																	
+Ring of Energy Resistance, Minor (Cold)	KEY:Ring of Energy Resistance (Minor/Cold)	TYPE:Ring	COST:12000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Cold	BONUS:VAR|ColdResistanceBonus|10|TYPE=Resistance																	
+Ring of Energy Resistance, Minor (Electricity)	KEY:Ring of Energy Resistance (Minor/Electricity)	TYPE:Ring	COST:12000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Electricity	BONUS:VAR|ElectricityResistanceBonus|10|TYPE=Resistance																	
+Ring of Energy Resistance, Minor (Fire)	KEY:Ring of Energy Resistance (Minor/Fire)	TYPE:Ring	COST:12000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Fire	BONUS:VAR|FireResistanceBonus|10|TYPE=Resistance																	
+Ring of Energy Resistance, Minor (Sonic)	KEY:Ring of Energy Resistance (Minor/Sonic)	TYPE:Ring	COST:12000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Sonic	BONUS:VAR|SonicResistanceBonus|10|TYPE=Resistance																	
+Ring of Energy Resistance, Major (Acid)	KEY:Ring of Energy Resistance (Major/Acid)	TYPE:Ring	COST:28000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Acid	BONUS:VAR|AcidResistanceBonus|20|TYPE=Resistance																	
+Ring of Energy Resistance, Major (Cold)	KEY:Ring of Energy Resistance (Major/Cold)	TYPE:Ring	COST:28000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Cold	BONUS:VAR|ColdResistanceBonus|20|TYPE=Resistance																	
+Ring of Energy Resistance, Major (Electricity)	KEY:Ring of Energy Resistance (Major/Electricity)	TYPE:Ring	COST:28000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Electricity	BONUS:VAR|ElectricityResistanceBonus|20|TYPE=Resistance																	
+Ring of Energy Resistance, Major (Fire)	KEY:Ring of Energy Resistance (Major/Fire)	TYPE:Ring	COST:28000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Fire	BONUS:VAR|FireResistanceBonus|20|TYPE=Resistance																	
+Ring of Energy Resistance, Major (Sonic)	KEY:Ring of Energy Resistance (Major/Sonic)	TYPE:Ring	COST:28000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Sonic	BONUS:VAR|SonicResistanceBonus|20|TYPE=Resistance																	
+Ring of Energy Resistance, Greater (Acid)	KEY:Ring of Energy Resistance (Greater/Acid)	TYPE:Ring	COST:44000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Acid	BONUS:VAR|AcidResistanceBonus|30|TYPE=Resistance																	
+Ring of Energy Resistance, Greater (Cold)	KEY:Ring of Energy Resistance (Greater/Cold)	TYPE:Ring	COST:44000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Cold	BONUS:VAR|ColdResistanceBonus|30|TYPE=Resistance																	
+Ring of Energy Resistance, Greater (Electricity)	KEY:Ring of Energy Resistance (Greater/Electricity)	TYPE:Ring	COST:44000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Electricity	BONUS:VAR|ElectricityResistanceBonus|30|TYPE=Resistance																	
+Ring of Energy Resistance, Greater (Fire)	KEY:Ring of Energy Resistance (Greater/Fire)	TYPE:Ring	COST:44000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Fire	BONUS:VAR|FireResistanceBonus|30|TYPE=Resistance																	
+Ring of Energy Resistance, Greater (Sonic)	KEY:Ring of Energy Resistance (Greater/Sonic)	TYPE:Ring	COST:44000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Sonic	BONUS:VAR|SonicResistanceBonus|30|TYPE=Resistance																	
+Ring of Evasion		TYPE:Ring	COST:25000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Evasion																		
+Ring of Feather Falling		TYPE:Ring	COST:2200	WT:0	SOURCEPAGE:DMG	SPELLS:Ring Feather Falling|TIMES=ATWILL|CASTERLEVEL=1|Feather Fall																		
+Ring of Force Shield		TYPE:Ring	COST:8500	WT:0	SOURCEPAGE:DMG	BONUS:COMBAT|AC|2|TYPE=Shield																		
+Ring of Freedom of Movement		TYPE:Ring	COST:40000	WT:0	SOURCEPAGE:DMG	SPELLS:Ring Freedom of Movement|TIMES=ATWILL|CASTERLEVEL=7|Freedom of Movement																		
+Ring of Friend Shield (1 of 2)		TYPE:Ring	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Ring Friendly Shield|TIMES=ATWILL|CASTERLEVEL=7|Shield Other																		
+Ring of Friend Shield (pair)		TYPE:Ring	COST:50000	WT:0	SOURCEPAGE:DMG	SPELLS:Ring Friendly Shield|TIMES=ATWILL|CASTERLEVEL=7|Shield Other	AUTO:EQUIP|Ring of Friend Shield (1 of 2)																	
+Ring of Invisibility		TYPE:Ring	COST:20000	WT:0	SOURCEPAGE:DMG	SPELLS:Ring Invisibility|TIMES=ATWILL|CASTERLEVEL=3|Invisibility																		
+Ring of Jumping		TYPE:Ring	COST:2500	WT:0	SOURCEPAGE:DMG	BONUS:SKILL|Jump|5|TYPE=Competence																		
+Ring of Jumping, Improved	KEY:Ring of Jumping (Improved)	TYPE:Ring	COST:10000	WT:0	SOURCEPAGE:DMG	BONUS:SKILL|Jump|10|TYPE=Competence																		
+Ring of Mind Shielding		TYPE:Ring	COST:8000	WT:0	SOURCEPAGE:DMG	SPROP:Immunity to Detect Thougths, Discern Lies and any tentative to magically discern alignment.																		
+Ring of Protection +1		TYPE:Ring	COST:2000	WT:0	SOURCEPAGE:DMG	BONUS:COMBAT|AC|1|TYPE=Deflection																		
+Ring of Protection +2		TYPE:Ring	COST:8000	WT:0	SOURCEPAGE:DMG	BONUS:COMBAT|AC|2|TYPE=Deflection																		
+Ring of Protection +3		TYPE:Ring	COST:18000	WT:0	SOURCEPAGE:DMG	BONUS:COMBAT|AC|3|TYPE=Deflection																		
+Ring of Protection +4		TYPE:Ring	COST:32000	WT:0	SOURCEPAGE:DMG	BONUS:COMBAT|AC|4|TYPE=Deflection																		
+Ring of Protection +5		TYPE:Ring	COST:50000	WT:0	SOURCEPAGE:DMG	BONUS:COMBAT|AC|5|TYPE=Deflection																		
+Ring of Ram		TYPE:Ring	COST:8600	WT:0	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]																		
+Ring of Regeneration		TYPE:Ring	COST:90000	WT:0	SOURCEPAGE:DMG																			
+Ring of Shooting Stars		TYPE:Ring	COST:50000	WT:0	SOURCEPAGE:DMG																			
+Ring of Spell Storing, Minor	KEY:Ring of Spell Storing (Minor)	TYPE:Ring.Spellbook	COST:18000	WT:0	SOURCEPAGE:DMG	SPROP:Store 3 levels of spells.	NUMPAGE:3	PAGEUSAGE:max(SPELLLEVEL,1)																
+Ring of Spell Storing		TYPE:Ring.Spellbook	COST:50000	WT:0	SOURCEPAGE:DMG	SPROP:Store 5 levels of spells.	NUMPAGE:5	PAGEUSAGE:max(SPELLLEVEL,1)																
+Ring of Spell Storing, Major	KEY:Ring of Spell Storing (Major)	TYPE:Ring.Spellbook	COST:200000	WT:0	SOURCEPAGE:DMG	SPROP:Store 7 levels of spells.	NUMPAGE:7	PAGEUSAGE:max(SPELLLEVEL,1)																
+Ring of Spellturning		TYPE:Ring	COST:98280	WT:0	SOURCEPAGE:DMG	SPROP:3/day on command automatically reflects the next nine levels of spells cast at the wearer, exactly as if spell turning had been cast upon the wearer.																		
+Ring of Sustenance		TYPE:Ring	COST:2500	WT:0	SOURCEPAGE:DMG	SPROP:the wearer needs only sleep 2 hours per day to gain the benefit of 8 hours of sleep.																		
+Ring of Swimming		TYPE:Ring	COST:2500	WT:0	SOURCEPAGE:DMG	BONUS:SKILL|Swim|5|TYPE=Competence																		
+Ring of Swimming, Improved	KEY:Ring of Swimming(Improved)	TYPE:Ring	COST:10000	WT:0	SOURCEPAGE:DMG	BONUS:SKILL|Swim|10|TYPE=Competence																		
+Ring of Telekinesis		TYPE:Ring	COST:75000	WT:0	SOURCEPAGE:DMG	SPELLS:Ring Telekinesis|TIMES=ATWILL|CASTERLEVEL=9|Telekinesis																		
+Ring of Three Wishes		TYPE:Ring	COST:97950	WT:0	SOURCEPAGE:DMG	SPELLS:Ring Three Wishes|TIMES=ATWILL|CASTERLEVEL=20|Wish	EQMOD:CHARGED_ITEM_3|CHARGES[3]																	
+Ring of Water Walking		TYPE:Ring	COST:15000	WT:0	SOURCEPAGE:DMG	SPELLS:Ring Water Walking|TIMES=ATWILL|CASTERLEVEL=9|Water Walk																		
+Ring of Wizardry I		TYPE:Ring	COST:20000	WT:0	SOURCEPAGE:DMG	BONUS:SPELLKNOWN|TYPE=Arcane;LEVEL=1|2																		
+Ring of Wizardry II		TYPE:Ring	COST:40000	WT:0	SOURCEPAGE:DMG	BONUS:SPELLKNOWN|TYPE=Arcane;LEVEL=2|2																		
+Ring of Wizardry III		TYPE:Ring	COST:70000	WT:0	SOURCEPAGE:DMG	BONUS:SPELLKNOWN|TYPE=Arcane;LEVEL=3|2																		
+Ring of Wizardry IV		TYPE:Ring	COST:100000	WT:0	SOURCEPAGE:DMG	BONUS:SPELLKNOWN|TYPE=Arcane;LEVEL=4|2																		
+Ring of X-Ray Vision		TYPE:Ring	COST:25000	WT:0	SOURCEPAGE:DMG																			
+																								
+##Block: Rods																								
+Rod of Absorption		TYPE:Rod	COST:50000	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]																		
+Rod of Alertness		TYPE:Rod.Weapon.Melee.Simple.Bludgeoning.Light.Mace	COST:85000	WT:4	SOURCEPAGE:DMG	BONUS:MISC|INITIATIVE|1|TYPE=Insight	SPELLS:Rod Alertness|TIMES=ATWILL|CASTERLEVEL:11|Detect Evil|Detect Good|Detect Chaos|Detect Law|Detect Magic|Discern Lies|Light|See Invisibility	SPELLS:Rod Alertness|TIMES=1|CASTERLEVEL:11|Animate Objects	PROFICIENCY:WEAPON|Mace (Light)	WIELD:Light	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W									
+Rod of Cancellation		TYPE:Rod	COST:11000	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_1|CHARGES[1]																		
+Rod of Enemy Detection		TYPE:Rod	COST:23500	WT:5	SOURCEPAGE:DMG	SPROP:3/day.																		
+Rod of Flailing		TYPE:Rod.Weapon.Melee.Martial.Bludgeoning.TwoHanded.Flail	COST:50000	WT:10	SOURCEPAGE:DMG	SPROP:1/day +4 deflection bonus on AC and +4 resistance bonus on saving throws for 10 minutes.	ABILITY:FEAT|VIRTUAL|Two-Weapon Fighting		PROFICIENCY:WEAPON|Flail (Dire)	WIELD:TwoHanded	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS3W			ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d8	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:STEEL.EQ_COST_ADJ_W.PLUS3W		
+Rof of Flame Extinguishing		TYPE:Rod	COST:15000	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_10|CHARGES[10]																		
+Immovable Rod		TYPE:Rod	COST:5000	WT:5	SOURCEPAGE:DMG																			
+Rod of Lordly Might		TYPE:Rod	COST:70000	WT:5	SOURCEPAGE:DMG				PROFICIENCY:WEAPON|Mace (Light)	WIELD:Light	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS2W									
+Rod of Metal and Mineral Detection		TYPE:Rod	COST:10500	WT:5	SOURCEPAGE:DMG																			
+Rod of Metamagic Empower, Lesser	KEY:Rod of Metamagic (Empower/Lesser)	TYPE:Rod	COST:9000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Empower Spell feat on a 3rd level spells.																		
+Rod of Metamagic Empower	KEY:Rod of Metamagic (Empower)	TYPE:Rod	COST:32500	WT:5	SOURCEPAGE:DMG	SPROP:3/day Empower Spell feat on a 6th level spells.																		
+Rod of Metamagic Empower, Greater	KEY:Rod of Metamagic (Empower/Greater)	TYPE:Rod	COST:73000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Empower Spell feat on a 9th level spells.																		
+Rod of Metamagic Enlarge, Lesser	KEY:Rod of Metamagic (Enlarge/Lesser)	TYPE:Rod	COST:3000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Enlarge Spell feat on a 3rd level spells.																		
+Rod of Metamagic Enlarge	KEY:Rod of Metamagic (Enlarge)	TYPE:Rod	COST:11000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Enlarge Spell feat on a 6th level spells.																		
+Rod of Metamagic Enlarge, Greater	KEY:Rod of Metamagic (Enlarge/Greater)	TYPE:Rod	COST:24500	WT:5	SOURCEPAGE:DMG	SPROP:3/day Enlarge Spell feat on a 9th level spells.																		
+Rod of Metamagic Extend, Lesser	KEY:Rod of Metamagic (Extend/Lesser)	TYPE:Rod	COST:3000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Extend Spell feat on a 3rd level spells.																		
+Rod of Metamagic Extend	KEY:Rod of Metamagic (Extend)	TYPE:Rod	COST:11000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Extend Spell feat on a 6th level spells.																		
+Rod of Metamagic Extend, Greater	KEY:Rod of Metamagic (Extend/Greater)	TYPE:Rod	COST:24500	WT:5	SOURCEPAGE:DMG	SPROP:3/day Extend Spell feat on a 9th level spells.																		
+Rod of Metamagic Maximize, Lesser	KEY:Rod of Metamagic (Maximize/Lesser)	TYPE:Rod	COST:14000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Maximize Spell feat on a 3rd level spells.																		
+Rod of Metamagic Maximize	KEY:Rod of Metamagic (Maximize)	TYPE:Rod	COST:54000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Maximize Spell feat on a 6th level spells.																		
+Rod of Metamagic Maximize, Greater	KEY:Rod of Metamagic (Maximize/Greater)	TYPE:Rod	COST:121500	WT:5	SOURCEPAGE:DMG	SPROP:3/day Maximize Spell feat on a 9th level spells.																		
+Rod of Metamagic Quicken, Lesser	KEY:Rod of Metamagic (Quicken/Lesser)	TYPE:Rod	COST:35000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Quicken Spell feat on a 3rd level spells.																		
+Rod of Metamagic Quicken	KEY:Rod of Metamagic (Quicken)	TYPE:Rod	COST:75500	WT:5	SOURCEPAGE:DMG	SPROP:3/day Quicken Spell feat on a 6th level spells.																		
+Rod of Metamagic Quicken, Greater	KEY:Rod of Metamagic (Quicken/Greater)	TYPE:Rod	COST:170000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Quicken Spell feat on a 9th level spells.																		
+Rod of Metamagic Silent, Lesser	KEY:Rod of Metamagic (Silent/Lesser)	TYPE:Rod	COST:3000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Silent Spell feat on a 3rd level spells.																		
+Rod of Metamagic Silent	KEY:Rod of Metamagic (Silent)	TYPE:Rod	COST:1100	WT:5	SOURCEPAGE:DMG	SPROP:3/day Silent Spell feat on a 6th level spells.																		
+Rod of Metamagic Silent, Greater	KEY:Rod of Metamagic (Silent/Greater)	TYPE:Rod	COST:24500	WT:5	SOURCEPAGE:DMG	SPROP:3/day Silent Spell feat on a 9th level spells.																		
+Rod of Negation		TYPE:Rod	COST:37000	WT:5	SOURCEPAGE:DMG	SPROP:3/day.																		
+Rod of Python		TYPE:Rod.Weapon.Melee.Simple.Bludgeoning.TwoHanded.Quarterstaff	COST:13000	WT:4	SOURCEPAGE:DMG				PROFICIENCY:WEAPON|Quarterstaff	WIELD:TwoHanded	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS1W			ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.EQ_COST_ADJ_W.PLUS1W		
+Rod of Rulership		TYPE:Rod	COST:60000	WT:5	SOURCEPAGE:DMG	SPROP:500 total minutes.																		
+Rod of Security		TYPE:Rod	COST:61000	WT:5	SOURCEPAGE:DMG																			
+Rod of Splendor		TYPE:Rod	COST:25000	WT:5	SOURCEPAGE:DMG	BONUS:STAT|CHA|4|TYPE=Enhancement																		
+Rod of Thunder and Lightning		TYPE:Rod.Weapon.Melee.Simple.Bludgeoning.Light.Mace	COST:33000	WT:4	SOURCEPAGE:DMG				PROFICIENCY:WEAPON|Mace (Light)	WIELD:Light	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS2W									
+Rod of Viper		TYPE:Rod.Weapon.Melee.Simple.Bludgeoning.OneHanded.Mace	COST:19000	WT:8	SOURCEPAGE:DMG				PROFICIENCY:WEAPON|Mace (Heavy)	WIELD:OneHanded	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS2W									
+Rod of Withering		TYPE:Rod.Weapon.Melee.Simple.Bludgeoning.Light.Mace	COST:25000	WT:4	SOURCEPAGE:DMG	SPROP:1d4 points of STR damage and 1d4 points of CON damage (Fort DC 17 negates)			PROFICIENCY:WEAPON|Mace (Light)	WIELD:Light	SIZE:M	DAMAGE:0	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W									
+Rod of Wonder		TYPE:Rod	COST:12000	WT:5	SOURCEPAGE:DMG																			
+																								
+##Block: Scrolls																								
+###Block: Arcane Level 0																								
+Scroll (Acid Splash)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Arcane Mark)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dancing Lights)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Daze)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Detect Magic/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Detect Poison/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Disrupt Undead)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Flare/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Ghost Sound)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Know Direction/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Light)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Lullaby)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Mage Hand)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Mending/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Message)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Open/Close)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Prestidigitation)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Ray of Frost)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Read Magic/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Resistance/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Instrument)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Touch of Fatigue)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+																								
+###Block: Arcane Level 1																								
+Scroll (Alarm/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Animate Rope)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Burning Hands)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cause Fear/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Charm Person)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Chill Touch)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Color Spray)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Comprehend Languages/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Confusion/Lesser)	OUTPUTNAME:Scroll (Confusion, Lesser)	TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cure Light Wounds/Arcane)	OUTPUTNAME:Scroll (Cure Light Wounds)	TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Detect Secret Doors)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Detect Undead/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Disguise Self/Lvl 1)	OUTPUTNAME:Scroll (Disguise Self)	TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Endure Elements)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Enlarge Person)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Erase)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Expeditious Retreat)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Feather Fall)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Grease)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Hold Portal)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Hypnotism)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Identify)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Jump/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Mage Armor)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Magic Missile)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Magic Weapon/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Mount)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Nystul's Magic Aura)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Obscuring Mist/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Protection from Chaos/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Protection from Evil/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Protection from Good/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Protection from Law/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Ray of Enfeeblement)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Reduce Person)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Remove Fear)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Shield)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Shocking Grasp)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Silent Image)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Sleep)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Monster I)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Tenser's Floating Disk)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (True Strike)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Undetectable Alignment)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Unseen Servant)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Ventriloquism)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+																								
+###Block: Arcane Level 2																								
+Scroll (Animal Messenger/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:200	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Animal Trance/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:200	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Arcane Lock)		TYPE:Scroll.Arcane.Consumable	COST:175	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Bear's Endurance/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Blindness/Deafness/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Blur)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Bull's Strength/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Calm Emotions/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:200	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cat's Grace/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Command Undead)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Continual Flame/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:200	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cure Moderate Wounds/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:200	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Darkness/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Darkvision/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Daze Monster)		TYPE:Scroll.Arcane.Consumable	COST:200	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Delay Poison/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Detect Thoughts)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Disguise Self/Lvl 2)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Eagle's Splendor/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Enthrall/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:200	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (False Life)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Flaming Sphere/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Fog Cloud/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Fox's Cunning)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Ghoul Touch)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Glitterdust)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Gust of Wind/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Hypnotic Pattern)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Invisibility)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Knock)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Leomund's Trap)		TYPE:Scroll.Arcane.Consumable	COST:200	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Levitate)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Locate Object/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Magic Mouth)		TYPE:Scroll.Arcane.Consumable	COST:160	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Melf's Acid Arrow)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Minor Image)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Mirror Image)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Misdirection)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Obscure Object/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Owl's Wisdom/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Protection from Arrows)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Pyrotechnics)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Resist Energy/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Rope Trick)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Scare)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Scorcing Ray)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (See Invisibility)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Shatter/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Silence/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:200	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Sound Burst)		TYPE:Scroll.Arcane.Consumable	COST:200	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Spectral Hand)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Spider Climb/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Monster II/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Swarm/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Tasha's Hideous Laughter)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Touch of Idiocy)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Web)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Whispering Wind)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+																								
+###Block: Arcane Level 3																								
+Scroll (Arcane Sight)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Blink)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Clairaudience/Clairvoyance)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cure Serious Wounds/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:525	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Daylight/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Deep Slumber)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dispel Magic/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Displacement)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Explosive Runes)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Fireball)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Flame Arrow)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Fly)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Gaseous Form)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Gentle Repose/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Glibness)		TYPE:Scroll.Arcane.Consumable	COST:525	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Good Hope)		TYPE:Scroll.Arcane.Consumable	COST:525	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Halt Undead)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Haste)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Heroism)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Hold Person/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Illusory Script)		TYPE:Scroll.Arcane.Consumable	COST:425	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Invisibility Sphere)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Keen Edge)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Leomund's Tiny Hut)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Lightning Bolt)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Magic Circle against Chaos/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Magic Circle against Evil/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Magic Circle against Good/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Magic Circle against Law/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Magic Weapon/Greater/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Major Image)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Nondetection/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:425	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Phantom Steed)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Protection from Energy)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Rage)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Ray of Exhaustion)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Sculpt Sound)		TYPE:Scroll.Arcane.Consumable	COST:525	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Secret Page)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Sepia Snake Sigil)		TYPE:Scroll.Arcane.Consumable	COST:875	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Shrink Item)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Sleet Storm/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Slow)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Speak with Animals/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Stinking Cloud)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Suggestion)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Monster III/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Tongues)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Vampiric Touch)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Water Breating/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Wind Wall)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+																								
+###Block: Arcane Level 4																								
+Scroll (Animate Dead/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1050	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Arcane Eye)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Bestow Curse/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Charm Monster)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Confusion)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Contagion/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Crushing Despair)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cure Critical Wounds/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Detect Scrying)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dimension Door)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dimensional Anchor/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Enervation)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Enlarge Person/Mass)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Evard's Black Tentacles)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Fear)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Fire Shield)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Fire Trap/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:725	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Freedom of Movement)		TYPE:Scroll.Arcane.Consumable	COST:1000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Geas/Lesser)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Globe of Invulnerability/Lesser)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Hallucinatory Terrain)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Ice Storm/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Illusory Wall)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Invisibility/Greater)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Leomund's Secure Shelter)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Lovate Creature)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Minor Creation)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Modify Memory)		TYPE:Scroll.Arcane.Consumable	COST:1000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Neutralize Poison/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Otiluke's Resilient Sphere)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Phantasmal Killer)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Rary's Mnemonic Enhancer)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Reduce Person/Mass)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Remove Curse/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Repel Vermin)		TYPE:Scroll.Arcane.Consumable	COST:1000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Scrying)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Shadow Conjuration)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Shout)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Solid Fog)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Speak with Plants/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Stone Shape)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Stoneskin/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:950	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Monster IV/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Wall of Fire)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Wall of Ice)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Zone of Silence)		TYPE:Scroll.Arcane.Consumable	COST:1000	WT:0.01	SOURCEPAGE:DMG																			
+																								
+###Block: Arcane Level 5																								
+Scroll (Animal Growth/Arcane))		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Baleful Polymorph/Arcane))		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Bigby's Interposing Hand)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Blight/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Break Enhancement/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cloudkill)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cone of Cold)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Contact other Plane)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cure Light Wounds/Mass/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1625	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dismissal/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dispel Magic/Greater/Arcane/Lvl 5)		TYPE:Scroll.Arcane.Consumable	COST:1625	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dominate Person)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dream)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Fabricate)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (False Vision)		TYPE:Scroll.Arcane.Consumable	COST:1375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Feeblemind)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Hold Monster)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Leomund's Secret Chest)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Magic Jar)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Major Creation)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Mind Fog)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Mirage Arcana)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Mordenkainen's Faithful Hound)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Mordenkainen's Private Sanctum)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Nightmare)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Overland Flight)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Passwall)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Permanency)		TYPE:Scroll.Arcane.Consumable	COST:10125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Persistent Image)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Planar Binding/Lesser)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Prying Eyes)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Rary's Telepathic Bond)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Seeming)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Sending/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Shadow Evocation)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Song of Discord)		TYPE:Scroll.Arcane.Consumable	COST:1625	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Monster V/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Symbol of Pain/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:2125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Symbol of Sleep/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:2125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Telekinesis)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Teleport)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Transmute Rock to Mud/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Transmute Mud to Rock/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Wall of Force)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Wall of Stone)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Waves of Fatigue)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+																								
+###Block: Arcane Level 6																								
+Scroll (Acid Fog)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Analyze Dweomer)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Animate Objects/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:2400	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Antimagic Field/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Bear's Endurance/Mass/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Bigby's Forceful Hand)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Bull's Strength/Mass/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cat's Grace/Mass/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Chain Lightning)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Circle of Death)		TYPE:Scroll.Arcane.Consumable	COST:2150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Contingency)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Control Water/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Create Undead/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:2350	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cure Moderate Wounds/Mass/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:2400	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Disintegrate)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dispel Magic/Greater/Arcane/Lvl 6)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Eagle's Splendor/Mass/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Eyebite)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Find the Path/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:2400	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Flesh to Stone)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Fox's Cunning/Mass)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Geas/Quest/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Globe of Invulnerability)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Guards and Wards)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Heroes' Feast/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:2400	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Heroism/Greater)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Legend Lore)		TYPE:Scroll.Arcane.Consumable	COST:1900	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Mislead)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Mordenkainen's Lucubtation)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Move Earth/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Otiluke Freezing Sphere)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Owl's Wisdom/Mass/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Permanent Image)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Planar Binding)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Programmed Image)		TYPE:Scroll.Arcane.Consumable	COST:1675	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Repulsion/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Shadow Walk)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Stone to Flesh)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Suggestion/Mass)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Monster VI/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Symbol of Fear/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:2650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Symbol of Persuasion/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:6650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Sympathetic Vibration)		TYPE:Scroll.Arcane.Consumable	COST:2400	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Tenser's Transformation)		TYPE:Scroll.Arcane.Consumable	COST:1950	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (True Seeing/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:1900	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Undeath to Death/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:2150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Veil)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Wall of Iron)		TYPE:Scroll.Arcane.Consumable	COST:1700	WT:0.01	SOURCEPAGE:DMG																			
+																								
+###Block: Arcane Level 7																								
+Scroll (Arcane Sight/Greater)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Banishment/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Bigby's Grasping Hand)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Control Undead)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Control Weather/Arcane/Lvl 7)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Delayed Blast Fireball)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Drawmij's Instant Summons)		TYPE:Scroll.Arcane.Consumable	COST:3275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Ethereal Jaunt/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Finger of Death/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Forcecage)		TYPE:Scroll.Arcane.Consumable	COST:23775	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Hold Person/Mass)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Insanity)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Invisibilit/Mass)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Limited Wish)		TYPE:Scroll.Arcane.Consumable	COST:3775	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Mordenkainen's Magnificent Mansion)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Mordenkainen's Sword)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Phase Door)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Plane Shift/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Power Word Bllind)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Prismatic Spray)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Project Image)		TYPE:Scroll.Arcane.Consumable	COST:2280	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Reverse Gravity/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Scrying/Greater/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Sequester)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Shadow Conjuration/Greater)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Simulacrum)		TYPE:Scroll.Arcane.Consumable	COST:7275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Spell Turning)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Statue)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Monster VII/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Symbol of Stunning/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:7275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Symbol of Weakness/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:7275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Teleport Object)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Teleport/Greater)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Vision)		TYPE:Scroll.Arcane.Consumable	COST:2775	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Waves of Exhaustion)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+																								
+###Block: Arcane Level 8																								
+Scroll (Antipathy/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Bigby's Clenched Fist)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Binding)		TYPE:Scroll.Arcane.Consumable	COST:8500	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Charm Monster/Mass)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Clone)		TYPE:Scroll.Arcane.Consumable	COST:4000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Create Greater Undead/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Demand)		TYPE:Scroll.Arcane.Consumable	COST:3600	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dimensional Lock/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Discern Location/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Horrid Wilting)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Incendiary Cloud)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Iron Body)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Maze)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Mind Blank)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Moment of Prescience)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Otiluke's Telekinetic Sphere)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Otto's Irresistible dance)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Planar Binding/Greater)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Polar Ray)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Polymorph Any Object)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Power Word Stun)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Prismatic Wall)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Protection from Spells)		TYPE:Scroll.Arcane.Consumable	COST:35000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Prying Eyes/Greater)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Scintillating Pattern)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Screen)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Shadow Evocation/Greater))		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Shout/Greater)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Monster VIII)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Sunburst/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Symbol of Death/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:8000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Symbol of Insanity/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:8000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Sympathy/Arcane)		TYPE:Scroll.Arcane.Consumable	COST:4500	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Temporal Stasis)		TYPE:Scroll.Arcane.Consumable	COST:3500	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Trap the Soul)		TYPE:Scroll.Arcane.Consumable	COST:13000	WT:0.01	SOURCEPAGE:DMG																			
+																								
+###Block: Arcane Level 9																								
+Scroll (Astral Projection)		TYPE:Scroll.Arcane.Consumable	COST:4870	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Bigby's Crushing Hand)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dominate Monster)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Energy Drain)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Etherealness)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Foresight)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Freedom)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Gate)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Hold Monster/Mass)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Imprisonment)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Meteor Swarm)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Mordenkainen's Disjunction)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Power Word Kill)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Prosmatic Sphere)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Refuge)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Shades)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Shapechange)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Soul Bind)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Monster IX)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Teleportation Circle)		TYPE:Scroll.Arcane.Consumable	COST:4825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Time Stop)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Wail of the Banshee)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Weird)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Wish)		TYPE:Scroll.Arcane.Consumable	COST:28825	WT:0.01	SOURCEPAGE:DMG																			
+																								
+###Block: Divine Level 0																								
+Scroll (Create Water)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cure Minor Wounds)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Detect Magic/Divine)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Detect Poison/Divine)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Flare/Divine)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Guidance)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Inflict Minor Wounds)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Know Direction/Divine)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Light/Divine)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Mending/Divine)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Purify Food and Drink)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Read Magic/Divine)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Resistance/Divine)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Virtue)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
+																								
+###Block: Divine Level 1																								
+Scroll (Alarm/Divine)		TYPE:Scroll.Arcane.Consumable	COST:100	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Bane)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Bless)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Bless Water)		TYPE:Scroll.Arcane.Consumable	COST:50	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Bless Weapon)		TYPE:Scroll.Arcane.Consumable	COST:100	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Calm Animal)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cause Fear/Divine)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Charm Animal)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Command)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Comprehend Languages/Divine)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cure Light Wounds/Divine)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Curse Water)		TYPE:Scroll.Arcane.Consumable	COST:50	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Deatwatch)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Detect Animals or Plant)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Detect Chaos)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Detect Evil)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Detect Good)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Detect Law)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Detect Snares and Pits)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Detect Undead/Divine)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Divine Favor)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Doom)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Endure Elements/Divine)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Entangle)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Entropic Shield)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Faerie Fire)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Goodberry)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Hide from Animals)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Hide from Undead)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Inflict Light Wounds)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Jump/Divine)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Longstrider)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Magic Fang)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Magic Stone)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Magic Weapon/Divine)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Obscuring Mist/Divine)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Pass without trace)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Produce Flame)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Protection from Chaos/Divine)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Protection from Evil/Divine)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Protection from Good/Divine)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Protection from Law/Divine)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Remove Fear/Divine)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Sanctuary)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Shield of Faith)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Shillelagh)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Speak with Animals)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Monster I/Divine)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Nature's Ally I/Divine)		TYPE:Scroll.Arcane.Consumable	COST:25	WT:0.01	SOURCEPAGE:DMG																			
+																								
+###Block: Divine Level 2																								
+Scroll (Animal Messenger/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Animal Trance/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Augury)		TYPE:Scroll.Arcane.Consumable	COST:175	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Barkskin)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Bear's Endurance/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Bull's Strength/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Calm Emotions/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cat's Grace/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Chill Metal)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Consecrate)		TYPE:Scroll.Arcane.Consumable	COST:200	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cure Moderate Wounds/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Darkness/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Death Knell)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Delay Poison/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Desecrate)		TYPE:Scroll.Arcane.Consumable	COST:200	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Eagle's Splendor/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Enthrall/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Find Traps)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Fire Trap/Divine)		TYPE:Scroll.Arcane.Consumable	COST:175	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Flame Blade)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Flaming Sphere/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Fog Cloud/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Gentle Repose/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Gust of Wind/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Heat Metal)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Hold Animal)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Hold Person/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Inflict Moderate Wounds)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Make Whole)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Owl's Wisdom/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Reduce animal)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Remove Paralysis)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Resist Energy/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Restoration/Lesser)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Shatter/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Shield Other)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Silence/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Snare/Lvl 2)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Soften Earth and Stone)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Sound Burst/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Speak with Plants/Divine/Lvl 2		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Spider Climb/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Spiritual Weapon)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Status)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Monster II/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Nature's Ally II)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Swarm/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Tree Shape)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Undetectable Alignment/Divine)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Warp Wood)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Wood Shape)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Zone of Truth)		TYPE:Scroll.Arcane.Consumable	COST:150	WT:0.01	SOURCEPAGE:DMG																			
+																								
+###Block: Divine Level 3																								
+Scroll (Animate dead)		TYPE:Scroll.Arcane.Consumable	COST:625	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Bestow Curse)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Blindness/Deafness)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Animate Dead/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Bestow Curse/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Blindness/Deafness/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Call Lightning)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Contagion/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Continual Flame/Divine)		TYPE:Scroll.Arcane.Consumable	COST:425	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Create Food and Water)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cure Serious Wounds/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Darkvision/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Daylight/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Deeper Darkness)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Diminish Plants)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dispel Magic/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dominate Animal)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Glyph of Warding)		TYPE:Scroll.Arcane.Consumable	COST:575	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Heal Mount)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Helping Hand)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Inflict Serious Wounds)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Invisibility Purge)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Locate Object/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Magic Circle against Chaos/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Magic Circle against Evil/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Magic Circle against Good/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Magic Circle against Law/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Magic Fang/Greater)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Magic Vestment)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Meld into Stone)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Neutralize Poison/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Obscure Object/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Plant Growth)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Prayer)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Protection from Energy/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Quench)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Remove Blindness/Deafness)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Remove Curse/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Remove Disease)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Searing Light)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Sleet Storm/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Snare/Lvl 3)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Speak with Dead)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Speak with Plants/Divine/Lvl 3)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Spike Growth)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Monster III/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Nature's Ally III)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Water Breathing/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Water Walk)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Wind Wall/Divine)		TYPE:Scroll.Arcane.Consumable	COST:375	WT:0.01	SOURCEPAGE:DMG																			
+																								
+###Block: Divine Level 4																								
+Scroll (Air Walk)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Antiplant Shell)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Blight/Divine)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Break Enchantment/Divine/Lvl 4)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Command Plants)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Control Water)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cure Critical Wounds/Divine)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Death Ward)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dimensional Anchor/Divine)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Disceern Lies)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dismissal/Divine)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Divination)		TYPE:Scroll.Arcane.Consumable	COST:725	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Divine Power)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Freedom of Movement/Divine)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Giant Vermin)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Holy Sword)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Imbue with Spell Ability)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Inflict Critical Wounds)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Magic Weapon/Greater/Divine)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Nondetection/Divine)		TYPE:Scroll.Arcane.Consumable	COST:750	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Planar Ally/Lesser)		TYPE:Scroll.Arcane.Consumable	COST:1200	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Poison)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Reincarnate)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Repel Vermin/Divine)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Restoration)		TYPE:Scroll.Arcane.Consumable	COST:800	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Rusting Grasp)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Sending/Divine)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Spell Immunity)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Spike Stones)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Monster IV/Divine)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Nature's Ally IV)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Tongues/Divine)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Tree Stride)		TYPE:Scroll.Arcane.Consumable	COST:700	WT:0.01	SOURCEPAGE:DMG																			
+																								
+###Block: Divine Level 5																								
+Scroll (Animal Growth/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Atonement)		TYPE:Scroll.Arcane.Consumable	COST:3625	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Awaken)		TYPE:Scroll.Arcane.Consumable	COST:2375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Baleful Polymorph/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Break Enchantment/Divine/Lvl 5)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Call Lightning Storm)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Command/Greater)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Commune)		TYPE:Scroll.Arcane.Consumable	COST:1625	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Commune with Nature)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Control Winds)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cure Light Wounds/Mass/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dispel Chaos)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dispel Evil)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dispel Good)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dispel Law)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Disrupting Weapon)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Flame Strike)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Hallow)		TYPE:Scroll.Arcane.Consumable	COST:6125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Ice Storm/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Inflict Light Wounds/Mass)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Insect Plague)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Mark of Justice)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Plane Shift/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Raise Dead)		TYPE:Scroll.Arcane.Consumable	COST:6125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Righteous Might)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Scrying/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Slay Living)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Spell Resistance)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Stoneskin/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Monster V/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Nature's Ally V)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Symbol of Pain/Divine)		TYPE:Scroll.Arcane.Consumable	COST:2125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Symbol of Sleep/Divine)		TYPE:Scroll.Arcane.Consumable	COST:2125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Transmute Mud to Rock/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Transmute Rock to Mud/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (True Seeing/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1375	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Unhallow)		TYPE:Scroll.Arcane.Consumable	COST:6125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Wall of Fire/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Wall of Stone/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Wall of Thorns)		TYPE:Scroll.Arcane.Consumable	COST:1125	WT:0.01	SOURCEPAGE:DMG																			
+																								
+###Block: Divine Level 6																								
+Scroll (Animate Objects/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Antilife Shell)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Banishment/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Bear's Endurance/Mass/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Blade Barrier)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Bull's Strength/Mass/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cat's Grace/Mass/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Create Undead/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cure Moderate Wounds/Mass/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dispel Magic/Greater/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Eagle's Splendor/Mass/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Find the Path/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Fire Seeds)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Forbiddance)		TYPE:Scroll.Arcane.Consumable	COST:4650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Geas/Quest/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Glyph of Warding/Greater)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Harm)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Heal)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Heroes' Feast/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Inflict Moderate Wounds/Mass)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Ironwood)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Liveoak)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Move Earth/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Owl's Wisdom/Mass/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Planar Ally)		TYPE:Scroll.Arcane.Consumable	COST:2400	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Repel Wood)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Spellstaff)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Stone Tell)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Monster VI/Divine)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Nature's Ally VI)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Symbol of Fear/Divine)		TYPE:Scroll.Arcane.Consumable	COST:2650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Symbol of Persuasion/Divine)		TYPE:Scroll.Arcane.Consumable	COST:6650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Transport via Plants)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Undeath to Death/Divine)		TYPE:Scroll.Arcane.Consumable	COST:2150	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Wind Walk)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Word of Recall)		TYPE:Scroll.Arcane.Consumable	COST:1650	WT:0.01	SOURCEPAGE:DMG																			
+																								
+###Block: Divine Level 7																								
+Scroll (Animate Plants)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Blasphemy)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Changestaff)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Control Weather/Divine)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Creeping Doom)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cure Serious Wounds/Mass)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Destruction)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dictum)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Ethereal Jaunt/Divine)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Holy Word)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Inflict Serious Wounds/Mass)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Refuge/Divine)		TYPE:Scroll.Arcane.Consumable	COST:3775	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Regenerate/Lvl 7)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Repulsion/Divine)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Restoration/Greater)		TYPE:Scroll.Arcane.Consumable	COST:4775	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Resurrection)		TYPE:Scroll.Arcane.Consumable	COST:12275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Scrying/Greater/Divine)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Monster VII/Divine)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Nature's Ally VII)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Sunbeam)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Symbol of Stunning/Divine)		TYPE:Scroll.Arcane.Consumable	COST:7275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Symbol of Weakness/Divine)		TYPE:Scroll.Arcane.Consumable	COST:75275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Transmute Metal to Wood)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Word of Chaos)		TYPE:Scroll.Arcane.Consumable	COST:2275	WT:0.01	SOURCEPAGE:DMG																			
+																								
+###Block: Divine Level 8																								
+Scroll (Animal Shapes)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Antimagic Field/Divine)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cloak of Chaos)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Control Plants)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Create Greater Undead/Divine)		TYPE:Scroll.Arcane.Consumable	COST:3600	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Cure Critical Wounds/Mass)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Dimensional Lock/Divine)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Discern Location/Divine)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Earthquake)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Finger of Death/Divine)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Fire Storm)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Holy Aura)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Inflict Critical Wounds/Mass)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Planar Ally/Greater)		TYPE:Scroll.Arcane.Consumable	COST:5500	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Repel Metal or Stone)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Reverse Gravity/Divine)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Shield of Law)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Spell Immunity/Greater)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Monster VIII/Divine)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Nature's Ally VIII)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Sunburst/Divine)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Symbol of Death/Divine)		TYPE:Scroll.Arcane.Consumable	COST:8000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Symbol of Insanity/Divine)		TYPE:Scroll.Arcane.Consumable	COST:8000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Unholy Aura)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Whirlwind)		TYPE:Scroll.Arcane.Consumable	COST:3000	WT:0.01	SOURCEPAGE:DMG																			
+																								
+###Block: Divine Level 9																								
+Scroll (Antipathy/Divine)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Astral Projection/Divine)		TYPE:Scroll.Arcane.Consumable	COST:4870	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Elemental Swarm)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Energy Drain/Divine)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Etherealness/Divine)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Foresight/Divine)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Gate/Divine)		TYPE:Scroll.Arcane.Consumable	COST:8825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Heal/Mass)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Implosion)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Miracle)		TYPE:Scroll.Arcane.Consumable	COST:28825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Regenerate/Lvl 9)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Shambler)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Shapechange/Divine)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Soul Bind/Divine)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Storm of Vengeance)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Monster IX/Divine)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Summon Nature's Ally IX)		TYPE:Scroll.Arcane.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (Sympathy/Divine)		TYPE:Scroll.Arcane.Consumable	COST:5325	WT:0.01	SOURCEPAGE:DMG																			
+Scroll (True Resurrection)		TYPE:Scroll.Arcane.Consumable	COST:28825	WT:0.01	SOURCEPAGE:DMG																			
+																								
+Staff of Abjuration	KEY:Staff (Abjuration)	TYPE:Staff	COST:65000	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Shield (1 charge)/Resist energy (1 charge)/Dispel magic (1 charge)/Lesser globe of invulnerability (2 charges)/Dismissal (2 charges)/Repulsion (3 charges).																	
+Staff of Charming	KEY:Staff (Charming)	TYPE:Staff	COST:16500	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Charm person (1 charge)/Charm monster (2 charges).																	
+Staff of Conjuration	KEY:Staff (Conjuration)	TYPE:Staff	COST:65000	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Unseen servant (1 charge)/Summon swarm (1 charge)/Stinking cloud (1 charge)/Minor creation (2 charges)/Cloudkill (2 charges)/Summon monster VI (3 charges).																	
+Staff of Defense	KEY:Staff (Defense)	TYPE:Staff	COST:58250	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Shield (1 charge)/Shield of faith (1 charge)/Shield other (1 charge)/Shield of law (3 charges).																	
+Staff of Divination	KEY:Staff (Divination)	TYPE:Staff	COST:73500	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Detect secret doors (1 charge)/Locate object (1 charge)/Tongues (1 charge)/Locate creature (2 charges)/Prying eyes (2 charges)/True seeing (3 charges).																	
+Staff of Earth and Stone	KEY:Staff (Erath and Stone)	TYPE:Staff	COST:80500	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Passwall (1 charge)/Move Earth (1 charge).																	
+Staff of Enchantment	KEY:Staff (Enchantment)	TYPE:Staff	COST:65000	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Sleep (1 charge)/Tasha�s hideous laughter (1 charge)/Suggestion (1 charge)/Crushing despair (2 charges)/Mind fog (2 charges)/Suggestion, mass (3 charges).																	
+Staff of Evocation	KEY:Staff (Evocation)	TYPE:Staff	COST:65000	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Magic missile (1 charge)/Shatter (1 charge)/Fireball (1 charge)/Ice storm (2 charges)/Wall of force (2 charges)/Chain lightning (3 charges).																	
+Staff of Fire	KEY:Staff (Fire)	TYPE:Staff	COST:17750	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Burning hands (1 charge)/Fireball (1 charge)/Wall of fire (2 charges).																	
+Staff of Frost	KEY:Staff (Frost)	TYPE:Staff	COST:56250	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Ice storm (1 charge)/Wall of ice (1 charge)/Cone of cold (2 charge).																	
+Staff of Healing	KEY:Staff (Healing)	TYPE:Staff	COST:27750	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Lesser restoration (1 charge)/Cure serious wounds (1 charge)/Remove blindness/deafness (2 charges)/Remove disease (3 charges).																	
+Staff of Illusion	KEY:Staff (Illusion)	TYPE:Staff	COST:65000	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Disguise self (1 charge)/Mirror image (1 charge)/Major image (1 charge)/Rainbow pattern (2 charges)/Persistent image (2 charges)/Mislead (3 charges).																	
+Staff of Illumination	KEY:Staff (Illumination)	TYPE:Staff	COST:48250	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Dancing lights (1 charge)/Flare (1 charge)/Daylight (2 charges)/Sunburst (3 charges).																	
+Staff of Life	KEY:Staff (Life)	TYPE:Staff	COST:155750	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Heal (1 charge)/Raise dead (5 charges).																	
+Staff of Necromancy	KEY:Staff (Necromancy)	TYPE:Staff	COST:65000	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Cause fear (1 charge)/Ghoul touch (1 charge)/Halt undead (1 charge)/Enervation (2 charges)/Waves of fatigue (2 charges)/Circle of death (3 charges).																	
+Staff of Passage	KEY:Staff (Passage)	TYPE:Staff	COST:170500	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Dimension door (1 charge)/Passwall (1 charge)/Phase door (2 charges)/Greater teleport (2 charges)/Astral projection (2 charges).																	
+Staff of Power	KEY:Staff (Power)	TYPE:Staff.Weapon.Melee.Simple.Bludgeoning.TwoHanded.Quarterstaff	COST:211000	WT:4	SOURCEPAGE:DMG		SPROP:Magic missile (1 charge)/Ray of enfeeblement (heightened to 5th level) (1 charge)/Continual flame (1 charge)/Levitate (1 charge)/Lightning bolt (heightened to 5th level) (1 charge)/Fireball (heightened to 5th level) (1 charge)/Cone of cold (2 charges)/Hold monster (2 charges)/Wall of force (in a 10-ft.-diameter hemisphere around the caster only) (2 charges)/Globe of invulnerability (2 charges). Double damage and x3 critical multiplier (1 charge).		PROFICIENCY:WEAPON|Quarterstaff	WIELD:TwoHanded	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS2W.CHARGED_ITEM_50|CHARGES[50]			ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.EQ_COST_ADJ_W.PLUS2W	BONUS:COMBAT|AC|2|TYPE=Luck	BONUS:SAVE|ALL|2|TYPE=Luck
+Staff of Alteration	KEY:Staff (Alteration)	TYPE:Staff	COST:29000	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Enlarge person (1 charge)/Reduce person (1 charge)/Shrink item (1 charge)/Enlarge person, mass (1 charge)/Reduce person, mass (1 charge).																	
+Staff of Swarming Insects	KEY:Staff (Swarming Insects)	TYPE:Staff	COST:24750	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Summon swarm (1 charge)/Insect plague (3 charges).																	
+Staff of Transmutation	KEY:Staff (Transmutation)	TYPE:Staff	COST:65000	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Expeditious retreat (1 charge)/Alter self (1 charge)/Blink (1 charge)/Polymorph (2 charges)/Baleful polymorph (2 charges)/Disintegrate (3 charges).																	
+Staff of Woodland	KEY:Staff (Woodland)	TYPE:Staff.Weapon.Melee.Simple.Bludgeoning.TwoHanded.Quarterstaff	COST:101250	WT:4	SOURCEPAGE:DMG	SPELLS:Staff Woodland|TIMES=ATWILL|CASTERLEVEL=13|Pass without Trace	SPROP:Charm animal (1 charge)/Speak with animals (1 charge)/Barkskin (2 charges)/Wall of thorns (3 charges)/Summon nature�s ally VI (3 charges)/Animate plants (4 charges).		PROFICIENCY:WEAPON|Quarterstaff	WIELD:TwoHanded	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS2W.CHARGED_ITEM_50|CHARGES[50]			ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.EQ_COST_ADJ_W.PLUS2W		
+																								
+Wand (Detect Magic)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Light)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Burning Hands)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Charm Animal)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Charm Person)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Color Spray)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Cure Light Wounds)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Detect Secret Doors)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Enlarge Person)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Magic Missile/1st level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Shocking Grasp)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Summon Monster I)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Magic Missile/3rd level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Magic Missile/5th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Bear's Endurance)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Bull's Strength)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Cat's Grace)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Cure Moderate Wounds)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Darkness)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Daylight)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Delay Poison)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Eagle's Splendor)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (False Life)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Fox's Cunning)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Ghoul Touch)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Hold Person)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Invisibility)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Knock)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Levitate)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Acid Arrow)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Mirror Image)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Owl's Wisdom)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Shatter)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Silence)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Summon Monster II)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Web)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Magic Missile/5th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Bear's Endurance)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Bull's Strength)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Cat's Grace)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Cure Moderate Wounds)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Darkness)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Daylight)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Delay Poison)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Eagle's Splendor)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (False Life)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Fox's Cunning)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Ghoul Touch)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Hold Person)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Invisibility)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Knock)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Levitate)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Acid Arrow)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Mirror Image)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Owl's Wisdom)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Shatter)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Silence)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Summon Monster II)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Web)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Magic Missile/7th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Magic Missile/9th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Call Lightning/5th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Charm Person/heightened to 3rd-level spell)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Contagion)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Cure Serious Wounds)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Dispel Magic)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Fireball/5th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Keen Edge)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Lightning Bolt/5th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Major Image)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Slow)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Suggestion)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Summon Monster III)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Fireball/6th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Lightning Bolt/6th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Searing Light/6th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Magic Missile/7th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Magic Missile/9th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Call Lightning/5th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Charm Person/heightened to 3rd-level spell)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Contagion)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Cure Serious Wounds)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Dispel Magic)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Fireball/5th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Keen Edge)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Lightning Bolt/5th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Major Image)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Slow)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Suggestion)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Summon Monster III)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Fireball/6th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Lightning Bolt/6th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Searing Light/6th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Call Lightning/8th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Fireball/8th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Lightning Bolt/8th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Charm Monster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Cure Critical Wounds)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Dimensional Anchor)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Fear)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Greater Invisibility)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Hold Person/heightened to 4th-level spell)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Ice Storm)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Inflict Critical Wounds)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Neutralize Poison)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Poison)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Polymorph)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Ray of Enfeeblement/heightened to 4th-level spell)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Suggestion/heightened to 4th-level spell)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Summon Monster IV)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Wall of Fire)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Wall of Ice)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Dispel Magic/10th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Fireball/10th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Lightning Bolt/10th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Chaos Hammer/8th Level Caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Holy Smite/8th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Order's Wrath/8th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Unholy Blight/8th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Restoration)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+Wand (Stoneskin)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
+																								
+Amuleth of Health +2		TYPE:Wondrous.Amulet	COST:4000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|CON|2|TYPE=Enhancement																		
+Amuleth of Health +4		TYPE:Wondrous.Amulet	COST:16000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|CON|4|TYPE=Enhancement																		
+Amuleth of Health +6		TYPE:Wondrous.Amulet	COST:36000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|CON|6|TYPE=Enhancement																		
+Amuleth of Fiery Fist +1		TYPE:Wondrous.Amulet	COST:6000	WT:0	SOURCEPAGE:DMG	BONUS:WEAPONPROF=Unarmed Strike|TOHIT,DAMAGE|1|TYPE=Enhancement	BONUS:WEAPONPROF=TYPE.Natural|TOHIT,DAMAGE|1|TYPE=Enhancement																	
+Amuleth of Fiery Fist +2		TYPE:Wondrous.Amulet	COST:24000	WT:0	SOURCEPAGE:DMG	BONUS:WEAPONPROF=Unarmed Strike|TOHIT,DAMAGE|2|TYPE=Enhancement	BONUS:WEAPONPROF=TYPE.Natural|TOHIT,DAMAGE|2|TYPE=Enhancement																	
+Amuleth of Fiery Fist +3		TYPE:Wondrous.Amulet	COST:54000	WT:0	SOURCEPAGE:DMG	BONUS:WEAPONPROF=Unarmed Strike|TOHIT,DAMAGE|3|TYPE=Enhancement	BONUS:WEAPONPROF=TYPE.Natural|TOHIT,DAMAGE|3|TYPE=Enhancement																	
+Amuleth of Fiery Fist +4		TYPE:Wondrous.Amulet	COST:96000	WT:0	SOURCEPAGE:DMG	BONUS:WEAPONPROF=Unarmed Strike|TOHIT,DAMAGE|4|TYPE=Enhancement	BONUS:WEAPONPROF=TYPE.Natural|TOHIT,DAMAGE|4|TYPE=Enhancement																	
+Amuleth of Fiery Fist +5		TYPE:Wondrous.Amulet	COST:150000	WT:0	SOURCEPAGE:DMG	BONUS:WEAPONPROF=Unarmed Strike|TOHIT,DAMAGE|5|TYPE=Enhancement	BONUS:WEAPONPROF=TYPE.Natural|TOHIT,DAMAGE|5|TYPE=Enhancement																	
+Amuleth of Natural Armor +1		TYPE:Wondrous.Amulet	COST:2000	WT:0	SOURCEPAGE:DMG	BONUS:COMBAT|AC|1|TYPE=NaturalArmorEnhancement																		
+Amuleth of Natural Armor +2		TYPE:Wondrous.Amulet	COST:8000	WT:0	SOURCEPAGE:DMG	BONUS:COMBAT|AC|2|TYPE=NaturalArmorEnhancement																		
+Amuleth of Natural Armor +3		TYPE:Wondrous.Amulet	COST:18000	WT:0	SOURCEPAGE:DMG	BONUS:COMBAT|AC|3|TYPE=NaturalArmorEnhancement																		
+Amuleth of Natural Armor +4		TYPE:Wondrous.Amulet	COST:32000	WT:0	SOURCEPAGE:DMG	BONUS:COMBAT|AC|4|TYPE=NaturalArmorEnhancement																		
+Amuleth of Natural Armor +5		TYPE:Wondrous.Amulet	COST:50000	WT:0	SOURCEPAGE:DMG	BONUS:COMBAT|AC|5|TYPE=NaturalArmorEnhancement																		
+Amulet of the Planes		TYPE:Wondrous.Amulet	COST:120000	WT:0	SOURCEPAGE:DMG																			
+Amulet of Proof against Detection		TYPE:Wondrous.Amulet	COST:35000	WT:0	SOURCEPAGE:DMG	SPROP:continuous Nondetection.																		
+Apparatus of Kwalish		TYPE:Wondrous	COST:90000	WT:500	SOURCEPAGE:DMG																			
+Bag of Holding I		TYPE:Wondrous.Container	COST:2500	WT:15	SOURCEPAGE:DMG	CONTAINS:*250																		
+Bag of Holding II		TYPE:Wondrous.Container	COST:5000	WT:25	SOURCEPAGE:DMG	CONTAINS:*500																		
+Bag of Holding III		TYPE:Wondrous.Container	COST:7400	WT:35	SOURCEPAGE:DMG	CONTAINS:*1000																		
+Bag of Holding IV		TYPE:Wondrous.Container	COST:10000	WT:60	SOURCEPAGE:DMG	CONTAINS:*1500																		
+Bag of Tricks, Gray	KEY:Bag of Tricks (Gray)	TYPE:Wondrous	COST:900	WT:0	SOURCEPAGE:DMG																			
+Bag of Tricks, Rust	KEY:Bag of Tricks (Rust)	TYPE:Wondrous	COST:3000	WT:0	SOURCEPAGE:DMG																			
+Bag of Tricks, Tan	KEY:Bag of Tricks (Tan)	TYPE:Wondrous	COST:6300	WT:0	SOURCEPAGE:DMG																			
+Bead of Force		TYPE:Wondrous.Consumable	COST:3000	WT:0	SOURCEPAGE:DMG	SPROP:(Ref DC 16)																		
+Belt (Monk's)	OUTPUTNAME:Belt, Monk's	TYPE:Wondrous.Belt	COST:13000	WT:1	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Monk ~ AC Bonus	BONUS:VAR|MonkACLVLBonus|5	ABILITY:Internal|AUTOMATIC|Unarmed Damage	BONUS:UDAM|CLASS.Monk|5	BONUS:VAR|MonkACLVLBonus|5	BONUS:VAR|MonkUnarmedDamageLVL|5	BONUS:VAR|StunningFistAttack|1|PREABILITY:1,CATEGORY=FEAT,Stunning Fist												
+Belt of Dwarvenkind		TYPE:Wondrous.Belt	COST:14900	WT:1	SOURCEPAGE:DMG	SPROP:on Charisma checks and Charisma-based skill checks as they relate to dealing with dwarves, a +2 competence bonus on similar checks when dealing with gnomes and halflings, and a �2 competence penalty on similar checks when dealing with anyone.	AUTO:LANG|Dwarven	ABILITY:Special Ability|VIRTUAL|Dwarf ~ Poison Save Bonus|Dwarf ~ Spell Save Bonus|Dwarf ~ Stonecunning|!PRERACE:1,Dwarf	BONUS:STAT|CON|2|TYPE=Enhancement|!PRERACE:1,Dwarf															
+Belt of Giant Strength +4		TYPE:Wondrous.Belt	COST:16000	WT:1	SOURCEPAGE:DMG	BONUS:STAT|STR|4|TYPE=Enhancement																		
+Belt of Giant Strength +6		TYPE:Wondrous.Belt	COST:36000	WT:1	SOURCEPAGE:DMG	BONUS:STAT|STR|6|TYPE=Enhancement																		
+Boat (Fodling)		TYPE:Wondrous.Transportation.Ships.Container	COST:7200	WT:4	SOURCEPAGE:DMG	CONTAINS:UNLIM|Any																		
+Blessed Book (Boccob's)		TYPE:Wondrous.Book.Spellbook	COST:12500	WT:1	SOURCEPAGE:DMG	NUMPAGES:1000	PAGEUSAGE:max(SPELLLEVEL,1)																	
+Boots of Elvenkind		TYPE:Wondrous.Boot	COST:2500	WT:1	SOURCEPAGE:DMG	SLOTS:2	BONUS:SKILL|Move Silently|5|TYPE=Competence																	
+Boots of Levitation		TYPE:Wondrous.Boot	COST:7500	WT:1	SOURCEPAGE:DMG	SLOTS:2	SPELLS:Boots of Levitation|TIMES=ATWILL|CASTERLEVEL=3|Levitate																	
+Boots of Speed		TYPE:Wondrous.Boot	COST:12000	WT:1	SOURCEPAGE:DMG	SLOTS:2	SPROP:Haste for 10 rounds a day.																	
+Boots of Striding and Springing		TYPE:Wondrous.Boot	COST:5500	WT:1	SOURCEPAGE:DMG	SLOTS:2	BONUS:MOVEADD|TYPE=Walk|10|TYPE=Enhancement	BONUS:SKILL|Jump|5|TYPE=Competence																
+Boots of Teleportation		TYPE:Wondrous.Boot	COST:49000	WT:3	SOURCEPAGE:DMG	SLOTS:2	SPELLS:Boots of Teleportation|TIMES=3|CASTERLEVEL=9|Teleport																	
+Boots of Winterlands		TYPE:Wondrous.Boot	COST:2500	WT:1	SOURCEPAGE:DMG	SLOTS:2	SPROP:Continuous Endure Elements																	
+Boots (Winged)	OUTPUTNAME:Boots, [NAME]	TYPE:Wondrous.Boot	COST:16000	WT:1	SOURCEPAGE:DMG	SPELLS:Boots (Winged)|TIMES=3|CASTERLEVEL=5|Fly																		
+Bottle of Air		TYPE:Wondrous	COST:7250	WT:2	SOURCEPAGE:DMG																			
+Bowl of Commanding Water Elementals		TYPE:Wondrous	COST:100000	WT:3	SOURCEPAGE:DMG																			
+Bracelet of Friends		TYPE:Wondrous.Bracer	COST:19000	WT:0	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_4|CHARGES[4]	SLOTS:1																	
+Bracers of Archery (Greater)	OUTPUTNAME:Bracers of Archery, Greater	TYPE:Wondrous.Bracer	COST:25000	WT:1	SLOTS:2	BONUS:WEAPONPROF=Longbow|TOHIT|2|PREWEAPONPROF:1,Longbow|TYPE=Competence	BONUS:WEAPONPROF=Longbow|DAMAGE|1|PREWEAPONPROF:1,Longbow|TYPE=Competence	BONUS:WEAPONPROF=Longbow|TOHIT|4|!PREWEAPONPROF:1,Longbow|TYPE=Proficiency	BONUS:WEAPONPROF=Shortbow|TOHIT|2|PREWEAPONPROF:1,Shortbow|TYPE=Competence	BONUS:WEAPONPROF=Shortbow|DAMAGE|1|PREWEAPONPROF:1,Shortbow|TYPE=Competence	BONUS:WEAPONPROF=Shortbow|TOHIT|4|!PREWEAPONPROF:1,Shortbow|TYPE=Proficiency													
+Bracers of Archery (Lesser)	OUTPUTNAME:Bracers of Archery, Lesser	TYPE:Wondrous.Bracer	COST:5000	WT:1	SLOTS:2	BONUS:WEAPONPROF=Longbow|TOHIT|1|PREWEAPONPROF:1,Longbow|TYPE=Competence		BONUS:WEAPONPROF=Longbow|TOHIT|4|!PREWEAPONPROF:1,Longbow|TYPE=Proficiency	BONUS:WEAPONPROF=Shortbow|TOHIT|1|PREWEAPONPROF:1,Shortbow|TYPE=Competence		BONUS:WEAPONPROF=Shortbow|TOHIT|4|!PREWEAPONPROF:1,Shortbow|TYPE=Proficiency													
+Bracers of Armor +1		TYPE:Wondrous.Bracer	COST:1000	WT:1	SOURCEPAGE:DMG	SLOTS:2	BONUS:COMBAT|AC|1|TYPE=Armor																	
+Bracers of Armor +2		TYPE:Wondrous.Bracer	COST:4000	WT:1	SOURCEPAGE:DMG	SLOTS:2	BONUS:COMBAT|AC|2|TYPE=Armor																	
+Bracers of Armor +3		TYPE:Wondrous.Bracer	COST:9000	WT:1	SOURCEPAGE:DMG	SLOTS:2	BONUS:COMBAT|AC|3|TYPE=Armor																	
+Bracers of Armor +4		TYPE:Wondrous.Bracer	COST:16000	WT:1	SOURCEPAGE:DMG	SLOTS:2	BONUS:COMBAT|AC|4|TYPE=Armor																	
+Bracers of Armor +5		TYPE:Wondrous.Bracer	COST:25000	WT:1	SOURCEPAGE:DMG	SLOTS:2	BONUS:COMBAT|AC|5|TYPE=Armor																	
+Bracers of Armor +6		TYPE:Wondrous.Bracer	COST:36000	WT:1	SOURCEPAGE:DMG	SLOTS:2	BONUS:COMBAT|AC|6|TYPE=Armor																	
+Bracers of Armor +7		TYPE:Wondrous.Bracer	COST:49000	WT:1	SOURCEPAGE:DMG	SLOTS:2	BONUS:COMBAT|AC|7|TYPE=Armor																	
+Bracers of Armor +8		TYPE:Wondrous.Bracer	COST:64000	WT:1	SOURCEPAGE:DMG	SLOTS:2	BONUS:COMBAT|AC|8|TYPE=Armor																	
+Brazier of Commanding Fire Elementals		TYPE:Wondrous	COST:100000	WT:3	SOURCEPAGE:DMG																			
+Brooch of Shielding		TYPE:Wondrous	COST:1500	WT:0	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_101|CHARGES[101]																		
+Broom of Flying		TYPE:Wondrous	COST:17000	WT:3	SOURCEPAGE:DMG																			
+Candle of Invocation		TYPE:Wondrous.Consumable.Candle.LightSource	COST:8400	WT:0.5	SOURCEPAGE:DMG	QUALITY:Shadowy Illumination|5 ft.	QUALITY:Duration|4 hr.																	
+Candle of Truth		TYPE:Wondrous.Consumable.Candle.LightSource	COST:2500	WT:0.5	SOURCEPAGE:DMG	SPROP:Zone of Truth (Will DC 13)	QUALITY:Shadowy Illumination|5 ft.	QUALITY:Duration|1 hr.																
+Cape of the Mountebank		TYPE:Wondrous.Cape	COST:10080	WT:1	SOURCEPAGE:DMG	SPELLS:Cape of the Mountebank|TIMES=1|CASTERLEVEL=9|Dimension Door																		
+Carpet of Flying (5x5)	OUTPUTNAME:Carpet of Flying, 5 Ft. by 5 Ft.	TYPE:Wondrous	COST:20000	WT:8	SOURCEPAGE:DMG	SORTKEY:Carpet of Flying, 0505																		
+Carpet of Flying (5x10)	OUTPUTNAME:Carpet of Flying, 5 Ft. by 10 Ft.	TYPE:Wondrous	COST:35000	WT:15	SOURCEPAGE:DMG	SORTKEY:Carpet of Flying, 0510																		
+Carpet of Flying (10x10)	OUTPUTNAME:Carpet of Flying, 10 Ft. by 10 Ft.	TYPE:Wondrous	COST:60000	WT:10	SOURCEPAGE:DMG	SORTKEY:Carpet of Flying, 1010																		
+Censer of Commanding Air Elementals		TYPE:Wondrous	COST:100000	WT:1	SOURCEPAGE:DMG																			
+Chaos Diamond		TYPE:Wondrous.Gem	COST:160000	WT:1	SOURCEPAGE:DMG	BONUS:VAR|NegativeLevels|1|PREALIGN:LG,LN,LE,NG,TN,NE	SPELLS:Chaos Diamond|CASTERLEVEL=19|Confusion, Lesser|Magic Circle against Law|Word of Chaos|Cloak of Chaos																	
+Chime of Interruption		TYPE:Wondrous.MusicalInstrument	COST:16800	WT:1	SOURCEPAGE:DMG																			
+Chime of Opening		TYPE:Wondrous.MusicalInstrument	COST:3000	WT:1	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_10|CHARGES[10]																		
+Circlet of Blasting (Minor)	OUTPUTNAME:Circlet of Blasting, Minor	TYPE:Wondrous.Headgear	COST:6840	WT:0	SPELLS:Circlet of Blasting|TIMES=1|CASTERLEVEL=6|Searing Light																			
+Circlet of Blasting (Major)	OUTPUTNAME:Circlet of Blasting, Major	TYPE:Wondrous.Headgear	COST:23790	WT:0	SPROP:Maximized.	SPELLS:Circlet of Blasting|TIMES=1|CASTERLEVEL=17|METAMAGIC=Maximize Spell|Searing Light																		
+Circlet of Persuasion		TYPE:Wondrous.Headgear	COST:4500	WT:0	SOURCEPAGE:DMG	BONUS:SKILL|TYPE.Charisma|3|TYPE=Competence																		
+Cloak of Arachnida		TYPE:Wondrous.Cape	COST:14000	WT:1	SOURCEPAGE:DMG	SPELLS:Cloak of Arachnida|TIMES=ATWILL|CASTERLEVEL=6|Spider Climb	SPELLS:Cloak of Arachnida|TIMES=1|CASTERLEVEL=6|Web	ASPECT:SaveBonus|+2 luck bonus against poison from spiders.																
+Cloak of the Bat		TYPE:Wondrous.Cape	COST:26000	WT:1	SOURCEPAGE:DMG	BONUS:SKILL|Hide|5|TYPE=Competence																		
+Cloak of Charisma +2		TYPE:Wondrous.Cape	COST:4000	WT:1	SOURCEPAGE:DMG	BONUS:STAT|CHA|2|TYPE=Enhancement																		
+Cloak of Charisma +4		TYPE:Wondrous.Cape	COST:16000	WT:1	SOURCEPAGE:DMG	BONUS:STAT|CHA|4|TYPE=Enhancement																		
+Cloak of Charisma +6		TYPE:Wondrous.Cape	COST:36000	WT:1	SOURCEPAGE:DMG	BONUS:STAT|CHA|6|TYPE=Enhancement																		
+Cloak of Displacement (Minor)	OUTPUTNAME:Cloak of Displacement, Minor	TYPE:Wondrous.Cape	COST:24000	WT:1	SOURCEPAGE:DMG	SPROP:20%% miss chance.																		
+Cloak of Displacement (Major)	OUTPUTNAME:Cloak of Displacement, Major	TYPE:Wondrous.Cape	COST:50000	WT:1	SOURCEPAGE:DMG	SPROP:Displacement spell fro 15 rounds a day.Cloak of Elvenkind		TYPE:Wondrous.Cape	COST:2500	WT:1	SOURCEPAGE:DMG	BONUS:SKILL|Hide|5|TYPE=Competence												
+Cloak of Etherealness		TYPE:Wondrous.Cape	COST:5500	WT:1	SOURCEPAGE:DMG	SPROP:Ehereal Jaunt spell for 10 minutes a day																		
+Cloak of Manta Ray		TYPE:Wondrous.Cape	COST:5500	WT:1	SOURCEPAGE:DMG	SPROP:+3 natural AC, Breathe underwater, swim speed of 60 when in salt water.																		
+Cloak of Resistance +1		TYPE:Wondrous.Cape	COST:1000	WT:1	SOURCEPAGE:DMG	BONUS:SAVE|ALL|1|TYPE=Resistance																		
+Cloak of Resistance +2		TYPE:Wondrous.Cape	COST:4000	WT:1	SOURCEPAGE:DMG	BONUS:SAVE|ALL|2|TYPE=Resistance																		
+Cloak of Resistance +3		TYPE:Wondrous.Cape	COST:9000	WT:1	SOURCEPAGE:DMG	BONUS:SAVE|ALL|3|TYPE=Resistance																		
+Cloak of Resistance +4		TYPE:Wondrous.Cape	COST:16000	WT:1	SOURCEPAGE:DMG	BONUS:SAVE|ALL|4|TYPE=Resistance																		
+Cloak of Resistance +5		TYPE:Wondrous.Cape	COST:25000	WT:1	SOURCEPAGE:DMG	BONUS:SAVE|ALL|5|TYPE=Resistance																		
+Crystal Ball		TYPE:Wondrous.CrystalBall	COST:42000	WT:1	SOURCEPAGE:DMG	MODS:YES																		
+Cube of Force		TYPE:Wondrous	COST:62000	WT:0	SOURCEPAGE:DMG																			
+Cube of Frost Resistance		TYPE:Wondrous	COST:27000	WT:0	SOURCEPAGE:DMG																			
+Cubic Gate		TYPE:Wondrous	COST:164000	WT:0	SOURCEPAGE:DMG																			
+Daern's Instant Fortress		TYPE:Wondrous	COST:55000	WT:0	SOURCEPAGE:DMG																			
+Darkskull		TYPE:Wondrous	COST:60000	WT:5	SOURCEPAGE:DMG	SPELLS:Darkskull|CASTERLEVEL=9|Unhallow																		
+Decanter of Endless Water		TYPE:Wondrous	COST:9000	WT:2	SOURCEPAGE:DMG																			
+Deck of Illusion		TYPE:Wondrous	COST:8100	WT:0.5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_34|CHARGES[34]																		
+Dimensional Shackles		TYPE:Wondrous	COST:28000	WT:5	SOURCEPAGE:DMG																			
+Drums of Panic		TYPE:Wondrous.MusicalInstrument	COST:30000	WT:10	SOURCEPAGE:DMG	SPELLS:Drums of Panic|TIMES=1|CASTERLEVEL=7|Cause Fear,16																		
+Dust of Dryness		TYPE:Wondrous.Consumable.Dust	COST:850	WT:0	SOURCEPAGE:DMG	SPROP:against Water Elementals 5d6 points of damage and Fort DC 18 or destroyed.																		
+Dust of Illusions		TYPE:Wondrous.Consumable.Dust	COST:1200	WT:0	SOURCEPAGE:DMG																			
+Dust of Tracelessness		TYPE:Wondrous.Consumable.Dust	COST:250	WT:0	SOURCEPAGE:DMG																			
+Efreeti Bottle		TYPE:Wondrous	COST:145000	WT:1	SOURCEPAGE:DMG																			
+Elemental Gem (Transparent)	OUTPUTNAME:Elemental Gem, Transparent	TYPE:Wondrous.Consumable.Gem	COST:2250	WT:0	SOURCEPAGE:DMG	SPROP:Summon a Large Air Elemental.																		
+Elemental Gem (Light Brown)	OUTPUTNAME:Elemental Gem, Light Brown	TYPE:Wondrous.Consumable.Gem	COST:2250	WT:0	SOURCEPAGE:DMG	SPROP:Summon a Large Earth Elemental.																		
+Elemental Gem (Reddish Orange)	OUTPUTNAME:Elemental Gem, Reddish Orange	TYPE:Wondrous.Consumable.Gem	COST:2250	WT:0	SOURCEPAGE:DMG	SPROP:Summon a Large Fire Elemental.																		
+Elemental Gem (Blue-Green)	OUTPUTNAME:Elemental Gem, Blue-Green	TYPE:Wondrous.Consumable.Gem	COST:2250	WT:0	SOURCEPAGE:DMG	SPROP:Summon a Large Water Elemental.																		
+Elixir of Fire Breath		TYPE:Wondrous.Potion.Consumable	COST:1100	WT:0	SOURCEPAGE:DMG																			
+Elixir of Hiding		TYPE:Wondrous.Potion.Consumable	COST:250	WT:0	SOURCEPAGE:DMG																			
+Elixir of Love		TYPE:Wondrous.Potion.Consumable	COST:150	WT:0	SOURCEPAGE:DMG																			
+Elixir of Sneaking		TYPE:Wondrous.Potion.Consumable	COST:250	WT:0	SOURCEPAGE:DMG																			
+Elixir of Swimming		TYPE:Wondrous.Potion.Consumable	COST:250	WT:0	SOURCEPAGE:DMG																			
+Elixir of Truth		TYPE:Wondrous.Potion.Consumable	COST:500	WT:0	SOURCEPAGE:DMG																			
+Elixir of Vision		TYPE:Wondrous.Potion.Consumable	COST:250	WT:0	SOURCEPAGE:DMG																			
+Eversmoking Bottle		TYPE:Wondrous	COST:5400	WT:1	SOURCEPAGE:DMG																			
+Eyes of Charming		TYPE:Wondrous.Eyegear	COST:56000	WT:0	SOURCEPAGE:DMG	SPELLS:Eyes of Charming|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=7|Charm Person,16																		
+Eyes of Doom		TYPE:Wondrous.Eyegear	COST:25000	WT:0	SOURCEPAGE:DMG	SPROP:continuous Deathwatch.	SPELLS:Eyes of Doom|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=11|Doom,11	SPELLS:Eyes of Doom|TIMES=1|TIMEUNIT=Week|CASTERLEVEL=11|Cause Fear																
+Eyes of Eagle		TYPE:Wondrous.Eyegear	COST:2500	WT:0	SOURCEPAGE:DMG	BONUS:SKILL|Spot|5|TYPE=Competence																		
+Eyes of Petrification		TYPE:Wondrous.Eyegear	COST:98000	WT:0	SOURCEPAGE:DMG																			
+Figurine of Wondrous Power (Bronze Griffon)	OUTPUTNAME:Figurine of Wondrous Power, [NAME]	TYPE:Wondrous	COST:10000	WT:0	SOURCEPAGE:DMG																			
+Figurine of Wondrous Power (Ebony Fly)	OUTPUTNAME:Figurine of Wondrous Power, [NAME]	TYPE:Wondrous	COST:10000	WT:0	SOURCEPAGE:DMG																			
+Figurine of Wondrous Power (Golden Lion)	OUTPUTNAME:Figurine of Wondrous Power, [NAME]	TYPE:Wondrous	COST:16500	WT:0	SOURCEPAGE:DMG																			
+Figurine of Wondrous Power (Ivory Goats)	OUTPUTNAME:Figurine of Wondrous Power, [NAME]	TYPE:Wondrous	COST:21000	WT:0	SOURCEPAGE:DMG																			
+Figurine of Wondrous Power (Marble Elephant)	OUTPUTNAME:Figurine of Wondrous Power, [NAME]	TYPE:Wondrous	COST:17000	WT:0	SOURCEPAGE:DMG																			
+Figurine of Wondrous Power (Obsidian Steed)	OUTPUTNAME:Figurine of Wondrous Power, [NAME]	TYPE:Wondrous	COST:28500	WT:0	SOURCEPAGE:DMG																			
+Figurine of Wondrous Power (Onyx Dog)	OUTPUTNAME:Figurine of Wondrous Power, [NAME]	TYPE:Wondrous	COST:15500	WT:0	SOURCEPAGE:DMG																			
+Figurine of Wondrous Power (Serpentine Owl)	OUTPUTNAME:Figurine of Wondrous Power, [NAME]	TYPE:Wondrous	COST:9100	WT:0	SOURCEPAGE:DMG																			
+Figurine of Wondrous Power (Silver Raven)	OUTPUTNAME:Figurine of Wondrous Power, [NAME]	TYPE:Wondrous	COST:3800	WT:0	SOURCEPAGE:DMG																			
+Gauntlets of Ogre Power		TYPE:Wondrous.Glove	COST:4000	WT:4	SOURCEPAGE:DMG	SLOTS:2	BONUS:STAT|STR|2|TYPE=Enhancement																	
+Gauntlets of Rust		TYPE:Wondrous.Glove	COST:11500	WT:2	SOURCEPAGE:DMG	SLOTS:2	SPELLS:Gauntlet of Rust|TIMES=1|CASTERLEVEL=7|Rusting Grasp																	
+Gem of Brightness		TYPE:Wondrous.Gem.Consumable	COST:13000	WT:0	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]																		
+Gem of Seeing		TYPE:Wondrous.Gem	COST:75000	WT:0	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]																		
+Gloves of Arrow Snaring		TYPE:Wondrous.Glove	COST:4000	WT:0	SOURCEPAGE:DMG	SLOTS:2	SPROP:2/day Snatch Arrow feat.																	
+Gloves of Dexterity +2		TYPE:Wondrous.Glove	COST:4000	WT:0	SOURCEPAGE:DMG	SLOTS:2	BONUS:STAT|DEX|2|TYPE=Enhancement																	
+Gloves of Dexterity +4		TYPE:Wondrous.Glove	COST:16000	WT:0	SOURCEPAGE:DMG	SLOTS:2	BONUS:STAT|DEX|4|TYPE=Enhancement																	
+Gloves of Dexterity +6		TYPE:Wondrous.Glove	COST:36000	WT:0	SOURCEPAGE:DMG	SLOTS:2	BONUS:STAT|DEX|6|TYPE=Enhancement																	
+Glove of Storing		TYPE:Wondrous.Glove.Container	COST:10000	WT:0	SOURCEPAGE:DMG	SLOTS:1	CONTAINS:20|Any=1																	
+Gloves of Swimming and Climbing		TYPE:Wondrous.Glove.Container	COST:6250	WT:0	SOURCEPAGE:DMG	SLOTS:2	BONUS:SKILL|Swim,Climb|5|TYPE=Competence																	
+Goggle of Minute Seeing		TYPE:Wondrous.Eyegear	COST:1250	WT:0	SOURCEPAGE:DMG	BONUS:SITUATION|Search=Secret doors, traps, similar concealed objects|5|TYPE=Competence																		
+Goggle of Night		TYPE:Wondrous.Eyegear	COST:1250	WT:0	SOURCEPAGE:DMG	BONUS:VAR|DarkvisionRange|60|TYPE=Base																		
+Golem Manual (Clay)	OUTPUTNAME:Golem Manual, [NAME]	TYPE:Wondrous	COST:12000	WT:5	SOURCEPAGE:DMG	SPROP:Animate Objects, Bless, Commune, Prayer, Resurrection. The reader may treat her caster level as two levels higher than normal for the purpose of crafting a clay golem. The book supplies 1,540 XP for the creation of a clay golem.																		
+Golem Manual (Flesh)	OUTPUTNAME:Golem Manual, [NAME]	TYPE:Wondrous	COST:8000	WT:5	SOURCEPAGE:DMG	SPROP:Animate Dead, Bull's Strength, Geas/Quest, Limited Wish. The reader may treat her caster level as one level higher than normal for the purpose of crafting a clay golem. The book supplies 1,540 XP for the creation of a flesh golem.																		
+Golem Manual (Iron)	OUTPUTNAME:Golem Manual, [NAME]	TYPE:Wondrous	COST:35000	WT:5	SOURCEPAGE:DMG	SPROP:Cloudkill, Geas/Quest, Limited Wish, Polymorph Any Object. The reader may treat her caster level as four levels higher than normal for the purpose of crafting a iron golem. The book supplies 5,600 XP for the creation of a iron golem.																		
+Golem Manual (Stone)	OUTPUTNAME:Golem Manual, [NAME]	TYPE:Wondrous	COST:44000	WT:5	SOURCEPAGE:DMG	SPROP:Geas/Quest, Limited Wish, Polymorph any Object, Slow. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem. The book supplies 7,640 XP for the creation of a stone golem.																		
+Hand of Glory		TYPE:Wondrous.Amulet	COST:8000	WT:2	SOURCEPAGE:DMG	BONUS:SLOTS|RING|1	SPELLS:Hand of Glory|TIMES=1|CASTERLEVEL=5|Daylight|See Invisibility																	
+Hand of of the Mage		TYPE:Wondrous.Amulet	COST:900	WT:2	SOURCEPAGE:DMG	SPELLS:Hand of the Mage|TIMES=ATWILL|CASTERLEVEL=2|Mage Hand																		
+Harp of Charming		TYPE:Wondrous.MusicalInstrument	COST:7500	WT:5	SOURCEPAGE:DMG	SPROP:Suggestion Will DC 14.																		
+Hat of Disguise		TYPE:Wondrous.Headgear	COST:1800	WT:0	SOURCEPAGE:DMG	SPELLS:Hat of Disguise|TIMES=ATWILL|CASTERLEVEL=1|Disguise Self																		
+Headband of Intellect +2		TYPE:Wondrous.Headgear	COST:4000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|INT|2|TYPE=Enhancement																		
+Headband of Intellect +4		TYPE:Wondrous.Headgear	COST:16000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|INT|4|TYPE=Enhancement																		
+Headband of Intellect +6		TYPE:Wondrous.Headgear	COST:36000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|INT|6|TYPE=Enhancement																		
+Helm of Brilliance		TYPE:Wondrous.Headgear	COST:125000	WT:3	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_4|CHARGES[4]	BONUS:VAR|FireResistanceBonus|30|TYPE=Resistance	ABILITY:Special Ability|VIRTUAL|Resistance To Fire																
+Helm of Comprehend Languages and Read Magic		TYPE:Wondrous.Headgear	COST:5200	WT:3	SOURCEPAGE:DMG	SPROP:continuous Comprehend Languages and Read Magic.	BONUS:SITUATION|Decipher Script=Understand messages|5|TYPE=Competence																	
+Helm of Telepathy		TYPE:Wondrous.Headgear	COST:27000	WT:3	SOURCEPAGE:DMG	SPELLS:Helm of Telepathy|TIMES=1|CASTERLEVEL=5|Suggestion,14	SPELLS:Helm of Telepathy|TIMES=ATWILL|CASTERLEVEL=5|Detect Thought																	
+Helm of Teleportation		TYPE:Wondrous.Headgear	COST:73500	WT:3	SOURCEPAGE:DMG	SPELLS:Helm of Teleportation|TIMES=3|CASTERLEVEL=9|Teleport																		
+Helm of Underwater Action		TYPE:Wondrous.Headgear	COST:57000	WT:3	SOURCEPAGE:DMG	BONUS:VAR|UnderwaterDistance|3|TYPE=Enhancement																		
+Heward's Handy Haversack		TYPE:Wondrous.Container	COST:2000	WT:5	SOURCEPAGE:DMG	CONTAINS:*120																		
+Horn of Blasting		TYPE:Wondrous.MusicalInstrument	COST:20000	WT:1	SOURCEPAGE:DMG																			
+Horn of Blasting (Greater)	OUTPUTNAME:Horn of Blasting, Greater	TYPE:Wondrous.MusicalInstrument	COST:70000	WT:1	SOURCEPAGE:DMG																			
+Horn of Fog		TYPE:Wondrous.MusicalInstrument	COST:2000	WT:1	SOURCEPAGE:DMG																			
+Horn of Goodness/Evil		TYPE:Wondrous.MusicalInstrument	COST:2000	WT:1	SOURCEPAGE:DMG	SPELLS:Horn of Goodness|TIMES=1|CASTERLEVEL=6|Magic Circle against Evil|PREALIGN:LG,NG,CG	SPELLS:Horn of Evil|TIMES=1|CASTERLEVEL=6|Magic Circle against Good|PREALIGN:LE,NE,CE	ASPECT:Name|Horn of Goodness|PREALIGN:LG,NG,CG	ASPECT:Name|Horn of Evil|PREALIGN:LE,NE,CE															
+Horn of Tritons		TYPE:Wondrous.MusicalInstrument	COST:15100	WT:2	SOURCEPAGE:DMG																			
+Horn of Valhalla		TYPE:Wondrous.MusicalInstrument	COST:50000	WT:2	SOURCEPAGE:DMG																			
+Horseshoes of Speed		TYPE:Wondrous.Boot	COST:3000	WT:12	SOURCEPAGE:DMG	SLOTS:4	BONUS:MOVEADD|TYPE.Walk|30|TYPE=Enhancement|PRERACE:1,RACETYPE=Animal																	
+Horseshoes of Zephyr		TYPE:Wondrous.Boot	COST:6000	WT:4	SOURCEPAGE:DMG	SLOTS:4																		
+Incense of Meditation		TYPE:Wondrous.Consumable	COST:4900	WT:1	SOURCEPAGE:DMG	SPROP:Maximize spells.	ADDSPELLLEVEL:0	QUALITY:Duration|8 hr.																
+Ioun Stone (Clear)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:4000	WT:0	SOURCEPAGE:DMG	SPROP:Sustain creature without food or water.																		
+Ioun Stone (Dusty Rose)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:5000	WT:0	SOURCEPAGE:DMG	BONUS:COMBAT|AC|1|TYPE=Insight																		
+Ioun Stone (Deep Red)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:8000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|DEX|2|TYPE=Enhancement																		
+Ioun Stone (Incandescent Blue)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:8000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|WIS|2|TYPE=Enhancement																		
+Ioun Stone (Pale Blue)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:8000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|STR|2|TYPE=Enhancement																		
+Ioun Stone (Pink)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:8000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|CON|2|TYPE=Enhancement																		
+Ioun Stone (Pink and Green)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:8000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|CHA|2|TYPE=Enhancement																		
+Ioun Stone (Scarlet and Blue)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:8000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|INT|2|TYPE=Enhancement																		
+Ioun Stone (Dark Blue)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:10000	WT:0	SOURCEPAGE:DMG	ABILITY:FEAT|VIRTUAL|Alertness																		
+Ioun Stone (Vibrant Purple)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone.Spellbook	COST:36000	WT:0	SOURCEPAGE:DMG	NUMPAGE:5	PAGEUSAGE:max(SPELLLEVEL,1)																	
+Ioun Stone (Iridescent)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:18000	WT:0	SOURCEPAGE:DMG	SPROP:Sustain creature without air.																		
+Ioun Stone (Pale Lavender)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:20000	WT:0	SOURCEPAGE:DMG	SPROP:Absorb spells of 4th level or lower.	EQMOD:CHARGED_ITEM_20|CHARGES[20]																	
+Ioun Stone (Pearly White)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:20000	WT:0	SOURCEPAGE:DMG																			
+Ioun Stone (Pale Green)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:30000	WT:0	SOURCEPAGE:DMG	BONUS:COMBAT|TOHIT|1|TYPE=Competence	BONUS:SAVE|ALL|1|TYPE=Competence	BONUS:SKILL|TYPE.Strength,TYPE.Dexterity,TYPE.Constitution,TYPE.Intelligence,TYPE.Wisdom,TYPE.Charisma|1|TYPE=Competence	BONUS:VAR|TurnCheckBase|1|TYPE=Competence															
+Ioun Stone (Orange)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:30000	WT:0	SOURCEPAGE:DMG	BONUS:CASTERLEVEL|ALLSPELLS|1																		
+Ioun Stone (Lavender and Green)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:40000	WT:0	SOURCEPAGE:DMG	SPROP:Absorb spells of 8th level or lower.	EQMOD:CHARGED_ITEM_50|CHARGES[50]																	
+Ioun Stone (Dull Gray)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:25	WT:0	SOURCEPAGE:DMG	SPROP:Burnt-out stone.																		
+Iron Bands of Bilarro		TYPE:Wondrous	COST:26000	WT:1	SOURCEPAGE:DMG																			
+Iron Flask		TYPE:Wondrous.Flask.Container	COST:170000	WT:1	SOURCEPAGE:DMG	CONTAINS:UNLIM|Creature=1																		
+Keoghtom's Ointment		TYPE:Wondrous.Jar.Consumable	COST:4000	WT:0,5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_5|CHARGES[5]																		
+Lantern of Revealing		TYPE:Wondrous.Container.LightSource	COST:30000	WT:2	SOURCEPAGE:DMG	SPROP:When lit, Invisibility Purge in 25' radius.	CONTAINS:1|Liquid=1	QUALITY:Bright Illumination|30 ft.	QUALITY:Shadowy Illumination|60 ft.	QUALITY:Duration|6 hr./pint														
+Lent of Detection		TYPE:Wondrous.Eyegear	COST:3500	WT:1	SOURCEPAGE:DMG	BONUS:SKILL|Search|5	BONUS:SITUATION|Survival=Find or follow tracks|5																	
+Lyre of Building		TYPE:Wondrous.MusicalInstrument	COST:13000	WT:5	SOURCEPAGE:DMG																			
+Mantle of Faith		TYPE:Wondrous.Cape	COST:76000	WT:0	SOURCEPAGE:DMG	DR:5/Evil																		
+Mantle of Spell Resistance		TYPE:Wondrous.Cape	COST:90000	WT:0	SOURCEPAGE:DMG	SR:21																		
+Manual of Body Health +1		TYPE:Wondrous.Book.Consumable	COST:27500	WT:5	SOURCEPAGE:DMG	SPROP:Increase Constitution by +1 inherent.																		
+Manual of Body Health +2		TYPE:Wondrous.Book.Consumable	COST:55000	WT:5	SOURCEPAGE:DMG	SPROP:Increase Constitution by +2 inherent.																		
+Manual of Body Health +3		TYPE:Wondrous.Book.Consumable	COST:82500	WT:5	SOURCEPAGE:DMG	SPROP:Increase Constitution by +3 inherent.																		
+Manual of Body Health +4		TYPE:Wondrous.Book.Consumable	COST:110000	WT:5	SOURCEPAGE:DMG	SPROP:Increase Constitution by +4 inherent.																		
+Manual of Body Health +5		TYPE:Wondrous.Book.Consumable	COST:137500	WT:5	SOURCEPAGE:DMG	SPROP:Increase Constitution by +5 inherent.																		
+Manual of Gainful Exercise +1		TYPE:Wondrous.Book.Consumable	COST:27500	WT:5	SOURCEPAGE:DMG	SPROP:Increase Strength by +1 inherent.																		
+Manual of Gainful Exercise +2		TYPE:Wondrous.Book.Consumable	COST:55000	WT:5	SOURCEPAGE:DMG	SPROP:Increase Strength by +2 inherent.																		
+Manual of Gainful Exercise +3		TYPE:Wondrous.Book.Consumable	COST:82500	WT:5	SOURCEPAGE:DMG	SPROP:Increase Strength by +3 inherent.																		
+Manual of Gainful Exercise +4		TYPE:Wondrous.Book.Consumable	COST:110000	WT:5	SOURCEPAGE:DMG	SPROP:Increase Strnegth by +4 inherent.																		
+Manual of Gainful Exercise +5		TYPE:Wondrous.Book.Consumable	COST:137500	WT:5	SOURCEPAGE:DMG	SPROP:Increase Strength by +5 inherent.																		
+Manual of Quickness of Action +1		TYPE:Wondrous.Book.Consumable	COST:27500	WT:5	SOURCEPAGE:DMG	SPROP:Increase Dexterity by +1 inherent.																		
+Manual of Quickness of Action +2		TYPE:Wondrous.Book.Consumable	COST:55000	WT:5	SOURCEPAGE:DMG	SPROP:Increase Dexterity by +2 inherent.																		
+Manual of Quickness of Action +3		TYPE:Wondrous.Book.Consumable	COST:82500	WT:5	SOURCEPAGE:DMG	SPROP:Increase Dexterity by +3 inherent.																		
+Manual of Quickness of Action +4		TYPE:Wondrous.Book.Consumable	COST:110000	WT:5	SOURCEPAGE:DMG	SPROP:Increase Dexterity by +4 inherent.																		
+Manual of Quickness of Action +5		TYPE:Wondrous.Book.Consumable	COST:137500	WT:5	SOURCEPAGE:DMG	SPROP:Increase Dexterity by +5 inherent.																		
+Mask of the Skull		TYPE:Wondrous.Headgear	COST:22000	WT:3	SOURCEPAGE:DMG																			
+Mattock of the Titans		TYPE:Wondrous.Weapon.Melee.Simple.Bludgeoning.Piercing.OneHanded	COST:23348	WT:120	SOURCEPAGE:DMG				PROFICIENCY:WEAPON|Morningstar	WIELD:OneHanded	SIZE:G	DAMAGE:4d6	CRITRANGE:1	CRITMULT:x2	EQMOD:ADAMANT_W.EQ_COST_ADJ_W.PLUS3W									
+Maul of the Titans		TYPE:Wondrous.Weapon.Melee.Martial.Bludgeoning.TwoHanded.Club	COST:25305	WT:160	SOURCEPAGE:DMG	SPROP:critical x3 against inanimate objects.			PROFICIENCY:WEAPON|Greatclub	WIELD:TwoHanded	SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD	BONUS:WEAPON|DAMAGE,TOHIT|-4|!PRESTAT:1,STR=18								
+Medallion of Thoughts		TYPE:Wondrous.Amulet	COST:12000	WT:0	SOURCEPAGE:DMG	SPELLS:Medallion of Thoughts|TIMES=ATWILL|CASTERLEVEL=5|Detect Thoughts																		
+Mirror of Life Tapping		TYPE:Wondrous	COST:200000	WT:50	SOURCEPAGE:DMG																			
+Mirror of Mental Prowess		TYPE:Wondrous	COST:175000	WT:40	SOURCEPAGE:DMG																			
+Mirror of Opposition		TYPE:Wondrous	COST:92000	WT:45	SOURCEPAGE:DMG																			
+Murlynd's Spoon		TYPE:Wondrous	COST:5400	WT:0	SOURCEPAGE:DMG																			
+Necklace of Adaptation		TYPE:Wondrous.Amulet	COST:9000	WT:0	SOURCEPAGE:DMG																			
+Necklace of Fireball		TYPE:Wondrous.Amulet.NecklaceFireball	COST:600	WT:0	SOURCEPAGE:DMG	MODS:YES																		
+Necklace of Fireball I		TYPE:Wondrous.Amulet	COST:1650	WT:0	SOURCEPAGE:DMG	SPROP:1x5d6, 2x3d6.																		
+Necklace of Fireball II		TYPE:Wondrous.Amulet	COST:2700	WT:0	SOURCEPAGE:DMG	SPROP:1x6d6, 2x4d6, 2x2d6.																		
+Necklace of Fireball III		TYPE:Wondrous.Amulet	COST:4350	WT:0	SOURCEPAGE:DMG	SPROP:1x7d6, 2x5d6, 4x3d6.																		
+Necklace of Fireball IV		TYPE:Wondrous.Amulet	COST:5400	WT:0	SOURCEPAGE:DMG	SPROP:1x8d6, 2x6d6, 2x4d6, 4x2d6																		
+Necklace of Fireball V		TYPE:Wondrous.Amulet	COST:5850	WT:0	SOURCEPAGE:DMG	SPROP:1x9d6, 2x7d6, 2x5d6, 2x3d6																		
+Necklace of Fireball VI		TYPE:Wondrous.Amulet	COST:8100	WT:0	SOURCEPAGE:DMG	SPROP:1x10d6, 2x8d6, 2x6d6, 4x4d6																		
+Necklace of Fireball VII		TYPE:Wondrous.Amulet	COST:8700	WT:0	SOURCEPAGE:DMG	SPROP:1x10d6, 2x9d6, 2x7d6, 2x5d6, 2x3d6																		

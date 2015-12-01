@@ -20,10 +20,11 @@ STAT:g__stats.lst
 DATACONTROL:g_datacontrol.lst
 
 ABILITY:g_abilities.lst
+ABILITY:g_abilities_pools.lst
 ABILITYCATEGORY:g_abilitycategories.lst
 EQUIPMOD:g_equipmods.lst
-TEMPLATE:g_template.lst
 SKILL:g_skills.lst
+TEMPLATE:g_template.lst
 
 HIDETYPE:SKILL|Literacy
 

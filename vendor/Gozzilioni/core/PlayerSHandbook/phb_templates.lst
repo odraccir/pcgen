@@ -60,6 +60,8 @@ Perfect Self	KEY:Monk ~ Perfect Self	PRECLASS:1,Monk=20	VISIBLE:NO	RACETYPE:Outs
 
 Spellbook	VISIBLE:NO	KIT:1|Wizard Spell Book
 
+Raven Familiar Language	VISIBLE:NO	SOURCEPAGE:PHB	ADD:LANGUAGE|TYPE=Spoken	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Speak One Language
+
 # Animal Based Familiars change to a Magical Beast (Augmented Animal), all others remain the same race type.
 Familiar Race Change	VISIBLE:NO	TEMPLATE:CHOOSE:Animal Base|Non-Animal Base
 Animal Base	VISIBLE:NO	PRERACE:1,RACETYPE=Animal	RACETYPE:Magical Beast

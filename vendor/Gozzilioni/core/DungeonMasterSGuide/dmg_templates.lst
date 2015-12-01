@@ -33,3 +33,5 @@ Strongly Aligned (Good)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Strongly 
 Strongly Aligned (Lawful)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Strongly Lawful Aligned Plane.  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA,STAT.INT,STAT.WIS|-2|TYPE=Circumstance|!PREALIGN:LG,LN,LE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:CG,CN,CE
 Mildly Aligned (Neutral)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Mildly Neutral Aligned Plane  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA|-2|TYPE=Circumstance|PREALIGN:LG,LE,CG,CE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LG,LE,CG,CE
 Strongly Aligned (Neutral)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Strongly Neutral Aligned Plane  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA,STAT.INT,STAT.WIS|-2|TYPE=Circumstance|!PREALIGN:LG,LE,CG,CE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LG,LE,CG,CE
+
+Thrush Familiar Language	VISIBLE:NO	SOURCEPAGE:DMG	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Speak One Language

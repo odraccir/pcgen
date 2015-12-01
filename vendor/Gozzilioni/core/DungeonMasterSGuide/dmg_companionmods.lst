@@ -2,16 +2,96 @@ SOURCELONG:Gozzilioni Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://w
 #										
 ###Block: Standard Companions										
 # Class of the Master	Type									
-										
-###Block:Fiendish Servant										
-FOLLOWER:FiendishServantLVL=5	TYPE:Fiendish Servant	HD:2	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|6	ABILITY:Special Ability|AUTOMATIC|Fiendish Servant ~ Empathic Link|Fiendish Servant ~ Improved Evasion|Fiendish Servant ~ Share Saving Throws|Fiendish Servant ~ Share Spells	AUTO:ARMORPROF|ARMORTYPE=Barding			
-FOLLOWER:FiendishServantLVL=5	TYPE:Fiendish Servant	TEMPLATE:Fiendish
-FOLLOWER:FiendishServantLVL=13	TYPE:Fiendish Servant	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|7	ABILITY:Special Ability|AUTOMATIC|Fiendish Servant ~ Speak with Blackguard				
-FOLLOWER:FiendishServantLVL=16	TYPE:Fiendish Servant	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|8	ABILITY:Special Ability|AUTOMATIC|Fiendish Servant ~ Blood Bond
-FOLLOWER:FiendishServantLVL=19	TYPE:Fiendish Servant	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|9	ABILITY:Special Ability|AUTOMATIC|Fiendish Servant ~ Spell Resistance	SR:mastervar("FiendishServantLVL")+5			
-										
+# MASTERBONUSRACE:Companion ~ Bat			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Bat
+MASTERBONUSRACE:Companion ~ Ferret			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Ferret
+MASTERBONUSRACE:Companion ~ Hedgehog			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Hedgehog
+MASTERBONUSRACE:Companion ~ Mouse			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Mouse
+MASTERBONUSRACE:Companion ~ Owl (Screech)			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Screech Owl
+# MASTERBONUSRACE:Companion ~ Toad			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Toad
+MASTERBONUSRACE:Companion ~ Thrush			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Thrush
 
+###Block:Fiendish Servant
+FOLLOWER:FiendishServantLVL=5	TYPE:FiendishServant	HD:2	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|6	ABILITY:Special Ability|AUTOMATIC|Fiendish Servant ~ Empathic Link|Fiendish Servant ~ Improved Evasion|Fiendish Servant ~ Share Saving Throws|Fiendish Servant ~ Share Spells	AUTO:ARMORPROF|ARMORTYPE=Barding			
+FOLLOWER:FiendishServantLVL=5	TYPE:FiendishServant	TEMPLATE:Fiendish
+FOLLOWER:FiendishServantLVL=13	TYPE:FiendishServant	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|7	ABILITY:Special Ability|AUTOMATIC|Fiendish Servant ~ Speak with Blackguard				
+FOLLOWER:FiendishServantLVL=16	TYPE:FiendishServant	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|8	ABILITY:Special Ability|AUTOMATIC|Fiendish Servant ~ Blood Bond
+FOLLOWER:FiendishServantLVL=19	TYPE:FiendishServant	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|9	ABILITY:Special Ability|AUTOMATIC|Fiendish Servant ~ Spell Resistance	SR:mastervar("FiendishServantLVL")+5			
+
+###Block:Undead Companion
 FOLLOWER:UndeadCompanionLVL=5	TYPE:UndeadCompanion	HD:2	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|6	ABILITY:Special Ability|AUTOMATIC|Undead Companion ~ Empathic Link|Undead Companion ~ Improved Evasion|Undead Companion ~ Share Saving Throws|Undead Companion ~ Share Spells	AUTO:ARMORPROF|ARMORTYPE=Barding			
 FOLLOWER:UndeadCompanionLVL=13	TYPE:UndeadCompanion	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|7	ABILITY:Special Ability|AUTOMATIC|Undead Companion ~ Speak with Blackguard				
 FOLLOWER:UndeadCompanionLVL=16	TYPE:UndeadCompanion	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|8	ABILITY:Special Ability|AUTOMATIC|Undead Companion ~ Blood Bond
 FOLLOWER:UndeadCompanionLVL=19	TYPE:UndeadCompanion	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|9	ABILITY:Special Ability|AUTOMATIC|Undead Companion ~ Spell Resistance	SR:mastervar("UndeadCompanionLVL")+5			
+
+###Block:Shadow
+FOLLOWER:ShadowLVL=3	TYPE:Shadow	HD:2
+FOLLOWER:ShadowLVL=6	TYPE:Shadow	HD:2
+FOLLOWER:ShadowLVL=9	TYPE:Shadow	HD:2
+
+#Leadership
+FOLLOWER:LeadershipScore=1	TYPE:Cohort
+FOLLOWER:LeadershipScore=1	TYPE:Follower LVL 1
+FOLLOWER:LeadershipScore=1	TYPE:Follower LVL 2
+FOLLOWER:LeadershipScore=1	TYPE:Follower LVL 3
+FOLLOWER:LeadershipScore=1	TYPE:Follower LVL 4
+FOLLOWER:LeadershipScore=1	TYPE:Follower LVL 5
+FOLLOWER:LeadershipScore=1	TYPE:Follower LVL 6
+
+FOLLOWER:SpecialMountLVL=25	TYPE:Special Mount	HD:2	BONUS:COMBAT|AC|2*((20-mastervar("SpecialMountLVL"))/5)|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|(20-mastervar("SpecialMountLVL"))/5	DEFINESTAT:MINVALUE|INT|9+((20-mastervar("SpecialMountLVL"))/5)
+FOLLOWER:SpecialMountLVL=30	TYPE:Special Mount	HD:2	
+FOLLOWER:SpecialMountLVL=35	TYPE:Special Mount	HD:2	
+FOLLOWER:SpecialMountLVL=40	TYPE:Special Mount	HD:2	
+FOLLOWER:SpecialMountLVL=45	TYPE:Special Mount	HD:2	
+FOLLOWER:SpecialMountLVL=50	TYPE:Special Mount	HD:2	
+FOLLOWER:SpecialMountLVL=55	TYPE:Special Mount	HD:2	
+FOLLOWER:SpecialMountLVL=60	TYPE:Special Mount	HD:2	
+FOLLOWER:SpecialMountLVL=65	TYPE:Special Mount	HD:2	
+FOLLOWER:SpecialMountLVL=70	TYPE:Special Mount	HD:2	
+FOLLOWER:SpecialMountLVL=75	TYPE:Special Mount	HD:2	
+FOLLOWER:SpecialMountLVL=80	TYPE:Special Mount	HD:2	
+FOLLOWER:SpecialMountLVL=85	TYPE:Special Mount	HD:2	
+FOLLOWER:SpecialMountLVL=90	TYPE:Special Mount	HD:2	
+FOLLOWER:SpecialMountLVL=95	TYPE:Special Mount	HD:2	
+FOLLOWER:SpecialMountLVL=100	TYPE:Special Mount	HD:2
+
+FOLLOWER:FamiliarLVL=21	TYPE:Familiar	BONUS:ABILITYPOOL|Familiar Spell Choice|(mastervar("FamiliarLVL")-11)/10
+FOLLOWER:FamiliarLVL=22	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=24	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=26	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=28	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=30	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=32	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=34	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=36	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=38	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=40	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=42	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=44	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=46	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=48	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=50	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=52	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=54	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=56	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=58	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=60	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=62	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=64	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=66	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=68	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=70	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=72	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=74	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=76	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=78	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=80	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=82	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=84	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=86	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=88	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=90	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=92	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=94	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=96	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=98	TYPE:Familiar	HD:2
+FOLLOWER:FamiliarLVL=100	TYPE:Familiar	HD:2

@@ -4,7 +4,7 @@ SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.goz
 # Class of the Master	Type									
 FOLLOWER:NormalMount=1	TYPE:Mount									
 FOLLOWER:NormalFollower=1	TYPE:Follower									
-FOLLOWER:LeadershipScore=1	TYPE:Cohort									
+
 										
 ###Block:Special Mount										
 FOLLOWER:SpecialMountLVL=5	TYPE:Special Mount	HD:2	BONUS:COMBAT|AC|4|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|6	ABILITY:Special Ability|AUTOMATIC|Special Mount ~ Empathic Link|Special Mount ~ Improved Evasion|Special Mount ~ Share Saving Throws|Special Mount ~ Share Spells	AUTO:ARMORPROF|ARMORTYPE=Barding			

@@ -1,0 +1,21 @@
+SOURCELONG:Gozzilioni Core Ruleset	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
+																																																	
+###Block: Epic Feat Great Smiting
+Smite	CATEGORY:Special Ability	TYPE:GreatSmite	VISIBLE:YES		KEY:Great Smite ~ Smite	PREABILITY:1,CATEGORY=Special Ability,Smite	BONUS:VAR|SmiteDamage|SmiteLVL	SOURCEPAGE:DMG
+Smite Evil	CATEGORY:Special Ability	TYPE:GreatSmite	VISIBLE:YES		KEY:Great Smite ~ Smite Evil	PREABILITY:1,CATEGORY=Special Ability,Smite Evil	BONUS:VAR|SmiteEvilDamage|SmiteEvilLVL	SOURCEPAGE:DMG
+Smite Good	CATEGORY:Special Ability	TYPE:GreatSmite	VISIBLE:YES		KEY:Great Smite ~ Smite Good	PREABILITY:1,CATEGORY=Special Ability,Smite Good	BONUS:VAR|SmiteGoodDamage|SmiteGoodLVL	SOURCEPAGE:DMG
+
+###Block: Abilityes DC linked to ability focus
+# Epic DC: base class progress normally																																				
+# Epic DC: prestige class progress halved after 10 level	BONUS:VAR|{ability}LVL|min({class}LVL,10)+max(({class}-10)/2,0)|TYPE=Level
+Death Attack	CATEGORY:Special Ability	TYPE:SharedAbility	VISIBLE:DISPLAY			DEFINE:DeathAttackDC|0	DEFINE:DeathAttackLVL|0	BONUS:VAR|DeathAttackDC|10+INT|TYPE=Base	BONUS:VAR|DeathAttackDC|min(DeatAttackLVL,10)+max((DeatAttackLVL-10)/2,0)|TYPE=Level	BONUS:VAR|DeathAttackDC|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Death Attack)																									SOURCEPAGE:DMG
+Breath Weapon	CATEGORY:Special Ability	TYPE:SharedAbility	VISIBLE:DISPLAY			DEFINE:BreathWeaponDC|0	DEFINE:BreathWeaponLVL|0	BONUS:VAR|BreathWeaponDC|10+CON|TYPE=Base	BONUS:VAR|BreathWeaponDC|min(BreathWeaponLVL,10)+max((BreathWeaponLVL-10)/2,0)|TYPE=Level	BONUS:VAR|BreathWeaponDC|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Breath Weapon)																									SOURCEPAGE:DMG
+
+# Ability Focus ability pool																																				
+#	Breath Weapon|Charming Gaze|Constrict|Corrupting Gaze|Corrupting Touch|Crush|Death Gaze|Draining Touch|Fists|Frightful Moan|Frightful Presence|Gaze|Horrific Appearance|Improved Grab|Keening																																			
+#	Malevolence|Paralysis|Paralyzing Touch|Poison|Pounce|Rake|Ray|Roar|Seduction|Soul Portal|Sound Imitation|Stench|Swallow Whole|Tail Sweep|Telekinesis|Trample																																			
+###TODO: Ability Focus for Spell-Like Abilities that are Special Attack.
+# Basic																																				
+Quivering Palm	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:PHB
+Death Attack	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:DMG
+Breath Weapon	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:DMG

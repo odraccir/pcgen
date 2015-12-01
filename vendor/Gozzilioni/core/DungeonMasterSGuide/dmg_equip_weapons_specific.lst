@@ -1,0 +1,66 @@
+SOURCELONG:Gozzilioni Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																								
+#																											
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:					
+# Simple Weapons																											
+## Unarmed																											
+																											
+## Light																											
+Demon Armor Claw Attack			PROFICIENCY:WEAPON|Unarmed Strike	TYPE:Weapon.Melee.Simple.Piercing.Slashing.Unarmed	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS1W	SOURCEPAGE:DMG													
+Adamantine Dagger			PROFICIENCY:WEAPON|Dagger	TYPE:Weapon.Melee.Ranged.Simple.Piercing.Slashing.Light.Dagger	COST:2	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:ADAMANT_W	SOURCEPAGE:DMG	SPROP:3002						RANGE:10						
+Assassin's Dagger			PROFICIENCY:WEAPON|Dagger	TYPE:Enhancement.Weapon.Melee.Ranged.Simple.Piercing.Slashing.Light.Dagger	COST:18302	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS2W	SOURCEPAGE:DMG	SPROP:+1 DC Assassin's Death Attack.						RANGE:10	BONUS:DeathAttackDC|1					
+Dagger of Venom			PROFICIENCY:WEAPON|Dagger	TYPE:Enhancement.Weapon.Melee.Ranged.Simple.Piercing.Slashing.Light.Dagger	COST:8302	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:DMG	SPROP:Poison DC 14.						RANGE:10						
+Luck Blade			PROFICIENCY:WEAPON|Sword (Short)	TYPE:Enhancement.Weapon.Melee.Martial.Piercing.Light.Sword	COST:142960	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS2W.CHARGED_ITEM_3|CHARGES[3]	SOURCEPAGE:DMG								BONUS:SAVE|ALL|1|TYPE=Luck					
+Silver Masterwork Dagger			PROFICIENCY:WEAPON|Dagger	TYPE:Weapon.Melee.Ranged.Simple.Piercing.Slashing.Light.Dagger	COST:2	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:ALC_SILVER_W	SOURCEPAGE:DMG	SPROP:322						RANGE:10						
+Sword of Subtlety			PROFICIENCY:WEAPON|Sword (Short)	TYPE:Enhancement.Weapon.Melee.Martial.Piercing.Light.Sword	COST:22310	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:DMG	SPROP:+4 to hit and damage if wielder is making a sneak attack.												
+																											
+## OneHanded																											
+Mace of Smithing			PROFICIENCY:WEAPON|Mace (Heavy)	TYPE:Enhancement.Weapon.Melee.Simple.Bludgeoning.OneHanded.Mace	COST:75312	WT:8	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:ADAMANT_W.EQ_COST_ADJ.PLUS3W	SOURCEPAGE:DMG	SPROP:+5 Enhancement bonus on tohit and damage against Constructs, and any critical hit dealt to a construct completely destroys it (no saving throw). A critical hit dealt to an outsider deals x4 damage rather than x2.												
+Mace of Terror			PROFICIENCY:WEAPON|Mace (Heavy)	TYPE:Enhancement.Weapon.Melee.Simple.Bludgeoning.OneHanded.Mace	COST:38552	WT:8	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ.PLUS2W	SOURCEPAGE:DMG	SPROP:Create a 30 feet cone terrifying aura, as spell 3/day.												
+																											
+## TwoHanded																											
+																											
+## Ranged																											
+																											
+# Martial Weapons																											
+## Light																											
+																											
+## OneHanded																											
+Adamantine Battleaxe			PROFICIENCY:WEAPON|Battleaxe	TYPE:Weapon.Melee.Martial.Slashing.OneHanded.Axe	COST:10	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:ADAMANT_W	SOURCEPAGE:DMG	SPROP:3010gp.												
+Dwarven Thrower			PROFICIENCY:WEAPON|Warhammer	TYPE:Enhancement.Weapon.Melee.Martial.Bludgeoning.OneHanded.Hammer	COST:60312	WT:5	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:DMG	SPROP:Can be thrown and gains the returning special ability in the hands of a Dwarf, deals an extra 1d8 damage when hurled or an extra 2d8 against giants|PRERACE:1,Dwarf							SPROP:Cannot be thrown except in the hands of a Dwarf	BONUS:WEAPON|DAMAGE,TOHIT|3|TYPE=Enhancement|PRERACE:1,Dwarf	BONUS:WEAPON|DAMAGE,TOHIT|2|TYPE=Enhancement			
+Flame Tongue			PROFICIENCY:WEAPON|Longsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.OneHanded.Sword	COST:20715	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W.FLM_BURST_M	SOURCEPAGE:DMG	SPROP:Range touch attack ray inflicts 4d6 of fire damage on hit 1/day (30 ft. limit)												
+Holy Avenger			PROFICIENCY:WEAPON|Longsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.OneHanded.Sword	COST:120630	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:COLDIRON_W.EQ_COST_ADJ_W.PLUS2W	SOURCEPAGE:DMG	SPROP:Good-aligned, +2d6 Good damage vs. evil, 1 negative level bestowed to evil wielder.|PRECLASS:1,Paladin=1								BONUS:WEAPON|DAMAGE,TOHIT|5|TYPE=Enhancement|PRECLASS:1,Paladin=1	BONUS:VAR|NegativeLevels|1|PREALIGN:LE,NE,CE	SR:PaladinLVL+5	SPELLS:Holy Avenger|TIMES=ATWILL|CASTERLEVEL=PaladinLVL|Dispel Magic (Greater),19|PRECLASS:1,Paladin=1	SPROP:Spell resistance on wielder and anyone adjacent (5 + paladin's level)|PRECLASS:1,Paladin=1
+Masterwork Cold Iron Longsword			PROFICIENCY:WEAPON|Longsword	TYPE:Weapon.Melee.Martial.Slashing.OneHanded.Sword	COST:15	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:COLDIRON_W.MWORKW	SOURCEPAGE:DMG	SPROP:330gp.												
+Nine Lives Stealer			PROFICIENCY:WEAPON|Longsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.OneHanded.Sword	COST:23057	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS2W.CHARGED_ITEM_9|CHARGES[9]	SOURCEPAGE:DMG	SPROP:Draws lifeforce on opponent when critical hits, (DC 20 or dead), 2 negative energy levels on wielder if not evil												
+Rapier of Puncturing			PROFICIENCY:WEAPON|Rapier	TYPE:Enhancement.Weapon.Melee.Martial.Piercing.OneHanded.Rapier	COST:50320	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS2W.WOUND	SOURCEPAGE:DMG	SPROP:Allows the wielder to make a touch attack that deals 1d6 of Constitution damage.								BONUS:WEAPON|DAMAGEMULT:2|-0.5				
+Shatterspike			PROFICIENCY:WEAPON|Longsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.OneHanded.Sword	COST:4315	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:DMG	SPROP:Can damage weapons with an enhancement bonus of +4 and lower.								SPROP:+4 bonus on opposed roll when striking foe's weapon|PREABILITY:1,CATEGORY=FEAT,Improved Sunder				
+Sword of Life Stealing			PROFICIENCY:WEAPON|Longsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.OneHanded.Sword	COST:25715	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS2W	SOURCEPAGE:DMG	SPROP:Bestows 1 negative level (DC 16 or permanent) when critical hits, and wielder gain 1d6 temporary HP.												
+Sword of the Planes			PROFICIENCY:WEAPON|Longsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.OneHanded.Sword	COST:25715	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:DMG	SPROP:+2 against elementals or in the elemental plane, +3 in the astral plane or ethereal plane or against creatures from there, +4 against outsiders or other planes												
+Sylvan Scimitar			PROFICIENCY:WEAPON|Scimitar	TYPE:Enhancement.Weapon.Melee.Martial.Piercing.OneHanded.Scimitar	COST:23657	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS3W	SOURCEPAGE:DMG	SPROP:When outdoors grants wielder Cleave feat and deals 1d6 additional damage												
+Trident of Fish Command			PROFICIENCY:WEAPON|Trident	TYPE:Enhancement.Weapon.Melee.Ranged.Thrown.Martial.Piercing.OneHanded.Trident	COST:18650	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.WOOD.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:DMG	SPROP:3/day charm up to 14 HD of aquatic animals (Will DC 16 negates, animals get a +5 bonus if currently under attack by the wielder or his allies), no two of which can be more than 30 feet apart. 						RANGE:10		SPELLS:Trident of Fish Command|TIMES=3|CASTERLEVEL=7|Speak with Animals				
+Trident of Warning			PROFICIENCY:WEAPON|Trident	TYPE:Enhancement.Weapon.Melee.Ranged.Thrown.Martial.Piercing.OneHanded.Trident	COST:10115	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.WOOD.EQ_COST_ADJ_W.PLUS2W	SOURCEPAGE:DMG	SPROP:Enables the wielder to determine location, depth, kind and number of aquatic predators within 680 feet.						RANGE:10						
+																											
+## TwoHanded																											
+Frost Brand			PROFICIENCY:WEAPON|Greatsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.TwoHanded.Sword	COST:54475	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.LGHT_EMIT_TORCH.EQ_COST_ADJ_W.PLUS3W.FROST_M	SOURCEPAGE:DMG	SPROP:Absorbs first 10 pts of fire damage on wielder each round, extinguish normal fires and may dispel some fire spells.								QUALITY:Duration|below 0°F				
+Life Drinker			PROFICIENCY:WEAPON|Greataxe	TYPE:Weapon.Melee.Martial.Slashing.TwoHanded.Axe	COST:40320	WT:12	WIELD:TwoHanded		SIZE:M	DAMAGE:1d12	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:DMG	SPROP:Bestows 2 negative energy levels when deals damage, and 1 negative energy level on wielder.												
+																											
+## Ranged																											
+Javelin of Lighning			PROFICIENCY:WEAPON|Javelin	TYPE:Enhancement.Weapon.Ranged.Thrown.Simple.Piercing.Javelin	COST:1500	WT:2			SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:DMG	SPROP:Becomes a 5d6 Lightning Bolt when thrown.						RANGE:30						
+Oathbow			PROFICIENCY:WEAPON|Longbow	TYPE:Enhancement.Weapon.Ranged.Martial.Piercing.Bow.Longbow.Composite.Container	COST:25600	WT:3	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS2W.BOWSTR|2	SOURCEPAGE:DMG	SPROP:+5 against a sworn enemy and deals 2d6 add damage, critical X4						RANGE:110		CONTAINS:UNLIM|Arrow|SpecificArrow	BONUS:WEAPON|DAMAGE|min(STR,0)			
+																											
+# Exotic Weapons																											
+## Light																											
+																											
+## OneHanded																											
+Sunblade		KEY:Sunblade (Bastard)	PROFICIENCY:WEAPON|Sword (Bastard)	TYPE:Enhancement.Weapon.Melee.Exotic.Slashing.OneHanded.Sword	COST:50335	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS2W	SOURCEPAGE:DMG									BONUS:WEAPON|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Sword (Bastard))|PRESTAT:1,STR=13	BONUS:VAR|NegativeLevels|1|PREALIGN:LE,NE,CE			
+Sunblade		KEY:Sunblade (Short)	PROFICIENCY:WEAPON|Sword (Short)	TYPE:Enhancement.Weapon.Melee.Exotic.Slashing.OneHanded.Sword	COST:50335	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS2W	SOURCEPAGE:DMG									BONUS:WEAPON|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Sword (Bastard))|PRESTAT:1,STR=13	BONUS:VAR|NegativeLevels|1|PREALIGN:LE,NE,CE			
+																		EQ_COST_ADJ_W.PLUS1W									
+## TwoHanded																											
+Shifter's Sorrow			PROFICIENCY:WEAPON|Sword (Two-Bladed)	TYPE:Enhancement.Weapon.Melee.Exotic.Slashing.TwoHanded.Sword	COST:12780	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:ALC_SILVER_W	SOURCEPAGE:DMG	SPROP:+2d6 extra damage vs. creature with shapechange subtype. Shapechanced target is forced to its natural form (Will DC 15 to resist).	ALTTYPE:Weapon.Melee.Slashing	ALTDAMAGE:1d8	ALTCRITRANGE:2	ALTCRITMULT:x2	ALTEQMOD:ALC_SILVER_W							
+																											
+## Ranged																											
+																											
+# Arrows																											
+Screaming Bolt				TYPE:Ammunition.Specific.SpecificBolt	COST:267	WT:0.1							EQMOD:STEEL.WOOD.EQ_COST_ADJ_W.PLUS2W	SOURCEPAGE:DMG	SPROP:creatures within 20-ft of the path of the bolt must succeed Will DC 14 or become Shaken.												
+Slaying Arrow				TYPE:Ammunition.Specific.SpecificArrow.SlayingArrowTarget	COST:2282	WT:0.15							EQMOD:STEEL.WOOD.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:DMG	SPROP:fortitude save (DC 20) or dies (or be destroyed) instantly when hit.								MODS:YES				
+Slaying Arrow (Greater)	OUTPUTNAME:Slaying Arrow, Greater			TYPE:Ammunition.Specific.SpecificArrow.SlayingArrowTarget	COST:4057	WT:0.15							EQMOD:STEEL.WOOD.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:DMG	SPROP:fortitude save (DC 23) or dies (or be destroyed) instantly when hit.								MODS:YES				
+Sleep Arrow				TYPE:Ammunition.Specific.SpecificArrow	COST:132	WT:0.15							EQMOD:STEEL.WOOD.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:DMG	SPROP:nonlethal damage. Will save (DC 11) or fall asleep instantly when hit.												

@@ -19,6 +19,12 @@ ABILITYCATEGORY:Duelist Class Feature	CATEGORY:Special Ability	TYPE:DuelistClass
 ABILITYCATEGORY:Dwarven Defender Class Feature	CATEGORY:Special Ability	TYPE:DwarvenDefenderClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dwarven Defender Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Eldritch Knight Class Feature	CATEGORY:Special Ability	TYPE:EldritchKnightClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Eldritch Knight Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Hierophant Class Feature	CATEGORY:Special Ability	TYPE:HierophantClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Hierophant Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Horizon Walker Class Feature	CATEGORY:Special Ability	TYPE:HorizonWalkerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Horizon Walker Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Loremaster Class Feature	CATEGORY:Special Ability	TYPE:LoremasterClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Loremaster Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Mystic Theurge Class Feature	CATEGORY:Special Ability	TYPE:MysticTheurgeClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Mystic Theurge Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Red Wizard Class Feature	CATEGORY:Special Ability	TYPE:RedWizardClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Red Wizard Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Shadowdancer Class Feature	CATEGORY:Special Ability	TYPE:ShadowdancerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Shadowdancer Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Thaumaturgist Class Feature	CATEGORY:Special Ability	TYPE:ThaumaturgistClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Thaumaturgist Class Features			DISPLAYLOCATION:Class Features
 
 ABILITYCATEGORY:Fiendish Servant Class Feature	CATEGORY:Special Ability	TYPE:FiendishServantClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Fiendish Servant Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Undead Companion Class Feature	CATEGORY:Special Ability	TYPE:UndeadCompanionClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Undead Companion Class Features			DISPLAYLOCATION:Class Features
@@ -29,15 +35,31 @@ ABILITYCATEGORY:Class Skill	CATEGORY:Special Ability	TYPE:ClassSkill	VISIBLE:QUA
 ABILITYCATEGORY:High Arcana	CATEGORY:Special Ability	TYPE:HighArcana	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:High Arcanas			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Bonus Spell	CATEGORY:Special Ability	TYPE:BonusSpell	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Bonus Spells			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Hierophant Special Ability	CATEGORY:Special Ability	TYPE:HierophantSpecialAbility	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Hierophant Special Abilities			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Terrain Mastery	CATEGORY:Special Ability	TYPE:TerrainMastery	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Terrain Masteries			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Planar Terrain Mastery	CATEGORY:Special Ability	TYPE:TerrainMastery.PlanarTerrainMastery	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Planar Terrain Masteries			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Secret	CATEGORY:Special Ability	TYPE:Secret	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Secrets			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Red Wizard Prohibited School	CATEGORY:Special Ability	TYPE:RedWizardProhibitSchool	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Red Wizard Prohibited Schools			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Red Wizard Feat	CATEGORY:FEAT	TYPE:Metamagic.ItemCreation.RedWizard	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Red Wizard Feats			DISPLAYLOCATION:Feats
+
+ABILITYCATEGORY:Turn Outsider	CATEGORY:Special Ability	TYPE:TurnOutsider.RebukeOutsider	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Turn Outsider			DISPLAYLOCATION:Class Features
+
 
 #Feats Ability pools
+ABILITYCATEGORY:Metamagic Feat	CATEGORY:FEAT	TYPE:Metamagic	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Metamagic Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Epic Feat	CATEGORY:FEAT	TYPE:Epic	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Epic Feats			DISPLAYLOCATION:Feats
 
 #Companion Support
 ABILITYCATEGORY:Fiendish Servant Selection	CATEGORY:Internal	TYPE:FiendishServantSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Fiendish Servant Choice			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Undead Companion Selection	CATEGORY:Internal	TYPE:UndeadCompanionSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Undead Companion Choice			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Shadow Selection	CATEGORY:Internal	TYPE:ShadowSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Shadow Choice			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Leadership Cohort Selection	CATEGORY:Internal	TYPE:LeadershipCohortSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Leadership Cohort Choice			DISPLAYLOCATION:Class Features
+
+ABILITYCATEGORY:Familiar Spell Choice	CATEGORY:Special Ability	TYPE:FamiliarSpell	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Familiar Spell Choices			DISPLAYLOCATION:Feats
 
 #other
 ABILITYCATEGORY:Spell-Like Ability Selection	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability									ABILITYLIST:Spell-Like Ability Selection												DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Hierophant Align	CATEGORY:Special Ability	TYPE:Hierophant Align	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Hierophant Alignments			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Great Smiting	CATEGORY:Special Ability	TYPE:GreatSmiting	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Great Smitings			DISPLAYLOCATION:Feats
 
 #
 # End

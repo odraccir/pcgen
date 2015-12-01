@@ -1,5 +1,6 @@
 .~lock.*
 *.bak
+*.jar
 *.log
 *.lck
 *.properties

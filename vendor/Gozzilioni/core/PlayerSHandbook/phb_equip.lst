@@ -75,7 +75,7 @@ Block and Tackle		TYPE:Goods.General	COST:5	WT:5	SOURCEPAGE:PHB
 Bottle (Glass/Wine)	OUTPUTNAME:Bottle, Wine, Glass	TYPE:Goods.General.Container	COST:2		SOURCEPAGE:PHB	CONTAINS:1.5|Liquid=3			
 Bucket		TYPE:Goods.General.Container	COST:0.5	WT:2	SOURCEPAGE:PHB	CONTAINS:UNLIM|Any			
 Caltrops		TYPE:Goods.General	COST:1	WT:2	SOURCEPAGE:PHB				
-Candle		TYPE:Goods.General.Consumable.LightSource	COST:0.01	WT:0	SOURCEPAGE:PHB			QUALITY:Shadowy Illumination|5 ft.	QUALITY:Duration|1 hr.
+Candle		TYPE:Goods.General.Consumable.Candle.LightSource	COST:0.01	WT:0	SOURCEPAGE:PHB			QUALITY:Shadowy Illumination|5 ft.	QUALITY:Duration|1 hr.
 Canvas (Sq. Yd.)		TYPE:Goods.General	COST:0.1	WT:1	SOURCEPAGE:PHB				
 Case (Map or Scroll)	OUTPUTNAME:Case, Map or Scroll	TYPE:Goods.General.Container	COST:1	WT:0.5	SOURCEPAGE:PHB	CONTAINS:UNLIM|Total=10|Paper=10|Documents=10|Scroll=10			
 Chain (10 Ft.)		TYPE:Goods.General	COST:30	WT:2	SOURCEPAGE:PHB				

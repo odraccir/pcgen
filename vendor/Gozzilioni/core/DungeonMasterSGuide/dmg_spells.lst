@@ -1,6 +1,25 @@
 SOURCELONG:Gozzilioni Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #																								
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:|!PRERULE:1,DisplayFullSpell	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	Desc	Bonus	Bonus
+Mirror Image.COPY=Shadow Image	SOURCEPAGE:Unknown
+#
+Summon Monster I.COPY=Summon Monster I	KEY:Blackguard ~ Summon Monster I	OUTPUTNAME:Summon Monster I	DESCRIPTOR:.CLEAR	DESCRIPTOR:Evil	DESC:Cast as an Evil spell only.	SOURCEPAGE:DMG
+###TODO:Stoneskin ~ Self only.MOD	CLASS:.CLEARALL
+Silent Image.COPY=Silent Image	KEY:Shadowdancer ~ Silent Image
+Shadowdancer ~ Silent Image.MOD	OUTPUTNAME:Shadow Illusion	TYPE:SpellLike	DESC:Create visual illusions from surrounding shadows.	SOURCEPAGE:DMG
+###TODO:Resist Energy ~ Electricity.MOD	CLASS:.CLEARALL
+Resist Energy.COPY=Resist Energy	KEY:Resist Energy ~ Electricity
+Resist Energy ~ Electricity.MOD	TYPE:SpellLike	DESC:Electricity Only.	SOURCEPAGE:DMG
+###TODO:Resist Energy ~ Fire.MOD	CLASS:.CLEARALL
+Resist Energy.COPY=Resist Energy	KEY:Resist Energy ~ Fire
+Resist Energy ~ Fire.MOD	TYPE:SpellLike	DESC:Fire Only.	SOURCEPAGE:DMG
+###TODO:Air Walk ~ Self only	CLASS:.CLEARALL
+Air Walk.COPY=Air Walk (Self only)	KEY:Air Walk ~ Self only
+Air Walk ~ Self only.MOD	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only.	SOURCEPAGE:DMG
+###TODO:Stoneskin ~ Self only.MOD	CLASS:.CLEARALL
+Stoneskin.COPY=Stoneskin (Self only)	KEY:Stoneskin ~ Self only
+Stoneskin ~ Self only.MOD	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only.	SOURCEPAGE:DMG
+#
 Create Water.MOD	CLASSES:Adept=0																							
 Cure Minor Wounds.MOD	CLASSES:Adept=0																							
 Detect Magic.MOD	CLASSES:Adept=0																							
@@ -207,6 +226,4 @@ Invisibility (Greater).MOD	CLASSES:Assassin=4
 Locate Creature.MOD	CLASSES:Assassin=4
 Modify Memory.MOD	CLASSES:Assassin=4
 Poison.MOD	CLASSES:Assassin=4
-
-Summon Monster I.COPY=Summon Monster I	KEY:Blackguard ~ Summon Monster I																																					
-Blackguard ~ Summon Monster I.MOD	OUTPUTNAME:Summon Monster I	DESCRIPTOR:.CLEAR	DESCRIPTOR:Evil	DESC:Cast as an Evil spell only.																																		
+#
