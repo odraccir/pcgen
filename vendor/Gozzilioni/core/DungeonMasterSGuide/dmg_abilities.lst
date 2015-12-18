@@ -1,6 +1,10 @@
 SOURCELONG:Gozzilioni Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																															
 																																		
 # Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page		
+CATEGORY=Internal|Default.MOD	DEFINE:ArtifactHandOfVecna|0	DEFINE:ArtifactEyeOfVecna|0	ABILITY:Special Ability|AUTOMATIC|Artifact ~ Hand and Eye of Vecna|PREVARGTEQ:ArtifactHandOfVecna,1,ArtifactEyeOfVecna,1
+Hand and Eye of Vecna	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:YES		KEY:Artifact ~ Hand and Eye of Vecna	BONUS:STAT|STR|2	BONUS:STAT|INT|2	BONUS:STAT|WIS|-2	SPELLS:Hand and Eye of Vecna|TIMES=1|CASTERLEVEL=20|Summon Monster IX ~ Evil only
+
+
 ###Block: Flight Maneuverability																																		
 Flight Maneuverability	CATEGORY:Special Ability	VISIBLE:NO	DEFINE:Maneuverability|0	ABILITY:Special Ability|AUTOMATIC|Maneuverability(Clumsy)|PREVARLTEQ:Maneuverability,1	ABILITY:Special Ability|AUTOMATIC|Maneuverability(Poor)|PREVAREQ:Maneuverability,2	ABILITY:Special Ability|AUTOMATIC|Maneuverability(Average)|PREVAREQ:Maneuverability,3	ABILITY:Special Ability|AUTOMATIC|Maneuverability(Good)|PREVAREQ:Maneuverability,4	ABILITY:Special Ability|AUTOMATIC|Maneuverability(Perfect)|PREVARGTEQ:Maneuverability,5	TEMPVALUE:MIN=-4|MAX=4|TITLE=Flight Maneuverability Adjustment	TEMPDESC:Adjust Flight Maneuverability up or down by assigning a possitive or negative number	TEMPBONUS:PC|VAR|Maneuverability|%CHOICE																							
 																																		
@@ -98,3 +102,23 @@ Manual of Quickness of Action +2	TYPE:GM_Award.SpecialQuality	CATEGORY:Special A
 Manual of Quickness of Action +3	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|DEX|3|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +3 DEX.
 Manual of Quickness of Action +4	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|DEX|4|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +4 DEX.
 Manual of Quickness of Action +5	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|DEX|5|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +5 DEX.
+Tome of Clear Thought +1	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|INT|1|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +1 INT.
+Tome of Clear Thought +2	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|INT|2|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +2 INT.
+Tome of Clear Thought +3	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|INT|3|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +3 INT.
+Tome of Clear Thought +4	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|INT|4|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +4 INT.
+Tome of Clear Thought +5	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|INT|5|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +5 INT.
+Tome of Leadership and Influence +1	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|CHA|1|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +1 CHA.
+Tome of Leadership and Influence +2	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|CHA|2|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +2 CHA.
+Tome of Leadership and Influence +3	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|CHA|3|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +3 CHA.
+Tome of Leadership and Influence +4	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|CHA|4|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +4 CHA.
+Tome of Leadership and Influence +5	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|CHA|5|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +5 CHA.
+Tome of Understanding +1	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|WIS|1|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +1 WIS.
+Tome of Understanding +2	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|WIS|2|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +2 WIS.
+Tome of Understanding +3	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|WIS|3|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +3 WIS.
+Tome of Understanding +4	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|WIS|4|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +4 WIS.
+Tome of Understanding +5	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|WIS|5|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +5 WIS.
+Boook of Exalted Deeds	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|WIS|1|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +1 WIS.	PREALIGN:LG,NG,CG
+Boook of Vile Darkness	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|WIS|1|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +1 WIS.	PREALIGN:LE,NE,CE
+
+Incense of Meditation ~ Maximize Spells	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	DESC:Incense of Meditation maximize spells.	ADDSPELLLEVEL:0
+

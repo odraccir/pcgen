@@ -123,8 +123,8 @@ Pot (Iron)		TYPE:Goods.General.Container	COST:0.5	WT:10	SOURCEPAGE:PHB	CONTAINS:
 Pouch (Belt)		TYPE:Goods.General.Container.Resizable	COST:1	WT:0.5	SOURCEPAGE:PHB	CONTAINS:UNLIM|Any			
 Ram (Portable)		TYPE:Goods.General	COST:10	WT:20	SOURCEPAGE:PHB				
 Rations (Trail/Per Day)		TYPE:Goods.Food.Resizable.Consumable	COST:0.5	WT:1	SOURCEPAGE:PHB				
-Rope (Hempen/50 Ft.)		TYPE:Goods.General	COST:1	WT:10	SOURCEPAGE:PHB				
-Rope (Silk/50 Ft.)		TYPE:Goods.General	COST:10	WT:5	SOURCEPAGE:PHB	BONUS:SKILL|Use Rope|2|TYPE=Circumstance			
+Rope (Hempen/50 Ft.)		TYPE:Goods.General.Rope	COST:1	WT:10	SOURCEPAGE:PHB				
+Rope (Silk/50 Ft.)		TYPE:Goods.General.Rope	COST:10	WT:5	SOURCEPAGE:PHB	BONUS:SKILL|Use Rope|2|TYPE=Circumstance			
 Sack		TYPE:Goods.General.Container.Resizable	COST:0.1	WT:0.5	SOURCEPAGE:PHB	CONTAINS:UNLIM|Any			
 Sealing Wax		TYPE:Goods.General.Writing	COST:1	WT:1	SOURCEPAGE:PHB				
 Sewing Needle		TYPE:Goods.General	COST:0.5		SOURCEPAGE:PHB				

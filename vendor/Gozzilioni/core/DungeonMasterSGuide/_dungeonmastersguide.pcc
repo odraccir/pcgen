@@ -27,11 +27,13 @@ EQUIPMENT:dmg_equip.lst
 EQUIPMENT:dmg_equip_armors_specific.lst
 EQUIPMENT:dmg_equip_magic_items.lst
 EQUIPMENT:dmg_equip_weapons.lst
+EQUIPMENT:dmg_equip_weapons_specific.lst
 ABILITY:dmg_feats.lst
 KIT:dmg_kits.lst
 WEAPONPROF:dmg_profs_weapon.lst
 SKILL:dmg_skills.lst
 SPELL:dmg_spells.lst
+SPELL:dmg_spells_classes.lst
 TEMPLATE:dmg_templates.lst
 
 #

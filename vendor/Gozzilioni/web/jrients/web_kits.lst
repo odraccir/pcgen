@@ -1,0 +1,74 @@
+SOURCELONG:J. Rients' Blog	SOURCESHORT:WEB_Jri	SOURCEWEB:http://jrients.blogspot.it	SOURCEDATE:2004-07
+
+STARTPACK:Table - Books about spells	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Book (Idioms and Rare Cryptographs)	OPTION:01,02
+GEAR:Book (Legendry of Phantoms and Ghosts)	OPTION:03
+GEAR:Book (Lore of Subtle Communication)	OPTION:04
+GEAR:Book (Ancient Cryptomancy)	OPTION:05,06
+GEAR:Book (Extreme Powers of Observation)	OPTION:07,08
+GEAR:Book (Eyes, Vision and Arcane Sight)	OPTION:09
+GEAR:Book (Theories on Perception)	OPTION:10
+GEAR:Book (Manual of Powers Beyond Life)	OPTION:11,12
+GEAR:Book (The Seven Skies of the Universe)	OPTION:13
+GEAR:Book (The Forgotten Arts of Oratory Magnetism)	OPTION:14,15
+GEAR:Book (Theory of the Invisible Forces)	OPTION:16
+GEAR:Book (Displacements and Modelling)	OPTION:17,18
+GEAR:Book (Creation and Modification of Matter)	OPTION:19
+GEAR:Book (Influence on Solid Corpus)	OPTION:20,21
+GEAR:Book (Subconsciuos Repercussions of Pyromancy)	OPTION:22
+GEAR:Book (Dissimulation and Obscuration)	OPTION:23,24
+GEAR:Book (Life of Nature, Its Secrets)	OPTION:25,26
+GEAR:Book (Alteration of Tangibles and Intangibles)	OPTION:27
+GEAR:Book (Encyclopedia of the Non-Substance)	OPTION:28
+GEAR:Book (Components and Reaction of the Phosphorus)	OPTION:29,30
+GEAR:Book (Legendry of Graeat Arms andFablulous Heroes)	OPTION:31
+GEAR:Book (Sulphur, Influence and Actions)	OPTION:32
+GEAR:Book (Tome of IInfluences and Suggestions)	OPTION:33,34
+GEAR:Book (The Multiple Applications of Perceptomancy)	OPTION:35
+GEAR:Book (Occult Magnetism)	OPTION:36
+GEAR:Book (Arcane Manipulations of the Entourage)	OPTION:37,38
+GEAR:Book (The Deep Fears of Humanity)	OPTION:39
+GEAR:Book (Art of Communications and Sigils)	OPTION:40,41
+GEAR:Book (Echo and Resonance of the Great Void)	OPTION:42
+GEAR:Book (The Foundations of Secret Autority)	OPTION:43
+GEAR:Book (Epic Saga of the Great Conjurers)	OPTION:44,45
+GEAR:Book (Repertoire of Illustrious Conjurations)	OPTION:46
+GEAR:Book (Architecture)	OPTION:47
+GEAR:Book (Doors and Passages of Parallel Worlds)	OPTION:48,49
+GEAR:Book (Theories on Converging Transitions)	OPTION:50
+GEAR:Book (Unknown Movements of the Universe)	OPTION:51
+GEAR:Book (Thesis on Conditional Ruptures)	OPTION:52
+GEAR:Book (Luminescence and Coloration)	OPTION:53
+GEAR:Book (Spherogenesis of the Multiverse)	OPTION:54
+GEAR:Book (The Powers of the Spiritual Will)	OPTION:55
+GEAR:Book (Trascendental Impenetrabilities)	OPTION:56
+GEAR:Book (Cosmogony of the Magnetic Fluids)	OPTION:57
+GEAR:Book (Arcane Resistance of Dwarves and Halflings)	OPTION:58,59
+GEAR:Book (Manual of Magnetic and electric Waves)	OPTION:60
+GEAR:Book (The Dark Sides of the Memory)	OPTION:61
+GEAR:Book (Treatise on Cabalistic Protection)	OPTION:62,63
+GEAR:Book (The Trance of the Intellect)	OPTION:64
+GEAR:Book (The Representations of the Sentient Plane)	OPTION:65
+GEAR:Book (Intelligence and Intuitive Domination)	OPTION:66,67
+GEAR:Book (Arcane Puissance of the Memory)	OPTION:68,69
+GEAR:Book (Origins of the Hour Glass Symbology)	OPTION:70
+GEAR:Book (Variations on the Visual Perception)	OPTION:71,72
+GEAR:Book (Mental Impressions of the Retina)	OPTION:73
+GEAR:Book (Treatise of Sublimated Oneiromancy)	OPTION:74
+GEAR:Book (Theory of the Occult Visual Shock)	OPTION:75,76
+GEAR:Book (Libram of the Great Paravisual Emanations)	OPTION:77,78
+GEAR:Book (The Minds of the Unknown)	OPTION:79
+GEAR:Book (Repertoire of Subconscious Apparitions)	OPTION:80,81
+GEAR:Book (Thesis on the Planes of Anti-Matter)	OPTION:82
+GEAR:Book (Clouds and Fogs)	OPTION:83,84
+GEAR:Book (Gazette of the Norse Climates)	OPTION:85,86
+GEAR:Book (Sciense of Temporal Waves)	OPTION:87
+GEAR:Book (Tome of Studies on the Fourth Dimension)	OPTION:88,89
+GEAR:Book (Occult Observation on Fluids)	OPTION:90,91
+GEAR:Book (Evolution of the Arcane Will Power)	OPTION:92
+GEAR:Book (alterations of the Intrinsic Avsolutes)	OPTION:93,94
+GEAR:Book (The Bricks of the Spiritual Fortification)	OPTION:95,96
+GEAR:Book (Ordinary Necromancy)	OPTION:97
+GEAR:Book (The Weapons of the Ether)	OPTION:98
+GEAR:Book (Treatise of Universal Astronomy)	OPTION:99
+GEAR:Book (Inexplicable Reflections)	OPTION:100

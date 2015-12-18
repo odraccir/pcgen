@@ -82,7 +82,7 @@ Chain (Spiked)	TYPE:Exotic.Melee.Piercing.MeleePiercing.TwoHanded.Chain.Reach.Fi
 Flail (Dire)	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Flail.DoubleWeapon		
 Hammer (Hooked/Gnome)	TYPE:Exotic.Melee.Bludgeoning.Piercing.MeleeBludgeoning.MeleePiercing.TwoHanded.Hammer.Gnome.DoubleWeapon		
 Sword (Two-Bladed)	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.Sword.DoubleWeapon		
-Urgosh (Dwarven)	TYPE:Exotic.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing.TwoHanded.DoubleWeapon.Dwarven		
+Urgrosh (Dwarven)	TYPE:Exotic.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing.TwoHanded.DoubleWeapon.Dwarven		
 Bolas	TYPE:Exotic.Ranged.Thrown.Bludgeoning.RangedBludgeoning.Bolas
 Crossbow (Hand)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2	
 Crossbow (Heavy/Repeating)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2	

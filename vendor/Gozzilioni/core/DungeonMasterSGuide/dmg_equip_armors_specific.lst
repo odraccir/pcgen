@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																
+SOURCELONG:Gozzilioni Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #																			
 #	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	SOURCEPAGE:	BONUS:COMBAT|AC|x|TYPE=Armor	MAXDEX:	ACCHECK:	SPELLFAILURE:	EQMOD:							
 Adamantine Breastplate			PROFICIENCY:ARMOR|Breastplate	TYPE:Armor.Medium.Suit.Standard	COST:200	WT:30	SOURCEPAGE:DMG	BONUS:COMBAT|AC|5|TYPE=Armor	MAXDEX:3	ACCHECK:-4	SPELLFAILURE:25	EQMOD:ADAMANT_A_MED	SPROP:10200gp						
@@ -24,3 +24,10 @@ Caster's Shield			PROFICIENCY:SHIELD|Shield (Light)	TYPE:Shield.Light.Specific.N
 Lion's Shield			PROFICIENCY:SHIELD|Shield (Heavy)	TYPE:Shield.Heavy.Specific	COST:9170	WT:15	SOURCEPAGE:DMG	BONUS:COMBAT|AC|2|TYPE=Shield		ACCHECK:-2	SPELLFAILURE:15	EQMOD:STEEL.EQ_COST_ADJ_S.PLUS2S	SPROP:It has a lion face that allows the wearer 3/day as a free action, to make a bite attack (wearer's BAB) and deals 2d6 damage	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	WIELD:OneHanded	SIZE:M	
 Spined Shield			PROFICIENCY:SHIELD|Shield (Heavy)	TYPE:Shield.Heavy.Specific	COST:5580	WT:15	SOURCEPAGE:DMG	BONUS:COMBAT|AC|2|TYPE=Shield		ACCHECK:-2	SPELLFAILURE:15	EQMOD:STEEL.EQ_COST_ADJ_S.PLUS1S	SPROP:3/day fire a spine, +1 enhancement bonus, a range increment of 120 feet, and deals 1d10 points of damage (19–20/×2). Fired spines regenerate each day.	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	WIELD:OneHanded	SIZE:M	
 Winged Shield			PROFICIENCY:SHIELD|Shield (Heavy)	TYPE:Shield.Heavy.Standard.Nonmetal	COST:17257	WT:10	SOURCEPAGE:DMG	BONUS:COMBAT|AC|2|TYPE=Shield		ACCHECK:-2	SPELLFAILURE:15	EQMOD:WOOD.EQ_COST_ADJ_S.PLUS3S	SPROP:1/day Fly	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	WIELD:OneHanded	SIZE:M	SPELLS:Winged Shield|TIMES=1|CASTERLEVEL=5|Fly
+
+## Cursed
+Armor of Arrow Attraction			PROFICIENCY:ARMOR|Full Plate	TYPE:Enhancement.Armor.Heavy.Suit.Standard	COST:9000	WT:50	SOURCEPAGE:DMG	BONUS:COMBAT|AC|8|TYPE=Armor	MAXDEX:1	ACCHECK:-6	SPELLFAILURE:35	EQMOD:STEEL.MWORKA.PLUS3A.CURSED_ITEM.ARMR_CURSED	SPROP:-15 AC vs. ranged weapons.
+Armor of Rage			PROFICIENCY:ARMOR|Full Plate	TYPE:Enhancement.Armor.Heavy.Suit.Standard	COST:1600	WT:50	SOURCEPAGE:DMG	BONUS:COMBAT|AC|8|TYPE=Armor	MAXDEX:1	ACCHECK:-6	SPELLFAILURE:35	EQMOD:STEEL.MWORKA.PLUS1A.CURSED_ITEM.ARMR_CURSED	BONUS:STAT|CHA|-4	SPROP:All unfriendly characters within 300 feet have a +1 morale bonus on attack rolls against wearer.
+
+## Artifact
+Shield of Prator			PROFICIENCY:SHIELD|Shield (Heavy)	TYPE:Artifact.Shield.Heavy.Standard	COST:0	WT:15	SOURCEPAGE:DMG	BONUS:COMBAT|AC|2|TYPE=Shield		ACCHECK:-2	SPELLFAILURE:15	EQMOD:STEEL.PLUS5S		DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	WIELD:OneHanded	SIZE:M	SR:25	ABILITY:Special Ability|VIRTUAL|Resistance to Acid|Resistance to Cold|Resistance to Electricity|Resistance to Fire|Resistance to Sonic	BONUS:VAR|AcidResistanceBonus|10|TYPE=Resistance	BONUS:VAR|ColdResistanceBonus|10|TYPE=Resistance	BONUS:VAR|ElectricityResistanceBonus|10|TYPE=Resistance	BONUS:VAR|FireResistanceBonus|10|TYPE=Resistance	BONUS:VAR|SonicResistanceBonus|10|TYPE=Resistance	BONUS:VAR|NegativeLevels|4|PREALIGN:LE,NE,CE,CN,CG

@@ -1,0 +1,4 @@
+SOURCELONG:Gozzilioni Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+#																										
+# Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property																		
+Scabbard		TYPE:Goods.Container	COST:0.1	WT:1	SOURCEPAGE:h	CONTAINS:UNLIM|Total=1|Weapon=1
