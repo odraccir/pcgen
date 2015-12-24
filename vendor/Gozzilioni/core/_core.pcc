@@ -23,6 +23,7 @@ ABILITY:g_abilities.lst
 ABILITY:g_abilities_pools.lst
 ABILITYCATEGORY:g_abilitycategories.lst
 EQUIPMOD:g_equipmods.lst
+KIT:g_kits.lst
 SKILL:g_skills.lst
 TEMPLATE:g_template.lst
 

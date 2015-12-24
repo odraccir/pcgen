@@ -1,0 +1,32 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+ABILITYCATEGORY:Aberration Race Type Trait	CATEGORY:Special Ability	TYPE:AberrationRaceTypeTrait	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Aberration Race Type Traits			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Animal Race Type Trait	CATEGORY:Special Ability	TYPE:AnimalRaceTypeTrait	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Animal Race Type Traits			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Construct Race Type Trait	CATEGORY:Special Ability	TYPE:ConstructRaceTypeTrait	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Construct Race Type Traits			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Dragon Race Type Trait	CATEGORY:Special Ability	TYPE:DragonRaceTypeTrait	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dragon Race Type Traits			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Elemental Race Type Trait	CATEGORY:Special Ability	TYPE:ElementalRaceTypeTrait	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Elemental Race Type Traits			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Fey Race Type Trait	CATEGORY:Special Ability	TYPE:FeyRaceTypeTrait	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Fey Race Type Traits			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Giant Race Type Trait	CATEGORY:Special Ability	TYPE:GiantRaceTypeTrait	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Giant Race Type Traits			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Humanoid Race Type Trait	CATEGORY:Special Ability	TYPE:HumanoidRaceTypeTrait	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Humanoid Race Type Traits			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Magical Beast Race Type Trait	CATEGORY:Special Ability	TYPE:MagicalBeastRaceTypeTrait	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Magical Beast Race Type Traits			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Monstrous Humanoid Race Type Trait	CATEGORY:Special Ability	TYPE:MonstrousHumanoidRaceTypeTrait	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Monstrous Humanoid Race Type Traits			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Ooze Race Type Trait	CATEGORY:Special Ability	TYPE:OozeRaceTypeTrait	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Ooze Race Type Traits			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Outsider Race Type Trait	CATEGORY:Special Ability	TYPE:OutsiderRaceTypeTrait	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Outsider Race Type Traits			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Undead Race Type Trait	CATEGORY:Special Ability	TYPE:UndeadRaceTypeTrait	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Undead Race Type Traits			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Vermin Race Type Trait	CATEGORY:Special Ability	TYPE:VerminRaceTypeTrait	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Vermin Race Type Traits			DISPLAYLOCATION:Race Traits
+
+# Subrace Support
+
+#Abilitygroup:Class Ability categories																						
+
+#Other Abilitygroups
+
+#Feats Ability pools
+
+#Companion Support
+
+#other
+
+#
+# End
+#

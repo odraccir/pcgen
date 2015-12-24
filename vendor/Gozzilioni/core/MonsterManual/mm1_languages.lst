@@ -1,0 +1,6 @@
+SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+
+# Language			Type								Var. Min. Value
+Telepathy			TYPE:Spoken
+
+# Goblin			TYPE:Spoken

@@ -1,0 +1,17 @@
+SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+#			
+### Weapon/Spell			
+### Simple/Martial/Exotic			
+### Melee/Ranged			
+### Bludgeoning/Piercing/Slashing			
+### Reach/Double/Thrown/Projectile/Ammunition			
+### Unharmed/Light/OneHanded/TwoHanded			
+###Automatic			
+Bite	TYPE:Weapon.Natural.Melee.Piercing.Slashing.Bludgeoning
+Claw	TYPE:Weapon.Natural.Melee.Piercing.Slashing
+Talon	TYPE:Weapon.Natural.Melee.Piercing.Slashing
+Gore	TYPE:Weapon.Natural.Melee.Piercing
+Slap	TYPE:Weapon.Natural.Melee.Bludgeoning
+Slam	TYPE:Weapon.Natural.Melee.Bludgeoning
+Sting	TYPE:Weapon.Natural.Melee.Piercing
+Tentacle	TYPE:Weapon.Natural.Melee.Bludgeoning.Slashing

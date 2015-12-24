@@ -73,25 +73,25 @@ Awakened Animal_Standard	VISIBLE:NO	PRECLASS:1,Animal=1	ADDLEVEL:Animal|2
 Awakened Animal_Dire	VISIBLE:NO	PRECLASS:1,Animal (Dire)=1	ADDLEVEL:Animal (Dire)|2
 Awakened Tree	VISIBLE:NO	DEFINESTAT:STAT|INT	PRERACE:1,RACESUBTYPE=Animated Object	ADD:LANGUAGE|TYPE=Spoken	KIT:1|Awakened Tree	RACETYPE:Plant
 
-### BLOCK:Conditions
-Dazzled	TYPE:ConditionAttacker	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are unable to see well because of overstimulation of the eyes	TEMPBONUS:ANYPC|COMBAT|TOHIT|-1	TEMPBONUS:ANYPC|SKILL|Search,Spot|-1
-Entangled	TYPE:ConditionAttacker	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are ensnared	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2	TEMPBONUS:ANYPC|STAT|DEX|-4
-Flanking	TYPE:ConditionAttacker	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are flanking an enemy.	TEMPBONUS:ANYPC|COMBAT|TOHIT|2
-Invisible	TYPE:ConditionAttacker	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are invisible, you gain a +2 bonus on attack rolls against sighted opponents, and ignore your opponents' Dexterity bonuses to AC (if any)	TEMPBONUS:ANYPC|COMBAT|TOHIT|2|TYPE=Invisibility
-On Higher Ground	TYPE:ConditionAttacker	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:Attacking a foe while standing on higher ground.	TEMPBONUS:ANYPC|COMBAT|TOHIT.Melee|1
-Prone	TYPE:ConditionAttacker.ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are on the ground	TEMPBONUS:ANYPC|COMBAT|TOHIT.Melee|-4	TEMPBONUS:ANYPC|COMBAT|AC|-4
-Shaken	TYPE:ConditionAttacker	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are shaken	TEMPBONUS:ANYPC|SAVE|Fortitude,Reflex,Will|-2	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2	TEMPBONUS:ANYPC|SKILL|TYPE=Strength,TYPE=Dexterity,TYPE=Constitution,TYPE=Intelligence,TYPE=Wisdom,TYPE=Charisma|-2
-Frightened	TYPE:ConditionAttacker	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are frightened	TEMPBONUS:ANYPC|SAVE|Fortitude,Reflex,Will|-2	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2	TEMPBONUS:ANYPC|SKILL|TYPE=Strength,TYPE=Dexterity,TYPE=Constitution,TYPE=Intelligence,TYPE=Wisdom,TYPE=Charisma|-2
-Squeezing	TYPE:ConditionAttacker.ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are squeezing through a space.	TEMPBONUS:ANYPC|COMBAT|TOHIT.Melee|-4	TEMPBONUS:ANYPC|COMBAT|AC|-4
-#
-Behind Cover	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are behind a cover.	TEMPBONUS:ANYPC|COMBAT|AC|4|TYPE=Cover
-Blinded		TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are blinded.	TEMPBONUS:ANYPC|COMBAT|AC|-2	TEMPBONUS:ANYPC|COMBAT|AC|-(max(DEX,0))|TYPE=Ability.STACK	TEMPBONUS:ANYPC|SKILL|Search,STAT.STR,STAT.DEX|-4
-Cowering	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are frozen in fear and can take no actions.	TEMPBONUS:ANYPC|COMBAT|AC|-2	TEMPBONUS:ANYPC|COMBAT|AC|-(max(DEX,0))|TYPE=Ability.STACK
-Flat-Footed	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are caught flat-footed.	TEMPBONUS:ANYPC|COMBAT|AC|-(max(DEX,0))|TYPE=Ability.STACK
-Grappling	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are grappling (but attacker is not).	TEMPBONUS:ANYPC|COMBAT|AC|-(max(DEX,0))|TYPE=Ability.STACK
-Helpless	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are helpless.	TEMPBONUS:ANYPC|COMBAT|AC|-4	TEMPBONUS:ANYPC|COMBAT|AC|-5-(max(DEX,0))|TYPE=Ability.STACK
-Kneeling	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are kneeling .	TEMPBONUS:ANYPC|COMBAT|AC|-2
-Pinned	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You have been pinned.	TEMPBONUS:ANYPC|COMBAT|AC|-4
-Stunned	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are stunned, you drop everything held, and cannot take actions.	TEMPBONUS:ANYPC|COMBAT|AC|-2	TEMPBONUS:ANYPC|COMBAT|AC|-(max(DEX,0))|TYPE=Ability.STACK
+## BLOCK:Conditions
+# Dazzled	TYPE:ConditionAttacker	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are unable to see well because of overstimulation of the eyes	TEMPBONUS:ANYPC|COMBAT|TOHIT|-1	TEMPBONUS:ANYPC|SKILL|Search,Spot|-1
+# Entangled	TYPE:ConditionAttacker	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are ensnared	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2	TEMPBONUS:ANYPC|STAT|DEX|-4
+# Flanking	TYPE:ConditionAttacker	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are flanking an enemy.	TEMPBONUS:ANYPC|COMBAT|TOHIT|2
+# Invisible	TYPE:ConditionAttacker	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are invisible, you gain a +2 bonus on attack rolls against sighted opponents, and ignore your opponents' Dexterity bonuses to AC (if any)	TEMPBONUS:ANYPC|COMBAT|TOHIT|2|TYPE=Invisibility
+# On Higher Ground	TYPE:ConditionAttacker	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:Attacking a foe while standing on higher ground.	TEMPBONUS:ANYPC|COMBAT|TOHIT.Melee|1
+# Prone	TYPE:ConditionAttacker.ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are on the ground	TEMPBONUS:ANYPC|COMBAT|TOHIT.Melee|-4	TEMPBONUS:ANYPC|COMBAT|AC|-4
+# Shaken	TYPE:ConditionAttacker	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are shaken	TEMPBONUS:ANYPC|SAVE|Fortitude,Reflex,Will|-2	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2	TEMPBONUS:ANYPC|SKILL|TYPE=Strength,TYPE=Dexterity,TYPE=Constitution,TYPE=Intelligence,TYPE=Wisdom,TYPE=Charisma|-2
+# Frightened	TYPE:ConditionAttacker	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are frightened	TEMPBONUS:ANYPC|SAVE|Fortitude,Reflex,Will|-2	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2	TEMPBONUS:ANYPC|SKILL|TYPE=Strength,TYPE=Dexterity,TYPE=Constitution,TYPE=Intelligence,TYPE=Wisdom,TYPE=Charisma|-2
+# Squeezing	TYPE:ConditionAttacker.ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are squeezing through a space.	TEMPBONUS:ANYPC|COMBAT|TOHIT.Melee|-4	TEMPBONUS:ANYPC|COMBAT|AC|-4
+
+# Behind Cover	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are behind a cover.	TEMPBONUS:ANYPC|COMBAT|AC|4|TYPE=Cover
+# Blinded		TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are blinded.	TEMPBONUS:ANYPC|COMBAT|AC|-2	TEMPBONUS:ANYPC|COMBAT|AC|-(max(DEX,0))|TYPE=Ability.STACK	TEMPBONUS:ANYPC|SKILL|Search,STAT.STR,STAT.DEX|-4
+# Cowering	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are frozen in fear and can take no actions.	TEMPBONUS:ANYPC|COMBAT|AC|-2	TEMPBONUS:ANYPC|COMBAT|AC|-(max(DEX,0))|TYPE=Ability.STACK
+# Flat-Footed	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are caught flat-footed.	TEMPBONUS:ANYPC|COMBAT|AC|-(max(DEX,0))|TYPE=Ability.STACK
+# Grappling	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are grappling (but attacker is not).	TEMPBONUS:ANYPC|COMBAT|AC|-(max(DEX,0))|TYPE=Ability.STACK
+# Helpless	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are helpless.	TEMPBONUS:ANYPC|COMBAT|AC|-4	TEMPBONUS:ANYPC|COMBAT|AC|-5-(max(DEX,0))|TYPE=Ability.STACK
+# Kneeling	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are kneeling .	TEMPBONUS:ANYPC|COMBAT|AC|-2
+# Pinned	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You have been pinned.	TEMPBONUS:ANYPC|COMBAT|AC|-4
+# Stunned	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are stunned, you drop everything held, and cannot take actions.	TEMPBONUS:ANYPC|COMBAT|AC|-2	TEMPBONUS:ANYPC|COMBAT|AC|-(max(DEX,0))|TYPE=Ability.STACK
 #
 Imbue Spell Like Ability ~ Cleric	VISIBLE:NO	TEMPVALUE:MIN=7|MAX=20|TITLE=Select Cleric Imbuing Spells upon you level	ADD:SPELLCASTER|Cleric	TEMPBONUS:PC|CASTERLEVEL|Cleric|%CHOICE

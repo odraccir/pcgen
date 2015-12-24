@@ -1310,7 +1310,7 @@ Manual of Quickness of Action +3		TYPE:Wondrous.Book.Consumable	COST:82500	WT:5	
 Manual of Quickness of Action +4		TYPE:Wondrous.Book.Consumable	COST:110000	WT:5	SOURCEPAGE:DMG	SPROP:Increase Dexterity by +4 inherent.																		
 Manual of Quickness of Action +5		TYPE:Wondrous.Book.Consumable	COST:137500	WT:5	SOURCEPAGE:DMG	SPROP:Increase Dexterity by +5 inherent.																		
 Mask of the Skull		TYPE:Wondrous.Headgear	COST:22000	WT:3	SOURCEPAGE:DMG																			
-Mattock of the Titans		TYPE:Wondrous.Weapon.Melee.Simple.Bludgeoning.Piercing.OneHanded	COST:23348	WT:120	SOURCEPAGE:DMG				PROFICIENCY:WEAPON|Morningstar	WIELD:OneHanded	SIZE:G	DAMAGE:4d6	CRITRANGE:1	CRITMULT:x2	EQMOD:ADAMANT_W.EQ_COST_ADJ_W.PLUS3W									
+Mattock of the Titans		TYPE:Wondrous.Weapon.Melee.Simple.Bludgeoning.Piercing.OneHanded	COST:23348	WT:120	SOURCEPAGE:DMG				PROFICIENCY:WEAPON|Morningstar	WIELD:OneHanded	SIZE:G	DAMAGE:4d6	CRITRANGE:1	CRITMULT:x2	EQMOD:ADAMANT_WEAP.EQ_COST_ADJ_W.PLUS3W									
 Maul of the Titans		TYPE:Wondrous.Weapon.Melee.Martial.Bludgeoning.TwoHanded.Club	COST:25305	WT:160	SOURCEPAGE:DMG	SPROP:critical x3 against inanimate objects.			PROFICIENCY:WEAPON|Greatclub	WIELD:TwoHanded	SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD	BONUS:WEAPON|DAMAGE,TOHIT|-4|!PRESTAT:1,STR=18								
 Medallion of Thoughts		TYPE:Wondrous.Amulet	COST:12000	WT:0	SOURCEPAGE:DMG	SPELLS:Medallion of Thoughts|TIMES=ATWILL|CASTERLEVEL=5|Detect Thoughts																		
 Mirror of Life Tapping		TYPE:Wondrous	COST:200000	WT:50	SOURCEPAGE:DMG																			
@@ -1426,7 +1426,7 @@ Broom of Animated Attack		TYPE:Wondrous	COST:5200	WT:3	SOURCEPAGE:DMG	EQMOD:CURS
 Cloak of Poisonousness		TYPE:Wondrous.Cape	COST:62000	WT:1	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM.CAPE_CURSED
 Crystal Hypnosis Ball	TYPE:Artifact.Minor	COST:0	WT:7	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM	SPROP:Appears to be a normal Crystal Ball.
 Dust of Sneezing and Choking	TYPE:Wondrous.Consumable.Dust	COST:2400	WT:0	SOURCEPAGE:DMG	SPROP:Appears to be Dust of Appearance.	EQMOD:CURSED_ITEM
-Flask of Curses	TYPE:TYPE:Wondrous	COST:2100	WT:1.5	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM
+Flask of Curses	TYPE:Wondrous	COST:2100	WT:1.5	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM
 Gauntlets of Fumbling (Gloves)	TYPE:Wondrous.Glove	COST:1300	WT:0	SOURCEPAGE:DMG	SLOTS:2	BONUS:STAT|DEX|-2	SPROP:Appear to be Gloves of Dexterity. Fumble held items 50%% of the time.	EQMOD:CURSED_ITEM.GLVE_CURSED
 Gauntlets of Fumbling (Gauntlets)	TYPE:Wondrous.Glove	COST:1300	WT:4	SOURCEPAGE:DMG	SLOTS:2	BONUS:STAT|DEX|-2	SPROP:Appear to be Gauntlets of Ogre Power. Fumble held items 50%% of the time.	EQMOD:CURSED_ITEM.GLVE_CURSED
 Helm of Opposite Alignment	TYPE:Wondrous.Headgear	COST:4000	WT:3	SOURCEPAGE:DMG	SPROP:Appears to be a typical helmet. Changes alignment to opposite (DC 15 Will negates).	EQMOD:CURSED_ITEM.HEAD_CURSED
@@ -1437,10 +1437,10 @@ Periapt of Foul Rotting		TYPE:Wondrous.Amulet	COST:17000	WT:0	SOURCEPAGE:DMG	EQM
 Potion (Poison)		TYPE:Wondrous.Potion.Vial.Consumable	COST:5000	WT:0	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM	SPROP:Ingestion (Fort DC 16). Initial: 1d10 points of CON damage. Secondary: 1d10 points of CON damage.
 Robe of Powerlessness		TYPE:Wondrous.Robe	COST:5500	WT:1	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM.CAPE_CURSED	BONUS:STAT|STR|-10	BONUS:STAT|INT|-10
 Robe of Vermin		TYPE:Wondrous.Cape	COST:16500	WT:1	SOURCEPAGE:DMG	BONUS:SAVE|ALL|-2	BONUS:COMBAT|INITIATIVE|-5	BONUS:COMBAT|TOHIT|-2	BONUS:SKILL|ALL|-2	EQMOD:CURSED_ITEM.CAPE_CURSED
-Ring of Clumsiness		TYPE:Wondrows.Ring	COST:500	WT:0	SOURCEPAGE:DMG	BONUS:STAT|DEX|-4	BONUS:MISC|SPELLFAILURE|20	EQMOD:CURSED_ITEM.RING_CURSED	
+Ring of Clumsiness		TYPE:Wondrous.Ring	COST:500	WT:0	SOURCEPAGE:DMG	BONUS:STAT|DEX|-4	BONUS:MISC|SPELLFAILURE|20	EQMOD:CURSED_ITEM.RING_CURSED	
 Scarab of Death		TYPE:Wondrous.Amulet	COST:80000	WT:0	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM.AMLT_CURSED
 Stone of Weight (Loadstone)		TYPE:Wondrous	COST:1000	WT:0	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM
-Vacuous Grimoire		TYPE:Wondrows	COST:6000	WT:3	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM
+Vacuous Grimoire		TYPE:Wondrous	COST:6000	WT:3	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM
 
 ## Artifacts
 #Minor Artifacts

@@ -1,37 +1,74 @@
-SOURCELONG:Gozzilioni Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
-
-Gold	VISIBLE:NO	KEY:Gold Dwarf	SUBRACE:Gold
-Half-Human	VISIBLE:NO	KEY:Half-Elf ~ Half-Human
-
-Favored Class	KEY:Half-Elf ~ Half-Human ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Wizard
-
-Adept	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Adept=1
-Aristocrat	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Aristocrat=1
-Commoner	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Commoner=1
-Expert	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Expert=1
-Warrior	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Warrior=1
-Witch	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Witch=1
-
-Claws and Bite	KEY:Dragon Disciple ~ Claws and Bite	PRECLASS:1,Dragon Disciple=2	VISIBLE:NO	TEMPLATE:CHOOSE:Bite and Claws (Small)|Bite and Claws (Medium)|Bite and Claws (Large)
-
-Bite and Claws (Small)	VISIBLE:NO	PRESIZEEQ:S	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d3|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d4
-Bite and Claws (Medium)	VISIBLE:NO	PRESIZEEQ:M	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d4|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6
-Bite and Claws (Large)	VISIBLE:NO	PRESIZEEQ:L	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d6|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d8
-
-# Environment
-Heavy Gravity	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:The gravity on a plane with this trait is much more intense than on the Material Plane. Does not take into account the fact that all equipment weights are doubled (which affects movement, etc.)	TEMPBONUS:ANYPC|SKILL|Balance,Climb,Jump,Ride,Swim,Tumble|-2|TYPE=Circumstance	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2|TYPE=Circumstance	TEMPBONUS:ANYPC|RANGEMULT|PROJECTILE|-50	TEMPBONUS:ANYPC|RANGEMULT|THROWN|-50
-Light Gravity	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:The gravity on a plane with this trait is much more light than on the Material Plane. Does not take into account the fact that all equipment weights are doubled (which affects movement, etc.)	TEMPBONUS:ANYPC|SKILL|Balance,Ride,Swim,Tumble|-2|TYPE=Circumstance	TEMPBONUS:ANYPC|SKILL|Climb,Jump|2|TYPE=Circumstance	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2|TYPE=Circumstance	TEMPBONUS:ANYPC|RANGEMULT|PROJECTILE|50	TEMPBONUS:ANYPC|RANGEMULT|THROWN|50
-Minor Positive Dominant	VISIBLE:NO	TEMPDESC:Minor Positive-Dominant energy.	ABILITY:Special Ability|VIRTUAL|Fast Healing	TEMPBONUS:ANYPC|VAR|Fasthealing|2
-Major Positive Dominant	VISIBLE:NO	TEMPDESC:Major Positive-Dominant energy.	ABILITY:Special Ability|VIRTUAL|Fast Healing	TEMPBONUS:ANYPC|VAR|Fasthealing|5
-Mildly Aligned (Chaotic)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Mildly Chaotic Aligned Plane.  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA|-2|TYPE=Circumstance|PREALIGN:LG,LN,LE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LG,LN,LE
-Mildly Aligned (Evil)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Mildly Evil Aligned Plane.  Penalty applied to Skills and Turn Checks only.		TEMPBONUS:ANYPC|SKILL|STAT.CHA|-2|TYPE=Circumstance|PREALIGN:LG,NG,CG	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LG,NG,CG
-Mildly Aligned (Good)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Mildly Good Aligned Plane.  Penalty applied to Skills and Turn Checks only.		TEMPBONUS:ANYPC|SKILL|STAT.CHA|-2|TYPE=Circumstance|PREALIGN:LE,NE,CE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LE,NE,CE
-Mildly Aligned (Lawful)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Mildly Lawful Aligned Plane.  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA|-2|TYPE=Circumstance|PREALIGN:CG,CN,CE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:CG,CN,CE
-Strongly Aligned (Chaotic)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Strongly Chaotic Aligned Plane.  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA,STAT.INT,STAT.WIS|-2|TYPE=Circumstance|!PREALIGN:CG,CN,CE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LG,LN,LE
-Strongly Aligned (Evil)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Strongly Evil Aligned Plane.  Penalty applied to Skills and Turn Checks only.		TEMPBONUS:ANYPC|SKILL|STAT.CHA,STAT.INT,STAT.WIS|-2|TYPE=Circumstance|!PREALIGN:LE,NE,CE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LG,NG,CG
-Strongly Aligned (Good)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Strongly Good Aligned Plane.  Penalty applied to Skills and Turn Checks only.		TEMPBONUS:ANYPC|SKILL|STAT.CHA,STAT.INT,STAT.WIS|-2|TYPE=Circumstance|!PREALIGN:LG,NG,CG	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LE,NE,CE
-Strongly Aligned (Lawful)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Strongly Lawful Aligned Plane.  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA,STAT.INT,STAT.WIS|-2|TYPE=Circumstance|!PREALIGN:LG,LN,LE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:CG,CN,CE
-Mildly Aligned (Neutral)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Mildly Neutral Aligned Plane  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA|-2|TYPE=Circumstance|PREALIGN:LG,LE,CG,CE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LG,LE,CG,CE
-Strongly Aligned (Neutral)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Strongly Neutral Aligned Plane  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA,STAT.INT,STAT.WIS|-2|TYPE=Circumstance|!PREALIGN:LG,LE,CG,CE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LG,LE,CG,CE
-
-Thrush Familiar Language	VISIBLE:NO	SOURCEPAGE:DMG	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Speak One Language
+SOURCELONG:Gozzilioni Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																											
+																														
+Gold	VISIBLE:NO	KEY:Gold Dwarf	SUBRACE:Gold																											
+Half-Human	VISIBLE:NO	KEY:Half-Elf ~ Half-Human																												
+																														
+Favored Class	KEY:Half-Elf ~ Half-Human ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Wizard																											
+																														
+Adept	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Adept=1																										
+Aristocrat	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Aristocrat=1																										
+Commoner	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Commoner=1																										
+Expert	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Expert=1																										
+Warrior	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Warrior=1																										
+Witch	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Witch=1																										
+																														
+Claws and Bite	KEY:Dragon Disciple ~ Claws and Bite	PRECLASS:1,Dragon Disciple=2	VISIBLE:NO	TEMPLATE:CHOOSE:Bite and Claws (Small)|Bite and Claws (Medium)|Bite and Claws (Large)																										
+																														
+Bite and Claws (Small)	VISIBLE:NO	PRESIZEEQ:S	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d3|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d4																											
+Bite and Claws (Medium)	VISIBLE:NO	PRESIZEEQ:M	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d4|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6																											
+Bite and Claws (Large)	VISIBLE:NO	PRESIZEEQ:L	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d6|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d8																											
+																														
+# Environment																														
+Heavy Gravity	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:The gravity on a plane with this trait is much more intense than on the Material Plane. Does not take into account the fact that all equipment weights are doubled (which affects movement, etc.)	TEMPBONUS:ANYPC|SKILL|Balance,Climb,Jump,Ride,Swim,Tumble|-2|TYPE=Circumstance	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2|TYPE=Circumstance	TEMPBONUS:ANYPC|RANGEMULT|PROJECTILE|-50	TEMPBONUS:ANYPC|RANGEMULT|THROWN|-50																							
+Light Gravity	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:The gravity on a plane with this trait is much more light than on the Material Plane. Does not take into account the fact that all equipment weights are doubled (which affects movement, etc.)	TEMPBONUS:ANYPC|SKILL|Balance,Ride,Swim,Tumble|-2|TYPE=Circumstance	TEMPBONUS:ANYPC|SKILL|Climb,Jump|2|TYPE=Circumstance	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2|TYPE=Circumstance	TEMPBONUS:ANYPC|RANGEMULT|PROJECTILE|50	TEMPBONUS:ANYPC|RANGEMULT|THROWN|50																						
+Minor Positive Dominant	VISIBLE:NO	TEMPDESC:Minor Positive-Dominant energy.	ABILITY:Special Ability|VIRTUAL|Fast Healing	TEMPBONUS:ANYPC|VAR|Fasthealing|2																										
+Major Positive Dominant	VISIBLE:NO	TEMPDESC:Major Positive-Dominant energy.	ABILITY:Special Ability|VIRTUAL|Fast Healing	TEMPBONUS:ANYPC|VAR|Fasthealing|5																										
+Mildly Aligned (Chaotic)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Mildly Chaotic Aligned Plane.  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA|-2|TYPE=Circumstance|PREALIGN:LG,LN,LE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LG,LN,LE																									
+Mildly Aligned (Evil)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Mildly Evil Aligned Plane.  Penalty applied to Skills and Turn Checks only.		TEMPBONUS:ANYPC|SKILL|STAT.CHA|-2|TYPE=Circumstance|PREALIGN:LG,NG,CG	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LG,NG,CG																							
+Mildly Aligned (Good)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Mildly Good Aligned Plane.  Penalty applied to Skills and Turn Checks only.		TEMPBONUS:ANYPC|SKILL|STAT.CHA|-2|TYPE=Circumstance|PREALIGN:LE,NE,CE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LE,NE,CE																							
+Mildly Aligned (Lawful)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Mildly Lawful Aligned Plane.  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA|-2|TYPE=Circumstance|PREALIGN:CG,CN,CE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:CG,CN,CE																								
+Strongly Aligned (Chaotic)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Strongly Chaotic Aligned Plane.  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA,STAT.INT,STAT.WIS|-2|TYPE=Circumstance|!PREALIGN:CG,CN,CE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LG,LN,LE																									
+Strongly Aligned (Evil)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Strongly Evil Aligned Plane.  Penalty applied to Skills and Turn Checks only.		TEMPBONUS:ANYPC|SKILL|STAT.CHA,STAT.INT,STAT.WIS|-2|TYPE=Circumstance|!PREALIGN:LE,NE,CE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LG,NG,CG																							
+Strongly Aligned (Good)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Strongly Good Aligned Plane.  Penalty applied to Skills and Turn Checks only.		TEMPBONUS:ANYPC|SKILL|STAT.CHA,STAT.INT,STAT.WIS|-2|TYPE=Circumstance|!PREALIGN:LG,NG,CG	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LE,NE,CE																							
+Strongly Aligned (Lawful)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Strongly Lawful Aligned Plane.  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA,STAT.INT,STAT.WIS|-2|TYPE=Circumstance|!PREALIGN:LG,LN,LE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:CG,CN,CE																									
+Mildly Aligned (Neutral)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Mildly Neutral Aligned Plane  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA|-2|TYPE=Circumstance|PREALIGN:LG,LE,CG,CE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LG,LE,CG,CE																									
+Strongly Aligned (Neutral)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Effects of Strongly Neutral Aligned Plane  Penalty applied to Skills and Turn Checks only.	TEMPBONUS:ANYPC|SKILL|STAT.CHA,STAT.INT,STAT.WIS|-2|TYPE=Circumstance|!PREALIGN:LG,LE,CG,CE	TEMPBONUS:ANYPC|VAR|TurnCheckBase|-2|TYPE=Circumstance|PREALIGN:LG,LE,CG,CE																									
+																														
+Thrush Familiar Language	VISIBLE:NO	SOURCEPAGE:DMG	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Speak One Language																											
+																														
+###Block: Diseases																														
+Disease Damage (Blinding Sickness)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=4|TITLE=Stength Damage		TEMPDESC:Infection DC 16 (Ingested), Incubation 1d3 days, Damage 1d4 Str (Each time the victim takes 2 or more damage from the disease, he must make another Fortitude save or be permanently blinded), Apply this temporary bonus each day the victim takes damage.	TEMPBONUS:ANYPC|STAT|STR|-1*(%CHOICE)																							
+Disease Damage (Cackle fever)			VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=6|TITLE=Wisdom Damage		TEMPDESC:Infection DC 16 (Inhaled), Incubation 1 day, Damage 1d6 Wis, Apply this temporary bonus each day the victim takes damage.																							TEMPBONUS:ANYPC|STAT|WIS|-1*(%CHOICE)
+Disease Damage (Demon fever)			VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=6|TITLE=Constitution Damage	TEMPDESC:Infection DC 18 (Injury), Incubation 1 day, Damage 1d6 Con (When damaged, character must succeed on another saving throw or 1 point of damage is permanent drain instead), Apply this temporary bonus each day the victim takes damage.				TEMPBONUS:ANYPC|STAT|CON|-1*(%CHOICE)																				
+Disease Damage (Devil chills)			VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=4|TITLE=Stength Damage		TEMPDESC:Infection DC 14 (Injury), Incubation 1d4 days, Damage 1d4 Str (The victim must make three successful Fortitude saving throws in a row to recover from devil chills), Apply this temporary bonus each day the victim takes damage.					TEMPBONUS:ANYPC|STAT|STR|-1*(%CHOICE)																		
+Disease Damage (Filth fever/Dex Damage)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=3|TITLE=Dexterity Damage	TEMPDESC:Infection DC 12 (Injury), Incubation 1d3 days, Damage 1d3 Dex, 1d3 Con, Apply this temporary bonus for the dexterity damage each day the victim takes damage.																	TEMPBONUS:ANYPC|STAT|DEX|-1*(%CHOICE)									
+Disease Damage (Filth fever/Con Damage)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=3|TITLE=Constitution Damage	TEMPDESC:Infection DC 12 (Injury), Incubation 1d3 days, Damage 1d3 Dex, 1d3 Con, Apply this temporary bonus for the constitution damage each day the victim takes damage.																TEMPBONUS:ANYPC|STAT|Con|-1*(%CHOICE)										
+Disease Damage (Mindfire)			VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=4|TITLE=Intelligence Damage	TEMPDESC:Infection DC 12 (Inhaled), Incubation 1 day, Damage 1d4 Int, Apply this temporary bonus each day the victim takes damage.																							TEMPBONUS:ANYPC|STAT|INT|-1*(%CHOICE)	
+Disease Damage (Mummy rot)			VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=6|TITLE=Constitution Damage	TEMPDESC:Infection DC 20 (Contact), Incubation 1 day, Damage 1d6 Con (Successful saves do not allow the character to recover, Only magical healing can save the character), Apply this temporary bonus each day the victim takes damage.						TEMPBONUS:ANYPC|STAT|CON|-1*(%CHOICE)																		
+Disease Damage (Red ache)			VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=6|TITLE=Stength Damage		TEMPDESC:Infection DC 15 (Injury), Incubation 1d3 days, Damage 1d6 Str, Apply this temporary bonus each day the victim takes damage.																						TEMPBONUS:ANYPC|STAT|STR|-1*(%CHOICE)	
+Disease Damage (Shakes)				VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=8|TITLE=Dexterity Damage	TEMPDESC:Infection DC 13 (Contact), Incubation 1 day, Damage 1d8 Dex, Apply this temporary bonus each day the victim takes damage.																							TEMPBONUS:ANYPC|STAT|DEX|-1*(%CHOICE)
+Disease Damage (Slimy doom)			VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=4|TITLE=Constitution Damage	TEMPDESC:Infection DC 14 (Contact), Incubation 1 day, Damage 1d4 Con (When damaged, character must succeed on another saving throw or 1 point of damage is permanent drain instead), Apply this temporary bonus each day the victim takes damage.				TEMPBONUS:ANYPC|STAT|STR|-1*(%CHOICE)																				
+																														
+###Block: Conditions																														
+Ability Damaged (Strength)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=20|TITLE=Stength Damage	TEMPDESC:You have temporarily lost 1 or more Strength ability score points.	TEMPBONUS:ANYPC|STAT|STR|-1*(%CHOICE)																									
+Ability Damaged (Dexterity)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=20|TITLE=Dexterity Damage	TEMPDESC:You have temporarily lost 1 or more Dexterity ability score points.	TEMPBONUS:ANYPC|STAT|DEX|-1*(%CHOICE)																									
+Ability Damaged (Constitution)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=20|TITLE=Constitution Damage	TEMPDESC:You have temporarily lost 1 or more Constitution ability score points.	TEMPBONUS:ANYPC|STAT|CON|-1*(%CHOICE)																									
+Ability Damaged (Intelligence)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=20|TITLE=Intelligence Damage	TEMPDESC:You have temporarily lost 1 or more Intelligence ability score points.	TEMPBONUS:ANYPC|STAT|INT|-1*(%CHOICE)																									
+Ability Damaged (Wisdom)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=20|TITLE=Wisdom Damage	TEMPDESC:You have temporarily lost 1 or more Wisdom ability score points.	TEMPBONUS:ANYPC|STAT|WIS|-1*(%CHOICE)																									
+Ability Damaged (Charisma)	VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=20|TITLE=Charisma Damage	TEMPDESC:You have temporarily lost 1 or more Charisma ability score points.	TEMPBONUS:ANYPC|STAT|CHA|-1*(%CHOICE)																									
+Blinded	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:You cannot see.	TEMPBONUS:ANYPC|COMBAT|AC|-2	TEMPBONUS:ANYPC|COMBAT|AC|-(max(DEX,0))|TYPE=Ability.STACK	TEMPBONUS:ANYPC|SKILL|Search,STAT.STR,STAT.DEX|-4	TEMPBONUS:ANYPC|MOVEMULT|TYPE.All|0.5																						
+Cowering	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:The character is frozen in fear and can take no actions.	TEMPBONUS:ANYPC|COMBAT|AC|-2	TEMPBONUS:ANYPC|COMBAT|AC|-(max(DEX,0))|TYPE=Ability.STACK																								
+Dazed	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:The creature is unable to act normally.																										
+Dazzled	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:The creature is unable to see well because of overstimulation of the eyes.	TEMPBONUS:ANYPC|COMBAT|TOHIT|-1	TEMPBONUS:ANYPC|SKILL|Search,Spot|-1																								
+Deafened	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:A deafened character cannot hear.	TEMPBONUS:ANYPC|COMBAT|INITIATIVE|-4																									
+Energy Drained	VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=20|TITLE=Negative Levels	TEMPDESC:The character gains one or more negative levels, which might permanently drain the character’s levels.	TEMPBONUS:ANYPC|VAR|NegativeLevels|%CHOICE																									
+Entangled	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:The character is ensnared.	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2	TEMPBONUS:ANYPC|STAT|DEX|-4																								
+Exausted	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:The character is exausted.	TEMPBONUS:ANYPC|MOVEMULT|TYPE.All|0.5	TEMPBONUS:ANYPC|STAT|STR,DEX|-6																								
+Fatigued	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:A fatigued character can neither run nor charge.	TEMPBONUS:ANYPC|STAT|STR,DEX|-2																									
+Frightened	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:A frightened creature flees from the source of its fear as best it can.	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2	TEMPBONUS:ANYPC|SAVE|ALL|-2	TEMPBONUS:ANYPC|SKILL|ALL|-2																							
+Invisible	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:You are invisible.	TEMPBONUS:ANYPC|COMBAT|TOHIT|2|TYPE=Invisibility																									
+Panicked	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:A panicked creature must drop anything it holds and flee at top speed from the source of its fear, as well as any other dangers it encounters, along a random path.	TEMPBONUS:ANYPC|SAVE|ALL|-2	TEMPBONUS:ANYPC|SKILL|ALL|-2																								
+Prone	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:You are on the ground.	TEMPBONUS:ANYPC|COMBAT|TOHIT.MELEE|-4																									
+Shaken	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:You are shaken.	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2	TEMPBONUS:ANYPC|SAVE|ALL|-2	TEMPBONUS:ANYPC|SKILL|ALL|-2																							
+Sickened	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:You are sickened.	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2	TEMPBONUS:ANYPC|COMBAT|DAMAGE|-2	TEMPBONUS:ANYPC|SAVE|ALL|-2	TEMPBONUS:ANYPC|SKILL|ALL|-2																						
+Stunned	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:A stunned creature drops everything held, can’t take actions.	TEMPBONUS:ANYPC|COMBAT|AC|-2	TEMPBONUS:ANYPC|COMBAT|AC|-(max(DEX,0))|TYPE=Ability.STACK																								
