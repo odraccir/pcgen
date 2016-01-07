@@ -129,10 +129,10 @@ my %validfiletype = (
     'VARIABLE'        => \&FILETYPE_parse,
     'DATACONTROL'        => \&FILETYPE_parse,
     'GLOBALMOD'        => \&FILETYPE_parse,
-    'ALIGNMENT'        => \&FILETYPE_parse,
-    'SAVES'        => \&FILETYPE_parse,
-    'STAT'        => \&FILETYPE_parse,
     '#EXTRAFILE'   => 1,
+	'SAVE'		=> \&FILETYPE_parse,
+	'STAT'		=> \&FILETYPE_parse,
+	'ALIGNMENT'		=> \&FILETYPE_parse,
 );
 
 # The file type that will be rewritten.
@@ -166,6 +166,9 @@ my %writefiletype = (
     'VARIABLE'        => 1,
     'DATACONTROL'        => 1,
     'GLOBALMOD'        => 1,
+	'SAVE'		=> 1,
+	'STAT'		=> 1,
+	'ALIGNMENT'		=> 1,
 );
 
 # The active conversions
@@ -2146,10 +2149,12 @@ my %master_order = (
         'XTRAFEATS',
         'SPELLSTAT',
         'BONUSSPELLSTAT',
-#       'SPELLTYPE',
+		'FACT:SpellType:*',
+#		'SPELLTYPE',
         'TYPE',
         'CLASSTYPE',
-#        'ABB',
+		'FACT:Abb:*',
+#		'ABB',
         'MAXLEVEL',
         'CASTAS',
         'MEMORIZE',
@@ -2229,11 +2234,10 @@ my %master_order = (
         'TEMPBONUS:*',
         'UNENCUMBEREDMOVE',
         'ROLE',
-#        'HASSPELLFORMULA',        # [ 1893279 ] HASSPELLFORMULA Class Line tag  # [ 1973497 ] HASSPELLFORMULA is deprecated
-#        'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
-#        'LANGAUTO:.CLEAR',    # Deprecated - 6.0
-#        'LANGAUTO:*',        # Deprecated - 6.0
-        'FACT:*',
+#		'HASSPELLFORMULA',		# [ 1893279 ] HASSPELLFORMULA Class Line tag  # [ 1973497 ] HASSPELLFORMULA is deprecated
+#		'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+#		'LANGAUTO:.CLEAR',	# Deprecated - 6.0
+#		'LANGAUTO:*',		# Deprecated - 6.0
     ],
 
     'CLASS Level' => [
@@ -2942,6 +2946,10 @@ my %master_order = (
         'OPTION',
 
         # These tags load files
+		'DATACONTROL',
+		'STAT',
+		'SAVE',
+		'ALIGNMENT',
         'ABILITY',
         'ABILITYCATEGORY',
         'ARMORPROF',
@@ -2965,10 +2973,6 @@ my %master_order = (
         'TEMPLATE',
         'WEAPONPROF',
         '#EXTRAFILE',           # Fix #EXTRAFILE so it recognizes #EXTRAFILE references (so OGL is a known referenced file again.)
-        'ALIGNMENT',
-        'SAVE',
-        'STAT',
-        'DATACONTROL',
         
         #These tags are normal file global tags....
         @double_PCC_tags,        #Global tags that are double - $tag does not end with ':'
@@ -3632,6 +3636,34 @@ my %master_order = (
         'EXPLANATION',            
     ],
 
+	'ALIGNMENT' => [
+		'000AlignmentName',
+		'SORTKEY',			
+		'ABB',			
+		'KEY',			
+		'VALIDFORDEITY',			
+		'VALIDFORFOLLOWER',			
+	],
+
+	'STAT' => [
+		'000StatName',
+		'SORTKEY',			
+		'ABB',			
+		'KEY',			
+		'STATMOD',			
+		'DEFINE:MAXLEVELSTAT',			
+		'DEFINE',			
+		@Global_BONUS_Tags,			
+		'ABILITY',			
+	],
+
+	'SAVE' => [
+		'000SaveName',
+		'SORTKEY',			
+		'KEY',			
+		@Global_BONUS_Tags,			
+	],
+
 );
 
 #################################################################
@@ -3805,7 +3837,38 @@ my %column_with_no_tag = (
         '000GlobalmodName',
     ],
 
+	'ALIGNMENT' => [
+		'000AlignmentName',
+	],
+
+	'SAVE' => [
+		'000SaveName',
+	],
+
+	'STAT' => [
+		'000StatName',
+	],
+
 );
+
+
+my %token_FACT_tag = map { $_ => 1 } (
+	'FACT:Abb',
+	'FACT:AppliedName',
+	'FACT:ClassType',
+	'FACT:SpellType',
+	'FACT:Symbol',
+	'FACT:Worshippers',
+	'FACT:Title',
+	'FACT:Appearance',
+	'FACT:RateOfFire',
+);
+
+my %token_FACTSET_tag = map { $_ => 1 } (
+	'FACTSET:Pantheon',
+	'FACTSET:Race',
+);
+
 
 my %token_ADD_tag = map { $_ => 1 } (
     'ADD:.CLEAR',
@@ -4111,6 +4174,9 @@ my %tagheader = (
         '000VariableName'        => '# Name',
         '000GlobalmodName'        => '# Name',
         '000DatacontrolName'    => '# Name',
+		'000SaveName'	=> '# Name',
+		'000StatName'	=> '# Name',
+		'000AlignmentName'	=> '# Name',
         'DATAFORMAT'            => 'Dataformat',
         'REQUIRED'                => 'Required',
         'SELECTABLE'            => 'Selectable',
@@ -4242,8 +4308,8 @@ my %tagheader = (
         'EXCLASS'               => 'Ex Class',
         'EXPLANATION'            => 'Explanation',
         'FACE'                  => 'Face/Space',
-        'FACT'                        => 'Fact',
-        'FACTSET'                    => 'Set of Facts',
+		'FACT:Abb'					=> 'Abbreviation',
+		'FACT:SpellType'			=> 'Spell Type',
         'FEAT'                  => 'Feat',
         'FEATAUTO'              => 'Feat Auto',
         'FOLLOWERS'             => 'Allow Follower',
@@ -4538,8 +4604,10 @@ my %tagheader = (
 
     'CLASS' => {
         '000ClassName'          => '# Class Name',
-        'CLASSTYPE'            => 'Class Type',
-        'ABB'                   => 'Abbreviation',
+		'FACT:CLASSTYPE'			=> 'Class Type',
+#       'CLASSTYPE'            => 'Class Type',
+		'FACT:Abb'				=> 'Abbreviation',
+#       'ABB'                   => 'Abbreviation',
         'ALLOWBASECLASS',       => 'Base class as subclass?',
 #        'HASSUBSTITUTIONLEVEL'  => 'Substitution levels?',
 #        'HASSPELLFORMULA'        => 'Spell Fomulas?',        # [ 1893279 ] HASSPELLFORMULA Class Line tag # [ 1973497 ] HASSPELLFORMULA is deprecated
@@ -4573,11 +4641,15 @@ my %tagheader = (
         'DOMAINS'       => 'Domains',
         'FOLLOWERALIGN' => 'Clergy AL',
         'DESC'            => 'Description of Deity/Title',
-        'SYMBOL'        => 'Holy Item',
+		'FACT:SYMBOL'			=> 'Holy Item',
+#       'SYMBOL'        => 'Holy Item',
         'DEITYWEAP'     => 'Deity Weapon',
-        'TITLE'         => 'Deity Title',
-        'WORSHIPPERS'   => 'Usual Worshippers',
-        'APPEARANCE'    => 'Deity Appearance',
+		'FACT:TITLE'			=> 'Deity Title',
+#       'TITLE'         => 'Deity Title',
+		'FACTSET:WORSHIPPERS'		=> 'Usual Worshippers',
+#       'WORSHIPPERS'   => 'Usual Worshippers',
+		'FACT:APPEARANCE'		=> 'Deity Appearance',
+#       'APPEARANCE'    => 'Deity Appearance',
         'ABILITY'       => 'Granted Ability',
     },
 
@@ -4700,6 +4772,15 @@ my %tagheader = (
         '000DatacontrolName'        => '# Name',
         'EXPLANATION'            => 'Explanation',
     },
+	'ALIGNMENT' => {
+		'000AlignmentName'		=> '# Name',
+	},
+	'STAT' => {
+		'000StatName'		=> '# Name',
+	},
+	'SAVE' => {
+		'000SaveName'		=> '# Name',
+	},
 
 );
 
@@ -4873,6 +4954,8 @@ if ($cl_options{input_path}) {
         qr(cvs$)i,                # /cvs directories
         qr([.]svn[/])i,           # All .svn directories
         qr([.]svn$)i,             # All .svn directories
+		qr([.]git[/])i,		# All .git directories
+		qr([.]git$)i,		# All .git directories
         qr(customsources$)i,      # /customsources (for files generated by PCGEN)
         qr(gamemodes)i,           # for the system gameModes directories
 #        qr(alpha)i
@@ -11960,6 +12043,22 @@ sub validate_line {
             );
         }
     }
+		elsif ( $linetype eq "CLASS" ) {
+
+		# [ 876536 ] All spell casting classes need CASTERLEVEL
+		#
+		# If SPELLTYPE is present and BONUS:CASTERLEVEL is not present,
+		# we warn the user.
+
+		if ( exists $line_ref->{'FACT:SPELLTYPE'} && !exists $line_ref->{'BONUS:CASTERLEVEL'} ) {
+			$logging->ewarn( INFO,
+				qq{Missing BONUS:CASTERLEVEL for "$line_ref->{$column_with_no_tag{'CLASS'}[0]}[0]"},
+				$file_for_error,
+				$line_for_error
+			);
+		}
+	}
+
     elsif ( $linetype eq 'SKILL' ) {
 
         # We must identify the skills that have sub-entity e.g. Speak Language (Infernal)

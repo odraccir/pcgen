@@ -38,6 +38,7 @@ vendor_file/**
 vendordata/**
 config.ini
 LICENSE
+autobuild.properties
 logging.properties
 pcgen.exe
 pcgen.jar
