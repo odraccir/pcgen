@@ -39,23 +39,23 @@ TEMPLATE:dmg_templates.lst
 #
 HIDETYPE:EQUIP|CrystallBall
 #
-FORWARDREF:RACE|Companion ~ Shocker Lizard,Companion ~ Stirge,Companion ~ Formian (Worker),Companion ~ Devil (Imp),Companion ~ Pseudodragon
-FORWARDREF:RACE|Companion ~ Demon (Quasit),Companion ~ Animal (Celestial/Hawk),Companion ~ Animal (Fiendish/Viper/Tiny)
-FORWARDREF:RACE|Companion ~ Elemental (Air/Small),Companion ~ Elemental (Earth/Small),Companion ~ Elemental (Fire/Small)
-FORWARDREF:RACE|Companion ~ Elemental (Water/Small),Companion ~ Homunculus,Companion ~ Mephit (Ice)
-FORWARDREF:RACE|Companion ~ Human,Companion ~ Dwarf,Companion ~ Elf,Companion ~ Orc,Companion ~ Halfling,Companion ~ Gnome,Companion ~ Half-Elf
-FORWARDREF:RACE|Companion ~ Half-Orc,Companion ~ Blink Dog,Companion ~ Lammasu,Companion ~ Lycanthrope (Werebear),Companion ~ Guardinal (Avoral)
-FORWARDREF:RACE|Companion ~ Eladrin (Bralani),Companion ~ Pegasus,Companion ~ Unicorn,Companion ~ Griffon,Companion ~ Dragonne,Companion ~ Satyr
-FORWARDREF:RACE|Companion ~ Hell Hound,Companion ~ Displacer Beast,Companion ~ Devil (Imp),Companion ~ Green Dragon,Companion ~ Devil (Erinyes)
-FORWARDREF:RACE|Companion ~ Demon (Quasit),Companion ~ Ettin,Companion ~ Bat,Companion ~ Ferret,Companion ~ Hedgehog,Companion ~ Mouse
-FORWARDREF:RACE|Companion ~ Owl (Screech),Companion ~ Toad,Companion ~ Thrush,Companion ~ Leopard,Companion ~ Lizard (Monitor)
-FORWARDREF:RACE|Companion ~ Wolverine,Companion ~ Companion ~ Horse (Celestial/Warhorse/Heavy),Companion ~ Dire Animal (Dire Wolf)
-FORWARDREF:RACE|Companion ~ Hippogrif,Companion ~ Monstrous Spider (Large),Companion ~ Shark (Large),Companion ~ Unicorn
-FORWARDREF:RACE|Companion ~ Pony (Celestial/Warpony),Companion ~ Dire Animal (Dire Bat),Companion ~ Dire animal (Dire Badger)
-FORWARDREF:RACE|Companion ~ Dire Animal (Dire Weasel),Companion ~ Lizard (Giant),Companion ~ Dire animal (Dire Boar),Companion ~ Giant Eagle
-FORWARDREF:RACE|Companion ~ Giant Owl,Companion ~ Pegasus,Companion ~ Rhinoceros,Companion ~ Sea Cat,Companion ~ Dire animal (Dire Lion)
-FORWARDREF:RACE|Companion ~ Griffon
-FORWARDREF:RACE|Companion ~ Shadow,Companion ~ Skeleton (Medium),Companion ~ Zombie (Medium)
+# FORWARDREF:RACE|Companion ~ Shocker Lizard,Companion ~ Stirge,Companion ~ Formian (Worker),Companion ~ Devil (Imp),Companion ~ Pseudodragon
+# FORWARDREF:RACE|Companion ~ Demon (Quasit),Companion ~ Animal (Celestial/Hawk),Companion ~ Animal (Fiendish/Viper/Tiny)
+# FORWARDREF:RACE|Companion ~ Elemental (Air/Small),Companion ~ Elemental (Earth/Small),Companion ~ Elemental (Fire/Small)
+# FORWARDREF:RACE|Companion ~ Elemental (Water/Small),Companion ~ Homunculus,Companion ~ Mephit (Ice)
+# FORWARDREF:RACE|Companion ~ Human,Companion ~ Dwarf,Companion ~ Elf,Companion ~ Orc,Companion ~ Halfling,Companion ~ Gnome,Companion ~ Half-Elf
+# FORWARDREF:RACE|Companion ~ Half-Orc,Companion ~ Blink Dog,Companion ~ Lammasu,Companion ~ Lycanthrope (Werebear),Companion ~ Guardinal (Avoral)
+# FORWARDREF:RACE|Companion ~ Eladrin (Bralani),Companion ~ Pegasus,Companion ~ Unicorn,Companion ~ Griffon,Companion ~ Dragonne,Companion ~ Satyr
+# FORWARDREF:RACE|Companion ~ Hell Hound,Companion ~ Displacer Beast,Companion ~ Devil (Imp),Companion ~ Green Dragon,Companion ~ Devil (Erinyes)
+# FORWARDREF:RACE|Companion ~ Demon (Quasit),Companion ~ Ettin,Companion ~ Bat,Companion ~ Ferret,Companion ~ Hedgehog,Companion ~ Mouse
+# FORWARDREF:RACE|Companion ~ Owl (Screech),Companion ~ Toad,Companion ~ Thrush,Companion ~ Leopard,Companion ~ Lizard (Monitor)
+# FORWARDREF:RACE|Companion ~ Wolverine,Companion ~ Companion ~ Horse (Celestial/Warhorse/Heavy),Companion ~ Dire Animal (Dire Wolf)
+# FORWARDREF:RACE|Companion ~ Hippogrif,Companion ~ Monstrous Spider (Large),Companion ~ Shark (Large),Companion ~ Unicorn
+# FORWARDREF:RACE|Companion ~ Pony (Celestial/Warpony),Companion ~ Dire Animal (Dire Bat),Companion ~ Dire animal (Dire Badger)
+# FORWARDREF:RACE|Companion ~ Dire Animal (Dire Weasel),Companion ~ Lizard (Giant),Companion ~ Dire animal (Dire Boar),Companion ~ Giant Eagle
+# FORWARDREF:RACE|Companion ~ Giant Owl,Companion ~ Pegasus,Companion ~ Rhinoceros,Companion ~ Sea Cat,Companion ~ Dire animal (Dire Lion)
+# FORWARDREF:RACE|Companion ~ Griffon
+# FORWARDREF:RACE|Companion ~ Shadow,Companion ~ Skeleton (Medium),Companion ~ Zombie (Medium)
 
 # FORWARDREF:ABILITY=Special Ability|Fast Healing
 

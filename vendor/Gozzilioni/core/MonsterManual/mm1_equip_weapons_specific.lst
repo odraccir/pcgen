@@ -1,0 +1,56 @@
+SOURCELONG:Gozzilioni Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																								
+#																											
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:					
+Light Rays		KEY:Lantern ~ Light Rays		PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Simple.Touch	COST:0	WT:0	WIELD:Light		SIZE:S	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:MM1							RANGE:30		PREABILITY:1,CATEGORY=Special Ability,Lantern ~ Light Ray
+Electricity Ray		KEY:Arrowhawk ~ Electricity Ray		PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Simple.Touch	COST:0	WT:0	WIELD:Light		SIZE:S	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:MM1							RANGE:50		PREABILITY:1,CATEGORY=Special Ability,Arrowhawk ~ Electricity Ray	BONUS:WEAPON|DAMAGESIZE|ArrowhawkAgeCategory-1
+Eye Rays		KEY:Gauth ~ Eye Rays		PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Simple.Touch	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:0	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:MM1							RANGE:100		PREABILITY:1,CATEGORY=Special Ability,Gauth ~ Eye Rays
+Eye Rays		KEY:Beholder ~ Eye Rays		PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Simple.Touch	COST:0	WT:0	WIELD:Light		SIZE:L	DAMAGE:0	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:MM1							RANGE:150		PREABILITY:1,CATEGORY=Special Ability,Beholder ~ Eye Rays
+
+# BONUS:WEAPON|DAMAGESIZE|(ArrowhawkSizeTracker-1)|PREVARGTEQ:ArrowhawkSizeTracker,2
+# Electricity Ray		KEY:Arrowhawk ~ Electricity Ray ~ S		PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Simple.Touch	COST:0	WT:0	WIELD:Light		SIZE:S	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:MM1							RANGE:50		PREABILITY:1,CATEGORY=Special Ability,Arrowhawk ~ Electricity Ray
+# Electricity Ray		KEY:Arrowhawk ~ Electricity Ray ~ M		PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Simple.Touch	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:2d8	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:MM1							RANGE:50		PREABILITY:1,CATEGORY=Special Ability,Arrowhawk ~ Electricity Ray
+
+# Simple Weapons																											
+## Unarmed																											
+
+## Light																											
+Mace (Heavy)	OUTPUTNAME:Mace, Heavy	KEY:Astral Deva ~ Mace (Heavy)		PROFICIENCY:WEAPON|Mace (Heavy)	TYPE:Enhancement.Weapon.Melee.Simple.Bludgeoning.OneHanded.Mace	COST:0	WT:8	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS3W.DISRUPT_M	SOURCEPAGE:MM1
+
+#
+
+## OneHanded																											
+																											
+## TwoHanded																											
+Greatsword		KEY:Planetar ~ Greatsword		PROFICIENCY:WEAPON|Greatsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.TwoHanded.Sword	COST:50	WT:8	WIELD:TwoHanded		SIZE:L	DAMAGE:3d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS3W	SOURCEPAGE:MM1
+Greatsword		KEY:Solar ~ Greatsword		PROFICIENCY:WEAPON|Greatsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.TwoHanded.Sword	COST:50	WT:8	WIELD:TwoHanded		SIZE:L	DAMAGE:3d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS5W.DANCE	SOURCEPAGE:MM1
+Greatsword		KEY:Trumpet ~ Greatsword		PROFICIENCY:WEAPON|Greatsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.TwoHanded.Sword	COST:50	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.MWORKW.PLUS4W	SOURCEPAGE:MM1
+
+## Ranged																											
+Longbow (Composite)	OUTPUTNAME:Composite Longbow	KEY:Solar ~ Composite Longbow	PROFICIENCY:WEAPON|Longbow	TYPE:Weapon.Ranged.Martial.Piercing.Bow.Longbow.Composite.Container	COST:100	WT:3	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.MWORKW.PLUS2W.BOWSTR|5	SOURCEPAGE:MM1							RANGE:110		CONTAINS:UNLIM|Arrow|SpecificArrow	BONUS:WEAPON|DAMAGE|min(STR,0)
+
+# Martial Weapons																											
+## Light																											
+																											
+## OneHanded																											
+# Adamantine Battleaxe			PROFICIENCY:WEAPON|Battleaxe	TYPE:Weapon.Melee.Martial.Slashing.OneHanded.Axe	COST:10	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:ADAMANT_WEAP	SOURCEPAGE:DMG	SPROP:3010gp.												
+																											
+## TwoHanded																											
+																											
+## Ranged																											
+																											
+# Exotic Weapons																											
+## Light																											
+																											
+## OneHanded																											
+
+## TwoHanded																											
+																											
+## Ranged																											
+																											
+# Arrows																											
+
+## Intelligent
+
+## Cursed
+
+## Artifacts

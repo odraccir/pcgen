@@ -7,11 +7,14 @@ SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzil
 ### Reach/Double/Thrown/Projectile/Ammunition			
 ### Unharmed/Light/OneHanded/TwoHanded			
 ###Automatic			
-Bite	TYPE:Weapon.Natural.Melee.Piercing.Slashing.Bludgeoning
-Claw	TYPE:Weapon.Natural.Melee.Piercing.Slashing
-Talon	TYPE:Weapon.Natural.Melee.Piercing.Slashing
-Gore	TYPE:Weapon.Natural.Melee.Piercing
-Slap	TYPE:Weapon.Natural.Melee.Bludgeoning
-Slam	TYPE:Weapon.Natural.Melee.Bludgeoning
-Sting	TYPE:Weapon.Natural.Melee.Piercing
-Tentacle	TYPE:Weapon.Natural.Melee.Bludgeoning.Slashing
+Bite	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning
+Claw	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing
+Talon	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing
+Gore	TYPE:Weapon.Natural.Finesseable.Melee.Piercing
+Slap	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning
+Slam	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning
+Sting	TYPE:Weapon.Natural.Finesseable.Melee.Piercing
+Tentacle	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing
+#
+Wing	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning
+Tail Slap	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning

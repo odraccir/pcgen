@@ -1,0 +1,28 @@
+SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+
+###Block: Subtrait
+Mindless	VISIBLE:NO	SOURCEPAGE:MM1	DEFINESTAT:NONSTAT|INT
+
+###Block: Race
+##TODO:Check Infernal template
+Abyssal Greater Basilisk	VISIBLE:YES	SOURCEPAGE:MM1	PRERACE:1,Basilisk	PREHD:MIN=18	BONUS:STAT|STR|1	BONUS:STAT|DEX|2	BONUS:STAT|CON|2	BONUS:STAT|INT|1	BONUS:STAT|WIS|-2	BONUS:STAT|CHA|4	SUBRACE:Greater
+
+###Block: Subrace
+Juvenile	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Arrowhawk ~ Juvenile	SUBRACE:Juvenile
+Adult	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Arrowhawk ~ Adult	SUBRACE:Adult
+Elder	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Arrowhawk ~ Elder	SUBRACE:Elder
+
+Common	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Barghest ~ Common	SUBRACE:Common
+Greater	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Barghest ~ Greater	SUBRACE:Greater
+
+###Block: Racial Subrace
+Languages	KEY:Bugbear ~ Common ~ Languages	VISIBLE:NO		LANGBONUS:Draconic,Elven,Giant,Gnoll,Orc
+Favored Class	KEY:Bugbear ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue
+Languages	KEY:Centaur ~ Common ~ Languages	VISIBLE:NO		LANGBONUS:Common,Gnome,Halfling
+Favored Class	KEY:Centaur ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger
+
+
+### Template
+Celestial	TYPE:Inherited	VISIBLE:YES	PRERACE:1,RACETYPE=Animal,RACETYPE=Aberration,RACETYPE=Dragon,RACETYPE=Fey,RACETYPE=Giant,RACETYPE=Humanoid,RACETYPE=Magical Beast,RACETYPE=Monstrous Humanoid,RACETYPE=Plant,RACETYPE=Vermin	!PRERACE:1,RACESUBTYPE=Incorporeal	TEMPLATE:CHOOSE:Celestial ~ Animal|Celestial ~ Vermin	RACESUBTYPE:Extraplanar	ABILITY:Special Ability|AUTOMATIC|Celestial ~ Smite Evil|Resistance To Acid|Resistance To Cold|Resistance To Electricity	BONUS:VAR|DarkvisionRange|60|TYPE=Base	BONUS:VAR|AcidResistanceBonus,ColdResistanceBonus,ElectricityResistanceBonus|5|TYPE=Resistance	BONUS:VAR|AcidResistanceBonus,ColdResistanceBonus,ElectricityResistanceBonus|10|TYPE=Resistance|PREHD:MIN=8	DEFINE:CelestialSR|0	BONUS:VAR|CelestialSR|min(HD+5,25)	SR:CelestialSR	DR:5/Magic|PREHD:MIN=4,MAX=11	DR:10/Magic|PREHD:MIN=12	ABILITY:Special Ability|AUTOMATIC|Celestial ~ Natural Weapons|PREHD:MIN=4	DEFINESTAT:MINVALUE|INT|3	BONUS:MISC|CR|1|PREHD:MIN=4	BONUS:MISC|CR|1|PREHD:MIN=8	KIT:1|LG|NG|CG	LEVELADJUSTMENT:2	
+Celestial ~ Animal	VISIBLE:NO	PRERACE:1,RACETYPE=Animal	RACETYPE:Magical Beast	RACESUBTYPE:Augmented Animal
+Celestial ~ Vermin	VISIBLE:NO	PRERACE:1,RACETYPE=Vermin	RACETYPE:Magical Beast	RACESUBTYPE:Augmented Vermin

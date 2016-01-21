@@ -6,92 +6,271 @@ SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzil
 # Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST								
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)				
 CLASS:Aberration	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AberrationLVL|0	BONUS:VAR|AberrationLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
-CLASS:Aberration	PRERACETYPE:Aberration													
+CLASS:Aberration	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Aberration													
 CLASS:Aberration	STARTSKILLPTS:2	MODTOSKILLS:YES												
 1														
 														
 CLASS:Animal	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AnimalLVL|0	BONUS:VAR|AnimalLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/3)
-CLASS:Animal	PRERACETYPE:Animal	!PRECLASS:1,Animal (Dire)												
+CLASS:Animal	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Animal	!PRECLASS:1,Animal (Dire)												
 CLASS:Animal	STARTSKILLPTS:2	MODTOSKILLS:YES												
 CLASS:Animal	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2-classlevel("APPLIEDAS=NONEPIC")/3|PRERACE:1,RACESUBTYPE=Dire
 														
 CLASS:Construct	HD:10	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:ConstructLVL|0	BONUS:VAR|ConstructLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
-CLASS:Construct	PRERACETYPE:Construct													
+CLASS:Construct	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Construct													
 CLASS:Construct	STARTSKILLPTS:2	MODTOSKILLS:YES												
-														
+
 CLASS:Dragon	HD:12	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:DragonLVL|0	BONUS:VAR|DragonLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/2)
-CLASS:Dragon	PRERACETYPE:Dragon													
+CLASS:Dragon	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Dragon													
 CLASS:Dragon	STARTSKILLPTS:6	MODTOSKILLS:YES												
 														
-CLASS:Elemental	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:ElementalLVL|0	BONUS:VAR|ElementalLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/2)
-CLASS:Elemental	PRERACETYPE:Elemental													
+CLASS:Elemental	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1			BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:ElementalLVL|0	BONUS:VAR|ElementalLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/2)
+CLASS:Elemental	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Elemental													
 CLASS:Elemental	STARTSKILLPTS:2	MODTOSKILLS:YES												
-CLASS:Elemental						BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2-classlevel("APPLIEDAS=NONEPIC")/3|PRERACE:1,RACESUBTYPE=Earth,RACESUBTYPE=Water	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2-classlevel("APPLIEDAS=NONEPIC")/3|PRERACE:1,RACESUBTYPE=Air,RACESUBTYPE=Fire							
+CLASS:Elemental						BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3|PRERACE:1,RACESUBTYPE=Air,RACESUBTYPE=Fire	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3|PRERACE:1,RACESUBTYPE=Earth,RACESUBTYPE=Water
+CLASS:Elemental						BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2|PRERACE:1,RACESUBTYPE=Earth,RACESUBTYPE=Water	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2|PRERACE:1,RACESUBTYPE=Air,RACESUBTYPE=Fire
 														
 CLASS:Fey	HD:6	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()/2|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:FeyLVL|0	BONUS:VAR|FeyLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
-CLASS:Fey	PRERACETYPE:Fey													
+CLASS:Fey	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Fey													
 CLASS:Fey	STARTSKILLPTS:6	MODTOSKILLS:YES												
 														
 CLASS:Giant	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:GiantLVL|0	BONUS:VAR|GiantLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
-CLASS:Giant	PRERACETYPE:Giant													
+CLASS:Giant	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Giant													
 CLASS:Giant	STARTSKILLPTS:2	MODTOSKILLS:YES												
 														
 CLASS:Humanoid	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:HumanoidLVL|0	BONUS:VAR|HumanoidLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
-CLASS:Humanoid	PRERACETYPE:Humanoid	!PRECLASS:1,Humanoid (Fortitude),Humanoid (Will)												
+CLASS:Humanoid	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Humanoid	!PRECLASS:1,Humanoid (Fortitude),Humanoid (Will)												
 CLASS:Humanoid	STARTSKILLPTS:2	MODTOSKILLS:YES												
 														
 CLASS:Magical Beast	HD:10	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:MagicalBeastLVL|0	BONUS:VAR|MagicalBeastLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/3)
-CLASS:Magical Beast	PRERACETYPE:Magical Beast													
+CLASS:Magical Beast	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Magical Beast													
 CLASS:Magical Beast	STARTSKILLPTS:2	MODTOSKILLS:YES												
 														
 CLASS:Monstrous Humanoid	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:MontrousHumanoidLVL|0	BONUS:VAR|MonstrousHumanoidLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/3)
-CLASS:Monstrous Humanoid	PRERACETYPE:Monstrous Humanoid													
+CLASS:Monstrous Humanoid	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Monstrous Humanoid													
 CLASS:Monstrous Humanoid	STARTSKILLPTS:2	MODTOSKILLS:YES												
 														
 CLASS:Ooze	HD:10	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:OozeLVL|0	BONUS:VAR|OozeLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
-CLASS:Ooze	PRERACETYPE:Ooze	!PRECLASS:1,Ooze (Intelligent)												
+CLASS:Ooze	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Ooze	!PRECLASS:1,Ooze (Intelligent)												
 CLASS:Ooze	STARTSKILLPTS:0	MODTOSKILLS:NO												
-														
+1	ABILITY:Special Ability|AUTOMATIC|Mindless
+
 CLASS:Outsider	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:OutsiderLVL|0	BONUS:VAR|OutsiderLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/2)
-CLASS:Outsider	PRERACETYPE:Outsider													
+CLASS:Outsider	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Outsider													
 CLASS:Outsider	STARTSKILLPTS:8	MODTOSKILLS:YES												
 														
 CLASS:Plant	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:PlantLVL|0	BONUS:VAR|PlantLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
-CLASS:Plant	PRERACETYPE:Plant	!PRECLASS:1,Plant (Mindless)												
+CLASS:Plant	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Plant	!PRECLASS:1,Plant (Mindless)												
 CLASS:Plant	STARTSKILLPTS:2	MODTOSKILLS:YES												
 														
 CLASS:Undead	HD:12	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()/2|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:UndeadLVL|0	BONUS:VAR|UndeadLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
-CLASS:Undead	PRERACETYPE:Undead	!PRECLASS:1,Undead (Mindless)												
+CLASS:Undead	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Undead	!PRECLASS:1,Undead (Mindless)												
 CLASS:Undead	STARTSKILLPTS:4	MODTOSKILLS:YES												
 														
 CLASS:Vermin	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:VerminLVL|0	BONUS:VAR|VerminLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
-CLASS:Vermin	PRERACETYPE:Vermin													
+CLASS:Vermin	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Vermin													
 CLASS:Vermin	STARTSKILLPTS:2	MODTOSKILLS:YES												
 
 CLASS:Humanoid (Fortitude)	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:HumanoidLVL|0	BONUS:VAR|HumanoidLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
-CLASS:Humanoid (Fortitude)	PRERACETYPE:Humanoid	!PRECLASS:1,Humanoid,Humanoid (Will)	OUTPUTNAME:Humanoid											
+CLASS:Humanoid (Fortitude)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Humanoid	PREMULT:2,[PRECLASS:1,Humanoid (Fortitude)],[!PRECLASS:1,Humanoid,Humanoid (Will)]	OUTPUTNAME:Humanoid											
 CLASS:Humanoid (Fortitude)	STARTSKILLPTS:2	MODTOSKILLS:YES												
 														
 CLASS:Humanoid (Will)	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:HumanoidLVL|0	BONUS:VAR|HumanoidLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
-CLASS:Humanoid (Will)	PRERACETYPE:Humanoid	!PRECLASS:1,Humanoid,Humanoid (Fortitude)	OUTPUTNAME:Humanoid											
+CLASS:Humanoid (Will)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Humanoid	!PRECLASS:1,Humanoid,Humanoid (Fortitude)	OUTPUTNAME:Humanoid											
 CLASS:Humanoid (Will)	STARTSKILLPTS:2	MODTOSKILLS:YES												
 
 CLASS:Animal (Dire)	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AnimalLVL|0	BONUS:VAR|AnimalLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/3)
-CLASS:Animal (Dire)	PRERACETYPE:Animal	!PRECLASS:1,Animal	OUTPUTNAME:Animal											
+CLASS:Animal (Dire)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Animal	!PRECLASS:1,Animal	OUTPUTNAME:Animal											
 CLASS:Animal (Dire)	STARTSKILLPTS:2	MODTOSKILLS:YES												
 
 CLASS:Construct (Mindless)	HD:10	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:ConstructLVL|0	BONUS:VAR|ConstructLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
-CLASS:Construct (Mindless)	PRERACETYPE:Construct	!PRECLASS:1,Construct	OUTPUTNAME:Construct											
+CLASS:Construct (Mindless)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Construct	!PRECLASS:1,Construct	OUTPUTNAME:Construct											
 CLASS:Construct (Mindless)	STARTSKILLPTS:0	MODTOSKILLS:NO												
-														
+1	ABILITY:Special Ability|AUTOMATIC|Mindless
+
 CLASS:Ooze (Intelligent)	HD:10	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:OozeLVL|0	BONUS:VAR|OozeLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
-CLASS:Ooze (Intelligent)	PRERACETYPE:Ooze	!PRECLASS:1,Ooze	OUTPUTNAME:Ooze											
+CLASS:Ooze (Intelligent)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Ooze	!PRECLASS:1,Ooze	OUTPUTNAME:Ooze											
 CLASS:Ooze (Intelligent)	STARTSKILLPTS:2	MODTOSKILLS:YES												
 														
 CLASS:Plant (Mindless)	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:PlantLVL|0	BONUS:VAR|PlantLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
-CLASS:Plant (Mindless)	PRERACETYPE:Plant	!PRECLASS:1,Plant	OUTPUTNAME:Plant											
+CLASS:Plant (Mindless)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Plant	!PRECLASS:1,Plant	OUTPUTNAME:Plant											
 CLASS:Plant (Mindless)	STARTSKILLPTS:0	MODTOSKILLS:NO												
-														
+1	ABILITY:Special Ability|AUTOMATIC|Mindless
+
 CLASS:Undead (Mindless)	HD:12	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()/2|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:UndeadLVL|0	BONUS:VAR|UndeadLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
-CLASS:Undead (Mindless)	PRERACETYPE:Undead	!PRECLASS:1,Undead	OUTPUTNAME:Undead											
+CLASS:Undead (Mindless)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Undead	!PRECLASS:1,Undead	OUTPUTNAME:Undead											
 CLASS:Undead (Mindless)	STARTSKILLPTS:0	MODTOSKILLS:NO												
+1	ABILITY:Special Ability|AUTOMATIC|Mindless
+
+CLASS:Cleric.MOD
+1	SPELLLEVEL:CLASS|Cleric=1|Obscuring Mist|Cleric=2|Wind Wall|Cleric=3|Gaseous Form|Cleric=4|Air Walk|Cleric=5|Control Winds|Cleric=6|Chain Lightning|Cleric=7|Control Weather|Cleric=8|Whirlwind|Cleric=9|Elemental Swarm|PREVARGTEQ:AirDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Calm Animals|Cleric=2|Hold Animal|Cleric=3|Dominate Animal|Cleric=4|Animal ~ Summon Nature's Ally IV|Cleric=5|Commune with Nature|Cleric=6|Antilife Shell|Cleric=7|Animal Shapes|Cleric=8|Animal ~ Summon Nature's Ally VIII|Cleric=9|Shapechange|PREVARGTEQ:AnimalDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Protection from Law|Cleric=2|Shatter|Cleric=3|Magic Circle against Law|Cleric=4|Chaos Hammer|Cleric=5|Dispel Law|Cleric=6|Animate Objects|Cleric=7|Word of Chaos|Cleric=8|Cloak of Chaos|Cleric=9|Chaos ~ Summon Monster IX|PREVARGTEQ:ChaosDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Cause Fear|Cleric=2|Death Knell|Cleric=3|Animate Dead|Cleric=4|Death Ward|Cleric=5|Slay Living|Cleric=6|Create Undead|Cleric=7|Destruction|Cleric=8|Create Greater Undead|Cleric=9|Wail of the Banshee|PREVARGTEQ:DeathDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Inflict Light Wound|Cleric=2|Shatter|Cleric=3|Contagion|Cleric=4|Inflict Critical Wound|Cleric=5|Inflict Light Wound (Mass)|Cleric=6|Harm|Cleric=7|Disintegrate|Cleric=8|Earthquake|Cleric=9|Implosion|PREVARGTEQ:DestructionDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Magic Stone|Cleric=2|Soften Earth and Stone|Cleric=3|Stone Shape|Cleric=4|Spike Stones|Cleric=5|Wall of Stone|Cleric=6|Stoneskin|Cleric=7|Earthquake|Cleric=8|Iron body|Cleric=9|Earth ~ Elemental Swarm|PREVARGTEQ:EarthDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Protection from Good|Cleric=2|Desecrate|Cleric=3|Magic Circle against Good|Cleric=4|Unholy Blight|Cleric=5|Dispel Good|Cleric=6|Create Undead|Cleric=7|Blasphemy|Cleric=8|Unholy Aura|Cleric=9|Evil ~ Summon Monster IX|PREVARGTEQ:EvilDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Burning Hands|Cleric=2|Produce Flame|Cleric=3|Fire ~ Resist Energy|Cleric=4|Wall of Fire|Cleric=5|Fire Shield|Cleric=6|Fire Seeds|Cleric=7|Fire Storm|Cleric=8|Incendiary Cloud|Cleric=9|Fire ~ Elemental Swarm|PREVARGTEQ:FireDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Protection from Evil|Cleric=2|Aid|Cleric=3|Magic Circle against Evil|Cleric=4|Holy Smite|Cleric=5|Dispel Evil|Cleric=6|Blade Barrier|Cleric=7|Holy Word|Cleric=8|Holy Aura|Cleric=9|Good ~ Summon Monster IX|PREVARGTEQ:GoodDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Cure Light Wounds|Cleric=2|Cure Moderate Wounds|Cleric=3|Cure Serious Wounds|Cleric=4|Cure Critical Wounds|Cleric=5|Cure Light Wounds (Mass)|Cleric=6|Heal|Cleric=7|Regenerate|Cleric=8|Cure Critical Wounds (Mass)|Cleric=9|Heal (Mass)|PREVARGTEQ:HealingDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Detect Secret Doors|Cleric=2|Detect Thoughts|Cleric=3|Clairaudience/Clairvoyance|Cleric=4|Divination|Cleric=5|True Seeing|Cleric=6|Find the Path|Cleric=7|Legend Lore|Cleric=8|Discern Location|Cleric=9|Foresight|PREVARGTEQ:KnowledgeDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Protection from Chaos|Cleric=2|Calm Emotions|Cleric=3|Magic Circle against Chaos|Cleric=4|Order's Wrath|Cleric=5|Dispel Chaos|Cleric=6|Hold Monster|Cleric=7|Dictum|Cleric=8|Shield of Law|Cleric=9|Law ~ Summon Monster IX|PREVARGTEQ:LawDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Entropic Shield|Cleric=2|Aid|Cleric=3|Protection from Energy|Cleric=4|Freedom of Movement|Cleric=5|Break Enchantment|Cleric=6|Mislead|Cleric=7|Spell Turning|Cleric=8|Moment of Prescience|Cleric=9|Miracle|PREVARGTEQ:LuckDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Nystul's Magic Aura|Cleric=2|Identify|Cleric=3|Dispel Magic|Cleric=4|Imbue with Spell Ability|Cleric=5|Spell Resistance|Cleric=6|Antimagic Field|Cleric=7|Spell Turning|Cleric=8|Protection from Spells|Cleric=9|Mordenkainen's Disjunction|PREVARGTEQ:MagicDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Entangle|Cleric=2|Barkskin|Cleric=3|Plant Growth|Cleric=4|Command Plants|Cleric=5|Wall of Thorns|Cleric=6|Repel Wood|Cleric=7|Animate Plants|Cleric=8|Control Plants|Cleric=9|Shambler|PREVARGTEQ:PlantDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Sanctuary|Cleric=2|Shield Other|Cleric=3|Protection from Energy|Cleric=4|Spell Immunity|Cleric=5|Spell Resistance|Cleric=6|Antimagic Field|Cleric=7|Repulsion|Cleric=8|Mind Blank|Cleric=9|Prismatic Sphere|PREVARGTEQ:ProtectionDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Enlarge Person|Cleric=2|Bull's Strength|Cleric=3|Magic Vestment|Cleric=4|Spell Immunity|Cleric=5|Righteous Might|Cleric=6|Stoneskin|Cleric=7|Bigby's Grasping Hand|Cleric=8|Bigby's Clenched Fist|Cleric=9|Bigby's Crushing Hand|PREVARGTEQ:StrengthDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Endure Elements|Cleric=2|Heat Metal|Cleric=3|Searing Light|Cleric=4|Fire Shield|Cleric=5|Flame Strike|Cleric=6|Fire Seeds|Cleric=7|Sunbeam|Cleric=8|Sunburst|Cleric=9|Prismatic Sphere|PREVARGTEQ:SunDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Longstrider|Cleric=2|Locate Object|Cleric=3|Fly|Cleric=4|Dimension Door|Cleric=5|Teleport|Cleric=6|Find the Path|Cleric=7|Teleport (Greater)|Cleric=8|Phase Door|Cleric=9|Astral Projection|PREVARGTEQ:TravelDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Disguise Self|Cleric=2|Invisibility|Cleric=3|Nondetection|Cleric=4|Confusion|Cleric=5|False Vision|Cleric=6|Mislead|Cleric=7|Screen|Cleric=8|Polymorph Any Object|Cleric=9|Time Stop|PREVARGTEQ:TrickeryDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Magic Weapon|Cleric=2|Spiritual Weapon|Cleric=3|Magic Vestment|Cleric=4|Divine Power|Cleric=5|Flame Strike|Cleric=6|Blade Barrier|Cleric=7|Power Word Blind|Cleric=8|Power Word Stun|Cleric=9|Power Word Kill|PREVARGTEQ:WarDomainAllowed,1
+1	SPELLLEVEL:CLASS|Cleric=1|Obscuring Mist|Cleric=2|Fog Cloud|Cleric=3|Water Breathing|Cleric=4|Control Water|Cleric=5|Ice Storm|Cleric=6|Cone of Cold|Cleric=7|Acid Fog|Cleric=8|Horrid Wilting|Cleric=9|Water ~ Elemental Swarm|PREVARGTEQ:WaterDomainAllowed,1
+
+CLASS:Sorcerer.MOD
+1	SPELLLEVEL:CLASS|Sorcerer=1|Obscuring Mist|Sorcerer=2|Wind Wall|Sorcerer=3|Gaseous Form|Sorcerer=4|Air Walk|Sorcerer=5|Control Winds|Sorcerer=6|Chain Lightning|Sorcerer=7|Control Weather|Sorcerer=8|Whirlwind|Sorcerer=9|Elemental Swarm|PREVARGTEQ:AirDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Calm Animals|Sorcerer=2|Hold Animal|Sorcerer=3|Dominate Animal|Sorcerer=4|Animal ~ Summon Nature's Ally IV|Sorcerer=5|Commune with Nature|Sorcerer=6|Antilife Shell|Sorcerer=7|Animal Shapes|Sorcerer=8|Animal ~ Summon Nature's Ally VIII|Sorcerer=9|Shapechange|PREVARGTEQ:AnimalDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Protection from Law|Sorcerer=2|Shatter|Sorcerer=3|Magic Circle against Law|Sorcerer=4|Chaos Hammer|Sorcerer=5|Dispel Law|Sorcerer=6|Animate Objects|Sorcerer=7|Word of Chaos|Sorcerer=8|Cloak of Chaos|Sorcerer=9|Chaos ~ Summon Monster IX|PREVARGTEQ:ChaosDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Cause Fear|Sorcerer=2|Death Knell|Sorcerer=3|Animate Dead|Sorcerer=4|Death Ward|Sorcerer=5|Slay Living|Sorcerer=6|Create Undead|Sorcerer=7|Destruction|Sorcerer=8|Create Greater Undead|Sorcerer=9|Wail of the Banshee|PREVARGTEQ:DeathDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Inflict Light Wound|Sorcerer=2|Shatter|Sorcerer=3|Contagion|Sorcerer=4|Inflict Critical Wound|Sorcerer=5|Inflict Light Wound (Mass)|Sorcerer=6|Harm|Sorcerer=7|Disintegrate|Sorcerer=8|Earthquake|Sorcerer=9|Implosion|PREVARGTEQ:DestructionDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Magic Stone|Sorcerer=2|Soften Earth and Stone|Sorcerer=3|Stone Shape|Sorcerer=4|Spike Stones|Sorcerer=5|Wall of Stone|Sorcerer=6|Stoneskin|Sorcerer=7|Earthquake|Sorcerer=8|Iron body|Sorcerer=9|Earth ~ Elemental Swarm|PREVARGTEQ:EarthDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Protection from Good|Sorcerer=2|Desecrate|Sorcerer=3|Magic Circle against Good|Sorcerer=4|Unholy Blight|Sorcerer=5|Dispel Good|Sorcerer=6|Create Undead|Sorcerer=7|Blasphemy|Sorcerer=8|Unholy Aura|Sorcerer=9|Evil ~ Summon Monster IX|PREVARGTEQ:EvilDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Burning Hands|Sorcerer=2|Produce Flame|Sorcerer=3|Fire ~ Resist Energy|Sorcerer=4|Wall of Fire|Sorcerer=5|Fire Shield|Sorcerer=6|Fire Seeds|Sorcerer=7|Fire Storm|Sorcerer=8|Incendiary Cloud|Sorcerer=9|Fire ~ Elemental Swarm|PREVARGTEQ:FireDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Protection from Evil|Sorcerer=2|Aid|Sorcerer=3|Magic Circle against Evil|Sorcerer=4|Holy Smite|Sorcerer=5|Dispel Evil|Sorcerer=6|Blade Barrier|Sorcerer=7|Holy Word|Sorcerer=8|Holy Aura|Sorcerer=9|Good ~ Summon Monster IX|PREVARGTEQ:GoodDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Cure Light Wounds|Sorcerer=2|Cure Moderate Wounds|Sorcerer=3|Cure Serious Wounds|Sorcerer=4|Cure Critical Wounds|Sorcerer=5|Cure Light Wounds (Mass)|Sorcerer=6|Heal|Sorcerer=7|Regenerate|Sorcerer=8|Cure Critical Wounds (Mass)|Sorcerer=9|Heal (Mass)|PREVARGTEQ:HealingDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Detect Secret Doors|Sorcerer=2|Detect Thoughts|Sorcerer=3|Clairaudience/Clairvoyance|Sorcerer=4|Divination|Sorcerer=5|True Seeing|Sorcerer=6|Find the Path|Sorcerer=7|Legend Lore|Sorcerer=8|Discern Location|Sorcerer=9|Foresight|PREVARGTEQ:KnowledgeDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Protection from Chaos|Sorcerer=2|Calm Emotions|Sorcerer=3|Magic Circle against Chaos|Sorcerer=4|Order's Wrath|Sorcerer=5|Dispel Chaos|Sorcerer=6|Hold Monster|Sorcerer=7|Dictum|Sorcerer=8|Shield of Law|Sorcerer=9|Law ~ Summon Monster IX|PREVARGTEQ:LawDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Entropic Shield|Sorcerer=2|Aid|Sorcerer=3|Protection from Energy|Sorcerer=4|Freedom of Movement|Sorcerer=5|Break Enchantment|Sorcerer=6|Mislead|Sorcerer=7|Spell Turning|Sorcerer=8|Moment of Prescience|Sorcerer=9|Miracle|PREVARGTEQ:LuckDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Nystul's Magic Aura|Sorcerer=2|Identify|Sorcerer=3|Dispel Magic|Sorcerer=4|Imbue with Spell Ability|Sorcerer=5|Spell Resistance|Sorcerer=6|Antimagic Field|Sorcerer=7|Spell Turning|Sorcerer=8|Protection from Spells|Sorcerer=9|Mordenkainen's Disjunction|PREVARGTEQ:MagicDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Entangle|Sorcerer=2|Barkskin|Sorcerer=3|Plant Growth|Sorcerer=4|Command Plants|Sorcerer=5|Wall of Thorns|Sorcerer=6|Repel Wood|Sorcerer=7|Animate Plants|Sorcerer=8|Control Plants|Sorcerer=9|Shambler|PREVARGTEQ:PlantDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Sanctuary|Sorcerer=2|Shield Other|Sorcerer=3|Protection from Energy|Sorcerer=4|Spell Immunity|Sorcerer=5|Spell Resistance|Sorcerer=6|Antimagic Field|Sorcerer=7|Repulsion|Sorcerer=8|Mind Blank|Sorcerer=9|Prismatic Sphere|PREVARGTEQ:ProtectionDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Enlarge Person|Sorcerer=2|Bull's Strength|Sorcerer=3|Magic Vestment|Sorcerer=4|Spell Immunity|Sorcerer=5|Righteous Might|Sorcerer=6|Stoneskin|Sorcerer=7|Bigby's Grasping Hand|Sorcerer=8|Bigby's Clenched Fist|Sorcerer=9|Bigby's Crushing Hand|PREVARGTEQ:StrengthDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Endure Elements|Sorcerer=2|Heat Metal|Sorcerer=3|Searing Light|Sorcerer=4|Fire Shield|Sorcerer=5|Flame Strike|Sorcerer=6|Fire Seeds|Sorcerer=7|Sunbeam|Sorcerer=8|Sunburst|Sorcerer=9|Prismatic Sphere|PREVARGTEQ:SunDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Longstrider|Sorcerer=2|Locate Object|Sorcerer=3|Fly|Sorcerer=4|Dimension Door|Sorcerer=5|Teleport|Sorcerer=6|Find the Path|Sorcerer=7|Teleport (Greater)|Sorcerer=8|Phase Door|Sorcerer=9|Astral Projection|PREVARGTEQ:TravelDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Disguise Self|Sorcerer=2|Invisibility|Sorcerer=3|Nondetection|Sorcerer=4|Confusion|Sorcerer=5|False Vision|Sorcerer=6|Mislead|Sorcerer=7|Screen|Sorcerer=8|Polymorph Any Object|Sorcerer=9|Time Stop|PREVARGTEQ:TrickeryDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Magic Weapon|Sorcerer=2|Spiritual Weapon|Sorcerer=3|Magic Vestment|Sorcerer=4|Divine Power|Sorcerer=5|Flame Strike|Sorcerer=6|Blade Barrier|Sorcerer=7|Power Word Blind|Sorcerer=8|Power Word Stun|Sorcerer=9|Power Word Kill|PREVARGTEQ:WarDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer=1|Obscuring Mist|Sorcerer=2|Fog Cloud|Sorcerer=3|Water Breathing|Sorcerer=4|Control Water|Sorcerer=5|Ice Storm|Sorcerer=6|Cone of Cold|Sorcerer=7|Acid Fog|Sorcerer=8|Horrid Wilting|Sorcerer=9|Water ~ Elemental Swarm|PREVARGTEQ:WaterDomainAllowed,1
+
+CLASS:Sorcerer/Cleric	VISIBLE:NO	FACT:SpellType|Arcane	OUTPUTNAME:Sorcerer
+CLASS:Sorcerer/Cleric	SPELLSTAT:CHA	MEMORIZE:NO	BONUS:CASTERLEVEL|Sorcerer/Cleric|CL	SPELLLIST:2|Sorcerer|Cleric
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Obscuring Mist|Sorcerer/Cleric=2|Wind Wall|Sorcerer/Cleric=3|Gaseous Form|Sorcerer/Cleric=4|Air Walk|Sorcerer/Cleric=5|Control Winds|Sorcerer/Cleric=6|Chain Lightning|Sorcerer/Cleric=7|Control Weather|Sorcerer/Cleric=8|Whirlwind|Sorcerer/Cleric=9|Elemental Swarm|PREVARGTEQ:AirDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Calm Animals|Sorcerer/Cleric=2|Hold Animal|Sorcerer/Cleric=3|Dominate Animal|Sorcerer/Cleric=4|Animal ~ Summon Nature's Ally IV|Sorcerer/Cleric=5|Commune with Nature|Sorcerer/Cleric=6|Antilife Shell|Sorcerer/Cleric=7|Animal Shapes|Sorcerer/Cleric=8|Animal ~ Summon Nature's Ally VIII|Sorcerer/Cleric=9|Shapechange|PREVARGTEQ:AnimalDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Protection from Law|Sorcerer/Cleric=2|Shatter|Sorcerer/Cleric=3|Magic Circle against Law|Sorcerer/Cleric=4|Chaos Hammer|Sorcerer/Cleric=5|Dispel Law|Sorcerer/Cleric=6|Animate Objects|Sorcerer/Cleric=7|Word of Chaos|Sorcerer/Cleric=8|Cloak of Chaos|Sorcerer/Cleric=9|Chaos ~ Summon Monster IX|PREVARGTEQ:ChaosDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Cause Fear|Sorcerer/Cleric=2|Death Knell|Sorcerer/Cleric=3|Animate Dead|Sorcerer/Cleric=4|Death Ward|Sorcerer/Cleric=5|Slay Living|Sorcerer/Cleric=6|Create Undead|Sorcerer/Cleric=7|Destruction|Sorcerer/Cleric=8|Create Greater Undead|Sorcerer/Cleric=9|Wail of the Banshee|PREVARGTEQ:DeathDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Inflict Light Wound|Sorcerer/Cleric=2|Shatter|Sorcerer/Cleric=3|Contagion|Sorcerer/Cleric=4|Inflict Critical Wound|Sorcerer/Cleric=5|Inflict Light Wound (Mass)|Sorcerer/Cleric=6|Harm|Sorcerer/Cleric=7|Disintegrate|Sorcerer/Cleric=8|Earthquake|Sorcerer/Cleric=9|Implosion|PREVARGTEQ:DestructionDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Magic Stone|Sorcerer/Cleric=2|Soften Earth and Stone|Sorcerer/Cleric=3|Stone Shape|Sorcerer/Cleric=4|Spike Stones|Sorcerer/Cleric=5|Wall of Stone|Sorcerer/Cleric=6|Stoneskin|Sorcerer/Cleric=7|Earthquake|Sorcerer/Cleric=8|Iron body|Sorcerer/Cleric=9|Earth ~ Elemental Swarm|PREVARGTEQ:EarthDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Protection from Good|Sorcerer/Cleric=2|Desecrate|Sorcerer/Cleric=3|Magic Circle against Good|Sorcerer/Cleric=4|Unholy Blight|Sorcerer/Cleric=5|Dispel Good|Sorcerer/Cleric=6|Create Undead|Sorcerer/Cleric=7|Blasphemy|Sorcerer/Cleric=8|Unholy Aura|Sorcerer/Cleric=9|Evil ~ Summon Monster IX|PREVARGTEQ:EvilDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Burning Hands|Sorcerer/Cleric=2|Produce Flame|Sorcerer/Cleric=3|Fire ~ Resist Energy|Sorcerer/Cleric=4|Wall of Fire|Sorcerer/Cleric=5|Fire Shield|Sorcerer/Cleric=6|Fire Seeds|Sorcerer/Cleric=7|Fire Storm|Sorcerer/Cleric=8|Incendiary Cloud|Sorcerer/Cleric=9|Fire ~ Elemental Swarm|PREVARGTEQ:FireDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Protection from Evil|Sorcerer/Cleric=2|Aid|Sorcerer/Cleric=3|Magic Circle against Evil|Sorcerer/Cleric=4|Holy Smite|Sorcerer/Cleric=5|Dispel Evil|Sorcerer/Cleric=6|Blade Barrier|Sorcerer/Cleric=7|Holy Word|Sorcerer/Cleric=8|Holy Aura|Sorcerer/Cleric=9|Good ~ Summon Monster IX|PREVARGTEQ:GoodDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Cure Light Wounds|Sorcerer/Cleric=2|Cure Moderate Wounds|Sorcerer/Cleric=3|Cure Serious Wounds|Sorcerer/Cleric=4|Cure Critical Wounds|Sorcerer/Cleric=5|Cure Light Wounds (Mass)|Sorcerer/Cleric=6|Heal|Sorcerer/Cleric=7|Regenerate|Sorcerer/Cleric=8|Cure Critical Wounds (Mass)|Sorcerer/Cleric=9|Heal (Mass)|PREVARGTEQ:HealingDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Detect Secret Doors|Sorcerer/Cleric=2|Detect Thoughts|Sorcerer/Cleric=3|Clairaudience/Clairvoyance|Sorcerer/Cleric=4|Divination|Sorcerer/Cleric=5|True Seeing|Sorcerer/Cleric=6|Find the Path|Sorcerer/Cleric=7|Legend Lore|Sorcerer/Cleric=8|Discern Location|Sorcerer/Cleric=9|Foresight|PREVARGTEQ:KnowledgeDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Protection from Chaos|Sorcerer/Cleric=2|Calm Emotions|Sorcerer/Cleric=3|Magic Circle against Chaos|Sorcerer/Cleric=4|Order's Wrath|Sorcerer/Cleric=5|Dispel Chaos|Sorcerer/Cleric=6|Hold Monster|Sorcerer/Cleric=7|Dictum|Sorcerer/Cleric=8|Shield of Law|Sorcerer/Cleric=9|Law ~ Summon Monster IX|PREVARGTEQ:LawDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Entropic Shield|Sorcerer/Cleric=2|Aid|Sorcerer/Cleric=3|Protection from Energy|Sorcerer/Cleric=4|Freedom of Movement|Sorcerer/Cleric=5|Break Enchantment|Sorcerer/Cleric=6|Mislead|Sorcerer/Cleric=7|Spell Turning|Sorcerer/Cleric=8|Moment of Prescience|Sorcerer/Cleric=9|Miracle|PREVARGTEQ:LuckDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Nystul's Magic Aura|Sorcerer/Cleric=2|Identify|Sorcerer/Cleric=3|Dispel Magic|Sorcerer/Cleric=4|Imbue with Spell Ability|Sorcerer/Cleric=5|Spell Resistance|Sorcerer/Cleric=6|Antimagic Field|Sorcerer/Cleric=7|Spell Turning|Sorcerer/Cleric=8|Protection from Spells|Sorcerer/Cleric=9|Mordenkainen's Disjunction|PREVARGTEQ:MagicDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Entangle|Sorcerer/Cleric=2|Barkskin|Sorcerer/Cleric=3|Plant Growth|Sorcerer/Cleric=4|Command Plants|Sorcerer/Cleric=5|Wall of Thorns|Sorcerer/Cleric=6|Repel Wood|Sorcerer/Cleric=7|Animate Plants|Sorcerer/Cleric=8|Control Plants|Sorcerer/Cleric=9|Shambler|PREVARGTEQ:PlantDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Sanctuary|Sorcerer/Cleric=2|Shield Other|Sorcerer/Cleric=3|Protection from Energy|Sorcerer/Cleric=4|Spell Immunity|Sorcerer/Cleric=5|Spell Resistance|Sorcerer/Cleric=6|Antimagic Field|Sorcerer/Cleric=7|Repulsion|Sorcerer/Cleric=8|Mind Blank|Sorcerer/Cleric=9|Prismatic Sphere|PREVARGTEQ:ProtectionDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Enlarge Person|Sorcerer/Cleric=2|Bull's Strength|Sorcerer/Cleric=3|Magic Vestment|Sorcerer/Cleric=4|Spell Immunity|Sorcerer/Cleric=5|Righteous Might|Sorcerer/Cleric=6|Stoneskin|Sorcerer/Cleric=7|Bigby's Grasping Hand|Sorcerer/Cleric=8|Bigby's Clenched Fist|Sorcerer/Cleric=9|Bigby's Crushing Hand|PREVARGTEQ:StrengthDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Endure Elements|Sorcerer/Cleric=2|Heat Metal|Sorcerer/Cleric=3|Searing Light|Sorcerer/Cleric=4|Fire Shield|Sorcerer/Cleric=5|Flame Strike|Sorcerer/Cleric=6|Fire Seeds|Sorcerer/Cleric=7|Sunbeam|Sorcerer/Cleric=8|Sunburst|Sorcerer/Cleric=9|Prismatic Sphere|PREVARGTEQ:SunDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Longstrider|Sorcerer/Cleric=2|Locate Object|Sorcerer/Cleric=3|Fly|Sorcerer/Cleric=4|Dimension Door|Sorcerer/Cleric=5|Teleport|Sorcerer/Cleric=6|Find the Path|Sorcerer/Cleric=7|Teleport (Greater)|Sorcerer/Cleric=8|Phase Door|Sorcerer/Cleric=9|Astral Projection|PREVARGTEQ:TravelDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Disguise Self|Sorcerer/Cleric=2|Invisibility|Sorcerer/Cleric=3|Nondetection|Sorcerer/Cleric=4|Confusion|Sorcerer/Cleric=5|False Vision|Sorcerer/Cleric=6|Mislead|Sorcerer/Cleric=7|Screen|Sorcerer/Cleric=8|Polymorph Any Object|Sorcerer/Cleric=9|Time Stop|PREVARGTEQ:TrickeryDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Magic Weapon|Sorcerer/Cleric=2|Spiritual Weapon|Sorcerer/Cleric=3|Magic Vestment|Sorcerer/Cleric=4|Divine Power|Sorcerer/Cleric=5|Flame Strike|Sorcerer/Cleric=6|Blade Barrier|Sorcerer/Cleric=7|Power Word Blind|Sorcerer/Cleric=8|Power Word Stun|Sorcerer/Cleric=9|Power Word Kill|PREVARGTEQ:WarDomainAllowed,1
+1	SPELLLEVEL:CLASS|Sorcerer/Cleric=1|Obscuring Mist|Sorcerer/Cleric=2|Fog Cloud|Sorcerer/Cleric=3|Water Breathing|Sorcerer/Cleric=4|Control Water|Sorcerer/Cleric=5|Ice Storm|Sorcerer/Cleric=6|Cone of Cold|Sorcerer/Cleric=7|Acid Fog|Sorcerer/Cleric=8|Horrid Wilting|Sorcerer/Cleric=9|Water ~ Elemental Swarm|PREVARGTEQ:WaterDomainAllowed,1
+#
+1	CAST:5,3	KNOWN:4,2												
+2	CAST:6,4	KNOWN:5,2												
+3	CAST:6,5	KNOWN:5,3												
+4	CAST:6,6,3	KNOWN:6,3,1												
+5	CAST:6,6,4	KNOWN:6,4,2												
+6	CAST:6,6,5,3	KNOWN:7,4,2,1												
+7	CAST:6,6,6,4	KNOWN:7,5,3,2												
+8	CAST:6,6,6,5,3	KNOWN:8,5,3,2,1												
+9	CAST:6,6,6,6,4	KNOWN:8,5,4,3,2												
+10	CAST:6,6,6,6,5,3	KNOWN:9,5,4,3,2,1												
+11	CAST:6,6,6,6,6,4	KNOWN:9,5,5,4,3,2												
+12	CAST:6,6,6,6,6,5,3	KNOWN:9,5,5,4,3,2,1												
+13	CAST:6,6,6,6,6,6,4	KNOWN:9,5,5,4,4,3,2												
+14	CAST:6,6,6,6,6,6,5,3	KNOWN:9,5,5,4,4,3,2,1												
+15	CAST:6,6,6,6,6,6,6,4	KNOWN:9,5,5,4,4,4,3,2												
+16	CAST:6,6,6,6,6,6,6,5,3	KNOWN:9,5,5,4,4,4,3,2,1												
+17	CAST:6,6,6,6,6,6,6,6,4	KNOWN:9,5,5,4,4,4,3,3,2												
+18	CAST:6,6,6,6,6,6,6,6,5,3	KNOWN:9,5,5,4,4,4,3,3,2,1												
+19	CAST:6,6,6,6,6,6,6,6,6,4	KNOWN:9,5,5,4,4,4,3,3,3,2												
+20	CAST:6,6,6,6,6,6,6,6,6,6	KNOWN:9,5,5,4,4,4,3,3,3,3												
+
+CLASS:Planetar	HD:8	TYPE:Monster		MAXLEVEL:14	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:OutsiderLVL|0	BONUS:VAR|OutsiderLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/2)
+CLASS:Planetar	PRERACETYPE:Outsider	PRERACE:1,Angel (Planetar)	OUTPUTNAME:Outsider	VISIBLE:NO										
+CLASS:Planetar	STARTSKILLPTS:8	MODTOSKILLS:YES												
+1	ADD:SPELLCASTER|Cleric	ABILITY:Internal|AUTOMATIC|Cleric Class
+1	BONUS:ABILITYPOOL|Monster Domains|2	BONUS:VAR|AirDomainAllowed,DestructionDomainAllowed,GoodDomainAllowed,LawDomainAllowed,WarDomainAllowed|1|TYPE=Base
+2	BONUS:PCLEVEL|Cleric|1
+3	BONUS:PCLEVEL|Cleric|1
+4	BONUS:PCLEVEL|Cleric|2
+5	BONUS:PCLEVEL|Cleric|1
+6	BONUS:PCLEVEL|Cleric|1
+7	BONUS:PCLEVEL|Cleric|1
+8	BONUS:PCLEVEL|Cleric|2
+9	BONUS:PCLEVEL|Cleric|1
+10	BONUS:PCLEVEL|Cleric|1
+11	BONUS:PCLEVEL|Cleric|1
+12	BONUS:PCLEVEL|Cleric|2
+13	BONUS:PCLEVEL|Cleric|1
+14	BONUS:PCLEVEL|Cleric|1
+
+CLASS:Solar	HD:8	TYPE:Monster		MAXLEVEL:14	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:OutsiderLVL|0	BONUS:VAR|OutsiderLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/2)
+CLASS:Solar	PRERACETYPE:Outsider	PRERACE:1,Angel (Solar)	OUTPUTNAME:Outsider	VISIBLE:NO										
+CLASS:Solar	STARTSKILLPTS:8	MODTOSKILLS:YES												
+1	ADD:SPELLCASTER|Cleric	ABILITY:Internal|AUTOMATIC|Cleric Class
+1	BONUS:ABILITYPOOL|Monster Domains|2	BONUS:VAR|AirDomainAllowed,DestructionDomainAllowed,GoodDomainAllowed,LawDomainAllowed,WarDomainAllowed|1|TYPE=Base
+2	BONUS:PCLEVEL|Cleric|1
+3	BONUS:PCLEVEL|Cleric|1
+4	BONUS:PCLEVEL|Cleric|1
+5	BONUS:PCLEVEL|Cleric|1
+6	BONUS:PCLEVEL|Cleric|1
+7	BONUS:PCLEVEL|Cleric|1
+8	BONUS:PCLEVEL|Cleric|1
+9	BONUS:PCLEVEL|Cleric|2
+10	BONUS:PCLEVEL|Cleric|1
+11	BONUS:PCLEVEL|Cleric|1
+12	BONUS:PCLEVEL|Cleric|1
+13	BONUS:PCLEVEL|Cleric|1
+14	BONUS:PCLEVEL|Cleric|1
+15	BONUS:PCLEVEL|Cleric|1
+16	BONUS:PCLEVEL|Cleric|1
+17	BONUS:PCLEVEL|Cleric|1
+18	BONUS:PCLEVEL|Cleric|2
+
+CLASS:Aranea	HD:10	TYPE:Monster		MAXLEVEL:3	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:MagicalBeastLVL|0	BONUS:VAR|MagicalBeastLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/3)
+CLASS:Aranea	PRERACETYPE:Magical Beast	PRERACE:1,Aranea	OUTPUTNAME:Magical Beast	VISIBLE:NO										
+CLASS:Aranea	STARTSKILLPTS:2	MODTOSKILLS:YES												
+1	ADD:SPELLCASTER|Sorcerer	ABILITY:Internal|AUTOMATIC|Sorcerer Class
+2	BONUS:PCLEVEL|Sorcerer|1
+3	BONUS:PCLEVEL|Sorcerer|1
+
+CLASS:Trumpet	HD:8	TYPE:Monster		MAXLEVEL:12	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:OutsiderLVL|0	BONUS:VAR|OutsiderLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/2)
+CLASS:Trumpet	PRERACETYPE:Outsider	PRERACE:1,Archon (Trumpet)	OUTPUTNAME:Outsider	VISIBLE:NO										
+CLASS:Trumpet	STARTSKILLPTS:8	MODTOSKILLS:YES												
+1	ADD:SPELLCASTER|Cleric	ABILITY:Internal|AUTOMATIC|Cleric Class
+1	BONUS:ABILITYPOOL|Monster Domains|2	BONUS:VAR|AirDomainAllowed,DestructionDomainAllowed,GoodDomainAllowed,LawDomainAllowed,WarDomainAllowed|1|TYPE=Base
+2	BONUS:PCLEVEL|Cleric|1
+3	BONUS:PCLEVEL|Cleric|1
+4	BONUS:PCLEVEL|Cleric|1
+5	BONUS:PCLEVEL|Cleric|1
+6	BONUS:PCLEVEL|Cleric|2
+7	BONUS:PCLEVEL|Cleric|1
+8	BONUS:PCLEVEL|Cleric|1
+9	BONUS:PCLEVEL|Cleric|1
+10	BONUS:PCLEVEL|Cleric|1
+11	BONUS:PCLEVEL|Cleric|1
+12	BONUS:PCLEVEL|Cleric|2
+
+CLASS:Couatl	HD:8	TYPE:Monster		MAXLEVEL:9	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:OutsiderLVL|0	BONUS:VAR|OutsiderLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/2)
+CLASS:Couatl	PRERACETYPE:Outsider	PRERACE:1,Couatl	OUTPUTNAME:Outsider	VISIBLE:NO										
+CLASS:Couatl	STARTSKILLPTS:8	MODTOSKILLS:YES												
+1	ADD:SPELLCASTER|Sorcerer/Cleric	ABILITY:Internal|AUTOMATIC|Sorcerer/Cleric Class
+1	BONUS:ABILITYPOOL|Monster Domains|3	BONUS:VAR|AirDomainAllowed,GoodDomainAllowed,LawDomainAllowed|1|TYPE=Base
+2	BONUS:PCLEVEL|Sorcerer/Cleric|1
+3	BONUS:PCLEVEL|Sorcerer/Cleric|1
+4	BONUS:PCLEVEL|Sorcerer/Cleric|1
+5	BONUS:PCLEVEL|Sorcerer/Cleric|1
+6	BONUS:PCLEVEL|Sorcerer/Cleric|1
+7	BONUS:PCLEVEL|Sorcerer/Cleric|1
+8	BONUS:PCLEVEL|Sorcerer/Cleric|1
+9	BONUS:PCLEVEL|Sorcerer/Cleric|1

@@ -16,7 +16,7 @@ PUBNAMEWEB:http://www.gozzilioni.net
 
 PRECAMPAIGN:1,Gozzilioni Core Ruleset
 
-# ABILITY:phb_abilities.lst
+ABILITY:mm1_abilities.lst
 # ABILITY:phb_abilities_classes.lst
 ABILITY:mm1_abilities_races.lst
 ABILITYCATEGORY:mm1_abilitycategories.lst
@@ -27,18 +27,19 @@ CLASS:mm1_classes.lst
 # DOMAIN:phb_domains.lst
 # EQUIPMENT:phb_equip.lst
 # EQUIPMENT:phb_equip_armors.lst
-# EQUIPMENT:phb_equip_weapons.lst
+EQUIPMENT:mm1_equip_weapons_specific.lst
 # EQUIPMOD:phb_equipmods.lst
-# ABILITY:phb_feats.lst
+ABILITY:mm1_feats.lst
 KIT:mm1_kits.lst
 LANGUAGE:mm1_languages.lst
 # ARMORPROF:phb_profs_armor.lst
 # SHIELDPROF:phb_profs_shield.lst
 WEAPONPROF:mm1_profs_weapon.lst
 RACE:mm1_races.lst
+RACE:mm1_races_companion.lst
 SKILL:mm1_skills.lst
 SPELL:mm1_spells.lst
-TEMPLATE:mm1_templates_hidden.lst
+TEMPLATE:mm1_templates.lst
 
 #
 # HIDETYPE:SKILL|Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma

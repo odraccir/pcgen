@@ -48,31 +48,31 @@ Perform (String Instruments)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Pe
 Perform (Wind Instruments)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Wind Instruments)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
 Perform (Sing)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Sing)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
 Perform (Untrained)	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Act)	SOURCEPAGE:PHB	VISIBLE:EXPORT																																												
-Profession (Apothecary)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Apothecary)	SOURCEPAGE:PHB																																													
-Profession (Boater)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Boater)	SOURCEPAGE:PHB																																													
-Profession (Bookkeeper)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Bookkeeper)	SOURCEPAGE:PHB																																													
-Profession (Brewer)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Brewer)	SOURCEPAGE:PHB																																													
-Profession (Cook)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Cook)	SOURCEPAGE:PHB																																													
-Profession (Driver)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Driver)	SOURCEPAGE:PHB																																													
-Profession (Farmer)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Farmer)	SOURCEPAGE:PHB																																													
-Profession (Fisher)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Fisher)	SOURCEPAGE:PHB																																													
-Profession (Guide)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Guide)	SOURCEPAGE:PHB																																													
-Profession (Herbalist)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Herbalist)	SOURCEPAGE:PHB																																													
-Profession (Herder)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Herder)	SOURCEPAGE:PHB																																													
-Profession (Hunter)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Hunter)	SOURCEPAGE:PHB																																													
-Profession (Innkeeper)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Innkeeper)	SOURCEPAGE:PHB																																													
-Profession (Lumberjack)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Lumberjack)	SOURCEPAGE:PHB																																													
-Profession (Miller)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Miller)	SOURCEPAGE:PHB																																													
-Profession (Miner)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Miner)	SOURCEPAGE:PHB																																													
-Profession (Porter)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Porter)	SOURCEPAGE:PHB																																													
-Profession (Rancher)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Rancher)	SOURCEPAGE:PHB																																													
-Profession (Sailor)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Sailor)	SOURCEPAGE:PHB																																													
-Profession (Scribe)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Scribe)	SOURCEPAGE:PHB																																													
-Profession (Engineer)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Engineer)	SOURCEPAGE:PHB																																													
-Profession (Stablehand)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Stablehand)	SOURCEPAGE:PHB																																													
-Profession (Tanner)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Tanner)	SOURCEPAGE:PHB																																													
-Profession (Teamster)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Teamster)	SOURCEPAGE:PHB																																													
-Profession (Woodcutter)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Woodcutter)	SOURCEPAGE:PHB																																													
+Profession (Apothecary)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Apothecary)	SOURCEPAGE:PHB																																													
+Profession (Boater)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Boater)	SOURCEPAGE:PHB																																													
+Profession (Bookkeeper)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Bookkeeper)	SOURCEPAGE:PHB																																													
+Profession (Brewer)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Brewer)	SOURCEPAGE:PHB																																													
+Profession (Cook)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Cook)	SOURCEPAGE:PHB																																													
+Profession (Driver)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Driver)	SOURCEPAGE:PHB																																													
+Profession (Farmer)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Farmer)	SOURCEPAGE:PHB																																													
+Profession (Fisher)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Fisher)	SOURCEPAGE:PHB																																													
+Profession (Guide)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Guide)	SOURCEPAGE:PHB																																													
+Profession (Herbalist)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Herbalist)	SOURCEPAGE:PHB																																													
+Profession (Herder)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Herder)	SOURCEPAGE:PHB																																													
+Profession (Hunter)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Hunter)	SOURCEPAGE:PHB																																													
+Profession (Innkeeper)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Innkeeper)	SOURCEPAGE:PHB																																													
+Profession (Lumberjack)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Lumberjack)	SOURCEPAGE:PHB																																													
+Profession (Miller)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Miller)	SOURCEPAGE:PHB																																													
+Profession (Miner)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Miner)	SOURCEPAGE:PHB																																													
+Profession (Porter)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Porter)	SOURCEPAGE:PHB																																													
+Profession (Rancher)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Rancher)	SOURCEPAGE:PHB																																													
+Profession (Sailor)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Sailor)	SOURCEPAGE:PHB																																													
+Profession (Scribe)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Scribe)	SOURCEPAGE:PHB																																													
+Profession (Engineer)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Engineer)	SOURCEPAGE:PHB																																													
+Profession (Stablehand)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Stablehand)	SOURCEPAGE:PHB																																													
+Profession (Tanner)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Tanner)	SOURCEPAGE:PHB																																													
+Profession (Teamster)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Teamster)	SOURCEPAGE:PHB																																													
+Profession (Woodcutter)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Woodcutter)	SOURCEPAGE:PHB																																													
 Ride	USEUNTRAINED:YES		KEYSTAT:DEX	TYPE:Skill.Dexterity.Ride	SOURCEPAGE:PHB		TEMPDESC:If you are riding bareback, or attempt to ride a creature that is ill suited as a mount, you take a -5 penalty on Ride checks.	TEMPBONUS:ANYPC|SKILL|Ride|-5|TYPE=Circumstance|!PREITEM:1,TYPE=Saddle																																										
 Search	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:Skill.Intelligence.Search	SOURCEPAGE:PHB																																													
 Sense Motive	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Sense Motive	SOURCEPAGE:PHB		BONUS:SKILL|Diplomacy|SynergyBonus|PRESKILL:1,Sense Motive=5|TYPE=Synergy.STACK																																											

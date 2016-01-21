@@ -1,7 +1,177 @@
 SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 	
-STARTPACK:Aboleth Stats	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Aboleth
+STARTPACK:Aboleth Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Aboleth
 STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
 
-STARTPACK:Achaierai Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Achaierai
+STARTPACK:Achaierai Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Achaierai
 STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Allip Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Allip
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Angel (Astral Deva) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Angel (Astral Deva)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Angel (Astral Deva) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Angel (Astral Deva)
+GEAR:Astral Deva ~ Mace (Heavy)
+
+STARTPACK:Angel (Planetar) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Angel (Planetar)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Angel (Planetar) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Angel (Planetar)
+GEAR:Planetar ~ Greatsword
+
+STARTPACK:Angel (Solar) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Angel (Solar)
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Angel (Solar) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Angel (Solar)
+GEAR:Solar ~ Greatsword
+GEAR:Solar ~ Composite Longbow
+
+STARTPACK:Animated Object Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animated Object (Tiny),Animated Object (Small),Animated Object (Medium),Animated Object (Large),Animated Object (Huge),Animated Object (Gargantuan),Animated Object (Colossal)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Ankheg Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ankheg
+STAT:STR=11|DEX=10|CON=11|INT=11|WIS=11|CHA=10
+
+STARTPACK:Aranea Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Aranea
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Archon (Lantern) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Archon (Lantern)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+GEAR:Lantern ~ Light Rays	QTY:2
+
+STARTPACK:Archon (Hound) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Archon (Hound)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Archon (Hound) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Archon (Hound)
+GEAR:Greatsword
+
+STARTPACK:Archon (Trumpet) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Archon (Trumpet)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Archon (Trumpet) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Archon (Trumpet)
+GEAR:Trumpet ~ Greatsword
+
+STARTPACK:Arrowhawk Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Arrowhawk
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+GEAR:Arrowhawk ~ Electricity Ray
+
+STARTPACK:Assassin Vine Stats	TYPE:DefaultMonster.Plant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Assassin Vine
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Athach Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Athach
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Athach Standard Equip	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Athach
+GEAR:Morningstar	QTY:3
+GEAR:Hide	LOCATION:Equipped
+
+STARTPACK:Azer Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Azer
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Azer Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Azer
+GEAR:Scale Mail	LOCATION:Equipped
+GEAR:Shield (Heavy/Steel)	LOCATION:Equipped
+GEAR:Warhammer	
+GEAR:Shortspear
+
+STARTPACK:Barghest Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Barghest
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Basilisk Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Basilisk
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Behir Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Behir
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Beholder Gauth Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Beholder (Gauth)
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+GEAR:Gauth ~ Eye Rays	QTY:6
+
+STARTPACK:Beholder Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Beholder
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+GEAR:Beholder ~ Eye Rays	QTY:10
+
+STARTPACK:Belker Stats	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Belker
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Blink Dog Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Blink Dog
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Blink Dog Companion	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Blink Dog
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+ABILITY:CATEGORY=FEAT|Iron Will
+ABILITY:CATEGORY=FEAT|Run
+SKILL:Listen	RANK:4
+SKILL:Sense Motive	RANK:2
+SKILL:Spot	RANK:4
+SKILL:Survival	RANK:4
+
+STARTPACK:Bodak Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Bodak
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Bugbear Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Bugbear
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Bugbear Standard Equip	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Bugbear
+GEAR:Leather
+GEAR:Shield (Light/Wood)
+GEAR:Morningstar
+GEAR:Javelin
+
+STARTPACK:Bulette Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Bulette
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Carrion Crawler Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Carrion Crawler
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Centaur Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Centaur
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Centaur Standard Equip	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Centaur
+GEAR:Longsword
+GEAR:Longbow (Composite)	EQMOD:BOWSTR|4
+
+STARTPACK:Chaos Beast Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Chaos Beast
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Chimera Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Chimera
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Chimera Companion	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Chimera
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+SELECT:roll("1d10")
+ABILITY:CATEGORY=FEAT|Alertness
+ABILITY:CATEGORY=FEAT|Hover
+ABILITY:CATEGORY=FEAT|Iron Will
+ABILITY:CATEGORY=FEAT|Multiattack
+SKILL:Hide	RANK:4
+SKILL:Listen	RANK:4
+SKILL:Spot	RANK:4
+ABILITY:CATEGORY=Internal|Chimera ~ Heads ~ Black	OPTION:01,02
+ABILITY:CATEGORY=Internal|Chimera ~ Heads ~ Blue	OPTION:03,04
+ABILITY:CATEGORY=Internal|Chimera ~ Heads ~ Green	OPTION:05,06
+ABILITY:CATEGORY=Internal|Chimera ~ Heads ~ Red	OPTION:07,08
+ABILITY:CATEGORY=Internal|Chimera ~ Heads ~ White	OPTION:09,10
+
+STARTPACK:Choker Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Choker
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Chuul Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Chuul
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Cloaker Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Cloaker
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Cocktatrice Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Cocktatrice
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Couatl Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Couatl
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Darkmantle Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Darkmantle
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Delver Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Delver
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10

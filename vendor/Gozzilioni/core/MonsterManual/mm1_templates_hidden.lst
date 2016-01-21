@@ -1,5 +1,0 @@
-SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
-
-###Block: Variable Type Traits
-# Template Name	Visible	Define Stat
-Mindless		VISIBLE:NO	SOURCEPAGE:MM1	DEFINESTAT:NONSTAT|INT

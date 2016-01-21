@@ -1,5 +1,5 @@
 SOURCELONG:Gozzilioni Core Ruleset	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
-																																																	
+
 Default	CATEGORY:Internal
 CATEGORY=Internal|Default.MOD	DEFINE:DefaultSpellDCCha|0	BONUS:VAR|DefaultSpellDCCha|10+CHA|TYPE=Base																																			
 CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCStr|0	BONUS:VAR|DefaultDCStr|10+(HD/2)+STR|TYPE=Base																																			
@@ -10,7 +10,6 @@ CATEGORY=Internal|Default.MOD	DEFINE:DefaultDCClassWis|0	BONUS:VAR|DefaultDCClas
 CATEGORY=Internal|Default.MOD	DEFINE:FightingDefensivelyAC|0	DEFINE:FightingDefensivelyACBonus|0	DEFINE:FightingDefensivelyPenalty|0	BONUS:VAR|FightingDefensivelyPenalty|4|TYPE=Base
 CATEGORY=Internal|Default.MOD	DEFINE:TotalDefenseAC|0	DEFINE:TotalDefenseACBonus|0	DEFINE:TwoWeaponShield|0	
 CATEGORY=Internal|Default.MOD	DEFINE:BardingAllowed|0	BONUS:VAR|BardingAllowed|1|PRERACE:1,RACESUBTYPE=Mount
-CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Negative Levels|!PREVAREQ:NegativeLevels,0
 
 # All Hidden Abilities ~ Granted Abilities:
 CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|Defines Required
@@ -54,10 +53,39 @@ Evasion ~ Base	CATEGORY:Special Ability	TYPE:Internal.ClassFeatures	VISIBLE:NO	D
 Evasion	CATEGORY:Special Ability	TYPE:ClassFeatures.Evasion	VISIBLE:NO
 Improved Evasion	CATEGORY:Special Ability	TYPE:ClassFeatures.ImprovedEvasion	VISIBLE:NO
 
-###Block: automatic creature size
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Negative Levels|!PREVAREQ:NegativeLevels,0
+Negative Levels	CATEGORY:Special Ability	TYPE:SharedAbility	VISIBLE:YES	DEFINE:NegativeLevels|0	DESC:%1 negative level(s) (-%1 effective level(s) and loses access to %1 spell(s) from the highest spell level castable)|NegativeLevels	BONUS:COMBAT|TOHIT|-1*(NegativeLevels)	BONUS:SAVE|Fortitude,Reflex,Will|-1*(NegativeLevels)	BONUS:SKILL|TYPE=Strength,TYPE=Dexterity,TYPE=Constitution,TYPE=Intelligence,TYPE=Wisdom,TYPE=Charisma|-1*(NegativeLevels)																											
+
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Telepathy|!PREVAREQ:TelepathyRange,0
+Telepathy	CATEGORY:Special Ability	TYPE:SharedAbility	VISIBLE:YES	DEFINE:TelepathyRange|0	AUTO:LANG|Telepathy
+
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Constrict|PREABILITY:1,CATEGORY=Special Ability,TYPE.Constrict
+Constrict	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialAttack	VISIBLE:YES					DEFINE:ConstrictDice|0	DEFINE:ConstrictDieSize|0	DEFINE:ConstrictDamage|0		BONUS:VAR|ConstrictDamage|STR*3/2|TYPE=Base						ASPECT:NAME|Constrict %1d%2+%3|ConstrictDice|ConstrictDieSize|ConstrictDamage																	
+
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Trample|PREABILITY:1,CATEGORY=Special Ability,TYPE.Trample
+Trample	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialAttack	VISIBLE:YES	DESC:Slam damage + %1 (Attack of opportunity or Reflex save DC %2 for halves)|TrampleDamage|TrampleDC				DEFINE:TrampleDamage|0				BONUS:VAR|TrampleDamage|STR*3/2																							
+
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Breath Weapon|PREABILITY:1,CATEGORY=Special Ability,TYPE.BreathWeapon
+Breath Weapon	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialAttack	VISIBLE:NO																													
+
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Improved Grab|PREABILITY:1,CATEGORY=Special Ability,TYPE.Improved Grab
+Improved Grab	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialAttack	VISIBLE:NO																																
+
+###Block: automatic creature size (Table 2-4 DMG)
 CATEGORY=Internal|Default.MOD	DEFINE:ActivateSizeMaster|0	DEFINE:RaceSizeIsLong|0	DEFINE:OverrideReach|0	BONUS:VAR|RaceSizeIsLong|1|PRELEGSGTEQ:4|PREVAREQ:OverrideReach,0
 CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|SIZE_MASTER|PREVARGTEQ:ActivateSizeMaster,1
-Size_Master	CATEGORY:Internal		VISIBLE:NO	ABILITY:Internal|AUTOMATIC|FACE_0|PRESIZEEQ:F	ABILITY:Internal|AUTOMATIC|REACH_0|PRESIZEEQ:F	ABILITY:Internal|AUTOMATIC|FACE_1|PRESIZEEQ:D	ABILITY:Internal|AUTOMATIC|REACH_0|PRESIZEEQ:D	ABILITY:Internal|AUTOMATIC|FACE_2|PRESIZEEQ:T	ABILITY:Internal|AUTOMATIC|REACH_0|PRESIZEEQ:T	ABILITY:Internal|AUTOMATIC|FACE_5|PREMULT:1,[PRESIZEEQ:S],[PRESIZEEQ:M]	ABILITY:Internal|AUTOMATIC|REACH_5|PREMULT:1,[PRESIZEEQ:S],[PRESIZEEQ:M]	ABILITY:Internal|AUTOMATIC|FACE_10|PRESIZEEQ:L	ABILITY:Internal|AUTOMATIC|REACH_10|PRESIZEEQ:L|PREVAREQ:RaceSizeIsLong,0	ABILITY:Internal|AUTOMATIC|REACH_5|PRESIZEEQ:L|PREVAREQ:RaceSizeIsLong,1	ABILITY:Internal|AUTOMATIC|FACE_15|PRESIZEEQ:H	ABILITY:Internal|AUTOMATIC|REACH_15|PRESIZEEQ:H|PREVAREQ:RaceSizeIsLong,0	ABILITY:Internal|AUTOMATIC|REACH_10|PRESIZEEQ:H|PREVAREQ:RaceSizeIsLong,1	ABILITY:Internal|AUTOMATIC|FACE_20|PRESIZEEQ:G	ABILITY:Internal|AUTOMATIC|REACH_20|PRESIZEEQ:G|PREVAREQ:RaceSizeIsLong,0	ABILITY:Internal|AUTOMATIC|REACH_10|PRESIZEEQ:G|PREVAREQ:RaceSizeIsLong,1	ABILITY:Internal|AUTOMATIC|FACE_30|PRESIZEEQ:C	ABILITY:Internal|AUTOMATIC|REACH_30|PRESIZEEQ:C|PREVAREQ:RaceSizeIsLong,0	ABILITY:Internal|AUTOMATIC|REACH_15|PRESIZEEQ:C|PREVAREQ:RaceSizeIsLong,1	ABILITY:Internal|AUTOMATIC|FACE_30|PRESIZEEQ:P	ABILITY:Internal|AUTOMATIC|REACH_30|PRESIZEEQ:P|PREVAREQ:RaceSizeIsLong,0	ABILITY:Internal|AUTOMATIC|REACH_20|PRESIZEEQ:P|PREVAREQ:RaceSizeIsLong,1
+SIZE_MASTER	CATEGORY:Internal		VISIBLE:NO	SOURCEPAGE:DMG
+CATEGORY=Internal|SIZE_MASTER.MOD	ABILITY:Internal|AUTOMATIC|FACE_0|PRESIZEEQ:F	ABILITY:Internal|AUTOMATIC|REACH_0|PRESIZEEQ:F	
+CATEGORY=Internal|SIZE_MASTER.MOD	ABILITY:Internal|AUTOMATIC|FACE_1|PRESIZEEQ:D	ABILITY:Internal|AUTOMATIC|REACH_0|PRESIZEEQ:D	
+CATEGORY=Internal|SIZE_MASTER.MOD	ABILITY:Internal|AUTOMATIC|FACE_2|PRESIZEEQ:T	ABILITY:Internal|AUTOMATIC|REACH_0|PRESIZEEQ:T	
+CATEGORY=Internal|SIZE_MASTER.MOD	ABILITY:Internal|AUTOMATIC|FACE_5|PRESIZEEQ:S	ABILITY:Internal|AUTOMATIC|REACH_5|PRESIZEEQ:S	
+CATEGORY=Internal|SIZE_MASTER.MOD	ABILITY:Internal|AUTOMATIC|FACE_5|PRESIZEEQ:M	ABILITY:Internal|AUTOMATIC|REACH_5|PRESIZEEQ:M	
+CATEGORY=Internal|SIZE_MASTER.MOD	ABILITY:Internal|AUTOMATIC|FACE_10|PRESIZEEQ:L	ABILITY:Internal|AUTOMATIC|REACH_10|PRESIZEEQ:L|PREVAREQ:RaceSizeIsLong,0	ABILITY:Internal|AUTOMATIC|REACH_5|PRESIZEEQ:L|PREVAREQ:RaceSizeIsLong,1	
+CATEGORY=Internal|SIZE_MASTER.MOD	ABILITY:Internal|AUTOMATIC|FACE_15|PRESIZEEQ:H	ABILITY:Internal|AUTOMATIC|REACH_15|PRESIZEEQ:H|PREVAREQ:RaceSizeIsLong,0	ABILITY:Internal|AUTOMATIC|REACH_10|PRESIZEEQ:H|PREVAREQ:RaceSizeIsLong,1	
+CATEGORY=Internal|SIZE_MASTER.MOD	ABILITY:Internal|AUTOMATIC|FACE_20|PRESIZEEQ:G	ABILITY:Internal|AUTOMATIC|REACH_20|PRESIZEEQ:G|PREVAREQ:RaceSizeIsLong,0	ABILITY:Internal|AUTOMATIC|REACH_15|PRESIZEEQ:G|PREVAREQ:RaceSizeIsLong,1	
+CATEGORY=Internal|SIZE_MASTER.MOD	ABILITY:Internal|AUTOMATIC|FACE_30|PRESIZEEQ:C	ABILITY:Internal|AUTOMATIC|REACH_30|PRESIZEEQ:C|PREVAREQ:RaceSizeIsLong,0	ABILITY:Internal|AUTOMATIC|REACH_20|PRESIZEEQ:C|PREVAREQ:RaceSizeIsLong,1	
+CATEGORY=Internal|SIZE_MASTER.MOD	ABILITY:Internal|AUTOMATIC|FACE_30|PRESIZEEQ:P	ABILITY:Internal|AUTOMATIC|REACH_30|PRESIZEEQ:P|PREVAREQ:RaceSizeIsLong,0	ABILITY:Internal|AUTOMATIC|REACH_20|PRESIZEEQ:P|PREVAREQ:RaceSizeIsLong,1	
+
 ###Block: Size Mods for Automatic Changes , REACH AND FACE Broken in Templates
 # Ability Name			Category of Ability	Type				Visible	Required Size	Define					Template		Ability																																																																																																																																																																																																																																																																											Modify VAR									Natural Attacks
 REACH_0	CATEGORY:Internal	VISIBLE:NO		TEMPLATE:REACH_0
@@ -143,6 +171,9 @@ Immunity To Flanking	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.
 Immunity To Gaze Attacks	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are never subject to gaze attacks.				ASPECT:Immunity|Gaze Attacks																									SOURCEPAGE:MM1
 Immunity To Nonlethal Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are never subject to nonlethal damage.				ASPECT:Immunity|Nonlethal Damage																									SOURCEPAGE:MM1
 Immunity To Stunning	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You can never be stunned.				ASPECT:Immunity|Stunning																									SOURCEPAGE:MM1
+Can't be Tripped	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You can never be tripped.				ASPECT:Immunity|Trip																									SOURCEPAGE:MM1
+#Vulnerabilities
+Vulnerability To Sunlight	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Weakness	VISIBLE:YES	DESC:You are particular suscectible to Sunlight.																												SOURCEPAGE:MM1				
 
 
 #Immunities

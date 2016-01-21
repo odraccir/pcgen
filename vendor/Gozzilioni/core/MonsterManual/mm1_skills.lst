@@ -1,4 +1,8 @@
 SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #																																																		
 # Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:																																													
+Control Shape	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Control Shape	SOURCEPAGE:MM1																																													
+#
 Swim.MOD	SITUATION:Perform some special action or avoid a hazard
+Hide.MOD	SITUATION:Natural settings
+Hide.MOD	SITUATION:Scrubland or brush environment
