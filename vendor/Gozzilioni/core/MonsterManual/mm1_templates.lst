@@ -20,9 +20,12 @@ Languages	KEY:Bugbear ~ Common ~ Languages	VISIBLE:NO		LANGBONUS:Draconic,Elven,
 Favored Class	KEY:Bugbear ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue
 Languages	KEY:Centaur ~ Common ~ Languages	VISIBLE:NO		LANGBONUS:Common,Gnome,Halfling
 Favored Class	KEY:Centaur ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger
+Level Adjustment	KEY:Derro ~ Common ~ Level Adjustment	VISIBLE:NO	LEVELADJUSTMENT:-2
 
 
 ### Template
 Celestial	TYPE:Inherited	VISIBLE:YES	PRERACE:1,RACETYPE=Animal,RACETYPE=Aberration,RACETYPE=Dragon,RACETYPE=Fey,RACETYPE=Giant,RACETYPE=Humanoid,RACETYPE=Magical Beast,RACETYPE=Monstrous Humanoid,RACETYPE=Plant,RACETYPE=Vermin	!PRERACE:1,RACESUBTYPE=Incorporeal	TEMPLATE:CHOOSE:Celestial ~ Animal|Celestial ~ Vermin	RACESUBTYPE:Extraplanar	ABILITY:Special Ability|AUTOMATIC|Celestial ~ Smite Evil|Resistance To Acid|Resistance To Cold|Resistance To Electricity	BONUS:VAR|DarkvisionRange|60|TYPE=Base	BONUS:VAR|AcidResistanceBonus,ColdResistanceBonus,ElectricityResistanceBonus|5|TYPE=Resistance	BONUS:VAR|AcidResistanceBonus,ColdResistanceBonus,ElectricityResistanceBonus|10|TYPE=Resistance|PREHD:MIN=8	DEFINE:CelestialSR|0	BONUS:VAR|CelestialSR|min(HD+5,25)	SR:CelestialSR	DR:5/Magic|PREHD:MIN=4,MAX=11	DR:10/Magic|PREHD:MIN=12	ABILITY:Special Ability|AUTOMATIC|Celestial ~ Natural Weapons|PREHD:MIN=4	DEFINESTAT:MINVALUE|INT|3	BONUS:MISC|CR|1|PREHD:MIN=4	BONUS:MISC|CR|1|PREHD:MIN=8	KIT:1|LG|NG|CG	LEVELADJUSTMENT:2	
 Celestial ~ Animal	VISIBLE:NO	PRERACE:1,RACETYPE=Animal	RACETYPE:Magical Beast	RACESUBTYPE:Augmented Animal
 Celestial ~ Vermin	VISIBLE:NO	PRERACE:1,RACETYPE=Vermin	RACETYPE:Magical Beast	RACESUBTYPE:Augmented Vermin
+
+Sane	VISIBLE:YES	PRERACE:1,Derro	BONUS:STAT|WIS|6	BONUS:STAT|CHA|-6	LEVELADJUSTMENT:2

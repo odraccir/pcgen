@@ -1,0 +1,5 @@
+SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+#								
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		PANTHEON:Greyhawk	SOURCEPAGE:CD	
+#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	SYMBOL:a Kitten on a keyboard
+Dirinka	ALIGN:CN		DESC:Dirinka(M)	DOMAINS:Chaos,Destruction,Evil,Trickery|PREALIGN:CG,TN,CN,CE	TYPE:Lesser	FACTSET:Pantheon|Monster	SOURCEPAGE:MM1	

@@ -23,7 +23,7 @@ ABILITYCATEGORY:mm1_abilitycategories.lst
 # BIOSET:phb_biosettings.lst
 CLASS:mm1_classes.lst
 # COMPANIONMOD:phb_companionmods.lst
-# DEITY:phb_deities.lst
+DEITY:mm1_deities.lst
 # DOMAIN:phb_domains.lst
 # EQUIPMENT:phb_equip.lst
 # EQUIPMENT:phb_equip_armors.lst

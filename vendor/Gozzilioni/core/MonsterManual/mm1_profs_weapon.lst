@@ -17,4 +17,7 @@ Sting	TYPE:Weapon.Natural.Finesseable.Melee.Piercing
 Tentacle	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing
 #
 Wing	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning
+Tail	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning
 Tail Slap	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning
+Pincer	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing
+Foreclaw	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing

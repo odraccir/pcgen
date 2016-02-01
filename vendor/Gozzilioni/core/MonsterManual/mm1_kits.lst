@@ -13,20 +13,20 @@ STARTPACK:Angel (Astral Deva) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUI
 STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
 
 STARTPACK:Angel (Astral Deva) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Angel (Astral Deva)
-GEAR:Astral Deva ~ Mace (Heavy)
+GEAR:Mace (Heavy)	EQMOD:PLUS3W.DISRUPT_M
 
 STARTPACK:Angel (Planetar) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Angel (Planetar)
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
 
 STARTPACK:Angel (Planetar) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Angel (Planetar)
-GEAR:Planetar ~ Greatsword
+GEAR:Greatsword	EQMOD:PLUS3W
 
 STARTPACK:Angel (Solar) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Angel (Solar)
 STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
 
 STARTPACK:Angel (Solar) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Angel (Solar)
-GEAR:Solar ~ Greatsword
-GEAR:Solar ~ Composite Longbow
+GEAR:Greatsword	SIZE:L	EQMOD:PLUS5W.DANCE
+GEAR:Longbow (Composite)	SIZE:L	EQMOD:PLUS2W.BOWSTR|5
 
 STARTPACK:Animated Object Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animated Object (Tiny),Animated Object (Small),Animated Object (Medium),Animated Object (Large),Animated Object (Huge),Animated Object (Gargantuan),Animated Object (Colossal)
 STAT:STR=10|DEX=10|CON=10|INT=10|WIS=11|CHA=11
@@ -51,7 +51,7 @@ STARTPACK:Archon (Trumpet) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBU
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
 STARTPACK:Archon (Trumpet) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Archon (Trumpet)
-GEAR:Trumpet ~ Greatsword
+GEAR:Greatsword	EQMOD:PLUS4W
 
 STARTPACK:Arrowhawk Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Arrowhawk
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
@@ -141,7 +141,7 @@ STAT:STR=11|DEX=11|CON=11|INT=10|WIS=11|CHA=10
 
 STARTPACK:Chimera Companion	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Chimera
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=11|CHA=10
-SELECT:roll("1d10")
+# SELECT:roll("1d10")
 ABILITY:CATEGORY=FEAT|Alertness
 ABILITY:CATEGORY=FEAT|Hover
 ABILITY:CATEGORY=FEAT|Iron Will
@@ -149,11 +149,11 @@ ABILITY:CATEGORY=FEAT|Multiattack
 SKILL:Hide	RANK:4
 SKILL:Listen	RANK:4
 SKILL:Spot	RANK:4
-ABILITY:CATEGORY=Internal|Chimera ~ Heads ~ Black	OPTION:01,02
-ABILITY:CATEGORY=Internal|Chimera ~ Heads ~ Blue	OPTION:03,04
-ABILITY:CATEGORY=Internal|Chimera ~ Heads ~ Green	OPTION:05,06
-ABILITY:CATEGORY=Internal|Chimera ~ Heads ~ Red	OPTION:07,08
-ABILITY:CATEGORY=Internal|Chimera ~ Heads ~ White	OPTION:09,10
+# ABILITY:CATEGORY=Internal|Chimera ~ Heads ~ Black	OPTION:01,02
+# ABILITY:CATEGORY=Internal|Chimera ~ Heads ~ Blue	OPTION:03,04
+# ABILITY:CATEGORY=Internal|Chimera ~ Heads ~ Green	OPTION:05,06
+# ABILITY:CATEGORY=Internal|Chimera ~ Heads ~ Red	OPTION:07,08
+# ABILITY:CATEGORY=Internal|Chimera ~ Heads ~ White	OPTION:09,10
 
 STARTPACK:Choker Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Choker
 STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
@@ -175,3 +175,287 @@ STAT:STR=10|DEX=10|CON=11|INT=10|WIS=10|CHA=10
 
 STARTPACK:Delver Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Delver
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Demon (Babau) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Babau)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Demon (Balor) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Balor)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Demon (Balor) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Demon (Balor)
+GEAR:Longsword	EQMOD:PLUS1W.VORPAL_M
+GEAR:Whip	EQMOD:PLUS1W.FLM_M
+
+STARTPACK:Demon (Bebilith) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Bebilith)
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Demon (Dretch) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Dretch)
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Demon (Glabrezu) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Glabrezu)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Demon (Hezrou) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Hezrou)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Demon (Marilith) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Marilith)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Demon (Marilith) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Demon (Marilith)
+GEAR:Longsword	QTY:6
+
+STARTPACK:Demon (Nalfeshnee) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Nalfeshnee)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Demon (Quasit) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Quasit)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Demon (Quasit) Companion	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Demon (Quasit)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+ABILITY:CATEGORY=FEAT|Improved Initiative
+ABILITY:CATEGORY=FEAT|Weapon Finesse
+SKILL:Bluff	RANK:6
+SKILL:Hide	RANK:6
+SKILL:Listen	RANK:6
+SKILL:Move Silently	RANK:6
+SKILL:Search	RANK:6
+SKILL:Spellcraft	RANK:6
+SKILL:Spot	RANK:6
+SKILL:TYPE=Knowledge	RANK:6
+
+STARTPACK:Demon (Retriever) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Retriever)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+GEAR:Demon (Retriever) ~ Eye Rays	QTY:4
+
+STARTPACK:Demon (Succubus) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Succubus)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Demon (Vrock) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Vrock)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Derro Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Derro
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Destrachan Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Destrachan
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Devil (Barbed) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Barbed)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Devil (Bearded) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Bearded)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Devil (Bearded) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Devil (Bearded)
+GEAR:Glaive
+
+STARTPACK:Devil (Bone) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Bone)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Devil (Chain) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Chain)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Devil (Erinyes) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Erinyes)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Devil (Erinyes) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Devil (Erinyes)
+GEAR:Rope (Hempen/50 Ft.)
+GEAR:Longsword
+GEAR:Longbow (Composite)	EQMOD:PLUS1W.FLM_R.BOWSTR|5
+
+STARTPACK:Devil (Erinyes) Companion	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Devil (Erinyes)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+ABILITY:CATEGORY=FEAT|Point Blank Shot
+ABILITY:CATEGORY=FEAT|Precise Shot
+ABILITY:CATEGORY=FEAT|Rapid Shot
+ABILITY:CATEGORY=FEAT|Shot on the Run
+SKILL:Concentration	RANK:12
+SKILL:Diplomacy	RANK:2
+SKILL:Escape Artist	RANK:12
+SKILL:Hide	RANK:12
+SKILL:TYPE=Knowledge	RANK:12	COUNT:2
+SKILL:Listen	RANK:12
+SKILL:Move Silently	RANK:12
+SKILL:Search	RANK:12
+SKILL:Sense Motive	RANK:12
+SKILL:Spot	RANK:12
+
+STARTPACK:Devil (Hellcat) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Hellcat)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Devil (Horned) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Horned)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Devil (Horned) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Devil (Horned)
+GEAR:Chain (Spiked)
+
+STARTPACK:Devil (Ice) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Ice)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Devil (Ice) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Devil (Ice)
+GEAR:Spear
+
+STARTPACK:Devil (Imp) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Imp)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Devil (Imp) Companion	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Devil (Imp)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+ABILITY:CATEGORY=FEAT|Dodge
+ABILITY:CATEGORY=FEAT|Weapon Finesse
+SKILL:Diplomacy	RANK:6
+SKILL:Hide	RANK:6
+SKILL:TYPE=Knowledge	RANK:6	COUNT:1
+SKILL:Listen	RANK:6
+SKILL:Move Silently	RANK:6
+SKILL:Search	RANK:6
+SKILL:Spellcraft	RANK:6
+SKILL:Spot	RANK:6
+
+STARTPACK:Devil (Lemure) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Lemure)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Devil (Pit Fiend) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Pit Fiend)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Devourer Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devourer
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Digester Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Digester
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Dinosaur (Deinonychus) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dinosaur (Deinonychus)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Dinosaur (Elasmosaurus) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dinosaur (Elasmosaurus)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Dinosaur (Elasmosaurus) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Dinosaur (Elasmosaurus)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+ABILITY:CATEGORY=FEAT|Dodge
+ABILITY:CATEGORY=FEAT|Great Fortitude
+ABILITY:CATEGORY=FEAT|Toughness
+ABILITY:CATEGORY=FEAT|Toughness
+SKILL:Hide	RANK:2
+SKILL:Listen	RANK:3
+SKILL:Spot	RANK:8
+
+STARTPACK:Dinosaur (Megaraptor) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dinosaur (Megaraptor)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dinosaur (Megaraptor) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Dinosaur (Megaraptor)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+ABILITY:CATEGORY=FEAT|Run
+ABILITY:CATEGORY=FEAT|Toughness
+ABILITY:CATEGORY=FEAT|Track
+SKILL:Hide	RANK:3
+SKILL:Jump	RANK:2
+SKILL:Listen	RANK:2
+SKILL:Spot	RANK:2
+SKILL:Survival	RANK:2
+
+STARTPACK:Dinosaur (Triceratops) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dinosaur (Triceratops)
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=11
+
+STARTPACK:Dinosaur (Triceratops) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Dinosaur (Triceratops)
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=11
+ABILITY:CATEGORY=FEAT|Alertness
+ABILITY:CATEGORY=FEAT|Great Fortitude
+ABILITY:CATEGORY=FEAT|Toughness
+ABILITY:CATEGORY=FEAT|Toughness
+ABILITY:CATEGORY=FEAT|Toughness
+ABILITY:CATEGORY=FEAT|Toughness
+SKILL:Listen	RANK:10
+SKILL:Spot	RANK:9
+
+STARTPACK:Dinosaur (Tyrannosaurus) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dinosaur (Tyrannosaurus)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dinosaur (Tyrannosaurus) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Dinosaur (Tyrannosaurus)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+ABILITY:CATEGORY=FEAT|Alertness
+ABILITY:CATEGORY=FEAT|Improved Natural Attack (Bite)
+ABILITY:CATEGORY=FEAT|Run
+ABILITY:CATEGORY=FEAT|Toughness
+ABILITY:CATEGORY=FEAT|Toughness
+ABILITY:CATEGORY=FEAT|Toughness
+ABILITY:CATEGORY=FEAT|Track
+SKILL:Hide	RANK:5
+SKILL:Listen	RANK:8
+SKILL:Spot	RANK:8
+
+STARTPACK:Dire Animal (Dire Ape) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dire Animal (Dire Ape)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Dire Animal (Dire Ape) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Dire Animal (Dire Ape)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+ABILITY:CATEGORY=FEAT|Alertness
+ABILITY:CATEGORY=FEAT|Toughness
+SKILL:Listen	RANK:2
+SKILL:Move Silently	RANK:2
+SKILL:Spot	RANK:3
+
+STARTPACK:Dire Animal (Dire Badger) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dire Animal (Dire Badger)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Dire Animal (Dire Badger) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Dire Animal (Dire Badger)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+ABILITY:CATEGORY=FEAT|Alertness
+ABILITY:CATEGORY=FEAT|Toughness
+SKILL:Listen	RANK:3
+SKILL:Spot	RANK:3
+
+STARTPACK:Dire Animal (Dire Bat) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dire Animal (Dire Bat)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Dire Animal (Dire Bat) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Dire Animal (Dire Bat)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=10
+ABILITY:CATEGORY=FEAT|Alertness
+ABILITY:CATEGORY=FEAT|Stealthy
+SKILL:Listen	RANK:4
+SKILL:Move Silently	RANK:3
+
+STARTPACK:Dire Animal (Dire Bear) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dire Animal (Dire Bear)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Dire Animal (Dire Bear) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Dire Animal (Dire Bear)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+ABILITY:CATEGORY=FEAT|Alertness
+ABILITY:CATEGORY=FEAT|Endurance
+ABILITY:CATEGORY=FEAT|Run
+ABILITY:CATEGORY=FEAT|Toughness
+ABILITY:CATEGORY=FEAT|Weapon Focus (Claw)
+SKILL:Listen	RANK:7
+SKILL:Spot	RANK:7
+SKILL:Swim	RANK:1
+
+STARTPACK:Dire Animal (Dire Boar) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dire Animal (Dire Boar)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dire Animal (Dire Boar) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Dire Animal (Dire Boar)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+ABILITY:CATEGORY=FEAT|Alertness
+ABILITY:CATEGORY=FEAT|Endurance
+ABILITY:CATEGORY=FEAT|Iron Will
+SKILL:Listen	RANK:5
+SKILL:Spot	RANK:5
+
+STARTPACK:Dire Animal (Dire Lion) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dire Animal (Dire Lion)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Dire Animal (Dire Lion) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Dire Animal (Dire Lion)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+ABILITY:CATEGORY=FEAT|Alertness
+ABILITY:CATEGORY=FEAT|Run
+ABILITY:CATEGORY=FEAT|Weapon Focus (Claw)
+SKILL:Listen	RANK:4
+SKILL:Spot	RANK:4
+
+STARTPACK:Dire Animal (Dire Rat) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dire Animal (Dire Rat)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Dire Animal (Dire Rat) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Dire Animal (Dire Rat)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+ABILITY:CATEGORY=FEAT|Alertness
+SKILL:Hide	RANK:1
+SKILL:Listen	RANK:1
+SKILL:Move Silently	RANK:1
+SKILL:Spot	RANK:1

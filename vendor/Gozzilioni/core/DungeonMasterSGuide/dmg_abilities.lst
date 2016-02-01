@@ -121,4 +121,3 @@ Boook of Exalted Deeds	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability				
 Boook of Vile Darkness	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|WIS|1|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +1 WIS.	PREALIGN:LE,NE,CE
 
 Incense of Meditation ~ Maximize Spells	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	DESC:Incense of Meditation maximize spells.	ADDSPELLLEVEL:0
-

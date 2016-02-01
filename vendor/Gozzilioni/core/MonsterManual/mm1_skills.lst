@@ -6,3 +6,5 @@ Control Shape	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Control Shape	SOURC
 Swim.MOD	SITUATION:Perform some special action or avoid a hazard
 Hide.MOD	SITUATION:Natural settings
 Hide.MOD	SITUATION:Scrubland or brush environment
+Hide.MOD	SITUATION:Tall grass or heavy undergrowth area
+Hide.MOD	SITUATION:Water environment

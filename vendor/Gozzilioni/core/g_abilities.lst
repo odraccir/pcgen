@@ -53,17 +53,20 @@ Evasion ~ Base	CATEGORY:Special Ability	TYPE:Internal.ClassFeatures	VISIBLE:NO	D
 Evasion	CATEGORY:Special Ability	TYPE:ClassFeatures.Evasion	VISIBLE:NO
 Improved Evasion	CATEGORY:Special Ability	TYPE:ClassFeatures.ImprovedEvasion	VISIBLE:NO
 
-CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Negative Levels|!PREVAREQ:NegativeLevels,0
-Negative Levels	CATEGORY:Special Ability	TYPE:SharedAbility	VISIBLE:YES	DEFINE:NegativeLevels|0	DESC:%1 negative level(s) (-%1 effective level(s) and loses access to %1 spell(s) from the highest spell level castable)|NegativeLevels	BONUS:COMBAT|TOHIT|-1*(NegativeLevels)	BONUS:SAVE|Fortitude,Reflex,Will|-1*(NegativeLevels)	BONUS:SKILL|TYPE=Strength,TYPE=Dexterity,TYPE=Constitution,TYPE=Intelligence,TYPE=Wisdom,TYPE=Charisma|-1*(NegativeLevels)																											
+CATEGORY=Internal|Default.MOD	DEFINE:NegativeLevels|0	ABILITY:Special Ability|AUTOMATIC|Negative Levels|!PREVAREQ:NegativeLevels,0
+Negative Levels	CATEGORY:Special Ability	TYPE:SharedAbility	VISIBLE:YES	DESC:%1 negative level(s) (-%1 effective level(s) and loses access to %1 spell(s) from the highest spell level castable)|NegativeLevels	BONUS:COMBAT|TOHIT|-1*(NegativeLevels)	BONUS:SAVE|Fortitude,Reflex,Will|-1*(NegativeLevels)	BONUS:SKILL|TYPE=Strength,TYPE=Dexterity,TYPE=Constitution,TYPE=Intelligence,TYPE=Wisdom,TYPE=Charisma|-1*(NegativeLevels)																											
 
-CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Telepathy|!PREVAREQ:TelepathyRange,0
-Telepathy	CATEGORY:Special Ability	TYPE:SharedAbility	VISIBLE:YES	DEFINE:TelepathyRange|0	AUTO:LANG|Telepathy
+CATEGORY=Internal|Default.MOD	DEFINE:TelepathyRange|0	ABILITY:Special Ability|AUTOMATIC|Telepathy|!PREVAREQ:TelepathyRange,0
+Telepathy	CATEGORY:Special Ability	TYPE:SharedAbility	VISIBLE:YES	AUTO:LANG|Telepathy
 
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Constrict|PREABILITY:1,CATEGORY=Special Ability,TYPE.Constrict
 Constrict	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialAttack	VISIBLE:YES					DEFINE:ConstrictDice|0	DEFINE:ConstrictDieSize|0	DEFINE:ConstrictDamage|0		BONUS:VAR|ConstrictDamage|STR*3/2|TYPE=Base						ASPECT:NAME|Constrict %1d%2+%3|ConstrictDice|ConstrictDieSize|ConstrictDamage																	
 
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Trample|PREABILITY:1,CATEGORY=Special Ability,TYPE.Trample
-Trample	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialAttack	VISIBLE:YES	DESC:Slam damage + %1 (Attack of opportunity or Reflex save DC %2 for halves)|TrampleDamage|TrampleDC				DEFINE:TrampleDamage|0				BONUS:VAR|TrampleDamage|STR*3/2																							
+Trample	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialAttack	VISIBLE:YES	DESC:Damage %1d%2+%3 (Attack of opportunity or Reflex save DC %4 for halves)|TrampleDice|TrampleDieSize|TrampleDamage|TrampleDC				DEFINE:TrampleDice|0	DEFINE:TrampleDieSize|0	DEFINE:TrampleDamage|0		BONUS:VAR|TrampleDamage|STR*3/2|TYPE=Base						ASPECT:NAME|Trample %1d%2+%3|TrampleDice|TrampleDieSize|TrampleDamage																	
+
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Rend|PREABILITY:1,CATEGORY=Special Ability,TYPE.Rend
+Rend	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialAttack	VISIBLE:YES	DESC:Damage %1d%2+%3|RendDice|RendDieSize|RendDamage|RendDC				DEFINE:RendDice|0	DEFINE:RendDieSize|0	DEFINE:RendDamage|0		BONUS:VAR|RendDamage|STR*3/2|TYPE=Base						ASPECT:NAME|Rend %1d%2+%3|RendDice|RendDieSize|RendDamage																	
 
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Breath Weapon|PREABILITY:1,CATEGORY=Special Ability,TYPE.BreathWeapon
 Breath Weapon	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialAttack	VISIBLE:NO																													
@@ -163,12 +166,15 @@ Immunity To Ability Drain	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordi
 Immunity To Strength Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Strength Damage damage.				ASPECT:Immunity|Strength Damage																									SOURCEPAGE:MM1
 Immunity To Dexterity Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Dexterity Damage damage.				ASPECT:Immunity|Dexterity Damage																									SOURCEPAGE:MM1
 Immunity To Constitution Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You never take Constitution Damage damage.				ASPECT:Immunity|Constitution Damage																									SOURCEPAGE:MM1
+Immunity To Confusion	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are never subject to confusion effects.				ASPECT:Immunity|Confusion																									SOURCEPAGE:MM1
 Immunity To Critical Hits	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are never subject to critical hits.				ASPECT:Immunity|Critical Hits																									SOURCEPAGE:MM1
 Immunity To Death Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are never subject to death effects.				ASPECT:Immunity|Death Effects																									SOURCEPAGE:MM1
 Immunity To Energy Drain	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You can never be energy drained.				ASPECT:Immunity|Death Effects																									SOURCEPAGE:MM1
 Immunity To Exhaustion	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are never exhausted.				ASPECT:Immunity|Exhaustion																									SOURCEPAGE:MM1
 Immunity To Flanking	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You can never be flanked.				ASPECT:Immunity|Flanking																									SOURCEPAGE:MM1
 Immunity To Gaze Attacks	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are never subject to gaze attacks.				ASPECT:Immunity|Gaze Attacks																									SOURCEPAGE:MM1
+Immunity To Visual Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are never subject to visual effects.				ASPECT:Immunity|Visual Effects																									SOURCEPAGE:MM1
+Immunity To Insanity	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are never subject to insanity effects.				ASPECT:Immunity|Insanity																									SOURCEPAGE:MM1
 Immunity To Nonlethal Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You are never subject to nonlethal damage.				ASPECT:Immunity|Nonlethal Damage																									SOURCEPAGE:MM1
 Immunity To Stunning	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You can never be stunned.				ASPECT:Immunity|Stunning																									SOURCEPAGE:MM1
 Can't be Tripped	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	VISIBLE:YES	DESC:You can never be tripped.				ASPECT:Immunity|Trip																									SOURCEPAGE:MM1

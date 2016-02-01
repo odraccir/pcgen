@@ -2,11 +2,22 @@ SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzil
 #																								
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:|!PRERULE:1,DisplayFullSpell	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	Desc	Bonus	Bonus
 ### Teleport (Greater) ~ Self only.MOD	CLASS:.CLEARALL
+Ethereal Jaunt.COPY=Ethereal Jaunt	KEY:Ethereal Jaunt ~ Self only
+Ethereal Jaunt ~ Self only.MOD	OUTPUTNAME:Ethereal Jaunt	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only plus 50 pounds of objects.	SOURCEPAGE:MM1
+
 Invisibility.COPY=Invisibility	KEY:Invisibility ~ Self only
 Invisibility ~ Self only.MOD	OUTPUTNAME:Invisibility	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	SOURCEPAGE:MM1
 
 Polymorph.COPY=Polymorph	KEY:Polymorph ~ Self only
 Polymorph ~ Self only.MOD	OUTPUTNAME:Polymorph	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	SOURCEPAGE:MM1
 
+Scorching Ray.COPY=Scorching Ray	KEY:Scorching Ray ~ 2 rays
+Scorching Ray ~ 2 rays.MOD	OUTPUTNAME:Scorching Ray	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:2 rays.	SOURCEPAGE:MM1
+
 Teleport (Greater).COPY=Teleport (Greater)	KEY:Teleport (Greater) ~ Self only
 Teleport (Greater) ~ Self only.MOD	OUTPUTNAME:Teleport, Greater	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only plus 50 pounds of objects.	SOURCEPAGE:MM1
+
+#
+Cause Fear.COPY=Cause Fear	KEY:Cause Fear ~ Quasit
+Cause Fear ~ Quasit.MOD	OUTPUTNAME:Cause Fear	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:30-ft radius from the Quasit	SOURCEPAGE:MM1
+
