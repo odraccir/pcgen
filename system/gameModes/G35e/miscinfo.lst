@@ -286,7 +286,7 @@ WEAPONREACH:(RACEREACH+(max(0,REACH-5)))*REACHMULT
 PREVIEWDIR:d20/fantasy
 PREVIEWSHEET:Standard.htm.ftl
 
-INFOSHEET:SUMMARY|preview/summary/35e_info.html
+INFOSHEET:SUMMARY|preview/summary/35e_info.html.ftl
 INFOSHEET:SKILLS|preview/skills/35e_skills.html
 
 

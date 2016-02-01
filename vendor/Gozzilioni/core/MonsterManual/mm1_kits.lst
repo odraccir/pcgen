@@ -459,3 +459,86 @@ SKILL:Hide	RANK:1
 SKILL:Listen	RANK:1
 SKILL:Move Silently	RANK:1
 SKILL:Spot	RANK:1
+
+STARTPACK:Dire Animal (Dire Shark) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dire Animal (Dire Shark)
+STAT:STR=11|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Dire Animal (Dire Shark) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Dire Animal (Dire Shark)
+STAT:STR=11|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+ABILITY:CATEGORY=FEAT|Improved Natural Attack (Bite)
+ABILITY:CATEGORY=FEAT|Toughness
+ABILITY:CATEGORY=FEAT|Toughness
+ABILITY:CATEGORY=FEAT|Toughness
+ABILITY:CATEGORY=FEAT|Toughness
+ABILITY:CATEGORY=FEAT|Weapon Focus (Bite)
+SKILL:Listen	RANK:11
+SKILL:Spot	RANK:10
+
+STARTPACK:Dire Animal (Dire Tiger) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dire Animal (Dire Tiger)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Dire Animal (Dire Tiger) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Dire Animal (Dire Tiger)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+ABILITY:CATEGORY=FEAT|Alertness
+ABILITY:CATEGORY=FEAT|Improved Natural Attack (claw)
+ABILITY:CATEGORY=FEAT|Improved Natural Attack (Bite)
+ABILITY:CATEGORY=FEAT|Run
+ABILITY:CATEGORY=FEAT|Stealthy
+ABILITY:CATEGORY=FEAT|Weapon Focus (Claw)
+SKILL:Hide	RANK:3
+SKILL:Jump	RANK:2
+SKILL:Listen	RANK:3
+SKILL:Move Silently	RANK:3
+SKILL:Spot	RANK:4
+SKILL:Swim	RANK:2
+
+STARTPACK:Dire Animal (Dire Weasel) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dire Animal (Dire Weasel)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Dire Animal (Dire Weasel) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Dire Animal (Dire Weasel)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+ABILITY:CATEGORY=FEAT|Alertness
+ABILITY:CATEGORY=FEAT|Stealthy
+SKILL:Hide	RANK:2
+SKILL:Move Silently	RANK:2
+SKILL:Spot	RANK:2
+
+STARTPACK:Dire Animal (Dire Wolf) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dire Animal (Dire Wolf)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Dire Animal (Dire Wolf) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Dire Animal (Dire Wolf)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+ABILITY:CATEGORY=FEAT|Alertness
+ABILITY:CATEGORY=FEAT|Weapon Focus (Bite)
+SKILL:Listen	RANK:2
+SKILL:Spot	RANK:2
+SKILL:Survival	RANK:1
+
+STARTPACK:Dire Animal (Dire Wolverine) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dire Animal (Dire Wolverine)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Dire Animal (Dire Wolverine) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Dire Animal (Dire Wolverine)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+ABILITY:CATEGORY=FEAT|Alertness
+ABILITY:CATEGORY=FEAT|Toughness
+SKILL:Listen	RANK:4
+SKILL:Spot	RANK:4
+
+STARTPACK:Displacer Beast Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Displacer Beast
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Displacer Beast Companion	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion Displacer Beast
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+ABILITY:CATEGORY=FEAT|Alertness
+ABILITY:CATEGORY=FEAT|Dodge
+ABILITY:CATEGORY=FEAT|Stealthy
+SKILL:Hide	RANK:2
+SKILL:Listen	RANK:2
+SKILL:Move Silently	RANK:3
+SKILL:Spot	RANK:2
+
+STARTPACK:Doppelganger Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Doppelganger
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Black Dragon Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Black)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10

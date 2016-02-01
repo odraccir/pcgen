@@ -21,6 +21,8 @@ Favored Class	KEY:Bugbear ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue
 Languages	KEY:Centaur ~ Common ~ Languages	VISIBLE:NO		LANGBONUS:Common,Gnome,Halfling
 Favored Class	KEY:Centaur ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger
 Level Adjustment	KEY:Derro ~ Common ~ Level Adjustment	VISIBLE:NO	LEVELADJUSTMENT:-2
+Languages	KEY:Doppelganger ~ Common ~ Languages	VISIBLE:NO		LANGBONUS:Auran,Dwarven,Elven,Gnome,Halfling,Giant,Terran
+Favored Class	KEY:Doppelganger ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue
 
 
 ### Template
