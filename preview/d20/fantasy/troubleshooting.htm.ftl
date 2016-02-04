@@ -21,17 +21,12 @@ $Date: 2016-02-01 14:11:00 +0100 (Mon, 01 Feb 2016) $
 <meta http-equiv="content-type" content="text-html; charset=utf-8" />
 <title>${pcstring('NAME')} - ${pcstring('PLAYERNAME')} (${pcstring('POOL.COST')} Points) in Statblock Format</title>
 <!--
-	This format is designed to provide detailed information on bonuses 
-	and other objects for the purpose of troubleshooting characters
-
-$Revision$
-$Author: eddyanthony $
-$Date$
-
+   This format is designed to provide detailed information on bonuses 
+   and other objects for the purpose of troubleshooting characters
 -->
 <style type="text/css">
-	body  { font-family:sans-serif;text-align:left; color:black; background:white; font-weight:normal; margin: 0px; padding: 5px; }
-	.header { display:block; font-size:x-small; text-align:center; }
+   body  { font-family:sans-serif;text-align:left; color:black; background:white; font-weight:normal; margin: 0px; padding: 5px; }
+   .header { display:block; font-size:x-small; text-align:center; }
 </style>
 </head>
 <body>
@@ -107,9 +102,9 @@ ${pcvar('STAT.${stat}')}
 </b>
 &nbsp;(${pcstring('STAT.${stat}.MOD')}) = 
 <!-- Report User Values -->
-${pcstring('STAT.%stat.BASE.SIGN-(STAT.%stat.LEVEL.(VAR.TL)-STAT.%stat.LEVEL.1)')}[USER]
+${pcstring('STAT.${stat}.BASE.SIGN-(STAT.${stat}.LEVEL.(VAR.TL)-STAT.${stat}.LEVEL.1)')}[USER]
 <!-- Report MISC Bonuses -->
-${pcstring('STAT.%stat.LEVEL.1.NOPOST.NOEQUIP.NOTEMP-(STAT.%stat.BASE-(STAT.%stat.LEVEL.(VAR.TL)-STAT.%stat.LEVEL.1)).SIGN')}[MISC]
+${pcstring('STAT.${stat}.LEVEL.1.NOPOST.NOEQUIP.NOTEMP-(STAT.${stat}.BASE-(STAT.${stat}.LEVEL.(VAR.TL)-STAT.${stat}.LEVEL.1)).SIGN')}[MISC]
 
 <br>
 </@loop>
@@ -149,6 +144,7 @@ ${pcstring('CHECK.${check}.MISC.NOMAGIC.NOSTAT')}[MISC]
 
 <hr />
 <b>Attacks</b>
+<br>
 
 <@loop from=0 to=pcvar('COUNT[EQTYPE.Weapon]-1') ; weap , weap_has_next><#-- TODO: Loop was of early exit type 1 -->
 <b>${pcstring('WEAPON.${weap}.NAME.NOSTAR')} </b>
@@ -222,7 +218,7 @@ ${pcstring('WEAPON.${weap}.MISC')}[MISC]
       <font color="#999999"><b>${pcstring('SKILLSIT.${skill}')}</b> ${pcstring('SKILLSIT.${skill}.TOTAL.INTVAL.SIGN')} = ${pcstring('SKILLSIT.${skill}.EXPLAIN_LONG')} </font><br>
     </#if>
   <#else>
-    <b>${pcstring('SKILLSIT.${skill}')}</b> ${pcstring('SKILLSIT.${skill}.TOTAL.INTVAL.SIGN')} = ${pcstring('SKILLSIT.%skill.RANK.INTVAL.SIGN')}[RANK] ${pcstring('SKILLSIT.${skill}.EXPLAIN_LONG')} <br>
+    <b>${pcstring('SKILLSIT.${skill}')}</b> ${pcstring('SKILLSIT.${skill}.TOTAL.INTVAL.SIGN')} = ${pcstring('SKILLSIT.${skill}.RANK.INTVAL.SIGN')}[RANK] ${pcstring('SKILLSIT.${skill}.EXPLAIN_LONG')} <br>
   </#if>
 </@loop>
 </blockquote>
@@ -342,7 +338,7 @@ ${pcstring('WEAPON.${weap}.MISC')}[MISC]
 </#if>
 <blockquote>
 <@loop from=0 to=pcvar('count("ABILITIES","CATEGORY=Special Ability","VISIBILITY=HIDDEN[or]VISIBILITY=DISPLAY_ONLY","NATURE=NORMAL")')-1 ; ability , ability_has_next>
-<b>${pcstring('ABILITY.Special Ability.VISIBLE.${ability}.KEY')}</b> [<i>${pcstring('ABILITY.Special Ability.VISIBLE.${ability}.SOURCE')}</i>]<br>
+<b>${pcstring('ABILITY.Special Ability.HIDDEN.${ability}.KEY')}</b> [<i>${pcstring('ABILITY.Special Ability.HIDDEN.${ability}.SOURCE')}</i>]<br>
 </@loop>
 </blockquote>
 
@@ -351,7 +347,7 @@ ${pcstring('WEAPON.${weap}.MISC')}[MISC]
 </#if>
 <blockquote>
 <@loop from=0 to=pcvar('count("ABILITIES","CATEGORY=Special Ability","VISIBILITY=HIDDEN[or]VISIBILITY=DISPLAY_ONLY","NATURE=AUTOMATIC")')-1 ; ability , ability_has_next>
-<b>${pcstring('ABILITYAUTO.Special Ability.VISIBLE.${ability}.KEY')}</b> [<i>${pcstring('ABILITYAUTO.Special Ability.VISIBLE.${ability}.SOURCE')}</i>]<br>
+<b>${pcstring('ABILITYAUTO.Special Ability.HIDDEN.${ability}.KEY')}</b> [<i>${pcstring('ABILITYAUTO.Special Ability.HIDDEN.${ability}.SOURCE')}</i>]<br>
 </@loop>
 </blockquote>
 
@@ -360,7 +356,7 @@ ${pcstring('WEAPON.${weap}.MISC')}[MISC]
 </#if>
 <blockquote>
 <@loop from=0 to=pcvar('count("ABILITIES","CATEGORY=Special Ability","VISIBILITY=HIDDEN[or]VISIBILITY=DISPLAY_ONLY","NATURE=VIRTUAL")')-1 ; ability , ability_has_next>
-<b>${pcstring('VABILITY.Special Ability.VISIBLE.${ability}.KEY')}</b> [<i>${pcstring('VABILITY.Special Ability.VISIBLE.${ability}.SOURCE')}</i>]<br>
+<b>${pcstring('VABILITY.Special Ability.HIDDEN.${ability}.KEY')}</b> [<i>${pcstring('VABILITY.Special Ability.HIDDEN.${ability}.SOURCE')}</i>]<br>
 </@loop>
 </blockquote>
 
@@ -395,34 +391,34 @@ ${pcstring('WEAPON.${weap}.MISC')}[MISC]
 </@loop>
 </blockquote>
 
-<#if (pcvar('count("ABILITIES","CATEGORY=Internal","VISIBILITY=HIDDEN[or]VISIBILITY=OUTPUT_ONLY")') != 0)>
+<#if (pcvar('count("ABILITIES","CATEGORY=Internal","VISIBILITY=HIDDEN[or]VISIBILITY=DISPLAY_ONLY")') != 0)>
 <hr />
 </#if>
 
-<#if (pcvar('count("ABILITIES","CATEGORY=Internal","VISIBILITY=HIDDEN[or]VISIBILITY=OUTPUT_ONLY","NATURE=NORMAL")') != 0)>
+<#if (pcvar('count("ABILITIES","CATEGORY=Internal","VISIBILITY=HIDDEN[or]VISIBILITY=DISPLAY_ONLY","NATURE=NORMAL")') != 0)>
 <b>Internal Abilities (Hidden)</b>
 </#if>
 <blockquote>
-<@loop from=0 to=pcvar('count("ABILITIES","CATEGORY=Internal","VISIBILITY=HIDDEN[or]VISIBILITY=OUTPUT_ONLY","NATURE=NORMAL")')-1 ; ability , ability_has_next>
-<b>${pcstring('ABILITY.Internal.VISIBLE.${ability}.KEY')}</b> [<i>${pcstring('ABILITY.Internal.VISIBLE.${ability}.SOURCE')}</i>]<br>
+<@loop from=0 to=pcvar('count("ABILITIES","CATEGORY=Internal","VISIBILITY=HIDDEN[or]VISIBILITY=DISPLAY_ONLY","NATURE=NORMAL")')-1 ; ability , ability_has_next>
+<b>${pcstring('ABILITY.Internal.HIDDEN.${ability}.KEY')}</b> [<i>${pcstring('ABILITY.Internal.HIDDEN.${ability}.SOURCE')}</i>]<br>
 </@loop>
 </blockquote>
 
-<#if (pcvar('count("ABILITIES","CATEGORY=Internal","VISIBILITY=HIDDEN[or]VISIBILITY=OUTPUT_ONLY","NATURE=AUTOMATIC")') != 0)>
+<#if (pcvar('count("ABILITIES","CATEGORY=Internal","VISIBILITY=HIDDEN[or]VISIBILITY=DISPLAY_ONLY","NATURE=AUTOMATIC")') != 0)>
 <b>Internal Abilities (Hidden Automatic)</b>
 </#if>
 <blockquote>
-<@loop from=0 to=pcvar('count("ABILITIES","CATEGORY=Internal","VISIBILITY=HIDDEN[or]VISIBILITY=OUTPUT_ONLY","NATURE=AUTOMATIC")')-1 ; ability , ability_has_next>
-<b>${pcstring('ABILITYAUTO.Internal.VISIBLE.${ability}.KEY')}</b> [<i>${pcstring('ABILITYAUTO.Internal.VISIBLE.${ability}.SOURCE')}</i>]<br>
+<@loop from=0 to=pcvar('count("ABILITIES","CATEGORY=Internal","VISIBILITY=HIDDEN[or]VISIBILITY=DISPLAY_ONLY","NATURE=AUTOMATIC")')-1 ; ability , ability_has_next>
+<b>${pcstring('ABILITYAUTO.Internal.HIDDEN.${ability}.KEY')}</b> [<i>${pcstring('ABILITYAUTO.Internal.HIDDEN.${ability}.SOURCE')}</i>]<br>
 </@loop>
 </blockquote>
 
-<#if (pcvar('count("ABILITIES","CATEGORY=Internal","VISIBILITY=HIDDEN[or]VISIBILITY=OUTPUT_ONLY","NATURE=VIRTUAL")') != 0)>
+<#if (pcvar('count("ABILITIES","CATEGORY=Internal","VISIBILITY=HIDDEN[or]VISIBILITY=DISPLAY_ONLY","NATURE=VIRTUAL")') != 0)>
 <b>Internal Abilities (Hidden Virtual)</b>
 </#if>
 <blockquote>
-<@loop from=0 to=pcvar('count("ABILITIES","CATEGORY=Internal","VISIBILITY=HIDDEN[or]VISIBILITY=OUTPUT_ONLY","NATURE=VIRTUAL")')-1 ; ability , ability_has_next>
-<b>${pcstring('VABILITY.Internal.VISIBLE.${ability}.KEY')}</b> [<i>${pcstring('VABILITY.Internal.VISIBLE.${ability}.SOURCE')}</i>]<br>
+<@loop from=0 to=pcvar('count("ABILITIES","CATEGORY=Internal","VISIBILITY=HIDDEN[or]VISIBILITY=DISPLAY_ONLY","NATURE=VIRTUAL")')-1 ; ability , ability_has_next>
+<b>${pcstring('VABILITY.Internal.HIDDEN.${ability}.KEY')}</b> [<i>${pcstring('VABILITY.Internal.HIDDEN.${ability}.SOURCE')}</i>]<br>
 </@loop>
 </blockquote>
 
@@ -481,16 +477,21 @@ ${pcstring('WEAPON.${weap}.MISC')}[MISC]
 </blockquote>
 
 <!-- START Template Table -->
-<#if (pcvar('COUNT[TEMPLATE]-1') != 0)>
+<#if (pcvar("COUNT[TEMPLATES]") > 0) >
    <table width="100%" cellspacing="0" cellpadding="3" summary="Template Table">
      <tr>
        <td bgcolor="black" align="center" colspan="1"><font color="white" style="font-size: 9pt"><b>TEMPLATES</b></font></td>
      </tr>
-     <@loop from=0 to=pcvar('COUNT[TEMPLATE]-1') ; template, template_has_next><#-- TODO: Loop was of early exit type 1 -->
      <tr>
-       <td valign="top" width="70%" class="border8">${pcstring('TEMPLATE.${template}.NAME')}<br /></td>
+       <td valign="top" width="70%" class="border8">${pcstring('TEMPLATELIST')}<br /></td>
      </tr>
-     </@loop>
+     <@loop from=0 to=pcvar('COUNT[TEMPLATES]-1') ; template , template_has_next><#-- TODO: Loop was of early exit type 1 -->
+	 <tr>
+	   <td >
+	     ${pcstring('TEMPLATE.${template}.NAME')}
+	   </td>
+	 </tr>
+	 </@loop>
     </table>
     <font style="font-size:2pt"><br /></font>
 </#if>
@@ -517,6 +518,8 @@ ${pcstring('WEAPON.${weap}.MISC')}[MISC]
   </#if>
 </@loop>
 </p>
+
+
 <font size="-2">Created using PCGen ${pcstring('EXPORT.VERSION')} on ${pcstring('EXPORT.DATE')} </font>
 
 
