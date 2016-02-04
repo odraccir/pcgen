@@ -82,3 +82,18 @@ Fighting Defensively	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are fighting defensi
 Total Defense	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are defending yourself as a standard action	TEMPBONUS:ANYPC|VAR|TwoWeaponShield|1|TYPE=Temporary	TEMPBONUS:ANYPC|VAR|TotalDefenseAC|4+TotalDefenseACBonus|TYPE=Temp1	TEMPBONUS:ANYPC|VAR|TotalDefenseACBonus|2|TYPE=Temp2|PRESKILL:1,Tumble=5
 Combat Expertise trade off	VISIBLE:NO	SOURCEPAGE:PHB	TEMPVALUE:MIN=1|MAX=5|TITLE=Combat Expertise trade off	TEMPDESC:Penalty on BAB as bonus on AC.	TEMPBONUS:PC|COMBAT|AC|min(%CHOICE,BAB)|TYPE=Temporary	TEMPBONUS:PC|COMBAT|TOHIT|max((-1*%CHOICE),(-1*BAB))|TYPE=Temporary
 Power Attack trade off	VISIBLE:NO	SOURCEPAGE:PHB	TEMPVALUE:MIN=1|MAX=5|TITLE=Power Attack trade off	TEMPDESC:Penalty on BAB as bonus on Damage.	TEMPBONUS:PC|COMBAT|BASEAB|min(%CHOICE,BAB)|TYPE=Temporary	TEMPBONUS:PC|COMBAT|DAMAGE.Melee|max((-1*%CHOICE),(-1*BAB))|TYPE=Temporary
+
+###Block: Dragon Age
+# Template Name	Visible	Subrace
+Wyrmling	VISIBLE:NO	KEY:Dragon ~ Wyrmling	SUBRACE:Wyrmling
+Very Young	VISIBLE:NO	KEY:Dragon ~ Very Young	SUBRACE:Very Young
+Young	VISIBLE:NO	KEY:Dragon ~ Young	SUBRACE:Young
+Juvenile	VISIBLE:NO	KEY:Dragon ~ Juvenile	SUBRACE:Juvenile
+Young Adult	VISIBLE:NO	KEY:Dragon ~ Young Adult	SUBRACE:Young Adult
+Adult	VISIBLE:NO	KEY:Dragon ~ Adult	SUBRACE:Adult
+Mature Adult	VISIBLE:NO	KEY:Dragon ~ Mature Adult	SUBRACE:Mature Adult
+Old	VISIBLE:NO	KEY:Dragon ~ Old	SUBRACE:Old
+Very Old	VISIBLE:NO	KEY:Dragon ~ Very Old	SUBRACE:Very Old
+Ancient	VISIBLE:NO	KEY:Dragon ~ Ancient	SUBRACE:Ancient
+Wyrm	VISIBLE:NO	KEY:Dragon ~ Wyrm	SUBRACE:Wyrm
+Great Wyrm	VISIBLE:NO	KEY:Dragon ~ Great Wyrm	SUBRACE:Great Wyrm
