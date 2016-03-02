@@ -1,0 +1,15 @@
+SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+#																									
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:			
+Golem (Clay)		KEY:Golem ~ Clay	TYPE:Monster.Construct.Container	COST:40000	WT:0	SOURCEPAGE:MM1	CONTAINS:UNLIM|Any	SPROP:CL 11th; Craft Construct (see page 303), animate objects, commune, resurrection, caster must be at least 11th level.
+Golem (Flesh)		KEY:Golem ~ Flesh	TYPE:Monster.Construct.Container	COST:20000	WT:0	SOURCEPAGE:MM1	CONTAINS:UNLIM|Any	SPROP:CL 8th; Craft Construct (see page 303), animate dead, bull’s strength, geas Quest, limited wish, caster must be at least 8th level.
+Golem (Iron)		KEY:Golem ~ Iron	TYPE:Monster.Construct.Container	COST:150000	WT:0	SOURCEPAGE:MM1	CONTAINS:UNLIM|Any	SPROP:CL 16th; Craft Construct (see page 303), cloudkill, geas uest, limited wish, polymorph any object, caster must be at least 16th level.
+Golem (Stone)		KEY:Golem ~ Stone	TYPE:Monster.Construct.Container	COST:90000	WT:0	SOURCEPAGE:MM1	CONTAINS:UNLIM|Any	SPROP:CL 14th; Craft Construct (see page 303), antimagic field, geas Quest, symbol of stunning, caster must be at least 14th level.
+Golem (Greater Stone)		KEY:Golem ~ Stone ~ Greater	TYPE:Monster.Construct.Container	COST:196000	WT:0	SOURCEPAGE:MM1	CONTAINS:UNLIM|Any	SPROP:CL 14th; Craft Construct (see page 303), antimagic field, geas Quest, symbol of stunning, caster must be at least 14th level.
+Homunculus		KEY:Homunculus	TYPE:Monster.Construct.Container	COST:0	WT:0	SOURCEPAGE:MM1	CONTAINS:UNLIM|Any	SPROP:A homunculus with more than 2 Hit Dice can be created, but each additional Hit Die adds +2,000 gp to the cost to create. Craft Construct (see page 303), arcane eye, mirror image, mending, caster must be at least 4th level; Price — (never sold); Cost 1,050 gp + 78 XP.	BONUS:FOLLOWERS|Homunculus|1
+
+Phylactery (Full/Lich)			OUTPUTNAME:[NAME] Phylactery, Full	TYPE:Wondrous	COST:120000	WT:5	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item									SOURCEPAGE:MM1
+Phylactery (Contenitor/Lich)			OUTPUTNAME:[NAME] Phylactery, Contenitor	TYPE:Wondrous.Container	COST:0	WT:5	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item	PRECLASS:1,Lich								SOURCEPAGE:MM1	CONTAINS:UNLIM|Total=3|PhylacteryPart1=1|PhylacteryPart2=1|PhylacteryPart3=1
+Phylactery Part 1				TYPE:PhylacteryPart1	COST:40000	WT:0	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item	PRECLASS:1,Lich=1								SOURCEPAGE:MM1
+Phylactery Part 2				TYPE:PhylacteryPart2	COST:40000	WT:0	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item	PRECLASS:1,Lich=1								SOURCEPAGE:MM1
+Phylactery Part 3				TYPE:PhylacteryPart3	COST:40000	WT:0	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item	PRECLASS:1,Lich=1								SOURCEPAGE:MM1

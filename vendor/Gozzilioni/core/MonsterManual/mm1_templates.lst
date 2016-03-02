@@ -1,10 +1,71 @@
 SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 
+Deep	VISIBLE:NO	KEY:Deep Dwarf	SUBRACE:Deep																											
+Duergar	VISIBLE:NO	KEY:Duergar Dwarf	SUBRACE:Duergar	LEVELADJUSTMENT:1
+Mountain	VISIBLE:NO	KEY:Mountain Dwarf	SUBRACE:Mountain																											
+Languages	KEY:Dwarf ~ Deep ~ Languages	VISIBLE:NO	AUTO:LANG|Dwarven|Goblin	LANGBONUS:Draconic,Undercommon
+Languages	KEY:Dwarf ~ Duergar ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Dwarven|Undercommon	LANGBONUS:Draconic,Giant,Goblin,Orc,Terran
+
+Aquatic	VISIBLE:NO	KEY:Aquatic Elf	SUBRACE:Aquatic	RACESUBTYPE:Aquatic	MOVE:Swim,40
+Drow	VISIBLE:NO	KEY:Drow Elf	SUBRACE:Drow	LEVELADJUSTMENT:1	CR:1
+Gray	VISIBLE:NO	KEY:Gray Elf	SUBRACE:Gray
+Wild	VISIBLE:NO	KEY:Wild Elf	SUBRACE:Wild
+Wood	VISIBLE:NO	KEY:Wood Elf	SUBRACE:Wood
+Languages	KEY:Elf ~ Drow ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Elven	LANGBONUS:Abyssal,Aquan,Draconic,Drow Sign Language,Gnome,Goblin,Kuo-toan
+Favored Class	KEY:Elf ~ Aquatic ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter
+Favored Class	KEY:Elf ~ Drow ~ Favored Class	VISIBLE:NO	TEMPLATE:CHOOSE:Drow Male|Drow Female
+Favored Class	KEY:Elf ~ Wild ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Sorcerer
+Favored Class	KEY:Elf ~ Wood ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger
+
+Common	VISIBLE:NO	KEY:Common Gargoyle	SUBRACE:Common	LEVELADJUSTMENT:5
+Kapoacinth	VISIBLE:NO	KEY:Kapoacinth Gargoyle	SUBRACE:Kapoacinth	LEVELADJUSTMENT:5
+Languages	KEY:Gargoyle ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:Auran,Dwarven,Elven,Gnome,Halfling,Giant,Terran
+Favored Class	KEY:Gargoyle ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter
+
+Githyanki	VISIBLE:NO	KEY:Common Githyanki	SUBRACE:Common	LEVELADJUSTMENT:2
+Languages	KEY:Githyanki ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Githyanki	LANGBONUS:Common,Infernal,Draconic,Undercommon
+Favored Class	KEY:Githyanki ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter
+
+Githzerai	VISIBLE:NO	KEY:Common Githzerai	SUBRACE:Common	LEVELADJUSTMENT:2
+Languages	KEY:Githzerai ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Githzerai	LANGBONUS:Common,Slaad,Undercommon
+Favored Class	KEY:Githzerai ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Monk
+
+Svirfneblin	VISIBLE:NO	KEY:Svirfneblin Gnome	SUBRACE:Svirfneblin	LEVELADJUSTMENT:3
+Forest	VISIBLE:NO	KEY:Forest Gnome	SUBRACE:Forest
+Languages	KEY:Gnome ~ Svirfneblin ~ Languages	VISIBLE:NO	AUTO:LANG|Undercommon|Gnome|Common	LANGBONUS:Dwarven,Elven,Giant,Goblin,Orc,Terran
+Languages	KEY:Gnome ~ Forest ~ Languages	VISIBLE:NO	AUTO:LANG|Gnome|Elven|Sylvan|Forest	LANGBONUS:Common,Draconic,Dwarven,Giant,Goblin,Orc
+Favored Class	KEY:Gnome ~ Svirfneblin ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue
+
+Goblin	VISIBLE:NO	KEY:Common Goblin	SUBRACE:Common	LEVELADJUSTMENT:2
+Languages	KEY:Goblin ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Goblin	LANGBONUS:Draconic,Elven,Giant,Gnoll,Orc
+Favored Class	KEY:Goblin ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue
+
+Tallfellow	VISIBLE:NO	KEY:Tallfellow Halfling	SUBRACE:Tallfellow
+Deep	VISIBLE:NO	KEY:Deep Halfling	SUBRACE:Deep
+
+Hobgoblin	VISIBLE:NO	KEY:Common Hobgoblin	SUBRACE:Common	LEVELADJUSTMENT:1
+Languages	KEY:Hobgoblin ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Goblin	LANGBONUS:Draconic,Dwarven,Infernal,Giant,Orc
+Favored Class	KEY:Hobgoblin ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter
+
+Kobold	VISIBLE:NO	KEY:Common Kobold	SUBRACE:Common
+Languages	KEY:Kobold ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Draconic	LANGBONUS:Common,Undercommon
+Favored Class	KEY:Kobold ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Sorcerer
+
+Lizardfolk	VISIBLE:NO	KEY:Common Lizardfolk	SUBRACE:Common	LEVELADJUSTMENT:1
+Languages	KEY:Lizardfolk ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Draconic	LANGBONUS:Aquan,Goblin,Gnoll,Orc
+Favored Class	KEY:Lizardfolk ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Druid
+
+###Block: Drow Gender
+# Template Name	Visible	Source Page			Required Race		Favored Class		Lock Gender Selection
+Drow Male		VISIBLE:NO	SOURCEPAGE:MM1	PRERACE:1,Elf (Drow)	FAVOREDCLASS:Wizard	GENDERLOCK:Male
+Drow Female		VISIBLE:NO	SOURCEPAGE:MM1	PRERACE:1,Elf (Drow)	FAVOREDCLASS:Cleric	GENDERLOCK:Female
+
+
 ###Block: Subtrait
 Mindless	VISIBLE:NO	SOURCEPAGE:MM1	DEFINESTAT:NONSTAT|INT
 
 ###Block: Race
-##TODO:Check Infernal template
+##TODO:Check Fiendish template if needed
 Abyssal Greater Basilisk	VISIBLE:YES	SOURCEPAGE:MM1	PRERACE:1,Basilisk	PREHD:MIN=18	BONUS:STAT|STR|1	BONUS:STAT|DEX|2	BONUS:STAT|CON|2	BONUS:STAT|INT|1	BONUS:STAT|WIS|-2	BONUS:STAT|CHA|4	SUBRACE:Greater
 
 ###Block: Subrace
@@ -24,10 +85,61 @@ Level Adjustment	KEY:Derro ~ Common ~ Level Adjustment	VISIBLE:NO	LEVELADJUSTMEN
 Languages	KEY:Doppelganger ~ Common ~ Languages	VISIBLE:NO		LANGBONUS:Auran,Dwarven,Elven,Gnome,Halfling,Giant,Terran
 Favored Class	KEY:Doppelganger ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue
 
+Aquan	KEY:Genie ~ Janni ~ Language ~ Aquan	VISIBLE:NO	AUTO:LANG|Aquan
+Auran	KEY:Genie ~ Janni ~ Language ~ Auran	VISIBLE:NO	AUTO:LANG|Auran
+Ignan	KEY:Genie ~ Janni ~ Language ~ Ignan	VISIBLE:NO	AUTO:LANG|Ignan
+Terran	KEY:Genie ~ Janni ~ Language ~ Terran	VISIBLE:NO	AUTO:LANG|Terran
+Abyssal	KEY:Genie ~ Janni ~ Language ~ Abyssal	VISIBLE:NO	AUTO:LANG|Abyssal
+Celestial	KEY:Genie ~ Janni ~ Language ~ Celestial	VISIBLE:NO	AUTO:LANG|Celestial
+Infernal	KEY:Genie ~ Janni ~ Language ~ Infernal	VISIBLE:NO	AUTO:LANG|Infernal
 
 ### Template
 Celestial	TYPE:Inherited	VISIBLE:YES	PRERACE:1,RACETYPE=Animal,RACETYPE=Aberration,RACETYPE=Dragon,RACETYPE=Fey,RACETYPE=Giant,RACETYPE=Humanoid,RACETYPE=Magical Beast,RACETYPE=Monstrous Humanoid,RACETYPE=Plant,RACETYPE=Vermin	!PRERACE:1,RACESUBTYPE=Incorporeal	TEMPLATE:CHOOSE:Celestial ~ Animal|Celestial ~ Vermin	RACESUBTYPE:Extraplanar	ABILITY:Special Ability|AUTOMATIC|Celestial ~ Smite Evil|Resistance To Acid|Resistance To Cold|Resistance To Electricity	BONUS:VAR|DarkvisionRange|60|TYPE=Base	BONUS:VAR|AcidResistanceBonus,ColdResistanceBonus,ElectricityResistanceBonus|5|TYPE=Resistance	BONUS:VAR|AcidResistanceBonus,ColdResistanceBonus,ElectricityResistanceBonus|10|TYPE=Resistance|PREHD:MIN=8	DEFINE:CelestialSR|0	BONUS:VAR|CelestialSR|min(HD+5,25)	SR:CelestialSR	DR:5/Magic|PREHD:MIN=4,MAX=11	DR:10/Magic|PREHD:MIN=12	ABILITY:Special Ability|AUTOMATIC|Celestial ~ Natural Weapons|PREHD:MIN=4	DEFINESTAT:MINVALUE|INT|3	BONUS:MISC|CR|1|PREHD:MIN=4	BONUS:MISC|CR|1|PREHD:MIN=8	KIT:1|LG|NG|CG	LEVELADJUSTMENT:2	
 Celestial ~ Animal	VISIBLE:NO	PRERACE:1,RACETYPE=Animal	RACETYPE:Magical Beast	RACESUBTYPE:Augmented Animal
 Celestial ~ Vermin	VISIBLE:NO	PRERACE:1,RACETYPE=Vermin	RACETYPE:Magical Beast	RACESUBTYPE:Augmented Vermin
+Fiendish	TYPE:Inherited	VISIBLE:YES	PRERACE:1,RACETYPE=Animal,RACETYPE=Aberration,RACETYPE=Dragon,RACETYPE=Fey,RACETYPE=Giant,RACETYPE=Humanoid,RACETYPE=Magical Beast,RACETYPE=Monstrous Humanoid,RACETYPE=Ooze,RACETYPE=Plant,RACETYPE=Vermin	!PRERACE:1,RACESUBTYPE=Incorporeal	TEMPLATE:CHOOSE:Fiendish ~ Animal|Fiendish ~ Vermin	RACESUBTYPE:Extraplanar	ABILITY:Special Ability|AUTOMATIC|Fiendish ~ Smite Good|Resistance To Cold|Resistance To Fire	BONUS:VAR|DarkvisionRange|60|TYPE=Base	BONUS:VAR|ColdResistanceBonus,FireResistanceBonus|5|TYPE=Resistance	BONUS:VAR|ColdResistanceBonus,FireResistanceBonus|10|TYPE=Resistance|PREHD:MIN=8	DEFINE:FiendishSR|0	BONUS:VAR|FiendishSR|min(HD+5,25)	SR:FiendishSR	DR:5/Magic|PREHD:MIN=4,MAX=11	DR:10/Magic|PREHD:MIN=12	ABILITY:Special Ability|AUTOMATIC|Fiendish ~ Natural Weapons|PREHD:MIN=4	DEFINESTAT:MINVALUE|INT|3	BONUS:MISC|CR|1|PREHD:MIN=4	BONUS:MISC|CR|1|PREHD:MIN=8	KIT:1|LE|NE|CE	LEVELADJUSTMENT:2	
+Fiendish ~ Animal	VISIBLE:NO	PRERACE:1,RACETYPE=Animal	RACETYPE:Magical Beast	RACESUBTYPE:Augmented Animal
+Fiendish ~ Vermin	VISIBLE:NO	PRERACE:1,RACETYPE=Vermin	RACETYPE:Magical Beast	RACESUBTYPE:Augmented Vermin
+Ghost	TYPE:Acquired	VISIBLE:YES	PRERACE:1,RACETYPE=Aberration,RACETYPE=Animal,RACETYPE=Dragon,RACETYPE=Giant,RACETYPE=Humanoid,RACETYPE=Magical Beast,RACETYPE=Monstrous Humanoid,RACETYPE=Plant	PRESTAT:1,CHA=6	RACETYPE:Undead	RACESUBTYPE:Incorporeal	HITDIE:12	ABILITY:Special Ability|AUTOMATIC|Flight Maneuverability|Ghost ~ Manifestation|Ghost ~ Rejuvenation|Ghost ~ Turn Resistance|Ghost ~ Skills	BONUS:VAR|Maneuverability|5|TYPE=Base	MOVE:Fly,30	BONUS:COMBAT|AC|max(CHA,1)|TYPE=Deflection	DEFINE:GhostAbilityDC|0	BONUS:VAR|GhostAbilityDC|DefaultDCCha	BONUS:ABILITYPOOL|Number of Special Attack|1	BONUS:STAT|CHA|4	CR:2	LEVELADJUSTMENT:5
+Half-Celestial	TYPE:Inherited	VISIBLE:YES	!PRERACE:1,RACETYPE=Undead,RACETYPE=Construct	!PRERACE:1,RACESUBTYPE=Incorporeal	PRESTAT:1,INT=4	PREALIGN:LG,NG,CG,LN,TN,CN	RACETYPE:Outsider	RACESUBTYPE:Native	MOVECLONE:Walk,Fly,*2	ABILITY:Special Ability|AUTOMATIC|Flight Maneuverability|Half-Celestial ~ Feathered Wings|Half-Celestial ~ Daylight|Half-Celestial ~ Smite Evil|Half-Celestial ~ Spell-Like Abilities|Immunity To Disease|Resistance to Acid|Resistance to Cold|Resistance to Electricity|Half-Celestial ~ Natural Weapons|Resistance To Poison	BONUS:VAR|Maneuverability|4|TYPE=Base	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:VAR|DarkvisionRange|60|TYPE=Base	BONUS:VAR|AcidResistanceBonus,ColdResistanceBonus,ElectricityResistanceBonus|10|TYPE=Resistance	DR:5/Magic|PREHD:MAX=11	DR:10/Magic|PREHD:MIN=12	DEFINE:HalfCelestialSR|0	BONUS:VAR|HalfCelestialSR|min(HD+10,35)	SR:HalfCelestialSR	BONUS:VAR|PoisonResistanceBonus|4|TYPE=Resistance	BONUS:STAT|STR|4	BONUS:STAT|DEX|2	BONUS:STAT|CON|4	BONUS:STAT|INT|2	BONUS:STAT|WIS|4	BONUS:STAT|CHA|4	BONUS:MISC|CR|1	BONUS:MISC|CR|1|PREHD:MIN=6	BONUS:MISC|CR|1|PREHD:MIN=11	KIT:1|LG|NG|CG	LEVELADJUSTMENT:4	TEMPLATE:CHOOSE:Bite ~ Claw (Fine)|Bite ~ Claw (Diminutive)|Bite ~ Claw (Tiny)|Bite ~ Claw (Small)|Bite ~ Claw (Medium)|Bite ~ Claw (Large)|Bite ~ Claw (Huge)|Bite ~ Claw (Gargantuan)|Bite ~ Claw (Colossal)
+Half-Dragon (Black)	TYPE:Inherited	VISIBLE:YES	!PRERACE:1,RACETYPE=Undead,RACETYPE=Construct	!PRERACE:1,RACESUBTYPE=Incorporeal	TEMPLATE:Half-Dragon	KIT:1|CE	ABILITY:Special Ability|AUTOMATIC|Half-Dragon ~ Black ~ Breath Weapon|Immunity To Acid
+Half-Dragon (Blue)	TYPE:Inherited	VISIBLE:YES	!PRERACE:1,RACETYPE=Undead,RACETYPE=Construct	!PRERACE:1,RACESUBTYPE=Incorporeal	TEMPLATE:Half-Dragon	KIT:1|LE	ABILITY:Special Ability|AUTOMATIC|Half-Dragon ~ Blue ~ Breath Weapon|Immunity To Electricity
+Half-Dragon (Green)	TYPE:Inherited	VISIBLE:YES	!PRERACE:1,RACETYPE=Undead,RACETYPE=Construct	!PRERACE:1,RACESUBTYPE=Incorporeal	TEMPLATE:Half-Dragon	KIT:1|LE	ABILITY:Special Ability|AUTOMATIC|Half-Dragon ~ Green ~ Breath Weapon|Immunity To Acid
+Half-Dragon (Red)	TYPE:Inherited	VISIBLE:YES	!PRERACE:1,RACETYPE=Undead,RACETYPE=Construct	!PRERACE:1,RACESUBTYPE=Incorporeal	TEMPLATE:Half-Dragon	KIT:1|CE	ABILITY:Special Ability|AUTOMATIC|Half-Dragon ~ Red ~ Breath Weapon|Immunity To Fire
+Half-Dragon (White)	TYPE:Inherited	VISIBLE:YES	!PRERACE:1,RACETYPE=Undead,RACETYPE=Construct	!PRERACE:1,RACESUBTYPE=Incorporeal	TEMPLATE:Half-Dragon	KIT:1|CE	ABILITY:Special Ability|AUTOMATIC|Half-Dragon ~ White ~ Breath Weapon|Immunity To Cold
+Half-Dragon (Brass)	TYPE:Inherited	VISIBLE:YES	!PRERACE:1,RACETYPE=Undead,RACETYPE=Construct	!PRERACE:1,RACESUBTYPE=Incorporeal	TEMPLATE:Half-Dragon	KIT:1|CG	ABILITY:Special Ability|AUTOMATIC|Half-Dragon ~ Brass ~ Breath Weapon|Immunity To Fire
+Half-Dragon (Bronze)	TYPE:Inherited	VISIBLE:YES	!PRERACE:1,RACETYPE=Undead,RACETYPE=Construct	!PRERACE:1,RACESUBTYPE=Incorporeal	TEMPLATE:Half-Dragon	KIT:1|LG	ABILITY:Special Ability|AUTOMATIC|Half-Dragon ~ Bronze ~ Breath Weapon|Immunity To Electricity
+Half-Dragon (Copper)	TYPE:Inherited	VISIBLE:YES	!PRERACE:1,RACETYPE=Undead,RACETYPE=Construct	!PRERACE:1,RACESUBTYPE=Incorporeal	TEMPLATE:Half-Dragon	KIT:1|CG	ABILITY:Special Ability|AUTOMATIC|Half-Dragon ~ Copper ~ Breath Weapon|Immunity To Acid
+Half-Dragon (Gold)	TYPE:Inherited	VISIBLE:YES	!PRERACE:1,RACETYPE=Undead,RACETYPE=Construct	!PRERACE:1,RACESUBTYPE=Incorporeal	TEMPLATE:Half-Dragon	KIT:1|LG	ABILITY:Special Ability|AUTOMATIC|Half-Dragon ~ Gold ~ Breath Weapon|Immunity To Fire
+Half-Dragon (Silver)	TYPE:Inherited	VISIBLE:YES	!PRERACE:1,RACETYPE=Undead,RACETYPE=Construct	!PRERACE:1,RACESUBTYPE=Incorporeal	TEMPLATE:Half-Dragon	KIT:1|LG	ABILITY:Special Ability|AUTOMATIC|Half-Dragon ~ Silver ~ Breath Weapon|Immunity To Cold
+Half-Dragon		VISIBLE:NO	RACETYPE:Dragon	HITDIE:%up1|CLASS.TYPE=Monster	TEMPLATE:CHOOSE:Half Dragon Wings ~ Normal|Half Dragon Wings ~ Fast	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	TEMPLATE:CHOOSE:Bite ~ Claw (Fine)|Bite ~ Claw (Diminutive)|Bite ~ Claw (Tiny)|Bite ~ Claw (Small)|Bite ~ Claw (Medium)|Bite ~ Claw (Large)|Bite ~ Claw (Huge)|Bite ~ Claw (Gargantuan)|Bite ~ Claw (Colossal)	BONUS:VAR|DarkvisionRange|60|TYPE=Base	BONUS:VAR|HasLowLightVision|1|TYPE=Base	ABILITY:Special Ability|AUTOMATIC|Immunity To Sleep|Immunity To Paralysis	BONUS:STAT|STR|8	BONUS:STAT|CON|2	BONUS:STAT|INT|2	BONUS:STAT|CHA|2	BONUS:MONSKILLPTS|LOCKNUMBER|6	CR:2	LEVELADJUSTMENT:3	
+Half Dragon Wings ~ Normal		VISIBLE:NO	!PREMOVE:1,Walk=60	PRESIZEGTEQ:L	BONUS:VAR|Maneuverability|3|TYPE=Base	ABILITY:Special Ability|AUTOMATIC|Flight Maneuverability|Half-Dragon ~ Wings	MOVECLONE:Walk,Fly,*2
+Half Dragon Wings ~ Fast		VISIBLE:NO	PREMOVE:1,Walk=60	PRESIZEGTEQ:L	BONUS:VAR|Maneuverability|3|TYPE=Base	ABILITY:Special Ability|AUTOMATIC|Flight Maneuverability|Half-Dragon ~ Wings	MOVE:Fly,120
+Half-Fiend	TYPE:Inherited	VISIBLE:YES	!PRERACE:1,RACETYPE=Undead,RACETYPE=Construct	!PRERACE:1,RACESUBTYPE=Incorporeal	PRESTAT:1,INT=4	PREALIGN:LE,NE,CE,LN,TN,CN	RACETYPE:Outsider	RACESUBTYPE:Native	MOVECLONE:Walk,Fly,*1	ABILITY:Special Ability|AUTOMATIC|Flight Maneuverability|Half-Fiend ~ Bat Wings|Half-Fiend ~ Smite Good|Immunity To Poison|Resistance to Acid|Resistance To Cold|Resistance to Electricity|Resistance to Fire|Half-Fiend ~ Natural Weapons	BONUS:VAR|Maneuverability|3|TYPE=Base	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	TEMPLATE:CHOOSE:Bite ~ Claw (Fine)|Bite ~ Claw (Diminutive)|Bite ~ Claw (Tiny)|Bite ~ Claw (Small)|Bite ~ Claw (Medium)|Bite ~ Claw (Large)|Bite ~ Claw (Huge)|Bite ~ Claw (Gargantuan)|Bite ~ Claw (Colossal)	BONUS:VAR|DarkvisionRange|60|TYPE=Base	BONUS:VAR|AcidResistanceBonus,ColdResistanceBonus,ElectricityResistanceBonus,FireResistanceBonus|10|TYPE=Resistance	DR:5/Magic|PREHD:MAX=11	DR:10/Magic|PREHD:MIN=12	DEFINE:HalfCelestialSR|0	BONUS:VAR|HalfCelestialSR|min(HD+10,35)	BONUS:STAT|STR|4	BONUS:STAT|DEX|2	BONUS:STAT|CON|4	BONUS:STAT|INT|2	BONUS:STAT|WIS|4	BONUS:STAT|CHA|4	BONUS:MISC|CR|1	BONUS:MISC|CR|1|PREHD:MIN=6	BONUS:MISC|CR|1|PREHD:MIN=11	KIT:1|LG|NG|CG	LEVELADJUSTMENT:4	TEMPLATE:CHOOSE:Bite ~ Claw (Fine)|Bite ~ Claw (Diminutive)|Bite ~ Claw (Tiny)|Bite ~ Claw (Small)|Bite ~ Claw (Medium)|Bite ~ Claw (Large)|Bite ~ Claw (Huge)|Bite ~ Claw (Gargantuan)|Bite ~ Claw (Colossal)	BONUS:VAR|DarkvisionRange|60|TYPE=Base	DR:5/Magic|PREHD:MAX=11	DR:10/Magic|PREHD:MIN=12	DEFINE:HalfFiendSR|0	BONUS:VAR|HalfFiendSR|min(HD+10,35)	SR:HalfFiendSR	BONUS:STAT|STR|4	BONUS:STAT|DEX|4	BONUS:STAT|CON|2	BONUS:STAT|INT|4	BONUS:STAT|CHA|2	BONUS:MISC|CR|1	BONUS:MISC|CR|1|PREHD:MIN=5	BONUS:MISC|CR|1|PREHD:MIN=11	KIT:1|LE|NE|CE	LEVELADJUSTMENT:4
+Lich	TYPE:Acquired	VISIBLE:YES	PRERACE:1,RACETYPE=Humanoid	RACETYPE:Undead	HITDIE:12|CLASS.TYPE=Monster	BONUS:COMBAT|AC|5|TYPE=NaturalArmor	NATURALATTACKS:Touch.Weapon.Natural.Finesseable.Melee,*1,0,SPROP=+1d8 Negative Energy Damage	DEFINE:LichDC|0	BONUS:VAR|LichDC|DefaultDCCha	ABILITY:Special Ability|AUTOMATIC|Lich ~ Fear Aura|Lich ~ Paralyzing Touch|Lich ~ Turn Resistance|Lich ~ Natural Weapons|Immunity To Cold|Immunity To Electricity|Immunity To Polymorph|Immunity To Mind-Affecting|Lich ~ Skills	DR:15/Bludgeoning and Magic	BONUS:STAT|INT|2	BONUS:STAT|WIS|2	BONUS:STAT|CHA|2	CR:2	BONUS:VAR|AdvancementByClass|1	LEVELADJUSTMENT:4
+Lycanthrope TYPE:Inherited.Acquired	VISIBLE:YES	PRERACE:1,PRERACETYPE=Humanoid,PRERACETYPE=Giant	TEMPLATE:CHOOSE:Natural Lycanthrope|Afflicted Lycanthrope	RACESUBTYPE:Shapechange	TEMPLATE:CHOOSE:Lycanthrope ~ Bear|Lycanthrope ~ Boar|Lycanthrope ~ Rat|Lycanthrope ~ Tiger|Lycanthrope ~ Wolf|Lycanthrope ~ Dire Wolf|Lycanthrope ~ Dire Boar	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:HP|CURRENTMAX|(AnimalCon/2)*AnimalHD|!PRETEMPLATE:1,Lycanthrope (Animal Form),Lycanthrope (Hybrid Form)	BONUS:STAT|WIS|2	BONUS:VAR|HasLowLightVision|1	ABILITY:Special Ability|AUTOMATIC|Lycanthrope ~ Alternate Form|Scent	DEFINE:NoTypeTraits|0	BONUS:VAR|NoTypeTraits|1	DEFINE:AnimalSize|0	DEFINE:AnimalHD|0	DEFINE:AnimalMove|0	DEFINE:AnimalAC|0	DEFINE:AnimalStr|0	DEFINE:AnimalDex|0	DEFINE:AnimalCon|0
+Natural Lycanthrope	VISIBLE:NO	!PRETEMPLATE:1,Afflicted Lycanthrope
+Afflicted Lycanthrope	VISIBLE:NO	!PRETEMPLATE:1,Natural Lycanthrope
+Lycanthrope ~ Bear	VISIBLE:YES	PRETEMPLATE:1,Lycanthrope
+Lycanthrope ~ Boar	VISIBLE:YES	PRETEMPLATE:1,Lycanthrope
+Lycanthrope ~ Rat	VISIBLE:YES	PRETEMPLATE:1,Lycanthrope
+Lycanthrope ~ Tiger	VISIBLE:YES	PRETEMPLATE:1,Lycanthrope
+Lycanthrope ~ Wolf	VISIBLE:YES	PRETEMPLATE:1,Lycanthrope
+Lycanthrope ~ Dire Wolf	VISIBLE:YES	PRETEMPLATE:1,Lycanthrope
+Lycanthrope ~ Dire Boar	VISIBLE:YES	PRETEMPLATE:1,Lycanthrope
 
+#other
 Sane	VISIBLE:YES	PRERACE:1,Derro	BONUS:STAT|WIS|6	BONUS:STAT|CHA|-6	LEVELADJUSTMENT:2
+Greater Stone Golem	VISIBLE:YES	PRERACE:1,Golem (Stone)	PREHD:MIN=42	SUBRACE:Greater Stone	BONUS:SAVE|ALL|7
+Pyrohydra	VISIBLE:YES	PRERACE:1,Hydra	RACESUBTYPE:Fire	ABILITY:Special Ability|AUTOMATIC|Pyrohydra ~ Breath Weapon	BONUS:MISC|CR|2
+Criohydra	VISIBLE:YES	PRERACE:1,Hydra	RACESUBTYPE:Cold	ABILITY:Special Ability|AUTOMATIC|Cryohydra ~ Breath Weapon	BONUS:MISC|CR|2
+
+Bite ~ Claw (Fine)	VISIBLE:NO	PRESIZEEQ:F	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1
+Bite ~ Claw (Diminutive)	VISIBLE:NO	PRESIZEEQ:D	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d2|Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*1,1
+Bite ~ Claw (Tiny)	VISIBLE:NO	PRESIZEEQ:T	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d2|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d3|Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*1,1d2
+Bite ~ Claw (Small)	VISIBLE:NO	PRESIZEEQ:S	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d3|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d4|Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*1,1d3
+Bite ~ Claw (Medium)	VISIBLE:NO	PRESIZEEQ:M	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d4|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6|Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*1,1d4
+Bite ~ Claw (Large)	VISIBLE:NO	PRESIZEEQ:L	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d6|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d8|Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*1,1d6
+Bite ~ Claw (Huge)	VISIBLE:NO	PRESIZEEQ:H	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d8|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,2d6|Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*1,1d8
+Bite ~ Claw (Gargantuan)	VISIBLE:NO	PRESIZEEQ:G	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,2d6|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,3d6|Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*1,2d6
+Bite ~ Claw (Colossal)	VISIBLE:NO	PRESIZEEQ:C	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,3d6|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,4d6|Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*1,3d6

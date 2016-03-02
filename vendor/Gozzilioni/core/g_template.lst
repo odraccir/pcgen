@@ -97,3 +97,12 @@ Very Old	VISIBLE:NO	KEY:Dragon ~ Very Old	SUBRACE:Very Old
 Ancient	VISIBLE:NO	KEY:Dragon ~ Ancient	SUBRACE:Ancient
 Wyrm	VISIBLE:NO	KEY:Dragon ~ Wyrm	SUBRACE:Wyrm
 Great Wyrm	VISIBLE:NO	KEY:Dragon ~ Great Wyrm	SUBRACE:Great Wyrm
+
+###Block: Elemental Age
+# Template Name	Visible	Subrace
+Small	VISIBLE:NO	KEY:Elemental ~ Small	SUBRACE:Small
+Medium	VISIBLE:NO	KEY:Elemental ~ Medium	SUBRACE:Medium
+Large	VISIBLE:NO	KEY:Elemental ~ Large	SUBRACE:Large
+Huge	VISIBLE:NO	KEY:Elemental ~ Huge	SUBRACE:Huge
+Greater	VISIBLE:NO	KEY:Elemental ~ Greater	SUBRACE:Greater
+Elder	VISIBLE:NO	KEY:Elemental ~ Elder	SUBRACE:Elder

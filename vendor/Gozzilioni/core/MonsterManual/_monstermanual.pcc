@@ -19,14 +19,16 @@ PRECAMPAIGN:1,Gozzilioni Core Ruleset
 ABILITY:mm1_abilities.lst
 # ABILITY:phb_abilities_classes.lst
 ABILITY:mm1_abilities_races.lst
+ABILITY:mm1_abilities_templates.lst
 ABILITYCATEGORY:mm1_abilitycategories.lst
 # BIOSET:phb_biosettings.lst
 CLASS:mm1_classes.lst
-# COMPANIONMOD:phb_companionmods.lst
+COMPANIONMOD:mm1_companionmods.lst
 DEITY:mm1_deities.lst
 # DOMAIN:phb_domains.lst
-# EQUIPMENT:phb_equip.lst
+EQUIPMENT:mm1_equip.lst
 # EQUIPMENT:phb_equip_armors.lst
+EQUIPMENT:mm1_equip_weapons.lst
 EQUIPMENT:mm1_equip_weapons_specific.lst
 # EQUIPMOD:phb_equipmods.lst
 ABILITY:mm1_feats.lst

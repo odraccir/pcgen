@@ -2,7 +2,17 @@ SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzil
 
 # Language			Type								Var. Min. Value
 Telepathy			TYPE:Spoken
+Drow Sign Language			TYPE:Spoken.Sign
 
-# Goblin			TYPE:Spoken
+Ettin Pidgin			TYPE:Spoken.Orc.Goblin.Giant
+Formian			TYPE:Spoken	
 Blink Dog			TYPE:Spoken
 Worg			TYPE:Spoken
+Githyanki			TYPE:Spoken.Written.Read.Gith.Secret	PREVARGTEQ:GithyankiLanguage,1
+Githzerai			TYPE:Spoken.Written.Read.Gith
+Kuo-Toan			TYPE:Spoken
+Slaad			TYPE:Spoken
+Grimlock			TYPE:Spoken
+
+
+Forest			TYPE:Spoken.Secret	PREVARGTEQ:ForestLanguage,1

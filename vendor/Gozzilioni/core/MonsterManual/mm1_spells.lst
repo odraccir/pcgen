@@ -2,22 +2,53 @@ SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzil
 #																								
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:|!PRERULE:1,DisplayFullSpell	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	Desc	Bonus	Bonus
 ### Teleport (Greater) ~ Self only.MOD	CLASS:.CLEARALL
+Blur.COPY=Blur	KEY:Blur ~ Self only
+Blur ~ Self only.MOD	OUTPUTNAME:Blur	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only.	SOURCEPAGE:MM1
+
 Ethereal Jaunt.COPY=Ethereal Jaunt	KEY:Ethereal Jaunt ~ Self only
 Ethereal Jaunt ~ Self only.MOD	OUTPUTNAME:Ethereal Jaunt	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only plus 50 pounds of objects.	SOURCEPAGE:MM1
 
 Invisibility.COPY=Invisibility	KEY:Invisibility ~ Self only
 Invisibility ~ Self only.MOD	OUTPUTNAME:Invisibility	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	SOURCEPAGE:MM1
 
+Invisibility (Greater).COPY=Invisibility	KEY:Invisibility (Greater) ~ Self only
+Invisibility (Greater) ~ Self only.MOD	OUTPUTNAME:Invisibility (Greater)	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	SOURCEPAGE:MM1
+
+Levitate.COPY=Levitate	KEY:Levitate ~ Self only
+Levitate ~ Self only.MOD	OUTPUTNAME:Levitate	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only plus 2000 pounds of objects.	SOURCEPAGE:MM1
+
+Magic Circle against Evil.COPY=Magic Circle against Evil	KEY:Magic Circle against Evil ~ Self only
+Magic Circle against Evil ~ Self only.MOD	OUTPUTNAME:Magic Circle against Evil	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only.	SOURCEPAGE:MM1
+
+Pass without Trace.COPY=Pass without Trace	KEY:Pass without Trace ~ Self only
+Pass without Trace ~ Self only.MOD	OUTPUTNAME:Pass without Trace	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	SOURCEPAGE:MM1
+
 Polymorph.COPY=Polymorph	KEY:Polymorph ~ Self only
 Polymorph ~ Self only.MOD	OUTPUTNAME:Polymorph	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	SOURCEPAGE:MM1
-
-Scorching Ray.COPY=Scorching Ray	KEY:Scorching Ray ~ 2 rays
-Scorching Ray ~ 2 rays.MOD	OUTPUTNAME:Scorching Ray	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:2 rays.	SOURCEPAGE:MM1
 
 Teleport (Greater).COPY=Teleport (Greater)	KEY:Teleport (Greater) ~ Self only
 Teleport (Greater) ~ Self only.MOD	OUTPUTNAME:Teleport, Greater	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only plus 50 pounds of objects.	SOURCEPAGE:MM1
 
+Scorching Ray.COPY=Scorching Ray	KEY:Scorching Ray ~ 1 ray
+Scorching Ray ~ 1 ray.MOD	OUTPUTNAME:Scorching Ray	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:1 ray.	SOURCEPAGE:MM1
+Scorching Ray.COPY=Scorching Ray	KEY:Scorching Ray ~ 2 rays
+Scorching Ray ~ 2 rays.MOD	OUTPUTNAME:Scorching Ray	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:2 rays.	SOURCEPAGE:MM1
+
+Summon Monster IX.COPY=Summon Monster IX	KEY:Summon Monster IX ~ Celestial only
+Summon Monster IX ~ Celestial only.MOD	OUTPUTNAME:Summon Monster IX	DESCRIPTOR:.CLEAR	DESCRIPTOR:Good	DESC:Summon celestial creatures only.	SOURCEPAGE:MM1
+Summon Monster IX.COPY=Summon Monster IX	KEY:Summon Monster IX ~ Fiendish only
+Summon Monster IX ~ Fiendish only.MOD	OUTPUTNAME:Summon Monster IX	DESCRIPTOR:.CLEAR	DESCRIPTOR:Evil	DESC:Summon fiendish creatures only.	SOURCEPAGE:MM1
+
 #
 Cause Fear.COPY=Cause Fear	KEY:Cause Fear ~ Quasit
 Cause Fear ~ Quasit.MOD	OUTPUTNAME:Cause Fear	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:30-ft radius from the Quasit	SOURCEPAGE:MM1
+
+Create Water.COPY=Create Water	KEY:Create Water ~ Djinni
+Create Water ~ Djinni.MOD	OUTPUTNAME:Create Wine	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:Up to 2 gallons of water/level.	SOURCEPAGE:MM1
+
+Gaseous Form.COPY=Gaseous Form	KEY:Gaseous Form ~ Djinni
+Gaseous Form ~ Djinni.MOD	OUTPUTNAME:Gaseous Form	TYPE:SpellLike	RANGE:.CLEAR	TARGETAREA:.CLEAR	DURATION:.CLEAR	RANGE:Personal	TARGETAREA:You.	DURATION:Up to 1 hour.	SOURCEPAGE:MM1
+
+Wish.COPY=Wish	KEY:Wish ~ nongenies only
+Wish ~ nongenies only.MOD	OUTPUTNAME:Wish	TYPE:SpellLike	DESC:Nongenies only can benefit.	SOURCEPAGE:MM1
 

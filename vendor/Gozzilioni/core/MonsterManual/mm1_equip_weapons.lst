@@ -1,0 +1,31 @@
+SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+#																									
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:			
+Giant Rock (Large)		PROFICIENCY:WEAPON|Giant Rock	TYPE:Weapon.Ranged.Thrown.Bludgeoning.Rock					SIZE:L	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2		RANGE:120	BONUS:WEAPON|ATTACKSPROGRESS|-3
+Giant Rock (Huge)			PROFICIENCY:WEAPON|Giant Rock	TYPE:Weapon.Ranged.Thrown.Bludgeoning.Rock					SIZE:H	DAMAGE:2d8	CRITRANGE:1	CRITMULT:x2		RANGE:120	BONUS:WEAPON|ATTACKSPROGRESS|-3
+
+Giant Rock (Fire)	OUTPUTNAME:Giant Rock (Large)	PROFICIENCY:WEAPON|Giant Rock	TYPE:Weapon.Ranged.Thrown.Bludgeoning.Rock					SIZE:L	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2	SPROP:+2d6 fire damage	RANGE:120	BONUS:WEAPON|ATTACKSPROGRESS|-3
+Giant Rock (Stone)	OUTPUTNAME:Giant Rock (Large)	PROFICIENCY:WEAPON|Giant Rock	TYPE:Weapon.Ranged.Thrown.Bludgeoning.Rock					SIZE:L	DAMAGE:2d8	CRITRANGE:1	CRITMULT:x2		RANGE:180	BONUS:WEAPON|ATTACKSPROGRESS|-3
+Giant Rock (Cloud)	OUTPUTNAME:Giant Rock (Large)	PROFICIENCY:WEAPON|Giant Rock	TYPE:Weapon.Ranged.Thrown.Bludgeoning.Rock					SIZE:L	DAMAGE:2d8	CRITRANGE:1	CRITMULT:x2		RANGE:140	BONUS:WEAPON|ATTACKSPROGRESS|-3
+
+# Simple Weapons																									
+## Unarmed																									
+## Light																									
+## OneHanded																									
+## TwoHanded																									
+## Ranged																									
+
+# Martial Weapons																									
+## Light																									
+## OneHanded																									
+## TwoHanded																									
+## Ranged																									
+
+# Exotic Weapons																									
+## Light																									
+## OneHanded																									
+## TwoHanded																									
+Pincer Staff			PROFICIENCY:WEAPON|Pincer Staff	TYPE:Weapon.Melee.Exotic.Bludgeoning.TwoHanded	COST:0	WT:12	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.WOOD	SOURCEPAGE:MM1	SPROP:A wielder that hits an opponent of at least Small but no larger than Large size can attempt to start a grapple as a free action without provoking an attack of opportunity. If the wielder wins the grapple check, the staff establishes a hold and grabs the opponent, dealing 1d10 points of damage each round the hold is maintained.							REACHMULT:2			
+## Ranged																									
+																									
+### Arrows																									

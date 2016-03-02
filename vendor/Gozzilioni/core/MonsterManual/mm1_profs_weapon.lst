@@ -6,6 +6,9 @@ SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzil
 ### Bludgeoning/Piercing/Slashing			
 ### Reach/Double/Thrown/Projectile/Ammunition			
 ### Unharmed/Light/OneHanded/TwoHanded			
+Giant Rock	TYPE:Weapon.Ranged.Bludgeoning.RangedBludgeoning.Rock
+Pincer Staff	TYPE:Weapon.Melee.Bludgeoning.MeleeBludgeoning
+
 ###Automatic			
 Bite	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning
 Claw	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing
@@ -21,3 +24,5 @@ Tail	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning
 Tail Slap	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning
 Pincer	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing
 Foreclaw	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing
+Tentacle (Arms)	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing
+Touch	TYPE:Weapon.Natural.Finesseable.Melee.Touch

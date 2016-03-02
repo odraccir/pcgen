@@ -67,7 +67,7 @@ Familiar Race Change	VISIBLE:NO	TEMPLATE:CHOOSE:Animal Base|Non-Animal Base
 Animal Base	VISIBLE:NO	PRERACE:1,RACETYPE=Animal	RACETYPE:Magical Beast
 Non-Animal Base	VISIBLE:NO	!PRERACE:1,RACETYPE=Animal
 
-Awaken	TEMPLATE:CHOOSE:Awakened Animal|Awakened Tree	VISIBLE:YES	SUBRACE:Awakened
+Awaken	TYPE:Spell Effect	TEMPLATE:CHOOSE:Awakened Animal|Awakened Tree	VISIBLE:YES	SUBRACE:Awakened
 Awakened Animal	VISIBLE:NO	TEMPLATE:CHOOSE:Awakened Animal_Standard|Awakened Animal_Dire	PRERACE:1,RACETYPE=Animal,TYPE=Animal	ADD:LANGUAGE|TYPE=Spoken	KIT:1|Awakened Animal	LANGBONUS:TYPE=Spoken	RACETYPE:Magical Beast	RACESUBTYPE:Augmented Animal
 Awakened Animal_Standard	VISIBLE:NO	PRECLASS:1,Animal=1	ADDLEVEL:Animal|2
 Awakened Animal_Dire	VISIBLE:NO	PRECLASS:1,Animal (Dire)=1	ADDLEVEL:Animal (Dire)|2

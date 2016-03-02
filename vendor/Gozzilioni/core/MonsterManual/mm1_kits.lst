@@ -115,7 +115,7 @@ STARTPACK:Bugbear Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
 
 STARTPACK:Bugbear Standard Equip	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Bugbear
-GEAR:Leather
+GEAR:Leather	LOCATION:Equipped
 GEAR:Shield (Light/Wood)
 GEAR:Morningstar
 GEAR:Javelin
@@ -130,8 +130,8 @@ STARTPACK:Centaur Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPB
 STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
 
 STARTPACK:Centaur Standard Equip	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Centaur
-GEAR:Longsword
-GEAR:Longbow (Composite)	EQMOD:BOWSTR|4
+GEAR:Longsword	SIZE:L
+GEAR:Longbow (Composite)	SIZE:L	EQMOD:BOWSTR|4
 
 STARTPACK:Chaos Beast Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Chaos Beast
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
@@ -183,8 +183,8 @@ STARTPACK:Demon (Balor) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
 STARTPACK:Demon (Balor) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Demon (Balor)
-GEAR:Longsword	EQMOD:PLUS1W.VORPAL_M
-GEAR:Whip	EQMOD:PLUS1W.FLM_M
+GEAR:Longsword	SIZE:L	EQMOD:PLUS1W.VORPAL_M
+GEAR:Whip	SIZE:L	EQMOD:PLUS1W.FLM_M
 
 STARTPACK:Demon (Bebilith) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Bebilith)
 STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
@@ -202,7 +202,7 @@ STARTPACK:Demon (Marilith) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBU
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
 STARTPACK:Demon (Marilith) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Demon (Marilith)
-GEAR:Longsword	QTY:6
+GEAR:Longsword	SIZE:L	QTY:6
 
 STARTPACK:Demon (Nalfeshnee) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Nalfeshnee)
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
@@ -286,13 +286,13 @@ STARTPACK:Devil (Horned) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
 STARTPACK:Devil (Horned) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Devil (Horned)
-GEAR:Chain (Spiked)
+GEAR:Chain (Spiked)	SIZE:L
 
 STARTPACK:Devil (Ice) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Ice)
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
 STARTPACK:Devil (Ice) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Devil (Ice)
-GEAR:Spear
+GEAR:Spear	SIZE:L
 
 STARTPACK:Devil (Imp) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Imp)
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
@@ -540,23 +540,23 @@ SKILL:Spot	RANK:2
 STARTPACK:Doppelganger Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Doppelganger
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
 
-STARTPACK:Black Dragon Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Black)
+STARTPACK:Dragon (Black) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Black)
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
 
-STARTPACK:Blue Dragon Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Blue)
+STARTPACK:Dragon (Blue) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Blue)
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
 
-STARTPACK:Green Dragon Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Green)
+STARTPACK:Dragon (Green) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Green)
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
 
-STARTPACK:Green Dragon Companion	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Dragon (Green)
+STARTPACK:Dragon (Green) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Dragon (Green)
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
 CLASS:Dragon	LEVEL:6
 ABILITY:CATEGORY=FEAT|Alertness
 ABILITY:CATEGORY=FEAT|Flyby Attack
 ABILITY:CATEGORY=FEAT|Improved Natural Attack (Bite)
 ABILITY:CATEGORY=FEAT|Power Attack
-SKILL:Bluff RANK:7
+SKILL:Bluff	RANK:7
 SKILL:Concentration	RANK:7
 SKILL:Diplomacy	RANK:7
 SKILL:Intimidate	RANK:8
@@ -568,5 +568,451 @@ SKILL:Search	RANK:8
 SKILL:Sense Motive	RANK:8
 SKILL:Spot	RANK:8
 
-STARTPACK:Red Dragon Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Red)
+STARTPACK:Dragon (Red) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Red)
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dragon (White) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (White)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dragon (Brass) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Brass)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dragon (Bronze) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Bronze)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dragon (Copper) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Copper)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dragon (Gold) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Gold)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dragon (Silver) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Silver)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dragon Turtle Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon Turtle
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dragonne Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragonne
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Dragonne Companion	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Dragonne
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+ABILITY:CATEGORY=FEAT|Blind-Fight
+ABILITY:CATEGORY=FEAT|Combat Reflexes
+ABILITY:CATEGORY=FEAT|Improved Initiative
+ABILITY:CATEGORY=FEAT|Track
+SKILL:Listen	RANK:6
+SKILL:Spot	RANK:6
+
+STARTPACK:Drider Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Drider
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+GEAR:Dagger	SIZE:L
+GEAR:Dagger	SIZE:L
+GEAR:Shortbow	SIZE:L
+
+STARTPACK:Dryad Stats	TYPE:DefaultMonster.Fey	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dryad
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dwarf Companion	TYPE:DefaultMonster.Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Dwarf
+STAT:STR=13|DEX=11|CON=12|INT=10|WIS=9|CHA=8
+CLASS:Fighter	LEVEL:1
+ABILITY:CATEGORY=Fighter Feat|Weapon Focus (Waraxe (Dwarven))
+ABILITY:CATEGORY=FEAT|Alertness
+SKILL:Listen	RANK:2
+SKILL:Spot	RANK:2
+GEAR:Waraxe (Dwarven)
+GEAR:Shortbow
+GEAR:Scale Mail	LOCATION:Equipped
+
+STARTPACK:Eagle (Giant) Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Eagle (Giant)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Eagle (Giant) Companion	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Eagle (Giant)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Eladrin (Bralani) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Eladrin (Bralani)
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Eladrin (Bralani) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Eladrin (Bralani)
+GEAR:Scimitar	EQMOD:PLUS1W.HOLY_M
+GEAR:Longbow (Composite)	EQMOD:PLUS1W.HOLY_M.BOWSTR|4
+
+STARTPACK:Eladrin (Bralani) Companion	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Eladrin (Bralani)
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=10|CHA=10
+ABILITY:CATEGORY=FEAT|Alertness
+ABILITY:CATEGORY=FEAT|Blind-Fight
+ABILITY:CATEGORY=FEAT|Improved Initiative
+SKILL:Concentration	RANK:9
+SKILL:Diplomacy	RANK:2
+SKILL:Escape Artist	RANK:9
+SKILL:Handle Animal	RANK:9
+SKILL:Hide	RANK:9
+SKILL:Jump	RANK:2
+SKILL:Listen	RANK:9
+SKILL:Move Silently	RANK:9
+SKILL:Sense Motive	RANK:9
+SKILL:Spot	RANK:9
+SKILL:Tumble	RANK:9
+
+STARTPACK:Eladrin (Ghaele) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Eladrin (Ghaele)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Eladrin (Ghaele) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Eladrin (Ghaele)
+GEAR:Greatsword	EQMOD:PLUS4W.HOLY_M
+
+STARTPACK:Elemental (Air) Stats	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Elemental (Air)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Elemental (Air) Companion	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Elemental (Air)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+ABILITY:CATEGORY=FEAT|Flyby Attack
+SKILL:Listen	RANK:3
+SKILL:Spot	RANK:2
+
+STARTPACK:Elemental (Earth) Stats	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Elemental (Earth)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Elemental (Earth) Companion	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Elemental (Earth)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+ABILITY:CATEGORY=FEAT|Power Attack
+SKILL:Listen	RANK:3
+SKILL:Spot	RANK:2
+
+STARTPACK:Elemental (Fire) Stats	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Elemental (Fire)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Elemental (Fire) Companion	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Elemental (Fire)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+ABILITY:CATEGORY=FEAT|Dodge
+SKILL:Listen	RANK:2
+SKILL:Spot	RANK:3
+
+STARTPACK:Elemental (Water) Stats	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Elemental (Water)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Elemental (Water) Companion	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Elemental (Water)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+ABILITY:CATEGORY=FEAT|Power Attack
+SKILL:Listen	RANK:2
+SKILL:Spot	RANK:3
+
+STARTPACK:Elf (Drow) Standard Equip	TYPE:DefaultMonster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Elf	PREABILITY:1,CATEGORY=Elf Subrace,Elf ~ Drow
+GEAR:Poison (Drow Poison)	QTY:roll("1d4-1")
+
+STARTPACK:Elf Companion	TYPE:DefaultMonster.Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Elf
+STAT:STR=13|DEX=11|CON=12|INT=10|WIS=9|CHA=8
+CLASS:Fighter	LEVEL:1
+ABILITY:CATEGORY=FEAT|Weapon Focus (Longbow)
+SKILL:Listen	RANK:1
+SKILL:Search	RANK:2
+SKILL:Spot	RANK:1
+GEAR:Longsword
+GEAR:Longbow
+GEAR:Studded Leather	LOCATION:Equipped
+
+STARTPACK:Ethereal Filcher Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ethereal Filcher
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Ethereal Marauder Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ethereal Marauder
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Ettercap Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ettercap
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Ettin Stats	TYPE:DefaultMonster.Giant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ettin
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Ettin Companion	TYPE:DefaultMonster.Giant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Ettin
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+ABILITY:CATEGORY=FEAT|Alertness
+ABILITY:CATEGORY=FEAT|Improved Initiative
+ABILITY:CATEGORY=FEAT|Iron Will
+ABILITY:CATEGORY=FEAT|Power Attack
+SKILL:Listen	RANK:4
+SKILL:Spot	RANK:4
+
+STARTPACK:Formian (Worker) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Formian (Worker)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Formian (Worker) Companion	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Formian (Worker)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+ABILITY:CATEGORY=FEAT|Skill Focus
+SKILL:Climb	RANK:4
+SKILL:TYPE=Craft	RANK:4
+SKILL:Listen	RANK:4
+SKILL:Search	RANK:4
+SKILL:Spot	RANK:4
+
+STARTPACK:Formian (Warrior) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Formian (Warrior)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Formian (Taskmaster) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Formian (Taskmaster)
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Formian (Myrmarch) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Formian (Myrmarch)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Formian (Myrmarch) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Formian (Myrmarch)
+GEAR:Javelin	SIZE:L
+
+STARTPACK:Formian (Queen) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Formian (Queen)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Frost Worm Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Frost Worm
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Fungus (Shrieker) Stats	TYPE:DefaultMonster.Plant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Fungus (Shrieker)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Fungus (Violet) Stats	TYPE:DefaultMonster.Plant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Fungus (Violet)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Gargoyle Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Gargoyle
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Genie (Djinni) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Genie (Djinni)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Genie (Noble Djinni) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Genie (Djinni)	PRECLASS:1,Outsider=10
+# CR:2
+ABILITY:CATEGORY=Special Ability|Genie (Noble Djinni) ~ Three Wishes
+
+STARTPACK:Genie (Efreeti) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Genie (Effreti)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Genie (Janni) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Genie (Janni)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+KIT:Genie (Janni) Language Elemental
+KIT:Genie (Janni) Language Alignment
+
+STARTPACK:Genie (Janni) Language Elemental	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Genie (Janni)
+SELECT:roll("1d4")
+TEMPLATE:Genie ~ Janni ~ Language ~ Aquan	OPTION:01
+TEMPLATE:Genie ~ Janni ~ Language ~ Auran	OPTION:02
+TEMPLATE:Genie ~ Janni ~ Language ~ Ignan	OPTION:03
+TEMPLATE:Genie ~ Janni ~ Language ~ Terran	OPTION:04
+
+STARTPACK:Genie (Janni) Language Alignment	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Genie (Janni)
+SELECT:roll("1d3")
+TEMPLATE:Genie ~ Janni ~ Language ~ Abyssal	OPTION:01
+TEMPLATE:Genie ~ Janni ~ Language ~ Celestial	OPTION:02
+TEMPLATE:Genie ~ Janni ~ Language ~ Infernal	OPTION:03
+
+STARTPACK:Genie (Janni) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Genie (Janni)
+GEAR:Scimitar
+GEAR:Longbow
+GEAR:Chainmail	LOCATION:Equipped
+
+STARTPACK:Ghoul Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ghoul
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Ghoul (Ghast) Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ghoul (Ghast)
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Giant (Cloud) Stats	TYPE:DefaultMonster.Giant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Giant (Cloud)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Giant (Cloud) Standard Equip	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Giant (Cloud)
+GEAR:Morningstar	SIZE:G
+GEAR:Giant Rock (Cloud)
+
+STARTPACK:Giant (Fire) Stats	TYPE:DefaultMonster.Giant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Giant (Fire)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Giant (Fire) Standard Equip	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Giant (Fire)
+GEAR:Half-Plate	SIZE:L	LOCATION:Equipped
+GEAR:Greatsword	SIZE:L
+GEAR:Giant Rock (Fire)
+
+STARTPACK:Giant (Frost) Stats	TYPE:DefaultMonster.Giant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Giant (Frost)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Giant (Frost) Standard Equip	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Giant (Frost)
+GEAR:Chain Shirt	SIZE:L	LOCATION:Equipped
+GEAR:Greataxe	SIZE:L
+GEAR:Giant Rock (Large)
+
+STARTPACK:Giant (Hill) Stats	TYPE:DefaultMonster.Giant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Giant (Hill)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Giant (Hill) Standard Equip	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Giant (Hill)
+GEAR:Hide	SIZE:L	LOCATION:Equipped
+GEAR:Greatclub	SIZE:L
+GEAR:Giant Rock (Large)
+
+STARTPACK:Giant (Stone) Stats	TYPE:DefaultMonster.Giant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Giant (Stone)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Giant (Stone) Standard Equip	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Giant (Stone)
+GEAR:Hide	SIZE:L	LOCATION:Equipped
+GEAR:Greatclub	SIZE:L
+GEAR:Giant Rock (Stone)
+
+STARTPACK:Giant (Storm) Stats	TYPE:DefaultMonster.Giant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Giant (Storm)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Giant (Storm) Standard Equip	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Giant (Storm)
+GEAR:Breastplate	SIZE:H	LOCATION:Equipped
+GEAR:Greatsword	SIZE:H
+GEAR:Longbow (Composite)	SIZE:H	EQMOD:BOWSTR|14
+
+STARTPACK:Gibbering Mouther Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Gibbering Mouther
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+GEAR:Gibbering Mouther ~ Spittle
+
+STARTPACK:Girallon Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Girallon
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Githyanki Stats	TYPE:DefaultMonster.Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Githyanki
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Githzerai Stats	TYPE:DefaultMonster.Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Githzerai
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Gnoll Stats	TYPE:DefaultMonster.Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Gnoll
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Gnoll Standard Equip	TYPE:DefaultMonster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Gnoll
+GEAR:Leather	LOCATION:Equipped
+GEAR:Shield (Heavy/Steel)	LOCATION:Equipped
+GEAR:Battleaxe
+GEAR:Shortbow
+
+STARTPACK:Goblin Stats	TYPE:DefaultMonster.Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Goblin
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Golem (Clay) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Golem (Clay)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Golem (Flesh) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Golem (Flesh)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Golem (Iron) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Golem (Iron)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Golem (Stone) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Golem (Stone)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Gorgon Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Gorgon
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Gray Render Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Gray Render
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Grick Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Grick
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=10|CHA=11
+
+STARTPACK:Griffon Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Griffon
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Grimlock Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Grimlock
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Grimlock Standard Equip	TYPE:DefaultMonster.Monstrus Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Grimlock
+GEAR:Battleaxe
+
+STARTPACK:Guardinal (Avoral) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Guardinal (Avoral)
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Guardinal (Leonal) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Guardinal (Leonal)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Hag (Annis) Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Hag (Annis)
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Hag (Green) Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Hag (Green)
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Hag (Sea) Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Hag (Sea)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Harpy Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Harpy
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Harpy Standard Equip	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Harpy
+GEAR:Club
+
+STARTPACK:Hell Hound Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Hell Hound
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Hell Hound (Nessian Warhound) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Hell Hound (Nessian Warhound)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Hell Hound (Nessian Warhound) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Hell Hound (Nessian Warhound)
+GEAR:Barding (Chain Shirt)	SIZE:L	EQMOD:PLUS2A	LOCATION:Equipped
+
+STARTPACK:Hippogrif Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Hippogrif
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Hobgoblin Stats	TYPE:DefaultMonster.Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Hobgoblin
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Homunculus Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Homunculus
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Howler Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Howler
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Hydra Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Hydra
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Inevitable (Kolyaruth) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Inevitable (Kolyaruth)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Inevitable (Kolyaruth) Standard Equip	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Inevitable (Kolyaruth)
+GEAR:Banded Mail	LOCATION:Equipped
+GEAR:Longsword	EQMOD:PLUS2W
+
+STARTPACK:Inevitable (Marut) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Inevitable (Marut)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Inevitable (Marut) Standard Equip	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Inevitable (Marut)
+GEAR:Full Plate	SIZE:L	LOCATION:Equipped
+
+STARTPACK:Inevitable (Zelekhut) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Inevitable (Zelekhut)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Inevitable (Zelekhut) Standard Equip	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Inevitable (Zelekhut)
+GEAR:Barding (Full Plate)	SIZE:L	LOCATION:Equipped
+
+STARTPACK:Invisible Stalker Stats	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Invisible Stalker
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Kobold Stats	TYPE:DefaultMonster.Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Kobold
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Kraken Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Kraken
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Krenshar Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Krenshar
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Kuo-Toa Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Kuo-Toa
+STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Kuo-Toa Standard Equip	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Kuo-Toa
+GEAR:Shield (Heavy/Wood)	LOCATION:Equipped
+GEAR:Shortspear
+
+STARTPACK:Lamia Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Lamia
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Lammasu Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Lammasu
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Lillend Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Lillend
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Lillend Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Lillend
+GEAR:Sword (Short)	SIZE:L
+
+STARTPACK:Lizardfolk Stats	TYPE:DefaultMonster.Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Lizardfolk
+STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Lizardfolk Standard Equip	TYPE:DefaultMonster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Lizardfolk
+GEAR:Shield (Heavy/Steel)	LOCATION:Equipped
+GEAR:Club
+GEAR:Javelin
+
+STARTPACK:Locatah Stats	TYPE:DefaultMonster.Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Locatah
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
