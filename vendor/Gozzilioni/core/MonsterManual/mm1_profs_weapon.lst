@@ -10,19 +10,29 @@ Giant Rock	TYPE:Weapon.Ranged.Bludgeoning.RangedBludgeoning.Rock
 Pincer Staff	TYPE:Weapon.Melee.Bludgeoning.MeleeBludgeoning
 
 ###Automatic			
-Bite	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning
-Claw	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing
-Talon	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing
-Gore	TYPE:Weapon.Natural.Finesseable.Melee.Piercing
-Slap	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning
-Slam	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning
-Sting	TYPE:Weapon.Natural.Finesseable.Melee.Piercing
-Tentacle	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing
-#
-Wing	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning
-Tail	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning
-Tail Slap	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning
-Pincer	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing
-Foreclaw	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing
-Tentacle (Arms)	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing
+Bite	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning.MeleePiercing.MeleeSlashing.MeleeBludgeoning
+Claw	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning.MeleePiercing.MeleeSlashing.MeleeBludgeoning
+Talon	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning.MeleePiercing.MeleeSlashing.MeleeBludgeoning
+Gore	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
+Slap	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
+Slam	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
+Sting	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
+Tentacle	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
+#Touch
 Touch	TYPE:Weapon.Natural.Finesseable.Melee.Touch
+Burning Touch	TYPE:Weapon.Natural.Finesseable.Melee.Touch
+Swarm	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning.MeleePiercing.MeleeSlashing.MeleeBludgeoning
+Shock	TYPE:Weapon.Natural.Finesseable.Melee.Touch
+#Melee
+Wing	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
+Tail	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
+Tail Slap	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
+Pincer	TYPE:Weapon.Natural.Finesseable.Melee.Slashing.Bludgeoning.MeleeBludgeoning.MeleeSlashing
+Foreclaw	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing
+Tentacle (Arms)	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
+Snake	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing
+Tongue	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
+Horn	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
+Tendril	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
+#Ranged
+Spikes	TYPE:Weapon.Natural.Finesseable.Ranged.Piercing.RangedPiercing

@@ -4,15 +4,17 @@ SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzil
 Telepathy			TYPE:Spoken
 Drow Sign Language			TYPE:Spoken.Sign
 
+Blink Dog			TYPE:Spoken
 Ettin Pidgin			TYPE:Spoken.Orc.Goblin.Giant
 Formian			TYPE:Spoken	
-Blink Dog			TYPE:Spoken
-Worg			TYPE:Spoken
 Githyanki			TYPE:Spoken.Written.Read.Gith.Secret	PREVARGTEQ:GithyankiLanguage,1
 Githzerai			TYPE:Spoken.Written.Read.Gith
-Kuo-Toan			TYPE:Spoken
-Slaad			TYPE:Spoken
 Grimlock			TYPE:Spoken
-
+Kuo-Toan			TYPE:Spoken
+Sahuagin			TYPE:Spoken
+Slaad			TYPE:Spoken
+Sphinx			TYPE:Spoken
+Treant			TYPE:Spoken
+Worg			TYPE:Spoken
 
 Forest			TYPE:Spoken.Secret	PREVARGTEQ:ForestLanguage,1

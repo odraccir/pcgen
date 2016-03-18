@@ -3,18 +3,39 @@ SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzil
 # Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:																																													
 Control Shape	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Control Shape	SOURCEPAGE:MM1																																													
 #
-Bluff.MOD	SITUATION:Scare	
-Diplomacy.MOD	SITUATION:Dealing with Red Dragons	
-Swim.MOD	SITUATION:Perform some special action or avoid a hazard
-Hide.MOD	SITUATION:Natural settings
-Hide.MOD	SITUATION:Scrubland or brush environment
-Hide.MOD	SITUATION:Tall grass or heavy undergrowth area
-Hide.MOD	SITUATION:Water environment
-Hide.MOD	SITUATION:Submerged
-Hide.MOD	SITUATION:Cold plains
+Bluff.MOD	SITUATION:Scare
+Diplomacy.MOD	SITUATION:Dealing with Red Dragons
+Disguise.MOD	SITUATION:Shapechanged
+Disguise.MOD	SITUATION:Impersonating humans
+Handle Animal.MOD	SITUATION:Sharks
 Hide.MOD	SITUATION:Background of stone
-Hide.MOD	SITUATION:Rocky terrain
-Hide.MOD	SITUATION:Underground
+Hide.MOD	SITUATION:Brightly lit area
+Hide.MOD	SITUATION:Cold plains
+Hide.MOD	SITUATION:Dark area
+Hide.MOD	SITUATION:Forested area
+Hide.MOD	SITUATION:Forests or overgrown area
+Hide.MOD	SITUATION:In flight
+Hide.MOD	SITUATION:In its lair
 Hide.MOD	SITUATION:Mountains area
+Hide.MOD	SITUATION:Natural settings
+Hide.MOD	SITUATION:Rocky terrain
+Hide.MOD	SITUATION:Rocky or underground settings
+Hide.MOD	SITUATION:Scrubland or brush environment
+Hide.MOD	SITUATION:Shadowy illumination area
+Hide.MOD	SITUATION:Snow or icy area
+Hide.MOD	SITUATION:Stony or icy area
+Hide.MOD	SITUATION:Swampy or forested area
+Hide.MOD	SITUATION:Submerged
+Hide.MOD	SITUATION:Tall grass or heavy undergrowth area
+Hide.MOD	SITUATION:Underground
+Hide.MOD	SITUATION:Underwater
+Hide.MOD	SITUATION:Water environment
 Hide.MOD	SITUATION:Wooded area
+Listen.MOD	SITUATION:Underwater
+Move Silently.MOD	SITUATION:Forests area
+Profession (Hunter).MOD	SITUATION:Within 50 miles from home
+Spot.MOD	SITUATION:Underwater
 Survival.MOD	SITUATION:Track by scent
+Survival.MOD	SITUATION:Within 50 miles from home
+Survival.MOD	SITUATION:Within forest boundaries
+Swim.MOD	SITUATION:Perform some special action or avoid a hazard

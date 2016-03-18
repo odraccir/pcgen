@@ -11,7 +11,7 @@ CLASS:Aberration	STARTSKILLPTS:2	MODTOSKILLS:YES
 1														
 														
 CLASS:Animal	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AnimalLVL|0	BONUS:VAR|AnimalLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/3)
-CLASS:Animal	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Animal	!PRECLASS:1,Animal (Dire)												
+CLASS:Animal	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Animal	!PRECLASS:1,Animal (Will),Animal (Dire)												
 CLASS:Animal	STARTSKILLPTS:2	MODTOSKILLS:YES												
 CLASS:Animal	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2-classlevel("APPLIEDAS=NONEPIC")/3|PRERACE:1,RACESUBTYPE=Dire
 														
@@ -24,7 +24,7 @@ CLASS:Dragon	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Dragon
 CLASS:Dragon	STARTSKILLPTS:6	MODTOSKILLS:YES												
 														
 CLASS:Elemental	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1			BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:ElementalLVL|0	BONUS:VAR|ElementalLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/2)
-CLASS:Elemental	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Elemental													
+CLASS:Elemental	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Elemental	!PRECLASS:1,Elemental (Air/Fire),Elemental (Earth/Water)												
 CLASS:Elemental	STARTSKILLPTS:2	MODTOSKILLS:YES												
 CLASS:Elemental						BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3|PRERACE:1,RACESUBTYPE=Air,RACESUBTYPE=Fire	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3|PRERACE:1,RACESUBTYPE=Earth,RACESUBTYPE=Water
 CLASS:Elemental						BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2|PRERACE:1,RACESUBTYPE=Earth,RACESUBTYPE=Water	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2|PRERACE:1,RACESUBTYPE=Air,RACESUBTYPE=Fire
@@ -67,9 +67,11 @@ CLASS:Undead	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Undead	!PRECLASS:1,Undead
 CLASS:Undead	STARTSKILLPTS:4	MODTOSKILLS:YES												
 														
 CLASS:Vermin	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:VerminLVL|0	BONUS:VAR|VerminLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
-CLASS:Vermin	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Vermin													
-CLASS:Vermin	STARTSKILLPTS:2	MODTOSKILLS:YES												
+CLASS:Vermin	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Vermin	!PRECLASS:1,Vermin	OUTPUTNAME:Vermin	
+CLASS:Vermin	STARTSKILLPTS:0	MODTOSKILLS:NO												
+1	ABILITY:Special Ability|AUTOMATIC|Mindless
 
+#Alternate racial class
 CLASS:Humanoid (Fortitude)	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:HumanoidLVL|0	BONUS:VAR|HumanoidLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
 CLASS:Humanoid (Fortitude)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Humanoid	!PRECLASS:1,Humanoid,Humanoid (Will)	OUTPUTNAME:Humanoid											
 CLASS:Humanoid (Fortitude)	STARTSKILLPTS:2	MODTOSKILLS:YES												
@@ -78,8 +80,12 @@ CLASS:Humanoid (Will)	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:S
 CLASS:Humanoid (Will)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Humanoid	!PRECLASS:1,Humanoid,Humanoid (Fortitude)	OUTPUTNAME:Humanoid											
 CLASS:Humanoid (Will)	STARTSKILLPTS:2	MODTOSKILLS:YES												
 
+CLASS:Animal (Will)	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AnimalLVL|0	BONUS:VAR|AnimalLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/3)
+CLASS:Animal (Will)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Animal	!PRECLASS:1,Animal,Animal (Dire)	OUTPUTNAME:Animal											
+CLASS:Animal (Will)	STARTSKILLPTS:2	MODTOSKILLS:YES												
+
 CLASS:Animal (Dire)	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AnimalLVL|0	BONUS:VAR|AnimalLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/3)
-CLASS:Animal (Dire)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Animal	!PRECLASS:1,Animal	OUTPUTNAME:Animal											
+CLASS:Animal (Dire)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Animal	!PRECLASS:1,Animal (Will),Animal	OUTPUTNAME:Animal											
 CLASS:Animal (Dire)	STARTSKILLPTS:2	MODTOSKILLS:YES												
 
 CLASS:Construct (Mindless)	HD:10	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:ConstructLVL|0	BONUS:VAR|ConstructLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
@@ -87,10 +93,23 @@ CLASS:Construct (Mindless)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Construct	!
 CLASS:Construct (Mindless)	STARTSKILLPTS:0	MODTOSKILLS:NO												
 1	ABILITY:Special Ability|AUTOMATIC|Mindless
 
+CLASS:Elemental (Air/Fire)	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:ElementalLVL|0	BONUS:VAR|ElementalLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/2)
+CLASS:Elemental (Air/Fire)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Elemental	!PRECLASS:1,Elemental,Elemental (Earth/Water)	OUTPUTNAME:Elemental											
+CLASS:Elemental (Air/Fire)	STARTSKILLPTS:2	MODTOSKILLS:YES												
+
+CLASS:Elemental (Earth/Water)	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:ElementalLVL|0	BONUS:VAR|ElementalLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/2)
+CLASS:Elemental (Earth/Water)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Elemental	!PRECLASS:1,Elemental,Elemental (Air/Fire)	OUTPUTNAME:Elemental											
+CLASS:Elemental (Earth/Water)	STARTSKILLPTS:2	MODTOSKILLS:YES												
+
 CLASS:Ooze (Intelligent)	HD:10	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:OozeLVL|0	BONUS:VAR|OozeLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
 CLASS:Ooze (Intelligent)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Ooze	!PRECLASS:1,Ooze	OUTPUTNAME:Ooze											
 CLASS:Ooze (Intelligent)	STARTSKILLPTS:2	MODTOSKILLS:YES												
-														
+
+CLASS:Outsider (Mindless)	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:OutsiderLVL|0	BONUS:VAR|OutsiderLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/2)
+CLASS:Outsider (Mindless)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Outsider	!PRECLASS:1,Outsider	OUTPUTNAME:Outsider											
+CLASS:Outsider (Mindless)	STARTSKILLPTS:0	MODTOSKILLS:NO												
+1	ABILITY:Special Ability|AUTOMATIC|Mindless
+
 CLASS:Plant (Mindless)	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:PlantLVL|0	BONUS:VAR|PlantLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
 CLASS:Plant (Mindless)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Plant	!PRECLASS:1,Plant	OUTPUTNAME:Plant											
 CLASS:Plant (Mindless)	STARTSKILLPTS:0	MODTOSKILLS:NO												
@@ -101,10 +120,9 @@ CLASS:Undead (Mindless)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Undead	!PRECLA
 CLASS:Undead (Mindless)	STARTSKILLPTS:0	MODTOSKILLS:NO												
 1	ABILITY:Special Ability|AUTOMATIC|Mindless
 
-CLASS:Outsider (Mindless)	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:OutsiderLVL|0	BONUS:VAR|OutsiderLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/2)
-CLASS:Outsider (Mindless)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Outsider	!PRECLASS:1,Outsider	OUTPUTNAME:Outsider											
-CLASS:Outsider (Mindless)	STARTSKILLPTS:0	MODTOSKILLS:NO												
-1	ABILITY:Special Ability|AUTOMATIC|Mindless
+CLASS:Vermin (Intelligent)	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:VerminLVL|0	BONUS:VAR|VerminLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
+CLASS:Vermin (Intelligent)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Vermin	!PRECLASS:1,Vermin	OUTPUTNAME:Vermin											
+CLASS:Vermin (Intelligent)	STARTSKILLPTS:2	MODTOSKILLS:YES												
 
 CLASS:Cleric.MOD
 1	SPELLLEVEL:CLASS|Cleric=1|Obscuring Mist|Cleric=2|Wind Wall|Cleric=3|Gaseous Form|Cleric=4|Air Walk|Cleric=5|Control Winds|Cleric=6|Chain Lightning|Cleric=7|Control Weather|Cleric=8|Whirlwind|Cleric=9|Elemental Swarm|PREVARGTEQ:AirDomainAllowed,1
@@ -323,7 +341,7 @@ CLASS:Lammasu	HD:10	TYPE:Monster		MAXLEVEL:7	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fort
 CLASS:Lammasu	PRERACETYPE:Magical Beast	PRERACE:1,Lammasu	OUTPUTNAME:Magical Beast	VISIBLE:NO										
 CLASS:Lammasu	STARTSKILLPTS:2	MODTOSKILLS:YES												
 1	ADD:SPELLCASTER|Cleric	ABILITY:Internal|AUTOMATIC|Cleric Class
-1	BONUS:ABILITYPOOL|Monster Domains|2	BONUS:VAR|GoodDomainAllowed,HealingDomainAllowed,KnowledgeDomainAllowed,LawDomainAllowed|2|TYPE=Base
+1	BONUS:ABILITYPOOL|Monster Domains|2	BONUS:VAR|GoodDomainAllowed,HealingDomainAllowed,KnowledgeDomainAllowed,LawDomainAllowed|1|TYPE=Base
 2	BONUS:PCLEVEL|Cleric|1
 3	BONUS:PCLEVEL|Cleric|1
 4	BONUS:PCLEVEL|Cleric|1
@@ -341,3 +359,91 @@ CLASS:Lillend	STARTSKILLPTS:8	MODTOSKILLS:YES
 5	BONUS:PCLEVEL|Bard|1
 6	BONUS:PCLEVEL|Bard|1
 7	BONUS:PCLEVEL|Bard|1
+
+CLASS:Dark Naga	HD:8	TYPE:Monster		MAXLEVEL:9	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AberrationLVL|0	BONUS:VAR|AberrationLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
+CLASS:Dark Naga	PRERACETYPE:Aberration	PRERACE:1,Naga (Dark Naga)	OUTPUTNAME:Outsider	VISIBLE:NO										
+CLASS:Dark Naga	STARTSKILLPTS:2	MODTOSKILLS:YES												
+1	ADD:SPELLCASTER|Sorcerer	ABILITY:Internal|AUTOMATIC|Sorcerer Class
+2	BONUS:PCLEVEL|Sorcerer|1
+3	BONUS:PCLEVEL|Sorcerer|1
+4	
+5	BONUS:PCLEVEL|Sorcerer|1
+6	BONUS:PCLEVEL|Sorcerer|1
+7	BONUS:PCLEVEL|Sorcerer|1
+8	
+9	BONUS:PCLEVEL|Sorcerer|1
+
+CLASS:Guardian Naga	HD:8	TYPE:Monster		MAXLEVEL:11	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AberrationLVL|0	BONUS:VAR|AberrationLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
+CLASS:Guardian Naga	PRERACETYPE:Aberration	PRERACE:1,Naga (Guardian Naga)	OUTPUTNAME:Outsider	VISIBLE:NO										
+CLASS:Guardian Naga	STARTSKILLPTS:2	MODTOSKILLS:YES												
+1	ADD:SPELLCASTER|Sorcerer/Cleric	ABILITY:Internal|AUTOMATIC|Sorcerer/Cleric Class
+1	BONUS:ABILITYPOOL|Monster Domains|2	BONUS:VAR|GoodDomainAllowed,LawDomainAllowed|1|TYPE=Base
+2	BONUS:PCLEVEL|Sorcerer/Cleric|1
+3	BONUS:PCLEVEL|Sorcerer/Cleric|1
+4	
+5	BONUS:PCLEVEL|Sorcerer/Cleric|1
+6	BONUS:PCLEVEL|Sorcerer/Cleric|1
+7	BONUS:PCLEVEL|Sorcerer/Cleric|1
+8	
+9	BONUS:PCLEVEL|Sorcerer/Cleric|1
+10	BONUS:PCLEVEL|Sorcerer/Cleric|1
+11	BONUS:PCLEVEL|Sorcerer/Cleric|1
+
+CLASS:Spirit Naga	HD:8	TYPE:Monster		MAXLEVEL:9	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AberrationLVL|0	BONUS:VAR|AberrationLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
+CLASS:Spirit Naga	PRERACETYPE:Aberration	PRERACE:1,Naga (Guardian Naga)	OUTPUTNAME:Outsider	VISIBLE:NO										
+CLASS:Spirit Naga	STARTSKILLPTS:2	MODTOSKILLS:YES												
+1	ADD:SPELLCASTER|Sorcerer/Cleric	ABILITY:Internal|AUTOMATIC|Sorcerer/Cleric Class
+1	BONUS:ABILITYPOOL|Monster Domains|2	BONUS:VAR|ChaosDomainAllowed,EvilDomainAllowed|1|TYPE=Base
+2	BONUS:PCLEVEL|Sorcerer/Cleric|1
+3	BONUS:PCLEVEL|Sorcerer/Cleric|1
+4	
+5	BONUS:PCLEVEL|Sorcerer/Cleric|1
+6	BONUS:PCLEVEL|Sorcerer/Cleric|1
+7	BONUS:PCLEVEL|Sorcerer/Cleric|1
+8	
+9	BONUS:PCLEVEL|Sorcerer/Cleric|1
+
+CLASS:Water Naga	HD:8	TYPE:Monster		MAXLEVEL:7	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AberrationLVL|0	BONUS:VAR|AberrationLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
+CLASS:Water Naga	PRERACETYPE:Aberration	PRERACE:1,Naga (Guardian Naga)	OUTPUTNAME:Outsider	VISIBLE:NO										
+CLASS:Water Naga	STARTSKILLPTS:2	MODTOSKILLS:YES												
+1	PROHIBITSPELL:DESCRIPTOR.Fire
+1	ADD:SPELLCASTER|Sorcerer	ABILITY:Internal|AUTOMATIC|Sorcerer Class
+2	BONUS:PCLEVEL|Sorcerer|1
+3	BONUS:PCLEVEL|Sorcerer|1
+4	BONUS:PCLEVEL|Sorcerer|1
+5	BONUS:PCLEVEL|Sorcerer|1
+6	BONUS:PCLEVEL|Sorcerer|1
+7	BONUS:PCLEVEL|Sorcerer|1
+
+CLASS:Nymph	HD:6	TYPE:Monster		MAXLEVEL:6	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()/2|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:FeyLVL|0	BONUS:VAR|FeyLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
+CLASS:Nymph	PRERACETYPE:Fey	PRERACE:1,Nymph	OUTPUTNAME:Fey	VISIBLE:NO										
+CLASS:Nymph	STARTSKILLPTS:6	MODTOSKILLS:YES												
+1	ADD:SPELLCASTER|Druid	ABILITY:Internal|AUTOMATIC|Druid Class
+1	BONUS:PCLEVEL|Druid|1
+2	BONUS:PCLEVEL|Druid|1
+3	BONUS:PCLEVEL|Druid|1
+4	BONUS:PCLEVEL|Druid|1
+5	BONUS:PCLEVEL|Druid|1
+6	BONUS:PCLEVEL|Druid|1
+
+CLASS:Rakshasa	HD:8	TYPE:Monster		MAXLEVEL:7	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:OutsiderLVL|0	BONUS:VAR|OutsiderLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/2)
+CLASS:Rakshasa	PRERACETYPE:Outsider	PRERACE:1,Rakshasa	OUTPUTNAME:Outsider	VISIBLE:NO										
+CLASS:Rakshasa	STARTSKILLPTS:8	MODTOSKILLS:YES												
+1	ADD:SPELLCASTER|Sorcerer	ABILITY:Internal|AUTOMATIC|Sorcerer Class
+2	BONUS:PCLEVEL|Sorcerer|1
+3	BONUS:PCLEVEL|Sorcerer|1
+4	BONUS:PCLEVEL|Sorcerer|1
+5	BONUS:PCLEVEL|Sorcerer|1
+6	BONUS:PCLEVEL|Sorcerer|1
+7	BONUS:PCLEVEL|Sorcerer|1
+
+CLASS:Androsphinx	HD:10	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:MagicalBeastLVL|0	BONUS:VAR|MagicalBeastLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/3)
+CLASS:Androsphinx	PRERACETYPE:Magical Beast	PRERACE:1,Androsphinx	OUTPUTNAME:Magical Beast	VISIBLE:NO										
+CLASS:Androsphinx	STARTSKILLPTS:2	MODTOSKILLS:YES												
+1	ADD:SPELLCASTER|Cleric	ABILITY:Internal|AUTOMATIC|Cleric Class
+1	BONUS:ABILITYPOOL|Monster Domains|3	BONUS:VAR|GoodDomainAllowed,HealingDomainAllowed,ProtectionDomainAllowed|1|TYPE=Base
+3	BONUS:PCLEVEL|Cleric|1
+5	BONUS:PCLEVEL|Cleric|1
+7	BONUS:PCLEVEL|Cleric|1
+9	BONUS:PCLEVEL|Cleric|1
+11	BONUS:PCLEVEL|Cleric|1

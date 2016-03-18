@@ -84,7 +84,6 @@ Combat Expertise trade off	VISIBLE:NO	SOURCEPAGE:PHB	TEMPVALUE:MIN=1|MAX=5|TITLE
 Power Attack trade off	VISIBLE:NO	SOURCEPAGE:PHB	TEMPVALUE:MIN=1|MAX=5|TITLE=Power Attack trade off	TEMPDESC:Penalty on BAB as bonus on Damage.	TEMPBONUS:PC|COMBAT|BASEAB|min(%CHOICE,BAB)|TYPE=Temporary	TEMPBONUS:PC|COMBAT|DAMAGE.Melee|max((-1*%CHOICE),(-1*BAB))|TYPE=Temporary
 
 ###Block: Dragon Age
-# Template Name	Visible	Subrace
 Wyrmling	VISIBLE:NO	KEY:Dragon ~ Wyrmling	SUBRACE:Wyrmling
 Very Young	VISIBLE:NO	KEY:Dragon ~ Very Young	SUBRACE:Very Young
 Young	VISIBLE:NO	KEY:Dragon ~ Young	SUBRACE:Young
@@ -99,10 +98,14 @@ Wyrm	VISIBLE:NO	KEY:Dragon ~ Wyrm	SUBRACE:Wyrm
 Great Wyrm	VISIBLE:NO	KEY:Dragon ~ Great Wyrm	SUBRACE:Great Wyrm
 
 ###Block: Elemental Age
-# Template Name	Visible	Subrace
 Small	VISIBLE:NO	KEY:Elemental ~ Small	SUBRACE:Small
 Medium	VISIBLE:NO	KEY:Elemental ~ Medium	SUBRACE:Medium
 Large	VISIBLE:NO	KEY:Elemental ~ Large	SUBRACE:Large
 Huge	VISIBLE:NO	KEY:Elemental ~ Huge	SUBRACE:Huge
 Greater	VISIBLE:NO	KEY:Elemental ~ Greater	SUBRACE:Greater
 Elder	VISIBLE:NO	KEY:Elemental ~ Elder	SUBRACE:Elder
+
+###Block: Fractional Hit Die Adjustments for Monster classes
+Half Hitdie		HITDIE:%/2|CLASS.TYPE=Monster	VISIBLE:NO
+Quarter Hitdie	HITDIE:%/4|CLASS.TYPE=Monster	VISIBLE:NO
+Eighth Hitdie	HITDIE:%/8|CLASS.TYPE=Monster	VISIBLE:NO

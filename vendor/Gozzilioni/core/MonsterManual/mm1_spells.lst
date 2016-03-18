@@ -2,6 +2,9 @@ SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzil
 #																								
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:|!PRERULE:1,DisplayFullSpell	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	Desc	Bonus	Bonus
 ### Teleport (Greater) ~ Self only.MOD	CLASS:.CLEARALL
+Baleful Polymorph.COPY=Baleful Polymorph	KEY:Baleful Polymorph ~ Snake form only
+Baleful Polymorph ~ Snake form only.MOD	OUTPUTNAME:Baleful Polymorph	TYPE:SpellLike	DESC:Snake form only.	SOURCEPAGE:MM1
+
 Blur.COPY=Blur	KEY:Blur ~ Self only
 Blur ~ Self only.MOD	OUTPUTNAME:Blur	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only.	SOURCEPAGE:MM1
 
@@ -23,6 +26,9 @@ Magic Circle against Evil ~ Self only.MOD	OUTPUTNAME:Magic Circle against Evil	T
 Pass without Trace.COPY=Pass without Trace	KEY:Pass without Trace ~ Self only
 Pass without Trace ~ Self only.MOD	OUTPUTNAME:Pass without Trace	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	SOURCEPAGE:MM1
 
+Permanent Image.COPY=Permanent Image	KEY:Permanent Image ~ visual and auditory elements only
+Permanent Image ~ visual and auditory elements only.MOD	OUTPUTNAME:Permanent Image	TYPE:SpellLike	DESC:Visual and auditory elements only.	SOURCEPAGE:MM1
+
 Polymorph.COPY=Polymorph	KEY:Polymorph ~ Self only
 Polymorph ~ Self only.MOD	OUTPUTNAME:Polymorph	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	SOURCEPAGE:MM1
 
@@ -34,6 +40,8 @@ Scorching Ray ~ 1 ray.MOD	OUTPUTNAME:Scorching Ray	TYPE:SpellLike	TARGETAREA:.CL
 Scorching Ray.COPY=Scorching Ray	KEY:Scorching Ray ~ 2 rays
 Scorching Ray ~ 2 rays.MOD	OUTPUTNAME:Scorching Ray	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:2 rays.	SOURCEPAGE:MM1
 
+Summon Monster VII.COPY=Summon Monster VII	KEY:Summon Monster VII ~ Huge Fire Elemental
+Summon Monster VII ~ Huge Fire Elemental.MOD	OUTPUTNAME:Summon Monster VII	DESCRIPTOR:.CLEAR	DESCRIPTOR:Fire	DESC:Summon Huge Fire Elemental only.	SOURCEPAGE:MM1
 Summon Monster IX.COPY=Summon Monster IX	KEY:Summon Monster IX ~ Celestial only
 Summon Monster IX ~ Celestial only.MOD	OUTPUTNAME:Summon Monster IX	DESCRIPTOR:.CLEAR	DESCRIPTOR:Good	DESC:Summon celestial creatures only.	SOURCEPAGE:MM1
 Summon Monster IX.COPY=Summon Monster IX	KEY:Summon Monster IX ~ Fiendish only
