@@ -34,5 +34,7 @@ Snake	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.MeleePiercing.Mele
 Tongue	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
 Horn	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
 Tendril	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
+Stamp	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
+Ram	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 #Ranged
 Spikes	TYPE:Weapon.Natural.Finesseable.Ranged.Piercing.RangedPiercing

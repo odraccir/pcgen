@@ -1,0 +1,17 @@
+SOURCELONG:Gozzilioni Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+#																										
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Mount Traits|PREVARGTEQ:TrainingLevel,1	DEFINE:TrainingLEvel|0
+Mount Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility.SpecialQuality																														SOURCEPAGE:H
+CATEGORY=Special Ability|Mount Traits.MOD	DESC:Wild creature commonly found around the world.|PREABILITY:1,CATEGORY=Special Ability,Training ~ Wild
+CATEGORY=Special Ability|Mount Traits.MOD	DESC:The creature can sustain the presence of a rider, but it's cannot be reliable during a combat.|PREABILITY:1,CATEGORY=Special Ability,Training ~ Rideable
+CATEGORY=Special Ability|Mount Traits.MOD	DESC:The mount is trained to perform some simple tricks.|PREABILITY:1,CATEGORY=Special Ability,Training ~ Basic Training
+CATEGORY=Special Ability|Mount Traits.MOD	DESC:The mount can advance into mount classes.|PREABILITY:1,CATEGORY=Special Ability,Training ~ Advanced Workout
+
+# CATEGORY=Special Ability|Animal Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1
+# CATEGORY=Special Ability|Vermin Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1
+# CATEGORY=Special Ability|Magical Beast Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1
+
+# Training ability pool																																			
+Wild	CATEGORY:Special Ability	TYPE:Training	VISIBLE:YES	DESC:Wild creature.	KEY:Training ~ Wild									BONUS:VAR|TrainingLevel|1																		SOURCEPAGE:H
+Rideable	CATEGORY:Special Ability	TYPE:Training	VISIBLE:YES	DESC:Rideable creature	KEY:Training ~ Rideable	COST:0	PREABILITY:1,CATEGORY=Special Ability,Training ~ Wild							BONUS:VAR|TrainingLevel|1																		SOURCEPAGE:H
+Basic Training	CATEGORY:Special Ability	TYPE:Training.SpecialQuality	VISIBLE:YES	DESC:%1 tricks|BasicTrainingNumber	KEY:Training ~ Basic Training	COST:0	PREABILITY:1,CATEGORY=Special Ability,Training ~ Rideable		DEFINE:BasicTrainingNumber|0					BONUS:VAR|TrainingLevel|1	BONUS:ABILITYPOOL|Animal Trick|BasicTrainingNumber																	SOURCEPAGE:H
