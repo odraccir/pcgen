@@ -5,7 +5,7 @@ TYPE:Gozzilioni.Partial.Errata
 SETTING:Heroes
 BOOKTYPE:Campaign
 SOURCELONG:Gozzilioni Monster Manual Errata
-SOURCESHORT:MM1E
+SOURCESHORT:MM1e
 SOURCEWEB:http://www.gozzilioni.net
 SOURCEDATE:2003-07
 ISOGL:NO
@@ -17,7 +17,7 @@ PUBNAMEWEB:http://www.gozzilioni.net
 PRECAMPAIGN:2,Gozzilioni Core Ruleset,Gozzilioni Monster Manual
 
 ABILITY:mm1e_abilities_races.lst
-EQUIP:mm1e_equip.lst
+EQUIPMENT:mm1e_equip.lst
 RACE:mm1e_races.lst
 TEMPLATE:mm1e_templates.lst
 
