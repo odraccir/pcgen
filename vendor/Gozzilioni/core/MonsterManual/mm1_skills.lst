@@ -26,6 +26,7 @@ Hide.MOD	SITUATION:Snow or icy area
 Hide.MOD	SITUATION:Stony or icy area
 Hide.MOD	SITUATION:Swampy or forested area
 Hide.MOD	SITUATION:Submerged
+Hide.MOD	SITUATION:Surrounded by foliage
 Hide.MOD	SITUATION:Tall grass or heavy undergrowth area
 Hide.MOD	SITUATION:Underground
 Hide.MOD	SITUATION:Underwater
@@ -35,6 +36,7 @@ Listen.MOD	SITUATION:Underwater
 Move Silently.MOD	SITUATION:Forests area
 Profession (Hunter).MOD	SITUATION:Within 50 miles from home
 Spot.MOD	SITUATION:Underwater
+Survival.MOD	SITUATION:Orienteering
 Survival.MOD	SITUATION:Track by scent
 Survival.MOD	SITUATION:Within 50 miles from home
 Survival.MOD	SITUATION:Within forest boundaries

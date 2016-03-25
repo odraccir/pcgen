@@ -1,0 +1,38 @@
+CAMPAIGN:Gozzilioni Monster Manual Errata
+GAMEMODE:G35e
+RANK:1
+TYPE:Gozzilioni.Partial.Errata
+SETTING:Heroes
+BOOKTYPE:Campaign
+SOURCELONG:Gozzilioni Monster Manual Errata
+SOURCESHORT:MM1E
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2003-07
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+
+PRECAMPAIGN:2,Gozzilioni Core Ruleset,Gozzilioni Monster Manual
+
+ABILITY:mm1e_abilities_races.lst
+EQUIP:mm1e_equip.lst
+RACE:mm1e_races.lst
+TEMPLATE:mm1e_templates.lst
+
+#
+# HIDETYPE:SKILL|Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma
+
+# HIDETYPE:FEAT|Wizard
+
+# ENTRY DATE: 2015-08 
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

@@ -1395,7 +1395,7 @@ STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
 STARTPACK:Yeth Hound Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Yeth Hound
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
-STARTPACK:Yeth Hound Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Yeth Hound
+STARTPACK:Yrthak Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Yrthak
 STAT:STR=10|DEX=10|CON=11|INT=11|WIS=11|CHA=11
 GEAR:Yrthak ~ Sonic Lance
 
@@ -1407,7 +1407,7 @@ STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
 STARTPACK:Yuan-Ti Halfblood Standard Equip	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Yuan-Ti Halfblood
 GEAR:Studded Leather	EQMOD:MWORKA	LOCATION:Equipped
-GEAR:Shield (Heavy)	EQMOD:MWORKS	LOCATION:Equipped
+GEAR:Shield (Heavy/Steel)	EQMOD:MWORKA	LOCATION:Equipped
 GEAR:Scimitar	EQMOD:MWORKW
 GEAR:Longbow (Composite)	EQMOD:MWORKW.BOWSTR|2
 
@@ -1416,7 +1416,7 @@ STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
 STARTPACK:Yuan-Ti Abomination Standard Equip	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Yuan-Ti Abomination
 GEAR:Studded Leather	EQMOD:MWORKA	LOCATION:Equipped
-GEAR:Shield (Heavy)	EQMOD:MWORKS	LOCATION:Equipped
+GEAR:Shield (Heavy/Steel)	EQMOD:MWORKA	LOCATION:Equipped
 GEAR:Scimitar	EQMOD:MWORKW
 GEAR:Longbow (Composite)	EQMOD:MWORKW.BOWSTR|4
 
@@ -1440,6 +1440,9 @@ STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
 STARTPACK:Animal (Bear/Polar) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Bear/Polar)
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Animal (Bison) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Bison)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=11|CHA=10
 
 STARTPACK:Animal (Boar) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Boar)
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
@@ -1527,3 +1530,141 @@ STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
 
 STARTPACK:Animal (Porpoise) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Porpoise)
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Animal (Rat) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Rat)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Animal (Raven) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Raven)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Animal (Rhinoceros) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Rhinoceros)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Animal (Shark) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Shark)
+STAT:STR=11|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Animal (Snake (Constrictor)) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Snake (Constrictor))
+STAT:STR=11|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Animal (Snake (Viper/Tiny)) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Snake (Viper/Tiny))
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Animal (Snake (Viper)) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Snake (Viper))
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Animal (Squid) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Squid)
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Animal (Tiger) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Tiger)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Animal (Toad) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Toad)
+STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Animal (Weasel) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Weasel)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Animal (Whale (Baleen)) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Whale (Baleen))
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Animal (Whale (Cachalot)) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Whale (Cachalot))
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Animal (Whale (Orca)) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Whale (Orca))
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Animal (Wolf) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Wolf)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Animal (Wolverine) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Wolverine)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Giant Ant (Worker) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Giant Ant (Worker)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Giant Ant (Soldier) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Giant Ant (Soldier)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Giant Ant (Queen) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Giant Ant (Queen)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Giant Bee Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Giant Bee
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Giant Bombardier Beetle Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Giant Bombardier Beetle
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Giant Fire Beetle Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Giant Fire Beetle
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Giant Stag Beetle Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Giant Stag Beetle
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Giant Praying Mantis Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Giant Praying Mantis
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Giant Wasp Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Giant Wasp
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Monstrous Centipede (Tiny) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Centipede (Small)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Monstrous Centipede (Small) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Centipede (Small)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Monstrous Centipede (Medium) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Centipede (Medium)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Monstrous Centipede (Large) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Centipede (Large)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Monstrous Centipede (Huge) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Centipede (Huge)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Monstrous Centipede (Gargantuan) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Centipede (Gargantuan)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Monstrous Centipede (Colossal) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Centipede (Colossal)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Monstrous Scorpion (Tiny) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Scorpion (Tiny)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Monstrous Scorpion (Small) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Scorpion (Small)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Monstrous Scorpion (Medium) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Scorpion (Medium)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Monstrous Scorpion (Large) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Scorpion (Large)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Monstrous Scorpion (Huge) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Scorpion (Huge)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Monstrous Scorpion (Gargantuan) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Scorpion (Gargantuan)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Monstrous Scorpion (Colossal) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Scorpion (Colossal)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Monstrous Spider (Tiny) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Spider (Tiny)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Monstrous Spider (Small) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Spider (Small)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Monstrous Spider (Medium) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Spider (Medium)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Monstrous Spider (Large) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Spider (Large)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Monstrous Spider (Huge) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Spider (Huge)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Monstrous Spider (Gargantuan) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Spider (Gargantuan)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Monstrous Spider (Colossal) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Monstrous Spider (Colossal)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10

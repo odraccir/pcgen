@@ -16,5 +16,6 @@ Slaad			TYPE:Spoken
 Sphinx			TYPE:Spoken
 Treant			TYPE:Spoken
 Worg			TYPE:Spoken
+Yuan-Ti			TYPE:Spoken
 
 Forest			TYPE:Spoken.Secret	PREVARGTEQ:ForestLanguage,1

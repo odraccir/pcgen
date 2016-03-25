@@ -1,0 +1,6 @@
+SOURCELONG:Gozzilioni Monster Manual Errata	SOURCESHORT:MM1e	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																														
+																																			
+# Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	TYPE:	RACETYPE:	RACESUBTYPE:	MONSTERCLASS:	MOVE:	Combat bonus	NATURALATTACKS:	NATURALATTACKS:	Weapon prof. bonus	Weapon prof. bonus	FACE:	REACH:	Special Ability	Damage Reduction	Spell Res.	Stat bonus						MONCSKILL:	CR:	Required AL	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	Nb Legs	Nb Hands	SOURCEPAGE:		
+Dinosaur (Deinonychus).MOD	SIZE:M	NATURALATTACKS:Talon,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*1,1d8|Foreclaw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*2,1d3|Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,2d4	FACE:5
+Dinosaur (Megaraptor).MOD	SIZE:L	NATURALATTACKS:Talon,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*1,2d6|Foreclaw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*2,1d4|Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,1d8	FACE:5	REACH:5
+Ooze (Gelatinous Cube).MOD	SIZE:L	FACE:10	REACH:5
