@@ -177,6 +177,13 @@ Large	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Animal (Squid) ~ Large	SUBRACE:Large
 Huge	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Animal (Squid) ~ Huge	SUBRACE:Huge
 Gargantuan	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Animal (Squid) ~ Gargantuan	SUBRACE:Gargantuan
 
+Small	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Monstrous Scorpion ~ Small	SUBRACE:Small
+Medium	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Monstrous Scorpion ~ Medium	SUBRACE:Medium
+Large	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Monstrous Scorpion ~ Large	SUBRACE:Large
+Huge	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Monstrous Scorpion ~ Huge	SUBRACE:Huge
+Gargantuan	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Monstrous Scorpion ~ Gargantuan	SUBRACE:Gargantuan
+Colossal	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Monstrous Scorpion ~ Colossal	SUBRACE:Colossal
+
 ###Block: Racial Subrace																																																																																																																																																																																																																																																																																																																																																																																
 Aquan	KEY:Genie ~ Janni ~ Language ~ Aquan	VISIBLE:NO	AUTO:LANG|Aquan																																																																																																																																																																																																																																																																																																																																																																													
 Auran	KEY:Genie ~ Janni ~ Language ~ Auran	VISIBLE:NO	AUTO:LANG|Auran																																																																																																																																																																																																																																																																																																																																																																													

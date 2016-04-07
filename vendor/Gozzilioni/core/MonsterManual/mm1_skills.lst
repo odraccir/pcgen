@@ -36,6 +36,7 @@ Listen.MOD	SITUATION:Underwater
 Move Silently.MOD	SITUATION:Forests area
 Profession (Hunter).MOD	SITUATION:Within 50 miles from home
 Spot.MOD	SITUATION:Underwater
+Spot.MOD	SITUATION:Shadowy illumination area
 Survival.MOD	SITUATION:Orienteering
 Survival.MOD	SITUATION:Track by scent
 Survival.MOD	SITUATION:Within 50 miles from home

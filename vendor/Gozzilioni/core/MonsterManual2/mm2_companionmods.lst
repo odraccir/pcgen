@@ -1,0 +1,6 @@
+SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+#										
+###Block: Standard Companions										
+# Class of the Master	Type									
+###Block:Special Mount										
+FOLLOWER:BogunLVL=1	TYPE:Bogun	ABILITY:Special Ability|AUTOMATIC|Bogun ~ Empathic Link

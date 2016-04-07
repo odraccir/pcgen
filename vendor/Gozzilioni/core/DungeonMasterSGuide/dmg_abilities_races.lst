@@ -29,3 +29,16 @@ Weapon Proficiency	CATEGORY:Special Ability	TYPE:HalfElfRaceTrait.RaceTrait.Spec
 Favored Class	CATEGORY:Special Ability	TYPE:HalfElfRaceTrait.RaceTrait.SpecialQuality	VISIBLE:YES	DESC:Wizard. Half-human elves lack some of the flexibility of half-elves who are raised by humans.	KEY:Half-Human ~ Favored Class																		TEMPLATE:Half-Elf ~ Half-Human ~ Favored Class									SOURCEPAGE:DMG			
 # Half-Orc ~ Human																																			
 # Halfling ~ Lightfoot																																			
+
+Race Traits ~ Animal (Hedgehog)	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=AnimalHedgehogRaceTrait											BONUS:VAR|FractionalHD|2|TYPE=Base																			
+Poison	CATEGORY:Special Ability	TYPE:AnimalHedgehogRaceTrait.SpecialAttack.Extraordinary	VISIBLE:YES	DESC:Injury, Fort DC %1, initial damage temporary 1d2 DEX, secondary damage temporary 1d2 DEX. The save DC is Constitution-based. When in Defensive Ball, spines poison foes touching hedgehog.|PoisonDC	KEY:Animal (Hedgehog) ~ Poison				DEFINE:PoisonDC|0					BONUS:VAR|PoisonDC|DefaultDCCon	BONUS:VAR|PoisonDC|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Poison)								ABILITY:Ability Focus|AUTOMATIC|Poison									SOURCEPAGE:DMG
+Defensive Ball	CATEGORY:Special Ability	TYPE:AnimalHedgehogRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:Rolls up as a standard action, granting +2 circumstance modifier on saves and AC. Unrolling is a free action.	KEY:Animal (Hedgehog) ~ Defensive Roll																											SOURCEPAGE:DMG
+
+Race Traits ~ Animal (Mouse)	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=AnimalMouseRaceTrait											BONUS:VAR|FractionalHD|2|TYPE=Base																			
+-	CATEGORY:Special Ability	TYPE:AnimalMouseRaceTrait	VISIBLE:DISPLAY		KEY:Animal (Mouse) ~ -																											SOURCEPAGE:DMG
+
+Race Traits ~ Animal (Owl (Screech))	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=AnimalOwlScreechRaceTrait											BONUS:VAR|FractionalHD|2|TYPE=Base	BONUS:VAR|Maneuverability|3|TYPE=Base																		
+Evasion	CATEGORY:Special Ability	TYPE:AnimalOwlScreechRaceTrait.SpecialQuality.Extraodinary.Evasion	VISIBLE:YES	DESC:With a successful Reflex save against an attack that allows a Reflex save for half damage, a owl screech takes no damage.	KEY:Animal (Owl (Screech)) ~ Evasion																											SOURCEPAGE:DMG
+
+Race Traits ~ Animal (Thrush)	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=AnimalThrushRaceTrait											BONUS:VAR|FractionalHD|2|TYPE=Base	BONUS:VAR|Maneuverability|3|TYPE=Base																		
+Evasion	CATEGORY:Special Ability	TYPE:AnimalThrushRaceTrait.SpecialQuality.Extraodinary.Evasion	VISIBLE:YES	DESC:With a successful Reflex save against an attack that allows a Reflex save for half damage, a thrush screech takes no damage.	KEY:Animal (Thrush) ~ Evasion																											SOURCEPAGE:DMG

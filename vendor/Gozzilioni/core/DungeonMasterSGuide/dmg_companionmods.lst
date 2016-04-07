@@ -2,13 +2,13 @@ SOURCELONG:Gozzilioni Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://w
 #										
 ###Block: Standard Companions										
 # Class of the Master	Type									
-# MASTERBONUSRACE:Companion ~ Bat			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Bat
-MASTERBONUSRACE:Companion ~ Ferret			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Ferret
-MASTERBONUSRACE:Companion ~ Hedgehog			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Hedgehog
-MASTERBONUSRACE:Companion ~ Mouse			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Mouse
-MASTERBONUSRACE:Companion ~ Owl (Screech)			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Screech Owl
-# MASTERBONUSRACE:Companion ~ Toad			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Toad
-MASTERBONUSRACE:Companion ~ Thrush			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Thrush
+# MASTERBONUSRACE:Companion ~ Animal (Bat)			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Bat
+MASTERBONUSRACE:Companion ~ Animal (Ferret)			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Ferret
+MASTERBONUSRACE:Companion ~ Animal (Hedgehog)			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Hedgehog
+MASTERBONUSRACE:Companion ~ Animal (Mouse)			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Mouse
+MASTERBONUSRACE:Companion ~ Animal (Owl (Screech))			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Screech Owl
+# MASTERBONUSRACE:Companion ~ Animal (Toad)			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Toad
+MASTERBONUSRACE:Companion ~ Animal (Thrush)			TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Thrush
 
 ###Block:Fiendish Servant
 FOLLOWER:FiendishServantLVL=5	TYPE:FiendishServant	HD:2	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|6	ABILITY:Special Ability|AUTOMATIC|Fiendish Servant ~ Empathic Link|Fiendish Servant ~ Improved Evasion|Fiendish Servant ~ Share Saving Throws|Fiendish Servant ~ Share Spells	AUTO:ARMORPROF|ARMORTYPE=Barding			

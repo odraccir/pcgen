@@ -7,7 +7,7 @@ BOOKTYPE:Campaign
 SOURCELONG:Gozzilioni Monster Manual Errata
 SOURCESHORT:MM1e
 SOURCEWEB:http://www.gozzilioni.net
-SOURCEDATE:2003-07
+SOURCEDATE:2006-02
 ISOGL:NO
 COPYRIGHT:My Campaign, Copyright 2015 by me
 PUBNAMELONG:Gozzilioni
@@ -18,6 +18,7 @@ PRECAMPAIGN:2,Gozzilioni Core Ruleset,Gozzilioni Monster Manual
 
 ABILITY:mm1e_abilities_races.lst
 EQUIPMENT:mm1e_equip.lst
+KIT:mm1e_kits.lst
 RACE:mm1e_races.lst
 TEMPLATE:mm1e_templates.lst
 

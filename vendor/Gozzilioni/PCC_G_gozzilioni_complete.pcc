@@ -18,10 +18,13 @@ PCC:core/_core.pcc
 PCC:core/DungeonMasterSGuide/_dungeonmastersguide.pcc
 PCC:core/PlayerSHandbook/_playershandbook.pcc
 PCC:core/MonsterManual/_monstermanual.pcc
+PCC:core/MonsterManual2/_monstermanual2.pcc
 
 PCC:houserules/_houserules.pcc
 
 PCC:web/DragonMagazine/_dragonmagazine082.pcc
+
+
 
 # ENTRY DATE: 2015-08 
 # LST MONKEY: Riccardo

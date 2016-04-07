@@ -1,0 +1,20 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+
+# Subrace Support
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Bogun Class Feature	CATEGORY:Special Ability	TYPE:BogunClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Homunculus Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups
+
+#Feats Ability pools
+
+#Companion Support
+ABILITYCATEGORY:Bogun Selection	CATEGORY:Internal	TYPE:BogunSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Bogun Choice			DISPLAYLOCATION:Class Features
+
+#other
+
+#
+# End
+#

@@ -5617,3 +5617,36 @@ STARTPACK:Gauntlets of Fumbling	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:
 SELECT:roll("1d100")
 GEAR:Gauntlets of Fumbling (Gloves)	OPTION:1,50
 GEAR:Gauntlets of Fumbling (Gauntlets)	OPTION:51,100
+
+STARTPACK:Animal (Hedgehog) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Hedgehog)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Animal (Mouse) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Mouse)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Animal (Owl (Screech)) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Owl (Screech))
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Animal (Thrush) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Thrush)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Animal (Hedgehog) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Hedgehog)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=11
+ABILITY:CATEGORY=FEAT|Weapon Finesse
+SKILL:Listen	RANK:2
+SKILL:Spot	RANK:2
+
+STARTPACK:Animal (Mouse) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Mouse)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+SKILL:Hide	RANK:4
+
+STARTPACK:Animal (Owl (Screech)) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Owl (Screech))
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+SKILL:Listen	RANK:2
+SKILL:Spot	RANK:2
+
+STARTPACK:Animal (Thrush) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Thrush)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+ABILITY:CATEGORY=FEAT|Alertness
+SKILL:Listen	RANK:2
+SKILL:Spot	RANK:2

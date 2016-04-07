@@ -61,19 +61,6 @@ HIDETYPE:FEAT|Wizard
 HIDETYPE:SKILL|Craft (Blacksmithing)|Craft (Carpentry)|Craft (Leatherworking)|Craft (Painting)|Craft (Pottery)|Craft (Sculpting)
 HIDETYPE:SKILL|Craft (Shipmaking)|Craft (Stonemasonry)
 
-# FORWARDREF:RACE|Companion ~ Ape,Companion ~ Badger,Companion ~ Bat,Companion ~ Bear (Black),Companion ~ Bear (Brown),Companion ~ Bear (Polar)
-# FORWARDREF:RACE|Companion ~ Bison,Companion ~ Boar,Companion ~ Camel,Companion ~ Cat,Companion ~ Cheetah,Companion ~ Crocodile
-# FORWARDREF:RACE|Companion ~ Crocodile (Giant),Companion ~ Dinosaur (Elasmosaurus),Companion ~ Dinosaur (Megaraptor),Companion ~ Dinosaur (Triceratops),Companion ~ Dinosaur (Tyrannosaurus),Companion ~ Dire Animal (Dire Ape)
-# FORWARDREF:RACE|Companion ~ Dire Animal (Dire Badger),Companion ~ Dire Animal (Dire Bat),Companion ~ Dire Animal (Dire Bear),Companion ~ Dire Animal (Dire Boar),Companion ~ Dire Animal (Dire Lion),Companion ~ Dire Animal (Dire Rat)
-# FORWARDREF:RACE|Companion ~ Dire Animal (Dire Shark),Companion ~ Dire Animal (Dire Tiger),Companion ~ Dire Animal (Dire Wolf),Companion ~ Dire Animal (Dire Wolverine),Companion ~ Dinosaur (Tyrannosaurus),Companion ~ Dog
-# FORWARDREF:RACE|Companion ~ Dog (Riding),Companion ~ Eagle,Companion ~ Elephant,Companion ~ Hawk,Companion ~ Horse (Warhorse/Heavy),Companion ~ Horse (Heavy)
-# FORWARDREF:RACE|Companion ~ Horse (Light),Companion ~ Horse (Warhorse/Light),Companion ~ Leopard,Companion ~ Lion,Companion ~ Lizard,Companion ~ Lizard (Monitor),Companion ~ Octopus (Giant)
-# FORWARDREF:RACE|Companion ~ Owl,Companion ~ Pony,Companion ~ Pony (War),Companion ~ Pony (Warpony),Companion ~ Porpoise,Companion ~ Rat
-# FORWARDREF:RACE|Companion ~ Raven,Companion ~ Rhinoceros,Companion ~ Shark (Huge),Companion ~ Shark (Large),Companion ~ Shark (Medium),Companion ~ Snake (Constrictor)
-# FORWARDREF:RACE|Companion ~ Snake (Constrictor/Giant),Companion ~ Snake (Viper/Huge),Companion ~ Snake (Viper/Large),Companion ~ Snake (Viper/Medium),Companion ~ Snake (Viper/Small),Companion ~ Snake (Viper/Tiny)
-# FORWARDREF:RACE|Companion ~ Squid,Companion ~ Squid (Giant),Companion ~ Tiger,Companion ~ Toad,Companion ~ Weasel,Companion ~ Whale (Orca)
-# FORWARDREF:RACE|Companion ~ Wolverine
-
 # ENTRY DATE: 2015-08 
 # LST MONKEY: Riccardo
 # RELEASE REVIEW #
