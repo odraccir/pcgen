@@ -34,7 +34,7 @@ Expanded Selection	CATEGORY:Internal	TYPE:FiendishServantSelection.FiendishServa
 																																		
 CATEGORY=Internal|Undead Companion (Base).MOD	ABILITY:Undead Companion Selection|AUTOMATIC|Standard Selection ~ Undead Companion (Blackguard)|!PREABILITY:1,CATEGORY=Internal,TYPE.UndeadCompanionAlternate																																	
 Undead Companion (Default Blackguard)	CATEGORY:Internal	TYPE:UndeadCompanionSelection.UndeadCompanionBase		KEY:Standard Selection ~ Undead Companion (Blackguard)	!PREABILITY:1,CATEGORY=Internal,TYPE.UndeadCompanionAlternate	COMPANIONLIST:Undead Companion|Companion ~ Human (Skeleton),Companion ~ Human (Zombie)	COST:0																											
-Expanded Selection	CATEGORY:Internal	TYPE:UndeadCompanionSelection.UndeadCompanionAlternate		KEY:Expanded Selection ~ Undead Companion 		COMPANIONLIST:Undead Companion|ANY	COST:0																											
+Expanded Selection	CATEGORY:Internal	TYPE:UndeadCompanionSelection.UndeadCompanionAlternate		KEY:Expanded Selection ~ Undead Companion		COMPANIONLIST:Undead Companion|ANY	COST:0																											
 																																		
 CATEGORY=Internal|Shadow (Base).MOD	ABILITY:Shadow Selection|AUTOMATIC|Standard Selection ~ Shadow|!PREABILITY:1,CATEGORY=Internal,TYPE.ShadowAlternate																																	
 Shadow (Default)	CATEGORY:Internal	TYPE:ShadowSelection.ShadowBase		KEY:Standard Selection ~ Shadow	!PREABILITY:1,CATEGORY=Internal,TYPE.ShadowAlternate	COMPANIONLIST:Shadow|Companion ~ Shadow	COST:0																											

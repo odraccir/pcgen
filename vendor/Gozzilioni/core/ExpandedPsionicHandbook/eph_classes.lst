@@ -1,0 +1,333 @@
+SOURCELONG:Gozzilioni Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04										
+#
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE	
+# Class Name req	Requirements	FINE											
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE			ALLOWBASECLASS	
+# Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST							
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)			
+CLASS:Psion	HD:4	TYPE:PC.Base	FACT:Abb|Psi	MAXLEVEL:NOLIMIT	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Psion	DEFINE:PsionLVL|0	BONUS:VAR|PsionLVL|CL
+CLASS:Psion	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Psicraft											
+CLASS:Psion	SPELLSTAT:INT	FACT:Spelltype|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Psion|CL							ALLOWBASECLASS:NO	
+SUBCLASS:Seer	COST:0		CHOICE:SCHOOL|Clairsentience	CSKILL:Gather Information|Listen|Spot									
+SUBCLASSLEVEL:1												DEFINE:SeerLVL|0	BONUS:VAR|SeerLVL|CL
+SUBCLASSLEVEL:1				ABILITY:Psion Class Feature|AUTOMATIC|Psion ~ Discipline ~ Seer									
+SUBCLASS:Shaper	COST:0		CHOICE:SCHOOL|Metacreativity	CSKILL:Bluff|Disguise|Use Psionic Device									
+SUBCLASSLEVEL:1												DEFINE:ShaperLVL|0	BONUS:VAR|ShaperLVL|CL
+SUBCLASSLEVEL:1				ABILITY:Psion Class Feature|AUTOMATIC|Psion ~ Discipline ~ Shaper									
+SUBCLASS:Kineticist	COST:0		CHOICE:SCHOOL|Psychokinesis	CSKILL:Autohypnosis|Disable Device|Intimidate									
+SUBCLASSLEVEL:1												DEFINE:KineticistLVL|0	BONUS:VAR|KineticistLVL|CL
+SUBCLASSLEVEL:1				ABILITY:Psion Class Feature|AUTOMATIC|Psion ~ Discipline ~ Kineticist									
+SUBCLASS:Egoist	COST:0		CHOICE:SCHOOL|Psychometabolism	CSKILL:Autohypnosis|Balance|Heal									
+SUBCLASSLEVEL:1												DEFINE:EgoistLVL|0	BONUS:VAR|EgoistLVL|CL
+SUBCLASSLEVEL:1				ABILITY:Psion Class Feature|AUTOMATIC|Psion ~ Discipline ~ Egoist									
+SUBCLASS:Nomad	COST:0		CHOICE:SCHOOL|Psycoportation	CSKILL:Climb|Jump|Ride|Survival|Swim									
+SUBCLASSLEVEL:1												DEFINE:NomadLVL|0	BONUS:VAR|NomadLVL|CL
+SUBCLASSLEVEL:1				ABILITY:Psion Class Feature|AUTOMATIC|Psion ~ Discipline ~ Nomad									
+SUBCLASS:Telepath	COST:0		CHOICE:SCHOOL|Telepathy	CSKILL:Bluff|Diplomacy|Gather Information|Sense Motive									
+SUBCLASSLEVEL:1												DEFINE:TelepathLVL|0	BONUS:VAR|TelepathLVL|CL
+SUBCLASSLEVEL:1				ABILITY:Psion Class Feature|AUTOMATIC|Psion ~ Discipline ~ Telepath									
+1				ABILITY:Psion Class Feature|AUTOMATIC|Psion ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PsionProficiencies									
+1				ABILITY:Psion Class Feature|AUTOMATIC|Psion ~ Power Points per Day									
+1				ABILITY:Psion Class Feature|AUTOMATIC|Psion ~ Discipline									
+1				TEMPLATE:Psionic									
+#
+1				ABILITY:Psion Class Feature|AUTOMATIC|Psion ~ Bonus Feats|!PREABILITY:1,CATEGORY=ACF,TYPE.PsionBonusFeats									
+#COMMENT: There is no KNOWN list, the PSION and ilk may choose any power from first level to the Highest Level available.	
+1	KNOWN:0,3												
+2	KNOWN:0,5												
+3	KNOWN:0,5,2												
+4	KNOWN:0,5,4												
+5	KNOWN:0,5,4,2												
+6	KNOWN:0,5,4,4												
+7	KNOWN:0,5,4,4,2												
+8	KNOWN:0,5,4,4,4												
+9	KNOWN:0,5,4,4,4,2												
+10	KNOWN:0,5,4,4,4,4												
+11	KNOWN:0,5,4,4,4,4,1												
+12	KNOWN:0,5,4,4,4,4,3												
+13	KNOWN:0,5,4,4,4,4,3,1												
+14	KNOWN:0,5,4,4,4,4,3,3												
+15	KNOWN:0,5,4,4,4,4,3,3,1												
+16	KNOWN:0,5,4,4,4,4,3,3,3												
+17	KNOWN:0,5,4,4,4,4,3,3,3,1												
+18	KNOWN:0,5,4,4,4,4,3,3,3,3												
+19	KNOWN:0,5,4,4,4,4,3,3,3,4												
+20	KNOWN:0,5,4,4,4,4,3,3,3,6												
+
+CLASS:Psychic Warrior	HD:8	TYPE:PC.Base	FACT:Abb|Psw	MAXLEVEL:NOLIMIT	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Combat	DEFINE:PsychicWarriorLVL|0	BONUS:VAR|PsychicWarriorLVL|CL
+CLASS:Psychic Warrior	STARTSKILLPTS:2	CSKILL:Autohypnosis|Climb|Concentration|TYPE.Craft|Jump|Knowledge (Psionics)|TYPE.Profession|Ride|Search|Swim											
+CLASS:Psychic Warrior	SPELLSTAT:WIS	FACT:Spelltype|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Psychic Warrior|CL								
+1				ABILITY:Psychic Warrior Class Feature|AUTOMATIC|Psychic Warrior ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PsychicWarriorProficiencies									
+1				ABILITY:Psychic Warrior Class Feature|AUTOMATIC|Psychic Warrior ~ Power Points per Day									
+1				TEMPLATE:Psionic									
+#
+1				ABILITY:Psychic Warrior Class Feature|AUTOMATIC|Psychic Warrior ~ Bonus Feats|!PREABILITY:1,CATEGORY=ACF,TYPE.PsychicWarriorBonusFeats									
+#COMMENT: There is no KNOWN list, the PSION and ilk may choose any power from first level to the Highest Level available.
+1	KNOWN:0,1												
+2	KNOWN:0,2												
+3	KNOWN:0,3												
+4	KNOWN:0,3,1												
+5	KNOWN:0,3,2												
+6	KNOWN:0,3,3												
+7	KNOWN:0,3,3,1												
+8	KNOWN:0,3,3,2												
+9	KNOWN:0,3,3,3												
+10	KNOWN:0,3,3,3,1												
+11	KNOWN:0,3,3,3,2												
+12	KNOWN:0,3,3,3,3												
+13	KNOWN:0,3,3,3,3,1												
+14	KNOWN:0,3,3,3,3,2												
+15	KNOWN:0,3,3,3,3,3												
+16	KNOWN:0,3,3,3,3,3,1												
+17	KNOWN:0,3,3,3,3,3,2												
+18	KNOWN:0,3,3,3,3,3,3												
+19	KNOWN:0,3,3,3,3,3,4												
+20	KNOWN:0,3,3,3,3,3,5												
+
+CLASS:Soulknife	HD:10	TYPE:PC.Base	FACT:Abb|Slk	MAXLEVEL:NOLIMIT	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Combat	DEFINE:SoulknifeLVL|0	BONUS:VAR|SoulknifeLVL|CL
+CLASS:Soulknife	STARTSKILLPTS:4	CSKILL:Autohypnosis|Climb|Concentration|TYPE.Craft|Hide|Jump|Knowledge (Psionics)|Listen|Move Silently|TYPE.Profession|Spot|Tumble											
+1				ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulknifeProficiencies									
+1				TEMPLATE:Psionic									
+#
+1				ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Mind Blade|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulknifeMindBlade									
+1				ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Weapon Focus (Mind Blade)|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulknifeWeaponFocusMindBlade									
+1				ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Wild Talent|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulknifeWildTalent									
+2				ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Throw Mind Blade|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulknifeThrowMindBlade									
+3				ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Psychic Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulknifePsychicStrike									
+5				ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Free Draw|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulknifeFreeDraw									
+5				ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Shape Mind Blade|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulknifeShapeMindBlade									
+6				ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Mind Blade Enhancement|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulknifeMindBladeEnhancement									
+6				ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Speed of Thought|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulknifeSpeedOfThought									
+9				ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Bladewind|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulknifeBladewind									
+9				ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Greater Weapon Focus (Mind Blade)|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulknifeGreaterWeaponFocusMindBlade									
+13				ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Knife to the Soul|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulknifeKnifeToTheSoul									
+
+CLASS:Wilder	HD:6	TYPE:PC.Base	FACT:Abb|Wil	MAXLEVEL:NOLIMIT	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Wilder	DEFINE:WilderLVL|0	BONUS:VAR|WilderLVL|CL
+CLASS:Wilder	STARTSKILLPTS:4	CSKILL:Autohypnosis|Balance|Bluff|Climb|Concentration|TYPE.Craft|Escape Artist|Intimidate|Jump|Knowledge (Psionics)|Listen|TYPE.Profession|Psicraft|Sense motive|Spot|Swim|Tumble											
+CLASS:Wilder	SPELLSTAT:CHA	FACT:Spelltype|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Wilder|CL								
+1				ABILITY:Wilder Class Feature|AUTOMATIC|Wilder ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.WilderProficiencies									
+1				ABILITY:Wilder Class Feature|AUTOMATIC|Wilder ~ Power Points per Day									
+1				TEMPLATE:Psionic									
+#
+1				ABILITY:Wilder Class Feature|AUTOMATIC|Wilder ~ Wild Surge|!PREABILITY:1,CATEGORY=ACF,TYPE.WilderWildSurge									
+1				ABILITY:Wilder Class Feature|AUTOMATIC|Wilder ~ Psychic Enervation|!PREABILITY:1,CATEGORY=ACF,TYPE.WilderPsychicEnervation									
+2				ABILITY:Wilder Class Feature|AUTOMATIC|Wilder ~ Elude Touch|!PREABILITY:1,CATEGORY=ACF,TYPE.WilderEludeTouch									
+4				ABILITY:Wilder Class Feature|AUTOMATIC|Wilder ~ Surging Euphoria|!PREABILITY:1,CATEGORY=ACF,TYPE.WilderSurgingEuphoria									
+
+CLASS:Psion.MOD	MAXLEVEL:NOLIMIT
+21				ABILITY:Psion Class Feature|AUTOMATIC|Psion ~ Epic Feats|!PREABILITY:1,CATEGORY=ACF,TYPE.PsionEpicFeat									
+
+CLASS:Psychic Warrior.MOD	MAXLEVEL:NOLIMIT
+21				ABILITY:Psychic Warrior Class Feature|AUTOMATIC|Psychic Warrior ~ Epic Feats|!PREABILITY:1,CATEGORY=ACF,TYPE.PsychicWarriorEpicFeats									
+
+CLASS:Soulknife.MOD	MAXLEVEL:NOLIMIT
+21				ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Epic Feats|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulknifeEpicFeats									
+21				ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Epic Mind Blade Enhancement|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulknifeMindBladeEnhancement									
+
+CLASS:Wilder.MOD	MAXLEVEL:NOLIMIT
+21				ABILITY:Wilder Class Feature|AUTOMATIC|Wilder ~ Epic Surging Euphoria|!PREABILITY:1,CATEGORY=ACF,TYPE.WilderSurgingEuphoria									
+
+CLASS:Hidden Talent	HD:1	TYPE:Hidden	FACT:Abb|Hid	MAXLEVEL:1	SOURCEPAGE:EPH	ROLE:Psion	DEFINE:HiddenTalentLVL|0	BONUS:VAR|HiddenTalentLVL|CL					
+CLASS:Hidden Talent	SPELLSTAT:CHA	FACT:Spelltype|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Hidden Talent|CL	SPELLLIST:1|Psion							
+1	KNOWN:0,0
+
+# Class Name			Type			Max Level							
+CLASS:Psicrystal	TYPE:Monster	MAXLEVEL:1	SOURCEPAGE:EPH										
+1	DONOTADD:HITDIE|SKILLPOINTS
+
+CLASS:Cerebremancer	HD:4	TYPE:PC.Prestige	FACT:Abb|Cer	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:CerebremancerLVL|0	BONUS:VAR|CerebremancerLVL|CL
+CLASS:Cerebremancer	PRESKILL:2,Knowledge (Arcana)=6,Knowledge (Psionics)=6	PRESPELLCAST:TYPE=Arcane,TYPE=Psionic	PRETEXT:Able to cast 2nd-level arcane spells. Able to manifest 2nd-level powers.										
+CLASS:Cerebremancer	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Script|Knowledge (Arcana)|Knowledge (Psionics)|TYPE.Profession|Psicraft|Spellcraft											
+1				ABILITY:Cerebremancer Class Feature|AUTOMATIC|Cerebremancer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.CerebremancerProficiencies									
+1				ABILITY:Cerebremancer Class Feature|AUTOMATIC|Cerebremancer ~ Spells per Day/Power Known									
+#	
+1	ADD:SPELLCASTER|Arcane	ADD:SPELLCASTER|Psionic											
+2	ADD:SPELLCASTER|Arcane	ADD:SPELLCASTER|Psionic											
+3	ADD:SPELLCASTER|Arcane	ADD:SPELLCASTER|Psionic											
+4	ADD:SPELLCASTER|Arcane	ADD:SPELLCASTER|Psionic											
+5	ADD:SPELLCASTER|Arcane	ADD:SPELLCASTER|Psionic											
+6	ADD:SPELLCASTER|Arcane	ADD:SPELLCASTER|Psionic											
+7	ADD:SPELLCASTER|Arcane	ADD:SPELLCASTER|Psionic											
+8	ADD:SPELLCASTER|Arcane	ADD:SPELLCASTER|Psionic											
+9	ADD:SPELLCASTER|Arcane	ADD:SPELLCASTER|Psionic											
+10	ADD:SPELLCASTER|Arcane	ADD:SPELLCASTER|Psionic											
+
+CLASS:Elocater	HD:6	TYPE:PC.Prestige	FACT:Abb|Elo	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ElocaterLVL|0	BONUS:VAR|ElocaterLVL|CL
+CLASS:Elocater	PREATT:3	PRESKILL:1,Concentration=8	PREABILITY:2,CATEGORY=FEAT,Mobility,Spring Attack	PRESPELLCAST:TYPE=Psionic	PRETEXT:Able to manifest 1nd-level powers.								
+CLASS:Elocater	STARTSKILLPTS:6	CSKILL:Autohypnosis|Balance|Climb|Concentration|TYPE.Craft|Disable Device|Escape Artist|Gather Information|Hide|Jump|Knowledge (Local)|Knowledge (Psionics)|Listen|TYPE.Perform|TYPE.Profession|Psicraft|Search|Sense Motive|Sleight of Hand|Spot|Swim|Tumble|Use Psionic Device											
+1				ABILITY:Elocater Class Feature|AUTOMATIC|Elocater ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ElocaterProficiencies									
+1				ABILITY:Elocater Class Feature|AUTOMATIC|Elocater ~ Power Known									
+#
+1				ABILITY:Elocater Class Feature|AUTOMATIC|Elocater ~ Scorn Earth|!PREABILITY:1,CATEGORY=ACF,TYPE.ElocaterScornEarth									
+1				ABILITY:Elocater Class Feature|AUTOMATIC|Elocater ~ Sidestep Charge|!PREABILITY:1,CATEGORY=ACF,TYPE.ElocaterSidestepCharge									
+2				ABILITY:Elocater Class Feature|AUTOMATIC|Elocater ~ Opportunistic Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.ElocaterOpportunisticStrike									
+3				ABILITY:Elocater Class Feature|AUTOMATIC|Elocater ~ Dimension Step|!PREABILITY:1,CATEGORY=ACF,TYPE.ElocaterDimensionStep									
+4				ABILITY:Elocater Class Feature|AUTOMATIC|Elocater ~ Flanker|!PREABILITY:1,CATEGORY=ACF,TYPE.ElocaterFlanker									
+6				ABILITY:Elocater Class Feature|AUTOMATIC|Elocater ~ Transporter|!PREABILITY:1,CATEGORY=ACF,TYPE.ElocaterTransporter									
+7				ABILITY:Elocater Class Feature|AUTOMATIC|Elocater ~ Capricious Step|!PREABILITY:1,CATEGORY=ACF,TYPE.ElocaterCapriciousStep									
+9				ABILITY:Elocater Class Feature|AUTOMATIC|Elocater ~ Dimensional Spring Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.ElocaterDimensionalSpringAttack									
+10				ABILITY:Elocater Class Feature|AUTOMATIC|Elocater ~ Accelerated Action|!PREABILITY:1,CATEGORY=ACF,TYPE.ElocaterAcceleratedAction									
+#
+1	ADD:SPELLCASTER|Psionic												
+3	ADD:SPELLCASTER|Psionic												
+4	ADD:SPELLCASTER|Psionic												
+6	ADD:SPELLCASTER|Psionic												
+7	ADD:SPELLCASTER|Psionic												
+9	ADD:SPELLCASTER|Psionic												
+10	ADD:SPELLCASTER|Psionic												
+
+###TODO CONTIGUOUS:Monk
+CLASS:Fist of Zuoken	HD:6	TYPE:PC.Prestige	FACT:Abb|FoZ	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:FistOfZuokenLVL|0	BONUS:VAR|FistOfZuokenLVL|CL
+CLASS:Fist of Zuoken	PREATT:4	PRESKILL:1,Concentration=9	PREABILITY:2,CATEGORY=FEAT,Wild Talent	PREABILITY:1,CATEGORY=Special Ability,Still Mind									
+CLASS:Fist of Zuoken	STARTSKILLPTS:4	CSKILL:Autohypnosis|Concentration|TYPE.Craft|Escape Artist|Hide|Jump|Knowledge (Psionics)|Knowledge (Religion)|Listen|Move Silently|Psicraft|Sense Motive|Spot|Tumble											
+CLASS:Fist of Zuoken	SPELLSTAT:WIS	FACT:Spelltype|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Fist of Zuoken|CL	SPELLLIST:1|Psychic Warrior							
+1				ABILITY:Fist of Zuoken Class Feature|AUTOMATIC|Fist of Zuoken ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.FistOfZuokenProficiencies									
+1				ABILITY:Fist of Zuoken Class Feature|AUTOMATIC|Fist of Zuoken ~ Power Points per Day									
+#
+1				ABILITY:Fist of Zuoken Class Feature|AUTOMATIC|Fist of Zuoken ~ Monk Abilities|!PREABILITY:1,CATEGORY=ACF,TYPE.FistOfZuokenMonkAbilities									
+5				ABILITY:Fist of Zuoken Class Feature|AUTOMATIC|Fist of Zuoken ~ Bonus Feats|!PREABILITY:1,CATEGORY=ACF,TYPE.FistOfZuokenBonusFeats									
+#
+1	KNOWN:0,1												
+2	KNOWN:0,2												
+3	KNOWN:0,2,1												
+4	KNOWN:0,2,2												
+5	KNOWN:0,2,2,1												
+6	KNOWN:0,2,2,2												
+7	KNOWN:0,2,2,2,1												
+8	KNOWN:0,2,2,2,2												
+9	KNOWN:0,2,2,2,2,1												
+10	KNOWN:0,2,2,2,2,2												
+
+CLASS:Illithid Slayer	HD:8	TYPE:PC.Prestige	FACT:Abb|IlS	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:IllithidSlayerLVL|0	BONUS:VAR|IllithidSlayerLVL|CL
+CLASS:Illithid Slayer	PREATT:4	PRESKILL:1,Knowledge (Dungeoneering)=4	PREABILITY:2,CATEGORY=FEAT,Track	PREVARGTEQ:TotalPowerPoints,1	PRETEXT:Special: Must have killed an illithid, either individually or as part of a group composed of no more than six members.								
+CLASS:Illithid Slayer	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Knowledge (Dungeoneering)|Listen|Psicraft|Sense motive|Spot|Survival											
+1				ABILITY:Illithid Slayer Class Feature|AUTOMATIC|Illithid Slayer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.IllithidSlayerProficiencies									
+1				ABILITY:Illithid Slayer Class Feature|AUTOMATIC|Illithid Slayer ~ Power Known									
+#
+1				ABILITY:Illithid Slayer Class Feature|AUTOMATIC|Illithid Slayer ~ Favored Enemy|!PREABILITY:1,CATEGORY=ACF,TYPE.IllithidSlayerFavoredEnemy									
+1				ABILITY:Illithid Slayer Class Feature|AUTOMATIC|Illithid Slayer ~ Illithid Sense|!PREABILITY:1,CATEGORY=ACF,TYPE.IllithidSlayerIllithidSense									
+2				ABILITY:Illithid Slayer Class Feature|AUTOMATIC|Illithid Slayer ~ Brain Nausea|!PREABILITY:1,CATEGORY=ACF,TYPE.IllithidSlayerBrainNausea									
+3				ABILITY:Illithid Slayer Class Feature|AUTOMATIC|Illithid Slayer ~ Lucid Buffer|!PREABILITY:1,CATEGORY=ACF,TYPE.IllithidSlayerLucidBuffer									
+6				ABILITY:Illithid Slayer Class Feature|AUTOMATIC|Illithid Slayer ~ Cerebral Blind|!PREABILITY:1,CATEGORY=ACF,TYPE.IllithidSlayerCerebralBlind									
+8				ABILITY:Illithid Slayer Class Feature|AUTOMATIC|Illithid Slayer ~ Breach Power Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.IllithidSlayerBreachPowerResistance									
+9				ABILITY:Illithid Slayer Class Feature|AUTOMATIC|Illithid Slayer ~ Cerebral Immunity|!PREABILITY:1,CATEGORY=ACF,TYPE.IllithidSlayerCerebralImmunity									
+10				ABILITY:Illithid Slayer Class Feature|AUTOMATIC|Illithid Slayer ~ Blast Feedback|!PREABILITY:1,CATEGORY=ACF,TYPE.IllithidSlayerBlastFeedback									
+#
+2	ADD:SPELLCASTER|Psionic												
+3	ADD:SPELLCASTER|Psionic												
+4	ADD:SPELLCASTER|Psionic												
+5	ADD:SPELLCASTER|Psionic												
+6	ADD:SPELLCASTER|Psionic												
+7	ADD:SPELLCASTER|Psionic												
+8	ADD:SPELLCASTER|Psionic												
+9	ADD:SPELLCASTER|Psionic												
+10	ADD:SPELLCASTER|Psionic												
+
+CLASS:Metamind	HD:4	TYPE:PC.Prestige	FACT:Abb|Met	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:MetamindLVL|0	BONUS:VAR|MetamindLVL|CL
+CLASS:Metamind	PRESKILL:1,Knowledge (Psionics)=6	PRESKILL:1,Psicraft=4	PRECLASS:1,SPELLCASTER.Psionic=4	PRETEXT:Manifester level 4th.									
+CLASS:Metamind	STARTSKILLPTS:2	CSKILL:Autohypnosis|Concentration|TYPE.Craft|Knowledge (Psionics)|Psicraft											
+1				ABILITY:Metamind Class Feature|AUTOMATIC|Metamind ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MetamindProficiencies									
+1				ABILITY:Metamind Class Feature|AUTOMATIC|Metamind ~ Power Known									
+#
+1				ABILITY:Metamind Class Feature|AUTOMATIC|Metamind ~ Free Manifesting|!PREABILITY:1,CATEGORY=ACF,TYPE.MetamindFreeManifesting									
+2				ABILITY:Metamind Class Feature|AUTOMATIC|Metamind ~ Cognizance Psicrystal|!PREABILITY:1,CATEGORY=ACF,TYPE.MetamindCognizancePsicrystal									
+10				ABILITY:Metamind Class Feature|AUTOMATIC|Metamind ~ Font of Power|!PREABILITY:1,CATEGORY=ACF,TYPE.MetamindFontOfPower									
+#
+2	ADD:SPELLCASTER|Psionic												
+4	ADD:SPELLCASTER|Psionic												
+6	ADD:SPELLCASTER|Psionic												
+8	ADD:SPELLCASTER|Psionic												
+10	ADD:SPELLCASTER|Psionic												
+
+CLASS:Psion Uncarnate	HD:4	TYPE:PC.Prestige	FACT:Abb|PsU	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:PsionUncarnateLVL|0	BONUS:VAR|PsionUncarnateLVL|CL
+CLASS:Psion Uncarnate	PRESKILL:1,Knowledge (Psionics)=8,Psicraft=8	PREABILITY:1,CATEGORY=FEAT,Psionic Body	PRESPELLCAST:TYPE=Psionic	PRETEXT:Able to manifest 3rd-level powers.	PRETEXT:Special: Must have had some instruction by another psion uncarnate, have access to teachings of the Golden Mind, or belong to an organization that has access to or is administered by the Golden Mind.								
+CLASS:Psion Uncarnate	STARTSKILLPTS:2	CSKILL:Autohypnosis|Bluff|Concentration|TYPE=Craft|Disguise|Knowledge (The Planes)|Knowledge (Psionics)|Psicraft|Sense Motive											
+1				ABILITY:Psion Uncarnate Class Feature|AUTOMATIC|Psion Uncarnate ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PsionUncarnateProficiencies									
+1				ABILITY:Psion Uncarnate Class Feature|AUTOMATIC|Psion Uncarnate ~ Power Known									
+#
+1				ABILITY:Psion Uncarnate Class Feature|AUTOMATIC|Psion Uncarnate ~ Incorporeal Touch|!PREABILITY:1,CATEGORY=ACF,TYPE.PsionUncarnateIncorporealTouch									
+1				ABILITY:Psion Uncarnate Class Feature|AUTOMATIC|Psion Uncarnate ~ Uncarnate Armor|!PREABILITY:1,CATEGORY=ACF,TYPE.PsionUncarnateUncarnateArmor									
+2				ABILITY:Psion Uncarnate Class Feature|AUTOMATIC|Psion Uncarnate ~ Shed Body|!PREABILITY:1,CATEGORY=ACF,TYPE.PsionUncarnateShedBody									
+3				ABILITY:Psion Uncarnate Class Feature|AUTOMATIC|Psion Uncarnate ~ Assume Equipment|!PREABILITY:1,CATEGORY=ACF,TYPE.PsionUncarnateAssumeEquipment									
+4				ABILITY:Psion Uncarnate Class Feature|AUTOMATIC|Psion Uncarnate ~ Assume Likeness|!PREABILITY:1,CATEGORY=ACF,TYPE.PsionUncarnateAssumeLikeness									
+7				ABILITY:Psion Uncarnate Class Feature|AUTOMATIC|Psion Uncarnate ~ Telekinetic Force|!PREABILITY:1,CATEGORY=ACF,TYPE.PsionUncarnateTelekineticForce									
+8				ABILITY:Psion Uncarnate Class Feature|AUTOMATIC|Psion Uncarnate ~ Uncarnate Bridge|!PREABILITY:1,CATEGORY=ACF,TYPE.PsionUncarnateUncarnateBridge									
+#
+2	ADD:SPELLCASTER|Psionic												
+3	ADD:SPELLCASTER|Psionic												
+5	ADD:SPELLCASTER|Psionic												
+6	ADD:SPELLCASTER|Psionic												
+8	ADD:SPELLCASTER|Psionic												
+9	ADD:SPELLCASTER|Psionic												
+
+CLASS:Pyrokineticist	HD:8	TYPE:PC.Prestige	FACT:Abb|Pyr	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:PyrokineticistLVL|0	BONUS:VAR|PyrokineticistLVL|CL
+CLASS:Pyrokineticist	PREALIGN:CG,CN,CE	PRESKILL:1,Concentration=8	PRESKILL:1,Craft (Alchemy)=1	PRESKILL:1,Knowledge (Psionics)=2	PREVARGTEQ:TotalPowerPoints,1	PRETEXT:Special: Must have set fi re to a structure of any size just to watch it burn.							
+CLASS:Pyrokineticist	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE.Craft|Intimidate|Jump|Psicraft											
+1				ABILITY:Pyrokineticist Class Feature|AUTOMATIC|Pyrokineticist ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PyrokineticistProficiencies									
+#
+1				ABILITY:Pyrokineticist Class Feature|AUTOMATIC|Pyrokineticist ~ Fire Lash|!PREABILITY:1,CATEGORY=ACF,TYPE.PyrokineticistFireLash									
+2				ABILITY:Pyrokineticist Class Feature|AUTOMATIC|Pyrokineticist ~ Fire Adaptation|!PREABILITY:1,CATEGORY=ACF,TYPE.PyrokineticistFireAdaptation									
+2				ABILITY:Pyrokineticist Class Feature|AUTOMATIC|Pyrokineticist ~ Hand Afire|!PREABILITY:1,CATEGORY=ACF,TYPE.PyrokineticistHandAfire									
+3				ABILITY:Pyrokineticist Class Feature|AUTOMATIC|Pyrokineticist ~ Bolt of Fire|!PREABILITY:1,CATEGORY=ACF,TYPE.PyrokineticistBoltOfFire									
+4				ABILITY:Pyrokineticist Class Feature|AUTOMATIC|Pyrokineticist ~ Weapon Afire|!PREABILITY:1,CATEGORY=ACF,TYPE.PyrokineticistWeaponAfire									
+5				ABILITY:Pyrokineticist Class Feature|AUTOMATIC|Pyrokineticist ~ Nimbus|!PREABILITY:1,CATEGORY=ACF,TYPE.PyrokineticistNimbus									
+6				ABILITY:Pyrokineticist Class Feature|AUTOMATIC|Pyrokineticist ~ Firewalk|!PREABILITY:1,CATEGORY=ACF,TYPE.PyrokineticistFirewalk									
+7				ABILITY:Pyrokineticist Class Feature|AUTOMATIC|Pyrokineticist ~ Fear No Fire|!PREABILITY:1,CATEGORY=ACF,TYPE.PyrokineticistFearNoFire									
+8				ABILITY:Pyrokineticist Class Feature|AUTOMATIC|Pyrokineticist ~ Greater Weapon Afire|!PREABILITY:1,CATEGORY=ACF,TYPE.PyrokineticistGreaterWeaponAfire									
+9				ABILITY:Pyrokineticist Class Feature|AUTOMATIC|Pyrokineticist ~ Heat Death|!PREABILITY:1,CATEGORY=ACF,TYPE.PyrokineticistHeatDeath									
+10				ABILITY:Pyrokineticist Class Feature|AUTOMATIC|Pyrokineticist ~ Conflagration|!PREABILITY:1,CATEGORY=ACF,TYPE.PyrokineticistConflagration									
+
+CLASS:Thrallherd	HD:4	TYPE:PC.Prestige	FACT:Abb|Thr	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ThrallherdLVL|0	BONUS:VAR|ThrallherdLVL|CL
+CLASS:Thrallherd	PRESKILL:1,Knowledge (Psionics)=8	PRESKILL:1,Diplomacy=4	PREABILITY:1,CATEGORY=FEAT,Inquisitor	PRECLASS:1,SPELLCASTER.Psionic=5	PRETEXT:Manifester level 5th.	PRESPELL:1,Mindlink							
+CLASS:Thrallherd	STARTSKILLPTS:2	CSKILL:Autohypnosis|Bluff|Concentration|TYPE=Craft|Diplomacy|Knowledge (Psionics)|Psicraft|Sense Motive											
+1				ABILITY:Thrallherd Class Feature|AUTOMATIC|Thrallherd ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallherdProficiencies									
+1				ABILITY:Thrallherd Class Feature|AUTOMATIC|Thrallherd ~ Power Known									
+#
+1				ABILITY:Thrallherd Class Feature|AUTOMATIC|Thrallherd ~ Thrallherd|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallherdThrallherd									
+3				ABILITY:Thrallherd Class Feature|AUTOMATIC|Thrallherd ~ Psionic Charm|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallherdPsionicCharm									
+5				ABILITY:Thrallherd Class Feature|AUTOMATIC|Thrallherd ~ Psionic Dominate|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallherdPsionicDominate									
+7				ABILITY:Thrallherd Class Feature|AUTOMATIC|Thrallherd ~ Greater Dominate|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallherdGreaterDominate									
+9				ABILITY:Thrallherd Class Feature|AUTOMATIC|Thrallherd ~ Superior Dominate|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallherdGreaterDominate									
+10				ABILITY:Thrallherd Class Feature|AUTOMATIC|Thrallherd ~ Twofold Master|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallherdTwofoldMaster									
+#
+2	ADD:SPELLCASTER|Psionic												
+3	ADD:SPELLCASTER|Psionic												
+4	ADD:SPELLCASTER|Psionic												
+5	ADD:SPELLCASTER|Psionic												
+6	ADD:SPELLCASTER|Psionic												
+7	ADD:SPELLCASTER|Psionic												
+8	ADD:SPELLCASTER|Psionic												
+9	ADD:SPELLCASTER|Psionic												
+
+CLASS:War Mind	HD:10	TYPE:PC.Prestige	FACT:Abb|WMd	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:WarMindLVL|0	BONUS:VAR|WarMindLVL|CL
+CLASS:War Mind	PREALIGN:LG,LN,LE,NG,TN,NE	PREATT:3	PRESKILL:1,Knowledge (History)=2	PRESKILL:1,Knowledge (Psionics)=8	PREVARGTEQ:TotalPowerPoints,1	PRETEXT:Special: Must have had some instruction by another war mind, have access to Talariic texts, or belong to an organization that has access to Talariic texts.							
+CLASS:War Mind	STARTSKILLPTS:2	CSKILL:Autohypnosis|Concentration|Intimidate|Knowledge (History)|Knowledge (Psionics)|Psicraft											
+CLASS:War Mind	SPELLSTAT:WIS	FACT:Spelltype|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|War Mind|CL	SPELLLIST:1|Psychic Warrior							
+1				ABILITY:War Mind Class Feature|AUTOMATIC|War Mind ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.WarMindProficiencies									
+1				ABILITY:War Mind Class Feature|AUTOMATIC|War Mind ~ Power Points per Day									
+1				TEMPLATE:Psionic									
+#
+1				ABILITY:War Mind Class Feature|AUTOMATIC|War Mind ~ Chain of Personal Superiority|!PREABILITY:1,CATEGORY=ACF,TYPE.WarMindChainOfPersonalSuperiority									
+2				ABILITY:War Mind Class Feature|AUTOMATIC|War Mind ~ Chain of Defensive Posture|!PREABILITY:1,CATEGORY=ACF,TYPE.WarMindChainOfDefensivePosture									
+3				ABILITY:War Mind Class Feature|AUTOMATIC|War Mind ~ Enduring Body|!PREABILITY:1,CATEGORY=ACF,TYPE.WarMindEnduringBody									
+5				ABILITY:War Mind Class Feature|AUTOMATIC|War Mind ~ Sweeping Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.WarMindSweepingStrike									
+10				ABILITY:War Mind Class Feature|AUTOMATIC|War Mind ~ Chain of Overwhelming Force|!PREABILITY:1,CATEGORY=ACF,TYPE.WarMindChainOfOverwhelmingForce									
+#
+1	KNOWN:0,1												
+2	KNOWN:0,2												
+3	KNOWN:0,2												
+4	KNOWN:0,2,1												
+5	KNOWN:0,2,1												
+6	KNOWN:0,2,1,1												
+7	KNOWN:0,2,1,1												
+8	KNOWN:0,2,1,1,1												
+9	KNOWN:0,2,1,1,1												
+10	KNOWN:0,2,1,1,1,1												
+
+###Block: Monster Support
+CLASS:Egoist (Psion)	SPELLSTAT:INT	BONUS:CASTERLEVEL|Egoist (Psion)|CL	SPELLLIST:1|Psion	ABILITY:Psion Class Feature|AUTOMATIC|Psion ~ Discipline ~ Egoist	DEFINE:EgoistLVL|0	BONUS:VAR|EgoistLVL|CL
+CLASS:Kineticist (Psion)	SPELLSTAT:INT	BONUS:CASTERLEVEL|Kineticist (Psion)|CL	SPELLLIST:1|Psion	ABILITY:Psion Class Feature|AUTOMATIC|Psion ~ Discipline ~ Kineticist	DEFINE:KineticistLVL|0	BONUS:VAR|KineticistLVL|CL
+CLASS:Nomad (Psion)	SPELLSTAT:INT	BONUS:CASTERLEVEL|Nomad (Psion)|CL	SPELLLIST:1|Psion	ABILITY:Psion Class Feature|AUTOMATIC|Psion ~ Discipline ~ Nomad	DEFINE:NomadLVL|0	BONUS:VAR|NomadLVL|CL
+CLASS:Seer (Psion)	SPELLSTAT:INT	BONUS:CASTERLEVEL|Seer (Psion)|CL	SPELLLIST:1|Psion	ABILITY:Psion Class Feature|AUTOMATIC|Psion ~ Discipline ~ Seer	DEFINE:SeerLVL|0	BONUS:VAR|SeerLVL|CL
+CLASS:Shaper (Psion)	SPELLSTAT:INT	BONUS:CASTERLEVEL|Shaper (Psion)|CL	SPELLLIST:1|Psion	ABILITY:Psion Class Feature|AUTOMATIC|Psion ~ Discipline ~ Shaper	DEFINE:ShaperLVL|0	BONUS:VAR|ShaperLVL|CL
+CLASS:Telepath (Psion)	SPELLSTAT:INT	BONUS:CASTERLEVEL|Telepath (Psion)|CL	SPELLLIST:1|Psion	ABILITY:Psion Class Feature|AUTOMATIC|Psion ~ Discipline ~ Telepath	DEFINE:TelepathLVL|0	BONUS:VAR|TelepathLVL|CL

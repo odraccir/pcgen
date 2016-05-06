@@ -1,5 +1,20 @@
 SOURCELONG:Gozzilioni Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07	
+
+STARTPACK:Starting Gold ~ Adept	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Adept=1	PRELEVELMAX:1	EQUIPBUY:0	
+GEAR:Coin (Gold)	QTY:roll("2d4")*10	
 	
+STARTPACK:Starting Gold ~ Aristocrat	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Aristocrat=1	PRELEVELMAX:1	EQUIPBUY:0	
+GEAR:Coin (Gold)	QTY:roll("6d8")*10	
+	
+STARTPACK:Starting Gold ~ Commoner	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Commoner=1	PRELEVELMAX:1	EQUIPBUY:0	
+GEAR:Coin (Gold)	QTY:roll("5d4")	
+	
+STARTPACK:Starting Gold ~ Expert	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Expert=1	PRELEVELMAX:1	EQUIPBUY:0	
+GEAR:Coin (Gold)	QTY:roll("3d4")*10	
+	
+STARTPACK:Starting Gold ~ Warrior	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Warrior=1	PRELEVELMAX:1	EQUIPBUY:0	
+GEAR:Coin (Gold)	QTY:roll("3d4")*10	
+
 STARTPACK:Table 3-5 Treasure	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
 KIT:Treasure 3-5 Level 01	PREVAREQ:CR,1	
 KIT:Treasure 3-5 Level 02	PREVAREQ:CR,2	
@@ -1035,7 +1050,7 @@ STARTPACK:3d8_art	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
 SELECT:roll("3d8")	
 KIT:Treasure 3-7 Art Objects	
 KIT:Treasure 3-7 Art Objects	
-KIT:Treasure 3-7 Art Objects	OPTION:3   	
+KIT:Treasure 3-7 Art Objects	OPTION:3	
 KIT:Treasure 3-7 Art Objects	OPTION:3,4	
 KIT:Treasure 3-7 Art Objects	OPTION:3,5	
 KIT:Treasure 3-7 Art Objects	OPTION:3,6	
@@ -1062,7 +1077,7 @@ STARTPACK:3d10_art	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
 SELECT:roll("3d10")	
 KIT:Treasure 3-7 Art Objects	
 KIT:Treasure 3-7 Art Objects	
-KIT:Treasure 3-7 Art Objects	OPTION:3   	
+KIT:Treasure 3-7 Art Objects	OPTION:3	
 KIT:Treasure 3-7 Art Objects	OPTION:3,4	
 KIT:Treasure 3-7 Art Objects	OPTION:3,5	
 KIT:Treasure 3-7 Art Objects	OPTION:3,6	
@@ -1186,7 +1201,7 @@ SELECT:roll("1d4")
 KIT:Treasure 3-8 Mundane Items	OPTION:1	
 KIT:Treasure 3-8 Mundane Items	OPTION:1,2	
 KIT:Treasure 3-8 Mundane Items	OPTION:1,3	
-KIT:Treasure 3-8 Mundane Items	OPTION:1,4 	
+KIT:Treasure 3-8 Mundane Items	OPTION:1,4	
 	
 STARTPACK:1d3_item_minor	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d3")	
@@ -1635,22 +1650,6 @@ GEAR:Arrow			QTY:50	EQMOD:MWORKW	OPTION:1,50
 GEAR:Bolt (Crossbow)	QTY:50	EQMOD:MWORKW	OPTION:51,80
 GEAR:Bullet (Sling)	QTY:50	EQMOD:MWORKW	OPTION:81,100
 
-
-STARTPACK:Starting Gold ~ Adept	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Adept=1	PRELEVELMAX:1	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:roll("2d4")*10	
-	
-STARTPACK:Starting Gold ~ Aristocrat	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Aristocrat=1	PRELEVELMAX:1	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:roll("6d8")*10	
-	
-STARTPACK:Starting Gold ~ Commoner	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Commoner=1	PRELEVELMAX:1	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:roll("5d4")	
-	
-STARTPACK:Starting Gold ~ Expert	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Expert=1	PRELEVELMAX:1	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:roll("3d4")*10	
-	
-STARTPACK:Starting Gold ~ Warrior	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Warrior=1	PRELEVELMAX:1	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:roll("3d4")*10	
-	
 STARTPACK:Table 5-1 Charachter Wealth by Level	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	PREMULT:2,[PREVARGTEQ:CR,2],[PREVARLTEQ:CR,20]	
 KIT:Starting Gold ~ CR02	PREVAREQ:CR,2	
 KIT:Starting Gold ~ CR03	PREVAREQ:CR,3	
@@ -1830,9 +1829,7 @@ KIT:Treasure 7-2 Armor and Shield - minor	OPTION:01,04
 KIT:Treasure 7-9 Weapons - minor	OPTION:05,09	
 KIT:Treasure 7-17 Potions - minor	OPTION:10,44	
 KIT:Treasure 7-18 Rings - minor	OPTION:45,46	
-# KIT:Treasure 7-19 Rods - minor	OPTION:10,44	
 KIT:Treasure 7-20 Scrolls - minor	OPTION:47,81	
-# KIT:Treasure 7-25 Staffs - minor	OPTION:10,44	
 KIT:Treasure 7-26 Wands - minor	OPTION:82,91	
 KIT:Treasure 7-27 Wondrous - minor	OPTION:92,100	
 	
@@ -3873,7 +3870,7 @@ GEAR:Potion (Misdirection)	OPTION:87
 GEAR:Potion (Owl's Wisdom)	OPTION:88,89	
 GEAR:Potion (Protection from Arrows 10/Magic)	OPTION:90,91	
 GEAR:Potion (Remove Paralysis)	OPTION:92,93	
-KIT:Potion (Resist Energy 10) 	OPTION:94,96	
+KIT:Potion (Resist Energy 10)	OPTION:94,96	
 GEAR:Potion (Shield of Faith +3)	OPTION:97	
 GEAR:Potion (Spider Climb)	OPTION:98,99	
 GEAR:Potion (Undetectable Alignment)	OPTION:100	
@@ -3902,13 +3899,13 @@ GEAR:Potion (Misdirection)	OPTION:40
 GEAR:Potion (Owl's Wisdom)	OPTION:41,42	
 GEAR:Potion (Protection from Arrows 10/Magic)	OPTION:43	
 GEAR:Potion (Remove Paralysis)	OPTION:44	
-KIT:Potion (Resist Energy 10) 	OPTION:45,46	
+KIT:Potion (Resist Energy 10)	OPTION:45,46	
 GEAR:Potion (Shield of Faith +3)	OPTION:47,48	
 GEAR:Potion (Spider Climb)	OPTION:49	
 GEAR:Potion (Undetectable Alignment)	OPTION:50	
 GEAR:Potion (Barkskin +3)	OPTION:51	
 GEAR:Potion (Shield of Faith +4)	OPTION:52	
-KIT:Potion (Resist Energy 20) 	OPTION:53,55	
+KIT:Potion (Resist Energy 20)	OPTION:53,55	
 GEAR:Potion (Cure Serious Wounds)	OPTION:56,60	
 GEAR:Potion (Daylight)	OPTION:61	
 GEAR:Potion (Displacement)	OPTION:62,64	
@@ -3924,7 +3921,7 @@ KIT:Potion (Magic Circle against Alignment)	OPTION:81
 GEAR:Potion (Magic Vestment +1)	OPTION:82,83	
 GEAR:Potion (Neutralize Poison)	OPTION:84,86	
 GEAR:Potion (Nondetection)	OPTION:87,88	
-KIT:Potion (Protection from Energy) 	OPTION:89,91	
+KIT:Potion (Protection from Energy)	OPTION:89,91	
 GEAR:Potion (Rage)	OPTION:92,93	
 GEAR:Potion (Remove Blindness/Deafness)	OPTION:94	
 GEAR:Potion (Remove Curse)	OPTION:95	
@@ -3945,7 +3942,7 @@ GEAR:Potion (Shield of Faith +3)	OPTION:14
 GEAR:Potion (Undetectable Alignment)	OPTION:15	
 GEAR:Potion (Barkskin +3)	OPTION:16	
 GEAR:Potion (Shield of Faith +4)	OPTION:17,18	
-KIT:Potion (Resist Energy 20) 	OPTION:19,20	
+KIT:Potion (Resist Energy 20)	OPTION:19,20	
 GEAR:Potion (Cure Serious Wounds)	OPTION:21,28	
 GEAR:Potion (Daylight)	OPTION:29	
 GEAR:Potion (Displacement)	OPTION:30,32	
@@ -3958,7 +3955,7 @@ GEAR:Potion (Keen Edge)	OPTION:45,46
 KIT:Potion (Magic Circle against Alignment)	OPTION:47	
 GEAR:Potion (Neutralize Poison)	OPTION:48,50	
 GEAR:Potion (Nondetection)	OPTION:51,52	
-KIT:Potion (Protection from Energy) 	OPTION:53,54	
+KIT:Potion (Protection from Energy)	OPTION:53,54	
 GEAR:Potion (Rage)	OPTION:55	
 GEAR:Potion (Remove Blindness/Deafness)	OPTION:56	
 GEAR:Potion (Remove Curse)	OPTION:57	
@@ -3969,7 +3966,7 @@ GEAR:Potion (Water Walk)	OPTION:61
 GEAR:Potion (Barkskin +4)	OPTION:62,63	
 GEAR:Potion (Shield of Faith +5)	OPTION:64	
 GEAR:Potion (Good Hope)	OPTION:65	
-KIT:Potion (Resist Energy 30) 	OPTION:66,68	
+KIT:Potion (Resist Energy 30)	OPTION:66,68	
 GEAR:Potion (Barkskin +5)	OPTION:69	
 GEAR:Potion (Greater Magic Fang +2)	OPTION:70,73	
 GEAR:Potion (Greater Magic Weapon +2)	OPTION:74,77	

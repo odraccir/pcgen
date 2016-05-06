@@ -1,0 +1,27 @@
+SOURCELONG:Gozzilioni Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04																			
+#																						
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:
+# Simple Weapons																						
+## Unarmed																						
+## Light																						
+## OneHanded																						
+## TwoHanded																						
+## Ranged																						
+																						
+# Martial Weapons																						
+## Light																						
+## OneHanded																						
+## TwoHanded																						
+																						
+# Exotic Weapons																						
+## Light																						
+## OneHanded																						
+## TwoHanded																						
+Gythka			PROFICIENCY:WEAPON|Gythka	TYPE:Weapon.Melee.Exotic.Slashing.TwoHanded.Double	COST:60	WT:25	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:EPH		ALTTYPE:Weapon.Melee.Slashing	ALTDAMAGE:1d10	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:STEEL		
+## Ranged																						
+Chatkcha			PROFICIENCY:WEAPON|Chatkcha	TYPE:Weapon.Ranged.Exotic.Piercing	COST:1	WT:3	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:EPH								
+### Arrows																						
+																						
+Mind Blade (Short)			PROFICIENCY:WEAPON|Mind Blade	TYPE:Weapon.Melee.Finesseable.Piercing.MindBlade	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:PSIBLADE	SOURCEPAGE:EPH	PREABILITY:1,CATEGORY=Special Ability,Soulknife ~ Mindblade							
+Mind Blade (Long)			PROFICIENCY:WEAPON|Mind Blade	TYPE:Weapon.Melee.Slashing.MindBlade	COST:0	WT:0	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:PSIBLADE	SOURCEPAGE:EPH	PREABILITY:2,CATEGORY=Special Ability,Soulknife ~ Mindblade,Soulknife ~ Shape Mind Blade							
+Mind Blade (Bastard)			PROFICIENCY:WEAPON|Mind Blade	TYPE:Weapon.Melee.Slashing.MindBlade	COST:0	WT:0	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:2	CRITMULT:x2	EQMOD:PSIBLADE	SOURCEPAGE:EPH	PREABILITY:2,CATEGORY=Special Ability,Soulknife ~ Mindblade,Soulknife ~ Shape Mind Blade							

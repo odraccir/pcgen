@@ -13,6 +13,8 @@ PUBNAMELONG:Gozzilioni
 PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
+PRECAMPAIGN:1,Gozzilioni Core Ruleset
+
 ABILITY:h_abilities.lst
 EQUIPMENT:h_equip.lst
 EQUIPMENT:h_equip_magic_items.lst

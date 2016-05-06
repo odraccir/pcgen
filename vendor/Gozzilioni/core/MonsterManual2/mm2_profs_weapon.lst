@@ -8,6 +8,7 @@ SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozz
 ### Unharmed/Light/OneHanded/TwoHanded			
 # Giant Rock	TYPE:Weapon.Ranged.Bludgeoning.RangedBludgeoning.Rock
 # Pincer Staff	TYPE:Weapon.Melee.Bludgeoning.MeleeBludgeoning
+Notbora	TYPE:Weapon.Exotic.Melee.Bludgeoning.Slashing.Double.MeleeBludgeoning.MeleeSlashing
 
 ###Automatic			
 # Bite	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning.MeleePiercing.MeleeSlashing.MeleeBludgeoning

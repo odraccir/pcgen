@@ -1,0 +1,76 @@
+SOURCELONG:Gozzilioni Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
+
+# Races
+Dromite	VISIBLE:NO	KEY:Common Dromite	LEVELADJUSTMENT:1
+Elan	VISIBLE:NO	KEY:Common Elan	
+Psionic Duergar	VISIBLE:NO	KEY:Psionic Duergar Dwarf	SUBRACE:Duergar
+Psionic Githyanki	VISIBLE:NO	KEY:Psionic Githyanki Githyanki
+Psionic Githzerai	VISIBLE:NO	KEY:Psionic Githzerai Githzerai
+Half-Giant	VISIBLE:NO	KEY:Half-Giant ~ Half-Giant	LEVELADJUSTMENT:1
+Maenad	VISIBLE:NO	KEY:Common Maenad
+Thri-Kreen	VISIBLE:NO	KEY:Common Thri-Kreen	LEVELADJUSTMENT:1
+Psionic Thri-Kreen	VISIBLE:NO	KEY:Psionic Thri-Kreen Thri-Kreen	LEVELADJUSTMENT:2
+Xeph	VISIBLE:NO	KEY:Common Xeph
+
+Psionic Aboleth	VISIBLE:NO	KEY:Psionic Aboleth	RACESUBTYPE:Psionic																															
+Blue Goblin	VISIBLE:NO	KEY:Blue Goblin	RACESUBTYPE:Psionic	LEVELADJUSTMENT:1
+Psionic Couatl	VISIBLE:NO	KEY:Psionic Couatl	RACESUBTYPE:Psionic	LEVELADJUSTMENT:7
+Psionic Mind Flayer	VISIBLE:NO	KEY:Psionic Mind Flayer	RACESUBTYPE:Psionic	LEVELADJUSTMENT:7
+Pureblood	VISIBLE:NO	KEY:Psionic Pureblood Yuan-Ti	RACESUBTYPE:Psionic	LEVELADJUSTMENT:2																															
+
+Languages	KEY:Dromite ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:Dwarven,Gnome,Goblin,Terran
+Favored Class	KEY:Dromite ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Wilder
+Languages	KEY:Elan ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:TYPE=Spoken
+Favored Class	KEY:Elan ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Psion
+Languages	KEY:Githyanki ~ Psionic Githyanki ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Githyanki	LANGBONUS:Abyssal,Celestial,Draconic,Infernal,Undercommon
+Favored Class	KEY:Githyanki ~ Psionic Githyanki ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Psion
+Languages	KEY:Githzerai ~ Psionic Githzerai ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Githzerai	LANGBONUS:Abyssal,Celestial,Draconic,Slaad,Undercommon
+Favored Class	KEY:Githzerai ~ Psionic Githzerai ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Wilder
+Languages	KEY:Half-Giant ~ Half-Giant ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:Draconic,Giant,Gnoll,Ignan
+Favored Class	KEY:Half-Giant ~ Half-Giant ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Psychic Warrior
+Languages	KEY:Maenad ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Maenad	LANGBONUS:Aquan,Draconic,Dwarven,Elven,Goblin
+Favored Class	KEY:Maenad ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Wilder
+Languages	KEY:Thri-Kreen ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Thri-Kreen	LANGBONUS:Elven,Giant,Gnoll,Goblin,Halfling
+Favored Class	KEY:Thri-Kreen ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger
+Favored Class	KEY:Thri-Kreen ~ Psionic Thri-Kreen ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Soulknife
+Languages	KEY:Xeph ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Xeph	LANGBONUS:Draconic,Elven,Gnoll,Goblin,Halfling,Sylvan
+Favored Class	KEY:Xeph ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Soulknife
+
+Favored Class	KEY:Goblin ~ Blue ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Psion
+Favored Class	KEY:Mind Flayer ~ Psionic ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Psion
+
+###Block: Known First Base Class - Barbarian Illiteracy Support
+# Template Name	Visible	Template		Choose
+#First Base Class	VISIBLE:NO	TEMPLATE:%LIST	CHOOSE:TEMPLATE|QUALIFIED[TYPE=BaseClass]
+# None	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	!PRECLASS:1,Barbarian=1
+
+Dromite Chitin	VISIBLE:NO	TEMPLATE:CHOOSE:Cold Resist Chitin|Electricity Resist Chitin|Fire Resist Chitin|Sonic Resist Chitin	BONUS:COMBAT|AC|3|TYPE=NaturalArmor.STACK
+Cold Resist Chitin	VISIBLE:NO	BONUS:VAR|ColdResistanceBonus|5		ABILITY:Special Ability|AUTOMATIC|Resistance To Cold
+Fire Resist Chitin	VISIBLE:NO	BONUS:VAR|FireResistanceBonus|5		ABILITY:Special Ability|AUTOMATIC|Resistance To Fire
+Electricity Resist Chitin	VISIBLE:NO	BONUS:VAR|ElectricityResistanceBonus|5	ABILITY:Special Ability|AUTOMATIC|Resistance To Electricity
+Sonic Resist Chitin	VISIBLE:NO	BONUS:VAR|SonicResistanceBonus|5		ABILITY:Special Ability|AUTOMATIC|Resistance To Sonic
+
+#
+Psionic	VISIBLE:NO	RACESUBTYPE:Psionic
+
+#
+# Disease Damage (Blinding Sickness)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=4|TITLE=Stength Damage		TEMPDESC:Infection DC 16 (Ingested), Incubation 1d3 days, Damage 1d4 Str (Each time the victim takes 2 or more damage from the disease, he must make another Fortitude save or be permanently blinded), Apply this temporary bonus each day the victim takes damage.	TEMPBONUS:ANYPC|STAT|STR|-1*(%CHOICE)																							
+Disease Damage (Cascade Flu)		VISIBLE:NO	SOURCEPAGE:EPH			TEMPDESC:Infection DC 13 (Injury), Incubation 1 day, Every time an affl icted character manifests a power, she must make a DC 16 Concentration check. On a failed check, a psionic cascade is triggered. The power operates normally, but during the following round, without the character's volition, two additional powers she knows manifest randomly, and their power cost is deducted from the character's reserve. During the next round, three additional powers manifest, and so on, until all the psionic character's power points are drained.
+Disease Damage (Cerebral Parasite)		VISIBLE:NO	SOURCEPAGE:EPH			TEMPDESC:Infection DC 15 (Injury), Incubation 1d4 days, damage 1d8 power points.
+
+#Class 
+Uncarnate	KEY:Psion Uncarnate ~ Uncarnate	PRECLASS:1,Psion Uncarnate=10	VISIBLE:NO	RACESUBTYPE:Incorporeal
+
+# Slam (Fine)	VISIBLE:NO	PRESIZEEQ:F	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1																															
+# Slam (Diminutive)	VISIBLE:NO	PRESIZEEQ:D	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d2																															
+# Slam (Tiny)	VISIBLE:NO	PRESIZEEQ:T	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d3																															
+2xSlam (Small)	VISIBLE:NO	PRESIZEEQ:S	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*2,1d4																															
+2xSlam (Medium)	VISIBLE:NO	PRESIZEEQ:M	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*2,1d6																															
+3xSlam (Large)	VISIBLE:NO	PRESIZEEQ:L	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*3,1d8																															
+3xSlam (Huge)	VISIBLE:NO	PRESIZEEQ:H	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*3,2d6																															
+# Slam (Gargantuan)	VISIBLE:NO	PRESIZEEQ:G	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,2d8																															
+# Slam (Colossal)	VISIBLE:NO	PRESIZEEQ:C	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,4d6																															
+
+Phrenic	TYPE:Inherited	VISIBLE:YES	!PRERACE:1,RACESUBTYPE=Mindless	!PRERACE:1,RACESUBTYPE=Psionic	TEMPLATE:CHOOSE:Phrenic ~ Animal|Phrenic ~ Other	RACESUBTYPE:Psionic	ABILITY:Special Ability|AUTOMATIC|Phrenic ~ Psi-Like Abilities|Phrenic ~ Naturally Psionic|Phrenic ~ Power Resistance	BONUS:STAT|INT|2|PRESTAT:1,INT=3	BONUS:STAT|WIS|2	BONUS:STAT|CHA|4	BONUS:MISC|CR|1	BONUS:MISC|CR|1|PREHD:MIN=6	BONUS:MISC|CR|1|PREHD:MIN=11	LEVELADJUSTMENT:2													
+Phrenic ~ Animal	VISIBLE:NO	PRERACE:1,RACETYPE=Animal	RACETYPE:Magical Beast	RACESUBTYPE:Augmented Animal																														
+Phrenic ~ Other	VISIBLE:NO	!PRERACE:1,RACETYPE=Animal	

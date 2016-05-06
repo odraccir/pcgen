@@ -1,0 +1,24 @@
+SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+#																									
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:			
+
+# Simple Weapons																									
+## Unarmed																									
+## Light																									
+## OneHanded																									
+## TwoHanded																									
+## Ranged																									
+																									
+# Martial Weapons																									
+## Light																									
+## OneHanded																									
+## TwoHanded																									
+																									
+# Exotic Weapons																									
+## Light																									
+## OneHanded																									
+## TwoHanded																									
+Notbora			PROFICIENCY:WEAPON|Notbora	TYPE:Weapon.Melee.Exotic.Slashing.TwoHanded.Double	COST:20	WT:2	WIELD:TwoHanded		SIZE:L	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:MM2		ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:2d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD					
+## Ranged																									
+																									
+# Arrows																									

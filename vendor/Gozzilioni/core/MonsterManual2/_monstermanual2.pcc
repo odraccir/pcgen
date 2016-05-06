@@ -14,7 +14,7 @@ PUBNAMELONG:Gozzilioni
 PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
-PRECAMPAIGN:1,Gozzilioni Core Ruleset
+PRECAMPAIGN:3,Gozzilioni Core Ruleset,Gozzilioni Monster Manual 2,Gozzilioni Expanded Psionics Handbook
 
 ABILITY:mm2_abilities.lst
 # ABILITY:phb_abilities_classes.lst
@@ -32,7 +32,8 @@ EQUIPMENT:mm2_equip.lst
 # EQUIPMENT:phb_equip_armors.lst
 # EQUIPMENT:mm1_equip_weapons.lst
 EQUIPMENT:mm2_equip_weapons_natural.lst
-# EQUIPMOD:phb_equipmods.lst
+EQUIPMENT:mm2_equip_weapons.lst
+EQUIPMOD:mm2_equipmods.lst
 # ABILITY:mm1_feats.lst
 KIT:mm2_kits.lst
 LANGUAGE:mm2_languages.lst

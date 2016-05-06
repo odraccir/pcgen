@@ -1,0 +1,115 @@
+SOURCELONG:Gozzilioni Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
+#																						
+# Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property														
+Ioun Stone (Rainbow)		TYPE:Wondrous.IounStone	COST:16000	WT:0	SOURCEPAGE:EPH	SPROP:Provides 5 psionic power points per day (regenerates)																
+																						
+##Block: Cognizance Crystal																						
+Cognizance Crystal (1)		TYPE:CognizanceCrystal	COST:1000	WT:1	SOURCEPAGE:EPH	SPROP:Stores up to 1 Power Point to be used for manifesting powers	SORTKEY:Cognizance_Crystal_001															
+Cognizance Crystal (3)		TYPE:CognizanceCrystal	COST:4000	WT:1	SOURCEPAGE:EPH	SPROP:Stores up to 3 Power Point to be used for manifesting powers	SORTKEY:Cognizance_Crystal_003															
+Cognizance Crystal (5)		TYPE:CognizanceCrystal	COST:9000	WT:1	SOURCEPAGE:EPH	SPROP:Stores up to 5 Power Point to be used for manifesting powers	SORTKEY:Cognizance_Crystal_005															
+Cognizance Crystal (7)		TYPE:CognizanceCrystal	COST:16000	WT:1	SOURCEPAGE:EPH	SPROP:Stores up to 7 Power Point to be used for manifesting powers	SORTKEY:Cognizance_Crystal_007															
+Cognizance Crystal (9)		TYPE:CognizanceCrystal	COST:25000	WT:1	SOURCEPAGE:EPH	SPROP:Stores up to 9 Power Point to be used for manifesting powers	SORTKEY:Cognizance_Crystal_009															
+Cognizance Crystal (11)		TYPE:CognizanceCrystal	COST:36000	WT:1	SOURCEPAGE:EPH	SPROP:Stores up to 11 Power Point to be used for manifesting powers	SORTKEY:Cognizance_Crystal_011															
+Cognizance Crystal (13)		TYPE:CognizanceCrystal	COST:49000	WT:1	SOURCEPAGE:EPH	SPROP:Stores up to 13 Power Point to be used for manifesting powers	SORTKEY:Cognizance_Crystal_013															
+Cognizance Crystal (15)		TYPE:CognizanceCrystal	COST:64000	WT:1	SOURCEPAGE:EPH	SPROP:Stores up to 15 Power Point to be used for manifesting powers	SORTKEY:Cognizance_Crystal_015															
+Cognizance Crystal (17)		TYPE:CognizanceCrystal	COST:81000	WT:1	SOURCEPAGE:EPH	SPROP:Stores up to 17 Power Point to be used for manifesting powers	SORTKEY:Cognizance_Crystal_017															
+																						
+																						
+##Block: Psicrown																						
+Psicrown (Astral Legion)		TYPE:Psicrown	COST:47250	WT:1	SOURCEPAGE:EPH	SPROP:Power Points: 900. ML 18. Power Known: Astral Construct.																
+Psicrown (Beast)		TYPE:Psicrown	COST:33750	WT:1	SOURCEPAGE:EPH	SPROP:Power Points: 450. ML 9. Powers Known: Claw of Energy, Duodimensional Claw, Prevenom, Lion's Charge (Psionic), Truevenom.																
+Psicrown (Cautious Warrior)		TYPE:Psicrown	COST:32063	WT:1	SOURCEPAGE:EPH	SPROP:Power Points: 450. ML 9. Powers Known: Adapt Body, Body Adjustment, Precognition (Defensive), Inertial Barrier.																
+Psicrown (Discerning Watcher)		TYPE:Psicrown	COST:51469	WT:1	SOURCEPAGE:EPH	SPROP:Power Points: 450. ML 9. Powers Known: Aura Sight, Clairtangent Hand, Clairvoyant Sense, Darkvision (Psionic), Remote Viewing, True Seeing (Psionic).																
+Psicrown (Dominator)		TYPE:Psicrown	COST:20250	WT:1	SOURCEPAGE:EPH	SPROP:Power Points: 450. ML 9. Powers Known: Charm (Psionic), Dominate (Psionic), Suggestion (Psionic)																
+Psicrown (Evader)		TYPE:Psicrown	COST:28500	WT:1	SOURCEPAGE:EPH	SPROP:Power Points: 450. ML 8. Powers Known: Carfall, Hustle, Fly (Psionic), Freedom of Movement (Psionic), Wall Walker.																
+Psicrown (Fiery Ruin)		TYPE:Psicrown	COST:67500	WT:1	SOURCEPAGE:EPH	SPROP:Power Points: 750. ML 15. Powers Known: Energy Ball, Energy Cone, Energy Missile, Energy Stun, Fiery Discorporation.																
+Psicrown (Great Dominator)		TYPE:Psicrown	COST:45000	WT:1	SOURCEPAGE:EPH	SPROP:Power Points: 750. ML 15. Powers Known: Charm (Psionic), Suggestion (Psionic), Dominate (Psionic).																
+Psicrown (Temporal Juggler)		TYPE:Psicrown	COST:95625	WT:1	SOURCEPAGE:EPH	SPROP:Power Points: 850. ML 17. Powers Known: Temporal Acceleration, Time Hop, Timeless Bosy.																
+Psicrown (Traveler)		TYPE:Psicrown	COST:80156	WT:1	SOURCEPAGE:EPH	SPROP:Power Points: 750. ML 15. Powers Known: Astral Traveler, Dimension Door (Psionic), Teleport (Greater/Psionic), Teleport (Psionic).																
+																						
+##Block: Universal Items and Tattoos																						
+Amulet of Catapsi		TYPE:Universal.Amulet	COST:16200	WT:0	SOURCEPAGE:EPH		SPELLS:Amulet of Catapsi|TIMES=1|CASTERLEVEL=9|Catapsi,17															
+Boots of Landing		TYPE:Universal.Boot	COST:1000	WT:1	SOURCEPAGE:EPH	SLOTS:2																
+Boots of Skating		TYPE:Universal.Boot	COST:7000	WT:1	SOURCEPAGE:EPH	SLOTS:2																
+Boots of Stomping		TYPE:Universal.Boot	COST:600	WT:1	SOURCEPAGE:EPH	SLOTS:2	SPELLS:Boots of Stomping|TIMES=3|CASTERLEVEL=3|Stomp,13															
+Boots of Temporal Acceleration		TYPE:Universal.Boot	COST:43200	WT:1	SOURCEPAGE:EPH	SLOTS:2	SPELLS:Boots of Temporal Acceleration|TIMES=1|CASTERLEVEL=15|Temporal Acceleration															
+Crawling Tattoo (Concussion)		TYPE:PsionicTattoo.Crawling	COST:0	WT:0	SOURCEPAGE:EPH		EQMOD:PWR_PSI_TATTOO_CRWL|SPELL[Concussion]|SPELLLEVEL[1]|CASTERLEVEL[1]															
+Crawling Tattoo (Energy Bolt)		TYPE:PsionicTattoo.Crawling	COST:0	WT:0	SOURCEPAGE:EPH		EQMOD:PWR_PSI_TATTOO_CRWL|SPELL[Energy Bolt]|SPELLLEVEL[3]|CASTERLEVEL[5]															
+Crystal Anchor (Body)		TYPE:Universal	COST:24000	WT:3	SOURCEPAGE:EPH		SPROP:Those who manifest psychometabolism powers are affected.															
+Crystal Anchor (Compehension)		TYPE:Universal	COST:24000	WT:3	SOURCEPAGE:EPH		SPROP:Those who manifest clairsentience powers are affected.															
+Crystal Anchor (Creation)		TYPE:Universal	COST:24000	WT:3	SOURCEPAGE:EPH		SPROP:Those who manifest metacreativity powers are affected.															
+Crystal Anchor (Energy)		TYPE:Universal	COST:24000	WT:3	SOURCEPAGE:EPH		SPROP:Those who manifest psychokinesis powers are affected.															
+Crystal Anchor (Ghost)		TYPE:Universal	COST:24000	WT:3	SOURCEPAGE:EPH		SPROP:Those who manifest Remote Viewing power are affected.															
+Crystal Anchor (Mind)		TYPE:Universal	COST:24000	WT:3	SOURCEPAGE:EPH		SPROP:Those who manifest telepathy powers are affected.															
+Crystal Anchor (Travel)		TYPE:Universal	COST:24000	WT:3	SOURCEPAGE:EPH		SPROP:Those who manifest psychoportation powers are affected.															
+Crystal Mask (Detection)		TYPE:Universal.Eyegear	COST:10000	WT:0.5	SOURCEPAGE:EPH	BONUS:SKILL|Spot|10|TYPE=Competence																
+Crystal Mask (Discernment)		TYPE:Universal.Eyegear	COST:10000	WT:0.5	SOURCEPAGE:EPH	BONUS:SKILL|Sense Motive|10|TYPE=Insight																
+Crystal Mask (Dread)		TYPE:Universal.Eyegear	COST:10000	WT:0.5	SOURCEPAGE:EPH	BONUS:SKILL|Intimidate|10|TYPE=Competence																
+Crystal Mask (Insightful Detection)		TYPE:Universal.Eyegear	COST:20250	WT:0.5	SOURCEPAGE:EPH	BONUS:SKILL|Search,Spot|9|TYPE=Insight																
+Crystal Mask (Knowledge)		TYPE:Universal.Eyegear	COST:2500	WT:0.5	SOURCEPAGE:EPH	BONUS:ABILITYPOOL|Crystal Mask|1																
+Crystal Mask (Language)		TYPE:Universal.Eyegear	COST:2500	WT:0.5	SOURCEPAGE:EPH																	
+Crystal Mask (Mind Armor)		TYPE:Universal.Eyegear	COST:10667	WT:0.5	SOURCEPAGE:EPH	BONUS:SAVE|Will|4|TYPE=Insight																
+Crystal Mask (Psionic Craft)		TYPE:Universal.Eyegear	COST:10000	WT:0.5	SOURCEPAGE:EPH	BONUS:SKILL|Psicraft|10|TYPE=Competence																
+Eyes of Expanded Vision		TYPE:Universal.Eyegear	COST:30000	WT:0	SOURCEPAGE:EPH	SPROP:Flanking opponents gain only a +1 bonus when attacking the user instead of +2. wearer takes -2 penalty on saves against gaze attacks.	BONUS:SKILL|Spot|1|Enhancement															
+Eyes of Power Leech		TYPE:Universal.Eyegear	COST:10080	WT:0	SOURCEPAGE:EPH																	
+Eyes of Power Leech (Vampiric)		TYPE:Universal.Eyegear	COST:20160	WT:0	SOURCEPAGE:EPH																	
+Gloves of Object Reading		TYPE:Universal.Glove	COST:3000	WT:1	SOURCEPAGE:EPH	SLOTS:2																
+Gloves of Titan Grip		TYPE:Universal.Glove	COST:14000	WT:1	SOURCEPAGE:EPH	SLOTS:2	SPROP:3/day for 7 rounds +8 enhancement bonus to grapple checks.															
+Mirror of Mind Switch		TYPE:Universal	COST:19800	WT:0.5	SOURCEPAGE:EPH																	
+Mirror of Suggestion		TYPE:Universal	COST:3600	WT:0.5	SOURCEPAGE:EPH																	
+Mirror of Time Hop		TYPE:Universal	COST:9000	WT:0.5	SOURCEPAGE:EPH																	
+Pearl (Brain Lock)		TYPE:Universal.Gem.Consumable	COST:300	WT:0	SOURCEPAGE:EPH																	
+Pearl (Breath Crisis)		TYPE:Universal.Gem.Consumable	COST:750	WT:0	SOURCEPAGE:EPH																	
+Pearl (Mind Seed)		TYPE:Universal.Gem.Consumable	COST:18500	WT:0	SOURCEPAGE:EPH																	
+Pearl (Personality Parasite)		TYPE:Universal.Gem.Consumable	COST:1400	WT:0	SOURCEPAGE:EPH																	
+Psionatrix (Clairsentience)		TYPE:Universal.Amulet	COST:8000	WT:0	SOURCEPAGE:EPH		BONUS:DC|SCHOOL.Clairsentience|1															
+Psionatrix (Metacreativity)		TYPE:Universal.Amulet	COST:8000	WT:0	SOURCEPAGE:EPH		BONUS:DC|SCHOOL.Metacreativity|1															
+Psionatrix (Psychokinesis)		TYPE:Universal.Amulet	COST:8000	WT:0	SOURCEPAGE:EPH		BONUS:DC|SCHOOL.Psychokinesis|1															
+Psionatrix (Psychometabolism)		TYPE:Universal.Amulet	COST:8000	WT:0	SOURCEPAGE:EPH		BONUS:DC|SCHOOL.Psychometabolism|1															
+Psionatrix (Psychoportation)		TYPE:Universal.Amulet	COST:8000	WT:0	SOURCEPAGE:EPH		BONUS:DC|SCHOOL.Psychoportation|1															
+Psionatrix (Telepathy)		TYPE:Universal.Amulet	COST:8000	WT:0	SOURCEPAGE:EPH		BONUS:DC|SCHOOL.Telepathy|1															
+Psionic Restraint (Lesser)		TYPE:Universal.Bracer	COST:1000	WT:0	SOURCEPAGE:EPH	SPROP:Wearer can use at most 5PP/round.																
+Psionic Restraint (Average)		TYPE:Universal.Bracer	COST:6000	WT:0	SOURCEPAGE:EPH	SPROP:Wearer can use at most 3PP/round.																
+Psionic Restraint (Greater)		TYPE:Universal.Bracer	COST:12000	WT:0	SOURCEPAGE:EPH	SPROP:Wearer can use at most 1PP/round.																
+Psionic Restraint (Damping)		TYPE:Universal.Bracer	COST:24000	WT:0	SOURCEPAGE:EPH	SPROP:Wearer can use no PP.																
+Psychoactive Skin (Chameleon)		TYPE:Universal.Ectoshell	COST:18000	WT:2	SOURCEPAGE:EPH	TEMPBONUS:PC|SKILL|Hide|10|TYPE=Enhancement																
+Psychoactive Skin (Claw)		TYPE:Universal.Ectoshell	COST:16000	WT:2	SOURCEPAGE:EPH	SPROP:Claws of the Beast at will, as free action.|PRECLASS:1,Psychic Warrior=1																
+Psychoactive Skin (Defender)		TYPE:Universal.Ectoshell	COST:32000	WT:2	SOURCEPAGE:EPH	TEMPBONUS:PC|COMBAT|AC|4|TYPE=NaturalArmor																
+Psychoactive Skin (Fiery Response)		TYPE:Universal.Ectoshell	COST:60000	WT:2	SOURCEPAGE:EPH	SPROP:The burst ejects from the skin on the wearer’s turn, making a ranged touch attack as described in the energy retort power, but the energy type chosen is always fire. If the attack hits, the target takes 2d6 points of fire damage as the ectoburst fl ames up and is consumed.																
+Psychoactive Skin (Hero)		TYPE:Universal.Ectoshell	COST:77500	WT:2	SOURCEPAGE:EPH	TEMPBONUS:PC|COMBAT|AC|3|TYPE=Deflection	TEMPBONUS:PC|SAVE|ALL|3|TYPE=Resistance	TEMPBONUS:PC|COMBAT|TOHIT|3|TYPE=Enhancement														
+Psychoactive Skin (Iron)		TYPE:Universal.Ectoshell	COST:129600	WT:2	SOURCEPAGE:EPH	SPROP:3/day for 15 minutes Iron Body (Psionic) power.	TEMPBONUS:PC|SAVE|ALL|3|TYPE=Resistance	TEMPBONUS:PC|COMBAT|TOHIT|3|TYPE=Enhancement														
+Psychoactive Skin (Nimbless)		TYPE:Universal.Ectoshell	COST:10000	WT:2	SOURCEPAGE:EPH	TEMPBONUS:PC|SKILL|Tumble|10|TYPE=Competence																
+Psychoactive Skin (Proteus)		TYPE:Universal.Ectoshell	COST:84000	WT:2	SOURCEPAGE:EPH	SPROP:Metamorphosis power.																
+Psychoactive Skin (Psion)		TYPE:Universal.Ectoshell	COST:151000	WT:2	SOURCEPAGE:EPH	SPROP:SR: 21.	TEMPBONUS:PC|VAR|TotalPowerPoint|7															
+Psychoactive Skin (Spider)		TYPE:Universal.Ectoshell	COST:79080	WT:2	SOURCEPAGE:EPH	TEMPBONUS:PC|SKILL|Climb|20|TYPE=Competence																
+Psychoactive Skin (Troll)		TYPE:Universal.Ectoshell	COST:61200	WT:2	SOURCEPAGE:EPH	SPROP:The wearer heals 5 points of damage per minute. Except for the slower rate of healing, this skin affects its wearer as if the wearer were under the effect of a continual true metabolism power.																
+Ring of Self-Sufficiency		TYPE:Universal.Ring	COST:10000	WT:0	SOURCEPAGE:EPH	BONUS:SKILL|Autohypnosis|10|TYPE=Competence																
+Shard		TYPE:Universal.Consumable.Shard	COST:0	WT:0	SOURCEPAGE:EPH	EQMOD:YES																
+Third Eye (Aware)		TYPE:Universal.Eyegear	COST:10000	WT:0	SOURCEPAGE:EPH	BONUS:SKILL|Spot|10|TYPE=Competence																
+Third Eye (Conceal)		TYPE:Universal.Eyegear	COST:120000	WT:0	SOURCEPAGE:EPH																	
+Third Eye (Concentrate)		TYPE:Universal.Eyegear	COST:10000	WT:0	SOURCEPAGE:EPH	BONUS:SKILL|Concentration|10|TYPE=Competence																
+Third Eye (Dominate)		TYPE:Universal.Eyegear	COST:120000	WT:0	SOURCEPAGE:EPH	SPELLS:Third Eye|TIMES=1|CASTERLEVEL=15|Dominate (Psionic),18																
+Third Eye (Expose)		TYPE:Universal.Eyegear	COST:112000	WT:0	SOURCEPAGE:EPH	SPROP:The wearer of this kind of third eye always knows when someone lies directly to him.																
+Third Eye (Gather)		TYPE:Universal.Eyegear	COST:10000	WT:0	SOURCEPAGE:EPH	BONUS:SKILL|Gather Information|10|TYPE=Competence																
+Third Eye (Penetrate)		TYPE:Universal.Eyegear	COST:8000	WT:0	SOURCEPAGE:EPH	SPROP:+2 bonus on manifester level checks to overcome a creature’s power resistance.																
+Third Eye (Powerthieve)		TYPE:Universal.Eyegear	COST:10080	WT:0	SOURCEPAGE:EPH	SPROP:1/day allows the wearer to borrow one power from a psionic target within 40 feet.																
+Third Eye (Repudiate)		TYPE:Universal.Eyegear	COST:43200	WT:0	SOURCEPAGE:EPH	SPROP:1/day with a +20 modifier on the dispel check (the wearer uses the +20 modifi er in place of his manifester level).																
+Third Eye (Sense)		TYPE:Universal.Eyegear	COST:24000	WT:0	SOURCEPAGE:EPH	SPELLS:Third Eye|TIMES=ATWILL|CASTERLEVEL=3|Clairvoyant Sense																
+Third Eye (View)		TYPE:Universal.Eyegear	COST:10180	WT:0	SOURCEPAGE:EPH	SPELLS:Third Eye|TIMES=1|CASTERLEVEL=7|Remote Viewing																
+Torc of Free Will		TYPE:Universal.Amulet	COST:6000	WT:2	SOURCEPAGE:EPH	SPROP:The wearer of a torc of free will is not affected by the brain lock power or items that produce brain lock effects (such as crystal anchors).																
+Torc of Leech Freedom		TYPE:Universal.Amulet	COST:12000	WT:2	SOURCEPAGE:EPH	SPROP:The wearer of a torc of leech freedom automatically resists up to two uses of power leech against him per day.																
+Torc of Power Preservation		TYPE:Universal.Amulet	COST:36000	WT:2	SOURCEPAGE:EPH	SPROP:The wearer of a torc of power preservation manifests all powers by paying power points equal to the standard cost minus 1 (minimum of 1).																
+																						
+## Intelligent																						
+#	OUTPUTNAME:Zax, Cloak of the King	TYPE:Wondrous.Cape	COST:36000	WT:1	SOURCEPAGE:DMG	BONUS:STAT|CHA|6|TYPE=Enhancement	EQMOD:INT_ITEM.CAPE_INT_ITEM_3.INT_ITEM_WIS_14.INT_ITEM_CHA_14.INT_ITEM_ALIGN_LN.INT_ITEM_ZONE_TRUTH.INT_ITEM_DIPLOMACY.INT_ITEM_KNOWLEDGE|Knowledge (History)															
+																						
+## Cursed																						
+Reverse Capacitor		TYPE:Universal.Cursed.CognizanceCrystal	COST:112000	WT:1	SOURCEPAGE:EPH	SPROP:Appear as a Cognizance Crystal. A psionic character attempting to use the power points supposedly stored in a reverse capacitor instead loses 1d6 power points per round for 7 rounds.	EQMOD:CURSED_ITEM.AMLT_CURSED															
+																						
+## Artifacts																						
+#Minor Artifacts																						
+Sutra of Tranquil Thought		TYPE:Artifact.Minor.Book	COST:0	WT:3	SOURCEPAGE:EPH																	
+#Major Artifacts																						
+Annulus		TYPE:Artifact.Major.Ring	COST:0	WT:0	SOURCEPAGE:EPH																	
+Psicrown (Crystal Mind)		TYPE:Artifact.Major.Psicrown	COST:0	WT:0	SOURCEPAGE:EPH	SPROP:Power Points: 1000. ML 20. Power Known: Burst, Catfall, Concealing Amorpha (Greater),Concussion Blast, Daze (Psionic), Detect Psionics, Dominate (Psionic), Far Hand, Float, Mindlink, Inertial Barrier, Telekinetic Force, Telekinetic Maneuver, Telekinetic Thrust, Teleport (Psionic), Thicken Skin, True Metabolism.	SR:10+CharacterML															
+Staff (Ancient Penumbra)		TYPE:Artifact.Major.Staff.Weapon.Melee.Simple.Bludgeoning.TwoHanded.Quarterstaff	COST:0	WT:4	SOURCEPAGE:EPH	SPROP:on critical hit energy bolt that deals 5d6 points of fire damage to target.			PROFICIENCY:WEAPON|Quarterstaff	WIELD:TwoHanded	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS5W			ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.EQ_COST_ADJ_W.PLUS5W

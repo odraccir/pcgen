@@ -25,9 +25,10 @@ EQSLOT:Foot		CONTAINS:Footwear,Boot=1		NUMBER:LEGS
 EQSLOT:Weapon	CONTAINS:Weapon=1				NUMBER:HANDS
 EQSLOT:Shield	CONTAINS:Shield=1				NUMBER:SHIELD
 EQSLOT:Leg		CONTAINS:Legwear=1			NUMBER:LEGS
-EQSLOT:Skin		CONTAINS:PsionicTattoo=20		NUMBER:TORSO
 EQSLOT:Clothing	CONTAINS:Clothing=1			NUMBER:TORSO
 # Clothing is separated to allow one to wear an outfit. Not part of the scheme for Magic Items.
+EQSLOT:Skin		CONTAINS:PsionicTattoo=20		NUMBER:TORSO
+EQSLOT:EctoShell		CONTAINS:EctoShell=3		NUMBER:TORSO
 
 # One headband, hat, helmet, or phylactery on the head
 # One pair of eye lenses or goggles on or over the eyes

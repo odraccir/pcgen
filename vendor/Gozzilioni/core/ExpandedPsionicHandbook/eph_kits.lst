@@ -1,0 +1,180 @@
+SOURCELONG:Gozzilioni Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
+
+###Block: Playable races
+STARTPACK:Dromite Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dromite
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Elan Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Elan
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Half-Giant Stats	TYPE:DefaultMonster.Giant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Half-Giant
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Maenad Stats	TYPE:DefaultMonster.Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Maenad
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Thri-Kreen Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Thri-Kreen
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Xeph Stats	TYPE:DefaultMonster.Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Xeph
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+###Block: Starting Gold
+STARTPACK:Starting Gold ~ Psion	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Psion=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("3d4")*10
+
+STARTPACK:Starting Gold ~ Psychic Warrior	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Psychic Warrior=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("5d4")*10
+
+STARTPACK:Starting Gold ~ Soulknife	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Soulknife=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("5d4")*10
+
+STARTPACK:Starting Gold ~ Wilder	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Wilder=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("4d4")*10
+
+###Block: Treasure tables
+# STARTPACK:EPH ~ Treasure 7-2 Random Psionic Item Generation - Minor	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
+# SELECT:roll("1d100")	
+# KIT:EPH ~ Treasure 7-3 Armor - minor	OPTION:1,2
+# KIT:EPH ~ Treasure 7-4 Shield - minor	OPTION:3,4
+# KIT:EPH ~ Treasure 7-5 Melee Weapons - minor	OPTION:5,6
+# KIT:EPH ~ Treasure 7-6 Ranged - minor	OPTION:8,9
+# KIT:EPH ~ Treasure 7-7 Cognizance Crystal - minor	OPTION:10,40
+# KIT:EPH ~ Treasure 7-8 Dorje - minor	OPTION:41,46
+# KIT:EPH ~ Treasure 7-9 Power Stone - minor	OPTION:47,81
+# KIT:EPH ~ Treasure 7-11 Psicrown - minor	OPTION:82,87
+# KIT:EPH ~ Treasure 7-12 Psionic Tattoo - minor	OPTION:88,93
+# KIT:EPH ~ Treasure 7-13 Universal Item Minor - minor	OPTION:94,100
+
+# STARTPACK:EPH ~ Treasure 7-2 Random Psionic Item Generation - medium	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
+# SELECT:roll("1d100")	
+# KIT:EPH ~ Treasure 7-3 Armor - medium	OPTION:1,5
+# KIT:EPH ~ Treasure 7-4 Shield - medium	OPTION:6,10
+# KIT:EPH ~ Treasure 7-5 Melee Weapons - medium	OPTION:11,15
+# KIT:EPH ~ Treasure 7-6 Ranged - medium	OPTION:16,20
+# KIT:EPH ~ Treasure 7-7 Cognizance Crystal - medium	OPTION:21,40
+# KIT:EPH ~ Treasure 7-8 Dorje - medium	OPTION:41,50
+# KIT:EPH ~ Treasure 7-9 Power Stone - medium	OPTION:51,68
+# KIT:EPH ~ Treasure 7-11 Psicrown - medium	OPTION:69,82
+# KIT:EPH ~ Treasure 7-12 Psionic Tattoo - medium	OPTION:83,89
+# KIT:EPH ~ Treasure 7-14 Universal Item Minor - medium	OPTION:90,100
+
+# STARTPACK:EPH ~ Treasure 7-2 Random Psionic Item Generation - major	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
+# SELECT:roll("1d100")	
+# KIT:EPH ~ Treasure 7-3 Armor - major	OPTION:1,5
+# KIT:EPH ~ Treasure 7-4 Shield - major	OPTION:6,10
+# KIT:EPH ~ Treasure 7-5 Melee Weapons - major	OPTION:11,15
+# KIT:EPH ~ Treasure 7-6 Ranged - major	OPTION:16,20
+# KIT:EPH ~ Treasure 7-7 Cognizance Crystal - major	OPTION:21,35
+# KIT:EPH ~ Treasure 7-8 Dorje - major	OPTION:36,45
+# KIT:EPH ~ Treasure 7-9 Power Stone - major	OPTION:46,67
+# KIT:EPH ~ Treasure 7-11 Psicrown - major	OPTION:68,75
+# KIT:EPH ~ Treasure 7-12 Psionic Tattoo - major	OPTION:76,87
+# KIT:EPH ~ Treasure 7-14 Universal Item Minor - major	OPTION:88,100
+
+#Special Note: Because this book does not present any
+# specific kinds of armor or specific shields, reroll any
+# result on Table 7–2 in the Dungeon Master’s Guide that indicates
+# a specific item—or, alternatively, consider a result
+# of "Specific armor" or "Specific shield" to be a result of
+# "Special ability and roll again" (if you want psionic armor
+# and shield special abilities to be more prevalent than they
+# would otherwise be).
+
+# STARTPACK:EPH ~ Treasure 7-2 Specific Armor and Shield Special Ability - minor	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
+# SELECT:roll("1d100")	
+# KIT:+1_eph_shield_special_ability - minor	OPTION:1,60	
+# KIT:+1_eph_armor_special_ability - minor	OPTION:61,80	
+# KIT:+2_eph_shield_special_ability - minor	OPTION:81,85	
+# KIT:+2_eph_armor_special_ability - minor	OPTION:86,87	
+# KIT:Treasure 7-5 Specific Armor and Shield Special Ability - minor	OPTION:88,100	
+
+# STARTPACK:EPH ~ Treasure 7-5 Specific Armor and Shield Special Ability - medium	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
+# SELECT:roll("1d100")	
+# KIT:+1_eph_shield_special_ability - medium	OPTION:1,5	
+# KIT:+1_eph_armor_special_ability - medium	OPTION:6,10	
+# KIT:+2_eph_shield_special_ability - medium	OPTION:11,20	
+# KIT:+2_eph_armor_special_ability - medium	OPTION:21,30	
+# KIT:+3_eph_shield_special_ability - medium	OPTION:31,40	
+# KIT:+3_eph_armor_special_ability - medium	OPTION:41,50	
+# KIT:+4_eph_shield_special_ability - medium	OPTION:51,55	
+# KIT:+4_eph_armor_special_ability - medium	OPTION:56,57	
+# KIT:Treasure 7-5 Specific Armor and Shield Special Ability - medium	OPTION:58,100	
+
+# STARTPACK:EPH ~ Treasure 7-2 Specific Armor and Shield Special Ability - major	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
+# SELECT:roll("1d100")	
+# KIT:+3_eph_shield_special_ability - major	OPTION:1,8	
+# KIT:+3_eph_armor_special_ability - major	OPTION:9,16	
+# KIT:+4_eph_shield_special_ability - major	OPTION:17,27	
+# KIT:+4_eph_armor_special_ability - major	OPTION:28,38	
+# KIT:+5_eph_shield_special_ability - major	OPTION:39,49	
+# KIT:+5_eph_armor_special_ability - major	OPTION:50,57	
+# KIT:Treasure 7-5 Specific Armor and Shield Special Ability - major	OPTION:58,100	
+
+# STARTPACK:+1_eph_shield_special_ability - minor	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
+# SELECT:roll("1d100")	
+# GEAR:Buckler	OPTION:1,10	SIZE:PC	EQMOD:MWORKA.PLUS1S	LOOKUP:Special Ability (B),roll("1d100")	
+# GEAR:Shield (Light/Wood)	OPTION:11,15	SIZE:PC	EQMOD:MWORKA.PLUS1S	LOOKUP:Special Ability (L),roll("1d100")	
+# GEAR:Shield (Light/Steel)	OPTION:16,20	SIZE:PC	EQMOD:MWORKA.PLUS1S	LOOKUP:Special Ability (L),roll("1d100")	
+# GEAR:Shield (Heavy/Wood)	OPTION:21,30	SIZE:PC	EQMOD:MWORKA.PLUS1S	LOOKUP:Special Ability (H),roll("1d100")	
+# GEAR:Shield (Heavy/Steel)	OPTION:31,95	SIZE:PC	EQMOD:MWORKA.PLUS1S	LOOKUP:Special Ability (H),roll("1d100")	
+# GEAR:Shield (Tower/Wood)	OPTION:96,100	SIZE:PC	EQMOD:MWORKA.PLUS1S	LOOKUP:Special Ability (T),roll("1d100")	
+# TABLE:Special Ability (B)	VALUES:EQMOD:HEART|1,35|EQMOD:RANGED|36,60|EQMOD:LINK|61,89|EQMOD:POWER_RES_13|90,97|EQMOD:MANIFEST_SH|98|EQMOD:AVERT|99|[LOOKUP:Special Ability (B),roll("1d100")][LOOKUP:Special Ability (B),roll("1d100")]|100	
+# TABLE:Special Ability (L)	VALUES:EQMOD:ARW_CAT|1,20|EQMOD:BASH|21,40|EQMOD:BLIND|41,50|EQMOD:FORT_LIGHT|51,75|EQMOD:ARW_DEF|76,92|EQMOD:ANIMATED|93,97|EQMOD:SPELL_RES_13|98,99|[LOOKUP:Special Ability (L),roll("1d100")][LOOKUP:Special Ability (L),roll("1d100")]|100	
+# TABLE:Special Ability (H)	VALUES:EQMOD:ARW_CAT|1,20|EQMOD:BASH|21,40|EQMOD:BLIND|41,50|EQMOD:FORT_LIGHT|51,75|EQMOD:ARW_DEF|76,92|EQMOD:ANIMATED|93,97|EQMOD:SPELL_RES_13|98,99|[LOOKUP:Special Ability (H),roll("1d100")][LOOKUP:Special Ability (H),roll("1d100")]|100	
+# TABLE:Special Ability (T)	VALUES:EQMOD:ARW_CAT|1,20|LOOKUP:Special Ability (T),roll("1d100")|21,40|EQMOD:BLIND|41,50|EQMOD:FORT_LIGHT|51,75|EQMOD:ARW_DEF|76,92|EQMOD:ANIMATED|93,97|EQMOD:SPELL_RES_13|98,99|[LOOKUP:Special Ability (T),roll("1d100")][LOOKUP:Special Ability (T),roll("1d100")]|100	
+
+###Block: Monster
+STARTPACK:Astral Construct Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Astral Construct (1st),Astral Construct (2nd),Astral Construct (3rd),Astral Construct (4th),Astral Construct (5th),Astral Construct (6th),Astral Construct (7th),Astral Construct (8th),Astral Construct (9th)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Brain Mole Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Brain Mole
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Caller in Darkness Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Caller in Darkness
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=11
+
+STARTPACK:Demon (Cerebrilith) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Cerebrilith)
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=11
+
+STARTPACK:Crysmal Stats	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Crysmal
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Folugub Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Folugub
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Gray Glutton Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Gray Glutton
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Intellect Devourer Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Intellect Devourer
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Neothelid Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Neothelid
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Phthisic Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Phthisic
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Psion-Killer Stats	TYPE:DefaultMonster.Contruct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Psion-Killer
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Puppeteer Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Puppeteer
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Puppeteer (Flesh Arrower) Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Puppeteer (Flesh Arrower)
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Udoroot Stats	TYPE:DefaultMonster.Plant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Udoroot
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Unbodied Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Unbodied
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Temporal Filcher Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Temporal Filcher
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Thought Eater Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Thought Eater
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Thought Slayer Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Thought Slayer
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10

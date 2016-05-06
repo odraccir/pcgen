@@ -85,6 +85,9 @@ STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
 STARTPACK:Guardinal (Lupinal) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Guardinal (Lupinal)
 GEAR:Leather	LOCATION:Equipped
 
+STARTPACK:Golem (Chain) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Golem (Chain)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
 STARTPACK:Roc (Chaos) Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Roc (Chaos)
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
 
@@ -141,3 +144,92 @@ STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
 
 STARTPACK:Demon (Abyssal Ravager) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Abyssal Ravager)
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Demon (Jovoc) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Jovoc)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Demon (Palrethee) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Palrethee)
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Demon (Palrethee) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Demon (Palrethee)
+GEAR:Longsword	EQMOD:FLM_M
+
+STARTPACK:Demon (Zovvut) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Zovvut)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Demon (Jarilith) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Jarilith)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Demon (Kelvezu) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Kelvezu)
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Demon (Kelvezu) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Demon (Kelvezu)
+GEAR:Scimitar	EQMOD:WOUND_GRT
+GEAR:Dagger	EQMOD:WOUND_GRT
+
+STARTPACK:Desmodu Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Desmodu
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Desmodu Standard Equip	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Desmodu
+GEAR:Studded Leather	EQMOD:MWORKA
+GEAR:Notbora	EQMOD:MWORKW
+
+STARTPACK:Desmodu Bat (Hunting Bat) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Desmodu Bat (Hunting Bat)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Desmodu Bat (Guarding Bat) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Desmodu Bat (Guarding Bat)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Desmodu Bat (War Bat) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Desmodu Bat (War Bat)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Devil (Advespa) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Advespa)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Devil (Amnizu) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Amnizu)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Devil (Malebranche) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Malebranche)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Devil (Malebranche) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Devil (Malebranche)
+GEAR:Trident	SIZE:H	EQMOD:MWORKA
+
+STARTPACK:Dinosaur (Cryptoclidus) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dinosaur (Cryptoclidus)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Dinosaur (Allosaurus) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dinosaur (Allosaurus)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Dinosaur (Ankylosaurus) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dinosaur (Ankylosaurus)
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Dinosaur (Quetzalcoatlus) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dinosaur (Quetzalcoatlus)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Dinosaur (Seismosaurus) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dinosaur (Seismosaurus)
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Dinosaur (Spinosaurus) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dinosaur (Spinosaurus)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dire Animal (Dire Toad) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dire Animal (Dire Toad)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Dire Animal (Dire Hawk) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dire Animal (Dire Hawk)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Dire Animal (Dire Snake) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dire Animal (Dire Snake)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Dire Animal (Dire Horse) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dire Animal (Dire Horse)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Dire Animal (Dire Elk) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dire Animal (Dire Elk)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Dire Animal (Dire Elephant) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dire Animal (Dire Elephant)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Dragon (Amethyst) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Amethyst)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10

@@ -1,0 +1,62 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+ABILITYCATEGORY:Dromite Race Trait	CATEGORY:Special Ability	TYPE:DromiteRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Elan Race Trait	CATEGORY:Special Ability	TYPE:ElanRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Half-Giant Race Trait	CATEGORY:Special Ability	TYPE:HalfGiantRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Maenad Race Trait	CATEGORY:Special Ability	TYPE:MaenadRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Thri-Kreen Race Trait	CATEGORY:Special Ability	TYPE:ThriKreenRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Xeph Race Trait	CATEGORY:Special Ability	TYPE:XephRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+
+# Subrace Support
+ABILITYCATEGORY:Dromite Subrace	CATEGORY:Internal	TYPE:DromiteSubrace.DromiteSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Elan Subrace	CATEGORY:Internal	TYPE:ElanSubrace.ElanSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Half-Giant Subrace	CATEGORY:Internal	TYPE:HalfGiantSubrace.HalfGiantSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Maenad Subrace	CATEGORY:Internal	TYPE:MaenadSubrace.MaenadSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Thri-Kreen Subrace	CATEGORY:Internal	TYPE:ThriKreenSubrace.ThriKreenSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Xeph Subrace	CATEGORY:Internal	TYPE:XephSubrace.XephSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Psion Class Feature	CATEGORY:Special Ability	TYPE:PsionClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Psion Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Psychic Warrior Class Feature	CATEGORY:Special Ability	TYPE:PsychicWarriorClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Psychic Warrior Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Soulknife Class Feature	CATEGORY:Special Ability	TYPE:SoulknifeClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Soulknife Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Wilder Class Feature	CATEGORY:Special Ability	TYPE:WilderClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Wilder Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Cerebremancer Class Feature	CATEGORY:Special Ability	TYPE:CerebremancerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Cerebremancer Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Elocater Class Feature	CATEGORY:Special Ability	TYPE:ElocaterClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Elocater Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Fist of Zuoken Class Feature	CATEGORY:Special Ability	TYPE:FistOfZuokenClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Fist of Zuoken Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Illithid Slayer Class Feature	CATEGORY:Special Ability	TYPE:IllithidSlayerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Illithid Slayer Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Metamind Class Feature	CATEGORY:Special Ability	TYPE:MetamindClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Metamind Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Psion Uncarnate Class Feature	CATEGORY:Special Ability	TYPE:PsionUncarnateClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Psion Uncarnate Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Pyrokineticist Class Feature	CATEGORY:Special Ability	TYPE:PyrokineticistClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Pyrokineticist Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Thrallherd Class Feature	CATEGORY:Special Ability	TYPE:ThrallherdClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Thrallherd Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:War Mind Class Feature	CATEGORY:Special Ability	TYPE:WarMindClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:War Mind Class Features			DISPLAYLOCATION:Class Features
+
+ABILITYCATEGORY:Psicrystal Class Feature	CATEGORY:Special Ability	TYPE:PsicrystalClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Psicrystal Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups
+ABILITYCATEGORY:Astral Construct Menu A	CATEGORY:Special Ability	TYPE:AstralConstructA	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Astral Construct Menu A			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Astral Construct Menu B	CATEGORY:Special Ability	TYPE:AstralConstructB	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Astral Construct Menu B			DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Astral Construct Menu C	CATEGORY:Special Ability	TYPE:AstralConstructC	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Astral Construct Menu C			DISPLAYLOCATION:Race Traits
+
+#Feats Ability pools
+ABILITYCATEGORY:Psion Feat	CATEGORY:FEAT	TYPE:Metapsionic.PsionicItem.Psionic	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Psion Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Psychic Warrior Feat	CATEGORY:FEAT	TYPE:Fighter.Psionic	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Psychic Warrior Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Elocator Transporter	CATEGORY:Special Ability	TYPE:ElocatorTransporter	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Elocator Transporters			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Fist of Zuoken Feat	CATEGORY:FEAT	TYPE:Psionic	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Fist of Zuoken Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Thrallherd Thrall Selection	CATEGORY:Internal	TYPE:ThrallherdThrallSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Thrallherd Thrall Choice			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Thrallherd Psionic Charm	CATEGORY:Special Ability	TYPE:ThrallherdPsionicCharm	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Thrallherd Psionic Charms			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Thrallherd Psionic Dominate	CATEGORY:Special Ability	TYPE:ThrallherdPsionicDominate	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Thrallherd Psionic Dominates			DISPLAYLOCATION:Class Features
+
+#POOL:Pool_OpenMindedSkill
+ABILITYCATEGORY:Open Minded Skill	CATEGORY:Special Ability	TYPE:Open Minded Skill	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Open Minded Skills			DISPLAYLOCATION:Feats
+
+#Companion Support
+ABILITYCATEGORY:Psicrystal Selection	CATEGORY:Internal	TYPE:PsicrystalSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Psicrystal Choice			DISPLAYLOCATION:Class Features
+
+ABILITYCATEGORY:Psicrystal Personality	CATEGORY:Special Ability	TYPE:PsicrystalPersonality	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Psicrystal Personalities			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Incarnate Applied Effect	CATEGORY:Special Ability	TYPE:IncarnatePower	VISIBLE:YES	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Incarnate Applied Effect			DISPLAYLOCATION:Misc
+
+ABILITYCATEGORY:Crystal Mask	CATEGORY:Internal		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		ABILITYLIST:Equipment ~ Crystal Mask														DISPLAYLOCATION:Equipment
+
+#
+# End
+#

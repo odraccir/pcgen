@@ -1,0 +1,28 @@
+SOURCELONG:Gozzilioni Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
+#										
+###Block:Psicrystal
+FOLLOWER:PsicrystalLVL=1	TYPE:Psicrystal	COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES
+FOLLOWER:PsicrystalLVL=1	TYPE:Psicrystal		BONUS:COMBAT|AC|(mastervar("PsicrystalLVL")-1)/2|TYPE=NaturalArmor.STACK		DEFINESTAT:MINVALUE|INT|3+((mastervar("PsicrystalLVL")-1)/2)	ABILITY:Special Ability|AUTOMATIC|Psicrystal ~ Alertness|Psicrystal ~ Improved Evasion|Psicrystal ~ Personality|Psicrystal ~ Self-Propulsion|Psicrystal ~ Share Powers|Psicrystal ~ Sighted|Psicrystal ~ Telepathic Link
+FOLLOWER:PsicrystalLVL=3	TYPE:Psicrystal					ABILITY:Special Ability|AUTOMATIC|Psicrystal ~ Deliver Touch Powers				
+FOLLOWER:PsicrystalLVL=5	TYPE:Psicrystal					ABILITY:Special Ability|AUTOMATIC|Psicrystal ~ Telepathic Speech				
+FOLLOWER:PsicrystalLVL=9	TYPE:Psicrystal					ABILITY:Special Ability|AUTOMATIC|Psicrystal ~ Flight				
+FOLLOWER:PsicrystalLVL=11	TYPE:Psicrystal						SR:mastervar("PsicrystalLVL")+5			
+FOLLOWER:PsicrystalLVL=13	TYPE:Psicrystal					ABILITY:Special Ability|AUTOMATIC|Psicrystal ~ Sight Link				
+FOLLOWER:PsicrystalLVL=15	TYPE:Psicrystal					ABILITY:Special Ability|AUTOMATIC|Psicrystal ~ Channel Power				
+
+###Block:Familiar Bonus to Master										
+MASTERBONUSRACE:Psicrystal (Artiste)	TYPE:Psicrystal					ABILITY:Special Ability|AUTOMATIC|Psycristal ~ Artiste
+MASTERBONUSRACE:Psicrystal (Bully)	TYPE:Psicrystal					ABILITY:Special Ability|AUTOMATIC|Psycristal ~ Bully
+MASTERBONUSRACE:Psicrystal (Coward)	TYPE:Psicrystal					ABILITY:Special Ability|AUTOMATIC|Psycristal ~ Coward
+MASTERBONUSRACE:Psicrystal (Friendly)	TYPE:Psicrystal					ABILITY:Special Ability|AUTOMATIC|Psycristal ~ Friendly
+MASTERBONUSRACE:Psicrystal (Hero)	TYPE:Psicrystal					ABILITY:Special Ability|AUTOMATIC|Psycristal ~ Hero
+MASTERBONUSRACE:Psicrystal (Liar)	TYPE:Psicrystal					ABILITY:Special Ability|AUTOMATIC|Psycristal ~ Liar
+MASTERBONUSRACE:Psicrystal (Meticulous)	TYPE:Psicrystal					ABILITY:Special Ability|AUTOMATIC|Psycristal ~ Meticulous
+MASTERBONUSRACE:Psicrystal (Nimble)	TYPE:Psicrystal					ABILITY:Special Ability|AUTOMATIC|Psycristal ~ Nimble
+MASTERBONUSRACE:Psicrystal (Observant)	TYPE:Psicrystal					ABILITY:Special Ability|AUTOMATIC|Psycristal ~ Observant
+MASTERBONUSRACE:Psicrystal (Poised)	TYPE:Psicrystal					ABILITY:Special Ability|AUTOMATIC|Psycristal ~ Poised
+MASTERBONUSRACE:Psicrystal (Resolved)	TYPE:Psicrystal					ABILITY:Special Ability|AUTOMATIC|Psycristal ~ Resolved
+MASTERBONUSRACE:Psicrystal (Sage)	TYPE:Psicrystal					ABILITY:Special Ability|AUTOMATIC|Psycristal ~ Sage
+MASTERBONUSRACE:Psicrystal (Single-Minded)	TYPE:Psicrystal					ABILITY:Special Ability|AUTOMATIC|Psycristal ~ Single-Minded
+MASTERBONUSRACE:Psicrystal (Sneaky)	TYPE:Psicrystal					ABILITY:Special Ability|AUTOMATIC|Psycristal ~ Sneaky
+MASTERBONUSRACE:Psicrystal (Sympatheric)	TYPE:Psicrystal					ABILITY:Special Ability|AUTOMATIC|Psycristal ~ Sympathetic

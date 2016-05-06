@@ -20,6 +20,7 @@ STAT:g__stats.lst
 DATACONTROL:g_datacontrol.lst
 
 ABILITY:g_abilities.lst
+ABILITY:g_abilities_guilds.lst
 ABILITY:g_abilities_pools.lst
 ABILITYCATEGORY:g_abilitycategories.lst
 EQUIPMOD:g_equipmods.lst

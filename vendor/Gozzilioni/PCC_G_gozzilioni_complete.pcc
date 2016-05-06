@@ -14,16 +14,22 @@ PUBNAMELONG:Gozzilioni
 PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
+
 PCC:core/_core.pcc
 PCC:core/DungeonMasterSGuide/_dungeonmastersguide.pcc
 PCC:core/PlayerSHandbook/_playershandbook.pcc
 PCC:core/MonsterManual/_monstermanual.pcc
 PCC:core/MonsterManual2/_monstermanual2.pcc
+PCC:core/ExpandedPsionicHandbook/_expandedpsionicshandbook.pcc
+
+PCC:srd30/_srd30.pcc
 
 PCC:houserules/_houserules.pcc
 
 PCC:web/DragonMagazine/_dragonmagazine082.pcc
 
+PCC:errata/MonsterManual/_monstermanual_errata.pcc
+PCC:errata/ExpandedPsionicHandbook/_expandedpsionichandbook_errata.pcc
 
 
 # ENTRY DATE: 2015-08 

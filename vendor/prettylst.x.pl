@@ -3290,7 +3290,7 @@ my %master_order = (
         'KEY',                       # [ 1695877 ] KEY tag is global
         'NAMEISPI',
         'OUTPUTNAME',
-        'ABB',            #  Deprecated 6.05.01
+#        'ABB',            #  Deprecated 6.05.01
         'COST',
         'PROHIBITCOST',
         'CHOICE',

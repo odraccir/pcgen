@@ -25,14 +25,14 @@ Heal	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Heal	SOURCEPAGE:PHB
 Hide	USEUNTRAINED:YES	ACHECK:YES	KEYSTAT:DEX	TYPE:Skill.Dexterity.Hide	SOURCEPAGE:PHB																																													
 Intimidate	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:Skill.Charisma.Intimidate	SOURCEPAGE:PHB																																													
 Jump	USEUNTRAINED:YES	ACHECK:YES	KEYSTAT:STR	TYPE:Skill.Strength.Jump	SOURCEPAGE:PHB		BONUS:SKILL|Tumble|SynergyBonus|PRESKILL:1,Jump=5|TYPE=Synergy.STACK	BONUS:SKILL|Jump|max(floor((var("MOVE[Walk]")-30)/10)*4,0)|TYPE=Speed.STACK	BONUS:SKILL|Jump|min(ceil((var("MOVE[Walk]")-30)/10)*6,0)|TYPE=Speed.STACK																																									
-Knowledge (Arcana)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Arcana)	SOURCEPAGE:PHB		BONUS:SKILL|Spellcraft|SynergyBonus|PRESKILL:1,Knowledge (Arcana)=5|TYPE=Synergy.STACK																																											
+Knowledge (Arcana)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Arcana)	SOURCEPAGE:PHB		BONUS:SKILL|Spellcraft|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Knowledge (Arcana)=5																																											
 Knowledge (Architecture and Engineering)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Architecture and Engineering)	SOURCEPAGE:PHB																																													
 Knowledge (Dungeoneering)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Dungeoneering)	SOURCEPAGE:PHB																																													
 Knowledge (Geography)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Geography)	SOURCEPAGE:PHB																																													
 Knowledge (History)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (History)	SOURCEPAGE:PHB		BONUS:VAR|BardicKnowledge|2|PRESKILL:1,Knowledge (History)=5																																											
-Knowledge (Local)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Local)	SOURCEPAGE:PHB		BONUS:SKILL|Gather Information|SynergyBonus|PRESKILL:1,Knowledge (Local)=5|TYPE=Synergy.STACK																																											
+Knowledge (Local)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Local)	SOURCEPAGE:PHB		BONUS:SKILL|Gather Information|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Knowledge (Local)=5																																											
 Knowledge (Nature)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Nature)	SOURCEPAGE:PHB																																													
-Knowledge (Nobility and Royalty)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Nobility and Royalty)	SOURCEPAGE:PHB		BONUS:SKILL|Diplomacy|SynergyBonus|PRESKILL:1,Knowledge (Nobility and Royalty)=5|TYPE=Synergy.STACK																																											
+Knowledge (Nobility and Royalty)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Nobility and Royalty)	SOURCEPAGE:PHB		BONUS:SKILL|Diplomacy|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Knowledge (Nobility and Royalty)=5																																											
 Knowledge (Religion)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Religion)	SOURCEPAGE:PHB		BONUS:VAR|TurnCheckUndead|2|PRESKILL:1,Knowledge (Religion)=5																																											
 Knowledge (The Planes)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (The Planes)	SOURCEPAGE:PHB																																													
 Listen	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Listen	SOURCEPAGE:PHB																																													
@@ -75,7 +75,7 @@ Profession (Teamster)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.
 Profession (Woodcutter)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Woodcutter)	SOURCEPAGE:PHB																																													
 Ride	USEUNTRAINED:YES		KEYSTAT:DEX	TYPE:Skill.Dexterity.Ride	SOURCEPAGE:PHB		TEMPDESC:If you are riding bareback, or attempt to ride a creature that is ill suited as a mount, you take a -5 penalty on Ride checks.	TEMPBONUS:ANYPC|SKILL|Ride|-5|TYPE=Circumstance|!PREITEM:1,TYPE=Saddle																																										
 Search	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:Skill.Intelligence.Search	SOURCEPAGE:PHB																																													
-Sense Motive	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Sense Motive	SOURCEPAGE:PHB		BONUS:SKILL|Diplomacy|SynergyBonus|PRESKILL:1,Sense Motive=5|TYPE=Synergy.STACK																																											
+Sense Motive	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Sense Motive	SOURCEPAGE:PHB		BONUS:SKILL|Diplomacy|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Sense Motive=5																																											
 Sleight of Hand	USEUNTRAINED:NO	ACHECK:YES	KEYSTAT:DEX	TYPE:Skill.Dexterity.Sleight of Hand	SOURCEPAGE:PHB																																													
 Speak Language	USEUNTRAINED:NO			TYPE:None.Language.Speak Language	SOURCEPAGE:PHB	CHOOSE:LANG|TYPE=Spoken	AUTO:LANG|%LIST																																											
 Spellcraft	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Spellcraft	SOURCEPAGE:PHB																																													

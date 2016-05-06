@@ -157,7 +157,7 @@ CLASSTYPE:Companion	CRFORMULA:NONE		ISMONSTER:YES	XPPENALTY:NO
 #AC Types
 ACTYPE:Total				ADD:TOTAL
 ACTYPE:Flatfooted				ADD:TOTAL		REMOVE:Ability|PRESTAT:1,DEX=10|!PREABILITY:1,CATEGORY=Special Ability,Retain Dex To AC ~ Flat-footed		REMOVE:Dodge|!PREABILITY:1,CATEGORY=Special Ability,Retain Dex To AC ~ Flat-footed
-ACTYPE:Touch				ADD:TOTAL		REMOVE:Armor|ArmorEnhancement|NaturalArmor|Shield|ShieldEnhancement|NaturalArmorEnhancement	ADD:Shield|ShieldEnhancement|PREVARGTEQ:ShieldAddsToTouchAC,1
+ACTYPE:Touch				ADD:TOTAL		REMOVE:Armor|ArmorEnhancement|NaturalArmor|Shield|ShieldEnhancement|NaturalArmorEnhancement	ADD:Shield|ShieldEnhancement|PREVARGTEQ:ShieldAddsToTouchAC,1	ADD:TouchBonusAC
 ACTYPE:Base					ADD:Base
 ACTYPE:Armor				ADD:Armor|ArmorEnhancement
 ACTYPE:ArmorEnhancement			ADD:ArmorEnhancement
@@ -271,7 +271,7 @@ UNITSET:Metric		HEIGHTUNIT:cm	HEIGHTFACTOR:2.54	HEIGHTPATTERN:#		DISTANCEUNIT:m	
 # CR calculation and XP awards
 CRTHRESHOLD:HD
 CRSTEPS:1/2|1/3|1/4|1/6|1/8
-MONSTERROLES:Combat|Skill|Bard|Cleric|Druid|Sorcerer|Wizard|Adept
+MONSTERROLES:Combat|Skill|Bard|Cleric|Druid|Sorcerer|Wizard|Adept|Psion|Wilder
 MONSTERROLEDEFAULT:Combat
 
 #

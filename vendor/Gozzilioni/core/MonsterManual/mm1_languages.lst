@@ -4,6 +4,7 @@ SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzil
 Telepathy			TYPE:Spoken
 Drow Sign Language			TYPE:Spoken.Sign
 
+Aboleth			TYPE:Spoken
 Blink Dog			TYPE:Spoken
 Ettin Pidgin			TYPE:Spoken.Orc.Goblin.Giant
 Formian			TYPE:Spoken	

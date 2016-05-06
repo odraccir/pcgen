@@ -14,7 +14,8 @@ PUBNAMELONG:Wizards of the Coast
 PUBNAMESHORT:WotC
 PUBNAMEWEB:http://dnd.wizards.com
 
-#
+PRECAMPAIGN:1,Gozzilioni Core Ruleset
+
 EQUIPMENT:dm082_equip.lst
 KIT:dm082_kits.lst
 

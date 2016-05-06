@@ -1,0 +1,22 @@
+SOURCELONG:Gozzilioni Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04																			
+#																						
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:
+# Simple Weapons																						
+## Unarmed																						
+## Light																						
+## OneHanded																						
+## TwoHanded																						
+## Ranged																						
+																						
+# Martial Weapons																						
+## Light																						
+## OneHanded																						
+## TwoHanded																						
+Silver Sword (Githyanki)	OUTPUTNAME:Silver Sword, Githyanki		PROFICIENCY:WEAPON|Greatsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.TwoHanded.Sword	COST:50530	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:ALC_SILVER_WEAP.PLUS1W.PSI_DISRUPT	SOURCEPAGE:EPH								
+																						
+# Exotic Weapons																						
+## Light																						
+## OneHanded																						
+## TwoHanded																						
+## Ranged																						
+### Arrows																						

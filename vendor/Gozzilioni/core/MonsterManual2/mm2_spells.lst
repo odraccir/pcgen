@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																					
+SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #																								
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:|!PRERULE:1,DisplayFullSpell	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	Desc	Bonus	Bonus
 Beget Bogun				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation		CLASSES:Druid=1	COMPS:V, S, M, XP	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Tiny construct.	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:Beget bogun allows you to infuse living magic into a small mannequin that you have created from vegetable matter. This is the final spell in the process of creating a bogun.	SOURCEPAGE:MM2, pag 35			XPCOST:25				
@@ -6,3 +6,9 @@ Beget Bogun				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation		CLASSES:Druid=1
 ### Teleport (Greater) ~ Self only.MOD	CLASS:.CLEARALL																							
 Disguise Self.COPY=Disguise Self	KEY:Disguise Self ~ Humanoid form only																							
 Disguise Self ~ Humanoid form only.MOD	OUTPUTNAME:Disguise Self	TYPE:SpellLike	DESC:Humanoid form only.	SOURCEPAGE:MM2																				
+
+Speak with Animals.COPY=Speak with Animals	KEY:Speak with Animals ~ Bats only																																					
+Speak with Animals ~ Bats only.MOD	OUTPUTNAME:Speak with Animals	TYPE:SpellLike	DESC:Bats only.	SOURCEPAGE:MM2
+
+Tongues.COPY=Tongues	KEY:Tongues ~ Self only
+Tongues ~ Self only.MOD	OUTPUTNAME:Tongues	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only.	SOURCEPAGE:MM2

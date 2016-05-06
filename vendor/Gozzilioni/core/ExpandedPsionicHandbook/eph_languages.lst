@@ -1,0 +1,18 @@
+SOURCELONG:Gozzilioni Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
+																																																																			
+# Added alphabet type to each language in accordance with SkillsII
+# Alphabet type will be final type, such as:
+# Abyssal	TYPE:Spoken.Written.Read.Infernal
+# ... since the Abyssal language uses the Infernal Alphabet for its writing.
+# Per SkillsII, each language listed in Speak Language is also written/read
+# - Fluxxdog - Nov 4 08
+
+#	everyone's language
+# Language			Type								Var. Min. Value
+
+#	racial languages (base races)
+Maenad			TYPE:Spoken.Written.Read.Elven
+Thri-Kreen			TYPE:Spoken
+Xeph			TYPE:Spoken.Written.Read.Common
+
+#

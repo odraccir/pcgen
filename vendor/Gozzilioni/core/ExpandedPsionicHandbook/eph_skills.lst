@@ -1,0 +1,18 @@
+SOURCELONG:Gozzilioni Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
+#							
+# Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:		
+Autohypnosis	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Autohypnosis	SOURCEPAGE:EPH		BONUS:SKILL|Knowledge (Psionics)|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Autohypnosis=5
+Knowledge (Psionics)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Psionics)	SOURCEPAGE:EPH		BONUS:SKILL|Psicraft|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Knowledge (Psionics)=5
+Psicraft	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Psicraft	SOURCEPAGE:EPH		
+Use Psionic Device	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Use Psionic Device	SOURCEPAGE:EPH		
+#							
+Psicraft.MOD	SITUATION:Power stones						
+Use Psionic Device.MOD	SITUATION:Address power stones						
+Concentration.MOD	SITUATION:Manifest defensively																																																	
+Concentration.MOD	SITUATION:Gain psionic focus																																																	
+#							
+Concentration.MOD							BONUS:SKILL|Autohypnosis|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Concentration=5
+Psicraft.MOD							BONUS:SITUATION|Use Psionic Device=Power stones|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Psicraft=5
+Use Psionic Device.MOD							BONUS:SITUATION|Psicraft=Address power stones|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Use Psionic Device=5
+#							
+Hide.MOD	SITUATION:Sandy or arid settings						

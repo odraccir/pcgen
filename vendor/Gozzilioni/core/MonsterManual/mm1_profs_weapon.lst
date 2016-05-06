@@ -20,7 +20,8 @@ Sting	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
 Tentacle	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
 #Touch
 Touch	TYPE:Weapon.Natural.Finesseable.Melee.Touch
-Burning Touch	TYPE:Weapon.Natural.Finesseable.Melee.Touch
+Burning Touch	TYPE:Weapon.Natural.Finesseable.Melee.Touch.MeleeTouch
+Incorporeal Touch	TYPE:Weapon.Natural.Finesseable.Melee.Touch.MeleeTouch
 Swarm	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning.MeleePiercing.MeleeSlashing.MeleeBludgeoning
 Shock	TYPE:Weapon.Natural.Finesseable.Melee.Touch
 #Melee

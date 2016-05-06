@@ -1,0 +1,25 @@
+SOURCELONG:Gozzilioni Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
+#			
+### Weapon/Spell			
+### Simple/Martial/Exotic			
+### Melee/Ranged			
+### Bludgeoning/Piercing/Slashing			
+### Reach/Double/Thrown/Projectile/Ammunition			
+### Unharmed/Light/OneHanded/TwoHanded			
+###Automatic			
+Tentacle Rake	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
+Tail Blade	TYPE:Weapon.Natural.Finesseable.Melee.Slashing.MeleeSlashing
+
+# Fake Auto	TYPE:Auto		
+# Fake Simple	TYPE:Simple.Melee		
+# Fake Martial	TYPE:Martial.Melee		
+# Fake Exotic	TYPE:Exotic.Melee		
+#			
+
+###Simple			
+###Martial			
+###Exotic			
+Gythka	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded
+Chatkcha	TYPE:Exotic.Ranged.Piercing.RangedPiercing
+
+Mind Blade		TYPE:MindBlade
