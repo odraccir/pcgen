@@ -84,7 +84,7 @@ Psychoactive Skin (Psion)		TYPE:Universal.Ectoshell	COST:151000	WT:2	SOURCEPAGE:
 Psychoactive Skin (Spider)		TYPE:Universal.Ectoshell	COST:79080	WT:2	SOURCEPAGE:EPH	TEMPBONUS:PC|SKILL|Climb|20|TYPE=Competence																
 Psychoactive Skin (Troll)		TYPE:Universal.Ectoshell	COST:61200	WT:2	SOURCEPAGE:EPH	SPROP:The wearer heals 5 points of damage per minute. Except for the slower rate of healing, this skin affects its wearer as if the wearer were under the effect of a continual true metabolism power.																
 Ring of Self-Sufficiency		TYPE:Universal.Ring	COST:10000	WT:0	SOURCEPAGE:EPH	BONUS:SKILL|Autohypnosis|10|TYPE=Competence																
-Shard		TYPE:Universal.Consumable.Shard	COST:0	WT:0	SOURCEPAGE:EPH	EQMOD:YES																
+Shard		TYPE:Universal.Consumable.Shard	COST:0	WT:0	SOURCEPAGE:EPH	MODS:YES																
 Third Eye (Aware)		TYPE:Universal.Eyegear	COST:10000	WT:0	SOURCEPAGE:EPH	BONUS:SKILL|Spot|10|TYPE=Competence																
 Third Eye (Conceal)		TYPE:Universal.Eyegear	COST:120000	WT:0	SOURCEPAGE:EPH																	
 Third Eye (Concentrate)		TYPE:Universal.Eyegear	COST:10000	WT:0	SOURCEPAGE:EPH	BONUS:SKILL|Concentration|10|TYPE=Competence																

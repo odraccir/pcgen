@@ -191,13 +191,13 @@ Gargantuan	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Monstrous Scorpion ~ Gargantuan	SUBRACE
 Colossal	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Monstrous Scorpion ~ Colossal	SUBRACE:Colossal																														
 																																		
 ###Block: Racial Subrace																																		
-Aquan	KEY:Genie ~ Janni ~ Language ~ Aquan	VISIBLE:NO	AUTO:LANG|Aquan																															
-Auran	KEY:Genie ~ Janni ~ Language ~ Auran	VISIBLE:NO	AUTO:LANG|Auran																															
-Ignan	KEY:Genie ~ Janni ~ Language ~ Ignan	VISIBLE:NO	AUTO:LANG|Ignan																															
-Terran	KEY:Genie ~ Janni ~ Language ~ Terran	VISIBLE:NO	AUTO:LANG|Terran																															
-Abyssal	KEY:Genie ~ Janni ~ Language ~ Abyssal	VISIBLE:NO	AUTO:LANG|Abyssal																															
-Celestial	KEY:Genie ~ Janni ~ Language ~ Celestial	VISIBLE:NO	AUTO:LANG|Celestial																															
-Infernal	KEY:Genie ~ Janni ~ Language ~ Infernal	VISIBLE:NO	AUTO:LANG|Infernal																															
+Aquan	KEY:Language ~ Aquan	VISIBLE:NO	AUTO:LANG|Aquan																															
+Auran	KEY:Language ~ Auran	VISIBLE:NO	AUTO:LANG|Auran																															
+Ignan	KEY:Language ~ Ignan	VISIBLE:NO	AUTO:LANG|Ignan																															
+Terran	KEY:Language ~ Terran	VISIBLE:NO	AUTO:LANG|Terran																															
+Abyssal	KEY:Language ~ Abyssal	VISIBLE:NO	AUTO:LANG|Abyssal																															
+Celestial	KEY:Language ~ Celestial	VISIBLE:NO	AUTO:LANG|Celestial																															
+Infernal	KEY:Language ~ Infernal	VISIBLE:NO	AUTO:LANG|Infernal																															
 																																		
 ### Template																																		
 Celestial	TYPE:Inherited	VISIBLE:YES	PRERACE:1,RACETYPE=Animal,RACETYPE=Aberration,RACETYPE=Dragon,RACETYPE=Fey,RACETYPE=Giant,RACETYPE=Humanoid,RACETYPE=Magical Beast,RACETYPE=Monstrous Humanoid,RACETYPE=Plant,RACETYPE=Vermin	!PRERACE:1,RACESUBTYPE=Incorporeal	TEMPLATE:CHOOSE:Celestial ~ Animal|Celestial ~ Vermin	RACESUBTYPE:Extraplanar	ABILITY:Special Ability|AUTOMATIC|Celestial ~ Smite Evil|Resistance To Acid|Resistance To Cold|Resistance To Electricity	BONUS:VAR|DarkvisionRange|60|TYPE=Base	BONUS:VAR|AcidResistanceBonus,ColdResistanceBonus,ElectricityResistanceBonus|5|TYPE=Resistance	BONUS:VAR|AcidResistanceBonus,ColdResistanceBonus,ElectricityResistanceBonus|10|TYPE=Resistance|PREHD:MIN=8	DEFINE:CelestialSR|0	BONUS:VAR|CelestialSR|min(HD+5,25)	SR:CelestialSR	DR:5/Magic|PREHD:MIN=4,MAX=11	DR:10/Magic|PREHD:MIN=12	ABILITY:Special Ability|AUTOMATIC|Celestial ~ Natural Weapons|PREHD:MIN=4	DEFINESTAT:MINVALUE|INT|3	BONUS:MISC|CR|1|PREHD:MIN=4	BONUS:MISC|CR|1|PREHD:MIN=8	KIT:1|LG|NG|CG	LEVELADJUSTMENT:2													

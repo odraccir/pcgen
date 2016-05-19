@@ -3,4 +3,5 @@ SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozz
 # Language			Type								Var. Min. Value
 Boggle			TYPE:Spoken
 Clockwork Mechanical Sound			TYPE:Spoken
+Sloth			TYPE:Spoken
 Desmodu			TYPE:Spoken	PREVARGTEQ:DesmoduLanguage,1

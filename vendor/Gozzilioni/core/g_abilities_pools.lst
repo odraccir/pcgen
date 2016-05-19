@@ -21,7 +21,6 @@ Favored Enemy	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialQuality.Extraor
 Fast Healing	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialQuality.Extraordinary	VISIBLE:YES	DEFINE:FastHealing|0	SOURCEPAGE:DMG	ASPECT:NAME|Fast Healing %1|FastHealing																													
 Battle Frenzy	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialAttack.Extraordinary	VISIBLE:YES	DEFINE:BattleFrenzyTimes|0	DEFINE:BattleFrenzyLvl|0	DEFINE:BattleFrenzyDuration|0	DEFINE:BattleFrenzyConBonus|0	DEFINE:BattleFrenzyStrBonus|0	DEFINE:BattleFrenzyACPenalty|0	DEFINE:BattleFrenzyMorale|0	DEFINE:EnBattleFrenzyd|0	DEFINE:BattleFrenzyBonus|0	DESC:%1 times/day (%2 rounds)|BattleFrenzyTimes|BattleFrenzyDuration|PREVARGT:BattleFrenzyTimes,0	DESC:Tireless BattleFrenzy, %1 times/day without fatigue (%2 rounds)|BattleFrenzyTimes|BattleFrenzyDuration|PREVARGTEQ:TirelessBattleFrenzy,1	DESC:Bonuses when frenzied (STR +%1, CON +%2, Will +%3, AC -%4, HP %5)|BattleFrenzyStrBonus|BattleFrenzyConBonus|BattleFrenzyMorale|BattleFrenzyACPenalty|(BattleFrenzyConBonus/2)*TL	BONUS:VAR|BattleFrenzyBonus|4	BONUS:VAR|BattleFrenzyDuration|CON+3+(BattleFrenzyConBonus/2)	BONUS:VAR|BattleFrenzyConBonus|BattleFrenzyBonus	BONUS:VAR|BattleFrenzyStrBonus|BattleFrenzyBonus	BONUS:VAR|BattleFrenzyACPenalty|2	BONUS:VAR|BattleFrenzyMorale|BattleFrenzyBonus/2	TEMPDESC:Battle Frenzied (STR +%1, CON +%2, Will +%3, AC -%4, HP %5)|BattleFrenzyStrBonus|BattleFrenzyConBonus|BattleFrenzyMorale|BattleFrenzyACPenalty|(BattleFrenzyConBonus/2)*TL	TEMPBONUS:PC|SAVE|Will|BattleFrenzyMorale	TEMPBONUS:PC|COMBAT|AC|-1*(BattleFrenzyACPenalty)	TEMPBONUS:PC|STAT|CON|BattleFrenzyConBonus	TEMPBONUS:PC|STAT|STR|BattleFrenzyStrBonus	TEMPBONUS:PC|VAR|BattleFrenzyDuration|-(BattleFrenzyConBonus/2)	TEMPBONUS:PC|VAR|BattleFrenzied|1			
 Blood Frenzy	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialAttack.Extraordinary	VISIBLE:YES	DEFINE:BloodFrenzyTimes|0	DEFINE:BloodFrenzyLvl|0	DEFINE:BloodFrenzyDuration|0	DEFINE:BloodFrenzyConBonus|0	DEFINE:BloodFrenzyStrBonus|0	DEFINE:BloodFrenzyACPenalty|0	DEFINE:BloodFrenzyMorale|0	DEFINE:EnBloodFrenzyd|0	DEFINE:BloodFrenzyBonus|0	DESC:%1 times/day (%2 rounds)|BloodFrenzyTimes|BloodFrenzyDuration|PREVARGT:BloodFrenzyTimes,0	DESC:Tireless BloodFrenzy, %1 times/day without fatigue (%2 rounds)|BloodFrenzyTimes|BloodFrenzyDuration|PREVARGTEQ:TirelessBloodFrenzy,1	DESC:Bonuses when frenzied (STR +%1, CON +%2, Will +%3, AC -%4, HP %5)|BloodFrenzyStrBonus|BloodFrenzyConBonus|BloodFrenzyMorale|BloodFrenzyACPenalty|(BloodFrenzyConBonus/2)*TL	BONUS:VAR|BloodFrenzyBonus|4	BONUS:VAR|BloodFrenzyDuration|CON+3+(BloodFrenzyConBonus/2)	BONUS:VAR|BloodFrenzyConBonus|BloodFrenzyBonus	BONUS:VAR|BloodFrenzyStrBonus|BloodFrenzyBonus	BONUS:VAR|BloodFrenzyACPenalty|2	BONUS:VAR|BloodFrenzyMorale|BloodFrenzyBonus/2	TEMPDESC:Blood Frenzied (STR +%1, CON +%2, Will +%3, AC -%4, HP %5)|BloodFrenzyStrBonus|BloodFrenzyConBonus|BloodFrenzyMorale|BloodFrenzyACPenalty|(BloodFrenzyConBonus/2)*TL	TEMPBONUS:PC|SAVE|Will|BloodFrenzyMorale	TEMPBONUS:PC|COMBAT|AC|-1*(BloodFrenzyACPenalty)	TEMPBONUS:PC|STAT|CON|BloodFrenzyConBonus	TEMPBONUS:PC|STAT|STR|BloodFrenzyStrBonus	TEMPBONUS:PC|VAR|BloodFrenzyDuration|-(BloodFrenzyConBonus/2)	TEMPBONUS:PC|VAR|BloodFrenzied|1			
-Regeneration	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialQuality.Extraordinary	VISIBLE:DISPLAY	DEFINE:RegenerationRate|0	SOURCEPAGE:DMG	ASPECT:NAME|Regeneration %1|RegenerationRate																													
 Flurry of Blows	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialQuality.Extraordinary	VISIBLE:YES	DEFINE:FlurryOfBlowsLVL|0	DEFINE:GreaterFlurryOfBlows|0	DEFINE:GreaterFlurryOfBlowsLVL|0	DEFINE:FlurryOfBlowsAttacks|0	DEFINE:FlurryOfBlowsPenalty|0	DEFINE:FlurryOfBlowsPenaltyLVL|0																										
 Greater Turn Undead	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialAttack.Supernatural.GreaterTurning.GreaterTurnUndead	VISIBLE:YES	PREALIGN:LG,LN,NG,TN,CG,CN	PREVARNEQ:TurnProhibitedByDeity,1	DEFINE:GreaterTurnTimesUndead|0	DEFINE:GreaterTurnLevelUndead|0	DEFINE:GreaterTurnDiceUndead|0	DEFINE:GreaterTurnDieSizeUndead|0	DEFINE:GreaterTurnDamagePlusUndead|0	DEFINE:GreaterTurnCheckUndead|0	DESC:%1/day (turn level %2) (turn damage %3d%4+%5)|GreaterTurnTimesUndead|GreaterTurnLevelUndead|GreaterTurnDiceUndead|GreaterTurnDieSizeUndead|GreaterTurnDamagePlusUndead	BONUS:VAR|GreaterTurnTimesUndead|GreaterTurnTimesBase	BONUS:VAR|GreaterTurnLevelUndead|GreaterTurnLevelBase	BONUS:VAR|GreaterTurnDiceUndead|GreaterTurnDiceBase	BONUS:VAR|GreaterTurnDieSizeUndead|GreaterTurnDieSizeBase	BONUS:VAR|GreaterTurnDamagePlusUndead|GreaterTurnDamagePlusBase	BONUS:VAR|GreaterTurnCheckUndead|GreaterTurnCheckBase	SOURCESHORT:PHB	ASPECT:TurnType|Greater Turn	ASPECT:TurnKind|Undead	ASPECT:TurnTimes|%1|GreaterTurnTimesUndead	ASPECT:TurnLevel|%1|GreaterTurnLevelUndead	ASPECT:TurnDamage|%1d%2+%3|GreaterTurnDiceUndead|GreaterTurnDieSizeUndead|GreaterTurnDamagePlusUndead	ASPECT:TurnCheck|%1|GreaterTurnCheckUndead	ASPECT:TurnNotes|You destroy Undead creatures with total hit dice up to %1.|GreaterTurnLevelUndead									
 Greater Turning	CATEGORY:Special Ability	TYPE:SharedAbility.Turning	VISIBLE:NO	DEFINE:GreaterTurnTimesBase|0	DEFINE:GreaterTurnLevelBase|0	DEFINE:GreaterTurnDiceBase|0	DEFINE:GreaterTurnDieSizeBase|0	DEFINE:GreaterTurnDamagePlusBase|0	DEFINE:GreaterTurnCheckBase|0	BONUS:VAR|GreaterTurnDiceBase|2	BONUS:VAR|GreaterTurnDieSizeBase|6	BONUS:VAR|GreaterTurnDamagePlusBase|CHA	BONUS:VAR|GreaterTurnTimesBase|3+CHA|TYPE=Base	BONUS:VAR|GreaterTurnCheckBase|CHA|TYPE=Base																					
@@ -52,10 +51,13 @@ Wild Shape	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialQuality.Supernatur
 #	Malevolence|Paralysis|Paralyzing Touch|Poison|Pounce|Rake|Ray|Roar|Seduction|Soul Portal|Sound Imitation|Stench|Swallow Whole|Tail Sweep|Telekinesis|Trample																																		
 ###TODO: Ability Focus for Spell-Like Abilities that are Special Attack.																																			
 # Basic																																			
+Absorb	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Acid	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Acid Spray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Adhesive	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Assume Identity	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Aura of Menace	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:DMG	
+Aura of Pain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Aura of Retribution	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Aversion	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Babble	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
@@ -64,8 +66,10 @@ Beard	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																					
 Black Cloud	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Blinding Beauty	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Bone Meld	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
+Brain Lock	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Breath Weapon	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:DMG	
 Burn	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Calcifying Aura	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Captivating Song	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Chain Barrier	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Change Size	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
@@ -78,12 +82,14 @@ Constrict	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																	
 Corporeal Instability	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Corrosive Slime	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Corrupting Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Crush	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Crush Item	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Dance of Ruin	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Dancing Chains	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Death Attack	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:DMG	
 Death Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Death Ray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
+Death Rift	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Death Throes	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Demonic Burn	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Despair	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
@@ -95,12 +101,15 @@ Dominate	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																		
 Domination	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Draining Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Drone	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
+Elemental Command	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Energy Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Energy Touch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Engulf	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Enslave	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Entangle	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Evil Eye	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Evil Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Explosive Gems	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Eye Rays	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Fear	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Fear Aura	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
@@ -119,8 +128,10 @@ Horrific Appearance	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES							
 Howl	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Implant	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Infernal Wound	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Infuse	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Ink Cloud	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Kiss	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Kiss of Death	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Lightning Bolt	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Liquefy Crystal	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:EPH
 Magic Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	

@@ -8,6 +8,7 @@ Pressure Dart		KEY:Clockwork Horror (Electrum) ~ Pressure Dart		PROFICIENCY:WEAP
 # BONUS:WEAPON|DAMAGESIZE|(ArrowhawkSizeTracker-1)|PREVARGTEQ:ArrowhawkSizeTracker,2
 # Electricity Ray		KEY:Arrowhawk ~ Electricity Ray ~ S		PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Simple.Touch	COST:0	WT:0	WIELD:Light		SIZE:S	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:MM1							RANGE:50		PREABILITY:1,CATEGORY=Special Ability,Arrowhawk ~ Electricity Ray
 # Electricity Ray		KEY:Arrowhawk ~ Electricity Ray ~ M		PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Simple.Touch	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:2d8	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:MM1							RANGE:50		PREABILITY:1,CATEGORY=Special Ability,Arrowhawk ~ Electricity Ray
+Spit		KEY:Felldrake (Spitting) ~ Spit		PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Simple.Touch	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:0	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:MM2							RANGE:30		PREABILITY:1,CATEGORY=Special Ability,Felldrake (Spitting)~ Spit
 
 # Simple Weapons																											
 ## Unarmed																											

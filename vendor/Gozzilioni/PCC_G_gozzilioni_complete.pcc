@@ -23,6 +23,8 @@ PCC:core/MonsterManual2/_monstermanual2.pcc
 PCC:core/ExpandedPsionicHandbook/_expandedpsionicshandbook.pcc
 
 PCC:srd30/_srd30.pcc
+PCC:srd30/PsionicHandbook/_psionichandbook.pcc
+PCC:srd30/PlayerSHandbook/_playershandbook.pcc
 
 PCC:houserules/_houserules.pcc
 
@@ -30,7 +32,6 @@ PCC:web/DragonMagazine/_dragonmagazine082.pcc
 
 PCC:errata/MonsterManual/_monstermanual_errata.pcc
 PCC:errata/ExpandedPsionicHandbook/_expandedpsionichandbook_errata.pcc
-
 
 # ENTRY DATE: 2015-08 
 # LST MONKEY: Riccardo

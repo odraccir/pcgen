@@ -1,10 +1,10 @@
-CAMPAIGN:Gozzilioni old SRD
+CAMPAIGN:Gozzilioni Player's Handbook 3.0
 GAMEMODE:35e
 RANK:5
-TYPE:Gozzilioni.Core
+TYPE:Gozzilioni.Old30
 SETTING:Heroes
-SOURCELONG:Gozzilioni SRD
-SOURCESHORT:G
+SOURCELONG:Gozzilioni Player's Handbook 3.0
+SOURCESHORT:PHB3
 SOURCEWEB:http://www.gozzilioni.net
 #SOURCEDATE:2008-01
 ISOGL:NO
@@ -14,9 +14,7 @@ PRECAMPAIGN:1,Gozzilioni Core Ruleset
 
 #from the old SRD 3.0, cambi di nome, stranezze e riesumazioni
 # or something disappeared from 3.5 that are needed with some manuals of 3.0 updated
-EQUIPMENT:srd_equip_weap_melee.lst
-ABILITY:srd_feats.lst
-WEAPONPROF:srd_weapprofs.lst
+SPELL:phb3_spells.lst
 
 #ABILITY:my_abilities.lst
 #ABILITYCATEGORY:my_ability_categories.lst

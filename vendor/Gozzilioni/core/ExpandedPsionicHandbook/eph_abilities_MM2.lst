@@ -1,0 +1,17 @@
+SOURCELONG:Gozzilioni Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04																														
+																																	
+# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
+###Block:MM2
+CATEGORY=Special Ability|Dragon (Amethyst Dragon) ~ Invisibility.MOD	SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonAgeCategory|Invisibility (Psionic)
+CATEGORY=Special Ability|Dragon (Amethyst Dragon) ~ Suggestion.MOD	SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonAgeCategory|Invisibility (Suggestion)
+CATEGORY=Special Ability|Dragon (Amethyst Dragon) ~ Body Equilibrium.MOD	SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonAgeCategory|Body Equilibrium
+CATEGORY=Special Ability|Dragon (Crystal Dragon) ~ Control Winds.MOD	SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonAgeCategory|Control Air
+CATEGORY=Special Ability|Dragon (Emerald Dragon) ~ Object Reading.MOD	SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonAgeCategory|Object Reading
+CATEGORY=Special Ability|Dragon (Emerald Dragon) ~ Sculpt Sound.MOD	SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonAgeCategory|Control Sound
+CATEGORY=Special Ability|Dragon (Emerald Dragon) ~ Improved Invisibility.MOD	SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonAgeCategory|Invisibility (Psionic)
+CATEGORY=Special Ability|Dragon (Emerald Dragon) ~ Nondetection.MOD	SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonAgeCategory|Nondetection (Psionic)
+CATEGORY=Special Ability|Dragon (Emerald Dragon) ~ Shield of Prudence.MOD	SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonAgeCategory|Shield of Prudence
+CATEGORY=Special Ability|Dragon (Sapphire Dragon) ~ Sense Psychoportation.MOD	DESC:Sense Psychoportation power always active.
+CATEGORY=Special Ability|Dragon (Sapphire Dragon) ~ Skate.MOD	SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonAgeCategory|Skate
+CATEGORY=Special Ability|Dragon (Sapphire Dragon) ~ Teleport.MOD	SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonAgeCategory|Teleport (Psionic)
+CATEGORY=Special Ability|Dragon (Topaz Dragon) ~ Control Winds.MOD	SPELLS:Innate|TIMES=3|CASTERLEVEL=DragonAgeCategory|Control Air

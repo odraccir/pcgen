@@ -446,16 +446,16 @@ KIT:Genie (Janni) Language Alignment
 
 STARTPACK:Genie (Janni) Language Elemental	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Genie (Janni),Companion ~ Genie (Janni)
 SELECT:roll("1d4")
-TEMPLATE:Genie ~ Janni ~ Language ~ Aquan	OPTION:01
-TEMPLATE:Genie ~ Janni ~ Language ~ Auran	OPTION:02
-TEMPLATE:Genie ~ Janni ~ Language ~ Ignan	OPTION:03
-TEMPLATE:Genie ~ Janni ~ Language ~ Terran	OPTION:04
+TEMPLATE:Language ~ Aquan	OPTION:01
+TEMPLATE:Language ~ Auran	OPTION:02
+TEMPLATE:Language ~ Ignan	OPTION:03
+TEMPLATE:Language ~ Terran	OPTION:04
 
 STARTPACK:Genie (Janni) Language Alignment	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Genie (Janni),Companion ~ Genie (Janni)
 SELECT:roll("1d3")
-TEMPLATE:Genie ~ Janni ~ Language ~ Abyssal	OPTION:01
-TEMPLATE:Genie ~ Janni ~ Language ~ Celestial	OPTION:02
-TEMPLATE:Genie ~ Janni ~ Language ~ Infernal	OPTION:03
+TEMPLATE:Language ~ Abyssal	OPTION:01
+TEMPLATE:Language ~ Celestial	OPTION:02
+TEMPLATE:Language ~ Infernal	OPTION:03
 
 STARTPACK:Genie (Janni) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Genie (Janni),Companion ~ Genie (Janni)
 GEAR:Scimitar

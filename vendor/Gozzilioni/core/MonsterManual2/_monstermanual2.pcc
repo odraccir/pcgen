@@ -14,38 +14,26 @@ PUBNAMELONG:Gozzilioni
 PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
-PRECAMPAIGN:3,Gozzilioni Core Ruleset,Gozzilioni Monster Manual 2,Gozzilioni Expanded Psionics Handbook
+PRECAMPAIGN:3,Gozzilioni Core Ruleset,Gozzilioni Monster Manual
 
 ABILITY:mm2_abilities.lst
-# ABILITY:phb_abilities_classes.lst
 ABILITY:mm2_abilities_races.lst
-# ABILITY:mm1_abilities_templates.lst
-# ABILITY:mm1_subraces.lst
 ABILITYCATEGORY:mm2_abilitycategories.lst
-# BIOSET:phb_biosettings.lst
 CLASS:mm2_classes.lst
 COMPANIONMOD:mm2_companionmods.lst
-# DEITY:mm1_deities.lst
-# DOMAIN:phb_domains.lst
 EQUIPMENT:mm2_equip.lst
-# EQUIPMENT:mm1_equip_magic_items.lst
-# EQUIPMENT:phb_equip_armors.lst
-# EQUIPMENT:mm1_equip_weapons.lst
-EQUIPMENT:mm2_equip_weapons_natural.lst
 EQUIPMENT:mm2_equip_weapons.lst
+EQUIPMENT:mm2_equip_weapons_natural.lst
 EQUIPMOD:mm2_equipmods.lst
-# ABILITY:mm1_feats.lst
+ABILITY:mm2_feats.lst
 KIT:mm2_kits.lst
 LANGUAGE:mm2_languages.lst
-# ARMORPROF:phb_profs_armor.lst
-# SHIELDPROF:phb_profs_shield.lst
 WEAPONPROF:mm2_profs_weapon.lst
 RACE:mm2_races.lst
 RACE:mm2_races_companion.lst
 SKILL:mm2_skills.lst
 SPELL:mm2_spells.lst
-# TEMPLATE:mm1_templates.lst
-
+TEMPLATE:mm2_templates.lst
 #
 # HIDETYPE:SKILL|Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma
 

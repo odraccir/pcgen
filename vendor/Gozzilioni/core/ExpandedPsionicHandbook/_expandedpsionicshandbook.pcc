@@ -44,6 +44,9 @@ SPELL:eph_spells.lst
 ABILITY:eph_subraces.lst
 TEMPLATE:eph_templates.lst
 
+ABILITY:eph_abilities_MM2.lst|PRECAMPAIGN:1,Gozzilioni Monster Manual 2
+ABILITY:eph_races_MM2.lst|PRECAMPAIGN:1,Gozzilioni Monster Manual 2
+
 #
 HIDETYPE:SKILL|Autohypnosis|Knowledge (Psionics)|Psicraft|Use Psionic Device
 

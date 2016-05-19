@@ -2,4 +2,9 @@ SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozz
 #																																																		
 # Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:																																													
 #
+Climb.MOD	SITUATION:Forested area
 Hide.MOD	SITUATION:Smoky or foggy area
+Hide.MOD	SITUATION:Desert area
+Hide.MOD	SITUATION:Subterranean area
+Move Silently.MOD	SITUATION:Forested area
+Spot.MOD	SITUATION:Forested area

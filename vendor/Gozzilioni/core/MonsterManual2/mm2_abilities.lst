@@ -3,7 +3,8 @@ SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozz
 # Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 																																
 ###Block: Monster Class Spellcasting for Domains																																
-																																
+Psion Class	CATEGORY:Internal	TYPE:CastingClassSupport																														
+
 ###Block: Monster Domain																																
 																																
 ###Block:																																
@@ -22,7 +23,7 @@ Companionship	CATEGORY:Special Ability	TYPE:AnimalTrick.AnimalTrickCompanionship
 Mimic	CATEGORY:Special Ability	TYPE:AnimalTrick.AnimalTrickMimic		DESC:These birds are also natural mimics. With a successful Handle Animal check (DC 23), a corollax can be trained to repeat a particular phrase. Each bird is capable of remembering up to nine different phrases, though each phrase requires a separateHandle Animal check.	KEY:Animal Trick ~ Mimic			PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Animal Trick ~ Mimic],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.AnimalTrickMimic]	PRERACE:1,Corollax,Companion ~ Corollax																							SOURCEPAGE:MM2
 
 ###Block: Dragons
-Gem Dragon	CATEGORY:Internal	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Breath Weapon	ABILITY:Special Ability|AUTOMATIC|Gem Dragon ~ Psionics	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Spell-Like Abilities	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Immunities	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Blindsense	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Keen Senses	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Skills	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Feats	ABILITY:Special Ability|VIRTUAL|Immunity To Sleep|Immunity To Paralysis		ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Wing	ABILITY:Special Ability|AUTOMATIC|Gem Dragon ~ Planar Travel	ABILITY:Special Ability|AUTOMATIC|Gem Dragon ~ Resistances																		
+Gem Dragon	CATEGORY:Internal	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Breath Weapon	ABILITY:Special Ability|AUTOMATIC|Gem Dragon ~ Psionics	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Immunities	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Blindsense	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Keen Senses	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Skills	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Feats	ABILITY:Special Ability|VIRTUAL|Immunity To Sleep|Immunity To Paralysis		ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Wing	ABILITY:Special Ability|AUTOMATIC|Gem Dragon ~ Planar Travel	ABILITY:Special Ability|AUTOMATIC|Gem Dragon ~ Resistances																		
 Psionics	CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality	DESC:All gem dragons have psionic abilities, as given in their descriptive text. (When using the Psionics Handbook, treat a gem dragon’s spell resistance as power resistance).	KEY:Gem Dragon ~ Psionics																												SOURCEPAGE:MM2
 Planar Travel	CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality	DESC:Gem dragons have the innate ability to pass instantly between the Material Plane and the Inner Planes, where they often make their homes.	KEY:Gem Dragon ~ Planar Travel																												SOURCEPAGE:MM2
 Resistances	CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality	DESC:Unless otherwise noted in an individual dragon’s description, each gem dragon has fire resistance 15.	KEY:Gem Dragon ~ Resistances						BONUS:VAR|FireResistanceBonus|15|TYPE=Resistance						ABILITY:Special Ability|AUTOMATIC|Resistance To Fire																SOURCEPAGE:MM2

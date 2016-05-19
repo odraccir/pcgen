@@ -1,0 +1,14 @@
+SOURCELONG:Gozzilioni Psionic Handbook	SOURCESHORT:PsH	SOURCEWEB:http://www.gozzilioni.net																								
+# questi incantesimi sono della 3.0 edizione. non dovrebbero probabilmente nemmeno esserci,																										
+# ma sembrano ancora usati in giro per classi e mostri.																										
+																										
+###Block: AB																										
+# Spell Name	Output Name	Spell Variations	Type	Classes of caster	Domains granting the spell	School	Sub-School	Spell Descriptors	Components	Casting Time	Range	Target Area or Effect		Duration	Save Info	Spell Resistance	Description	Source Page	Item	COST:	XPCOST:	PPCOST	Combat bonus	Bonus to HP	Stat bonus	Choose
+# Invisibility (Psionic)	psion 2
+Invisibility (Psionic)				TYPE:Power	SCHOOL:Psychokinesys				COMPS:None	CASTTIME:1 standard action	RANGE:Personal or Touch	TARGETAREA:You or a creature or object weighing no more than 100 lb/level.	DURATION:10 minutes/level	SAVEINFO:Will negates (harmless, object)	SPELLRES:Yes	DESC:.	SOURCEPAGE:PsH					DESC:Power Points: 3.		
+# Nondetection (Psionic)	psion 3
+Nondetection (Psionic)				TYPE:Power	SCHOOL:Clairsentience				COMPS:None	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature or object touched.	DURATION:1 hour/level	SAVEINFO:Will negates (harmless, object)	SPELLRES:Yes	DESC:.	SOURCEPAGE:PsH					DESC:Power Points: 5.		
+# Shield of Prudence	psion 6/psychic warrior 6
+Shield of Prudence				TYPE:Power	SCHOOL:Clairsentience				COMPS:Vi, Ma	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:1 hour/level	SAVEINFO:No	SPELLRES:No	DESC:.	SOURCEPAGE:PsH					DESC:Power Points: 11.		
+# Sense Psychoportation	psion 2
+Sense Psychoportation				TYPE:Power	SCHOOL:Psychoportation				COMPS:Vi	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:A circle, centered on you, with a radius of 100-ft + 10-ft/level.	DURATION:1 hour/level	SAVEINFO:No	SPELLRES:No	DESC:.	SOURCEPAGE:PsH					DESC:Power Points: 3.		
