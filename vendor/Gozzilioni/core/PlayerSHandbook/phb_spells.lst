@@ -651,5 +651,5 @@ Mark of Justice (-6 to Constitution)		KEY:Mark of Justice Option2c														
 Mark of Justice (-6 to Intelligence)		KEY:Mark of Justice Option2d																					TEMPBONUS:ANYPC|STAT|STR|-6															
 Mark of Justice (-6 to Wisdom)		KEY:Mark of Justice Option2e																					TEMPBONUS:ANYPC|STAT|STR|-6															
 Mark of Justice (-6 to Charisma)		KEY:Mark of Justice Option2f																					TEMPBONUS:ANYPC|STAT|STR|-6															
-Prayer (Ally)		KEY:Prayer Option1																					TEMPBONUS:ANYPC|SAVE|ALL|1|TYPE=Luck	TEMPBONUS:ANYPC|COMBAT|TOHIT,DAMAGE|1|TYPE=Luck	TEMPBONUS:ANYPC|SKILL|ALL|1|TYPE=Luck													
-Prayer (Enemy)		KEY:Prayer Option2																					TEMPBONUS:ANYPC|SAVE|ALL|-1|TYPE=Luck	TEMPBONUS:ANYPC|COMBAT|TOHIT,DAMAGE|-1|TYPE=Luck	TEMPBONUS:ANYPC|SKILL|ALL|-1|TYPE=Luck													
+Prayer (Ally)		KEY:Prayer Option1																					TEMPBONUS:ANYPC|SAVE|ALL|1|TYPE=Luck	TEMPBONUS:ANYPC|COMBAT|TOHIT|1|TYPE=Luck	TEMPBONUS:ANYPC|COMBAT|DAMAGE.Melee,DAMAGE.Ranged|1|TYPE=Luck	TEMPBONUS:ANYPC|SKILL|TYPE.Skill|1|TYPE=Luck													
+Prayer (Enemy)		KEY:Prayer Option2																					TEMPBONUS:ANYPC|SAVE|ALL|-1|TYPE=Luck	TEMPBONUS:ANYPC|COMBAT|TOHIT|-1|TYPE=Luck	TEMPBONUS:ANYPC|COMBAT|DAMAGE.Melee,DAMAGE.Ranged|-1|TYPE=Luck	TEMPBONUS:ANYPC|SKILL|TYPE.Skill|-1|TYPE=Luck													
