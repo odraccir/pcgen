@@ -5,3 +5,6 @@ Boggle			TYPE:Spoken
 Clockwork Mechanical Sound			TYPE:Spoken
 Sloth			TYPE:Spoken
 Desmodu			TYPE:Spoken	PREVARGTEQ:DesmoduLanguage,1
+Jermlaines			TYPE:Spoken
+Loxo			TYPE:Spoken
+Signal System			TYPE:Spoken	PREVARGTEQ:PhaseWaspLanguage,1

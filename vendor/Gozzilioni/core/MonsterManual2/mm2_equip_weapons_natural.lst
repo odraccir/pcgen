@@ -4,11 +4,8 @@ SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozz
 Flame Spit		KEY:Ash Rat ~ Flame Spit		PROFICIENCY:WEAPON|Flame Spit	TYPE:Weapon.Natural.Ranged.Simple	COST:0	WT:0	WIELD:Light		SIZE:S	DAMAGE:0	CRITRANGE:2	CRITMULT:x2		SOURCEPAGE:MM2							RANGE:10		PREABILITY:1,CATEGORY=Special Ability,Ash Rat ~ Flame spit
 Death Ray		KEY:Catoblepas ~ Death Ray		PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Simple.Touch	COST:0	WT:0	WIELD:Light		SIZE:H	DAMAGE:0	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:MM2							RANGE:160		PREABILITY:1,CATEGORY=Special Ability,Catoblepas ~ Death Ray
 Pressure Dart		KEY:Clockwork Horror (Electrum) ~ Pressure Dart		PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Simple.Touch	COST:0	WT:0	WIELD:Light		SIZE:S	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:MM2							RANGE:20		PREABILITY:1,CATEGORY=Special Ability,Clockwork Horror (Electrum) ~ Pressure Dart
-
-# BONUS:WEAPON|DAMAGESIZE|(ArrowhawkSizeTracker-1)|PREVARGTEQ:ArrowhawkSizeTracker,2
-# Electricity Ray		KEY:Arrowhawk ~ Electricity Ray ~ S		PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Simple.Touch	COST:0	WT:0	WIELD:Light		SIZE:S	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:MM1							RANGE:50		PREABILITY:1,CATEGORY=Special Ability,Arrowhawk ~ Electricity Ray
-# Electricity Ray		KEY:Arrowhawk ~ Electricity Ray ~ M		PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Simple.Touch	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:2d8	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:MM1							RANGE:50		PREABILITY:1,CATEGORY=Special Ability,Arrowhawk ~ Electricity Ray
 Spit		KEY:Felldrake (Spitting) ~ Spit		PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Simple.Touch	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:0	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:MM2							RANGE:30		PREABILITY:1,CATEGORY=Special Ability,Felldrake (Spitting)~ Spit
+Needle		KEY:Needlefolk ~ Needle		PROFICIENCY:WEAPON|Needle	TYPE:Weapon.Natural.Ranged.Simple.Piercing	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:1d12	CRITRANGE:2	CRITMULT:x2		SOURCEPAGE:MM2							RANGE:20		PREABILITY:1,CATEGORY=Special Ability,Needlefolk ~ Needles
 
 # Simple Weapons																											
 ## Unarmed																											

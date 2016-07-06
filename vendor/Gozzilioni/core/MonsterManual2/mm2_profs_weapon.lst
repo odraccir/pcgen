@@ -6,41 +6,5 @@ SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozz
 ### Bludgeoning/Piercing/Slashing			
 ### Reach/Double/Thrown/Projectile/Ammunition			
 ### Unharmed/Light/OneHanded/TwoHanded			
-# Giant Rock	TYPE:Weapon.Ranged.Bludgeoning.RangedBludgeoning.Rock
-# Pincer Staff	TYPE:Weapon.Melee.Bludgeoning.MeleeBludgeoning
 Notbora	TYPE:Weapon.Exotic.Melee.Bludgeoning.Slashing.Double.MeleeBludgeoning.MeleeSlashing
-
-###Automatic			
-# Bite	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning.MeleePiercing.MeleeSlashing.MeleeBludgeoning
-# Claw	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning.MeleePiercing.MeleeSlashing.MeleeBludgeoning
-# Talon	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning.MeleePiercing.MeleeSlashing.MeleeBludgeoning
-# Gore	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
-# Slap	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
-# Slam	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
-# Sting	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
-# Tentacle	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
-Wind Scythe	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing
-Rake	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing
-#Touch
-Energy Touch	TYPE:Weapon.Natural.Finesseable.Melee.Touch.MeleeTouch
-#Melee
-# Wing	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
-# Tail	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
-# Tail Slap	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
-# Pincer	TYPE:Weapon.Natural.Finesseable.Melee.Slashing.Bludgeoning.MeleeBludgeoning.MeleeSlashing
-# Foreclaw	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing
-# Tentacle (Arms)	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
-# Snake	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing
-# Tongue	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
-# Horn	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
-# Tendril	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
-# Stamp	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
-# Ram	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
-Nettle	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
-Chain Rake	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
-Razor Saw	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing
-#Ranged
-Flame Spit	TYPE:Weapon.Natural.Finesseable.Ranged
-Death Ray	TYPE:Weapon.Natural.Finesseable.Ranged
-Pressure Dart	TYPE:Weapon.Natural.Finesseable.Ranged
 

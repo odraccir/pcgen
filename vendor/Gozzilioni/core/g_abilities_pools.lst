@@ -18,7 +18,6 @@ Bardic Knowledge	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialQuality.Extr
 Death Touch	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialAttack.Supernatural	VISIBLE:YES	DESC:%1/day, melee touch attack, %2d6 points of damage. If the total at least equals creature's current hit points, it dies|DeathTouchTimes|DeathTouch				DEFINE:DeathTouchTimes|0	DEFINE:DeathTouch|0																										
 Defensive Stance	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialQuality.Extraordinary	VISIBLE:YES	DEFINE:DefensiveStanceTimes|0	DEFINE:DefensiveStanceLVL|0	DEFINE:DefensiveStanceDuration|0	DEFINE:DefensiveStanceConBonus|0	DEFINE:DefensiveStanceStrBonus|0	DEFINE:DefensiveStanceACBonus|0	DEFINE:DefensiveStanceMorale|0	DEFINE:DefensiveStance|0	DEFINE:DefensiveStanceBonus|0	DESC:%1 times/day (%2 rounds)|DefensiveStanceTimes|DefensiveStanceDuration|PREVARGT:DefensiveStanceTimes,0	DESC:Bonuses when in defensive stance (STR +%1, CON +%2, saves +%3, AC %4, HP %5)|DefensiveStanceStrBonus|DefensiveStanceConBonus|DefensiveStanceMorale|DefensiveStanceACBonus|(DefensiveStanceConBonus/2)*TL	BONUS:VAR|DefensiveStanceBonus|4	BONUS:VAR|DefensiveStanceDuration|CON+3+(DefensiveStanceConBonus/2)	BONUS:VAR|DefensiveStanceConBonus|DefensiveStanceBonus	BONUS:VAR|DefensiveStanceStrBonus|DefensiveStanceBonus/2	BONUS:VAR|DefensiveStanceACBonus|DefensiveStanceBonus	BONUS:VAR|DefensiveStanceMorale|DefensiveStanceBonus/2	TEMPDESC:Defensive Stance (STR +%1, CON +%2, saves +%3, AC +%4, HP %5)|DefensiveStanceStrBonus|DefensiveStanceConBonus|DefensiveStanceMorale|DefensiveStanceACBonus|(DefensiveStanceConBonus/2)*TL	TEMPBONUS:PC|SAVE|ALL|DefensiveStanceMorale	TEMPBONUS:PC|COMBAT|AC|DefensiveStanceACPenalty	TEMPBONUS:PC|STAT|CON|DefensiveStanceConBonus	TEMPBONUS:PC|STAT|STR|DefensiveStanceStrBonus	TEMPBONUS:PC|VAR|DefensiveStanceDuration|-(DefensiveStanceConBonus/2)	TEMPBONUS:PC|VAR|DefensiveStance|1								
 Favored Enemy	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialQuality.Extraordinary	VISIBLE:YES	DEFINE:ImprovedFavoredEnemyBonus|0	SOURCEPAGE:DMG																														
-Fast Healing	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialQuality.Extraordinary	VISIBLE:YES	DEFINE:FastHealing|0	SOURCEPAGE:DMG	ASPECT:NAME|Fast Healing %1|FastHealing																													
 Battle Frenzy	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialAttack.Extraordinary	VISIBLE:YES	DEFINE:BattleFrenzyTimes|0	DEFINE:BattleFrenzyLvl|0	DEFINE:BattleFrenzyDuration|0	DEFINE:BattleFrenzyConBonus|0	DEFINE:BattleFrenzyStrBonus|0	DEFINE:BattleFrenzyACPenalty|0	DEFINE:BattleFrenzyMorale|0	DEFINE:EnBattleFrenzyd|0	DEFINE:BattleFrenzyBonus|0	DESC:%1 times/day (%2 rounds)|BattleFrenzyTimes|BattleFrenzyDuration|PREVARGT:BattleFrenzyTimes,0	DESC:Tireless BattleFrenzy, %1 times/day without fatigue (%2 rounds)|BattleFrenzyTimes|BattleFrenzyDuration|PREVARGTEQ:TirelessBattleFrenzy,1	DESC:Bonuses when frenzied (STR +%1, CON +%2, Will +%3, AC -%4, HP %5)|BattleFrenzyStrBonus|BattleFrenzyConBonus|BattleFrenzyMorale|BattleFrenzyACPenalty|(BattleFrenzyConBonus/2)*TL	BONUS:VAR|BattleFrenzyBonus|4	BONUS:VAR|BattleFrenzyDuration|CON+3+(BattleFrenzyConBonus/2)	BONUS:VAR|BattleFrenzyConBonus|BattleFrenzyBonus	BONUS:VAR|BattleFrenzyStrBonus|BattleFrenzyBonus	BONUS:VAR|BattleFrenzyACPenalty|2	BONUS:VAR|BattleFrenzyMorale|BattleFrenzyBonus/2	TEMPDESC:Battle Frenzied (STR +%1, CON +%2, Will +%3, AC -%4, HP %5)|BattleFrenzyStrBonus|BattleFrenzyConBonus|BattleFrenzyMorale|BattleFrenzyACPenalty|(BattleFrenzyConBonus/2)*TL	TEMPBONUS:PC|SAVE|Will|BattleFrenzyMorale	TEMPBONUS:PC|COMBAT|AC|-1*(BattleFrenzyACPenalty)	TEMPBONUS:PC|STAT|CON|BattleFrenzyConBonus	TEMPBONUS:PC|STAT|STR|BattleFrenzyStrBonus	TEMPBONUS:PC|VAR|BattleFrenzyDuration|-(BattleFrenzyConBonus/2)	TEMPBONUS:PC|VAR|BattleFrenzied|1			
 Blood Frenzy	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialAttack.Extraordinary	VISIBLE:YES	DEFINE:BloodFrenzyTimes|0	DEFINE:BloodFrenzyLvl|0	DEFINE:BloodFrenzyDuration|0	DEFINE:BloodFrenzyConBonus|0	DEFINE:BloodFrenzyStrBonus|0	DEFINE:BloodFrenzyACPenalty|0	DEFINE:BloodFrenzyMorale|0	DEFINE:EnBloodFrenzyd|0	DEFINE:BloodFrenzyBonus|0	DESC:%1 times/day (%2 rounds)|BloodFrenzyTimes|BloodFrenzyDuration|PREVARGT:BloodFrenzyTimes,0	DESC:Tireless BloodFrenzy, %1 times/day without fatigue (%2 rounds)|BloodFrenzyTimes|BloodFrenzyDuration|PREVARGTEQ:TirelessBloodFrenzy,1	DESC:Bonuses when frenzied (STR +%1, CON +%2, Will +%3, AC -%4, HP %5)|BloodFrenzyStrBonus|BloodFrenzyConBonus|BloodFrenzyMorale|BloodFrenzyACPenalty|(BloodFrenzyConBonus/2)*TL	BONUS:VAR|BloodFrenzyBonus|4	BONUS:VAR|BloodFrenzyDuration|CON+3+(BloodFrenzyConBonus/2)	BONUS:VAR|BloodFrenzyConBonus|BloodFrenzyBonus	BONUS:VAR|BloodFrenzyStrBonus|BloodFrenzyBonus	BONUS:VAR|BloodFrenzyACPenalty|2	BONUS:VAR|BloodFrenzyMorale|BloodFrenzyBonus/2	TEMPDESC:Blood Frenzied (STR +%1, CON +%2, Will +%3, AC -%4, HP %5)|BloodFrenzyStrBonus|BloodFrenzyConBonus|BloodFrenzyMorale|BloodFrenzyACPenalty|(BloodFrenzyConBonus/2)*TL	TEMPBONUS:PC|SAVE|Will|BloodFrenzyMorale	TEMPBONUS:PC|COMBAT|AC|-1*(BloodFrenzyACPenalty)	TEMPBONUS:PC|STAT|CON|BloodFrenzyConBonus	TEMPBONUS:PC|STAT|STR|BloodFrenzyStrBonus	TEMPBONUS:PC|VAR|BloodFrenzyDuration|-(BloodFrenzyConBonus/2)	TEMPBONUS:PC|VAR|BloodFrenzied|1			
 Flurry of Blows	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialQuality.Extraordinary	VISIBLE:YES	DEFINE:FlurryOfBlowsLVL|0	DEFINE:GreaterFlurryOfBlows|0	DEFINE:GreaterFlurryOfBlowsLVL|0	DEFINE:FlurryOfBlowsAttacks|0	DEFINE:FlurryOfBlowsPenalty|0	DEFINE:FlurryOfBlowsPenaltyLVL|0																										
@@ -52,6 +51,7 @@ Wild Shape	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialQuality.Supernatur
 ###TODO: Ability Focus for Spell-Like Abilities that are Special Attack.																																			
 # Basic																																			
 Absorb	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
+Abyssal Blast	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Acid	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Acid Spray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Adhesive	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
@@ -64,8 +64,11 @@ Babble	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																				
 Bay	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Beard	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Black Cloud	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Blade of Fury	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Blinding Beauty	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
-Bone Meld	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
+Blood Spray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
+Body Meld	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
+Bone Meld	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Brain Lock	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Breath Weapon	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:DMG	
 Burn	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
@@ -75,10 +78,15 @@ Chain Barrier	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES													
 Change Size	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Charisma Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
 Charming Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Charming Song	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
+Cloud of Steel	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Combustion	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Confusing Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Confusion	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Constitution Damage	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
 Constitution Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Constrict	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Control Host	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Corporeal Instability	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Corrosive Slime	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Corrupting Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
@@ -96,6 +104,7 @@ Despair	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																			
 Destructive Harmonics	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Detect Thoughts	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Disease	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Disjunctive Bite	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Distraction	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Dominate	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Domination	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
@@ -107,6 +116,8 @@ Energy Touch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES														
 Engulf	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Enslave	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Entangle	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Entangling Roots	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2
+Entropic Touch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Evil Eye	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Evil Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Explosive Gems	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
@@ -118,20 +129,24 @@ Feeblemind	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																
 Fiddle	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Fiery Aura	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Fist of Thunder and Lightning	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Force Web	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Frightful Moan	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Frightful Presence	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Fungus	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Ghoul Fever	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Gibbering	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Heat	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Horrific Appearance	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Howl	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Hypnosis	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Implant	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Infernal Wound	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Infuse	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Ink Cloud	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Kiss	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Kiss of Death	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
+Kyuss's Gift	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Lightning Bolt	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Liquefy Crystal	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:EPH
 Magic Drain	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
@@ -142,6 +157,7 @@ Moisture	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																		
 Mucus Cloud	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Mummy Rot	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Negative Burst	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
+Nightmares	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Null Psionic Exhalation	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:EPH	
 Paralysis	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Paralytic Tentacles	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
@@ -150,17 +166,21 @@ Paralyzing Touch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES										
 Petrification	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Petrifying Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Poison	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Portalwake	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Prismatic Spray	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Protective Slime	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Quills	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Quivering Palm	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:PHB	
 Rainstorm	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Ramming	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Razor Storm	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
+Rend Mind	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Roar	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Rust	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Scare	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Screech	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Shriek	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Silk Slick	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Slaad Fever	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Slime	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Slow	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
@@ -172,28 +192,34 @@ Sonic Shriek	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES														
 Special Arrows	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Spit Acid	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Spittle	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Spores	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Stampede	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Steal Breath	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Stench	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Stormwing	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Strand	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Stun	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Stunning	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
+Stunning Blow	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Stunning Croak	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Stunning Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Stunning Glance	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Stunning Screech	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Stunning Shock	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Stunning Strike	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Suggestion	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Telekinetic Force	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Time Filch	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Trample	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Trap Essence	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Trill	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Tripping Thrust	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Trumpet	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Unnerving Gaze	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Vortex	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Wail	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Weakness	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Web	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
+Windsong	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM2	
 Whirlwind	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	
 Whirlwind Blast	CATEGORY:Ability Focus	TYPE:Ability Focus	VISIBLE:YES																															SOURCEPAGE:MM1	

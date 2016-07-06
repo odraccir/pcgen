@@ -105,6 +105,14 @@ Huge	VISIBLE:NO	KEY:Elemental ~ Huge	SUBRACE:Huge
 Greater	VISIBLE:NO	KEY:Elemental ~ Greater	SUBRACE:Greater
 Elder	VISIBLE:NO	KEY:Elemental ~ Elder	SUBRACE:Elder
 
+###Block: Myconid Age
+Junior Worker	VISIBLE:NO	KEY:Myconid ~ Junior Worker	SUBRACE:Junior Worker
+Average Worker	VISIBLE:NO	KEY:Myconid ~ Average Worker	SUBRACE:Average Worker
+Elder Worker	VISIBLE:NO	KEY:Myconid ~ Elder Worker	SUBRACE:Elder Worker
+Guard	VISIBLE:NO	KEY:Myconid ~ Guard	SUBRACE:Guard
+Circle Leader	VISIBLE:NO	KEY:Myconid ~ Circle Leader	SUBRACE:Circle Leader
+Sovereign	VISIBLE:NO	KEY:Myconid ~ Sovereign	SUBRACE:Sovereign
+
 ###Block: Fractional Hit Die Adjustments for Monster classes
 Half Hitdie		HITDIE:%/2|CLASS.TYPE=Monster	VISIBLE:NO
 Quarter Hitdie	HITDIE:%/4|CLASS.TYPE=Monster	VISIBLE:NO

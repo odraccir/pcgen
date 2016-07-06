@@ -1,10 +1,21 @@
 SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #																																																		
 # Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:																																													
+Craft (Stoneworking)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Stoneworking)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Stoneworking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=StoneworkingTools																																										
+Craft (Stoneworking)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Craft ~ Stoneworking	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Stoneworking).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Stoneworking)"),1]																																									
+Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Stoneworking|var("SKILL.Craft (Stoneworking).MISC")	BONUS:SKILLRANK|Craft ~ Stoneworking|skillinfo("TOTALRANK", "Craft (Stoneworking)")																																									
+Craft (Metalworking)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Metalworking)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Metalworking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=MetalworkingTools																																										
+Craft (Metalworking)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Craft ~ Metalworking	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Metalworking).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Metalworking)"),1]																																									
+Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Metalworking|var("SKILL.Craft (Metalworking).MISC")	BONUS:SKILLRANK|Craft ~ Metalworking|skillinfo("TOTALRANK", "Craft (Metalworking)")																																									
+
 #
 Climb.MOD	SITUATION:Forested area
+Disguise.MOD	SITUATION:Polymorphed
 Hide.MOD	SITUATION:Smoky or foggy area
 Hide.MOD	SITUATION:Desert area
+Hide.MOD	SITUATION:In shadows
 Hide.MOD	SITUATION:Subterranean area
+Hide.MOD	SITUATION:In the water
+Hide.MOD	SITUATION:In Marshlands
 Move Silently.MOD	SITUATION:Forested area
 Spot.MOD	SITUATION:Forested area

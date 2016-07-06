@@ -16,6 +16,7 @@ PRECAMPAIGN:1,Gozzilioni Core Ruleset
 # or something disappeared from 3.5 that are needed with some manuals of 3.0 updated
 EQUIPMENT:srd_equip_weap_melee.lst
 ABILITY:srd_feats.lst
+SPELL:srd_spells.lst
 WEAPONPROF:srd_weapprofs.lst
 
 #ABILITY:my_abilities.lst

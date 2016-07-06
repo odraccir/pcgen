@@ -1,29 +1,34 @@
-SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																													
 																																
 # Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 																																
 ###Block: Monster Class Spellcasting for Domains																																
 Psion Class	CATEGORY:Internal	TYPE:CastingClassSupport																														
-
+																																
 ###Block: Monster Domain																																
 																																
 ###Block:																																
-
+																																
 CATEGORY=Internal|Bogun (Base).MOD	ABILITY:Bogun Selection|AUTOMATIC|Standard Selection ~ Bogun|!PREABILITY:1,CATEGORY=Internal,TYPE.BogunAlternate																															
 Bogun (Default)	CATEGORY:Internal	TYPE:BogunSelection.BogunBase		KEY:Standard Selection ~ Bogun	!PREABILITY:1,CATEGORY=Internal,TYPE.BogunAlternate	COMPANIONLIST:Bogun|Companion ~ Bogun	COST:0																									
 Bogun Selection	CATEGORY:Internal	TYPE:BogunSelection.BogunAlternate		KEY:Expanded Selection ~ Bogun		COMPANIONLIST:Bogun|ANY	COST:0																									
-
-CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Bogun|PREMULT:2,[PREABILITY:1,CATEGORY=FEAT,Craft Construct],[PRECLASS:1,SPELLCASTER=7]
-#CATEGORY=Internal|Default.MOD	FOLLOWERS:Bogun|1|PREMULT:2,[PREABILITY:1,CATEGORY=FEAT,Craft Construct],[PRECLASS:1,SPELLCASTER=4]
-
+																																
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Bogun|PREMULT:2,[PREABILITY:1,CATEGORY=FEAT,Craft Construct],[PRECLASS:1,SPELLCASTER=7]																															
+#CATEGORY=Internal|Default.MOD	FOLLOWERS:Bogun|1|PREMULT:2,[PREABILITY:1,CATEGORY=FEAT,Craft Construct],[PRECLASS:1,SPELLCASTER=4]																															
+																																
 Empathic Link	CATEGORY:Special Ability	TYPE:ClassFeatures.BogunClassFeatures.SpecialQuality.Supernatural		DESC:A bogun cannot speak, but the process of creating one links it telepathically with its creator. It knows what its creator knows and can convey to him or her everything it sees and hears, up to a range of 1,500 feet. A bogun never travels beyond this range willingly, though it can be removed forcibly. In such a case, it does everything in its power to regain contact with its creator.	KEY:Bogun ~ Empathic Link																											SOURCEPAGE:MM2
-
-###Block: Tricks and Training																																																																																			
+																																
+###Block: Tricks and Training																																
 Companionship	CATEGORY:Special Ability	TYPE:AnimalTrick.AnimalTrickCompanionship		DESC:Because it is a social creature, a corollax can sometimes be persuaded to accept humanoid companionship on a long-term basis. If a character offers food and makes a successfulHandle Animal check (DC 25 if the character has not previously frightened or abused the bird, or DC 30 otherwise), the corollax considers the character a desirable companion and accompanies him or her willingly in all travels.	KEY:Animal Trick ~ Companionship			PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Animal Trick ~ Companionship],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.AnimalTrickCompanionship]	PRERACE:1,Corollax,Companion ~ Corollax																							SOURCEPAGE:MM2
 Mimic	CATEGORY:Special Ability	TYPE:AnimalTrick.AnimalTrickMimic		DESC:These birds are also natural mimics. With a successful Handle Animal check (DC 23), a corollax can be trained to repeat a particular phrase. Each bird is capable of remembering up to nine different phrases, though each phrase requires a separateHandle Animal check.	KEY:Animal Trick ~ Mimic			PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Animal Trick ~ Mimic],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.AnimalTrickMimic]	PRERACE:1,Corollax,Companion ~ Corollax																							SOURCEPAGE:MM2
-
-###Block: Dragons
-Gem Dragon	CATEGORY:Internal	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Breath Weapon	ABILITY:Special Ability|AUTOMATIC|Gem Dragon ~ Psionics	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Immunities	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Blindsense	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Keen Senses	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Skills	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Feats	ABILITY:Special Ability|VIRTUAL|Immunity To Sleep|Immunity To Paralysis		ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Wing	ABILITY:Special Ability|AUTOMATIC|Gem Dragon ~ Planar Travel	ABILITY:Special Ability|AUTOMATIC|Gem Dragon ~ Resistances																		
-Psionics	CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality	DESC:All gem dragons have psionic abilities, as given in their descriptive text. (When using the Psionics Handbook, treat a gem dragon’s spell resistance as power resistance).	KEY:Gem Dragon ~ Psionics																												SOURCEPAGE:MM2
+																																
+###Block: Dragons																																
+Gem Dragon	CATEGORY:Internal	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Breath Weapon	ABILITY:Special Ability|AUTOMATIC|Gem Dragon ~ Psionics	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Immunities	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Blindsense	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Keen Senses	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Skills	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Feats	ABILITY:Special Ability|VIRTUAL|Immunity To Sleep|Immunity To Paralysis		ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Wing	ABILITY:Special Ability|AUTOMATIC|Gem Dragon ~ Planar Travel	ABILITY:Special Ability|AUTOMATIC|Gem Dragon ~ Resistances																			
+Psionics	CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality	DESC:All gem dragons have psionic abilities, as given in their descriptive text. (When using the Psionics Handbook, treat a gem dragon's spell resistance as power resistance).	KEY:Gem Dragon ~ Psionics																												SOURCEPAGE:MM2
 Planar Travel	CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality	DESC:Gem dragons have the innate ability to pass instantly between the Material Plane and the Inner Planes, where they often make their homes.	KEY:Gem Dragon ~ Planar Travel																												SOURCEPAGE:MM2
-Resistances	CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality	DESC:Unless otherwise noted in an individual dragon’s description, each gem dragon has fire resistance 15.	KEY:Gem Dragon ~ Resistances						BONUS:VAR|FireResistanceBonus|15|TYPE=Resistance						ABILITY:Special Ability|AUTOMATIC|Resistance To Fire																SOURCEPAGE:MM2
+Resistances	CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality	DESC:Unless otherwise noted in an individual dragon's description, each gem dragon has fire resistance 15.	KEY:Gem Dragon ~ Resistances						BONUS:VAR|FireResistanceBonus|15|TYPE=Resistance						ABILITY:Special Ability|AUTOMATIC|Resistance To Fire																SOURCEPAGE:MM2
+																																
+Linnorm Dragon	CATEGORY:Internal	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Breath Weapon	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Blindsense	ABILITY:Special Ability|AUTOMATIC|True Dragon ~ Keen Senses	ABILITY:Special Ability|AUTOMATIC|Linnorm Dragon ~ Languages																											
+Languages	CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality	VISIBLE:YES	DESC:Linnorms speak Draconic and Abyssal.	KEY:Linnorm Dragon ~ Languages																		AUTO:LANG|Draconic|Abyssal									SOURCEPAGE:MM2
+																																
+Spores	CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality	VISIBLE:YES	DESC:As a standard action, a myconid can release a cloud of spores. These spores come in several different varieties, as described below. As it enters each new stage of life (increasing its Hit Dice by 1), a myconid gains a new variety of spore but does not lose access to the previous varieties. Each type of spore can be used a number of times per day equal to themyconid's Hit Dice.	KEY:Myconid ~ Spores			DEFINE:SporesDC|0					BONUS:VAR|SporesDC|DefaultDCCha	BONUS:VAR|SporesDC|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Spores)								ABILITY:Ability Focus|AUTOMATIC|Spores									SOURCEPAGE:MM2	

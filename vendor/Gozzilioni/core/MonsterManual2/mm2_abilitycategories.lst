@@ -2,11 +2,19 @@
 # Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
 
 # Subrace Support
+ABILITYCATEGORY:Chaond Race Trait	CATEGORY:Special Ability	TYPE:ChaondRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Chaond Subrace	CATEGORY:Internal	TYPE:ChaondSubrace.ChaondSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Zenythri Race Trait	CATEGORY:Special Ability	TYPE:ZenythriRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Zenythri Subrace	CATEGORY:Internal	TYPE:ZenythriSubrace.ZenythriSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
 
 #Abilitygroup:Class Ability categories																						
 ABILITYCATEGORY:Bogun Class Feature	CATEGORY:Special Ability	TYPE:BogunClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Homunculus Class Features			DISPLAYLOCATION:Class Features
 
 #Other Abilitygroups
+ABILITYCATEGORY:Elemental Manifestation	CATEGORY:Special Ability	TYPE:SpiritOfTheLandManifestation	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Monster of Legend Attack	CATEGORY:Special Ability	TYPE:MonsterOfLegendAttack	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Monster of Legend Quality	CATEGORY:Special Ability	TYPE:MonsterOfLegendQuality	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Monster of Legend Immunity	CATEGORY:Special Ability	TYPE:MonsterOfLegendImmunity	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
 
 #Feats Ability pools
 

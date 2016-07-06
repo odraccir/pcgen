@@ -8,8 +8,8 @@ Aboleth			TYPE:Spoken
 Blink Dog			TYPE:Spoken
 Ettin Pidgin			TYPE:Spoken.Orc.Goblin.Giant
 Formian			TYPE:Spoken	
-Githyanki			TYPE:Spoken.Written.Read.Gith.Secret	PREVARGTEQ:GithyankiLanguage,1
-Githzerai			TYPE:Spoken.Written.Read.Gith
+Githyanki			TYPE:Spoken.Written.Gith.Secret	PREVARGTEQ:GithyankiLanguage,1
+Githzerai			TYPE:Spoken.Written.Gith
 Grimlock			TYPE:Spoken
 Kuo-Toan			TYPE:Spoken
 Sahuagin			TYPE:Spoken

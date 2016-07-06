@@ -18,10 +18,12 @@ PRECAMPAIGN:3,Gozzilioni Core Ruleset,Gozzilioni Monster Manual
 
 ABILITY:mm2_abilities.lst
 ABILITY:mm2_abilities_races.lst
+ABILITY:mm2_abilities_templates.lst
 ABILITYCATEGORY:mm2_abilitycategories.lst
 CLASS:mm2_classes.lst
 COMPANIONMOD:mm2_companionmods.lst
 EQUIPMENT:mm2_equip.lst
+EQUIPMENT:mm2_equip_magic_items.lst
 EQUIPMENT:mm2_equip_weapons.lst
 EQUIPMENT:mm2_equip_weapons_natural.lst
 EQUIPMOD:mm2_equipmods.lst
@@ -33,9 +35,10 @@ RACE:mm2_races.lst
 RACE:mm2_races_companion.lst
 SKILL:mm2_skills.lst
 SPELL:mm2_spells.lst
+ABILITY:mm2_subraces.lst
 TEMPLATE:mm2_templates.lst
 #
-# HIDETYPE:SKILL|Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma
+HIDETYPE:SKILL|Craft (Stoneworking)
 
 # HIDETYPE:FEAT|Wizard
 

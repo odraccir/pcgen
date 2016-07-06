@@ -1,0 +1,38 @@
+SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																																							
+																																									
+# name				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Acid	CLASSES:Sorcerer=6|Wizard=6	COMPS:V, S, M/DF	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:Fog spreads in 20-ft. radius, 20 ft. High.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:.	SOURCEPAGE:PHB																					
+Animal Friendship
+Emotion (Fear)
+Emotion (Friendship)
+Emotion (Hate)
+Symbol (Discord)
+Symbol (Hopelessness)
+#
+Temp, replace with Haste	KEY:Haste (Mass)	TYPE:OldSpell
+Temp, replace with Death Ward	KEY:Negative Energy Protection	TYPE:OldSpell
+Temp, replace with Nystul's Magic Aura	KEY:Nystul's Undetectable Aura	TYPE:OldSpell
+Temp, replace with Polymorph, Baleful Polymorph	KEY:Polymorph Other	TYPE:OldSpell
+Temp, replace with Polymorph ~ Self only	KEY:Polymorph Self	TYPE:OldSpell
+#name change
+Temp, replace with Disguise Self	KEY:Change Self	TYPE:OldSpell
+Temp, replace with Charm Animal	KEY:Charm Person or Animal	TYPE:OldSpell
+Temp, replace with Inflict Light Wound (Mass)	KEY:Circle of Doom	TYPE:OldSpell
+Temp, replace with Crushing Despair	KEY:Emotion (Despair)	TYPE:OldSpell
+Temp, replace with Good Hope	KEY:Emotion (Hope)	TYPE:OldSpell
+Temp, replace with Bear's Endurance	KEY:Endurance	TYPE:OldSpell
+Temp, replace with Enlarge Person	KEY:Enlarge	TYPE:OldSpell
+Temp, replace with Dispel Magic (Greater)	KEY:Greater Dispelling	TYPE:OldSpell
+Temp, replace with Cure Light Wound (Mass)	KEY:Healing Circle	TYPE:OldSpell
+Temp, replace with Invisibility (Greater)	KEY:Improved Invisibility	TYPE:OldSpell
+Temp, replace with Hide to Animals	KEY:Invisibility to Animals	TYPE:OldSpell
+Temp, replace with Hide to Undead	KEY:Invisibility to Undead	TYPE:OldSpell
+Temp, replace with Charm Monster (Mass)	KEY:Charm (Mass)	TYPE:OldSpell
+Temp, replace with Globe of Invulnerability (Lesser)	KEY:Globe of Invulnerability (Minor)	TYPE:OldSpell
+Temp, replace with Protection from Energy	KEY:Protection from Elements	TYPE:OldSpell
+Temp, replace with Rage	KEY:Emotion (Rage)	TYPE:OldSpell
+Temp, replace with Confusion (Lesser)	KEY:Random Action	TYPE:OldSpell
+Temp, replace with Reduce Person	KEY:Reduce	TYPE:OldSpell
+Temp, replace with Resist Energy	KEY:Resist Elements	TYPE:OldSpell
+Temp, replace with Symbol of Death, Fear, Insanity, Pain, Persuasion, Sleep or Stunning	KEY:Symbol	TYPE:OldSpell
+Temp, replace with Teleport (Greater)	KEY:Teleport without Error	TYPE:OldSpell
+Temp, replace with Teleport Object	KEY:Vanish	TYPE:OldSpell

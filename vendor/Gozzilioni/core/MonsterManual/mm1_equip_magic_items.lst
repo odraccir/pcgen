@@ -1,11 +1,11 @@
 SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #																									
 #	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:			
-Phylactery (Full/Lich)			OUTPUTNAME:[NAME] Phylactery, Full	TYPE:Wondrous	COST:120000	WT:5	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item									SOURCEPAGE:MM1
-Phylactery (Contenitor/Lich)			OUTPUTNAME:[NAME] Phylactery, Contenitor	TYPE:Wondrous.Container	COST:0	WT:5	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item	PRECLASS:1,Lich								SOURCEPAGE:MM1	CONTAINS:UNLIM|Total=3|PhylacteryPart1=1|PhylacteryPart2=1|PhylacteryPart3=1
-Phylactery Part 1				TYPE:PhylacteryPart1	COST:40000	WT:0	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item	PRECLASS:1,Lich=1								SOURCEPAGE:MM1
-Phylactery Part 2				TYPE:PhylacteryPart2	COST:40000	WT:0	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item	PRECLASS:1,Lich=1								SOURCEPAGE:MM1
-Phylactery Part 3				TYPE:PhylacteryPart3	COST:40000	WT:0	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item	PRECLASS:1,Lich=1								SOURCEPAGE:MM1
-Heartstone	TYPE:Wondrous	COST:1800	WT:0	SOURCEPAGE:MM1	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=16|Etherealness|PRERACE:1,Night Hag	DESC:Cures any disease.	BONUS:SAVE|ALL|2|TYPE=Resistance
+Phylactery (Full/Lich)	OUTPUTNAME:[NAME] Phylactery, Full	TYPE:Wondrous	COST:120000	WT:5	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item									SOURCEPAGE:MM1
+Phylactery (Contenitor/Lich)	OUTPUTNAME:[NAME] Phylactery, Contenitor	TYPE:Wondrous.Container	COST:0	WT:5	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item	PRECLASS:1,Lich								SOURCEPAGE:MM1	CONTAINS:UNLIM|Total=3|PhylacteryPart1=1|PhylacteryPart2=1|PhylacteryPart3=1
+Phylactery Part 1		TYPE:PhylacteryPart1	COST:40000	WT:0	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item	PRECLASS:1,Lich=1								SOURCEPAGE:MM1
+Phylactery Part 2		TYPE:PhylacteryPart2	COST:40000	WT:0	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item	PRECLASS:1,Lich=1								SOURCEPAGE:MM1
+Phylactery Part 3		TYPE:PhylacteryPart3	COST:40000	WT:0	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item	PRECLASS:1,Lich=1								SOURCEPAGE:MM1
+Heartstone		TYPE:Wondrous	COST:1800	WT:0	SOURCEPAGE:MM1	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=16|Etherealness|PRERACE:1,Night Hag	DESC:Cures any disease.	BONUS:SAVE|ALL|2|TYPE=Resistance
 Shield Guardian's Lab		TYPE:Goods.Tools.Artisan	COST:500	WT:40	SOURCEPAGE:MM1
-Shield Guardian's Amulet	TYPE:Wondrous.Amulet	COST:20000	WT:0	SOURCEPAGE:MM1
+Shield Guardian's Amulet		TYPE:Wondrous.Amulet	COST:20000	WT:0	SOURCEPAGE:MM1

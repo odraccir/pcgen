@@ -7,8 +7,8 @@ SOURCELONG:Gozzilioni Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http:
 ### Reach/Double/Thrown/Projectile/Ammunition			
 ### Unharmed/Light/OneHanded/TwoHanded			
 ###Automatic			
-Tentacle Rake	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
-Tail Blade	TYPE:Weapon.Natural.Finesseable.Melee.Slashing.MeleeSlashing
+# Tentacle Rake	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
+# Tail Blade	TYPE:Weapon.Natural.Finesseable.Melee.Slashing.MeleeSlashing
 
 # Fake Auto	TYPE:Auto		
 # Fake Simple	TYPE:Simple.Melee		

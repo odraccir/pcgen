@@ -38,6 +38,7 @@ WEAPONPROF:phb_profs_weapon.lst
 RACE:phb_races.lst
 SKILL:phb_skills.lst
 SPELL:phb_spells.lst
+ABILITY:phb_subraces.lst
 TEMPLATE:phb_templates.lst
 
 #
