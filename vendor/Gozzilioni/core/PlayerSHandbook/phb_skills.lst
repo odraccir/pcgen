@@ -12,7 +12,7 @@ Craft (Bowmaking)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Cra
 Craft (Trapmaking)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Trapmaking)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Trapmaking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=TrapmakingTools																																										
 Craft (Weaponsmithing)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Weaponsmithing)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Weaponsmithing)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=WeaponsmithingTools																																										
 Craft (Woodworking)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Woodworking)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Woodworking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=WoodworkingTools																																										
-Craft (Untrained)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Woodworking)	SOURCEPAGE:PHB	VISIBLE:EXPORT																																												
+Craft (Untrained)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Untrained)	SOURCEPAGE:PHB	VISIBLE:EXPORT																																												
 Decipher Script	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Decipher Script	SOURCEPAGE:PHB																																													
 Diplomacy	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:Skill.Charisma.Diplomacy	SOURCEPAGE:PHB																																													
 Disable Device	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Disable Device	SOURCEPAGE:PHB		TEMPDESC:Without tools, you must improvise, and you take a -2 circumstance penalty	TEMPBONUS:PC|SKILL|Disable Device|-2|!PREITEM:1,TYPE=ThiefTools																																										
@@ -47,7 +47,7 @@ Perform (Percussion Instruments)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charism
 Perform (String Instruments)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (String Instruments)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
 Perform (Wind Instruments)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Wind Instruments)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
 Perform (Sing)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Sing)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
-Perform (Untrained)	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Act)	SOURCEPAGE:PHB	VISIBLE:EXPORT																																												
+Perform (Untrained)	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform	SOURCEPAGE:PHB	VISIBLE:EXPORT																																												
 Profession (Apothecary)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Apothecary)	SOURCEPAGE:PHB																																													
 Profession (Boater)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Boater)	SOURCEPAGE:PHB																																													
 Profession (Bookkeeper)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Bookkeeper)	SOURCEPAGE:PHB																																													

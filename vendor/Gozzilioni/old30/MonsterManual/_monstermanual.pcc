@@ -1,0 +1,35 @@
+CAMPAIGN:Gozzilioni Monster Manual 3.0
+GAMEMODE:G35e
+RANK:5
+TYPE:Gozzilioni.Old30
+SETTING:Heroes
+BOOKTYPE:Campaign
+SOURCELONG:Gozzilioni Monster Manual 3.0
+SOURCESHORT:MM30
+SOURCEWEB:http://www.gozzilioni.net
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+
+PRECAMPAIGN:2,Gozzilioni Core Ruleset,Gozzilioni Monster Manual
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:missing.txt
+
+ABILITY:mm_abilities_races.lst
+KIT:mm_kits.lst
+RACE:mm_races.lst
+RACE:mm_races_companion.lst
+#
+
+# ENTRY DATE: 2016-07 
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

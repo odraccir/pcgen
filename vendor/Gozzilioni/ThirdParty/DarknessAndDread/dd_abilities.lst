@@ -1,0 +1,26 @@
+SOURCELONG:Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.fantasyflightgames.com																														
+																																
+# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+Acolyte Weapon Proficiencies	CATEGORY:Internal	TYPE:WeaponProfAcolyte	VISIBLE:NO	AUTO:WEAPONPROF|Club|Dagger|Crossbow (Heavy)|Crossbow (Light)|Quarterstaff																												
+Alchemist Weapon Proficiencies	CATEGORY:Internal	TYPE:WeaponProfAlchemist	VISIBLE:NO	AUTO:WEAPONPROF|Club|Dagger|Crossbow (Heavy)|Crossbow (Light)|Quarterstaff																												
+Antiquarian Weapon Proficiencies	CATEGORY:Internal	TYPE:WeaponProfAntiquarian	VISIBLE:NO	AUTO:WEAPONPROF|Club|Dagger|Crossbow (Heavy)|Crossbow (Light)|Quarterstaff																												
+Apprentice Weapon Proficiencies	CATEGORY:Internal	TYPE:WeaponProfApprentice	VISIBLE:NO	AUTO:WEAPONPROF|Club|Dagger|Crossbow (Heavy)|Crossbow (Light)|Quarterstaff																												
+Artisan Weapon Proficiencies	CATEGORY:Internal	TYPE:WeaponProfArtisan	VISIBLE:NO	AUTO:WEAPONPROF|Club|Dagger|Crossbow (Heavy)|Crossbow (Light)|Quarterstaff																												
+Beggar Weapon Proficiencies	CATEGORY:Internal	TYPE:WeaponProfBeggar	VISIBLE:NO	AUTO:WEAPONPROF|Club|Dagger|Crossbow (Heavy)|Crossbow (Light)|Quarterstaff																												
+Engineer Weapon Proficiencies	CATEGORY:Internal	TYPE:WeaponProfEngineer	VISIBLE:NO	AUTO:WEAPONPROF|Club|Dagger|Crossbow (Heavy)|Crossbow (Light)|Quarterstaff|Handaxe|Warhammer																												
+Gambler Weapon Proficiencies	CATEGORY:Internal	TYPE:WeaponProfGambler	VISIBLE:NO	AUTO:WEAPONPROF|Rapier																												
+Grifter Weapon Proficiencies	CATEGORY:Internal	TYPE:WeaponProfGrifter	VISIBLE:NO	AUTO:WEAPONPROF|Club|Dagger|Crossbow (Heavy)|Crossbow (Light)|Quarterstaff																												
+Herbalist Weapon Proficiencies	CATEGORY:Internal	TYPE:WeaponProfHerbalist	VISIBLE:NO	AUTO:WEAPONPROF|Club|Dagger|Crossbow (Heavy)|Crossbow (Light)|Quarterstaff																												
+Medium Weapon Proficiencies	CATEGORY:Internal	TYPE:WeaponProfMedium	VISIBLE:NO	AUTO:WEAPONPROF|Club|Dagger|Crossbow (Heavy)|Crossbow (Light)|Quarterstaff																												
+Merchant Weapon Proficiencies	CATEGORY:Internal	TYPE:WeaponProfMerchant	VISIBLE:NO	AUTO:WEAPONPROF|Club|Dagger|Crossbow (Heavy)|Crossbow (Light)|Quarterstaff																												
+Physician Weapon Proficiencies	CATEGORY:Internal	TYPE:WeaponProfPhysician	VISIBLE:NO	AUTO:WEAPONPROF|Club|Dagger|Crossbow (Heavy)|Crossbow (Light)|Quarterstaff																												
+Sage Weapon Proficiencies	CATEGORY:Internal	TYPE:WeaponProfSage	VISIBLE:NO	AUTO:WEAPONPROF|Dagger																												
+Sewerjack Weapon Proficiencies	CATEGORY:Internal	TYPE:WeaponProfSewerjack	VISIBLE:NO	AUTO:WEAPONPROF|Hammer (Light)|Handaxe|Pick (Light)|Battleaxe|Pick (Heavy)|Warhammer|Greataxe																												
+Thief Weapon Proficiencies	CATEGORY:Internal	TYPE:WeaponProfThief	VISIBLE:NO	AUTO:WEAPONPROF|Crossbow (Hand)|Rapier|Shortbow|Sword (Short)																												
+Tracker Weapon Proficiencies	CATEGORY:Internal	TYPE:WeaponProfTracker	VISIBLE:NO	AUTO:WEAPONPROF|Shortbow|Longbow																												
+Worker Weapon Proficiencies	CATEGORY:Internal	TYPE:WeaponProfWorker	VISIBLE:NO	AUTO:WEAPONPROF|Hammer (Light)|Handaxe|Pick (Light)|Battleaxe|Pick (Heavy)|Warhammer|Greataxe																												
+																																
+Master Skills	CATEGORY:Special Ability	TYPE:MasterCraftman	VISIBLE:DISPLAY																STACK:NO	MULT:YES	CHOOSE:SKILL|QUALIFIED[TYPE=Craft]		ABILITY:FEAT|AUTOMATIC|Skill Focus (%LIST)									SOURCEPAGE:DD
+Encyclopedic Knowledge Skill	CATEGORY:Special Ability	TYPE:EncyclopedicKnowledge	VISIBLE:YES											BONUS:SKILLRANK|%LIST|4	BONUS:SKILLRANK|%LIST|EncyclopedicKnowledgeLVL				STACK:NO	MULT:YES	CHOOSE:SKILL|CLASS[TYPE=Knowledge]	SELECT:1										SOURCEPAGE:DD
+Martial Weapon Proficiency Choice	CATEGORY:Special Ability	TYPE:MinistrelWeaponProficiency	VISIBLE:YES		SERVESAS:FEAT|Martial Weapon Proficiency														STACK:NO	MULT:YES	CHOOSE:WEAPONPROFICIENCY|!PC[TYPE=Martial]	SELECT:1	AUTO:WEAPONPROF|%LIST								SOURCEPAGE:DD
+Broad Back	CATEGORY:Special Ability	TYPE:BroadBack	VISIBLE:YES	DESC:+1 bonus to Strength, Dexterity or Constitution.	KEY:Worker ~ Broad Back ~ Choice									BONUS:STAT|%LIST|1|TYPE=Permanent.STACK					STACK:YES	MULT:YES	CHOOSE:PCSTAT|STR|DEX|CON	SELECT:1										SOURCEPAGE:DD

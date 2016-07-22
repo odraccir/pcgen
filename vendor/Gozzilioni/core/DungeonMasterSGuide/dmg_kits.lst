@@ -5157,7 +5157,7 @@ GEAR:Wand (Hold Person)	OPTION:69,71
 GEAR:Wand (Invisibility)	OPTION:72,74	
 GEAR:Wand (Knock)	OPTION:75,77	
 GEAR:Wand (Levitate)	OPTION:78,80	
-GEAR:Wand (Acid Arrow)	OPTION:81,83	
+GEAR:Wand (Melf's Acid Arrow)	OPTION:81,83	
 GEAR:Wand (Mirror Image)	OPTION:84,86	
 GEAR:Wand (Owl's Wisdom)	OPTION:87,89	
 GEAR:Wand (Shatter)	OPTION:90,91	
@@ -5183,7 +5183,7 @@ GEAR:Wand (Hold Person)	OPTION:39
 GEAR:Wand (Invisibility)	OPTION:40,42	
 GEAR:Wand (Knock)	OPTION:43,44	
 GEAR:Wand (Levitate)	OPTION:45	
-GEAR:Wand (Acid Arrow)	OPTION:46,47	
+GEAR:Wand (Melf's Acid Arrow)	OPTION:46,47	
 GEAR:Wand (Mirror Image)	OPTION:48,49	
 GEAR:Wand (Owl's Wisdom)	OPTION:50,53	
 GEAR:Wand (Shatter)	OPTION:54	

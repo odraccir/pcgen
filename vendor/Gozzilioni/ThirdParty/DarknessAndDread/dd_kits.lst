@@ -1,0 +1,80 @@
+SOURCELONG:Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.fantasyflightgames.com
+#
+#Apprentice Spell Book
+STARTPACK:Apprentice Spell Book	EQUIPBUY:0	PREMULT:2,[PREPCLEVEL:MAX=1],[PRECLASS:1,Apprentice=1]
+GEAR:Spellbook	LOCATION:Carried
+
+###Block: Starting Gold
+STARTPACK:Starting Gold ~ Acolyte	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Acolyte=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("1d4")*10
+
+STARTPACK:Starting Gold ~ Alchemist	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Alchemist=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("2d4")*10
+
+STARTPACK:Starting Gold ~ Antiquarian	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Antiquarian=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("1d6")*10
+
+STARTPACK:Starting Gold ~ Apprentice	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Apprentice=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("1d6")*10
+
+STARTPACK:Starting Gold ~ Artisan	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Artisan=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("2d6")*10
+
+STARTPACK:Starting Gold ~ Beggar	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Beggar=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("2d6")
+
+STARTPACK:Starting Gold ~ Engineer	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Engineer=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("2d4")*10
+
+STARTPACK:Starting Gold ~ Gambler	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Gambler=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("3d6")*10
+
+STARTPACK:Starting Gold ~ Grifter	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Grifter=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("2d6")*10
+
+STARTPACK:Starting Gold ~ Herbalist	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Herbalist=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("2d4")*10
+
+STARTPACK:Starting Gold ~ Kennelmaster	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Kennelmaster=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("1d6")*10
+
+STARTPACK:Starting Gold ~ Medium	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Medium=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("1d6")*10
+
+STARTPACK:Starting Gold ~ Merchant	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Merchant=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("3d6")*10
+
+STARTPACK:Starting Gold ~ Ministrel	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Ministrel=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("1d4")*10
+
+STARTPACK:Starting Gold ~ Physician	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Physician=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("2d4")*10
+
+STARTPACK:Starting Gold ~ Pit Fighter	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Pit Fighter=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("1d20")
+GEAR:Studded Leather
+
+STARTPACK:Starting Gold ~ Prospector	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Prospector=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("2d4")*10
+
+STARTPACK:Starting Gold ~ Sage	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Sage=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("1d6")*10
+
+STARTPACK:Starting Gold ~ Sewerjack	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Sewerjack=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("1d6")*10
+
+STARTPACK:Starting Gold ~ Thief	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Thief=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("1d6")*10
+
+STARTPACK:Starting Gold ~ Tracker	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Tracker=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("1d8")*10
+
+STARTPACK:Starting Gold ~ Veteran	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Veteran=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("2d6")*10
+
+STARTPACK:Starting Gold ~ Worker	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Worker=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("1d6")*10
+
+STARTPACK:Crackling Perceptor Stats	TYPE:DefaultMonster.Abomination	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Crackling Perceptor
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+

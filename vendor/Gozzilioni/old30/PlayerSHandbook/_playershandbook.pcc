@@ -1,20 +1,23 @@
-CAMPAIGN:Gozzilioni Psionic Handbook
-GAMEMODE:35e
+CAMPAIGN:Gozzilioni Player's Handbook 3.0
+GAMEMODE:G35e
 RANK:5
 TYPE:Gozzilioni.Old30
 SETTING:Heroes
-SOURCELONG:Gozzilioni Psionic Handbook
-SOURCESHORT:PsH
+BOOKTYPE:Campaign
+SOURCELONG:Gozzilioni Player's Handbook
+SOURCESHORT:PHB30
 SOURCEWEB:http://www.gozzilioni.net
-#SOURCEDATE:2008-01
 ISOGL:NO
-COPYRIGHT:My Campaign, Copyright 2005 by me
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
 
 PRECAMPAIGN:1,Gozzilioni Core Ruleset
 
 #from the old SRD 3.0, cambi di nome, stranezze e riesumazioni
 # or something disappeared from 3.5 that are needed with some manuals of 3.0 updated
-SPELL:psh_powers.lst
+SPELL:phb_spells.lst
 
 #ABILITY:my_abilities.lst
 #ABILITYCATEGORY:my_ability_categories.lst

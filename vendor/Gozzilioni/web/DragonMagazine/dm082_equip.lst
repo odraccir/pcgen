@@ -1,4 +1,4 @@
-SOURCELONG:Dragon Magazone 082	SOURCESHORT:DM082	SOURCEWEB:http://dnd.wizards.com	SOURCEDATE:1984-02
+SOURCELONG:Dragon Magazine 082	SOURCESHORT:DM082	SOURCEWEB:http://dnd.wizards.com	SOURCEDATE:1984-02
 #								
 # Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property
 Book (Idioms and Rare Cryptographs)		TYPE:Goods.Book	COST:0	WT:0.5	SOURCEPAGE:DM082	SPROP: by Elminster (message, write, illusionary script, tongues, audible glamer, magic mouth)		
@@ -41,7 +41,7 @@ Book (Thesis on Conditional Ruptures)		TYPE:Goods.Book	COST:0	WT:0.5	SOURCEPAGE:
 Book (Luminescence and Coloration)		TYPE:Goods.Book	COST:0	WT:0.5	SOURCEPAGE:DM082	SPROP:by Nchaser & Tulrun (light, color spray, continual light, darkness 15' radius, prismatic spray, project image, projected image, chromatic orb, Nchaser's glowing globe, Tulrun's tracer)		
 Book (Spherogenesis of the Multiverse)		TYPE:Goods.Book	COST:0	WT:0.5	SOURCEPAGE:DM082	SPROP:by Otiluke (Otiluke's resilient sphere, Otiluke's telekinetic sphere, Otiluke's freezing sphere, globe of invulnerability, flaming sphere, prismatic sphere)		
 Book (The Powers of the spiritual Will)		TYPE:Goods.Book	COST:0	WT:0.5	SOURCEPAGE:DM082	SPROP:by Phrandjas (emotion, chaos, feeblemind, confusion)		
-Book (Trascendental Impenetrabilities)		TYPE:Goods.Book	COST:0	WT:0.5	SOURCEPAGE:DM082	SPROP:by Leomund (Leomund.s tiny hut, minor globe of invulnerability, globe of invulnerability prismatic sphere)		
+Book (Trascendental Impenetrabilities)		TYPE:Goods.Book	COST:0	WT:0.5	SOURCEPAGE:DM082	SPROP:by Leomund (Leomund's tiny hut, minor globe of invulnerability, globe of invulnerability prismatic sphere)		
 Book (Cosmogony of the Magnetic Fluids)		TYPE:Goods.Book	COST:0	WT:0.5	SOURCEPAGE:DM082	SPROP:by Mordenkainen (chain lightning, volley, energy drain, Mordenkainen's disjunction)		
 Book (Arcane Resistance of Dwarves and Halflings)		TYPE:Goods.Book	COST:0	WT:0.5	SOURCEPAGE:DM082	SPROP:by Serten (dispel magic , remove curse, Serten's spell immunity, anti-magic shell, dispel illusion, dispel exhaustion)		
 Book (Manual of Magnetic and Electric Waves)		TYPE:Goods.Book	COST:0	WT:0.5	SOURCEPAGE:DM082	SPROP:by Gee-Eeh (shocking grasp, lightning bolt, repulsion, reverse gravity)		

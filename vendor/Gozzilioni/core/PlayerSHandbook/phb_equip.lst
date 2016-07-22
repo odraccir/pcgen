@@ -148,7 +148,7 @@ Antitoxin (Vial)		TYPE:Goods.Alchemical.Consumable.Vial.Liquid	COST:50		SOURCEPA
 Everburning Torch		TYPE:Goods.Alchemical.Consumable.LightSource	COST:110	WT:1	SOURCEPAGE:PHB		QUALITY:Bright Illumination|20 ft.	QUALITY:Shadowy Illumination|40 ft.	QUALITY:Duration|Permanent
 Holy Water (Flask)		TYPE:Goods.Alchemical.Consumable.Flask.Liquid	COST:25	WT:1	SOURCEPAGE:PHB				
 Smokestick		TYPE:Goods.Alchemical.Consumable	COST:20	WT:0.5	SOURCEPAGE:PHB				
-Sunrod		TYPE:Goods.Alchemical.Consumable.LightSource	COST:2	WT:1	SOURCEPAGE:PHB		QUALITY:Bright Illumination|30 ft.	QUALITY:Shadowy Illumination|20 ft.	QUALITY:Duration|6 hr.
+Sunrod		TYPE:Goods.Alchemical.Consumable.LightSource.Sunrod	COST:2	WT:1	SOURCEPAGE:PHB		QUALITY:Bright Illumination|30 ft.	QUALITY:Shadowy Illumination|20 ft.	QUALITY:Duration|6 hr.
 Tanglefoot Bag		TYPE:Goods.Alchemical.Consumable	COST:50	WT:4	SOURCEPAGE:PHB				
 Thunderstone		TYPE:Goods.Alchemical.Consumable	COST:30	WT:1	SOURCEPAGE:PHB				
 Tindertwig		TYPE:Goods.Alchemical.Consumable	COST:1		SOURCEPAGE:PHB				

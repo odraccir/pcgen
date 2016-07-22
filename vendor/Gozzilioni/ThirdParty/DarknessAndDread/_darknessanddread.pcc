@@ -1,0 +1,54 @@
+CAMPAIGN:Gozzilioni Darkness and Dread
+GAMEMODE:G35e
+RANK:9
+TYPE:Gozzilioni.ThirdParty.Fantasy Flight
+SETTING:Heroes
+BOOKTYPE:Campaign
+SOURCELONG:Darkness and Dread
+SOURCESHORT:DD
+SOURCEWEB:http://www.fantasyflightgames.com
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Fantasy Flight
+PUBNAMESHORT:FF
+PUBNAMEWEB:http://www.fantasyflightgames.com
+
+PRECAMPAIGN:1,Gozzilioni Core Ruleset
+
+ABILITY:dd_abilities.lst
+ABILITY:dd_abilities_classes.lst
+ABILITY:dd_abilities_races.lst
+ABILITYCATEGORY:dd_abilitycategories.lst
+# BIOSET:phb_biosettings.lst
+CLASS:dd_classes.lst
+# COMPANIONMOD:phb_companionmods.lst
+# DEITY:phb_deities.lst
+# DOMAIN:phb_domains.lst
+EQUIPMENT:dd_equip.lst
+# EQUIPMENT:phb_equip_armors.lst
+# EQUIPMENT:phb_equip_weapons.lst
+EQUIPMOD:dd_equipmods.lst
+ABILITY:dd_feats.lst
+KIT:dd_kits.lst
+# LANGUAGE:phb_languages.lst
+# ARMORPROF:phb_profs_armor.lst
+# SHIELDPROF:phb_profs_shield.lst
+# WEAPONPROF:phb_profs_weapon.lst
+RACE:dd_races.lst
+SKILL:dd_skills.lst
+SPELL:dd_spells.lst
+# ABILITY:phb_subraces.lst
+TEMPLATE:dd_templates.lst
+
+HIDETYPE:SKILL|Craft (Begging)|Profession (Beggar)|Profession (Gambler)|Perform (Begging)
+
+# ENTRY DATE: 2015-12
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

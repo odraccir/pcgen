@@ -1,0 +1,20 @@
+SOURCELONG:Gozzilioni Monster Manual 3.0	SOURCESHORT:MM30	SOURCEWEB:http://www.gozzilioni.net
+																																
+# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+																																
+###Block: Race Traits																																
+
+###Block: Subtype Traits																																
+# Elements																																
+# Alignments																																
+# Racial																																
+																																
+# Race Groups Subtype																																
+																																
+# Race Groups																																
+																																
+###Block: Tracker																																
+																																
+###Block: Races Traits																																
+Race Traits ~ Sea Lion	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=SeaLionRaceTrait|Scent																													
+Rend	CATEGORY:Special Ability	TYPE:SeaLionRaceTrait.SpecialAttack.Extraordinary.Rend	VISIBLE:YES	DESC:A sea lion that hits with both claws attacks latches onto the opponent's body and tears the flesh. This automatically deals an additional 2d6+6 points of damage.	KEY:Sea Lion ~ Rend									BONUS:VAR|RendDice|2	BONUS:VAR|RendDieSize|6|TYPE=Base																	SOURCEPAGE:MM30	

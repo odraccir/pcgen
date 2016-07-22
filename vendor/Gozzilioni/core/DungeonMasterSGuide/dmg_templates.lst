@@ -61,7 +61,7 @@ Cowering	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:The character is frozen in fear and
 Dazed	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:The creature is unable to act normally.																										
 Dazzled	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:The creature is unable to see well because of overstimulation of the eyes.	TEMPBONUS:ANYPC|COMBAT|TOHIT|-1	TEMPBONUS:ANYPC|SKILL|Search,Spot|-1																								
 Deafened	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:A deafened character cannot hear.	TEMPBONUS:ANYPC|COMBAT|INITIATIVE|-4																									
-Energy Drained	VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=20|TITLE=Negative Levels	TEMPDESC:The character gains one or more negative levels, which might permanently drain the character’s levels.	TEMPBONUS:ANYPC|VAR|NegativeLevels|%CHOICE																									
+Energy Drained	VISIBLE:NO	SOURCEPAGE:DMG	TEMPVALUE:MIN=1|MAX=20|TITLE=Negative Levels	TEMPDESC:The character gains one or more negative levels, which might permanently drain the character's levels.	TEMPBONUS:ANYPC|VAR|NegativeLevels|%CHOICE																									
 Entangled	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:The character is ensnared.	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2	TEMPBONUS:ANYPC|STAT|DEX|-4																								
 Exausted	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:The character is exausted.	TEMPBONUS:ANYPC|MOVEMULT|TYPE.All|0.5	TEMPBONUS:ANYPC|STAT|STR,DEX|-6																								
 Fatigued	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:A fatigued character can neither run nor charge.	TEMPBONUS:ANYPC|STAT|STR,DEX|-2																									
@@ -71,4 +71,4 @@ Panicked	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:A panicked creature must drop anyth
 Prone	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:You are on the ground.	TEMPBONUS:ANYPC|COMBAT|TOHIT.MELEE|-4																									
 Shaken	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:You are shaken.	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2	TEMPBONUS:ANYPC|SAVE|ALL|-2	TEMPBONUS:ANYPC|SKILL|ALL|-2																							
 Sickened	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:You are sickened.	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2	TEMPBONUS:ANYPC|COMBAT|DAMAGE|-2	TEMPBONUS:ANYPC|SAVE|ALL|-2	TEMPBONUS:ANYPC|SKILL|ALL|-2																						
-Stunned	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:A stunned creature drops everything held, can’t take actions.	TEMPBONUS:ANYPC|COMBAT|AC|-2	TEMPBONUS:ANYPC|COMBAT|AC|-(max(DEX,0))|TYPE=Ability.STACK																								
+Stunned	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:A stunned creature drops everything held, can't take actions.	TEMPBONUS:ANYPC|COMBAT|AC|-2	TEMPBONUS:ANYPC|COMBAT|AC|-(max(DEX,0))|TYPE=Ability.STACK																								

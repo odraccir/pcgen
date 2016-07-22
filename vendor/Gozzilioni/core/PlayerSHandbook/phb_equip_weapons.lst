@@ -103,7 +103,7 @@ Crossbow (Light/Repeating)			PROFICIENCY:WEAPON|Crossbow (Light/Repeating)	TYPE:
 Net			PROFICIENCY:WEAPON|Net	TYPE:Weapon.Ranged.Exotic.Net	COST:20	WT:6			SIZE:M				EQMOD:LEATHER	SOURCEPAGE:PHB							RANGE:10				
 Shuriken			PROFICIENCY:WEAPON|Shuriken	TYPE:Weapon.Ranged.Exotic.Piercing.Shuriken	COST:1	WT:0.5			SIZE:M	DAMAGE:1d2	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.THROWN_AMMO	SOURCEPAGE:PHB							RANGE:10	BASEQTY:5			
 																									
-### Arrows																									
+# Arrows																									
 Bolts (Crossbow/10)				TYPE:Ammunition.Standard.Bolt	COST:1	WT:1							EQMOD:STEEL.WOOD							SOURCEPAGE:PHB		BASEQTY:10	MODS:YES		
 Bolt (Crossbow)				TYPE:Ammunition.Standard.Bolt	COST:0.1	WT:0.1							EQMOD:STEEL.WOOD							SOURCEPAGE:PHB			MODS:YES		
 Bolts (Repeating Crossbow/5)				TYPE:Ammunition.Standard.RepeatingBolt	COST:1	WT:1							EQMOD:STEEL.WOOD							SOURCEPAGE:PHB		BASEQTY:5	MODS:YES		

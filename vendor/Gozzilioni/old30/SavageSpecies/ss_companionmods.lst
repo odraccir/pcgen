@@ -1,0 +1,8 @@
+SOURCELONG:Gozzilioni Savage Species 3.0	SOURCESHORT:SS30	SOURCEWEB:http://www.gozzilioni.net					
+#							
+###Block:Waverider Mount							
+FOLLOWER:WaveriderMountLVL=7	TYPE:Waverider Mount	HD:1	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|5	ABILITY:Special Ability|AUTOMATIC|Waverider Mount ~ Empathic Link|Waverider Mount ~ Improved Evasion|Waverider Mount ~ Share Saving Throws|Waverider Mount ~ Share Spells	
+FOLLOWER:WaveriderMountLVL=8	TYPE:Waverider Mount	HD:1	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|6		
+FOLLOWER:WaveriderMountLVL=11	TYPE:Waverider Mount	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|7	ABILITY:Special Ability|AUTOMATIC|Waverider Mount ~ Speak with Creatures of Its Kind	
+FOLLOWER:WaveriderMountLVL=15	TYPE:Waverider Mount	HD:2	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|8	ABILITY:Special Ability|AUTOMATIC|Waverider Mount ~ Fast Movement	SR:mastervar("WaveriderLVL")+5
+FOLLOWER:WaveriderMountLVL=19	TYPE:Waverider Mount	HD:2	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|2	DEFINESTAT:MINVALUE|INT|9	ABILITY:Special Ability|AUTOMATIC|Waverider Mount ~ Spell Resistance	

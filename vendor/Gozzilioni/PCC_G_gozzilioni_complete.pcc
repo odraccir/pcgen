@@ -23,13 +23,17 @@ PCC:core/MonsterManual2/_monstermanual2.pcc
 PCC:core/ExpandedPsionicHandbook/_expandedpsionicshandbook.pcc
 
 PCC:srd30/_srd30.pcc
-PCC:srd30/PsionicHandbook/_psionichandbook.pcc
-PCC:srd30/PlayerSHandbook/_playershandbook.pcc
+PCC:old30/MonsterManual/_monstermanual.pcc
+PCC:old30/PsionicHandbook/_psionichandbook.pcc
+PCC:old30/PlayerSHandbook/_playershandbook.pcc
+PCC:old30/SavageSpecies/_savagespecies.pcc
 
 PCC:houserules/_houserules.pcc
 
 PCC:web/DragonMagazine/_dragonmagazine082.pcc
 PCC:web/RuleOfCoolForum/_ruleofcool.pcc
+
+PCC:ThirdParty/DarknessAndDread/_darknessanddread.pcc
 
 PCC:errata/MonsterManual/_monstermanual_errata.pcc
 PCC:errata/ExpandedPsionicHandbook/_expandedpsionichandbook_errata.pcc

@@ -1,4 +1,4 @@
-SOURCELONG:Dragon Magazone 082	SOURCESHORT:DM082	SOURCEWEB:http://dnd.wizards.com	SOURCEDATE:1984-02
+SOURCELONG:Dragon Magazine 082	SOURCESHORT:DM082	SOURCEWEB:http://dnd.wizards.com	SOURCEDATE:1984-02
 
 STARTPACK:Table - Books about spells	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
 GEAR:Book (Idioms and Rare Cryptographs)	OPTION:01,02

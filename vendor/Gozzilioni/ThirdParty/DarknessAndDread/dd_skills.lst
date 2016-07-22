@@ -1,0 +1,13 @@
+SOURCELONG:Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.fantasyflightgames.com
+#																																																		
+# Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:																																													
+Craft (Begging)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Begging)	SOURCEPAGE:DD	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Begging)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=BeggingTools																																										
+Craft (Begging)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Craft ~ Begging	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Begging).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Begging)"),1]																																									
+Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Begging|var("SKILL.Craft (Begging).MISC")	BONUS:SKILLRANK|Craft ~ Begging|skillinfo("TOTALRANK", "Craft (Begging)")																																									
+Profession (Beggar)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Beggar)	SOURCEPAGE:DD																																													
+Profession (Gambler)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Gambler)	SOURCEPAGE:DD																																													
+Perform (Begging)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Begging)	SOURCEPAGE:DD	VISIBLE:DISPLAY																																												
+Perform (Begging)	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Perform ~ Begging	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Perform (Begging).MISC"),var("SKILL.Perform (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Perform (Begging)"),1]																																									
+
+Hide.MOD	SITUATION:Urban environment
+Move Silently.MOD	SITUATION:Urban environment

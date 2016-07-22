@@ -1,0 +1,12 @@
+SOURCELONG:Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.fantasyflightgames.com
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																									
+# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page																																																																																																																																																																																																																																																																																																																																																																																																																																																									
+CATEGORY=FEAT|Alertness.MOD	TYPE:Worker
+CATEGORY=FEAT|Athletic.MOD	TYPE:Worker
+CATEGORY=FEAT|Deft Hands.MOD	TYPE:Worker
+CATEGORY=FEAT|Endurance.MOD	TYPE:Worker
+CATEGORY=FEAT|Diehard.MOD	TYPE:Worker
+CATEGORY=FEAT|Great Fortitude.MOD	TYPE:Worker
+CATEGORY=FEAT|Improved Unarmed Strike.MOD	TYPE:Worker
+CATEGORY=FEAT|Iron Will.MOD	TYPE:Worker
+CATEGORY=FEAT|Toughness.MOD	TYPE:Worker

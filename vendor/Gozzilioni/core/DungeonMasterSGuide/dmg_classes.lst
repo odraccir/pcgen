@@ -285,7 +285,7 @@ CLASS:Horizon Walker	STARTSKILLPTS:4	CSKILL:Balance|Climb|Diplomacy|Handle Anima
 11	PREPCLEVEL:MIN=20
 
 CLASS:Loremaster	HD:4	TYPE:Prestige	FACT:Abb|Lor	MAXLEVEL:NOLIMIT	SOURCEPAGE:DMG	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:LoremasterLVL|0	BONUS:VAR|LoremasterLVL|CL
-CLASS:Loremaster	PRESKILL:2,TYPE.Knowledge=10	PREABILITY:3,CATEGORY=FEAT,TYPE.Metamagic,TYPE.Intemcreation	PREABILITY:1,CATEGORY=FEAT,Skill Focus (TYPE=Knowledge)	PRESPELLSCHOOL:1,Divination=3	PRESPELLSCHOOL:7,Divination=0	PRETEXT:Able to cast seven different divination spells, one of which must be 3rd level or higher.							
+CLASS:Loremaster	PRESKILL:2,TYPE.Knowledge=10	PREABILITY:3,CATEGORY=FEAT,TYPE.Metamagic,TYPE.ItemCreation	PREABILITY:1,CATEGORY=FEAT,Skill Focus (TYPE=Knowledge)	PRESPELLSCHOOL:1,Divination=3	PRESPELLSCHOOL:7,Divination=0	PRETEXT:Able to cast seven different divination spells, one of which must be 3rd level or higher.							
 CLASS:Loremaster	STARTSKILLPTS:4	CSKILL:Appraise|Concentration|TYPE.Craft|Decipher Script|Gather Information|Handle Animal|Heal|TYPE.Knowledge|TYPE.Perform|TYPE.Profession|Speak Language|Spellcraft|Use Magic Device											
 1				ABILITY:Loremaster Class Feature|AUTOMATIC|Loremaster ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.LoremasterProficiencies									
 1				ABILITY:Loremaster Class Feature|AUTOMATIC|Loremaster ~ Spells per Day									
@@ -333,7 +333,7 @@ CLASS:Mystic Theurge	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Sc
 11	PREPCLEVEL:MIN=20
 
 CLASS:Red Wizard	HD:4	TYPE:Prestige	FACT:Abb|Red	MAXLEVEL:NOLIMIT	SOURCEPAGE:DMG	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	ALLOWBASECLASS:NO	DEFINE:RedWizardLVL|0	BONUS:VAR|RedWizardLVL|CL
-CLASS:Red Wizard	PRERACE:1,Human	PREALIGN:LN,LE,TN,NE,CN,CE	PREREGION:Thay	PRESKILL:1,Spellcraft=8	PREABILITY:1,CATEGORY=FEAT,Tattoo Focus	PREABILITY:3,CATEGORY=FEAT,TYPE.Metamagic,TYPE.Itemcreation	PRESPELLCAST:TYPE=Arcane	PRETEXT:Ability to cast 3rd-level arcane spells.					
+CLASS:Red Wizard	PRERACE:1,Human	PREALIGN:LN,LE,TN,NE,CN,CE	PREREGION:Thay	PRESKILL:1,Spellcraft=8	PREABILITY:1,CATEGORY=FEAT,Tattoo Focus	PREABILITY:3,CATEGORY=FEAT,TYPE.Metamagic,TYPE.ItemCreation	PRESPELLCAST:TYPE=Arcane	PRETEXT:Ability to cast 3rd-level arcane spells.					
 CLASS:Red Wizard	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Intimidate|TYPE.Knowledge|TYPE.Profession|Spellcraft											
 1				ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.RedWizardProficiencies									
 1				ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Spells per Day									

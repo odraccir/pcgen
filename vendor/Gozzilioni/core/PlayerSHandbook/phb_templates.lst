@@ -58,7 +58,7 @@ Timeless Body	KEY:Druid ~ Timeless Body	PRECLASS:1,Druid=15	VISIBLE:NO	TEMPLATE:
 Timeless Body	KEY:Monk ~ Timeless Body	PRECLASS:1,Monk=17	VISIBLE:NO	TEMPLATE:CHOOSE:Timeless Body ~ Adult|Timeless Body ~ Middle Age|Timeless Body ~ Old|Timeless Body ~ Venerable
 Perfect Self	KEY:Monk ~ Perfect Self	PRECLASS:1,Monk=20	VISIBLE:NO	RACETYPE:Outsider	DR:10/Magic
 
-Spellbook	VISIBLE:NO	KIT:1|Wizard Spell Book
+Spellbook	VISIBLE:NO	KIT:1|Free Spell Book
 
 Raven Familiar Language	VISIBLE:NO	SOURCEPAGE:PHB	ADD:LANGUAGE|TYPE=Spoken	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Speak One Language
 
@@ -71,7 +71,8 @@ Awaken	TYPE:Spell Effect	TEMPLATE:CHOOSE:Awakened Animal|Awakened Tree	VISIBLE:Y
 Awakened Animal	VISIBLE:NO	TEMPLATE:CHOOSE:Awakened Animal_Standard|Awakened Animal_Dire	PRERACE:1,RACETYPE=Animal,TYPE=Animal	ADD:LANGUAGE|TYPE=Spoken	KIT:1|Awakened Animal	LANGBONUS:TYPE=Spoken	RACETYPE:Magical Beast	RACESUBTYPE:Augmented Animal
 Awakened Animal_Standard	VISIBLE:NO	PRECLASS:1,Animal=1	ADDLEVEL:Animal|2
 Awakened Animal_Dire	VISIBLE:NO	PRECLASS:1,Animal (Dire)=1	ADDLEVEL:Animal (Dire)|2
-Awakened Tree	VISIBLE:NO	DEFINESTAT:STAT|INT	PRERACE:1,RACESUBTYPE=Animated Object	ADD:LANGUAGE|TYPE=Spoken	KIT:1|Awakened Tree	RACETYPE:Plant
+# Awakened Tree	VISIBLE:NO	DEFINESTAT:STAT|INT	PRERACE:1,RACESUBTYPE=Animated Object	ADD:LANGUAGE|TYPE=Spoken	KIT:1|Awakened Tree	RACETYPE:Plant
+Awakened Tree	VISIBLE:NO	DEFINESTAT:STAT|INT	PRERACE:1,RACE=Animated Object%	ADD:LANGUAGE|TYPE=Spoken	KIT:1|Awakened Tree	RACETYPE:Plant
 
 ## BLOCK:Conditions
 # Dazzled	TYPE:ConditionAttacker	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are unable to see well because of overstimulation of the eyes	TEMPBONUS:ANYPC|COMBAT|TOHIT|-1	TEMPBONUS:ANYPC|SKILL|Search,Spot|-1

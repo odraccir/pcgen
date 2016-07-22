@@ -1,7 +1,7 @@
 SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																																																																
 #
-#
-STARTPACK:Wizard Spell Book	EQUIPBUY:0	PREMULT:2,[PREPCLEVEL:MAX=1],[PRECLASS:1,Wizard=1]
+#Wizard Spell Book
+STARTPACK:Free Spell Book	EQUIPBUY:0	PREMULT:2,[PREPCLEVEL:MAX=1],[PRECLASS:1,SPELLCASTER=1]
 GEAR:Spellbook (Wizard's/Blank)	LOCATION:Carried
 
 ###Block: Starting Gold

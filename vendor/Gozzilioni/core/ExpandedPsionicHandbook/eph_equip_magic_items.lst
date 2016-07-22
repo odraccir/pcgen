@@ -75,7 +75,7 @@ Psionic Restraint (Damping)		TYPE:Universal.Bracer	COST:24000	WT:0	SOURCEPAGE:EP
 Psychoactive Skin (Chameleon)		TYPE:Universal.Ectoshell	COST:18000	WT:2	SOURCEPAGE:EPH	TEMPBONUS:PC|SKILL|Hide|10|TYPE=Enhancement																
 Psychoactive Skin (Claw)		TYPE:Universal.Ectoshell	COST:16000	WT:2	SOURCEPAGE:EPH	SPROP:Claws of the Beast at will, as free action.|PRECLASS:1,Psychic Warrior=1																
 Psychoactive Skin (Defender)		TYPE:Universal.Ectoshell	COST:32000	WT:2	SOURCEPAGE:EPH	TEMPBONUS:PC|COMBAT|AC|4|TYPE=NaturalArmor																
-Psychoactive Skin (Fiery Response)		TYPE:Universal.Ectoshell	COST:60000	WT:2	SOURCEPAGE:EPH	SPROP:The burst ejects from the skin on the wearer’s turn, making a ranged touch attack as described in the energy retort power, but the energy type chosen is always fire. If the attack hits, the target takes 2d6 points of fire damage as the ectoburst fl ames up and is consumed.																
+Psychoactive Skin (Fiery Response)		TYPE:Universal.Ectoshell	COST:60000	WT:2	SOURCEPAGE:EPH	SPROP:The burst ejects from the skin on the wearer's turn, making a ranged touch attack as described in the energy retort power, but the energy type chosen is always fire. If the attack hits, the target takes 2d6 points of fire damage as the ectoburst fl ames up and is consumed.																
 Psychoactive Skin (Hero)		TYPE:Universal.Ectoshell	COST:77500	WT:2	SOURCEPAGE:EPH	TEMPBONUS:PC|COMBAT|AC|3|TYPE=Deflection	TEMPBONUS:PC|SAVE|ALL|3|TYPE=Resistance	TEMPBONUS:PC|COMBAT|TOHIT|3|TYPE=Enhancement														
 Psychoactive Skin (Iron)		TYPE:Universal.Ectoshell	COST:129600	WT:2	SOURCEPAGE:EPH	SPROP:3/day for 15 minutes Iron Body (Psionic) power.	TEMPBONUS:PC|SAVE|ALL|3|TYPE=Resistance	TEMPBONUS:PC|COMBAT|TOHIT|3|TYPE=Enhancement														
 Psychoactive Skin (Nimbless)		TYPE:Universal.Ectoshell	COST:10000	WT:2	SOURCEPAGE:EPH	TEMPBONUS:PC|SKILL|Tumble|10|TYPE=Competence																
@@ -91,7 +91,7 @@ Third Eye (Concentrate)		TYPE:Universal.Eyegear	COST:10000	WT:0	SOURCEPAGE:EPH	B
 Third Eye (Dominate)		TYPE:Universal.Eyegear	COST:120000	WT:0	SOURCEPAGE:EPH	SPELLS:Third Eye|TIMES=1|CASTERLEVEL=15|Dominate (Psionic),18																
 Third Eye (Expose)		TYPE:Universal.Eyegear	COST:112000	WT:0	SOURCEPAGE:EPH	SPROP:The wearer of this kind of third eye always knows when someone lies directly to him.																
 Third Eye (Gather)		TYPE:Universal.Eyegear	COST:10000	WT:0	SOURCEPAGE:EPH	BONUS:SKILL|Gather Information|10|TYPE=Competence																
-Third Eye (Penetrate)		TYPE:Universal.Eyegear	COST:8000	WT:0	SOURCEPAGE:EPH	SPROP:+2 bonus on manifester level checks to overcome a creature’s power resistance.																
+Third Eye (Penetrate)		TYPE:Universal.Eyegear	COST:8000	WT:0	SOURCEPAGE:EPH	SPROP:+2 bonus on manifester level checks to overcome a creature's power resistance.																
 Third Eye (Powerthieve)		TYPE:Universal.Eyegear	COST:10080	WT:0	SOURCEPAGE:EPH	SPROP:1/day allows the wearer to borrow one power from a psionic target within 40 feet.																
 Third Eye (Repudiate)		TYPE:Universal.Eyegear	COST:43200	WT:0	SOURCEPAGE:EPH	SPROP:1/day with a +20 modifier on the dispel check (the wearer uses the +20 modifi er in place of his manifester level).																
 Third Eye (Sense)		TYPE:Universal.Eyegear	COST:24000	WT:0	SOURCEPAGE:EPH	SPELLS:Third Eye|TIMES=ATWILL|CASTERLEVEL=3|Clairvoyant Sense																
