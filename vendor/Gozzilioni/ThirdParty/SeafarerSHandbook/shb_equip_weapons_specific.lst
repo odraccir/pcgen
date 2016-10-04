@@ -1,0 +1,41 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:SHb	SOURCEWEB:http://www.fantasyflightgames.com
+#																							
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:	
+# Simple Weapons																							
+## Unarmed																							
+																							
+## Light																							
+																							
+## OneHanded																							
+																							
+## TwoHanded																							
+																							
+## Ranged																							
+Crossbow of the Sea God (Light)			PROFICIENCY:WEAPON|Crossbow (Aquatic/Light)	TYPE:Weapon.Ranged.Simple.Piercing.Crossbow.Container	COST:18335	WT:4			SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS3W	SOURCEPAGE:Shb							RANGE:80		CONTAINS:UNLIM|Bolt|SpecificBolt
+																							
+# Martial Weapons																							
+## Light																							
+																							
+## OneHanded																							
+Trident of the Sea			PROFICIENCY:WEAPON|Trident	TYPE:enhancement.Weapon.Melee.Ranged.Thrown.Martial.Piercing.OneHanded.Trident	COST:18000	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.WOOD.EQ_COST_ADJ_W.PLUS1W.RETURN	SOURCEPAGE:Shb							RANGE:20		
+																							
+## TwoHanded																							
+																							
+## Ranged																							
+																							
+# Exotic Weapons																							
+## Light																							
+																							
+## OneHanded																							
+																							
+## TwoHanded																							
+																							
+## Ranged																							
+																							
+# Arrows																							
+																							
+## Intelligent																							
+																							
+## Cursed																							
+																							
+## Artifacts																							

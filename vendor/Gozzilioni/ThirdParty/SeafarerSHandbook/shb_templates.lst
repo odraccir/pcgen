@@ -1,0 +1,19 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:SHb	SOURCEWEB:http://www.fantasyflightgames.com
+			
+Shore	VISIBLE:NO	KEY:Shore Merfolk	LEVELADJUSTMENT:1	RACESUBTYPE:Aquatic	MOVE:Swim,40
+Shelf	VISIBLE:NO	KEY:Shelf Merfolk	LEVELADJUSTMENT:1	RACESUBTYPE:Aquatic	MOVE:Swim,40
+Deep	VISIBLE:NO	KEY:Deep Merfolk	LEVELADJUSTMENT:1	RACESUBTYPE:Aquatic	MOVE:Swim,40
+Mirefolk	VISIBLE:NO	KEY:Mirefolk Merfolk	LEVELADJUSTMENT:1	RACESUBTYPE:Aquatic
+Half-Merrow	VISIBLE:NO	KEY:Half-Merrow ~ Half-Merrow	RACESUBTYPE:Aquatic
+Coral	VISIBLE:NO	KEY:Coral Elf	RACESUBTYPE:Aquatic	MOVE:Swim,40
+Kelp	VISIBLE:NO	KEY:Kelp Elf	RACESUBTYPE:Aquatic	MOVE:Swim,40
+Deep Drow	VISIBLE:NO	KEY:Deep Drow Elf	RACESUBTYPE:Aquatic	MOVE:Swim,40
+			
+Favored Class	VISIBLE:NO	KEY:Merfolk ~ Shore ~ Favored Class	FAVOREDCLASS:Bard
+Favored Class	VISIBLE:NO	KEY:Merfolk ~ Shelf ~ Favored Class	FAVOREDCLASS:Fighter
+Favored Class	VISIBLE:NO	KEY:Merfolk ~ Deep ~ Favored Class	FAVOREDCLASS:Barbarian
+Favored Class	VISIBLE:NO	KEY:Merfolk ~ Mirefolk ~ Favored Class	FAVOREDCLASS:Barbarian
+Languages	VISIBLE:NO	KEY:Half-Merrow ~ Half-Merrow ~ Languages	AUTO:LANG|Aquan
+Favored Class	VISIBLE:NO	KEY:Half-Merrow ~ Half-Merrow ~ Favored Class	FAVOREDCLASS:Barbarian
+Favored Class	VISIBLE:NO	KEY:Elf ~ Coral ~ Favored Class	FAVOREDCLASS:Wizard
+Favored Class	VISIBLE:NO	KEY:Elf ~ Kelp ~ Favored Class	FAVOREDCLASS:Ranger

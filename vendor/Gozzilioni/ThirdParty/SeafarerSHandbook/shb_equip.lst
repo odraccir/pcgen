@@ -1,0 +1,39 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:SHb	SOURCEWEB:http://www.fantasyflightgames.com
+#									
+# Equipment Name	Output Name	Type	COST:	WT:	Define	Requires Modification?	Source Page	Special Property	
+# From "summary of magic item creation costs"									
+Manikin		TYPE:Manikin.Consumable	COST:0	WT:0	SOURCEPAGE:Shb	MODS:REQUIRED			
+Waterproof Scroll		TYPE:Scroll.Consumable.WaterproofScroll	COST:5	WT:.5	SOURCEPAGE:Shb	MODS:REQUIRED			
+									
+Quiver (Aquatic)	OUTPUTNAME:Aquatic Quiver	TYPE:Goods.Container.Aquatic	COST:5	WT:1	SOURCEPAGE:Shb	CONTAINS:UNLIM|Total=20|Arrow=20|Bolt=20			
+Disguise Kit (Waterproof)	OUTPUTNAME:Waterproof Disguise Kit	TYPE:Tools.Resizable.Consumable.Aquatic	COST:250	WT:8	SOURCEPAGE:Shb	BONUS:SKILL|Disguise|2|TYPE=Circumstance|PRETYPE:1,Masterwork			
+Goggles (Swimming)		TYPE:Eyegear.Aquatic	COST:5	WT:1	SOURCEPAGE:Shb				
+Sailor's Wax		TYPE:Goods.Alchemical.Consumable.Aquatic	COST:10	WT:0	SOURCEPAGE:Shb				
+Swimming Gear (Gloves)		TYPE:Glove.Resizable.Aquatic	COST:50	WT:1	SOURCEPAGE:Shb	SLOTS:2	BONUS:SKILL|Disable Device,Open Lock,Sleight of Hand|-2	BONUS:SKILL|Swim|1	
+Swimming Gear (Flippers)		TYPE:Boot.Resizable.Aquatic	COST:50	WT:1	SOURCEPAGE:Shb	SLOTS:2	BONUS:MOVEMULT|TYPE=Walk|.5	BONUS:SKILL|Swim|1	
+									
+Acid Bulb		TYPE:Goods.Alchemical.Consumable.Flask.Liquid	COST:90	WT:0.25	SOURCEPAGE:Shb				
+Glowmold Lantern (Hooded)	OUTPUTNAME:Glowmold Lantern, Hooded	TYPE:Goods.General.Container.LightSource.Aquatic	COST:10	WT:3	SOURCEPAGE:Shb	CONTAINS:UNLIM|Total=0.25|Glowmold=0.25	QUALITY:Bright Illumination|20 ft.	QUALITY:Shadowy Illumination|40 ft.	QUALITY:Duration|1 hr.
+Glowmold Lantern (Bullseye)	OUTPUTNAME:Glowmold Lantern, Bullseye	TYPE:Goods.General.Container.LightSource.Aquatic	COST:15	WT:3	SOURCEPAGE:Shb	CONTAINS:UNLIM|Total=0.25|Glowmold=0.25	QUALITY:Bright Illumination|20 ft.	QUALITY:Shadowy Illumination|40 ft.	QUALITY:Duration|1 hr.
+Glowmold fuel		TYPE:Goods.Aquatic.Glowmold.Consumable	COST:.3	WT:.25	SOURCEPAGE:Shb				
+Jellyfish Paste		TYPE:Goods.General.Aquatic.Consumable	COST:360	WT:0	SOURCEPAGE:Shb				
+Spell Shell		TYPE:Scroll.Consumable.Aquatic	COST:0	WT:0	SOURCEPAGE:Shb	MODS:REQUIRED			
+
+Golem (Coral)		KEY:Golem ~ Coral	TYPE:Monster.Construct.Container	COST:75000	WT:0	SOURCEPAGE:Shb	CONTAINS:UNLIM|Any	SPROP:CL 16th; Craft Construct (see page 303), animate objects, bless, freedom of movement, commune, prayer, regenerate, creator must be able to cast divine spells.
+
+#cannot vary the contains value via equipmod.
+# Ship Hull			TYPE:Goods.Transportation.Ships.Container.Hull	COST:0		SOURCEPAGE:Shb	CONTAINS:500	MODS:YES	SIZE:S
+Ship Hull (Small)			TYPE:Goods.Transportation.Ships.Container.Hull	COST:50		SOURCEPAGE:Shb	CONTAINS:500	MODS:YES	SIZE:S
+Ship Hull (Medium)			TYPE:Goods.Transportation.Ships.Container.Hull	COST:350	SOURCEPAGE:Shb	CONTAINS:1000	MODS:YES	SIZE:M
+Ship Hull (Large)			TYPE:Goods.Transportation.Ships.Container.Hull	COST:700	SOURCEPAGE:Shb	CONTAINS:17920	MODS:YES	SIZE:L
+Ship Hull (Huge)			TYPE:Goods.Transportation.Ships.Container.Hull	COST:5000	SOURCEPAGE:Shb	CONTAINS:22400	MODS:YES	SIZE:H
+Ship Hull (Gargantuan)			TYPE:Goods.Transportation.Ships.Container.Hull	COST:10000	SOURCEPAGE:Shb	CONTAINS:336000	MODS:YES	SIZE:G
+Ship Hull (Colossal)			TYPE:Goods.Transportation.Ships.Container.Hull	COST:15000	SOURCEPAGE:Shb	CONTAINS:448000	MODS:YES	SIZE:C
+
+# Services									
+Hireling (Artillerist)		TYPE:Service	COST:0.4		SOURCEPAGE:Shb				
+Hireling (Captain)		TYPE:Service	COST:0.6		SOURCEPAGE:Shb				
+Hireling (Officer)		TYPE:Service	COST:0.5		SOURCEPAGE:Shb				
+Hireling (Sailor)		TYPE:Service	COST:0.3		SOURCEPAGE:Shb				
+Hireling (Ship's Cook)		TYPE:Service	COST:0.2		SOURCEPAGE:Shb				
+

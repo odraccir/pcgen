@@ -1,0 +1,34 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:SHb	SOURCEWEB:http://www.fantasyflightgames.com
+#																									
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:			
+# Simple Weapons																									
+## Unarmed																									
+
+## Light																									
+
+## OneHanded																									
+
+## TwoHanded																									
+
+## Ranged																									
+Crossbow (Aquatic/Heavy)			PROFICIENCY:WEAPON|Crossbow (Aquatic/Heavy)	TYPE:Weapon.Ranged.Simple.Piercing.Crossbow.Container	COST:90	WT:6			SIZE:M	DAMAGE:1d10	CRITRANGE:2	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:Shb							RANGE:120		CONTAINS:UNLIM|Bolt|SpecificBolt		
+Crossbow (Aquatic/Light)			PROFICIENCY:WEAPON|Crossbow (Aquatic/Light)	TYPE:Weapon.Ranged.Simple.Piercing.Crossbow.Container	COST:45	WT:4			SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:Shb							RANGE:80		CONTAINS:UNLIM|Bolt|SpecificBolt		
+
+# Martial Weapons																									
+## Light																									
+
+## OneHanded																									
+
+## TwoHanded																									
+
+# Exotic Weapons																									
+## Light																									
+
+## OneHanded																									
+
+## TwoHanded																									
+
+## Ranged																									
+
+# Arrows																									
+

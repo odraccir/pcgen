@@ -1,0 +1,20 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+ABILITYCATEGORY:Half-Merrow Race Trait	CATEGORY:Special Ability	TYPE:HalfMerrowRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+
+# Subrace Support
+ABILITYCATEGORY:Half-Merrow Subrace	CATEGORY:Internal	TYPE:HalfMerrowSubrace.HalfMerrowSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Reef Warrior Class Feature	CATEGORY:Special Ability	TYPE:ReefWarriorClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Reef Warrior Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups
+ABILITYCATEGORY:Reef Warrior Feat	CATEGORY:FEAT	TYPE:ReefWarrior.Fighter	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Reef Warrior Feats			DISPLAYLOCATION:Feats
+
+#Feats Ability pools
+
+#Companion Support
+
+#
+# End
+#

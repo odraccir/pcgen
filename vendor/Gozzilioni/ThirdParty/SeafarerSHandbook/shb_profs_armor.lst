@@ -1,0 +1,10 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:SHb	SOURCEWEB:http://www.fantasyflightgames.com
+#
+Soft Kelp	TYPE:Armor.AquaticLight
+Stiffened Kelp	TYPE:Armor.AquaticLight
+Light Scale	TYPE:Armor.AquaticLight
+Bone Mail	TYPE:Armor.AquaticLight
+Medium Scale	TYPE:Armor.AquaticMedium
+Small Shell	TYPE:Armor.AquaticMedium
+Large Shell	TYPE:Armor.AquaticHeavy
+Heavy Scale	TYPE:Armor.AquaticHeavy

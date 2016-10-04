@@ -1,0 +1,82 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:SHb	SOURCEWEB:http://www.fantasyflightgames.com
+#								
+# Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property
+##Block: Potions								
+Potion (Water Breathing/5th level)		TYPE:Potion.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:Ssh			
+								
+##Block: Rings								
+Ring of Aquatic Survival		TYPE:Ring	COST:130000	WT:0	SOURCEPAGE:Ssh	SPROP:improved water breathing, freedom of movement, and sea eyes		
+Ring of Wind Protection		TYPE:Ring	COST:2000	WT:0	SOURCEPAGE:Ssh			
+								
+##Block: Rods								
+Rod of the Waves		TYPE:Rod	COST:40000	WT:5	SOURCEPAGE:Ssh	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPELLS:Rod of the Waves|TIMES=ATWILL|CASTERLEVEL=15|Create Water|Water Breathing	SPROP:Summon Monster VII (huge water elemental, 10 charges)/Tidal Wave (10 chages)/Waterways (5 charges).
+								
+##Block: Scrolls								
+###Block: Arcane Level 0								
+# Scroll (Acid Splash)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG			
+								
+###Block: Arcane Level 1								
+								
+###Block: Arcane Level 2								
+								
+###Block: Arcane Level 3								
+								
+###Block: Arcane Level 4								
+								
+###Block: Arcane Level 5								
+								
+###Block: Arcane Level 6								
+								
+###Block: Arcane Level 7								
+								
+###Block: Arcane Level 8								
+								
+###Block: Arcane Level 9								
+								
+###Block: Divine Level 0								
+								
+###Block: Divine Level 1								
+								
+###Block: Divine Level 2								
+								
+###Block: Divine Level 3								
+								
+###Block: Divine Level 4								
+								
+###Block: Divine Level 5								
+								
+###Block: Divine Level 6								
+								
+###Block: Divine Level 7								
+								
+###Block: Divine Level 8								
+								
+###Block: Divine Level 9								
+								
+##Block: Staff								
+# Staff of Abjuration	KEY:Staff (Abjuration)	TYPE:Staff	COST:65000	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Shield (1 charge)/Resist energy (1 charge)/Dispel magic (1 charge)/Lesser globe of invulnerability (2 charges)/Dismissal (2 charges)/Repulsion (3 charges).	
+								
+##Block: Wand								
+# Wand (Detect Magic)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]		
+								
+##Block: Wondrous								
+Amulet of Untarnished Steel		TYPE:Wondrous.Amulet	COST:30000	WT:0	SOURCEPAGE:Ssh	SPROP:When worn, it protects the wearer's metal possessions, including weapons and armor, from the natural and magical effects of rust, such as the attack of a rust monster.		
+Amulet of Protection against Aquatic Creatures		TYPE:Wondrous.Amulet	COST:36000	WT:0	SOURCEPAGE:Ssh	SPROP:+4 enhancement bonus to both Armor Class and any saving throws that result from an attack against the wearer by aquatic beings.		
+Amulet of Storm Dispersal		TYPE:Wondrous.Amulet	COST:8100	WT:0	SOURCEPAGE:Ssh	SPROP:1/day disperse any storm or inclement weather within a five-mile radius for 1d4+1 hours.		
+Boots of Water Walking		TYPE:Wondrous.Boot	COST:12000	WT:0	SOURCEPAGE:Ssh	SLOTS:2		
+Coracle od Xaren		TYPE:Wondrous	COST:10000	WT:20000	SOURCEPAGE:Ssh			
+Daoud's Marvelous Maritime map		TYPE:Wondrous	COST:81000	WT:150	SOURCEPAGE:Ssh			
+Figurehead of Protection		TYPE:Wondrous	COST:27000	WT:300	SOURCEPAGE:Ssh			
+Helmet of the Crab		TYPE:Wondrous.Headgear	COST:5800	WT:3	SOURCEPAGE:Ssh	SPROP:If the faceplate is kept down, the wearer also gains 360° vision, which makes him impossible to surprise. Furthermore, the helmet grants the wearer the ability to peer around corners that intersect his current location at no more than a 90° angle.	BONUS:COMBAT|AC|1|TYPE=Enhancement	ABILITY:Special Ability|VIRTUAL|All-Around Vision
+Lacedon Cloak		TYPE:Wondrous.Cape	COST:4750	WT:1	SOURCEPAGE:Ssh	BONUS:COMBAT|AC|2|TYPE=Enhancement	SPELLS:Lacedon Cloak|TIMES=6|CASTERLEVEL=7|Ghoul Touch,15	
+Master Wheel		TYPE:Wondrous	COST:72000	WT:75	SOURCEPAGE:Ssh			
+								
+## Intelligent								
+# Zax	OUTPUTNAME:Zax, Cloak of the King	TYPE:Wondrous.Cape	COST:36000	WT:1	SOURCEPAGE:DMG	BONUS:STAT|CHA|6|TYPE=Enhancement	EQMOD:INT_ITEM.CAPE_INT_ITEM_3.INT_ITEM_WIS_14.INT_ITEM_CHA_14.INT_ITEM_ALIGN_LN.INT_ITEM_ZONE_TRUTH.INT_ITEM_DIPLOMACY.INT_ITEM_KNOWLEDGE|Knowledge (History)	
+								
+## Cursed								
+# Amulet of Inescapable Location		TYPE:Wondrous.Cursed.Amulet	COST:1000	WT:0	SOURCEPAGE:DMG	SPROP:Appears to be an Amulet of Proof against Detection and Location, but -10 penalty on all saves against divination spells.	EQMOD:CURSED_ITEM.AMLT_CURSED	
+								
+## Artifacts								
+#Minor Artifacts								
+Ship of the Gods		TYPE:Artifact.Minor	COST:0	WT:0	SOURCEPAGE:Ssh			

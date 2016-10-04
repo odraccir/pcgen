@@ -1,0 +1,16 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:SHb	SOURCEWEB:http://www.fantasyflightgames.com
+#
+STARTPACK:Half-Merrow Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Half-Merrow
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Abyssal Shark Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Abyssal Shark
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Hippocampus (Heavy) Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Hippocampus (Heavy)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Golem (Coral) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Golem (Coral)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Drowned Dead Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Drowned Dead
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=11

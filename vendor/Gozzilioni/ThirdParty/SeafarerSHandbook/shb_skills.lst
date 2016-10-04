@@ -1,0 +1,13 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:SHb	SOURCEWEB:http://www.fantasyflightgames.com
+#																																																		
+# Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:																																													
+Craft (Underwater Alchemy)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Underwater Alchemy)	SOURCEPAGE:Shb	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Underwater Alchemy)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=UnderwaterAlchemyTools	BONUS:SKILL|Craft (Underwater Alchemy)|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Craft (Alchemy)=5																																									
+Survival (Underwater)	USEUNTRAINED:YES		KEYSTAT:WIS	TYPE:Skill.Wisdom.Survival (Underwater)	SOURCEPAGE:Shb		BONUS:SKILL|Knowledge (Nature)|SynergyBonus|PRESKILL:1,Survival (Underwater)=5|TYPE=Synergy.STACK																																											
+
+# Note: Not using SkillUse as these are NOT ConditionalSkills, but rather proper Skills.																																																		
+# Skill Name				Unique Key						Key Stat	Untrained?		Classes	Type			Visible		Multiple Requirements																												Source Page			Situational Skill
+Craft (Underwater Alchemy)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Craft ~ Underwater Alchemy	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Underwater Alchemy).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Underwater Alchemy)"),1]																																									
+
+Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Underwater Alchemy|var("SKILL.Craft (Underwater Alchemy).MISC")	BONUS:SKILLRANK|Craft ~ Underwater Alchemy|skillinfo("TOTALRANK", "Craft (Underwater Alchemy)")																																									
+
+Swim.MOD	SITUATION:In darkness

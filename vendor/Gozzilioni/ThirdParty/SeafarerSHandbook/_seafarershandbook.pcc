@@ -1,0 +1,58 @@
+CAMPAIGN:Seafarer's Handbook
+GAMEMODE:G35e
+RANK:6
+TYPE:Gozzilioni.ThirdParty.Fantasy Flight
+SETTING:Heroes
+BOOKTYPE:Campaign
+SOURCELONG:Seafarer's Handbook
+SOURCESHORT:SHb
+SOURCEWEB:http://www.fantasyflightgames.com
+ISOGL:YES
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Fantasy Flight
+PUBNAMESHORT:FF
+PUBNAMEWEB:http://www.fantasyflightgames.com
+
+PRECAMPAIGN:1,Core Ruleset
+
+# ABILITY:dd_abilities.lst
+ABILITY:shb_abilities.lst
+ABILITY:shb_abilities_classes.lst
+ABILITY:shb_abilities_races.lst
+ABILITYCATEGORY:shb_abilitycategories.lst
+# BIOSET:phb_biosettings.lst
+CLASS:shb_classes.lst
+# COMPANIONMOD:phb_companionmods.lst
+# DEITY:phb_deities.lst
+DOMAIN:shb_domains.lst
+EQUIPMENT:shb_equip.lst
+EQUIPMENT:shb_equip_armors.lst
+EQUIPMENT:shb_equip_armors_specific.lst
+EQUIPMENT:shb_equip_magic_items.lst
+EQUIPMENT:shb_equip_weapons.lst
+EQUIPMENT:shb_equip_weapons_specific.lst
+EQUIPMOD:shb_equimods.lst
+ABILITY:shb_feats.lst
+KIT:shb_kits.lst
+# LANGUAGE:phb_languages.lst
+ARMORPROF:shb_profs_armor.lst
+# SHIELDPROF:phb_profs_shield.lst
+WEAPONPROF:shb_profs_weapon.lst
+RACE:shb_races.lst
+SKILL:shb_skills.lst
+SPELL:shb_spells.lst
+ABILITY:shb_subraces.lst
+TEMPLATE:shb_templates.lst
+
+HIDETYPE:SKILL|Craft (Underwater Alchemy)|Survival (Underwater)
+
+# ENTRY DATE: 2015-12
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

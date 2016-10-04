@@ -1,0 +1,72 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:SHb	SOURCEWEB:http://www.fantasyflightgames.com																																																																																																			
+#																																																																																																					
+# Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property																																																																																													
+|Manikin (10 Charges)	KEY:MNK_CHRG	NAMEOPT:SPELL	TYPE:Manikin		COST:2000		VISIBLE:QUALIFY	ITYPE:Enhancement.Magic			SOURCEPAGE:Sph																																																																																										CHARGES:1|10
+																																																																																																					
+A_1USEMI.MOD	BONUS:ITEMCOST|TYPE.Scroll.Arcane.Minor|BASECOST/10|PRETYPE:1,WaterproofScroll																																																																																																				
+A_1USEME.MOD	BONUS:ITEMCOST|TYPE.Scroll.Arcane.Medium|BASECOST/10|PRETYPE:1,WaterproofScroll																																																																																																				
+A_1USEMA.MOD	BONUS:ITEMCOST|TYPE.Scroll.Arcane.Major|BASECOST/10|PRETYPE:1,WaterproofScroll																																																																																																				
+D_1USEMI.MOD	BONUS:ITEMCOST|TYPE.Scroll.Divine.Minor|BASECOST/10|PRETYPE:1,WaterproofScroll																																																																																																				
+D_1USEME.MOD	BONUS:ITEMCOST|TYPE.Scroll.Divine.Medium|BASECOST/10|PRETYPE:1,WaterproofScroll																																																																																																				
+D_1USEMA.MOD	BONUS:ITEMCOST|TYPE.Scroll.Divine.Major|BASECOST/10|PRETYPE:1,WaterproofScroll																																																																																																				
+																																																																																																					
+Kelp	KEY:KELP		TYPE:BaseMaterial.Mundane.Amulet.Bracer.Headger.Instrument.Ring		COST:0		VISIBLE:QUALIFY	ITYPE:Kelp	SOURCEPAGE:Shb	!PRETYPE:1,EQMODTYPE=Mundane	!PRETYPE:1,Metal	SPROP:-1 AC/hour after the first hour not underwater		ASSIGNTOALL:NO																																																																																							
+Coral	KEY:CORAL		TYPE:BaseMaterial.Mundane.Amulet.Bracer.Headger.Instrument.Ring		COST:0		VISIBLE:QUALIFY	ITYPE:Coral	SOURCEPAGE:Shb	!PRETYPE:1,EQMODTYPE=Mundane	!PRETYPE:1,Metal			ASSIGNTOALL:NO																																																																																							
+Shell	KEY:SHELL		TYPE:BaseMaterial.Mundane.Amulet.Bracer.Headger.Instrument.Ring		COST:0		VISIBLE:QUALIFY	ITYPE:Shell	SOURCEPAGE:Shb	!PRETYPE:1,EQMODTYPE=Mundane	!PRETYPE:1,Metal	SPROP:-1 AC/hour after the first 8 hour not underwater		ASSIGNTOALL:NO																																																																																							
+Fish Bones	KEY:FISHBONE		TYPE:BaseMaterial.Mundane.Amulet.Bracer.Headger.Instrument.Ring		COST:0		VISIBLE:QUALIFY	ITYPE:Fishbone	SOURCEPAGE:Shb	!PRETYPE:1,EQMODTYPE=Mundane	!PRETYPE:1,Metal	SPROP:-1 AC/hour after the first 12 hour not underwater		ASSIGNTOALL:NO																																																																																							
+Fish Scales	KEY:FISHSCALE		TYPE:BaseMaterial.Mundane.Amulet.Bracer.Headger.Instrument.Ring		COST:0		VISIBLE:QUALIFY	ITYPE:Fishscale	SOURCEPAGE:Shb	!PRETYPE:1,EQMODTYPE=Mundane	!PRETYPE:1,Metal	SPROP:-1 AC/hour after the first 8 hour not underwater		ASSIGNTOALL:NO																																																																																							
+
+Waterbane	KEY:WATERBANE_AR	TYPE:Armor	PLUS:1	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:Armor/shield is weightless sorely for purpose of Swim check and determining buoyancy.	PRETYPE:2,Enhancement,Armor									ASSIGNTOALL:YES																																																																																																			
+Waterbane	KEY:WATERBANE_M	TYPE:Weapon.Melee.Thrown	PLUS:1	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:Can be used as effectively on the ocean floor as it can be on land. Ignore DR and deals +1d6 damage to water subtype creature.	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown								ASSIGNTOALL:YES																																																																																																			
+Waterbane	KEY:WATERBANE_R	TYPE:Weapon.Ranged	PLUS:1	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:Can be used as effectively on the ocean floor as it can be on land. Ignore DR and deals +1d6 damage to water subtype creature bestowed on ammunition.	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown								ASSIGNTOALL:YES																																																																																																			
+
+#
+Hull Size	KEY:SHIP_HULL_SIZE	TYPE:Hull	VISIBLE:QUALIFY	ITYPE:HullSize	SOURCEPAGE:Shb
+Small	KEY:SHIP_SIZE_S	TYPE:HullSize	COST:50	VISIBLE:QUALIFY	SOURCEPAGE:Shb
+Medium	KEY:SHIP_SIZE_M	TYPE:HullSize	COST:350	VISIBLE:QUALIFY	SOURCEPAGE:Shb
+Large	KEY:SHIP_SIZE_L	TYPE:HullSize	COST:700	VISIBLE:QUALIFY	SOURCEPAGE:Shb
+Huge	KEY:SHIP_SIZE_H	TYPE:HullSize	COST:5000	VISIBLE:QUALIFY	SOURCEPAGE:Shb
+Gargantuan	KEY:SHIP_SIZE_G	TYPE:HullSize	COST:10000	VISIBLE:QUALIFY	SOURCEPAGE:Shb
+Colossal	KEY:SHIP_SIZE_C	TYPE:HullSize	COST:15000	VISIBLE:QUALIFY	SOURCEPAGE:Shb
+
+# Ghost Ship	KEY:SHIP_HULL_PROPULSION	TYPE:Hull	VISIBLE:QUALIFY	ITYPE:HullPropulsion	SOURCEPAGE:Shb
+Hull Propulsion	KEY:SHIP_HULL_PROPULSION	TYPE:Hull	VISIBLE:QUALIFY	ITYPE:HullPropulsion	SOURCEPAGE:Shb
+Sail Small	KEY:SHIP_SAIL_S	TYPE:HullPropulsion	COST:25	VISIBLE:QUALIFY	SOURCEPAGE:Shb
+Sail Medium	KEY:SHIP_SAIL_M	TYPE:HullPropulsion	COST:50	VISIBLE:QUALIFY	SOURCEPAGE:Shb
+Sail Large	KEY:SHIP_SAIL_L	TYPE:HullPropulsion	COST:100	VISIBLE:QUALIFY	SOURCEPAGE:Shb
+Oars	KEY:SHIP_OARS	TYPE:HullPropulsion	COST:25	VISIBLE:QUALIFY	SOURCEPAGE:Shb
+Towing Harness Medium	KEY:SHIP_TOWING_M	TYPE:HullPropulsion	COST:100	VISIBLE:QUALIFY	SOURCEPAGE:Shb
+Towing Harness Huge	KEY:SHIP_TOWING_H	TYPE:HullPropulsion	COST:200	VISIBLE:QUALIFY	SOURCEPAGE:Shb
+Towing Harness Colossal	KEY:SHIP_TOWING_C	TYPE:HullPropulsion	COST:300	VISIBLE:QUALIFY	SOURCEPAGE:Shb
+Steam Engine	KEY:SHIP_ENGINE_STEAM	TYPE:HullPropulsion	COST:50000	VISIBLE:QUALIFY	SOURCEPAGE:Shb
+
+Hull Type	KEY:SHIP_HULL_TYPE	TYPE:Hull	VISIBLE:QUALIFY	ITYPE:HullType	SOURCEPAGE:Shb
+Naval	KEY:SHIP_NAVAL	TYPE:HullType	VISIBLE:QUALIFY	SOURCEPAGE:Shb	REPLACES:SHIP_SUBMARINE
+Submarine	KEY:SHIP_SUBMARINE	TYPE:HullType	VISIBLE:QUALIFY	ITYPE:Submarine	SOURCEPAGE:Shb	REPLACES:SHIP_NAVAL
+
+Hull Material	KEY:SHIP_HULL_MATERIAL	TYPE:Hull	VISIBLE:QUALIFY	ITYPE:HullMaterial	SOURCEPAGE:Shb
+Wood Plated	KEY:WOOD_PLATED	TYPE:HullMaterial	COST:1000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:Wood plated.	REPLACES:IRON_PLATED,MITHRAL_PLATED,ADAMANTITE_PLATED
+Iron Plated	KEY:IRON_PLATED	TYPE:HullMaterial	COST:10000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:Iron plated.	REPLACES:WOOD_PLATED,MITHRAL_PLATED,ADAMANTITE_PLATED
+Mithral Plated	KEY:MITHRAL_PLATED	TYPE:HullMaterial	COST:20000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:Mithral plated.	REPLACES:WOOD_PLATED,IRON_PLATED,ADAMANTITE_PLATED
+Adamantite Plated	KEY:ADAMANTITE_PLATED	TYPE:HullMaterial	COST:30000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:Adamantite plated.	REPLACES:WOOD_PLATED,IRON_PLATED,MITHRAL_PLATED
+
+Hull Properties	KEY:SHIP_HULL_PROPERTIES	TYPE:Hull	VISIBLE:QUALIFY	ITYPE:HullProperties	SOURCEPAGE:Shb
+Built To Last	KEY:SHIP_BUILT_TO_LAST	TYPE:HullProperties	COST:(SIZE-2)*1000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:The hull's hit points are increased by 5 per inch of thickness.	PRETYPE:2,Transportation,Ship									ASSIGNTOALL:YES
+Bull of the Sea	KEY:SHIP_BULL_OF_THE_SEA	TYPE:HullProperties	COST:(SIZE-2)*1000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:Prerequisite: The vessel must be able to use a battering ram and have one equipped. Benefit: On a successful ramming attack, the ship deals an additional 1d6 points of damage.	PRETYPE:2,Transportation,Ship									ASSIGNTOALL:YES
+Clever Construction	KEY:SHIP_CLEVER_CONSTRUCTION	TYPE:HullProperties	COST:(SIZE-2)*1000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:The ship can be equipped with a paddlewheel or other unusual propulsion system.	PRETYPE:2,Transportation,Ship									ASSIGNTOALL:YES
+Fire Tested	KEY:SHIP_FIRE_TESTED	TYPE:HullProperties	COST:(SIZE-2)*1000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:The vessel's hull and deck have a resistance score of 10 against all fire effects..	PRETYPE:2,Transportation,Ship									ASSIGNTOALL:YES
+Grace Under Pressure	KEY:SHIP_GRACE_UNDER_PRESSURE	TYPE:HullProperties	COST:(SIZE-2)*1000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:The vessel is better suited for undersea travel. The vessel has a +20 circumstance bonus on Fortitude saves to resist damage from pressure.	PRETYPE:3,Transportation,Ship,Submarine									ASSIGNTOALL:YES
+Ice Queen	KEY:SHIP_ICE_QUEEN	TYPE:HullProperties	COST:(SIZE-2)*1000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:The vessel possesses a resistance of 10 against all cold effects.	PRETYPE:2,Transportation,Ship									ASSIGNTOALL:YES
+Improved Buoyancy	KEY:SHIP_IMPROVED_BUOYANCY	TYPE:HullProperties	COST:(SIZE-2)*1000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:Prerequisite: The vessel must have a Large, Huge, Gargantuan, or Colossal hull and be constructed from alternative materials (iron, mithral, adamantite). Benefit: The vessel is designed to be more buoyant in the water. The movement penalty due to alternative materials is reduced by up to 5 feet. The penalty may not be reduced below 0.	PRETYPE:2,Transportation,Ship									ASSIGNTOALL:YES
+Mighy Oars	KEY:SHIP_MIGHTY_OARS	TYPE:HullProperties	COST:(SIZE-2)*1000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:The ship's oars have +5 hardness.	PRETYPE:2,Transportation,Ship									ASSIGNTOALL:YES
+Ocean Worthy	KEY:SHIP_OCEAN_WORTHY	TYPE:HullProperties	COST:(SIZE-2)*1000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:Prerequisite: The vessel must have a Large, Huge, Gargantuan, or Colossal hull. The ship is well suited for long journeys. Add a +4 circumstance bonus to any saves, skill checks, etc., that involve the operation of the vessel in poor weather.	PRETYPE:2,Transportation,Ship									ASSIGNTOALL:YES
+Reinforced Sails	KEY:SHIP_REINFORCED_SAILS	TYPE:HullProperties	COST:(SIZE-2)*1000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:Prerequisite: The vessel must have a Large, Huge, Gargantuan, or Colossal hull. Benefit: The ship's sails receive an extra 10 hit points. This bonus applies to any other sails that may later be added to the ship.	PRETYPE:2,Transportation,Ship									ASSIGNTOALL:YES
+Sea Scrapper	KEY:SHIP_SEA_SCRAPPER	TYPE:HullProperties	COST:(SIZE-2)*1000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:Prerequisite: The vessel must have a Small or Medium-size hull. Benefit: Add 5 to the vessel's artillery slots.	PRETYPE:2,Transportation,Ship									ASSIGNTOALL:YES
+Sea Skimmer	KEY:SHIP_SEA_SKIMMER	TYPE:HullProperties	COST:(SIZE-2)*1000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:Prerequisite: The vessel must have a Small or Medium-size hull. Benefit: The vessel's speed is increased by 5 feet.	PRETYPE:2,Transportation,Ship									ASSIGNTOALL:YES
+Storm Rider	KEY:SHIP_STORM_RIDER	TYPE:HullProperties	COST:(SIZE-2)*1000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:The ship possesses a resistance score of 10 against all electricity effects.	PRETYPE:2,Transportation,Ship									ASSIGNTOALL:YES
+Tough Old Girl	KEY:SHIP_TOUGH_OLD_GIRL	TYPE:HullProperties	COST:(SIZE-2)*1000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:The hardness of the ship's hull and deck is increased by 2.	PRETYPE:2,Transportation,Ship									ASSIGNTOALL:YES
+Transport	KEY:SHIP_TRANSPORT	TYPE:HullProperties	COST:(SIZE-2)*1000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:Prerequisite: The vessel must have a Large, Huge, Gargantuan, or Colossal hull. Benefit: The vessel has been designed to hold more cargo than other ships of its kind. Add 10 tons to the ship's maximum cargo capacity.	PRETYPE:2,Transportation,Ship									ASSIGNTOALL:YES
+War Dog	KEY:SHIP_WAR_DOG	TYPE:HullProperties	COST:(SIZE-2)*1000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:Prerequisite: The vessel must have a Large, Huge, Gargantuan, or Colossal hull. Benefit: The ship is designed to make use of more artillery than other ships of its design. Add 10 to the ship's maximum artillery slots.	PRETYPE:2,Transportation,Ship									ASSIGNTOALL:YES
+Wave Rider	KEY:SHIP_WAVE_RIDER	TYPE:HullProperties	COST:(SIZE-2)*1000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:Prerequisite: The vessel must have a Large, Huge, Gargantuan, or Colossal hull. Benefit: The vessel's speed is increased by 10 feet.	PRETYPE:2,Transportation,Ship									ASSIGNTOALL:YES
+Turret	KEY:SHIP_TURRET	TYPE:HullProperties	COST:(SIZE-2)*1000	VISIBLE:QUALIFY	SOURCEPAGE:Shb	SPROP:Prerequisite: This special quality may be purchased for iron, mithral, or adamantite ships of dwarven make. Benefit: The turret is a uniquely dwarven innovation. It may hold a total of 16 artillery points worth of weaponry and may attack into any fire arc.	PRETYPE:2,Transportation,Ship									ASSIGNTOALL:YES
+

@@ -1,0 +1,24 @@
+SOURCELONG:Seafarer's Handbook	SOURCESHORT:SHb	SOURCEWEB:http://www.fantasyflightgames.com
+#			
+### Weapon/Spell			
+### Simple/Martial/Exotic			
+### Melee/Ranged			
+### Bludgeoning/Piercing/Slashing			
+### Reach/Double/Thrown/Projectile/Ammunition			
+### Unharmed/Light/OneHanded/TwoHanded			
+###Automatic			
+#			
+# Fake Auto	TYPE:Auto		
+# Fake Simple	TYPE:Simple.Melee		
+# Fake Martial	TYPE:Martial.Melee		
+# Fake Exotic	TYPE:Exotic.Melee		
+#			
+
+###Simple			
+Crossbow (Aquatic/Heavy)	TYPE:Simple.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2	
+Crossbow (Aquatic/Light)	TYPE:Simple.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2	
+
+###Martial			
+
+###Exotic			
+
