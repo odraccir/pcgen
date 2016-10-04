@@ -1,0 +1,23 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+
+# Subrace Support
+ABILITYCATEGORY:Talorani Race Trait	CATEGORY:Special Ability	TYPE:TaloraniRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Talorani Subrace	CATEGORY:Internal	TYPE:TaloraniSubrace.TaloraniSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Sailor Class Feature	CATEGORY:Special Ability	TYPE:SailorClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Sailor Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Buccaneer Class Feature	CATEGORY:Special Ability	TYPE:BuccaneerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Buccaneer Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Navigator-Wizard Class Feature	CATEGORY:Special Ability	TYPE:NavigatorWizardClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Navigator-Wizard Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Reaver Class Feature	CATEGORY:Special Ability	TYPE:ReaverClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Reaver Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups
+ABILITYCATEGORY:Reaver Feat	CATEGORY:FEAT	TYPE:Reaver	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Reaver Feats			DISPLAYLOCATION:Feats
+
+#Feats Ability pools
+
+#Companion Support
+
+#
+# End
+#

@@ -1,0 +1,60 @@
+CAMPAIGN:Seas of Blood
+GAMEMODE:G35e
+RANK:6
+TYPE:Gozzilioni.ThirdParty.Mongoose Publishing
+SETTING:Heroes
+BOOKTYPE:Campaign
+SOURCELONG:Seas of Blood
+SOURCESHORT:SoB
+SOURCEWEB:http://www.mongoosepublishing.com/
+ISOGL:YES
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Mongoose Publishing
+PUBNAMESHORT:MP
+PUBNAMEWEB:http://www.mongoosepublishing.com/
+
+PRECAMPAIGN:1,Core Ruleset
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:missing.txt
+
+# ABILITY:shb_abilities.lst
+ABILITY:sob_abilities_classes.lst
+ABILITY:sob_abilities_races.lst
+ABILITYCATEGORY:sob_abilitycategories.lst
+# BIOSET:phb_biosettings.lst
+CLASS:sob_classes.lst
+# COMPANIONMOD:phb_companionmods.lst
+# DEITY:phb_deities.lst
+# DOMAIN:shb_domains.lst
+EQUIPMENT:sob_equip.lst
+# EQUIPMENT:shb_equip_armors.lst
+# EQUIPMENT:shb_equip_armors_specific.lst
+EQUIPMENT:sob_equip_magic_items.lst
+EQUIPMENT:sob_equip_weapons.lst
+# EQUIPMENT:shb_equip_weapons_specific.lst
+EQUIPMOD:sob_equimods.lst
+ABILITY:sob_feats.lst
+KIT:sob_kits.lst
+# LANGUAGE:phb_languages.lst
+# ARMORPROF:shb_profs_armor.lst
+# SHIELDPROF:phb_profs_shield.lst
+WEAPONPROF:sob_profs_weapon.lst
+RACE:sob_races.lst
+SKILL:sob_skills.lst
+SPELL:sob_spells.lst
+ABILITY:sob_subraces.lst
+TEMPLATE:sob_templates.lst
+
+HIDETYPE:SKILL|Knowledge (Seamanship)|Profession (Navigator)|Perform (Merchant)
+HIDETYPE:FEAT|Reaver
+
+# ENTRY DATE: 2015-12
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

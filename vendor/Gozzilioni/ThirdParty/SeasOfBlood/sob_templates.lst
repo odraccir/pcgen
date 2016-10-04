@@ -1,0 +1,10 @@
+SOURCELONG:Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.mongoosepublishing.com/
+
+Languages	KEY:Sea Druid ~ Bonus Languages	VISIBLE:NO	AUTO:LANG|Druidic	LANGBONUS:Aquan	BONUS:VAR|DruidicLanguage|1
+
+Talorani	VISIBLE:NO	KEY:Common Talorani	SUBRACE:Aquatic	RACESUBTYPE:Aquatic	MOVE:Swim,50																													
+Languages	KEY:Talorani ~ Common ~ Languages	VISIBLE:NO	
+Favored Class	KEY:Talorani ~ Common ~ Favored Class	VISIBLE:NO	TEMPLATE:CHOOSE:Talorani Male|Talorani Female																															
+
+Talorani Male		VISIBLE:NO	SOURCEPAGE:SoB	PRERACE:1,Talorani	PREABILITY:1,CATEGORY=Internal,Talorani ~ Common	FAVOREDCLASS:Fighter	GENDERLOCK:Male																											
+Talorani Female		VISIBLE:NO	SOURCEPAGE:SoB	PRERACE:1,Talorani	PREABILITY:1,CATEGORY=Internal,Talorani ~ Common	FAVOREDCLASS:Druid	GENDERLOCK:Female																											

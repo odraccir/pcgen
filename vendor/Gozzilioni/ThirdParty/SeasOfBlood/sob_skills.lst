@@ -1,0 +1,17 @@
+SOURCELONG:Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.mongoosepublishing.com/
+
+#																																																		
+# Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:																																													
+Craft (Soul Cage)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Soul Cage)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Soul Cage)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=Soul CageTools																																										
+Craft (Soul Cage)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Craft ~ Soul Cage	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Soul Cage).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Soul Cage)"),1]																																									
+Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Soul Cage|var("SKILL.Craft (Soul Cage).MISC")	BONUS:SKILLRANK|Craft ~ Soul Cage|skillinfo("TOTALRANK", "Craft (Soul Cage)")																																									
+
+Knowledge (Seamanship)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Seamanship)	SOURCEPAGE:SoB		BONUS:SKILL|Spellcraft|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Knowledge (Seamanship)=5																																											
+Profession (Navigator)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Navigator)	SOURCEPAGE:SoB																																													
+Profession (Merchant)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Merchant)	SOURCEPAGE:SoB, p.89
+
+Bluff.MOD	BONUS:SKILL|Profession (Merchant)|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Bluff=5
+Sense Motive.MOD	BONUS:SKILL|Profession (Merchant)|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Sense Motive=5
+
+Climb.MOD	SITUATION:On board ship
+Profession (Merchant).MOD	SITUATION:Buying and selling goods

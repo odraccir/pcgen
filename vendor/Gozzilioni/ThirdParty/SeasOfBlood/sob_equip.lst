@@ -1,0 +1,27 @@
+SOURCELONG:Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.mongoosepublishing.com/
+#									
+# Equipment Name	Output Name	Type	COST:	WT:	Define	Requires Modification?	Source Page	Special Property	
+Boarding Ramps		TYPE:Goods	COST:250	WT:2205	SOURCEPAGE:SoB
+Mechanical Log (Gnomish)	OUTPUTNAME:Gnomish's Mechanical Log	TYPE:Goods	COST:750	WT:12	SOURCEPAGE:SoB	SPROP:Grants +1 circumstance bonus to all Navigation checks.
+Navigator's Toolkit		TYPE:Goods.Tools.Navigator.NavigatorTools	COST:250	WT:8	SOURCEPAGE:SoB	BONUS:SKILL|Profession (Navigator)|2|TYPE=Circumstance|PRETYPE:1,Masterwork			
+Sea Chest		TYPE:Goods.General.Container	COST:25	WT:30	SOURCEPAGE:SoB	CONTAINS:UNLIM|Any			
+Scroll Case (Watertight)		TYPE:Goods.General.Container	COST:5	WT:0.5	SOURCEPAGE:SoB	CONTAINS:UNLIM|Total=10|Paper=10|Documents=10|Scroll=10			
+
+#Transportation
+Ram (Adamantine)		TYPE:Goods.Ships.Extra	COST:3000	WT:0	SOURCEPAGE:SoB	EQMOD:ADAMANT
+
+# Services									
+Hireling (Pressganged Crewman)		TYPE:Service	COST:0.03		SOURCEPAGE:SoB
+Hireling (Green Crewman)		TYPE:Service	COST:0.06		SOURCEPAGE:SoB
+Hireling (Seaman)		TYPE:Service	COST:0.1		SOURCEPAGE:SoB
+Hireling (Ruffian)		TYPE:Service	COST:0.1		SOURCEPAGE:SoB
+Hireling (Hardy Seaman)		TYPE:Service	COST:0.13		SOURCEPAGE:SoB
+Hireling (Fighting Seaman)		TYPE:Service	COST:0.23		SOURCEPAGE:SoB
+Hireling (Able Seaman)		TYPE:Service	COST:0.33		SOURCEPAGE:SoB
+Hireling (Veteran Seadog)		TYPE:Service	COST:0.5		SOURCEPAGE:SoB
+Hireling (Archer)		TYPE:Service	COST:0.13		SOURCEPAGE:SoB
+Hireling (Light Infantry)		TYPE:Service	COST:0.13		SOURCEPAGE:SoB
+Hireling (Heavy Infantry)		TYPE:Service	COST:0.2		SOURCEPAGE:SoB
+Hireling (Shock Troop)		TYPE:Service	COST:0.26		SOURCEPAGE:SoB
+Hireling (Berserker)		TYPE:Service	COST:0.4		SOURCEPAGE:SoB
+

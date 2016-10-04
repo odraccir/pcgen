@@ -1,0 +1,4 @@
+missing:
+
+- Intelligent ship powers (pag 86)
+- trade goods in large quantities (pag 90)

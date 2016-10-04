@@ -1,0 +1,15 @@
+SOURCELONG:Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.mongoosepublishing.com/
+#			
+### Weapon/Spell			
+### Simple/Martial/Exotic			
+### Melee/Ranged			
+### Bludgeoning/Piercing/Slashing			
+### Reach/Double/Thrown/Projectile/Ammunition			
+### Unharmed/Light/OneHanded/TwoHanded			
+###Automatic			
+
+###Simple			
+###Martial			
+###Exotic			
+Boat Hook	TYPE:Simple.Melee.Slashing.Piercing.MeleeSlashing.MeleePiercing.TwoHanded.DoubleWeapon		
+Gaff Hook	TYPE:Martial.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing.TwoHanded
