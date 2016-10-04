@@ -1,19 +1,19 @@
-CAMPAIGN:Gozzilioni Darkness and Dread
+CAMPAIGN:Darkness and Dread
 GAMEMODE:G35e
-RANK:9
+RANK:6
 TYPE:Gozzilioni.ThirdParty.Fantasy Flight
 SETTING:Heroes
 BOOKTYPE:Campaign
 SOURCELONG:Darkness and Dread
 SOURCESHORT:DD
 SOURCEWEB:http://www.fantasyflightgames.com
-ISOGL:NO
+ISOGL:YES
 COPYRIGHT:My Campaign, Copyright 2015 by me
 PUBNAMELONG:Fantasy Flight
 PUBNAMESHORT:FF
 PUBNAMEWEB:http://www.fantasyflightgames.com
 
-PRECAMPAIGN:1,Gozzilioni Core Ruleset
+PRECAMPAIGN:1,Core Ruleset
 
 ABILITY:dd_abilities.lst
 ABILITY:dd_abilities_classes.lst
