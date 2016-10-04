@@ -1,0 +1,29 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+ABILITYCATEGORY:Bariaur Race Trait	CATEGORY:Special Ability	TYPE:BariaurRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+
+# Subrace Support
+ABILITYCATEGORY:Bariaur Subrace	CATEGORY:Internal	TYPE:BariaurSubrace.BariaurSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Divine Agent Class Feature	CATEGORY:Special Ability	TYPE:DivineAgentClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Divine Agent Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Gatecrasher Class Feature	CATEGORY:Special Ability	TYPE:GatecrasherClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Gatecrasher Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Planar Champion Class Feature	CATEGORY:Special Ability	TYPE:PlanarChampionClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Planar Champion Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Planeshifter Class Feature	CATEGORY:Special Ability	TYPE:PlaneshifterClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Planeshifter Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups
+ABILITYCATEGORY:Gatecrasher Bonus Language	CATEGORY:Special Ability	TYPE:GatecrasherBonusLanguage	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Gatecrasher Bonus Languages			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Favored Plane	CATEGORY:Special Ability	TYPE:FavoredPlane	VISIBLE:QUALIFY	EDITABLE:YES	POOL:FavoredPlaneCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Favored Enemies				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Favored Plane Bonus	CATEGORY:Special Ability	TYPE:FavoredPlaneBonus	VISIBLE:QUALIFY	EDITABLE:YES	POOL:FavoredPlaneBonusCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Favored Plane Bonuses			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Shadow Quality	CATEGORY:Internal	TYPE:ShadowQuality	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Shadow Qualities			DISPLAYLOCATION:Race Features
+
+#Feats Ability pools
+
+#Companion Support
+
+#other
+ABILITYCATEGORY:Deity's Weapon Proficiency Choice	CATEGORY:Special Ability		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO	ABILITYLIST:Deity's Simple Weapon Proficiency										PLURAL:Deity's Weapon Proficiency Choice			DISPLAYLOCATION:Class Features
+
+#
+# End
+#

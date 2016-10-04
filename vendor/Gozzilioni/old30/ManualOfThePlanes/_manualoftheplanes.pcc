@@ -1,0 +1,59 @@
+CAMPAIGN:Manual of the Planes 3.0
+GAMEMODE:G35e
+RANK:3
+TYPE:Gozzilioni.Old30
+SETTING:Heroes
+BOOKTYPE:Campaign
+SOURCELONG:Manual of the Planes 3.0
+SOURCESHORT:MotP30
+SOURCEWEB:http://www.gozzilioni.net
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+
+PRECAMPAIGN:2,Core Ruleset,Planar Handbook
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:missing.txt
+
+ABILITY:motp_abilities.lst
+ABILITY:motp_abilities_classes.lst
+ABILITY:motp_abilities_races.lst
+ABILITY:motp_abilities_templates.lst
+ABILITYCATEGORY:motp_abilitycategories.lst
+CLASS:motp_classes.lst
+# COMPANIONMOD:ss_companionmods.lst
+# DOMAIN:ss_domains.lst
+# EQUIPMOD:ss_equimods.lst
+EQUIPMENT:motp_equip.lst
+# EQUIPMENT:ss_equip_armors_specific.lst
+EQUIPMENT:motp_equip_magic_items.lst
+# EQUIPMENT:ss_equip_weapons.lst
+EQUIPMENT:motp_equip_weapons_natural.lst
+# EQUIPMENT:ss_equip_weapons_specific.lst
+# ABILITY:ss_feats.lst
+KIT:motp_kits.lst
+# LANGUAGE:mm2_languages.lst
+# WEAPONPROF:ss_profs_weapon.lst
+RACE:motp_races.lst
+# RACE:ss_races_companion.lst
+SKILL:motp_skills.lst
+SPELL:motp_spells.lst
+ABILITY:motp_subraces.lst
+TEMPLATE:motp_templates.lst
+#
+# FORWARDREF:WEAPONPROF|Pincer Staff
+HIDETYPE:SKILL|Lucid Dreaming
+# HIDETYPE:FEAT|Wizard
+
+# ENTRY DATE: 2016-07 
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

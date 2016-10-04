@@ -1,0 +1,71 @@
+SOURCELONG:Manual of the Planes 3.0	SOURCESHORT:MotP30	SOURCEWEB:http://www.gozzilioni.net
+	
+STARTPACK:Astral Dreadnaught Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Astral Dreadnaught
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Bariaur Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Bariaur
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Bariaur Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Bariaur
+GEAR:Buckler	LOCATION:Equipped
+GEAR:Barding (Scale Mail)	LOCATION:Equipped
+GEAR:Scimitar
+GEAR:Longbow (Composite)	EQMOD:BOWSTR|1
+
+STARTPACK:Energon (Xag-Ya) Stats	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Energon (Xag-Ya)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Energon (Xeg-Yi) Stats	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Energon (Xeg-Yi)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Ephemera (Dusk Beast) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ephemera (Dusk Beast)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Ephemera (Ecalypse) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ephemera (Ecalypse)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Ephemera (Umbral Banyan) Stats	TYPE:DefaultMonster.Plant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ephemera (Umbral Banyan)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Genie (Dao) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Genie (Dao)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Mercane Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Mercane
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Mercane Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Mercane
+GEAR:Falchion	SIZE:L	EQMOD:MWORKW
+
+STARTPACK:Paraelemental (Ice) Stats	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Paraelemental (Ice)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Paraelemental (Magma) Stats	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Paraelemental (Magma)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Paraelemental (Ooze) Stats	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Paraelemental (Ooze)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Paraelemental (Smoke) Stats	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Paraelemental (Smoke)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Yugoloth (Canoloth) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Yugoloth (Canoloth)
+STAT:STR=11|DEX=10|CON=11|INT=11|WIS=11|CHA=10
+
+STARTPACK:Yugoloth (Mezzoloth) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Yugoloth (Mezzoloth)
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Yugoloth (Mezzoloth) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Yugoloth (Mezzoloth)
+GEAR:Trident
+
+STARTPACK:Yugoloth (Nycaloth) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Yugoloth (Nycaloth)
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Yugoloth (Nycaloth) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Yugoloth (Nycaloth)
+GEAR:Greataxe
+
+STARTPACK:Yugoloth (Ultroloth) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Yugoloth (Ultroloth)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+GEAR:Yugoloth (Ultraloth) ~ Enervation Ray
+
+STARTPACK:Yugoloth (Ultroloth) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Yugoloth (Ultroloth)
+GEAR:Longsword
