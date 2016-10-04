@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																						
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																						
 #																									
 #	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:			
 Flurry of Blows			PROFICIENCY:WEAPON|Unarmed Strike	TYPE:Weapon.Natural.Melee.Simple.Bludgeoning.Unarmed	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	MODS:NO	SOURCEPAGE:PHB	SPROP:Flurry of Blows can not be used when armored|PREVARNEQ:COUNT[EQTYPE.ARMOR.EQUIPPED],0								BONUS:WEAPON|ATTACKS|FlurryOfBlowsAttacks|PREVAREQ:COUNT[EQTYPE.ARMOR.EQUIPPED],0	BONUS:WEAPON|TOHIT|min(-1*FlurryOfBlowsPenalty,0)|PREVAREQ:COUNT[EQTYPE.ARMOR.EQUIPPED],0	
@@ -87,7 +87,7 @@ Siangham			PROFICIENCY:WEAPON|Siangham	TYPE:Weapon.Melee.Exotic.Piercing.Light.S
 ## OneHanded																									
 Sword (Bastard)			PROFICIENCY:WEAPON|Sword (Bastard)	TYPE:Weapon.Melee.Exotic.Slashing.OneHanded.Sword	COST:35	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB									BONUS:WEAPON|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Sword (Bastard))|PRESTAT:1,STR=13		
 Waraxe (Dwarven)	OUTPUTNAME:Waraxe, Dwarven		PROFICIENCY:WEAPON|Waraxe (Dwarven)	TYPE:Weapon.Melee.Exotic.Slashing.OneHanded.Axe.Dwarven	COST:30	WT:8	WIELD:OneHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.WOOD	SOURCEPAGE:PHB									BONUS:WEAPON|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Waraxe (Dwarven))|PRESTAT:1,STR=13		
-Whip			PROFICIENCY:WEAPON|Whip	TYPE:Weapon.Melee.Exotic.Slashing.OneHanded.Whip	COST:1	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	EQMOD:LEATHER	SOURCEPAGE:PHB								REACH:15			
+Whip			PROFICIENCY:WEAPON|Whip	TYPE:Weapon.Melee.Exotic.Slashing.OneHanded.Whip	COST:1	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	EQMOD:LEATHER	SOURCEPAGE:PHB								REACH:15	BONUS:WEAPON|DAMAGE|min(STR,0)		
 ## TwoHanded																									
 Axe (Double/Orc)	OUTPUTNAME:Double Axe, Orc		PROFICIENCY:WEAPON|Axe (Double/Orc)	TYPE:Weapon.Melee.Exotic.Slashing.TwoHanded.Double.Axe.Orc	COST:60	WT:15	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.WOOD	SOURCEPAGE:PHB		ALTTYPE:Weapon.Melee.Slashing	ALTDAMAGE:1d8	ALTCRITRANGE:1	ALTCRITMULT:x3	ALTEQMOD:STEEL.WOOD					
 Chain (Spiked)	OUTPUTNAME:Chain, Spiked		PROFICIENCY:WEAPON|Chain (Spiked)	TYPE:Weapon.Melee.Exotic.Piercing.TwoHanded.Chain	COST:25	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB								REACHMULT:2			
@@ -104,11 +104,11 @@ Net			PROFICIENCY:WEAPON|Net	TYPE:Weapon.Ranged.Exotic.Net	COST:20	WT:6			SIZE:M
 Shuriken			PROFICIENCY:WEAPON|Shuriken	TYPE:Weapon.Ranged.Exotic.Piercing.Shuriken	COST:1	WT:0.5			SIZE:M	DAMAGE:1d2	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.THROWN_AMMO	SOURCEPAGE:PHB							RANGE:10	BASEQTY:5			
 																									
 # Arrows																									
-Bolts (Crossbow/10)				TYPE:Ammunition.Standard.Bolt	COST:1	WT:1							EQMOD:STEEL.WOOD							SOURCEPAGE:PHB		BASEQTY:10	MODS:YES		
-Bolt (Crossbow)				TYPE:Ammunition.Standard.Bolt	COST:0.1	WT:0.1							EQMOD:STEEL.WOOD							SOURCEPAGE:PHB			MODS:YES		
-Bolts (Repeating Crossbow/5)				TYPE:Ammunition.Standard.RepeatingBolt	COST:1	WT:1							EQMOD:STEEL.WOOD							SOURCEPAGE:PHB		BASEQTY:5	MODS:YES		
-Bolt (Repeating Crossbow)				TYPE:Ammunition.Standard.RepeatingBolt	COST:0.25	WT:0.25							EQMOD:STEEL.WOOD							SOURCEPAGE:PHB			MODS:YES		
-Bullets (Sling/10)				TYPE:Ammunition.Standard.SlingStone	COST:0.1	WT:5							EQMOD:STEEL.WOOD							SOURCEPAGE:PHB		BASEQTY:10	MODS:YES		
-Bullet (Sling)				TYPE:Ammunition.Standard.SlingStone	COST:0.01	WT:0.5							EQMOD:STEEL.WOOD							SOURCEPAGE:PHB			MODS:YES		
-Arrows (20)				TYPE:Ammunition.Standard.Arrow	COST:1	WT:3							EQMOD:STEEL.WOOD							SOURCEPAGE:PHB		BASEQTY:20	MODS:YES		
-Arrow				TYPE:Ammunition.Standard.Arrow	COST:0.05	WT:0.15							EQMOD:STEEL.WOOD							SOURCEPAGE:PHB			MODS:YES		
+Bolts (Crossbow/10)				TYPE:Ammunition.Standard.Bolt	COST:1	WT:1							EQMOD:STEEL.WOOD	SOURCEPAGE:PHB								BASEQTY:10	MODS:YES		
+Bolt (Crossbow)				TYPE:Ammunition.Standard.Bolt	COST:0.1	WT:0.1							EQMOD:STEEL.WOOD	SOURCEPAGE:PHB									MODS:YES		
+Bolts (Repeating Crossbow/5)				TYPE:Ammunition.Standard.RepeatingBolt	COST:1	WT:1							EQMOD:STEEL.WOOD	SOURCEPAGE:PHB								BASEQTY:5	MODS:YES		
+Bolt (Repeating Crossbow)				TYPE:Ammunition.Standard.RepeatingBolt	COST:0.25	WT:0.25							EQMOD:STEEL.WOOD	SOURCEPAGE:PHB									MODS:YES		
+Bullets (Sling/10)				TYPE:Ammunition.Standard.SlingStone	COST:0.1	WT:5							EQMOD:STEEL.WOOD	SOURCEPAGE:PHB								BASEQTY:10	MODS:YES		
+Bullet (Sling)				TYPE:Ammunition.Standard.SlingStone	COST:0.01	WT:0.5							EQMOD:STEEL.WOOD	SOURCEPAGE:PHB									MODS:YES		
+Arrows (20)				TYPE:Ammunition.Standard.Arrow	COST:1	WT:3							EQMOD:STEEL.WOOD	SOURCEPAGE:PHB								BASEQTY:20	MODS:YES		
+Arrow				TYPE:Ammunition.Standard.Arrow	COST:0.05	WT:0.15							EQMOD:STEEL.WOOD	SOURCEPAGE:PHB									MODS:YES		

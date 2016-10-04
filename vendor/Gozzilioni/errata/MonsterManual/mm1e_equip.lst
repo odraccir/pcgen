@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Monster Manual Errata	SOURCESHORT:MM1e	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2006-02
+SOURCELONG:Monster Manual Errata	SOURCESHORT:MM1e	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2006-02
 #																									
 #	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:			
 Golem ~ Iron.MOD	SPROP:.CLEAR	SPROP:CL 16th; Craft Construct (see page 303), cloudkill, geas/quest, limited wish, caster must be at least 16th level.

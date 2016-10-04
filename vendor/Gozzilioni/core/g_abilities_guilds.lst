@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Core Ruleset	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																																	
+SOURCELONG:Core Ruleset	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
 																																			
 # Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page			
 Mentoring	CATEGORY:Guild Category	TYPE:GuildChooser	VISIBLE:YES									BONUS:ABILITYPOOL|Mentoring|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	COST:0													SOURCEPAGE:G

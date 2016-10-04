@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Savage Species 3.0	SOURCESHORT:SS30	SOURCEWEB:http://www.gozzilioni.net																										
+SOURCELONG:Savage Species 3.0	SOURCESHORT:SS30	SOURCEWEB:http://www.gozzilioni.net
 																												
 ###Block: AB																												
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Bonus	Bonus				
@@ -64,7 +64,8 @@ Weapon of Energy			VARIANTS:Acid|Cold|Electricity|Fire|Sonic	TYPE:Spell	SCHOOL:T
 Wings of the Sea				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Cleric=2|Druid=1|Ranger=1|Sorcerer=2|Wizard=2	COMPS:S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:You or person touched.	DURATION:1 minute/level	SAVEINFO:Fortitude negates (harmless)	SPELLRES:Yes	DESC:This spell increases the touched creature's swim speed by 30 feet.	SOURCEPAGE:SS30						TEMPBONUS:ANYPC|MOVEADD|TYPE=Swim|30					
 
 #
-Planar Ally.COPY=Planar Ally	KEY:Planar Ally ~ Water elemental
-Planar Ally ~ Water elemental.MOD	OUTPUTNAME:Planar Ally	DESCRIPTOR:.CLEAR	DESCRIPTOR:Water	DESC:Summon Water Elemental only.	SOURCEPAGE:SS30
+Planar Ally.COPY=Planar Ally	KEY:Planar Ally ~ Water Elemental
+Planar Ally ~ Water Elemental.MOD	OUTPUTNAME:Planar Ally	DESCRIPTOR:.CLEAR	DESCRIPTOR:Water	DESC:Summon Water Elemental only.	SOURCEPAGE:SS30
+
 Dominate Animal.COPY=Dominate Animal	KEY:Dominate Animal ~ Reptiles only
 Dominate Animal ~ Reptiles only.MOD	OUTPUTNAME:Dominate Animal	DESC:Reptiles only.	SOURCEPAGE:SS30

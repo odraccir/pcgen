@@ -12,6 +12,7 @@ ABILITYCATEGORY:GM Awards				VISIBLE:YES		EDITABLE:YES	EDITPOOL:YES	FRACTIONALPO
 ###Block: Alternate Class Features
 # Ability Category				Visible	Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object	Plural description for UI		Display Location
 ABILITYCATEGORY:Alternate Class Feature	VISIBLE:YES	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:ACF			TYPE:ACF		PLURAL:Alternate Class Features	DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Alternate Class	VISIBLE:YES	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:ACF			TYPE:AlternateClass		PLURAL:Alternate Class	DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Alternate Rules		VISIBLE:YES	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:AltRules	PLURAL:Alternate Rules			DISPLAYLOCATION:Misc
 
 # COMMENT: This can be used to allow Users to see Monster Traits - Requires all 'ABILITY:Special Ability|AUTOMATIC' to 'ABILITY:Racial Trait|AUTOMATIC'

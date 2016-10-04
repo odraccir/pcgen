@@ -22,7 +22,10 @@ PCC:core/MonsterManual/_monstermanual.pcc
 PCC:core/MonsterManual2/_monstermanual2.pcc
 PCC:core/ExpandedPsionicHandbook/_expandedpsionicshandbook.pcc
 
+PCC:accessory/PlanarHandbook/_planarhandbook.pcc
+
 PCC:srd30/_srd30.pcc
+PCC:old30/ManualOfThePlanes/_manualoftheplanes.pcc
 PCC:old30/MonsterManual/_monstermanual.pcc
 PCC:old30/PsionicHandbook/_psionichandbook.pcc
 PCC:old30/PlayerSHandbook/_playershandbook.pcc
@@ -34,6 +37,8 @@ PCC:web/DragonMagazine/_dragonmagazine082.pcc
 PCC:web/RuleOfCoolForum/_ruleofcool.pcc
 
 PCC:ThirdParty/DarknessAndDread/_darknessanddread.pcc
+PCC:ThirdParty/SeafarerSHandbook/_seafarershandbook.pcc
+PCC:ThirdParty/SeasOfBlood/_seasofblood.pcc
 
 PCC:errata/MonsterManual/_monstermanual_errata.pcc
 PCC:errata/ExpandedPsionicHandbook/_expandedpsionichandbook_errata.pcc

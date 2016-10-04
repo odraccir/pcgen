@@ -1,10 +1,10 @@
-CAMPAIGN:Gozzilioni Savage Species 3.0
+CAMPAIGN:Savage Species 3.0
 GAMEMODE:G35e
-RANK:5
+RANK:3
 TYPE:Gozzilioni.Old30
 SETTING:Heroes
 BOOKTYPE:Campaign
-SOURCELONG:Gozzilioni Savage Species 3.0
+SOURCELONG:Savage Species 3.0
 SOURCESHORT:SS30
 SOURCEWEB:http://www.gozzilioni.net
 ISOGL:NO
@@ -13,7 +13,7 @@ PUBNAMELONG:Gozzilioni
 PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
-PRECAMPAIGN:2,Gozzilioni Core Ruleset,Gozzilioni Monster Manual
+PRECAMPAIGN:2,Core Ruleset,Monster Manual
 # Do not remove the EXTRAFILE comment.
 #EXTRAFILE:missing.txt
 
@@ -43,7 +43,7 @@ ABILITY:ss_subraces.lst
 TEMPLATE:ss_templates.lst
 #
 FORWARDREF:WEAPONPROF|Pincer Staff
-# HIDETYPE:SKILL|Craft (Stoneworking)
+HIDETYPE:SKILL|Perform (Chant)
 # HIDETYPE:FEAT|Wizard
 
 # ENTRY DATE: 2016-07 

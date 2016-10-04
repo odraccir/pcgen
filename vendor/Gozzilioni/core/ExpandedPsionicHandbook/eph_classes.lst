@@ -1,9 +1,9 @@
-SOURCELONG:Gozzilioni Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04										
+SOURCELONG:Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
 #
 # Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE	
 # Class Name req	Requirements	FINE											
 # Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE			ALLOWBASECLASS	
-# Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST							
+# Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST							
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)			
 CLASS:Psion	HD:4	TYPE:PC.Base	FACT:Abb|Psi	MAXLEVEL:NOLIMIT	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Psion	DEFINE:PsionLVL|0	BONUS:VAR|PsionLVL|CL
 CLASS:Psion	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Psicraft											
@@ -153,7 +153,7 @@ CLASS:Cerebremancer	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Scr
 10	ADD:SPELLCASTER|Arcane	ADD:SPELLCASTER|Psionic											
 
 CLASS:Elocater	HD:6	TYPE:PC.Prestige	FACT:Abb|Elo	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ElocaterLVL|0	BONUS:VAR|ElocaterLVL|CL
-CLASS:Elocater	PREATT:3	PRESKILL:1,Concentration=8	PREABILITY:2,CATEGORY=FEAT,Mobility,Spring Attack	PRESPELLCAST:TYPE=Psionic	PRETEXT:Able to manifest 1nd-level powers.								
+CLASS:Elocater	PRETOTALAB:3	PRESKILL:1,Concentration=8	PREABILITY:2,CATEGORY=FEAT,Mobility,Spring Attack	PRESPELLCAST:TYPE=Psionic	PRETEXT:Able to manifest 1nd-level powers.								
 CLASS:Elocater	STARTSKILLPTS:6	CSKILL:Autohypnosis|Balance|Climb|Concentration|TYPE.Craft|Disable Device|Escape Artist|Gather Information|Hide|Jump|Knowledge (Local)|Knowledge (Psionics)|Listen|TYPE.Perform|TYPE.Profession|Psicraft|Search|Sense Motive|Sleight of Hand|Spot|Swim|Tumble|Use Psionic Device											
 1				ABILITY:Elocater Class Feature|AUTOMATIC|Elocater ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ElocaterProficiencies									
 1				ABILITY:Elocater Class Feature|AUTOMATIC|Elocater ~ Power Known									
@@ -178,7 +178,7 @@ CLASS:Elocater	STARTSKILLPTS:6	CSKILL:Autohypnosis|Balance|Climb|Concentration|T
 
 ###TODO CONTIGUOUS:Monk
 CLASS:Fist of Zuoken	HD:6	TYPE:PC.Prestige	FACT:Abb|FoZ	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:FistOfZuokenLVL|0	BONUS:VAR|FistOfZuokenLVL|CL
-CLASS:Fist of Zuoken	PREATT:4	PRESKILL:1,Concentration=9	PREABILITY:2,CATEGORY=FEAT,Wild Talent	PREABILITY:1,CATEGORY=Special Ability,Still Mind									
+CLASS:Fist of Zuoken	PRETOTALAB:4	PRESKILL:1,Concentration=9	PREABILITY:2,CATEGORY=FEAT,Wild Talent	PREABILITY:1,CATEGORY=Special Ability,Still Mind									
 CLASS:Fist of Zuoken	STARTSKILLPTS:4	CSKILL:Autohypnosis|Concentration|TYPE.Craft|Escape Artist|Hide|Jump|Knowledge (Psionics)|Knowledge (Religion)|Listen|Move Silently|Psicraft|Sense Motive|Spot|Tumble											
 CLASS:Fist of Zuoken	SPELLSTAT:WIS	FACT:Spelltype|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Fist of Zuoken|CL	SPELLLIST:1|Psychic Warrior							
 1				ABILITY:Fist of Zuoken Class Feature|AUTOMATIC|Fist of Zuoken ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.FistOfZuokenProficiencies									
@@ -199,7 +199,7 @@ CLASS:Fist of Zuoken	SPELLSTAT:WIS	FACT:Spelltype|Psionic	MEMORIZE:NO		BONUS:CAS
 10	KNOWN:0,2,2,2,2,2												
 
 CLASS:Illithid Slayer	HD:8	TYPE:PC.Prestige	FACT:Abb|IlS	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:IllithidSlayerLVL|0	BONUS:VAR|IllithidSlayerLVL|CL
-CLASS:Illithid Slayer	PREATT:4	PRESKILL:1,Knowledge (Dungeoneering)=4	PREABILITY:2,CATEGORY=FEAT,Track	PREVARGTEQ:TotalPowerPoints,1	PRETEXT:Special: Must have killed an illithid, either individually or as part of a group composed of no more than six members.								
+CLASS:Illithid Slayer	PRETOTALAB:4	PRESKILL:1,Knowledge (Dungeoneering)=4	PREABILITY:2,CATEGORY=FEAT,Track	PREVARGTEQ:TotalPowerPoints,1	PRETEXT:Special: Must have killed an illithid, either individually or as part of a group composed of no more than six members.								
 CLASS:Illithid Slayer	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Knowledge (Dungeoneering)|Listen|Psicraft|Sense motive|Spot|Survival											
 1				ABILITY:Illithid Slayer Class Feature|AUTOMATIC|Illithid Slayer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.IllithidSlayerProficiencies									
 1				ABILITY:Illithid Slayer Class Feature|AUTOMATIC|Illithid Slayer ~ Power Known									
@@ -300,7 +300,7 @@ CLASS:Thrallherd	STARTSKILLPTS:2	CSKILL:Autohypnosis|Bluff|Concentration|TYPE=Cr
 9	ADD:SPELLCASTER|Psionic												
 
 CLASS:War Mind	HD:10	TYPE:PC.Prestige	FACT:Abb|WMd	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:WarMindLVL|0	BONUS:VAR|WarMindLVL|CL
-CLASS:War Mind	PREALIGN:LG,LN,LE,NG,TN,NE	PREATT:3	PRESKILL:1,Knowledge (History)=2	PRESKILL:1,Knowledge (Psionics)=8	PREVARGTEQ:TotalPowerPoints,1	PRETEXT:Special: Must have had some instruction by another war mind, have access to Talariic texts, or belong to an organization that has access to Talariic texts.							
+CLASS:War Mind	PREALIGN:LG,LN,LE,NG,TN,NE	PRETOTALAB:3	PRESKILL:1,Knowledge (History)=2	PRESKILL:1,Knowledge (Psionics)=8	PREVARGTEQ:TotalPowerPoints,1	PRETEXT:Special: Must have had some instruction by another war mind, have access to Talariic texts, or belong to an organization that has access to Talariic texts.							
 CLASS:War Mind	STARTSKILLPTS:2	CSKILL:Autohypnosis|Concentration|Intimidate|Knowledge (History)|Knowledge (Psionics)|Psicraft											
 CLASS:War Mind	SPELLSTAT:WIS	FACT:Spelltype|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|War Mind|CL	SPELLLIST:1|Psychic Warrior							
 1				ABILITY:War Mind Class Feature|AUTOMATIC|War Mind ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.WarMindProficiencies									

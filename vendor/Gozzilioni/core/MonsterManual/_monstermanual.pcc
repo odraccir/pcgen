@@ -1,10 +1,10 @@
-CAMPAIGN:Gozzilioni Monster Manual
+CAMPAIGN:Monster Manual
 GAMEMODE:G35e
 RANK:1
 TYPE:Gozzilioni.Partial.Core
 SETTING:Heroes
 BOOKTYPE:Campaign
-SOURCELONG:Gozzilioni Monster Manual
+SOURCELONG:Monster Manual
 SOURCESHORT:MM1
 SOURCEWEB:http://www.gozzilioni.net
 SOURCEDATE:2003-07
@@ -14,7 +14,7 @@ PUBNAMELONG:Gozzilioni
 PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
-PRECAMPAIGN:1,Gozzilioni Core Ruleset
+PRECAMPAIGN:1,Core Ruleset
 
 ABILITY:mm1_abilities.lst
 # ABILITY:phb_abilities_classes.lst
@@ -46,7 +46,7 @@ SPELL:mm1_spells.lst
 TEMPLATE:mm1_templates.lst
 
 #
-# HIDETYPE:SKILL|Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma
+HIDETYPE:SKILL|Control Shape|
 
 # HIDETYPE:FEAT|Wizard
 

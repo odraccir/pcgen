@@ -1,10 +1,10 @@
-CAMPAIGN:Gozzilioni Dungeon Master's Guide
+CAMPAIGN:Dungeon Master's Guide
 GAMEMODE:G35e
 RANK:1
 TYPE:Gozzilioni.Partial.Core
 SETTING:Heroes
 BOOKTYPE:Campaign
-SOURCELONG:Gozzilioni Dungeons Master's Guide
+SOURCELONG:Dungeons Master's Guide
 SOURCESHORT:DMG
 SOURCEWEB:http://www.gozzilioni.net
 SOURCEDATE:2003-07
@@ -14,7 +14,7 @@ PUBNAMELONG:Gozzilioni
 PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
-PRECAMPAIGN:1,Gozzilioni Core Ruleset
+PRECAMPAIGN:1,Core Ruleset
 
 ABILITY:dmg_abilities.lst
 ABILITY:dmg_abilities_classes.lst

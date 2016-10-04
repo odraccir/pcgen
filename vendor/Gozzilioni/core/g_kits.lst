@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Core Ruleset	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
+SOURCELONG:Core Ruleset	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
 	
 ###Block: Alignment Kits ------------------
 STARTPACK:LG	VISIBLE:NO	APPLY:INSTANT

@@ -1,10 +1,10 @@
-CAMPAIGN:Gozzilioni Player's Handbook 3.0
+CAMPAIGN:Player's Handbook 3.0
 GAMEMODE:G35e
-RANK:5
+RANK:1
 TYPE:Gozzilioni.Old30
 SETTING:Heroes
 BOOKTYPE:Campaign
-SOURCELONG:Gozzilioni Player's Handbook
+SOURCELONG:Player's Handbook
 SOURCESHORT:PHB30
 SOURCEWEB:http://www.gozzilioni.net
 ISOGL:NO
@@ -13,7 +13,7 @@ PUBNAMELONG:Gozzilioni
 PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
-PRECAMPAIGN:1,Gozzilioni Core Ruleset
+PRECAMPAIGN:2,Core Ruleset,Player's Handbook
 
 #from the old SRD 3.0, cambi di nome, stranezze e riesumazioni
 # or something disappeared from 3.5 that are needed with some manuals of 3.0 updated

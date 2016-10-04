@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04																					
+SOURCELONG:Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
 #																								
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:|!PRERULE:1,DisplayFullSpell	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST:	DESC:	Bonus	Bonus
 Adapt Body				TYPE:Power	SCHOOL:Psychometabolism			CLASSES:Psion=5|Wilder=5|Psychic Warrior=5	COMPS:Vi	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:1 hour/level	SAVEINFO:None	SPELLRES:No	DESC:.	SOURCEPAGE:EPH					DESC:Power Points: 9		

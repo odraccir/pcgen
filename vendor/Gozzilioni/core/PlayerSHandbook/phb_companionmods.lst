@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07							
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #										
 ###Block: Standard Companions										
 # Class of the Master	Type									
@@ -27,7 +27,7 @@ FOLLOWER:FamiliarLVL=1	TYPE:Familiar		BONUS:COMBAT|AC|(mastervar("FamiliarLVL")+
 FOLLOWER:FamiliarLVL=3	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Deliver Touch Spells				
 FOLLOWER:FamiliarLVL=5	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Speak with Master				
 FOLLOWER:FamiliarLVL=7	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Speak with Animals of Its Kind				
-FOLLOWER:FamiliarLVL=11	TYPE:Familiar						SR:mastervar("FamiliarLVL")+5			
+FOLLOWER:FamiliarLVL=11	TYPE:Familiar						SR:(mastervar("FamiliarLVL")+5)			
 FOLLOWER:FamiliarLVL=13	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Scry on Familiar				
 										
 ###Block:Familiar Bonus to Master										

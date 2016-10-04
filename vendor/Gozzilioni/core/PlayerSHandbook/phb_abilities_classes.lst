@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																															
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 																																		
 # Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page		
 Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassFeatures.BarbarianClassFeatures.SpecialQuality	VISIBLE:YES	DESC:A barbarian is proficient with all simple and martial weapons, light armor, medium armor, and shields (except tower shields).	KEY:Barbarian ~ Weapon and Armor Proficiency																		ABILITY:Internal|AUTOMATIC|TYPE=WeaponProfMartial	ABILITY:Internal|AUTOMATIC|TYPE=ArmorProfHeavy	ABILITY:Internal|AUTOMATIC|TYPE=ShieldProf						SORTKEY:Class_Barbarian	SOURCEPAGE:PHB		

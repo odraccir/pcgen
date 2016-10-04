@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Monster Manual Errata	SOURCESHORT:MM1e	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2006-02
+SOURCELONG:Monster Manual Errata	SOURCESHORT:MM1e	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2006-02
 	
 STARTPACK:Animal (Badger) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Badger)
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10

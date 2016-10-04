@@ -1,10 +1,10 @@
-CAMPAIGN:Gozzilioni Expanded Psionic Handbook Errata
+CAMPAIGN:Expanded Psionics Handbook Errata
 GAMEMODE:G35e
 RANK:1
 TYPE:Gozzilioni.Partial.Errata
 SETTING:Heroes
 BOOKTYPE:Campaign
-SOURCELONG:Gozzilioni Expanded Psionic Handbook Errata
+SOURCELONG:Expanded Psionics Handbook Errata
 SOURCESHORT:EPHe
 SOURCEWEB:http://www.gozzilioni.net
 SOURCEDATE:2008-04
@@ -14,7 +14,7 @@ PUBNAMELONG:Gozzilioni
 PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
-PRECAMPAIGN:2,Gozzilioni Core Ruleset,Gozzilioni Expanded Psionics Handbook
+PRECAMPAIGN:1,Expanded Psionics Handbook
 
 EQUIPMENT:eph_equip.lst
 ABILITY:eph_feats.lst

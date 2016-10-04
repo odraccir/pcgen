@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Savage Species 3.0	SOURCESHORT:SS30	SOURCEWEB:http://www.gozzilioni.net					
+SOURCELONG:Savage Species 3.0	SOURCESHORT:SS30	SOURCEWEB:http://www.gozzilioni.net
 #							
 ###Block:Waverider Mount							
 FOLLOWER:WaveriderMountLVL=7	TYPE:Waverider Mount	HD:1	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|5	ABILITY:Special Ability|AUTOMATIC|Waverider Mount ~ Empathic Link|Waverider Mount ~ Improved Evasion|Waverider Mount ~ Share Saving Throws|Waverider Mount ~ Share Spells	

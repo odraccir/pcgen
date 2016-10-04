@@ -1,4 +1,4 @@
-CAMPAIGN:Gozzilioni Dragon Magazine 082
+CAMPAIGN:Dragon Magazine 082
 GAMEMODE:G35e
 RANK:9
 TYPE:Gozzilioni.Partial.Web
@@ -14,7 +14,7 @@ PUBNAMELONG:Wizards of the Coast
 PUBNAMESHORT:WotC
 PUBNAMEWEB:http://dnd.wizards.com
 
-PRECAMPAIGN:1,Gozzilioni Core Ruleset
+PRECAMPAIGN:1,Core Ruleset
 
 EQUIPMENT:dm082_equip.lst
 KIT:dm082_kits.lst

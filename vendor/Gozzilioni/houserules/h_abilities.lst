@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
 #																										
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Mount Traits|PREVARGTEQ:TrainingLevel,1	DEFINE:TrainingLEvel|0
 Mount Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility.SpecialQuality																														SOURCEPAGE:H

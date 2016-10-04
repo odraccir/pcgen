@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Savage Species 3.0	SOURCESHORT:SS30	SOURCEWEB:http://www.gozzilioni.net
+SOURCELONG:Savage Species 3.0	SOURCESHORT:SS30	SOURCEWEB:http://www.gozzilioni.net
 #																									
 Chain (Barbed)	OUTPUTNAME:Chain, Barbed		PROFICIENCY:WEAPON|Chain (Barbed)	TYPE:Weapon.Melee.Exotic.Bludgeoning.Piercing.Onehanded.Chain	COST:18	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:SS30											
 Tail Blade			PROFICIENCY:WEAPON|Tail Blade (Weapon)	TYPE:Weapon.Melee.Exotic.Slashing.Sword	COST:17	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:SS30

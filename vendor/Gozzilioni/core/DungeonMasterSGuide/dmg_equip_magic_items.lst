@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																					
+SOURCELONG:Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #																								
 # Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property																
 ##Block: Potions																								
@@ -1003,7 +1003,8 @@ Scroll (Summon Monster IX/Divine)		TYPE:Scroll.Divine.Consumable	COST:3825	WT:0.
 Scroll (Summon Nature's Ally IX)		TYPE:Scroll.Divine.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
 Scroll (Sympathy/Divine)		TYPE:Scroll.Divine.Consumable	COST:5325	WT:0.01	SOURCEPAGE:DMG																			
 Scroll (True Resurrection)		TYPE:Scroll.Divine.Consumable	COST:28825	WT:0.01	SOURCEPAGE:DMG																			
-																								
+
+###Block: Staff
 Staff of Abjuration	KEY:Staff (Abjuration)	TYPE:Staff	COST:65000	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Shield (1 charge)/Resist energy (1 charge)/Dispel magic (1 charge)/Lesser globe of invulnerability (2 charges)/Dismissal (2 charges)/Repulsion (3 charges).																	
 Staff of Charming	KEY:Staff (Charming)	TYPE:Staff	COST:16500	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Charm person (1 charge)/Charm monster (2 charges).																	
 Staff of Conjuration	KEY:Staff (Conjuration)	TYPE:Staff	COST:65000	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Unseen servant (1 charge)/Summon swarm (1 charge)/Stinking cloud (1 charge)/Minor creation (2 charges)/Cloudkill (2 charges)/Summon monster VI (3 charges).																	
@@ -1283,7 +1284,7 @@ Ioun Stone (Iridescent)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	CO
 Ioun Stone (Pale Lavender)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:20000	WT:0	SOURCEPAGE:DMG	SPROP:Absorb spells of 4th level or lower.	EQMOD:CHARGED_ITEM_20|CHARGES[20]																	
 Ioun Stone (Pearly White)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:20000	WT:0	SOURCEPAGE:DMG																			
 Ioun Stone (Pale Green)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:30000	WT:0	SOURCEPAGE:DMG	BONUS:COMBAT|TOHIT|1|TYPE=Competence	BONUS:SAVE|ALL|1|TYPE=Competence	BONUS:SKILL|TYPE.Strength,TYPE.Dexterity,TYPE.Constitution,TYPE.Intelligence,TYPE.Wisdom,TYPE.Charisma|1|TYPE=Competence	BONUS:VAR|TurnCheckBase|1|TYPE=Competence															
-Ioun Stone (Orange)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:30000	WT:0	SOURCEPAGE:DMG	BONUS:CASTERLEVEL|ALLSPELLS|1																		
+Ioun Stone (Orange)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:30000	WT:0	SOURCEPAGE:DMG	BONUS:VAR|Caster_Level_Bonus|1
 Ioun Stone (Lavender and Green)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:40000	WT:0	SOURCEPAGE:DMG	SPROP:Absorb spells of 8th level or lower.	EQMOD:CHARGED_ITEM_50|CHARGES[50]																	
 Ioun Stone (Dull Gray)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:25	WT:0	SOURCEPAGE:DMG	SPROP:Burnt-out stone.																		
 Iron Bands of Bilarro		TYPE:Wondrous	COST:26000	WT:1	SOURCEPAGE:DMG																			

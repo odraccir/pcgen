@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04																																										
+SOURCELONG:Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
 																																													
 # Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page													
 Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassFeatures.PsionClassFeatures.SpecialQuality	VISIBLE:YES	DESC:Psions are proficient with the club, dagger, heavy crossbow, light crossbow, quar ter staff, and shortspear. They are not proficient with any type of armor or shield. Armor does not, however, interfere with the manifestation of powers.	KEY:Psion ~ Weapon and Armor Proficiency																		ABILITY:Internal|AUTOMATIC|TYPE=WeaponProfPsion								SORTKEY:Class_Psion	SOURCEPAGE:EPH													

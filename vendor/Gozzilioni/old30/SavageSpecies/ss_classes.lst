@@ -1,12 +1,12 @@
-SOURCELONG:Gozzilioni Savage Species 3.0	SOURCESHORT:SS30	SOURCEWEB:http://www.gozzilioni.net
+SOURCELONG:Savage Species 3.0	SOURCESHORT:SS30	SOURCEWEB:http://www.gozzilioni.net
 #													
 # Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE	
 # Class Name req	Requirements	FINE											
 # Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS	
-# Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST							
+# Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	SPELLLIST	spell level increases (BONUS:CASTERLEVEL)							
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)			
 CLASS:Emancipated Spawn	HD:12	TYPE:Prestige	FACT:Abb|EmS	MAXLEVEL:3	SOURCEPAGE:SS30	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:EmancipatedSpawnLVL|0	BONUS:VAR|EmancipatedSpawnLVL|CL
-CLASS:Emancipated Spawn	PRETEXT:Intelligent undead created by another undead using its create spawn ability. Special: Must have been created as a spawn by an undead creature that has since been destroyed.	PREATT:3											
+CLASS:Emancipated Spawn	PRETEXT:Intelligent undead created by another undead using its create spawn ability. Special: Must have been created as a spawn by an undead creature that has since been destroyed.	PRETOTALAB:3											
 CLASS:Emancipated Spawn	STARTSKILLPTS:2	CSKILL:Bluff|Climb|Disguise|Hide|Intimidate|Jump|Listen|Move Silently|Search|Sense Motive|Spot											
 1				ABILITY:Emancipated Spawn Class Feature|AUTOMATIC|Emancipated Spawn ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.EmancipatedSpawnProficiencies									
 #													
@@ -41,9 +41,9 @@ CLASS:Master of Flies	STARTSKILLPTS:6	CSKILL:Balance|Climb|Control Shape|Disguis
 10				ABILITY:Master of Flies Class Feature|AUTOMATIC|Master of Flies ~ Swarm Leap|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfFliesSwarmLeap									
 													
 CLASS:Scaled Horror	HD:10	TYPE:Prestige	FACT:Abb|ScH	MAXLEVEL:10	SOURCEPAGE:SS30	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ScaledHorrorLVL|0	BONUS:VAR|ScaledHorrorLVL|CL
-CLASS:Scaled Horror	PRERACE:1,RACESUBTYPE=Aquatic,RACESUBTYPE=Reptilian	PREATT:5	PRESKILL:2,Hide=5,Move Silently=5	PRETEXT:5 ranks on Swim or +8 racial bonus on Swim.									
+CLASS:Scaled Horror	PRERACE:1,RACESUBTYPE=Aquatic,RACESUBTYPE=Reptilian	PRETOTALAB:5	PRESKILL:2,Hide=5,Move Silently=5	PRETEXT:5 ranks on Swim or +8 racial bonus on Swim.									
 CLASS:Scaled Horror	STARTSKILLPTS:4	CSKILL:Climb|Concentration|Hide|Jump|Listen|Move Silently|Search|Spot|Survival|Swim											
-CLASS:Scaled Horror	SPELLSTAT:WIS	FACT:Spelltype|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Scaled Horror|CL	SPELLLIST:1|Ranger							
+CLASS:Scaled Horror	SPELLSTAT:WIS	FACT:Spelltype|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	SPELLLIST:1|Ranger	BONUS:CASTERLEVEL|Scaled Horror|Caster_Level_Scaled_Horror	DEFINE:Caster_Level_Scaled_Horror|0	BONUS:VAR|Caster_Level_Scaled_Horror|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Scaled_Horror|0	BONUS:VAR|Caster_Level_BL_Scaled_Horror|charbonusto("PCLEVEL","Scaled Horror")	BONUS:VAR|Caster_Level_Highest__Arcane|Caster_Level_Scaled_Horror+Caster_Level_BL_Scaled_Horror|TYPE=Base	
 1				ABILITY:Scaled Horror Class Feature|AUTOMATIC|Scaled Horror ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ScaledHorrorProficiencies									
 1				ABILITY:Scaled Horror Class Feature|AUTOMATIC|Scaled Horror ~ Spells									
 #													
@@ -121,7 +121,7 @@ CLASS:Sybil	STARTSKILLPTS:6	CSKILL:Concentration|TYPE.Craft|Diplomacy|Gather Inf
 9				ABILITY:Sybil Class Feature|AUTOMATIC|Sybil ~ Limited Wish|!PREABILITY:1,CATEGORY=ACF,TYPE.SybilLimitedWish									
 													
 CLASS:Waverider	HD:10	TYPE:Prestige	FACT:Abb|Wav	MAXLEVEL:10	SOURCEPAGE:SS30	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:WaveriderLVL|0	BONUS:VAR|WaveriderLVL|CL
-CLASS:Waverider	PRERACE:1,RACETYPE=Fey,RACETYPE=Monstrous Humanoid,RACETYPE=Outsider	PRERACE:1,RACESUBTYPE=Aquatic	PREATT:5	PRESKILL:1,Ride=6	PREABILITY:2,CATEGORY=FEAT,Mouned Archery,Mounted Combat	PRETEXT:Skills: Ride (an aquatic animal) 6 ranks.							
+CLASS:Waverider	PRERACE:1,RACETYPE=Fey,RACETYPE=Monstrous Humanoid,RACETYPE=Outsider	PRERACE:1,RACESUBTYPE=Aquatic	PRETOTALAB:5	PRESKILL:1,Ride=6	PREABILITY:2,CATEGORY=FEAT,Mouned Archery,Mounted Combat	PRETEXT:Skills: Ride (an aquatic animal) 6 ranks.							
 CLASS:Waverider	STARTSKILLPTS:2	CSKILL:Diplomacy|Handle Animal|Intimidate|Jump|TYPE=Profession|Ride											
 1				ABILITY:Waverider Class Feature|AUTOMATIC|Waverider ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.WaveriderProficiencies									
 #													

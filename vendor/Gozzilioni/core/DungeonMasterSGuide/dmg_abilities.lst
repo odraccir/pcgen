@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																															
+SOURCELONG:Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 																																		
 # Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page		
 CATEGORY=Internal|Default.MOD	DEFINE:ArtifactHandOfVecna|0	DEFINE:ArtifactEyeOfVecna|0	ABILITY:Special Ability|AUTOMATIC|Artifact ~ Hand and Eye of Vecna|PREVARGTEQ:ArtifactHandOfVecna,1,ArtifactEyeOfVecna,1

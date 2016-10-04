@@ -1,5 +1,6 @@
-SOURCELONG:Gozzilioni Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
 #																										
 # Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property																		
+Quiver		TYPE:Goods.Container	COST:0	WT:1	SOURCEPAGE:H	CONTAINS:UNLIM|Total=20|Arrow=20|Bolt=20
 Scabbard		TYPE:Goods.Container	COST:0.1	WT:1	SOURCEPAGE:H	CONTAINS:UNLIM|Total=1|Weapon=1
 Spellbook		TYPE:Goods.Tools.Spellbook	COST:15	WT:3	SOURCEPAGE:H	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)		

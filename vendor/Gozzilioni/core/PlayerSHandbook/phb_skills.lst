@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																																															
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #																																																		
 # Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:																																													
 Appraise	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:Skill.Intelligence.Appraise	SOURCEPAGE:PHB																																													
@@ -144,7 +144,7 @@ Perform (Sing)	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:SkillDisplay		VISIBLE:EXPORT	K
 Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Alchemy|var("SKILL.Craft (Alchemy).MISC")	BONUS:SKILLRANK|Craft ~ Alchemy|skillinfo("TOTALRANK", "Craft (Alchemy)")																																									
 Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Armorsmithing|var("SKILL.Craft (Armorsmithing).MISC")	BONUS:SKILLRANK|Craft ~ Armorsmithing|skillinfo("TOTALRANK", "Craft (Armorsmithing)")																																									
 Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Bowmaking|var("SKILL.Craft (Bowmaking).MISC")	BONUS:SKILLRANK|Craft ~ Bowmaking|skillinfo("TOTALRANK", "Craft (Bowmaking)")																																									
-Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Trapmaking|var("SKILL.Craft (Trapmaking).MISC")	BONUS:SKILLRANK|Craft ~ Alchemy|skillinfo("TOTALRANK", "Craft (Trapmaking)")																																									
+Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Trapmaking|var("SKILL.Craft (Trapmaking).MISC")	BONUS:SKILLRANK|Craft ~ Trapmaking|skillinfo("TOTALRANK", "Craft (Trapmaking)")																																									
 Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Weaponsmithing|var("SKILL.Craft (Weaponsmithing).MISC")	BONUS:SKILLRANK|Craft ~ Weaponsmithing|skillinfo("TOTALRANK", "Craft (Weaponsmithing)")																																									
 Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Woodworking|var("SKILL.Craft (Woodworking).MISC")	BONUS:SKILLRANK|Craft ~ Woodworking|skillinfo("TOTALRANK", "Craft (Woodworking)")																																									
 Perform (Untrained).MOD								BONUS:SKILL|Perform ~ Act|var("SKILL.Perform (Act).MISC")	BONUS:SKILLRANK|Perform ~ Act|skillinfo("TOTALRANK", "Perform (Act)")																																									

@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
+SOURCELONG:Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
 #																						
 # Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property														
 Ioun Stone (Rainbow)		TYPE:Wondrous.IounStone	COST:16000	WT:0	SOURCEPAGE:EPH	SPROP:Provides 5 psionic power points per day (regenerates)																

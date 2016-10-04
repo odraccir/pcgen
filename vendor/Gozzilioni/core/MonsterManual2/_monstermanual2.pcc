@@ -1,10 +1,10 @@
-CAMPAIGN:Gozzilioni Monster Manual 2
+CAMPAIGN:Monster Manual 2
 GAMEMODE:G35e
 RANK:1
 TYPE:Gozzilioni.Partial.Core
 SETTING:Heroes
 BOOKTYPE:Campaign
-SOURCELONG:Gozzilioni Monster Manual 2
+SOURCELONG:Monster Manual 2
 SOURCESHORT:MM2
 SOURCEWEB:http://www.gozzilioni.net
 SOURCEDATE:2003-07
@@ -14,7 +14,7 @@ PUBNAMELONG:Gozzilioni
 PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
-PRECAMPAIGN:3,Gozzilioni Core Ruleset,Gozzilioni Player's Handbook,Gozzilioni Monster Manual
+PRECAMPAIGN:3,Core Ruleset,Player's Handbook,Monster Manual
 
 ABILITY:mm2_abilities.lst
 ABILITY:mm2_abilities_races.lst
@@ -38,7 +38,7 @@ SPELL:mm2_spells.lst
 ABILITY:mm2_subraces.lst
 TEMPLATE:mm2_templates.lst
 #
-HIDETYPE:SKILL|Craft (Stoneworking)
+HIDETYPE:SKILL|Craft (Stoneworking)|Craft (Metalworking)
 
 # HIDETYPE:FEAT|Wizard
 

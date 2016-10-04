@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																																
+SOURCELONG:Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 																																			
 # Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	TYPE:	RACETYPE:	RACESUBTYPE:	MONSTERCLASS:	MOVE:	Combat bonus	NATURALATTACKS:	NATURALATTACKS:	Weapon prof. bonus	Weapon prof. bonus	FACE:	REACH:	Special Ability	Damage Reduction	Spell Res.	Stat bonus						MONCSKILL:	CR:	Required AL	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	Nb Legs	Nb Hands	SOURCEPAGE:		
 Companion (Blink Dog)	KEY:Companion ~ Blink Dog		STARTFEATS:1	SIZE:M	TYPE:Magical Beast	RACETYPE:Magical Beast		MONSTERCLASS:Magical Beast:4	MOVE:Walk,40	BONUS:COMBAT|AC|3|TYPE=NaturalArmor	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6				FACE:5	REACH:5	ABILITY:Internal|AUTOMATIC|Race Traits ~ Blink Dog				BONUS:STAT|DEX|6			BONUS:STAT|WIS|2		MONCSKILL:Hide|Listen|Sense Motive|Spot|Survival	CR:2		HITDICEADVANCEMENT:7,12	LEVELADJUSTMENT:2	LEGS:4	HANDS:0	SOURCEPAGE:MM1	KIT:1|Blink Dog Companion	

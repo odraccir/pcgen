@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																														
+SOURCELONG:Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 																																	
 # Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
 Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassFeatures.AdeptClassFeatures.SpecialQuality	VISIBLE:YES	DESC:Adepts are skilled with all simple weapons. Adepts are not proficient with any type of armor nor with shields.	KEY:Adept ~ Weapon and Armor Proficiency																		ABILITY:Internal|AUTOMATIC|TYPE=WeaponProfSimple								SORTKEY:Class_Adept	SOURCEPAGE:DMG	

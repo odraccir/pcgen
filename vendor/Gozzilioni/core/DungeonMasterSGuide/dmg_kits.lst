@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07	
+SOURCELONG:Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 
 STARTPACK:Starting Gold ~ Adept	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Adept=1	PRELEVELMAX:1	EQUIPBUY:0	
 GEAR:Coin (Gold)	QTY:roll("2d4")*10	

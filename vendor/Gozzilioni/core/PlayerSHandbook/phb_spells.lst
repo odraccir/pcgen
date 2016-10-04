@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																																				
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #																																							
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus														
 Acid Fog				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Acid	CLASSES:Sorcerer=6|Wizard=6	COMPS:V, S, M/DF	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:Fog spreads in 20-ft. radius, 20 ft. High.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Acid fog creates a billowing mass of misty vapors similar to that produced by a solid fog spell (page 281).	SOURCEPAGE:PHB																						

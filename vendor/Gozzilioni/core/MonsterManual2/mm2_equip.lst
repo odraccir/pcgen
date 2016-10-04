@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #																									
 #	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:			
 Bogun		KEY:Bogun	TYPE:Monster.Construct.Container	COST:2000	WT:0	SOURCEPAGE:MM2	CONTAINS:UNLIM|Any	SPROP:Unlike a homunculus, a bogun is created from natural materials available in any forest. All materials used become permanent parts of the bogun. Caster Level: 4th; Prerequisites: Craft Construct or Craft Wondrous Item, control plants, wood shape, and beget bogun; Market Price: 2,000 gp (never sold); Cost to Create: 1,050 gp + 78 XP.	BONUS:FOLLOWERS|Bogun|1

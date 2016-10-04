@@ -1,10 +1,10 @@
-CAMPAIGN:Gozzilioni Monster Manual Errata
+CAMPAIGN:Monster Manual Errata
 GAMEMODE:G35e
 RANK:1
 TYPE:Gozzilioni.Partial.Errata
 SETTING:Heroes
 BOOKTYPE:Campaign
-SOURCELONG:Gozzilioni Monster Manual Errata
+SOURCELONG:Monster Manual Errata
 SOURCESHORT:MM1e
 SOURCEWEB:http://www.gozzilioni.net
 SOURCEDATE:2006-02
@@ -14,7 +14,7 @@ PUBNAMELONG:Gozzilioni
 PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
-PRECAMPAIGN:2,Gozzilioni Core Ruleset,Gozzilioni Monster Manual
+PRECAMPAIGN:1,Monster Manual
 
 ABILITY:mm1e_abilities_races.lst
 EQUIPMENT:mm1e_equip.lst

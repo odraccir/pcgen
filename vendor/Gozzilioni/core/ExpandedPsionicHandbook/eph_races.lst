@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04																															
+SOURCELONG:Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
 																																		
 # Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	TYPE:	RACETYPE:	RACESUBTYPE:	MONSTERCLASS:	MOVE:	Combat bonus	NATURALATTACKS:	NATURALATTACKS:	Weapon prof. bonus	Weapon prof. bonus	FACE:	REACH:	Special Ability	Damage Reduction	Spell Res.	Stat bonus						MONCSKILL:	CR:	Required AL	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	Nb Legs	Nb Hands	SOURCEPAGE:	
 Dragon (Amethyst).MOD	RACESUBTYPE:Psionic																																	
@@ -8,3 +8,4 @@ Dromite			STARTFEATS:1	SIZE:M	TYPE:Monstrous Humanoid	RACETYPE:Monstrous Humanoi
 Elan			STARTFEATS:1	SIZE:M	TYPE:Aberration	RACETYPE:Aberration			MOVE:Walk,30						FACE:5	REACH:5	ABILITY:Internal|AUTOMATIC|Race Traits ~ Elan										CR:1/2				LEGS:2	HANDS:2	SOURCEPAGE:EPH	KIT:1|Elan Stats
 Half-Giant			STARTFEATS:1	SIZE:M	TYPE:Giant	RACETYPE:Giant			MOVE:Walk,30						FACE:5	REACH:5	ABILITY:Internal|AUTOMATIC|Race Traits ~ Half-Giant										CR:1/2				LEGS:2	HANDS:2	SOURCEPAGE:EPH	KIT:1|Half-Giant Stats
 Maenad			STARTFEATS:1	SIZE:M	TYPE:Humanoid	RACETYPE:Humanoid			MOVE:Walk,30						FACE:5	REACH:5	ABILITY:Internal|AUTOMATIC|Race Traits ~ Maenad										CR:1/2				LEGS:2	HANDS:2	SOURCEPAGE:EPH	KIT:1|Maenad Stats
+Xeph			STARTFEATS:1	SIZE:M	TYPE:Humanoid	RACETYPE:Humanoid			MOVE:Walk,30						FACE:5	REACH:5	ABILITY:Internal|AUTOMATIC|Race Traits ~ Xeph										CR:1/2				LEGS:2	HANDS:2	SOURCEPAGE:EPH	KIT:1|Xeph Stats

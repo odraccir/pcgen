@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
+SOURCELONG:Core Ruleset	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
 #			
 ### Weapon/Spell			
 ### Simple/Martial/Exotic			
@@ -22,9 +22,11 @@ Energy Touch	TYPE:Weapon.Natural.Finesseable.Melee.Touch.MeleeTouch
 #Melee
 Beard	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
 Chain Rake	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
+Frond	TYPE:Weapon.Natural.Finesseable.Melee.Slashing.MeleeSlashing
 Foreclaw	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing
 Gore	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
 Horn	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
+Icicle	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
 Nettle	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Pincer	TYPE:Weapon.Natural.Finesseable.Melee.Slashing.Bludgeoning.MeleeBludgeoning.MeleeSlashing
 Rake	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing
@@ -36,6 +38,7 @@ Snake	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.MeleePiercing.Mele
 Stamp	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Sting	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
 Tail	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
+Tail Barb	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Piercing.MeleeBludgeoning.MeleePiercing
 Tail Blade	TYPE:Weapon.Natural.Finesseable.Melee.Slashing.MeleeSlashing
 Tail Slap	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Talon	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning.MeleePiercing.MeleeSlashing.MeleeBludgeoning
@@ -51,6 +54,7 @@ Wing	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Spikes	TYPE:Weapon.Natural.Finesseable.Ranged.Piercing.RangedPiercing
 Flame Spit	TYPE:Weapon.Natural.Finesseable.Ranged
 Death Ray	TYPE:Weapon.Natural.Finesseable.Ranged
+Enervation Ray	TYPE:Weapon.Natural.Finesseable.Ranged
 Pressure Dart	TYPE:Weapon.Natural.Finesseable.Ranged
 Needle	TYPE:Weapon.Natural.Finesseable.Ranged.Piercing.RangedPiercing
 

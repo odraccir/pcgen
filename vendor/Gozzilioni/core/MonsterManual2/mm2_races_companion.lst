@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																																
+SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 																																			
 # Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	TYPE:	RACETYPE:	RACESUBTYPE:	MONSTERCLASS:	MOVE:	Combat bonus	NATURALATTACKS:	NATURALATTACKS:	Weapon prof. bonus	Weapon prof. bonus	FACE:	REACH:	Special Ability	Damage Reduction	Spell Res.	Stat bonus						MONCSKILL:	CR:	Required AL	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	Nb Legs	Nb Hands	SOURCEPAGE:		
 Companion (Bogun)	KEY:Companion ~ Bogun		STARTFEATS:1	SIZE:T	TYPE:Construct	RACETYPE:Construct		MONSTERCLASS:Construct:2	MOVE:Walk,20,Fly,50		NATURALATTACKS:Nettle,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d4,SPROP=Poison				FACE:2.5	REACH:0	ABILITY:Internal|AUTOMATIC|Race Traits ~ Bogun			BONUS:STAT|STR|-4	BONUS:STAT|DEX|6		BONUS:STAT|INT|-2	BONUS:STAT|WIS|2			CR:1	KIT:1|TN	HITDICEADVANCEMENT:6		LEGS:2	HANDS:2	SOURCEPAGE:MM2	KIT:1|Bogun Companion

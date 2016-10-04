@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #																																																																																																																			
 # Acid Resistance (Greater)	KEY:ACID_RST_GRT	TYPE:Armor.Shield	COST:66000	VISIBLE:QUALIFY	SOURCEPAGE:DMG	SPROP:Absorbs 30 points of Acid damage per attack.	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor,Shield]									ASSIGNTOALL:YES	REPLACES:ACID_RST,ACID_RST_IMP	BONUS:VAR|AcidResistanceBonusSp|30|TYPE=Base	ABILITY:Special Ability|VIRTUAL|Resistance To Acid (Sp)																																																																																																
 Wounding (Greater)	KEY:WOUND_GRT	TYPE:Weapon.Melee	PLUS:4	VISIBLE:QUALIFY	SOURCEPAGE:MM2	SPROP:Blood loss causes 2 Con damage per hit.	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee								ASSIGNTOALL:NO																																																																																																			

@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
 #																										
 # Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property																		
 Carpet of Flying (6x9)	OUTPUTNAME:Carpet of Flying, 6 Ft. By 9 Ft.	TYPE:Wondrous	COST:53000	WT:15	SOURCEPAGE:G	SORTKEY:Carpet of Flying, 0609																		

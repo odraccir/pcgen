@@ -1,10 +1,10 @@
-CAMPAIGN:Gozzilioni Monster Manual 3.0
+CAMPAIGN:Monster Manual 3.0
 GAMEMODE:G35e
-RANK:5
+RANK:1
 TYPE:Gozzilioni.Old30
 SETTING:Heroes
 BOOKTYPE:Campaign
-SOURCELONG:Gozzilioni Monster Manual 3.0
+SOURCELONG:Monster Manual 3.0
 SOURCESHORT:MM30
 SOURCEWEB:http://www.gozzilioni.net
 ISOGL:NO
@@ -13,9 +13,7 @@ PUBNAMELONG:Gozzilioni
 PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
-PRECAMPAIGN:2,Gozzilioni Core Ruleset,Gozzilioni Monster Manual
-# Do not remove the EXTRAFILE comment.
-#EXTRAFILE:missing.txt
+PRECAMPAIGN:2,Core Ruleset,Monster Manual
 
 ABILITY:mm_abilities_races.lst
 KIT:mm_kits.lst

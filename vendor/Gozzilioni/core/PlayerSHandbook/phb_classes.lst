@@ -1,9 +1,9 @@
-SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07											
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #														
 # Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE		
 # Class Name req	Requirements	FINE												
 # Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS		
-# Class Name specast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST								
+# Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	SPELLLIST	spell level increases (BONUS:CASTERLEVEL)							
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)				
 CLASS:Barbarian	HD:12	TYPE:PC.Base	FACT:Abb|Bbn	MAXLEVEL:20	SOURCEPAGE:PHB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Combat	DEFINE:BarbarianLVL|0	BONUS:VAR|BarbarianLVL|CL	EXCLASS:Ex-Barbarian
 CLASS:Barbarian	PREALIGN:NG,TN,NE,CG,CN,CE													
@@ -37,7 +37,7 @@ CLASS:Ex-Barbarian	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Handle Animal|Intimid
 CLASS:Bard	HD:6	TYPE:PC.Base	FACT:Abb|Brd	MAXLEVEL:20	SOURCEPAGE:PHB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Bard	DEFINE:BardLVL|0	BONUS:VAR|BardLVL|CL	EXCLASS:Ex-Bard
 CLASS:Bard	PREALIGN:NG,TN,NE,CG,CN,CE													
 CLASS:Bard	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|Concentration|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Sense Motive|Sleight of Hand|Speak Language|Spellcraft|Swim|Tumble|Use Magic Device												
-CLASS:Bard	SPELLSTAT:CHA	FACT:Spelltype|Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Bard|CL									
+CLASS:Bard	SPELLSTAT:CHA	FACT:Spelltype|Arcane	MEMORIZE:NO			BONUS:CASTERLEVEL|Bard|Caster_Level_Bard	DEFINE:Caster_Level_Bard|0	BONUS:VAR|Caster_Level_Bard|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Bard|0	BONUS:VAR|Caster_Level_BL_Bard|charbonusto("PCLEVEL","Bard")	BONUS:VAR|Caster_Level_Highest__Arcane|Caster_Level_Bard+Caster_Level_BL_Bard|TYPE=Base	
 1				ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BardProficiencies										
 1				ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Spells										
 #														
@@ -68,7 +68,7 @@ CLASS:Bard	SPELLSTAT:CHA	FACT:Spelltype|Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Ba
 CLASS:Ex-Bard	HD:6	TYPE:PC.Base	FACT:Abb|XBrd	MAXLEVEL:20	SOURCEPAGE:PHB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Bard	DEFINE:BardLVL|0	BONUS:VAR|BardLVL|CL	
 CLASS:Ex-Bard	VISIBLE:NO													
 CLASS:Ex-Bard	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|Concentration|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Sense Motive|Sleight of Hand|Speak Language|Spellcraft|Swim|Tumble|Use Magic Device												
-CLASS:Ex-Bard	SPELLSTAT:CHA	FACT:Spelltype|Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Bard|CL									
+CLASS:Ex-Bard	SPELLSTAT:CHA	FACT:Spelltype|Arcane	MEMORIZE:NO			BONUS:CASTERLEVEL|Bard|Caster_Level_Bard	DEFINE:Caster_Level_Bard|0	BONUS:VAR|Caster_Level_Bard|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Bard|0	BONUS:VAR|Caster_Level_BL_Bard|charbonusto("PCLEVEL","Bard")	BONUS:VAR|Caster_Level_Highest__Arcane|Caster_Level_Bard+Caster_Level_BL_Bard|TYPE=Base	
 1				ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BardProficiencies										
 1				ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Spells										
 #														
@@ -98,7 +98,7 @@ CLASS:Ex-Bard	SPELLSTAT:CHA	FACT:Spelltype|Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL
 														
 CLASS:Cleric	HD:8	TYPE:PC.Base	FACT:Abb|Clr	MAXLEVEL:20	SOURCEPAGE:PHB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Cleric	DEFINE:ClericLVL|0	BONUS:VAR|ClericLVL|CL	EXCLASS:Ex-Cleric
 CLASS:Cleric	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (History)|Knowledge (Religion)|Knowledge (The Planes)|TYPE.Profession|Spellcraft												
-CLASS:Cleric	SPELLSTAT:WIS	FACT:Spelltype|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9	BONUS:CASTERLEVEL|Cleric|CL	BONUS:DOMAIN|NUMBER|2								
+CLASS:Cleric	SPELLSTAT:WIS	FACT:Spelltype|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9	BONUS:DOMAIN|NUMBER|2	BONUS:CASTERLEVEL|Cleric|Caster_Level_Cleric	DEFINE:Caster_Level_Cleric|0	BONUS:VAR|Caster_Level_Cleric|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Cleric|0	BONUS:VAR|Caster_Level_BL_Cleric|charbonusto("PCLEVEL","Cleric")	BONUS:VAR|Caster_Level_Highest__Divine|Caster_Level_Cleric+Caster_Level_BL_Cleric|TYPE=Base	
 1				ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericProficiencies										
 1				ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Aura|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericAura										
 1				ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Spells										
@@ -141,7 +141,7 @@ CLASS:Ex-Cleric	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|K
 CLASS:Druid	HD:8	TYPE:PC.Base	FACT:Abb|Drd	MAXLEVEL:20	SOURCEPAGE:PHB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Druid	DEFINE:DruidLVL|0	BONUS:VAR|DruidLVL|CL	EXCLASS:Ex-Druid
 CLASS:Druid	PREALIGN:NG,LN,TN,CN,NE													
 CLASS:Druid	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Nature)|Listen|TYPE.Profession|Ride|Spellcraft|Spot|Survival|Swim												
-CLASS:Druid	SPELLSTAT:WIS	FACT:Spelltype|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9	BONUS:CASTERLEVEL|Druid|CL									
+CLASS:Druid	SPELLSTAT:WIS	FACT:Spelltype|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9		BONUS:CASTERLEVEL|Druid|Caster_Level_Druid	DEFINE:Caster_Level_Druid|0	BONUS:VAR|Caster_Level_Druid|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Druid|0	BONUS:VAR|Caster_Level_BL_Druid|charbonusto("PCLEVEL","Druid")	BONUS:VAR|Caster_Level_Highest__Divine|Caster_Level_Druid+Caster_Level_BL_Druid|TYPE=Base	
 1				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidProficiencies										
 1				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Spells										
 1				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Spontaneous Casting|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidSpontaneousCasting										
@@ -290,7 +290,7 @@ CLASS:Ex-Monk	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Dipl
 CLASS:Paladin	HD:10	TYPE:PC.Base	FACT:Abb|Pld	MAXLEVEL:20	SOURCEPAGE:PHB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Combat	DEFINE:PaladinLVL|0	BONUS:VAR|PaladinLVL|CL	EXCLASS:Ex-Paladin
 CLASS:Paladin	PREALIGN:LG													
 CLASS:Paladin	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Nobility and Royalty)|Knowledge (Religion)|TYPE.Profession|Ride|Sense Motive												
-CLASS:Paladin	SPELLSTAT:WIS	FACT:Spelltype|Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Paladin|CL/2|PRECLASS:1,Paladin=4	ITEMCREATE:0.5								
+CLASS:Paladin	SPELLSTAT:WIS	FACT:Spelltype|Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	ITEMCREATE:0.5	BONUS:CASTERLEVEL|Paladin|Caster_Level_Paladin	DEFINE:Caster_Level_Paladin|0	BONUS:VAR|Caster_Level_Paladin|(CL/2)+Caster_Level_Bonus|PRECLASS:1,Paladin=4	DEFINE:Caster_Level_BL_Paladin|0	BONUS:VAR|Caster_Level_BL_Paladin|charbonusto("PCLEVEL","Paladin")	BONUS:VAR|Caster_Level_Highest__Divine|Caster_Level_Paladin+Caster_Level_BL_Paladin|TYPE=Base	
 1				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinProficiencies										
 #														
 1				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Aura of Good|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinAuraOfGood										
@@ -330,7 +330,7 @@ CLASS:Ex-Paladin	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handl
 														
 CLASS:Ranger	HD:8	TYPE:PC.Base	FACT:Abb|Rgr	MAXLEVEL:20	SOURCEPAGE:PHB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Combat	DEFINE:RangerLVL|0	BONUS:VAR|RangerLVL|CL	
 CLASS:Ranger	STARTSKILLPTS:6	CSKILL:Climb|Concentration|TYPE.Craft|Handle Animal|Heal|Hide|Jump|Knowledge (Dungeoneering)|Knowledge (Geography)|Knowledge (Nature)|Listen|Move silently|TYPE.Profession|Ride|Search|Spot|Survival|Swim|Use Rope												
-CLASS:Ranger	SPELLSTAT:WIS	FACT:Spelltype|Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	BONUS:CASTERLEVEL|Ranger|CL/2|PRECLASS:1,Ranger=4	ITEMCREATE:0.5								
+CLASS:Ranger	SPELLSTAT:WIS	FACT:Spelltype|Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	ITEMCREATE:0.5	BONUS:CASTERLEVEL|Ranger|Caster_Level_Ranger	DEFINE:Caster_Level_Ranger|0	BONUS:VAR|Caster_Level_Ranger|(CL/2)+Caster_Level_Bonus|PRECLASS:1,Ranger=4	DEFINE:Caster_Level_BL_Ranger|0	BONUS:VAR|Caster_Level_BL_Ranger|charbonusto("PCLEVEL","Ranger")	BONUS:VAR|Caster_Level_Highest__Divine|Caster_Level_Ranger+Caster_Level_BL_Ranger|TYPE=Base	
 1				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerProficiencies										
 #														
 1				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Favored Enemy|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerFavoredEnemy										
@@ -362,7 +362,7 @@ CLASS:Rogue	STARTSKILLPTS:8	CSKILL:Appraise|Balance|Bluff|Climb|TYPE.Craft|Decip
 														
 CLASS:Sorcerer	HD:4	TYPE:PC.Base	FACT:Abb|Sor	MAXLEVEL:20	SOURCEPAGE:PHB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Sorcerer	DEFINE:SorcererLVL|0	BONUS:VAR|SorcererLVL|CL	
 CLASS:Sorcerer	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Knowledge (Arcana)|TYPE.Profession|Spellcraft												
-CLASS:Sorcerer	SPELLSTAT:CHA	FACT:Spelltype|Arcane	MEMORIZE:NO		BONUS:CASTERLEVEL|Sorcerer|CL									
+CLASS:Sorcerer	SPELLSTAT:CHA	FACT:Spelltype|Arcane	MEMORIZE:NO			BONUS:CASTERLEVEL|Sorcerer|Caster_Level_Sorcerer	DEFINE:Caster_Level_Sorcerer|0	BONUS:VAR|Caster_Level_Sorcerer|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Sorcerer|0	BONUS:VAR|Caster_Level_BL_Sorcerer|charbonusto("PCLEVEL","Sorcerer")	BONUS:VAR|Caster_Level_Highest__Arcane|Caster_Level_Sorcerer+Caster_Level_BL_Sorcerer|TYPE=Base	
 1				ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SorcererProficiencies										
 #														
 1				ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Spells										
@@ -391,7 +391,7 @@ CLASS:Sorcerer	SPELLSTAT:CHA	FACT:Spelltype|Arcane	MEMORIZE:NO		BONUS:CASTERLEVE
 														
 CLASS:Wizard	HD:4	TYPE:PC.Base	FACT:Abb|Wiz	MAXLEVEL:20	SOURCEPAGE:PHB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Wizard	DEFINE:WizardLVL|0	BONUS:VAR|WizardLVL|CL	
 CLASS:Wizard	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Script|TYPE.Knowledge|TYPE.Profession|Spellcraft												
-CLASS:Wizard	SPELLSTAT:INT	FACT:Spelltype|Arcane	SPELLBOOK:YES	KNOWNSPELLS:LEVEL=0,TYPE=WizardBaseCantrip	BONUS:CASTERLEVEL|Wizard|CL									
+CLASS:Wizard	SPELLSTAT:INT	FACT:Spelltype|Arcane	SPELLBOOK:YES	KNOWNSPELLS:LEVEL=0,TYPE=WizardBaseCantrip		BONUS:CASTERLEVEL|Wizard|Caster_Level_Wizard	DEFINE:Caster_Level_Wizard|0	BONUS:VAR|Caster_Level_Wizard|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Wizard|0	BONUS:VAR|Caster_Level_BL_Wizard|charbonusto("PCLEVEL","Wizard")	BONUS:VAR|Caster_Level_Highest__Arcane|Caster_Level_Wizard+Caster_Level_BL_Wizard|TYPE=Base	
 1				ABILITY:Wizard Class Feature|AUTOMATIC|Wizard ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.WizardProficiencies										
 #														
 1				ABILITY:Wizard Class Feature|AUTOMATIC|Wizard ~ Spells										

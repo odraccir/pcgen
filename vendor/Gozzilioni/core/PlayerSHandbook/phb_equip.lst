@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07						
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #									
 # PHB Name	OUTPUTNAME:	TYPE:	COST:	WT:	SOURCEPAGE:	Requires Modification?	Source Page	Special Property	
 Coin (Platinum)		TYPE:Coin	COST:10	WT:0.02	SOURCEPAGE:PHB				
@@ -152,7 +152,8 @@ Sunrod		TYPE:Goods.Alchemical.Consumable.LightSource.Sunrod	COST:2	WT:1	SOURCEPA
 Tanglefoot Bag		TYPE:Goods.Alchemical.Consumable	COST:50	WT:4	SOURCEPAGE:PHB				
 Thunderstone		TYPE:Goods.Alchemical.Consumable	COST:30	WT:1	SOURCEPAGE:PHB				
 Tindertwig		TYPE:Goods.Alchemical.Consumable	COST:1		SOURCEPAGE:PHB				
-									
+Unholy Water (Flask)		TYPE:Goods.Alchemical.Consumable.Flask.Liquid	COST:25	WT:1	SOURCEPAGE:PHB				
+
 ###Block: Tools									
 Alchemist's Lab		TYPE:Goods.Tools.Artisan	COST:500	WT:40	SOURCEPAGE:PHB	BONUS:SKILL|Craft (Alchemy)|2|TYPE=Circumstance			
 Clone's Lab		TYPE:Goods.Tools.Artisan	COST:500	WT:40	SOURCEPAGE:PHB
@@ -263,7 +264,7 @@ Sled		TYPE:Goods.Transportation.Container	COST:20	WT:300	SOURCEPAGE:PHB	CONTAINS
 Wagon		TYPE:Goods.Transportation.Container	COST:35	WT:400	SOURCEPAGE:PHB	CONTAINS:4000|Any			
 Warship		TYPE:Goods.Transportation.Ships.Container	COST:25000	WT:0	SOURCEPAGE:PHB	CONTAINS:300000|Any			
 									
-# Serveices									
+# Services									
 Coach Cab (Per Mile)		TYPE:Service.Transportation	COST:0.03		SOURCEPAGE:PHB				
 Hireling (Trained)		TYPE:Service	COST:0.3		SOURCEPAGE:PHB				
 Hireling (Untrained)		TYPE:Service	COST:0.1		SOURCEPAGE:PHB				

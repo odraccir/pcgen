@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Expanded Psionic Handbook Errata	SOURCESHORT:EPHe	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2008-04
+SOURCELONG:Expanded Psionic Handbook Errata	SOURCESHORT:EPHe	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2008-04
 #																																															
 # Feat Name	CATEGORY:	TYPE:	visible	key	Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	DESC:	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page					
 CATEGORY=FEAT|Greater Power Penetration.MOD	DESC:.CLEAR	DESC:To use this feat, you must expend your psionic focus (see the Concentration skill description, page 37). You get a +8 bonus on manifester level checks to overcome a creature's power resistance. This bonus overlaps with the bonus from Power Penetration (see page 49).

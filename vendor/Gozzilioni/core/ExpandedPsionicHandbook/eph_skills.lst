@@ -1,4 +1,4 @@
-SOURCELONG:Gozzilioni Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
+SOURCELONG:Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
 #							
 # Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:		
 Autohypnosis	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Autohypnosis	SOURCEPAGE:EPH		BONUS:SKILL|Knowledge (Psionics)|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Autohypnosis=5
