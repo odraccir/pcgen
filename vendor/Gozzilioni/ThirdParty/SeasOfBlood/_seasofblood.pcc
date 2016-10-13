@@ -45,7 +45,7 @@ SPELL:sob_spells.lst
 ABILITY:sob_subraces.lst
 TEMPLATE:sob_templates.lst
 
-HIDETYPE:SKILL|Knowledge (Seamanship)|Profession (Navigator)|Perform (Merchant)
+HIDETYPE:SKILL|Knowledge (Seamanship)|Profession (Navigator)|Profession (Merchant)|Craft (Soul Cage)
 HIDETYPE:FEAT|Reaver
 
 # ENTRY DATE: 2015-12

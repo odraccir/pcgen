@@ -25,14 +25,14 @@ ABILITYCATEGORY:aaeg_abilitycategories.lst
 # CLASS:motp_classes.lst
 # COMPANIONMOD:ss_companionmods.lst
 # DOMAIN:ss_domains.lst
-EQUIPMOD:aaeg_equipmods.lst
 EQUIPMENT:aaeg_equip.lst
+EQUIPMENT:aaeg_equip_armors.lst
 EQUIPMENT:aaeg_equip_armors_specific.lst
-# EQUIPMENT:ss_equip_armors_specific.lst
 EQUIPMENT:aaeg_equip_magic_items.lst
 EQUIPMENT:aaeg_equip_weapons.lst
-# EQUIPMENT:motp_equip_weapons_natural.lst
 EQUIPMENT:aaeg_equip_weapons_specific.lst
+# EQUIPMENT:motp_equip_weapons_natural.lst
+EQUIPMOD:aaeg_equipmods.lst
 ABILITY:aaeg_feats.lst
 KIT:aaeg_kits.lst
 # LANGUAGE:mm2_languages.lst
@@ -41,13 +41,13 @@ SHIELDPROF:aaeg_profs_shield.lst
 WEAPONPROF:aaeg_profs_weapon.lst
 RACE:aaeg_races.lst
 # RACE:ss_races_companion.lst
-# SKILL:motp_skills.lst
+SKILL:aaeg_skills.lst
 # SPELL:motp_spells.lst
 # ABILITY:motp_subraces.lst
 # TEMPLATE:motp_templates.lst
 #
 # FORWARDREF:WEAPONPROF|Pincer Staff
-# HIDETYPE:SKILL|Lucid Dreaming
+HIDETYPE:SKILL|Perform (Buffoonery)
 # HIDETYPE:FEAT|Wizard
 
 # ENTRY DATE: 2016-07 

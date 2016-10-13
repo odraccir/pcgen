@@ -1,11 +1,11 @@
-SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net																																							
-																																									
+SOURCELONG:SRD 3.0	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
+
 # name				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Acid	CLASSES:Sorcerer=6|Wizard=6	COMPS:V, S, M/DF	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:Fog spreads in 20-ft. radius, 20 ft. High.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:.	SOURCEPAGE:PHB																					
 Leomund's Trap.COPY=Phantom Trap
 
 # Animal Friendship
-# Emotion (Fear)
-# Emotion (Friendship)
+# Emotion (Fear) -> Cause Fear
+# Emotion (Friendship) -> Charm Person
 # Emotion (Hate)
 # Symbol (Discord)
 # Symbol (Hopelessness)

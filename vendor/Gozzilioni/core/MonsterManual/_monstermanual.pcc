@@ -46,7 +46,7 @@ SPELL:mm1_spells.lst
 TEMPLATE:mm1_templates.lst
 
 #
-HIDETYPE:SKILL|Control Shape|
+HIDETYPE:SKILL|Control Shape
 
 # HIDETYPE:FEAT|Wizard
 

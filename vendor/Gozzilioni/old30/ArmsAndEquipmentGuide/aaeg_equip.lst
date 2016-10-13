@@ -1,574 +1,574 @@
-SOURCELONG:Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.gozzilioni.net									
+SOURCELONG:Arms and Equipment Guide 3.0	SOURCESHORT:AaEG30	SOURCEWEB:http://www.gozzilioni.net
 #											
 # Name	OUTPUTNAME:	TYPE:	COST:	WT:	SOURCEPAGE:	Requires Modification?		Special Property			
 # Adventuring Gear											
-Animal call		TYPE:Goods.General	COST:20	WT:0	SOURCEPAGE:AaEG	SPROP:+1 circumstance bonus on Survival checks when hunting for food.					
-Armor Maintenance Kit		TYPE:Goods.General.Kit	COST:1	WT:1	SOURCEPAGE:AaEG	SPROP:+2 circumstance on Craft (Armorsmithing) when repairing an armor					
-Ascender/Slider		TYPE:Goods.General	COST:20	WT:1	SOURCEPAGE:AaEG	SPROP:+1 circumstance on Climb check when using a single rope					
-Banner/Standard		TYPE:Goods.General	COST:30	WT:10	SOURCEPAGE:AaEG	SPROP:+2 circumstance on Spot checks to be seen on distance					
-Barbed Wire (50-ft)		TYPE:Goods.General.Rope	COST:75	WT:35	SOURCEPAGE:AaEG						
-Bolt Cutters		TYPE:Goods.General	COST:6	WT:5	SOURCEPAGE:AaEG						
-Book (False)		TYPE:Goods.General	COST:30	WT:2	SOURCEPAGE:AaEG						
-Brewmaker (Dwarven)		TYPE:Goods.General	COST:40	WT:2	SOURCEPAGE:AaEG						
-Cage (Diminutive)		TYPE:Goods.General	COST:10	WT:13	SOURCEPAGE:AaEG	SPROP:One diminutive creature or multiple smaller					
-Cage (Large)		TYPE:Goods.General	COST:75	WT:200	SOURCEPAGE:AaEG	SPROP:One large creature or multiple smaller					
-Cage (Medium)		TYPE:Goods.General	COST:50	WT:100	SOURCEPAGE:AaEG	SPROP:One Medium creature or multiple smaller					
-Cage (Small)		TYPE:Goods.General	COST:25	WT:75	SOURCEPAGE:AaEG	SPROP:One small creature or multiple smaller					
-Cage (Tiny)		TYPE:Goods.General	COST:15	WT:25	SOURCEPAGE:AaEG	SPROP:One tiny creature or multiple smaller					
-Candelabra (4 candle/Silver)		TYPE:Goods.General.Container	COST:10	WT:0.5	SOURCEPAGE:AaEG	CONTAINS:UNLIM|Candle=4					
-Candelabra (4 candle/Gold)		TYPE:Goods.General.Container	COST:25	WT:1	SOURCEPAGE:AaEG	CONTAINS:UNLIM|Candle=4					
-Candelabra (8 candle/Silver)		TYPE:Goods.General.Container	COST:20	WT:1	SOURCEPAGE:AaEG	CONTAINS:UNLIM|Candle=8					
-Candelabra (8 candle/Gold)		TYPE:Goods.General.Container	COST:35	WT:2	SOURCEPAGE:AaEG	CONTAINS:UNLIM|Candle=8					
-Candelabra (16 candle/Silver)		TYPE:Goods.General.Container	COST:25	WT:3	SOURCEPAGE:AaEG	CONTAINS:UNLIM|Candle=16					
-Candelabra (16 candle/Gold)		TYPE:Goods.General.Container	COST:45	WT:6	SOURCEPAGE:AaEG	CONTAINS:UNLIM|Candle=16					
-Candle Mold		TYPE:Goods.General	COST:1.2	WT:5	SOURCEPAGE:AaEG						
-Candle (Insectbane)		TYPE:Goods.General.Candle.LightSource	COST:.1	WT:0	SOURCEPAGE:AaEG			QUALITY:Shadowy Illumination|10 ft.	QUALITY:Duration|1 hr.		
-Crane (Portable/STR 22)		TYPE:Goods.General	COST:30	WT:75	SOURCEPAGE:AaEG						
-Crane (Portable/STR 24)		TYPE:Goods.General	COST:60	WT:120	SOURCEPAGE:AaEG						
-Crane (Portable/STR 28)		TYPE:Goods.General	COST:120	WT:250	SOURCEPAGE:AaEG						
-Earplug		TYPE:Goods.General	COST:0.3	WT:0	SOURCEPAGE:AaEG	SPROP:+1 circumstance on saves against sonic attacks	BONUS:SKILL|Listen|-4|TYPE=Circumstance				
-Finger Blades		TYPE:Goods.General.Glove	COST:20	WT:0	SOURCEPAGE:AaEG		BONUS:SKILL|Sleight of Hands|1|TYPE=Circumstance				
-Fishing Tackle		TYPE:Goods.General	COST:20	WT:5	SOURCEPAGE:AaEG	SPROP:+1 circumstance on Survival check when gathering food around bodies of water					
-Flotation Bags		TYPE:Goods.General	COST:5	WT:1	SOURCEPAGE:AaEG		BONUS:SKILL|Swim|2|TYPE=Circcumstance				
-Fowler's Snare		TYPE:Goods.General	COST:20	WT:5	SOURCEPAGE:AaEG		SPROP:+1 circumstance on Survival check when capturing birds and other small animals				
-Game Board (Portable)		TYPE:Goods.General	COST:2	WT:1	SOURCEPAGE:AaEG						
-Glass Cutter		TYPE:Goods.General	COST:2	WT:1	SOURCEPAGE:AaEG						
-Grappling Hook (Collapsible)		TYPE:Goods.General	COST:3	WT:2	SOURCEPAGE:AaEG						
-Grappling Ladder (10-ft)		TYPE:Goods.General	COST:40	WT:8	SOURCEPAGE:AaEG						
-Hacksaw (Common)		TYPE:Goods.General	COST:5	WT:1	SOURCEPAGE:AaEG						
-Hacksaw (Superior)		TYPE:Goods.General	COST:20	WT:1	SOURCEPAGE:AaEG						
-Hammock		TYPE:Goods.General	COST:5	WT:1	SOURCEPAGE:AaEG						
-Heat Mat		TYPE:Goods.General	COST:45	WT:0	SOURCEPAGE:AaEG						
-Holy Text		TYPE:Goods.General	COST:10	WT:3	SOURCEPAGE:AaEG						
-Housebreaker Harness		TYPE:Goods.General	COST:20	WT:2	SOURCEPAGE:AaEG		BONUS:SKILL|Climb|1|TYPE=Circumstance	BONUS:SKILL|Balance,Escape Artist,Hide,Jump,Sleight of Hands,Tumble|-2|TYPE=Circumstance			
-Ice Axe		TYPE:Goods.General	COST:10	WT:5	SOURCEPAGE:AaEG	SPROP:+1 circumstance on Climb check when climbing icy surfaces					
-Insect Netting		TYPE:Goods.General	COST:200	WT:5	SOURCEPAGE:AaEG						
-Jeweler's Loupe		TYPE:Goods.General	COST:20	WT:0	SOURCEPAGE:AaEG		BONUS:SKILL|Appraise|1|TYPE=Circumstance				
-Keg (Hand)		TYPE:Goods.General.Container	COST:0.5	WT:10	SOURCEPAGE:AaEG	CONTAINS:10|Liquid					
-Keg (Cask)		TYPE:Goods.General.Container	COST:1	WT:20	SOURCEPAGE:AaEG	CONTAINS:20|Liquid					
-Lantern (Fog-cutter)		TYPE:Goods.General.Container.LightSource	COST:20	WT:3	SOURCEPAGE:AaEG	CONTAINS:1|Liquid=1		QUALITY:Bright Illumination|60 ft. cone	QUALITY:Shadowy Illumination|120 ft. cone	QUALITY:Duration|6 hr./pint	
-Leash and Muzzle (Diminutive)		TYPE:Goods.General	COST:0.2	WT:0	SOURCEPAGE:AaEG		BONUS:SKILL|Handle Animal|1|TYPE=Circumstance|PRETYPE:1,Masterwork				
-Leash and Muzzle (Tiny)		TYPE:Goods.General	COST:0.4	WT:0	SOURCEPAGE:AaEG		BONUS:SKILL|Handle Animal|1|TYPE=Circumstance|PRETYPE:1,Masterwork				
-Leash and Muzzle (Small)		TYPE:Goods.General	COST:0.6	WT:0	SOURCEPAGE:AaEG		BONUS:SKILL|Handle Animal|1|TYPE=Circumstance|PRETYPE:1,Masterwork				
-Leash and Muzzle (Medium)		TYPE:Goods.General	COST:0.8	WT:0	SOURCEPAGE:AaEG		BONUS:SKILL|Handle Animal|1|TYPE=Circumstance|PRETYPE:1,Masterwork				
-Magnet (Small)		TYPE:Goods.General	COST:10	WT:1	SOURCEPAGE:AaEG						
-Marbles		TYPE:Goods.General	COST:0.2	WT:2	SOURCEPAGE:AaEG						
-Mess Kit		TYPE:Goods.General.Kit	COST:0.6	WT:1	SOURCEPAGE:AaEG						
-Mill (Hand)		TYPE:Goods.General	COST:2	WT:1	SOURCEPAGE:AaEG						
-Money Belt		TYPE:Goods.General.Container	COST:4	WT:0	SOURCEPAGE:AaEG	CONTAINS:UNLIM|Coins=50					
-Music Box		TYPE:Goods.General	COST:35	WT:0	SOURCEPAGE:AaEG						
-Net (Butterfly)		TYPE:Goods.General	COST:10	WT:.25	SOURCEPAGE:AaEG						
-Percolator		TYPE:Goods.General	COST:1	WT:1	SOURCEPAGE:AaEG						
-Periscope		TYPE:Goods.General	COST:20	WT:2	SOURCEPAGE:AaEG						
-Pestle and Mortar		TYPE:Goods.General	COST:5	WT:1	SOURCEPAGE:AaEG						
-Pulley		TYPE:Goods.General	COST:5	WT:1	SOURCEPAGE:AaEG						
-Quiver (Scabbard)		TYPE:Goods.General	COST:10	WT:2	SOURCEPAGE:AaEG						
-Rope (Elven/20 Ft.)		TYPE:Goods.General	COST:50	WT:5	SOURCEPAGE:AaEG		BONUS:SKILL|Use Rope|3|TYPE=Circumstance				
-Saw (folding)		TYPE:Goods.General	COST:2	WT:2	SOURCEPAGE:AaEG						
-Shoes (Silent)		TYPE:Goods.General.Boot	COST:10	WT:1	SOURCEPAGE:AaEG		SLOTS:2	BONUS:SKILL|Move Silently|1|TYPE=Circumstance			
-Shriek Rock		TYPE:Goods.General	COST:3	WT:.25	SOURCEPAGE:AaEG						
-Skis and Poles		TYPE:Goods.General.Kit	COST:15	WT:6	SOURCEPAGE:AaEG						
-Slate Board		TYPE:Goods.General	COST:5	WT:1	SOURCEPAGE:AaEG						
-Snorkel		TYPE:Goods.General	COST:1	WT:.5	SOURCEPAGE:AaEG						
-Snow Googles		TYPE:Goods.General.Eyegear	COST:2	WT:0	SOURCEPAGE:AaEG	SPROP:+2 circumstance bonus on saves to resist blinding effects		BONUS:SKILL|Spot,Search|-4|TYPE=Circumstance			
-Snowshoes		TYPE:Goods.General.Boot	COST:15	WT:8	SOURCEPAGE:AaEG		SLOTS:2				
-Sparker		TYPE:Goods.General	COST:2	WT:0	SOURCEPAGE:AaEG						
-Spider Poles		TYPE:Goods.General	COST:35	WT:8	SOURCEPAGE:AaEG						
-Sprayer		TYPE:Goods.General	COST:15	WT:4	SOURCEPAGE:AaEG						
-Springwall		TYPE:Goods.General	COST:60	WT:1	SOURCEPAGE:AaEG						
-Stilts		TYPE:Goods.General	COST:5	WT:8	SOURCEPAGE:AaEG						
-Table Case (Folding)		TYPE:Goods.General	COST:5	WT:5	SOURCEPAGE:AaEG						
-Tarp		TYPE:Goods.General	COST:5	WT:30	SOURCEPAGE:AaEG						
-Tent (1 person)		TYPE:Goods.General	COST:5	WT:10	SOURCEPAGE:AaEG						
-Tent (4 person)		TYPE:Goods.General	COST:20	WT:40	SOURCEPAGE:AaEG						
-Tent (20 person/pavilion)		TYPE:Goods.General	COST:100	WT:300	SOURCEPAGE:AaEG						
-Tent (8 person/Teepee)		TYPE:Goods.General	COST:60	WT:100	SOURCEPAGE:AaEG						
-Tent (tree/elven)		TYPE:Goods.General	COST:30	WT:5	SOURCEPAGE:AaEG						
-Helmet (Thievering)		TYPE:Goods.General.Headgear	COST:10	WT:1	SOURCEPAGE:AaEG						
-Tongs (metal)		TYPE:Goods.General	COST:3	WT:4	SOURCEPAGE:AaEG						
-Tree Stand		TYPE:Goods.General	COST:15	WT:5	SOURCEPAGE:AaEG						
-Twine (roll/50-ft)		TYPE:Goods.General	COST:.2	WT:0	SOURCEPAGE:AaEG						
-Winch (portable/str 18)		TYPE:Goods.General	COST:20	WT:20	SOURCEPAGE:AaEG						
-Winch (portable/str 20)		TYPE:Goods.General	COST:40	WT:40	SOURCEPAGE:AaEG						
-Winch (portable/str 22)		TYPE:Goods.General	COST:80	WT:80	SOURCEPAGE:AaEG						
-Lawful Water (Flask)		TYPE:Goods.Alchemical.Consumable.Flask.Liquid	COST:25	WT:1	SOURCEPAGE:AaEG						
-Chaotic Water (Flask)		TYPE:Goods.Alchemical.Consumable.Flask.Liquid	COST:25	WT:1	SOURCEPAGE:AaEG						
-Lawful Water		TYPE:Goods.Alchemical.Consumable.Liquid	COST:24.5	WT:0.75	SOURCEPAGE:AaEG						
-Chaotic Water		TYPE:Goods.Alchemical.Consumable.Liquid	COST:24.5	WT:0.75	SOURCEPAGE:AaEG						
+Animal call		TYPE:Goods.General	COST:20	WT:0	SOURCEPAGE:AaEG30	SPROP:+1 circumstance bonus on Survival checks when hunting for food.					
+Armor Maintenance Kit		TYPE:Goods.General.Kit	COST:1	WT:1	SOURCEPAGE:AaEG30	SPROP:+2 circumstance on Craft (Armorsmithing) when repairing an armor					
+Ascender/Slider		TYPE:Goods.General	COST:20	WT:1	SOURCEPAGE:AaEG30	SPROP:+1 circumstance on Climb check when using a single rope					
+Banner/Standard		TYPE:Goods.General	COST:30	WT:10	SOURCEPAGE:AaEG30	SPROP:+2 circumstance on Spot checks to be seen on distance					
+Barbed Wire (50-ft)		TYPE:Goods.General.Rope	COST:75	WT:35	SOURCEPAGE:AaEG30						
+Bolt Cutters		TYPE:Goods.General	COST:6	WT:5	SOURCEPAGE:AaEG30						
+Book (False)		TYPE:Goods.General	COST:30	WT:2	SOURCEPAGE:AaEG30						
+Brewmaker (Dwarven)		TYPE:Goods.General	COST:40	WT:2	SOURCEPAGE:AaEG30						
+Cage (Diminutive)		TYPE:Goods.General	COST:10	WT:13	SOURCEPAGE:AaEG30	SPROP:One diminutive creature or multiple smaller					
+Cage (Large)		TYPE:Goods.General	COST:75	WT:200	SOURCEPAGE:AaEG30	SPROP:One large creature or multiple smaller					
+Cage (Medium)		TYPE:Goods.General	COST:50	WT:100	SOURCEPAGE:AaEG30	SPROP:One Medium creature or multiple smaller					
+Cage (Small)		TYPE:Goods.General	COST:25	WT:75	SOURCEPAGE:AaEG30	SPROP:One small creature or multiple smaller					
+Cage (Tiny)		TYPE:Goods.General	COST:15	WT:25	SOURCEPAGE:AaEG30	SPROP:One tiny creature or multiple smaller					
+Candelabra (4 candle/Silver)		TYPE:Goods.General.Container	COST:10	WT:0.5	SOURCEPAGE:AaEG30	CONTAINS:UNLIM|Candle=4					
+Candelabra (4 candle/Gold)		TYPE:Goods.General.Container	COST:25	WT:1	SOURCEPAGE:AaEG30	CONTAINS:UNLIM|Candle=4					
+Candelabra (8 candle/Silver)		TYPE:Goods.General.Container	COST:20	WT:1	SOURCEPAGE:AaEG30	CONTAINS:UNLIM|Candle=8					
+Candelabra (8 candle/Gold)		TYPE:Goods.General.Container	COST:35	WT:2	SOURCEPAGE:AaEG30	CONTAINS:UNLIM|Candle=8					
+Candelabra (16 candle/Silver)		TYPE:Goods.General.Container	COST:25	WT:3	SOURCEPAGE:AaEG30	CONTAINS:UNLIM|Candle=16					
+Candelabra (16 candle/Gold)		TYPE:Goods.General.Container	COST:45	WT:6	SOURCEPAGE:AaEG30	CONTAINS:UNLIM|Candle=16					
+Candle Mold		TYPE:Goods.General	COST:1.2	WT:5	SOURCEPAGE:AaEG30						
+Candle (Insectbane)		TYPE:Goods.General.Candle.LightSource	COST:.1	WT:0	SOURCEPAGE:AaEG30			QUALITY:Shadowy Illumination|10 ft.	QUALITY:Duration|1 hr.		
+Crane (Portable/STR 22)		TYPE:Goods.General	COST:30	WT:75	SOURCEPAGE:AaEG30						
+Crane (Portable/STR 24)		TYPE:Goods.General	COST:60	WT:120	SOURCEPAGE:AaEG30						
+Crane (Portable/STR 28)		TYPE:Goods.General	COST:120	WT:250	SOURCEPAGE:AaEG30						
+Earplug		TYPE:Goods.General	COST:0.3	WT:0	SOURCEPAGE:AaEG30	SPROP:+1 circumstance on saves against sonic attacks	BONUS:SKILL|Listen|-4|TYPE=Circumstance				
+Finger Blades		TYPE:Goods.General.Glove	COST:20	WT:0	SOURCEPAGE:AaEG30		BONUS:SKILL|Sleight of Hand|1|TYPE=Circumstance				
+Fishing Tackle		TYPE:Goods.General	COST:20	WT:5	SOURCEPAGE:AaEG30	SPROP:+1 circumstance on Survival check when gathering food around bodies of water					
+Flotation Bags		TYPE:Goods.General	COST:5	WT:1	SOURCEPAGE:AaEG30		BONUS:SKILL|Swim|2|TYPE=Circcumstance				
+Fowler's Snare		TYPE:Goods.General	COST:20	WT:5	SOURCEPAGE:AaEG30		SPROP:+1 circumstance on Survival check when capturing birds and other small animals				
+Game Board (Portable)		TYPE:Goods.General	COST:2	WT:1	SOURCEPAGE:AaEG30						
+Glass Cutter		TYPE:Goods.General	COST:2	WT:1	SOURCEPAGE:AaEG30						
+Grappling Hook (Collapsible)		TYPE:Goods.General	COST:3	WT:2	SOURCEPAGE:AaEG30						
+Grappling Ladder (10-ft)		TYPE:Goods.General	COST:40	WT:8	SOURCEPAGE:AaEG30						
+Hacksaw (Common)		TYPE:Goods.General	COST:5	WT:1	SOURCEPAGE:AaEG30						
+Hacksaw (Superior)		TYPE:Goods.General	COST:20	WT:1	SOURCEPAGE:AaEG30						
+Hammock		TYPE:Goods.General	COST:5	WT:1	SOURCEPAGE:AaEG30						
+Heat Mat		TYPE:Goods.General	COST:45	WT:0	SOURCEPAGE:AaEG30						
+Holy Text		TYPE:Goods.General	COST:10	WT:3	SOURCEPAGE:AaEG30						
+Housebreaker Harness		TYPE:Goods.General	COST:20	WT:2	SOURCEPAGE:AaEG30		BONUS:SKILL|Climb|1|TYPE=Circumstance	BONUS:SKILL|Balance,Escape Artist,Hide,Jump,Sleight of Hand,Tumble|-2|TYPE=Circumstance			
+Ice Axe		TYPE:Goods.General	COST:10	WT:5	SOURCEPAGE:AaEG30	SPROP:+1 circumstance on Climb check when climbing icy surfaces					
+Insect Netting		TYPE:Goods.General	COST:200	WT:5	SOURCEPAGE:AaEG30						
+Jeweler's Loupe		TYPE:Goods.General	COST:20	WT:0	SOURCEPAGE:AaEG30		BONUS:SKILL|Appraise|1|TYPE=Circumstance				
+Keg (Hand)		TYPE:Goods.General.Container	COST:0.5	WT:10	SOURCEPAGE:AaEG30	CONTAINS:10|Liquid					
+Keg (Cask)		TYPE:Goods.General.Container	COST:1	WT:20	SOURCEPAGE:AaEG30	CONTAINS:20|Liquid					
+Lantern (Fog-cutter)		TYPE:Goods.General.Container.LightSource	COST:20	WT:3	SOURCEPAGE:AaEG30	CONTAINS:1|Liquid=1		QUALITY:Bright Illumination|60 ft. cone	QUALITY:Shadowy Illumination|120 ft. cone	QUALITY:Duration|6 hr./pint	
+Leash and Muzzle (Diminutive)		TYPE:Goods.General	COST:0.2	WT:0	SOURCEPAGE:AaEG30		BONUS:SKILL|Handle Animal|1|TYPE=Circumstance|PRETYPE:1,Masterwork				
+Leash and Muzzle (Tiny)		TYPE:Goods.General	COST:0.4	WT:0	SOURCEPAGE:AaEG30		BONUS:SKILL|Handle Animal|1|TYPE=Circumstance|PRETYPE:1,Masterwork				
+Leash and Muzzle (Small)		TYPE:Goods.General	COST:0.6	WT:0	SOURCEPAGE:AaEG30		BONUS:SKILL|Handle Animal|1|TYPE=Circumstance|PRETYPE:1,Masterwork				
+Leash and Muzzle (Medium)		TYPE:Goods.General	COST:0.8	WT:0	SOURCEPAGE:AaEG30		BONUS:SKILL|Handle Animal|1|TYPE=Circumstance|PRETYPE:1,Masterwork				
+Magnet (Small)		TYPE:Goods.General	COST:10	WT:1	SOURCEPAGE:AaEG30						
+Marbles		TYPE:Goods.General	COST:0.2	WT:2	SOURCEPAGE:AaEG30						
+Mess Kit		TYPE:Goods.General.Kit	COST:0.6	WT:1	SOURCEPAGE:AaEG30						
+Mill (Hand)		TYPE:Goods.General	COST:2	WT:1	SOURCEPAGE:AaEG30						
+Money Belt		TYPE:Goods.General.Container	COST:4	WT:0	SOURCEPAGE:AaEG30	CONTAINS:UNLIM|Coins=50					
+Music Box		TYPE:Goods.General	COST:35	WT:0	SOURCEPAGE:AaEG30						
+Net (Butterfly)		TYPE:Goods.General	COST:10	WT:.25	SOURCEPAGE:AaEG30						
+Percolator		TYPE:Goods.General	COST:1	WT:1	SOURCEPAGE:AaEG30						
+Periscope		TYPE:Goods.General	COST:20	WT:2	SOURCEPAGE:AaEG30						
+Pestle and Mortar		TYPE:Goods.General	COST:5	WT:1	SOURCEPAGE:AaEG30						
+Pulley		TYPE:Goods.General	COST:5	WT:1	SOURCEPAGE:AaEG30						
+Quiver (Scabbard)		TYPE:Goods.General	COST:10	WT:2	SOURCEPAGE:AaEG30						
+Rope (Elven/20 Ft.)		TYPE:Goods.General	COST:50	WT:5	SOURCEPAGE:AaEG30		BONUS:SKILL|Use Rope|3|TYPE=Circumstance				
+Saw (folding)		TYPE:Goods.General	COST:2	WT:2	SOURCEPAGE:AaEG30						
+Shoes (Silent)		TYPE:Goods.General.Boot	COST:10	WT:1	SOURCEPAGE:AaEG30		SLOTS:2	BONUS:SKILL|Move Silently|1|TYPE=Circumstance			
+Shriek Rock		TYPE:Goods.General	COST:3	WT:.25	SOURCEPAGE:AaEG30						
+Skis and Poles		TYPE:Goods.General.Kit	COST:15	WT:6	SOURCEPAGE:AaEG30						
+Slate Board		TYPE:Goods.General	COST:5	WT:1	SOURCEPAGE:AaEG30						
+Snorkel		TYPE:Goods.General	COST:1	WT:.5	SOURCEPAGE:AaEG30						
+Snow Googles		TYPE:Goods.General.Eyegear	COST:2	WT:0	SOURCEPAGE:AaEG30	SPROP:+2 circumstance bonus on saves to resist blinding effects		BONUS:SKILL|Spot,Search|-4|TYPE=Circumstance			
+Snowshoes		TYPE:Goods.General.Boot	COST:15	WT:8	SOURCEPAGE:AaEG30		SLOTS:2				
+Sparker		TYPE:Goods.General	COST:2	WT:0	SOURCEPAGE:AaEG30						
+Spider Poles		TYPE:Goods.General	COST:35	WT:8	SOURCEPAGE:AaEG30						
+Sprayer		TYPE:Goods.General	COST:15	WT:4	SOURCEPAGE:AaEG30						
+Springwall		TYPE:Goods.General	COST:60	WT:1	SOURCEPAGE:AaEG30						
+Stilts		TYPE:Goods.General	COST:5	WT:8	SOURCEPAGE:AaEG30						
+Table Case (Folding)		TYPE:Goods.General	COST:5	WT:5	SOURCEPAGE:AaEG30						
+Tarp		TYPE:Goods.General	COST:5	WT:30	SOURCEPAGE:AaEG30						
+Tent (1 person)		TYPE:Goods.General	COST:5	WT:10	SOURCEPAGE:AaEG30						
+Tent (4 person)		TYPE:Goods.General	COST:20	WT:40	SOURCEPAGE:AaEG30						
+Tent (20 person/pavilion)		TYPE:Goods.General	COST:100	WT:300	SOURCEPAGE:AaEG30						
+Tent (8 person/Teepee)		TYPE:Goods.General	COST:60	WT:100	SOURCEPAGE:AaEG30						
+Tent (tree/elven)		TYPE:Goods.General	COST:30	WT:5	SOURCEPAGE:AaEG30						
+Helmet (Thievering)		TYPE:Goods.General.Headgear	COST:10	WT:1	SOURCEPAGE:AaEG30						
+Tongs (metal)		TYPE:Goods.General	COST:3	WT:4	SOURCEPAGE:AaEG30						
+Tree Stand		TYPE:Goods.General	COST:15	WT:5	SOURCEPAGE:AaEG30						
+Twine (roll/50-ft)		TYPE:Goods.General	COST:.2	WT:0	SOURCEPAGE:AaEG30						
+Winch (portable/str 18)		TYPE:Goods.General	COST:20	WT:20	SOURCEPAGE:AaEG30						
+Winch (portable/str 20)		TYPE:Goods.General	COST:40	WT:40	SOURCEPAGE:AaEG30						
+Winch (portable/str 22)		TYPE:Goods.General	COST:80	WT:80	SOURCEPAGE:AaEG30						
+Lawful Water (Flask)		TYPE:Goods.Alchemical.Consumable.Flask.Liquid	COST:25	WT:1	SOURCEPAGE:AaEG30						
+Chaotic Water (Flask)		TYPE:Goods.Alchemical.Consumable.Flask.Liquid	COST:25	WT:1	SOURCEPAGE:AaEG30						
+Lawful Water		TYPE:Goods.Alchemical.Consumable.Liquid	COST:24.5	WT:0.75	SOURCEPAGE:AaEG30						
+Chaotic Water		TYPE:Goods.Alchemical.Consumable.Liquid	COST:24.5	WT:0.75	SOURCEPAGE:AaEG30						
 											
 											
 ###Block:Kits											
-Animal Trainer's Kit		TYPE:Goods.Tools.Masterwork.Resizable	COST:50	WT:5	SOURCEPAGE:AaEG		BONUS:SKILL|Handle Animal|2|TYPE=Circumstance				
-Forger's Kit		TYPE:Goods.Tools.Masterwork.Resizable	COST:25	WT:2	SOURCEPAGE:AaEG		BONUS:SKILL|Forgery|2|TYPE=Circumstance				
-Jester's Kit		TYPE:Goods.Tools.Masterwork.Resizable	COST:10	WT:5	SOURCEPAGE:AaEG	SPROP:+2 circumstance bonus on Perform (Comedy), Perform (Buffoonery) or Disguise					
-Navigator's Kit		TYPE:Goods.Tools.Masterwork.Resizable	COST:250	WT:8	SOURCEPAGE:AaEG	SPROP:+2 circumstance bonus on Survival while at sea, and Profession (Cartographer) checks to make maps					
-Scryer's Kit		TYPE:Goods.Tools.Masterwork.Resizable	COST:40	WT:2	SOURCEPAGE:AaEG		BONUS:SKILL|Scry|2|TYPE=Circumstance				
-Swimmer's Kit		TYPE:Goods.Tools.Masterwork.Resizable	COST:15	WT:5	SOURCEPAGE:AaEG		BONUS:SKILL|Swim|2|TYPE=Circumstance				
+Animal Trainer's Kit		TYPE:Goods.Tools.Masterwork.Resizable	COST:50	WT:5	SOURCEPAGE:AaEG30		BONUS:SKILL|Handle Animal|2|TYPE=Circumstance				
+Forger's Kit		TYPE:Goods.Tools.Masterwork.Resizable	COST:25	WT:2	SOURCEPAGE:AaEG30		BONUS:SKILL|Forgery|2|TYPE=Circumstance				
+Jester's Kit		TYPE:Goods.Tools.Masterwork.Resizable	COST:10	WT:5	SOURCEPAGE:AaEG30	SPROP:+2 circumstance bonus on Perform (Comedy), Perform (Buffoonery) or Disguise	BONUS:SKILL|Perform (Comedy),Perform (Buffoonery),Disguise|2|TYPE=Circumstance				
+Navigator's Kit		TYPE:Goods.Tools.Masterwork.Resizable	COST:250	WT:8	SOURCEPAGE:AaEG30	SPROP:+2 circumstance bonus on Survival while at sea, and Profession (Cartographer) checks to make maps					
+Scryer's Kit		TYPE:Goods.Tools.Masterwork.Resizable	COST:40	WT:2	SOURCEPAGE:AaEG30	DESC:+2 circumstance bonus on all Scry checks.
+Swimmer's Kit		TYPE:Goods.Tools.Masterwork.Resizable	COST:15	WT:5	SOURCEPAGE:AaEG30		BONUS:SKILL|Swim|2|TYPE=Circumstance				
 											
 ###Block:Clothing											
-Outfit (Animal Training)		TYPE:Goods.Clothing.Resizable.Armor.Light	COST:10	WT:20	SOURCEPAGE:AaEG			ACCHECK:-7	MAXDEX:1	SPELLFAILURE:40	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE
-Outfit (Beekeper)		TYPE:Goods.Clothing.Resizable	COST:9	WT:4	SOURCEPAGE:AaEG	SPROP:+6 CA against stinging and biting fine creature					
-Outfit (Desert)		TYPE:Goods.Clothing.Resizable	COST:6	WT:3	SOURCEPAGE:AaEG						
-Outfit (Heatswit)		TYPE:Goods.Clothing.Resizable	COST:20	WT:15	SOURCEPAGE:AaEG	SPROP:3/Fire					
-Outfit (Spelunker)		TYPE:Goods.Clothing.Resizable	COST:5	WT:9	SOURCEPAGE:AaEG						
-Apron (Leather)		TYPE:Goods.Clothing.Cape	COST:0.3	WT:2	SOURCEPAGE:AaEG						
-Belt (Baldric)		TYPE:Goods.Clothing.Belt	COST:.7	WT:.5	SOURCEPAGE:AaEG						
-Belt (Leather)		TYPE:Goods.Clothing.Belt	COST:.2	WT:0	SOURCEPAGE:AaEG						
-Belt (Fine)		TYPE:Goods.Clothing.Belt	COST:25	WT:0	SOURCEPAGE:AaEG						
-Buckle (Large/Plain)		TYPE:Goods.Clothing.Belt	COST:0.2	WT:0	SOURCEPAGE:AaEG						
-Buckle (Large/Fancy)		TYPE:Goods.Clothing.Belt	COST:25	WT:0	SOURCEPAGE:AaEG						
-Bodysuit (Black)		TYPE:Goods.Clothing	COST:30	WT:1	SOURCEPAGE:AaEG	SPROP:+2 circumstance bonus on Hide checks in dark condition (at least half concealment)					
-Boot (Smuggler's)		TYPE:Goods.Clothing.Boot	COST:10	WT:1	SOURCEPAGE:AaEG		SLOTS:2				
-Boot (High)		TYPE:Goods.Clothing.Boot	COST:0.5	WT:1	SOURCEPAGE:AaEG		SLOTS:2				
-Boot (Hip/Wading)		TYPE:Goods.Clothing.Boot	COST:1	WT:3	SOURCEPAGE:AaEG		SLOTS:2				
-Boot (Low)		TYPE:Goods.Clothing.Boot	COST:0.3	WT:0.5	SOURCEPAGE:AaEG		SLOTS:2				
-Boot (Riding)		TYPE:Goods.Clothing.Boot	COST:1	WT:1	SOURCEPAGE:AaEG		SLOTS:2				
-Breeches/Pants (Sackcloth)		TYPE:Goods.Clothing	COST:.05	WT:1	SOURCEPAGE:AaEG						
-Breeches/Pants (Cotton)		TYPE:Goods.Clothing	COST:.1	WT:1	SOURCEPAGE:AaEG						
-Breeches/Pants (Leather)		TYPE:Goods.Clothing	COST:.8	WT:1.5	SOURCEPAGE:AaEG						
-Breeches/Pants (Velvet)		TYPE:Goods.Clothing	COST:4	WT:1	SOURCEPAGE:AaEG						
-Breeches/Pants (Silk)		TYPE:Goods.Clothing	COST:5	WT:0	SOURCEPAGE:AaEG						
-Bustle		TYPE:Goods.Clothing	COST:5	WT:1	SOURCEPAGE:AaEG						
-Cape (Half)		TYPE:Goods.Clothing.Cape	COST:1	WT:1	SOURCEPAGE:AaEG						
-Cape (Full)		TYPE:Goods.Clothing.Cape	COST:1	WT:3	SOURCEPAGE:AaEG						
-Chemise (Sackcloth)		TYPE:Goods.Clothing.Shirt	COST:0.08	WT:0	SOURCEPAGE:AaEG						
-Chemise (Linen)		TYPE:Goods.Clothing.Shirt	COST:0.1	WT:0	SOURCEPAGE:AaEG						
-Chemise (Silk)		TYPE:Goods.Clothing.Shirt	COST:6	WT:0	SOURCEPAGE:AaEG						
-Coat/jacket/jerkin (Cotton)		TYPE:Goods.Clothing.Shirt	COST:.6	WT:2	SOURCEPAGE:AaEG						
-Coat/jacket/jerkin (Leather)		TYPE:Goods.Clothing.Shirt	COST:1	WT:3	SOURCEPAGE:AaEG						
-Coat/jacket/jerkin (Wool)		TYPE:Goods.Clothing.Shirt	COST:1	WT:3	SOURCEPAGE:AaEG						
-Coat/jacket/jerkin (Velvet)		TYPE:Goods.Clothing.Shirt	COST:8	WT:1	SOURCEPAGE:AaEG						
-Coat/jacket/jerkin (Silk)		TYPE:Goods.Clothing.Shirt	COST:10	WT:1	SOURCEPAGE:AaEG						
-Coat/jacket/jerkin (Fur)		TYPE:Goods.Clothing.Shirt	COST:50	WT:6	SOURCEPAGE:AaEG						
-Cloak (Cotton)		TYPE:Goods.Clothing.Cape	COST:0.3	WT:2	SOURCEPAGE:AaEG						
-Cloak (Wool)		TYPE:Goods.Clothing.Cape	COST:0.5	WT:3	SOURCEPAGE:AaEG						
-Cloak (Fur)		TYPE:Goods.Clothing.Cape	COST:200	WT:6	SOURCEPAGE:AaEG						
-Codpiece		TYPE:Goods.Clothing.Shirt	COST:.6	WT:0	SOURCEPAGE:AaEG						
-Collar (Spiked)		TYPE:Goods.Clothing.Amulet	COST:10	WT:0	SOURCEPAGE:AaEG						
-Corset		TYPE:Goods.Clothing.Shirt	COST:10	WT:0	SOURCEPAGE:AaEG						
-Doublet/Vest (Cotton)		TYPE:Goods.Clothing.Shirt	COST:.1	WT:0	SOURCEPAGE:AaEG						
-Doublet/Vest (Leather)		TYPE:Goods.Clothing.Shirt	COST:.3	WT:.5	SOURCEPAGE:AaEG						
-Doublet/Vest (Velvet)		TYPE:Goods.Clothing.Shirt	COST:2	WT:1	SOURCEPAGE:AaEG						
-Doublet/Vest (Brocade)		TYPE:Goods.Clothing.Shirt	COST:8	WT:1	SOURCEPAGE:AaEG						
-Dress (Peasant)		TYPE:Goods.Clothing.Shirt	COST:.5	WT:3	SOURCEPAGE:AaEG						
-Dress (Average)		TYPE:Goods.Clothing.Shirt	COST:.8	WT:5	SOURCEPAGE:AaEG						
-Dress (Fine)		TYPE:Goods.Clothing.Shirt	COST:20	WT:8	SOURCEPAGE:AaEG						
-Dress (Exquisite)		TYPE:Goods.Clothing.Shirt	COST:75	WT:10	SOURCEPAGE:AaEG						
-Fullcloth (Winter)		TYPE:Goods.Clothing	COST:4	WT:2	SOURCEPAGE:AaEG	SPROP:+1 circumstance bonus on Fortitude against cold					
-Girdle		TYPE:Goods.Clothing	COST:0.6	WT:1	SOURCEPAGE:AaEG						
-Gloves (Leather)		TYPE:Goods.Clothing.Glove	COST:.5	WT:0	SOURCEPAGE:AaEG		SLOTS:2				
-Gloves (Canvas)		TYPE:Goods.Clothing.Glove	COST:.05	WT:0	SOURCEPAGE:AaEG		SLOTS:2				
-Gloves (Mittens)		TYPE:Goods.Clothing.Glove	COST:.8	WT:0	SOURCEPAGE:AaEG		SLOTS:2				
-Gloves (Silk)		TYPE:Goods.Clothing.Glove	COST:15	WT:0	SOURCEPAGE:AaEG		SLOTS:2				
-Headwear (Hat/broad-brimmed)		TYPE:Goods.Clothing.Headgear	COST:8	WT:0	SOURCEPAGE:AaEG						
-Headwear (Hat/fur-trimmed)		TYPE:Goods.Clothing.Headgear	COST:1.5	WT:0	SOURCEPAGE:AaEG						
-Headwear (Cap/Cotton))		TYPE:Goods.Clothing.Headgear	COST:.08	WT:0	SOURCEPAGE:AaEG						
-Headwear (Cap/Wool)		TYPE:Goods.Clothing.Headgear	COST:.1	WT:0	SOURCEPAGE:AaEG						
-Headwear (Coif)		TYPE:Goods.Clothing.Headgear	COST:.2	WT:0	SOURCEPAGE:AaEG						
-Headwear (Fez)		TYPE:Goods.Clothing.Headgear	COST:.1	WT:0	SOURCEPAGE:AaEG						
-Headwear (Hood/Wool)		TYPE:Goods.Clothing.Headgear	COST:0.08	WT:0	SOURCEPAGE:AaEG						
-Headwear (Hood/Cotton)		TYPE:Goods.Clothing.Headgear	COST:0.05	WT:0	SOURCEPAGE:AaEG						
-Headwear (Hood/Fur)		TYPE:Goods.Clothing.Headgear	COST:1	WT:0	SOURCEPAGE:AaEG						
-Headwear (Miner's Helmet)		TYPE:Goods.Clothing.Headgear.Container	COST:1	WT:1	SOURCEPAGE:AaEG		CONTAINS:UNLIM|Candle=1				
-Headwear (Turban)		TYPE:Goods.Clothing.Headgear	COST:0.2	WT:0.5	SOURCEPAGE:AaEG						
-Loincloth		TYPE:Goods.Clothing	COST:0.03	WT:0	SOURCEPAGE:AaEG						
-Nightshirt (Silk)		TYPE:Goods.Clothing.Shirt	COST:6	WT:0	SOURCEPAGE:AaEG						
-Robe (Sackcloth)		TYPE:Goods.Clothing.Robe	COST:0.1	WT:2	SOURCEPAGE:AaEG						
-Robe (Cotton)		TYPE:Goods.Clothing.Robe	COST:1	WT:2	SOURCEPAGE:AaEG						
-Robe (Linen)		TYPE:Goods.Clothing.Robe	COST:1	WT:2	SOURCEPAGE:AaEG						
-Robe (Velvet)		TYPE:Goods.Clothing.Robe	COST:3	WT:3	SOURCEPAGE:AaEG						
-Robe (Silk)		TYPE:Goods.Clothing.Robe	COST:5	WT:2	SOURCEPAGE:AaEG						
-Pads (Knee)		TYPE:Goods.Clothing.Bracer	COST:0.3	WT:0.5	SOURCEPAGE:AaEG						
-Pads (Elbow)		TYPE:Goods.Clothing.Bracer	COST:0.3	WT:0.5	SOURCEPAGE:AaEG						
-Pads (Shin Guards)		TYPE:Goods.Clothing.Bracer	COST:0.4	WT:0.5	SOURCEPAGE:AaEG						
-Sash (Cotton)		TYPE:Goods.Clothing.Amulet	COST:0.2	WT:0	SOURCEPAGE:AaEG						
-Sash (Wool)		TYPE:Goods.Clothing.Amulet	COST:0.1	WT:0	SOURCEPAGE:AaEG						
-Sash (Silk)		TYPE:Goods.Clothing.Amulet	COST:4	WT:0	SOURCEPAGE:AaEG						
-Shirt (Sackcloth)		TYPE:Goods.Clothing.Shirt	COST:0.05	WT:0.5	SOURCEPAGE:AaEG						
-Shirt (Cotton)		TYPE:Goods.Clothing.Shirt	COST:0.1	WT:0.5	SOURCEPAGE:AaEG						
-Shirt (Linen)		TYPE:Goods.Clothing.Shirt	COST:0.1	WT:0.5	SOURCEPAGE:AaEG						
-Shirt (Velvet)		TYPE:Goods.Clothing.Shirt	COST:5	WT:0.5	SOURCEPAGE:AaEG						
-Shirt (Silk)		TYPE:Goods.Clothing.Shirt	COST:10	WT:0	SOURCEPAGE:AaEG						
-Shoes (Leather)		TYPE:Goods.Clothing.Boot	COST:0.3	WT:1	SOURCEPAGE:AaEG						
-Shoes (Sandals)		TYPE:Goods.Clothing.Boot	COST:0.2	WT:0.5	SOURCEPAGE:AaEG						
-Shoes (Tabi)		TYPE:Goods.Clothing.Boot	COST:0.2	WT:0.5	SOURCEPAGE:AaEG						
-Shoes (Slippers)		TYPE:Goods.Clothing.Boot	COST:0.1	WT:0	SOURCEPAGE:AaEG						
-Shoes (Dancing)		TYPE:Goods.Clothing.Boot	COST:15	WT:0	SOURCEPAGE:AaEG						
-Warrior's Skirt (Leather)		TYPE:Goods.Clothing.Shirt	COST:0.5	WT:1	SOURCEPAGE:AaEG						
-Stockings		TYPE:Goods.Clothing	COST:0.4	WT:0	SOURCEPAGE:AaEG						
-Suspenders		TYPE:Goods.Clothing	COST:0.8	WT:0	SOURCEPAGE:AaEG						
-Tabard		TYPE:Goods.Clothing.Cape	COST:0.5	WT:0.5	SOURCEPAGE:AaEG						
-Toga (Peasant)		TYPE:Goods.Clothing.Cape	COST:0.08	WT:3	SOURCEPAGE:AaEG						
-Toga (Velvet)		TYPE:Goods.Clothing.Cape	COST:5	WT:3	SOURCEPAGE:AaEG						
-Toga (Silk)		TYPE:Goods.Clothing.Cape	COST:45	WT:3	SOURCEPAGE:AaEG						
-Tunic (Sackcloth)		TYPE:Goods.Clothing.Shirt	COST:0.05	WT:1	SOURCEPAGE:AaEG						
-Tunic (Cotton)		TYPE:Goods.Clothing.Shirt	COST:0.05	WT:1	SOURCEPAGE:AaEG						
-Tunic (Velvet)		TYPE:Goods.Clothing.Shirt	COST:2	WT:1	SOURCEPAGE:AaEG						
-Tunic (Silk)		TYPE:Goods.Clothing.Shirt	COST:5	WT:1	SOURCEPAGE:AaEG						
-Vest (Knife)		TYPE:Goods.Clothing.Shirt.Container	COST:25	WT:2	SOURCEPAGE:AaEG		CONTAINS:UNLIM|Dagger=10				
+Outfit (Animal Training)		TYPE:Goods.Clothing.Resizable.Armor.Light	COST:10	WT:20	SOURCEPAGE:AaEG30			ACCHECK:-7	MAXDEX:1	SPELLFAILURE:40	BONUS:COMBAT|AC|2|TYPE=Armor.REPLACE
+Outfit (Beekeper)		TYPE:Goods.Clothing.Resizable	COST:9	WT:4	SOURCEPAGE:AaEG30	SPROP:+6 CA against stinging and biting fine creature					
+Outfit (Desert)		TYPE:Goods.Clothing.Resizable	COST:6	WT:3	SOURCEPAGE:AaEG30						
+Outfit (Heatswit)		TYPE:Goods.Clothing.Resizable	COST:20	WT:15	SOURCEPAGE:AaEG30	SPROP:3/Fire					
+Outfit (Spelunker)		TYPE:Goods.Clothing.Resizable	COST:5	WT:9	SOURCEPAGE:AaEG30						
+Apron (Leather)		TYPE:Goods.Clothing.Cape	COST:0.3	WT:2	SOURCEPAGE:AaEG30						
+Belt (Baldric)		TYPE:Goods.Clothing.Belt	COST:.7	WT:.5	SOURCEPAGE:AaEG30						
+Belt (Leather)		TYPE:Goods.Clothing.Belt	COST:.2	WT:0	SOURCEPAGE:AaEG30						
+Belt (Fine)		TYPE:Goods.Clothing.Belt	COST:25	WT:0	SOURCEPAGE:AaEG30						
+Buckle (Large/Plain)		TYPE:Goods.Clothing.Belt	COST:0.2	WT:0	SOURCEPAGE:AaEG30						
+Buckle (Large/Fancy)		TYPE:Goods.Clothing.Belt	COST:25	WT:0	SOURCEPAGE:AaEG30						
+Bodysuit (Black)		TYPE:Goods.Clothing	COST:30	WT:1	SOURCEPAGE:AaEG30	SPROP:+2 circumstance bonus on Hide checks in dark condition (at least half concealment)					
+Boot (Smuggler's)		TYPE:Goods.Clothing.Boot	COST:10	WT:1	SOURCEPAGE:AaEG30		SLOTS:2				
+Boot (High)		TYPE:Goods.Clothing.Boot	COST:0.5	WT:1	SOURCEPAGE:AaEG30		SLOTS:2				
+Boot (Hip/Wading)		TYPE:Goods.Clothing.Boot	COST:1	WT:3	SOURCEPAGE:AaEG30		SLOTS:2				
+Boot (Low)		TYPE:Goods.Clothing.Boot	COST:0.3	WT:0.5	SOURCEPAGE:AaEG30		SLOTS:2				
+Boot (Riding)		TYPE:Goods.Clothing.Boot	COST:1	WT:1	SOURCEPAGE:AaEG30		SLOTS:2				
+Breeches/Pants (Sackcloth)		TYPE:Goods.Clothing	COST:.05	WT:1	SOURCEPAGE:AaEG30						
+Breeches/Pants (Cotton)		TYPE:Goods.Clothing	COST:.1	WT:1	SOURCEPAGE:AaEG30						
+Breeches/Pants (Leather)		TYPE:Goods.Clothing	COST:.8	WT:1.5	SOURCEPAGE:AaEG30						
+Breeches/Pants (Velvet)		TYPE:Goods.Clothing	COST:4	WT:1	SOURCEPAGE:AaEG30						
+Breeches/Pants (Silk)		TYPE:Goods.Clothing	COST:5	WT:0	SOURCEPAGE:AaEG30						
+Bustle		TYPE:Goods.Clothing	COST:5	WT:1	SOURCEPAGE:AaEG30						
+Cape (Half)		TYPE:Goods.Clothing.Cape	COST:1	WT:1	SOURCEPAGE:AaEG30						
+Cape (Full)		TYPE:Goods.Clothing.Cape	COST:1	WT:3	SOURCEPAGE:AaEG30						
+Chemise (Sackcloth)		TYPE:Goods.Clothing.Shirt	COST:0.08	WT:0	SOURCEPAGE:AaEG30						
+Chemise (Linen)		TYPE:Goods.Clothing.Shirt	COST:0.1	WT:0	SOURCEPAGE:AaEG30						
+Chemise (Silk)		TYPE:Goods.Clothing.Shirt	COST:6	WT:0	SOURCEPAGE:AaEG30						
+Coat/jacket/jerkin (Cotton)		TYPE:Goods.Clothing.Shirt	COST:.6	WT:2	SOURCEPAGE:AaEG30						
+Coat/jacket/jerkin (Leather)		TYPE:Goods.Clothing.Shirt	COST:1	WT:3	SOURCEPAGE:AaEG30						
+Coat/jacket/jerkin (Wool)		TYPE:Goods.Clothing.Shirt	COST:1	WT:3	SOURCEPAGE:AaEG30						
+Coat/jacket/jerkin (Velvet)		TYPE:Goods.Clothing.Shirt	COST:8	WT:1	SOURCEPAGE:AaEG30						
+Coat/jacket/jerkin (Silk)		TYPE:Goods.Clothing.Shirt	COST:10	WT:1	SOURCEPAGE:AaEG30						
+Coat/jacket/jerkin (Fur)		TYPE:Goods.Clothing.Shirt	COST:50	WT:6	SOURCEPAGE:AaEG30						
+Cloak (Cotton)		TYPE:Goods.Clothing.Cape	COST:0.3	WT:2	SOURCEPAGE:AaEG30						
+Cloak (Wool)		TYPE:Goods.Clothing.Cape	COST:0.5	WT:3	SOURCEPAGE:AaEG30						
+Cloak (Fur)		TYPE:Goods.Clothing.Cape	COST:200	WT:6	SOURCEPAGE:AaEG30						
+Codpiece		TYPE:Goods.Clothing.Shirt	COST:.6	WT:0	SOURCEPAGE:AaEG30						
+Collar (Spiked)		TYPE:Goods.Clothing.Amulet	COST:10	WT:0	SOURCEPAGE:AaEG30						
+Corset		TYPE:Goods.Clothing.Shirt	COST:10	WT:0	SOURCEPAGE:AaEG30						
+Doublet/Vest (Cotton)		TYPE:Goods.Clothing.Shirt	COST:.1	WT:0	SOURCEPAGE:AaEG30						
+Doublet/Vest (Leather)		TYPE:Goods.Clothing.Shirt	COST:.3	WT:.5	SOURCEPAGE:AaEG30						
+Doublet/Vest (Velvet)		TYPE:Goods.Clothing.Shirt	COST:2	WT:1	SOURCEPAGE:AaEG30						
+Doublet/Vest (Brocade)		TYPE:Goods.Clothing.Shirt	COST:8	WT:1	SOURCEPAGE:AaEG30						
+Dress (Peasant)		TYPE:Goods.Clothing.Shirt	COST:.5	WT:3	SOURCEPAGE:AaEG30						
+Dress (Average)		TYPE:Goods.Clothing.Shirt	COST:.8	WT:5	SOURCEPAGE:AaEG30						
+Dress (Fine)		TYPE:Goods.Clothing.Shirt	COST:20	WT:8	SOURCEPAGE:AaEG30						
+Dress (Exquisite)		TYPE:Goods.Clothing.Shirt	COST:75	WT:10	SOURCEPAGE:AaEG30						
+Fullcloth (Winter)		TYPE:Goods.Clothing	COST:4	WT:2	SOURCEPAGE:AaEG30	SPROP:+1 circumstance bonus on Fortitude against cold					
+Girdle		TYPE:Goods.Clothing	COST:0.6	WT:1	SOURCEPAGE:AaEG30						
+Gloves (Leather)		TYPE:Goods.Clothing.Glove	COST:.5	WT:0	SOURCEPAGE:AaEG30		SLOTS:2				
+Gloves (Canvas)		TYPE:Goods.Clothing.Glove	COST:.05	WT:0	SOURCEPAGE:AaEG30		SLOTS:2				
+Gloves (Mittens)		TYPE:Goods.Clothing.Glove	COST:.8	WT:0	SOURCEPAGE:AaEG30		SLOTS:2				
+Gloves (Silk)		TYPE:Goods.Clothing.Glove	COST:15	WT:0	SOURCEPAGE:AaEG30		SLOTS:2				
+Headwear (Hat/broad-brimmed)		TYPE:Goods.Clothing.Headgear	COST:8	WT:0	SOURCEPAGE:AaEG30						
+Headwear (Hat/fur-trimmed)		TYPE:Goods.Clothing.Headgear	COST:1.5	WT:0	SOURCEPAGE:AaEG30						
+Headwear (Cap/Cotton))		TYPE:Goods.Clothing.Headgear	COST:.08	WT:0	SOURCEPAGE:AaEG30						
+Headwear (Cap/Wool)		TYPE:Goods.Clothing.Headgear	COST:.1	WT:0	SOURCEPAGE:AaEG30						
+Headwear (Coif)		TYPE:Goods.Clothing.Headgear	COST:.2	WT:0	SOURCEPAGE:AaEG30						
+Headwear (Fez)		TYPE:Goods.Clothing.Headgear	COST:.1	WT:0	SOURCEPAGE:AaEG30						
+Headwear (Hood/Wool)		TYPE:Goods.Clothing.Headgear	COST:0.08	WT:0	SOURCEPAGE:AaEG30						
+Headwear (Hood/Cotton)		TYPE:Goods.Clothing.Headgear	COST:0.05	WT:0	SOURCEPAGE:AaEG30						
+Headwear (Hood/Fur)		TYPE:Goods.Clothing.Headgear	COST:1	WT:0	SOURCEPAGE:AaEG30						
+Headwear (Miner's Helmet)		TYPE:Goods.Clothing.Headgear.Container	COST:1	WT:1	SOURCEPAGE:AaEG30		CONTAINS:UNLIM|Candle=1				
+Headwear (Turban)		TYPE:Goods.Clothing.Headgear	COST:0.2	WT:0.5	SOURCEPAGE:AaEG30						
+Loincloth		TYPE:Goods.Clothing	COST:0.03	WT:0	SOURCEPAGE:AaEG30						
+Nightshirt (Silk)		TYPE:Goods.Clothing.Shirt	COST:6	WT:0	SOURCEPAGE:AaEG30						
+Robe (Sackcloth)		TYPE:Goods.Clothing.Robe	COST:0.1	WT:2	SOURCEPAGE:AaEG30						
+Robe (Cotton)		TYPE:Goods.Clothing.Robe	COST:1	WT:2	SOURCEPAGE:AaEG30						
+Robe (Linen)		TYPE:Goods.Clothing.Robe	COST:1	WT:2	SOURCEPAGE:AaEG30						
+Robe (Velvet)		TYPE:Goods.Clothing.Robe	COST:3	WT:3	SOURCEPAGE:AaEG30						
+Robe (Silk)		TYPE:Goods.Clothing.Robe	COST:5	WT:2	SOURCEPAGE:AaEG30						
+Pads (Knee)		TYPE:Goods.Clothing.Bracer	COST:0.3	WT:0.5	SOURCEPAGE:AaEG30						
+Pads (Elbow)		TYPE:Goods.Clothing.Bracer	COST:0.3	WT:0.5	SOURCEPAGE:AaEG30						
+Pads (Shin Guards)		TYPE:Goods.Clothing.Bracer	COST:0.4	WT:0.5	SOURCEPAGE:AaEG30						
+Sash (Cotton)		TYPE:Goods.Clothing.Amulet	COST:0.2	WT:0	SOURCEPAGE:AaEG30						
+Sash (Wool)		TYPE:Goods.Clothing.Amulet	COST:0.1	WT:0	SOURCEPAGE:AaEG30						
+Sash (Silk)		TYPE:Goods.Clothing.Amulet	COST:4	WT:0	SOURCEPAGE:AaEG30						
+Shirt (Sackcloth)		TYPE:Goods.Clothing.Shirt	COST:0.05	WT:0.5	SOURCEPAGE:AaEG30						
+Shirt (Cotton)		TYPE:Goods.Clothing.Shirt	COST:0.1	WT:0.5	SOURCEPAGE:AaEG30						
+Shirt (Linen)		TYPE:Goods.Clothing.Shirt	COST:0.1	WT:0.5	SOURCEPAGE:AaEG30						
+Shirt (Velvet)		TYPE:Goods.Clothing.Shirt	COST:5	WT:0.5	SOURCEPAGE:AaEG30						
+Shirt (Silk)		TYPE:Goods.Clothing.Shirt	COST:10	WT:0	SOURCEPAGE:AaEG30						
+Shoes (Leather)		TYPE:Goods.Clothing.Boot	COST:0.3	WT:1	SOURCEPAGE:AaEG30						
+Shoes (Sandals)		TYPE:Goods.Clothing.Boot	COST:0.2	WT:0.5	SOURCEPAGE:AaEG30						
+Shoes (Tabi)		TYPE:Goods.Clothing.Boot	COST:0.2	WT:0.5	SOURCEPAGE:AaEG30						
+Shoes (Slippers)		TYPE:Goods.Clothing.Boot	COST:0.1	WT:0	SOURCEPAGE:AaEG30						
+Shoes (Dancing)		TYPE:Goods.Clothing.Boot	COST:15	WT:0	SOURCEPAGE:AaEG30						
+Warrior's Skirt (Leather)		TYPE:Goods.Clothing.Shirt	COST:0.5	WT:1	SOURCEPAGE:AaEG30						
+Stockings		TYPE:Goods.Clothing	COST:0.4	WT:0	SOURCEPAGE:AaEG30						
+Suspenders		TYPE:Goods.Clothing	COST:0.8	WT:0	SOURCEPAGE:AaEG30						
+Tabard		TYPE:Goods.Clothing.Cape	COST:0.5	WT:0.5	SOURCEPAGE:AaEG30						
+Toga (Peasant)		TYPE:Goods.Clothing.Cape	COST:0.08	WT:3	SOURCEPAGE:AaEG30						
+Toga (Velvet)		TYPE:Goods.Clothing.Cape	COST:5	WT:3	SOURCEPAGE:AaEG30						
+Toga (Silk)		TYPE:Goods.Clothing.Cape	COST:45	WT:3	SOURCEPAGE:AaEG30						
+Tunic (Sackcloth)		TYPE:Goods.Clothing.Shirt	COST:0.05	WT:1	SOURCEPAGE:AaEG30						
+Tunic (Cotton)		TYPE:Goods.Clothing.Shirt	COST:0.05	WT:1	SOURCEPAGE:AaEG30						
+Tunic (Velvet)		TYPE:Goods.Clothing.Shirt	COST:2	WT:1	SOURCEPAGE:AaEG30						
+Tunic (Silk)		TYPE:Goods.Clothing.Shirt	COST:5	WT:1	SOURCEPAGE:AaEG30						
+Vest (Knife)		TYPE:Goods.Clothing.Shirt.Container	COST:25	WT:2	SOURCEPAGE:AaEG30		CONTAINS:UNLIM|Dagger=10				
 											
 ###Block:Trade Goods											
 #Spices											
-Angelica		TYPE:Goods.Trade	COST:0.05	WT:0.06	SOURCEPAGE:AaEG						
-Anise		TYPE:Goods.Trade	COST:0.03	WT:0.06	SOURCEPAGE:AaEG						
-Basil		TYPE:Goods.Trade	COST:0.1	WT:0.06	SOURCEPAGE:AaEG						
-Bergamot		TYPE:Goods.Trade	COST:0.03	WT:0.06	SOURCEPAGE:AaEG						
-Borage		TYPE:Goods.Trade	COST:0.02	WT:0.06	SOURCEPAGE:AaEG						
-Caraway		TYPE:Goods.Trade	COST:0.02	WT:0.06	SOURCEPAGE:AaEG						
-Cardamom		TYPE:Goods.Trade	COST:2	WT:0.06	SOURCEPAGE:AaEG						
-Chives		TYPE:Goods.Trade	COST:0.02	WT:0.06	SOURCEPAGE:AaEG						
-Cinnamon		TYPE:Goods.Trade	COST:1	WT:0.06	SOURCEPAGE:AaEG						
-Clary		TYPE:Goods.Trade	COST:0.08	WT:0.06	SOURCEPAGE:AaEG						
-Cloves		TYPE:Goods.Trade	COST:20	WT:0.06	SOURCEPAGE:AaEG						
-Coriander		TYPE:Goods.Trade	COST:0.1	WT:0.06	SOURCEPAGE:AaEG						
-Costmary		TYPE:Goods.Trade	COST:0.03	WT:0.06	SOURCEPAGE:AaEG						
-Cubeb		TYPE:Goods.Trade	COST:15	WT:0.06	SOURCEPAGE:AaEG						
-Cumin		TYPE:Goods.Trade	COST:0.03	WT:0.06	SOURCEPAGE:AaEG						
-Dillweed		TYPE:Goods.Trade	COST:0.03	WT:0.06	SOURCEPAGE:AaEG						
-Fennel Seed		TYPE:Goods.Trade	COST:0.1	WT:0.06	SOURCEPAGE:AaEG						
-Fenugreek		TYPE:Goods.Trade	COST:0.3	WT:0.06	SOURCEPAGE:AaEG						
-Garlic		TYPE:Goods.Trade	COST:0.01	WT:0.06	SOURCEPAGE:AaEG						
-Ginger		TYPE:Goods.Trade	COST:10	WT:0.06	SOURCEPAGE:AaEG						
-Horebound		TYPE:Goods.Trade	COST:0.04	WT:0.06	SOURCEPAGE:AaEG						
-Horseradish		TYPE:Goods.Trade	COST:0.01	WT:0.06	SOURCEPAGE:AaEG						
-Hyssop		TYPE:Goods.Trade	COST:0.05	WT:0.06	SOURCEPAGE:AaEG						
-Juniper		TYPE:Goods.Trade	COST:0.3	WT:0.06	SOURCEPAGE:AaEG						
-Laurel		TYPE:Goods.Trade	COST:4	WT:0.06	SOURCEPAGE:AaEG						
-Lemon Balm		TYPE:Goods.Trade	COST:0.2	WT:0.06	SOURCEPAGE:AaEG						
-Liquorice Root		TYPE:Goods.Trade	COST:0.4	WT:0.06	SOURCEPAGE:AaEG						
-Lovage		TYPE:Goods.Trade	COST:0.1	WT:0.06	SOURCEPAGE:AaEG						
-Mace		TYPE:Goods.Trade	COST:25	WT:0.06	SOURCEPAGE:AaEG						
-Marjoram		TYPE:Goods.Trade	COST:0.05	WT:0.06	SOURCEPAGE:AaEG						
-Mint		TYPE:Goods.Trade	COST:0.03	WT:0.06	SOURCEPAGE:AaEG						
-Mustard Seed		TYPE:Goods.Trade	COST:0.05	WT:0.06	SOURCEPAGE:AaEG						
-Nutmeg		TYPE:Goods.Trade	COST:30	WT:0.06	SOURCEPAGE:AaEG						
-Oregano		TYPE:Goods.Trade	COST:0.2	WT:0.06	SOURCEPAGE:AaEG						
-Parsley		TYPE:Goods.Trade	COST:0.04	WT:0.06	SOURCEPAGE:AaEG						
-Pepper		TYPE:Goods.Trade	COST:30	WT:0.06	SOURCEPAGE:AaEG						
-Poppy Seed		TYPE:Goods.Trade	COST:8	WT:0.06	SOURCEPAGE:AaEG						
-Rose Hips		TYPE:Goods.Trade	COST:5	WT:0.06	SOURCEPAGE:AaEG						
-Rosemary		TYPE:Goods.Trade	COST:0.5	WT:0.06	SOURCEPAGE:AaEG						
-Saffron		TYPE:Goods.Trade	COST:65	WT:0.06	SOURCEPAGE:AaEG						
-Sage		TYPE:Goods.Trade	COST:0.1	WT:0.06	SOURCEPAGE:AaEG						
-Salt		TYPE:Goods.Trade	COST:0.01	WT:0.06	SOURCEPAGE:AaEG						
-Sweet Cicely		TYPE:Goods.Trade	COST:0.1	WT:0.06	SOURCEPAGE:AaEG						
-Tarragon		TYPE:Goods.Trade	COST:1	WT:0.06	SOURCEPAGE:AaEG						
-Thyme		TYPE:Goods.Trade	COST:0.1	WT:0.06	SOURCEPAGE:AaEG						
-Turmeric		TYPE:Goods.Trade	COST:25	WT:0.06	SOURCEPAGE:AaEG						
-Woodruff		TYPE:Goods.Trade	COST:0.1	WT:0.06	SOURCEPAGE:AaEG						
+Angelica		TYPE:Goods.Trade	COST:0.05	WT:0.06	SOURCEPAGE:AaEG30						
+Anise		TYPE:Goods.Trade	COST:0.03	WT:0.06	SOURCEPAGE:AaEG30						
+Basil		TYPE:Goods.Trade	COST:0.1	WT:0.06	SOURCEPAGE:AaEG30						
+Bergamot		TYPE:Goods.Trade	COST:0.03	WT:0.06	SOURCEPAGE:AaEG30						
+Borage		TYPE:Goods.Trade	COST:0.02	WT:0.06	SOURCEPAGE:AaEG30						
+Caraway		TYPE:Goods.Trade	COST:0.02	WT:0.06	SOURCEPAGE:AaEG30						
+Cardamom		TYPE:Goods.Trade	COST:2	WT:0.06	SOURCEPAGE:AaEG30						
+Chives		TYPE:Goods.Trade	COST:0.02	WT:0.06	SOURCEPAGE:AaEG30						
+Cinnamon		TYPE:Goods.Trade	COST:1	WT:0.06	SOURCEPAGE:AaEG30						
+Clary		TYPE:Goods.Trade	COST:0.08	WT:0.06	SOURCEPAGE:AaEG30						
+Cloves		TYPE:Goods.Trade	COST:20	WT:0.06	SOURCEPAGE:AaEG30						
+Coriander		TYPE:Goods.Trade	COST:0.1	WT:0.06	SOURCEPAGE:AaEG30						
+Costmary		TYPE:Goods.Trade	COST:0.03	WT:0.06	SOURCEPAGE:AaEG30						
+Cubeb		TYPE:Goods.Trade	COST:15	WT:0.06	SOURCEPAGE:AaEG30						
+Cumin		TYPE:Goods.Trade	COST:0.03	WT:0.06	SOURCEPAGE:AaEG30						
+Dillweed		TYPE:Goods.Trade	COST:0.03	WT:0.06	SOURCEPAGE:AaEG30						
+Fennel Seed		TYPE:Goods.Trade	COST:0.1	WT:0.06	SOURCEPAGE:AaEG30						
+Fenugreek		TYPE:Goods.Trade	COST:0.3	WT:0.06	SOURCEPAGE:AaEG30						
+Garlic		TYPE:Goods.Trade	COST:0.01	WT:0.06	SOURCEPAGE:AaEG30						
+Ginger		TYPE:Goods.Trade	COST:10	WT:0.06	SOURCEPAGE:AaEG30						
+Horebound		TYPE:Goods.Trade	COST:0.04	WT:0.06	SOURCEPAGE:AaEG30						
+Horseradish		TYPE:Goods.Trade	COST:0.01	WT:0.06	SOURCEPAGE:AaEG30						
+Hyssop		TYPE:Goods.Trade	COST:0.05	WT:0.06	SOURCEPAGE:AaEG30						
+Juniper		TYPE:Goods.Trade	COST:0.3	WT:0.06	SOURCEPAGE:AaEG30						
+Laurel		TYPE:Goods.Trade	COST:4	WT:0.06	SOURCEPAGE:AaEG30						
+Lemon Balm		TYPE:Goods.Trade	COST:0.2	WT:0.06	SOURCEPAGE:AaEG30						
+Liquorice Root		TYPE:Goods.Trade	COST:0.4	WT:0.06	SOURCEPAGE:AaEG30						
+Lovage		TYPE:Goods.Trade	COST:0.1	WT:0.06	SOURCEPAGE:AaEG30						
+Mace		TYPE:Goods.Trade	COST:25	WT:0.06	SOURCEPAGE:AaEG30						
+Marjoram		TYPE:Goods.Trade	COST:0.05	WT:0.06	SOURCEPAGE:AaEG30						
+Mint		TYPE:Goods.Trade	COST:0.03	WT:0.06	SOURCEPAGE:AaEG30						
+Mustard Seed		TYPE:Goods.Trade	COST:0.05	WT:0.06	SOURCEPAGE:AaEG30						
+Nutmeg		TYPE:Goods.Trade	COST:30	WT:0.06	SOURCEPAGE:AaEG30						
+Oregano		TYPE:Goods.Trade	COST:0.2	WT:0.06	SOURCEPAGE:AaEG30						
+Parsley		TYPE:Goods.Trade	COST:0.04	WT:0.06	SOURCEPAGE:AaEG30						
+Pepper		TYPE:Goods.Trade	COST:30	WT:0.06	SOURCEPAGE:AaEG30						
+Poppy Seed		TYPE:Goods.Trade	COST:8	WT:0.06	SOURCEPAGE:AaEG30						
+Rose Hips		TYPE:Goods.Trade	COST:5	WT:0.06	SOURCEPAGE:AaEG30						
+Rosemary		TYPE:Goods.Trade	COST:0.5	WT:0.06	SOURCEPAGE:AaEG30						
+Saffron		TYPE:Goods.Trade	COST:65	WT:0.06	SOURCEPAGE:AaEG30						
+Sage		TYPE:Goods.Trade	COST:0.1	WT:0.06	SOURCEPAGE:AaEG30						
+Salt		TYPE:Goods.Trade	COST:0.01	WT:0.06	SOURCEPAGE:AaEG30						
+Sweet Cicely		TYPE:Goods.Trade	COST:0.1	WT:0.06	SOURCEPAGE:AaEG30						
+Tarragon		TYPE:Goods.Trade	COST:1	WT:0.06	SOURCEPAGE:AaEG30						
+Thyme		TYPE:Goods.Trade	COST:0.1	WT:0.06	SOURCEPAGE:AaEG30						
+Turmeric		TYPE:Goods.Trade	COST:25	WT:0.06	SOURCEPAGE:AaEG30						
+Woodruff		TYPE:Goods.Trade	COST:0.1	WT:0.06	SOURCEPAGE:AaEG30						
 #Corns											
-Barley		TYPE:Goods.Trade	COST:1	WT:1	SOURCEPAGE:AaEG						
-Buckwheat		TYPE:Goods.Trade	COST:0.5	WT:1	SOURCEPAGE:AaEG						
-Chick Peas		TYPE:Goods.Trade	COST:3	WT:1	SOURCEPAGE:AaEG						
-Lentils		TYPE:Goods.Trade	COST:2	WT:1	SOURCEPAGE:AaEG						
-Millet		TYPE:Goods.Trade	COST:0.7	WT:1	SOURCEPAGE:AaEG						
-Oats		TYPE:Goods.Trade	COST:0.7	WT:1	SOURCEPAGE:AaEG						
-Rice		TYPE:Goods.Trade	COST:5	WT:1	SOURCEPAGE:AaEG						
-Rye		TYPE:Goods.Trade	COST:0.7	WT:1	SOURCEPAGE:AaEG						
-Wheat		TYPE:Goods.Trade	COST:0.01	WT:1	SOURCEPAGE:AaEG						
+Barley		TYPE:Goods.Trade	COST:1	WT:1	SOURCEPAGE:AaEG30						
+Buckwheat		TYPE:Goods.Trade	COST:0.5	WT:1	SOURCEPAGE:AaEG30						
+Chick Peas		TYPE:Goods.Trade	COST:3	WT:1	SOURCEPAGE:AaEG30						
+Lentils		TYPE:Goods.Trade	COST:2	WT:1	SOURCEPAGE:AaEG30						
+Millet		TYPE:Goods.Trade	COST:0.7	WT:1	SOURCEPAGE:AaEG30						
+Oats		TYPE:Goods.Trade	COST:0.7	WT:1	SOURCEPAGE:AaEG30						
+Rice		TYPE:Goods.Trade	COST:5	WT:1	SOURCEPAGE:AaEG30						
+Rye		TYPE:Goods.Trade	COST:0.7	WT:1	SOURCEPAGE:AaEG30						
+Wheat		TYPE:Goods.Trade	COST:0.01	WT:1	SOURCEPAGE:AaEG30						
 #Flours											
-Barley (Flours)		TYPE:Goods.Trade	COST:2	WT:1	SOURCEPAGE:AaEG						
-Buckwheat (Flours)		TYPE:Goods.Trade	COST:1	WT:1	SOURCEPAGE:AaEG						
-Rye (Flours)		TYPE:Goods.Trade	COST:1.5	WT:1	SOURCEPAGE:AaEG						
-Wheat (Flours)		TYPE:Goods.Trade	COST:3	WT:1	SOURCEPAGE:AaEG						
+Barley (Flours)		TYPE:Goods.Trade	COST:2	WT:1	SOURCEPAGE:AaEG30						
+Buckwheat (Flours)		TYPE:Goods.Trade	COST:1	WT:1	SOURCEPAGE:AaEG30						
+Rye (Flours)		TYPE:Goods.Trade	COST:1.5	WT:1	SOURCEPAGE:AaEG30						
+Wheat (Flours)		TYPE:Goods.Trade	COST:3	WT:1	SOURCEPAGE:AaEG30						
 #Fruit											
-Apples		TYPE:Goods.Food	COST:1	WT:1	SOURCEPAGE:AaEG						
-Apricots		TYPE:Goods.Food	COST:15	WT:1	SOURCEPAGE:AaEG						
-Carrots		TYPE:Goods.Food	COST:1	WT:1	SOURCEPAGE:AaEG						
-Cherries		TYPE:Goods.Food	COST:.5	WT:1	SOURCEPAGE:AaEG						
-Currants		TYPE:Goods.Food	COST:.1	WT:1	SOURCEPAGE:AaEG						
-Dates		TYPE:Goods.Food	COST:5	WT:1	SOURCEPAGE:AaEG						
-Elderberries		TYPE:Goods.Food	COST:.1	WT:1	SOURCEPAGE:AaEG						
-Figs		TYPE:Goods.Food	COST:7	WT:1	SOURCEPAGE:AaEG						
-Green Beans		TYPE:Goods.Food	COST:.2	WT:1	SOURCEPAGE:AaEG						
-Green Peas		TYPE:Goods.Food	COST:.2	WT:1	SOURCEPAGE:AaEG						
-Mushrooms		TYPE:Goods.Food	COST:.2	WT:1	SOURCEPAGE:AaEG						
-Onions		TYPE:Goods.Food	COST:.5	WT:1	SOURCEPAGE:AaEG						
-Peaches		TYPE:Goods.Food	COST:15	WT:1	SOURCEPAGE:AaEG						
-Pears		TYPE:Goods.Food	COST:5	WT:1	SOURCEPAGE:AaEG						
-Prunes		TYPE:Goods.Food	COST:3	WT:1	SOURCEPAGE:AaEG						
-Raisins		TYPE:Goods.Food	COST:1	WT:1	SOURCEPAGE:AaEG						
-Tomatoes		TYPE:Goods.Food	COST:1	WT:1	SOURCEPAGE:AaEG						
+Apples		TYPE:Goods.Food	COST:1	WT:1	SOURCEPAGE:AaEG30						
+Apricots		TYPE:Goods.Food	COST:15	WT:1	SOURCEPAGE:AaEG30						
+Carrots		TYPE:Goods.Food	COST:1	WT:1	SOURCEPAGE:AaEG30						
+Cherries		TYPE:Goods.Food	COST:.5	WT:1	SOURCEPAGE:AaEG30						
+Currants		TYPE:Goods.Food	COST:.1	WT:1	SOURCEPAGE:AaEG30						
+Dates		TYPE:Goods.Food	COST:5	WT:1	SOURCEPAGE:AaEG30						
+Elderberries		TYPE:Goods.Food	COST:.1	WT:1	SOURCEPAGE:AaEG30						
+Figs		TYPE:Goods.Food	COST:7	WT:1	SOURCEPAGE:AaEG30						
+Green Beans		TYPE:Goods.Food	COST:.2	WT:1	SOURCEPAGE:AaEG30						
+Green Peas		TYPE:Goods.Food	COST:.2	WT:1	SOURCEPAGE:AaEG30						
+Mushrooms		TYPE:Goods.Food	COST:.2	WT:1	SOURCEPAGE:AaEG30						
+Onions		TYPE:Goods.Food	COST:.5	WT:1	SOURCEPAGE:AaEG30						
+Peaches		TYPE:Goods.Food	COST:15	WT:1	SOURCEPAGE:AaEG30						
+Pears		TYPE:Goods.Food	COST:5	WT:1	SOURCEPAGE:AaEG30						
+Prunes		TYPE:Goods.Food	COST:3	WT:1	SOURCEPAGE:AaEG30						
+Raisins		TYPE:Goods.Food	COST:1	WT:1	SOURCEPAGE:AaEG30						
+Tomatoes		TYPE:Goods.Food	COST:1	WT:1	SOURCEPAGE:AaEG30						
 #Nuts											
-Almonds		TYPE:Goods.Food	COST:3	WT:1	SOURCEPAGE:AaEG						
-Cashews		TYPE:Goods.Food	COST:20	WT:1	SOURCEPAGE:AaEG						
-Chestnut		TYPE:Goods.Food	COST:1	WT:1	SOURCEPAGE:AaEG						
-Hazenuts		TYPE:Goods.Food	COST:0.5	WT:1	SOURCEPAGE:AaEG						
-Pine nuts		TYPE:Goods.Food	COST:10	WT:1	SOURCEPAGE:AaEG						
-Pistachios		TYPE:Goods.Food	COST:15	WT:1	SOURCEPAGE:AaEG						
-Walnuts		TYPE:Goods.Food	COST:0.3	WT:1	SOURCEPAGE:AaEG						
+Almonds		TYPE:Goods.Food	COST:3	WT:1	SOURCEPAGE:AaEG30						
+Cashews		TYPE:Goods.Food	COST:20	WT:1	SOURCEPAGE:AaEG30						
+Chestnut		TYPE:Goods.Food	COST:1	WT:1	SOURCEPAGE:AaEG30						
+Hazenuts		TYPE:Goods.Food	COST:0.5	WT:1	SOURCEPAGE:AaEG30						
+Pine nuts		TYPE:Goods.Food	COST:10	WT:1	SOURCEPAGE:AaEG30						
+Pistachios		TYPE:Goods.Food	COST:15	WT:1	SOURCEPAGE:AaEG30						
+Walnuts		TYPE:Goods.Food	COST:0.3	WT:1	SOURCEPAGE:AaEG30						
 #Oils											
-Olive oil		TYPE:Goods.Liquid	COST:5	WT:1	SOURCEPAGE:AaEG						
-Almond Oil		TYPE:Goods.Liquid	COST:10	WT:1	SOURCEPAGE:AaEG						
-Walnut Oil		TYPE:Goods.Liquid	COST:2	WT:1	SOURCEPAGE:AaEG						
-Hazelnut Oil		TYPE:Goods.Liquid	COST:3	WT:1	SOURCEPAGE:AaEG						
-Sesame Oil		TYPE:Goods.Liquid	COST:10	WT:1	SOURCEPAGE:AaEG						
-Sunflower Oil		TYPE:Goods.Liquid	COST:0.3	WT:1	SOURCEPAGE:AaEG						
-Safflower Oil		TYPE:Goods.Liquid	COST:0.2	WT:1	SOURCEPAGE:AaEG						
-Rapeseed Oil		TYPE:Goods.Liquid	COST:0.1	WT:1	SOURCEPAGE:AaEG						
+Olive oil		TYPE:Goods.Liquid	COST:5	WT:1	SOURCEPAGE:AaEG30						
+Almond Oil		TYPE:Goods.Liquid	COST:10	WT:1	SOURCEPAGE:AaEG30						
+Walnut Oil		TYPE:Goods.Liquid	COST:2	WT:1	SOURCEPAGE:AaEG30						
+Hazelnut Oil		TYPE:Goods.Liquid	COST:3	WT:1	SOURCEPAGE:AaEG30						
+Sesame Oil		TYPE:Goods.Liquid	COST:10	WT:1	SOURCEPAGE:AaEG30						
+Sunflower Oil		TYPE:Goods.Liquid	COST:0.3	WT:1	SOURCEPAGE:AaEG30						
+Safflower Oil		TYPE:Goods.Liquid	COST:0.2	WT:1	SOURCEPAGE:AaEG30						
+Rapeseed Oil		TYPE:Goods.Liquid	COST:0.1	WT:1	SOURCEPAGE:AaEG30						
 #Meats											
-Beef (Corned)		TYPE:Goods.Food	COST:3	WT:1	SOURCEPAGE:AaEG						
-Beef (Dried)		TYPE:Goods.Food	COST:5	WT:1	SOURCEPAGE:AaEG						
-Beef (Jerked)		TYPE:Goods.Food	COST:7	WT:1	SOURCEPAGE:AaEG						
-Beef (Sausage)		TYPE:Goods.Food	COST:2	WT:1	SOURCEPAGE:AaEG						
-Beef (Smocked)		TYPE:Goods.Food	COST:4	WT:1	SOURCEPAGE:AaEG						
-Buffalo (Dried)		TYPE:Goods.Food	COST:30	WT:1	SOURCEPAGE:AaEG						
-Buffalo (Jerked)		TYPE:Goods.Food	COST:45	WT:1	SOURCEPAGE:AaEG						
-Cod (Salted)		TYPE:Goods.Food	COST:5	WT:1	SOURCEPAGE:AaEG						
-Cod (Smocked)		TYPE:Goods.Food	COST:7	WT:1	SOURCEPAGE:AaEG						
-Herring (Pickled)		TYPE:Goods.Food	COST:3	WT:1	SOURCEPAGE:AaEG						
-Herring (Salted)		TYPE:Goods.Food	COST:5	WT:1	SOURCEPAGE:AaEG						
-Pork (Bacon)		TYPE:Goods.Food	COST:4	WT:1	SOURCEPAGE:AaEG						
-Pork (Ham)		TYPE:Goods.Food	COST:5	WT:1	SOURCEPAGE:AaEG						
-Pork (Salted)		TYPE:Goods.Food	COST:3	WT:1	SOURCEPAGE:AaEG						
-Pork (Sausage)		TYPE:Goods.Food	COST:1	WT:1	SOURCEPAGE:AaEG						
-Salmon (Salted)		TYPE:Goods.Food	COST:10	WT:1	SOURCEPAGE:AaEG						
-Salmon (Smocked)		TYPE:Goods.Food	COST:15	WT:1	SOURCEPAGE:AaEG						
-Sardines		TYPE:Goods.Food	COST:4	WT:1	SOURCEPAGE:AaEG						
+Beef (Corned)		TYPE:Goods.Food	COST:3	WT:1	SOURCEPAGE:AaEG30						
+Beef (Dried)		TYPE:Goods.Food	COST:5	WT:1	SOURCEPAGE:AaEG30						
+Beef (Jerked)		TYPE:Goods.Food	COST:7	WT:1	SOURCEPAGE:AaEG30						
+Beef (Sausage)		TYPE:Goods.Food	COST:2	WT:1	SOURCEPAGE:AaEG30						
+Beef (Smocked)		TYPE:Goods.Food	COST:4	WT:1	SOURCEPAGE:AaEG30						
+Buffalo (Dried)		TYPE:Goods.Food	COST:30	WT:1	SOURCEPAGE:AaEG30						
+Buffalo (Jerked)		TYPE:Goods.Food	COST:45	WT:1	SOURCEPAGE:AaEG30						
+Cod (Salted)		TYPE:Goods.Food	COST:5	WT:1	SOURCEPAGE:AaEG30						
+Cod (Smocked)		TYPE:Goods.Food	COST:7	WT:1	SOURCEPAGE:AaEG30						
+Herring (Pickled)		TYPE:Goods.Food	COST:3	WT:1	SOURCEPAGE:AaEG30						
+Herring (Salted)		TYPE:Goods.Food	COST:5	WT:1	SOURCEPAGE:AaEG30						
+Pork (Bacon)		TYPE:Goods.Food	COST:4	WT:1	SOURCEPAGE:AaEG30						
+Pork (Ham)		TYPE:Goods.Food	COST:5	WT:1	SOURCEPAGE:AaEG30						
+Pork (Salted)		TYPE:Goods.Food	COST:3	WT:1	SOURCEPAGE:AaEG30						
+Pork (Sausage)		TYPE:Goods.Food	COST:1	WT:1	SOURCEPAGE:AaEG30						
+Salmon (Salted)		TYPE:Goods.Food	COST:10	WT:1	SOURCEPAGE:AaEG30						
+Salmon (Smocked)		TYPE:Goods.Food	COST:15	WT:1	SOURCEPAGE:AaEG30						
+Sardines		TYPE:Goods.Food	COST:4	WT:1	SOURCEPAGE:AaEG30						
 #Exotic											
-Chillis		TYPE:Goods.Food	COST:25	WT:1	SOURCEPAGE:AaEG						
-Coffee		TYPE:Goods.Trade	COST:50	WT:1	SOURCEPAGE:AaEG						
-Coconut		TYPE:Goods.Food	COST:50	WT:1	SOURCEPAGE:AaEG						
-Hickory Nuts		TYPE:Goods.Food	COST:200	WT:1	SOURCEPAGE:AaEG						
-Lotus		TYPE:Goods.Trade	COST:100	WT:0.06	SOURCEPAGE:AaEG						
-Maple Sugar		TYPE:Goods.Food	COST:75	WT:1	SOURCEPAGE:AaEG						
-Paprika		TYPE:Goods.Food	COST:30	WT:0.06	SOURCEPAGE:AaEG						
-Pimento		TYPE:Goods.Food	COST:40	WT:0.06	SOURCEPAGE:AaEG						
-Pineapple		TYPE:Goods.Food	COST:150	WT:1	SOURCEPAGE:AaEG						
-Sarsaparilla		TYPE:Goods.Food	COST:10	WT:0.06	SOURCEPAGE:AaEG						
-Tobacco		TYPE:Goods.Trade	COST:0.5	WT:1	SOURCEPAGE:AaEG						
-Vanilla (ounce)		TYPE:Goods.Food	COST:75	WT:0.06	SOURCEPAGE:AaEG						
-Walnuts (Black)		TYPE:Goods.Food	COST:100	WT:1	SOURCEPAGE:AaEG						
+Chillis		TYPE:Goods.Food	COST:25	WT:1	SOURCEPAGE:AaEG30						
+Coffee		TYPE:Goods.Trade	COST:50	WT:1	SOURCEPAGE:AaEG30						
+Coconut		TYPE:Goods.Food	COST:50	WT:1	SOURCEPAGE:AaEG30						
+Hickory Nuts		TYPE:Goods.Food	COST:200	WT:1	SOURCEPAGE:AaEG30						
+Lotus		TYPE:Goods.Trade	COST:100	WT:0.06	SOURCEPAGE:AaEG30						
+Maple Sugar		TYPE:Goods.Food	COST:75	WT:1	SOURCEPAGE:AaEG30						
+Paprika		TYPE:Goods.Food	COST:30	WT:0.06	SOURCEPAGE:AaEG30						
+Pimento		TYPE:Goods.Food	COST:40	WT:0.06	SOURCEPAGE:AaEG30						
+Pineapple		TYPE:Goods.Food	COST:150	WT:1	SOURCEPAGE:AaEG30						
+Sarsaparilla		TYPE:Goods.Food	COST:10	WT:0.06	SOURCEPAGE:AaEG30						
+Tobacco		TYPE:Goods.Trade	COST:0.5	WT:1	SOURCEPAGE:AaEG30						
+Vanilla (ounce)		TYPE:Goods.Food	COST:75	WT:0.06	SOURCEPAGE:AaEG30						
+Walnuts (Black)		TYPE:Goods.Food	COST:100	WT:1	SOURCEPAGE:AaEG30						
 #Beer											
-Dragonbite Bitter		TYPE:Goods.Food.Liquid	COST:15	WT:8.35	SOURCEPAGE:AaEG						
-Dwarfhead Stout		TYPE:Goods.Food.Liquid	COST:30	WT:8.35	SOURCEPAGE:AaEG						
-Mead (Elven)		TYPE:Goods.Food.Liquid	COST:60	WT:8.35	SOURCEPAGE:AaEG						
-Golden Light Beer (Gnome)		TYPE:Goods.Food.Liquid	COST:10	WT:8.35	SOURCEPAGE:AaEG						
-Thudrud Beer (Goblin)		TYPE:Goods.Food.Liquid	COST:2	WT:8.35	SOURCEPAGE:AaEG						
-Pulsch Brown Ale		TYPE:Goods.Food.Liquid	COST:8	WT:8.35	SOURCEPAGE:AaEG						
+Dragonbite Bitter		TYPE:Goods.Food.Liquid	COST:15	WT:8.35	SOURCEPAGE:AaEG30						
+Dwarfhead Stout		TYPE:Goods.Food.Liquid	COST:30	WT:8.35	SOURCEPAGE:AaEG30						
+Mead (Elven)		TYPE:Goods.Food.Liquid	COST:60	WT:8.35	SOURCEPAGE:AaEG30						
+Golden Light Beer (Gnome)		TYPE:Goods.Food.Liquid	COST:10	WT:8.35	SOURCEPAGE:AaEG30						
+Thudrud Beer (Goblin)		TYPE:Goods.Food.Liquid	COST:2	WT:8.35	SOURCEPAGE:AaEG30						
+Pulsch Brown Ale		TYPE:Goods.Food.Liquid	COST:8	WT:8.35	SOURCEPAGE:AaEG30						
 #Wine											
-Frostwine		TYPE:Goods.Food.Liquid	COST:40	WT:1	SOURCEPAGE:AaEG						
-Aleeian Wine (Elven)		TYPE:Goods.Food.Liquid	COST:100	WT:1	SOURCEPAGE:AaEG						
-Garnet Wine (Dwarven)		TYPE:Goods.Food.Liquid	COST:90	WT:1	SOURCEPAGE:AaEG						
-Mushroom Wine (Poor)		TYPE:Goods.Food.Liquid	COST:20	WT:1	SOURCEPAGE:AaEG						
-Mushroom Wine (Good)		TYPE:Goods.Food.Liquid	COST:135	WT:1	SOURCEPAGE:AaEG						
-Spiderblood (Drow)		TYPE:Goods.Food.Liquid	COST:150	WT:1	SOURCEPAGE:AaEG						
+Frostwine		TYPE:Goods.Food.Liquid	COST:40	WT:1	SOURCEPAGE:AaEG30						
+Aleeian Wine (Elven)		TYPE:Goods.Food.Liquid	COST:100	WT:1	SOURCEPAGE:AaEG30						
+Garnet Wine (Dwarven)		TYPE:Goods.Food.Liquid	COST:90	WT:1	SOURCEPAGE:AaEG30						
+Mushroom Wine (Poor)		TYPE:Goods.Food.Liquid	COST:20	WT:1	SOURCEPAGE:AaEG30						
+Mushroom Wine (Good)		TYPE:Goods.Food.Liquid	COST:135	WT:1	SOURCEPAGE:AaEG30						
+Spiderblood (Drow)		TYPE:Goods.Food.Liquid	COST:150	WT:1	SOURCEPAGE:AaEG30						
 #Spirit											
-Frenzywater		TYPE:Goods.Food.Liquid	COST:15	WT:1	SOURCEPAGE:AaEG						
-Moondrop (Elven)		TYPE:Goods.Food.Liquid	COST:220	WT:1	SOURCEPAGE:AaEG						
-Kragg (Orc)		TYPE:Goods.Food.Liquid	COST:30	WT:1	SOURCEPAGE:AaEG						
+Frenzywater		TYPE:Goods.Food.Liquid	COST:15	WT:1	SOURCEPAGE:AaEG30						
+Moondrop (Elven)		TYPE:Goods.Food.Liquid	COST:220	WT:1	SOURCEPAGE:AaEG30						
+Kragg (Orc)		TYPE:Goods.Food.Liquid	COST:30	WT:1	SOURCEPAGE:AaEG30						
 											
 #Alchemical											
-Bladefire		TYPE:Goods.Alchemical.Flask	COST:20	WT:1	SOURCEPAGE:AaEG						
-Bullet (Acid)		TYPE:Goods.Alchemical.Ammunition.SlingStone	COST:10	WT:.6	SOURCEPAGE:AaEG						
-Bullet (Flame)		TYPE:Goods.Alchemical.Ammunition.SlingStone	COST:20	WT:.6	SOURCEPAGE:AaEG						
-Blullet (Priest's)		TYPE:Goods.Alchemical.Ammunition.SlingStone	COST:25	WT:.6	SOURCEPAGE:AaEG						
-Candle (Focusing)		TYPE:Goods.Alchemical.Candle	COST:100	WT:1	SOURCEPAGE:AaEG			QUALITY:Shadowy Illumination|10 ft.	QUALITY:Duration|1 hr.		
-Candle (Restful)		TYPE:Goods.Alchemical.Candle	COST:100	WT:1	SOURCEPAGE:AaEG			QUALITY:Shadowy Illumination|10 ft.	QUALITY:Duration|1 hr.		
-Clearbreath		TYPE:Goods.Alchemical.Vial	COST:50	WT:0	SOURCEPAGE:AaEG						
-Darkvision Powder		TYPE:Goods.Alchemical.Vial	COST:10	WT:0.06	SOURCEPAGE:AaEG						
-Defoliator		TYPE:Goods.Alchemical.Flask	COST:20	WT:1	SOURCEPAGE:AaEG	SPROP:2d4 Hp damage to Plants					
-Dehydratated Food		TYPE:Goods.Alchemical.Food.Resizable	COST:2	WT:.24	SOURCEPAGE:AaEG						
-Dwarfblind		TYPE:Goods.Alchemical	COST:50	WT:1	SOURCEPAGE:AaEG						
-Farflame Oil		TYPE:Goods.Alchemical.Flask	COST:2	WT:1	SOURCEPAGE:AaEG						
-Fleetfoot		TYPE:Goods.Alchemical.Vial	COST:50	WT:0	SOURCEPAGE:AaEG						
-Ghostoil		TYPE:Goods.Alchemical.Flask	COST:50	WT:1	SOURCEPAGE:AaEG						
-Gravebane		TYPE:Goods.Alchemical.Flask	COST:50	WT:1	SOURCEPAGE:AaEG	SPROP:Repels Undead					
-Hawk's Ointment		TYPE:Goods.Alchemical.Vial	COST:50	WT:0	SOURCEPAGE:AaEG						
-Instant Rope		TYPE:Goods.Alchemical.Flask	COST:25	WT:1	SOURCEPAGE:AaEG						
-Longbreath		TYPE:Goods.Alchemical.Vial	COST:50	WT:0	SOURCEPAGE:AaEG						
-Motelight		TYPE:Goods.Alchemical.Flask	COST:20	WT:1	SOURCEPAGE:AaEG	SPROP:Distract					
-Nature's Draught		TYPE:Goods.Alchemical.Vial	COST:50	WT:0	SOURCEPAGE:AaEG						
-Polar Skin		TYPE:Goods.Alchemical.Flask	COST:25	WT:1	SOURCEPAGE:AaEG						
-Signal Torch		TYPE:Goods.Alchemical	COST:1	WT:1	SOURCEPAGE:AaEG						
-Sparkstone		TYPE:Goods.Alchemical	COST:50	WT:1	SOURCEPAGE:AaEG	SPROP:1d6 Hp in 5-ft radius					
-Stonebreaker Acid		TYPE:Goods.Alchemical.Flask	COST:20	WT:1	SOURCEPAGE:AaEG	SPROP:3d10 Hp damage to stone objects					
-Verminbane		TYPE:Goods.Alchemical.Flask	COST:20	WT:1	SOURCEPAGE:AaEG						
-Vicious Bleeder		TYPE:Goods.Alchemical.Flask	COST:50	WT:1	SOURCEPAGE:AaEG						
+Bladefire		TYPE:Goods.Alchemical.Flask	COST:20	WT:1	SOURCEPAGE:AaEG30						
+Bullet (Acid)		TYPE:Goods.Alchemical.Ammunition.SlingStone	COST:10	WT:.6	SOURCEPAGE:AaEG30						
+Bullet (Flame)		TYPE:Goods.Alchemical.Ammunition.SlingStone	COST:20	WT:.6	SOURCEPAGE:AaEG30						
+Blullet (Priest's)		TYPE:Goods.Alchemical.Ammunition.SlingStone	COST:25	WT:.6	SOURCEPAGE:AaEG30						
+Candle (Focusing)		TYPE:Goods.Alchemical.Candle	COST:100	WT:1	SOURCEPAGE:AaEG30			QUALITY:Shadowy Illumination|10 ft.	QUALITY:Duration|1 hr.		
+Candle (Restful)		TYPE:Goods.Alchemical.Candle	COST:100	WT:1	SOURCEPAGE:AaEG30			QUALITY:Shadowy Illumination|10 ft.	QUALITY:Duration|1 hr.		
+Clearbreath		TYPE:Goods.Alchemical.Vial	COST:50	WT:0	SOURCEPAGE:AaEG30						
+Darkvision Powder		TYPE:Goods.Alchemical.Vial	COST:10	WT:0.06	SOURCEPAGE:AaEG30						
+Defoliator		TYPE:Goods.Alchemical.Flask	COST:20	WT:1	SOURCEPAGE:AaEG30	SPROP:2d4 Hp damage to Plants					
+Dehydratated Food		TYPE:Goods.Alchemical.Food.Resizable	COST:2	WT:.24	SOURCEPAGE:AaEG30						
+Dwarfblind		TYPE:Goods.Alchemical	COST:50	WT:1	SOURCEPAGE:AaEG30						
+Farflame Oil		TYPE:Goods.Alchemical.Flask	COST:2	WT:1	SOURCEPAGE:AaEG30						
+Fleetfoot		TYPE:Goods.Alchemical.Vial	COST:50	WT:0	SOURCEPAGE:AaEG30						
+Ghostoil		TYPE:Goods.Alchemical.Flask	COST:50	WT:1	SOURCEPAGE:AaEG30						
+Gravebane		TYPE:Goods.Alchemical.Flask	COST:50	WT:1	SOURCEPAGE:AaEG30	SPROP:Repels Undead					
+Hawk's Ointment		TYPE:Goods.Alchemical.Vial	COST:50	WT:0	SOURCEPAGE:AaEG30						
+Instant Rope		TYPE:Goods.Alchemical.Flask	COST:25	WT:1	SOURCEPAGE:AaEG30						
+Longbreath		TYPE:Goods.Alchemical.Vial	COST:50	WT:0	SOURCEPAGE:AaEG30						
+Motelight		TYPE:Goods.Alchemical.Flask	COST:20	WT:1	SOURCEPAGE:AaEG30	SPROP:Distract					
+Nature's Draught		TYPE:Goods.Alchemical.Vial	COST:50	WT:0	SOURCEPAGE:AaEG30						
+Polar Skin		TYPE:Goods.Alchemical.Flask	COST:25	WT:1	SOURCEPAGE:AaEG30						
+Signal Torch		TYPE:Goods.Alchemical	COST:1	WT:1	SOURCEPAGE:AaEG30						
+Sparkstone		TYPE:Goods.Alchemical	COST:50	WT:1	SOURCEPAGE:AaEG30	SPROP:1d6 Hp in 5-ft radius					
+Stonebreaker Acid		TYPE:Goods.Alchemical.Flask	COST:20	WT:1	SOURCEPAGE:AaEG30	SPROP:3d10 Hp damage to stone objects					
+Verminbane		TYPE:Goods.Alchemical.Flask	COST:20	WT:1	SOURCEPAGE:AaEG30						
+Vicious Bleeder		TYPE:Goods.Alchemical.Flask	COST:50	WT:1	SOURCEPAGE:AaEG30						
 											
 #Superior items											
-Animal Training Pole		TYPE:Goods.General	COST:10	WT:3	SOURCEPAGE:AaEG	SPROP:+2 Circumstance bonus on attemps to teach an animal a task					
-Cloak (Forester's)		TYPE:Goods.Clothing.Cape	COST:20	WT:3	SOURCEPAGE:AaEG	SPROP:+1 Circumstance bonus on Hide check made in Forest					
-Crossbow Sight (Gnomish)		TYPE:Goods.General	COST:150	WT:1	SOURCEPAGE:AaEG	SPROP:Treat the target as 2 increments closer					
-Listening Cone		TYPE:Goods.General	COST:20	WT:1	SOURCEPAGE:AaEG	SPROP:+1 Circumstance bonus on Listen checks made through a door or solid obstacles					
-Backpack (Framed)		TYPE:Goods.General.Container	COST:50	WT:2	SOURCEPAGE:AaEG		CONTAINS:10%UNLIM|Any				
-Robe (Desert)		TYPE:Goods.Clothing.Robe	COST:20	WT:2	SOURCEPAGE:AaEG	SPROP:+2 Circimstance bonus on Fortitude saves against exposure to high temperature					
-Sheath (Boot)		TYPE:Goods.General.Container	COST:30	WT:0	SOURCEPAGE:AaEG		CONTAINS:UNLIM|Light=1				
-Sheath (Wrist)		TYPE:Goods.General.Container	COST:20	WT:0	SOURCEPAGE:AaEG		CONTAINS:UNLIM|Dagger=1				
+Animal Training Pole		TYPE:Goods.General	COST:10	WT:3	SOURCEPAGE:AaEG30	SPROP:+2 Circumstance bonus on attemps to teach an animal a task					
+Cloak (Forester's)		TYPE:Goods.Clothing.Cape	COST:20	WT:3	SOURCEPAGE:AaEG30	SPROP:+1 Circumstance bonus on Hide check made in Forest					
+Crossbow Sight (Gnomish)		TYPE:Goods.General	COST:150	WT:1	SOURCEPAGE:AaEG30	SPROP:Treat the target as 2 increments closer					
+Listening Cone		TYPE:Goods.General	COST:20	WT:1	SOURCEPAGE:AaEG30	SPROP:+1 Circumstance bonus on Listen checks made through a door or solid obstacles					
+Backpack (Framed)		TYPE:Goods.General.Container	COST:50	WT:2	SOURCEPAGE:AaEG30		CONTAINS:10%UNLIM|Any				
+Robe (Desert)		TYPE:Goods.Clothing.Robe	COST:20	WT:2	SOURCEPAGE:AaEG30	SPROP:+2 Circimstance bonus on Fortitude saves against exposure to high temperature					
+Sheath (Boot)		TYPE:Goods.General.Container	COST:30	WT:0	SOURCEPAGE:AaEG30		CONTAINS:UNLIM|Light=1				
+Sheath (Wrist)		TYPE:Goods.General.Container	COST:20	WT:0	SOURCEPAGE:AaEG30		CONTAINS:UNLIM|Dagger=1				
 											
 #Poison											
-Poison (Alforna)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:75	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 11, Init.: 1d2 STR, Sec.: Fatigue. Craft DC 15.					
-Poison (Banelar Essence)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:300	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 11, Init.: 2d4 CON, Sec.: Unconscious. Craft DC 15.					
+Poison (Alforna)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:75	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 11, Init.: 1d2 STR, Sec.: Fatigue. Craft DC 15.					
+Poison (Banelar Essence)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:300	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 11, Init.: 2d4 CON, Sec.: Unconscious. Craft DC 15.					
 Poison (Carrion Crawler Brain Juice)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:200	WT:0	SOURCEPAGE:DMG	SPROP:Contact DC 13, Init.:0, Sec.:3d6 CON.					
 Poison (Black Adder Venom).MOD						SPROP:Craft DC 15.					
 Poison (Bloodroot).MOD						SPROP:Craft DC 15.					
 Poison (Blue Whinnis).MOD						SPROP:Craft DC 15.					
-Poison (Choldrith Toxin)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1200	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 15, Init.:Paralysis, Sec.: 2d4 CON. Craft DC 20.					
+Poison (Choldrith Toxin)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1200	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 15, Init.:Paralysis, Sec.: 2d4 CON. Craft DC 20.					
 Poison (Deathblade).MOD						SPROP:Craft DC 25.					
-Poison (Fang Dragon Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:300	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 15, Init.: 1 CON perm, Sec.: 0. Craft DC 20.					
+Poison (Fang Dragon Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:300	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 15, Init.: 1 CON perm, Sec.: 0. Craft DC 20.					
 Poison (Giant Wasp Poison).MOD						SPROP:Craft DC 20.					
-Poison (Gray Whinnis)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:210	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 20, Init.: 1d4 CON, Sec.: Paralysis. Craft DC 20.					
+Poison (Gray Whinnis)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:210	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 20, Init.: 1d4 CON, Sec.: Paralysis. Craft DC 20.					
 Poison (Greenblood Oil).MOD						SPROP:Craft DC 15.					
-Poison (Haluroot)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:15	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 13, Init.: 1d2 WIS | 1d2 WIS. Craft DC 15.					
+Poison (Haluroot)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:15	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 13, Init.: 1d2 WIS | 1d2 WIS. Craft DC 15.					
 Poison (Large Scorpion Venon).MOD						SPROP:Craft DC 20.					
-Poison (Medium Spider Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 14, Init.: 1d4 STR, Sec.: 1d6 STR. Craft DC 15.					
+Poison (Medium Spider Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 14, Init.: 1d4 STR, Sec.: 1d6 STR. Craft DC 15.					
 Poison (Purple Worm Poison).MOD						SPROP:Craft DC 20.					
-Poison (Redek Vine Extract)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 17, Init.: 2d6 DEX, Sec.: 0. Craft DC 25.					
-Poison (Rill Leaf)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 14, Init.: 1d2 CHA, Sec.: 1d4 CHA. Craft DC 15.					
+Poison (Redek Vine Extract)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 17, Init.: 2d6 DEX, Sec.: 0. Craft DC 25.					
+Poison (Rill Leaf)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 14, Init.: 1d2 CHA, Sec.: 1d4 CHA. Craft DC 15.					
 Poison (Shadow Essence).MOD						SPROP:Craft DC 20.					
-Poison (Shreef Oil)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 12, Init.: 1d2 STR 1d2 DEX, Sec.: 1d2 STR. Craft DC 15.					
+Poison (Shreef Oil)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 12, Init.: 1d2 STR 1d2 DEX, Sec.: 1d2 STR. Craft DC 15.					
 Poison (Small Centipede Poison).MOD						SPROP:Craft DC 15.					
-Poison (Vapid Leaf Extract)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:250	WT:0	SOURCEPAGE:AaEG	SPROP:Injury DC 16, Init.: Dazed (Euphoric), Sec.: 2d6 INT. Craft DC 20.					
+Poison (Vapid Leaf Extract)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:250	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 16, Init.: Dazed (Euphoric), Sec.: 2d6 INT. Craft DC 20.					
 Poison (Wyvern Poison)						SPROP:Craft DC 25.					
-Poison (Aboleth Oil)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2500	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 19, Init.: 0, Sec.: Transform. Craft DC 30.					
-Poison (Anemis)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:750	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 16, Init.: 1d4 STR, Sec.: 2d4 STR. Craft DC 20.					
+Poison (Aboleth Oil)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2500	WT:0	SOURCEPAGE:AaEG30	SPROP:Contact DC 19, Init.: 0, Sec.: Transform. Craft DC 30.					
+Poison (Anemis)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:750	WT:0	SOURCEPAGE:AaEG30	SPROP:Contact DC 16, Init.: 1d4 STR, Sec.: 2d4 STR. Craft DC 20.					
 Poison (Black Lotus Extract).MOD						SPROP:Craft DC 35.					
-Poison (Crippling Vine)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:180	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 13, Init.: 1d4 STR 1d4 CON, Sec.: 0. Craft DC 15.					
+Poison (Crippling Vine)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:180	WT:0	SOURCEPAGE:AaEG30	SPROP:Contact DC 13, Init.: 1d4 STR 1d4 CON, Sec.: 0. Craft DC 15.					
 Poison (Dragon Bile).MOD						SPROP:Craft DC 30.					
-Poison (Horror Weed Extract)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:600	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 20, Init.: 1 WIS, Sec.: 2d4 WIS. Craft DC 25.					
+Poison (Horror Weed Extract)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:600	WT:0	SOURCEPAGE:AaEG30	SPROP:Contact DC 20, Init.: 1 WIS, Sec.: 2d4 WIS. Craft DC 25.					
 Poison (Malyss Root Paste).MOD						SPROP:Craft DC 20.					
-Poison (Mesmer Paste)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:300	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 16, Init.: Dazzled, Sec.: 1d4 INT. Craft DC 20.					
+Poison (Mesmer Paste)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:300	WT:0	SOURCEPAGE:AaEG30	SPROP:Contact DC 16, Init.: Dazzled, Sec.: 1d4 INT. Craft DC 20.					
 Poison (Nitharit).MOD						SPROP:Craft DC 20.					
 Poison (Sassone Leaf Residue).MOD						SPROP:Craft DC 20.					
-Poison (Sleeping Weed)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:500	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 13, Init.: Slowed, Sec.: 1d4 DEX. Craft DC 15.					
-Poison (Tennav Root)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:750	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 16, Init.: 1d6 DEX, Sec.: 2d6 DEX. Craft DC 25.					
-Poison (Thever Paste)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 12, Init.: 0, Sec.: Blindness. Craft DC 25.					
-Poison (Wraith Sheen)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG	SPROP:Contact DC 16, Init.: 1d2 CON, Sec.: 1d2 CON. Craft DC 15.					
-Poison (Adlevine Extract)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 14, Init.: 1d4 WIS gain +2 CON bonus, Sec.: 1d6 CON. Craft DC 20.					
+Poison (Sleeping Weed)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:500	WT:0	SOURCEPAGE:AaEG30	SPROP:Contact DC 13, Init.: Slowed, Sec.: 1d4 DEX. Craft DC 15.					
+Poison (Tennav Root)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:750	WT:0	SOURCEPAGE:AaEG30	SPROP:Contact DC 16, Init.: 1d6 DEX, Sec.: 2d6 DEX. Craft DC 25.					
+Poison (Thever Paste)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:AaEG30	SPROP:Contact DC 12, Init.: 0, Sec.: Blindness. Craft DC 25.					
+Poison (Wraith Sheen)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG30	SPROP:Contact DC 16, Init.: 1d2 CON, Sec.: 1d2 CON. Craft DC 15.					
+Poison (Adlevine Extract)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG30	SPROP:Ingested DC 14, Init.: 1d4 WIS gain +2 CON bonus, Sec.: 1d6 CON. Craft DC 20.					
 Poison (Arsenic).MOD						SPROP:Craft DC 15.					
-Poison (Cretel Leaf Residue)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 14, Init.: 1d4 CON gain +2 DEX bonus, Sec.: 1d6 CON. Craft DC 20.					
-Poison (Culum Powder)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 12, Init.: 1 DEX, Sec.: 1d4 DEX. Craft DC 15.					
+Poison (Cretel Leaf Residue)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG30	SPROP:Ingested DC 14, Init.: 1d4 CON gain +2 DEX bonus, Sec.: 1d6 CON. Craft DC 20.					
+Poison (Culum Powder)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0	SOURCEPAGE:AaEG30	SPROP:Ingested DC 12, Init.: 1 DEX, Sec.: 1d4 DEX. Craft DC 15.					
 Poison (Dark Reaver Powder).MOD						SPROP:Craft DC 25.					
-Poison (Faralin)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 14, Init.: 1d4 DEX gain +2 STR, Sec.: 1d6 CON. Craft DC 20.					
+Poison (Faralin)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG30	SPROP:Ingested DC 14, Init.: 1d4 DEX gain +2 STR, Sec.: 1d6 CON. Craft DC 20.					
 Poison (Id Moss).MOD						SPROP:Craft DC 15.					
 Poison (Lich Dust).MOD						SPROP:Craft DC 20.					
-Poison (Lockjaw)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:250	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 11, Init.: Can't Speak, Sec.: 2d6 CON. Craft DC 15.					
+Poison (Lockjaw)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:250	WT:0	SOURCEPAGE:AaEG30	SPROP:Ingested DC 11, Init.: Can't Speak, Sec.: 2d6 CON. Craft DC 15.					
 Poison (Oil of Taggit).MOD						SPROP:Craft DC 15.					
-Poison (Retch)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:120	WT:0	SOURCEPAGE:AaEG	SPROP:Ingested DC 15, Init.: Nausea, Sec.: 1d4 CON. Craft DC 15.					
+Poison (Retch)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:120	WT:0	SOURCEPAGE:AaEG30	SPROP:Ingested DC 15, Init.: Nausea, Sec.: 1d4 CON. Craft DC 15.					
 Poison (Striped Toadstool).MOD						SPROP:Craft DC 15.					
-Poison (Asabi mist)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1000	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 12, Init.: 1d4 CON, Sec.: 1d4 CON. Craft DC 20.					
-Poison (Brain Dust)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1300	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 12, Init.: Confusion , Sec.: 1d4 CON. Craft DC 20.					
+Poison (Asabi mist)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1000	WT:0	SOURCEPAGE:AaEG30	SPROP:Inhaled DC 12, Init.: 1d4 CON, Sec.: 1d4 CON. Craft DC 20.					
+Poison (Brain Dust)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1300	WT:0	SOURCEPAGE:AaEG30	SPROP:Inhaled DC 12, Init.: Confusion , Sec.: 1d4 CON. Craft DC 20.					
 Poison (Burn Othur Fumes).MOD						SPROP:Craft DC 25.					
 Poison (Insanity Mist).MOD						SPROP:Craft DC 20.					
-Poison (Raeliss Smoke)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2000	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 15, Init.: 1d6 CHA, Sec.: 1d6 CHA. Craft DC 25.					
-Poison (Roshon Vapor)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:3100	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 15, Init.: 1d4 INT, Sec.: 1d6 DEX 1 DEX perm. Craft DC 25.					
-Poison (Scorcher Fumes)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:800	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 18, Init.: Lose Scent, Sec.: 1d4 WIS. Craft DC 20.					
-Poison (Thever Fumes)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:3000	WT:0	SOURCEPAGE:AaEG	SPROP:Inhaled DC 18, Init.: 0, Sec.: Blindness. Craft DC 35.					
+Poison (Raeliss Smoke)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2000	WT:0	SOURCEPAGE:AaEG30	SPROP:Inhaled DC 15, Init.: 1d6 CHA, Sec.: 1d6 CHA. Craft DC 25.					
+Poison (Roshon Vapor)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:3100	WT:0	SOURCEPAGE:AaEG30	SPROP:Inhaled DC 15, Init.: 1d4 INT, Sec.: 1d6 DEX 1 DEX perm. Craft DC 25.					
+Poison (Scorcher Fumes)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:800	WT:0	SOURCEPAGE:AaEG30	SPROP:Inhaled DC 18, Init.: Lose Scent, Sec.: 1d4 WIS. Craft DC 20.					
+Poison (Thever Fumes)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:3000	WT:0	SOURCEPAGE:AaEG30	SPROP:Inhaled DC 18, Init.: 0, Sec.: Blindness. Craft DC 35.					
 Poison (Ungol Dust).MOD						SPROP:Craft DC 20.					
 											
 #Block: Transportation											
-Launch		TYPE:Goods.Transportation.Container.Ships.WaterShip	COST:500	WT:0	SOURCEPAGE:AaEG		CONTAINS:10000|Any		SIZE:H		
-Catamaran		TYPE:Goods.Transportation.Container.Ships.WaterShip	COST:2000	WT:0	SOURCEPAGE:AaEG		CONTAINS:10000|Any		SIZE:G		
-Yacht		TYPE:Goods.Transportation.Container.Ships.WaterShip	COST:30000	WT:0	SOURCEPAGE:AaEG		CONTAINS:60000|Any		SIZE:C		
-Ironclad		TYPE:Goods.Transportation.Container.Ships.WaterShip	COST:30000	WT:0	SOURCEPAGE:AaEG		CONTAINS:2000|Any		SIZE:C		
-Gnome Submersible		TYPE:Goods.Transportation.Container.Ships.WaterShip	COST:80000	WT:0	SOURCEPAGE:AaEG		CONTAINS:40000|Any		SIZE:C		
-Barge		TYPE:Goods.Transportation.Container.Ships.WaterShip	COST:6000	WT:0	SOURCEPAGE:AaEG		CONTAINS:200000|Any		SIZE:C		
-Hang Glider		TYPE:Goods.Transportation.Ships.AirShip	COST:300	WT:0	SOURCEPAGE:AaEG				SIZE:L		
-Ornithopter		TYPE:Goods.Transportation.Ships.AirShip	COST:4000	WT:0	SOURCEPAGE:AaEG				SIZE:L		
-Zeppelin		TYPE:Goods.Transportation.Container.Ships.AirShip	COST:60000	WT:0	SOURCEPAGE:AaEG		CONTAINS:20000|Any		SIZE:C		
-Dirigible		TYPE:Goods.Transportation.Container.Ships.AirShip	COST:35000	WT:0	SOURCEPAGE:AaEG		CONTAINS:10000|Any		SIZE:G		
-Carriage (Huge)	OUTPUTNAME:Carriage, Huge	TYPE:Goods.Transportation.Container	COST:500	WT:400	SOURCEPAGE:AaEG		CONTAINS:500|Any		SIZE:H		
-Cart (Large)	OUTPUTNAME:Cart, Large	TYPE:Goods.Transportation.Container	COST:15	WT:200	SOURCEPAGE:AaEG		CONTAINS:500|Any		SIZE:L		
-Chariot (Single)	OUTPUTNAME:Chariot, Single	TYPE:Goods.Transportation	COST:100	WT:300	SOURCEPAGE:AaEG				SIZE:M		
-Chariot (Double)	OUTPUTNAME:Chariot, Double	TYPE:Goods.Transportation	COST:400	WT:600	SOURCEPAGE:AaEG				SIZE:L		
-Mobile Redbout		TYPE:Goods.Transportation.Container	COST:1500	WT:8000	SOURCEPAGE:AaEG		CONTAINS:1000|Any		SIZE:H		
-Siege Tower (Large)	OUTPUTNAME:Siege Tower, Large	TYPE:Goods.SiegeEngine	COST:4000	WT:32000	SOURCEPAGE:AaEG	SPROP:5 man crew + 25 soldiers			SIZE:H		
-Siege Tower (Small)	OUTPUTNAME:Siege Tower, Small	TYPE:Goods.SiegeEngine	COST:1000	WT:16000	SOURCEPAGE:AaEG	SPROP:1 man crew + 15 soldiers			SIZE:H		
-Sled (Ice)		TYPE:Goods.Transportation.Container	COST:20	WT:300	SOURCEPAGE:AaEG		CONTAINS:1000|Any		SIZE:L		
-Stagecoach		TYPE:Goods.Transportation.Container	COST:800	WT:750	SOURCEPAGE:AaEG	SPROP:1 man crew + 7 passengers	CONTAINS:1000|Any		SIZE:H		
-Worg Warsled		TYPE:Goods.Transportation.Container	COST:400	WT:900	SOURCEPAGE:AaEG		CONTAINS:700|Any		SIZE:H		
-Halfling Warwagon		TYPE:Goods.Transportation.Container	COST:800	WT:750	SOURCEPAGE:AaEG	SPROP:1 man crew + 7 passengers	CONTAINS:1000|Any		SIZE:H		
-Siege Tower (WarWagon)	OUTPUTNAME:Siege Tower, War Wagon	TYPE:Goods.Transportation.Container	COST:2000	WT:1000	SOURCEPAGE:AaEG		CONTAINS:4000|Any		SIZE:G		
-Dwarven Tunneler		TYPE:Goods.Transportation.Ships.UndergroundShip	COST:70000	WT:40000	SOURCEPAGE:AaEG	SPROP:5 man crew + 10 soldiers			SIZE:H		
-Carriage (Large)	OUTPUTNAME:Carriage, Large	TYPE:Goods.Transportation.Container	COST:200	WT:100	SOURCEPAGE:AaEG		CONTAINS:400|Any		SIZE:L		
+Launch		TYPE:Goods.Transportation.Container.Ships.WaterShip	COST:500	WT:0	SOURCEPAGE:AaEG30		CONTAINS:10000|Any		SIZE:H		
+Catamaran		TYPE:Goods.Transportation.Container.Ships.WaterShip	COST:2000	WT:0	SOURCEPAGE:AaEG30		CONTAINS:10000|Any		SIZE:G		
+Yacht		TYPE:Goods.Transportation.Container.Ships.WaterShip	COST:30000	WT:0	SOURCEPAGE:AaEG30		CONTAINS:60000|Any		SIZE:C		
+Ironclad		TYPE:Goods.Transportation.Container.Ships.WaterShip	COST:30000	WT:0	SOURCEPAGE:AaEG30		CONTAINS:2000|Any		SIZE:C		
+Gnome Submersible		TYPE:Goods.Transportation.Container.Ships.WaterShip	COST:80000	WT:0	SOURCEPAGE:AaEG30		CONTAINS:40000|Any		SIZE:C		
+Barge		TYPE:Goods.Transportation.Container.Ships.WaterShip	COST:6000	WT:0	SOURCEPAGE:AaEG30		CONTAINS:200000|Any		SIZE:C		
+Hang Glider		TYPE:Goods.Transportation.Ships.AirShip	COST:300	WT:0	SOURCEPAGE:AaEG30				SIZE:L		
+Ornithopter		TYPE:Goods.Transportation.Ships.AirShip	COST:4000	WT:0	SOURCEPAGE:AaEG30				SIZE:L		
+Zeppelin		TYPE:Goods.Transportation.Container.Ships.AirShip	COST:60000	WT:0	SOURCEPAGE:AaEG30		CONTAINS:20000|Any		SIZE:C		
+Dirigible		TYPE:Goods.Transportation.Container.Ships.AirShip	COST:35000	WT:0	SOURCEPAGE:AaEG30		CONTAINS:10000|Any		SIZE:G		
+Carriage (Huge)	OUTPUTNAME:Carriage, Huge	TYPE:Goods.Transportation.Container	COST:500	WT:400	SOURCEPAGE:AaEG30		CONTAINS:500|Any		SIZE:H		
+Cart (Large)	OUTPUTNAME:Cart, Large	TYPE:Goods.Transportation.Container	COST:15	WT:200	SOURCEPAGE:AaEG30		CONTAINS:500|Any		SIZE:L		
+Chariot (Single)	OUTPUTNAME:Chariot, Single	TYPE:Goods.Transportation	COST:100	WT:300	SOURCEPAGE:AaEG30				SIZE:M		
+Chariot (Double)	OUTPUTNAME:Chariot, Double	TYPE:Goods.Transportation	COST:400	WT:600	SOURCEPAGE:AaEG30				SIZE:L		
+Mobile Redbout		TYPE:Goods.Transportation.Container	COST:1500	WT:8000	SOURCEPAGE:AaEG30		CONTAINS:1000|Any		SIZE:H		
+Siege Tower (Large)	OUTPUTNAME:Siege Tower, Large	TYPE:Goods.SiegeEngine	COST:4000	WT:32000	SOURCEPAGE:AaEG30	SPROP:5 man crew + 25 soldiers			SIZE:H		
+Siege Tower (Small)	OUTPUTNAME:Siege Tower, Small	TYPE:Goods.SiegeEngine	COST:1000	WT:16000	SOURCEPAGE:AaEG30	SPROP:1 man crew + 15 soldiers			SIZE:H		
+Sled (Ice)		TYPE:Goods.Transportation.Container	COST:20	WT:300	SOURCEPAGE:AaEG30		CONTAINS:1000|Any		SIZE:L		
+Stagecoach		TYPE:Goods.Transportation.Container	COST:800	WT:750	SOURCEPAGE:AaEG30	SPROP:1 man crew + 7 passengers	CONTAINS:1000|Any		SIZE:H		
+Worg Warsled		TYPE:Goods.Transportation.Container	COST:400	WT:900	SOURCEPAGE:AaEG30		CONTAINS:700|Any		SIZE:H		
+Halfling Warwagon		TYPE:Goods.Transportation.Container	COST:800	WT:750	SOURCEPAGE:AaEG30	SPROP:1 man crew + 7 passengers	CONTAINS:1000|Any		SIZE:H		
+Siege Tower (WarWagon)	OUTPUTNAME:Siege Tower, War Wagon	TYPE:Goods.Transportation.Container	COST:2000	WT:1000	SOURCEPAGE:AaEG30		CONTAINS:4000|Any		SIZE:G		
+Dwarven Tunneler		TYPE:Goods.Transportation.Ships.UndergroundShip	COST:70000	WT:40000	SOURCEPAGE:AaEG30	SPROP:5 man crew + 10 soldiers			SIZE:H		
+Carriage (Large)	OUTPUTNAME:Carriage, Large	TYPE:Goods.Transportation.Container	COST:200	WT:100	SOURCEPAGE:AaEG30		CONTAINS:400|Any		SIZE:L		
 											
 											
 #Hirelings											
-Hireling (Alchemist)		TYPE:Service	COST:1		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Alchemy)					
-Hireling (Animal tender/groom)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG	SPROP:Commoner/Handle Animal					
-Hireling (Animal Trainer)		TYPE:Service	COST:0.8		SOURCEPAGE:AaEG	SPROP:Expert/Handle Animal					
-Hireling (Animal Trainer/Exotic)		TYPE:Service	COST:1		SOURCEPAGE:AaEG	SPROP:Expert/Handle Animal					
-Hireling (Apothecary)		TYPE:Service	COST:1		SOURCEPAGE:AaEG	SPROP:Expert/Knowledge (Herbs), Craft (Alchemy)					
-Hireling (Appraiser)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Expert/Appraise					
-Hireling (Architect)		TYPE:Service	COST:0.5		SOURCEPAGE:AaEG	SPROP:Expert/Profession (Architect)					
-Hireling (Armorer)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Armorsmithing)					
-Hireling (Barrister)		TYPE:Service	COST:1		SOURCEPAGE:AaEG	SPROP:Expert/Diplomacy					
-Hireling (Blacksmith)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Blacksmith)					
-Hireling (Bookbinder)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Bookbinding)					
-Hireling (Bowyer)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Craft (Bowmaking)					
-Hireling (Brazier)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Brassmaking)					
-Hireling (Brewer)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Craft (Brewing)					
-Hireling (Butler)		TYPE:Service	COST:0.5		SOURCEPAGE:AaEG	SPROP:Expert/Diplomacy or Profession (Butler)					
-Hireling (Carpenter)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Woodworking)					
-Hireling (Cartographer)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Mapmaking), Forgery					
-Hireling (Cartwright)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Craft (Woodworking)					
-Hireling (Chandler)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Craft (Candlemaking)					
-Hireling (Clerk)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Profession (Clerk)					
-Hireling (Cobbler)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Craft (Shoemaking)					
-Hireling (Coiffeur)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG	SPROP:Commoner/Profession (Hairdresser)					
-Hireling (Coffinmaker)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Craft (Woodworking)					
-Hireling (Composer)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG	SPROP:Expert/Perform (any)					
-Hireling (Cook)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Profession (Cook)					
-Hireling (Cooper)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Craft (Woodworking)					
-Hireling (Courier/in town)		TYPE:Service	COST:0.02		SOURCEPAGE:AaEG	SPROP:Commoner/Knowledge (Local), Run feat. Cost per mile.					
-Hireling (Courier/out of town)		TYPE:Service	COST:0.02		SOURCEPAGE:AaEG	SPROP:Commoner/Knowledge (Local), Ride. Cost per mile.					
-Hireling (Coppersmith)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Coppersmithing)					
-Hireling (Dowser)		TYPE:Service	COST:1		SOURCEPAGE:AaEG	SPROP:Commoner or Adept/Survival					
-Hireling (Dyer)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Dyemaking)					
-Hireling (Embalmer)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Expert/Profession (Embalmer), Craft (Alchemy)					
-Hireling (Engineer)		TYPE:Service	COST:0.5		SOURCEPAGE:AaEG	SPROP:Expert/Profession (Engineer)					
-Hireling (Engineer/Siege)		TYPE:Service	COST:2		SOURCEPAGE:AaEG	SPROP:Expert/Knowledge (Tactics)					
-Hireling (Entertainer)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Perform (any)					
-Hireling (Performer)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Perform (any)					
-Hireling (Fletcher)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Bowmaking)					
-Hireling (Footman)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG	SPROP:Commoner/Diplomacy, Knowledge (Nobility)					
-Hireling (Gemcutter)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Gemcutting)					
-Hireling (Goldsmith)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Goldmithing)					
-Hireling (Governess)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG	SPROP:Expert/Diplomacy, Knowledge (Nobility)					
-Hireling (Guide/Wilderness)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Knowledge (Local), Survival					
-Hireling (Guide/City)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Knowledge (Local), Diplomacy					
-Hireling (Haberdasher)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Craft (Hatmaking)					
-Hireling (Healer)		TYPE:Service	COST:0.5		SOURCEPAGE:AaEG	SPROP:Adept/Heal, cure light wounds					
-Hireling (Horner)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Hornmaking)					
-Hireling (Interpreter)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Expert/Speak Language					
-Hireling (Jeweler)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Jewelmaking)					
-Hireling (Laborer)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG	SPROP:Expert/Craft (any), Strength.					
-Hireling (Launderer)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG	SPROP:Commoner/Profession (Launderer)					
-Hireling (Limner/Painter)		TYPE:Service	COST:0.6		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Craft (Painting)					
-Hireling (Locksmith)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Locksmithing)					
-Hireling (Maid)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG	SPROP:Commoner/Profession (Maid)					
-Hireling (Masseuse)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG	SPROP:Expert/Profession (Masseuse)					
-Hireling (Matchmaker)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG	SPROP:Commoner/Diplomacy, Sense Motive					
-Hireling (Midwife)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Profession (Midwife)					
-Hireling (Miller)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Craft (Milling)					
-Hireling (Nursemaid)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG	SPROP:Commoner/Profession (Nursemaid)					
-Hireling (Navigator)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Expert/Survival, Profession (Sailor)					
-Hireling (Painter/Portrait)		TYPE:Service	COST:1		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Painting)					
-Hireling (Parchmentmaker)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Expert/Craft(Parchmentmaking)					
-Hireling (Pewtener)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Pewtenermaking)					
-Hireling (Polisher/Cleaner)		TYPE:Service	COST:0.08		SOURCEPAGE:AaEG	SPROP:Commoner/Profession (Cleaner)					
-Hireling (Porter)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG	SPROP:Commoner/Craft (any), Strength.					
-Hireling (Potter)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG	SPROP:Commoner/Craft (Pottermaking)					
-Hireling (Sage)		TYPE:Service	COST:2		SOURCEPAGE:AaEG	SPROP:Expert/Knowledge (any)					
-Hireling (Sailor/Crew)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Profession (Sailor)					
-Hireling (Sailor/Mate)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG	SPROP:Expert/Profession (Sailor), Intimidate					
-Hireling (Scribe)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Expert/Profession (Scribe)					
-Hireling (Sculptor)		TYPE:Service	COST:0.6		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Sculpting)					
-Hireling (Sheperd)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG	SPROP:Commoner/Handle Animal					
-Hireling (Shipwright)		TYPE:Service	COST:1		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Shipmaking)					
-Hireling (Silversmith)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Silversmithing)					
-Hireling (Skinner)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Commoner/Craft (Skinning)					
-Hireling (Soapmaker)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Craft (Soapmaking)					
-Hireling (Soothsayer)		TYPE:Service	COST:1		SOURCEPAGE:AaEG	SPROP:Expert or Adept/Scry, Divination					
-Hireling (Tanner)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Craft (Tanning)					
-Hireling (Teamster)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Commoner/Handle Animal, Ride					
-Hireling (Valet)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG	SPROP:Commoner/Diplomacy					
-Hireling (Vintner)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Winemaking)					
-Hireling (Weaponsmithing)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Weaponsmithing)					
-Hireling (Weaver)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG	SPROP:Commoner or Expert/Craft (Weaving)					
-Hireling (Wheelwright)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG	SPROP:Expert/Craft (Wheelmaking)					
+Hireling (Alchemist)		TYPE:Service	COST:1		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Alchemy)					
+Hireling (Animal tender/groom)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG30	SPROP:Commoner/Handle Animal					
+Hireling (Animal Trainer)		TYPE:Service	COST:0.8		SOURCEPAGE:AaEG30	SPROP:Expert/Handle Animal					
+Hireling (Animal Trainer/Exotic)		TYPE:Service	COST:1		SOURCEPAGE:AaEG30	SPROP:Expert/Handle Animal					
+Hireling (Apothecary)		TYPE:Service	COST:1		SOURCEPAGE:AaEG30	SPROP:Expert/Knowledge (Herbs), Craft (Alchemy)					
+Hireling (Appraiser)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Expert/Appraise					
+Hireling (Architect)		TYPE:Service	COST:0.5		SOURCEPAGE:AaEG30	SPROP:Expert/Profession (Architect)					
+Hireling (Armorer)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Armorsmithing)					
+Hireling (Barrister)		TYPE:Service	COST:1		SOURCEPAGE:AaEG30	SPROP:Expert/Diplomacy					
+Hireling (Blacksmith)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Blacksmith)					
+Hireling (Bookbinder)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Bookbinding)					
+Hireling (Bowyer)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Craft (Bowmaking)					
+Hireling (Brazier)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Brassmaking)					
+Hireling (Brewer)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Craft (Brewing)					
+Hireling (Butler)		TYPE:Service	COST:0.5		SOURCEPAGE:AaEG30	SPROP:Expert/Diplomacy or Profession (Butler)					
+Hireling (Carpenter)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Woodworking)					
+Hireling (Cartographer)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Mapmaking), Forgery					
+Hireling (Cartwright)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Craft (Woodworking)					
+Hireling (Chandler)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Craft (Candlemaking)					
+Hireling (Clerk)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Profession (Clerk)					
+Hireling (Cobbler)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Craft (Shoemaking)					
+Hireling (Coiffeur)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG30	SPROP:Commoner/Profession (Hairdresser)					
+Hireling (Coffinmaker)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Craft (Woodworking)					
+Hireling (Composer)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG30	SPROP:Expert/Perform (any)					
+Hireling (Cook)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Profession (Cook)					
+Hireling (Cooper)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Craft (Woodworking)					
+Hireling (Courier/in town)		TYPE:Service	COST:0.02		SOURCEPAGE:AaEG30	SPROP:Commoner/Knowledge (Local), Run feat. Cost per mile.					
+Hireling (Courier/out of town)		TYPE:Service	COST:0.02		SOURCEPAGE:AaEG30	SPROP:Commoner/Knowledge (Local), Ride. Cost per mile.					
+Hireling (Coppersmith)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Coppersmithing)					
+Hireling (Dowser)		TYPE:Service	COST:1		SOURCEPAGE:AaEG30	SPROP:Commoner or Adept/Survival					
+Hireling (Dyer)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Dyemaking)					
+Hireling (Embalmer)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Expert/Profession (Embalmer), Craft (Alchemy)					
+Hireling (Engineer)		TYPE:Service	COST:0.5		SOURCEPAGE:AaEG30	SPROP:Expert/Profession (Engineer)					
+Hireling (Engineer/Siege)		TYPE:Service	COST:2		SOURCEPAGE:AaEG30	SPROP:Expert/Knowledge (Tactics)					
+Hireling (Entertainer)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Perform (any)					
+Hireling (Performer)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Perform (any)					
+Hireling (Fletcher)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Bowmaking)					
+Hireling (Footman)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG30	SPROP:Commoner/Diplomacy, Knowledge (Nobility)					
+Hireling (Gemcutter)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Gemcutting)					
+Hireling (Goldsmith)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Goldmithing)					
+Hireling (Governess)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG30	SPROP:Expert/Diplomacy, Knowledge (Nobility)					
+Hireling (Guide/Wilderness)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Knowledge (Local), Survival					
+Hireling (Guide/City)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Knowledge (Local), Diplomacy					
+Hireling (Haberdasher)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Craft (Hatmaking)					
+Hireling (Healer)		TYPE:Service	COST:0.5		SOURCEPAGE:AaEG30	SPROP:Adept/Heal, cure light wounds					
+Hireling (Horner)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Hornmaking)					
+Hireling (Interpreter)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Expert/Speak Language					
+Hireling (Jeweler)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Jewelmaking)					
+Hireling (Laborer)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (any), Strength.					
+Hireling (Launderer)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG30	SPROP:Commoner/Profession (Launderer)					
+Hireling (Limner/Painter)		TYPE:Service	COST:0.6		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Craft (Painting)					
+Hireling (Locksmith)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Locksmithing)					
+Hireling (Maid)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG30	SPROP:Commoner/Profession (Maid)					
+Hireling (Masseuse)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG30	SPROP:Expert/Profession (Masseuse)					
+Hireling (Matchmaker)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG30	SPROP:Commoner/Diplomacy, Sense Motive					
+Hireling (Midwife)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Profession (Midwife)					
+Hireling (Miller)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Craft (Milling)					
+Hireling (Nursemaid)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG30	SPROP:Commoner/Profession (Nursemaid)					
+Hireling (Navigator)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Expert/Survival, Profession (Sailor)					
+Hireling (Painter/Portrait)		TYPE:Service	COST:1		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Painting)					
+Hireling (Parchmentmaker)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Expert/Craft(Parchmentmaking)					
+Hireling (Pewtener)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Pewtenermaking)					
+Hireling (Polisher/Cleaner)		TYPE:Service	COST:0.08		SOURCEPAGE:AaEG30	SPROP:Commoner/Profession (Cleaner)					
+Hireling (Porter)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG30	SPROP:Commoner/Craft (any), Strength.					
+Hireling (Potter)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG30	SPROP:Commoner/Craft (Pottermaking)					
+Hireling (Sage)		TYPE:Service	COST:2		SOURCEPAGE:AaEG30	SPROP:Expert/Knowledge (any)					
+Hireling (Sailor/Crew)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Profession (Sailor)					
+Hireling (Sailor/Mate)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG30	SPROP:Expert/Profession (Sailor), Intimidate					
+Hireling (Scribe)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Expert/Profession (Scribe)					
+Hireling (Sculptor)		TYPE:Service	COST:0.6		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Sculpting)					
+Hireling (Sheperd)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG30	SPROP:Commoner/Handle Animal					
+Hireling (Shipwright)		TYPE:Service	COST:1		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Shipmaking)					
+Hireling (Silversmith)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Silversmithing)					
+Hireling (Skinner)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Commoner/Craft (Skinning)					
+Hireling (Soapmaker)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Craft (Soapmaking)					
+Hireling (Soothsayer)		TYPE:Service	COST:1		SOURCEPAGE:AaEG30	SPROP:Expert or Adept/Scry, Divination					
+Hireling (Tanner)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Craft (Tanning)					
+Hireling (Teamster)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Commoner/Handle Animal, Ride					
+Hireling (Valet)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG30	SPROP:Commoner/Diplomacy					
+Hireling (Vintner)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Winemaking)					
+Hireling (Weaponsmithing)		TYPE:Service	COST:0.4		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Weaponsmithing)					
+Hireling (Weaver)		TYPE:Service	COST:0.2		SOURCEPAGE:AaEG30	SPROP:Commoner or Expert/Craft (Weaving)					
+Hireling (Wheelwright)		TYPE:Service	COST:0.3		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Wheelmaking)					
 											
-Howdah		TYPE:Goods.General.Mount	COST:200	WT:100	SOURCEPAGE:AaEG	SPROP:A howdah is a seat or box, usually with a canopy and railing, placed on the back of a Huge or larger creature. In addition to placing occupants out of the reach of most infantry, a howdah provides one-half cover.					
-Sidecar Saddle		TYPE:Goods.Transportation.Container.Mount.Saddle	COST:60	WT:40	SOURCEPAGE:AaEG		CONTAINS:100|Any				
+Howdah		TYPE:Goods.General.Mount	COST:200	WT:100	SOURCEPAGE:AaEG30	SPROP:A howdah is a seat or box, usually with a canopy and railing, placed on the back of a Huge or larger creature. In addition to placing occupants out of the reach of most infantry, a howdah provides one-half cover.					
+Sidecar Saddle		TYPE:Goods.Transportation.Container.Mount.Saddle	COST:60	WT:40	SOURCEPAGE:AaEG30		CONTAINS:100|Any				
 
-Golem (Equine)		KEY:Golem ~ Equine	TYPE:Monster.Construct.Container	COST:20000	WT:0	SOURCEPAGE:AaEG	CONTAINS:UNLIM|Any	SPROP:CL 12th; Craft Construct (see page 303), animate objects, geas/quest, limited wish, phantom steed, and shatter, caster must be at least 12th level.
+Golem (Equine)		KEY:Golem ~ Equine	TYPE:Monster.Construct.Container	COST:20000	WT:0	SOURCEPAGE:AaEG30	CONTAINS:UNLIM|Any	SPROP:CL 12th; Craft Construct (see page 303), animate objects, geas/quest, limited wish, phantom steed, and shatter, caster must be at least 12th level.

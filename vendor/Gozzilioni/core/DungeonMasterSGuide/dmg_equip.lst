@@ -136,28 +136,28 @@ Building (Moat with Bridge)	TYPE:Goods.Building.Container	COST:50000	SOURCEPAGE:
 ###Block: Hireling Services																										
 # Equipment Name	Output Name			Type				Cost		Weight	Define		Requires Modification?	Source Page			Special Property									
 # Hireling (Alchemist)	TYPE:Ser																									
-Hireling (Alchemist)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:1	WT:0	SOURCEPAGE:DMG																				
-Hireling (Animal Tender/Groom)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.15	WT:0	SOURCEPAGE:DMG																				
-Hireling (Architect)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.5	WT:0	SOURCEPAGE:DMG																				
-Hireling (Engineer)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.5	WT:0	SOURCEPAGE:DMG																				
-Hireling (Barrister)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:1	WT:0	SOURCEPAGE:DMG																				
-Hireling (Clerk)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.4	WT:0	SOURCEPAGE:DMG																				
-Hireling (Cook)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.1	WT:0	SOURCEPAGE:DMG																				
-Hireling (Entertainer)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.4	WT:0	SOURCEPAGE:DMG																				
-Hireling (Performer)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.4	WT:0	SOURCEPAGE:DMG																				
-Hireling (Laborer)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.1	WT:0	SOURCEPAGE:DMG																				
-Hireling (Limner)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.6	WT:0	SOURCEPAGE:DMG																				
-Hireling (Maid)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.1	WT:0	SOURCEPAGE:DMG																				
-Hireling (Mason)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.3	WT:0	SOURCEPAGE:DMG																				
-Hireling (Mercenary)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.2	WT:0	SOURCEPAGE:DMG																				
-Hireling (Mercenary/Cavalry)	OUTPUTNAME: Cavalry Mercenary Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.4	WT:0	SOURCEPAGE:DMG																				
-Hireling (Mercenary/Leader)	OUTPUTNAME: Leader Mercenary Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.6	WT:0	SOURCEPAGE:DMG																				
-Hireling (Porter)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:1	WT:0.1	SOURCEPAGE:DMG																				
-Hireling (Sage)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:2	WT:0	SOURCEPAGE:DMG																				
-Hireling (Scribe)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.3	WT:0	SOURCEPAGE:DMG																				
-Hireling (Smith)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.4	WT:0	SOURCEPAGE:DMG																				
-Hireling (Teamster)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.3	WT:0	SOURCEPAGE:DMG																				
-Hireling (Valet/Lackey)	OUTPUTNAME: [Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.2	WT:0	SOURCEPAGE:DMG																				
+Hireling (Alchemist)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:1	WT:0	SOURCEPAGE:DMG																				
+Hireling (Animal Tender/Groom)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.15	WT:0	SOURCEPAGE:DMG																				
+Hireling (Architect)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.5	WT:0	SOURCEPAGE:DMG																				
+Hireling (Engineer)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.5	WT:0	SOURCEPAGE:DMG																				
+Hireling (Barrister)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:1	WT:0	SOURCEPAGE:DMG																				
+Hireling (Clerk)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.4	WT:0	SOURCEPAGE:DMG																				
+Hireling (Cook)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.1	WT:0	SOURCEPAGE:DMG																				
+Hireling (Entertainer)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.4	WT:0	SOURCEPAGE:DMG																				
+Hireling (Performer)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.4	WT:0	SOURCEPAGE:DMG																				
+Hireling (Laborer)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.1	WT:0	SOURCEPAGE:DMG																				
+Hireling (Limner)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.6	WT:0	SOURCEPAGE:DMG																				
+Hireling (Maid)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.1	WT:0	SOURCEPAGE:DMG																				
+Hireling (Mason)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.3	WT:0	SOURCEPAGE:DMG																				
+Hireling (Mercenary)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.2	WT:0	SOURCEPAGE:DMG																				
+Hireling (Mercenary/Cavalry)	OUTPUTNAME:Cavalry Mercenary Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.4	WT:0	SOURCEPAGE:DMG																				
+Hireling (Mercenary/Leader)	OUTPUTNAME:Leader Mercenary Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.6	WT:0	SOURCEPAGE:DMG																				
+Hireling (Porter)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:1	WT:0.1	SOURCEPAGE:DMG																				
+Hireling (Sage)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:2	WT:0	SOURCEPAGE:DMG																				
+Hireling (Scribe)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.3	WT:0	SOURCEPAGE:DMG																				
+Hireling (Smith)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.4	WT:0	SOURCEPAGE:DMG																				
+Hireling (Teamster)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.3	WT:0	SOURCEPAGE:DMG																				
+Hireling (Valet/Lackey)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:0.2	WT:0	SOURCEPAGE:DMG																				
 																										
 ###Block: Alchemical																										
 Keg		TYPE:Goods.General.Container.Resizable	COST:0	WT:5	SOURCEPAGE:DMG	CONTAINS:15|Liquid=15|SpellComponent=15|Poison=15|Potion=15|Powder=15																				

@@ -1,4 +1,4 @@
-SOURCELONG:Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.gozzilioni.net
+SOURCELONG:Arms and Equipment Guide 3.0	SOURCESHORT:AaEG30	SOURCEWEB:http://www.gozzilioni.net
 #			
 ### Weapon/Spell			
 ### Simple/Martial/Exotic			
@@ -24,11 +24,11 @@ Claw (Panther)	TYPE:Exotic.Melee.Piercing.Slashing.Light.MeleePiercing.MeleeSlas
 Claw (Tiger)	TYPE:Exotic.Melee.Piercing.Light.MeleePiercing.Claw
 Dagger (Stump)	TYPE:Exotic.Melee.Piercing.Light.MeleePiercing.Dagger
 Dagger (Triple)	TYPE:Exotic.Melee.Piercing.Light.MeleePiercing.Dagger
-Gauntlet (Cestus Ward)	TYPE:Exotic.Melee.Bludgeoning.Unarmed.MeleeBludgeoning.Gauntlet
+Gauntlet (Ward Cestus)	TYPE:Exotic.Melee.Bludgeoning.Unarmed.MeleeBludgeoning.Gauntlet
 Gauntlet (Bladed)	TYPE:Exotic.Melee.Slashing.Light.MeleeSlashing.Gauntlet
 Sai	TYPE:Exotic.Melee.Piercing.Light.MeleePiercing
 Sapara	TYPE:Exotic.Melee.Slashing.Light.MeleeSlashing
-Sword (Butterly)	TYPE:Exotic.Melee.Slashing.Light.MeleeSlashing.Sword
+Sword (Butterfly)	TYPE:Exotic.Melee.Slashing.Light.MeleeSlashing.Sword
 Tonfa	TYPE:Exotic.Melee.Bludgeoning.Light.MeleeBludgeoning
 War Fan	TYPE:Exotic.Melee.Slashing.Light.MeleeSlashing
 Chain-and-Dagger	TYPE:Exotic.Melee.Piercing.OneHanded.MeleePiercing
@@ -40,14 +40,16 @@ Greatsword (Mercurial)	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.Sword
 Gyrspike	TYPE:Exotic.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing.TwoHanded.DoubleWeapon
 Mace (Double)	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.DoubleWeapon.Mace
 Scimitar (Double)	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.DoubleWeapon.Scimitar
-Staff (Three Section)	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Quarterstaff
+Staff (Three-Section)	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Quarterstaff
 Fullblade	TYPE:Exotic.Melee.Slashing.TwoHanded.MeleeSlashing.Sword
 Fukimi-Bari	TYPE:Exotic.Ranged.Piercing.Light.RangedPiercing
 Skiprock (Halfling)	TYPE:Exotic.Ranged.Bludgeoning.Light.RangedBludgeoning
 Bolas (Two-Ball)	TYPE:Exotic.Ranged.Thrown.Bludgeoning.Light.RangedBludgeoning.Bolas
 Calculus (Gnome)	TYPE:Exotic.Ranged.Light.Sling
 Chakram	TYPE:Exotic.Ranged.Thrown.Light.Slashing.RangedSlashing
+Throwing Iron	TYPE:Exotic.Ranged.Thrown.Light.Slashing.RangedSlashing
 Whip-Dagger	TYPE:Exotic.Melee.Slashing.MeleeSlashing.Light.Reach.Whip
+Crossbow (Great)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2	
 Gauntlet (Spring Loaded)	TYPE:Exotic.Ranged.Piercing.OneHanded.RangedPiercing.Gauntlet
 Javelin (Spinning)	TYPE:Exotic.Ranged.Piercing.OneHanded.RangedPiercing.Thrown.Javelin
 Bow (Double/Elven)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.TwoHanded.Bow	HANDS:2
