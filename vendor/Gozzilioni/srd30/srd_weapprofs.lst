@@ -11,4 +11,5 @@ SOURCELONG:Gozzilioni	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
 #	RangedTouch	
 
 Halfspear			TYPE:Simple.Melee.Ranged.Piercing.MeleePiercing.RangedPiercing.OneHanded.Thrown.Spear
+Lance (Heavy)	TYPE:Martial.Melee.Piercing.MeleePiercing.OneHanded.Reach.Lance
 Lance (Light)	TYPE:Martial.Melee.Piercing.MeleePiercing.TwoHanded.Reach.Lance

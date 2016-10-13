@@ -20,6 +20,7 @@ Shock	TYPE:Weapon.Natural.Finesseable.Melee.Touch
 Energy Touch	TYPE:Weapon.Natural.Finesseable.Melee.Touch.MeleeTouch
 
 #Melee
+Beak	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
 Beard	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
 Chain Rake	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
 Frond	TYPE:Weapon.Natural.Finesseable.Melee.Slashing.MeleeSlashing
@@ -27,6 +28,7 @@ Foreclaw	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.MeleePiercing.M
 Gore	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
 Horn	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
 Icicle	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
+Kick	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Nettle	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Pincer	TYPE:Weapon.Natural.Finesseable.Melee.Slashing.Bludgeoning.MeleeBludgeoning.MeleeSlashing
 Rake	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing

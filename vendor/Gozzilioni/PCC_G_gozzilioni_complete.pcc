@@ -25,6 +25,7 @@ PCC:core/ExpandedPsionicHandbook/_expandedpsionicshandbook.pcc
 PCC:accessory/PlanarHandbook/_planarhandbook.pcc
 
 PCC:srd30/_srd30.pcc
+PCC:old30/ArmsAndEquipmentGuide/_armsandequipmentguide.pcc
 PCC:old30/ManualOfThePlanes/_manualoftheplanes.pcc
 PCC:old30/MonsterManual/_monstermanual.pcc
 PCC:old30/PsionicHandbook/_psionichandbook.pcc

@@ -1,0 +1,19 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+
+# Subrace Support
+
+#Abilitygroup:Class Ability categories																						
+
+#Other Abilitygroups
+
+#Feats Ability pools
+ABILITYCATEGORY:Trainer Choice	CATEGORY:Special Ability	TYPE:TrainerAbilities	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Trainer Choices			DISPLAYLOCATION:Feats
+
+#Companion Support
+
+#other
+
+#
+# End
+#

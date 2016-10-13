@@ -1,0 +1,17 @@
+SOURCELONG:Arms and Equipment Guide	SOURCESHORT:AaEG	SOURCEWEB:http://www.gozzilioni.net
+#
+Bark	TYPE:Armor.Light
+Bondleaf Wrap	TYPE:Armor.Light
+Bone	TYPE:Armor.Light
+Cord	TYPE:Armor.Light
+Leather Scale	TYPE:Armor.Light
+Moon Ivy	TYPE:Armor.Light
+Wicker	TYPE:Armor.Light
+Wood	TYPE:Armor.Light
+Brigandine	TYPE:Armor.Medium
+Lamellar	TYPE:Armor.Medium
+Ring	TYPE:Armor.Medium
+Shell	TYPE:Armor.Medium
+Coral	TYPE:Armor.Heavy
+Dendritic	TYPE:Armor.Heavy
+Stone	TYPE:Armor.Heavy
