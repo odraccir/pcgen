@@ -31,13 +31,13 @@ FOLLOWER:FamiliarLVL=11	TYPE:Familiar						SR:(mastervar("FamiliarLVL")+5)
 FOLLOWER:FamiliarLVL=13	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Scry on Familiar				
 										
 ###Block:Familiar Bonus to Master										
-MASTERBONUSRACE:Companion ~ Animal (Bat)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Bat				
-MASTERBONUSRACE:Companion ~ Animal (Cat)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Cat				
-MASTERBONUSRACE:Companion ~ Animal (Hawk)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Hawk				
-MASTERBONUSRACE:Companion ~ Animal (Lizard)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Lizard				
-MASTERBONUSRACE:Companion ~ Animal (Owl)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Owl				
-MASTERBONUSRACE:Companion ~ Animal (Rat)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Rat				
-MASTERBONUSRACE:Companion ~ Animal (Raven)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Raven				
-MASTERBONUSRACE:Companion ~ Animal (Snake (Viper/Tiny))	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Snake (Viper/Tiny)				
-MASTERBONUSRACE:Companion ~ Animal (Toad)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Toad				
-MASTERBONUSRACE:Companion ~ Animal (Weasel)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Weasel				
+MASTERBONUSRACE:Animal (Bat)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Bat				
+MASTERBONUSRACE:Animal (Cat)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Cat				
+MASTERBONUSRACE:Animal (Hawk)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Hawk				
+MASTERBONUSRACE:Animal (Lizard)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Lizard				
+MASTERBONUSRACE:Animal (Owl)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Owl				
+MASTERBONUSRACE:Animal (Rat)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Rat				
+MASTERBONUSRACE:Animal (Raven)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Raven				
+MASTERBONUSRACE:Animal (Snake (Viper/Tiny))	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Snake (Viper/Tiny)				
+MASTERBONUSRACE:Animal (Toad)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Toad				
+MASTERBONUSRACE:Animal (Weasel)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Weasel				

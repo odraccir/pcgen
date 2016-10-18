@@ -485,7 +485,7 @@ Carriage (Large)	OUTPUTNAME:Carriage, Large	TYPE:Goods.Transportation.Container	
 											
 #Hirelings											
 Hireling (Alchemist)		TYPE:Service	COST:1		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Alchemy)					
-Hireling (Animal tender/groom)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG30	SPROP:Commoner/Handle Animal					
+Hireling (Animal Tender/Groom)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG30	SPROP:Commoner/Handle Animal					
 Hireling (Animal Trainer)		TYPE:Service	COST:0.8		SOURCEPAGE:AaEG30	SPROP:Expert/Handle Animal					
 Hireling (Animal Trainer/Exotic)		TYPE:Service	COST:1		SOURCEPAGE:AaEG30	SPROP:Expert/Handle Animal					
 Hireling (Apothecary)		TYPE:Service	COST:1		SOURCEPAGE:AaEG30	SPROP:Expert/Knowledge (Herbs), Craft (Alchemy)					

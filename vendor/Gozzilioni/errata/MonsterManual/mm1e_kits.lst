@@ -1,82 +1,82 @@
 SOURCELONG:Monster Manual Errata	SOURCESHORT:MM1e	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2006-02
 	
-STARTPACK:Animal (Badger) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Badger)
+STARTPACK:Animal (Badger) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Animal (Badger)
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 ABILITY:CATEGORY=FEAT|Agile
 SKILL:Listen	RANK:3
 SKILL:Spot	RANK:3
 
-STARTPACK:Animal (Bat) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Bat)
+STARTPACK:Animal (Bat) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Animal (Bat)
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
 ABILITY:CATEGORY=FEAT|Stealthy
 SKILL:Move Silently	RANK:4
 
-STARTPACK:Animal (Eagle) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Eagle)
+STARTPACK:Animal (Eagle) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Animal (Eagle)
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
 ABILITY:CATEGORY=FEAT|Alertness
 SKILL:Spot	RANK:4
 
-STARTPACK:Animal (Hawk) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Hawk)
+STARTPACK:Animal (Hawk) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Animal (Hawk)
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
 ABILITY:CATEGORY=FEAT|Alertness
 SKILL:Spot	RANK:4
 
-STARTPACK:Animal (Lizard) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Lizard)
+STARTPACK:Animal (Lizard) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Animal (Lizard)
 STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
 ABILITY:CATEGORY=FEAT|Stealthy
 SKILL:Climb	RANK:2
 SKILL:Listen	RANK:2
 
-STARTPACK:Animal (Owl) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Owl)
+STARTPACK:Animal (Owl) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Animal (Owl)
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
 ABILITY:CATEGORY=FEAT|Alertness
 SKILL:Spot	RANK:4
 
-STARTPACK:Animal (Rat) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Rat)
+STARTPACK:Animal (Rat) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Animal (Rat)
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
 ABILITY:CATEGORY=FEAT|Stealthy
 SKILL:Climb	RANK:3
 SKILL:Move Silently	RANK:2
 
-STARTPACK:Animal (Raven) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Raven)
+STARTPACK:Animal (Raven) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Animal (Raven)
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
 ABILITY:CATEGORY=FEAT|Alertness
 SKILL:Listen	RANK:1
 SKILL:Spot	RANK:3
 
-STARTPACK:Animal (Snake (Viper/Tiny))Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Snake (Viper/Tiny))
+STARTPACK:Animal (Snake (Viper/Tiny))Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Animal (Snake (Viper/Tiny))
 STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
 ABILITY:CATEGORY=FEAT|Improved Initiative
 SKILL:Listen	RANK:1
 SKILL:Spot	RANK:1
 
-STARTPACK:Animal (Snake (Viper/Small)) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Snake (Viper/Small))
+STARTPACK:Animal (Snake (Viper/Small)) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Animal (Snake (Viper/Small))
 STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
 ABILITY:CATEGORY=FEAT|Improved Initiative
 SKILL:Listen	RANK:2
 SKILL:Spot	RANK:2
 
-STARTPACK:Animal (Snake (Viper/Medium)) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Snake (Viper/Medium))
+STARTPACK:Animal (Snake (Viper/Medium)) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Animal (Snake (Viper/Medium))
 STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
 CLASS:Animal	LEVEL:1
 ABILITY:CATEGORY=FEAT|Improved Initiative
 SKILL:Hide	RANK:5
 
-STARTPACK:Animal (Snake (Viper/Large)) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Snake (Viper/Large))
+STARTPACK:Animal (Snake (Viper/Large)) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Animal (Snake (Viper/Large))
 STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
 CLASS:Animal	LEVEL:2
 ABILITY:CATEGORY=FEAT|Improved Initiative
 SKILL:Hide	RANK:5
 SKILL:Spot	RANK:1
 
-STARTPACK:Animal (Weasel) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Weasel)
+STARTPACK:Animal (Weasel) Companion Errata	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Animal (Weasel)
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
 ABILITY:CATEGORY=FEAT|Agile
 SKILL:Hide	RANK:1
 SKILL:Move Silently	RANK:2
 SKILL:Spot	RANK:1
 
-STARTPACK:Pseudodragon Companion Errata	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Pseudodragon
+STARTPACK:Pseudodragon Companion Errata	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Pseudodragon
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 ABILITY:CATEGORY=FEAT|Alertness
 SKILL:Hide	RANK:5
@@ -85,7 +85,7 @@ SKILL:Search	RANK:5
 SKILL:Sense Motive	RANK:5
 SKILL:Spot	RANK:5
 
-STARTPACK:Sprite (Pixie) Companion Errata	TYPE:DefaultMonster.Fey	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Sprite (Pixie)
+STARTPACK:Sprite (Pixie) Companion Errata	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Sprite (Pixie)
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
 KIT:Sprite (Pixie) Standard Equip
 ABILITY:CATEGORY=FEAT|Alertness

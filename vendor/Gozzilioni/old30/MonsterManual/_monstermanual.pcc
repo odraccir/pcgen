@@ -18,7 +18,6 @@ PRECAMPAIGN:2,Core Ruleset,Monster Manual
 ABILITY:mm_abilities_races.lst
 KIT:mm_kits.lst
 RACE:mm_races.lst
-RACE:mm_races_companion.lst
 #
 
 # ENTRY DATE: 2016-07 

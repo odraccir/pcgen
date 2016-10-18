@@ -1,0 +1,57 @@
+SOURCELONG:Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+																																			
+# Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	TYPE:	RACETYPE:	RACESUBTYPE:	MONSTERCLASS:	MOVE:	Combat bonus	NATURALATTACKS:	NATURALATTACKS:	Weapon prof. bonus	Weapon prof. bonus	FACE:	REACH:	Special Ability	Damage Reduction	Spell Res.	Stat bonus						MONCSKILL:	CR:	Required AL	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	Nb Legs	Nb Hands	SOURCEPAGE:		
+Human.COPY=Human	KEY:Companion ~ Human (Skeleton)
+Companion ~ Human (Skeleton).MOD	OUTPUTNAME:Human (Skeleton)	TYPE:Companion	SERVESAS:RACE|Human	TEMPLATE:Skeleton
+Human.COPY=Human	KEY:Companion ~ Human (Zombie)
+Companion ~ Human (Zombie).MOD	OUTPUTNAME:Human (Zombie)	TYPE:Companion	SERVESAS:RACE|Human	TEMPLATE:Zombie
+Human.COPY=Human	KEY:Companion ~ Human (Werebear)
+Companion ~ Human (Werebear).MOD	OUTPUTNAME:Human (Werebear)	TYPE:Companion	SERVESAS:RACE|Human	TEMPLATE:Lycanthrope ~ Bear
+Animal (Warhorse (Heavy)).COPY=Animal (Warhorse (Heavy))	KEY:Companion ~ Animal (Warhorse (Heavy/Celestial))
+Companion ~ Animal (Warhorse (Heavy/Celestial)).MOD	OUTPUTNAME:Warhorse (Heavy/Celestial)	TYPE:Companion	SERVESAS:RACE|Animal (Warhorse (Heavy))	TEMPLATE:Celestial
+Animal (Pony (War)).COPY=Animal (Pony (War))	KEY:Companion ~ Animal (Pony (War/Celestial))
+Companion ~ Animal (Pony (War/Celestial)).MOD	OUTPUTNAME:Pony (War/Celestial)	TYPE:Companion	SERVESAS:RACE|Animal (Pony (War))	TEMPLATE:Celestial
+Animal (Hawk).COPY=Animal (Hawk)	KEY:Companion ~ Animal (Hawk/Celestial)
+Companion ~ Animal (Hawk/Celestial).MOD	OUTPUTNAME:Animal (Hawk/Celestial)	TYPE:Companion	SERVESAS:RACE|Animal (Hawk)	TEMPLATE:Celestial
+Animal (Lion).COPY=Animal (Lion)	KEY:Companion ~ Animal (Lion/Celestial))
+Companion ~ Animal (Lion/Celestial)).MOD	OUTPUTNAME:Lion (Celestial)	TYPE:Companion	SERVESAS:RACE|Animal (Lion)	TEMPLATE:Celestial
+Animal (Snake (Constrictor)).COPY=Animal (Snake (Constrictor))	KEY:Companion ~ Animal (Snake (Constrictor/Giant))
+Companion ~ Animal (Snake (Constrictor/Giant)).MOD	OUTPUTNAME:Snake (Constrictor)	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Constrictor))
+Animal (Shark).COPY=Animal (Shark)	KEY:Companion ~ Animal (Shark (Huge))
+Companion ~ Animal (Shark (Huge)).MOD	OUTPUTNAME:Shark (Huge)	TYPE:Companion	SERVESAS:RACE|Animal (Shark)
+Animal (Shark).COPY=Animal (Large)	KEY:Companion ~ Animal (Shark (Large))
+Companion ~ Animal (Shark (Large)).MOD	OUTPUTNAME:Shark (Large)	TYPE:Companion	SERVESAS:RACE|Animal (Shark)
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Medium))
+Companion ~ Animal (Snake (Viper/Medium)).MOD	OUTPUTNAME:Snake (Viper/Medium)	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Large))
+Companion ~ Animal (Snake (Viper/Large)).MOD	OUTPUTNAME:Snake (Viper/Large)	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Huge))
+Companion ~ Animal (Snake (Viper/Huge)).MOD	OUTPUTNAME:Snake (Viper/Huge)	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Fiendish))
+Companion ~ Animal (Snake (Viper/Fiendish)).MOD	OUTPUTNAME:Snake (Viper/Fiendish)	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	TEMPLATE:Fiendish
+Animal (Squid).COPY=Animal (Squid)	KEY:Companion ~ Animal (Squid (Giant))
+Companion ~ Animal (Squid (Giant)).MOD	OUTPUTNAME:Animal (Squid (Giant))	TYPE:Companion	SERVESAS:RACE|Animal (Squid)
+Dragon (Brass).COPY=Dragon (Brass)	KEY:Companion ~ Dragon (Brass/Very Young)
+Companion ~ Dragon (Brass/Very Young).MOD	OUTPUTNAME:Dragon (Brass/Very Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Brass)
+Dragon (Brass).COPY=Dragon (Brass)	KEY:Companion ~ Dragon (Brass/Young)
+Companion ~ Dragon (Brass/Young).MOD	OUTPUTNAME:Dragon (Brass/Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Brass)
+Dragon (Brass).COPY=Dragon (Brass)	KEY:Companion ~ Dragon (Brass/Juvenile)
+Companion ~ Dragon (Brass/Juvenile).MOD	OUTPUTNAME:Dragon (Brass/Juvenile)	TYPE:Companion	SERVESAS:RACE|Dragon (Brass)
+Dragon (Bronze).COPY=Dragon (Bronze)	KEY:Companion ~ Dragon (Bronze/Very Young)
+Companion ~ Dragon (Bronze/Very Young).MOD	OUTPUTNAME:Dragon (Bronze/Very Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Bronze)
+Dragon (Bronze).COPY=Dragon (Bronze)	KEY:Companion ~ Dragon (Bronze/Young)
+Companion ~ Dragon (Bronze/Young).MOD	OUTPUTNAME:Dragon (Bronze/Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Bronze)
+Dragon (Copper).COPY=Dragon (Copper)	KEY:Companion ~ Dragon (Copper/Very Young)
+Companion ~ Dragon (Copper/Very Young).MOD	OUTPUTNAME:Dragon (Copper/Very Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Copper)
+Dragon (Copper).COPY=Dragon (Copper)	KEY:Companion ~ Dragon (Copper/Young)
+Companion ~ Dragon (Copper/Young).MOD	OUTPUTNAME:Dragon (Copper/Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Copper)
+Dragon (Copper).COPY=Dragon (Copper)	KEY:Companion ~ Dragon (Copper/Juvenile)
+Companion ~ Dragon (Copper/Juvenile).MOD	OUTPUTNAME:Dragon (Copper/Juvenile)	TYPE:Companion	SERVESAS:RACE|Dragon (Copper)
+Dragon (Gold).COPY=Dragon (Gold)	KEY:Companion ~ Dragon (Gold/Very Young)
+Companion ~ Dragon (Gold/Very Young).MOD	OUTPUTNAME:Dragon (Gold/Very Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Gold)
+Dragon (Gold).COPY=Dragon (Gold)	KEY:Companion ~ Dragon (Gold/Young)
+Companion ~ Dragon (Gold/Young).MOD	OUTPUTNAME:Dragon (Gold/Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Gold)
+Dragon (Silver).COPY=Dragon (Silver)	KEY:Companion ~ Dragon (Silver/Very Young)
+Companion ~ Dragon (Silver/Very Young).MOD	OUTPUTNAME:Dragon (Silver/Very Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Silver)
+Dragon (Silver).COPY=Dragon (Silver)	KEY:Companion ~ Dragon (Silver/Young)
+Companion ~ Dragon (Silver/Young).MOD	OUTPUTNAME:Dragon (Silver/Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Silver)

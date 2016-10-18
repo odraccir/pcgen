@@ -5627,23 +5627,71 @@ STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
 STARTPACK:Animal (Thrush) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Thrush)
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
 
-STARTPACK:Animal (Hedgehog) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Hedgehog)
+STARTPACK:Animal (Hedgehog) Companion	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Animal (Hedgehog)
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=11
 ABILITY:CATEGORY=FEAT|Weapon Finesse
 SKILL:Listen	RANK:2
 SKILL:Spot	RANK:2
 
-STARTPACK:Animal (Mouse) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Mouse)
+STARTPACK:Animal (Mouse) Companion	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Animal (Mouse)
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
 SKILL:Hide	RANK:4
 
-STARTPACK:Animal (Owl (Screech)) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Owl (Screech))
+STARTPACK:Animal (Owl (Screech)) Companion	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Animal (Owl (Screech))
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
 SKILL:Listen	RANK:2
 SKILL:Spot	RANK:2
 
-STARTPACK:Animal (Thrush) Companion	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Animal (Thrush)
+STARTPACK:Animal (Thrush) Companion	TYPE:DefaultMonster.Animal	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Animal (Thrush)
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
 ABILITY:CATEGORY=FEAT|Alertness
 SKILL:Listen	RANK:2
 SKILL:Spot	RANK:2
+
+STARTPACK:Dragon (Brass/Very Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Brass)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:7
+
+STARTPACK:Dragon (Brass/Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Brass)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:10
+
+STARTPACK:Dragon (Brass/Juvenile) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Brass)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:13
+
+STARTPACK:Dragon (Bronze/Very Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Bronze)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:3
+
+STARTPACK:Dragon (Bronze/Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Bronze)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:6
+
+STARTPACK:Dragon (Copper/Very Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Copper)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:4
+
+STARTPACK:Dragon (Copper/Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Copper)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:7
+
+STARTPACK:Dragon (Copper/Juvenile) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Copper)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:10
+
+STARTPACK:Dragon (Gold/Very Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Gold)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:11
+
+STARTPACK:Dragon (Gold/Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Gold)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:14
+
+STARTPACK:Dragon (Silver/Very Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Silver)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:10
+
+STARTPACK:Dragon (Silver/Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Silver)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:13

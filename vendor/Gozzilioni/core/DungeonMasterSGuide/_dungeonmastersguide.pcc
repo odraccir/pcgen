@@ -32,6 +32,7 @@ ABILITY:dmg_feats.lst
 KIT:dmg_kits.lst
 WEAPONPROF:dmg_profs_weapon.lst
 RACE:dmg_races.lst
+RACE:dmg_races_companion.lst
 SKILL:dmg_skills.lst
 SPELL:dmg_spells.lst
 SPELL:dmg_spells_classes.lst

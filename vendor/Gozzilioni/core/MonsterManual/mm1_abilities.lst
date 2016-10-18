@@ -150,37 +150,37 @@ Tail Sweep	CATEGORY:Special Ability	TYPE:Extraordinary.RaceAbility.SpecialQualit
 CATEGORY=Internal|True Dragon.MOD	ABILITY:Internal|AUTOMATIC|DRAGON_FLY_SPEED_100|PRESIZELTEQ:S	ABILITY:Internal|AUTOMATIC|DRAGON_FLY_SPEED_150|PRESIZEGTEQ:M|PRESIZELTEQ:H	ABILITY:Internal|AUTOMATIC|DRAGON_FLY_SPEED_200|PRESIZEGTEQ:G																													
 																																
 CATEGORY=Internal|Dominated Creature (Base).MOD	ABILITY:Dominated Creature Selection|AUTOMATIC|Standard Selection ~ Dominated Creature|!PREABILITY:1,CATEGORY=Internal,TYPE.DominatedCreatureAlternate																															
-Dominated Creature (Default)	CATEGORY:Internal	TYPE:DominatedCreatureSelection.DominatedCreatureBase		KEY:Standard Selection ~ Dominated Creature	!PREABILITY:1,CATEGORY=Internal,TYPE.DominatedCreatureAlternate	COMPANIONLIST:Dominated Creature|Companion ~ Aranea,Companion ~ Archon (Hound),Companion ~ Barghest,Companion ~ Animal (Bear/Brown),Companion ~ Animal (Bear/Polar),Companion ~ Carrion Crawler,Companion ~ Animal (Lion (Celestial)),Companion ~ Animal (Crocodile (Giant)),Companion ~ Dire Animal (Dire Boar),Companion ~ Dire Animal (Dire Wolverine),Companion ~ Displacer Beast,Companion ~ Gargoyle,Companion ~ Giant Stag Beetle,Companion ~ Ooze (Gray Ooze),Companion ~ Griffon,Companion ~ Harpy,Companion ~ Hydra (five headed),Companion ~ Genie (Janni),Companion ~ Mimic,Companion ~ Minotaur,Companion ~ Otyugh,Companion ~ Owlbear,Companion ~ Sprite (Pixie),Companion ~ Animal (Rhinoceros),Companion ~ Sea Cat,Companion ~ Hag (Sea),Companion ~ Animal (Shark (Huge)),Companion ~ Chimera (Skeleton),Companion ~ Swarm (Centipede Swarm),Companion ~ Animal (Tiger),Companion ~ Vampire Spawn,Companion ~ Human (Wereboar),Companion ~ Minotaur (Zombie),Companion ~ Wyvern (Zombie)		COST:0																								
+Dominated Creature (Default)	CATEGORY:Internal	TYPE:DominatedCreatureSelection.DominatedCreatureBase		KEY:Standard Selection ~ Dominated Creature	!PREABILITY:1,CATEGORY=Internal,TYPE.DominatedCreatureAlternate	COMPANIONLIST:Dominated Creature|Aranea,Archon (Hound),Barghest,Animal (Bear/Brown),Animal (Bear/Polar),Carrion Crawler,Companion ~ Animal (Lion/Celestial)),Animal (Crocodile (Giant)),Dire Animal (Dire Boar),Dire Animal (Dire Wolverine),Displacer Beast,Gargoyle,Giant Stag Beetle,Ooze (Gray Ooze),Griffon,Harpy,Hydra,Genie (Janni),Mimic,Minotaur,Otyugh,Owlbear,Sprite (Pixie),Animal (Rhinoceros),Sea Cat,Hag (Sea),Companion ~ Animal (Shark (Huge)),Companion ~ Chimera (Skeleton),Swarm (Centipede Swarm),Animal (Tiger),Vampire Spawn,Companion ~ Human (Wereboar),Companion ~ Minotaur (Zombie),Companion ~ Wyvern (Zombie)		COST:0																								
 Expanded Selection	CATEGORY:Internal	TYPE:DominatedCreatureSelection.DominatedCreatureAlternate		KEY:Expanded Selection ~ Dominated Creature		COMPANIONLIST:Dominated Creature|ANY	COST:0																									
 																																
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Eagle (Giant)|PREVARGT:LeadershipCohortLVL,6																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Gray Render|PREVARGT:LeadershipCohortLVL,6																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Howler|PREVARGT:LeadershipCohortLVL,9																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Manticore|PREVARGT:LeadershipCohortLVL,9																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Mephit (Air)|PREVARGT:LeadershipCohortLVL,5																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Mephit (Dust)|PREVARGT:LeadershipCohortLVL,5																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Mephit (Earth)|PREVARGT:LeadershipCohortLVL,5																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Mephit (Fire)|PREVARGT:LeadershipCohortLVL,5																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Mephit (Ice)|PREVARGT:LeadershipCohortLVL,5																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Mephit (Magma)|PREVARGT:LeadershipCohortLVL,5																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Mephit (Ooze)|PREVARGT:LeadershipCohortLVL,5																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Mephit (Salt)|PREVARGT:LeadershipCohortLVL,5																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Mephit (Steam)|PREVARGT:LeadershipCohortLVL,5																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Mephit (Water)|PREVARGT:LeadershipCohortLVL,5																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Nightmare|PREVARGT:LeadershipCohortLVL,10																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Owl (Giant)|PREVARGT:LeadershipCohortLVL,6																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Shadow Mastiff|PREVARGT:LeadershipCohortLVL,7																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Sphinx (Androsphinx)|PREVARGT:LeadershipCohortLVL,17																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Sphinx (Criosphinx)|PREVARGT:LeadershipCohortLVL,13																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Sphinx (Gynosphinx)|PREVARGT:LeadershipCohortLVL,12																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Sphinx (Hieracosphinx)|PREVARGT:LeadershipCohortLVL,13																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Unicorn|PREVARGT:LeadershipCohortLVL,8																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Winter Wolf|PREVARGT:LeadershipCohortLVL,9																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Worg|PREVARGT:LeadershipCohortLVL,5																															
-CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Yeth Hound|PREVARGT:LeadershipCohortLVL,6																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Eagle (Giant)|PREVARGT:LeadershipCohortLVL,6																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Gray Render|PREVARGT:LeadershipCohortLVL,6																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Howler|PREVARGT:LeadershipCohortLVL,9																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Manticore|PREVARGT:LeadershipCohortLVL,9																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Mephit (Air)|PREVARGT:LeadershipCohortLVL,5																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Mephit (Dust)|PREVARGT:LeadershipCohortLVL,5																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Mephit (Earth)|PREVARGT:LeadershipCohortLVL,5																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Mephit (Fire)|PREVARGT:LeadershipCohortLVL,5																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Mephit (Ice)|PREVARGT:LeadershipCohortLVL,5																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Mephit (Magma)|PREVARGT:LeadershipCohortLVL,5																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Mephit (Ooze)|PREVARGT:LeadershipCohortLVL,5																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Mephit (Salt)|PREVARGT:LeadershipCohortLVL,5																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Mephit (Steam)|PREVARGT:LeadershipCohortLVL,5																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Mephit (Water)|PREVARGT:LeadershipCohortLVL,5																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Nightmare|PREVARGT:LeadershipCohortLVL,10																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Owl (Giant)|PREVARGT:LeadershipCohortLVL,6																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Shadow Mastiff|PREVARGT:LeadershipCohortLVL,7																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Sphinx (Androsphinx)|PREVARGT:LeadershipCohortLVL,17																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Sphinx (Criosphinx)|PREVARGT:LeadershipCohortLVL,13																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Sphinx (Gynosphinx)|PREVARGT:LeadershipCohortLVL,12																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Sphinx (Hieracosphinx)|PREVARGT:LeadershipCohortLVL,13																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Unicorn|PREVARGT:LeadershipCohortLVL,8																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Winter Wolf|PREVARGT:LeadershipCohortLVL,9																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Worg|PREVARGT:LeadershipCohortLVL,5																															
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Yeth Hound|PREVARGT:LeadershipCohortLVL,6																															
 
 CATEGORY=Internal|Homunculus (Base).MOD	ABILITY:Homunculus Selection|AUTOMATIC|Standard Selection ~ Homunculus|!PREABILITY:1,CATEGORY=Internal,TYPE.HomunculusAlternate																															
-Homunculus (Default)	CATEGORY:Internal	TYPE:HomunculusSelection.HomunculusBase		KEY:Standard Selection ~ Homunculus	!PREABILITY:1,CATEGORY=Internal,TYPE.HomunculusAlternate	COMPANIONLIST:Homunculus|Companion ~ Homunculus	COST:0																									
+Homunculus (Default)	CATEGORY:Internal	TYPE:HomunculusSelection.HomunculusBase		KEY:Standard Selection ~ Homunculus	!PREABILITY:1,CATEGORY=Internal,TYPE.HomunculusAlternate	COMPANIONLIST:Homunculus|Homunculus	COST:0																									
 Homunculus Selection	CATEGORY:Internal	TYPE:HomunculusSelection.HomunculusAlternate		KEY:Expanded Selection ~ Homunculus		COMPANIONLIST:Homunculus|ANY	COST:0																									
 
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Homunculus|PREMULT:2,[PREABILITY:1,CATEGORY=FEAT,Craft Construct],[PRECLASS:1,SPELLCASTER=4]

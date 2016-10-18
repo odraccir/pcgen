@@ -7,7 +7,7 @@ STAT:INT=roll("1d6")+2+var("STAT.3.BASE")-var("STAT.3")
 STARTPACK:Hippocampus Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Hippocampus
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
 
-STARTPACK:Hippocampus Companion	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Companion ~ Hippocampus
+STARTPACK:Hippocampus Companion	TYPE:DefaultMonster.Magical Beast	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Hippocampus
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
 ABILITY:CATEGORY=FEAT|Iron Will
 ABILITY:CATEGORY=FEAT|Alertness
