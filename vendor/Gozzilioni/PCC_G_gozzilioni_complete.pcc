@@ -23,9 +23,11 @@ PCC:core/MonsterManual2/_monstermanual2.pcc
 PCC:core/ExpandedPsionicHandbook/_expandedpsionicshandbook.pcc
 
 PCC:accessory/PlanarHandbook/_planarhandbook.pcc
+PCC:supplement/BookOfExaltedDeeds/_bookofexalteddeeds.pcc
 
 PCC:srd30/_srd30.pcc
 PCC:old30/ArmsAndEquipmentGuide/_armsandequipmentguide.pcc
+PCC:old30/EpicLevelHandbook/_epiclevelhandbook.pcc
 PCC:old30/ManualOfThePlanes/_manualoftheplanes.pcc
 PCC:old30/MonsterManual/_monstermanual.pcc
 PCC:old30/PsionicHandbook/_psionichandbook.pcc
@@ -37,9 +39,9 @@ PCC:houserules/_houserules.pcc
 PCC:web/DragonMagazine/_dragonmagazine082.pcc
 PCC:web/RuleOfCoolForum/_ruleofcool.pcc
 
-PCC:ThirdParty/DarknessAndDread/_darknessanddread.pcc
-PCC:ThirdParty/SeafarerSHandbook/_seafarershandbook.pcc
-PCC:ThirdParty/SeasOfBlood/_seasofblood.pcc
+PCC:ThirdParty/FantasyFlightGames/DarknessAndDread/_darknessanddread.pcc
+PCC:ThirdParty/FantasyFlightGames/SeafarerSHandbook/_seafarershandbook.pcc
+PCC:ThirdParty/MongoosePublishing/SeasOfBlood/_seasofblood.pcc
 
 PCC:errata/MonsterManual/_monstermanual_errata.pcc
 PCC:errata/ExpandedPsionicHandbook/_expandedpsionichandbook_errata.pcc

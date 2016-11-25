@@ -12,36 +12,46 @@ Claw	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning.MeleePi
 Slam	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 
 #Touch
+Antennae Touch	TYPE:Weapon.Natural.Finesseable.Melee.Touch
 Touch	TYPE:Weapon.Natural.Finesseable.Melee.Touch
 Burning Touch	TYPE:Weapon.Natural.Finesseable.Melee.Touch.MeleeTouch
+Energy Touch	TYPE:Weapon.Natural.Finesseable.Melee.Touch.MeleeTouch
 Incorporeal Touch	TYPE:Weapon.Natural.Finesseable.Melee.Touch.MeleeTouch
 Swarm	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning.MeleePiercing.MeleeSlashing.MeleeBludgeoning
 Shock	TYPE:Weapon.Natural.Finesseable.Melee.Touch
-Energy Touch	TYPE:Weapon.Natural.Finesseable.Melee.Touch.MeleeTouch
+Shocking Touch	TYPE:Weapon.Natural.Finesseable.Melee.Touch.MeleeTouch
 
 #Melee
+Armblade	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning.MeleePiercing.MeleeSlashing.MeleeBludgeoning.Sword
 Beak	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
 Beard	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
 Chain Rake	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
-Frond	TYPE:Weapon.Natural.Finesseable.Melee.Slashing.MeleeSlashing
+Coil Whip	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Foreclaw	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing
+Forelimb	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning.MeleePiercing.MeleeSlashing.MeleeBludgeoning
+Frond	TYPE:Weapon.Natural.Finesseable.Melee.Slashing.MeleeSlashing
 Gore	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
+Head Spike	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
 Horn	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
 Icicle	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
 Kick	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Nettle	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Pincer	TYPE:Weapon.Natural.Finesseable.Melee.Slashing.Bludgeoning.MeleeBludgeoning.MeleeSlashing
+Pseudopod Slam	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Rake	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing
 Ram	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Rapier-Hand	TYPE:Weapon.Natural.Finesseable.Melee.Slashing.MeleeSlashing
 Razor Saw	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing
+Skull Butt	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Slap	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Snake	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing
+Spinning Blade	TYPE:Weapon.Natural.Finesseable.Melee.Slashing.MeleeSlashing
 Stamp	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Sting	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
 Tail	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Tail Barb	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Piercing.MeleeBludgeoning.MeleePiercing
 Tail Blade	TYPE:Weapon.Natural.Finesseable.Melee.Slashing.MeleeSlashing
+Tail Slam	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Tail Slap	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Talon	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning.MeleePiercing.MeleeSlashing.MeleeBludgeoning
 Tendril	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
@@ -52,11 +62,15 @@ Tongue	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoni
 Tusk	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
 Wind Scythe	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing
 Wing	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
+Wing (Primary)	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
+Wing (Secondary)	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
+
 #Ranged
 Spikes	TYPE:Weapon.Natural.Finesseable.Ranged.Piercing.RangedPiercing
 Flame Spit	TYPE:Weapon.Natural.Finesseable.Ranged
 Death Ray	TYPE:Weapon.Natural.Finesseable.Ranged
 Enervation Ray	TYPE:Weapon.Natural.Finesseable.Ranged
+Electricity Ray	TYPE:Weapon.Natural.Finesseable.Ranged
 Pressure Dart	TYPE:Weapon.Natural.Finesseable.Ranged
 Needle	TYPE:Weapon.Natural.Finesseable.Ranged.Piercing.RangedPiercing
 

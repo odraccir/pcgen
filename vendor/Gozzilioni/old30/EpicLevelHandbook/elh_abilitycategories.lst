@@ -1,0 +1,20 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+
+# Subrace Support
+
+#Abilitygroup:Class Ability categories																						
+
+#Other Abilitygroups
+
+#Feats Ability pools
+
+#Companion Support
+
+#other
+ABILITYCATEGORY:Improved Alignment-Based Casting	CATEGORY:Special Ability	TYPE:ImprovedAlignmentBasedCasting	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Improved Alignment-Based Castings			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Improved Manifestation	CATEGORY:Special Ability	TYPE:ImprovedManifestation	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Improved Manifestation			DISPLAYLOCATION:Feats
+
+#
+# End
+#

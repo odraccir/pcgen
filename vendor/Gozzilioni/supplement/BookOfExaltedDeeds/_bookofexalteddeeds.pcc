@@ -1,0 +1,61 @@
+CAMPAIGN:Book of Exalted Deeds
+GAMEMODE:G35e
+RANK:3
+TYPE:Gozzilioni.Partial.Supplement
+SETTING:Heroes
+BOOKTYPE:Campaign
+SOURCELONG:Book of Exalted Deeds
+SOURCESHORT:BoED
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2003-10
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+
+PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Guide
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:missing.txt
+
+ABILITY:boed_abilities.lst
+ABILITY:boed_abilities_classes.lst
+ABILITY:boed_abilities_races.lst
+ABILITY:boed_abilities_templates.lst
+ABILITYCATEGORY:boed_abilitycategories.lst
+CLASS:boed_classes.lst
+COMPANIONMOD:boed_companionmods.lst
+DEITY:boed_deities.lst
+DOMAIN:boed_domains.lst
+EQUIPMENT:boed_equip.lst
+EQUIPMENT:boed_equip_armors_specific.lst
+EQUIPMENT:boed_equip_magic_items.lst
+EQUIPMENT:boed_equip_weapons.lst
+EQUIPMENT:boed_equip_weapons_natural.lst
+EQUIPMENT:boed_equip_weapons_specific.lst
+# EQUIPMENT:mm2_equip_weapons_natural.lst
+EQUIPMOD:boed_equipmods.lst
+ABILITY:boed_feats.lst
+KIT:boed_kits.lst
+LANGUAGE:boed_languages.lst
+WEAPONPROF:boed_profs_weapon.lst
+RACE:boed_races.lst
+RACE:boed_races_companion.lst
+SKILL:boed_skills.lst
+SPELL:boed_spells.lst
+ABILITY:boed_subraces.lst
+TEMPLATE:boed_templates.lst
+#
+# HIDETYPE:SKILL|Craft (Stoneworking)
+HIDETYPE:FEAT|AllegianceTier|AnointedKnight|ExaltedArcanist|InitiateOfPistisSophia|CallFlyingMount|VassalOfBahamut|Wonderworker
+
+# ENTRY DATE: 2015-08 
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

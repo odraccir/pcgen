@@ -1,0 +1,15 @@
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:BoED	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+#								
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		PANTHEON:Greyhawk	SOURCEPAGE:CD	
+#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	SYMBOL:a Kitten on a keyboard
+Ayailla	ALIGN:NG	DEITYWEAP:Longspear	DESC:Ayailla (F)	DOMAINS:Glory,Good,Sun|PREALIGN:LG,NG,CG,TN	TYPE:Greater	FACTSET:Pantheon|Exalted	SOURCEPAGE:BoED	
+Chaav	ALIGN:CG	DEITYWEAP:Quarterstaff	DESC:Chaav (M)	DOMAINS:Chaos,Good,Joy,Trickery|PREALIGN:NG,CG,CN	TYPE:Greater	FACTSET:Pantheon|Exalted	SOURCEPAGE:BoED	
+Estanna	ALIGN:NG	DEITYWEAP:Dagger	DESC:Estanna (F)	DOMAINS:Community,Good,Protection|PREALIGN:LG,NG,CG,TN	TYPE:Greater	FACTSET:Pantheon|Exalted	SOURCEPAGE:BoED
+Lastai	ALIGN:CG	DEITYWEAP:Grasping Pole	DESC:Lastai (F)	DOMAINS:Chaos,Good,Pleasure|PREALIGN:NG,CG,CN	TYPE:Greater	FACTSET:Pantheon|Exalted	SOURCEPAGE:BoED
+Phieran	ALIGN:LG	DEITYWEAP:Unarmed Strike	DESC:Phieran (M)	DOMAINS:Endurance,Good,Law,Protection|PREALIGN:LG,LN,NG	TYPE:Greater	FACTSET:Pantheon|Exalted	SOURCEPAGE:BoED
+Valarian	ALIGN:NG		DESC:Valarian (M)	DOMAINS:Animal,Fey,Good|PREALIGN:LG,NG,CG,TN	TYPE:Greater	FACTSET:Pantheon|Exalted	SOURCEPAGE:BoED
+#
+Barachiel			DESC:Barachiel ()	DOMAINS:Herald|PREALIGN:LG,NG,CG	TYPE:Paragon	FACTSET:Pantheon|Celestial Paragon	SOURCEPAGE:BoED
+Domiel			DESC:Domiel ()	DOMAINS:Celestial|PREALIGN:LG,NG,CG	TYPE:Paragon	FACTSET:Pantheon|Celestial Paragon	SOURCEPAGE:BoED
+Pistis Sophia			DESC:Pistis Sophia ()	DOMAINS:Celestial|PREALIGN:LG,NG,CG	TYPE:Paragon	FACTSET:Pantheon|Celestial Paragon	SOURCEPAGE:BoED
+Kharash			DESC:Kharash ()	DOMAINS:Celestial|PREALIGN:LG,NG,CG	TYPE:Paragon	FACTSET:Pantheon|Celestial Paragon	SOURCEPAGE:BoED

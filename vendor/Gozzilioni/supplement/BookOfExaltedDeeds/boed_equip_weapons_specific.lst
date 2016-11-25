@@ -1,0 +1,54 @@
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:BoED	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10																					
+#																								
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:		
+# Simple Weapons																								
+## Unarmed																								
+																								
+## Light																								
+Saint's Tightbone			PROFICIENCY:WEAPON|Mace (Light)	TYPE:Relics.Enhancement.Weapon.Melee.Simple.Bludgeoning.Light.Mace	COST:32305	WT:4	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.HOLY_M.DISRUPT_M	SOURCEPAGE:BoED										
+																								
+## OneHanded																								
+Celestial Mace			PROFICIENCY:WEAPON|Mace (Heavy)	TYPE:Weapon.Melee.Simple.Bludgeoning.OneHanded.Mace.Specific	COST:50312	WT:8	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS3W.DISRUPT_M.LGHT_EMIT_TORCH	SOURCEPAGE:BoED										
+																								
+## TwoHanded																								
+																								
+## Ranged																								
+Dart of the Phoenix			PROFICIENCY:WEAPON|Dart	TYPE:Weapon.Ranged.Simple.Piercing.Thrown.Dart.Specific	COST:99400	WT:0.5	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS1W.RETURN	SOURCEPAGE:BoED	SPROP:Sacrifice 1d4 points of temporary Strength damage. Target is instantly slain and reduced to a small pile of ashes (Fort DC 20 or 13d6 damage). Any creature reduced to ashes by the dart reforms after 2d6 rounds, appearing in the exact spot where it died and in whatever state it was before being incinerated.						RANGE:20			
+																								
+# Martial Weapons																								
+## Light																								
+																								
+## OneHanded																								
+Demondoom			PROFICIENCY:WEAPON|Warhammer	TYPE:Weapon.Melee.Martial.Bludgeoning.OneHanded.Hammer.Specific	COST:51512	WT:5	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:COLDIRON_WEAP.WOOD.EQ_COST_ADJ_W.PLUS2W.HOLY_M.BANE_M|Outsiders (Evil)	SOURCEPAGE:BoED	SPROP:1/day blinding strike against Demons.									
+Nightblade of Arvandor			PROFICIENCY:WEAPON|Longsword	TYPE:Weapon.Melee.Martial.Slashing.OneHanded.Sword.Specific	COST:44315	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS2W	SOURCEPAGE:BoED	SPROP:Upon command, the sword launches starlike pulses of light (ranged touch). A nonevil creature struck by a star takes 1d8 points of damage, half of which is nonlethal damage (rounded down). An evil creature struck by a star takes 1d8 points of lethal damage.									
+Redeemed Sword of Life Stealing			PROFICIENCY:WEAPON|Longsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.OneHanded.Sword	COST:25715	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:BoED	SPROP:Bestows 1 negative level (DC 16 or permanent) when critical hits, and wielder gain 1d6 temporary HP.									
+Redeemed Mace of Blood			PROFICIENCY:WEAPON|Mace (Heavy)	TYPE:Enhancement.Weapon.Melee.Simple.Bludgeoning.OneHanded.Mace	COST:16000	WT:8	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.PLUS3W	SOURCEPAGE:BoED										
+																								
+## TwoHanded																								
+Executioner's Axe			PROFICIENCY:WEAPON|Greataxe	TYPE:Relics.Enhancement.Weapon.Melee.Martial.Slashing.TwoHanded.Axe	COST:98320	WT:12	WIELD:TwoHanded		SIZE:M	DAMAGE:1d12	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.WOOD.EQ_COST_ADJ_W.HOLY_M.VORPAL_M	SOURCEPAGE:BoED									BONUS:WEAPON|TOHIT,DAMAGE|-2|PREALIGN:LG,NG,CG	
+																								
+## Ranged																								
+Bow of the Solars	OUTPUTNAME:Bow of the Solars STR		PROFICIENCY:WEAPON|Longbow	TYPE:Weapon.Ranged.Martial.Piercing.Bow.Longbow.Composite.Container.Specific	COST:100100	WT:3	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS2W.BOWSTR|4	SOURCEPAGE:BoED	SPROP:Turns any arrow it fires into a slaying arrow targeting any creature type the wielder chooses.						RANGE:110		CONTAINS:UNLIM|Arrow|SpecificArrow	BONUS:WEAPON|DAMAGE|min(STR,0)
+																								
+# Exotic Weapons																								
+## Light																								
+																								
+## OneHanded																								
+Celestial Blade			PROFICIENCY:WEAPON|Sword (Bastard)	TYPE:Weapon.Melee.Exotic.Slashing.OneHanded.Sword.Specific	COST:18335	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS3W.LGHT_EMIT_TORCH	SOURCEPAGE:BoED									BONUS:WEAPON|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Sword (Bastard))|PRESTAT:1,STR=13	
+																								
+## TwoHanded																								
+																								
+## Ranged																								
+																								
+# Arrows																								
+Arrow (Hellpiercer)				TYPE:Ammunition.Specific.Arrow	COST:4007	WT:0.15							EQMOD:ALC_SILVER_WEAP.WOOD.EQ_COST_ADJ_W.PLUS3W.SHOCK_BURST_A	SOURCEPAGE:BoED	SPROP:purified couatl venom (see Ravages and Afflictions in Chapter 3: Exalted Equipment).									
+Bolt (Crossbow/Hellpiercer)				TYPE:Ammunition.Specific.Bolt	COST:4007	WT:0.1							EQMOD:ALC_SILVER_WEAP.WOOD.EQ_COST_ADJ_W.PLUS3W.SHOCK_BURST_A	SOURCEPAGE:BoED	SPROP:purified couatl venom (see Ravages and Afflictions in Chapter 3: Exalted Equipment).									
+																								
+## Intelligent																								
+Barsolidor, the Tyrant Bane			PROFICIENCY:WEAPON|Longsword	TYPE:Weapon.Melee.Martial.Slashing.OneHanded.Sword.Specific	COST:52515	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS3W.INT_ITEM.WEAP_INT_ITEM_6.INT_ITEM_INT_17.INT_ITEM_CHA_17.INT_ITEM_ALIGN_CG.INT_ITEM_LANG_3|Celestial,Common,Draconic,Elven.INT_ITEM_CURE_MODERATE.INT_ITEM_ZONE_TRUTH.INT_ITEM_KNOWLEDGE|Knowledge (History).INT_ITEM_DETECT_EVIL.INT_ITEM_DETECT_EVIL	SOURCEPAGE:BoED										
+Ezrylon			PROFICIENCY:WEAPON|Sword (Short)	TYPE:Weapon.Melee.Martial.Piercing.Light.Sword.Specific	COST:64810	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:SOLARIAN_WEAP.EQ_COST_ADJ_W.PLUS2W.BANE_M|Outsiders (Evil).INT_ITEM.WEAP_INT_ITEM_2.INT_ITEM_INT_13.INT_ITEM_CHA_13.INT_ITEM_LANG_1|Abyssal.INT_ITEM_ALIGN_LG.INT_ITEM_DAZE_MONSTER.INT_ITEM_KNOWLEDGE|Knowledge (The Planes)	SOURCEPAGE:BoED									BONUS:COMBAT|AC|4|TYPE=Deflection	
+Zarthwar, the Sinflayer			PROFICIENCY:WEAPON|Chain (Spiked)	TYPE:Weapon.Melee.Exotic.Piercing.TwoHanded.Chain.Specific	COST:134025	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x2	EQMOD:ADAMANT_WEAP.EQ_COST_ADJ_W.PLUS5W.HOLY_M.INT_ITEM.WEAP_INT_ITEM_6.INT_ITEM_INT_17.INT_ITEM_CHA_17.INT_ITEM_LANG_3|Celestial,Common,Draconic,Infernal.INT_ITEM_ALIGN_LG.INT_ITEM_EASE_PAIN_3.INT_ITEM_REFRESHMENT.INT_ITEM_INTIMIDATE.INT_ITEM_DETECT_CHAOS.INT_ITEM_DETECT_EVIL.INT_ITEM_DED_PURP.INT_ITEM_DEFEAT_SUBTYPE|Baatezu	SOURCEPAGE:BoED								REACHMULT:2		
+																								
+## Cursed																								
+																								
+## Artifacts																								

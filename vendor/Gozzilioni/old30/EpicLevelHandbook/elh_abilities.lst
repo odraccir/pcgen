@@ -1,0 +1,12 @@
+SOURCELONG:Epic Level Handbook 3.0	SOURCESHORT:ELH30	SOURCEWEB:http://www.gozzilioni.net
+																																																																																																																																																																																																																																				
+###Block: Epic Feat Improved alignment based casting																																		
+# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page																																																																																																																																																																																																				
+Chaos	CATEGORY:Special Ability	TYPE:ImprovedAlignmentBasedCasting	VISIBLE:YES		KEY:Improved Alignment-Based Casting ~ Chaos	BONUS:CASTERLEVEL|DESCRIPTOR.Chaos|3	SOURCEPAGE:ELH																											
+Evil	CATEGORY:Special Ability	TYPE:ImprovedAlignmentBasedCasting	VISIBLE:YES		KEY:Improved Alignment-Based Casting ~ Evil	BONUS:CASTERLEVEL|DESCRIPTOR.Evil|3	SOURCEPAGE:ELH																											
+Good	CATEGORY:Special Ability	TYPE:ImprovedAlignmentBasedCasting	VISIBLE:YES		KEY:Improved Alignment-Based Casting ~ Good	BONUS:CASTERLEVEL|DESCRIPTOR.Good|3	SOURCEPAGE:ELH																											
+Law	CATEGORY:Special Ability	TYPE:ImprovedAlignmentBasedCasting	VISIBLE:YES		KEY:Improved Alignment-Based Casting ~ Law	BONUS:CASTERLEVEL|DESCRIPTOR.Law|3	SOURCEPAGE:ELH																											
+
+###Block: Epic Feat Improved Manifestation
+# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page																																																																																																																																																																																																				
+Bonus Power Points	CATEGORY:Special Ability	TYPE:ImprovedManifestation	VISIBLE:YES		KEY:Improved Manifestation ~ Bonus Power Points	DEFINE:ImprovedManifestationBonusPP|0	BONUS:VAR|ImprovedManifestationBonusPP|((18+ImprovedManifestationCount)*ImprovedManifestationCount)	BONUS:VAR|BonusPowerPoints|ImprovedManifestationBonusPP	SOURCEPAGE:ELH																											

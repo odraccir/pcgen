@@ -1,0 +1,48 @@
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:BoED	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10																			
+#																						
+# Equipment Name	Output Name	TYPE:	COST:	WT:	SOURCEPAGE:																	
+###Relics																						
+Bleeding Statue		TYPE:Goods.Relics	COST:55000	WT:100	SOURCEPAGE:BoED																	
+Rack of the Tortured Saint		TYPE:Goods.Relics	COST:180	WT:0	SOURCEPAGE:BoED																	
+Sacred Vessel		TYPE:Goods.Relics	COST:2000	WT:0	SOURCEPAGE:BoED																	
+Saint's Burial Shrouds		TYPE:Goods.Relics	COST:30000	WT:0	SOURCEPAGE:BoED																	
+Saint's Fingerbone		TYPE:Goods.Relics	COST:2000	WT:0	SOURCEPAGE:BoED	BONUS:SAVE|ALL|1|TYPE=Resistance																
+Weeping Image		TYPE:Goods.Relics	COST:65000	WT:0	SOURCEPAGE:BoED																	
+																						
+Moonblood		TYPE:Wondrous.Armor.Light.Specific.Consumable	COST:1500	WT:0	SOURCEPAGE:BoED		BONUS:COMBAT|AC|2|TYPE=Holy	EQMOD:CHARGED_ITEM_1|CHARGES[1]														
+																						
+##Block: Rings																						
+Ring of Adamantine Touch		TYPE:Ring	COST:120000	WT:0	SOURCEPAGE:BoED	SPROP:allows the wearer to make melee weapon attacks and natural attacks as though wielding an adamantine weapon.																
+Ring of Affliction		TYPE:Ring	COST:72000	WT:0	SOURCEPAGE:BoED	SPROP:Any natural or unarmed attack made by the ring's wearer forces the target to succeed on a DC 17 Fortitude save or succumb to an affliction of the ring wearer's choice																
+Ring of Solar Wings		TYPE:Ring	COST:118000	WT:0	SOURCEPAGE:BoED	SPROP:When the ring is put on, the wearer grows gleaming white wings (like those of a solar) and gains the ability fly at a speed of 150 feet (good maneuverability). The wings disappear if the ring is removed.	MOVE:Fly,150	BONUS:VAR|Maneuverability|4|TYPE=Base														
+Ring of Vengeance		TYPE:Ring	COST:4500	WT:0	SOURCEPAGE:BoED	SPROP:If the wearer of the ring dies, an arc of divine energy leaps from the ring and deals 15d6 points of damage to the creature that dealt the killing blow (Reflex DC 19 half). The damage is of divine origin and of a nonspecific energy type.																
+																						
+###Block: Rod																						
+Rod of Python		TYPE:Rod.Weapon.Melee.Simple.Bludgeoning.OneHanded.Mace	COST:19000	WT:8	SOURCEPAGE:BoED				PROFICIENCY:WEAPON|Mace (Heavy)	WIELD:OneHanded	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS2W							
+																						
+###Block: Staff																						
+Staff of Rapture	KEY:Staff (Rapture)	TYPE:Staff.Weapon.Melee.Simple.Bludgeoning.TwoHanded.Quarterstaff	COST:73800	WT:4	SOURCEPAGE:BoED	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Deals only nonlethal damage. Against evil creatures, it has a critical threat range of 17-20. Atonement (2 charges)/Divination (1 charge)/Elation (1 charge)/Sword of Conscience (2 charges)/Vision of Heaven (1 charge).		PROFICIENCY:WEAPON|Quarterstaff	WIELD:TwoHanded	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS1W			ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.EQ_COST_ADJ_W.PLUS1W
+Sunstaff	KEY:Staff (Sunstaff)	TYPE:Staff.Weapon.Melee.Simple.Bludgeoning.TwoHanded.Quarterstaff	COST:86800	WT:4	SOURCEPAGE:BoED	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Bless (1 charge)/Crown of Flame (2 charges)/Searing Light (1 charge)/Shield Other (1 charge).		PROFICIENCY:WEAPON|Quarterstaff	WIELD:TwoHanded	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:DARKWOOD_WEAP.EQ_COST_ADJ_W.PLUS3W.BRI_EN_M			ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:DARKWOOD_WEAP.EQ_COST_ADJ_W.PLUS3W.BRI_EN_M
+																						
+###Block: Wondrous																						
+Antimagic Shackles		TYPE:Wondrous	COST:132000	WT:5	SOURCEPAGE:BoED	SPROP:fits from Small to Large. The DC to slip out of the shackles is 28, but breaking them is nearly impossible, requiring a DC 40 Strength check.																
+Incense of Consecration		TYPE:Wondrous.Consumable.Incense	COST:300	WT:1	SOURCEPAGE:BoED	SPROP:Consecrate in 20-foot emanation.		QUALITY:Duration|6 hr.														
+Retributive Amulet		TYPE:Wondrous.Amulet	COST:56000	WT:0	SOURCEPAGE:BoED	SPROP:when the wearer takes damage from a melee attack made with a natural or hand-held weapon, the damage is divided equally between the attacker and the target.	BONUS:COMBAT|AC|2|TYPE=Sacred															
+Shackles of Silence		TYPE:Wondrous	COST:12000	WT:5	SOURCEPAGE:BoED	SPROP:fits from Small to Large. The DC to break or slip out of the shackles is 28. Silence in a 2 1/2-foot radius for Small or Medium, 5-foot radius for Large creatures.																
+Starmantle Cloak		TYPE:Wondrous.Cape	COST:132000	WT:1	SOURCEPAGE:BoED																	
+Thurible of Consacration		TYPE:Wondrous.Container	COST:5000	WT:4	SOURCEPAGE:BoED	SPROP:Double the effect of the Incense of Consecration.	CONTAINS:UNLIM|Incense=1															
+Trumpet of Doom		TYPE:Wondrous.Tools.Instrument.Wind.Resizable	COST:7185	WT:3	SOURCEPAGE:BoED	SPROP:3/day all evil creatures within 100 feet that can hear the trumpet's blare are shaken for 1 minute (DC 14 Will save Negates).	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork															
+Trumpet of Healing		TYPE:Wondrous.Tools.Instrument.Wind.Resizable	COST:115440	WT:3	SOURCEPAGE:BoED	SPROP:3/day with DC 15 Perform (Wind Instrument) check the trumpeteer can select from the following powers for each use: remove  blindness/deafness, remove disease, cure serious wounds, or neutralize poison.	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork															
+Vambrace of Evil's Warding		TYPE:Wondrous.Bracer	COST:18000	WT:1	SOURCEPAGE:BoED	SPROP:Ranged attacks made by evil creatures against the wearer take a -4 penalty. An evil creature that dons the vambraces of evil's warding takes 2d6 points of damage per round.																
+Redeemed Darkskull		TYPE:Wondrous	COST:60000	WT:5	SOURCEPAGE:BoED	SPROP:continuous Hallow.																
+																						
+###Block: Intelligent																						
+Staff of Healing	KEY:Staff (Healing)	TYPE:Staff.Specific	COST:34950	WT:5	SOURCEPAGE:BoED		SPROP:Lesser restoration (1 charge)/Cure serious wounds (1 charge)/Remove blindness/deafness (2 charges)/Remove disease (3 charges).	EQMOD:CHARGED_ITEM_50|CHARGES[50].INT_ITEM.INT_ITEM.STAFF_INT_ITEM_3.INT_ITEM_INT_14.INT_ITEM_WIS_14.INT_ITEM_LANG_2|Celestial,Common,Infernal.INT_ITEM_ALIGN_NG.INT_ITEM_EASE_PAIN_1.INT_ITEM_VISION_HEAVEN														
+Hwyrr, the Clarion Harp		TYPE:Goods.Tools.Instrument.String.Resizable.Specific	COST:84000	WT:3	SOURCEPAGE:BoED		BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	EQMOD:SERREN_ITEM.INT_ITEM.INST_INT_ITEM_7.INT_ITEM_INT_18.INT_ITEM_CHA_18.INT_ITEM_ALIGN_CG.INT_ITEM_LANG_4|Elven.INT_ITEM_FAERIE.INT_ITEM_DIPLOMACY.INT_ITEM_SPOT														
+																						
+###Block: Artifact																						
+Cup and Talisman of Al'Akbar (Cup of Al'Akbar)	OUTPUTNAME:[NAME]	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:BoED			SPROP:7/day turn water into potions of Cure Light Wounds.	SPELLS:Cup of Al'Akbar|TIMES=1|CASTERLEVEL=20|Bless,25													
+Cup and Talisman of Al'Akbar (Talisman of Al'Akbar)	OUTPUTNAME:[NAME]	TYPE:Artifact.Major.Amulet	COST:0	WT:0	SOURCEPAGE:BoED			SPROP:7/day turn water into potions of Cure Light Wounds.	SPELLS:Talisman of Al'Akbar|TIMES=ATWILL|CASTERLEVEL=20|Remove Disease	SPELLS:Talisman of Al'Akbar|TIMES=1|CASTERLEVEL=20|Remove Curse												
+Regalia of Good (Crown of Good)	OUTPUTNAME:[NAME]	TYPE:Artifact.Headgear	COST:0	WT:0	SOURCEPAGE:AaEG30	PREALIGN:LG,NG,CG		ABILITY:Special Ability|AUTOMATIC|Immunity To Electricity	BONUS:STAT|WIS|4|TYPE=Enhancement	BONUS:COMBAT|AC|4|TYPE=Deflection	SR:20	SPELLS:Crown of Good|TIMES=ATWILL|CASTERLEVEL=20|Guidance	SPELLS:Crown of Good|TIMES=3|CASTERLEVEL=20|Heroes' Feast|Sending|Status (Greater)	SPELLS:Crown of Good|TIMES=1|CASTERLEVEL=20|Globe of Invulnerability								
+Regalia of Good (Scepter of Good)	OUTPUTNAME:[NAME]	TYPE:Artifact.Rod	COST:0	WT:0	SOURCEPAGE:AaEG30	PREALIGN:LG,NG,CG		BONUS:STAT|CHA|4|TYPE=Enhancement	ABILITY:Special Ability|AUTOMATIC|Immunity To Mind-Affecting	SPROP:act as Rod of Rulership with no use limit.	SPELLS:Scepter of Good|TIMES=3|CASTERLEVEL=20|Holy Smite,19|Searing Light,18											
+Regalia of Good (Orb of Good)	OUTPUTNAME:[NAME]	TYPE:Artifact.CrystalBall	COST:0	WT:0	SOURCEPAGE:AaEG30	PREALIGN:LG,NG,CG	EQMOD:CRYSTALLBALL_DETECT_THGTH_13	BONUS:STAT|INT|4|TYPE=Enhancement	SPELLS:Orb of Good|TIMES=1|CASTERLEVEL=20|Heal	ABILITY:Special Ability|VIRTUAL|Basic Turning|Turn Undead	BONUS:VAR|TurnLevelBase,TurnDamagePlusBase|15|TYPE=Level.REPLACE	BONUS:VAR|TurnTimesBase|3+CHA|TYPE=Base										

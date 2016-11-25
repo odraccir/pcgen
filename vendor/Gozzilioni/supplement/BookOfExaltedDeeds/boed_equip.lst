@@ -1,0 +1,26 @@
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:BoED	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+#																										
+# Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property																		
+###Ravages
+Ravage (Golden Ice)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1200	WT:0	SOURCEPAGE:BoED	SPROP:Contact DC 14, Init.:1d6 DEX, Sec.:2d6 DEX.																				
+Ravage (Celestial Lightsblood)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2500	WT:0	SOURCEPAGE:BoED	SPROP:Ingested DC 20, Init.:1d4 DEX, Sec.:1d4 CON.																				
+Ravage (Jade Water)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:350	WT:0	SOURCEPAGE:BoED	SPROP:Injury DC 14, Init.:1d4 WIS, Sec.:1d4 INT and 1d4 WIS.																				
+Ravage (Purified Couatl Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:3000	WT:0	SOURCEPAGE:BoED	SPROP:Injury DC 16, Init.:2d4 STR, Sec.:4d4 STR.																				
+Ravage (Unicorn Blood)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:500	WT:0	SOURCEPAGE:BoED	SPROP:Injury DC 17, Init.:1d3 STR, Sec.:1d4 STR.																				
+
+###Material Component
+Ambrosia		TYPE:MaterialComponent.Consumable	COST:200	WT:0	SOURCEPAGE:BoED
+Angel Radiance		TYPE:MaterialComponent.Consumable	COST:20	WT:0	SOURCEPAGE:BoED
+Tooth (Blink Dog)		TYPE:MaterialComponent.Consumable	COST:30	WT:0	SOURCEPAGE:BoED
+Blood (Celestial)		TYPE:MaterialComponent.Consumable	COST:20	WT:0	SOURCEPAGE:BoED
+Feather (Couatl)		TYPE:MaterialComponent.Consumable	COST:10	WT:0	SOURCEPAGE:BoED
+Scale (Couatl)		TYPE:MaterialComponent.Consumable	COST:16	WT:0	SOURCEPAGE:BoED
+Claw (Lammasu)		TYPE:MaterialComponent.Consumable	COST:30	WT:0	SOURCEPAGE:BoED
+Scale (Lillend)		TYPE:MaterialComponent.Consumable	COST:15	WT:0	SOURCEPAGE:BoED
+Feather (Pegasus)		TYPE:MaterialComponent.Consumable	COST:11	WT:0	SOURCEPAGE:BoED
+Feather (Phoeninx)		TYPE:MaterialComponent.Consumable	COST:40	WT:0	SOURCEPAGE:BoED
+Blood (Unicorn)		TYPE:MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:BoED
+Horn (Unicorn)		TYPE:MaterialComponent.Consumable	COST:55	WT:0	SOURCEPAGE:BoED
+Tail Hair (Unicorn)		TYPE:MaterialComponent.Consumable	COST:25	WT:0	SOURCEPAGE:BoED
+
+Storm Tears		TYPE:Goods.Vial.Consumable	COST:750	WT:0	SOURCEPAGE:BoED	SPROP:duplicates the effects of a heart's ease spell.

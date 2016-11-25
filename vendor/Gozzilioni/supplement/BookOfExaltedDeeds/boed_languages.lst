@@ -1,0 +1,12 @@
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:BoED	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+
+# Added alphabet type to each language in accordance with SkillsII
+# Alphabet type will be final type, such as:
+# Abyssal	TYPE:Spoken.Written.Infernal
+# ... since the Abyssal language uses the Infernal Alphabet for its writing.
+# Per SkillsII, each language listed in Speak Language is also written/read
+# - Fluxxdog - Nov 4 08
+
+# Language			Type								Var. Min. Value
+Leskylor			TYPE:Spoken
+Rhek			TYPE:Spoken

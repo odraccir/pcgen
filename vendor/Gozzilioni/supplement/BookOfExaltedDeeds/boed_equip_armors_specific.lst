@@ -1,0 +1,14 @@
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:BoED	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+#																		
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	SOURCEPAGE:	BONUS:COMBAT|AC|x|TYPE=Armor	MAXDEX:	ACCHECK:	SPELLFAILURE:	EQMOD:						
+Devilhusk			PROFICIENCY:ARMOR|Hide	TYPE:Armor.Medium.Suit.Specific.Nonmetal	COST:33165	WT:25	SOURCEPAGE:BoED	BONUS:COMBAT|AC|3|TYPE=Armor	MAXDEX:4	ACCHECK:-3	SPELLFAILURE:20	EQMOD:LEATHER.EQ_COST_ADJ_A.PLUS5A	SPROP:Barbs covering the armor allow the wearer to deal 3d8 points of damage plus 1-1/2 times its Strength modifier to a grabbed opponent with a successful grapple check.					
+Vassal Armor			PROFICIENCY:ARMOR|Half-Plate	TYPE:Armor.Heavy.Suit.Specific	COST:38250	WT:50	SOURCEPAGE:BoED	BONUS:COMBAT|AC|7|TYPE=Armor	MAXDEX:0	ACCHECK:-7	SPELLFAILURE:40	EQMOD:STEEL.EQ_COST_ADJ_A.HEARTWIRE.PLUS3A.EXALT						
+Redeemed Demon Armor			PROFICIENCY:ARMOR|Full Plate	TYPE:Armor.Heavy.Suit.Specific	COST:52260	WT:50	SOURCEPAGE:BoED	BONUS:COMBAT|AC|8|TYPE=Armor	MAXDEX:1	ACCHECK:-6	SPELLFAILURE:35	EQMOD:STEEL.EQ_COST_ADJ_A.PLUS4A		AUTO:EQUIP|Demon Armor Claw Attack	BONUS:VAR|NegativeLevels|1|PREALIGN:LN,LE,TN,NE,CN,CE			
+																		
+Asura Shield			PROFICIENCY:SHIELD|Shield (Heavy)	TYPE:Shield.Heavy.Specific	COST:27180	WT:15	SOURCEPAGE:BoED	BONUS:COMBAT|AC|2|TYPE=Shield		ACCHECK:-2	SPELLFAILURE:15	EQMOD:STEEL.EQ_COST_ADJ_S.PLUS2S.BASH.SPIKE_S	SPROP:Deals regular bashing damage, plus 1d6 points of fire damage, plus 1d6 points of damage of divine origin that affects only evil creatures.	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	WIELD:OneHanded	SIZE:M
+																		
+## Intelligent																		
+Torvion, the Fifth Shield			PROFICIENCY:SHIELD|Shield (Light)	TYPE:Shield.Light.Specific	COST:49659	WT:6	SOURCEPAGE:BoED	BONUS:COMBAT|AC|1|TYPE=Shield		ACCHECK:-1	SPELLFAILURE:5	EQMOD:AURORUM.EQ_COST_ADJ_S.PLUS4S.ANGEL.INT_ITEM.SHLD_INT_ITEM_2.INT_ITEM_WIS_13.INT_ITEM_CHA_13.INT_ITEM_LANG_1|Celestial.INT_ITEM_ALIGN_LG.INT_ITEM_BLESS.INT_ITEM_EYES_AVORAL		DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	WIELD:Light	SIZE:M
+## Cursed																		
+																		
+## Artifact																		

@@ -44,7 +44,7 @@ Trident of Fish Command			PROFICIENCY:WEAPON|Trident	TYPE:Enhancement.Weapon.Mel
 Trident of Warning			PROFICIENCY:WEAPON|Trident	TYPE:Enhancement.Weapon.Melee.Ranged.Thrown.Martial.Piercing.OneHanded.Trident	COST:10115	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.WOOD.EQ_COST_ADJ_W.PLUS2W	SOURCEPAGE:DMG	SPROP:Enables the wielder to determine location, depth, kind and number of aquatic predators within 680 feet.						RANGE:10						
 																											
 ## TwoHanded																											
-Frost Brand			PROFICIENCY:WEAPON|Greatsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.TwoHanded.Sword	COST:54475	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.LGHT_EMIT_TORCH.EQ_COST_ADJ_W.PLUS3W.FROST_M	SOURCEPAGE:DMG	SPROP:Absorbs first 10 pts of fire damage on wielder each round, extinguish normal fires and may dispel some fire spells.								QUALITY:Duration|below 0°F				
+Frost Brand			PROFICIENCY:WEAPON|Greatsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.TwoHanded.Sword	COST:54475	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.LGHT_EMIT_TORCH.EQ_COST_ADJ_W.PLUS3W.FROST_M	SOURCEPAGE:DMG	SPROP:Absorbs first 10 pts of fire damage on wielder each round, extinguish normal fires and may dispel some fire spells.								QUALITY:Duration|below 0F				
 Life Drinker			PROFICIENCY:WEAPON|Greataxe	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.TwoHanded.Axe	COST:40320	WT:12	WIELD:TwoHanded		SIZE:M	DAMAGE:1d12	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:DMG	SPROP:Bestows 2 negative energy levels when deals damage, and 1 negative energy level on wielder.												
 																											
 ## Ranged																											

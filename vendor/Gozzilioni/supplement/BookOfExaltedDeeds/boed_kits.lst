@@ -1,0 +1,112 @@
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:BoED	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+#
+STARTPACK:Planetouched (Aasimar) Companion	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Planetouched (Aasimar)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+CLASS:Warrior	LEVEL:1
+ABILITY:CATEGORY=FEAT|Improved Initiative
+
+STARTPACK:Dragon Cloud Stats	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon Cloud
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Archon (Owl) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Archon (Owl)
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Archon (Sword) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Archon (Sword)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Archon (Throne) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Archon (Throne)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Archon (Throne) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Archon (Throne)
+GEAR:Full Plate	SIZE:L	EQMOD:PLUS4A	LOCATION:Equipped
+GEAR:Greatsword	SIZE:L	EQMOD:PLUS1W.VORPAL_M
+
+STARTPACK:Archon (Warden) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Archon (Warden)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Archon (Warden) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Archon (Warden)
+GEAR:Full Plate	SIZE:L	EQMOD:PLUS1A.FORT_LIGHT	LOCATION:Equipped
+
+STARTPACK:Asura Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Asura
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Asura Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Asura
+GEAR:Breastplate	EQMOD:MITHRAL_ARMR_MED.PLUS1A.FORT_LIGHT	LOCATION:Equipped
+GEAR:Buckler	EQMOD:PLUS1S	LOCATION:Equipped
+GEAR:Scimitar	EQMOD:PLUS1W.FLM_M
+GEAR:Longbow (Composite)	EQMOD:MWORKW.BOWSTR|3
+GEAR:Trumpet of Doom
+GEAR:Quiver
+GEAR:Arrows (20)
+
+STARTPACK:Crypt Warden Stats	TYPE:DefaultMonster.Deathless	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Crypt Warden
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Crypt Warden Standard Equip	TYPE:DefaultMonster.Deathless	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Deathless
+GEAR:Breastplate	EQMOD:MWORKA	LOCATION:Equipped
+GEAR:Shield (Heavy/Steel)	EQMOD:MWORKA	LOCATION:Equipped
+GEAR:Sword (Bastard)	EQMOD:MWORKW
+
+STARTPACK:Eladrin (Coure) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Eladrin (Coure)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Eladrin (Coure) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Eladrin (Coure)
+GEAR:Dagger	SIZE:T
+
+STARTPACK:Eladrin (Firre) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Eladrin (Firre)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Eladrin (Firre) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Eladrin (Firre)
+GEAR:Greatsword	EQMOD:PLUS3W
+GEAR:Javelin	EQMOD:PLUS5W	QTY:4
+
+STARTPACK:Eladrin (Shiradi) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Eladrin (Shiradi)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Eladrin (Shiradi) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Eladrin (Shiradi)
+GEAR:Chain (Spiked)	EQMOD:PLUS1W.HOLY_M
+
+STARTPACK:Eladrin (Tulani) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Eladrin (Tulani)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+GEAR:Tulani ~ Dream Ray
+GEAR:Longsword	EQMOD:PLUS4W.BRI_EN_M.HOLY_M
+
+STARTPACK:Guardinal (Equinal) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Guardinal (Equinal)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Guardinal (Musteval) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Guardinal (Musteval)
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Guardinal (Ursinal) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Guardinal (Ursinal)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Hollyphant Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Hollyphant
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Leskylor Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Leskylor
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=11|CHA=10
+
+STARTPACK:Moon Dog Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Moon Dog
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Quesar Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Quesar
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Rhek Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Rhek
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Rhek Standard Equip	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Rhek
+GEAR:Banded Mail	LOCATION:Equipped
+GEAR:Halberd	EQMOD:MWORKW
+
+STARTPACK:Swarm (Apocalypse Frog Swarm) Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Swarm (Apocalypse Frog Swarm)
+STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Swarm (Bronze Locust Swarm) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Swarm (Bronze Locust Swarm)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Swarm (Deathraven Swarm) Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Swarm (Deathraven Swarm)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Swarm (Sunfly Swarm) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Swarm (Sunfly Swarm)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10

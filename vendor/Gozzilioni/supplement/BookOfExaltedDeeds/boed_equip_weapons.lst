@@ -1,0 +1,27 @@
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:BoED	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+#																						
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:
+# Simple Weapons																						
+## Unarmed																						
+## Light																						
+## OneHanded																						
+## TwoHanded																						
+## Ranged																						
+																						
+# Martial Weapons																						
+## Light																						
+## OneHanded																						
+Truncheon			PROFICIENCY:WEAPON|Truncheon	TYPE:Weapon.Melee.Martial.Bludgeoning.OneHanded	COST:2	WT:12	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:BoED								
+## TwoHanded																						
+## Ranged																						
+																						
+# Exotic Weapons																						
+## Light																						
+## OneHanded																						
+## TwoHanded																						
+Entangling Pole			PROFICIENCY:WEAPON|Entangling Pole	TYPE:Weapon.Melee.Exotic.Piercing.TwoHanded	COST:4	WT:5	WIELD:TwoHanded		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:BoED								
+Grasping Pole			PROFICIENCY:WEAPON|Grasping Pole	TYPE:Weapon.Melee.Exotic.Bludgeoning.TwoHanded	COST:8	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:BoED								
+## Ranged																						
+Lasso			PROFICIENCY:WEAPON|Lasso	TYPE:Weapon.Ranged.Exotic.TwoHanded	COST:1	WT:3	WIELD:TwoHanded		SIZE:M				EQMOD:LEATHER	SOURCEPAGE:BoED							RANGE:10	
+																						
+# Arrows																						

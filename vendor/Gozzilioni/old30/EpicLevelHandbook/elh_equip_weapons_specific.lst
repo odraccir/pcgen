@@ -1,0 +1,54 @@
+SOURCELONG:Epic Level Handbook 3.0	SOURCESHORT:ELH30	SOURCEWEB:http://www.gozzilioni.net																								
+#																										
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:				
+# Simple Weapons																										
+## Unarmed																										
+																										
+## Light																										
+Abyssal Horde Claw Attack			PROFICIENCY:WEAPON|Unarmed Strike	TYPE:Enhancement.Weapon.Melee.Simple.Piercing.Slashing.Unarmed	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ.PLUS4W.KEEN	SOURCEPAGE:ELH	SPROP:Energy Drain DC 23											
+																										
+## OneHanded																										
+Finaldeath			PROFICIENCY:WEAPON|Morningstar	TYPE:Weapon.Melee.Simple.Bludgeoning.Piercing.OneHanded	COST:3580308	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ.PLUS5W.GHOST_M.DREAD_M|Undead	SOURCEPAGE:ELH									ABILITY:Special Ability|VIRTUAL|Turn Undead			
+Mace of Ruin			PROFICIENCY:WEAPON|Mace (Heavy)	TYPE:Weapon.Melee.Simple.Bludgeoning.OneHanded.Mace.Specific	COST:1000312	WT:8	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ.PLUS7W	SOURCEPAGE:ELH	SPROP:ignores the hardness or damage reduction of any object or creature it strikes. Furthermore, the weapon can deal critical hits to objects and constructs as if they were living creatures.											
+																										
+## TwoHanded																										
+Quarterstaff of Alacrity			PROFICIENCY:WEAPON|Quarterstaff	TYPE:Weapon.Melee.Simple.Bludgeoning.TwoHanded.Double.Quarterstaff.Specific	COST:462600	WT:4	WIELD:TwoHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ.PLUS5W.SPEED	SOURCEPAGE:ELH		ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.EQ_COST_ADJ.PLUS5W.SPEED			BONUS:SAVE|Reflex|5|TYPE=Resistance	ABILITY:FEAT|VIRTUAL|Deflect Arrows|Infinite Deflection		
+																										
+## Ranged																										
+																										
+# Martial Weapons																										
+## Light																										
+																										
+## OneHanded																										
+Backstabber			PROFICIENCY:WEAPON|Sword (Short)	TYPE:Weapon.Melee.Martial.Piercing.Light.Sword.Specific	COST:770310	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_EPADJ.PLUS6W	SOURCEPAGE:ELH		BONUS:VAR|SneakAttackDice|2										
+Gripsoul			PROFICIENCY:WEAPON|Longsword	TYPE:Weapon.Melee.Martial.Slashing.OneHanded.Sword.Specific	COST:1856500	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_EPADJ.PLUS6W.KEEN	SOURCEPAGE:ELH												
+Holy Devastator			PROFICIENCY:WEAPON|Longsword	TYPE:Weapon.Melee.Martial.Slashing.OneHanded.Sword.Specific	COST:4620315	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ.PLUS3W.HOLY_M	SOURCEPAGE:ELH	SPROP:Good Aligned. +3d6 Holy damage bestowed on ammunition. On a critical hit deals +%d6 additional Holy damage|3*CRITMULT-1|PRECLASS:1,Paladin=1	BONUS:WEAPON|DAMAGE,TOHIT|7|TYPE=Enhancement|PRECLASS:1,Paladin=1	BONUS:VAR|EvilResistanceBonus|5|TYPE=Sacred|PRECLASS:1,Paladin=1	BONUS:VAR|SmiteEvilDamage|PaladinLVL|PRECLASS:1,Paladin=1	ABILITY:Special Ability|VIRTUAL|Resistance To Evil spells|PRECLASS:1,Paladin=1							
+Unholy Devastator			PROFICIENCY:WEAPON|Longsword	TYPE:Weapon.Melee.Martial.Slashing.OneHanded.Sword.Specific	COST:4650315	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ.PLUS3W.UNHOLY_M	SOURCEPAGE:ELH	SPROP:Evil Aligned. +3d6 Unholy damage bestowed on ammunition. On a critical hit deals +%d6 additional Unholy damage|*CRITMULT-1|PRECLASS:1,Blackguard=1	BONUS:WEAPON|DAMAGE,TOHIT|7|TYPE=Enhancement|PRECLASS:1,Blackguard=1	BONUS:VAR|GoodResistanceBonus|5|TYPE=Profane|PRECLASS:1,Blackguard=1	BONUS:VAR|SmiteGoodDamage|BlackguardLVL|PRECLASS:1,Blackguard=1	ABILITY:Special Ability|VIRTUAL|Resistance To Good spells|PRECLASS:1,Blackguard=1							
+																										
+## TwoHanded																										
+Chaosbringer			PROFICIENCY:WEAPON|Greataxe	TYPE:Weapon.Melee.Martial.Slashing.TwoHanded.Axe.Specific	COST:4025350	WT:12	WIELD:TwoHanded		SIZE:M	DAMAGE:1d12	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.WOOD.EQ_COST_EPADJ.PLUS6W.CHAOS_POWER_M	SOURCEPAGE:ELH		ABILITY:Special Abilty|VIRTUAL|Rage	BONUS:VAR|RageTimes|1	BONUS:VAR|RageLvl|1|TYPE=Base	ABILITY:FEAT|VIRTUAL|Incite Rage|PREVARGTEQ:GreaterRage,1							
+Stormbrand			PROFICIENCY:WEAPON|Greatsword	TYPE:Weapon.Melee.Martial.Slashing.TwoHanded.Sword.Specific	COST:117850	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ.PLUS4W.THUNDER_M.SHOCK_BURST_M	SOURCEPAGE:ELH		SPELLS:Stormbrand|TIMES=ATWILL|CASTERLEVEL=21|Fly	BONUS:VAR|ElectricityResistanceBonus,SonicResistanceBonus|30|TYPE=Resistance		ABILITY:Special Ability|VIRTUAL|Resistance To Electricity|Resistance to Sonic							
+																										
+## Ranged																										
+Elven Greatbow	OUTPUTNAME:Elven Greatbow STR		PROFICIENCY:WEAPON|Longbow	TYPE:Weapon.Ranged.Martial.Piercing.Bow.Longbow.Composite.Container.Specific	COST:2900400	WT:3	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.EQ_COST_ADJ.PLUS2W	SOURCEPAGE:ELH	SPROP:Ranged attacks made with this weapon negates the AC bonus granted by any cover short of total cover. The weapon's ranged attacks also ignore any miss chance from concealment. Furthermore, any arrows loosed from the bow are considered keen, regardless of the enhancement bonus of the arrow fired.|PRERACE:1,Elf						RANGE:110		CONTAINS:UNLIM|Arrow|SpecificArrow	BONUS:WEAPON|DAMAGE|min(STR,0)	BONUS:WEAPON|DAMAGE,TOHIT|5|TYPE=Enhancement|PRERACE:1,Elf	BONUS:WEAPON|DAMAGE|STR|PRERACE:1,Elf
+																										
+# Exotic Weapons																										
+## Light																										
+																										
+## OneHanded																										
+Souldrinker			PROFICIENCY:WEAPON|Sword (Bastard)	TYPE:Weapon.Melee.Exotic.Slashing.OneHanded.Sword.Specific	COST:478335	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ.PLUS5W	SOURCEPAGE:ELH	SPROP:bestows 2d4 negative levels on its target whenever it deals damage.								BONUS:WEAPON|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Sword (Bastard))|PRESTAT:1,STR=13			
+																										
+## TwoHanded																										
+Everwhirling Chain			PROFICIENCY:WEAPON|Chain (Spiked)	TYPE:Weapon.Melee.Exotic.Piercing.TwoHanded.Chain.Specific	COST:5220325	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_EPADJ.PLUS4W.EVERDANCE.SPEED	SOURCEPAGE:ELH		ABILITY:FEAT|VIRTUAL|Improved Combat Reflexes						REACHMULT:2				
+																										
+## Ranged																										
+																										
+# Arrows																										
+																										
+## Intelligent																										
+																										
+## Cursed																										
+																										
+## Artifacts																										
+Axe of the Dwarvish Lords			PROFICIENCY:WEAPON|Waraxe (Dwarven)	TYPE:Artifact.Major.Weapon.Melee.Exotic.Slashing.OneHanded.Axe.Dwarven	COST:0	WT:8	WIELD:OneHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.WOOD.EQ_COST_EPADJ.PLUS6W.KEEN.THROW_M.Bane_M|Humanoid (Goblinoid)	SOURCEPAGE:ELH	SPROP:1/week summon Elder Earth Elemental (as Summon Monster IX, duration 20 rounds).								BONUS:WEAPON|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Waraxe (Dwarven))|PRESTAT:1,STR=13	BONUS:VAR|DarkvisionRange|60|PRERACE:1,RACE=Dwarf	BONUS:STAT|CHA|-2|!PRERACE:1,RACE=Dwarf	BONUS:SKILL|Craft (Armorsmithing),Craft (Blacksmithing),Craft (Gecutting),Craft (Stonemasonry),Craft (Weaponsmithing)|10
+Iron Gauntlet of Hextor			PROFICIENCY:WEAPON|Gauntlet	TYPE:Artifact.Major.Weapon.Melee.Simple.Bludgeoning.Unarmed.Gauntlet.Specific	COST:0	WT:1	WIELD:Light	SLOTS:1	SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.INT_ITEM.WEAP_INT_ITEM_7.INT_ITEM_WIS_18.INT_ITEM_CHA_18.INT_ITEM_ALIGN_LE	SOURCEPAGE:ELH	SPROP:Double damage on any Smite attack.								BONUS:STAT|STR|8|TYPE=Enhancement	BONUS:VAR|LeadershipScore|4	SPELLS:Iron Gauntlet of Hextor|TIME=1|CASTERLEVEL=20|Implosion,23	

@@ -1,0 +1,23 @@
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:BoED	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+#			
+### Weapon/Spell			
+### Simple/Martial/Exotic			
+### Melee/Ranged			
+### Bludgeoning/Piercing/Slashing			
+### Reach/Double/Thrown/Projectile/Ammunition			
+### Unharmed/Light/OneHanded/TwoHanded			
+###Automatic			
+#			
+# Fake Auto	TYPE:Auto		
+# Fake Simple	TYPE:Simple.Melee		
+# Fake Martial	TYPE:Martial.Melee		
+# Fake Exotic	TYPE:Exotic.Melee		
+#			
+
+###Simple			
+###Martial			
+Truncheon	TYPE:Martial.Melee.Bludgeoning.MeleeBludgeoning.OneHanded
+###Exotic			
+Entangling Pole	TYPE:Exotic.Melee.Piercing.MeleePiercing.TwoHanded
+Grasping Pole	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded
+Lasso	TYPE:Exotic.Ranged.TwoHanded

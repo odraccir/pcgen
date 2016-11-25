@@ -1,0 +1,61 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+
+# Subrace Support
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Anointed Knight Class Feature	CATEGORY:Special Ability	TYPE:AnointedKnightClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Anointed Knight Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Apostole of Peace Class Feature	CATEGORY:Special Ability	TYPE:ApostoleOfPeaceClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Apostole of Peace Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Beloved of Valarian Class Feature	CATEGORY:Special Ability	TYPE:BelovedOfValarianClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Beloved of Valarian Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Celestial Mystic Class Feature	CATEGORY:Special Ability	TYPE:CelestialMysticClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Celestial Mystic Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Champion of Gwynharwyf Class Feature	CATEGORY:Special Ability	TYPE:ChampionOfGwynharwyfClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Champion of Gwynharwyf Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Defender of Sealtiel Class Feature	CATEGORY:Special Ability	TYPE:DefenderOfSealtielClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Defender of Sealtiel Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Emissary of Barachiel Class Feature	CATEGORY:Special Ability	TYPE:EmissaryOfBarachielClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Emissary of Barachiel Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Exalted Arcanist Class Feature	CATEGORY:Special Ability	TYPE:ExaltedArcanistClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Exalted Arcanist Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Fist of Raziel Class Feature	CATEGORY:Special Ability	TYPE:FistOfRazielClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Fist of Raziel Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Initiate of Pistis Sophia Class Feature	CATEGORY:Special Ability	TYPE:InitiateOfPistisSophiaClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Initiate of Pistis Sophia Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Lion of Talsid Class Feature	CATEGORY:Special Ability	TYPE:LionOfTalsidClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Lion of Talsid Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Profet of Erathaol Class Feature	CATEGORY:Special Ability	TYPE:ProfetOfErathaolClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Profet of Erathaol Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Risen Martyr Class Feature	CATEGORY:Special Ability	TYPE:RisenMartyrClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Risen Martyr Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Sentinel of Bharrai Class Feature	CATEGORY:Special Ability	TYPE:SentinelOfBharraiClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Sentinel of Bharrai Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Skylord Class Feature	CATEGORY:Special Ability	TYPE:SkylordClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Skylord Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Slayer of Domiel Class Feature	CATEGORY:Special Ability	TYPE:SlayerOfDomielClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Slayer of Domiel Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Stalker of Kharash Class Feature	CATEGORY:Special Ability	TYPE:StalkerOfKharashClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Stalker of Kharash Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Swanmay Class Feature	CATEGORY:Special Ability	TYPE:SwanmayClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Swanmay Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Sword of Righteousness Class Feature	CATEGORY:Special Ability	TYPE:SwordOfRighteousnessClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Sword of Righteousness Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Troubadour of Stars Class Feature	CATEGORY:Special Ability	TYPE:TroubadourOfStarsClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Troubadour of Stars Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Vassal of Bahamut Class Feature	CATEGORY:Special Ability	TYPE:VassalOfBahamutClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Vassal of Bahamut Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Wonderworker Class Feature	CATEGORY:Special Ability	TYPE:WonderworkerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Wonderworker Class Features			DISPLAYLOCATION:Class Features
+
+ABILITYCATEGORY:Call Unicorn Class Feature	CATEGORY:Special Ability	TYPE:CallUnicornClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Call Unicorn Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Call Flying Mount Class Feature	CATEGORY:Special Ability	TYPE:CallFlyingMountClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Call Flying Mount Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups
+ABILITYCATEGORY:Anoint Self	CATEGORY:Special Ability	TYPE:AnointSelf	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Anoint Selves			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Anoint Ancestral Weapon	CATEGORY:Special Ability	TYPE:AnointAncestralWeapon	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Anoint Ancestral Weapons			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Energy Resistance 10	CATEGORY:Special Ability	TYPE:EnergyResistance10	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Energy Resistances 10			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Stalker Favored Enemy	CATEGORY:Special Ability	TYPE:StalkerFavoredEnemy	VISIBLE:QUALIFY	EDITABLE:YES	POOL:StalkerFavoredEnemyCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Stalker Favored Enemies				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Stalker Favored Enemy Bonus	CATEGORY:Special Ability	TYPE:StalkerFavoredEnemyBonus	VISIBLE:QUALIFY	EDITABLE:YES	POOL:StalkerFavoredEnemyBonusCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Stalker Favored Enemy Bonuses			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Wonderworker Caster	CATEGORY:Special Ability	TYPE:WonderworkerCaster	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Wonderworker Caster			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Wonderworker Arcane	CATEGORY:Special Ability	TYPE:WonderworkerArcane	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Wonderworker Arcane			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Wonderworker Divine	CATEGORY:Special Ability	TYPE:WonderworkerDivine	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Wonderworker Divine			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Wonderworker Psionic	CATEGORY:Special Ability	TYPE:WonderworkerPsionic	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Wonderworker Psionic			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Vow of Poverty Stat Boost Choice	CATEGORY:Special Ability	TYPE:VowOfPovertyStatChoice	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Vow of Poverty Stat Boost Choice			DISPLAYLOCATION:Class Features
+
+#Feats Ability pools
+ABILITYCATEGORY:Anointed Knight Feat	CATEGORY:FEAT	TYPE:AnointedKnight	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Anointed Knight Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Exalted Arcanist Feat	CATEGORY:FEAT	TYPE:ExaltedArcanist.Exalted	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Exalted Arcanist Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Initiate of Pistis Sophia Feat	CATEGORY:FEAT	TYPE:InitiateOfPistisSophia	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Initiate of Pistis Sophia Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Call Flying Mount Feat	CATEGORY:FEAT	TYPE:CallFlyingMount	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Call Flying Mount Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Sword of Righteousness Feat	CATEGORY:FEAT	TYPE:SwordOfRighteousness.Exalted	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Sword of Righteousness Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Vassal of Bahamut Feat	CATEGORY:FEAT	TYPE:VassalOfBahamut	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Vassal of Bahamut Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Wonderworker Feat	CATEGORY:FEAT	TYPE:Wonderworker.Exalted	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Wonderworker Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Vow of Poverty Exalted Feat	CATEGORY:FEAT	TYPE:Exalted	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Vow of Poverty Exalted Feats			DISPLAYLOCATION:Feats
+
+#Companion Support
+ABILITYCATEGORY:Call Unicorn Selection	CATEGORY:Internal	TYPE:CallUnicornSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Call Unicorn Choice			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Call Flying Mount Selection	CATEGORY:Internal	TYPE:CallFlyingMountSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Call Flying Mount Choice			DISPLAYLOCATION:Class Features
+
+#
+# End
+#

@@ -4,6 +4,12 @@ SOURCELONG:Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilio
 ### Summon Monster I ~ Evil only.MOD	CLASS:.CLEARALL
 Summon Monster I.COPY=Summon Monster I	KEY:Summon Monster I ~ Evil only
 Summon Monster I ~ Evil only.MOD	OUTPUTNAME:Summon Monster I	DESCRIPTOR:.CLEAR	DESCRIPTOR:Evil	DESC:Cast as an Evil spell only.	SOURCEPAGE:DMG
+Summon Monster II.COPY=Summon Monster II	KEY:Summon Monster II ~ Evil only
+Summon Monster II ~ Evil only.MOD	OUTPUTNAME:Summon Monster II	DESCRIPTOR:.CLEAR	DESCRIPTOR:Evil	DESC:Cast as an Evil spell only.	SOURCEPAGE:DMG
+Summon Monster III.COPY=Summon Monster III	KEY:Summon Monster III ~ Evil only
+Summon Monster III ~ Evil only.MOD	OUTPUTNAME:Summon Monster III	DESCRIPTOR:.CLEAR	DESCRIPTOR:Evil	DESC:Cast as an Evil spell only.	SOURCEPAGE:DMG
+Summon Monster IV.COPY=Summon Monster IV	KEY:Summon Monster IV ~ Evil only
+Summon Monster IV ~ Evil only.MOD	OUTPUTNAME:Summon Monster IV	DESCRIPTOR:.CLEAR	DESCRIPTOR:Evil	DESC:Cast as an Evil spell only.	SOURCEPAGE:DMG
 Summon Monster IX.COPY=Summon Monster IX	KEY:Summon Monster IX ~ Evil only
 Summon Monster IX ~ Evil only.MOD	OUTPUTNAME:Summon Monster IX	DESCRIPTOR:.CLEAR	DESCRIPTOR:Evil	DESC:Cast as an Evil spell only.	SOURCEPAGE:DMG
 ###TODO:Resist Energy ~ Electricity.MOD	CLASS:.CLEARALL
@@ -25,3 +31,6 @@ Orb of Dragonkind ~ Domination.MOD	OUTPUTNAME:Domination	TYPE:SpellLike	SOURCEPA
 ###TODO:Shadowdancer ~ Silent Image.MOD	CLASS:.CLEARALL
 Silent Image.COPY=Silent Image	KEY:Shadowdancer ~ Silent Image
 Shadowdancer ~ Silent Image.MOD	OUTPUTNAME:Shadow Illusion	TYPE:SpellLike	DESC:Create visual illusions from surrounding shadows.	SOURCEPAGE:DMG
+###TODO:Blackguard/ Corrupt Weapon.MOD	CLASS:.CLEARALL
+Bless Weapon.COPY=Bless Weapon	KEY:Corrupt Weapon
+Corrupt Weapon.MOD	OUTPUTNAME:Corrupt Weapon	TYPE:Spell	DESC:.CLEAR	DESC:is the opposing counterpart of the paladin spell bless weapon (see page 205 of the Player's Handbook). Instead of improving a weapon's effectiveness against evil foes (as the paladin spell does), corrupt weapon makes a weapon more effective against good foes.	SOURCEPAGE:DMG, p.182

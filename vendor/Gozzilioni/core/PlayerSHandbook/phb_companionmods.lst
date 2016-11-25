@@ -5,7 +5,16 @@ SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net
 FOLLOWER:NormalMount=1	TYPE:Mount									
 FOLLOWER:NormalFollower=1	TYPE:Follower									
 
-										
+FOLLOWER:SummonMonsterILVL=1	TYPE:Summon Monster I									
+FOLLOWER:SummonMonsterIILVL=1	TYPE:Summon Monster II									
+FOLLOWER:SummonMonsterIIILVL=1	TYPE:Summon Monster III									
+FOLLOWER:SummonMonsterIVLVL=1	TYPE:Summon Monster IV									
+FOLLOWER:SummonMonsterVLVL=1	TYPE:Summon Monster V									
+FOLLOWER:SummonMonsterVILVL=1	TYPE:Summon Monster VI									
+FOLLOWER:SummonMonsterVIILVL=1	TYPE:Summon Monster VII									
+FOLLOWER:SummonMonsterVIIILVL=1	TYPE:Summon Monster VIII									
+FOLLOWER:SummonMonsterIXLVL=1	TYPE:Summon Monster IX									
+
 ###Block:Special Mount										
 FOLLOWER:SpecialMountLVL=5	TYPE:Special Mount	HD:2	BONUS:COMBAT|AC|4|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|6	ABILITY:Special Ability|AUTOMATIC|Special Mount ~ Empathic Link|Special Mount ~ Improved Evasion|Special Mount ~ Share Saving Throws|Special Mount ~ Share Spells	ABILITY:Internal|AUTOMATIC|TYPE=ArmorProfBarding
 FOLLOWER:SpecialMountLVL=8	TYPE:Special Mount	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|7	ABILITY:Special Ability|AUTOMATIC|Special Mount ~ Improved Speed				

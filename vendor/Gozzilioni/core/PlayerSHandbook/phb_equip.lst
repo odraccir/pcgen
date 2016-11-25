@@ -329,9 +329,9 @@ Powder (Pearl)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:500	WT:0	S
 Powder (Jade)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:PHB	DESC:Material component for Permanent Image.
 Powder (Mix Diamond, Emerald, Ruby and Sapphire)	KEY:Powder 1	TYPE:Spellcomponent.MaterialComponent.Consumable	COST:5000	WT:0	SOURCEPAGE:PHB	DESC:Material component for Temporal Stasis.
 #
-Incense (25 mo)		TYPE:Goods.General.Spellcomponent.MaterialComponent.Consumable	COST:25	WT:1	SOURCEPAGE:PHB	DESC:Material component for Augury.
-Incense (250 mo)		TYPE:Goods.General.Spellcomponent.MaterialComponent.Consumable	COST:250	WT:1	SOURCEPAGE:PHB	DESC:Material component for Legend Lore.
-Incense (1500 mo)		TYPE:Goods.General.Spellcomponent.MaterialComponent.Consumable	COST:1500	WT:1	SOURCEPAGE:PHB	DESC:Material component for Forbiddance.
+Incense (25 mo)		TYPE:Goods.General.Incense.Spellcomponent.MaterialComponent.Consumable	COST:25	WT:1	SOURCEPAGE:PHB	DESC:Material component for Augury.
+Incense (250 mo)		TYPE:Goods.General.Incense.Spellcomponent.MaterialComponent.Consumable	COST:250	WT:1	SOURCEPAGE:PHB	DESC:Material component for Legend Lore.
+Incense (1500 mo)		TYPE:Goods.General.Incense.Spellcomponent.MaterialComponent.Consumable	COST:1500	WT:1	SOURCEPAGE:PHB	DESC:Material component for Forbiddance.
 Statuette (Carved)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:0	WT:0	SOURCEPAGE:PHB	DESC:Material component for Binding	MODS:YES
 Mix (herbs, oils, incense)	KEY:Mix 1	TYPE:Spellcomponent.MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	DESC:Material component for Hallow, Unhallow	MODS:YES
 Mix (rare oils and unguent)	KEY:Mix 2	TYPE:Spellcomponent.MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	DESC:Material component for Reincarnation	MODS:YES

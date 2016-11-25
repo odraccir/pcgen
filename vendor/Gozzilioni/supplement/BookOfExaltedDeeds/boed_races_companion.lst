@@ -1,0 +1,7 @@
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:BoED	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+																																			
+# Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	TYPE:	RACETYPE:	RACESUBTYPE:	MONSTERCLASS:	MOVE:	Combat bonus	NATURALATTACKS:	NATURALATTACKS:	Weapon prof. bonus	Weapon prof. bonus	FACE:	REACH:	Special Ability	Damage Reduction	Spell Res.	Stat bonus						MONCSKILL:	CR:	Required AL	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	Nb Legs	Nb Hands	SOURCEPAGE:		
+Bariaur.COPY=Bariaur	KEY:Companion ~ Bariaur (Exalted Bariaur)
+Companion ~ Bariaur (Exalted Bariaur).MOD	OUTPUTNAME:Bariaur	TYPE:Companion	SERVESAS:RACE|Bariaur	ABILITY:Bariaur Subrace|AUTOMATIC|Bariaur ~ Exalted
+Leskylor.COPY=Leskylor	KEY:Companion ~ Leskylor (Three-Headed)
+Companion ~ Leskylor (Three-Headed).MOD	OUTPUTNAME:Leskylor (Three-Headed)	TYPE:Companion	SERVESAS:RACE|Leskylor	TEMPLATE:Three-Headed Leskylor

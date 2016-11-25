@@ -1,0 +1,16 @@
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:BoED	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+#										
+###Block:Celestial Mount										
+FOLLOWER:CelestialMountLVL=1	TYPE:Special Mount	TEMPLATE:Celestial
+
+###Block:Call Unicorn										
+FOLLOWER:CallUnicornLVL=1	TYPE:Call Unicorn	ABILITY:Special Ability|AUTOMATIC|Call Unicorn ~ Telepathic Bond
+FOLLOWER:CallUnicornLVL=6	TYPE:Call Unicorn	ABILITY:Special Ability|AUTOMATIC|Call Unicorn ~ Telepathic Bond ~ 2
+FOLLOWER:CallUnicornLVL=6	TYPE:Call Unicorn	HD:4	TEMPLATE:Celestial Charger
+
+###Block:Call Flying Mount
+FOLLOWER:CallFlyingMount=1	TYPE:Call Flying Mount	HD:2	BONUS:COMBAT|AC|4|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	ABILITY:Special Ability|AUTOMATIC|Call Flying Mount ~ Empathic Link|Call Flying Mount ~ Share Spells|Call Flying Mount ~ Improved Natural Attacks
+FOLLOWER:CallFlyingMount=4	TYPE:Call Flying Mount	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	ABILITY:Special Ability|AUTOMATIC|Call Flying Mount ~ Improved Fly Speed|Call Flying Mount ~ Deadly Charge
+FOLLOWER:CallFlyingMount=7	TYPE:Call Flying Mount	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	ABILITY:Special Ability|AUTOMATIC|Call Flying Mount ~ Spell Resistance|Call Flying Mount ~ Immunities	SR:mastervar("SkylordLVL")+5
+FOLLOWER:CallFlyingMount=10	TYPE:Call Flying Mount	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	ABILITY:Special Ability|AUTOMATIC|Call Flying Mount ~ Bonus Feat
+

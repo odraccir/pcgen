@@ -64,3 +64,5 @@ NAME:AmmoStacksWithWeapon		PARM:AMMOSTACKSWITHWEAPON	DEFAULT:No				DESC:Do ammun
 #
 # Book of Exalted Deeds
 NAME:VariantGoodSpells		VAR:EXD_VAR_GOODSPELLS		DEFAULT:No					DESC:Consider the following spells from the PHB to have the good descriptor: good hope and shield other.
+NAME:VariantPlanarTurning		VAR:ELH_VAR_TURNOUTSIDER		DEFAULT:Yes	EXCLUDE:ELH_VAR_TURNOUTSIDER_AXIS				DESC:The Planar Turning feat turns all outsiders.
+NAME:VariantPlanarTurningAXIS		VAR:ELH_VAR_TURNOUTSIDER_AXIS		DEFAULT:No	EXCLUDE:ELH_VAR_TURNOUTSIDER				DESC:The Planar Turning feat stresses the good-versus-evil or law-versus-chaos axis of alignment.

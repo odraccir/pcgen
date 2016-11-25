@@ -1,4 +1,4 @@
-SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																													
 																																
 # Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 																																
@@ -7,14 +7,14 @@ Psion Class	CATEGORY:Internal	TYPE:CastingClassSupport
 																																
 ###Block: Monster Domain																																
 																																
-###Block:																																
+##Companion Support																																
+Bogun	CATEGORY:Special Ability	ABILITY:Internal|AUTOMATIC|Bogun (Base)|Bogun
+Bogun (Base)	CATEGORY:Internal								DEFINE:BogunLVL|0	DEFINE:BogunDetermination|0													FOLLOWERS:Bogun|1	ABILITY:Bogun Selection|AUTOMATIC|Standard Selection ~ Bogun|!PREABILITY:1,CATEGORY=Internal,TYPE.BogunAlternate								SOURCEPAGE:MM2
+Bogun	CATEGORY:Internal	TYPE:BogunSelection	VISIBLE:NO																													SOURCEPAGE:MM2
+Expanded Selection	CATEGORY:Internal	TYPE:BogunSelection.BogunAlternate		KEY:Expanded Selection ~ Bogun																			COST:0	COMPANIONLIST:Bogun|ANY								SOURCEPAGE:MM2
+Bogun (Default)	CATEGORY:Internal	TYPE:BogunSelection.BogunBase		KEY:Standard Selection ~ Bogun	!PREABILITY:1,CATEGORY=Internal,TYPE.BogunAlternate																		COST:0	COMPANIONLIST:Bogun|Bogun								SOURCEPAGE:MM2
 																																
-CATEGORY=Internal|Bogun (Base).MOD	ABILITY:Bogun Selection|AUTOMATIC|Standard Selection ~ Bogun|!PREABILITY:1,CATEGORY=Internal,TYPE.BogunAlternate																															
-Bogun (Default)	CATEGORY:Internal	TYPE:BogunSelection.BogunBase		KEY:Standard Selection ~ Bogun	!PREABILITY:1,CATEGORY=Internal,TYPE.BogunAlternate	COMPANIONLIST:Bogun|Bogun	COST:0																									
-Bogun Selection	CATEGORY:Internal	TYPE:BogunSelection.BogunAlternate		KEY:Expanded Selection ~ Bogun		COMPANIONLIST:Bogun|ANY	COST:0																									
-																																
-CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Bogun|PREMULT:2,[PREABILITY:1,CATEGORY=FEAT,Craft Construct],[PRECLASS:1,SPELLCASTER=7]																															
-#CATEGORY=Internal|Default.MOD	FOLLOWERS:Bogun|1|PREMULT:2,[PREABILITY:1,CATEGORY=FEAT,Craft Construct],[PRECLASS:1,SPELLCASTER=4]																															
+CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|Bogun (Base)|PREMULT:2,[PREABILITY:1,CATEGORY=FEAT,Craft Construct],[PRECLASS:1,SPELLCASTER=7]																															
 																																
 Empathic Link	CATEGORY:Special Ability	TYPE:ClassFeatures.BogunClassFeatures.SpecialQuality.Supernatural		DESC:A bogun cannot speak, but the process of creating one links it telepathically with its creator. It knows what its creator knows and can convey to him or her everything it sees and hears, up to a range of 1,500 feet. A bogun never travels beyond this range willingly, though it can be removed forcibly. In such a case, it does everything in its power to regain contact with its creator.	KEY:Bogun ~ Empathic Link																											SOURCEPAGE:MM2
 																																

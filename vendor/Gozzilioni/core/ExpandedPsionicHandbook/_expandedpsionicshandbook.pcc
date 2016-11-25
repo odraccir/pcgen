@@ -45,7 +45,7 @@ ABILITY:eph_subraces.lst
 TEMPLATE:eph_templates.lst
 
 ABILITY:eph_abilities_MM2.lst|PRECAMPAIGN:1,Monster Manual 2
-# ABILITY:eph_races_MM2.lst|PRECAMPAIGN:1,Monster Manual 2
+ABILITY:eph_abilities_classes_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
 
 #
 HIDETYPE:SKILL|Autohypnosis|Knowledge (Psionics)|Psicraft|Use Psionic Device

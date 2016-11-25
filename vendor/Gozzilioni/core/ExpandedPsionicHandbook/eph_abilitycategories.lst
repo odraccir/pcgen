@@ -42,7 +42,6 @@ ABILITYCATEGORY:Psion Feat	CATEGORY:FEAT	TYPE:Metapsionic.PsionicItem.Psionic	VI
 ABILITYCATEGORY:Psychic Warrior Feat	CATEGORY:FEAT	TYPE:Fighter.Psionic	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Psychic Warrior Feats			DISPLAYLOCATION:Feats
 ABILITYCATEGORY:Elocator Transporter	CATEGORY:Special Ability	TYPE:ElocatorTransporter	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Elocator Transporters			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Fist of Zuoken Feat	CATEGORY:FEAT	TYPE:Psionic	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Fist of Zuoken Feats			DISPLAYLOCATION:Feats
-ABILITYCATEGORY:Thrallherd Thrall Selection	CATEGORY:Internal	TYPE:ThrallherdThrallSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Thrallherd Thrall Choice			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Thrallherd Psionic Charm	CATEGORY:Special Ability	TYPE:ThrallherdPsionicCharm	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Thrallherd Psionic Charms			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Thrallherd Psionic Dominate	CATEGORY:Special Ability	TYPE:ThrallherdPsionicDominate	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Thrallherd Psionic Dominates			DISPLAYLOCATION:Class Features
 
@@ -50,6 +49,7 @@ ABILITYCATEGORY:Thrallherd Psionic Dominate	CATEGORY:Special Ability	TYPE:Thrall
 ABILITYCATEGORY:Open Minded Skill	CATEGORY:Special Ability	TYPE:Open Minded Skill	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Open Minded Skills			DISPLAYLOCATION:Feats
 
 #Companion Support
+ABILITYCATEGORY:Thrallherd Thrall Selection	CATEGORY:Internal	TYPE:ThrallherdThrallSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Thrallherd Thrall Choice			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Psicrystal Selection	CATEGORY:Internal	TYPE:PsicrystalSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Psicrystal Choice			DISPLAYLOCATION:Class Features
 
 ABILITYCATEGORY:Psicrystal Personality	CATEGORY:Special Ability	TYPE:PsicrystalPersonality	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Psicrystal Personalities			DISPLAYLOCATION:Feats

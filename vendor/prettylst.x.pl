@@ -10713,6 +10713,7 @@ BEGIN {
 
         ceil    cl      classlevel      count   floor   min
         max    roll    skillinfo    var    mastervar    APPLIEDAS
+        charbonusto
     );
 
     # Definition of a valid Jep identifiers. Note that all functions are

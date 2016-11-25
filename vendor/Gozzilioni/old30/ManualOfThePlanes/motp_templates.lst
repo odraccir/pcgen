@@ -11,7 +11,7 @@ Disease Damage (Gray Wasting)			VISIBLE:NO	SOURCEPAGE:MotP30	TEMPVALUE:MIN=1|MAX
 
 Bariaur	VISIBLE:NO	KEY:Common Bariaur	LEVELADJUSTMENT:2
 Languages	KEY:Bariaur ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Celestial
-Favored Class	KEY:Bariaur ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger
+Favored Class	KEY:Bariaur ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Barbarian
 
 Half-Elemental	TYPE:Inherited	VISIBLE:YES	!PRERACE:1,RACETYPE=Elemental	!PRERACE:1,RACESUBTYPE=Incorporeal	PRESTAT:1,INT=4	TEMPLATE:CHOOSE:Half-Elemental Air|Half-Elemental Earth|Half-Elemental Fire|Half-Elemental Water	RACETYPE:Elemental	ABILITY:Special Ability|AUTOMATIC|Immunity To disease|Resistance To Poison	BONUS:VAR|PoisonResistanceBonus|4|TYPE=Racial	BONUS:MISC|CR|2	LEVELADJUSTMENT:3	
 Half-Elemental Air	VISIBLE:NO	RACESUBTYPE:Air	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:STAT|DEX|2	BONUS:STAT|CON|2	BONUS:STAT|INT|2	BONUS:STAT|WIS|2	BONUS:STAT|CHA|2	ABILITY:Special Ability|AUTOMATIC|Half-Elemental Air ~ Spell-Like Abilities	

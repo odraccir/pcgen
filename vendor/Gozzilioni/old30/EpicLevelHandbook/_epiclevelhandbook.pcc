@@ -1,0 +1,62 @@
+CAMPAIGN:Epic Level Handbook 3.0
+GAMEMODE:G35e
+RANK:3
+TYPE:Gozzilioni.Old30
+SETTING:Heroes
+BOOKTYPE:Campaign
+SOURCELONG:Epic Level Handbook 3.0
+SOURCESHORT:ELH30
+SOURCEWEB:http://www.gozzilioni.net
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+
+PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Guide
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:missing.txt
+
+ABILITY:elh_abilities.lst
+# ABILITY:motp_abilities_classes.lst
+ABILITY:elh_abilities_races.lst
+ABILITY:elh_abilities_templates.lst
+ABILITYCATEGORY:elh_abilitycategories.lst
+CLASS:elh_classes.lst
+# COMPANIONMOD:ss_companionmods.lst
+DOMAIN:elh_domains.lst
+EQUIPMENT:elh_equip.lst
+# EQUIPMENT:aaeg_equip_armors.lst
+EQUIPMENT:elh_equip_armors_specific.lst
+EQUIPMENT:elh_equip_magic_items.lst
+# EQUIPMENT:aaeg_equip_weapons.lst
+EQUIPMENT:elh_equip_weapons_specific.lst
+EQUIPMENT:elh_equip_weapons_natural.lst
+EQUIPMOD:elh_equipmods.lst
+ABILITY:elh_feats.lst
+KIT:elh_kits.lst
+LANGUAGE:elh_languages.lst
+# ARMORPROF:aaeg_profs_armor.lst
+# SHIELDPROF:aaeg_profs_shield.lst
+# WEAPONPROF:aaeg_profs_weapon.lst
+RACE:elh_races.lst
+# RACE:ss_races_companion.lst
+SKILL:elh_skills.lst
+SPELL:elh_spells.lst
+# ABILITY:motp_subraces.lst
+TEMPLATE:elh_templates.lst
+#
+FORWARDREF:CLASS|Animal (Legendary)
+# HIDETYPE:SKILL|Perform (Buffoonery)
+# HIDETYPE:FEAT|Wizard
+
+# ENTRY DATE: 2016-07 
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

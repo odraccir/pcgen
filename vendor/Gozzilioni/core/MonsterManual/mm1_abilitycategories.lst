@@ -59,6 +59,8 @@ ABILITYCATEGORY:Troll Subrace	CATEGORY:Internal	TYPE:TrollSubrace.TrollSubraceDi
 ABILITYCATEGORY:Yuan-Ti Race Trait	CATEGORY:Special Ability	TYPE:YuanTiRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
 ABILITYCATEGORY:Yuan-Ti Subrace	CATEGORY:Internal	TYPE:YuanTiSubrace.Yuan-TiSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
 
+ABILITYCATEGORY:Hydra Heads	CATEGORY:Special Ability	TYPE:HydraHeads	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+
 #Abilitygroup:Class Ability categories																						
 ABILITYCATEGORY:Homunculus Class Feature	CATEGORY:Special Ability	TYPE:HomunculusClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Homunculus Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Hydra Class Feature	CATEGORY:Special Ability	TYPE:HydraClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Hydra Class Features			DISPLAYLOCATION:Class Features

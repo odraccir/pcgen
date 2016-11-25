@@ -1,12 +1,14 @@
 SOURCELONG:Core Ruleset	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
 
-Base Race Type		VISIBLE:NO	TEMPLATE:CHOOSE:Base Race Type ~ Aberration|Base Race Type ~ Animal|Base Race Type ~ Construct|Base Race Type ~ Dragon|Base Race Type ~ Elemental|Base Race Type ~ Fey|Base Race Type ~ Giant|Base Race Type ~ Humanoid|Base Race Type ~ Magical Beast|Base Race Type ~ Monstrous Humanoid|Base Race Type ~ Ooze|Base Race Type ~ Outsider|Base Race Type ~ Plant|Base Race Type ~ Undead|Base Race Type ~ Vermin
+Base Race Type		VISIBLE:NO	TEMPLATE:CHOOSE:Base Race Type ~ Aberration|Base Race Type ~ Abomination|Base Race Type ~ Animal|Base Race Type ~ Construct|Base Race Type ~ Dragon|Base Race Type ~ Deathless|Base Race Type ~ Elemental|Base Race Type ~ Fey|Base Race Type ~ Giant|Base Race Type ~ Humanoid|Base Race Type ~ Magical Beast|Base Race Type ~ Monstrous Humanoid|Base Race Type ~ Ooze|Base Race Type ~ Outsider|Base Race Type ~ Plant|Base Race Type ~ Undead|Base Race Type ~ Vermin
 
 ###Block: Base Race Type
 # Template Name				Visible	Define					Required Race									Modify VAR																Ability
 Base Race Type ~ Aberration		VISIBLE:NO	DEFINE:BaseRaceTypeUnchanged|0	PRERACE:2,RACETYPE=Aberration,TYPE=Aberration				BONUS:VAR|BaseRaceTypeUnchanged|1|!PRERACE:2,RACETYPE=Aberration,TYPE=Aberration				ABILITY:Internal|AUTOMATIC|Augmented Aberration|PREVAREQ:BaseRaceTypeUnchanged,1
+Base Race Type ~ Abomination		VISIBLE:NO	DEFINE:BaseRaceTypeUnchanged|0	PRERACE:2,RACETYPE=Abomination,TYPE=Abomination				BONUS:VAR|BaseRaceTypeUnchanged|1|!PRERACE:2,RACETYPE=Abomination,TYPE=Abomination				ABILITY:Internal|AUTOMATIC|Augmented Abomination|PREVAREQ:BaseRaceTypeUnchanged,1
 Base Race Type ~ Animal			VISIBLE:NO	DEFINE:BaseRaceTypeUnchanged|0	PRERACE:2,RACETYPE=Animal,TYPE=Animal					BONUS:VAR|BaseRaceTypeUnchanged|1|!PRERACE:2,RACETYPE=Animal,TYPE=Animal					ABILITY:Internal|AUTOMATIC|Augmented Animal|PREVAREQ:BaseRaceTypeUnchanged,1
 Base Race Type ~ Construct		VISIBLE:NO	DEFINE:BaseRaceTypeUnchanged|0	PRERACE:2,RACETYPE=Construct,TYPE=Construct				BONUS:VAR|BaseRaceTypeUnchanged|1|!PRERACE:2,RACETYPE=Construct,TYPE=Construct				ABILITY:Internal|AUTOMATIC|Augmented Construct|PREVAREQ:BaseRaceTypeUnchanged,1
+Base Race Type ~ Deathless			VISIBLE:NO	DEFINE:BaseRaceTypeUnchanged|0	PRERACE:2,RACETYPE=Deathless,TYPE=Deathless					BONUS:VAR|BaseRaceTypeUnchanged|1|!PRERACE:2,RACETYPE=Deathless,TYPE=Deathless					ABILITY:Internal|AUTOMATIC|Augmented Deathless|PREVAREQ:BaseRaceTypeUnchanged,1
 Base Race Type ~ Dragon			VISIBLE:NO	DEFINE:BaseRaceTypeUnchanged|0	PRERACE:2,RACETYPE=Dragon,TYPE=Dragon					BONUS:VAR|BaseRaceTypeUnchanged|1|!PRERACE:2,RACETYPE=Dragon,TYPE=Dragon					ABILITY:Internal|AUTOMATIC|Augmented Dragon|PREVAREQ:BaseRaceTypeUnchanged,1
 Base Race Type ~ Elemental		VISIBLE:NO	DEFINE:BaseRaceTypeUnchanged|0	PRERACE:2,RACETYPE=Elemental,TYPE=Elemental				BONUS:VAR|BaseRaceTypeUnchanged|1|!PRERACE:2,RACETYPE=Elemental,TYPE=Elemental				ABILITY:Internal|AUTOMATIC|Augmented Elemental|PREVAREQ:BaseRaceTypeUnchanged,1
 Base Race Type ~ Fey			VISIBLE:NO	DEFINE:BaseRaceTypeUnchanged|0	PRERACE:2,RACETYPE=Fey,TYPE=Fey						BONUS:VAR|BaseRaceTypeUnchanged|1|!PRERACE:2,RACETYPE=Fey,TYPE=Fey						ABILITY:Internal|AUTOMATIC|Augmented Fey|PREVAREQ:BaseRaceTypeUnchanged,1
@@ -23,8 +25,10 @@ Base Race Type ~ Vermin			VISIBLE:NO	DEFINE:BaseRaceTypeUnchanged|0	PRERACE:2,RA
 ###Block: Base Race Subtype 
 # Template Name						Visible	Template							Required Race			Prohibited Race			Removable?		Main Race Type		Race Subtype
 RaceSubtype ~ Augmented Aberration			VISIBLE:NO																			REMOVABLE:YES					RACESUBTYPE:Augmented Aberration
+RaceSubtype ~ Augmented Abomination			VISIBLE:NO																			REMOVABLE:YES					RACESUBTYPE:Augmented Abomination
 RaceSubtype ~ Augmented Animal			VISIBLE:NO																			REMOVABLE:YES					RACESUBTYPE:Augmented Animal
 RaceSubtype ~ Augmented Construct			VISIBLE:NO																			REMOVABLE:YES					RACESUBTYPE:Augmented Construct
+RaceSubtype ~ Augmented Deathless			VISIBLE:NO																			REMOVABLE:YES					RACESUBTYPE:Augmented Deathless
 RaceSubtype ~ Augmented Dragon			VISIBLE:NO																			REMOVABLE:YES					RACESUBTYPE:Augmented Dragon
 RaceSubtype ~ Augmented Elemental			VISIBLE:NO																			REMOVABLE:YES					RACESUBTYPE:Augmented Elemental
 RaceSubtype ~ Augmented Fey				VISIBLE:NO																			REMOVABLE:YES					RACESUBTYPE:Augmented Fey
