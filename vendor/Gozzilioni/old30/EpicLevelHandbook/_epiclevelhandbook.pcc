@@ -19,6 +19,7 @@ PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Gui
 
 ABILITY:elh_abilities.lst
 # ABILITY:motp_abilities_classes.lst
+ABILITY:elh_abilities_guilds.lst
 ABILITY:elh_abilities_races.lst
 ABILITY:elh_abilities_templates.lst
 ABILITYCATEGORY:elh_abilitycategories.lst
@@ -47,7 +48,8 @@ SPELL:elh_spells.lst
 TEMPLATE:elh_templates.lst
 #
 FORWARDREF:CLASS|Animal (Legendary)
-# HIDETYPE:SKILL|Perform (Buffoonery)
+FORWARDREF:DOMAIN|Creation
+FORWARDREF:SKILL|Craft (Dreamweaving)|Craft (Gemcutting)|Knowledge (Dreams)|Knowledge (Undead)
 # HIDETYPE:FEAT|Wizard
 
 # ENTRY DATE: 2016-07 

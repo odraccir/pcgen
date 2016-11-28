@@ -14,6 +14,7 @@
 #other
 ABILITYCATEGORY:Improved Alignment-Based Casting	CATEGORY:Special Ability	TYPE:ImprovedAlignmentBasedCasting	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Improved Alignment-Based Castings			DISPLAYLOCATION:Feats
 ABILITYCATEGORY:Improved Manifestation	CATEGORY:Special Ability	TYPE:ImprovedManifestation	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Improved Manifestation			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Epic Spellcasting Type	CATEGORY:Special Ability	TYPE:EpicSpells	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Epic Spellcasting Types	DISPLAYLOCATION:Feats
 
 #
 # End

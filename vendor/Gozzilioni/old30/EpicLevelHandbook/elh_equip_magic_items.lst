@@ -161,6 +161,11 @@ Mantle of Great Stealth		TYPE:Wondrous.Cape	COST:242000	WT:1	SOURCEPAGE:ELH	SPRO
 Periapt of Wisdom +8		TYPE:Wondrous.Amulet	COST:640000	WT:0	SOURCEPAGE:ELH	BONUS:STAT|WIS|8|TYPE=Enhancement																
 Periapt of Wisdom +10		TYPE:Wondrous.Amulet	COST:1000000	WT:0	SOURCEPAGE:ELH	BONUS:STAT|WIS|10|TYPE=Enhancement																
 Periapt of Wisdom +12		TYPE:Wondrous.Amulet	COST:1440000	WT:0	SOURCEPAGE:ELH	BONUS:STAT|WIS|12|TYPE=Enhancement																
+Ioun Stone of Resistance +1		TYPE:Wondrous.IounStone	COST:2000	WT:0	SOURCEPAGE:ELH	BONUS:SAVE|ALL|1|TYPE=Resistance										
+Ioun Stone of Resistance +2		TYPE:Wondrous.IounStone	COST:8000	WT:0	SOURCEPAGE:ELH	BONUS:SAVE|ALL|2|TYPE=Resistance										
+Ioun Stone of Resistance +3		TYPE:Wondrous.IounStone	COST:18000	WT:0	SOURCEPAGE:ELH	BONUS:SAVE|ALL|3|TYPE=Resistance										
+Ioun Stone of Resistance +4		TYPE:Wondrous.IounStone	COST:32000	WT:0	SOURCEPAGE:ELH	BONUS:SAVE|ALL|4|TYPE=Resistance										
+Ioun Stone of Resistance +5		TYPE:Wondrous.IounStone	COST:50000	WT:0	SOURCEPAGE:ELH	BONUS:SAVE|ALL|5|TYPE=Resistance										
 																						
 ## Intelligent																						
 																						

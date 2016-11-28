@@ -48,8 +48,31 @@ Vengeful Gaze of God				TYPE:Epic	SCHOOL:Transmutation			CLASSES:Epic Spells (Ar
 Verdigris				TYPE:Epic	SCHOOL:Transmutation			CLASSES:Epic Spells (Arcane/CHA),Epic Spells (Arcane/INT),Epic Spells (Arcane/WIS),Epic Spells (Divine/CHA),Epic Spells (Divine/INT),Epic Spells (Divine/WIS)=10	COMPS:V, S	CASTTIME:1 minute	RANGE:300 ft.	TARGETAREA:100-ft-radius hemisphere.	DURATION:24 hours	SAVEINFO:Reflex half	SPELLRES:No	DESC:When you cast this spell, you create a tsunami of grass, shrubs, and trees that overgrows the area like a tidal wave. Spellcraft 58.	SOURCEPAGE:ELH	PREABILITY:1,CATEGORY=FEAT,Epic Spellcasting							
 Verdigris Tsunami				TYPE:Epic	SCHOOL:Transmutation			CLASSES:Epic Spells (Arcane/CHA),Epic Spells (Arcane/INT),Epic Spells (Arcane/WIS),Epic Spells (Divine/CHA),Epic Spells (Divine/INT),Epic Spells (Divine/WIS)=10	COMPS:V, S, XP, Ritual	CASTTIME:10 minutes	RANGE:1500 ft.	TARGETAREA:1000-ft-radius hemisphere.	DURATION:Permanent	SAVEINFO:Reflex half	SPELLRES:No	DESC:As verdigris, except creatures in the area take 40d6 points of damage (Reflex save for half), as do buildings, and the plant growth is permanent. XP Cost: 10,000 XP. Spellcraft 170.	SOURCEPAGE:ELH	PREABILITY:1,CATEGORY=FEAT,Epic Spellcasting							
 Genesis				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation		CLASSES:Sorcerer=9|Wizard=9	COMPS:V, S, M, XP	CASTTIME:1 week	RANGE:180 ft.	TARGETAREA:A demiplane coterminous with the ethereal plane, centered on your location.	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:You create a finite plane with limited access: a demiplane. Demiplanes created by this power are very small, very minor planes.	SOURCEPAGE:ELH, p. 117								
+Gathering of Maggots				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Healing		CLASSES:Epic Spells (Arcane/CHA),Epic Spells (Arcane/INT),Epic Spells (Arcane/WIS),Epic Spells (Divine/CHA),Epic Spells (Divine/INT),Epic Spells (Divine/WIS)=10	COMPS:V, S, DF	CASTTIME:7 days	RANGE:Touch	TARGETAREA:Dead creature touched.	DURATION:Permanent	SAVEINFO:Fortitude negates (harmless)	SPELLRES:Yes	DESC:When this spell is cast, worms or maggots slither and crawl their way inexorably toward the corpse touched. Spellcraft 49.	SOURCEPAGE:ELH, p. 230								
+Icerazor				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Cold	CLASSES:Epic Spells (Arcane/CHA),Epic Spells (Arcane/INT),Epic Spells (Arcane/WIS),Epic Spells (Divine/CHA),Epic Spells (Divine/INT),Epic Spells (Divine/WIS)=10	COMPS:V, S, XP	CASTTIME:1 standard action	RANGE:300 ft.	TARGETAREA:A bolt of cold 300-ft long and 10-ft wide.	DURATION:Instantaneous	SAVEINFO:Reflex half	SPELLRES:Yes	DESC:This spell creates a slicing bolt of energy that deals 10d6 points of damage plus 20d6 points of cold damage to creatures it strikes. XP Cost: 2,000 XP. Spellcraft 40.	SOURCEPAGE:ELH, p. 303	PREABILITY:1,CATEGORY=FEAT,Epic Spellcasting		XPCOST:2000					
+Ice Fist				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Cold	CLASSES:Epic Spells (Arcane/CHA),Epic Spells (Arcane/INT),Epic Spells (Arcane/WIS),Epic Spells (Divine/CHA),Epic Spells (Divine/INT),Epic Spells (Divine/WIS)=10	COMPS:V, S, XP	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched.	DURATION:20 hours	SAVEINFO:Reflex partial; See text	SPELLRES:Yes	DESC:This spell encases the target, whom you must hit with a melee touch attack, in a block of ice that radiates cold energy. XP Cost: 1,300 XP. Spellcraft 40.	SOURCEPAGE:ELH, p. 304	PREABILITY:1,CATEGORY=FEAT,Epic Spellcasting		XPCOST:1300					
+Cold Claws				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Cold	CLASSES:Epic Spells (Arcane/CHA),Epic Spells (Arcane/INT),Epic Spells (Arcane/WIS),Epic Spells (Divine/CHA),Epic Spells (Divine/INT),Epic Spells (Divine/WIS)=10	COMPS:V, S	CASTTIME:10 minutes	RANGE:20 miles	TARGETAREA:A 20-mile-radius, centered on you..	DURATION:20 hours	SAVEINFO:None	SPELLRES:No	DESC:This spell creates a blizzard within the area of the spell. Spellcraft 39.	SOURCEPAGE:ELH, p. 304	PREABILITY:1,CATEGORY=FEAT,Epic Spellcasting
 
+Animal Growth.COPY=Animal Growth	KEY:Animal Growth ~ Vermins only
+Animal Growth ~ Vermins only.MOD	OUTPUTNAME:Animal Growth	TYPE:SpellLike	DESC:Vermins only.
+Animal Messenger.COPY=Animal Messenger	KEY:Animal Messenger ~ Vermins only
+Animal Messenger ~ Vermins only.MOD	OUTPUTNAME:Animal Messenger	TYPE:SpellLike	DESC:Vermins only.
+Animal Shapes.COPY=Animal Shapes	KEY:Animal Shapes ~ Vermins only
+Animal Shapes ~ Vermins only.MOD	OUTPUTNAME:Animal Shapes	TYPE:SpellLike	DESC:Vermins only.
+Animal Trance.COPY=Animal Trance	KEY:Animal Trance ~ Vermins only
+Animal Trance ~ Vermins only.MOD	OUTPUTNAME:Animal Trance	TYPE:SpellLike	DESC:Vermins only.
+Charm Animal.COPY=Charm Animal	KEY:Charm Animal ~ Vermins only
+Charm Animal ~ Vermins only.MOD	OUTPUTNAME:Charm Animal	TYPE:SpellLike	DESC:Vermins only.
 Contingent Resurrection.COPY=Contingent Resurrection	KEY:Contingent Recall and Resurrection
 Contingent Recall and Resurrection.MOD	TYPE:SpellLike	DESC:.CLEAR	DESC:When slain, you are actually transported, with your mount, back to the fey realm, where you'll be resurrected and allowed to begin the hunt anew.
 Cure Light Wounds (Mass).COPY=Cure Light Wounds (Mass)	KEY:Cure Light Wounds (Mass) ~ Plants only
 Cure Light Wounds (Mass) ~ Plants only.MOD	OUTPUTNAME:Cure Light Wounds (Mass)	TYPE:SpellLike	DESC:Plants only can benefit.
+Summon Swarm.COPY=Summon Swarm	KEY:Summon Swarm ~ Vermins only
+Summon Swarm ~ Vermins only.MOD	OUTPUTNAME:Summon Swarm	TYPE:SpellLike	DESC:Vermins only.
+
+Giant Vermin.COPY=Giant Vermin	KEY:Colossal Vermin
+Colossal Vermin.MOD	OUTPUTNAME:Colossal Vermin	TYPE:SpellLike	DESC:.CLEAR	DESC:as giant vermin, but it can increase the creature's size from Large to Gargantuan and from Huge to Colossal
+Summon Nature's Ally I.COPY=Summon Nature's Ally I	KEY:Summon Vermin
+Summon Vermin.MOD	OUTPUTNAME:Summon Vermin	TYPE:SpellLike	DESC:.CLEAR	DESC:as summon nature's ally spell, except it summons 10 HD of vermin per level.
+Insect Plague.COPY=Insect Plague	KEY:Vermin Plague
+Vermin Plague.MOD	OUTPUTNAME:Vermin Plague	TYPE:SpellLike	DESC:.CLEAR	DESC:as Insect Plague spell, exept they are vermins.

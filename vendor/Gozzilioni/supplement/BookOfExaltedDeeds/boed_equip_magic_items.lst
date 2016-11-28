@@ -38,7 +38,7 @@ Redeemed Darkskull		TYPE:Wondrous	COST:60000	WT:5	SOURCEPAGE:BoED	SPROP:continuo
 																						
 ###Block: Intelligent																						
 Staff of Healing	KEY:Staff (Healing)	TYPE:Staff.Specific	COST:34950	WT:5	SOURCEPAGE:BoED		SPROP:Lesser restoration (1 charge)/Cure serious wounds (1 charge)/Remove blindness/deafness (2 charges)/Remove disease (3 charges).	EQMOD:CHARGED_ITEM_50|CHARGES[50].INT_ITEM.INT_ITEM.STAFF_INT_ITEM_3.INT_ITEM_INT_14.INT_ITEM_WIS_14.INT_ITEM_LANG_2|Celestial,Common,Infernal.INT_ITEM_ALIGN_NG.INT_ITEM_EASE_PAIN_1.INT_ITEM_VISION_HEAVEN														
-Hwyrr, the Clarion Harp		TYPE:Goods.Tools.Instrument.String.Resizable.Specific	COST:84000	WT:3	SOURCEPAGE:BoED		BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	EQMOD:SERREN_ITEM.INT_ITEM.INST_INT_ITEM_7.INT_ITEM_INT_18.INT_ITEM_CHA_18.INT_ITEM_ALIGN_CG.INT_ITEM_LANG_4|Elven.INT_ITEM_FAERIE.INT_ITEM_DIPLOMACY.INT_ITEM_SPOT														
+Hwyrr		TYPE:Goods.Tools.Instrument.String.Resizable.Specific	COST:84000	WT:3	SOURCEPAGE:BoED		BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	EQMOD:SERREN_ITEM.INT_ITEM.INST_INT_ITEM_7.INT_ITEM_INT_18.INT_ITEM_CHA_18.INT_ITEM_ALIGN_CG.INT_ITEM_LANG_4|Elven.INT_ITEM_FAERIE.INT_ITEM_DIPLOMACY.INT_ITEM_SPOT														
 																						
 ###Block: Artifact																						
 Cup and Talisman of Al'Akbar (Cup of Al'Akbar)	OUTPUTNAME:[NAME]	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:BoED			SPROP:7/day turn water into potions of Cure Light Wounds.	SPELLS:Cup of Al'Akbar|TIMES=1|CASTERLEVEL=20|Bless,25													

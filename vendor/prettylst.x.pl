@@ -1907,8 +1907,9 @@ my @QUALIFY_Tags = (
 my @Global_BONUS_Tags = (
     'BONUS:ABILITYPOOL:*',          # Global
     'BONUS:CASTERLEVEL:*',          # Global
-#    'BONUS:CHECKS:*',               # Global [Deprecated 6.03.01]
+	'BONUS:CHECKS:*',			    # Global	DEPRECATED
     'BONUS:COMBAT:*',               # Global
+	'BONUS:CONCENTRATION:*',		# Global
     'BONUS:DC:*',                   # Global
     'BONUS:DOMAIN:*',               # Global
     'BONUS:DR:*',                   # Global
@@ -1966,6 +1967,7 @@ my @double_PCC_tags = (
     'BONUS:CASTERLEVEL:*',        
     'BONUS:CHECKS:*',            
     'BONUS:COMBAT:*',            
+	'BONUS:CONCENTRATION:*',
     'BONUS:DC:*',            
     'BONUS:DOMAIN:*',            
     'BONUS:DR:*',            
@@ -2149,13 +2151,13 @@ my %master_order = (
         'XTRAFEATS',
         'SPELLSTAT',
         'BONUSSPELLSTAT',
-        'FACT:Spelltype',
-#		'SPELLTYPE',
+        'FACT:SpellType:*',
+#       'SPELLTYPE',
         'TYPE',
-        'FACT:ClassType',
 #       'CLASSTYPE',
-        'FACT:Abb',
-#		'ABB',
+        'FACT:ClassType:*',
+#       'ABB',
+        'FACT:Abb:*',
         'MAXLEVEL',
         'CASTAS',
         'MEMORIZE',
@@ -2885,6 +2887,7 @@ my %master_order = (
         'BONUS:CASTERLEVEL:*',
 #        'BONUS:CHECKS:*', # deprecated
         'BONUS:COMBAT:*',
+		'BONUS:CONCENTRATION:*',
         'BONUS:DC:*',
         'BONUS:FEAT:*',
         'BONUS:MOVEADD:*',
@@ -3227,7 +3230,7 @@ my %master_order = (
         'NAMEISPI',
         'OUTPUTNAME',
         'HD',
-        'ABB',            #  Deprecated 6.05.01
+#		'ABB',			#  Invalid for SubClass
         'COST',
         'PROHIBITCOST',
         'CHOICE',
@@ -3291,7 +3294,7 @@ my %master_order = (
         'KEY',                       # [ 1695877 ] KEY tag is global
         'NAMEISPI',
         'OUTPUTNAME',
-#        'ABB',            #  Deprecated 6.05.01
+#		'ABB',			#  Invalid for SubClass
         'COST',
         'PROHIBITCOST',
         'CHOICE',
@@ -3895,7 +3898,8 @@ my %token_BONUS_tag = map { $_ => 1 } (
     'CASTERLEVEL',
 #    'CHECKS',        # Deprecated
     'COMBAT',
-#    'DAMAGE',        # Deprecated 4.3.8 - Remove 5.16.0 - Use BONUS:COMBAT|DAMAGE.x|y
+	'CONCENTRATION',
+#	'DAMAGE',		# Deprecated 4.3.8 - Remove 5.16.0 - Use BONUS:COMBAT|DAMAGE.x|y
     'DC',
     'DOMAIN',
     'DR',
@@ -4220,6 +4224,7 @@ my %tagheader = (
         'BONUS:ABILITYPOOL'            => 'Bonus Ability Pool',
         'BONUS:CASTERLEVEL'     => 'Caster level',
         'BONUS:CHECKS'          => 'Save checks bonus',
+		'BONUS:CONCENTRATION'				=> 'Concentration bonus',
         'BONUS:SAVE'                => 'Save bonus',
         'BONUS:COMBAT'          => 'Combat bonus',
         'BONUS:DAMAGE'          => 'Weapon damage bonus',
@@ -4561,6 +4566,7 @@ my %tagheader = (
         'TARGETAREA:.CLEAR'     => 'Clear Target Area or Effect',
         'TARGETAREA'            => 'Target Area or Effect',
         'TEMPDESC'              => 'Temporary effect description',
+        'TEMPVALUE'              => 'Temporary choice',
         'TEMPLATE'              => 'Template',
         'TEMPLATE:.CLEAR'       => 'Clear Templates',
         'TYPE'                  => 'Type',
@@ -4578,6 +4584,7 @@ my %tagheader = (
         'WT'                    => 'Weight',
         'XPCOST'                => 'XP Cost',
         'XTRAFEATS'                    => 'Extra Feats',
+        'PRETOTALAB'                    => 'Minimum Base Attack Bonus',
     },
 
     'ABILITYCATEGORY' => {
@@ -6336,7 +6343,7 @@ sub FILETYPE_parse {
             if (   ( $this_header && index( $line_tokens, $this_header ) == 0 )
                 || ( $next_header && index( $line_tokens, $next_header ) == 0 ) )
             {
-
+ 
                 # It is a header, let's tag it as such.
                 $newlines[$line_index] = [
                     'HEADER',
@@ -6344,7 +6351,7 @@ sub FILETYPE_parse {
                 ];
             }
             else {
-
+ 
                 # It is just a comment, we won't botter with it ever again.
                 $newlines[$line_index] = $line_tokens;
             }
@@ -6449,7 +6456,15 @@ sub FILETYPE_parse {
 
         my $mode   = $line_info->{Mode};
         my $format = $line_info->{Format};
-        my $header = $line_info->{Header};
+#       my $header = $line_info->{Header};
+        my $header;
+        if ( $conversion_enable{'No extra Tab'} ) {
+           $header = NO_HEADER;
+        } 
+        else {
+           $header = $line_info->{Header};
+        }
+        
 
         if ( $mode == SINGLE || $format == LINE ) {
 
@@ -14875,8 +14890,6 @@ sub warn_deprecate {
 
                 # Header part.
                 print {$bioset_fh} << "END_OF_HEADER";
-# CVS \$Revision\$ \$Author\$ -- $today -- reformated by $SCRIPTNAME v$VERSION
-
 AGESET:0|Adulthood
 END_OF_HEADER
 

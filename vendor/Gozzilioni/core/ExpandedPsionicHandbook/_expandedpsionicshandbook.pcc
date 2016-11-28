@@ -17,6 +17,7 @@ PUBNAMEWEB:http://www.gozzilioni.net
 PRECAMPAIGN:1,Core Ruleset
 
 ABILITY:eph_abilities.lst
+ABILITY:eph_abilities_guilds.lst
 ABILITY:eph_abilities_classes.lst
 ABILITY:eph_abilities_races.lst
 ABILITY:eph_abilities_template.lst

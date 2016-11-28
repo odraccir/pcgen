@@ -190,13 +190,13 @@ Gargantuan	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Monstrous Scorpion ~ Gargantuan	SUBRACE
 Colossal	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Monstrous Scorpion ~ Colossal	SUBRACE:Colossal	
 
 Five Headed	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Hydra ~ Five Headed	SUBRACE:Five Headed	
-Six Headed	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Hydra ~ Five Headed	SUBRACE:Six Headed	ADDLEVEL:Magical Beast|1
-Seven Headed	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Hydra ~ Five Headed	SUBRACE:Seven Headed	ADDLEVEL:Magical Beast|2
-Eight Headed	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Hydra ~ Five Headed	SUBRACE:Eight Headed	ADDLEVEL:Magical Beast|3
-Nine Headed	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Hydra ~ Five Headed	SUBRACE:Nine Headed	ADDLEVEL:Magical Beast|4
-Ten Headed	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Hydra ~ Five Headed	SUBRACE:Ten Headed	ADDLEVEL:Magical Beast|5
-Eleven Headed	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Hydra ~ Five Headed	SUBRACE:Eleven Headed	ADDLEVEL:Magical Beast|6
-Twelve Headed	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Hydra ~ Five Headed	SUBRACE:Twelve Headed	ADDLEVEL:Magical Beast|7
+Six Headed	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Hydra ~ Six Headed	SUBRACE:Six Headed	ADDLEVEL:Magical Beast|1
+Seven Headed	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Hydra ~ Seven Headed	SUBRACE:Seven Headed	ADDLEVEL:Magical Beast|2
+Eight Headed	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Hydra ~ Eight Headed	SUBRACE:Eight Headed	ADDLEVEL:Magical Beast|3
+Nine Headed	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Hydra ~ Nine Headed	SUBRACE:Nine Headed	ADDLEVEL:Magical Beast|4
+Ten Headed	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Hydra ~ Ten Headed	SUBRACE:Ten Headed	ADDLEVEL:Magical Beast|5
+Eleven Headed	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Hydra ~ Eleven Headed	SUBRACE:Eleven Headed	ADDLEVEL:Magical Beast|6
+Twelve Headed	VISIBLE:NO	SOURCEPAGE:MM1	KEY:Hydra ~ Twelve Headed	SUBRACE:Twelve Headed	ADDLEVEL:Magical Beast|7
 
 ###Block: Racial Subrace
 Aquan	KEY:Language ~ Aquan	VISIBLE:NO	AUTO:LANG|Aquan	
@@ -255,7 +255,7 @@ Lycanthrope (Hybrid Form)	VISIBLE:YES	PRETEMPLATE:1,Lycanthrope	ABILITY:Special 
 
 Werebear Attacks	VISIBLE:NO	PRETEMPLATE:1,Lycanthrope ~ Bear	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d8|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,2d6	
 Wereboar Attacks	VISIBLE:NO	PRETEMPLATE:1,Lycanthrope ~ Boar	NATURALATTACKS:Gore,Weapon.Natural.Melee.Finesseable.Piercing,*1,1d8	BONUS:WEAPONPROF=Gore|DAMAGE|STR/2	
-Wererat Attacks	VISIBLE:NO	PRETEMPLATE:1,Lycanthrope ~ Rat	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing.Disease,*1,1d4	BONUS:WEAPONPROF=Bite|DAMAGE|STR/2	
+Wererat Attacks	VISIBLE:NO	PRETEMPLATE:1,Lycanthrope ~ Rat	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d4	BONUS:WEAPONPROF=Bite|DAMAGE|STR/2	
 Weretiger Attacks	VISIBLE:NO	PRETEMPLATE:1,Lycanthrope ~ Tiger	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d6|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d8	
 Werewolf Attacks	VISIBLE:NO	PRETEMPLATE:1,Lycanthrope ~ Wolf	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6	BONUS:WEAPONPROF=Bite|DAMAGE|STR/2	
 Dire Werewolf Attacks	VISIBLE:NO	PRETEMPLATE:1,Lycanthrope ~ Dire Wolf	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d8	BONUS:WEAPONPROF=Bite|DAMAGE|STR/2	

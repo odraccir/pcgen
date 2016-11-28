@@ -6,7 +6,7 @@ GEAR:Anaxim ~ Spike	QTY:1
 
 STARTPACK:Abomination (Atropal) Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Abomination (Atropal)
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
-GEAR:Atropal ~ Eye Ray	QTY:1
+GEAR:Atropal ~ Eye Rays	QTY:1
 
 STARTPACK:Abomination (Chichimec) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Abomination (Chichimec)
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
@@ -14,7 +14,7 @@ STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
 STARTPACK:Abomination (Dream Larva) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Abomination (Dream Larva)
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
-STARTPACK:Abomination (Hecatonchierer) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Abomination (Hecatonchieres)
+STARTPACK:Abomination (Hecatoncheires) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Abomination (Hecatoncheires)
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
 
 STARTPACK:Abomination (Hecatoncheires) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Abomination (Hecatoncheires)
@@ -36,6 +36,9 @@ STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
 STARTPACK:Behemot (Behemot Eagle) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Behemot (Behemot Eagle)
 STAT:STR=11|DEX=10|CON=11|INT=11|WIS=11|CHA=10
 
+STARTPACK:Behemot (Behemot Gorilla) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Behemot (Behemot Gorilla)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
 STARTPACK:Brachyurus Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Brachyurus
 STAT:STR=10|DEX=10|CON=11|INT=10|WIS=10|CHA=11
 
@@ -47,6 +50,9 @@ STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=11
 
 STARTPACK:Colossus (Flesh) Standard Equip	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Colossus (Flesh)
 GEAR:Club	SIZE:C
+
+STARTPACK:Colossus (Iron) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Colossus (Iron)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
 
 STARTPACK:Devastation Vermin (Devastation Centipede) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devastation Vermin (Devastation Centipede)
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
@@ -122,7 +128,7 @@ STARTPACK:Leshay Stats	TYPE:DefaultMonster.Fey	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,L
 STAT:STR=11|DEX=11|CON=11|INT=11|WIS=11|CHA=11
 
 STARTPACK:Leshay Standard Equip	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Leshay
-GEAR:Sword (Bastard)	SIZE:M	EQMOD:PLUS10W.KEEN.BRI_EN_W	QTY:2
+GEAR:Sword (Bastard)	SIZE:M	EQMOD:PLUS10W.KEEN.BRI_EN_M	QTY:2
 
 STARTPACK:Living Vault Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Living Vault
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=11
@@ -179,4 +185,10 @@ STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
 
 STARTPACK:Uvuudaum Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Uvuudaum
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Vermiurge Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Vermiurge
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Winterwight Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Winterwight
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
 

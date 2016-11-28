@@ -384,7 +384,7 @@ STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
 STARTPACK:Elemental (Water) Stats	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Elemental (Water)
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=11
 
-STARTPACK:Elf (Drow) Standard Equip	TYPE:DefaultMonster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Elf	PREABILITY:1,CATEGORY=Elf Subrace,Elf ~ Drow
+STARTPACK:Elf (Drow) Standard Equip	TYPE:DefaultMonster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Elf	PREABILITY:1,CATEGORY=Special Ability,Elf ~ Drow
 GEAR:Poison (Drow Poison)	QTY:roll("1d4-1")
 
 STARTPACK:Ethereal Filcher Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ethereal Filcher
@@ -1610,6 +1610,10 @@ CLASS:Dragon	LEVEL:11
 STARTPACK:Dragon (Gold/Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Gold)
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
 CLASS:Dragon	LEVEL:14
+
+STARTPACK:Dragon (Gold/Ancient) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Gold)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:35
 
 STARTPACK:Dragon (Green) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Green)
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10

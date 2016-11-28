@@ -68,10 +68,10 @@ Psionatrix (Psychokinesis)		TYPE:Universal.Amulet	COST:8000	WT:0	SOURCEPAGE:EPH	
 Psionatrix (Psychometabolism)		TYPE:Universal.Amulet	COST:8000	WT:0	SOURCEPAGE:EPH		BONUS:DC|SCHOOL.Psychometabolism|1															
 Psionatrix (Psychoportation)		TYPE:Universal.Amulet	COST:8000	WT:0	SOURCEPAGE:EPH		BONUS:DC|SCHOOL.Psychoportation|1															
 Psionatrix (Telepathy)		TYPE:Universal.Amulet	COST:8000	WT:0	SOURCEPAGE:EPH		BONUS:DC|SCHOOL.Telepathy|1															
-Psionic Restraint (Lesser)		TYPE:Universal.Bracer	COST:1000	WT:0	SOURCEPAGE:EPH	SPROP:Wearer can use at most 5PP/round.																
-Psionic Restraint (Average)		TYPE:Universal.Bracer	COST:6000	WT:0	SOURCEPAGE:EPH	SPROP:Wearer can use at most 3PP/round.																
-Psionic Restraint (Greater)		TYPE:Universal.Bracer	COST:12000	WT:0	SOURCEPAGE:EPH	SPROP:Wearer can use at most 1PP/round.																
-Psionic Restraint (Damping)		TYPE:Universal.Bracer	COST:24000	WT:0	SOURCEPAGE:EPH	SPROP:Wearer can use no PP.																
+Psionic Restraint (Lesser)		TYPE:Universal.Bracer	COST:1000	WT:0	SOURCEPAGE:EPH	SPROP:Wearer can use at most 5PP/round.	SLOTS:2															
+Psionic Restraint (Average)		TYPE:Universal.Bracer	COST:6000	WT:0	SOURCEPAGE:EPH	SPROP:Wearer can use at most 3PP/round.	SLOTS:2															
+Psionic Restraint (Greater)		TYPE:Universal.Bracer	COST:12000	WT:0	SOURCEPAGE:EPH	SPROP:Wearer can use at most 1PP/round.	SLOTS:2															
+Psionic Restraint (Damping)		TYPE:Universal.Bracer	COST:24000	WT:0	SOURCEPAGE:EPH	SPROP:Wearer can use no PP.	SLOTS:2															
 Psychoactive Skin (Chameleon)		TYPE:Universal.Ectoshell	COST:18000	WT:2	SOURCEPAGE:EPH	TEMPBONUS:PC|SKILL|Hide|10|TYPE=Enhancement																
 Psychoactive Skin (Claw)		TYPE:Universal.Ectoshell	COST:16000	WT:2	SOURCEPAGE:EPH	SPROP:Claws of the Beast at will, as free action.|PRECLASS:1,Psychic Warrior=1																
 Psychoactive Skin (Defender)		TYPE:Universal.Ectoshell	COST:32000	WT:2	SOURCEPAGE:EPH	TEMPBONUS:PC|COMBAT|AC|4|TYPE=NaturalArmor																
@@ -113,3 +113,5 @@ Sutra of Tranquil Thought		TYPE:Artifact.Minor.Book	COST:0	WT:3	SOURCEPAGE:EPH
 Annulus		TYPE:Artifact.Major.Ring	COST:0	WT:0	SOURCEPAGE:EPH																	
 Psicrown (Crystal Mind)		TYPE:Artifact.Major.Psicrown	COST:0	WT:0	SOURCEPAGE:EPH	SPROP:Power Points: 1000. ML 20. Power Known: Burst, Catfall, Concealing Amorpha (Greater),Concussion Blast, Daze (Psionic), Detect Psionics, Dominate (Psionic), Far Hand, Float, Mindlink, Inertial Barrier, Telekinetic Force, Telekinetic Maneuver, Telekinetic Thrust, Teleport (Psionic), Thicken Skin, True Metabolism.	SR:10+CharacterML															
 Staff (Ancient Penumbra)		TYPE:Artifact.Major.Staff.Weapon.Melee.Simple.Bludgeoning.TwoHanded.Quarterstaff	COST:0	WT:4	SOURCEPAGE:EPH	SPROP:on critical hit energy bolt that deals 5d6 points of fire damage to target.			PROFICIENCY:WEAPON|Quarterstaff	WIELD:TwoHanded	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS5W			ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.EQ_COST_ADJ_W.PLUS5W
+Last Book		TYPE:Artifact.Spellbook	COST:0	WT:0	SOURCEPAGE:EPH																	
+

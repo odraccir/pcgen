@@ -6,4 +6,4 @@ Choose a Guild Affiliation	CATEGORY:Guild Category	TYPE:GuildChooser	VISIBLE:YES
 Choose a Planar Faction	CATEGORY:Guild Category	TYPE:GuildChooser	VISIBLE:YES									BONUS:ABILITYPOOL|Planar Faction|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	COST:0													SOURCEPAGE:G
 Choose a Church Eresy	CATEGORY:Guild Category	TYPE:GuildChooser	VISIBLE:YES									BONUS:ABILITYPOOL|Church Eresy|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	COST:0													SOURCEPAGE:G
 #
-Fists of Zuoken	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:EPH
+# Guilds_name	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:manual
