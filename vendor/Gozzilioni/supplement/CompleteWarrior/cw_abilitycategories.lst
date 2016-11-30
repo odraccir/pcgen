@@ -1,0 +1,27 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+
+# Subrace Support
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Hexblade Class Feature	CATEGORY:Special Ability	TYPE:HexbladeClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Hexblade Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Samurai Class Feature	CATEGORY:Special Ability	TYPE:SamuraiClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Samurai Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Swashbuckler Class Feature	CATEGORY:Special Ability	TYPE:SwashbucklerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Swashbuckler Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Bear Warrior Class Feature	CATEGORY:Special Ability	TYPE:BearWarriorClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Bear Warrior Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Bladesinger Class Feature	CATEGORY:Special Ability	TYPE:BladesingerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Bladesinger Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Cavalier Class Feature	CATEGORY:Special Ability	TYPE:CavalierClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Cavalier Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Dark Hunter Class Feature	CATEGORY:Special Ability	TYPE:DarkHunterClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dark Hunter Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Darkwood Stalker Class Feature	CATEGORY:Special Ability	TYPE:DarkwoodStalkerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Darkwood Stalker Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups
+ABILITYCATEGORY:Ancient Foe	CATEGORY:Special Ability	TYPE:AncientFoe	VISIBLE:QUALIFY	EDITABLE:YES	POOL:AncientFoeCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Ancient Enemies				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Ancient Foe Bonus	CATEGORY:Special Ability	TYPE:AncientFoeBonus	VISIBLE:QUALIFY	EDITABLE:YES	POOL:AncientFoeBonusCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Ancient Foe Bonuses			DISPLAYLOCATION:Class Features
+
+#Feats Ability pools
+ABILITYCATEGORY:Hexblade Feat	CATEGORY:FEAT	TYPE:Hexblade	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Hexblade Feats			DISPLAYLOCATION:Feats
+
+#Companion Support
+
+#
+# End
+#

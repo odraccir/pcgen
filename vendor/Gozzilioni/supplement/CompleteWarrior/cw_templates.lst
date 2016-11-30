@@ -1,0 +1,6 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11
+
+###Block: Known First Base Class - Barbarian Illiteracy Support
+# Template Name	Visible	Template		Choose
+#First Base Class	VISIBLE:NO	TEMPLATE:%LIST	CHOOSE:TEMPLATE|QUALIFIED[TYPE=BaseClass]
+Hexblade	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Hexblade=1

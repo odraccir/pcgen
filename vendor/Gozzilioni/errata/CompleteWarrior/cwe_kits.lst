@@ -1,0 +1,11 @@
+SOURCELONG:Complete Warrior Errata	SOURCESHORT:CWe	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2005-01
+	
+###Block: Starting Gold
+STARTPACK:Starting Gold ~ Hexblade	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Hexblade=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("6d4")*10
+
+STARTPACK:Starting Gold ~ Samurai	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Samurai=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("2d4")*10
+
+STARTPACK:Starting Gold ~ Swashbuckler	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Swashbuckler=1	PRELEVELMAX:1	EQUIPBUY:0
+GEAR:Coin (Gold)	QTY:roll("6d4")*10

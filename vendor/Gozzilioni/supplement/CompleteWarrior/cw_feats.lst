@@ -1,0 +1,15 @@
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+#																																																																			
+# Feat Name	CATEGORY:	TYPE:	visible	key	Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	DESC:	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page																									
+CATEGORY=FEAT|Combat Casting.MOD	TYPE:Hexblade
+# CATEGORY=FEAT|Greater Spell Focus.MOD	TYPE:Hexblade
+CATEGORY=FEAT|Greater Spell Penetration.MOD	TYPE:Hexblade
+# CATEGORY=FEAT|Spell Focus.MOD	TYPE:Hexblade
+CATEGORY=FEAT|Spell Penetration.MOD	TYPE:Hexblade
+#																																																																			
+Greater Spell Focus (Enchantment)	CATEGORY:Special Ability	TYPE:Hexblade	VISIBLE:DISPLAY		KEY:Hexcblade ~ Greater Spell Focus ~ Enhancement																		ABILITY:FEAT|AUTOMATIC|Greater Spell focus (Enhancement)									SOURCEPAGE:CW																																			
+Greater Spell Focus (Necromancy)	CATEGORY:Special Ability	TYPE:Hexblade	VISIBLE:DISPLAY		KEY:Hexcblade ~ Greater Spell Focus ~ Necromancy																		ABILITY:FEAT|AUTOMATIC|Greater Spell focus (Necromancy)									SOURCEPAGE:CW																																			
+Greater Spell Focus (Transmutation)	CATEGORY:Special Ability	TYPE:Hexblade	VISIBLE:DISPLAY		KEY:Hexcblade ~ Greater Spell Focus ~ Transmutation																		ABILITY:FEAT|AUTOMATIC|Greater Spell focus (Transmutation)									SOURCEPAGE:CW																																			
+Spell Focus (Enchantment)	CATEGORY:Special Ability	TYPE:Hexblade	VISIBLE:DISPLAY		KEY:Hexcblade ~ Spell Focus ~ Enhancement																		ABILITY:FEAT|AUTOMATIC|Spell focus (Enhancement)									SOURCEPAGE:CW																																			
+Spell Focus (Necromancy)	CATEGORY:Special Ability	TYPE:Hexblade	VISIBLE:DISPLAY		KEY:Hexcblade ~ Spell Focus ~ Necromancy																		ABILITY:FEAT|AUTOMATIC|Spell focus (Necromancy)									SOURCEPAGE:CW																																			
+Spell Focus (Transmutation)	CATEGORY:Special Ability	TYPE:Hexblade	VISIBLE:DISPLAY		KEY:Hexcblade ~ Spell Focus ~ Transmutation																		ABILITY:FEAT|AUTOMATIC|Spell focus (Transmutation)									SOURCEPAGE:CW																																			

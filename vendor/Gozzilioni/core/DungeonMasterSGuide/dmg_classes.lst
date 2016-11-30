@@ -7,7 +7,7 @@ SOURCELONG:Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilio
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)			
 CLASS:Adept	HD:6	TYPE:NPC.Base	FACT:Abb|Adp	MAXLEVEL:NOLIMIT	SOURCEPAGE:DMG	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|NPC	ROLE:Adept	DEFINE:AdeptLVL|0	BONUS:VAR|AdeptLVL|CL
 CLASS:Adept	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Handle animal|Heal|TYPE.Knowledge|TYPE.Profession|Spellcraft|Survival											
-CLASS:Adept	SPELLSTAT:WIS	FACT:Spelltype|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9		BONUS:CASTERLEVEL|Adept|Caster_Level_Adept	DEFINE:Caster_Level_Adept|0	BONUS:VAR|Caster_Level_Adept|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Adept|0	BONUS:VAR|Caster_Level_BL_Adept|charbonusto("PCLEVEL","Adept")	BONUS:VAR|Caster_Level_Highest__Divine|Caster_Level_Adept+Caster_Level_BL_Adept|TYPE=Base	
+CLASS:Adept	SPELLSTAT:WIS	FACT:Spelltype|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9		
 1				ABILITY:Adept Class Feature|AUTOMATIC|Adept ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.AdeptProficiencies									
 1				ABILITY:Adept Class Feature|AUTOMATIC|Adept ~ Spells									
 #													
@@ -107,10 +107,10 @@ CLASS:Archmage	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TY
 CLASS:Assassin	HD:6	TYPE:Prestige	FACT:Abb|Asn	MAXLEVEL:NOLIMIT	SOURCEPAGE:DMG	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:AssassinLVL|0	BONUS:VAR|AssassinLVL|CL
 CLASS:Assassin	PREALIGN:LE,NE,CE	PRESKILL:1,Disguise=4	PRESKILL:2,Hide=8,Move Silently=8	PRETEXT:The character must kill someone for no other reason than to join the assassins.									
 CLASS:Assassin	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Intimidate|Jump|Listen|Move Silently|Open Lock|Search|Sense Motive|Sleight of Hand|Spot|Swim|Tumble|Use Magic Device|Use Rope											
-CLASS:Assassin	SPELLSTAT:INT	FACT:Spelltype|Arcane	MEMORIZE:NO			BONUS:CASTERLEVEL|Assassin|Caster_Level_Assassin	DEFINE:Caster_Level_Assassin|0	BONUS:VAR|Caster_Level_Assassin|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Assassin|0	BONUS:VAR|Caster_Level_BL_Assassin|charbonusto("PCLEVEL","Assassin")	BONUS:VAR|Caster_Level_Highest__Arcane|Caster_Level_Assassin+Caster_Level_BL_Assassin|TYPE=Base	
+CLASS:Assassin	SPELLSTAT:INT	FACT:Spelltype|Arcane	MEMORIZE:NO			
 1				ABILITY:Assassin Class Feature|AUTOMATIC|Assassin ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.AssassinProficiencies									
-1				ABILITY:Assassin Class Feature|AUTOMATIC|Assassin ~ Spells									
 #													
+1				ABILITY:Assassin Class Feature|AUTOMATIC|Assassin ~ Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.AssassinSpells
 1				ABILITY:Assassin Class Feature|AUTOMATIC|Assassin ~ Sneak Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.AssassinSneakAttack									
 1				ABILITY:Assassin Class Feature|AUTOMATIC|Assassin ~ Death Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.AssassinDeathAttack									
 1				ABILITY:Assassin Class Feature|AUTOMATIC|Assassin ~ Poison Use|!PREABILITY:1,CATEGORY=ACF,TYPE.AssassinPoisonUse									
@@ -135,7 +135,7 @@ CLASS:Assassin	SPELLSTAT:INT	FACT:Spelltype|Arcane	MEMORIZE:NO			BONUS:CASTERLEV
 CLASS:Blackguard	HD:10	TYPE:Prestige	FACT:Abb|Blk	MAXLEVEL:NOLIMIT	SOURCEPAGE:DMG	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	EXCHANGELEVEL:Ex-Paladin|11|10|1	DEFINE:BlackguardLVL|0	BONUS:VAR|BlackguardLVL|CL
 CLASS:Blackguard	PREALIGN:LE,NE,CE	PRESKILL:1,Hide=5	PRESKILL:1,Knowledge (Religion)=2	PREABILITY:3,CATEGORY=FEAT,Cleave,Improved Sunder,Power Attack	PRETEXT:The character must have made peaceful contact with an evil outsider who was summoned by him or someone else.								
 CLASS:Blackguard	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Hide|Intimidate|Knowledge (Religion)|TYPE.Profession|Ride											
-CLASS:Blackguard	SPELLSTAT:WIS	FACT:Spelltype|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4		BONUS:CASTERLEVEL|Blackguard|Caster_Level_Blackguard	DEFINE:Caster_Level_Blackguard|0	BONUS:VAR|Caster_Level_Blackguard|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Blackguard|0	BONUS:VAR|Caster_Level_BL_Blackguard|charbonusto("PCLEVEL","Blackguard")	BONUS:VAR|Caster_Level_Highest__Divine|Caster_Level_Blackguard+Caster_Level_BL_Blackguard|TYPE=Base	
+CLASS:Blackguard	SPELLSTAT:WIS	FACT:Spelltype|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4		
 1				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackguardProficiencies									
 1				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Spells									
 1				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Fallen Paladin|PRECLASS:1,Ex-Paladin=1									

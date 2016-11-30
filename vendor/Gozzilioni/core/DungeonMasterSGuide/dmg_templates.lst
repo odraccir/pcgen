@@ -72,3 +72,13 @@ Prone	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:You are on the ground.	TEMPBONUS:ANYPC
 Shaken	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:You are shaken.	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2	TEMPBONUS:ANYPC|SAVE|ALL|-2	TEMPBONUS:ANYPC|SKILL|ALL|-2																							
 Sickened	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:You are sickened.	TEMPBONUS:ANYPC|COMBAT|TOHIT|-2	TEMPBONUS:ANYPC|COMBAT|DAMAGE|-2	TEMPBONUS:ANYPC|SAVE|ALL|-2	TEMPBONUS:ANYPC|SKILL|ALL|-2																						
 Stunned	VISIBLE:NO	SOURCEPAGE:DMG		TEMPDESC:A stunned creature drops everything held, can't take actions.	TEMPBONUS:ANYPC|COMBAT|AC|-2	TEMPBONUS:ANYPC|COMBAT|AC|-(max(DEX,0))|TYPE=Ability.STACK																								
+## BLOCK:Conditions
+Flanking	TYPE:ConditionAttacker	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:You are flanking an enemy.	TEMPBONUS:ANYPC|COMBAT|TOHIT|FlankingBonus	DEFINE:FlankingBonus|0	BONUS:VAR|FlankingBonus|2|TYPE=Base
+# On Higher Ground	TYPE:ConditionAttacker	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Attacking a foe while standing on higher ground.	TEMPBONUS:ANYPC|COMBAT|TOHIT.Melee|1
+# Squeezing	TYPE:ConditionAttacker.ConditionDefender	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:You are squeezing through a space.	TEMPBONUS:ANYPC|COMBAT|TOHIT.Melee|-4	TEMPBONUS:ANYPC|COMBAT|AC|-4
+# Behind Cover	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:You are behind a cover.	TEMPBONUS:ANYPC|COMBAT|AC|4|TYPE=Cover
+# Flat-Footed	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:You are caught flat-footed.	TEMPBONUS:ANYPC|COMBAT|AC|-(max(DEX,0))|TYPE=Ability.STACK
+# Grappling	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:You are grappling (but attacker is not).	TEMPBONUS:ANYPC|COMBAT|AC|-(max(DEX,0))|TYPE=Ability.STACK
+# Helpless	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:You are helpless.	TEMPBONUS:ANYPC|COMBAT|AC|-4	TEMPBONUS:ANYPC|COMBAT|AC|-5-(max(DEX,0))|TYPE=Ability.STACK
+# Kneeling	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:You are kneeling .	TEMPBONUS:ANYPC|COMBAT|AC|-2
+# Pinned	TYPE:ConditionDefender	VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:You have been pinned.	TEMPBONUS:ANYPC|COMBAT|AC|-4
