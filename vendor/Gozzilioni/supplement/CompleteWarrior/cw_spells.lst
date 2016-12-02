@@ -1,0 +1,26 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11																														
+#																																							
+# Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus														
+#
+Magic Stone.MOD	CLASSES:Hunter of the Dead=1
+Magic Weapon.MOD	CLASSES:Hunter of the Dead=1
+Cure Light Wounds.MOD	CLASSES:Hunter of the Dead=1
+Hide from Undead.MOD	CLASSES:Hunter of the Dead=1
+Remove Fear.MOD	CLASSES:Hunter of the Dead=1
+Bull's Strength.MOD	CLASSES:Hunter of the Dead=2
+Cure Moderate Wounds.MOD	CLASSES:Hunter of the Dead=2
+Continual Flame.MOD	CLASSES:Hunter of the Dead=2
+Darkvision.MOD	CLASSES:Hunter of the Dead=2
+Restoration (Lesser).MOD	CLASSES:Hunter of the Dead=2
+Remove Paralysis.MOD	CLASSES:Hunter of the Dead=2
+Cure Serious Wounds.MOD	CLASSES:Hunter of the Dead=3
+Daylight.MOD	CLASSES:Hunter of the Dead=3
+Halt Undead.MOD	CLASSES:Hunter of the Dead=3
+Protection from Elements.MOD	CLASSES:Hunter of the Dead=3
+Searing Light.MOD	CLASSES:Hunter of the Dead=3
+Speak with Dead.MOD	CLASSES:Hunter of the Dead=3
+Cure Critical Wounds.MOD	CLASSES:Hunter of the Dead=4
+Death Ward.MOD	CLASSES:Hunter of the Dead=4
+Dusrupting Weapon.MOD	CLASSES:Hunter of the Dead=4
+Freedom of Movement.MOD	CLASSES:Hunter of the Dead=4
+Restoration.MOD	CLASSES:Hunter of the Dead=4

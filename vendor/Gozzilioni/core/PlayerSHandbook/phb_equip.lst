@@ -101,14 +101,14 @@ Lock (Very Simple)	OUTPUTNAME:Lock, [NAME]	TYPE:Goods.General	COST:20	WT:1	SOURC
 Lock (Average)	OUTPUTNAME:Lock, [NAME]	TYPE:Goods.General	COST:40	WT:1	SOURCEPAGE:PHB				
 Lock (Good)	OUTPUTNAME:Lock, [NAME]	TYPE:Goods.General	COST:80	WT:1	SOURCEPAGE:PHB				
 Lock (Amazing)	OUTPUTNAME:Lock, [NAME]	TYPE:Goods.General	COST:150	WT:1	SOURCEPAGE:PHB				
-Manacles (Small)		TYPE:Goods.General	COST:15	WT:2	SOURCEPAGE:PHB	SIZE:S			
-Manacles (Medium)		TYPE:Goods.General	COST:15	WT:2	SOURCEPAGE:PHB	SIZE:M			
-Manacles (Large)		TYPE:Goods.General	COST:150	WT:8	SOURCEPAGE:PHB	SIZE:L			
-Manacles (Huge)		TYPE:Goods.General	COST:1500	WT:32	SOURCEPAGE:PHB	SIZE:H			
-Manacles (Masterwork/Small)		TYPE:Goods.General.Masterwork	COST:50	WT:2	SOURCEPAGE:PHB	SIZE:S			
-Manacles (Masterwork/Medium)		TYPE:Goods.General.Masterwork	COST:50	WT:2	SOURCEPAGE:PHB	SIZE:M			
-Manacles (Masterwork/Large)		TYPE:Goods.General.Masterwork	COST:500	WT:8	SOURCEPAGE:PHB	SIZE:L			
-Manacles (Masterwork/Huge)		TYPE:Goods.General.Masterwork	COST:5000	WT:32	SOURCEPAGE:PHB	SIZE:H			
+Manacles (Small)		TYPE:Goods.General.Weapon	COST:15	WT:2	SOURCEPAGE:PHB	SIZE:S	PROFICIENCY:WEAPON|Manacle		
+Manacles (Medium)		TYPE:Goods.General.Weapon	COST:15	WT:2	SOURCEPAGE:PHB	SIZE:M	PROFICIENCY:WEAPON|Manacle
+Manacles (Large)		TYPE:Goods.General.Weapon	COST:150	WT:8	SOURCEPAGE:PHB	SIZE:L	PROFICIENCY:WEAPON|Manacle
+Manacles (Huge)		TYPE:Goods.General.Weapon	COST:1500	WT:32	SOURCEPAGE:PHB	SIZE:H	PROFICIENCY:WEAPON|Manacle
+Manacles (Masterwork/Small)		TYPE:Goods.General.Weapon.Masterwork	COST:50	WT:2	SOURCEPAGE:PHB	SIZE:S	PROFICIENCY:WEAPON|Manacle
+Manacles (Masterwork/Medium)		TYPE:Goods.General.Weapon.Masterwork	COST:50	WT:2	SOURCEPAGE:PHB	SIZE:M	PROFICIENCY:WEAPON|Manacle
+Manacles (Masterwork/Large)		TYPE:Goods.General.Weapon.Masterwork	COST:500	WT:8	SOURCEPAGE:PHB	SIZE:L	PROFICIENCY:WEAPON|Manacle
+Manacles (Masterwork/Huge)		TYPE:Goods.General.Weapon.Masterwork	COST:5000	WT:32	SOURCEPAGE:PHB	SIZE:H	PROFICIENCY:WEAPON|Manacle
 Mirror (Small/Steel)		TYPE:Goods.General	COST:10	WT:0.5	SOURCEPAGE:PHB				
 Mug (Clay)		TYPE:Goods.General.Container	COST:0.02	WT:1	SOURCEPAGE:PHB	CONTAINS:1|Liquid			
 Mug or Tankard (Clay)		TYPE:Goods.General.Container	COST:0.02	WT:1	SOURCEPAGE:PHB	CONTAINS:1|Liquid			

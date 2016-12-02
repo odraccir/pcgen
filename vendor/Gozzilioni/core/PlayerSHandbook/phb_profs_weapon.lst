@@ -20,6 +20,8 @@ Shieldbash (Light)	TYPE:Martial.Melee.Bludgeoning.MeleeBludgeoning.Light.OneHand
 Shieldbash (Heavy)	TYPE:Martial.Melee.Bludgeoning.MeleeBludgeoning.OneHanded.OneHandedMartial		
 Spiked Armor	TYPE:Martial.Melee.Piercing.MeleePiercing.Light.LightMartial
 
+###Improvised			
+Manacle	TYPE:Improvised.Melee.Ranged
 ###Simple			
 Club	TYPE:Simple.Melee.Ranged.Bludgeoning.MeleeBludgeoning.RangedBludgeoning.OneHanded.Club		
 Crossbow (Heavy)	TYPE:Simple.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2	
