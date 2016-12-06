@@ -24,15 +24,35 @@ ABILITYCATEGORY:Hunter of the Dead Class Feature	CATEGORY:Special Ability	TYPE:H
 ABILITYCATEGORY:Invisible Blade Class Feature	CATEGORY:Special Ability	TYPE:InvisibleBladeClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Invisible Blade Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Justiciar Class Feature	CATEGORY:Special Ability	TYPE:JusticiarClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Justiciar Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Kensai Class Feature	CATEGORY:Special Ability	TYPE:KensaiClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Kensai Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Knight of the Chalice Class Feature	CATEGORY:Special Ability	TYPE:KnightOfTheChaliceClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Knight of the Chalice Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Master Thrower Class Feature	CATEGORY:Special Ability	TYPE:MasterThrowerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Master Thrower Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Master of the Unseen Hand Class Feature	CATEGORY:Special Ability	TYPE:MasterOfTheUnseenHandClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Master of the Unseen Hand Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Mindspy Class Feature	CATEGORY:Special Ability	TYPE:MindspyClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Mindspy Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Nature's Warrior Class Feature	CATEGORY:Special Ability	TYPE:NatureSWarriorClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Nature's Warrior Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Occult Slayer Class Feature	CATEGORY:Special Ability	TYPE:OccultSlayerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Occult Slayer Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Order of the Bow Initiate Class Feature	CATEGORY:Special Ability	TYPE:OrderOfTheBowInitiateClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Order of the Bow Initiate Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Purple Dragon Knight Class Feature	CATEGORY:Special Ability	TYPE:PurpleDragonKnightClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Purple Dragon Knight Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Rage Mage Class Feature	CATEGORY:Special Ability	TYPE:RageMageClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Rage Mage Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Ravager Class Feature	CATEGORY:Special Ability	TYPE:RavagerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Ravager Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Reaping Mauler Class Feature	CATEGORY:Special Ability	TYPE:ReapingMaulerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Reaping Mauler Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Ronin Class Feature	CATEGORY:Special Ability	TYPE:RoninClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Ronin Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Spellsword Class Feature	CATEGORY:Special Ability	TYPE:SpellswordClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Spellsword Class Features			DISPLAYLOCATION:Class Features
 
 #Other Abilitygroups
 ABILITYCATEGORY:Ancient Foe	CATEGORY:Special Ability	TYPE:AncientFoe	VISIBLE:QUALIFY	EDITABLE:YES	POOL:AncientFoeCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Ancient Enemies				DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Ancient Foe Bonus	CATEGORY:Special Ability	TYPE:AncientFoeBonus	VISIBLE:QUALIFY	EDITABLE:YES	POOL:AncientFoeBonusCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Ancient Foe Bonuses			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Exotic Weapon Stunt	CATEGORY:Special Ability	TYPE:ExoticWeaponStunt	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Exotic Weapon Stunts			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Two-Handed Hurl Trick CATEGORY:Special Ability	TYPE:TwoHandedHurlTrick	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Two-Handed Hurl Tricks			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Fiendslaying	CATEGORY:Special Ability	TYPE:Fiendslaying	VISIBLE:QUALIFY	EDITABLE:YES	POOL:FiendslayingCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Fiendslaying				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Fiendslaying Bonus	CATEGORY:Special Ability	TYPE:FiendslayingBonus	VISIBLE:QUALIFY	EDITABLE:YES	POOL:FiendslayingBonusCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Fiendslaying Bonuses			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Censure Demon	CATEGORY:Special Ability	TYPE:CensureDemons	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Censure Demons			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Thrown Weapon Trick CATEGORY:Special Ability	TYPE:ThrownWeaponTrick	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Thrown Weapon Tricks			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Nature's Armament CATEGORY:Special Ability	TYPE:NatureSArmament	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Nature's Armaments			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Greater Weapon Focus	CATEGORY:Special Ability	TYPE:GreaterWeaponFocus	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Greater Weapon Focuses			DISPLAYLOCATION:Feats
 
 #Feats Ability pools
 ABILITYCATEGORY:Hexblade Feat	CATEGORY:FEAT	TYPE:Hexblade	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Hexblade Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Ronin Feat	CATEGORY:FEAT	TYPE:Ronin	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Hexblade Feats			DISPLAYLOCATION:Feats
 
 #Companion Support
 

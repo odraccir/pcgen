@@ -2,3 +2,6 @@ SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	S
 																																																																																																																																																																																																																																				
 ###Block: Epic Feat Improved alignment based casting																																		
 The Eyes of Gruumsh	CATEGORY:Guild Category	TYPE:SpecialQuality.Organization	VISIBLE:YES	DESC:council of Eyes of Gruumsh.		PRECLASS:1,Eye of Gruumsh=1																											SOURCEPAGE:CW
+The Order of Knight Protectors	CATEGORY:Guild Category	TYPE:SpecialQuality.Organization	VISIBLE:YES			PREALIGN:LG,LN	PRECLASS:1,Knight Protector=1																										SOURCEPAGE:CW
+The Knight of the Chalice	CATEGORY:Guild Category	TYPE:SpecialQuality.Organization	VISIBLE:YES			PRECLASS:1,Knight of the Chalice=1																											SOURCEPAGE:CW
+Purple Dragon Knight CATEGORY:Guild Category	TYPE:SpecialQuality.Organization	VISIBLE:YES																														SOURCEPAGE:CW

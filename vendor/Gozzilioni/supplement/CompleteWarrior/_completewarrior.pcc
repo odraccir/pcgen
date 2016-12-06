@@ -47,7 +47,7 @@ CLASS:cw_classes.lst
 TEMPLATE:cw_templates.lst
 #
 # HIDETYPE:SKILL|Craft (Stoneworking)
-HIDETYPE:FEAT|Hexblade
+HIDETYPE:FEAT|Hexblade|Ronin
 
 # ENTRY DATE: 2015-08 
 # LST MONKEY: Riccardo

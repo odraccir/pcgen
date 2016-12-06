@@ -1,9 +1,9 @@
 SOURCELONG:Core Ruleset	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
 																																			
 # Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page			
-Mentoring	CATEGORY:Guild Category	TYPE:GuildChooser	VISIBLE:YES									BONUS:ABILITYPOOL|Mentoring|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	COST:0													SOURCEPAGE:G
-Choose a Guild Affiliation	CATEGORY:Guild Category	TYPE:GuildChooser	VISIBLE:YES									BONUS:ABILITYPOOL|Guild Affiliation|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	COST:0													SOURCEPAGE:G
-Choose a Planar Faction	CATEGORY:Guild Category	TYPE:GuildChooser	VISIBLE:YES									BONUS:ABILITYPOOL|Planar Faction|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	COST:0													SOURCEPAGE:G
-Choose a Church Eresy	CATEGORY:Guild Category	TYPE:GuildChooser	VISIBLE:YES									BONUS:ABILITYPOOL|Church Eresy|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	COST:0													SOURCEPAGE:G
+Mentoring	CATEGORY:Guild Category	TYPE:GuildChooser	VISIBLE:YES	DESC:Mentoring								BONUS:ABILITYPOOL|Mentoring|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	COST:0													SOURCEPAGE:G
+Choose an Affiliation	CATEGORY:Guild Category	TYPE:GuildChooser	VISIBLE:YES	DESC:Guilds, organizations or groups								BONUS:ABILITYPOOL|Affiliation|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	COST:0													SOURCEPAGE:G
+Choose a Planar Faction	CATEGORY:Guild Category	TYPE:GuildChooser	VISIBLE:YES	DESC:Planar factions								BONUS:ABILITYPOOL|Planar Faction|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	COST:0													SOURCEPAGE:G
+Choose a Church Eresy	CATEGORY:Guild Category	TYPE:GuildChooser	VISIBLE:YES	DESC:Church eresy								BONUS:ABILITYPOOL|Church Eresy|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	COST:0													SOURCEPAGE:G
 #
 # Guilds_name	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:manual
