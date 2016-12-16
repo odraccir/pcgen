@@ -1,0 +1,42 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11																				
+#																							
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:	
+# Simple Weapons																							
+## Unarmed																							
+																							
+## Light																							
+																							
+## OneHanded																							
+																							
+## TwoHanded																							
+																							
+## Ranged																							
+																							
+# Martial Weapons																							
+## Light																							
+																							
+## OneHanded																							
+																							
+## TwoHanded																							
+Lance of the Last Rider			PROFICIENCY:WEAPON|Lance	TYPE:Weapon.Melee.Martial.Piercing.TwoHanded.Lance.Specific	COST:8306	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.WOOD.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:CW	SPROP:the wielder charges a mounted foe from the back of a steed, the weapon allows a free bull rush attempt on a successful hit.							REACHMULT:2	
+																							
+## Ranged																							
+																							
+# Exotic Weapons																							
+## Light																							
+																							
+## OneHanded																							
+																							
+## TwoHanded																							
+Oglien's Final Answer			PROFICIENCY:WEAPON|Chain (Spiked)	TYPE:Weapon.Melee.Exotic.Piercing.TwoHanded.Chain.Specific	COST:26325	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS2W	SOURCEPAGE:CW	SPROP:persistent Nondetection.							REACHMULT:2	BONUS:SKILL|Perform (Weapon Drill)|5
+																							
+## Ranged																							
+																							
+# Arrows																							
+Burrowing Arrow				TYPE:Ammunition.Specific.SpecificArrow	COST:167	WT:0.15							EQMOD:STEEL.WOOD.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:CW	SPROP:A burrowing arrow must be pulled out before natural healing can occur, and this removal deals a further 1d8 points of damage. If the target receives magical healing, the burrowing arrow immediately deals 1d8 points of damage as the magic forces it out of the wound.								
+																							
+## Intelligent																							
+																							
+## Cursed																							
+																							
+## Artifacts																							

@@ -1,0 +1,70 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11
+#							
+# Equipment Name	Output Name	TYPE:	COST:	WT:	SOURCEPAGE:		
+##Block: Potions							
+							
+##Block: Rings							
+							
+##Block: Rods							
+							
+##Block: Scrolls							
+###Block: Arcane Level 0							
+							
+###Block: Arcane Level 1							
+							
+###Block: Arcane Level 2							
+							
+							
+###Block: Arcane Level 4							
+							
+###Block: Arcane Level 5							
+							
+###Block: Arcane Level 6							
+							
+###Block: Arcane Level 7							
+							
+###Block: Arcane Level 8							
+							
+###Block: Arcane Level 9							
+							
+###Block: Divine Level 0							
+							
+###Block: Divine Level 1							
+							
+###Block: Divine Level 2							
+							
+###Block: Divine Level 3							
+							
+###Block: Divine Level 4							
+							
+###Block: Divine Level 5							
+							
+###Block: Divine Level 6							
+							
+###Block: Divine Level 7							
+							
+###Block: Divine Level 8							
+							
+###Block: Divine Level 9							
+							
+###Block: Staff							
+							
+###Block: Wands							
+							
+###Block: Wondrous							
+Bracers of Dawn		TYPE:Wondrous.Glove	COST:26000	WT:1	SOURCEPAGE:CW	SLOTS:2	SPELLS:Bracers of Dawn|TIMES=4|CASTERLEVEL=6|Searing Light
+Gauntlet of the Dwarven Forge		TYPE:Wondrous.Glove	COST:24000	WT:3	SOURCEPAGE:CW	SLOTS:2	
+Gauntlet of Lassitude		TYPE:Wondrous.Glove	COST:27000	WT:2	SOURCEPAGE:CW	SLOTS:2	SPROP:With a successful melee touch attack, the gauntlet of lassitude slows the target for 5 rounds (Will DC 14 negates).
+Gauntlet of Utterdeath		TYPE:Wondrous.Glove	COST:96000	WT:2	SOURCEPAGE:CW	SLOTS:2	SPROP:If the wearer succeeds on a melee touch attack, the target must make a DC 20 Fortitude save or be reduced to a pile of smoldering cinders. If the Fortitude save succeeds, the target instead takes 10d6 points of damage. A gauntlet of utterdeath is usable three times per day.
+Sacred Scabbard		TYPE:Wondrous.Container	COST:4400	WT:1	SOURCEPAGE:CW	CONTAINS:UNLIM|Total=1|Weapon=1	
+Standard of Courage		TYPE:Wondrous	COST:15000	WT:1	SOURCEPAGE:CW		
+Standard of Heroism		TYPE:Wondrous	COST:40000	WT:1	SOURCEPAGE:CW		
+Standard of No Retreat		TYPE:Wondrous	COST:145000	WT:1	SOURCEPAGE:CW		
+							
+## Intelligent							
+							
+## Cursed							
+							
+## Artifacts							
+#Minor Artifacts							
+#Major Artifacts							

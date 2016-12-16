@@ -1,0 +1,23 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11																														
+#										
+###Block:Guardian Familiar
+FOLLOWER:FamiliarLVL=1	TYPE:Guardian Familiar	COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES					
+FOLLOWER:FamiliarLVL=1	TYPE:Guardian Familiar		BONUS:COMBAT|AC|(mastervar("FamiliarLVL")+1)/2|TYPE=NaturalArmor.STACK			ABILITY:Special Ability|AUTOMATIC|Familiar ~ Share Spells				
+FOLLOWER:FamiliarLVL=3	TYPE:Guardian Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Deliver Touch Spells				
+FOLLOWER:FamiliarLVL=11	TYPE:Guardian Familiar						SR:(mastervar("FamiliarLVL")+5)			
+FOLLOWER:FamiliarLVL=13	TYPE:Guardian Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Scry on Familiar				
+
+
+###Block:Familiar Bonus to Master										
+MASTERBONUSRACE:Krenshar	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Krenshar				
+MASTERBONUSRACE:Worg	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Worg				
+MASTERBONUSRACE:Blink Dog	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Blink Dog				
+MASTERBONUSRACE:Hell Hound	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Hell Hound				
+MASTERBONUSRACE:Hippogriff	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Hippogriff				
+MASTERBONUSRACE:Howler	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Howler				
+MASTERBONUSRACE:Winter Wolf	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Winter Wolf				
+###Block:Guardian Familiar Bonus to Master										
+MASTERBONUSRACE:Spark Guardian	TYPE:Guardian Familiar					ABILITY:Special Ability|AUTOMATIC|Guardian Familiar ~ Spark Guardian				
+MASTERBONUSRACE:Gauntlet Guardian	TYPE:Guardian Familiar					ABILITY:Special Ability|AUTOMATIC|Guardian Familiar ~ Gauntlet Guardian				
+MASTERBONUSRACE:Blade Guardian	TYPE:Guardian Familiar					ABILITY:Special Ability|AUTOMATIC|Guardian Familiar ~ Blade Guardian				
+

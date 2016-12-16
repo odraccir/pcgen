@@ -600,7 +600,7 @@ STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
 STARTPACK:Hell Hound (Nessian Warhound) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Hell Hound (Nessian Warhound)
 GEAR:Barding (Chain Shirt)	SIZE:L	EQMOD:PLUS2A	LOCATION:Equipped
 
-STARTPACK:Hippogrif Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Hippogrif
+STARTPACK:Hippogriff Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Hippogriff
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=10
 
 STARTPACK:Hobgoblin Stats	TYPE:DefaultMonster.Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Hobgoblin
@@ -2377,7 +2377,7 @@ SKILL:Move Silently	RANK:7
 SKILL:Spot	RANK:7
 SKILL:Survival	RANK:7
 
-STARTPACK:Hippogrif Companion	TYPE:DefaultMonster.Magical Beast	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Hippogrif
+STARTPACK:Hippogriff Companion	TYPE:DefaultMonster.Magical Beast	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Hippogriff
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=10
 ABILITY:CATEGORY=FEAT|Dodge
 ABILITY:CATEGORY=FEAT|Wingover

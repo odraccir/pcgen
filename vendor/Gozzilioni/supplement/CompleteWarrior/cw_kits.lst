@@ -1,0 +1,11 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11																														
+	
+STARTPACK:Spark Guardian Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Spark Guardian
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=11
+GEAR:Spark Guardian ~ Spark
+
+STARTPACK:Gauntlet Guardian Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Gauntlet Guardian
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Blade Guardian Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Blade Guardian
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=11

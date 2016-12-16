@@ -33,6 +33,7 @@ ABILITYCATEGORY:Call Flying Mount Class Feature	CATEGORY:Special Ability	TYPE:Ca
 #Other Abilitygroups
 ABILITYCATEGORY:Anoint Self	CATEGORY:Special Ability	TYPE:AnointSelf	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Anoint Selves			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Anoint Ancestral Weapon	CATEGORY:Special Ability	TYPE:AnointAncestralWeapon	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Anoint Ancestral Weapons			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Sanctify Martial Strike	CATEGORY:Special Ability	TYPE:SanctifyMartialStrike	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Sanctify Martial Strikes			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Energy Resistance 10	CATEGORY:Special Ability	TYPE:EnergyResistance10	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Energy Resistances 10			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Stalker Favored Enemy	CATEGORY:Special Ability	TYPE:StalkerFavoredEnemy	VISIBLE:QUALIFY	EDITABLE:YES	POOL:StalkerFavoredEnemyCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Stalker Favored Enemies				DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Stalker Favored Enemy Bonus	CATEGORY:Special Ability	TYPE:StalkerFavoredEnemyBonus	VISIBLE:QUALIFY	EDITABLE:YES	POOL:StalkerFavoredEnemyBonusCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Stalker Favored Enemy Bonuses			DISPLAYLOCATION:Class Features

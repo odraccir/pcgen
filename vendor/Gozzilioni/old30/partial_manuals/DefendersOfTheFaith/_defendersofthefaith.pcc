@@ -1,31 +1,27 @@
-CAMPAIGN:Complete Warrior Errata
+CAMPAIGN:Defenders of the Faith 3.0
 GAMEMODE:G35e
-RANK:1
-TYPE:Gozzilioni.Partial.Errata
+RANK:3
+TYPE:Gozzilioni.Old30
 SETTING:Heroes
 BOOKTYPE:Campaign
-SOURCELONG:Complete Warrior Errata
-SOURCESHORT:CWe
+SOURCELONG:Defender of the Faith 3.0
+SOURCESHORT:DotF30
 SOURCEWEB:http://www.gozzilioni.net
-SOURCEDATE:2005-07
 ISOGL:NO
 COPYRIGHT:My Campaign, Copyright 2015 by me
 PUBNAMELONG:Gozzilioni
 PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
-PRECAMPAIGN:1,Complete Warrior
+PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Guide
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:missing.txt
 
-ABILITY:cwe_abilities_classes.lst
-ABILITY:cwe_feats.lst
-KIT:cwe_kits.lst
-
+DOMAIN:dotf_domains.lst
+SPELL:dotf_spells.lst
 #
-# HIDETYPE:SKILL|Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma
 
-# HIDETYPE:FEAT|Wizard
-
-# ENTRY DATE: 2015-08 
+# ENTRY DATE: 2016-07 
 # LST MONKEY: Riccardo
 # RELEASE REVIEW #
 # BETA:

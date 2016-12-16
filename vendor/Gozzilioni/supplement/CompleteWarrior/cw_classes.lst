@@ -51,7 +51,7 @@ CLASS:Samurai	PREALIGN:LG,LN,LE
 CLASS:Samurai	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Intimidate|Knowledge (History)|Knowledge (Nobility and Royalty)|Ride|Sense Motive												
 1				ABILITY:Samurai Class Feature|AUTOMATIC|Samurai ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SamuraiProficiencies										
 #														
-1				ABILITY:Samurai Class Feature|AUTOMATIC|Samurai ~ Daisho Proficiency6|!PREABILITY:1,CATEGORY=ACF,TYPE.SamuraiDaishoProficiency										
+1				ABILITY:Samurai Class Feature|AUTOMATIC|Samurai ~ Daisho Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SamuraiDaishoProficiency										
 2				ABILITY:Samurai Class Feature|AUTOMATIC|Samurai ~ Two Swords as One|!PREABILITY:1,CATEGORY=ACF,TYPE.SamuraiTwoSwordsAsOne										
 3				ABILITY:Samurai Class Feature|AUTOMATIC|Samurai ~ Kiai Smite|!PREABILITY:1,CATEGORY=ACF,TYPE.SamuraiKiaiSmite										
 5				ABILITY:Samurai Class Feature|AUTOMATIC|Samurai ~ Iaijutsu Master|!PREABILITY:1,CATEGORY=ACF,TYPE.SamuraiIaijutsuMaster										
@@ -68,7 +68,7 @@ CLASS:Ex-Samurai	VISIBLE:NO
 CLASS:Ex-Samurai	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Intimidate|Knowledge (History)|Knowledge (Nobility and Royalty)|Ride|Sense Motive												
 1				ABILITY:Samurai Class Feature|AUTOMATIC|Samurai ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SamuraiProficiencies										
 #														
-1				ABILITY:Samurai Class Feature|AUTOMATIC|Samurai ~ Daisho Proficiency6|!PREABILITY:1,CATEGORY=ACF,TYPE.SamuraiDaishoProficiency										
+1				ABILITY:Samurai Class Feature|AUTOMATIC|Samurai ~ Daisho Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SamuraiDaishoProficiency										
 2				ABILITY:Samurai Class Feature|AUTOMATIC|Samurai ~ Two Swords as One|!PREABILITY:1,CATEGORY=ACF,TYPE.SamuraiTwoSwordsAsOne										
 5				ABILITY:Samurai Class Feature|AUTOMATIC|Samurai ~ Iaijutsu Master|!PREABILITY:1,CATEGORY=ACF,TYPE.SamuraiIaijutsuMaster										
 8				ABILITY:Samurai Class Feature|AUTOMATIC|Samurai ~ Improved Initiative|!PREABILITY:1,CATEGORY=ACF,TYPE.SamuraiImprovedInitiative										
@@ -83,7 +83,7 @@ CLASS:Swashbuckler	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Diploma
 2				ABILITY:Swashbuckler Class Feature|AUTOMATIC|Swashbuckler ~ Grace|!PREABILITY:1,CATEGORY=ACF,TYPE.SwashbucklerGrace										
 3				ABILITY:Swashbuckler Class Feature|AUTOMATIC|Swashbuckler ~ Insightful Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.SwashbucklerInsightfulStrike										
 5				ABILITY:Swashbuckler Class Feature|AUTOMATIC|Swashbuckler ~ Dodge Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.SwashbucklerDodgeBonus										
-7				ABILITY:Swashbuckler Class Feature|AUTOMATIC|Swashbuckler ~ Acrobatic Charge Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.SwashbucklerAcrobaticCharge										
+7				ABILITY:Swashbuckler Class Feature|AUTOMATIC|Swashbuckler ~ Acrobatic Charge|!PREABILITY:1,CATEGORY=ACF,TYPE.SwashbucklerAcrobaticCharge										
 11				ABILITY:Swashbuckler Class Feature|AUTOMATIC|Swashbuckler ~ Lucky|!PREABILITY:1,CATEGORY=ACF,TYPE.SwashbucklerLucky										
 13				ABILITY:Swashbuckler Class Feature|AUTOMATIC|Swashbuckler ~ Acrobatic Skill Mastery|!PREABILITY:1,CATEGORY=ACF,TYPE.SwashbucklerAcrobaticSkillMastery										
 14				ABILITY:Swashbuckler Class Feature|AUTOMATIC|Swashbuckler ~ Weakening Critical|!PREABILITY:1,CATEGORY=ACF,TYPE.SwashbucklerWeakeningCritical										
@@ -91,7 +91,7 @@ CLASS:Swashbuckler	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Diploma
 19				ABILITY:Swashbuckler Class Feature|AUTOMATIC|Swashbuckler ~ Wounding Critical|!PREABILITY:1,CATEGORY=ACF,TYPE.SwashbucklerWoundingCritical										
 														
 CLASS:Bear Warrior	HD:12	TYPE:Prestige	FACT:Abb|BeW	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:BearWarriorLVL|0	BONUS:VAR|BearWarriorLVL|CL	
-CLASS:Bear Warrior	PRETOTALAB:7	PREABILITY:1,CATEGORY=FEAT,Power Attack	PREABILITY:1,CATEGORY=Special Ability|TYPE.Rage,TYPE.Frenzy											
+CLASS:Bear Warrior	PRETOTALAB:7	PREABILITY:1,CATEGORY=FEAT,Power Attack	PREABILITY:1,CATEGORY=Special Ability,TYPE.Rage,TYPE.Frenzy											
 CLASS:Bear Warrior	STARTSKILLPTS:4	CSKILL:Climb|Handle Animal|Intimidate|Jump|Listen|Ride|Survival|Swim												
 1				ABILITY:Bear Warrior Class Feature|AUTOMATIC|Bear Warrior ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BearWarriorProficiencies										
 #														
@@ -120,7 +120,7 @@ CLASS:Bladesinger	STARTSKILLPTS:2	CSKILL:Balance|Concentration|Jump|Knowledge (A
 ###TODO CONTIGUOUS:Paladin														
 CLASS:Cavalier	HD:10	TYPE:Prestige	FACT:Abb|Cav	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:CavalierLVL|0	BONUS:VAR|CavalierLVL|CL	
 CLASS:Cavalier	PREALIGN:LG,LN,LE	PRETOTALAB:8	PRESKILL:2,Handle Animal=4,Knowledge (Nobility and Royalty)=4	PRESKILL:1,Ride=6	PREABILITY:4,CATEGORY=FEAT,Spirited Charge,Weapon Focus (Lance),Mounted Combat,Ride-By Attack									
-CLASS:Cavalier	STARTSKILLPTS:2	CSKILL:Diplomacy|Handle Animal|Intimidate|Knowkedge (Nobility and Royalty)|TYPE.Profession|Ride												
+CLASS:Cavalier	STARTSKILLPTS:2	CSKILL:Diplomacy|Handle Animal|Intimidate|Knowledge (Nobility and Royalty)|TYPE.Profession|Ride												
 1				ABILITY:Cavalier Class Feature|AUTOMATIC|Cavalier ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.CavalierProficiencies										
 #														
 1				ABILITY:Cavalier Class Feature|AUTOMATIC|Cavalier ~ Special Mount|!PREABILITY:1,CATEGORY=ACF,TYPE.CavalierSpecialMount										
@@ -133,7 +133,7 @@ CLASS:Cavalier	STARTSKILLPTS:2	CSKILL:Diplomacy|Handle Animal|Intimidate|Knowked
 10				ABILITY:Cavalier Class Feature|AUTOMATIC|Cavalier ~ Unstoppable Charge|!PREABILITY:1,CATEGORY=ACF,TYPE.CavalierUnstoppableCharge										
 														
 CLASS:Dark Hunter	HD:8	TYPE:Prestige	FACT:Abb|DHu	MAXLEVEL:5	SOURCEPAGE:CW	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DarkHunterLVL|0	BONUS:VAR|DarkHunterLVL|CL	
-CLASS:Dark Hunter	PRETOTALAB:5	PRESKILL:1,Craft (Trap Making)=5	PRESKILL:3,Knowledge (Dungeoneering)=2|Move Silently=2|Survival=2	PREABILITY:2,CATEGORY=FEAT,Blind-Fight,Track										
+CLASS:Dark Hunter	PRETOTALAB:5	PRESKILL:1,Craft (Trap Making)=5	PRESKILL:3,Knowledge (Dungeoneering)=2,Move Silently=2,Survival=2	PREABILITY:2,CATEGORY=FEAT,Blind-Fight,Track										
 CLASS:Dark Hunter	STARTSKILLPTS:4	CSKILL:Climb|Concentration|TYPE.Craft|Disable Device|Hide|Knowledge (Dungeoneering)|Listen|Move Silently|TYPE.Profession|Spot|Survival|Swim|Use Rope												
 1				ABILITY:Dark Hunter Class Feature|AUTOMATIC|Dark Hunter ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DarkHunterProficiencies										
 #														
@@ -179,19 +179,19 @@ CLASS:Drunken Master	PRESKILL:1,Tumble=8	PREABILITY:1,CATEGORY=FEAT,Dodge,Great 
 CLASS:Drunken Master	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Escape Artist|Hide|Jump|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Swim|Tumble												
 1				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterProficiencies										
 #														
-1				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~  Drink Like a Demon|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterDrinkLikeADemon										
-1				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~  Improvised Weapons|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterImprovisedWeapons										
-2				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~  Stagger|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterStagger										
-3				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~  Swaying Waist|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterSwayingWaist										
-4				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~  AC Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterACBonus										
-4				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~  Improved Improvised Weapon|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterImprovedImprovisedWeapon										
-5				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~  Greater Improvised Weapon|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterGreaterImprovisedWeapon										
-6				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~  Improved Feint|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterImprovedFeint										
-7				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~  Improved Grapple|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterImprovedGrapple										
-8				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~  For Medicinal Purposes|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterForMedicinalPurposes										
-9				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~  Corkscrew Rush|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterCorckscrewRush										
-9				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~  Superior Improvised Weapon|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterSuperiorImprovisedWeapon										
-10				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~  Breath of Flame|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterBreathOfFlame										
+1				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~ Drink Like a Demon|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterDrinkLikeADemon										
+1				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~ Improvised Weapons|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterImprovisedWeapons										
+2				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~ Stagger|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterStagger										
+3				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~ Swaying Waist|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterSwayingWaist										
+4				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~ AC Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterACBonus										
+4				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~ Improved Improvised Weapons|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterImprovedImprovisedWeapons										
+5				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~ Greater Improvised Weapons|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterGreaterImprovisedWeapons										
+6				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~ Improved Feint|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterImprovedFeint										
+7				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~ Improved Grapple|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterImprovedGrapple										
+8				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~ For Medicinal Purposes|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterForMedicinalPurposes										
+9				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~ Corkscrew Rush|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterCorkscrewRush										
+9				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~ Superior Improvised Weapons|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterSuperiorImprovisedWeapons										
+10				ABILITY:Drunken Master Class Feature|AUTOMATIC|Drunken Master ~ Breath of Flame|!PREABILITY:1,CATEGORY=ACF,TYPE.DrunkenMasterBreathOfFlame										
 														
 CLASS:Exotic Weapon Master	HD:10	TYPE:Prestige	FACT:Abb|EWM	MAXLEVEL:3	SOURCEPAGE:CW	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ExoticWeaponMasterLVL|0	BONUS:VAR|ExoticWeaponMasterLVL|CL	
 CLASS:Exotic Weapon Master	PRETOTALAB:6	PRESKILL:1,Craft (Weaponsmithing)=3	PREABILITY:1,CATEGORY=Special Ability,Exotic Weapon Proficiency	PREABILITY:1,CATEGORY=Special Ability,Weapon Focus (TYPE=Exotic)	PRETEXT:Races that have familiarity with an exotic weapon (such as the dwarf's familiarity with the dwarven waraxe and the dwarven urgrosh) are considered to have the Exotic Weapon Profi ciency feat for the purpose of meeting the requirements for this class									
@@ -242,22 +242,23 @@ CLASS:Gnome Giant-Slayer	STARTSKILLPTS:2	CSKILL:Climb|Escape Artist|Hide|Intimid
 8				ABILITY:Gnome Giant-Slayer Class Feature|AUTOMATIC|Gnome Giant-Slayer ~ Improved Mobility|PREABILITY:1,CATEGORY=ACF,TYPE.GnomeGiantSlayerImprovedMobility										
 9				ABILITY:Gnome Giant-Slayer Class Feature|AUTOMATIC|Gnome Giant-Slayer ~ Annoying Strike|PREABILITY:1,CATEGORY=ACF,TYPE.GnomeGiantSlayerAnnoyingStrike										
 10				ABILITY:Gnome Giant-Slayer Class Feature|AUTOMATIC|Gnome Giant-Slayer ~ Defensive Roll|PREABILITY:1,CATEGORY=ACF,TYPE.GnomeGiantSlayerDefensiveRoll										
+
 CLASS:Halfling Outrider	HD:8	TYPE:Prestige	FACT:Abb|HfO	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:HalflingOutriderLVL|0	BONUS:VAR|HalflingOutriderLVL|CL	
 CLASS:Halfling Outrider	PRERACE:1,Halfling	PRETOTALAB:5	PRESKILL:2,Listen=3,Spot=3	PRESKILL:1,Ride=6	PREABILITY:2,CATEGORY=FEAT,Mounted Combat,Mounted Archery									
 CLASS:Halfling Outrider	STARTSKILLPTS:4	CSKILL:Handle Animal|Listen|Ride|Spot|Survival												
-1				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Gnome Giant-Slayer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderProficiencies										
+1				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Halfling Outrider ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderProficiencies										
 #														
-1				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Gnome Giant-Slayer ~ AC Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderACBonus										
-1				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Gnome Giant-Slayer ~ Mount|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderMount										
-1				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Gnome Giant-Slayer ~ Alertness|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderAlertness										
-1				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Gnome Giant-Slayer ~ Ride Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderRideBonus										
-2				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Gnome Giant-Slayer ~ Defensive Riding|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderDefensiveRiding										
-3				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Gnome Giant-Slayer ~ Unbroken Charge|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderUnbrokenCharge										
-4				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Gnome Giant-Slayer ~ Stand on Mount|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderStandOnMount										
-5				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Gnome Giant-Slayer ~ Leap from the Saddle|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderLeapFromTheSaddle										
-7				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Gnome Giant-Slayer ~ Evasion|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderEvasion										
-8				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Gnome Giant-Slayer ~ Full Mounted Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderFullMountedAttack										
-10				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Gnome Giant-Slayer ~ Quick Turn|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderQuickTurn										
+1				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Halfling Outrider ~ AC Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderACBonus										
+1				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Halfling Outrider ~ Mount|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderMount										
+1				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Halfling Outrider ~ Alertness|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderAlertness										
+1				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Halfling Outrider ~ Ride Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderRideBonus										
+2				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Halfling Outrider ~ Defensive Riding|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderDefensiveRiding										
+3				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Halfling Outrider ~ Unbroken Charge|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderUnbrokenCharge										
+4				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Halfling Outrider ~ Stand on Mount|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderStandOnMount										
+5				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Halfling Outrider ~ Leap from the Saddle|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderLeapFromTheSaddle										
+7				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Halfling Outrider ~ Evasion|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderEvasion										
+8				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Halfling Outrider ~ Full Mounted Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderFullMountedAttack										
+10				ABILITY:Halfling Outrider Class Feature|AUTOMATIC|Halfling Outrider ~ Quick Turn|!PREABILITY:1,CATEGORY=ACF,TYPE.HalflingOutriderQuickTurn										
 														
 CLASS:Hulking Hurler	HD:10	TYPE:Prestige	FACT:Abb|Hul	MAXLEVEL:3	SOURCEPAGE:CW	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:HulkingHurlerLVL|0	BONUS:VAR|HulkingHurlerLVL|CL	
 CLASS:Hulking Hurler	PRETOTALAB:5	PREABILITY:2,CATEGORY=FEAT,Point Blank Shot,Power Attack	PREABILITY:1,CATEGORY=FEAT,Weapon Focus (TYPE=Thrown)	PRESIZEGTEQ:L										
@@ -344,7 +345,7 @@ CLASS:Knight of the Chalice	SPELLSTAT:WIS	FACT:Spelltype|Divine		KNOWNSPELLS:LEV
 1				ABILITY:Knight of the Chalice Class Feature|AUTOMATIC|Knight of the Chalice ~ Fiendslaying|!PREABILITY:1,CATEGORY=ACF,TYPE.KnightOfTheChalicFiendslaying										
 2				ABILITY:Knight of the Chalice Class Feature|AUTOMATIC|Knight of the Chalice ~ Censure Demons|!PREABILITY:1,CATEGORY=ACF,TYPE.KnightOfTheChalicCensureDemons										
 2				ABILITY:Knight of the Chalice Class Feature|AUTOMATIC|Knight of the Chalice ~ Courage of the Heaven|!PREABILITY:1,CATEGORY=ACF,TYPE.KnightOfTheChalicCourageOfTheHeaven										
-4				ABILITY:Knight of the Chalice Class Feature|AUTOMATIC|Knight of the Chalice ~ Consecrateed Casting|!PREABILITY:1,CATEGORY=ACF,TYPE.KnightOfTheChalicConsecratedCasting										
+4				ABILITY:Knight of the Chalice Class Feature|AUTOMATIC|Knight of the Chalice ~ Consecrated Casting|!PREABILITY:1,CATEGORY=ACF,TYPE.KnightOfTheChalicConsecratedCasting										
 10				ABILITY:Knight of the Chalice Class Feature|AUTOMATIC|Knight of the Chalice ~ Holy Aura|!PREABILITY:1,CATEGORY=ACF,TYPE.KnightOfTheChalicHolyAura										
 #														
 1	CAST:0,0													
@@ -415,7 +416,7 @@ CLASS:Mindspy	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Intimidate|TYPE.Pr
 #														
 1				ABILITY:Mindspy Class Feature|AUTOMATIC|Mindspy ~ Anticipate|!PREABILITY:1,CATEGORY=ACF,TYPE.MindspyAnticipate										
 1				ABILITY:Mindspy Class Feature|AUTOMATIC|Mindspy ~ Combat Telepathy|!PREABILITY:1,CATEGORY=ACF,TYPE.MindspyCombatTelepathy										
-1				ABILITY:Mindspy Class Feature|AUTOMATIC|Mindspy ~ Sperical Detect Thought|!PREABILITY:1,CATEGORY=ACF,TYPE.MindspySphericalDetectThought										
+1				ABILITY:Mindspy Class Feature|AUTOMATIC|Mindspy ~ Spherical Detect Thought|!PREABILITY:1,CATEGORY=ACF,TYPE.MindspySphericalDetectThought										
 2				ABILITY:Mindspy Class Feature|AUTOMATIC|Mindspy ~ Faster Mindscan|!PREABILITY:1,CATEGORY=ACF,TYPE.MindspyFasterMindscan										
 3				ABILITY:Mindspy Class Feature|AUTOMATIC|Mindspy ~ Multiple Surface Thought|!PREABILITY:1,CATEGORY=ACF,TYPE.MindspyMultipleSurfaceThough										
 4				ABILITY:Mindspy Class Feature|AUTOMATIC|Mindspy ~ Instant Mindscan|!PREABILITY:1,CATEGORY=ACF,TYPE.MindspyInstantMindscan										
@@ -521,14 +522,77 @@ CLASS:Ronin	STARTSKILLPTS:2	CSKILL:Bluff|TYPE.Craft|Disguise|Intimidate|Knowledg
 2				ABILITY:Ronin Class Feature|AUTOMATIC|Ronin ~ Banzai Charge|!PREABILITY:1,CATEGORY=ACF,TYPE.RoninBanzaiCharge										
 5				ABILITY:Ronin Class Feature|AUTOMATIC|Ronin ~ Bonus Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.RoninBonusFeat										
 # ex samurai														
-1				ABILITY:Ronin Class Feature|AUTOMATIC|Ronin ~ Kiai Smite|PRECLASS:1,Ex Samurai=1										
-1				ABILITY:Ronin Class Feature|AUTOMATIC|Ronin ~ Staredown|PRECLASS:1,Ex Samurai=6			BONUS:SKILL|Intimidate|4|PRECLASS:1,Ex Samurai=6							
-1				ABILITY:Ronin Class Feature|AUTOMATIC|Ronin ~ Mass Staredown|PRECLASS:1,Ex Samurai=10										
-1				ABILITY:Ronin Class Feature|AUTOMATIC|Ronin ~ Improved Staredown|PRECLASS:1,Ex Samurai=14										
-11				EXCHANGELEVEL:Ex Samurai|11|10|1				EXCHANGELEVEL:Ex Samurai|11|10|1						
+1				ABILITY:Ronin Class Feature|AUTOMATIC|Ronin ~ Kiai Smite|PRECLASS:1,Ex-Samurai=1|!PREABILITY:1,CATEGORY=ACF,TYPE.SamuraiKiaiSmite
+1				ABILITY:Ronin Class Feature|AUTOMATIC|Ronin ~ Staredown|PRECLASS:1,Ex-Samurai=6|!PREABILITY:1,CATEGORY=ACF,TYPE.SamuraiStaredown
+1				ABILITY:Ronin Class Feature|AUTOMATIC|Ronin ~ Mass Staredown|PRECLASS:1,Ex-Samurai=10|!PREABILITY:1,CATEGORY=ACF,TYPE.SamuraiMassStaredown
+1				ABILITY:Ronin Class Feature|AUTOMATIC|Ronin ~ Improved Staredown|PRECLASS:1,Ex-Samurai=14|!PREABILITY:1,CATEGORY=ACF,TYPE.SamuraiImprovedStaredown
+1				EXCHANGELEVEL:Ex-Samurai|11|10|1
 														
 CLASS:Spellsword	HD:8	TYPE:Prestige	FACT:Abb|Ssw	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:SpellswordLVL|0	BONUS:VAR|SpellswordLVL|CL	
-CLASS:Spellsword	PRETOTALAB:4	PRESKILL:1,Knowledge (Arcana)=6	PREABILITY:1,CATEGORY=Internal,TYPE.WeaponProfMartial	PREABILITY:1,CATEGORY=Internal,TYPE.WeaponProfHeavy	PRETEXT:Able to cast 2nd-level arcane spells.									
-CLASS:Spellsword	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Escape Artist|Intimidate|Jump|TYPE.Perform|TYPE.Profession|Swim|Tumble												
-1				ABILITY:Reaping Mauler Class Feature|AUTOMATIC|Reaping Mauler ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ReapingMaulerProficiencies										
+CLASS:Spellsword	PRETOTALAB:4	PRESKILL:1,Knowledge (Arcana)=6	PREABILITY:1,CATEGORY=Internal,TYPE.WeaponProfMartial	PREABILITY:1,CATEGORY=Internal,TYPE.WeaponProfHeavy	PRETEXT:Able to cast 2nd-level arcane spells. Special: Must have defeated a foe through force of arms alone, without recourse to spellcasting.									
+CLASS:Spellsword	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE.Knowledge|Jump|TYPE.Profession|Spellcraft												
+1				ABILITY:Spellsword Class Feature|AUTOMATIC|Spellsword ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellswordProficiencies										
 #														
+1				ABILITY:Spellsword Class Feature|AUTOMATIC|Spellsword ~ Spells per Day										
+1				ABILITY:Spellsword Class Feature|AUTOMATIC|Spellsword ~ Ignore Spell Failure|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellswordIgnoreSpellFailure										
+2				ABILITY:Spellsword Class Feature|AUTOMATIC|Spellsword ~ Bonus Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellswordBonusFeat										
+4				ABILITY:Spellsword Class Feature|AUTOMATIC|Spellsword ~ Channel Spell|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellswordChannelSpell										
+10				ABILITY:Spellsword Class Feature|AUTOMATIC|Spellsword ~ Multiple Channel Spell|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellswordMultipleChannelSpell										
+#														
+1	ADD:SPELLCASTER|Arcane													
+3	ADD:SPELLCASTER|Arcane													
+5	ADD:SPELLCASTER|Arcane													
+7	ADD:SPELLCASTER|Arcane													
+9	ADD:SPELLCASTER|Arcane													
+														
+CLASS:Stonelord	HD:8	TYPE:Prestige	FACT:Abb|Stn	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:StonelordLVL|0	BONUS:VAR|StonelordLVL|CL	
+CLASS:Stonelord	PRERACE:1,Dwarf	PRETOTALAB:5	PRESKILL:1,Craft (Stoneworking)=6	PRELANG:1,Terran	PRETEXT:The character must undergo an arduous ritual involving immersion in sacred loam, long fasting periods deep underground, and the ingestion of 1,000 gp worth of powdered gemstones. The gem type chosen is then the stonelord’s totem gem, and she must carry that type of stone with her at all times to access the spell-like abilities she gains as a stonelord.									
+CLASS:Stonelord	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Spot|Survival												
+1				ABILITY:Stonelord Class Feature|AUTOMATIC|Stonelord ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.StonelordProficiencies										
+#														
+1				ABILITY:Stonelord Class Feature|AUTOMATIC|Stonelord ~ Earth's Blood|!PREABILITY:1,CATEGORY=ACF,TYPE.StonelordEarthSBlood										
+2				ABILITY:Stonelord Class Feature|AUTOMATIC|Stonelord ~ Stone Power|!PREABILITY:1,CATEGORY=ACF,TYPE.StonelordStonePower										
+3				ABILITY:Stonelord Class Feature|AUTOMATIC|Stonelord ~ Stone Shape|!PREABILITY:1,CATEGORY=ACF,TYPE.StonelordStoneShape										
+5				ABILITY:Stonelord Class Feature|AUTOMATIC|Stonelord ~ Meld into Stone|!PREABILITY:1,CATEGORY=ACF,TYPE.StonelordMeldIntoStone										
+7				ABILITY:Stonelord Class Feature|AUTOMATIC|Stonelord ~ Stone Tell|!PREABILITY:1,CATEGORY=ACF,TYPE.StonelordStoneTell										
+9				ABILITY:Stonelord Class Feature|AUTOMATIC|Stonelord ~ Earthquake|!PREABILITY:1,CATEGORY=ACF,TYPE.StonelordEarthquake										
+														
+###TODO CONTIGUOUS:Monk														
+CLASS:Tattoed Monk	HD:8	TYPE:Prestige	FACT:Abb|TtM	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:TattoedMonkLVL|0	BONUS:VAR|TattoedMonkLVL|CL	
+CLASS:Tattoed Monk	PREALIGN:LG,LN,LE	PRETOTALAB:3	PRESKILL:1,Knowledge (Religion)=8	PREABILITY:3,CATEGORY=FEAT,endurance,Improved Grapple,Improved Unarmed Strike										
+CLASS:Tattoed Monk	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Diplomacy|Escape Artist|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Swim|Tumble												
+1				ABILITY:Tattoed Monk Class Feature|AUTOMATIC|Tattoed Monk ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.TattoedMonkProficiencies										
+#														
+1				ABILITY:Tattoed Monk Class Feature|AUTOMATIC|Tattoed Monk ~ Monk Abilities|!PREABILITY:1,CATEGORY=ACF,TYPE.TattoedMonkMonkAbilities										
+1				ABILITY:Tattoed Monk Class Feature|AUTOMATIC|Tattoed Monk ~ Tattoo|!PREABILITY:1,CATEGORY=ACF,TYPE.TattoedMonkTattoo										
+														
+CLASS:Thayan Knight	HD:10	TYPE:Prestige	FACT:Abb|ThK	MAXLEVEL:5	SOURCEPAGE:CW	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ThayanKnightLVL|0	BONUS:VAR|ThayanKnightLVL|CL	
+CLASS:Thayan Knight	PRERACE:1,Human	PRETOTALAB:5	PRESKILL:3,Intimidate=2,Knowledge (Arcana)=2,Knowledge (Local)=2	PREREGION:Thay	PREABILITY:2,CATEGORY=FEAT,Iron Will,Weapon Focus (Longsword)	PRETEXT:Sworn allegiance to the Red Wizards of Thay.								
+CLASS:Thayan Knight	STARTSKILLPTS:2	CSKILL:Bluff|Climb|TYPE.Craft|Gather Information|Handle Animal|Intimidate|Jump|Knowledge (Arcana)|Knowledge (Local)|TYPE.Profession|Ride|Spot|Swim												
+1				ABILITY:Thayan Knight Class Feature|AUTOMATIC|Thayan Knight ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ThayanKnightProficiencies										
+#														
+1				ABILITY:Thayan Knight Class Feature|AUTOMATIC|Thayan Knight ~ Horrors of Thay|!PREABILITY:1,CATEGORY=ACF,TYPE.ThayanKnightHorrorsOfThay										
+1				ABILITY:Thayan Knight Class Feature|AUTOMATIC|Thayan Knight ~ Zulkir's Favor|!PREABILITY:1,CATEGORY=ACF,TYPE.ThayanKnightZulkirSFavor										
+3				ABILITY:Thayan Knight Class Feature|AUTOMATIC|Thayan Knight ~ Zulkir's Defender|!PREABILITY:1,CATEGORY=ACF,TYPE.ThayanKnightZulkirSDefender										
+3				ABILITY:Thayan Knight Class Feature|AUTOMATIC|Thayan Knight ~ Bonus Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.ThayanKnightBonusFeat										
+														
+CLASS:War Chanter	HD:8	TYPE:Prestige	FACT:Abb|WCh	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:WarChanterLVL|0	BONUS:VAR|WarChanterLVL|CL	
+CLASS:War Chanter	PREALIGN:NG,TN,NE,CG,CN,CE	PRETOTALAB:4	PRESKILL:1,Perform (Sing)=6,Perform (Oratory)=6	PREABILITY:2,CATEGORY=FEAT,Combat Expertise,Weapon Focus	PREABILITY:1,CATEGORY=Special Ability,Bardic Music ~ Inspire Courage									
+CLASS:War Chanter	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Diplomacy|Escape Artist|Gather Information|Intimidate|Jump|TYPE.Perform|TYPE.Profession|Sense Motive|Swim												
+1				ABILITY:War Chanter Class Feature|AUTOMATIC|War Chanter ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.WarChanterProficiencies										
+#														
+1				ABILITY:War Chanter Class Feature|AUTOMATIC|War Chanter ~ War Chanter Music|!PREABILITY:1,CATEGORY=ACF,TYPE.WarChanterWarChanterMusic										
+5				ABILITY:War Chanter Class Feature|AUTOMATIC|War Chanter ~ Combine Song|!PREABILITY:1,CATEGORY=ACF,TYPE.WarChanterCombineSong										
+8				ABILITY:War Chanter Class Feature|AUTOMATIC|War Chanter ~ Singing Shout|!PREABILITY:1,CATEGORY=ACF,TYPE.WarChanterSingingShout										
+														
+CLASS:Warshaper	HD:8	TYPE:Prestige	FACT:Abb|Wsh	MAXLEVEL:5	SOURCEPAGE:CW	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:WarshaperLVL|0	BONUS:VAR|WarshaperLVL|CL	
+CLASS:Warshaper	PRETOTALAB:4	PRETEXT:Must be able to change shape in one of the following fi ve ways:&nl;- Change shape supernatural ability (aranea, hound archon, barghest, doppelganger, rakshasa, slaad).&nl;- Shapechanger subtype (lycanthropes, phasm).&nl;- Polymorph as a spell-like ability (astral deva, planetar, solar, couatl, marilith, bronze dragon, gold dragon, silver dragon, efreeti, leonal guardinal, night hag, ogre mage, pixie).&nl;- Able to cast the polymorph spell.&nl;- Wild shape or similar class feature (bear warrior*, druid). The alternate form ability (possessed by quasits, vampires, and others) is insufficient to become a warshaper.												
+CLASS:Warshaper	STARTSKILLPTS:2	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Disguise|Escape Artist|Jump|Swim												
+1				ABILITY:Warshaper Class Feature|AUTOMATIC|Warshaper ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.WarshaperProficiencies										
+#														
+1				ABILITY:Warshaper Class Feature|AUTOMATIC|Warshaper ~ Morphic Immunities|!PREABILITY:1,CATEGORY=ACF,TYPE.WarshaperMorphicImmunities										
+1				ABILITY:Warshaper Class Feature|AUTOMATIC|Warshaper ~ Morphic Weapons|!PREABILITY:1,CATEGORY=ACF,TYPE.WarshaperMorphicWeapons										
+2				ABILITY:Warshaper Class Feature|AUTOMATIC|Warshaper ~ Morphic Body|!PREABILITY:1,CATEGORY=ACF,TYPE.WarshaperMorphicBody										
+3				ABILITY:Warshaper Class Feature|AUTOMATIC|Warshaper ~ Morphic Reach|!PREABILITY:1,CATEGORY=ACF,TYPE.WarshaperMorphicReach										
+4				ABILITY:Warshaper Class Feature|AUTOMATIC|Warshaper ~ Morphic Healing|!PREABILITY:1,CATEGORY=ACF,TYPE.WarshaperMorphicHealing										
+5				ABILITY:Warshaper Class Feature|AUTOMATIC|Warshaper ~ Warshaper Morph|!PREABILITY:1,CATEGORY=ACF,TYPE.WarshaperWarshaperMorph										

@@ -144,7 +144,7 @@ CLASS:Yuan-Ti Cultist	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|
 1				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Spellcasting									
 #													
 1				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Outer Circle|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistOuterCircle									
-1				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Spit Poison|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistSpitPoison|PREABILITY:1,CATEGORY=Special Ability,TYPE=Poison									
+1				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Spit Poison|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistSpitPoison|PREABILITY:1,CATEGORY=Special Ability,TYPE.Poison									
 2				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Suffering Prestige Domain		DOMAIN:Suffering							
 2				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Sticks to Snakes|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistSticksToSnakes									
 3				ABILITY:Yuan-Ti Cultist Class Feature|AUTOMATIC|Yuan-Ti Cultist ~ Third Circle|!PREABILITY:1,CATEGORY=ACF,TYPE.YuanTiCultistThirdCircle									

@@ -113,8 +113,8 @@ Elemental (Water).COPY=Elemental (Water)	KEY:Companion ~ Elemental (Water/Elder)
 Companion ~ Elemental (Water/Elder).MOD	OUTPUTNAME:Elemental (Water/Elder)	TYPE:Companion	SERVESAS:RACE|Elemental (Water)	KIT:1|Elemental (Water/Elder) Companion
 Eagle (Giant).COPY=Eagle (Giant)	KEY:Companion ~ Eagle (Giant/Celestial)
 Companion ~ Eagle (Giant/Celestial).MOD	OUTPUTNAME:Eagle (Giant/Celestial)	TYPE:Companion	SERVESAS:RACE|Eagle (Giant)	TEMPLATE:Celestial
-Hippogrif.COPY=Hippogrif	KEY:Companion ~ Hippogrif (Celestial)
-Companion ~ Hippogrif (Celestial).MOD	OUTPUTNAME:Hippogrif (Celestial)	TYPE:Companion	SERVESAS:RACE|Hippogrif	TEMPLATE:Celestial
+Hippogriff.COPY=Hippogriff	KEY:Companion ~ Hippogriff (Celestial)
+Companion ~ Hippogriff (Celestial).MOD	OUTPUTNAME:Hippogriff (Celestial)	TYPE:Companion	SERVESAS:RACE|Hippogriff	TEMPLATE:Celestial
 Human.COPY=Human	KEY:Companion ~ Human (Skeleton)
 Companion ~ Human (Skeleton).MOD	OUTPUTNAME:Human (Skeleton)	TYPE:Companion	SERVESAS:RACE|Human	TEMPLATE:Skeleton
 Human.COPY=Human	KEY:Companion ~ Human (Zombie)

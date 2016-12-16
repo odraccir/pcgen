@@ -4,3 +4,5 @@ SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	S
 # Template Name	Visible	Template		Choose
 #First Base Class	VISIBLE:NO	TEMPLATE:%LIST	CHOOSE:TEMPLATE|QUALIFIED[TYPE=BaseClass]
 Hexblade	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Hexblade=1
+Samurai	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Samurai=1
+Swashbuckler	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Swashbuckler=1

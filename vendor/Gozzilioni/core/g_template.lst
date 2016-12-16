@@ -84,10 +84,12 @@ LEVEL_ADJUSTMENT_9							VISIBLE:NO	LEVELADJUSTMENT:9
 # Template Name			Visible	Source Page			Choose									Temporary effect description																																Temporary Bonus
 Fighting Defensively	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are fighting defensively when attacking	TEMPBONUS:ANYPC|COMBAT|TOHIT|-4	TEMPBONUS:ANYPC|VAR|TwoWeaponShield|1|TYPE=Temporary	TEMPBONUS:ANYPC|VAR|FightingDefensivelyAC|2+FightingDefensivelyACBonus|TYPE=Temp1	TEMPBONUS:ANYPC|VAR|FightingDefensivelyACBonus|1|TYPE=Temp2|PRESKILL:1,Tumble=5
 Total Defense	VISIBLE:NO	SOURCEPAGE:PHB	TEMPDESC:You are defending yourself as a standard action	TEMPBONUS:ANYPC|VAR|TwoWeaponShield|1|TYPE=Temporary	TEMPBONUS:ANYPC|VAR|TotalDefenseAC|4+TotalDefenseACBonus|TYPE=Temp1	TEMPBONUS:ANYPC|VAR|TotalDefenseACBonus|2|TYPE=Temp2|PRESKILL:1,Tumble=5
+#
 Combat Expertise trade off	VISIBLE:NO	SOURCEPAGE:PHB	TEMPVALUE:MIN=1|MAX=5|TITLE=Combat Expertise trade off	TEMPDESC:Penalty on BAB as bonus on AC.	TEMPBONUS:PC|COMBAT|AC|min(%CHOICE,BAB)|TYPE=Temporary	TEMPBONUS:PC|COMBAT|TOHIT|max((-1*%CHOICE),(-1*BAB))|TYPE=Temporary
+Improved Combat Expertise trade off	VISIBLE:NO	SOURCEPAGE:CW	TEMPVALUE:MIN=1|MAX=20|TITLE=Combat Expertise trade off	TEMPDESC:Penalty on BAB as bonus on AC.	TEMPBONUS:PC|COMBAT|AC|min(%CHOICE,BAB)|TYPE=Temporary	TEMPBONUS:PC|COMBAT|TOHIT|max((-1*%CHOICE),(-1*BAB))|TYPE=Temporary
 Power Attack trade off	VISIBLE:NO	SOURCEPAGE:PHB	TEMPVALUE:MIN=1|MAX=5|TITLE=Power Attack trade off	TEMPDESC:Penalty on BAB as bonus on Damage.	TEMPBONUS:PC|COMBAT|BASEAB|min(%CHOICE,BAB)|TYPE=Temporary	TEMPBONUS:PC|COMBAT|DAMAGE.Melee|max((-1*%CHOICE),(-1*BAB))|TYPE=Temporary
-Improved Power Attack trade off	VISIBLE:NO	SOURCEPAGE:PHB	TEMPVALUE:MIN=1|MAX=5|TITLE=Improved Power Attack trade off	TEMPDESC:Penalty on BAB as bonus on Damage.	TEMPBONUS:PC|COMBAT|BASEAB|min((%CHOICE*1.5),BAB)|TYPE=Temporary	TEMPBONUS:PC|COMBAT|DAMAGE.Melee|max((-1*(%CHOICE*1.5)),(-1*BAB))|TYPE=Temporary
-Supreme Power Attack trade off	VISIBLE:NO	SOURCEPAGE:PHB	TEMPVALUE:MIN=1|MAX=5|TITLE=Supreme Power Attack trade off	TEMPDESC:Penalty on BAB as bonus on Damage.	TEMPBONUS:PC|COMBAT|BASEAB|min((%CHOICE*2),BAB)|TYPE=Temporary	TEMPBONUS:PC|COMBAT|DAMAGE.Melee|max((-1*(%CHOICE*2)),(-1*BAB))|TYPE=Temporary
+Improved Power Attack trade off	VISIBLE:NO	SOURCEPAGE:CW	TEMPVALUE:MIN=1|MAX=5|TITLE=Improved Power Attack trade off	TEMPDESC:Penalty on BAB as bonus on Damage.	TEMPBONUS:PC|COMBAT|BASEAB|min((%CHOICE*1.5),BAB)|TYPE=Temporary	TEMPBONUS:PC|COMBAT|DAMAGE.Melee|max((-1*(%CHOICE*1.5)),(-1*BAB))|TYPE=Temporary
+Supreme Power Attack trade off	VISIBLE:NO	SOURCEPAGE:CW	TEMPVALUE:MIN=1|MAX=5|TITLE=Supreme Power Attack trade off	TEMPDESC:Penalty on BAB as bonus on Damage.	TEMPBONUS:PC|COMBAT|BASEAB|min((%CHOICE*2),BAB)|TYPE=Temporary	TEMPBONUS:PC|COMBAT|DAMAGE.Melee|max((-1*(%CHOICE*2)),(-1*BAB))|TYPE=Temporary
 
 ###Block: Dragon Age
 Wyrmling	VISIBLE:NO	KEY:Dragon ~ Wyrmling	SUBRACE:Wyrmling

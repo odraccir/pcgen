@@ -22,7 +22,7 @@ ABILITY:dmg_abilities_races.lst
 ABILITYCATEGORY:dmg_abilitycategories.lst
 CLASS:dmg_classes.lst
 COMPANIONMOD:dmg_companionmods.lst
-EQUIPMOD:dmg_equimods.lst
+EQUIPMOD:dmg_equipmods.lst
 EQUIPMENT:dmg_equip.lst
 EQUIPMENT:dmg_equip_armors_specific.lst
 EQUIPMENT:dmg_equip_magic_items.lst

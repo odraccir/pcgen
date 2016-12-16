@@ -1,0 +1,26 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11					
+#								
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		PANTHEON:Greyhawk	SOURCEPAGE:CD	
+#Boccob	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Boccob (M)	DOMAINS:Knowledge,Magic,Trickery|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB	SYMBOL:a Kitten on a keyboard
+Altua	ALIGN:LG	DEITYWEAP:Longsword	DESC:Altua (F)	DOMAINS:Good,Law,Nobility,War|PREALIGN:LG,LN,NG	TYPE:Greater	FACTSET:Pantheon|Warrior	SOURCEPAGE:CW	
+Halmyr	ALIGN:LN	DEITYWEAP:Rapier	DESC:Halmyr (M)	DOMAINS:Law,Planning,War|PREALIGN:LG,LN,LE,TN	TYPE:Greater	FACTSET:Pantheon|Warrior	SOURCEPAGE:CW	
+Konkresh	ALIGN:CN	DEITYWEAP:Greatclub	DESC:Konkresh (M)	DOMAINS:Chaos,Destruction,Strength|PREALIGN:CG,TN,CN,CE	TYPE:Greater	FACTSET:Pantheon|Warrior	SOURCEPAGE:CW	
+Lyris	ALIGN:TN	DEITYWEAP:Warhammer	DESC:Lyris (F)	DOMAINS:Fate,Luck,War|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	FACTSET:Pantheon|Warrior	SOURCEPAGE:CW	
+Nadirech	ALIGN:CE	DEITYWEAP:Sword (Short)	DESC:Nadirech (M)	DOMAINS:Chaos,Evil,Luck,Trickery|PREALIGN:NE,CN,CE	TYPE:Greater	FACTSET:Pantheon|Warrior	SOURCEPAGE:CW	
+Sulerain	ALIGN:NE	DEITYWEAP:Greataxe	DESC:Sulerain (F)	DOMAINS:Death,Destruction,Evil|PREALIGN:LE,TN,NE,CE	TYPE:Greater	FACTSET:Pantheon|Warrior	SOURCEPAGE:CW	
+Syreth	ALIGN:NG	DEITYWEAP:Mace (Heavy)	DESC:Syreth (M)	DOMAINS:Good,Healing,Protection|PREALIGN:LG,NG,TN,CG	TYPE:Greater	FACTSET:Pantheon|Warrior	SOURCEPAGE:CW	
+Typhos	ALIGN:LE	DEITYWEAP:Greatsword	DESC:Typhos (M)	DOMAINS:Evil,Law,Tyranny,War|PREALIGN:LN,LE,CN	TYPE:Greater	FACTSET:Pantheon|Warrior	SOURCEPAGE:CW	
+Valkar	ALIGN:CG	DEITYWEAP:Battleaxe	DESC:Valkar (M)	DOMAINS:Chaos,Courage,Good,Strength|PREALIGN:NG,CG,CN	TYPE:Greater	FACTSET:Pantheon|Warrior	SOURCEPAGE:CW	
+#								
+Boccob.MOD				DOMAINS:Planning|PREALIGN:LN,NG,TN,NE,CN				
+Heironeous.MOD				DOMAINS:Courage|PREALIGN:LG,LN,NG				
+Heironeous.MOD				DOMAINS:Nobility|PREALIGN:LG,LN,NG				
+Hextor.MOD				DOMAINS:Tyranny|PREALIGN:NE,LE,LN				
+Nerull.MOD				DOMAINS:Fate|PREALIGN:LE,TN,NE,CE				
+Obad-Hai				DOMAINS:Fate|PREALIGN:LN,NG,TN,NE,CN				
+Pelor.MOD				DOMAINS:Nobility|PREALIGN:LG,NG,TN,CG				
+Vecna.MOD				DOMAINS:Planning|PREALIGN:LE,TN,NE,CE				
+Vecna.MOD				DOMAINS:Tyranny|PREALIGN:LE,TN,NE,CE				
+Wee Jas.MOD				DOMAINS:Planning|PREALIGN:LG,LN,LE,TN				
+Wee Jas.MOD				DOMAINS:Tyranny|PREALIGN:LG,LN,LE,TN				
+Yondalla.MOD				DOMAINS:Courage|PREALIGN:LG,LN,NG				

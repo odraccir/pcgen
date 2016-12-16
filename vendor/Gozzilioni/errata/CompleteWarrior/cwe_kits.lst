@@ -1,4 +1,4 @@
-SOURCELONG:Complete Warrior Errata	SOURCESHORT:CWe	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2005-01
+SOURCELONG:Complete Warrior Errata	SOURCESHORT:CWe	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2005-07
 	
 ###Block: Starting Gold
 STARTPACK:Starting Gold ~ Hexblade	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Hexblade=1	PRELEVELMAX:1	EQUIPBUY:0

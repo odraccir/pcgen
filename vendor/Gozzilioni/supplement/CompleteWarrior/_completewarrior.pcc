@@ -18,35 +18,35 @@ PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Gui
 # Do not remove the EXTRAFILE comment.
 #EXTRAFILE:missing.txt
 
-# ABILITY:boed_abilities.lst
+ABILITY:cw_abilities.lst
 ABILITY:cw_abilities_classes.lst
-# ABILITY:boed_abilities_races.lst
-# ABILITY:boed_abilities_templates.lst
+ABILITY:cw_abilities_guilds.lst
+ABILITY:cw_abilities_races.lst
+# ABILITY:cw_abilities_templates.lst
 ABILITYCATEGORY:cw_abilitycategories.lst
 CLASS:cw_classes.lst
-# COMPANIONMOD:boed_companionmods.lst
-# DEITY:boed_deities.lst
-# DOMAIN:boed_domains.lst
-# EQUIPMENT:boed_equip.lst
-# EQUIPMENT:boed_equip_armors_specific.lst
-# EQUIPMENT:boed_equip_magic_items.lst
-# EQUIPMENT:boed_equip_weapons.lst
-# EQUIPMENT:boed_equip_weapons_natural.lst
-# EQUIPMENT:boed_equip_weapons_specific.lst
-# EQUIPMENT:mm2_equip_weapons_natural.lst
-# EQUIPMOD:boed_equipmods.lst
-# ABILITY:boed_feats.lst
-# KIT:boed_kits.lst
-# LANGUAGE:boed_languages.lst
-# WEAPONPROF:boed_profs_weapon.lst
-# RACE:boed_races.lst
-# RACE:boed_races_companion.lst
-# SKILL:boed_skills.lst
-# SPELL:boed_spells.lst
-# ABILITY:boed_subraces.lst
+COMPANIONMOD:cw_companionmods.lst
+DEITY:cw_deities.lst
+DOMAIN:cw_domains.lst
+EQUIPMENT:cw_equip.lst
+EQUIPMENT:cw_equip_armors_specific.lst
+EQUIPMENT:cw_equip_magic_items.lst
+EQUIPMENT:cw_equip_weapons.lst
+EQUIPMENT:cw_equip_weapons_natural.lst
+EQUIPMENT:cw_equip_weapons_specific.lst
+EQUIPMOD:cw_equipmods.lst
+ABILITY:cw_feats.lst
+KIT:cw_kits.lst
+# LANGUAGE:cw_languages.lst
+WEAPONPROF:cw_profs_weapon.lst
+RACE:cw_races.lst
+# RACE:cw_races_companion.lst
+SKILL:cw_skills.lst
+SPELL:cw_spells.lst
+# ABILITY:cw_subraces.lst
 TEMPLATE:cw_templates.lst
 #
-# HIDETYPE:SKILL|Craft (Stoneworking)
+HIDETYPE:SKILL|Perform (Weapon Drill)
 HIDETYPE:FEAT|Hexblade|Ronin
 
 # ENTRY DATE: 2015-08 

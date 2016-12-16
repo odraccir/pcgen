@@ -1,9 +1,0 @@
-SOURCELONG:Epic Level Handbook 3.0	SOURCESHORT:ELH30	SOURCEWEB:http://www.gozzilioni.net
-
-#																																																		
-# Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:																																													
-
-###Block: Situation Skills for output only																																																		
-# Skill Name																																																		
-Intimidate.MOD	SITUATION:Draconic Creatures																																																	
-Spellcraft.MOD	SITUATION:Cast epic spells

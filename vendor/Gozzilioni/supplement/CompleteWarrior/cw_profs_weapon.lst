@@ -1,0 +1,33 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11																				
+#			
+### Weapon/Spell			
+### Simple/Martial/Exotic			
+### Melee/Ranged			
+### Bludgeoning/Piercing/Slashing			
+### Reach/Double/Thrown/Projectile/Ammunition			
+### Unharmed/Light/OneHanded/TwoHanded			
+###Automatic			
+
+###Improvised			
+
+###Simple			
+###Martial			
+###Exotic			
+Buckler-Axe	TYPE:Exotic.Melee.Slashing.MeleeSlashing.Light.Axe		
+Lightblade	TYPE:Exotic.Melee.Piercing.MeleePiercing.Light.Sword		
+Tortoise Blade	TYPE:Exotic.Melee.Piercing.MeleePiercing.Light
+Maul	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Maul
+Pick (Dire)	TYPE:Exotic.Melee.Piercing.MeleePiercing.TwoHanded.Pick
+Scourge	TYPE:Exotic.Melee.Slashing.MeleeSlashing.OneHanded.Whip
+Thinblade	TYPE:Exotic.Melee.Piercing.MeleePiercing.OneHanded.Sword
+Warmace	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Mace
+Greatspear	TYPE:Exotic.Melee.Ranged.Piercing.MeleePiercing.RangedPiercing.TwoHanded.Reach.Spear
+Hammer (Double)	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.DoubleWeapon.Hammer
+Lajatang	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.DoubleWeapon.Quarterstaff
+Mancatcher	TYPE:Exotic.Melee.Bludgeoning.TwoHanded.DoubleWeapon.Reach
+Poleaxe (Heavy)	TYPE:Exotic.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing.TwoHanded.Reach.Polearm
+#
+Blowgun (Greater)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.TwoHanded.Blowgun
+Bolas (Barbed)	TYPE:Exotic.Ranged.Thrown.Bludgeoning.RangedBludgeoning.Bolas
+Boomerang	TYPE:Exotic.Ranged.Bludgeoning.RangedBludgeoning.OneHanded.Thrown.Boomerang
+Greatbow	TYPE:Exotic.Ranged.Piercing.RangedPiercing.TwoHanded.Bow.Greatbow	HANDS:2

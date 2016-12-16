@@ -1884,6 +1884,12 @@ my @SOURCE_Tags = (
     'SOURCELINK',
 );
 
+my @TEMP_Tags = (
+    'TEMPDESC',
+    'TEMPVALUE',
+    'TEMPBONUS:*',
+);
+
 my @QUALIFY_Tags = (
     'QUALIFY:ABILITY',
     'QUALIFY:CLASS',
@@ -2073,13 +2079,14 @@ my %master_order = (
         'NATURALATTACKS',
         'ASPECT:*',
         'BENEFIT:*',
-        'TEMPDESC',
+#       'TEMPDESC',
         'SPELLKNOWN:CLASS:*',
         'SPELLKNOWN:DOMAIN:*',
         'SPELLLEVEL:CLASS:*',
         'SPELLLEVEL:DOMAIN:*',
         'UNENCUMBEREDMOVE',
-        'TEMPBONUS:*',
+#       'TEMPBONUS:*',
+        @TEMP_Tags,
 #        'AUTO:FEAT:*',            #  Deprecated 6.05.01
 #        'VFEAT:*',            #  Deprecated 6.05.01
 #        'ADD:FEAT:*',            #  Deprecated 6.05.01
@@ -2154,10 +2161,10 @@ my %master_order = (
         'FACT:SpellType:*',
 #       'SPELLTYPE',
         'TYPE',
-#       'CLASSTYPE',
         'FACT:ClassType:*',
-#       'ABB',
+#       'CLASSTYPE',
         'FACT:Abb:*',
+#       'ABB',
         'MAXLEVEL',
         'CASTAS',
         'MEMORIZE',
@@ -2233,8 +2240,9 @@ my %master_order = (
         'SPELLKNOWN:DOMAIN:*',
         'SPELLLEVEL:CLASS',
         'SPELLLEVEL:DOMAIN',
-        'TEMPDESC:*',
-        'TEMPBONUS:*',
+#       'TEMPDESC:*',
+#       'TEMPBONUS:*',
+        @TEMP_Tags,
         'UNENCUMBEREDMOVE',
         'ROLE',
 #		'HASSPELLFORMULA',		# [ 1893279 ] HASSPELLFORMULA Class Line tag  # [ 1973497 ] HASSPELLFORMULA is deprecated
@@ -2269,7 +2277,7 @@ my %master_order = (
         'BONUS:HD:*',           # Class Lines
          @Global_BONUS_Tags,     # [ 1956340 ] Centralize global BONUS tags
         'BONUS:WEAPON:*',
-        'TEMPDESC',
+#       'TEMPDESC',
         'DEFINE:*',
         'DEFINESTAT:*',
         'CSKILL:.CLEAR',
@@ -2554,8 +2562,9 @@ my %master_order = (
         'AUTO:EQUIP:*',
         'AUTO:WEAPONPROF:*',
         'DESC:*',
-        'TEMPDESC:*',
-        'TEMPBONUS:*',
+#       'TEMPDESC:*',
+#       'TEMPBONUS:*',
+        @TEMP_Tags,
         'UNENCUMBEREDMOVE',
         'ICON',
 #        'VFEAT:.CLEAR',            #  Deprecated 6.05.01
@@ -2703,13 +2712,14 @@ my %master_order = (
         'NATURALATTACKS',
         'ASPECT:*',
         'BENEFIT:*',
-        'TEMPDESC:*',
+#       'TEMPDESC:*',
         'SPELLKNOWN:CLASS:*',
         'SPELLKNOWN:DOMAIN:*',
         'SPELLLEVEL:CLASS:*',
         'SPELLLEVEL:DOMAIN:*',
         'UNENCUMBEREDMOVE',
-        'TEMPBONUS:*',
+#       'TEMPBONUS:*',
+        @TEMP_Tags,
 #        'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 #        'LANGAUTO:.CLEAR',    # Deprecated - 6.0
 #        'LANGAUTO:*',        # Deprecated - 6.0
@@ -3134,8 +3144,9 @@ my %master_order = (
         'SAB:.CLEAR',
         'SAB:*',
         'DESC',
-        'TEMPDESC:*',
-        'TEMPBONUS:*',
+#       'TEMPDESC:*',
+#       'TEMPBONUS:*',
+        @TEMP_Tags,
 #        'SA:.CLEAR:*',        # Deprecated
 #        'SA:*',                # Deprecated
     ],
@@ -3219,8 +3230,9 @@ my %master_order = (
         'DESCISPI',
         'DESC:.CLEAR',
         'DESC:*',
-        'TEMPDESC:*',
-        'TEMPBONUS:*',
+#       'TEMPDESC:*',
+#       'TEMPBONUS:*',
+        @TEMP_Tags,
 #        'SPELLPOINTCOST:*',
     ],
 
@@ -3594,8 +3606,9 @@ my %master_order = (
     'FOLLOWERS',
     'DESC:.CLEAR',
     'DESC:*',
-        'TEMPDESC:*',
-        'TEMPBONUS:*',
+#       'TEMPDESC:*',
+#       'TEMPBONUS:*',
+        @TEMP_Tags,
 #        'SPELL:*',        # Deprecated 5.x.x - Remove 6.0 - use SPELLS
 #        'ADD:SPECIAL',        # Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 #        'HEIGHT',        # Deprecated
@@ -4567,6 +4580,7 @@ my %tagheader = (
         'TARGETAREA'            => 'Target Area or Effect',
         'TEMPDESC'              => 'Temporary effect description',
         'TEMPVALUE'              => 'Temporary choice',
+        'TEMPBONUS'              => 'Temporary Bonus',
         'TEMPLATE'              => 'Template',
         'TEMPLATE:.CLEAR'       => 'Clear Templates',
         'TYPE'                  => 'Type',
