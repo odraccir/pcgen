@@ -1,0 +1,6 @@
+SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+#																										
+# Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property																		
+Draught of Chromatic Dragon Breath		TYPE:Potion	COST:2100	WT:0.5	SOURCEPAGE:G
+Draught of Gem Dragon Breath		TYPE:Potion	COST:2100	WT:0.5	SOURCEPAGE:G
+
