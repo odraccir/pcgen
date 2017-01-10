@@ -2,5 +2,5 @@ SOURCELONG:Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SO
 #										
 ###Block: Standard Companions										
 # Class of the Master	Type									
-###Block:Special Mount										
+###Block:Homunculus										
 FOLLOWER:HomunculusLVL=1	TYPE:Homunculus	ABILITY:Special Ability|AUTOMATIC|Homunculus ~ Empathic Link

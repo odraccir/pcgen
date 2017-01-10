@@ -2,5 +2,5 @@ SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	
 #										
 ###Block: Standard Companions										
 # Class of the Master	Type									
-###Block:Special Mount										
+###Block:Bogun										
 FOLLOWER:BogunLVL=1	TYPE:Bogun	ABILITY:Special Ability|AUTOMATIC|Bogun ~ Empathic Link
