@@ -46,6 +46,8 @@ Shadow	CATEGORY:Internal	TYPE:ShadowSelection	VISIBLE:NO																								
 Expanded Selection	CATEGORY:Internal	TYPE:ShadowSelection.ShadowAlternate		KEY:Expanded Selection ~ Shadow																			COST:0	COMPANIONLIST:Shadow|ANY								SOURCEPAGE:PHB										
 Shadow (Default)	CATEGORY:Internal	TYPE:ShadowSelection.ShadowBase		KEY:Standard Selection ~ Shadow	!PREABILITY:1,CATEGORY=Internal,TYPE.ShadowAlternate																		COST:0	COMPANIONLIST:Shadow|Shadow								SOURCEPAGE:PHB										
 
+Leadership Score	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	DEFINE:LeadershipFollowerLVL1|0	DEFINE:LeadershipFollowerLVL2|0	DEFINE:LeadershipFollowerLVL3|0	DEFINE:LeadershipFollowerLVL4|0	DEFINE:LeadershipFollowerLVL5|0	DEFINE:LeadershipFollowerLVL6|0	TEMPVALUE:MIN=-10|MAX=10|TITLE=Leadership Score Adjustment	TEMPDESC:Several factors can affect a character's Leadership score, causing it to vary from the base score. Add modifiers as needed.	TEMPBONUS:PC|VAR|LeadershipScore|%CHOICE																																																																																																																																																																																																																																																																																																																																																																																																																																																													
+
 Leadership Cohort	CATEGORY:Special Ability	ABILITY:Internal|AUTOMATIC|Leadership Cohort (Base)|Leadership Cohort
 Leadership Cohort (Base)	CATEGORY:Internal								DEFINE:LeadershipCohortLVL|0	DEFINE:LeadershipCohortDetermination|0													FOLLOWERS:Leadership Cohort|1	ABILITY:Leadership Cohort Selection|AUTOMATIC|Standard Selection ~ Leadership Cohort|!PREABILITY:1,CATEGORY=Internal,TYPE.LeadershipCohortAlternate								SOURCEPAGE:PHB										
 Leadership Cohort	CATEGORY:Internal	TYPE:LeadershipCohortSelection	VISIBLE:NO																													SOURCEPAGE:PHB										
@@ -130,3 +132,4 @@ Boook of Exalted Deeds	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability				
 Boook of Vile Darkness	TYPE:GM_Award.SpecialQuality	CATEGORY:Special Ability					BONUS:STAT|WIS|1|TYPE=Inherent	SORTKEY:Z_Award	COST:0	DESC:GM awarded PC with +1 WIS.	PREALIGN:LE,NE,CE																															
 																																										
 Incense of Meditation ~ Maximize Spells	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	DESC:Incense of Meditation maximize spells.	ADDSPELLLEVEL:0																																					
+

@@ -19,7 +19,7 @@ ABILITY:h_abilities.lst
 EQUIPMENT:h_equip.lst
 SPELL:h_spells.lst
 
-EQUIPMENT:h_equip_magic_items_DMG.lst|PRECAMPAIGN:1,Dungeons Master Guide
+EQUIPMENT:h_equip_magic_items_DMG.lst|PRECAMPAIGN:1,Dungeon Master's Guide
 EQUIPMENT:h_equip_magic_items_Drac.lst|PRECAMPAIGN:1,Draconomicon
 
 # ENTRY DATE: 2015-08 
