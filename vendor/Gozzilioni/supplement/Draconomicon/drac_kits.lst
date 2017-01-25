@@ -1,0 +1,128 @@
+SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11
+	
+STARTPACK:Abyssal Drake Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Abyssal Drake
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Dragonkin Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragonkin
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Dragonkin Standard Equip	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragonkin
+GEAR:Longspear
+
+STARTPACK:Dragonnel Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragonnel
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Elemental Drake (Air Drake) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Elemental Drake (Air Drake)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Elemental Drake (Earth Drake) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Elemental Drake (Earth Drake)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Elemental Drake (Fire Drake) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Elemental Drake (Fire Drake)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Elemental Drake (Ice Drake) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Elemental Drake (Ice Drake)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Elemental Drake (Magma Drake) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Elemental Drake (Magma Drake)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Elemental Drake (Ooze Drake) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Elemental Drake (Ooze Drake)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Elemental Drake (Smoke Drake) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Elemental Drake (Smoke Drake)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Elemental Drake (Water Drake) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Elemental Drake (Water Drake)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Faerie Dragon Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Faerie Dragon
+STAT:STR=11|DEX=10|CON=1|INT=11|WIS=11|CHA=10
+
+STARTPACK:Dragon (Fang) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Fang)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Felldrake (Spiked) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Felldrake (Spiked)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=10|CHA=10
+GEAR:Felldrake (Spiked) ~ Spike
+
+STARTPACK:Golem (Dragonbone) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Golem (Dragonbone)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Golem (Drakestone) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Golem (Drakestone)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Golem (Ironwyrm) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Golem (Ironwyrm)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Hoard Scarab Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Hoard Scarab
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Swarm (Hoard Scarab Swarm) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Swarm (Hoard Scarab Swarm)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Landwyrm (Desert Landwyrm) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Landwyrm (Desert Landwyrm)
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Landwyrm (Forest Landwyrm) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Landwyrm (Forest Landwyrm)
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Landwyrm (Hill Landwyrm) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Landwyrm (Hill Landwyrm)
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Landwyrm (Jungle Landwyrm) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Landwyrm (Jungle Landwyrm)
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Landwyrm (Mountain Landwyrm) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Landwyrm (Mountain Landwyrm)
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Landwyrm (Plains Landwyrm) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Landwyrm (Plains Landwyrm)
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Landwyrm (Swamp Landwyrm) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Landwyrm (Swamp Landwyrm)
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Landwyrm (Tundra Landwyrm) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Landwyrm (Tundra Landwyrm)
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Landwyrm (Underdark Landwyrm) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Landwyrm (Underdark Landwyrm)
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Dragon (Battle) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Battle)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dragon (Chaos) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Chaos)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dragon (Ethereal) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Ethereal)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dragon (Howling) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Howling)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dragon (Oceanus) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Oceanus)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dragon (Pyroclastic) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Pyroclastic)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dragon (Radiant) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Radiant)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dragon (Rust) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Rust)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dragon (Styx) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Styx)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dragon (Tarterian) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Tarterian)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dragon (Shadow) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Shadow)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Squamous Spewer Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Squamous Spewer
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Storm Drake Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Storm Drake
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=11|CHA=10

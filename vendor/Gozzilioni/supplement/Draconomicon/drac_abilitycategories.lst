@@ -1,0 +1,47 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+
+# Subrace Support
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Bloodscaled Fury Class Feature	CATEGORY:Special Ability	TYPE:BloodscaledFuryClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Bloodscaled Fury Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Disciple of Ashardalon Class Feature	CATEGORY:Special Ability	TYPE:DiscipleOfAshardalonClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Disciple of Ashardalon Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Dispassionate Watcher of Chronepsis Class Feature	CATEGORY:Special Ability	TYPE:DispassionateWatcherOfChronepsisClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dispassionate Watcher of Chronepsis Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Dragon Ascendant Class Feature	CATEGORY:Special Ability	TYPE:DragonAscendantClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dragon Ascendant Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Elemental Master Class Feature	CATEGORY:Special Ability	TYPE:ElementalMasterClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Elemental Master Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Hidecarved Dragon Class Feature	CATEGORY:Special Ability	TYPE:HidecarvedDragonClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Hidecarved Dragon Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Sacred Warder of Bahamut Class Feature	CATEGORY:Special Ability	TYPE:SacredWarderOfBahamutClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Sacred Warder of Bahamut Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Unholy Ravager of Tiamat Class Feature	CATEGORY:Special Ability	TYPE:UnholyRavagerOfTiamatClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Unholy Ravager of Tiamat Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Dracolyte Class Feature	CATEGORY:Special Ability	TYPE:DracolyteClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dracolyte Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Dragonkith Class Feature	CATEGORY:Special Ability	TYPE:DragonkithClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dragonkith Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Dragonrider Class Feature	CATEGORY:Special Ability	TYPE:DragonriderClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dragonrider Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Dragonslayer Class Feature	CATEGORY:Special Ability	TYPE:DragonslayerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dragonslayer Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Dragonsong Lyrist Class Feature	CATEGORY:Special Ability	TYPE:DragonsongLyristClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dragonsong Lyrist Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Dragonstalker Class Feature	CATEGORY:Special Ability	TYPE:DragonstalkerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dragonstalker Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Hoardstealer Class Feature	CATEGORY:Special Ability	TYPE:HoardstealerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Hoardstealer Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Initiate of the Draconic Mysteries Class Feature	CATEGORY:Special Ability	TYPE:InitiateOfTheDraconicMysteriesClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Initiate of the Draconic Mysteries Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Platinum Knight Class Feature	CATEGORY:Special Ability	TYPE:PlatinumKnightClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Platinum Knight Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Talon of Tiamat Class Feature	CATEGORY:Special Ability	TYPE:TalonOfTiamatClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Talon of TiamatClass Features			DISPLAYLOCATION:Class Features
+
+ABILITYCATEGORY:Dragon Cohort Class Feature	CATEGORY:Special Ability	TYPE:DragonCohortClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dragon Cohort Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Dragon Steed Class Feature	CATEGORY:Special Ability	TYPE:DragonSteedClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dragon Steed Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Foster Dragon Class Feature	CATEGORY:Special Ability	TYPE:FosterDragonClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Foster Dragon Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups
+ABILITYCATEGORY:Turn Cold	CATEGORY:Special Ability	TYPE:TurnFire.RebukeCold	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Turn Cold			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Hidecarved Resistance	CATEGORY:Special Ability	TYPE:HidecarvedResistance	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Hidecarved Resistancies			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Hidecarved Immunity	CATEGORY:Special Ability	TYPE:HidecarvedImmunity	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Hidecarved Immunities			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Dragonkith Resistance	CATEGORY:Special Ability	TYPE:DragonkithResistance	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Dragonkith Resistancies			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Talon of Tiamat Immunities	CATEGORY:Special Ability	TYPE:TalonOfTiamatImmunity	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Talon Of Tiamat Immunities			DISPLAYLOCATION:Class Features
+
+#Feats Ability pools
+ABILITYCATEGORY:Dragonrider Feat	CATEGORY:FEAT	TYPE:Dragonrider	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Dragonrider Feats			DISPLAYLOCATION:Feats
+
+#Companion Support
+ABILITYCATEGORY:Dragon Cohort Selection	CATEGORY:Internal	TYPE:DragonCohortSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dragon Cohort Choice			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Dragon Steed Selection	CATEGORY:Internal	TYPE:DragonSteedSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dragon Steed Choice			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Foster Dragon Selection	CATEGORY:Internal	TYPE:FosterDragonSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Foster Dragon Choice			DISPLAYLOCATION:Class Features
+
+#
+# End
+#

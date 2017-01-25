@@ -2,146 +2,175 @@ SOURCELONG:Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SO
 																																			
 # Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	TYPE:	RACETYPE:	RACESUBTYPE:	MONSTERCLASS:	MOVE:	Combat bonus	NATURALATTACKS:	NATURALATTACKS:	Weapon prof. bonus	Weapon prof. bonus	FACE:	REACH:	Special Ability	Damage Reduction	Spell Res.	Stat bonus						MONCSKILL:	CR:	Required AL	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	Nb Legs	Nb Hands	SOURCEPAGE:		
 Chimera.COPY=Chimera	KEY:Companion ~ Chimera (Skeleton)
-Companion ~ Chimera (Skeleton).MOD	OUTPUTNAME:Chimera (Skeleton)	TYPE:Companion	SERVESAS:RACE|Chimera	TEMPLATE:Skeleton
-Dire Animal (Dire Ape).COPY=Dire Animal (Dire Ape)	KEY:Companion ~ Dire Animal (Dire Ape/Fiendish)
-Companion ~ Dire Animal (Dire Ape/Fiendish).MOD	OUTPUTNAME:Dire Animal (Dire Ape/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Ape)	TEMPLATE:Fiendish
-Dire Animal (Dire Bat).COPY=Dire Animal (Dire Bat)	KEY:Companion ~ Dire Animal (Dire Bat/Fiendish)
-Companion ~ Dire Animal (Dire Bat/Fiendish).MOD	OUTPUTNAME:Dire Animal (Dire Bat/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Bat)	TEMPLATE:Fiendish
-Dire Animal (Dire Badger).COPY=Dire Animal (Dire Badger)	KEY:Companion ~ Dire Animal (Dire Badger/Celestial)
-Companion ~ Dire Animal (Dire Badger/Celestial).MOD	OUTPUTNAME:Dire Animal (Dire Badger/Celestial)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Badger)	TEMPLATE:Celestial
-Dire Animal (Dire Bear).COPY=Dire Animal (Dire Bear)	KEY:Companion ~ Dire Animal (Dire Bear/Celestial)
-Companion ~ Dire Animal (Dire Bear/Celestial).MOD	OUTPUTNAME:Dire Animal (Dire Bear/Celestial)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Bear)	TEMPLATE:Celestial
-Dire Animal (Dire Boar).COPY=Dire Animal (Dire Boar)	KEY:Companion ~ Dire Animal (Dire Boar/Fiendish)
-Companion ~ Dire Animal (Dire Boar/Fiendish).MOD	OUTPUTNAME:Dire Animal (Dire Boar/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Boar)	TEMPLATE:Fiendish
-Dire Animal (Dire Lion).COPY=Dire Animal (Dire Lion)	KEY:Companion ~ Dire Animal (Dire Lion/Celestial)
-Companion ~ Dire Animal (Dire Lion/Celestial).MOD	OUTPUTNAME:Dire Animal (Dire Lion/Celestial)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Lion)	TEMPLATE:Celestial
-Dire Animal (Dire Rat).COPY=Dire Animal (Dire Rat)	KEY:Companion ~ Dire Animal (Dire Rat/Celestial)
-Companion ~ Dire Animal (Dire Rat/Celestial).MOD	OUTPUTNAME:Dire Animal (Dire Rat/Celestial)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Rat)	TEMPLATE:Celestial
-Dire Animal (Dire Rat).COPY=Dire Animal (Dire Rat)	KEY:Companion ~ Dire Animal (Dire Rat/Fiendish)
-Companion ~ Dire Animal (Dire Rat/Fiendish).MOD	OUTPUTNAME:Dire Animal (Dire Rat/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Rat)	TEMPLATE:Fiendish
-Dire Animal (Dire Tiger).COPY=Dire Animal (Dire Tiger)	KEY:Companion ~ Dire Animal (Dire Tiger/Fiendish)
-Companion ~ Dire Animal (Dire Tiger/Fiendish).MOD	OUTPUTNAME:Dire Animal (Dire Tiger/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Tiger)	TEMPLATE:Fiendish
-Dire Animal (Dire Shark).COPY=Dire Animal (Dire Shark)	KEY:Companion ~ Dire Animal (Dire Shark/Fiendish)
-Companion ~ Dire Animal (Dire Shark/Fiendish).MOD	OUTPUTNAME:Dire Animal (Dire Shark/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Shark)	TEMPLATE:Fiendish
-Dire Animal (Dire Weasel).COPY=Dire Animal (Dire Weasel)	KEY:Companion ~ Dire Animal (Dire Weasel/Fiendish)
-Companion ~ Dire Animal (Dire Weasel/Fiendish).MOD	OUTPUTNAME:Dire Animal (Dire Weasel/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Weasel)	TEMPLATE:Fiendish
-Dire Animal (Dire Wolf).COPY=Dire Animal (Dire Wolf)	KEY:Companion ~ Dire Animal (Dire Wolf/Fiendish)
-Companion ~ Dire Animal (Dire Wolf/Fiendish).MOD	OUTPUTNAME:Dire Animal (Dire Wolf/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Wolf)	TEMPLATE:Fiendish
-Dire Animal (Dire Wolverine).COPY=Dire Animal (Dire Wolverine)	KEY:Companion ~ Dire Animal (Dire Wolverine/Fiendish)
-Companion ~ Dire Animal (Dire Wolverine/Fiendish).MOD	OUTPUTNAME:Dire Animal (Dire Wolverine/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Wolverine)	TEMPLATE:Fiendish
-Dragon (Brass).COPY=Dragon (Brass)	KEY:Companion ~ Dragon (Brass/Very Young)
-Companion ~ Dragon (Brass/Very Young).MOD	OUTPUTNAME:Dragon (Brass/Very Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Brass)	KIT:1|Dragon (Brass/Very Young) Companion
-Dragon (Brass).COPY=Dragon (Brass)	KEY:Companion ~ Dragon (Brass/Young)
-Companion ~ Dragon (Brass/Young).MOD	OUTPUTNAME:Dragon (Brass/Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Brass)	KIT:1|Dragon (Brass/Young) Companion
-Dragon (Brass).COPY=Dragon (Brass)	KEY:Companion ~ Dragon (Brass/Juvenile)
-Companion ~ Dragon (Brass/Juvenile).MOD	OUTPUTNAME:Dragon (Brass/Juvenile)	TYPE:Companion	SERVESAS:RACE|Dragon (Brass)	KIT:1|Dragon (Brass/Juvenile) Companion
-Dragon (Brass).COPY=Dragon (Brass)	KEY:Companion ~ Dragon (Brass/Wyrm)
-Companion ~ Dragon (Brass/Wyrm).MOD	OUTPUTNAME:Dragon (Brass/Wyrm)	TYPE:Companion	SERVESAS:RACE|Dragon (Brass)	KIT:1|Dragon (Brass/Wyrm) Companion
-Dragon (Bronze).COPY=Dragon (Bronze)	KEY:Companion ~ Dragon (Bronze/Very Young)
-Companion ~ Dragon (Bronze/Very Young).MOD	OUTPUTNAME:Dragon (Bronze/Very Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Bronze)	KIT:1|Dragon (Bronze/Very Young) Companion
-Dragon (Bronze).COPY=Dragon (Bronze)	KEY:Companion ~ Dragon (Bronze/Young)
-Companion ~ Dragon (Bronze/Young).MOD	OUTPUTNAME:Dragon (Bronze/Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Bronze)	KIT:1|Dragon (Bronze/Young) Companion
-Dragon (Copper).COPY=Dragon (Copper)	KEY:Companion ~ Dragon (Copper/Very Young)
-Companion ~ Dragon (Copper/Very Young).MOD	OUTPUTNAME:Dragon (Copper/Very Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Copper)	KIT:1|Dragon (Copper/Very Young) Companion
-Dragon (Copper).COPY=Dragon (Copper)	KEY:Companion ~ Dragon (Copper/Young)
-Companion ~ Dragon (Copper/Young).MOD	OUTPUTNAME:Dragon (Copper/Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Copper)	KIT:1|Dragon (Copper/Young) Companion
-Dragon (Copper).COPY=Dragon (Copper)	KEY:Companion ~ Dragon (Copper/Juvenile)
-Companion ~ Dragon (Copper/Juvenile).MOD	OUTPUTNAME:Dragon (Copper/Juvenile)	TYPE:Companion	SERVESAS:RACE|Dragon (Copper)	KIT:1|Dragon (Copper/Juvenile) Companion
-Dragon (Gold).COPY=Dragon (Gold)	KEY:Companion ~ Dragon (Gold/Very Young)
-Companion ~ Dragon (Gold/Very Young).MOD	OUTPUTNAME:Dragon (Gold/Very Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Gold)	KIT:1|Dragon (Gold/Very Young) Companion
-Dragon (Gold).COPY=Dragon (Gold)	KEY:Companion ~ Dragon (Gold/Young)
-Companion ~ Dragon (Gold/Young).MOD	OUTPUTNAME:Dragon (Gold/Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Gold)	KIT:1|Dragon (Gold/Young) Companion
-Dragon (Green).COPY=Dragon (Green)	KEY:Companion ~ Dragon (Green/Ancient)
-Companion ~ Dragon (Green/Ancient).MOD	OUTPUTNAME:Dragon (Gold/Ancient)	TYPE:Companion	SERVESAS:RACE|Dragon (Green)	KIT:1|Dragon (Gold/Ancient) Companion
-Dragon (Silver).COPY=Dragon (Silver)	KEY:Companion ~ Dragon (Silver/Very Young)
-Companion ~ Dragon (Silver/Very Young).MOD	OUTPUTNAME:Dragon (Silver/Very Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Silver)	KIT:1|Dragon (Silver/Very Young) Companion
-Dragon (Silver).COPY=Dragon (Silver)	KEY:Companion ~ Dragon (Silver/Young)
-Companion ~ Dragon (Silver/Young).MOD	OUTPUTNAME:Dragon (Silver/Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Silver)	KIT:1|Dragon (Silver/Young) Companion
-Dragon (Silver).COPY=Dragon (Silver)	KEY:Companion ~ Dragon (Silver/Ancient)
-Companion ~ Dragon (Silver/Ancient).MOD	OUTPUTNAME:Dragon (Silver/Ancient)	TYPE:Companion	SERVESAS:RACE|Dragon (Silver)	KIT:1|Dragon (Silver/Ancient) Companion
-Dragon (White).COPY=Dragon (White)	KEY:Companion ~ Dragon (White/Wyrm)
-Companion ~ Dragon (White/Wyrm).MOD	OUTPUTNAME:Dragon (White/Wyrm)	TYPE:Companion	SERVESAS:RACE|Dragon (White)	KIT:1|Dragon (White/Wyrm) Companion
 Dinosaur (Deinonychus).COPY=Dinosaur (Deinonychus/Fiendish)	KEY:Companion ~ Dinosaur (Deinonychus/Fiendish)
-Companion ~ Dinosaur (Deinonychus/Fiendish).MOD	OUTPUTNAME:Dinosaur (Deinonychus/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Deinonychus)	TEMPLATE:Fiendish
 Dinosaur (Elasmosaurus).COPY=Dinosaur (Elasmosaurus/Fiendish)	KEY:Companion ~ Dinosaur (Elasmosaurus/Fiendish)
-Companion ~ Dinosaur (Elasmosaurus/Fiendish).MOD	OUTPUTNAME:Dinosaur (Elasmosaurus/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Elasmosaurus)	TEMPLATE:Fiendish
 Dinosaur (Megaraptor).COPY=Dinosaur (Megaraptor/Fiendish)	KEY:Companion ~ Dinosaur (Megaraptor/Fiendish)
-Companion ~ Dinosaur (Megaraptor/Fiendish).MOD	OUTPUTNAME:Dinosaur (Megaraptor/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Megaraptor)	TEMPLATE:Fiendish
 Dinosaur (Triceratops).COPY=Dinosaur (Triceratops/Celestial)	KEY:Companion ~ Dinosaur (Triceratops/Celestial)
-Companion ~ Dinosaur (Triceratops/Celestial).MOD	OUTPUTNAME:Dinosaur (Triceratops/Celestial)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Triceratops)	TEMPLATE:Celestial
 Dinosaur (Tyrannosaurus).COPY=Dinosaur (Tyrannosaurus/Fiendish)	KEY:Companion ~ Dinosaur (Tyrannosaurus/Fiendish)
-Companion ~ Dinosaur (Tyrannosaurus/Fiendish).MOD	OUTPUTNAME:Dinosaur (Tyrannosaurus/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Tyrannosaurus)	TEMPLATE:Fiendish
-Elemental (Air).COPY=Elemental (Air)	KEY:Companion ~ Elemental (Air/Medium)
-Companion ~ Elemental (Air/Medium).MOD	OUTPUTNAME:Elemental (Air/Medium)	TYPE:Companion	SERVESAS:RACE|Elemental (Air)	KIT:1|Elemental (Air/Medium) Companion
-Elemental (Earth).COPY=Elemental (Earth)	KEY:Companion ~ Elemental (Earth/Medium)
-Companion ~ Elemental (Earth/Medium).MOD	OUTPUTNAME:Elemental (Earth/Medium)	TYPE:Companion	SERVESAS:RACE|Elemental (Earth)	KIT:1|Elemental (Earth/Medium) Companion
-Elemental (Fire).COPY=Elemental (Fire)	KEY:Companion ~ Elemental (Fire/Medium)
-Companion ~ Elemental (Fire/Medium).MOD	OUTPUTNAME:Elemental (Fire/Medium)	TYPE:Companion	SERVESAS:RACE|Elemental (Fire)	KIT:1|Elemental (Fire/Medium) Companion
-Elemental (Water).COPY=Elemental (Water)	KEY:Companion ~ Elemental (Water/Medium)
-Companion ~ Elemental (Water/Medium).MOD	OUTPUTNAME:Elemental (Water/Medium)	TYPE:Companion	SERVESAS:RACE|Elemental (Water)	KIT:1|Elemental (Water/Medium) Companion
-Elemental (Air).COPY=Elemental (Air)	KEY:Companion ~ Elemental (Air/Large)
-Companion ~ Elemental (Air/Large).MOD	OUTPUTNAME:Elemental (Air/Large)	TYPE:Companion	SERVESAS:RACE|Elemental (Air)	KIT:1|Elemental (Air/Large) Companion
-Elemental (Earth).COPY=Elemental (Earth)	KEY:Companion ~ Elemental (Earth/Large)
-Companion ~ Elemental (Earth/Large).MOD	OUTPUTNAME:Elemental (Earth/Large)	TYPE:Companion	SERVESAS:RACE|Elemental (Earth)	KIT:1|Elemental (Earth/Large) Companion
-Elemental (Fire).COPY=Elemental (Fire)	KEY:Companion ~ Elemental (Fire/Large)
-Companion ~ Elemental (Fire/Large).MOD	OUTPUTNAME:Elemental (Fire/Large)	TYPE:Companion	SERVESAS:RACE|Elemental (Fire)	KIT:1|Elemental (Fire/Large) Companion
-Elemental (Water).COPY=Elemental (Water)	KEY:Companion ~ Elemental (Water/Large)
-Companion ~ Elemental (Water/Large).MOD	OUTPUTNAME:Elemental (Water/Large)	TYPE:Companion	SERVESAS:RACE|Elemental (Water)	KIT:1|Elemental (Water/Large) Companion
-Elemental (Air).COPY=Elemental (Air)	KEY:Companion ~ Elemental (Air/Huge)
-Companion ~ Elemental (Air/Huge).MOD	OUTPUTNAME:Elemental (Air/Huge)	TYPE:Companion	SERVESAS:RACE|Elemental (Air)	KIT:1|Elemental (Air/Huge) Companion
-Elemental (Earth).COPY=Elemental (Earth)	KEY:Companion ~ Elemental (Earth/Huge)
-Companion ~ Elemental (Earth/Huge).MOD	OUTPUTNAME:Elemental (Earth/Huge)	TYPE:Companion	SERVESAS:RACE|Elemental (Earth)	KIT:1|Elemental (Earth/Huge) Companion
-Elemental (Fire).COPY=Elemental (Fire)	KEY:Companion ~ Elemental (Fire/Huge)
-Companion ~ Elemental (Fire/Huge).MOD	OUTPUTNAME:Elemental (Fire/Huge)	TYPE:Companion	SERVESAS:RACE|Elemental (Fire)	KIT:1|Elemental (Fire/Huge) Companion
-Elemental (Water).COPY=Elemental (Water)	KEY:Companion ~ Elemental (Water/Huge)
-Companion ~ Elemental (Water/Huge).MOD	OUTPUTNAME:Elemental (Water/Huge)	TYPE:Companion	SERVESAS:RACE|Elemental (Water)	KIT:1|Elemental (Water/Huge) Companion
-Elemental (Air).COPY=Elemental (Air)	KEY:Companion ~ Elemental (Air/Greater)
-Companion ~ Elemental (Air/Greater).MOD	OUTPUTNAME:Elemental (Air/Greater)	TYPE:Companion	SERVESAS:RACE|Elemental (Air)	KIT:1|Elemental (Air/Greater) Companion
-Elemental (Earth).COPY=Elemental (Earth)	KEY:Companion ~ Elemental (Earth/Greater)
-Companion ~ Elemental (Earth/Greater).MOD	OUTPUTNAME:Elemental (Earth/Greater)	TYPE:Companion	SERVESAS:RACE|Elemental (Earth)	KIT:1|Elemental (Earth/Greater) Companion
-Elemental (Fire).COPY=Elemental (Fire)	KEY:Companion ~ Elemental (Fire/Greater)
-Companion ~ Elemental (Fire/Greater).MOD	OUTPUTNAME:Elemental (Fire/Greater)	TYPE:Companion	SERVESAS:RACE|Elemental (Fire)	KIT:1|Elemental (Fire/Greater) Companion
-Elemental (Water).COPY=Elemental (Water)	KEY:Companion ~ Elemental (Water/Greater)
-Companion ~ Elemental (Water/Greater).MOD	OUTPUTNAME:Elemental (Water/Greater)	TYPE:Companion	SERVESAS:RACE|Elemental (Water)	KIT:1|Elemental (Water/Greater) Companion
-Elemental (Air).COPY=Elemental (Air)	KEY:Companion ~ Elemental (Air/Elder)
-Companion ~ Elemental (Air/Elder).MOD	OUTPUTNAME:Elemental (Air/Elder)	TYPE:Companion	SERVESAS:RACE|Elemental (Air)	KIT:1|Elemental (Air/Elder) Companion
-Elemental (Earth).COPY=Elemental (Earth)	KEY:Companion ~ Elemental (Earth/Elder)
-Companion ~ Elemental (Earth/Elder).MOD	OUTPUTNAME:Elemental (Earth/Elder)	TYPE:Companion	SERVESAS:RACE|Elemental (Earth)	KIT:1|Elemental (Earth/Elder) Companion
-Elemental (Fire).COPY=Elemental (Fire)	KEY:Companion ~ Elemental (Fire/Elder)
-Companion ~ Elemental (Fire/Elder).MOD	OUTPUTNAME:Elemental (Fire/Elder)	TYPE:Companion	SERVESAS:RACE|Elemental (Fire)	KIT:1|Elemental (Fire/Elder) Companion
-Elemental (Water).COPY=Elemental (Water)	KEY:Companion ~ Elemental (Water/Elder)
-Companion ~ Elemental (Water/Elder).MOD	OUTPUTNAME:Elemental (Water/Elder)	TYPE:Companion	SERVESAS:RACE|Elemental (Water)	KIT:1|Elemental (Water/Elder) Companion
+Dire Animal (Dire Ape).COPY=Dire Animal (Dire Ape)	KEY:Companion ~ Dire Animal (Dire Ape/Fiendish)
+Dire Animal (Dire Badger).COPY=Dire Animal (Dire Badger)	KEY:Companion ~ Dire Animal (Dire Badger/Celestial)
+Dire Animal (Dire Bat).COPY=Dire Animal (Dire Bat)	KEY:Companion ~ Dire Animal (Dire Bat/Fiendish)
+Dire Animal (Dire Bear).COPY=Dire Animal (Dire Bear)	KEY:Companion ~ Dire Animal (Dire Bear/Celestial)
+Dire Animal (Dire Boar).COPY=Dire Animal (Dire Boar)	KEY:Companion ~ Dire Animal (Dire Boar/Fiendish)
+Dire Animal (Dire Lion).COPY=Dire Animal (Dire Lion)	KEY:Companion ~ Dire Animal (Dire Lion/Celestial)
+Dire Animal (Dire Rat).COPY=Dire Animal (Dire Rat)	KEY:Companion ~ Dire Animal (Dire Rat/Celestial)
+Dire Animal (Dire Rat).COPY=Dire Animal (Dire Rat)	KEY:Companion ~ Dire Animal (Dire Rat/Fiendish)
+Dire Animal (Dire Shark).COPY=Dire Animal (Dire Shark)	KEY:Companion ~ Dire Animal (Dire Shark/Fiendish)
+Dire Animal (Dire Tiger).COPY=Dire Animal (Dire Tiger)	KEY:Companion ~ Dire Animal (Dire Tiger/Fiendish)
+Dire Animal (Dire Weasel).COPY=Dire Animal (Dire Weasel)	KEY:Companion ~ Dire Animal (Dire Weasel/Fiendish)
+Dire Animal (Dire Wolf).COPY=Dire Animal (Dire Wolf)	KEY:Companion ~ Dire Animal (Dire Wolf/Fiendish)
+Dire Animal (Dire Wolverine).COPY=Dire Animal (Dire Wolverine)	KEY:Companion ~ Dire Animal (Dire Wolverine/Fiendish)
+Dragon (Black).COPY=Dragon (Black)	KEY:Companion ~ Dragon (Black/Juvenile)
+Dragon (Black).COPY=Dragon (Black)	KEY:Companion ~ Dragon (Black/Very Young)
+Dragon (Black).COPY=Dragon (Black)	KEY:Companion ~ Dragon (Black/Young)
+Dragon (Blue).COPY=Dragon (Blue)	KEY:Companion ~ Dragon (Blue/Juvenile)
+Dragon (Blue).COPY=Dragon (Blue)	KEY:Companion ~ Dragon (Blue/Very Young)
+Dragon (Blue).COPY=Dragon (Blue)	KEY:Companion ~ Dragon (Blue/Young)
+Dragon (Brass).COPY=Dragon (Brass)	KEY:Companion ~ Dragon (Brass/Juvenile)
+Dragon (Brass).COPY=Dragon (Brass)	KEY:Companion ~ Dragon (Brass/Very Young)
+Dragon (Brass).COPY=Dragon (Brass)	KEY:Companion ~ Dragon (Brass/Wyrm)
+Dragon (Brass).COPY=Dragon (Brass)	KEY:Companion ~ Dragon (Brass/Young)
+Dragon (Bronze).COPY=Dragon (Bronze)	KEY:Companion ~ Dragon (Bronze/Very Young)
+Dragon (Bronze).COPY=Dragon (Bronze)	KEY:Companion ~ Dragon (Bronze/Young)
+Dragon (Copper).COPY=Dragon (Copper)	KEY:Companion ~ Dragon (Copper/Juvenile)
+Dragon (Copper).COPY=Dragon (Copper)	KEY:Companion ~ Dragon (Copper/Very Young)
+Dragon (Copper).COPY=Dragon (Copper)	KEY:Companion ~ Dragon (Copper/Young)
+Dragon (Gold).COPY=Dragon (Gold)	KEY:Companion ~ Dragon (Gold/Very Young)
+Dragon (Gold).COPY=Dragon (Gold)	KEY:Companion ~ Dragon (Gold/Young)
+Dragon (Green).COPY=Dragon (Green)	KEY:Companion ~ Dragon (Green/Ancient)
+Dragon (Green).COPY=Dragon (Green)	KEY:Companion ~ Dragon (Green/Juvenile)
+Dragon (Green).COPY=Dragon (Green)	KEY:Companion ~ Dragon (Green/Very Young)
+Dragon (Green).COPY=Dragon (Green)	KEY:Companion ~ Dragon (Green/Young)
+Dragon (Red).COPY=Dragon (Red)	KEY:Companion ~ Dragon (Red/Very Young)
+Dragon (Red).COPY=Dragon (Red)	KEY:Companion ~ Dragon (Red/Young)
+Dragon (Silver).COPY=Dragon (Silver)	KEY:Companion ~ Dragon (Silver/Ancient)
+Dragon (Silver).COPY=Dragon (Silver)	KEY:Companion ~ Dragon (Silver/Very Young)
+Dragon (Silver).COPY=Dragon (Silver)	KEY:Companion ~ Dragon (Silver/Young)
+Dragon (White).COPY=Dragon (White)	KEY:Companion ~ Dragon (White/Wyrm)
+Dragon (White).COPY=Dragon (White)	KEY:Companion ~ Dragon (White/Juvenile)
+Dragon (White).COPY=Dragon (White)	KEY:Companion ~ Dragon (White/Very Young)
+Dragon (White).COPY=Dragon (White)	KEY:Companion ~ Dragon (White/Young)
 Eagle (Giant).COPY=Eagle (Giant)	KEY:Companion ~ Eagle (Giant/Celestial)
-Companion ~ Eagle (Giant/Celestial).MOD	OUTPUTNAME:Eagle (Giant/Celestial)	TYPE:Companion	SERVESAS:RACE|Eagle (Giant)	TEMPLATE:Celestial
-Hippogriff.COPY=Hippogriff	KEY:Companion ~ Hippogriff (Celestial)
-Companion ~ Hippogriff (Celestial).MOD	OUTPUTNAME:Hippogriff (Celestial)	TYPE:Companion	SERVESAS:RACE|Hippogriff	TEMPLATE:Celestial
-Human.COPY=Human	KEY:Companion ~ Human (Skeleton)
-Companion ~ Human (Skeleton).MOD	OUTPUTNAME:Human (Skeleton)	TYPE:Companion	SERVESAS:RACE|Human	TEMPLATE:Skeleton
-Human.COPY=Human	KEY:Companion ~ Human (Zombie)
-Companion ~ Human (Zombie).MOD	OUTPUTNAME:Human (Zombie)	TYPE:Companion	SERVESAS:RACE|Human	TEMPLATE:Zombie
-Human.COPY=Human	KEY:Companion ~ Human (Werebear)
-Companion ~ Human (Werebear).MOD	OUTPUTNAME:Human (Werebear)	TYPE:Companion	SERVESAS:RACE|Human	TEMPLATE:Lycanthrope ~ Bear
-Human.COPY=Human	KEY:Companion ~ Human (Wereboar)
-Companion ~ Human (Wereboar).MOD	OUTPUTNAME:Human (Wereboar)	TYPE:Companion	SERVESAS:RACE|Human	TEMPLATE:Lycanthrope ~ Boar
+Elemental (Air).COPY=Elemental (Air)	KEY:Companion ~ Elemental (Air/Elder)
+Elemental (Air).COPY=Elemental (Air)	KEY:Companion ~ Elemental (Air/Greater)
+Elemental (Air).COPY=Elemental (Air)	KEY:Companion ~ Elemental (Air/Huge)
+Elemental (Air).COPY=Elemental (Air)	KEY:Companion ~ Elemental (Air/Large)
+Elemental (Air).COPY=Elemental (Air)	KEY:Companion ~ Elemental (Air/Medium)
+Elemental (Earth).COPY=Elemental (Earth)	KEY:Companion ~ Elemental (Earth/Elder)
+Elemental (Earth).COPY=Elemental (Earth)	KEY:Companion ~ Elemental (Earth/Greater)
+Elemental (Earth).COPY=Elemental (Earth)	KEY:Companion ~ Elemental (Earth/Huge)
+Elemental (Earth).COPY=Elemental (Earth)	KEY:Companion ~ Elemental (Earth/Large)
+Elemental (Earth).COPY=Elemental (Earth)	KEY:Companion ~ Elemental (Earth/Medium)
+Elemental (Fire).COPY=Elemental (Fire)	KEY:Companion ~ Elemental (Fire/Elder)
+Elemental (Fire).COPY=Elemental (Fire)	KEY:Companion ~ Elemental (Fire/Greater)
+Elemental (Fire).COPY=Elemental (Fire)	KEY:Companion ~ Elemental (Fire/Huge)
+Elemental (Fire).COPY=Elemental (Fire)	KEY:Companion ~ Elemental (Fire/Large)
+Elemental (Fire).COPY=Elemental (Fire)	KEY:Companion ~ Elemental (Fire/Medium)
+Elemental (Water).COPY=Elemental (Water)	KEY:Companion ~ Elemental (Water/Elder)
+Elemental (Water).COPY=Elemental (Water)	KEY:Companion ~ Elemental (Water/Greater)
+Elemental (Water).COPY=Elemental (Water)	KEY:Companion ~ Elemental (Water/Huge)
+Elemental (Water).COPY=Elemental (Water)	KEY:Companion ~ Elemental (Water/Large)
+Elemental (Water).COPY=Elemental (Water)	KEY:Companion ~ Elemental (Water/Medium)
 Girallon.COPY=Girallon	KEY:Companion ~ Girallon (Fiendish)
-Companion ~ Girallon (Fiendish).MOD	OUTPUTNAME:Girallon (Fiendish)	TYPE:Companion	SERVESAS:RACE|Girallon	TEMPLATE:Fiendish
 Griffon.COPY=Griffon	KEY:Companion ~ Griffon (Celestial)
-Companion ~ Griffon (Celestial).MOD	OUTPUTNAME:Griffon (Celestial)	TYPE:Companion	SERVESAS:RACE|Griffon	TEMPLATE:Celestial
+Hippogriff.COPY=Hippogriff	KEY:Companion ~ Hippogriff (Celestial)
+Human.COPY=Human	KEY:Companion ~ Human (Skeleton)
+Human.COPY=Human	KEY:Companion ~ Human (Werebear)
+Human.COPY=Human	KEY:Companion ~ Human (Wereboar)
+Human.COPY=Human	KEY:Companion ~ Human (Zombie)
 Hydra.COPY=Hydra	KEY:Companion ~ Hydra (12 heads)
-Companion ~ Hydra (12 heads).MOD	OUTPUTNAME:Hydra (12 heads)	TYPE:Companion	SERVESAS:RACE|Hydra	KIT:1|Hydra (12 heads) Companion
 Minotaur.COPY=Minotaur	KEY:Companion ~ Minotaur (Zombie)
-Companion ~ Minotaur (Zombie).MOD	OUTPUTNAME:Minotaur (Zombie)	TYPE:Companion	SERVESAS:RACE|Minotaur	TEMPLATE:Zombie
 Owl (Giant).COPY=Owl (Giant)	KEY:Companion ~ Owl (Giant/Celestial)
-Companion ~ Owl (Giant/Celestial).MOD	OUTPUTNAME:Owl (Giant/Celestial)	TYPE:Companion	SERVESAS:RACE|Owl (Giant)	TEMPLATE:Celestial
 Pegasus.COPY=Pegasus	KEY:Companion ~ Pegasus (Celestial)
-Companion ~ Pegasus (Celestial).MOD	OUTPUTNAME:Pegasus (Celestial)	TYPE:Companion	SERVESAS:RACE|Pegasus	TEMPLATE:Celestial
 Roc.COPY=Roc	KEY:Companion ~ Roc (Celestial)
-Companion ~ Roc (Celestial).MOD	OUTPUTNAME:Roc (Celestial)	TYPE:Companion	SERVESAS:RACE|Roc	TEMPLATE:Celestial
 Sea Cat.COPY=Sea Cat	KEY:Companion ~ Sea Cat (Celestial)
-Companion ~ Sea Cat (Celestial).MOD	OUTPUTNAME:Sea Cat (Celestial)	TYPE:Companion	SERVESAS:RACE|Sea Cat	TEMPLATE:Celestial
 Unicorn.COPY=Unicorn	KEY:Companion ~ Unicorn (Celestial)
-Companion ~ Unicorn (Celestial).MOD	OUTPUTNAME:Unicorn (Celestial)	TYPE:Companion	SERVESAS:RACE|Unicorn	TEMPLATE:Celestial
 Wyvern.COPY=Wyvern	KEY:Companion ~ Wyvern (Zombie)
+
+Companion ~ Chimera (Skeleton).MOD	OUTPUTNAME:Chimera (Skeleton)	TYPE:Companion	SERVESAS:RACE|Chimera	TEMPLATE:Skeleton
+Companion ~ Dinosaur (Deinonychus/Fiendish).MOD	OUTPUTNAME:Dinosaur (Deinonychus/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Deinonychus)	TEMPLATE:Fiendish
+Companion ~ Dinosaur (Elasmosaurus/Fiendish).MOD	OUTPUTNAME:Dinosaur (Elasmosaurus/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Elasmosaurus)	TEMPLATE:Fiendish
+Companion ~ Dinosaur (Megaraptor/Fiendish).MOD	OUTPUTNAME:Dinosaur (Megaraptor/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Megaraptor)	TEMPLATE:Fiendish
+Companion ~ Dinosaur (Triceratops/Celestial).MOD	OUTPUTNAME:Dinosaur (Triceratops/Celestial)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Triceratops)	TEMPLATE:Celestial
+Companion ~ Dinosaur (Tyrannosaurus/Fiendish).MOD	OUTPUTNAME:Dinosaur (Tyrannosaurus/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Tyrannosaurus)	TEMPLATE:Fiendish
+Companion ~ Dire Animal (Dire Ape/Fiendish).MOD	OUTPUTNAME:Dire Animal (Dire Ape/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Ape)	TEMPLATE:Fiendish
+Companion ~ Dire Animal (Dire Badger/Celestial).MOD	OUTPUTNAME:Dire Animal (Dire Badger/Celestial)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Badger)	TEMPLATE:Celestial
+Companion ~ Dire Animal (Dire Bat/Fiendish).MOD	OUTPUTNAME:Dire Animal (Dire Bat/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Bat)	TEMPLATE:Fiendish
+Companion ~ Dire Animal (Dire Bear/Celestial).MOD	OUTPUTNAME:Dire Animal (Dire Bear/Celestial)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Bear)	TEMPLATE:Celestial
+Companion ~ Dire Animal (Dire Boar/Fiendish).MOD	OUTPUTNAME:Dire Animal (Dire Boar/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Boar)	TEMPLATE:Fiendish
+Companion ~ Dire Animal (Dire Lion/Celestial).MOD	OUTPUTNAME:Dire Animal (Dire Lion/Celestial)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Lion)	TEMPLATE:Celestial
+Companion ~ Dire Animal (Dire Rat/Celestial).MOD	OUTPUTNAME:Dire Animal (Dire Rat/Celestial)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Rat)	TEMPLATE:Celestial
+Companion ~ Dire Animal (Dire Rat/Fiendish).MOD	OUTPUTNAME:Dire Animal (Dire Rat/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Rat)	TEMPLATE:Fiendish
+Companion ~ Dire Animal (Dire Shark/Fiendish).MOD	OUTPUTNAME:Dire Animal (Dire Shark/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Shark)	TEMPLATE:Fiendish
+Companion ~ Dire Animal (Dire Tiger/Fiendish).MOD	OUTPUTNAME:Dire Animal (Dire Tiger/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Tiger)	TEMPLATE:Fiendish
+Companion ~ Dire Animal (Dire Weasel/Fiendish).MOD	OUTPUTNAME:Dire Animal (Dire Weasel/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Weasel)	TEMPLATE:Fiendish
+Companion ~ Dire Animal (Dire Wolf/Fiendish).MOD	OUTPUTNAME:Dire Animal (Dire Wolf/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Wolf)	TEMPLATE:Fiendish
+Companion ~ Dire Animal (Dire Wolverine/Fiendish).MOD	OUTPUTNAME:Dire Animal (Dire Wolverine/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Wolverine)	TEMPLATE:Fiendish
+Companion ~ Dragon (Black/Juvenile).MOD	OUTPUTNAME:Dragon (Black/Juvenile)	TYPE:Companion	SERVESAS:RACE|Dragon (Black)	KIT:1|Dragon (Black/Juvenile) Companion
+Companion ~ Dragon (Black/Very Young).MOD	OUTPUTNAME:Dragon (Black/Very Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Black)	KIT:1|Dragon (Black/Very Young) Companion
+Companion ~ Dragon (Black/Young).MOD	OUTPUTNAME:Dragon (Black/Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Black)	KIT:1|Dragon (Black/Young) Companion
+Companion ~ Dragon (Blue/Juvenile).MOD	OUTPUTNAME:Dragon (Blue/Juvenile)	TYPE:Companion	SERVESAS:RACE|Dragon (Blue)	KIT:1|Dragon (Blue/Juvenile) Companion
+Companion ~ Dragon (Blue/Very Young).MOD	OUTPUTNAME:Dragon (Blue/Very Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Blue)	KIT:1|Dragon (Blue/Very Young) Companion
+Companion ~ Dragon (Blue/Young).MOD	OUTPUTNAME:Dragon (Blue/Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Blue)	KIT:1|Dragon (Blue/Young) Companion
+Companion ~ Dragon (Brass/Juvenile).MOD	OUTPUTNAME:Dragon (Brass/Juvenile)	TYPE:Companion	SERVESAS:RACE|Dragon (Brass)	KIT:1|Dragon (Brass/Juvenile) Companion
+Companion ~ Dragon (Brass/Very Young).MOD	OUTPUTNAME:Dragon (Brass/Very Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Brass)	KIT:1|Dragon (Brass/Very Young) Companion
+Companion ~ Dragon (Brass/Wyrm).MOD	OUTPUTNAME:Dragon (Brass/Wyrm)	TYPE:Companion	SERVESAS:RACE|Dragon (Brass)	KIT:1|Dragon (Brass/Wyrm) Companion
+Companion ~ Dragon (Brass/Young).MOD	OUTPUTNAME:Dragon (Brass/Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Brass)	KIT:1|Dragon (Brass/Young) Companion
+Companion ~ Dragon (Bronze/Very Young).MOD	OUTPUTNAME:Dragon (Bronze/Very Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Bronze)	KIT:1|Dragon (Bronze/Very Young) Companion
+Companion ~ Dragon (Bronze/Young).MOD	OUTPUTNAME:Dragon (Bronze/Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Bronze)	KIT:1|Dragon (Bronze/Young) Companion
+Companion ~ Dragon (Copper/Juvenile).MOD	OUTPUTNAME:Dragon (Copper/Juvenile)	TYPE:Companion	SERVESAS:RACE|Dragon (Copper)	KIT:1|Dragon (Copper/Juvenile) Companion
+Companion ~ Dragon (Copper/Very Young).MOD	OUTPUTNAME:Dragon (Copper/Very Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Copper)	KIT:1|Dragon (Copper/Very Young) Companion
+Companion ~ Dragon (Copper/Young).MOD	OUTPUTNAME:Dragon (Copper/Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Copper)	KIT:1|Dragon (Copper/Young) Companion
+Companion ~ Dragon (Gold/Very Young).MOD	OUTPUTNAME:Dragon (Gold/Very Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Gold)	KIT:1|Dragon (Gold/Very Young) Companion
+Companion ~ Dragon (Gold/Young).MOD	OUTPUTNAME:Dragon (Gold/Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Gold)	KIT:1|Dragon (Gold/Young) Companion
+Companion ~ Dragon (Green/Ancient).MOD	OUTPUTNAME:Dragon (Gold/Ancient)	TYPE:Companion	SERVESAS:RACE|Dragon (Green)	KIT:1|Dragon (Gold/Ancient) Companion
+Companion ~ Dragon (Green/Juvenile).MOD	OUTPUTNAME:Dragon (Green/Juvenile)	TYPE:Companion	SERVESAS:RACE|Dragon (Green)	KIT:1|Dragon (Green/Juvenile) Companion
+Companion ~ Dragon (Green/Very Young).MOD	OUTPUTNAME:Dragon (Green/Very Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Green)	KIT:1|Dragon (Green/Very Young) Companion
+Companion ~ Dragon (Green/Young).MOD	OUTPUTNAME:Dragon (Green/Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Green)	KIT:1|Dragon (Green/Young) Companion
+Companion ~ Dragon (Red/Very Young).MOD	OUTPUTNAME:Dragon (Red/Very Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Red)	KIT:1|Dragon (Red/Very Young) Companion
+Companion ~ Dragon (Red/Young).MOD	OUTPUTNAME:Dragon (Red/Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Red)	KIT:1|Dragon (Red/Young) Companion
+Companion ~ Dragon (Silver/Ancient).MOD	OUTPUTNAME:Dragon (Silver/Ancient)	TYPE:Companion	SERVESAS:RACE|Dragon (Silver)	KIT:1|Dragon (Silver/Ancient) Companion
+Companion ~ Dragon (Silver/Very Young).MOD	OUTPUTNAME:Dragon (Silver/Very Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Silver)	KIT:1|Dragon (Silver/Very Young) Companion
+Companion ~ Dragon (Silver/Young).MOD	OUTPUTNAME:Dragon (Silver/Young)	TYPE:Companion	SERVESAS:RACE|Dragon (Silver)	KIT:1|Dragon (Silver/Young) Companion
+Companion ~ Dragon (White/Juvenile).MOD	OUTPUTNAME:Dragon (White/Juvenile)	TYPE:Companion	SERVESAS:RACE|Dragon (White)	KIT:1|Dragon (White/Juvenile) Companion
+Companion ~ Dragon (White/Young).MOD	OUTPUTNAME:Dragon (White/Young)	TYPE:Companion	SERVESAS:RACE|Dragon (White)	KIT:1|Dragon (White/Young) Companion
+Companion ~ Dragon (White/Very Young).MOD	OUTPUTNAME:Dragon (White/Very Young)	TYPE:Companion	SERVESAS:RACE|Dragon (White)	KIT:1|Dragon (White/Very Young) Companion
+Companion ~ Dragon (White/Wyrm).MOD	OUTPUTNAME:Dragon (White/Wyrm)	TYPE:Companion	SERVESAS:RACE|Dragon (White)	KIT:1|Dragon (White/Wyrm) Companion
+Companion ~ Eagle (Giant/Celestial).MOD	OUTPUTNAME:Eagle (Giant/Celestial)	TYPE:Companion	SERVESAS:RACE|Eagle (Giant)	TEMPLATE:Celestial
+Companion ~ Elemental (Air/Elder).MOD	OUTPUTNAME:Elemental (Air/Elder)	TYPE:Companion	SERVESAS:RACE|Elemental (Air)	KIT:1|Elemental (Air/Elder) Companion
+Companion ~ Elemental (Air/Greater).MOD	OUTPUTNAME:Elemental (Air/Greater)	TYPE:Companion	SERVESAS:RACE|Elemental (Air)	KIT:1|Elemental (Air/Greater) Companion
+Companion ~ Elemental (Air/Huge).MOD	OUTPUTNAME:Elemental (Air/Huge)	TYPE:Companion	SERVESAS:RACE|Elemental (Air)	KIT:1|Elemental (Air/Huge) Companion
+Companion ~ Elemental (Air/Large).MOD	OUTPUTNAME:Elemental (Air/Large)	TYPE:Companion	SERVESAS:RACE|Elemental (Air)	KIT:1|Elemental (Air/Large) Companion
+Companion ~ Elemental (Air/Medium).MOD	OUTPUTNAME:Elemental (Air/Medium)	TYPE:Companion	SERVESAS:RACE|Elemental (Air)	KIT:1|Elemental (Air/Medium) Companion
+Companion ~ Elemental (Earth/Elder).MOD	OUTPUTNAME:Elemental (Earth/Elder)	TYPE:Companion	SERVESAS:RACE|Elemental (Earth)	KIT:1|Elemental (Earth/Elder) Companion
+Companion ~ Elemental (Earth/Greater).MOD	OUTPUTNAME:Elemental (Earth/Greater)	TYPE:Companion	SERVESAS:RACE|Elemental (Earth)	KIT:1|Elemental (Earth/Greater) Companion
+Companion ~ Elemental (Earth/Huge).MOD	OUTPUTNAME:Elemental (Earth/Huge)	TYPE:Companion	SERVESAS:RACE|Elemental (Earth)	KIT:1|Elemental (Earth/Huge) Companion
+Companion ~ Elemental (Earth/Large).MOD	OUTPUTNAME:Elemental (Earth/Large)	TYPE:Companion	SERVESAS:RACE|Elemental (Earth)	KIT:1|Elemental (Earth/Large) Companion
+Companion ~ Elemental (Earth/Medium).MOD	OUTPUTNAME:Elemental (Earth/Medium)	TYPE:Companion	SERVESAS:RACE|Elemental (Earth)	KIT:1|Elemental (Earth/Medium) Companion
+Companion ~ Elemental (Fire/Elder).MOD	OUTPUTNAME:Elemental (Fire/Elder)	TYPE:Companion	SERVESAS:RACE|Elemental (Fire)	KIT:1|Elemental (Fire/Elder) Companion
+Companion ~ Elemental (Fire/Greater).MOD	OUTPUTNAME:Elemental (Fire/Greater)	TYPE:Companion	SERVESAS:RACE|Elemental (Fire)	KIT:1|Elemental (Fire/Greater) Companion
+Companion ~ Elemental (Fire/Huge).MOD	OUTPUTNAME:Elemental (Fire/Huge)	TYPE:Companion	SERVESAS:RACE|Elemental (Fire)	KIT:1|Elemental (Fire/Huge) Companion
+Companion ~ Elemental (Fire/Large).MOD	OUTPUTNAME:Elemental (Fire/Large)	TYPE:Companion	SERVESAS:RACE|Elemental (Fire)	KIT:1|Elemental (Fire/Large) Companion
+Companion ~ Elemental (Fire/Medium).MOD	OUTPUTNAME:Elemental (Fire/Medium)	TYPE:Companion	SERVESAS:RACE|Elemental (Fire)	KIT:1|Elemental (Fire/Medium) Companion
+Companion ~ Elemental (Water/Elder).MOD	OUTPUTNAME:Elemental (Water/Elder)	TYPE:Companion	SERVESAS:RACE|Elemental (Water)	KIT:1|Elemental (Water/Elder) Companion
+Companion ~ Elemental (Water/Greater).MOD	OUTPUTNAME:Elemental (Water/Greater)	TYPE:Companion	SERVESAS:RACE|Elemental (Water)	KIT:1|Elemental (Water/Greater) Companion
+Companion ~ Elemental (Water/Huge).MOD	OUTPUTNAME:Elemental (Water/Huge)	TYPE:Companion	SERVESAS:RACE|Elemental (Water)	KIT:1|Elemental (Water/Huge) Companion
+Companion ~ Elemental (Water/Large).MOD	OUTPUTNAME:Elemental (Water/Large)	TYPE:Companion	SERVESAS:RACE|Elemental (Water)	KIT:1|Elemental (Water/Large) Companion
+Companion ~ Elemental (Water/Medium).MOD	OUTPUTNAME:Elemental (Water/Medium)	TYPE:Companion	SERVESAS:RACE|Elemental (Water)	KIT:1|Elemental (Water/Medium) Companion
+Companion ~ Girallon (Fiendish).MOD	OUTPUTNAME:Girallon (Fiendish)	TYPE:Companion	SERVESAS:RACE|Girallon	TEMPLATE:Fiendish
+Companion ~ Griffon (Celestial).MOD	OUTPUTNAME:Griffon (Celestial)	TYPE:Companion	SERVESAS:RACE|Griffon	TEMPLATE:Celestial
+Companion ~ Hippogriff (Celestial).MOD	OUTPUTNAME:Hippogriff (Celestial)	TYPE:Companion	SERVESAS:RACE|Hippogriff	TEMPLATE:Celestial
+Companion ~ Human (Skeleton).MOD	OUTPUTNAME:Human (Skeleton)	TYPE:Companion	SERVESAS:RACE|Human	TEMPLATE:Skeleton
+Companion ~ Human (Werebear).MOD	OUTPUTNAME:Human (Werebear)	TYPE:Companion	SERVESAS:RACE|Human	TEMPLATE:Lycanthrope ~ Bear
+Companion ~ Human (Wereboar).MOD	OUTPUTNAME:Human (Wereboar)	TYPE:Companion	SERVESAS:RACE|Human	TEMPLATE:Lycanthrope ~ Boar
+Companion ~ Human (Zombie).MOD	OUTPUTNAME:Human (Zombie)	TYPE:Companion	SERVESAS:RACE|Human	TEMPLATE:Zombie
+Companion ~ Hydra (12 heads).MOD	OUTPUTNAME:Hydra (12 heads)	TYPE:Companion	SERVESAS:RACE|Hydra	KIT:1|Hydra (12 heads) Companion
+Companion ~ Minotaur (Zombie).MOD	OUTPUTNAME:Minotaur (Zombie)	TYPE:Companion	SERVESAS:RACE|Minotaur	TEMPLATE:Zombie
+Companion ~ Owl (Giant/Celestial).MOD	OUTPUTNAME:Owl (Giant/Celestial)	TYPE:Companion	SERVESAS:RACE|Owl (Giant)	TEMPLATE:Celestial
+Companion ~ Pegasus (Celestial).MOD	OUTPUTNAME:Pegasus (Celestial)	TYPE:Companion	SERVESAS:RACE|Pegasus	TEMPLATE:Celestial
+Companion ~ Roc (Celestial).MOD	OUTPUTNAME:Roc (Celestial)	TYPE:Companion	SERVESAS:RACE|Roc	TEMPLATE:Celestial
+Companion ~ Sea Cat (Celestial).MOD	OUTPUTNAME:Sea Cat (Celestial)	TYPE:Companion	SERVESAS:RACE|Sea Cat	TEMPLATE:Celestial
+Companion ~ Unicorn (Celestial).MOD	OUTPUTNAME:Unicorn (Celestial)	TYPE:Companion	SERVESAS:RACE|Unicorn	TEMPLATE:Celestial
 Companion ~ Wyvern (Zombie).MOD	OUTPUTNAME:Wyvern (Zombie)	TYPE:Companion	SERVESAS:RACE|Wyvern	TEMPLATE:Zombie
 
 #Animals

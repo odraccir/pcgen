@@ -1,0 +1,7 @@
+SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11
+#
+FOLLOWER:DragonCohortScore=1	TYPE:Cohort
+
+FOLLOWER:DragonSteedLVL=1	TYPE:DragonSteed
+
+FOLLOWER:FosterDragonLVL=1	TYPE:Foster Dragon

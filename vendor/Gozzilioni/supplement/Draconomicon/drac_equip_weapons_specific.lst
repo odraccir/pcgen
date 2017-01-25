@@ -1,0 +1,27 @@
+SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11																
+#																			
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	SOURCEPAGE:	BONUS:COMBAT|AC|x|TYPE=Armor	MAXDEX:	ACCHECK:	SPELLFAILURE:	EQMOD:							
+# Simple Weapons																									
+## Unarmed																									
+## Light																									
+Dragonfang Gauntlets			PROFICIENCY:WEAPON|Gauntlet (Spiked)	TYPE:Weapon.Melee.Simple.Piercing.Unarmed.Gauntlet.Specific	COST:28500	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:Drac	SPROP:3/day act as having Improved Sunder feat.								BONUS:STAT|STR|4|TYPE=Enhancement
+## OneHanded																									
+## TwoHanded																									
+Longspear of Piercing			PROFICIENCY:WEAPON|Longspear	TYPE:Weapon.Melee.Simple.Piercing.TwoHanded.Spear.Specific	COST:28305	WT:9	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.EQ_COST_ADJ.PLUS3W	SOURCEPAGE:Drac	SPROP:3/day ignore natural armor of target.							REACHMULT:2			
+## Ranged																									
+
+# Martial Weapons																									
+## Light																									
+## OneHanded																									
+## TwoHanded																									
+Blade of Dragondoom			PROFICIENCY:WEAPON|Greatsword	TYPE:Weapon.Melee.Martial.Slashing.TwoHanded.Sword.Specific	COST:34350	WT:15	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ.PLUS3W	SOURCEPAGE:Drac	SPROP:For every size category of the dragon larger than Medium, the smite attack deals an extra 1d6 points of damage.										
+## Ranged																									
+Bow of the Mighty Dragonhunter	OUTPUTNAME:Bow of the Mighty Dragonhunter STR		PROFICIENCY:WEAPON|Longbow	TYPE:Weapon.Ranged.Martial.Piercing.Bow.Longbow.Composite.Container.Specific	COST:36900	WT:3	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.EQ_COST_ADJ.DRAGONCRAFT_WEAP_BOW|4.PLUS2W.BANE_R|Dragons	SOURCEPAGE:Drac	SPROP:If an arrow fired from this bow hits a dragon, the dragon takes 1 point of Strength damage. Furthermore, any critical hit inflicted on a dragon by an arrow fired from this bow deals x5 damage, not x3.						RANGE:110		CONTAINS:UNLIM|Arrow|SpecificArrow	BONUS:WEAPON|DAMAGE|min(STR,0)
+
+# Exotic Weapons																									
+## Light																									
+## OneHanded																									
+## TwoHanded																									
+## Ranged																									
+
+# Arrows																									

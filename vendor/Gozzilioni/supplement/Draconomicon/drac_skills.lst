@@ -1,0 +1,24 @@
+SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11				
+#																																																		
+# Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:																																													
+Bluff.MOD	SITUATION:Dragons
+Concentration.MOD	SITUATION:Cast spell while mounted
+Diplomacy.MOD	SITUATION:Influence attitude of dragons
+Hide.MOD	SITUATION:Icy environment
+Hide.MOD	SITUATION:Temperate desert environment
+Hide.MOD	SITUATION:Warm desert environment
+Hide.MOD	SITUATION:Cold forest environment
+Hide.MOD	SITUATION:Cold desert environment
+Hide.MOD	SITUATION:Warm forest environment
+Hide.MOD	SITUATION:Jungle environment
+Hide.MOD	SITUATION:Temperate plains environment
+Hide.MOD	SITUATION:Warm plains environment
+Hide.MOD	SITUATION:Cold plains environment
+Hide.MOD	SITUATION:Temperate forest environment
+Hide.MOD	SITUATION:Rocky underground environment
+Hide.MOD	SITUATION:Swamp environment
+Hide.MOD	SITUATION:Hill terrain
+Listen.MOD	SITUATION:Dragons
+Search.MOD	SITUATION:Dragons
+Spot.MOD	SITUATION:Dragons
+

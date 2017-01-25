@@ -1,0 +1,362 @@
+SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11											
+#														
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE		
+# Class Name req	Requirements	FINE												
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS		
+# Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	SPELLLIST	spell level increases (BONUS:CASTERLEVEL)								
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)				
+CLASS:Bloodscaled Fury	HD:12	TYPE:Prestige	FACT:Abb|BlF	MAXLEVEL:12	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:BloodscaledFuryLVL|0	BONUS:VAR|BloodscaledFuryLVL|CL	EXCLASS:Ex-Bloodscaled Fury
+CLASS:Bloodscaled Fury	PRERACE:1,RACETYPE=Dragon	PREALIGN:CG,CN,CE	PRETOTALAB:22	PRESKILL:1,Intimidate=14	PREABILITY:3,CATEGORY=FEAT,Power Attack,Shock Wave,Windstorm	PREABILITY:1,CATEGORY=Special Ability,TYPE.Rage	PREABILITY:1,CATEGORY=Special Ability,Frightful Presence							
+CLASS:Bloodscaled Fury	STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump|Listen|Swim|Spot|Survival												
+1				ABILITY:Bloodscaled Fury Class Feature|AUTOMATIC|Bloodscaled Fury ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodscaledFuryProficiencies										
+#														
+1				ABILITY:Bloodscaled Fury Class Feature|AUTOMATIC|Bloodscaled Fury ~ Fearsome Presence|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodscaledFuryFearsomePresence										
+2				ABILITY:Bloodscaled Fury Class Feature|AUTOMATIC|Bloodscaled Fury ~ Draconic Fury|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodscaledFuryDraconicFury										
+3				ABILITY:Bloodscaled Fury Class Feature|AUTOMATIC|Bloodscaled Fury ~ Scales of Blood|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodscaledFuryScalesOfBlood										
+4				ABILITY:Bloodscaled Fury Class Feature|AUTOMATIC|Bloodscaled Fury ~ Rend|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodscaledFuryRend										
+5				ABILITY:Bloodscaled Fury Class Feature|AUTOMATIC|Bloodscaled Fury ~ Extend Rage|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodscaledFuryExtendRage										
+8				ABILITY:Bloodscaled Fury Class Feature|AUTOMATIC|Bloodscaled Fury ~ Incite Rage|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodscaledFuryInciteRage										
+9				ABILITY:Bloodscaled Fury Class Feature|AUTOMATIC|Bloodscaled Fury ~ Tireless Fury|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodscaledFuryTirelessFury										
+12				ABILITY:Bloodscaled Fury Class Feature|AUTOMATIC|Bloodscaled Fury ~ Blinding Speed|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodscaledFuryBlindingSpeed										
+														
+CLASS:Ex-Bloodscaled Fury	HD:12	TYPE:Prestige	FACT:Abb|XBlF	MAXLEVEL:12	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:BloodscaledFuryLVL|0	BONUS:VAR|BloodscaledFuryLVL|CL	
+CLASS:Ex-Bloodscaled Fury	VISIBLE:NO													
+CLASS:Ex-Bloodscaled Fury	STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump|Listen|Swim|Spot|Survival												
+1				ABILITY:Bloodscaled Fury Class Feature|AUTOMATIC|Bloodscaled Fury ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodscaledFuryProficiencies										
+#														
+														
+CLASS:Disciple of Ashardalon	HD:8	TYPE:Prestige	FACT:Abb|DoAs	MAXLEVEL:12	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DiscipleOfAshardalonLVL|0	BONUS:VAR|DiscipleOfAshardalonLVL|CL	
+CLASS:Disciple of Ashardalon	PRERACE:1,RACETYPE=Dragon	PREALIGN:LE,NE,CE	PRETOTALAB:18	PRESKILL:2,Knowledge (Religion)=18,Knowledge (The Planes)=18	PREABILITY:2,CATEGORY=FEAT,Iron Will,Quicken Spell-Like Abilities	PRETEXT:Before adopting the prestige class, a dragon must join the loose-knit cult of other disciples and undergo its initiation rites. This process includes the ritual scarring of the dragon's heart-an extremely dangerous practice that would claim the life of a dragon too weak to qualify for the class, and leaves even those that do robbed of 1 point of Constitution. (Dragons that progress to at least 6th level in this class regain the lost Constitution point eventually).								
+CLASS:Disciple of Ashardalon	STARTSKILLPTS:4	CSKILL:Concentration|Hide|Intimidate|Knowledge (Arcana)|Knowledge (The Planes)|Knowledge (Religion)|Listen|Move Silently|Search|Sense Motive|Spellcraft|Spot												
+1				ABILITY:Disciple of Ashardalon Class Feature|AUTOMATIC|Disciple of Ashardalon ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfAshardalonProficiencies			BONUS:STAT|CON|-1							
+#														
+1				ABILITY:Disciple of Ashardalon Class Feature|AUTOMATIC|Disciple of Ashardalon ~ Fiendbond|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfAshardalonFiendbond										
+1				ABILITY:Disciple of Ashardalon Class Feature|AUTOMATIC|Disciple of Ashardalon ~ Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfAshardalonResistance										
+1				ABILITY:Disciple of Ashardalon Class Feature|AUTOMATIC|Disciple of Ashardalon ~ Spell-Like Abilities|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfAshardalonSpellLikeAbilities										
+2				ABILITY:Disciple of Ashardalon Class Feature|AUTOMATIC|Disciple of Ashardalon ~ Skill Point Increase|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfAshardalonSkillPointIncrease										
+3				ABILITY:Disciple of Ashardalon Class Feature|AUTOMATIC|Disciple of Ashardalon ~ Ability Increase|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfAshardalonAbilityIncrease										
+6				ABILITY:Disciple of Ashardalon Class Feature|AUTOMATIC|Disciple of Ashardalon ~ Poison Immunity|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfAshardalonPoisonImmunity										
+7				ABILITY:Disciple of Ashardalon Class Feature|AUTOMATIC|Disciple of Ashardalon ~ Natural Armor Increase|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfAshardalonNaturalArmorIncrease										
+12				ABILITY:Disciple of Ashardalon Class Feature|AUTOMATIC|Disciple of Ashardalon ~ Fiendish Perfection|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfAshardalonFiendishPerfection										
+														
+CLASS:Dispassionate Watcher of Chronepsis	HD:8	TYPE:Prestige	FACT:Abb|DWa	MAXLEVEL:12	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DispassionateWatcherOfChronepsisLVL|0	BONUS:VAR|DispassionateWatcherOfChronepsisLVL|CL	
+CLASS:Dispassionate Watcher of Chronepsis	PRERACE:1,RACETYPE=Dragon	PREALIGN:LN,NG,TN,NE,CN	PRESKILL:2,TYPE.Knowledge=20	PRETEXT:Able to cast divine spells.	PREDOMAIN:1,Knowledge									
+CLASS:Dispassionate Watcher of Chronepsis	STARTSKILLPTS:2	CSKILL:Concentration|Decipher Script|TYPE.Knowledge|Spellcraft												
+1				ABILITY:Dispassionate Watcher of Chronepsis Class Feature|AUTOMATIC|Dispassionate Watcher of Chronepsis ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DispassionateWatcherOfChronepsisProficiencies										
+2				ABILITY:Dispassionate Watcher of Chronepsis Class Feature|AUTOMATIC|Dispassionate Watcher of Chronepsis ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.DispassionateWatcherOfChronepsisSpellcasting										
+#														
+1				ABILITY:Dispassionate Watcher of Chronepsis Class Feature|AUTOMATIC|Dispassionate Watcher of Chronepsis ~ Divine Conversion|!PREABILITY:1,CATEGORY=ACF,TYPE.DispassionateWatcherOfChronepsisDivineConversion										
+1				ABILITY:Dispassionate Watcher of Chronepsis Class Feature|AUTOMATIC|Dispassionate Watcher of Chronepsis ~ Calming Aura|!PREABILITY:1,CATEGORY=ACF,TYPE.DispassionateWatcherOfChronepsisCalmingAura										
+1				ABILITY:Dispassionate Watcher of Chronepsis Class Feature|AUTOMATIC|Dispassionate Watcher of Chronepsis ~ Draconic Knowledge|!PREABILITY:1,CATEGORY=ACF,TYPE.DispassionateWatcherOfChronepsisDraconicKnowledge										
+2				ABILITY:Dispassionate Watcher of Chronepsis Class Feature|AUTOMATIC|Dispassionate Watcher of Chronepsis ~ Comprehend Languages|!PREABILITY:1,CATEGORY=ACF,TYPE.DispassionateWatcherOfChronepsisComprehendLanguages										
+4				ABILITY:Dispassionate Watcher of Chronepsis Class Feature|AUTOMATIC|Dispassionate Watcher of Chronepsis ~ Stunning Rebuke|!PREABILITY:1,CATEGORY=ACF,TYPE.DispassionateWatcherOfChronepsisStunningRebuke										
+5				ABILITY:Dispassionate Watcher of Chronepsis Class Feature|AUTOMATIC|Dispassionate Watcher of Chronepsis ~ Tongues|!PREABILITY:1,CATEGORY=ACF,TYPE.DispassionateWatcherOfChronepsisTongues										
+6				ABILITY:Dispassionate Watcher of Chronepsis Class Feature|AUTOMATIC|Dispassionate Watcher of Chronepsis ~ Discern Lies|!PREABILITY:1,CATEGORY=ACF,TYPE.DispassionateWatcherOfChronepsisDiscernLies										
+9				ABILITY:Dispassionate Watcher of Chronepsis Class Feature|AUTOMATIC|Dispassionate Watcher of Chronepsis ~ Clearsight|!PREABILITY:1,CATEGORY=ACF,TYPE.DispassionateWatcherOfChronepsisClearsight										
+10				ABILITY:Dispassionate Watcher of Chronepsis Class Feature|AUTOMATIC|Dispassionate Watcher of Chronepsis ~ Vision|!PREABILITY:1,CATEGORY=ACF,TYPE.DispassionateWatcherOfChronepsisVision										
+12				ABILITY:Dispassionate Watcher of Chronepsis Class Feature|AUTOMATIC|Dispassionate Watcher of Chronepsis ~ Analyze Dweomer|!PREABILITY:1,CATEGORY=ACF,TYPE.DispassionateWatcherOfChronepsisAnalyzeDweomer										
+#														
+2	ADD:SPELLCASTER|Divine													
+3	ADD:SPELLCASTER|Divine													
+4	ADD:SPELLCASTER|Divine													
+5	ADD:SPELLCASTER|Divine													
+6	ADD:SPELLCASTER|Divine													
+7	ADD:SPELLCASTER|Divine													
+8	ADD:SPELLCASTER|Divine													
+9	ADD:SPELLCASTER|Divine													
+10	ADD:SPELLCASTER|Divine													
+11	ADD:SPELLCASTER|Divine													
+12	ADD:SPELLCASTER|Divine													
+														
+CLASS:Dragon Ascendant	HD:12	TYPE:Prestige	FACT:Abb|DAs	MAXLEVEL:12	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DragonAscendantLVL|0	BONUS:VAR|DragonAscendantLVL|CL	EXCLASS:Ex-Dragon Ascendant
+CLASS:Dragon Ascendant	PRERACE:1,RACETYPE=Dragon	PREABILITY:1,CATEGORY=Internal,True Dragon	PRETOTALAB:30	PREABILITY:6,CATEGORY=FEAT,Draconic Knowledge,Fast Healing,Great Fortitude,Improved Speed,Iron Will,Lightning Reflexes	PRETEXT:Consume Hoard: A wouldbe dragon ascendant must eat its hoard to begin the process of divine ascension. Its hoard must have a value of at least 100,000 gp, but the dragon cannot choose to eat just 100,000 gp and leave the rest alone-it must consume its entire hoard.									
+CLASS:Dragon Ascendant	STARTSKILLPTS:6	CSKILL:Concentration|Diplomacy|Heal|Intimidate|Jump|Knowledge (Arcana)|Knowledge (The Planes)|Knowledge (Religion)|Listen|Search|Sense Motive|Spellcraft|Spot												
+1				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantProficiencies										
+#														
+1				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Awesome Aura|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantAwesomeAura										
+2				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Hit Points Increase|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantHitPointsIncrease										
+3				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Transmutation Immunity|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantTransmutationImmunity										
+4				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Increased Damage Reduction|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantIncreasedDamageReduction										
+6				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Lifewarding|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantLifewarding										
+7				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Deflection Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantDeflectionBonus										
+9				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Iron Mind|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantIronMind										
+11				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Resistance to Fire|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantResistanceToFire										
+11				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Spell Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantSR										
+12				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Immortality|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantImmortality										
+														
+CLASS:Ex-Dragon Ascendant	HD:12	TYPE:Prestige	FACT:Abb|XDAs	MAXLEVEL:12	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DragonAscendantLVL|0	BONUS:VAR|DragonAscendantLVL|CL	
+CLASS:Ex-Dragon Ascendant	VISIBLE:NO													
+CLASS:Ex-Dragon Ascendant	STARTSKILLPTS:6	CSKILL:Concentration|Diplomacy|Heal|Intimidate|Jump|Knowledge (Arcana)|Knowledge (The Planes)|Knowledge (Religion)|Listen|Search|Sense Motive|Spellcraft|Spot												
+1				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantProficiencies										
+#														
+2				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Hit Points Increase|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantHitPointsIncrease										
+3				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Transmutation Immunity|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantTransmutationImmunity										
+4				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Increased Damage Reduction|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantIncreasedDamageReduction										
+6				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Lifewarding|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantLifewarding										
+7				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Deflection Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantDeflectionBonus										
+9				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Iron Mind|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantIronMind										
+11				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Resistance to Fire|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantResistanceToFire										
+11				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Spell Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantSR										
+12				ABILITY:Dragon Ascendant Class Feature|AUTOMATIC|Dragon Ascendant ~ Immortality|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonAscendantImmortality										
+														
+CLASS:Elemental Master	HD:12	TYPE:Prestige	FACT:Abb|ElM	MAXLEVEL:12	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ElementalMasterLVL|0	BONUS:VAR|ElementalMasterLVL|CL	
+CLASS:Elemental Master	PRERACE:1,RACETYPE=Dragon	PRETOTALAB:20	PREABILITY:3,CATEGORY=FEAT,TYPE.Metabreath	PRETEXT:Able to cast arcane spells.	PRERACE:1,RACESUBTYPE=Air,RACESUBTYPE=Cold,RACESUBTYPE=Earth,RACESUBTYPE=Electricity,RACESUBTYPE=Fire,RACESUBTYPE=Water	PRETEXT:The dragon must have a breath weapon that deals energy damage.								
+CLASS:Elemental Master	STARTSKILLPTS:2	CSKILL:Concentration|Knowledge (Arcana)|Knowledge (Geography)|Knowledge (Nature)|Knowledge (The Planes)|Spellcraft|Survival												
+1				ABILITY:Elemental Master Class Feature|AUTOMATIC|Elemental Master ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalMasterProficiencies										
+#														
+1				ABILITY:Elemental Master Class Feature|AUTOMATIC|Elemental Master ~ Element Mastery|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalMasterElementMastery										
+1				ABILITY:Elemental Master Class Feature|AUTOMATIC|Elemental Master ~ Element Command|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalMasterElementCommand										
+1				ABILITY:Elemental Master Class Feature|AUTOMATIC|Elemental Master ~ Energy Attunement|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalMasterEnergyAttunement										
+2				ABILITY:Elemental Master Class Feature|AUTOMATIC|Elemental Master ~ Energy Substitution|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalMasterEnergySubstitution										
+2				ABILITY:Elemental Master Class Feature|AUTOMATIC|Elemental Master ~ Summon Elemental|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalMasterSummonElemental										
+3				ABILITY:Elemental Master Class Feature|AUTOMATIC|Elemental Master ~ Energy Focus|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalMasterEnergyFocus										
+4				ABILITY:Elemental Master Class Feature|AUTOMATIC|Elemental Master ~ Energy Burst|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalMasterEnergyBurst										
+7				ABILITY:Elemental Master Class Feature|AUTOMATIC|Elemental Master ~ Energy Storm|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalMasterEnergyStorm										
+10				ABILITY:Elemental Master Class Feature|AUTOMATIC|Elemental Master ~ Spell-Like Abilities|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalMasterSpellLikeAbilities										
+12				ABILITY:Elemental Master Class Feature|AUTOMATIC|Elemental Master ~ Elemental Qualities|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalMasterElementalQualities										
+														
+CLASS:Hidecarved Dragon	HD:10	TYPE:Prestige	FACT:Abb|HcD	MAXLEVEL:12	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:HidecarvedDragonLVL|0	BONUS:VAR|HidecarvedDragonLVL|CL	
+CLASS:Hidecarved Dragon	PRERACE:1,RACETYPE=Dragon	PREALIGN:LG,LN,LE	PRETEXT:Natural Armor Bonus +20	PRECHECKBASE:1,Will=12	PREABILITY:1,CATEGORY=FEAT,Iron Will									
+CLASS:Hidecarved Dragon	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|Diplomacy|Escape Artist|Hide|Jump|Knowledge (Arcana)|Knowledge (Religion)|Listen|Move Silently|Sense Motive|Spot|Swim|Tumble												
+1				ABILITY:Hidecarved Dragon Class Feature|AUTOMATIC|Hidecarved Dragon ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HidecarvedDragonProficiencies										
+#														
+1				ABILITY:Hidecarved Dragon Class Feature|AUTOMATIC|Hidecarved Dragon ~ Increased Spell Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.HidecarvedDragonSR										
+2				ABILITY:Hidecarved Dragon Class Feature|AUTOMATIC|Hidecarved Dragon ~ Suppress Weakness|!PREABILITY:1,CATEGORY=ACF,TYPE.HidecarvedDragonSuppressWeakness										
+2				ABILITY:Hidecarved Dragon Class Feature|AUTOMATIC|Hidecarved Dragon ~ Poison Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.HidecarvedDragonPoisonResistance										
+3				ABILITY:Hidecarved Dragon Class Feature|AUTOMATIC|Hidecarved Dragon ~ Energy Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.HidecarvedDragonEnergyResistance										
+4				ABILITY:Hidecarved Dragon Class Feature|AUTOMATIC|Hidecarved Dragon ~ Still Mind|!PREABILITY:1,CATEGORY=ACF,TYPE.HidecarvedDragonStillMind										
+4				ABILITY:Hidecarved Dragon Class Feature|AUTOMATIC|Hidecarved Dragon ~ Natural Armor|!PREABILITY:1,CATEGORY=ACF,TYPE.HidecarvedDragonNaturalArmor										
+5				ABILITY:Hidecarved Dragon Class Feature|AUTOMATIC|Hidecarved Dragon ~ Increased Damage Reduction|!PREABILITY:1,CATEGORY=ACF,TYPE.HidecarvedDragonIncreasedDR										
+6				ABILITY:Hidecarved Dragon Class Feature|AUTOMATIC|Hidecarved Dragon ~ Extra Energy Immunity|!PREABILITY:1,CATEGORY=ACF,TYPE.HidecarvedDragonExtraEnergyImmunity										
+7				ABILITY:Hidecarved Dragon Class Feature|AUTOMATIC|Hidecarved Dragon ~ Overcome Weakness|!PREABILITY:1,CATEGORY=ACF,TYPE.HidecarvedDragonOvercomeWeakness										
+7				ABILITY:Hidecarved Dragon Class Feature|AUTOMATIC|Hidecarved Dragon ~ Death Ward|!PREABILITY:1,CATEGORY=ACF,TYPE.HidecarvedDragonDeathWard										
+9				ABILITY:Hidecarved Dragon Class Feature|AUTOMATIC|Hidecarved Dragon ~ Wholeness of Body|!PREABILITY:1,CATEGORY=ACF,TYPE.HidecarvedDragonWholenessOfBody										
+10				ABILITY:Hidecarved Dragon Class Feature|AUTOMATIC|Hidecarved Dragon ~ Poison Immunity|!PREABILITY:1,CATEGORY=ACF,TYPE.HidecarvedDragonPoisonImmunity										
+11				ABILITY:Hidecarved Dragon Class Feature|AUTOMATIC|Hidecarved Dragon ~ Superior Damage Reduction|!PREABILITY:1,CATEGORY=ACF,TYPE.HidecarvedDragonSuperiorDR										
+														
+CLASS:Sacred Warder of Bahamut	HD:10	TYPE:Prestige	FACT:Abb|SWB	MAXLEVEL:12	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:SacredWarderOfBahamutLVL|0	BONUS:VAR|SacredWarderOfBahamutLVL|CL	
+CLASS:Sacred Warder of Bahamut	PRERACE:1,RACETYPE=Dragon	PREALIGN:LG,NG	PRETOTALAB:15	PREABILITY:2,CATEGORY=FEAT,Endure Blows,Power Attack	PRETEXT:Able to cast divine spells.	PREDOMAIN:1,Protection	PREDR:1,Magic=5							
+CLASS:Sacred Warder of Bahamut	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Heal|Knowledge (Religion)|Sense Motive												
+1				ABILITY:Sacred Warder of Bahamut Class Feature|AUTOMATIC|Sacred Warder of Bahamut ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SacredWarderOfBahamutProficiencies										
+2				ABILITY:Sacred Warder of Bahamut Class Feature|AUTOMATIC|Sacred Warder of Bahamut ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.SacredWarderOfBahamutSpellcasting										
+#														
+1				ABILITY:Sacred Warder of Bahamut Class Feature|AUTOMATIC|Sacred Warder of Bahamut ~ Divine Conversion|!PREABILITY:1,CATEGORY=ACF,TYPE.SacredWarderOfBahamutDivineConversion										
+2				ABILITY:Sacred Warder of Bahamut Class Feature|AUTOMATIC|Sacred Warder of Bahamut ~ Smite Evil Dragons|!PREABILITY:1,CATEGORY=ACF,TYPE.SacredWarderOfBahamutSmiteEvilDragons										
+3				ABILITY:Sacred Warder of Bahamut Class Feature|AUTOMATIC|Sacred Warder of Bahamut ~ Aura of Courage|!PREABILITY:1,CATEGORY=ACF,TYPE.SacredWarderOfBahamutAuraOfCourage										
+7				ABILITY:Sacred Warder of Bahamut Class Feature|AUTOMATIC|Sacred Warder of Bahamut ~ Sacred Shield|!PREABILITY:1,CATEGORY=ACF,TYPE.SacredWarderOfBahamutSacredShield										
+12				ABILITY:Sacred Warder of Bahamut Class Feature|AUTOMATIC|Sacred Warder of Bahamut ~ Area Sacred Shield|!PREABILITY:1,CATEGORY=ACF,TYPE.SacredWarderOfBahamutAreaSacredShield										
+#														
+2	ADD:SPELLCASTER|Divine													
+3	ADD:SPELLCASTER|Divine													
+4	ADD:SPELLCASTER|Divine													
+5	ADD:SPELLCASTER|Divine													
+6	ADD:SPELLCASTER|Divine													
+7	ADD:SPELLCASTER|Divine													
+8	ADD:SPELLCASTER|Divine													
+9	ADD:SPELLCASTER|Divine													
+10	ADD:SPELLCASTER|Divine													
+11	ADD:SPELLCASTER|Divine													
+12	ADD:SPELLCASTER|Divine													
+														
+CLASS:Unholy Ravager of Tiamat	HD:10	TYPE:Prestige	FACT:Abb|URT	MAXLEVEL:12	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:UnholyRavagerOfTiamatLVL|0	BONUS:VAR|UnholyRavagerOfTiamatLVL|CL	
+CLASS:Unholy Ravager of Tiamat	PRERACE:1,RACETYPE=Dragon	PREALIGN:LE,NE	PRETOTALAB:15	PREABILITY:3,CATEGORY=FEAT,Maximize Breath,Recover Breath,Tempest Breath	PRETEXT:Able to cast divine spells.	PREDOMAIN:1,Destruction								
+CLASS:Unholy Ravager of Tiamat	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Intimidate|Jump|Knowledge (Arcana)|Knowledge (Religion)|Spellcraft|Survival|Swim												
+1				ABILITY:Unholy Ravager of Tiamat Class Feature|AUTOMATIC|Unholy Ravager of Tiamat ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.UnholyRavagerOfTiamatProficiencies										
+2				ABILITY:Unholy Ravager of Tiamat Class Feature|AUTOMATIC|Unholy Ravager of Tiamat ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.UnholyRavagerOfTiamatSpellcasting										
+#														
+1				ABILITY:Unholy Ravager of Tiamat Class Feature|AUTOMATIC|Unholy Ravager of Tiamat ~ Divine Conversion|!PREABILITY:1,CATEGORY=ACF,TYPE.UnholyRavagerOfTiamatDivineConversion										
+1				ABILITY:Unholy Ravager of Tiamat Class Feature|AUTOMATIC|Unholy Ravager of Tiamat ~ Smite|!PREABILITY:1,CATEGORY=ACF,TYPE.UnholyRavagerOfTiamatSmite										
+2				ABILITY:Unholy Ravager of Tiamat Class Feature|AUTOMATIC|Unholy Ravager of Tiamat ~ Breath Weapon Substitution|!PREABILITY:1,CATEGORY=ACF,TYPE.UnholyRavagerOfTiamatBreathWeaponSubstitution										
+3				ABILITY:Unholy Ravager of Tiamat Class Feature|AUTOMATIC|Unholy Ravager of Tiamat ~ Aura of Despair|!PREABILITY:1,CATEGORY=ACF,TYPE.UnholyRavagerOfTiamatAuraOfDespair										
+7				ABILITY:Unholy Ravager of Tiamat Class Feature|AUTOMATIC|Unholy Ravager of Tiamat ~ Profane Blast|!PREABILITY:1,CATEGORY=ACF,TYPE.UnholyRavagerOfTiamatProfaneBlast										
+12				ABILITY:Unholy Ravager of Tiamat Class Feature|AUTOMATIC|Unholy Ravager of Tiamat ~ Mass Profane Blast|!PREABILITY:1,CATEGORY=ACF,TYPE.UnholyRavagerOfTiamatMassProfaneBlast										
+#														
+2	ADD:SPELLCASTER|Divine													
+3	ADD:SPELLCASTER|Divine													
+4	ADD:SPELLCASTER|Divine													
+5	ADD:SPELLCASTER|Divine													
+6	ADD:SPELLCASTER|Divine													
+7	ADD:SPELLCASTER|Divine													
+8	ADD:SPELLCASTER|Divine													
+9	ADD:SPELLCASTER|Divine													
+10	ADD:SPELLCASTER|Divine													
+11	ADD:SPELLCASTER|Divine													
+12	ADD:SPELLCASTER|Divine													
+
+CLASS:Sorcerer.MOD
+1	ABILITY:Special Ability|AUTOMATIC|Sorcerer ~ Caster Level Bonus
+
+CLASS:Dracolyte	HD:8	TYPE:Prestige	FACT:Abb|Dly	MAXLEVEL:10	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DracolyteLVL|0	BONUS:VAR|DracolyteLVL|CL	
+CLASS:Dracolyte	!PRERACE:1,RACETYPE=Dragon	PREABILITY:2,CATEGORY=FEAT,Dragonfriend,Toughness	PRESKILL:2,Concentration=8,Knowledge (Religion)=8	PRESKILL:2,Diplomacy=4,Knowledge (Arcana)=4	PRELANG:1,Draconic	PRETEXT:Able to cast 2nd-level divine spells.								
+CLASS:Dracolyte	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Heal|Jump|Knowledge (Arcana)|Knowledge (Religion)|Spellcraft												
+1				ABILITY:Dracolyte Class Feature|AUTOMATIC|Dracolyte ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DracolyteProficiencies										
+1				ABILITY:Dracolyte Class Feature|AUTOMATIC|Dracolyte ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.DracolyteSpellcasting										
+1				ABILITY:Dracolyte Class Feature|AUTOMATIC|Dracolyte ~ Prestige Domain|!PREABILITY:1,CATEGORY=ACF,TYPE.DracolytePrestigeDomain										
+#														
+3				ABILITY:Dracolyte Class Feature|AUTOMATIC|Dracolyte ~ Alertness|!PREABILITY:1,CATEGORY=ACF,TYPE.DracolyteAlertness										
+5				ABILITY:Dracolyte Class Feature|AUTOMATIC|Dracolyte ~ Foster Dragon|!PREABILITY:1,CATEGORY=ACF,TYPE.DracolyteFosterDragon										
+7				ABILITY:Dracolyte Class Feature|AUTOMATIC|Dracolyte ~ Immunities|!PREABILITY:1,CATEGORY=ACF,TYPE.DracolyteImmunities										
+9				ABILITY:Dracolyte Class Feature|AUTOMATIC|Dracolyte ~ Keen Senses|!PREABILITY:1,CATEGORY=ACF,TYPE.DracolyteKeenSenses										
+10				ABILITY:Dracolyte Class Feature|AUTOMATIC|Dracolyte ~ Summon Dragon|!PREABILITY:1,CATEGORY=ACF,TYPE.DracolyteSummonDragon										
+#														
+1						DOMAIN:Glory|PREMULT:1,[PREALIGN:LG,NG,CG],[PREMULT:2,[PREALIGN:TN],[PREABILITY:1,CATEGORY=Special Ability,Turn Undead]]	DOMAIN:Domination|PREMULT:1,[PREALIGN:LE,NE,CE],[PREMULT:2,[PREALIGN:TN],[PREABILITY:1,CATEGORY=Special Ability,Rebuke Undead]]							
+#														
+1	ADD:SPELLCASTER|Divine													
+2	ADD:SPELLCASTER|Divine													
+3	ADD:SPELLCASTER|Divine													
+4	ADD:SPELLCASTER|Divine													
+5	ADD:SPELLCASTER|Divine													
+6	ADD:SPELLCASTER|Divine													
+7	ADD:SPELLCASTER|Divine													
+8	ADD:SPELLCASTER|Divine													
+9	ADD:SPELLCASTER|Divine													
+10	ADD:SPELLCASTER|Divine													
+														
+CLASS:Dragonkith	HD:8	TYPE:Prestige	FACT:Abb|Dkt	MAXLEVEL:10	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DragonkithLVL|0	BONUS:VAR|DragonkithLVL|CL
+CLASS:Dragonkith	PRETOTALAB:8	PREABILITY:2,CATEGORY=FEAT,Alertness,Endurance	PRESKILL:1,Knowledge (Arcana)=4	PRELANG:1,Draconic	PRETEXT:Must be chosen by a dragon of the same alignment. If a dragonkith ever ceases its relationship with the dragon, or the dragon dies, the character loses all special abilities gained from this prestige class.									
+CLASS:Dragonkith	STARTSKILLPTS:4	CSKILL:Bluff|TYPE.Craft|Diplomacy|Intimidate|TYPE.Knowledge|TYPE.Profession|Search|Spot												
+1				ABILITY:Dragonkith Class Feature|AUTOMATIC|Dragonkith ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonkithProficiencies										
+#														
+1				ABILITY:Dragonkith Class Feature|AUTOMATIC|Dragonkith ~ Scales|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonkithScales										
+1				ABILITY:Dragonkith Class Feature|AUTOMATIC|Dragonkith ~ Telepathic Plea|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonkithTelepathicPlea										
+2				ABILITY:Dragonkith Class Feature|AUTOMATIC|Dragonkith ~ Mighty Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonkithMightyAttack										
+3				ABILITY:Dragonkith Class Feature|AUTOMATIC|Dragonkith ~ Detect Treasure|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonkithDetectTreasure										
+3				ABILITY:Dragonkith Class Feature|AUTOMATIC|Dragonkith ~ Energy Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonkithEnergyResistance										
+4				ABILITY:Dragonkith Class Feature|AUTOMATIC|Dragonkith ~ Telepathic Link|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonkithTelepathicLink										
+6				ABILITY:Dragonkith Class Feature|AUTOMATIC|Dragonkith ~ Sorcerous Knack|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonkithSorcerousKnack										
+9				ABILITY:Dragonkith Class Feature|AUTOMATIC|Dragonkith ~ Share Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonkithShareSpells										
+														
+CLASS:Dragonrider	HD:10	TYPE:Prestige	FACT:Abb|Dgr	MAXLEVEL:5	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DragonriderLVL|0	BONUS:VAR|DragonriderLVL|CL	
+CLASS:Dragonrider	PRETOTALAB:5	PREABILITY:2,CATEGORY=FEAT,Mounted Combat,Skill Focus (Ride)	PRESKILL:2,Diplomacy=4,Handle Animal=4	PRESKILL:1,Ride=8	PRELANG:1,Draconic									
+CLASS:Dragonrider	STARTSKILLPTS:2	CSKILL:Balance|Concentration|Diplomacy|Handle Animal|Jump|Ride|Spot|Tumble												
+1				ABILITY:Dragonrider Class Feature|AUTOMATIC|Dragonrider ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonriderProficiencies										
+#														
+1				ABILITY:Dragonrider Class Feature|AUTOMATIC|Dragonrider ~ Dragonriding|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonriderDragonriding										
+1				ABILITY:Dragonrider Class Feature|AUTOMATIC|Dragonrider ~ Immune to Frightful Presence|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonriderImmuneToFrightfulPresence										
+2				ABILITY:Dragonrider Class Feature|AUTOMATIC|Dragonrider ~ Mounted Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonriderMountedSpellcasting										
+3				ABILITY:Dragonrider Class Feature|AUTOMATIC|Dragonrider ~ Bonus Feats|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonriderBonusFeats										
+4				ABILITY:Dragonrider Class Feature|AUTOMATIC|Dragonrider ~ Flyby Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonriderFlybyAttack										
+5				ABILITY:Dragonrider Class Feature|AUTOMATIC|Dragonrider ~ Spur Mount|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonriderSpurMount										
+														
+CLASS:Dragonslayer	HD:10	TYPE:Prestige	FACT:Abb|Drs	MAXLEVEL:10	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DragonslayerLVL|0	BONUS:VAR|DragonslayerLVL|CL	
+CLASS:Dragonslayer	PRETOTALAB:5	PREABILITY:2,CATEGORY=FEAT,Dodge,Iron Will	PRESKILL:1,Tumble=2											
+CLASS:Dragonslayer	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Intimidate|Knowledge (Arcana)|Jump|Search|Tumble												
+1				ABILITY:Dragonslayer Class Feature|AUTOMATIC|Dragonslayer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonslayerProficiencies										
+1				ABILITY:Dragonslayer Class Feature|AUTOMATIC|Dragonslayer ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonslayerSpellcasting										
+#														
+1				ABILITY:Dragonslayer Class Feature|AUTOMATIC|Dragonslayer ~ Aura of Courage|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonslayerAuraOfCourage										
+1				ABILITY:Dragonslayer Class Feature|AUTOMATIC|Dragonslayer ~ Damage Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonslayerDamageBonus										
+2				ABILITY:Dragonslayer Class Feature|AUTOMATIC|Dragonslayer ~ Overcome Draconic Spell Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonslayerOvercomeDraconicSpellResistance										
+3				ABILITY:Dragonslayer Class Feature|AUTOMATIC|Dragonslayer ~ Damage Reduction|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonslayerDR										
+5				ABILITY:Dragonslayer Class Feature|AUTOMATIC|Dragonslayer ~ Energy Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonslayerEnergyResistance										
+6				ABILITY:Dragonslayer Class Feature|AUTOMATIC|Dragonslayer ~ Lightning Reflexes|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonslayerLightningReflexes										
+7				ABILITY:Dragonslayer Class Feature|AUTOMATIC|Dragonslayer ~ Improved Critical|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonslayerImprovedCritical										
+10				ABILITY:Dragonslayer Class Feature|AUTOMATIC|Dragonslayer ~ True Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonslayerTrueStrike										
+#														
+1	ADD:SPELLCASTER|ANY													
+3	ADD:SPELLCASTER|ANY													
+5	ADD:SPELLCASTER|ANY													
+7	ADD:SPELLCASTER|ANY													
+9	ADD:SPELLCASTER|ANY													
+														
+CLASS:Dragonsong Lyrist	HD:6	TYPE:Prestige	FACT:Abb|DLy	MAXLEVEL:5	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DragonsongLyristLVL|0	BONUS:VAR|DragonsongLyristLVL|CL	
+CLASS:Dragonsong Lyrist	PREALIGN:LG,LN,NG,TN,CG,CN	PREABILITY:1,CATEGORY=FEAT,Dragonsong	PRESKILL:3,Concentration=5,Diplomacy=5,Knowledge (Arcana)=5	PRESKILL:1,Perform (Oratory)=10,Perform (Sing)=10	PRELANG:1,Draconic									
+CLASS:Dragonsong Lyrist	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE.Craft|Diplomacy|Knowledge (Arcana)|Listen|TYPE.Perform|Sense Motive												
+1				ABILITY:Dragonsong Lyrist Class Feature|AUTOMATIC|Dragonsong Lyrist ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonsongLyristProficiencies										
+1				ABILITY:Dragonsong Lyrist Class Feature|AUTOMATIC|Dragonsong Lyrist ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonsongLyristSpellcasting										
+#														
+1				ABILITY:Dragonsong Lyrist Class Feature|AUTOMATIC|Dragonsong Lyrist ~ Greater Dragonsong|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonsongLyristGreaterDragonsong										
+#														
+2	ADD:SPELLCASTER|ANY													
+4	ADD:SPELLCASTER|ANY													
+														
+CLASS:Dragonstalker	HD:8	TYPE:Prestige	FACT:Abb|Dst	MAXLEVEL:10	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DragonstalkerLVL|0	BONUS:VAR|DragonstalkerLVL|CL	
+CLASS:Dragonstalker	PRETOTALAB:5	PREABILITY:2,CATEGORY=FEAT,Blind-Fight,Track	PRESKILL:2,Gather Information=4,Knowledge (Arcana)=4	PRESKILL:3,Hide=6,Move Silently=6,Search=6	PRELANG:1,Draconic									
+CLASS:Dragonstalker	STARTSKILLPTS:4	CSKILL:Bluff|Climb|TYPE.Craft|Diplomacy|Disguise|Gather Information|Hide|Jump|Knowledge (Arcana)|Knowledge (Local)|Listen|Move Silently|Search|Spot|Survival												
+1				ABILITY:Dragonstalker Class Feature|AUTOMATIC|Dragonstalker ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonstalkerProficiencies										
+#														
+1				ABILITY:Dragonstalker Class Feature|AUTOMATIC|Dragonstalker ~ Hunting Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonstalkerHuntingBonus										
+2				ABILITY:Dragonstalker Class Feature|AUTOMATIC|Dragonstalker ~ Sneak Attack (Dragon)|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonstalkeSneakAttackDragon										
+3				ABILITY:Dragonstalker Class Feature|AUTOMATIC|Dragonstalker ~ Ignore Natural Armor|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonstalkeIgnoreNaturalArmor										
+5				ABILITY:Dragonstalker Class Feature|AUTOMATIC|Dragonstalker ~ Hide Scent|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonstalkeHideScent										
+9				ABILITY:Dragonstalker Class Feature|AUTOMATIC|Dragonstalker ~ Foil Blindsense|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonstalkeFoilBlindsense										
+10				ABILITY:Dragonstalker Class Feature|AUTOMATIC|Dragonstalker ~ Dragonstrike|!PREABILITY:1,CATEGORY=ACF,TYPE.DragonstalkeDragonstrike										
+														
+CLASS:Hoardstealer	HD:6	TYPE:Prestige	FACT:Abb|Hrs	MAXLEVEL:10	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:HoardstealerLVL|0	BONUS:VAR|HoardstealerLVL|CL	
+CLASS:Hoardstealer	PREALIGN:NG,TN,NE,CG,CN,CE	PRESKILL:4,Appraise=8,Hide=8,Move Silently=8,Search=8	PRESKILL:3,Disable Device=4,Escape Artist=4,Open Lock=4	PRETEXT:The character must have participated in the location and recovery of a treasure hoard (dragon or otherwise) valued at 5,000 gp or more.										
+CLASS:Hoardstealer	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|Concentration|Decipher Script|Disable Device|Disguise|Escape Artist|Gather Information|Jump|Open Lock|Search|Swim|Use Magic Device|Use Rope												
+CLASS:Hoardstealer	SPELLSTAT:INT	FACT:Spelltype|Arcane	SPELLBOOK:YES											
+1				ABILITY:Hoardstealer Class Feature|AUTOMATIC|Hoardstealer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HoardstealerProficiencies										
+#														
+1				ABILITY:Hoardstealer Class Feature|AUTOMATIC|Hoardstealer ~ Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.HoardstealerSpells										
+1				ABILITY:Hoardstealer Class Feature|AUTOMATIC|Hoardstealer ~ Darkvision|!PREABILITY:1,CATEGORY=ACF,TYPE.HoardstealerDarkvision										
+1				ABILITY:Hoardstealer Class Feature|AUTOMATIC|Hoardstealer ~ Trapfinding|!PREABILITY:1,CATEGORY=ACF,TYPE.HoardstealerTrapfinding										
+2				ABILITY:Hoardstealer Class Feature|AUTOMATIC|Hoardstealer ~ Hide from Dragons|!PREABILITY:1,CATEGORY=ACF,TYPE.HoardstealerHideFromDragons										
+3				ABILITY:Hoardstealer Class Feature|AUTOMATIC|Hoardstealer ~ Trap Sense|!PREABILITY:1,CATEGORY=ACF,TYPE.HoardstealerTrapSense										
+3				ABILITY:Hoardstealer Class Feature|AUTOMATIC|Hoardstealer ~ Deep Pockets|!PREABILITY:1,CATEGORY=ACF,TYPE.HoardstealerDeepPockets										
+4				ABILITY:Hoardstealer Class Feature|AUTOMATIC|Hoardstealer ~ Treasure Dowsing|!PREABILITY:1,CATEGORY=ACF,TYPE.HoardstealerTreasureDowsing										
+8				ABILITY:Hoardstealer Class Feature|AUTOMATIC|Hoardstealer ~ Skill Mastery|!PREABILITY:1,CATEGORY=ACF,TYPE.HoardstealerSkillMastery										
+#														
+1	CAST:0,0													
+2	CAST:0,1													
+3	CAST:0,1,0													
+4	CAST:0,1,1													
+5	CAST:0,1,1,0													
+6	CAST:0,1,1,1													
+7	CAST:0,2,1,1,0													
+8	CAST:0,2,1,1,1													
+9	CAST:0,2,2,1,1													
+10	CAST:0,2,2,2,1													
+														
+CLASS:Initiate of the Draconic Mysteries	HD:8	TYPE:Prestige	FACT:Abb|IDM	MAXLEVEL:10	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:InitiateOfTheDraconicMysteriesLVL|0	BONUS:VAR|InitiateOfTheDraconicMysteriesLVL|CL	
+CLASS:Initiate of the Draconic Mysteries	PREABILITY:3,CATEGORY=FEAT,Alertness,Improved Unarmed Strike,Power Attack	PRESKILL:1,Jump=8	PRESKILL:2,Concentration=6,Knowledge (Arcana)=6	PRESKILL:2,Knowledge (Religion)=4,Tumble=4	PRELANG:1,Draconic									
+CLASS:Initiate of the Draconic Mysteries	STARTSKILLPTS:4	CSKILL:Balance|Concentration|Diplomacy|Escape Artist|Heal|Listen|Knowledge (Arcana)|Knowledge (Religion)|Spot|Tumble												
+1				ABILITY:Initiate of the Draconic Mysteries Class Feature|AUTOMATIC|Initiate of the Draconic Mysteries ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfTheDraconicMysteriesProficiencies										
+#														
+1				ABILITY:Initiate of the Draconic Mysteries Class Feature|AUTOMATIC|Initiate of the Draconic Mysteries ~ Evasion|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfTheDraconicMysteriesEvasion										
+2				ABILITY:Initiate of the Draconic Mysteries Class Feature|AUTOMATIC|Initiate of the Draconic Mysteries ~ Claws of the Dragon|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfTheDraconicMysteriesClawsOfTheDragon										
+3				ABILITY:Initiate of the Draconic Mysteries Class Feature|AUTOMATIC|Initiate of the Draconic Mysteries ~ Keen Senses|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfTheDraconicMysteriesKeenSenses										
+4				ABILITY:Initiate of the Draconic Mysteries Class Feature|AUTOMATIC|Initiate of the Draconic Mysteries ~ Increased Unarmed Damage|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfTheDraconicMysteriesIncreasedUnarmedDamage										
+5				ABILITY:Initiate of the Draconic Mysteries Class Feature|AUTOMATIC|Initiate of the Draconic Mysteries ~ Frightful Presence|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfTheDraconicMysteriesFrightfulPresence										
+6				ABILITY:Initiate of the Draconic Mysteries Class Feature|AUTOMATIC|Initiate of the Draconic Mysteries ~ Improved Evasion|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfTheDraconicMysteriesImprovedEvasion										
+7				ABILITY:Initiate of the Draconic Mysteries Class Feature|AUTOMATIC|Initiate of the Draconic Mysteries ~ Spell Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfTheDraconicMysteriesSR										
+9				ABILITY:Initiate of the Draconic Mysteries Class Feature|AUTOMATIC|Initiate of the Draconic Mysteries ~ Deadly Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfTheDraconicMysteriesDeadlyStrike										
+10				ABILITY:Initiate of the Draconic Mysteries Class Feature|AUTOMATIC|Initiate of the Draconic Mysteries ~ Dragon Shape|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfTheDraconicMysteriesDragonShape										
+														
+CLASS:Platinum Knight	HD:8	TYPE:Prestige	FACT:Abb|PKn	MAXLEVEL:10	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:PlatinumKnightLVL|0	BONUS:VAR|PlatinumKnightLVL|CL	
+CLASS:Platinum Knight	PREALIGN:LG,NG,CG	PRETOTALAB:5	PREABILITY:1,CATEGORY=FEAT,Dragonfriend	PRESKILL:2,Diplomacy=4,Knowledge (Arcana)=4	PRELANG:1,Draconic									
+CLASS:Platinum Knight	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Heal|Intimidate|Knowledge (Arcana)|Ride|Sense Motive												
+1				ABILITY:Platinum Knight Class Feature|AUTOMATIC|Platinum Knight ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PlatinumKnightProficiencies										
+#														
+1				ABILITY:Platinum Knight Class Feature|AUTOMATIC|Platinum Knight ~ Smite Evil Dragons|!PREABILITY:1,CATEGORY=ACF,TYPE.PlatinumKnightSmiteEvilDragons										
+1				ABILITY:Platinum Knight Class Feature|AUTOMATIC|Platinum Knight ~ Immune to Frightful Presence|!PREABILITY:1,CATEGORY=ACF,TYPE.PlatinumKnightImmuneToFrightfulPresence										
+2				ABILITY:Platinum Knight Class Feature|AUTOMATIC|Platinum Knight ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.PlatinumKnightSpellcasting										
+3				ABILITY:Platinum Knight Class Feature|AUTOMATIC|Platinum Knight ~ Dragon Scales|!PREABILITY:1,CATEGORY=ACF,TYPE.PlatinumKnightDragonScales										
+5				ABILITY:Platinum Knight Class Feature|AUTOMATIC|Platinum Knight ~ Bahamut's Grace|!PREABILITY:1,CATEGORY=ACF,TYPE.PlatinumKnightBahamutSGrace										
+9				ABILITY:Platinum Knight Class Feature|AUTOMATIC|Platinum Knight ~ Charisma Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.PlatinumKnightCharismaBonus										
+10				ABILITY:Platinum Knight Class Feature|AUTOMATIC|Platinum Knight ~ True Seeing|!PREABILITY:1,CATEGORY=ACF,TYPE.PlatinumKnightTrueSeeing										
+#														
+2	ADD:SPELLCASTER|ANY													
+4	ADD:SPELLCASTER|ANY													
+6	ADD:SPELLCASTER|ANY													
+8	ADD:SPELLCASTER|ANY													
+10	ADD:SPELLCASTER|ANY													
+														
+CLASS:Talon of Tiamat	HD:8	TYPE:Prestige	FACT:Abb|ToT	MAXLEVEL:10	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:TalonOfTiamatLVL|0	BONUS:VAR|TalonOfTiamatLVL|CL	
+CLASS:Talon of Tiamat	PREALIGN:LE,NE,CE	PRETOTALAB:4	PREABILITY:1,CATEGORY=FEAT,Dragonthrall	PRESKILL:3,Bluff=4,Intimidate=4,Knowledge (Arcana)=4	PRELANG:1,Draconic									
+CLASS:Talon of Tiamat	STARTSKILLPTS:2	CSKILL:Appraise|Bluff|Concentration|Intimidate|Knowledge (Arcana)|Ride|Search|Sense Motive|Spellcraft												
+1				ABILITY:Talon of Tiamat Class Feature|AUTOMATIC|Talon of Tiamat ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.TalonOfTiamatProficiencies										
+#														
+1				ABILITY:Talon of Tiamat Class Feature|AUTOMATIC|Talon of Tiamat ~ Breath Weapon|!PREABILITY:1,CATEGORY=ACF,TYPE.TalonOfTiamatBreathWeapon										
+2				ABILITY:Talon of Tiamat Class Feature|AUTOMATIC|Talon of Tiamat ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.TalonOfTiamatSpellcasting										
+2				ABILITY:Talon of Tiamat Class Feature|AUTOMATIC|Talon of Tiamat ~ Voice of the Dragon|!PREABILITY:1,CATEGORY=ACF,TYPE.TalonOfTiamatVoiceOfTheDragon										
+4				ABILITY:Talon of Tiamat Class Feature|AUTOMATIC|Talon of Tiamat ~ Keen Senses|!PREABILITY:1,CATEGORY=ACF,TYPE.TalonOfTiamatKeenSenses										
+6				ABILITY:Talon of Tiamat Class Feature|AUTOMATIC|Talon of Tiamat ~ Immunities|!PREABILITY:1,CATEGORY=ACF,TYPE.TalonOfTiamatImmunities										
+8				ABILITY:Talon of Tiamat Class Feature|AUTOMATIC|Talon of Tiamat ~ Frightful Presence|!PREABILITY:1,CATEGORY=ACF,TYPE.TalonOfTiamatTalonOfTiamat										
+10				ABILITY:Talon of Tiamat Class Feature|AUTOMATIC|Talon of Tiamat ~ Dominate Dragon|!PREABILITY:1,CATEGORY=ACF,TYPE.TalonOfTiamatDominateDragon										
+#														
+2	ADD:SPELLCASTER|ANY													
+4	ADD:SPELLCASTER|ANY													
+6	ADD:SPELLCASTER|ANY													
+8	ADD:SPELLCASTER|ANY													
+10	ADD:SPELLCASTER|ANY													

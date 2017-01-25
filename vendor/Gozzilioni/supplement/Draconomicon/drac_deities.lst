@@ -1,0 +1,15 @@
+SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11
+#								
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		PANTHEON:Greyhawk	SOURCEPAGE:CD	
+#Boccob	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Boccob (M)	DOMAINS:Knowledge,Magic,Trickery|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB	SYMBOL:a Kitten on a keyboard
+Aasterinian	ALIGN:CN	DEITYWEAP:Scimitar|Claw	DESC:Aasterinian (M)	DOMAINS:Chaos,Dragon,Luck,Travel,Trickery|PREALIGN:CG,TN,CN,CE	TYPE:Demigod	FACTSET:Pantheon|Dragon	SOURCEPAGE:Drac
+Astilabor	ALIGN:TN	DEITYWEAP:Scimitar|Claw	DESC:Astilabor (F)	DOMAINS:Dragon,Protection,Wealth|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	FACTSET:Pantheon|Dragon	SOURCEPAGE:Drac	
+Bahamut	ALIGN:LG	DEITYWEAP:Pick (Heavy)|Bite	DESC:Bahamut (M)	DOMAINS:Air,Dragon,Good,Luck,Protection|PREALIGN:LG,LN,NG	TYPE:Lesser	FACTSET:Pantheon|Dragon	SOURCEPAGE:Drac	
+Chronepsis	ALIGN:TN	DEITYWEAP:Scythe|Claw	DESC:Chronepsis (M)	DOMAINS:Death,Dragon,Knowledge|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	FACTSET:Pantheon|Dragon	SOURCEPAGE:Drac	
+Falazure	ALIGN:NE	DEITYWEAP:Scimitar|Claw	DESC:Falazure (M)	DOMAINS:Death,Dragon,Evil|PREALIGN:LE,TN,NE,CE	TYPE:Lesser	FACTSET:Pantheon|Dragon	SOURCEPAGE:Drac	
+Garyx	ALIGN:CE	DEITYWEAP:Sickle|Claw	DESC:Garyx (M)	DOMAINS:Chaos,Destruction,Dragon,Evil,Fire|PREALIGN:NE,CN,CE	TYPE:Lesser	FACTSET:Pantheon|Dragon	SOURCEPAGE:Drac
+Hlal	ALIGN:CG	DEITYWEAP:Sword (Short)|Claw	DESC:Hlal (F)	DOMAINS:Chaos,Dragon,Good,Trickery|PREALIGN:NG,CG,CN	TYPE:Lesser	FACTSET:Pantheon|Dragon	SOURCEPAGE:Drac
+Io	ALIGN:TN	DEITYWEAP:Scimitar|Claw	DESC:Io (M)	DOMAINS:Dragon,Knowledge,Magic,Strength,Travel,Wealth|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	FACTSET:Pantheon|Dragon	SOURCEPAGE:Drac
+Lendys	ALIGN:LN	DEITYWEAP:Longsword|Claw	DESC:Lendys (M)	DOMAINS:Destruction,Dragon,Law,Protection|PREALIGN:LG,LN,LE,TN	TYPE:Lesser	FACTSET:Pantheon|Dragon	SOURCEPAGE:Drac
+Tamara	ALIGN:NG	DEITYWEAP:Scimitar|Claw	DESC:Tamara (F)	DOMAINS:Dragon,Good,Healing,Strength,Sun|PREALIGN:LG,NG,TN,CG	TYPE:Lesser	FACTSET:Pantheon|Dragon	SOURCEPAGE:Drac
+Tiamat	ALIGN:LE	DEITYWEAP:Pick (Heavy)|Bite	DESC:Tiamat (F)	DOMAINS:Destruction,Dragon,Evil,Greed,Law,Trickery|PREALIGN:LN,LE,NE	TYPE:Lesser	FACTSET:Pantheon|Dragon	SOURCEPAGE:Drac

@@ -1,11 +1,11 @@
-CAMPAIGN:Houserules Ruleset
+CAMPAIGN:Defenders of the Faith 3.0
 GAMEMODE:G35e
-RANK:1
-TYPE:Gozzilioni.Partial.Houserule
+RANK:3
+TYPE:Gozzilioni.Old30
 SETTING:Heroes
 BOOKTYPE:Campaign
-SOURCELONG:Houserules
-SOURCESHORT:H
+SOURCELONG:Defender of the Faith 3.0
+SOURCESHORT:DotF30
 SOURCEWEB:http://www.gozzilioni.net
 ISOGL:NO
 COPYRIGHT:My Campaign, Copyright 2015 by me
@@ -13,16 +13,13 @@ PUBNAMELONG:Gozzilioni
 PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
-PRECAMPAIGN:1,Core Ruleset
+PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Guide
 
-ABILITY:h_abilities.lst
-EQUIPMENT:h_equip.lst
-SPELL:h_spells.lst
+DOMAIN:dotf_domains.lst
+SPELL:dotf_spells.lst
+#
 
-EQUIPMENT:h_equip_magic_items_DMG.lst
-EQUIPMENT:h_equip_magic_items_Drac.lst
-
-# ENTRY DATE: 2015-08 
+# ENTRY DATE: 2016-07 
 # LST MONKEY: Riccardo
 # RELEASE REVIEW #
 # BETA:

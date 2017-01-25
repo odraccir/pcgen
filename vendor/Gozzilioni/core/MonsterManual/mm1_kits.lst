@@ -1567,6 +1567,30 @@ SKILL:Listen	RANK:2
 SKILL:Move Silently	RANK:3
 SKILL:Spot	RANK:2
 
+STARTPACK:Dragon (Black/Very Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Black)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:4
+
+STARTPACK:Dragon (Black/Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Black)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:7
+
+STARTPACK:Dragon (Black/Juvenile) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Black)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:10
+
+STARTPACK:Dragon (Blue/Very Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Blue)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:6
+
+STARTPACK:Dragon (Blue/Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Blue)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:9
+
+STARTPACK:Dragon (Blue/Juvenile) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Blue)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:12
+
 STARTPACK:Dragon (Brass/Very Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Brass)
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
 CLASS:Dragon	LEVEL:7
@@ -1615,28 +1639,44 @@ STARTPACK:Dragon (Gold/Ancient) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUA
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
 CLASS:Dragon	LEVEL:35
 
-STARTPACK:Dragon (Green) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Green)
+STARTPACK:Dragon (Green/Very Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Green)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:3
+
+STARTPACK:Dragon (Green/Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Green)
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
 CLASS:Dragon	LEVEL:6
-ABILITY:CATEGORY=FEAT|Alertness
-ABILITY:CATEGORY=FEAT|Flyby Attack
-ABILITY:CATEGORY=FEAT|Improved Natural Attack (Bite)
-ABILITY:CATEGORY=FEAT|Power Attack
-SKILL:Bluff	RANK:7
-SKILL:Concentration	RANK:7
-SKILL:Diplomacy	RANK:7
-SKILL:Intimidate	RANK:8
-SKILL:Knowledge (Arcana)	RANK:8
-SKILL:Knowledge (Nature)	RANK:8
-SKILL:Listen	RANK:8
-SKILL:Move Silently	RANK:8
-SKILL:Search	RANK:8
-SKILL:Sense Motive	RANK:8
-SKILL:Spot	RANK:8
+# ABILITY:CATEGORY=FEAT|Alertness
+# ABILITY:CATEGORY=FEAT|Flyby Attack
+# ABILITY:CATEGORY=FEAT|Improved Natural Attack (Bite)
+# ABILITY:CATEGORY=FEAT|Power Attack
+# SKILL:Bluff	RANK:7
+# SKILL:Concentration	RANK:7
+# SKILL:Diplomacy	RANK:7
+# SKILL:Intimidate	RANK:8
+# SKILL:Knowledge (Arcana)	RANK:8
+# SKILL:Knowledge (Nature)	RANK:8
+# SKILL:Listen	RANK:8
+# SKILL:Move Silently	RANK:8
+# SKILL:Search	RANK:8
+# SKILL:Sense Motive	RANK:8
+# SKILL:Spot	RANK:8
+
+STARTPACK:Dragon (Green/Juvenile) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Green)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:9
 
 STARTPACK:Dragon (Green/Ancient) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Green)
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
 CLASS:Dragon	LEVEL:27
+
+STARTPACK:Dragon (Red/Very Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Red)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:3
+
+STARTPACK:Dragon (Red/Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Red)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:6
 
 STARTPACK:Dragon (Silver/Very Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Silver)
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
@@ -1649,6 +1689,18 @@ CLASS:Dragon	LEVEL:13
 STARTPACK:Dragon (Silver/Ancient) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (Silver)
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
 CLASS:Dragon	LEVEL:27
+
+STARTPACK:Dragon (White/Very Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (White)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:3
+
+STARTPACK:Dragon (White/Young) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (White)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:6
+
+STARTPACK:Dragon (White/Juvenile) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (White)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+CLASS:Dragon	LEVEL:9
 
 STARTPACK:Dragon (White/Wyrm) Companion	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dragon (White)
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10

@@ -77,4 +77,5 @@ Spider Climb	CATEGORY:Special Ability	TYPE:VampireRaceTrait.SpecialQuality.Extra
 Turn Resistance	CATEGORY:Special Ability	TYPE:VampireRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:A vampire has +4 turn resistance.	KEY:Vampire ~ Turn Resistance									BONUS:VAR|TurnResistanceBonus|4																		SOURCEPAGE:MM1			
 Skills	CATEGORY:Special Ability	TYPE:VampireRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Vampires have a +8 racial bonus on Bluff, Hide, Listen, Move Silently, Search, Sense Motive, and Spot checks. Otherwise same as the base creature.	KEY:Vampire ~ Skills									BONUS:SKILL|Bluff,Hide,Listen,Move Silently,Search,Sense Motive,Spot|8|TYPE=Racial																		SOURCEPAGE:MM1			
 																																			
+# Zombie Template
 Single Actions Only	CATEGORY:Special Ability	TYPE:ZombieRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:Zombies have poor reflexes and can perform only a single move action or attack action each round. A zombie can move up to its speed and attack in the same round, but only if it attempts a charge.	KEY:Zombie ~ Single Actions Only																											SOURCEPAGE:MM1			
