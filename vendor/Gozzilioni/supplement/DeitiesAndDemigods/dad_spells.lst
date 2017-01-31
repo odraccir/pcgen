@@ -1,0 +1,82 @@
+SOURCELONG:Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04																						
+#																									
+# Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus
+Status (Greater)				TYPE:Spell	SCHOOL:Divination				COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One creature touched/3 levels.	DURATION:1 hour/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:As status (described in the Player's Handbook), but you can also cast a limited selection of spells through the link, as if you were touching the target.	SOURCEPAGE:DaD								
+Armor of Darkness				TYPE:Spell	SCHOOL:Abiuration		DESCRIPTOR:Darkness		COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched.	DURATION:10 minutes/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:The spell envelops the warded creature in a shroud of flickering shadows.	SOURCEPAGE:DaD								
+Blacklight				TYPE:Spell	SCHOOL:Blacklight		DESCRIPTOR:Darkness	CLASSES:Sorcerer=3,Wizard=3	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:A 20-ft-radius emanation centered on a creature, object or point in space.	DURATION:1 round/level	SAVEINFO:Will negates or none (object)	SPELLRES:Yes or no	DESC:You create an area of total darkness. Material Component: A piece of coal and the dried eyeball of any creature.	SOURCEPAGE:DaD								
+Bolt of Glory				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Good		COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:Ray.	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:Yes	DESC:By casting this spell, you project a bolt of energy from the Positive Energy Plane against one creature.	SOURCEPAGE:DaD								
+Bolts of Bedevilment				TYPE:Spell	SCHOOL:Enchantment		DESCRIPTOR:Mind-Affecting		COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:Ray.	DURATION:1 round/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:This spell grants you the ability to make one ray attack per round.	SOURCEPAGE:DaD								
+Crown of Glory				TYPE:Spell	SCHOOL:Evocation				COMPS:V, S, M, DF	CASTTIME:1 round	RANGE:Personal	TARGETAREA:120-ft-radius emanation centered on you.	DURATION:1 round/level	SAVEINFO:Will negates or none (object)	SPELLRES:Yes or no	DESC:You are imbued with an aura of celestial authority, inspiring awe in all lesser creatures that behold your terrible perfection and righteousness. Material Component: An opal worth at least 200 gp.	SOURCEPAGE:DaD		COST:200					TEMPBONUS:PC|STAT|CHA|4|TYPE=Enhancement	
+Genesis				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation			COMPS:V, S, M, XP	CASTTIME:1 week	RANGE:180-ft	TARGETAREA:A demiplane on the ethereal plane centered on your location.	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:You create an immobile, finite plane with limited access-a demiplane. XP Cost: 5,000 XP.	SOURCEPAGE:DaD			XPCOST:5000					
+Hardening				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Sorcerer=7,Wizard=7	COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One item of a volume no greater than 10-cu-ft/level (see text).	DURATION:Permanent	SAVEINFO:None (Object)	SPELLRES:Yes	DESC:This spell increases the hardness of materials (see Table 8-12: Substance Hardness and Hit Points in the Player's Handbook).	SOURCEPAGE:DaD								
+Maddening Scream				TYPE:Spell	SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Mind-Affecting	CLASSES:Sorcerer=8,Wizard=8	COMPS:V	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Living creature touched.	DURATION:1d4+1 rounds	SAVEINFO:None	SPELLRES:Yes	DESC:The subject cannot keep himself from screaming, gibbering, and leaping about as though completely mad.	SOURCEPAGE:DaD								
+Rage				TYPE:Spell	SCHOOL:Enchantment				COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched.	DURATION:1 round/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:You can put a creature into a screaming blood frenzy.	SOURCEPAGE:DaD							TEMPBONUS:ANYPC|STAT|STR,CON|4	TEMPBONUS:ANYPC|SAVES|WILL|2
+Surelife				TYPE:Spell	SCHOOL:Abiuration				COMPS:V, S, M	CASTTIME:1 round	RANGE:Personal	TARGETAREA:You.	DURATION:1 minute/2 levels	SAVEINFO:None	SPELLRES:No	DESC:This spell allows you to protect yourself against some condition-such as being immersed in boiling oil or being buried under an avalanche-that would ordinarily cause certain death. Material Component: An ointment of peach syrup and cinnabar.	SOURCEPAGE:DaD								
+Touch of Madness				TYPE:Spell	SCHOOL:Enchantment		DESCRIPTOR:Mind-Affecting		COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched.	DURATION:1 round/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:You may daze one living creature by making a successful touch attack	SOURCEPAGE:DaD								
+True Creation				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation			COMPS:V, S, M, XP	CASTTIME:10 minutes	RANGE:0-ft	TARGETAREA:Unattended, nonmagical object of nonliving matter, up to 1-cu-ft/level.	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:You create a nonmagical, unattended object of any sort of matter. Material Component: A small piece of matter of the same type of item you plan to create- a sliver of wood to create arrow shafts, a tiny piece of the appropriate stone to create a polished gem, and so forth. XP Cost: The item's gold piece value in XP, or a minimum of 1 XP, whichever is more (see the Player's Handbook for item costs).	SOURCEPAGE:DaD								
+Undeath to Death				TYPE:Spell	SCHOOL:Necromancy			CLASSES:Cleric=6,Sorcerer=6,Wizard=6	COMPS:V, S, M, DF	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:Several undead creatures within a 50-ft-radius burst.	DURATION:Instantaneous	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Undeath to death snuffs out the animating forces of undead creatures, killing them instantly.	SOURCEPAGE:DaD								
+																									
+Bane.MOD	CLASSES:Justiciar of Taiia=1																								
+Cause Fear.MOD	CLASSES:Justiciar of Taiia=1																								
+Command.MOD	CLASSES:Justiciar of Taiia=1																								
+Deathwatch.MOD	CLASSES:Justiciar of Taiia=1																								
+Divine Favor.MOD	CLASSES:Justiciar of Taiia=1																								
+Doom.MOD	CLASSES:Justiciar of Taiia=1																								
+Magic Weapon.MOD	CLASSES:Justiciar of Taiia=1																								
+Aid.MOD	CLASSES:Justiciar of Taiia=2																								
+Bull's Strength.MOD	CLASSES:Justiciar of Taiia=2																								
+Enthrall.MOD	CLASSES:Justiciar of Taiia=2																								
+Hold Person.MOD	CLASSES:Justiciar of Taiia=2																								
+Spiritual Weapon.MOD	CLASSES:Justiciar of Taiia=2																								
+Zone of Truth.MOD	CLASSES:Justiciar of Taiia=2																								
+Bestow Curse.MOD	CLASSES:Justiciar of Taiia=3																								
+Blindness/Deafness.MOD	CLASSES:Justiciar of Taiia=3																								
+Contagion.MOD	CLASSES:Justiciar of Taiia=3																								
+Magic Vestment.MOD	CLASSES:Justiciar of Taiia=3																								
+Prayer.MOD	CLASSES:Justiciar of Taiia=3																								
+Searing Light.MOD	CLASSES:Justiciar of Taiia=3																								
+Commune.MOD	CLASSES:Justiciar of Taiia=4																								
+Discern Lies.MOD	CLASSES:Justiciar of Taiia=4																								
+Divine Power.MOD	CLASSES:Justiciar of Taiia=4																								
+Magic Weapon (Greater).MOD	CLASSES:Justiciar of Taiia=4																								
+Bless.MOD	CLASSES:Soldier of Light=1																								
+Bless Water.MOD	CLASSES:Soldier of Light=1																								
+Bless Weapon.MOD	CLASSES:Soldier of Light=1																								
+Cure Light Wounds.MOD	CLASSES:Soldier of Light=1																								
+Detect Evil.MOD	CLASSES:Soldier of Light=1																								
+Invisibility to Undead.MOD	CLASSES:Soldier of Light=1																								
+Light.MOD	CLASSES:Soldier of Light=1																								
+Magic Weapon.MOD	CLASSES:Soldier of Light=1																								
+Protection from Evil.MOD	CLASSES:Soldier of Light=1																								
+Shield of Faith.MOD	CLASSES:Soldier of Light=1																								
+Aid.MOD	CLASSES:Soldier of Light=2																								
+Consecrate.MOD	CLASSES:Soldier of Light=2																								
+Cure Moderate Wounds.MOD	CLASSES:Soldier of Light=2																								
+Daylight.MOD	CLASSES:Soldier of Light=2																								
+Restoration (Lesser).MOD	CLASSES:Soldier of Light=2																								
+Make Whole.MOD	CLASSES:Soldier of Light=2																								
+Shield Other.MOD	CLASSES:Soldier of Light=2																								
+Cure Serious Wounds.MOD	CLASSES:Soldier of Light=3																								
+Magic Weapon (Greater).MOD	CLASSES:Soldier of Light=3																								
+Magic Circle against Evil.MOD	CLASSES:Soldier of Light=3																								
+Negative Energy Protection.MOD	CLASSES:Soldier of Light=3																								
+Prayer.MOD	CLASSES:Soldier of Light=3																								
+Remove Disease.MOD	CLASSES:Soldier of Light=3																								
+Searing Light.MOD	CLASSES:Soldier of Light=3																								
+Cure Critical Wounds.MOD	CLASSES:Soldier of Light=4																								
+Death Ward.MOD	CLASSES:Soldier of Light=4																								
+Holy Smite.MOD	CLASSES:Soldier of Light=4																								
+Holy Sword.MOD	CLASSES:Soldier of Light=4																								
+Planar Ally (Lesser).MOD	CLASSES:Soldier of Light=4																								
+Restoration.MOD	CLASSES:Soldier of Light=4																								
+																									
+Summon Monster V.COPY=Summon Monster V	KEY:Darkness ~ Summon Monster V																								
+Darkness ~ Summon Monster V.MOD	OUTPUTNAME:Summon Monster V	DESCRIPTOR:.CLEAR	DESC:Only summons 1d3 shadows.																						
+Animal Trance.COPY=Animal Trance	KEY:Animal Trance ~ Reptiles only																								
+Animal Trance ~ Reptiles only.MOD	OUTPUTNAME:Animal Trance	DESC:Affects ophidian or reptilian creatures only.																							
+Animal Growth.COPY=Animal Growth	KEY:Animal Growth ~ Reptiles only																								
+Animal Growth ~ Reptiles only.MOD	OUTPUTNAME:Animal Growth	DESC:Affects ophidian or reptilian creatures only.																							
+Creeping Doom.COPY=Creeping Doom	KEY:Creeping Doom ~ Reptiles only																								
+Creeping Doom ~ Reptiles only.MOD	OUTPUTNAME:Creeping Doom	DESC:Composed of tiny snakes.																							
+Animal Shapes.COPY=Animal Shapes	KEY:Animal Shapes ~ Reptiles only																								
+Animal Shapes ~ Reptiles only.MOD	OUTPUTNAME:Animal Shapes	DESC:Affects ophidian or reptilian creatures only.																							

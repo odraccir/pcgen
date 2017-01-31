@@ -1,0 +1,27 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+
+# Subrace Support
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Berserker Class Feature	CATEGORY:Special Ability	TYPE:BerserkerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Berserker Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Justiciar of Taiia Class Feature	CATEGORY:Special Ability	TYPE:JusticiarOfTaiiaClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Justiciar of Taiia Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Soldier of Light Class Feature	CATEGORY:Special Ability	TYPE:SoldierOfLightClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Soldier of Light Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups
+ABILITYCATEGORY:Salient Divine Ability	CATEGORY:Salient Divine Ability		VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Salient Divine Abilities	POOL:SalientDivinePool
+ABILITYCATEGORY:Divine Damage Reduction	CATEGORY:Salient Divine Ability	TYPE:IncreasedDamageReduction	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Divine Damage Reductions			DISPLAYLOCATION:Deity Features
+ABILITYCATEGORY:Divine Energy Resistance	CATEGORY:Salient Divine Ability	TYPE:IncreasedEnergyResistance	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Divine Energy Resistances			DISPLAYLOCATION:Deity Features
+
+ABILITYCATEGORY:Greater Mummy Special Attack	CATEGORY:Internal	TYPE:GreaterMummySpecialAttack	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Greater Mummy Special Attacks			DISPLAYLOCATION:Race Features
+ABILITYCATEGORY:Greater Mummy Special Quality	CATEGORY:Internal	TYPE:GreaterMummySpecialQuality	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Greater Mummy Special Qualities			DISPLAYLOCATION:Race Features
+
+ABILITYCATEGORY:Justiciar of Taiia Proficiency	CATEGORY:FEAT	TYPE:JusticiarOfTaiiaProficiency	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO	ABILITYLIST:Simple Weapon Proficiency|Martial Weapon Proficiency|Exotic Weapon Proficiency											PLURAL:Justiciar of Taiia Proficiencies			DISPLAYLOCATION:Feats
+
+#Feats Ability pools
+
+#Companion Support
+
+#
+# End
+#

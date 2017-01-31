@@ -1,0 +1,30 @@
+SOURCELONG:Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04																													
+	
+STARTPACK:Cyclops (Lesser) Stats	TYPE:DefaultMonster.Giant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Cyclops (Lesser)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Cyclops (Lesser) Standard Equip	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Cyclops (Lesser)
+GEAR:Longspear	SIZE:L
+GEAR:Giant Rock ~ Lesser Cyclope
+
+STARTPACK:Cyclops (Greater) Stats	TYPE:DefaultMonster.Giant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Cyclops (Greater)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Cyclops (Greater) Standard Equip	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Cyclops (Greater)
+GEAR:Scale Mail	SIZE:H
+GEAR:Longspear	SIZE:H
+GEAR:Giant Rock ~ Greater Cyclope
+
+STARTPACK:Faun Stats	TYPE:DefaultMonster.Fey	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Faun
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Faun Standard Equip	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Faun
+GEAR:Shortspear
+GEAR:Shortbow
+
+STARTPACK:Minion of Set Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Minion of Set
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Faun Standard Equip	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Faun
+GEAR:Khopesh	EQMOD:PLUS1W
+GEAR:Longbow (Composite)	EQMOD:BOWSTR|2

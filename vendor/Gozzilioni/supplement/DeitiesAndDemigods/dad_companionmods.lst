@@ -1,0 +1,5 @@
+SOURCELONG:Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04																													
+#										
+###Block:Energon Companion										
+FOLLOWER:EnergonCompanionLVL=1	TYPE:Energon Companion	
+FOLLOWER:EnergonCompanionLVL=8	TYPE:Energon Companion	HD:2

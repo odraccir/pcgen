@@ -1,12 +1,13 @@
-CAMPAIGN:Defenders of the Faith 3.0
+CAMPAIGN:Deities and Demigods
 GAMEMODE:G35e
 RANK:3
-TYPE:Gozzilioni.Old30
+TYPE:Gozzilioni.Partial.Supplement
 SETTING:Heroes
 BOOKTYPE:Campaign
-SOURCELONG:Defender of the Faith 3.0
-SOURCESHORT:DotF30
+SOURCELONG:Deities and Demigods
+SOURCESHORT:DaD
 SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2002-04
 ISOGL:NO
 COPYRIGHT:My Campaign, Copyright 2015 by me
 PUBNAMELONG:Gozzilioni
@@ -14,9 +15,40 @@ PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
 PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Guide
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:missing.txt
 
-DOMAIN:dotf_domains.lst
-SPELL:dotf_spells.lst
+ABILITY:dad_abilities.lst
+ABILITY:dad_abilities_classes.lst
+ABILITY:dad_abilities_races.lst
+ABILITY:dad_abilities_templates.lst
+ABILITYCATEGORY:dad_abilitycategories.lst
+CLASS:dad_classes.lst
+COMPANIONMOD:dad_companionmods.lst
+DEITY:dad_deities.lst
+DOMAIN:dad_domains.lst
+# EQUIPMENT:dad_equip.lst
+# EQUIPMENT:dad_equip_armors_specific.lst
+# EQUIPMENT:dad_equip_magic_items.lst
+EQUIPMENT:dad_equip_weapons.lst
+# EQUIPMENT:dad_equip_weapons_natural.lst
+# EQUIPMENT:dad_equip_weapons_specific.lst
+# EQUIPMENT:dad_equip_weapons_natural.lst
+# EQUIPMOD:dad_equipmods.lst
+# ABILITY:dad_feats.lst
+KIT:dad_kits.lst
+# LANGUAGE:dad_languages.lst
+# WEAPONPROF:dad_profs_weapon.lst
+RACE:dad_races.lst
+# RACE:dad_races_companion.lst
+# SKILL:dad_skills.lst
+SPELL:dad_spells.lst
+# ABILITY:dad_subraces.lst
+TEMPLATE:dad_templates.lst
+#
+# HIDETYPE:SKILL|Craft (Stoneworking)
+# HIDETYPE:FEAT|AllegianceTier|AnointedKnight|ExaltedArcanist|InitiateOfPistisSophia|CallFlyingMount|VassalOfBahamut|Wonderworker
+
 #
 
 # ENTRY DATE: 2016-07 

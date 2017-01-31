@@ -1,0 +1,68 @@
+SOURCELONG:Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04					
+#								
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:	TYPE:	PANTHEON:Greyhawk	SOURCEPAGE:CD	
+#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	SYMBOL:a Kitten on a keyboard
+###NOTE: d&d pantheon skipped								
+Zeus	ALIGN:CG	DEITYWEAP:Shortspear|Halfspear	DESC:Zeus (M)	DOMAINS:Air,Chaos,Good,Nobility,Strength,Weather|PREALIGN:NG,CG,CN	TYPE:Greater	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
+Aphrodite	ALIGN:CG	DEITYWEAP:Dagger	DESC:Aphrodite (F)	DOMAINS:Chaos,Charm,Good|PREALIGN:NG,CG,CN	TYPE:Intermediate	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
+Apollo	ALIGN:CG	DEITYWEAP:Longbow	DESC:Apollo (M)	DOMAINS:Good,Healing,Knowledge,Magic,Sun|PREALIGN:NG,CG,CN	TYPE:Intermediate	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
+Ares	ALIGN:CE	DEITYWEAP:Shortspear	DESC:Ares (M)	DOMAINS:Chaos,Destruction,Evil,War|PREALIGN:NE,CE,CN	TYPE:Intermediate	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
+Artemis	ALIGN:NG	DEITYWEAP:Sword (Short)	DESC:Artemis (F)	DOMAINS:Animal,Good,Plant,Sun|PREALIGN:LG,LN,CG,NG	TYPE:Intermediate	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
+Athena	ALIGN:LG	DEITYWEAP:Shortspear	DESC:Athena (F)	DOMAINS:Artifice,Community,Good,Knowledge,Law,War|PREALIGN:LG,LN,NG	TYPE:Greater	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
+Demeter	ALIGN:TN	DEITYWEAP:Spear	DESC:Demeter (F)	DOMAINS:Earth,Plant,Protection|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
+Dionysus	ALIGN:CN	DEITYWEAP:Quarterstaff	DESC:Dionysus (M)	DOMAINS:Chaos,Destruction,Madness|PREALIGN:CG,TN,CN,CE	TYPE:Intermediate	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
+Hades	ALIGN:NE	DEITYWEAP:Longsword	DESC:Hades (M)	DOMAINS:Death,Earth,Evil|PREALIGN:LE,TN,NE,CE	TYPE:Greater	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
+Hecate	ALIGN:NE	DEITYWEAP:Dagger	DESC:Hecate (F)	DOMAINS:Creation,Evil,Knowledge,Magic|PREALIGN:LE,TN,NE,CE	TYPE:Intermediate	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
+Hephaestus	ALIGN:NG	DEITYWEAP:Warhammer	DESC:Hephaestus (M)	DOMAINS:Artifice,Community,Earth,Fire,Good|PREALIGN:LG,LN,CG,NG	TYPE:Intermediate	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
+Hera	ALIGN:TN	DEITYWEAP:Mace (Light)	DESC:Hera (F)	DOMAINS:Community,Nobility,Protection,Trickery|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
+Hercules	ALIGN:CG	DEITYWEAP:Greatclub	DESC:Hercules (M)	DOMAINS:Chaos,Good,Luck,Strength|PREALIGN:NG,CG,CN	TYPE:Demigod	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
+Hermes	ALIGN:CG	DEITYWEAP:Quarterstaff	DESC:Hermes (M)	DOMAINS:Chaos,Good,Luck,Travel,Trickery|PREALIGN:NG,CG,CN	TYPE:Intermediate	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
+Hestia	ALIGN:NG	DEITYWEAP:Dagger	DESC:Hestia (F)	DOMAINS:Community,Good,Protection|PREALIGN:LG,LN,CG,NG	TYPE:Lesser	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
+Nike	ALIGN:LN	DEITYWEAP:Mace (Light)	DESC:Nike (F)	DOMAINS:Law,Nobility,War|PREALIGN:LG,LN,LE,TN	TYPE:Demigod	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
+Pan	ALIGN:CN	DEITYWEAP:Unarmed Strike	DESC:Pan (M)	DOMAINS:Animal,Chaos,Plant|PREALIGN:CG,TN,CN,CE	TYPE:Lesser	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
+Poseidon	ALIGN:CN	DEITYWEAP:Trident	DESC:Poseidon (M)	DOMAINS:Chaos,Earth,Water|PREALIGN:CG,TN,CN,CE	TYPE:Greater	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
+Tyche	ALIGN:TN	DEITYWEAP:Sword (Short)	DESC:Tyche (F)	DOMAINS:Luck,Protection,Travel|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
+The Academy	ALIGN:None	DEITYWEAP:Quarterstaff	DESC:The Academy ()	DOMAINS:Good,Knowledge|PREALIGN:LG,NG,CG	TYPE:Phylosophy	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
+Olympian Pantheon	ALIGN:None	DEITYWEAP:Dagger|Greatclub|Mace (Light)|Longsword|Quarterstaff|Sword (Short)|Shortspear|Longspear|Trident|Unarmed Strike|Warhammer		DOMAINS:Air,Animal,Artifice,Chaos,Charm,Community,Creation,Death,Destruction,Earth,Evil,Fire,Good,Healing,Knowledge,Law,Luck,Madness,Magic,Nobility,Plant,Protection,Strength,Sun,Travel,Trickery,War,Water,Weather			SOURCEPAGE:DaD	
+Re-Horakhty	ALIGN:LG	DEITYWEAP:Khopesh	DESC:Re-Horakhty (M)	DOMAINS:Glory,Good,Law,Nobility,Sun,War|PREALIGN:LG,LN,NG	TYPE:Greater	FACTSET:Pantheon|Pharaonic	SOURCEPAGE:DaD	
+Anubis	ALIGN:LN	DEITYWEAP:Mace (Light)|Mace (Heavy)	DESC:Anubis (M)	DOMAINS:Law,Magic,Repose|PREALIGN:LG,LN,LE,TN	TYPE:Lesser	FACTSET:Pantheon|Pharaonic	SOURCEPAGE:DaD	
+Apep	ALIGN:NE	DEITYWEAP:Pick (Heavy)	DESC:Apep (M)	DOMAINS:Evil,Fire,Scalykind|PREALIGN:LE,TN,NE,CE	TYPE:Demigod	FACTSET:Pantheon|Pharaonic	SOURCEPAGE:DaD	
+Bast	ALIGN:CG	DEITYWEAP:Claw (Tiger)	DESC:Bast (F)	DOMAINS:Chaos,Destruction,Protection,Strength,War|PREALIGN:NG,CG,CN	TYPE:Lesser	FACTSET:Pantheon|Pharaonic	SOURCEPAGE:DaD	
+Bes	ALIGN:CN	DEITYWEAP:Sword (Short)	DESC:Bes (M)	DOMAINS:Luck,Protection,Trickery|PREALIGN:CG,TN,CN,CE	TYPE:Lesser	FACTSET:Pantheon|Pharaonic	SOURCEPAGE:DaD	
+Hathor	ALIGN:NG	DEITYWEAP:Longsword	DESC:Hathor (M)	DOMAINS:Community,Good,Luck|PREALIGN:LG,LN,CG,NG	TYPE:Lesser	FACTSET:Pantheon|Pharaonic	SOURCEPAGE:DaD	
+Imhotep	ALIGN:NG	DEITYWEAP:Quarterstaff	DESC:Imothep (F)	DOMAINS:Artifice,Healing,Knowledge|PREALIGN:LG,LN,CG,NG	TYPE:Demigod	FACTSET:Pantheon|Pharaonic	SOURCEPAGE:DaD	
+Isis	ALIGN:NG	DEITYWEAP:Quarterstaff	DESC:Isis (F)	DOMAINS:Good,Magic,Protection,Water|PREALIGN:LG,LN,CG,NG	TYPE:Greater	FACTSET:Pantheon|Pharaonic	SOURCEPAGE:DaD	
+Nephthys	ALIGN:CG	DEITYWEAP:Mace (Light)|Mace (Heavy)	DESC:Nephthys (F)	DOMAINS:Chaos,Good,Protection,Repose|PREALIGN:NG,CG,CN	TYPE:Intermediate	FACTSET:Pantheon|Pharaonic	SOURCEPAGE:DaD	
+Osiris	ALIGN:LG	DEITYWEAP:Flail	DESC:Osiris (M)	DOMAINS:Air,Earth,Good,Law,Plant,Repose|PREALIGN:LG,LN,NG	TYPE:Greater	FACTSET:Pantheon|Pharaonic	SOURCEPAGE:DaD	
+Ptah	ALIGN:LN	DEITYWEAP:Mace (Light)|Mace (Heavy)	DESC:Ptah (M)	DOMAINS:Creation,Knowledge,Law,Travel|PREALIGN:LG,LN,LE,TN	TYPE:Intermediate	FACTSET:Pantheon|Pharaonic	SOURCEPAGE:DaD	
+Set	ALIGN:CE	DEITYWEAP:Spear	DESC:Set (M)	DOMAINS:Air,Chaos,Darkness,Destruction,Evil,Strength|PREALIGN:NE,CE,CN	TYPE:Greater	FACTSET:Pantheon|Pharaonic	SOURCEPAGE:DaD	
+Sobek	ALIGN:LE	DEITYWEAP:Shortspear	DESC:Sobek (M)	DOMAINS:Animal,Evil,Water|PREALIGN:LN,LE,NE	TYPE:Demigod	FACTSET:Pantheon|Pharaonic	SOURCEPAGE:DaD	
+Thoth	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Thoth (M)	DOMAINS:Knowledge,Magic,Rune|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	FACTSET:Pantheon|Pharaonic	SOURCEPAGE:DaD	
+Pharaonic Pantheon	ALIGN:None	DEITYWEAP:Flail|Pick (Heavy)|Khopesh|Longsword|Mace (Light)|Mace (Heavy)|Quarterstaff|Sword (Short)|Shortspear|Longspear|Claw (Tiger)		DOMAINS:Air,Artifice,Chaos,Community,Creation,Destruction,Earth,Glory,Good,Healing,Knowledge,Law,Luck,Magic,Nobility,Plant,Protection,Repose,Rune,Strength,Sun,Travel,Trickery,War,Water|PREALIGN:LG,LN,NG,TN,CG,CN			SOURCEPAGE:DaD	
+Osirian Triad	ALIGN:None	DEITYWEAP:Khopesh|Flail|Quarterstaff		DOMAINS:Air,Earth,Law,Glory,Good,Law,Magic,Nobility,Plant,Protection,Repose,Sun,War,Water|PREALIGN:LG,NG,CG			SOURCEPAGE:DaD	
+Odin	ALIGN:NG	DEITYWEAP:Shortspear	DESC:Odin (M)	DOMAINS:Air,Knowledge,Magic,Travel,Trickery,War|PREALIGN:LG,LN,CG,NG	TYPE:Greater	FACTSET:Pantheon|Asgardian	SOURCEPAGE:DaD	
+Aegir	ALIGN:NE	DEITYWEAP:Greatclub	DESC:Aegir (M)	DOMAINS:Death,Destruction,Evil,Strength,Water|PREALIGN:LE,TN,NE,CE	TYPE:Intermediate	FACTSET:Pantheon|Asgardian	SOURCEPAGE:DaD	
+Balder	ALIGN:NG	DEITYWEAP:Greatsword	DESC:Balder (M)	DOMAINS:Good,Healing,Knowledge|PREALIGN:LG,LN,CG,NG	TYPE:Intermediate	FACTSET:Pantheon|Asgardian	SOURCEPAGE:DaD	
+Forseti	ALIGN:TN	DEITYWEAP:Longsword	DESC:Forseti (M)	DOMAINS:Knowledge,Protection,Strength|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	FACTSET:Pantheon|Asgardian	SOURCEPAGE:DaD	
+Frey	ALIGN:NG	DEITYWEAP:Greatsword	DESC:Frey (M)	DOMAINS:Air,Good,Plant,Sun|PREALIGN:LG,LN,CG,NG	TYPE:Greater	FACTSET:Pantheon|Asgardian	SOURCEPAGE:DaD	
+Freya	ALIGN:NG	DEITYWEAP:Longsword	DESC:Freya (F)	DOMAINS:Air,charm,Good,Magic|PREALIGN:LG,LN,CG,NG	TYPE:Intermediate	FACTSET:Pantheon|Asgardian	SOURCEPAGE:DaD	
+Frigga	ALIGN:TN	DEITYWEAP:Unarmed Strike	DESC:Frigga (F)	DOMAINS:Air,Animal,Community,Knowledge|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	FACTSET:Pantheon|Asgardian	SOURCEPAGE:DaD	
+Heimdall	ALIGN:LG	DEITYWEAP:Longsword	DESC:Heimdall (M)	DOMAINS:Good,Law,War|PREALIGN:LG,LN,NG	TYPE:Intermediate	FACTSET:Pantheon|Asgardian	SOURCEPAGE:DaD	
+Hel	ALIGN:NE	DEITYWEAP:Longsword	DESC:Hel (F)	DOMAINS:Death,Destruction,Evil|PREALIGN:LE,TN,NE,CE	TYPE:Intermediate	FACTSET:Pantheon|Asgardian	SOURCEPAGE:DaD	
+Hermod	ALIGN:CN	DEITYWEAP:Rapier	DESC:Hemrod (M)	DOMAINS:Chaos,Luck,Travel|PREALIGN:CG,TN,CN,CE	TYPE:Demigod	FACTSET:Pantheon|Asgardian	SOURCEPAGE:DaD	
+Loki	ALIGN:CE	DEITYWEAP:Dagger	DESC:Loki (M)	DOMAINS:Chaos,Destruction,Evil,Trickery|PREALIGN:NE,CE,CN	TYPE:Greater	FACTSET:Pantheon|Asgardian	SOURCEPAGE:DaD	
+Njord	ALIGN:NG	DEITYWEAP:Longspear	DESC:Njord (M)	DOMAINS:Air,Good,Water|PREALIGN:LG,LN,CG,NG	TYPE:Intermediate	FACTSET:Pantheon|Asgardian	SOURCEPAGE:DaD	
+Odur	ALIGN:CG	DEITYWEAP:Sword (Bastard)	DESC:Odur (M)	DOMAINS:Chaos,Fire,Sun|PREALIGN:NG,CG,CN	TYPE:Demigod	FACTSET:Pantheon|Asgardian	SOURCEPAGE:DaD	
+Sif	ALIGN:CG	DEITYWEAP:Longsword	DESC:Sif (F)	DOMAINS:Chaos,Good,War|PREALIGN:NG,CG,CN	TYPE:Lesser	FACTSET:Pantheon|Asgardian	SOURCEPAGE:DaD	
+Skadi	ALIGN:TN	DEITYWEAP:Greataxe	DESC:Skadi (M)	DOMAINS:Destruction,Earth,Strength|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	FACTSET:Pantheon|Asgardian	SOURCEPAGE:DaD	
+Surtur	ALIGN:LE	DEITYWEAP:Longsword	DESC:Surtur (M)	DOMAINS:Evil,Fire,Law,Strength,War|PREALIGN:LN,LE,NE	TYPE:Intermediate	FACTSET:Pantheon|Asgardian	SOURCEPAGE:DaD	
+Thor	ALIGN:CG	DEITYWEAP:Warhammer	DESC:Thor (M)	DOMAINS:Chaos,Good,Protection,Strength,War,Weather|PREALIGN:NG,CG,CN	TYPE:Greater	FACTSET:Pantheon|Asgardian	SOURCEPAGE:DaD	
+Thrym	ALIGN:CE	DEITYWEAP:Greataxe	DESC:Thrym (M)	DOMAINS:Chaos,Earth,Evil,Strength,War|PREALIGN:NE,CE,CN	TYPE:Intermediate	FACTSET:Pantheon|Asgardian	SOURCEPAGE:DaD	
+Tyr	ALIGN:LN	DEITYWEAP:Longsword	DESC:Tyr (M)	DOMAINS:Law,Protection,War|PREALIGN:LG,LN,LE,TN	TYPE:Intermediate	FACTSET:Pantheon|Asgardian	SOURCEPAGE:DaD	
+Uller	ALIGN:CN	DEITYWEAP:Longbow	DESC:Uller (M)	DOMAINS:Chaos,Protection,Travel|PREALIGN:CG,TN,CN,CE	TYPE:Lesser	FACTSET:Pantheon|Asgardian	SOURCEPAGE:DaD	
+Asgardian Pantheon	ALIGN:None	DEITYWEAP:Longbow|Dagger|Greatclub|Greatsword|Longsword|Quarterstaff|Sword (Short)|Shortspear|longspear|Unarmed strike		DOMAINS:Air,Animal,Chaos,Charm,Community,Death,Destruction,Good,Earth,Evil,Fire,Healing,Knowledge,Law,Luck,Magic,Plant,Protection,Strength,Sun,Travel,Trickery,War,Water,Weather			SOURCEPAGE:DaD	
+Taiia (Creator)	ALIGN:TN	DEITYWEAP:Trident	DESC:Taiia (F)	DOMAINS:Air,Chaos,Earth,Good,Healing,Knowledge,Law,Luck,Magic,Protection,Sun,Travel|PREALIGN:CG,CN,LG,LN,TN,NG	TYPE:Greater	FACTSET:Pantheon|Faith of the Sun	SOURCEPAGE:DaD	
+Taiia (Destroyer)	ALIGN:TN	DEITYWEAP:Battleaxe	DESC:Taiia (F)	DOMAINS:Chaos,Death,Destruction,Evil,Fire,Law,Strength,Trickery,War,Water|PREALIGN:CE,CN,LN,LE,TN,NE	TYPE:Greater	FACTSET:Pantheon|Faith of the Sun	SOURCEPAGE:DaD	
+Elishar	ALIGN:NG	DEITYWEAP:Scimitar	DESC:Elishar (M)	DOMAINS:Good,Healing,Knowledge,Luck,Protection,Sun|PREALIGN:CG,LG,NG	TYPE:Intermediate	FACTSET:Pantheon|Follow the Light	SOURCEPAGE:DaD	
+Toldoth	ALIGN:NE	DEITYWEAP:Battleaxe	DESC:Toldoth (M)	DOMAINS:Death,Destruction,Evil,Strength,Trickery,War|PREALIGN:CE,LE,NE	TYPE:Intermediate	FACTSET:Pantheon|Follow the Light	SOURCEPAGE:DaD	
+Dennari	ALIGN:CG	DEITYWEAP:Warhammer	DESC:Dennari (F)	DOMAINS:Chaos,Earth,Good,Liberation,Plant|PREALIGN:CG,CN,NG	TYPE:Lesser		SOURCEPAGE:DaD	
