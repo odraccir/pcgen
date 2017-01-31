@@ -32,7 +32,7 @@ Tonfa			PROFICIENCY:WEAPON|Tonfa	TYPE:Weapon.Exotic.Melee.Bludgeoning.Light	COST
 War Fan			PROFICIENCY:WEAPON|War Fan	TYPE:Weapon.Exotic.Melee.Slashing.Light	COST:30	WT:3	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:AeEG											
 ## OneHanded																									
 Chain-and-Dagger			PROFICIENCY:WEAPON|Chain-and-Dagger	TYPE:Weapon.Exotic.Melee.Piercing.OneHanded.Dagger	COST:4	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG											
-Kopesh			PROFICIENCY:WEAPON|Kopesh	TYPE:Weapon.Exotic.Melee.Slashing.OneHanded.Sword	COST:20	WT:12	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG											
+Khopesh			PROFICIENCY:WEAPON|Khopesh	TYPE:Weapon.Exotic.Melee.Slashing.OneHanded.Sword	COST:20	WT:12	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG											
 Longsword (Mercurial)			PROFICIENCY:WEAPON|Longsword (Mercurial)	TYPE:Weapon.Exotic.Melee.Slashing.OneHanded.Sword	COST:400	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x4	EQMOD:STEEL.MWORKW.EQ_COST_ADJ|300	SOURCEPAGE:AeEG											
 ## TwoHanded																									
 Battlepick (Gnome)			PROFICIENCY:WEAPON|Battlepick (Gnome)	TYPE:Weapon.Martial.Exotic.Melee.Piercing.TwoHanded.Pick.Gnomish	COST:10	WT:5	WIELD:TwoHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x4	EQMOD:STEEL	SOURCEPAGE:AeEG									BONUS:WEAPON|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Battlepick (Gnome))		

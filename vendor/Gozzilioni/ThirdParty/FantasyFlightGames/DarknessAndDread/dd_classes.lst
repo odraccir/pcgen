@@ -8,7 +8,7 @@ SOURCELONG:Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.fantasyflightg
 CLASS:Acolyte	HD:6	TYPE:NPC.Base.Academic	FACT:Abb|Acl	MAXLEVEL:10	SOURCEPAGE:DD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|NPC	ROLE:Skill	DEFINE:AcolyteLVL|0	BONUS:VAR|AcolyteLVL|CL
 CLASS:Acolyte	PRETEXT:In order to enter the acolyte class after 1st level, a character must gain the sponsorship of a religious organization and complete training in its basic tenets. The DM can waive this requirement if a player has played his character as exceptionally religious and pious. In this case, a character might gain the favor of his deity or enter the priesthood without any additional work if his background supports such a decision.												
 CLASS:Acolyte	STARTSKILLPTS:4	CSKILL:Concentration|Diplomacy|Heal|Knowledge (Geography)|Knowledge (History)|Knowledge (Local)|Knowledge (Religion)|TYPE.Perform|TYPE.Profession|Sense Motive|Speak Language											
-CLASS:Acolyte	SPELLSTAT:WIS	FACT:Spelltype|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4		
+CLASS:Acolyte	SPELLSTAT:WIS	FACT:SpellType|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4		
 1				ABILITY:Acolyte Class Feature|AUTOMATIC|Acolyte ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.AcolyteProficiencies									
 #													
 1				ABILITY:Acolyte Class Feature|AUTOMATIC|Acolyte ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.AcolyteSpells
@@ -30,7 +30,7 @@ CLASS:Acolyte	SPELLSTAT:WIS	FACT:Spelltype|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=
 CLASS:Alchemist	HD:4	TYPE:NPC.Base.Academic	FACT:Abb|Acm	MAXLEVEL:10	SOURCEPAGE:DD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|NPC	ROLE:Skill	DEFINE:AlchemistLVL|0	BONUS:VAR|AlchemistLVL|CL
 CLASS:Alchemist	PRETEXT:In order to enter the alchemist class after 1st level, a character must work as an apprentice to a master of this art. The character must spend 1d4 months working as the master's servant. After this time, he may advance in this class as normal.												
 CLASS:Alchemist	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Decipher Script|Heal|Knowledge (Geography)|Knowledge (History)|Knowledge (Local)|TYPE.Profession|Speak Language|Use Magic Device											
-CLASS:Alchemist	SPELLSTAT:INT	FACT:Spelltype|Arcane	SPELLBOOK:YES			
+CLASS:Alchemist	SPELLSTAT:INT	FACT:SpellType|Arcane	SPELLBOOK:YES			
 1				ABILITY:Alchemist Class Feature|AUTOMATIC|Alchemist ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.AlchemistProficiencies									
 #													
 1				ABILITY:Alchemist Class Feature|AUTOMATIC|Alchemist ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.AlchemistSpells
@@ -59,7 +59,7 @@ CLASS:Antiquarian	STARTSKILLPTS:6	CSKILL:Appraise|Concentration|Decipher Script|
 CLASS:Apprentice	HD:4	TYPE:NPC.Base.Academic	FACT:Abb|App	MAXLEVEL:10	SOURCEPAGE:DD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|NPC	ROLE:Skill	DEFINE:ApprenticeLVL|0	BONUS:VAR|ApprenticeLVL|CL
 CLASS:Apprentice	PRETEXT:In order to enter the apprentice class after 1st level, a character must serve a wizard and learn arcane lore from him. The character must spend 1d4 months working as the master's servant. After this time, he may advance in this class as normal.												
 CLASS:Apprentice	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Script|Knowledge (Arcana)|Knowledge (Geography)|Knowledge (History)|Knowledge (Local)|TYPE.Profession|Speak Language|Use Magic Device											
-CLASS:Apprentice	SPELLSTAT:INT	FACT:Spelltype|Arcane	SPELLBOOK:YES	KNOWNSPELLS:LEVEL=0,TYPE=ApprenticeBaseCantrip		
+CLASS:Apprentice	SPELLSTAT:INT	FACT:SpellType|Arcane	SPELLBOOK:YES	KNOWNSPELLS:LEVEL=0,TYPE=ApprenticeBaseCantrip		
 1				ABILITY:Apprentice Class Feature|AUTOMATIC|Apprentice ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ApprenticeProficiencies									
 #													
 1				ABILITY:Apprentice Class Feature|AUTOMATIC|Apprentice ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.ApprenticeSpells
@@ -133,7 +133,7 @@ CLASS:Grifter	STARTSKILLPTS:4	CSKILL:Bluff|Diplomacy|Disguise|Gather Information
 CLASS:Herbalist	HD:6	TYPE:NPC.Base.Academic	FACT:Abb|Hrb	MAXLEVEL:10	SOURCEPAGE:DD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|NPC	ROLE:Skill	DEFINE:HerbalistLVL|0	BONUS:VAR|HerbalistLVL|CL
 CLASS:Herbalist	PRETEXT:In order to enter the herbalist class after 1st level, a character must serve as an apprentice to a master of this profession. The character must spend 1d4 months working as the master's apprentice. After this time, he may advance in this class as normal. Alternatively, a character with ranks in Profession (herbalist) equal to his total character level + 3 can enter this class.												
 CLASS:Herbalist	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Handle Animal|Heal|Knowledge (Geography)|Knowledge (History)|Knowledge (Local)|TYPE.Profession|Speak Language|Survival											
-CLASS:Herbalist		FACT:Spelltype|Arcane	SPELLBOOK:YES		BONUS:CASTERLEVEL|Herbalist|CL								
+CLASS:Herbalist		FACT:SpellType|Arcane	SPELLBOOK:YES		BONUS:CASTERLEVEL|Herbalist|CL								
 1				ABILITY:Herbalist Class Feature|AUTOMATIC|Herbalist ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HerbalistProficiencies									
 #													
 1				ABILITY:Herbalist Class Feature|AUTOMATIC|Herbalist ~ Craft Herbal Mixtures|!PREABILITY:1,CATEGORY=ACF,TYPE.HerbalistCraftHerbalMixtures									

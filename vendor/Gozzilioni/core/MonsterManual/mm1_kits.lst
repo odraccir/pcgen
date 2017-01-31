@@ -473,7 +473,7 @@ STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=11
 
 STARTPACK:Giant (Cloud) Standard Equip	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Giant (Cloud)
 GEAR:Morningstar	SIZE:G
-GEAR:Giant Rock (Cloud)
+GEAR:Giant Rock ~ Cloud
 
 STARTPACK:Giant (Fire) Stats	TYPE:DefaultMonster.Giant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Giant (Fire)
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=11
@@ -481,7 +481,7 @@ STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=11
 STARTPACK:Giant (Fire) Standard Equip	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Giant (Fire)
 GEAR:Half-Plate	SIZE:L	LOCATION:Equipped
 GEAR:Greatsword	SIZE:L
-GEAR:Giant Rock (Fire)
+GEAR:Giant Rock ~ Fire
 
 STARTPACK:Giant (Frost) Stats	TYPE:DefaultMonster.Giant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Giant (Frost)
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=11
@@ -505,7 +505,7 @@ STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=11
 STARTPACK:Giant (Stone) Standard Equip	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Giant (Stone)
 GEAR:Hide	SIZE:L	LOCATION:Equipped
 GEAR:Greatclub	SIZE:L
-GEAR:Giant Rock (Stone)
+GEAR:Giant Rock ~ Stone
 
 STARTPACK:Giant (Storm) Stats	TYPE:DefaultMonster.Giant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Giant (Storm)
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11

@@ -17,10 +17,11 @@ PRECAMPAIGN:1,Core Ruleset
 
 ABILITY:h_abilities.lst
 EQUIPMENT:h_equip.lst
-SPELL:h_spells.lst
-
 EQUIPMENT:h_equip_magic_items_DMG.lst
 EQUIPMENT:h_equip_magic_items_Drac.lst
+EQUIPMOD:h_equipmods.lst
+SPELL:h_spells.lst
+
 
 # ENTRY DATE: 2015-08 
 # LST MONKEY: Riccardo

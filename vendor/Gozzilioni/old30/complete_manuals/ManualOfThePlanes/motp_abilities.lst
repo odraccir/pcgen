@@ -2,7 +2,7 @@ SOURCELONG:Manual of the Planes 3.0	SOURCESHORT:MotP30	SOURCEWEB:http://www.gozz
 																																		
 # Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page		
 																																		
-# 																																		
+#																																		
 Deity's Simple Weapon Proficiency	CATEGORY:Special Ability	TYPE:ClassFeatures.SpecialQuality	VISIBLE:YES	DESC:You understand how to use %1|%LIST															STACK:NO	MULT:YES	CHOOSE:WEAPONPROFICIENCY|DEITYWEAPON	SELECT:1	AUTO:WEAPONPROF|%LIST									SOURCEPAGE:MotP30		
 ###Block: Favored Planes																																		
 Favored Plane - Ethereal	CATEGORY:Special Ability	TYPE:ClassFeatures.PlanarChampionClassFeatures.FavoredPlane.Extraordinary.SpecialAttack	VISIBLE:YES	DESC:Gain a +%1 bonus on Bluff, Listen, Sense Motive, Spot, and Survival checks when using these skills against a native of this plane. Likewise, he gets a +%1 bonus on weapon damage rolls against such creatures.|FavoredPlaneBonusEthereal	KEY:Favored Plane ~ Ethereal	PREVARGTEQ:PlanarChampionFavoredPlaneLVL,1			DEFINE:FavoredPlaneBonusEthereal|0					BONUS:VAR|FavoredPlaneBonusEthereal|FavoredPlaneBaseBonus	BONUS:VAR|FavoredPlaneBonusEthereal|ImprovedFavoredPlaneBonus																		SOURCEPAGE:MotP30	ASPECT:Ability Benefit|+%1|FavoredPlaneBonusEthereal

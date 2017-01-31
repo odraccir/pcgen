@@ -52,30 +52,30 @@ CLASS:Titan (Elder)	STARTSKILLPTS:8	MODTOSKILLS:YES
 
 CLASS:Epic Spells (Arcane/INT)	HD:1	TYPE:EpicSpells	FACT:Abb|Epic Spells		SOURCEPAGE:ELH									
 CLASS:Epic Spells (Arcane/INT)	VISIBLE:NO
-CLASS:Epic Spells (Arcane/INT)	SPELLSTAT:INT	FACT:Spelltype|Arcane	SPELLBOOK:YES			BONUS:CASTERLEVEL|Epic Spells (Arcane/INT)|Caster_Level_Epic_Arcane_INT	DEFINE:Caster_Level_Epic_Arcane_INT|0	BONUS:VAR|Caster_Level_Epic_Arcane_INT|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Epic_Arcane_INT|0	BONUS:VAR|Caster_Level_BL_Epic_Arcane_INT|charbonusto("PCLEVEL","Epic Spells (Arcane/INT)")	BONUS:VAR|Caster_Level_Highest__Epic_Arcane_INT|Caster_Level_Epic_Arcane_INT+Caster_Level_BL_Epic_Arcane_INT|TYPE=Base	
+CLASS:Epic Spells (Arcane/INT)	SPELLSTAT:INT	FACT:SpellType|Arcane	SPELLBOOK:YES			BONUS:CASTERLEVEL|Epic Spells (Arcane/INT)|Caster_Level_Epic_Arcane_INT	DEFINE:Caster_Level_Epic_Arcane_INT|0	BONUS:VAR|Caster_Level_Epic_Arcane_INT|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Epic_Arcane_INT|0	BONUS:VAR|Caster_Level_BL_Epic_Arcane_INT|charbonusto("PCLEVEL","Epic Spells (Arcane/INT)")	BONUS:VAR|Caster_Level_Highest__Epic_Arcane_INT|Caster_Level_Epic_Arcane_INT+Caster_Level_BL_Epic_Arcane_INT|TYPE=Base	
 1	CAST:0,0,0,0,0,0,0,0,0,0,1
 
 CLASS:Epic Spells (Arcane/WIS)	HD:1	TYPE:EpicSpells	FACT:Abb|Epic Spells		SOURCEPAGE:ELH									
 CLASS:Epic Spells (Arcane/WIS)	VISIBLE:NO
-CLASS:Epic Spells (Arcane/WIS)	SPELLSTAT:WIS	FACT:Spelltype|Arcane	SPELLBOOK:YES			BONUS:CASTERLEVEL|Epic Spells (Arcane/WIS)|Caster_Level_Epic_Arcane_WIS	DEFINE:Caster_Level_Epic_Arcane_WIS|0	BONUS:VAR|Caster_Level_Epic_Arcane_WIS|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Epic_Arcane_WIS|0	BONUS:VAR|Caster_Level_BL_Epic_Arcane_WIS|charbonusto("PCLEVEL","Epic Spells (Arcane/WIS)")	BONUS:VAR|Caster_Level_Highest__Epic_Arcane_WIS|Caster_Level_Epic_Arcane_WIS+Caster_Level_BL_Epic_Arcane_WIS|TYPE=Base	
+CLASS:Epic Spells (Arcane/WIS)	SPELLSTAT:WIS	FACT:SpellType|Arcane	SPELLBOOK:YES			BONUS:CASTERLEVEL|Epic Spells (Arcane/WIS)|Caster_Level_Epic_Arcane_WIS	DEFINE:Caster_Level_Epic_Arcane_WIS|0	BONUS:VAR|Caster_Level_Epic_Arcane_WIS|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Epic_Arcane_WIS|0	BONUS:VAR|Caster_Level_BL_Epic_Arcane_WIS|charbonusto("PCLEVEL","Epic Spells (Arcane/WIS)")	BONUS:VAR|Caster_Level_Highest__Epic_Arcane_WIS|Caster_Level_Epic_Arcane_WIS+Caster_Level_BL_Epic_Arcane_WIS|TYPE=Base	
 1	CAST:0,0,0,0,0,0,0,0,0,0,1
 
 CLASS:Epic Spells (Arcane/CHA)	HD:1	TYPE:EpicSpells	FACT:Abb|Epic Spells		SOURCEPAGE:ELH									
 CLASS:Epic Spells (Arcane/CHA)	VISIBLE:NO
-CLASS:Epic Spells (Arcane/CHA)	SPELLSTAT:CHA	FACT:Spelltype|Arcane	SPELLBOOK:YES			BONUS:CASTERLEVEL|Epic Spells (Arcane/CHA)|Caster_Level_Epic_Arcane_CHA	DEFINE:Caster_Level_Epic_Arcane_CHA|0	BONUS:VAR|Caster_Level_Epic_Arcane_CHA|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Epic_Arcane_CHA|0	BONUS:VAR|Caster_Level_BL_Epic_Arcane_CHA|charbonusto("PCLEVEL","Epic Spells (Arcane/CHA)")	BONUS:VAR|Caster_Level_Highest__Epic_Arcane_CHA|Caster_Level_Epic_Arcane_CHA+Caster_Level_BL_Epic_Arcane_CHA|TYPE=Base	
+CLASS:Epic Spells (Arcane/CHA)	SPELLSTAT:CHA	FACT:SpellType|Arcane	SPELLBOOK:YES			BONUS:CASTERLEVEL|Epic Spells (Arcane/CHA)|Caster_Level_Epic_Arcane_CHA	DEFINE:Caster_Level_Epic_Arcane_CHA|0	BONUS:VAR|Caster_Level_Epic_Arcane_CHA|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Epic_Arcane_CHA|0	BONUS:VAR|Caster_Level_BL_Epic_Arcane_CHA|charbonusto("PCLEVEL","Epic Spells (Arcane/CHA)")	BONUS:VAR|Caster_Level_Highest__Epic_Arcane_CHA|Caster_Level_Epic_Arcane_CHA+Caster_Level_BL_Epic_Arcane_CHA|TYPE=Base	
 1	CAST:0,0,0,0,0,0,0,0,0,0,1
 
 CLASS:Epic Spells (Divine/INT)	HD:1	TYPE:EpicSpells	FACT:Abb|Epic Spells		SOURCEPAGE:ELH									
 CLASS:Epic Spells (Divine/INT)	VISIBLE:NO
-CLASS:Epic Spells (Divine/INT)	SPELLSTAT:INT	FACT:Spelltype|Divine	SPELLBOOK:YES			BONUS:CASTERLEVEL|Epic Spells (Divine/INT)|Caster_Level_Epic_Divine_INT	DEFINE:Caster_Level_Epic_Divine_INT|0	BONUS:VAR|Caster_Level_Epic_Divine_INT|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Epic_Divine_INT|0	BONUS:VAR|Caster_Level_BL_Epic_Divine_INT|charbonusto("PCLEVEL","Epic Spells (Divine/INT)")	BONUS:VAR|Caster_Level_Highest__Epic_Divine_INT|Caster_Level_Epic_Divine_INT+Caster_Level_BL_Epic_Divine_INT|TYPE=Base	
+CLASS:Epic Spells (Divine/INT)	SPELLSTAT:INT	FACT:SpellType|Divine	SPELLBOOK:YES			BONUS:CASTERLEVEL|Epic Spells (Divine/INT)|Caster_Level_Epic_Divine_INT	DEFINE:Caster_Level_Epic_Divine_INT|0	BONUS:VAR|Caster_Level_Epic_Divine_INT|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Epic_Divine_INT|0	BONUS:VAR|Caster_Level_BL_Epic_Divine_INT|charbonusto("PCLEVEL","Epic Spells (Divine/INT)")	BONUS:VAR|Caster_Level_Highest__Epic_Divine_INT|Caster_Level_Epic_Divine_INT+Caster_Level_BL_Epic_Divine_INT|TYPE=Base	
 1	CAST:0,0,0,0,0,0,0,0,0,0,1
 
 CLASS:Epic Spells (Divine/WIS)	HD:1	TYPE:EpicSpells	FACT:Abb|Epic Spells		SOURCEPAGE:ELH									
 CLASS:Epic Spells (Divine/WIS)	VISIBLE:NO
-CLASS:Epic Spells (Divine/WIS)	SPELLSTAT:WIS	FACT:Spelltype|Divine	SPELLBOOK:YES			BONUS:CASTERLEVEL|Epic Spells (Divine/WIS)|Caster_Level_Epic_Divine_WIS	DEFINE:Caster_Level_Epic_Divine_WIS|0	BONUS:VAR|Caster_Level_Epic_Divine_WIS|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Epic_Divine_WIS|0	BONUS:VAR|Caster_Level_BL_Epic_Divine_WIS|charbonusto("PCLEVEL","Epic Spells (Divine/WIS)")	BONUS:VAR|Caster_Level_Highest__Epic_Divine_WIS|Caster_Level_Epic_Divine_WIS+Caster_Level_BL_Epic_Divine_WIS|TYPE=Base	
+CLASS:Epic Spells (Divine/WIS)	SPELLSTAT:WIS	FACT:SpellType|Divine	SPELLBOOK:YES			BONUS:CASTERLEVEL|Epic Spells (Divine/WIS)|Caster_Level_Epic_Divine_WIS	DEFINE:Caster_Level_Epic_Divine_WIS|0	BONUS:VAR|Caster_Level_Epic_Divine_WIS|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Epic_Divine_WIS|0	BONUS:VAR|Caster_Level_BL_Epic_Divine_WIS|charbonusto("PCLEVEL","Epic Spells (Divine/WIS)")	BONUS:VAR|Caster_Level_Highest__Epic_Divine_WIS|Caster_Level_Epic_Divine_WIS+Caster_Level_BL_Epic_Divine_WIS|TYPE=Base	
 1	CAST:0,0,0,0,0,0,0,0,0,0,1
 
 CLASS:Epic Spells (Divine/CHA)	HD:1	TYPE:EpicSpells	FACT:Abb|Epic Spells		SOURCEPAGE:ELH									
 CLASS:Epic Spells (Divine/CHA)	VISIBLE:NO
-CLASS:Epic Spells (Divine/CHA)	SPELLSTAT:CHA	FACT:Spelltype|Divine	SPELLBOOK:YES			BONUS:CASTERLEVEL|Epic Spells (Divine/CHA)|Caster_Level_Epic_Divine_CHA	DEFINE:Caster_Level_Epic_Divine_CHA|0	BONUS:VAR|Caster_Level_Epic_Divine_CHA|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Epic_Divine_CHA|0	BONUS:VAR|Caster_Level_BL_Epic_Divine_CHA|charbonusto("PCLEVEL","Epic Spells (Divine/CHA)")	BONUS:VAR|Caster_Level_Highest__Epic_Divine_CHA|Caster_Level_Epic_Divine_CHA+Caster_Level_BL_Epic_Divine_CHA|TYPE=Base	
+CLASS:Epic Spells (Divine/CHA)	SPELLSTAT:CHA	FACT:SpellType|Divine	SPELLBOOK:YES			BONUS:CASTERLEVEL|Epic Spells (Divine/CHA)|Caster_Level_Epic_Divine_CHA	DEFINE:Caster_Level_Epic_Divine_CHA|0	BONUS:VAR|Caster_Level_Epic_Divine_CHA|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Epic_Divine_CHA|0	BONUS:VAR|Caster_Level_BL_Epic_Divine_CHA|charbonusto("PCLEVEL","Epic Spells (Divine/CHA)")	BONUS:VAR|Caster_Level_Highest__Epic_Divine_CHA|Caster_Level_Epic_Divine_CHA+Caster_Level_BL_Epic_Divine_CHA|TYPE=Base	
 1	CAST:0,0,0,0,0,0,0,0,0,0,1

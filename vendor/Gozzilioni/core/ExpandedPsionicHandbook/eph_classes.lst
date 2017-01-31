@@ -7,7 +7,7 @@ SOURCELONG:Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzi
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)			
 CLASS:Psion	HD:4	TYPE:PC.Base	FACT:Abb|Psi	MAXLEVEL:NOLIMIT	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Psion	DEFINE:PsionLVL|0	BONUS:VAR|PsionLVL|CL
 CLASS:Psion	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Psicraft											
-CLASS:Psion	SPELLSTAT:INT	FACT:Spelltype|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Psion|CL							ALLOWBASECLASS:NO	
+CLASS:Psion	SPELLSTAT:INT	FACT:SpellType|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Psion|CL							ALLOWBASECLASS:NO	
 SUBCLASS:Seer	COST:0		CHOICE:SCHOOL|Clairsentience	CSKILL:Gather Information|Listen|Spot									
 SUBCLASSLEVEL:1												DEFINE:SeerLVL|0	BONUS:VAR|SeerLVL|CL
 SUBCLASSLEVEL:1				ABILITY:Psion Class Feature|AUTOMATIC|Psion ~ Discipline ~ Seer									
@@ -56,7 +56,7 @@ SUBCLASSLEVEL:1				ABILITY:Psion Class Feature|AUTOMATIC|Psion ~ Discipline ~ Te
 
 CLASS:Psychic Warrior	HD:8	TYPE:PC.Base	FACT:Abb|Psw	MAXLEVEL:NOLIMIT	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Combat	DEFINE:PsychicWarriorLVL|0	BONUS:VAR|PsychicWarriorLVL|CL
 CLASS:Psychic Warrior	STARTSKILLPTS:2	CSKILL:Autohypnosis|Climb|Concentration|TYPE.Craft|Jump|Knowledge (Psionics)|TYPE.Profession|Ride|Search|Swim											
-CLASS:Psychic Warrior	SPELLSTAT:WIS	FACT:Spelltype|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Psychic Warrior|CL								
+CLASS:Psychic Warrior	SPELLSTAT:WIS	FACT:SpellType|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Psychic Warrior|CL								
 1				ABILITY:Psychic Warrior Class Feature|AUTOMATIC|Psychic Warrior ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PsychicWarriorProficiencies									
 1				ABILITY:Psychic Warrior Class Feature|AUTOMATIC|Psychic Warrior ~ Power Points per Day									
 1				TEMPLATE:Psionic									
@@ -104,7 +104,7 @@ CLASS:Soulknife	STARTSKILLPTS:4	CSKILL:Autohypnosis|Climb|Concentration|TYPE.Cra
 
 CLASS:Wilder	HD:6	TYPE:PC.Base	FACT:Abb|Wil	MAXLEVEL:NOLIMIT	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Wilder	DEFINE:WilderLVL|0	BONUS:VAR|WilderLVL|CL
 CLASS:Wilder	STARTSKILLPTS:4	CSKILL:Autohypnosis|Balance|Bluff|Climb|Concentration|TYPE.Craft|Escape Artist|Intimidate|Jump|Knowledge (Psionics)|Listen|TYPE.Profession|Psicraft|Sense motive|Spot|Swim|Tumble											
-CLASS:Wilder	SPELLSTAT:CHA	FACT:Spelltype|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Wilder|CL								
+CLASS:Wilder	SPELLSTAT:CHA	FACT:SpellType|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Wilder|CL								
 1				ABILITY:Wilder Class Feature|AUTOMATIC|Wilder ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.WilderProficiencies									
 1				ABILITY:Wilder Class Feature|AUTOMATIC|Wilder ~ Power Points per Day									
 1				TEMPLATE:Psionic									
@@ -128,7 +128,7 @@ CLASS:Wilder.MOD	MAXLEVEL:NOLIMIT
 21				ABILITY:Wilder Class Feature|AUTOMATIC|Wilder ~ Epic Surging Euphoria|!PREABILITY:1,CATEGORY=ACF,TYPE.WilderSurgingEuphoria									
 
 CLASS:Hidden Talent	HD:1	TYPE:Hidden	FACT:Abb|Hid	MAXLEVEL:1	SOURCEPAGE:EPH	ROLE:Psion	DEFINE:HiddenTalentLVL|0	BONUS:VAR|HiddenTalentLVL|CL	VISIBLE:NO				
-CLASS:Hidden Talent	SPELLSTAT:CHA	FACT:Spelltype|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Hidden Talent|CL	SPELLLIST:1|Psion							
+CLASS:Hidden Talent	SPELLSTAT:CHA	FACT:SpellType|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Hidden Talent|CL	SPELLLIST:1|Psion							
 1	KNOWN:0,0
 
 # Class Name			Type			Max Level							
@@ -180,7 +180,7 @@ CLASS:Elocater	STARTSKILLPTS:6	CSKILL:Autohypnosis|Balance|Climb|Concentration|T
 CLASS:Fist of Zuoken	HD:6	TYPE:PC.Prestige	FACT:Abb|FoZ	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:FistOfZuokenLVL|0	BONUS:VAR|FistOfZuokenLVL|CL
 CLASS:Fist of Zuoken	PRETOTALAB:4	PRESKILL:1,Concentration=9	PREABILITY:2,CATEGORY=FEAT,Wild Talent	PREABILITY:1,CATEGORY=Special Ability,Still Mind									
 CLASS:Fist of Zuoken	STARTSKILLPTS:4	CSKILL:Autohypnosis|Concentration|TYPE.Craft|Escape Artist|Hide|Jump|Knowledge (Psionics)|Knowledge (Religion)|Listen|Move Silently|Psicraft|Sense Motive|Spot|Tumble											
-CLASS:Fist of Zuoken	SPELLSTAT:WIS	FACT:Spelltype|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Fist of Zuoken|CL	SPELLLIST:1|Psychic Warrior							
+CLASS:Fist of Zuoken	SPELLSTAT:WIS	FACT:SpellType|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Fist of Zuoken|CL	SPELLLIST:1|Psychic Warrior							
 1				ABILITY:Fist of Zuoken Class Feature|AUTOMATIC|Fist of Zuoken ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.FistOfZuokenProficiencies									
 1				ABILITY:Fist of Zuoken Class Feature|AUTOMATIC|Fist of Zuoken ~ Power Points per Day									
 #
@@ -302,7 +302,7 @@ CLASS:Thrallherd	STARTSKILLPTS:2	CSKILL:Autohypnosis|Bluff|Concentration|TYPE=Cr
 CLASS:War Mind	HD:10	TYPE:PC.Prestige	FACT:Abb|WMd	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:WarMindLVL|0	BONUS:VAR|WarMindLVL|CL
 CLASS:War Mind	PREALIGN:LG,LN,LE,NG,TN,NE	PRETOTALAB:3	PRESKILL:1,Knowledge (History)=2	PRESKILL:1,Knowledge (Psionics)=8	PREVARGTEQ:TotalPowerPoints,1	PRETEXT:Special: Must have had some instruction by another war mind, have access to Talariic texts, or belong to an organization that has access to Talariic texts.							
 CLASS:War Mind	STARTSKILLPTS:2	CSKILL:Autohypnosis|Concentration|Intimidate|Knowledge (History)|Knowledge (Psionics)|Psicraft											
-CLASS:War Mind	SPELLSTAT:WIS	FACT:Spelltype|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|War Mind|CL	SPELLLIST:1|Psychic Warrior							
+CLASS:War Mind	SPELLSTAT:WIS	FACT:SpellType|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|War Mind|CL	SPELLLIST:1|Psychic Warrior							
 1				ABILITY:War Mind Class Feature|AUTOMATIC|War Mind ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.WarMindProficiencies									
 1				ABILITY:War Mind Class Feature|AUTOMATIC|War Mind ~ Power Points per Day									
 1				TEMPLATE:Psionic									

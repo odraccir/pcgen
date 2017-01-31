@@ -16,6 +16,7 @@ PUBNAMEWEB:http://www.gozzilioni.net
 PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Guide
 
 DOMAIN:dotf_domains.lst
+ABILITY:dotf_feats.lst
 SPELL:dotf_spells.lst
 #
 

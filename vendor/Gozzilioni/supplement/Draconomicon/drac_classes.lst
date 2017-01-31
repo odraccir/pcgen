@@ -285,7 +285,7 @@ CLASS:Dragonstalker	STARTSKILLPTS:4	CSKILL:Bluff|Climb|TYPE.Craft|Diplomacy|Disg
 CLASS:Hoardstealer	HD:6	TYPE:Prestige	FACT:Abb|Hrs	MAXLEVEL:10	SOURCEPAGE:Drac	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:HoardstealerLVL|0	BONUS:VAR|HoardstealerLVL|CL	
 CLASS:Hoardstealer	PREALIGN:NG,TN,NE,CG,CN,CE	PRESKILL:4,Appraise=8,Hide=8,Move Silently=8,Search=8	PRESKILL:3,Disable Device=4,Escape Artist=4,Open Lock=4	PRETEXT:The character must have participated in the location and recovery of a treasure hoard (dragon or otherwise) valued at 5,000 gp or more.										
 CLASS:Hoardstealer	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|Concentration|Decipher Script|Disable Device|Disguise|Escape Artist|Gather Information|Jump|Open Lock|Search|Swim|Use Magic Device|Use Rope												
-CLASS:Hoardstealer	SPELLSTAT:INT	FACT:Spelltype|Arcane	SPELLBOOK:YES											
+CLASS:Hoardstealer	SPELLSTAT:INT	FACT:SpellType|Arcane	SPELLBOOK:YES											
 1				ABILITY:Hoardstealer Class Feature|AUTOMATIC|Hoardstealer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HoardstealerProficiencies										
 #														
 1				ABILITY:Hoardstealer Class Feature|AUTOMATIC|Hoardstealer ~ Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.HoardstealerSpells										

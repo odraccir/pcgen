@@ -3,7 +3,7 @@ SOURCELONG:Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.mongoosepublishing
 # Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property																																																																																													
 Skyship	KEY:SHIP_SKYSHIP	TYPE:HullType	VISIBLE:QUALIFY	SOURCEPAGE:SoB	REPLACES:SHIP_OARS
 
-Tarred Armor	KEY:TAR_ARMOR	TYPE:Armor	COST:25	VISIBLE:QUALIFY	SOURCEPAGE:SoB	SPROP:Take double damage from fire-based attacks unless a save is allowed for half damage.	PRETYPE:2,Armor,Light	 PRETYPE:1,EQMOD=LEATHER,EQMOD=CLOTH 	BONUS:COMBAT|AC|1								ASSIGNTOALL:YES
+Tarred Armor	KEY:TAR_ARMOR	TYPE:Armor	COST:25	VISIBLE:QUALIFY	SOURCEPAGE:SoB	SPROP:Take double damage from fire-based attacks unless a save is allowed for half damage.	PRETYPE:2,Armor,Light	PRETYPE:1,EQMOD=LEATHER,EQMOD=CLOTH	BONUS:COMBAT|AC|1								ASSIGNTOALL:YES
 
 Intelligent Ship	KEY:INT_SHIP	NAMEOPT:TEXT=Intelligent	TYPE:Magic	COST:0	VISIBLE:QUALIFY	ITYPE:IntShip	!PRETYPE:1,IntShip		SPROP:Intelligent Ship ~ Ego Score %|ShipEgo	DEFINE:ShipEgo|0	BONUS:VAR|ShipEgo|1|PRETYPE:1,EQMOD=SHIP_SIZE_M	BONUS:VAR|ShipEgo|2|PRETYPE:1,EQMOD=SHIP_SIZE_L	BONUS:VAR|ShipEgo|4|PRETYPE:1,EQMOD=SHIP_SIZE_H	BONUS:VAR|ShipEgo|8|PRETYPE:1,EQMOD=SHIP_SIZE_G	BONUS:VAR|ShipEgo|12|PRETYPE:1,EQMOD=SHIP_SIZE_C
 Int. Item (Two abilities 12, one at 10)	KEY:SHIP_INT_ITEM_1	NAMEOPT:NOTHING	TYPE:Ships		COST:150000	VISIBLE:QUALIFY	ITYPE:Type1		REPLACES:SHIP_INT_ITEM_2,SHIP_INT_ITEM_3,SHIP_INT_ITEM_4,SHIP_INT_ITEM_5,SHIP_INT_ITEM_6,SHIP_INT_ITEM_7,SHIP_INT_ITEM_8	SOURCEPAGE:SoB	PRETYPE:2,IntShip,Ships	!PRETYPE:1,Type1,Type2,Type3,Type4,Type5,Type6,Type7,Type8					SPROP:Empathy, 30' vision and hearing

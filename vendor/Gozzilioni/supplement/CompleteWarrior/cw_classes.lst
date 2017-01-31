@@ -8,7 +8,7 @@ SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	S
 CLASS:Hexblade	HD:10	TYPE:PC.Base	FACT:Abb|Hxb	MAXLEVEL:20	SOURCEPAGE:CW	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Hexblade	DEFINE:HexbladeLVL|0	BONUS:VAR|HexbladeLVL|CL	EXCLASS:Ex-Hexblade
 CLASS:Hexblade	PREALIGN:LN,LE,TN,NE,CN,CE													
 CLASS:Hexblade	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Diplomacy|Intimidate|Knowledge (Arcana)|TYPE.Profession|Ride|Spellcraft												
-CLASS:Hexblade	SPELLSTAT:CHA	FACT:Spelltype|Arcane	MEMORIZE:NO		ITEMCREATE:0.5									
+CLASS:Hexblade	SPELLSTAT:CHA	FACT:SpellType|Arcane	MEMORIZE:NO		ITEMCREATE:0.5									
 1				ABILITY:Hexblade Class Feature|AUTOMATIC|Hexblade ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HexbladeProficiencies										
 #														
 1				ABILITY:Hexblade Class Feature|AUTOMATIC|Hexblade ~ Hexblade's Curse|!PREABILITY:1,CATEGORY=ACF,TYPE.HexbladeHexbladeSCurse										
@@ -272,7 +272,7 @@ CLASS:Hulking Hurler	STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump|Swim
 CLASS:Hunter of the Dead	HD:8	TYPE:Prestige	FACT:Abb|HuD	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:HunterOfTheDeadLVL|0	BONUS:VAR|HunterOfTheDeadLVL|CL	
 CLASS:Hunter of the Dead	PREALIGN:LG,LN,NG,TN,CG,CN	PRETOTALAB:5	PRESKILL:1,Knowledge (Religion)=5	PREABILITY:1,CATEGORY=Special Ability,Turn Undead	PRETEXT:Scar of Unlife: The character must have lost one level or had an ability score point drained by an undead creature. Even if the loss is later offset by magic, this is the scar of unlife that all hunters of the dead carry.									
 CLASS:Hunter of the Dead	STARTSKILLPTS:2	CSKILL:Concentration|Heal|Knowledge (Religion)|TYPE.Profession|Ride|Search												
-CLASS:Hunter of the Dead	SPELLSTAT:WIS	FACT:Spelltype|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4										
+CLASS:Hunter of the Dead	SPELLSTAT:WIS	FACT:SpellType|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4										
 1				ABILITY:Hunter of the Dead Class Feature|AUTOMATIC|Hunter of the Dead ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HunterOfTheDeadProficiencies										
 #														
 1				ABILITY:Hunter of the Dead Class Feature|AUTOMATIC|Hunter of the Dead ~ Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.HunterOfTheDeadSpells										
@@ -338,7 +338,7 @@ CLASS:Kensai	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Diplo
 CLASS:Knight of the Chalice	HD:10	TYPE:Prestige	FACT:Abb|Cha	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:KnightOfTheChaliceLVL|0	BONUS:VAR|KnightOfTheChaliceLVL|CL	
 CLASS:Knight of the Chalice	PREALIGN:LG	PRETOTALAB:8	PRESKILL:1,Knowledge (The Planes)=5	PRESKILL:1,Knowledge (Religion)=10	PRETEXT:Able to cast Divine spells, including protection from evil.									
 CLASS:Knight of the Chalice	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Intimidate|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Sense Motive												
-CLASS:Knight of the Chalice	SPELLSTAT:WIS	FACT:Spelltype|Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4										
+CLASS:Knight of the Chalice	SPELLSTAT:WIS	FACT:SpellType|Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4										
 1				ABILITY:Knight of the Chalice Class Feature|AUTOMATIC|Knight of the Chalice ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.KnightOfTheChaliceProficiencies										
 #														
 1				ABILITY:Knight of the Chalice Class Feature|AUTOMATIC|Knight of the Chalice ~ Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.KnightOfTheChaliceSpells										

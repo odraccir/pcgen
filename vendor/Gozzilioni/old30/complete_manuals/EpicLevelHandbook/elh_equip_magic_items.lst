@@ -129,7 +129,7 @@ Amulet of Epic Natural Armor +10		TYPE:Wondrous.Amulet	COST:2000000	WT:0	SOURCEP
 Belt of Epic Strength +8		TYPE:Wondrous.Belt	COST:640000	WT:1	SOURCEPAGE:ELH	BONUS:STAT|STR|8|TYPE=Enhancement																
 Belt of Epic Strength +10		TYPE:Wondrous.Belt	COST:1000000	WT:1	SOURCEPAGE:ELH	BONUS:STAT|STR|10|TYPE=Enhancement																
 Belt of Epic Strength +12		TYPE:Wondrous.Belt	COST:1440000	WT:1	SOURCEPAGE:ELH	BONUS:STAT|STR|12|TYPE=Enhancement																
-Boots of Swiftness		TYPE:Wondrous.Boot	COST:256000	WT:1	SOURCEPAGE:ELH	SLOTS:2	BONUS:STAT|DEX|6|TYPE=Enhancement	BONUS:MOVEMULT|TYPE.Walk|2 	ABILITY:Special Ability|VIRTUAL|Evasion ~ Base	BONUS:VAR|EvasionTracker|1	BONUS:SKILL|Balance,Climb,Jump,Tumble|20|TYPE=Competence	SPELLS:Boots of Swiftness|TIMES=3|CASTERLEVEL=20|Haste										
+Boots of Swiftness		TYPE:Wondrous.Boot	COST:256000	WT:1	SOURCEPAGE:ELH	SLOTS:2	BONUS:STAT|DEX|6|TYPE=Enhancement	BONUS:MOVEMULT|TYPE.Walk|2	ABILITY:Special Ability|VIRTUAL|Evasion ~ Base	BONUS:VAR|EvasionTracker|1	BONUS:SKILL|Balance,Climb,Jump,Tumble|20|TYPE=Competence	SPELLS:Boots of Swiftness|TIMES=3|CASTERLEVEL=20|Haste										
 Bracers of Armor +11		TYPE:Wondrous.Bracer	COST:1210000	WT:1	SOURCEPAGE:ELH	SLOTS:2	BONUS:COMBAT|AC|11|TYPE=Armor															
 Bracers of Armor +12		TYPE:Wondrous.Bracer	COST:1440000	WT:1	SOURCEPAGE:ELH	SLOTS:2	BONUS:COMBAT|AC|12|TYPE=Armor															
 Bracers of Armor +13		TYPE:Wondrous.Bracer	COST:1690000	WT:1	SOURCEPAGE:ELH	SLOTS:2	BONUS:COMBAT|AC|13|TYPE=Armor															
