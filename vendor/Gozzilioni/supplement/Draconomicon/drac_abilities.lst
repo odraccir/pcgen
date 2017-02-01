@@ -12,12 +12,10 @@ DRAGON_ATTACKS_C+	CATEGORY:Internal	VISIBLE:NO	NATURALATTACKS:Bite,Weapon.Natura
 CATEGORY=Internal|DRAGON_FLY_SPEED.MOD	ABILITY:Internal|AUTOMATIC|DRAGON_FLY_SPEED_250|PRESIZEEQ:P|PRERULE:1,DRAC_VAR_COLOSSALPLUSFLYSPEED
 DRAGON_FLY_SPEED_250		CATEGORY:Internal	VISIBLE:NO	DEFINE:Maneuverability|0	BONUS:VAR|Maneuverability|1|TYPE=Base	MOVE:Fly,250																																																																																																																																																																																																																																																																																																																	
 
-#not standard
-# 4	Alternate1			1	2	3	4	7	9
-# 5	Alternate2					1	2	5	8	11
-# 6	Alternate3			1	2	4	6	8	11
+###NOTE: DragonSizeGroup: see g_abilities.lst
 CATEGORY=Internal|Dragon Defaults.MOD	ABILITY:Internal|AUTOMATIC|DRAGON_SIZE_ALTERNATE1_GROUP|PREVAREQ:DragonSizeGroup,4
 CATEGORY=Internal|Dragon Defaults.MOD	ABILITY:Internal|AUTOMATIC|DRAGON_SIZE_ALTERNATE2_GROUP|PREVAREQ:DragonSizeGroup,5
+CATEGORY=Internal|Dragon Defaults.MOD	ABILITY:Internal|AUTOMATIC|DRAGON_SIZE_ALTERNATE3_GROUP|PREVAREQ:DragonSizeGroup,6
 DRAGON_SIZE_ALTERNATE1_GROUP		CATEGORY:Internal	VISIBLE:NO	BONUS:VAR|DragonSizeTracker|3|PREVARGTEQ:DragonAgeCategory,1	BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,2	BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,3	BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,4			BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,7		BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,9
 DRAGON_SIZE_ALTERNATE2_GROUP		CATEGORY:Internal	VISIBLE:NO	BONUS:VAR|DragonSizeTracker|5|PREVARGTEQ:DragonAgeCategory,1	BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,2			BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,5			BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,8			BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,11									
 DRAGON_SIZE_ALTERNATE3_GROUP		CATEGORY:Internal	VISIBLE:NO	BONUS:VAR|DragonSizeTracker|3|PREVARGTEQ:DragonAgeCategory,1	BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,2		BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,4		BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,6		BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,8			BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,11

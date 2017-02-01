@@ -8,6 +8,8 @@ ABILITYCATEGORY:Berserker Class Feature	CATEGORY:Special Ability	TYPE:BerserkerC
 ABILITYCATEGORY:Justiciar of Taiia Class Feature	CATEGORY:Special Ability	TYPE:JusticiarOfTaiiaClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Justiciar of Taiia Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Soldier of Light Class Feature	CATEGORY:Special Ability	TYPE:SoldierOfLightClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Soldier of Light Class Features			DISPLAYLOCATION:Class Features
 
+ABILITYCATEGORY:Energon Companion Class Feature	CATEGORY:Special Ability	TYPE:EnergonCompanionClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Energon Companion Class Features			DISPLAYLOCATION:Class Features
+
 #Other Abilitygroups
 ABILITYCATEGORY:Salient Divine Ability	CATEGORY:Salient Divine Ability		VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Salient Divine Abilities	POOL:SalientDivinePool
 ABILITYCATEGORY:Divine Damage Reduction	CATEGORY:Salient Divine Ability	TYPE:IncreasedDamageReduction	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Divine Damage Reductions			DISPLAYLOCATION:Deity Features
@@ -18,9 +20,12 @@ ABILITYCATEGORY:Greater Mummy Special Quality	CATEGORY:Internal	TYPE:GreaterMumm
 
 ABILITYCATEGORY:Justiciar of Taiia Proficiency	CATEGORY:FEAT	TYPE:JusticiarOfTaiiaProficiency	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO	ABILITYLIST:Simple Weapon Proficiency|Martial Weapon Proficiency|Exotic Weapon Proficiency											PLURAL:Justiciar of Taiia Proficiencies			DISPLAYLOCATION:Feats
 
+ABILITYCATEGORY:Turn Reptile	CATEGORY:Special Ability	TYPE:TurnReptile.RebukeReptile	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Turn Reptile			DISPLAYLOCATION:Class Features
+
 #Feats Ability pools
 
 #Companion Support
+ABILITYCATEGORY:Energon Companion Selection	CATEGORY:Internal	TYPE:EnergonCompanionSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Energon Companion Choice			DISPLAYLOCATION:Class Features
 
 #
 # End

@@ -25,7 +25,7 @@ ABILITYCATEGORY:drac_abilitycategories.lst
 CLASS:drac_classes.lst
 COMPANIONMOD:drac_companionmods.lst
 DEITY:drac_deities.lst
-DEITY:drac_deities.lst|PRECAMPAIGN:1,Forgotten Realms Campaign Setting
+DEITY:drac_deities_FRCS.lst|PRECAMPAIGN:1,Forgotten Realms Campaign Setting
 DOMAIN:drac_domains.lst
 EQUIPMENT:drac_equip.lst
 EQUIPMENT:drac_equip_armors_specific.lst

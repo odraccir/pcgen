@@ -66,6 +66,12 @@ STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
 STARTPACK:Devastation Vermin (Devastation Beetle) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devastation Vermin (Devastation Beetle)
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=11
 
+STARTPACK:Dragon (Force) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Force)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dragon (Prismatic) Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon (Prismatic)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
 STARTPACK:Elemental Primal (Air) Stats	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Elemental Primal (Air)
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
 
@@ -191,4 +197,3 @@ STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
 
 STARTPACK:Winterwight Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Winterwight
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
-

@@ -6,6 +6,7 @@
 #Abilitygroup:Class Ability categories																						
 
 #Other Abilitygroups
+ABILITYCATEGORY:Dragon Improved Spell Capacity	CATEGORY:FEAT	TYPE:DragonImprovedSpellCapacity	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO	ABILITYLIST:Improved Spell Capacity											PLURAL:Dragon Improved Spell Capacity	DISPLAYLOCATION:Feats
 
 #Feats Ability pools
 

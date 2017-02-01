@@ -11,6 +11,5 @@ Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Gemcutting|var("SKILL.Craft (Ge
 Knowledge (Dreams)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Dreams)	SOURCEPAGE:ELH30		BONUS:SKILL|Gather Information|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Knowledge (Dreams)=5																																											
 
 ###Block: Situation Skills for output only																																																		
-# Skill Name																																																		
 Intimidate.MOD	SITUATION:Draconic Creatures																																																	
 Spellcraft.MOD	SITUATION:Cast epic spells

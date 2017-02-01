@@ -1,4 +1,4 @@
-SOURCELONG:Defenders of the Faith 3.0	SOURCESHORT:DotF30	SOURCEWEB:http://www.gozzilioni.net																							
+SOURCELONG:Defenders of the Faith 3.0	SOURCESHORT:DotF30	SOURCEWEB:http://www.gozzilioni.net
 								
 #	SOURCEPAGE:SpellListI.rtf	SPELLLEVEL:DOMAIN|=1||=2||=3||=4||=5||=6||=7||=8||=9|	DESC:
 Beastmaster	SOURCEPAGE:DotF30	SPELLLEVEL:DOMAIN|Beastmaster=1|Charm Animal|Beastmaster=2|Beastmask|Beastmaster=3|Animal Trance|Beastmaster=4|Bear's Heart|Beastmaster=5|Animal Growth|Beastmaster=6|Summon Nature's Ally III|Beastmaster=7|Animal Shapes|Beastmaster=8|Summon Nature's Ally IV|Beastmaster=9|Shapechange	DESC:Speak with animals once per day per level as the spell. This is a supernatural ability.	SPELLS:Beastmaster Domain|TIMES=1|CASTERLEVEL=TL|Speak with Animals

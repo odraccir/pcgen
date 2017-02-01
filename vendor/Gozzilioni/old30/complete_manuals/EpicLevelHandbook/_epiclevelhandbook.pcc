@@ -47,7 +47,7 @@ TEMPLATE:elh_templates.lst
 #
 FORWARDREF:CLASS|Animal (Legendary)
 FORWARDREF:DOMAIN|Creation
-FORWARDREF:SKILL|Craft (Dreamweaving),Craft (Gemcutting),Knowledge (Dreams)
+HIDETYPE:SKILL|Craft (Dreamweaving)|Craft (Gemcutting)|Knowledge (Dreams)
 # HIDETYPE:FEAT|Wizard
 
 # ENTRY DATE: 2016-07 

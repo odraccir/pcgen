@@ -161,8 +161,8 @@ Companion ~ Girallon (Fiendish).MOD	OUTPUTNAME:Girallon (Fiendish)	TYPE:Companio
 Companion ~ Griffon (Celestial).MOD	OUTPUTNAME:Griffon (Celestial)	TYPE:Companion	SERVESAS:RACE|Griffon	TEMPLATE:Celestial
 Companion ~ Hippogriff (Celestial).MOD	OUTPUTNAME:Hippogriff (Celestial)	TYPE:Companion	SERVESAS:RACE|Hippogriff	TEMPLATE:Celestial
 Companion ~ Human (Skeleton).MOD	OUTPUTNAME:Human (Skeleton)	TYPE:Companion	SERVESAS:RACE|Human	TEMPLATE:Skeleton
-Companion ~ Human (Werebear).MOD	OUTPUTNAME:Human (Werebear)	TYPE:Companion	SERVESAS:RACE|Human	TEMPLATE:Lycanthrope ~ Bear
-Companion ~ Human (Wereboar).MOD	OUTPUTNAME:Human (Wereboar)	TYPE:Companion	SERVESAS:RACE|Human	TEMPLATE:Lycanthrope ~ Boar
+Companion ~ Human (Werebear).MOD	OUTPUTNAME:Human (Werebear)	TYPE:Companion	SERVESAS:RACE|Human	TEMPLATE:Natural Lycanthrope|Lycanthrope ~ Bear
+Companion ~ Human (Wereboar).MOD	OUTPUTNAME:Human (Wereboar)	TYPE:Companion	SERVESAS:RACE|Human	TEMPLATE:Natural Lycanthrope|Lycanthrope ~ Boar
 Companion ~ Human (Zombie).MOD	OUTPUTNAME:Human (Zombie)	TYPE:Companion	SERVESAS:RACE|Human	TEMPLATE:Zombie
 Companion ~ Hydra (12 heads).MOD	OUTPUTNAME:Hydra (12 heads)	TYPE:Companion	SERVESAS:RACE|Hydra	KIT:1|Hydra (12 heads) Companion
 Companion ~ Minotaur (Zombie).MOD	OUTPUTNAME:Minotaur (Zombie)	TYPE:Companion	SERVESAS:RACE|Minotaur	TEMPLATE:Zombie

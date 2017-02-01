@@ -1,4 +1,4 @@
-SOURCELONG:Defenders of the Faith 3.0	SOURCESHORT:DotF30	SOURCEWEB:http://www.gozzilioni.net																								
+SOURCELONG:Defenders of the Faith 3.0	SOURCESHORT:DotF30	SOURCEWEB:http://www.gozzilioni.net
 #																										
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus	
 Aspect of the Deity				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Good|Evil		COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:As lesser aspect of the deity, but you take on all the qualities of a celestial or fiendish creature (see the Monster Manual for complete details)	SOURCEPAGE:DotF									
