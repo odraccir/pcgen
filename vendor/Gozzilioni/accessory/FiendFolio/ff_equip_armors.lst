@@ -1,0 +1,8 @@
+SOURCELONG:Fiend Folio	SOURCESHORT:FF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-04
+#																		
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	SOURCEPAGE:	BONUS:COMBAT|AC|x|TYPE=Armor	MAXDEX:	ACCHECK:	SPELLFAILURE:	EQMOD:						
+Resin Suit			PROFICIENCY:ARMOR|Resin Suit	TYPE:Armor.Light.Suit.Nonmetal	COST:250	WT:20	SOURCEPAGE:FF	BONUS:COMBAT|AC|4|TYPE=Armor	MAXDEX:3	ACCHECK:-4	SPELLFAILURE:25	EQMOD:RESIN						
+																		
+#Shield																		
+																		
+#Barding																		

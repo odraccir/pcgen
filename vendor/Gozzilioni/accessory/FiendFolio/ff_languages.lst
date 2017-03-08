@@ -1,0 +1,29 @@
+SOURCELONG:Fiend Folio	SOURCESHORT:FF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-04
+																																																																			
+# Added alphabet type to each language in accordance with SkillsII
+# Alphabet type will be final type, such as:
+# Abyssal	TYPE:Spoken.Written.Infernal
+# ... since the Abyssal language uses the Infernal Alphabet for its writing.
+# Per SkillsII, each language listed in Speak Language is also written/read
+# - Fluxxdog - Nov 4 08
+
+#	everyone's language
+# Language			Type								Var. Min. Value
+# Common			TYPE:Spoken.Written.Common
+
+#	racial languages (base races)
+# Dwarven			TYPE:Spoken.Written.Dwarven
+# Elven				TYPE:Spoken.Written.Elven
+# Gnome				TYPE:Spoken.Written.Dwarven
+# Halfling			TYPE:Spoken.Written.Common
+
+#
+Dark One			TYPE:Spoken
+Demodand			TYPE:Spoken
+Kaorti			TYPE:Spoken	
+Khen-Zai			TYPE:Spoken	PREVARGTEQ:EthergauntLanguage,1
+Mongrelfolk Pidgin			TYPE:Spoken
+Nerra			TYPE:Spoken
+Rilmani			TYPE:Spoken
+Sporebat			TYPE:Spoken	PREVARGTEQ:SporebatLanguage,1
+Varrangoin			TYPE:Spoken

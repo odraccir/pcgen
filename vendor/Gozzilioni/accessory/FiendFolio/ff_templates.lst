@@ -1,0 +1,47 @@
+SOURCELONG:Fiend Folio	SOURCESHORT:FF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-04
+
+Half-Fey	TYPE:Inherited	VISIBLE:YES	!PRERACE:1,RACETYPE=Undead,RACETYPE=Construct	!PRERACE:1,RACESUBTYPE=Incorporeal	RACETYPE:Fey	HITDIE:6	MOVECLONE:Walk,Fly,*2	ABILITY:Special Ability|AUTOMATIC|Half-Fey ~ Butterfly Wings|Half-Fey ~ Spell-Like Abilities|Immunity To Enchantment	BONUS:VAR|Maneuverability|4|TYPE=Base	BONUS:VAR|HasLowLightVision|1|TYPE=Base	BONUS:STAT|DEX|2	BONUS:STAT|CON|-2	BONUS:STAT|WIS|2	BONUS:STAT|CHA|4	BONUS:MISC|CR|1	LEVELADJUSTMENT:1
+Half-Illithid	TYPE:Inherited	VISIBLE:YES	PRERACE:1,RACETYPE=Humanoid	!PRERACE:1,Human	RACETYPE:Aberration	HITDIE:8	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:VAR|DarkvisionRange|60|TYPE=Base	DEFINE:HalfIllithidSR|0	SR:HalfIllithidSR	BONUS:VAR|HalfIllithidSR|10+HD	BONUS:STAT|INT|4	BONUS:STAT|WIS|4	BONUS:STAT|CHA|4	BONUS:MISC|CR|3	LEVELADJUSTMENT:5	 FAVOREDCLASS:Sorcerer	TEMPLATE:CHOOSE:Tentacle x4 (Fine)|Tentacle x4 (Diminutive)|Tentacle x4 (Tiny)|Tentacle x4 (Small)|Tentacle x4 (Medium)|Tentacle x4 (Large)|Tentacle x4 (Huge)|Tentacle x4 (Gargantuan)|Tentacle x4 (Colossal)	
+Half-Troll	TYPE:Inherited	VISIBLE:YES	PRERACE:1,RACETYPE=Animal,RACETYPE=Dragon,RACETYPE=Fey,RACETYPE=Giant,RACETYPE=Humanoid,RACETYPE=Magical Beast,RACETYPE=Outsider	TEMPLATE:CHOOSE:Half-Troll ~ Outsider|Half-Troll ~ Other	BONUS:COMBAT|AC|4|TYPE=NaturalArmor.STACK	ABILITY:Special Ability|AUTOMATIC|Half-Troll ~ Rend|Scent	BONUS:VAR|FastHealing|5|TYPE=Base	BONUS:STAT|STR|6	BONUS:STAT|DEX|2	BONUS:STAT|CON|6	BONUS:STAT|INT|-2	BONUS:STAT|CHA|-2	BONUS:MISC|CR|2	LEVELADJUSTMENT:4	TEMPLATE:CHOOSE:Bite ~ Claw (Fine)|Bite ~ Claw (Diminutive)|Bite ~ Claw (Tiny)|Bite ~ Claw (Small)|Bite ~ Claw (Medium)|Bite ~ Claw (Large)|Bite ~ Claw (Huge)|Bite ~ Claw (Gargantuan)|Bite ~ Claw (Colossal)
+Half-Troll ~ Outsider	VISIBLE:NO	PRERACE:1,Outsider	RACETYPE:Giant RACESUBTYPE:Extraplanar
+Half-Troll ~ Other	VISIBLE:NO	!PRERACE:1,Outsider	RACETYPE:Giant
+Huecuva	TYPE:Acquired	VISIBLE:YES	PRERACE:1,RACETYPE=Humanoid	PRECLASS:1,Cleric=1,Druid=1,Paladin=1,Monk=1	RACETYPE:Undead	HITDIE:12	BONUS:COMBAT|AC|4|TYPE=NaturalArmor.STACK	ABILITY:Special Ability|AUTOMATIC|Huecuva ~ Huecuva Blight	BONUS:VAR|TurnResistanceBonus|2	DR:10/Silver	BONUS:STAT|STR|2	BONUS:STAT|INT|-6	BONUS:STAT|WIS|2	BONUS:STAT|CHA|2	ABILITY:FEAT|AUTOMATIC|Toughness	BONUS:MISC|CR|2	KIT:1|LE|NE|CE	TEMPLATE:CHOOSE:Slam (Fine)|Slam (Diminutive)|Slam (Tiny)|Slam (Small)|Slam (Medium)|Slam (Large)|Slam (Huge)|Slam (Gargantuan)|Slam (Colossal)
+Swordwraith	TYPE:Acquired	VISIBLE:YES	PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid	PRECLASS:1,Fighter=1	RACETYPE:Undead	HITDIE:12	ABILITY:Special Ability|AUTOMATIC|Swordwraith ~ Strength Damage	DR:10/Magic and Slashing	BONUS:VAR|TurnResistanceBonus|2	BONUS:SKILL|Hide,Move Silently|4|TYPE=Racial	ABILITY:FEAT|AUTOMATIC|Alertness|Iron Will	BONUS:MISC|CR|2	BONUS:VAR|AdvancementByClass|1	
+Ti-Khana	TYPE:Acquired	VISIBLE:YES	PRERACE:1,RACETYPE=Animal,RACETYPE=Magical Beast	PRERACE:1,RACESUBTYPE=Reptilian	BONUS:COMBAT|AC|4|TYPE=NaturalArmor.STACK	TEMPLATE:CHOOSE:Bite (Fine)|Bite (Diminutive)|Bite (Tiny)|Bite (Small)|Bite (Medium)|Bite (Large)|Bite (Huge)|Bite (Gargantuan)|Bite (Colossal)	ABILITY:Special Ability|AUTOMATIC|Ti-Khana ~ Poison|Ti-Khana ~ Psionics|Ti-Khana ~ Alternate Form|Ti-Khana ~ Aversion	DEFINE:TiKhanaSR|0	BONUS:VAR|TiKhanaSR|CR	SR:13+TiKhanaSR	BONUS:STAT|DEX|2	BONUS:STAT|STR|2	BONUS:MISC|CR|2	KIT:1|CE	LEVELADJUSTMENT:4
+Wendigo	TYPE:Acquired	VISIBLE:YES	PRERACE:1,RACETYPE=Animal,RACETYPE=Giant,RACETYPE=Humanoid,RACETYPE=Magical Beast,RACETYPE=Monstrous Humanoid	RACETYPE:Fey	RACESUBTYPE:Cold	HITDIE:6	BONUS:MOVEMULT|TYPE=Walk,TYPE=Climb,TYPE=Burrow,TYPE=Swim|0	MOVE:Fly,120	BONUS:VAR|Maneuverability|5|TYPE=Base	BONUS:COMBAT|AC|max(1,CHA)|TYPE=Deflection	TEMPLATE:CHOOSE:Bite (Fine)|Bite (Diminutive)|Bite (Tiny)|Bite (Small)|Bite (Medium)|Bite (Large)|Bite (Huge)|Bite (Gargantuan)|Bite (Colossal)	ABILITY:Special Ability|AUTOMATIC|Wendigo ~ Disease|Wendigo ~ Maddening Whispers|Wendigo ~ Ravenous Bite|Wendigo ~ Corner of the Eye|Wendigo ~ Regeneration|Wendigo ~ Wind Walk|Wendigo ~ Skills	BONUS:STAT|STR|4	BONUS:STAT|DEX|8	BONUS:STAT|CON|4	BONUS:STAT|WIS|2	BONUS:STAT|CHA|4	ABILITY:FEAT|AUTOMATIC|Track	BONUS:MISC|CR|2	KIT:1|CE	DR:5/Cold Iron
+Yellow Musk Zombie	TYPE:Acquired	VISIBLE:YES	!PRERACE:1,RACETYPE=Construct,RACETYPE=Undead	!PRERACE:1,RACESUBTYPE=Mindless	RACETYPE:Plant	HITDIE:8	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	ABILITY:Special Ability|AUTOMATIC|Yellow Musk Zombie ~ Creeper Loyalty|Yellow Musk Zombie ~ Deadened Mind|Yellow Musk Zombie ~ Seeded	DEFINESTAT:LOCK|INT|2	DEFINESTAT:MAXVALUE|DEX|10	DEFINESTAT:MAXVALUE|WIS|10	KIT:1|TN
+#
+Bite (Fine)	VISIBLE:NO	PRESIZEEQ:F	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,1	
+Bite (Diminutive)	VISIBLE:NO	PRESIZEEQ:D	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,1d2	
+Bite (Tiny)	VISIBLE:NO	PRESIZEEQ:T	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,1d3	
+Bite (Small)	VISIBLE:NO	PRESIZEEQ:S	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,1d4	
+Bite (Medium)	VISIBLE:NO	PRESIZEEQ:M	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,1d6	
+Bite (Large)	VISIBLE:NO	PRESIZEEQ:L	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,2d4	
+Bite (Huge)	VISIBLE:NO	PRESIZEEQ:H	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,2d6	
+Bite (Gargantuan)	VISIBLE:NO	PRESIZEEQ:G	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,2d8	
+Bite (Colossal)	VISIBLE:NO	PRESIZEEQ:C	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,4d6	
+Tentacle x4 (Fine)	VISIBLE:NO	PRESIZEEQ:F	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*4,1	
+Tentacle x4 (Diminutive)	VISIBLE:NO	PRESIZEEQ:D	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*4,1	
+Tentacle x4 (Tiny)	VISIBLE:NO	PRESIZEEQ:T	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*4,1d2	
+Tentacle x4 (Small)	VISIBLE:NO	PRESIZEEQ:S	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*4,1d3	
+Tentacle x4 (Medium)	VISIBLE:NO	PRESIZEEQ:M	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*4,1d4	
+Tentacle x4 (Large)	VISIBLE:NO	PRESIZEEQ:L	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*4,1d6	
+Tentacle x4 (Huge)	VISIBLE:NO	PRESIZEEQ:H	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*4,1d8	
+Tentacle x4 (Gargantuan)	VISIBLE:NO	PRESIZEEQ:G	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*4,2d6	
+Tentacle x4 (Colossal)	VISIBLE:NO	PRESIZEEQ:C	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*4,2d8	
+
+Maeluth	VISIBLE:NO	KEY:Common Maeluth	LEVELADJUSTMENT:1	
+Languages	KEY:Maeluth ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Dwarven|Undercommon		
+Favored Class	KEY:Maeluth ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Cleric
+
+Mechanatrix	VISIBLE:NO	KEY:Common Mechanatrix	LEVELADJUSTMENT:1	
+Languages	KEY:Mechanatrix ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:TYPE=Spoken
+Favored Class	KEY:Mechanatrix ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter
+
+Shyft	VISIBLE:NO	KEY:Common Shyft	LEVELADJUSTMENT:3	
+Languages	KEY:Shyft ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common
+Favored Class	KEY:Shyft ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue
+
+Wispling	VISIBLE:NO	KEY:Common Wispling	LEVELADJUSTMENT:1	
+Languages	KEY:Wispling ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common
+Favored Class	KEY:Wispling ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue

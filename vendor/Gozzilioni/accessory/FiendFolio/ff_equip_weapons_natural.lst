@@ -1,0 +1,44 @@
+SOURCELONG:Fiend Folio	SOURCESHORT:FF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-04
+#																											
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:					
+Animate Eyeball		KEY:Ocularon ~ Animate Eyeball		PROFICIENCY:WEAPON|Ranged Touch	TYPE:Weapon.Natural.Ranged.Simple.Touch	COST:0	WT:0	WIELD:Light		SIZE:L	DAMAGE:3d6	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:FF							RANGE:80		PREABILITY:1,CATEGORY=Special Ability,Ocularon ~ Animate Eyeballs
+#
+
+# Simple Weapons																											
+## Unarmed																											
+
+## Light																											
+
+#
+
+## OneHanded																											
+																											
+## TwoHanded																											
+
+## Ranged																											
+
+# Martial Weapons																											
+## Light																											
+																											
+## OneHanded																											
+																											
+## TwoHanded																											
+																											
+## Ranged																											
+																											
+# Exotic Weapons																											
+## Light																											
+																											
+## OneHanded																											
+
+## TwoHanded																											
+																											
+## Ranged																											
+																											
+# Arrows																											
+
+## Intelligent
+
+## Cursed
+
+## Artifacts

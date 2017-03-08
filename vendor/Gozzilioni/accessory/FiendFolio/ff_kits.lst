@@ -1,0 +1,612 @@
+SOURCELONG:Fiend Folio	SOURCESHORT:FF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-04
+
+STARTPACK:Abrian Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Abrian
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Ghoul (Abyssal) Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ghoul (Abyssal)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Ahuizotl Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ahuizotl
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Aoa (Droplet) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Aoa (Droplet)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Aoa (Sphere) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Aoa (Sphere)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Ooze (Bloodbloater) Stats	TYPE:DefaultMonster.Ooze	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ooze (Bloodbloater)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Ooze (Flotsam) Stats	TYPE:DefaultMonster.Ooze	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ooze (Flotsam)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Ooze (Reekmurk) Stats	TYPE:DefaultMonster.Ooze	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ooze (Reekmurk)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Bacchae Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Bacchae
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Bhut Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Bhut
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Blackstone Gigant Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Blackstone Gigant
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Blood Hawk Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Blood Hawk
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Bloodthorn Stats	TYPE:DefaultMonster.Plant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Bloodthorn
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Bonespear Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Bonespear
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Caryatid Column Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Caryatid Column
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Century Worm Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Century Worm
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Chronotyryn Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Chronotyryn
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Chwidencha Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Chwidencha
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Crawling Head Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Crawling Head
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Crypt Thing Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Crypt Thing
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Dark Ones (Dark Creeper) Stats	TYPE:DefaultMonster.Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dark Ones (Dark Creeper)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Dark Ones (Dark Stalker) Stats	TYPE:DefaultMonster.Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dark Ones (Dark Stalker)
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Darkweaver Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Darkweaver
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Death Dog Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Death Dog
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Demodand (Farastu) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demodand (Farastu)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Demodand (Kelubar) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demodand (Kelubar)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Demodand (Shator) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demodand (Shator)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Demodand (Shator) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Demodand (Shator)
+GEAR:Guisarme	EQMOD:PLUS2W	SIZE:L
+
+STARTPACK:Demon (Alkilith) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Alkilith)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Demon (Blood Fiend) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Blood Fiend)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Demon (Kluirichir) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Kluirichir)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Demon (Kluirichir) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Demon (Kluirichir)
+GEAR:Battleaxe	EQMOD:PLUS3W	SIZE:H
+
+STARTPACK:Demon (Maurezhi) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Maurezhi)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Demon (Myrmyxicus) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Myrmyxicus)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Demon (Myrmyxicus) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Demon (Myrmyxicus)
+GEAR:Scythe	EQMOD:PLUS3W.UNHOLY_M	SIZE:H	QTY:4
+
+STARTPACK:Demon (Skulvyn) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Skulvyn)
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=10|CHA=11
+
+STARTPACK:Demon (Wastrilith) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Wastrilith)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Angel (Monadic Deva) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Angel (Monadic Deva)
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Angel (Monadic Deva) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Angel (Monadic Deva)
+GEAR:Mace of Smiting
+
+STARTPACK:Angel (Movanic Deva) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Angel (Movanic Deva)
+STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Angel (Movanic Deva) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Angel (Movanic Deva)
+GEAR:Greatsword	EQMOD:PLUS1W.FLM_M
+
+STARTPACK:Devil (Paeliryon) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Paeliryon)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Devil (Xerfilstyx) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Xerfilstyx)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Dire Animal (Dire Rhinoceros) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dire Animal (Dire Rhinoceros)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Disenchanter Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Disenchanter
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Ooze (Ethereal Ooze) Stats	TYPE:DefaultMonster.Ooze	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ooze (Ethereal Ooze)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Ethergaunt (Black Ethergaunt) Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ethergaunt (Black Ethergaunt)
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Ethergaunt (Red Ethergaunt) Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ethergaunt (Red Ethergaunt)
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Ethergaunt (White Ethergaunt) Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ethergaunt (White Ethergaunt)
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Fensir Stats	TYPE:DefaultMonster.Giant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Fensir
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=10|CHA=11
+
+STARTPACK:Fensir Standard Equip	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Fensir
+GEAR:Giant Rock ~ Fensir
+GEAR:Greataxe	SIZE:L
+
+STARTPACK:Fensir (Rakka) Stats	TYPE:DefaultMonster.Giant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Fensir (Rakka)
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Fensir (Rakka) Standard Equip	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Fensir (Rakka)
+GEAR:Giant Rock ~ Fensir
+
+STARTPACK:Feytouched Stats	TYPE:DefaultMonster.Fey	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Feytouched
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Fhorge Stats	TYPE:DefaultMonster.Fey	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Feytouched
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Flame Snake (Minor) Stats	TYPE:DefaultMonster.Fey	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Flame Snake (Minor)
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Flame Snake (Lesser) Stats	TYPE:DefaultMonster.Fey	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Flame Snake (Lesser)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+GEAR:Flame snake (Lesser) ~ Magma Spit
+
+STARTPACK:Flame Snake (Greater) Stats	TYPE:DefaultMonster.Fey	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Flame Snake (Greater)
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Formian (Armadon) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Formian (Armadon)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Formian (Observer) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Formian (Observer)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Formian (Winged Warrior) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Formian (Winged Warrior)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+GEAR:Formian (Winged Warrior) ~ Spike	QTY:2
+
+STARTPACK:Fossergrim Stats	TYPE:DefaultMonster.Fey	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Fossergrim
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Fossergrim Standard Equip	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Fosserggrim
+GEAR:Chainmail	EQMOD:PLUS1A	LOCATION:Equipped
+GEAR:Longspear	EQMOD:MWORKW
+GEAR:Battleaxe	EQMOD:MWORKW
+GEAR:Handaxe	EQMOD:MWORKW
+GEAR:Longbow	EQMOD:MWORKW
+
+STARTPACK:Gathra Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Gathra
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Giant (Bog) Stats	TYPE:DefaultMonster.Giant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Giant (Bog)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Giant (Bog) Standard Equip	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Giant (Bog)
+GEAR:Hide	LOCATION:Equipped
+GEAR:Longspear	SIZE:L
+GEAR:Giant Rock (Large)
+
+STARTPACK:Giant (Shadow) Stats	TYPE:DefaultMonster.Giant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Giant (Shadow)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Giant (Shadow) Standard Equip	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Giant (Shadow)
+GEAR:Morningstar	SIZE:H
+GEAR:Shortbow (Composite)	SIZE:H	EQMOD:BOWSTR|4
+GEAR:Giant Rock (Huge)
+
+STARTPACK:Golem (Blood Golem of Hextor) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Golem (Blood Golem of Hextor)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Golem (Blood Golem of Hextor) Standard Equip	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Golem (Blood Golem of Hextor)
+GEAR:Full Plate	EQMOD:PLUS1A	SIZE:L	LOCATION:Equipped
+GEAR:Flail (Heavy)	EQMOD:MWORKW	SIZE:L	QTY:2
+
+STARTPACK:Golem (Brain) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Golem (Brain)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Golem (Demonflesh) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Golem (Demonflesh)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Golem (Hellfire) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Golem (Hellfire)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Hullathoin Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Hullathoin
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Devil (Bloodbag Imp) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Bloodbag Imp)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Devil (Euphoric Imp) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Euphoric Imp)
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=11|CHA=10
+
+STARTPACK:Devil (Filth Imp) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Filth Imp)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Indricothere Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Indricothere
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Inevitable (Quarut) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Inevitable (Quarut)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Inevitable (Quarut) Standard Equip	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Inevitable (Quarut)
+GEAR:Half-Plate	LOCATION:Equipped
+
+STARTPACK:Inevitable (Varakhut) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Inevitable (Varakhut)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Inevitable (Varakhut) Standard Equip	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Inevitable (Varakhut)
+GEAR:Full Plate	LOCATION:Equipped
+
+STARTPACK:Iron Cobra Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Iron Cobra
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Ironmaw Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ironmaw
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Jackal Lord Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Jackal Lord
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Jackal Lord Standard Equip	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Jackal Lord
+GEAR:Chain Shirt	EQMOD:MWORKA	LOCATION:Equipped
+GEAR:Scimitar	EQMOD:PLUS1W
+
+STARTPACK:Jackalwere Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Jackalwere
+STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Jackalwere Standard Equip	TYPE:DefaultMonster.Magical Beast	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Jackalwere
+GEAR:Scimitar
+
+STARTPACK:Kaorti Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Kaorti
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Kaorti Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Kaorti
+GEAR:Scale Mail	EQMOD:RESIN	LOCATION:Equipped
+GEAR:Dagger (Ribbon)
+GEAR:Dart
+
+STARTPACK:Keeper Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Keeper
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Keeper Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Keeper
+GEAR:Leather	LOCATION:Equipped
+GEAR:Glaive
+GEAR:Warhammer
+
+STARTPACK:Kelp Angler Stats	TYPE:DefaultMonster.Plant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Kelp Angler
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Kelpie Stats	TYPE:DefaultMonster.Fey	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Kelpie
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Khaasta Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Khaasta
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Khaasta Standard Equip	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Khaasta
+GEAR:Breastplate	LOCATION:Equipped
+GEAR:Shield (Light/Steel)	LOCATION:Equipped
+GEAR:Halberd
+GEAR:Scimitar
+GEAR:Longbow (Composite +0)
+
+STARTPACK:Kuldurath Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Kuldurath
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Kuldurath Standard Equip	TYPE:DefaultMonster.Magical Beast	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Kuldurath
+GEAR:Barding (Full Plate)	EQMOD:PLUS2A.SPIKE_A	LOCATION:Equipped
+GEAR:Halberd
+
+STARTPACK:Living Holocaust Stats	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Living Holocaust
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Lucent Worm Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Lucent Worm
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Maelephant Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Maelephant
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Maug Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Maug
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Maug Standard Equip	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Maug
+GEAR:Full Plate	EQMOD:MWORKA	SIZE:L	LOCATION:Equipped
+GEAR:Sword (Two-Bladed)	EQMOD:MWORKW	SIZE:L
+
+STARTPACK:Maulgoth Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Maulgoth
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Megatherium Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Megatherium
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Mongrelfolk Stats	TYPE:DefaultMonster.Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Mongrelfolk
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Mongrelfolk Standard Equip	TYPE:DefaultMonster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Mongrelfolk
+GEAR:Hide	LOCATION:Equipped
+GEAR:Club
+GEAR:Sling
+
+STARTPACK:Necrophidius Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Necrophidius
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Nerra (Kalareem) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Nerra (Kalareem)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Nerra (Kalareem) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Nerra (Kalareem)
+GEAR:Longsword	EQMOD:MIRROR_SHARD	QTY:2
+
+STARTPACK:Nerra (Sillit) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Nerra (Sillit)
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Nerra (Sillit) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Nerra (Sillit)
+GEAR:Longsword	EQMOD:MIRROR_SHARD	QTY:2
+
+STARTPACK:Nerra (Varoot) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Nerra (Varoot)
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Nerra (Varoot) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Nerra (Varoot)
+GEAR:Longsword	EQMOD:MIRROR_SHARD	QTY:2
+
+STARTPACK:Octopus Tree Stats	TYPE:DefaultMonster.Plant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Octopus Tree
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Ocularon Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ocularon
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+GEAR:Ocularon ~ Animate Eyeball	QTY:6
+
+STARTPACK:Ophidian Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ophiddian
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Ophidian Standard Equip	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Ophidian
+GEAR:Shield (Heavy/Wood)	LOCATION:Equipped
+GEAR:Scimitar
+
+STARTPACK:Oread Stats	TYPE:DefaultMonster.Fey	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Oread
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Phiuhl Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Phiuhl
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Planetouched (Maeluth) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Planetouched (Maeluth)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Planetouched (Mechanatrix) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Planetouched (Mechanatrix)
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=10|CHA=11
+
+STARTPACK:Planetouched (Shyft) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Planetouched (Shyft)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Planetouched (Wispling) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Planetouched (Wispling)
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=11|CHA=10
+
+STARTPACK:Quth-Maren Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Quth-Maren
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Rilmani (Aurumach) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Rilmani (Aurumach)
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Rilmani (Aurumach) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Rilmani (Aurumach)
+GEAR:Full Plate	SIZE:L	EQMOD:PLUS4A	LOCATION:Equipped
+GEAR:Halberd	SIZE:L	EQMOD:PLUS3W
+
+STARTPACK:Rilmani (Cuprilach) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Rilmani (Cuprilach)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Rilmani (Cuprilach) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Rilmani (Cuprilach)
+GEAR:Rapier	EQMOD:PLUS2W
+GEAR:Longbow	EQMOD:PLUS1W.SPEED
+
+STARTPACK:Rilmani (Ferrumach) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Rilmani (Ferrumach)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Rilmani (Ferrumach) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Rilmani (Ferrumach)
+GEAR:Full Plate	EQMOD:PLUS1A	LOCATION:Equipped
+GEAR:Shield (Heavy/Steel)	LOCATION:Equipped
+GEAR:Lance (Heavy)	EQMOD:PLUS1W
+GEAR:Battleaxe	EQMOD:PLUS1W
+
+STARTPACK:Rukanyr Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Rukanyr
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Sarkrith (Spelleater) Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Sarkrith (Spelleater)
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Sarkrith (Spelleater) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Sarkrith (Spelleater)
+GEAR:Chain Shirt	SIZE:L	EQMOD:MWORKA	LOCATION:Equipped
+GEAR:Shield (Heavy/Steel)	SIZE:L	LOCATION:Equipped
+GEAR:Longsword	SIZE:L	EQMOD:MWORKW
+GEAR:Longbow (Composite)	SIZE:L	EQMOD:MWORKW.BOWSTR|4
+
+STARTPACK:Sarkrith (Thane) Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Sarkrith (Thane)
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Sarkrith (Thane) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Sarkrith (Thane)
+GEAR:Full Plate	SIZE:L	EQMOD:MWORKA	LOCATION:Equipped
+GEAR:Shield (Heavy/Steel)	SIZE:L	EQMOD:MWORKA	LOCATION:Equipped
+GEAR:Greatsword	SIZE:L	EQMOD:MWORKW
+GEAR:Longbow (Composite)	SIZE:L	EQMOD:MWORKW.BOWSTR|4
+
+STARTPACK:Sea Drake Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Sea Drake
+STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Selkie Stats	TYPE:DefaultMonster.Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Selkie
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Selkie Standard Equip	TYPE:DefaultMonster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Selkie
+GEAR:Mithral Shirt	LOCATION:Equipped
+GEAR:Longsword	EQMOD:MITHRAL_WEAP
+
+STARTPACK:Senmurv Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Senmurv
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=11|CHA=10
+
+STARTPACK:Shadar-kai Stats	TYPE:DefaultMonster.Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Shadar-kai
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=10|CHA=11
+
+STARTPACK:Shadar-kai Standard Equip	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Shadar-kai
+GEAR:Studded Leather	LOCATION:Equipped
+GEAR:Gal-Ralan +1	EQMOD:PLUS1A
+GEAR:Chain (Spiked)
+GEAR:Shortbow
+
+STARTPACK:Shadow Asp Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Shadow Asp
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Shedu Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Shedu
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Skulk Stats	TYPE:DefaultMonster.Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Skulk
+STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Skybleeder Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Skybleeder
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Slaad (Mud Slaad) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Slaad (Mud Slaad)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Slasrath Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Slasrath
+STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Spectral Lurker Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Spectral Lurker
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Spirit of the Air Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Spirit of the Air
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Spirit of the Air Standard Equip	TYPE:DefaultMonster.Magical Beast	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Spirit of the Air
+GEAR:Mace (Heavy)	SIZE:L	EQMOD:PLUS1W
+
+STARTPACK:Sporebat Stats	TYPE:DefaultMonster.Plant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Sporebat
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Spriggan Stats	TYPE:DefaultMonster.Fey	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Spriggan
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Spriggan Standard Equip	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Spriggan
+GEAR:Chain Shirt	SIZE:S
+GEAR:Sword (Short)	SIZE:S
+
+STARTPACK:Steel Predator Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Steel Predator
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Sunwyrm Stats	TYPE:DefaultMonster.Dragon	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Sunwyrm
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=10|CHA=11
+
+STARTPACK:Swarm (Abyssal Ant Swarm) Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Swarm (Abyssal ant Swarm)
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Swarm (Plague Ant Swarm) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Swarm (Plague Ant Swarm)
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Swarm (Cranium Rat Swarm) Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Swarm (Cranium Rat Swarm/Lesser Pack),Swarm (Cranium Rat Swarm/Average Pack),Swarm (Cranium Rat Swarm/Greater Pack)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Swarm (Locust Bloodfiend Swarm) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Swarm (Locust Bloodfiend Swarm)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Swarm (Locust Rapture Swarm) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Swarm (Locust Rapture Swarm)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Swarm (Scarab Beetle Swarm) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Swarm (Scarab Beetle Swarm)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Swarm (Viper Swarm) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Swarm (Viper Swarm)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Swarm (Wasp Swarm) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Swarm (Wasp Swarm)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Terlen Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Terlen
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Terror Bird Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Terror Bird
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Thunder Worm Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Thunder Worm
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+STARTPACK:Tunnel Terror Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Tunnel Terror
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Ulgurstasta Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ulgurstasta
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Varrangoin (Arcanist) Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Varrangoin (Arcanist)
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=11|CHA=10
+
+STARTPACK:Varrangoin (Lesser) Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Varrangoin (Lesser)
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=11|CHA=10
+
+STARTPACK:Varrangoin (Rager) Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Varrangoin (Rager)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Vine Horror Stats	TYPE:DefaultMonster.Plant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Vine Horror
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=11|CHA=10
+
+STARTPACK:Vorr Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Vorr
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Wicker Man Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Wicker Man
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Yellow Musk Creeper Stats	TYPE:DefaultMonster.Plant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Yellow Musk Creeper
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Yuan-Ti Anathema Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Yuan-Ti Anathema
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Yuan-Ti Anathema Standard Equip	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Yuan-Ti Anathema
+GEAR:Falchion	SIZE:H	EQMOD:PLUS1W.BLASPHEMOUS_M
+
+STARTPACK:Yugoloth (Psicoloth) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Yugoloth (Psicoloth)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Yugoloth (Skeroloth) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Yugoloth (Skeroloth)
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Yurian Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Yurian
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Zodar Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Zodar
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Symbiont (Cerebral Hood) Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Symbiont (Cerebral Hood)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Symbiont (Mind Leech) Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Symbiont (Mind Leech)
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Symbiont (Psionic Sinew) Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Symbiont (Psionic Sinew)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=11
+
+STARTPACK:Symbiont (Fiendish Familiar) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Symbiont (Fiendish Familiar)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Symbiont (Gutworm) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Symbiont (Gutworm)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Symbiont (Soul Tick) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Symbiont (Soul Tick)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Symbiont (Ghostly Visage) Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Symbiont (Ghostly Visage)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=11|CHA=10
+

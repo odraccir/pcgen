@@ -1,0 +1,22 @@
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+#			
+### Weapon/Spell			
+### Simple/Martial/Exotic			
+### Melee/Ranged			
+### Bludgeoning/Piercing/Slashing			
+### Reach/Double/Thrown/Projectile/Ammunition			
+### Unharmed/Light/OneHanded/TwoHanded			
+###Automatic			
+#			
+# Fake Auto	TYPE:Auto		
+# Fake Simple	TYPE:Simple.Melee		
+# Fake Martial	TYPE:Martial.Melee		
+# Fake Exotic	TYPE:Exotic.Melee		
+#			
+
+###Improvised			
+###Simple			
+###Martial			
+###Exotic			
+Dagger (Ribbon)	TYPE:Exotic.Melee.Ranged.Piercing.Slashing.MeleePiercing.MeleeSlashing.RangedPiercing.RangedSlashing.Light.Dagger		
+Etherblade	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.Glaive		

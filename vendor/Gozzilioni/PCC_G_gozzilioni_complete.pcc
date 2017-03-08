@@ -19,14 +19,15 @@ PCC:core/_core.pcc
 PCC:core/DungeonMasterSGuide/_dungeonmastersguide.pcc
 PCC:core/PlayerSHandbook/_playershandbook.pcc
 PCC:core/MonsterManual/_monstermanual.pcc
-PCC:core/MonsterManual2/_monstermanual2.pcc
 PCC:core/ExpandedPsionicHandbook/_expandedpsionicshandbook.pcc
 
-PCC:accessory/PlanarHandbook/_planarhandbook.pcc
+PCC:supplement/MonsterManual2/_monstermanual2.pcc
 PCC:supplement/BookOfExaltedDeeds/_bookofexalteddeeds.pcc
 PCC:supplement/CompleteWarrior/_completewarrior.pcc
 PCC:supplement/Draconomicon/_draconomicon.pcc
-PCC:/supplement/DeitiesAndDemigods/_deitiesanddemigods.pcc
+PCC:supplement/DeitiesAndDemigods/_deitiesanddemigods.pcc
+PCC:accessory/FiendFolio/_fiendfolio.pcc
+# PCC:accessory/PlanarHandbook/_planarhandbook.pcc
 
 PCC:srd30/_srd30.pcc
 PCC:old30/complete_manuals/ArmsAndEquipmentGuide/_armsandequipmentguide.pcc

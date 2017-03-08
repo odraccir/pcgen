@@ -1,0 +1,33 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+
+# Subrace Support
+ABILITYCATEGORY:Maeluth Race Trait	CATEGORY:Special Ability	TYPE:MaeluthRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Maeluth Subrace	CATEGORY:Internal	TYPE:MaeluthSubrace.MaeluthSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Mechanatrix Race Trait	CATEGORY:Special Ability	TYPE:MechanatrixRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Mechanatrix Subrace	CATEGORY:Internal	TYPE:MechanatrixSubrace.MechanatrixSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Shyft Race Trait	CATEGORY:Special Ability	TYPE:ShyftRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Shyft Subrace	CATEGORY:Internal	TYPE:ShyftSubrace.ShyftSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Wispling Race Trait	CATEGORY:Special Ability	TYPE:WisplingRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Wispling Subrace	CATEGORY:Internal	TYPE:WisplingSubrace.WisplingSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Fiend of Blasphemy Class Feature	CATEGORY:Special Ability	TYPE:FiendOfBlasphemyClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Fiend of Blasphemy Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Fiend of Corruption Class Feature	CATEGORY:Special Ability	TYPE:FiendOfCorruptionClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Fiend of Corruption Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Fiend of Possession Class Feature	CATEGORY:Special Ability	TYPE:FiendOfPossessionClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Fiend of Possession Class Features			DISPLAYLOCATION:Class Features
+
+ABILITYCATEGORY:Symbiont Class Feature	CATEGORY:Special Ability	TYPE:SymbiontClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Symbiont Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups
+ABILITYCATEGORY:Graft Flesh	CATEGORY:Special Ability	TYPE:GraftFlesh	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Graft Fleshs			DISPLAYLOCATION:Feats
+
+#Feats Ability pools
+
+#Companion Support
+ABILITYCATEGORY:Symbiont Selection	CATEGORY:Internal	TYPE:SymbiontSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Symbiont Choice			DISPLAYLOCATION:Class Features
+
+#other
+
+#
+# End
+#

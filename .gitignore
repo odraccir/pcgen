@@ -1,4 +1,5 @@
 .~lock.*
+*.ini
 *.bak
 *.jar
 *.log
@@ -7,7 +8,7 @@
 jre/**
 data/**
 docs/**
-libs/**
+libs/**	
 outputsheets/**
 plugins/**
 preview/**
@@ -23,6 +24,7 @@ logging.properties
 pcgen.exe
 pcgen.jar
 pcgen.log
+pcgen.log.*
 pcgen.sh
 pcgen_hi_mem.bat
 pcgen_low_mem.bat

@@ -1,0 +1,30 @@
+SOURCELONG:Fiend Folio	SOURCESHORT:FF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-04																			
+#																						
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:
+Giant Rock (Large)	KEY:Giant Rock ~ Fensir	PROFICIENCY:WEAPON|Giant Rock	TYPE:Weapon.Ranged.Thrown.Bludgeoning.Rock					SIZE:L	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2		RANGE:120	BONUS:WEAPON|ATTACKSPROGRESS|-3
+Magma Spit		KEY:Flame snake (Lesser) ~ Magma Spit		PROFICIENCY:WEAPON|Ranged Touch	TYPE:Weapon.Natural.Ranged.Simple.Touch	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:0	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:FF	SPROP:+2d6 fire.						RANGE:30		PREABILITY:1,CATEGORY=Special Ability,Flame Snake (Lesser) ~ Magma Spit
+Spike		KEY:Formian (Winged Warrior) ~ Spike		PROFICIENCY:WEAPON|Spike	TYPE:Weapon.Natural.Finesseable.Ranged.Piercing	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:FF	SPROP:Poison.						RANGE:90		PREABILITY:1,CATEGORY=Special Ability,Formian (Winged Warrior) ~ Spikes
+
+# Simple Weapons																						
+## Unarmed																						
+## Light																						
+## OneHanded																						
+## TwoHanded																						
+## Ranged																						
+																						
+# Martial Weapons																						
+## Light																						
+## OneHanded																						
+## TwoHanded																						
+## Ranged																						
+																						
+# Exotic Weapons																						
+## Light																						
+Dagger (Ribbon)			PROFICIENCY:WEAPON|Dagger (Ribbon)	TYPE:Weapon.Melee.Exotic.Ranged.Piercing.Slashing.Light.Dagger	COST:50	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x4	EQMOD:RESIN	SOURCEPAGE:FF	SPROP:Disarm attacks made with a ribbon dagger gain a +2 bonus.						RANGE:10				
+## OneHanded																						
+## TwoHanded																						
+Etherblade			PROFICIENCY:WEAPON|Etherblade	TYPE:Weapon.Melee.Exotic.Slashing.TwoHanded.Glaive	COST:800	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.MWORKW.CHARGED_ITEM_50|CHARGES[50]	SOURCEPAGE:FF	SPROP:Ray of force as a ranged touch attack for 1d6 points of damage. The etherblade ray has a range increment of 40 feet.							REACHMULT:2
+## Ranged																						
+																						
+# Arrows																						
+Bomb (Doubt)				TYPE:Weapon.Ranged.Bomb	COST:500	WT:1	WIELD:Light		SIZE:M	DAMAGE:0	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:FF	SPROP:initial and secondary damage 1d6 Wisdom, Fort DC 15 negates.						RANGE:10		
