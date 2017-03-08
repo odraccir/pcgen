@@ -2323,6 +2323,7 @@ my %master_order = (
         'SPELLLIST',
         'NATURALATTACKS',
         'UNENCUMBEREDMOVE',
+        @TEMP_Tags,
 #        'ADD:FEAT:*',            #  Deprecated 6.05.01
 #        'ADD:VFEAT:*',            #  Deprecated 6.05.01
 #        'SPECIALS',            #  Deprecated 6.05.01
@@ -4918,7 +4919,7 @@ if ($cl_options{input_path}) {
         open $filehandle_for{TEMPLATE}, '>', 'G_export_template.csv';
         print { $filehandle_for{TEMPLATE} } qq{"Tempate Name","Sourcepage","Line","Filename"\n};
 
-        # Will hold the list of all templates found in TEMPLATE filetypes
+        # Will hold the list of all templates found in Proficiency filetypes
         open $filehandle_for{WEAPONPROF}, '>', 'G_export_weaponprof.csv';
         print { $filehandle_for{WEAPONPROF} } qq{"Weaponprof Name","Line","Filename","TYPE"\n};
 
