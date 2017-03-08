@@ -2,9 +2,6 @@ SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	
 																																
 # Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 																																
-###Block: Monster Class Spellcasting for Domains																																
-Psion Class	CATEGORY:Internal	TYPE:CastingClassSupport																														
-																																
 ###Block: Monster Domain																																
 																																
 ##Companion Support																																
@@ -32,3 +29,5 @@ Linnorm Dragon	CATEGORY:Internal	ABILITY:Special Ability|AUTOMATIC|True Dragon ~
 Languages	CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality	VISIBLE:YES	DESC:Linnorms speak Draconic and Abyssal.	KEY:Linnorm Dragon ~ Languages																		AUTO:LANG|Draconic|Abyssal									SOURCEPAGE:MM2
 																																
 Spores	CATEGORY:Special Ability	TYPE:RaceAbility.SpecialQuality	VISIBLE:YES	DESC:As a standard action, a myconid can release a cloud of spores. These spores come in several different varieties, as described below. As it enters each new stage of life (increasing its Hit Dice by 1), a myconid gains a new variety of spore but does not lose access to the previous varieties. Each type of spore can be used a number of times per day equal to themyconid's Hit Dice.	KEY:Myconid ~ Spores			DEFINE:SporesDC|0					BONUS:VAR|SporesDC|DefaultDCCha	BONUS:VAR|SporesDC|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Spores)								ABILITY:Ability Focus|AUTOMATIC|Spores									SOURCEPAGE:MM2	
+
+CATEGORY=Internal|Standard Selection ~ Create Greater Undead.MOD	COMPANIONLIST:Create Greater Undead|Spawn of Kyuss
