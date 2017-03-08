@@ -10,8 +10,8 @@ Wicker	TYPE:Armor.Light
 Wood	TYPE:Armor.Light
 Brigandine	TYPE:Armor.Medium
 Lamellar	TYPE:Armor.Medium
-Ring	TYPE:Armor.Medium
-Shell	TYPE:Armor.Medium
-Coral	TYPE:Armor.Heavy
+Ring Armor	TYPE:Armor.Medium
+Shell Armor	TYPE:Armor.Medium
+Coral Armor	TYPE:Armor.Heavy
 Dendritic	TYPE:Armor.Heavy
-Stone	TYPE:Armor.Heavy
+Stone Armor	TYPE:Armor.Heavy

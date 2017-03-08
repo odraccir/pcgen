@@ -10,6 +10,7 @@ SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net
 Spells (Ray)	TYPE:Spell.Simple.Ranged.Touch.RangedTouch
 Spells (Touch)	TYPE:Spell.Simple.Melee.Touch.MeleeTouch
 Grapple	TYPE:Auto.Simple.Melee.Unarmed.Bludgeoning		
+Ranged Touch	TYPE:Weapon.Natural.Ranged.Simple.Touch.Auto.RangedTouch
 #			
 # Fake Auto	TYPE:Auto		
 # Fake Simple	TYPE:Simple.Melee		

@@ -1,6 +1,8 @@
 SOURCELONG:Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 																																			
 # Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	TYPE:	RACETYPE:	RACESUBTYPE:	MONSTERCLASS:	MOVE:	Combat bonus	NATURALATTACKS:	NATURALATTACKS:	Weapon prof. bonus	Weapon prof. bonus	FACE:	REACH:	Special Ability	Damage Reduction	Spell Res.	Stat bonus						MONCSKILL:	CR:	Required AL	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	Nb Legs	Nb Hands	SOURCEPAGE:		
+Arrowhawk.COPY=Arrowhawk	KEY:Companion ~ Arrowhawk (Adult)
+Arrowhawk.COPY=Arrowhawk	KEY:Companion ~ Arrowhawk (Elder)
 Chimera.COPY=Chimera	KEY:Companion ~ Chimera (Skeleton)
 Dinosaur (Deinonychus).COPY=Dinosaur (Deinonychus/Fiendish)	KEY:Companion ~ Dinosaur (Deinonychus/Fiendish)
 Dinosaur (Elasmosaurus).COPY=Dinosaur (Elasmosaurus/Fiendish)	KEY:Companion ~ Dinosaur (Elasmosaurus/Fiendish)
@@ -83,10 +85,19 @@ Minotaur.COPY=Minotaur	KEY:Companion ~ Minotaur (Zombie)
 Owl (Giant).COPY=Owl (Giant)	KEY:Companion ~ Owl (Giant/Celestial)
 Pegasus.COPY=Pegasus	KEY:Companion ~ Pegasus (Celestial)
 Roc.COPY=Roc	KEY:Companion ~ Roc (Celestial)
+Satyr.COPY=Satyr	KEY:Companion ~ Satyr (with pipes)
 Sea Cat.COPY=Sea Cat	KEY:Companion ~ Sea Cat (Celestial)
+Sprite (Grig).COPY=Satyr	KEY:Companion ~ Sprite (Grig/with fiddle)
+Tojanida.COPY=Tojanida	KEY:Companion ~ Tojanida (Adult)
+Tojanida.COPY=Tojanida	KEY:Companion ~ Tojanida (Elder)
 Unicorn.COPY=Unicorn	KEY:Companion ~ Unicorn (Celestial)
+Unicorn.COPY=Unicorn	KEY:Companion ~ Unicorn (Celestial Charger)
 Wyvern.COPY=Wyvern	KEY:Companion ~ Wyvern (Zombie)
+xorn.COPY=Xorn	KEY:Companion ~ Xorn (Average)
+xorn.COPY=Xorn	KEY:Companion ~ Xorn (Elder)
 
+Companion ~ Arrowhawk (Adult).MOD	OUTPUTNAME:Arrowhawk (Adult)	TYPE:Companion	SERVESAS:RACE|Arrowhawk	KIT:1|Arrowhawk (Adult) Companion
+Companion ~ Arrowhawk (Elder).MOD	OUTPUTNAME:Arrowhawk (Elder)	TYPE:Companion	SERVESAS:RACE|Arrowhawk	KIT:1|Arrowhawk (Elder) Companion
 Companion ~ Chimera (Skeleton).MOD	OUTPUTNAME:Chimera (Skeleton)	TYPE:Companion	SERVESAS:RACE|Chimera	TEMPLATE:Skeleton
 Companion ~ Dinosaur (Deinonychus/Fiendish).MOD	OUTPUTNAME:Dinosaur (Deinonychus/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Deinonychus)	TEMPLATE:Fiendish
 Companion ~ Dinosaur (Elasmosaurus/Fiendish).MOD	OUTPUTNAME:Dinosaur (Elasmosaurus/Fiendish)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Elasmosaurus)	TEMPLATE:Fiendish
@@ -169,9 +180,16 @@ Companion ~ Minotaur (Zombie).MOD	OUTPUTNAME:Minotaur (Zombie)	TYPE:Companion	SE
 Companion ~ Owl (Giant/Celestial).MOD	OUTPUTNAME:Owl (Giant/Celestial)	TYPE:Companion	SERVESAS:RACE|Owl (Giant)	TEMPLATE:Celestial
 Companion ~ Pegasus (Celestial).MOD	OUTPUTNAME:Pegasus (Celestial)	TYPE:Companion	SERVESAS:RACE|Pegasus	TEMPLATE:Celestial
 Companion ~ Roc (Celestial).MOD	OUTPUTNAME:Roc (Celestial)	TYPE:Companion	SERVESAS:RACE|Roc	TEMPLATE:Celestial
+Companion ~ Satyr (with pipes).MOD	OUTPUTNAME:Satyr (with pipes)	TYPE:Companion	SERVESAS:RACE|Satyr	KIT:1|Satyr (with pipes) Companion
 Companion ~ Sea Cat (Celestial).MOD	OUTPUTNAME:Sea Cat (Celestial)	TYPE:Companion	SERVESAS:RACE|Sea Cat	TEMPLATE:Celestial
+Companion ~ Sprite (Grig/with fiddle).MOD	OUTPUTNAME:Satyr (with fiddle)	TYPE:Companion	SERVESAS:RACE|Sprite (Grig)	KIT:1|Sprite (Grig/with fiddle) Companion
+Companion ~ Tojanida (Adult).MOD	OUTPUTNAME:Tojanida (Adult)	TYPE:Companion	SERVESAS:RACE|Tojanida	KIT:1|Tojanida (Adult) Companion
+Companion ~ Tojanida (Elder).MOD	OUTPUTNAME:Tojanida (Elder)	TYPE:Companion	SERVESAS:RACE|Tojanida	KIT:1|Tojanida (Elder) Companion
 Companion ~ Unicorn (Celestial).MOD	OUTPUTNAME:Unicorn (Celestial)	TYPE:Companion	SERVESAS:RACE|Unicorn	TEMPLATE:Celestial
+Companion ~ Unicorn (Celestial Charger).MOD	OUTPUTNAME:Unicorn (Celestial Charger)	TYPE:Companion	SERVESAS:RACE|Unicorn	TEMPLATE:Celestial Charger
 Companion ~ Wyvern (Zombie).MOD	OUTPUTNAME:Wyvern (Zombie)	TYPE:Companion	SERVESAS:RACE|Wyvern	TEMPLATE:Zombie
+Companion ~ Xorn (Average).MOD	OUTPUTNAME:Xorn (Average)	TYPE:Companion	SERVESAS:RACE|Xorn	KIT:1|Xorn (Average) Companion
+Companion ~ Xorn (Elder).MOD	OUTPUTNAME:Xorn (Elder)	TYPE:Companion	SERVESAS:RACE|Xorn	KIT:1|Xorn (Elder) Companion
 
 #Animals
 Animal (Ape).COPY=Animal (Ape)	KEY:Companion ~ Animal (Ape/Fiendish)
@@ -277,9 +295,9 @@ Companion ~ Animal (Snake (Viper/Large/Fiendish)).MOD	OUTPUTNAME:Animal (Snake (
 Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Huge/Fiendish))
 Companion ~ Animal (Snake (Viper/Huge/Fiendish)).MOD	OUTPUTNAME:Animal (Snake (Viper/Huge/Fiendish))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	KIT:1|Animal (Snake (Viper/Huge)) Companion	TEMPLATE:Fiendish
 Animal (Squid).COPY=Animal (Squid)	KEY:Companion ~ Animal (Squid (Giant))
-Companion ~ Animal (Squid (Giant)).MOD	OUTPUTNAME:Animal (Squid (Giant))	TYPE:Companion	SERVESAS:RACE|Animal (Squid)
+Companion ~ Animal (Squid (Giant)).MOD	OUTPUTNAME:Animal (Squid (Giant))	TYPE:Companion	SERVESAS:RACE|Animal (Squid)	KIT:1|Animal (Squid (Giant)) Companion
 Animal (Squid).COPY=Animal (Squid)	KEY:Companion ~ Animal (Squid (Giant/Fiendish))
-Companion ~ Animal (Squid (Giant/Fiendish)).MOD	OUTPUTNAME:Animal (Squid (Giant/Fiendish))	TYPE:Companion	SERVESAS:RACE|Animal (Squid)	TEMPLATE:Fiendish
+Companion ~ Animal (Squid (Giant/Fiendish)).MOD	OUTPUTNAME:Animal (Squid (Giant/Fiendish))	TYPE:Companion	SERVESAS:RACE|Animal (Squid)	KIT:1|Animal (Squid (Giant)) Companion	TEMPLATE:Fiendish	
 Animal (Squid).COPY=Animal (Squid)	KEY:Companion ~ Animal (Squid (Celestial))
 Companion ~ Animal (Squid (Celestial)).MOD	OUTPUTNAME:Animal (Squid (Celestial))	TYPE:Companion	SERVESAS:RACE|Animal (Squid)	TEMPLATE:Celestial
 Animal (Squid).COPY=Animal (Squid)	KEY:Companion ~ Animal (Squid (Fiendish))

@@ -17,7 +17,7 @@ ALIGNMENT:g__align.lst
 SAVE:g__saves.lst
 STAT:g__stats.lst
 
-DATACONTROL:g_datacontrol.lst
+DATACONTROL:g__datacontrol.lst
 
 ABILITY:g_abilities.lst
 ABILITY:g_abilities_guilds.lst

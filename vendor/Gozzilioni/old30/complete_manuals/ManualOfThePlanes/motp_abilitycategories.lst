@@ -15,7 +15,7 @@ ABILITYCATEGORY:Planeshifter Class Feature	CATEGORY:Special Ability	TYPE:Planesh
 ABILITYCATEGORY:Gatecrasher Bonus Language	CATEGORY:Special Ability	TYPE:GatecrasherBonusLanguage	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Gatecrasher Bonus Languages			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Favored Plane	CATEGORY:Special Ability	TYPE:FavoredPlane	VISIBLE:QUALIFY	EDITABLE:YES	POOL:FavoredPlaneCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Favored Enemies				DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Favored Plane Bonus	CATEGORY:Special Ability	TYPE:FavoredPlaneBonus	VISIBLE:QUALIFY	EDITABLE:YES	POOL:FavoredPlaneBonusCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Favored Plane Bonuses			DISPLAYLOCATION:Class Features
-ABILITYCATEGORY:Shadow Quality	CATEGORY:Internal	TYPE:ShadowQuality	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Shadow Qualities			DISPLAYLOCATION:Race Features
+ABILITYCATEGORY:Shadow Quality	CATEGORY:Internal	TYPE:ShadowCreatureQuality	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Shadow Qualities			DISPLAYLOCATION:Race Features
 
 #Feats Ability pools
 

@@ -25,6 +25,6 @@ GEAR:Shortbow
 STARTPACK:Minion of Set Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Minion of Set
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
 
-STARTPACK:Faun Standard Equip	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Faun
+STARTPACK:Minion of Set Standard Equip	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Minion of Set
 GEAR:Khopesh	EQMOD:PLUS1W
 GEAR:Longbow (Composite)	EQMOD:BOWSTR|2

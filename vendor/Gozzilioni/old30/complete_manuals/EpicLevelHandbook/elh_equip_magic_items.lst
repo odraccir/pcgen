@@ -21,7 +21,7 @@ Ring of Epic Protection +10		TYPE:Ring	COST:2000000	WT:0	SOURCEPAGE:ELH	BONUS:CO
 Ring of Epic Wizardry V		TYPE:Ring	COST:250000	WT:0	SOURCEPAGE:ELH	BONUS:SPELLKNOWN|TYPE=Arcane;LEVEL=5|2																
 Ring of Epic Wizardry VI		TYPE:Ring	COST:360000	WT:0	SOURCEPAGE:ELH	BONUS:SPELLKNOWN|TYPE=Arcane;LEVEL=6|2																
 Ring of Epic Wizardry VII		TYPE:Ring	COST:490000	WT:0	SOURCEPAGE:ELH	BONUS:SPELLKNOWN|TYPE=Arcane;LEVEL=7|2																
-Ring of Epic Wizardry VII		TYPE:Ring	COST:640000	WT:0	SOURCEPAGE:ELH	BONUS:SPELLKNOWN|TYPE=Arcane;LEVEL=8|2																
+Ring of Epic Wizardry VIII		TYPE:Ring	COST:640000	WT:0	SOURCEPAGE:ELH	BONUS:SPELLKNOWN|TYPE=Arcane;LEVEL=8|2																
 Ring of Epic Wizardry IX		TYPE:Ring	COST:810000	WT:0	SOURCEPAGE:ELH	BONUS:SPELLKNOWN|TYPE=Arcane;LEVEL=9|2																
 Ring of Ineffable Evil		TYPE:Ring	COST:250000	WT:0	SOURCEPAGE:ELH	SPROP:costant Unholy Aura.	BONUS:VAR|NegativeLevel|1|PREALIGN:LG,NG,CG															
 Ring of Ironskin		TYPE:Ring	COST:400000	WT:0	SOURCEPAGE:ELH		DR:15/Adamantine															
@@ -102,7 +102,7 @@ Rod of Wyrm (White)		TYPE:Rod.Weapon.Melee.Simple.Bludgeoning.TwoHanded.Quarters
 																						
 ###Block: Staff																						
 Staff of Cosmos	KEY:Staff (Cosmos)	TYPE:Staff	COST:683437	WT:5	SOURCEPAGE:ELH	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Chain Lightning (Intensified, 1 charge, DC 29)/Meteor Swarm (Intensified, 1 charge, DC 29),Sunburst (Intensified, 1 charge, DC 32)															
-Staff of Domination	KEY:Staff (Domination)	TYPE:Staff	COST:464400	WT:5	SOURCEPAGE:ELH	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Dominate Monster (1 charge, DC 33)/Demand (1 charge, DC 32),Charm (Mass) (1 charge, DC 32),Geas/Quest (Heightened,1 charge,DC 33)															
+Staff of Domination	KEY:Staff (Domination)	TYPE:Staff	COST:464400	WT:5	SOURCEPAGE:ELH	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Dominate Monster (1 charge, DC 33)/Demand (1 charge, DC 32),Charm Monster (Mass) (1 charge, DC 32),Geas/Quest (Heightened,1 charge,DC 33)															
 Staff of Fiery Power	KEY:Staff (Fiery Power)	TYPE:Staff.Weapon.Melee.Simple.Bludgeoning.TwoHanded.Quarterstaff	COST:500000	WT:4	SOURCEPAGE:ELH	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Wall of Fire (Extended, 1 charge, DC 18)/Delayed Blast Fireball (Intensified to 40th level, 2 charges, DC 22)/Meteor Swarm (Heightened to 12th level, 2 charges, DC 30)/Summon Monster IX (Extended, 2 charges, Elder Fire Elemental only). Retributive strike if shattered (Reflex for half DC 17).		PROFICIENCY:WEAPON|Quarterstaff	WIELD:TwoHanded	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS5W.FLM_M			ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.EQ_COST_ADJ_W.PLUS5W.FLM_M
 Staff of the Hierophants	KEY:Staff (Hierophants)	TYPE:Staff	COST:501187	WT:5	SOURCEPAGE:ELH	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Creeping Doom (Enlarged, Extended, 1 charge, DC 23)/Command Plants (Enlarged, Extended, 1 charge, DC 25)/Elemental Swarm (Intensified, 2 charges, DC 34)/Shambler (Intensified, 2 charges, DC 34).															
 Staff of Mighty Force	KEY:Staff (Mighty Force)	TYPE:Staff	COST:265000	WT:5	SOURCEPAGE:ELH	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Shield (Quickened, 1 charge, 1/round)/Forcecage (1 charge)/Bigby's Crushing Hands (1 charge)															

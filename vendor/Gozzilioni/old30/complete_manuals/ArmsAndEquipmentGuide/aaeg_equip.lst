@@ -27,7 +27,7 @@ Crane (Portable/STR 22)		TYPE:Goods.General	COST:30	WT:75	SOURCEPAGE:AaEG30
 Crane (Portable/STR 24)		TYPE:Goods.General	COST:60	WT:120	SOURCEPAGE:AaEG30						
 Crane (Portable/STR 28)		TYPE:Goods.General	COST:120	WT:250	SOURCEPAGE:AaEG30						
 Earplug		TYPE:Goods.General	COST:0.3	WT:0	SOURCEPAGE:AaEG30	SPROP:+1 circumstance on saves against sonic attacks	BONUS:SKILL|Listen|-4|TYPE=Circumstance				
-Finger Blades		TYPE:Goods.General.Glove	COST:20	WT:0	SOURCEPAGE:AaEG30		BONUS:SKILL|Sleight of Hand|1|TYPE=Circumstance				
+Finger Blades		TYPE:Goods.General.Glove	COST:20	WT:0	SOURCEPAGE:AaEG30	SLOTS:1	BONUS:SKILL|Sleight of Hand|1|TYPE=Circumstance				
 Fishing Tackle		TYPE:Goods.General	COST:20	WT:5	SOURCEPAGE:AaEG30	SPROP:+1 circumstance on Survival check when gathering food around bodies of water					
 Flotation Bags		TYPE:Goods.General	COST:5	WT:1	SOURCEPAGE:AaEG30		BONUS:SKILL|Swim|2|TYPE=Circcumstance				
 Fowler's Snare		TYPE:Goods.General	COST:20	WT:5	SOURCEPAGE:AaEG30		SPROP:+1 circumstance on Survival check when capturing birds and other small animals				
@@ -178,9 +178,9 @@ Robe (Cotton)		TYPE:Goods.Clothing.Robe	COST:1	WT:2	SOURCEPAGE:AaEG30
 Robe (Linen)		TYPE:Goods.Clothing.Robe	COST:1	WT:2	SOURCEPAGE:AaEG30						
 Robe (Velvet)		TYPE:Goods.Clothing.Robe	COST:3	WT:3	SOURCEPAGE:AaEG30						
 Robe (Silk)		TYPE:Goods.Clothing.Robe	COST:5	WT:2	SOURCEPAGE:AaEG30						
-Pads (Knee)		TYPE:Goods.Clothing.Bracer	COST:0.3	WT:0.5	SOURCEPAGE:AaEG30						
-Pads (Elbow)		TYPE:Goods.Clothing.Bracer	COST:0.3	WT:0.5	SOURCEPAGE:AaEG30						
-Pads (Shin Guards)		TYPE:Goods.Clothing.Bracer	COST:0.4	WT:0.5	SOURCEPAGE:AaEG30						
+Pads (Knee)		TYPE:Goods.Clothing.Bracer	COST:0.3	WT:0.5	SOURCEPAGE:AaEG30	SLOTS:2					
+Pads (Elbow)		TYPE:Goods.Clothing.Bracer	COST:0.3	WT:0.5	SOURCEPAGE:AaEG30	SLOTS:2					
+Pads (Shin Guards)		TYPE:Goods.Clothing.Bracer	COST:0.4	WT:0.5	SOURCEPAGE:AaEG30	SLOTS:2					
 Sash (Cotton)		TYPE:Goods.Clothing.Amulet	COST:0.2	WT:0	SOURCEPAGE:AaEG30						
 Sash (Wool)		TYPE:Goods.Clothing.Amulet	COST:0.1	WT:0	SOURCEPAGE:AaEG30						
 Sash (Silk)		TYPE:Goods.Clothing.Amulet	COST:4	WT:0	SOURCEPAGE:AaEG30						
@@ -189,11 +189,11 @@ Shirt (Cotton)		TYPE:Goods.Clothing.Shirt	COST:0.1	WT:0.5	SOURCEPAGE:AaEG30
 Shirt (Linen)		TYPE:Goods.Clothing.Shirt	COST:0.1	WT:0.5	SOURCEPAGE:AaEG30						
 Shirt (Velvet)		TYPE:Goods.Clothing.Shirt	COST:5	WT:0.5	SOURCEPAGE:AaEG30						
 Shirt (Silk)		TYPE:Goods.Clothing.Shirt	COST:10	WT:0	SOURCEPAGE:AaEG30						
-Shoes (Leather)		TYPE:Goods.Clothing.Boot	COST:0.3	WT:1	SOURCEPAGE:AaEG30						
-Shoes (Sandals)		TYPE:Goods.Clothing.Boot	COST:0.2	WT:0.5	SOURCEPAGE:AaEG30						
-Shoes (Tabi)		TYPE:Goods.Clothing.Boot	COST:0.2	WT:0.5	SOURCEPAGE:AaEG30						
-Shoes (Slippers)		TYPE:Goods.Clothing.Boot	COST:0.1	WT:0	SOURCEPAGE:AaEG30						
-Shoes (Dancing)		TYPE:Goods.Clothing.Boot	COST:15	WT:0	SOURCEPAGE:AaEG30						
+Shoes (Leather)		TYPE:Goods.Clothing.Boot	COST:0.3	WT:1	SOURCEPAGE:AaEG30	SLOTS:2					
+Shoes (Sandals)		TYPE:Goods.Clothing.Boot	COST:0.2	WT:0.5	SOURCEPAGE:AaEG30	SLOTS:2					
+Shoes (Tabi)		TYPE:Goods.Clothing.Boot	COST:0.2	WT:0.5	SOURCEPAGE:AaEG30	SLOTS:2					
+Shoes (Slippers)		TYPE:Goods.Clothing.Boot	COST:0.1	WT:0	SOURCEPAGE:AaEG30	SLOTS:2					
+Shoes (Dancing)		TYPE:Goods.Clothing.Boot	COST:15	WT:0	SOURCEPAGE:AaEG30	SLOTS:2					
 Warrior's Skirt (Leather)		TYPE:Goods.Clothing.Shirt	COST:0.5	WT:1	SOURCEPAGE:AaEG30						
 Stockings		TYPE:Goods.Clothing	COST:0.4	WT:0	SOURCEPAGE:AaEG30						
 Suspenders		TYPE:Goods.Clothing	COST:0.8	WT:0	SOURCEPAGE:AaEG30						
@@ -483,7 +483,7 @@ Dwarven Tunneler		TYPE:Goods.Transportation.Ships.UndergroundShip	COST:70000	WT:
 Carriage (Large)	OUTPUTNAME:Carriage, Large	TYPE:Goods.Transportation.Container	COST:200	WT:100	SOURCEPAGE:AaEG30		CONTAINS:400|Any		SIZE:L		
 											
 											
-#Hirelings											
+###Block: Hireling Services																										
 Hireling (Alchemist)		TYPE:Service	COST:1		SOURCEPAGE:AaEG30	SPROP:Expert/Craft (Alchemy)					
 Hireling (Animal Tender/Groom)		TYPE:Service	COST:0.1		SOURCEPAGE:AaEG30	SPROP:Commoner/Handle Animal					
 Hireling (Animal Trainer)		TYPE:Service	COST:0.8		SOURCEPAGE:AaEG30	SPROP:Expert/Handle Animal					

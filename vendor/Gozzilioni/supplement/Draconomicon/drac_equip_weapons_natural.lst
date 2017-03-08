@@ -1,11 +1,7 @@
 SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11
 #																											
 #	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:					
-Spike		KEY:Felldrake (Spiked) ~ Spike		PROFICIENCY:WEAPON|Spikes	TYPE:Weapon.Natural.Ranged.Simple.Piercing	COST:0	WT:0	WIELD:Light		SIZE:L	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2		SOURCEPAGE:Drac							RANGE:5		PREABILITY:1,CATEGORY=Special Ability,Felldrake (Spiked) ~ Spikes
-
-# BONUS:WEAPON|DAMAGESIZE|(ArrowhawkSizeTracker-1)|PREVARGTEQ:ArrowhawkSizeTracker,2
-# Electricity Ray		KEY:Arrowhawk ~ Electricity Ray ~ S		PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Simple.Touch	COST:0	WT:0	WIELD:Light		SIZE:S	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:MM1							RANGE:50		PREABILITY:1,CATEGORY=Special Ability,Arrowhawk ~ Electricity Ray
-# Electricity Ray		KEY:Arrowhawk ~ Electricity Ray ~ M		PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Simple.Touch	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:2d8	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:MM1							RANGE:50		PREABILITY:1,CATEGORY=Special Ability,Arrowhawk ~ Electricity Ray
+Spike		KEY:Felldrake (Spiked) ~ Spike		PROFICIENCY:WEAPON|Spike	TYPE:Weapon.Natural.Ranged.Simple.Piercing	COST:0	WT:0	WIELD:Light		SIZE:L	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2		SOURCEPAGE:Drac							RANGE:5		PREABILITY:1,CATEGORY=Special Ability,Felldrake (Spiked) ~ Spikes
 
 # Simple Weapons																											
 ## Unarmed																											

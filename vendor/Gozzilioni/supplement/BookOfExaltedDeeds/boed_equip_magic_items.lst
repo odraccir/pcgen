@@ -33,7 +33,7 @@ Starmantle Cloak		TYPE:Wondrous.Cape	COST:132000	WT:1	SOURCEPAGE:BoED
 Thurible of Consacration		TYPE:Wondrous.Container	COST:5000	WT:4	SOURCEPAGE:BoED	SPROP:Double the effect of the Incense of Consecration.	CONTAINS:UNLIM|Incense=1															
 Trumpet of Doom		TYPE:Wondrous.Tools.Instrument.Wind.Resizable	COST:7185	WT:3	SOURCEPAGE:BoED	SPROP:3/day all evil creatures within 100 feet that can hear the trumpet's blare are shaken for 1 minute (DC 14 Will save Negates).	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork															
 Trumpet of Healing		TYPE:Wondrous.Tools.Instrument.Wind.Resizable	COST:115440	WT:3	SOURCEPAGE:BoED	SPROP:3/day with DC 15 Perform (Wind Instrument) check the trumpeteer can select from the following powers for each use: remove  blindness/deafness, remove disease, cure serious wounds, or neutralize poison.	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork															
-Vambrace of Evil's Warding		TYPE:Wondrous.Bracer	COST:18000	WT:1	SOURCEPAGE:BoED	SPROP:Ranged attacks made by evil creatures against the wearer take a -4 penalty. An evil creature that dons the vambraces of evil's warding takes 2d6 points of damage per round.																
+Vambrace of Evil's Warding		TYPE:Wondrous.Bracer	COST:18000	WT:1	SOURCEPAGE:BoED	SPROP:Ranged attacks made by evil creatures against the wearer take a -4 penalty. An evil creature that dons the vambraces of evil's warding takes 2d6 points of damage per round.	SLOTS:2															
 Redeemed Darkskull		TYPE:Wondrous	COST:60000	WT:5	SOURCEPAGE:BoED	SPROP:continuous Hallow.																
 																						
 ###Block: Intelligent																						

@@ -12,13 +12,13 @@ MASTERBONUSRACE:Animal (Thrush)			TYPE:Familiar	ABILITY:Special Ability|AUTOMATI
 
 ###Block:Fiendish Servant
 FOLLOWER:FiendishServantLVL=1	TYPE:FiendishServant	TEMPLATE:Fiendish
-FOLLOWER:FiendishServantLVL=5	TYPE:FiendishServant	HD:2	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|6	ABILITY:Special Ability|AUTOMATIC|Fiendish Servant ~ Empathic Link|Fiendish Servant ~ Improved Evasion|Fiendish Servant ~ Share Saving Throws|Fiendish Servant ~ Share Spells	AUTO:ARMORPROF|ARMORTYPE=Barding			
+FOLLOWER:FiendishServantLVL=5	TYPE:FiendishServant	HD:2	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|6	ABILITY:Special Ability|AUTOMATIC|Fiendish Servant ~ Empathic Link|Fiendish Servant ~ Improved Evasion|Fiendish Servant ~ Share Saving Throws|Fiendish Servant ~ Share Spells	BONUS:VAR|BardingAllowed|1|TYPE=Base			
 FOLLOWER:FiendishServantLVL=13	TYPE:FiendishServant	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|7	ABILITY:Special Ability|AUTOMATIC|Fiendish Servant ~ Speak with Blackguard				
 FOLLOWER:FiendishServantLVL=16	TYPE:FiendishServant	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|8	ABILITY:Special Ability|AUTOMATIC|Fiendish Servant ~ Blood Bond
 FOLLOWER:FiendishServantLVL=19	TYPE:FiendishServant	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|9	ABILITY:Special Ability|AUTOMATIC|Fiendish Servant ~ Spell Resistance	SR:mastervar("FiendishServantLVL")+5			
 
 ###Block:Undead Companion
-FOLLOWER:UndeadCompanionLVL=5	TYPE:UndeadCompanion	HD:2	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|6	ABILITY:Special Ability|AUTOMATIC|Undead Companion ~ Empathic Link|Undead Companion ~ Improved Evasion|Undead Companion ~ Share Saving Throws|Undead Companion ~ Share Spells	AUTO:ARMORPROF|ARMORTYPE=Barding			
+FOLLOWER:UndeadCompanionLVL=5	TYPE:UndeadCompanion	HD:2	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|6	ABILITY:Special Ability|AUTOMATIC|Undead Companion ~ Empathic Link|Undead Companion ~ Improved Evasion|Undead Companion ~ Share Saving Throws|Undead Companion ~ Share Spells	BONUS:VAR|BardingAllowed|1|TYPE=Base			
 FOLLOWER:UndeadCompanionLVL=13	TYPE:UndeadCompanion	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|7	ABILITY:Special Ability|AUTOMATIC|Undead Companion ~ Speak with Blackguard				
 FOLLOWER:UndeadCompanionLVL=16	TYPE:UndeadCompanion	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|8	ABILITY:Special Ability|AUTOMATIC|Undead Companion ~ Blood Bond
 FOLLOWER:UndeadCompanionLVL=19	TYPE:UndeadCompanion	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|9	ABILITY:Special Ability|AUTOMATIC|Undead Companion ~ Spell Resistance	SR:mastervar("UndeadCompanionLVL")+5			

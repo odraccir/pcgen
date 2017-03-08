@@ -62,10 +62,3 @@ Vipergout				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Summoning	DESCRIPTOR:See te
 Wall of Limbs				TYPE:Spell	SCHOOL:Evocation			CLASSES:Sorcerer=5|Wizard=5	COMPS:V, S	CASTTIME:1 round	RANGE:Medium	TARGETAREA:Wall of whirling limbs up to 20-ft long/level, or a ring of whirling limbs with a radius of up to 5-ft/2 levels, either form 20-ft high.	DURATION:1 round/level	SAVEINFO:Reflex half or Reflex negates (see text)	SPELLRES:Yes	DESC:An immobile, vertical curtain of whirling limbs springs into existence.	SOURCEPAGE:SS30											
 Weapon of Energy			VARIANTS:Acid|Cold|Electricity|Fire|Sonic	TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:See text	CLASSES:Cleric=4|Sorcerer=4|Wizard=4	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:One weapon.	DURATION:1 round/level	SAVEINFO:Fortitude negates (harmless, object)	SPELLRES:No	DESC:You cause a weapon to gain the ability to deal energy damage in addition to its other abilities, similar to how a flaming burst weapon deals extra fire damage on a hit or critical hit.	SOURCEPAGE:SS30											
 Wings of the Sea				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Cleric=2|Druid=1|Ranger=1|Sorcerer=2|Wizard=2	COMPS:S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:You or person touched.	DURATION:1 minute/level	SAVEINFO:Fortitude negates (harmless)	SPELLRES:Yes	DESC:This spell increases the touched creature's swim speed by 30 feet. Material Component: A drop of water.	SOURCEPAGE:SS30						TEMPBONUS:ANYPC|MOVEADD|TYPE=Swim|30					
-																												
-#																												
-Planar Ally.COPY=Planar Ally	KEY:Planar Ally ~ Water Elemental																											
-Planar Ally ~ Water Elemental.MOD	OUTPUTNAME:Planar Ally	DESCRIPTOR:.CLEAR	DESCRIPTOR:Water	DESC:Summon Water Elemental only.	SOURCEPAGE:SS30																							
-																												
-Dominate Animal.COPY=Dominate Animal	KEY:Dominate Animal ~ Reptiles only																											
-Dominate Animal ~ Reptiles only.MOD	OUTPUTNAME:Dominate Animal	DESC:Reptiles only.	SOURCEPAGE:SS30																									

@@ -58,7 +58,7 @@ CLASS:Ex-Apostole of Peace	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Craft (Alc
 														
 CLASS:Beloved of Valarian	HD:10	TYPE:Prestige	FACT:Abb|BVa	MAXLEVEL:10	SOURCEPAGE:BoED	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:BelovedOfValarianLVL|0	BONUS:VAR|BelovedOfValarianLVL|CL	EXCLASS:Ex-Beloved of Valarian
 CLASS:Beloved of Valarian	PREALIGN:LG,NG,CG	!PREVAREQ:ExaltedFeat,0	PREGENDER:Female	PRESKILL:1,Ride=10	PRESKILL:1,Knowledge (Nature)=5	PREABILITY:3,CATEGORY=FEAT,Mounted Combat,Sacred Vow,Vow of Chastity	PRETEXT:Before she can become a beloved of Valarian, the character must meditate at a druid's grove and fast until she saves the life of an animal in danger. Should she fail to survive or aid an animal, she does not meet her unicorn companion and cannot advance in this class.							
-CLASS:Beloved of Valarian	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Handle Animal|Heal|Knowledge (Nature)|Ride|Sense motive|Survival												
+CLASS:Beloved of Valarian	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Handle Animal|Heal|Knowledge (Nature)|Ride|Sense Motive|Survival												
 CLASS:Beloved of Valarian	SPELLSTAT:WIS	FACT:SpellType|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4		BONUS:CASTERLEVEL|Beloved of Valarian|Caster_Level_Beloved_Of_Valarian	DEFINE:Caster_Level_Beloved_Of_Valarian|0	BONUS:VAR|Caster_Level_Beloved_Of_Valarian|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Beloved_Of_Valarian|0	BONUS:VAR|Caster_Level_BL_Beloved_Of_Valarian|charbonusto("PCLEVEL","Beloved of Valarian")	BONUS:VAR|Caster_Level_Highest__Divine|Caster_Level_Beloved_Of_Valarian+Caster_Level_BL_Beloved_Of_Valarian|TYPE=Base			
 1				ABILITY:Beloved of Valarian Class Feature|AUTOMATIC|Beloved of Valarian ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BelovedOfValarianProficiencies										
 #														
@@ -88,7 +88,7 @@ CLASS:Beloved of Valarian	SPELLSTAT:WIS	FACT:SpellType|Divine	MEMORIZE:NO	KNOWNS
 														
 CLASS:Ex-Beloved of Valarian	HD:10	TYPE:Prestige	FACT:Abb|XBVa	MAXLEVEL:10	SOURCEPAGE:BoED	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:BelovedOfValarianLVL|0	BONUS:VAR|BelovedOfValarianLVL|CL	
 CLASS:Ex-Beloved of Valarian	VISIBLE:NO													
-CLASS:Ex-Beloved of Valarian	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Handle Animal|Heal|Knowledge (Nature)|Ride|Sense motive|Survival												
+CLASS:Ex-Beloved of Valarian	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Handle Animal|Heal|Knowledge (Nature)|Ride|Sense Motive|Survival												
 1				ABILITY:Beloved of Valarian Class Feature|AUTOMATIC|Beloved of Valarian ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BelovedOfValarianProficiencies										
 														
 CLASS:Celestial Mystic	HD:4	TYPE:Prestige	FACT:Abb|CMy	MAXLEVEL:10	SOURCEPAGE:BoED	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:CelestialMysticLVL|0	BONUS:VAR|CelestialMysticLVL|CL	EXCLASS:Ex-Celestial Mystic
@@ -499,14 +499,14 @@ CLASS:Ex-Swanmay	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Handle Animal|H
 ###TODO:CONTIGUOUS:Paladin|Monk														
 CLASS:Sword of Righteousness	HD:8	TYPE:Prestige	FACT:Abb|SwR	MAXLEVEL:3	SOURCEPAGE:BoED	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:SwordOfRighteousnessLVL|0	BONUS:VAR|SwordOfRighteousnessLVL|CL	EXCLASS:Ex-Sword of Righteousness
 CLASS:Sword of Righteousness	PREALIGN:LG,NG,CG	!PREVAREQ:ExaltedFeat,0	PRETOTALAB:6	PREABILITY:1,CATEGORY=FEAT,TYPE.AllegianceTier	PREABILITY:2,CATEGORY=FEAT,TYPE.Exalted									
-CLASS:Sword of Righteousness	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Diplomacy|Handle Animal|Intimidate|Jump|Knowledge (Religion)|TYPE.Profession|Ride|Sense motive|Swim												
+CLASS:Sword of Righteousness	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Diplomacy|Handle Animal|Intimidate|Jump|Knowledge (Religion)|TYPE.Profession|Ride|Sense Motive|Swim												
 1				ABILITY:Sword of Righteousness Class Feature|AUTOMATIC|Sword of Righteousness ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SwordOfRighteousnessProficiencies										
 #														
 1				ABILITY:Sword of Righteousness Class Feature|AUTOMATIC|Sword of Righteousness ~ Bonus Exalted Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.SwordOfRighteousnessBonusExaltedFeat										
 														
 CLASS:Ex-Sword of Righteousness	HD:8	TYPE:Prestige	FACT:Abb|XSwR	MAXLEVEL:3	SOURCEPAGE:BoED	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:SwordOfRighteousnessLVL|0	BONUS:VAR|SwordOfRighteousnessLVL|CL	
 CLASS:Ex-Sword of Righteousness	VISIBLE:NO													
-CLASS:Ex-Sword of Righteousness	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Diplomacy|Handle Animal|Intimidate|Jump|Knowledge (Religion)|TYPE.Profession|Ride|Sense motive|Swim												
+CLASS:Ex-Sword of Righteousness	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Diplomacy|Handle Animal|Intimidate|Jump|Knowledge (Religion)|TYPE.Profession|Ride|Sense Motive|Swim												
 1				ABILITY:Sword of Righteousness Class Feature|AUTOMATIC|Sword of Righteousness ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SwordOfRighteousnessProficiencies										
 														
 CLASS:Troubadour of Stars	HD:6	TYPE:Prestige	FACT:Abb|ToS	MAXLEVEL:10	SOURCEPAGE:BoED	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:TroubadourOfStarsLVL|0	BONUS:VAR|TroubadourOfStarsLVL|CL	EXCLASS:Ex-Troubadour of Stars

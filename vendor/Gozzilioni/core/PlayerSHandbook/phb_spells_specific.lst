@@ -1,0 +1,133 @@
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																																				
+#																																							
+# Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus														
+Animal Growth.COPY=Animal Growth	KEY:Animal Growth ~ Vermins only
+Animal Growth ~ Vermins only.MOD	OUTPUTNAME:Animal Growth	TYPE:SpellLike	DESC:Vermins only.
+Animal Growth.COPY=Animal Growth	KEY:Animal Growth ~ Reptiles only																								
+Animal Growth ~ Reptiles only.MOD	OUTPUTNAME:Animal Growth	DESC:Affects ophidian or reptilian creatures only.																							
+
+Animal Messenger.COPY=Animal Messenger	KEY:Animal Messenger ~ Vermins only
+Animal Messenger ~ Vermins only.MOD	OUTPUTNAME:Animal Messenger	TYPE:SpellLike	DESC:Vermins only.
+
+Animal Shapes.COPY=Animal Shapes	KEY:Animal Shapes ~ Vermins only
+Animal Shapes ~ Vermins only.MOD	OUTPUTNAME:Animal Shapes	TYPE:SpellLike	DESC:Vermins only.
+Animal Shapes.COPY=Animal Shapes	KEY:Animal Shapes ~ Reptiles only																								
+Animal Shapes ~ Reptiles only.MOD	OUTPUTNAME:Animal Shapes	DESC:Affects ophidian or reptilian creatures only.																							
+
+Animal Trance.COPY=Animal Trance	KEY:Animal Trance ~ Vermins only
+Animal Trance ~ Vermins only.MOD	OUTPUTNAME:Animal Trance	TYPE:SpellLike	DESC:Vermins only.
+Animal Trance.COPY=Animal Trance	KEY:Animal Trance ~ Reptiles only																								
+Animal Trance ~ Reptiles only.MOD	OUTPUTNAME:Animal Trance	DESC:Affects ophidian or reptilian creatures only.																							
+
+Animate Objects.COPY=Animate Objects	KEY:Animate Objects ~ Stone only																							
+Animate Objects ~ Stone only.MOD	OUTPUTNAME:Animate Objects	TYPE:SpellLike	DESC:Stone object only.																					
+
+Astral Projection.COPY=Astral Projection	KEY:Astral Projection ~ Self only																								
+Astral Projection ~ Self only.MOD	OUTPUTNAME:Astral Projection	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only.																				
+
+Baleful Polymorph.COPY=Baleful Polymorph	KEY:Baleful Polymorph ~ Snake form only
+Baleful Polymorph ~ Snake form only.MOD	OUTPUTNAME:Baleful Polymorph	TYPE:SpellLike	DESC:Snake form only.
+
+Blur.COPY=Blur	KEY:Blur ~ Self only
+Blur ~ Self only.MOD	OUTPUTNAME:Blur	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only.
+
+Charm Animal.COPY=Charm Animal	KEY:Charm Animal ~ Vermins only
+Charm Animal ~ Vermins only.MOD	OUTPUTNAME:Charm Animal	TYPE:SpellLike	DESC:Vermins only.
+
+Charm Monster.COPY=Charm Monster	KEY:Charm Monster ~ Elementals only
+Charm Monster ~ Elementals only.MOD	OUTPUTNAME:Charm Monster	TYPE:SpellLike	DESC:Elementals only.
+
+Creeping Doom.COPY=Creeping Doom	KEY:Creeping Doom ~ Reptiles only																								
+Creeping Doom ~ Reptiles only.MOD	OUTPUTNAME:Creeping Doom	DESC:Composed of tiny snakes.																							
+
+Cure Light Wounds (Mass).COPY=Cure Light Wounds (Mass)	KEY:Cure Light Wounds (Mass) ~ Plants only
+Cure Light Wounds (Mass) ~ Plants only.MOD	OUTPUTNAME:Cure Light Wounds (Mass)	TYPE:SpellLike	DESC:Plants only can benefit.
+
+Disguise Self.COPY=Disguise Self	KEY:Disguise Self ~ Humanoid form only																							
+Disguise Self ~ Humanoid form only.MOD	OUTPUTNAME:Disguise Self	TYPE:SpellLike	DESC:Humanoid form only.																					
+
+Dominate Animal.COPY=Dominate Animal	KEY:Dominate Animal ~ Reptiles only																											
+Dominate Animal ~ Reptiles only.MOD	OUTPUTNAME:Dominate Animal	DESC:Reptiles only.																										
+Dominate Animal.COPY=Dominate Animal	KEY:Dominate Animal ~ Canines only																											
+Dominate Animal ~ Canines only.MOD	OUTPUTNAME:Dominate Animal	DESC:Canines only.																										
+
+Elemental Swarm.COPY=Elemental Swarm	KEY:Elemental Swarm ~ Air only																							
+Elemental Swarm ~ Air only.MOD	OUTPUTNAME:Elemental Swarm	TYPE:SpellLike	DESCRIPTOR:.CLEAR	DESCRIPTOR:Air	DESC:Air only																			
+Elemental Swarm.COPY=Elemental Swarm	KEY:Elemental Swarm ~ Earth only																							
+Elemental Swarm ~ Earth only.MOD	OUTPUTNAME:Elemental Swarm	TYPE:SpellLike	DESCRIPTOR:.CLEAR	DESCRIPTOR:Earth	DESC:Earth only																			
+Elemental Swarm.COPY=Elemental Swarm	KEY:Elemental Swarm ~ Fire only																							
+Elemental Swarm ~ Fire only.MOD	OUTPUTNAME:Elemental Swarm	TYPE:SpellLike	DESCRIPTOR:.CLEAR	DESCRIPTOR:Fire	DESC:Fire only																			
+Elemental Swarm.COPY=Elemental Swarm	KEY:Elemental Swarm ~ Water only
+Elemental Swarm ~ Water only.MOD	OUTPUTNAME:Elemental Swarm	TYPE:SpellLike	DESCRIPTOR:.CLEAR	DESCRIPTOR:Water	DESC:Water only	
+
+Enlarge Person.COPY=Enlarge Person	KEY:Enlarge Person ~ Self only
+Enlarge Person ~ Self only.MOD	OUTPUTNAME:Enlarge Person	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	
+
+Ethereal Jaunt.COPY=Ethereal Jaunt	KEY:Ethereal Jaunt ~ Self only
+Ethereal Jaunt ~ Self only.MOD	OUTPUTNAME:Ethereal Jaunt	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only plus 50 pounds of objects.	
+
+Invisibility.COPY=Invisibility	KEY:Invisibility ~ Self only
+Invisibility ~ Self only.MOD	OUTPUTNAME:Invisibility	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	
+
+Invisibility (Greater).COPY=Invisibility	KEY:Invisibility (Greater) ~ Self only
+Invisibility (Greater) ~ Self only.MOD	OUTPUTNAME:Invisibility (Greater)	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	
+
+Levitate.COPY=Levitate	KEY:Levitate ~ Self only
+Levitate ~ Self only.MOD	OUTPUTNAME:Levitate	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only plus 2000 pounds of objects.	
+
+Magic Circle against Evil.COPY=Magic Circle against Evil	KEY:Magic Circle against Evil ~ Self only
+Magic Circle against Evil ~ Self only.MOD	OUTPUTNAME:Magic Circle against Evil	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only.	
+
+Pass without Trace.COPY=Pass without Trace	KEY:Pass without Trace ~ Self only
+Pass without Trace ~ Self only.MOD	OUTPUTNAME:Pass without Trace	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.
+
+Permanent Image.COPY=Permanent Image	KEY:Permanent Image ~ visual and auditory elements only
+Permanent Image ~ visual and auditory elements only.MOD	OUTPUTNAME:Permanent Image	TYPE:SpellLike	DESC:Visual and auditory elements only.	
+
+Plane Shift.COPY=Plane Shift	KEY:Plane Shift ~ Self only
+Plane Shift ~ Self only.MOD	OUTPUTNAME:Plane Shift	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	
+
+Polymorph.COPY=Polymorph	KEY:Polymorph ~ Self only
+Polymorph ~ Self only.MOD	OUTPUTNAME:Polymorph	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	
+
+Protection from Evil.COPY=Protection from Evil	KEY:Protection from Evil ~ Self only																								
+Protection from Evil ~ Self only.MOD	OUTPUTNAME:Protection from Evil	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only.																				
+
+Scorching Ray.COPY=Scorching Ray	KEY:Scorching Ray ~ 1 ray
+Scorching Ray ~ 1 ray.MOD	OUTPUTNAME:Scorching Ray	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:1 ray.	
+Scorching Ray.COPY=Scorching Ray	KEY:Scorching Ray ~ 2 rays
+Scorching Ray ~ 2 rays.MOD	OUTPUTNAME:Scorching Ray	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:2 rays.	
+
+Speak with Animals.COPY=Speak with Animals	KEY:Speak with Animals ~ Bats only																																					
+Speak with Animals ~ Bats only.MOD	OUTPUTNAME:Speak with Animals	TYPE:SpellLike	DESC:Bats only.	
+Speak with Animals.COPY=Speak with Animals	KEY:Speak with Animals ~ Rats only																																					
+Speak with Animals ~ Rats only.MOD	OUTPUTNAME:Speak with Animals	TYPE:SpellLike	DESC:Rats only.	
+
+Summon Monster VI.COPY=Summon Monster VI	KEY:Summon Monster VI ~ Large Elemental
+Summon Monster VI ~ Large Elemental.MOD	OUTPUTNAME:Summon Monster VI	DESC:Summon Large Air, Earth, Fire or Water Elemental only.	
+Summon Monster VII.COPY=Summon Monster VII	KEY:Summon Monster VII ~ Huge Fire Elemental
+Summon Monster VII ~ Huge Fire Elemental.MOD	OUTPUTNAME:Summon Monster VII	DESCRIPTOR:.CLEAR	DESCRIPTOR:Fire	DESC:Summon Huge Fire Elemental only.	
+Summon Monster IX.COPY=Summon Monster IX	KEY:Summon Monster IX ~ Aquatic only
+Summon Monster IX ~ Aquatic only.MOD	OUTPUTNAME:Summon Monster IX	DESCRIPTOR:.CLEAR	DESCRIPTOR:Water	DESC:Summon Aquatic creatures only.	
+Summon Monster IX.COPY=Summon Monster IX	KEY:Summon Monster IX ~ Celestial only
+Summon Monster IX ~ Celestial only.MOD	OUTPUTNAME:Summon Monster IX	DESCRIPTOR:.CLEAR	DESCRIPTOR:Good	DESC:Summon celestial creatures only.	
+Summon Monster IX.COPY=Summon Monster IX	KEY:Summon Monster IX ~ Fiendish only
+Summon Monster IX ~ Fiendish only.MOD	OUTPUTNAME:Summon Monster IX	DESCRIPTOR:.CLEAR	DESCRIPTOR:Evil	DESC:Summon fiendish creatures only.	
+
+Summon Nature's Ally IX.COPY=Summon Nature's Ally IX	KEY:Summon Nature's Ally IX ~ Aquatic only																								
+Summon Nature's Ally IX ~ Aquatic only.MOD	OUTPUTNAME:Summon Nature's Ally IX	DESCRIPTOR:.CLEAR	DESCRIPTOR:Water	DESC:Summon water or Aquatic creatures only.																					
+
+Planar Ally.COPY=Planar Ally	KEY:Planar Ally ~ Water Elemental																											
+Planar Ally ~ Water Elemental.MOD	OUTPUTNAME:Planar Ally	DESCRIPTOR:.CLEAR	DESCRIPTOR:Water	DESC:Summon Water Elemental only.																								
+
+Summon Swarm.COPY=Summon Swarm	KEY:Summon Swarm ~ Vermins only
+Summon Swarm ~ Vermins only.MOD	OUTPUTNAME:Summon Swarm	TYPE:SpellLike	DESC:Vermins only.
+
+Teleport.COPY=Teleport	KEY:Teleport ~ Self only
+Teleport ~ Self only.MOD	OUTPUTNAME:Teleport	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only plus 50 pounds of objects.	
+
+Teleport (Greater).COPY=Teleport (Greater)	KEY:Teleport (Greater) ~ Self only
+Teleport (Greater) ~ Self only.MOD	OUTPUTNAME:Teleport, Greater	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only plus 50 pounds of objects.	
+
+Tongues.COPY=Tongues	KEY:Tongues ~ Self only
+Tongues ~ Self only.MOD	OUTPUTNAME:Tongues	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only.	

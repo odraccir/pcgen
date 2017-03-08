@@ -31,16 +31,7 @@ Zone of Revelation				TYPE:Spell	SCHOOL:Divination			CLASSES:Cleric=3|Sorcerer=4
 Dream Travel				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Sorcerer=8|Wizard=8	COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:You plus one additional creature touched per level.	DURATION:1 hour/level.	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:You and any creature you touch are drawn along a crystal arc of reverie to the edge of conscious thought and into the Region of Dreams.	SOURCEPAGE:MotP30, p.202							
 Mirror Walking				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Cleric=5|Sorcerer=7|Wizard=7	COMPS:V, S, F	CASTTIME:1 full round	RANGE:Touch	TARGETAREA:Creature touched and see text.	DURATION:Special	SAVEINFO:None	SPELLRES:Yes	DESC:You or the one you touch may pass through any mirror or reflecting surface of sufficient size onto the Plane of Mirrors. Focus: A mirror or other reflective surface of sufficient size to step through.	SOURCEPAGE:MotP30, p.205							
 																								
-### Teleport (Greater) ~ Self only.MOD	CLASS:.CLEARALL																							
-Elemental Swarm.COPY=Elemental Swarm	KEY:Elemental Swarm ~ Air only																							
-Elemental Swarm ~ Air only.MOD	OUTPUTNAME:Elemental Swarm	TYPE:SpellLike	DESCRIPTOR:.CLEAR	DESCRIPTOR:Air	DESC:Air only	SOURCEPAGE:MotP30																		
-																								
-Elemental Swarm.COPY=Elemental Swarm	KEY:Elemental Swarm ~ Earth only																							
-Elemental Swarm ~ Earth only.MOD	OUTPUTNAME:Elemental Swarm	TYPE:SpellLike	DESCRIPTOR:.CLEAR	DESCRIPTOR:Earth	DESC:Earth only	SOURCEPAGE:MotP30																		
-																								
-Elemental Swarm.COPY=Elemental Swarm	KEY:Elemental Swarm ~ Fire only																							
-Elemental Swarm ~ Fire only.MOD	OUTPUTNAME:Elemental Swarm	TYPE:SpellLike	DESCRIPTOR:.CLEAR	DESCRIPTOR:Fire	DESC:Fire only	SOURCEPAGE:MotP30																		
-																								
+#Specific
 Plane Shift.COPY=Plane Shift	KEY:Plane Shift ~ Deity's plane																							
 Plane Shift ~ Deity's plane.MOD	OUTPUTNAME:Plane Shift	TYPE:SpellLike	DESC:Plane Shift to Deity's plane only.	SOURCEPAGE:MotP30																				
 																								

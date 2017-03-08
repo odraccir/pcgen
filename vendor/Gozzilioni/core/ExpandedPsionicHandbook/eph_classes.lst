@@ -103,7 +103,7 @@ CLASS:Soulknife	STARTSKILLPTS:4	CSKILL:Autohypnosis|Climb|Concentration|TYPE.Cra
 13				ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Knife to the Soul|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulknifeKnifeToTheSoul									
 
 CLASS:Wilder	HD:6	TYPE:PC.Base	FACT:Abb|Wil	MAXLEVEL:NOLIMIT	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Wilder	DEFINE:WilderLVL|0	BONUS:VAR|WilderLVL|CL
-CLASS:Wilder	STARTSKILLPTS:4	CSKILL:Autohypnosis|Balance|Bluff|Climb|Concentration|TYPE.Craft|Escape Artist|Intimidate|Jump|Knowledge (Psionics)|Listen|TYPE.Profession|Psicraft|Sense motive|Spot|Swim|Tumble											
+CLASS:Wilder	STARTSKILLPTS:4	CSKILL:Autohypnosis|Balance|Bluff|Climb|Concentration|TYPE.Craft|Escape Artist|Intimidate|Jump|Knowledge (Psionics)|Listen|TYPE.Profession|Psicraft|Sense Motive|Spot|Swim|Tumble											
 CLASS:Wilder	SPELLSTAT:CHA	FACT:SpellType|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Wilder|CL								
 1				ABILITY:Wilder Class Feature|AUTOMATIC|Wilder ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.WilderProficiencies									
 1				ABILITY:Wilder Class Feature|AUTOMATIC|Wilder ~ Power Points per Day									
@@ -200,7 +200,7 @@ CLASS:Fist of Zuoken	SPELLSTAT:WIS	FACT:SpellType|Psionic	MEMORIZE:NO		BONUS:CAS
 
 CLASS:Illithid Slayer	HD:8	TYPE:PC.Prestige	FACT:Abb|IlS	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:IllithidSlayerLVL|0	BONUS:VAR|IllithidSlayerLVL|CL
 CLASS:Illithid Slayer	PRETOTALAB:4	PRESKILL:1,Knowledge (Dungeoneering)=4	PREABILITY:2,CATEGORY=FEAT,Track	PREVARGTEQ:TotalPowerPoints,1	PRETEXT:Special: Must have killed an illithid, either individually or as part of a group composed of no more than six members.								
-CLASS:Illithid Slayer	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Knowledge (Dungeoneering)|Listen|Psicraft|Sense motive|Spot|Survival											
+CLASS:Illithid Slayer	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Knowledge (Dungeoneering)|Listen|Psicraft|Sense Motive|Spot|Survival											
 1				ABILITY:Illithid Slayer Class Feature|AUTOMATIC|Illithid Slayer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.IllithidSlayerProficiencies									
 1				ABILITY:Illithid Slayer Class Feature|AUTOMATIC|Illithid Slayer ~ Power Known									
 #

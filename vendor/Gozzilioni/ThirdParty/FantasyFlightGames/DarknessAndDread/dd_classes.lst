@@ -153,7 +153,7 @@ CLASS:Herbalist		FACT:SpellType|Arcane	SPELLBOOK:YES		BONUS:CASTERLEVEL|Herbalis
 													
 CLASS:Kennelmaster	HD:8	TYPE:NPC.Base.Expert	FACT:Abb|Knm	MAXLEVEL:5	SOURCEPAGE:DD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|NPC	ROLE:Skill	DEFINE:KennelmasterLVL|0	BONUS:VAR|KennelmasterLVL|CL
 CLASS:Kennelmaster	PRETEXT:In order to enter the kennelmaster class after 1st level, a character must have ranks in Handle Animal equal to his total level + 3.												
-CLASS:Kennelmaster	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Handle Animal|Intimidate|Knowledge (Local)|Knowledge (Nature)|TYPE.Profession|Sense motive|Survival											
+CLASS:Kennelmaster	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Handle Animal|Intimidate|Knowledge (Local)|Knowledge (Nature)|TYPE.Profession|Sense Motive|Survival											
 1				ABILITY:Kennelmaster Class Feature|AUTOMATIC|Kennelmaster ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.KennelmasterProficiencies									
 #													
 1				ABILITY:Kennelmaster Class Feature|AUTOMATIC|Kennelmaster ~ Animal Husbandry|!PREABILITY:1,CATEGORY=ACF,TYPE.KennelmasterAnimalHusbandry									
@@ -162,7 +162,7 @@ CLASS:Kennelmaster	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Handle Animal|Intimid
 													
 CLASS:Medium	HD:6	TYPE:NPC.Base.Orator	FACT:Abb|Med	MAXLEVEL:5	SOURCEPAGE:DD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|NPC	ROLE:Skill	DEFINE:MediumLVL|0	BONUS:VAR|MediumLVL|CL
 CLASS:Medium	PRETEXT:In order to enter the medium class after 1st level, a character must have ranks in Sense Motive equal to her total character level + 3. In addition, she must have failed at least one Will save against a fear-based effect created by an undead creature or an outsider. Exposure to the supernatural is sometimes key to awakening a person's innate abilities.												
-CLASS:Medium	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Diplomacy|Gather Information|Intimidate|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Perform|Sense motive|Sleight of Hand|Spellcraft|Use Magic Device											
+CLASS:Medium	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Diplomacy|Gather Information|Intimidate|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Perform|Sense Motive|Sleight of Hand|Spellcraft|Use Magic Device											
 1				ABILITY:Medium Class Feature|AUTOMATIC|Medium ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MediumProficiencies									
 #													
 1				ABILITY:Medium Class Feature|AUTOMATIC|Medium ~ Sense the Unseen|!PREABILITY:1,CATEGORY=ACF,TYPE.MediumSenseTheUnseem									

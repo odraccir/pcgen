@@ -16,7 +16,7 @@ FOLLOWER:SummonMonsterVIIILVL=1	TYPE:Summon Monster VIII
 FOLLOWER:SummonMonsterIXLVL=1	TYPE:Summon Monster IX									
 
 ###Block:Special Mount										
-FOLLOWER:SpecialMountLVL=5	TYPE:Special Mount	HD:2	BONUS:COMBAT|AC|4|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|6	ABILITY:Special Ability|AUTOMATIC|Special Mount ~ Empathic Link|Special Mount ~ Improved Evasion|Special Mount ~ Share Saving Throws|Special Mount ~ Share Spells	ABILITY:Internal|AUTOMATIC|TYPE=ArmorProfBarding
+FOLLOWER:SpecialMountLVL=5	TYPE:Special Mount	HD:2	BONUS:COMBAT|AC|4|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|6	ABILITY:Special Ability|AUTOMATIC|Special Mount ~ Empathic Link|Special Mount ~ Improved Evasion|Special Mount ~ Share Saving Throws|Special Mount ~ Share Spells	BONUS:VAR|BardingAllowed|1|TYPE=Base
 FOLLOWER:SpecialMountLVL=8	TYPE:Special Mount	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|7	ABILITY:Special Ability|AUTOMATIC|Special Mount ~ Improved Speed				
 FOLLOWER:SpecialMountLVL=11	TYPE:Special Mount	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|8	ABILITY:Special Ability|AUTOMATIC|Special Mount ~ Command				
 FOLLOWER:SpecialMountLVL=15	TYPE:Special Mount	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	DEFINESTAT:MINVALUE|INT|9	ABILITY:Special Ability|AUTOMATIC|Special Mount ~ Spell Resistance	SR:mastervar("SpecialMountLVL")+5			

@@ -143,12 +143,8 @@ Channel Celestial Paragon (Talisid)				TYPE:Epic	SCHOOL:Transmutation		DESCRIPTO
 ### .MOD	CLASS:.CLEARALL																								
 Summon Monster I.COPY=Summon Monster I	KEY:Summon Tempest																								
 Summon Tempest.MOD	TYPE:SpellLike	OUTPUTNAME:Summon Tempest	SOURCEPAGE:BoED																						
-Astral Projection.COPY=Astral Projection	KEY:Astral Projection ~ Self only																								
-Astral Projection ~ Self only.MOD	OUTPUTNAME:Astral Projection	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only.	SOURCEPAGE:BoED																			
 Baleful Polymorph.COPY=Baleful Polymorph	KEY:Baleful Polymorph (Mass)																								
 Baleful Polymorph (Mass).MOD	OUTPUTNAME:Baleful Polymorph (Mass)	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:30-ft radius centered on you.	SOURCEPAGE:BoED																				
-Protection from Evil.COPY=Protection from Evil	KEY:Protection from Evil ~ Self only																								
-Protection from Evil ~ Self only.MOD	OUTPUTNAME:Protection from Evil	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only.	SOURCEPAGE:BoED																			
 #																									
 Create Water.MOD	CLASSES:Apostole of Peace=0																								
 Cure Minor Wounds.MOD	CLASSES:Apostole of Peace=0																								
@@ -171,7 +167,7 @@ Detect Undead.MOD	CLASSES:Apostole of Peace=1
 Endure Elements.MOD	CLASSES:Apostole of Peace=1																								
 Entropic Shield.MOD	CLASSES:Apostole of Peace=1																								
 Eyes of the Avoral.MOD	CLASSES:Apostole of Peace=1																								
-Invisibility to Undead.MOD	CLASSES:Apostole of Peace=1																								
+Hide from Undead.MOD	CLASSES:Apostole of Peace=1																								
 Obscuring Mist.MOD	CLASSES:Apostole of Peace=1																								
 Protection from Evil.MOD	CLASSES:Apostole of Peace=1																								
 Ray of Hope.MOD	CLASSES:Apostole of Peace=1																								
@@ -434,7 +430,7 @@ Heroic Valor.MOD	CLASSES:Emissary of Barachiel=4
 Hold Monster.MOD	CLASSES:Emissary of Barachiel=4																								
 Sending.MOD	CLASSES:Emissary of Barachiel=4																								
 Bless Weapon.MOD	CLASSES:Slayer of Domiel=1																								
-Change Self.MOD	CLASSES:Slayer of Domiel=1																								
+Disguise Self.MOD	CLASSES:Slayer of Domiel=1																								
 Deathwatch.MOD	CLASSES:Slayer of Domiel=1																								
 Divine Favor.MOD	CLASSES:Slayer of Domiel=1																								
 Ghost Sound.MOD	CLASSES:Slayer of Domiel=1																								
@@ -467,7 +463,7 @@ Shield of Faith.MOD	CLASSES:Vassal of Bahamut=1
 Align Weapon.MOD	CLASSES:Vassal of Bahamut=2																								
 Bear's Endurance.MOD	CLASSES:Vassal of Bahamut=2																								
 Bull's Strength.MOD	CLASSES:Vassal of Bahamut=2																								
-Change Self.MOD	CLASSES:Vassal of Bahamut=2																								
+Disguise Self.MOD	CLASSES:Vassal of Bahamut=2																								
 Resist Energy.MOD	CLASSES:Vassal of Bahamut=2																								
 Shield Other.MOD	CLASSES:Vassal of Bahamut=2																								
 Undetectable Alignment.MOD	CLASSES:Vassal of Bahamut=2																								

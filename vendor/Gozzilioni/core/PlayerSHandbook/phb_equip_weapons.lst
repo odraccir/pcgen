@@ -6,8 +6,8 @@ Grapple			PROFICIENCY:WEAPON|Grapple	TYPE:Weapon.Natural.Melee.Unarmed.Subdual	C
 Shieldbash (Light)			PROFICIENCY:WEAPON|Shieldbash (Light)	TYPE:Weapon.Melee.Martial.Bludgeoning.Unarmed.Shieldbash	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:PHB	SPROP:Shieldbash attacks are considered to be offhanded attacks										
 Shieldbash (Heavy)			PROFICIENCY:WEAPON|Shieldbash (Heavy)	TYPE:Weapon.Melee.Martial.Bludgeoning.Unarmed.Shieldbash	COST:0	WT:0	WIELD:OneHanded		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:PHB	SPROP:Shieldbash attacks are considered to be offhanded attacks										
 Touch Attack (Grapple)			PROFICIENCY:WEAPON|Grapple	TYPE:Weapon.Natural.Melee.Unarmed	COST:0	WT:0	WIELD:Light		SIZE:M		CRITRANGE:1	CRITMULT:x2	MODS:NO	SOURCEPAGE:PHB											
-Touch Attack (Ray)			PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Ranged.Unarmed	COST:0	WT:0	WIELD:Light		SIZE:M		CRITRANGE:1	CRITMULT:x2	MODS:NO	SOURCEPAGE:PHB											
-Touch Attack			PROFICIENCY:WEAPON|Spells (Touch)	TYPE:Weapon.Ranged.Unarmed	COST:0	WT:0	WIELD:Light		SIZE:M		CRITRANGE:1	CRITMULT:x2	MODS:NO	SOURCEPAGE:PHB											
+Touch Attack (Spells Ray)			PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Ranged.Unarmed	COST:0	WT:0	WIELD:Light		SIZE:M		CRITRANGE:1	CRITMULT:x2	MODS:NO	SOURCEPAGE:PHB											
+Touch Attack (Spells Touch)			PROFICIENCY:WEAPON|Spells (Touch)	TYPE:Weapon.Ranged.Unarmed	COST:0	WT:0	WIELD:Light		SIZE:M		CRITRANGE:1	CRITMULT:x2	MODS:NO	SOURCEPAGE:PHB											
 																									
 Armor Spikes			PROFICIENCY:WEAPON|Spiked Armor	TYPE:Weapon.Martial.Melee.Piercing.Metal.Unarmed.Accessories	COST:0	WT:0	WIELD:Light	SLOTS:0		DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PHB	SPROP:deals extra piercing damage on a successful grapple attack.										
 																									

@@ -28,7 +28,7 @@ Wind-Favored Sails (Greater)	TYPE:Wondrous	COST:67500	WT:600	SOURCEPAGE:AaEG30
 																
 Collar of Material Entrapment	TYPE:Wondrous.Amulet.Mount	COST:30000	WT:1	SOURCEPAGE:AaEG30 p.74												
 																
-Bracelet of Friends (Mount)	TYPE:Wondrous.Mount.Bracer	COST:19000	WT:0	SOURCEPAGE:AaEG30		EQMOD:CHARGED_ITEM_4|CHARGES[4]										
+Bracelet of Friends (Mount)	TYPE:Wondrous.Mount.Bracer	COST:19000	WT:0	SOURCEPAGE:AaEG30	SLOTS:1	EQMOD:CHARGED_ITEM_4|CHARGES[4]										
 Bridle of Ease	TYPE:Wondrous.Mount	COST:500	WT:1	SOURCEPAGE:AaEG30	SPROP:+5 competence bonus to Handle Animal checks of the trainer when training a mount.											
 Bridle of Ease (Exotic)	TYPE:Wondrous.Mount	COST:500	WT:1	SOURCEPAGE:AaEG30	SPROP:+5 competence bonus to Handle Animal checks of the trainer when training an exotic mount.											
 Clever Bridle (3 tricks)	TYPE:Wondrous.Mount	COST:1000	WT:1	SOURCEPAGE:AaEG30		BONUS:ABILITYPOOL|Animal Trick|3										
@@ -132,7 +132,7 @@ Everlasting Feedbag		TYPE:Wondrous.Mount	COST:15000	WT:1	SOURCEPAGE:AaEG30
 Eversoaking Sponge		TYPE:Wondrous	COST:26400	WT:0	SOURCEPAGE:AaEG30											
 Fan of furious Flame		TYPE:Wondrous	COST:18750	WT:1	SOURCEPAGE:AaEG30											
 Fruit Blossom Spike		TYPE:Wondrous	COST:5800	WT:0	SOURCEPAGE:AaEG30											
-Gloves of Brachiation		TYPE:Wondrous.Glove	COST:4000	WT:0	SOURCEPAGE:AaEG30	SPROP:allow the wearer to travel from branch to branch using only her arms, as a monkey or gibbon would. As long as she is at medium encumbrance or less, the wearer can move at her full speed through the tree canopy.	BONUS:SKILL|Jump|10|TYPE=Circumstance									
+Gloves of Brachiation		TYPE:Wondrous.Glove	COST:4000	WT:0	SOURCEPAGE:AaEG30	SPROP:allow the wearer to travel from branch to branch using only her arms, as a monkey or gibbon would. As long as she is at medium encumbrance or less, the wearer can move at her full speed through the tree canopy.	BONUS:SKILL|Jump|10|TYPE=Circumstance	SLOTS:2								
 Goggles of Day		TYPE:Wondrous.Eyegear	COST:4000	WT:0	SOURCEPAGE:AaEG30											
 Hammersphere		TYPE:Wondrous	COST:2500	WT:0	SOURCEPAGE:AaEG30											
 Hat of Anonimity		TYPE:Wondrous.Headgear	COST:34050	WT:0	SOURCEPAGE:AaEG30	SPROP:continuous Nondetection.	BONUS:SKILL|Hide|10									
@@ -169,7 +169,7 @@ Burrowing Pitons		TYPE:Wondrous	COST:380	WT:.5	SOURCEPAGE:AaEG30	BONUS:SKILL|Cli
 Pixie Dust		TYPE:Wondrous.Consumable	COST:2700	WT:0	SOURCEPAGE:AaEG30											
 Portable Bridge		TYPE:Wondrous	COST:36000	WT:1	SOURCEPAGE:AaEG30	SPROP:On command the statue of the bridge turn into a bridge 5-ft wide and 5-ft to 50-ft length										
 Preserving Jar		TYPE:Wondrous.Container	COST:3000	WT:2	SOURCEPAGE:AaEG30	CONTAINS:2|Any										
-Restricting Band		TYPE:Wondrous.Bracer	COST:5400	WT:2	SOURCEPAGE:AaEG30	SPROP:Grows and Shriks on command. Escape Artist DC 30 to escape.										
+Restricting Band		TYPE:Wondrous.Bracer	COST:5400	WT:2	SOURCEPAGE:AaEG30	SPROP:Grows and Shriks on command. Escape Artist DC 30 to escape.	SLOTS:2									
 Rope of Stone		TYPE:Wondrous	COST:11800	WT:5	SOURCEPAGE:AaEG30	SPROP:On command the rope become hard as stone.										
 Saddle of Growth		TYPE:Wondrous.Mount.Saddle	COST:48600	WT:25	SOURCEPAGE:AaEG30	SPROP:On command the saddle causes a horses mule or donkey to increase size by one size category.										
 Saddle of the Pegasus		TYPE:Wondrous.Mount.Saddle	COST:16875	WT:25	SOURCEPAGE:AaEG30	SPELLS:Saddle of the Pegasus|TIMES=3|CASTERLEVEL=5|Fly,14										

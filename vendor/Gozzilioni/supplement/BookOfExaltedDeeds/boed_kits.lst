@@ -1,10 +1,5 @@
 SOURCELONG:Book of Exalted Deeds	SOURCESHORT:BoED	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
 #
-STARTPACK:Planetouched (Aasimar) Companion	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Planetouched (Aasimar)
-STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
-CLASS:Warrior	LEVEL:1
-ABILITY:CATEGORY=FEAT|Improved Initiative
-
 STARTPACK:Dragon Cloud Stats	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dragon Cloud
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=11
 
