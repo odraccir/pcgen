@@ -67,5 +67,7 @@ NAME:VariantGoodSpells		VAR:EXD_VAR_GOODSPELLS		DEFAULT:No					DESC:Consider the
 # Epic Level Handbook
 NAME:VariantPlanarTurning		VAR:ELH_VAR_TURNOUTSIDER		DEFAULT:Yes	EXCLUDE:ELH_VAR_TURNOUTSIDER_AXIS				DESC:The Planar Turning feat turns all outsiders.
 NAME:VariantPlanarTurningAXIS		VAR:ELH_VAR_TURNOUTSIDER_AXIS		DEFAULT:No	EXCLUDE:ELH_VAR_TURNOUTSIDER				DESC:The Planar Turning feat stresses the good-versus-evil or law-versus-chaos axis of alignment.
-# Draconomicon
-NAME:HouseruleColossalPlusFlySpeed		VAR:DRAC_VAR_COLOSSALPLUSFLYSPEED		DEFAULT:No					DESC:When a dragon reaches Colossal+, its fly speed increases by another 50 feet, and its maneuverability remains clumsy. A dragon’s land speed and other special movement's (swim, burrow, and so on) do not change.
+# # Draconomicon
+# NAME:HouseruleColossalPlusFlySpeed		VAR:DRAC_VAR_COLOSSALPLUSFLYSPEED		DEFAULT:No					DESC:When a dragon reaches Colossal+, its fly speed increases by another 50 feet, and its maneuverability remains clumsy. A dragon’s land speed and other special movement's (swim, burrow, and so on) do not change.
+# # Unearthed Arcana
+# NAME:VariantBloodlines		VAR:UA_VAR_BLOODLINES		DEFAULT:NO					DESC:Every so often, an individual is born who stands out a little from the rest of his people. This individual displays characteristics associated with a different kind of creature, such as a dragon, giant, celestial, or demon. Such a character is said to have a bloodline.

@@ -9,7 +9,7 @@ DRAGON_VIRTUAL_CATEGORY	CATEGORY:Internal	VISIBLE:NO	BONUS:VAR|DragonSpellResist
 CATEGORY=Internal|DRAGON_ATTACKS.MOD	ABILITY:Internal|AUTOMATIC|DRAGON_ATTACKS_C+|PRESIZEEQ:P
 DRAGON_ATTACKS_C+	CATEGORY:Internal	VISIBLE:NO	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,6d6|Claws,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,4d8|Wings,Weapon.Natural.Melee.Finesseable.Bludgeoning,*2,4d6|Tail Slap,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,4d8|Crush,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,6d6|Tail Sweep,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,4d6																																																																																																																																																																																																																																																																																																																				
 
-CATEGORY=Internal|DRAGON_FLY_SPEED.MOD	ABILITY:Internal|AUTOMATIC|DRAGON_FLY_SPEED_250|PRESIZEEQ:P|PRERULE:1,DRAC_VAR_COLOSSALPLUSFLYSPEED
+CATEGORY=Internal|DRAGON_FLY_SPEED.MOD	ABILITY:Internal|AUTOMATIC|DRAGON_FLY_SPEED_250|PRESIZEEQ:P|PREVARGTEQ:DRAC_VAR_COLOSSALPLUSFLYSPEED,1
 DRAGON_FLY_SPEED_250		CATEGORY:Internal	VISIBLE:NO	DEFINE:Maneuverability|0	BONUS:VAR|Maneuverability|1|TYPE=Base	MOVE:Fly,250																																																																																																																																																																																																																																																																																																																	
 
 ###NOTE: DragonSizeGroup: see g_abilities.lst
@@ -99,3 +99,5 @@ Acid	CATEGORY:Special Ability	TYPE:TalonOfTiamatImmunity.SpecialQuality.Extraord
 Cold	CATEGORY:Special Ability	TYPE:TalonOfTiamatImmunity.SpecialQuality.Extraordinary	VISIBLE:DISPLAY		KEY:Talon of Tiamat ~ Energy Immunity ~ Cold		ABILITY:Special Ability|AUTOMATIC|Immunity to Cold	SOURCEPAGE:Drac
 Electricity	CATEGORY:Special Ability	TYPE:TalonOfTiamatImmunity.SpecialQuality.Extraordinary	VISIBLE:DISPLAY		KEY:Talon of Tiamat ~ Energy Immunity ~ Electricity		ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity	SOURCEPAGE:Drac
 Fire	CATEGORY:Special Ability	TYPE:TalonOfTiamatImmunity.SpecialQuality.Extraordinary	VISIBLE:DISPLAY		KEY:Talon of Tiamat ~ Energy Immunity ~ Fire		ABILITY:Special Ability|AUTOMATIC|Immunity to Fire	SOURCEPAGE:Drac
+
+Variant Rule ~ Colossal+ fly speed	CATEGORY:Internal	TYPE:AltRules	VISIBLE:DISPLAY	COST:0	DEFINE:DRAC_VAR_COLOSSALPLUSFLYSPEED|0	BONUS:VAR|DRAC_VAR_COLOSSALPLUSFLYSPEED|1|TYPE=Base
