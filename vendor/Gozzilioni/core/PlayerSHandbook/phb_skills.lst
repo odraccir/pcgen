@@ -88,6 +88,7 @@ Use Rope	USEUNTRAINED:YES		KEYSTAT:DEX	TYPE:Skill.Dexterity.Use Rope	SOURCEPAGE:
 																																																		
 ###Block: Situation Skills for output only																																																		
 # Skill Name																																																		
+Appraise.MOD	SITUATION:Stone or Metal object																																																	
 Climb.MOD	SITUATION:Using a rope																																																	
 Concentration.MOD	SITUATION:Cast defensively																																																	
 Disguise.MOD	SITUATION:Act in character																																																	

@@ -50,7 +50,7 @@ TEMPLATE:ff_templates.lst
 #
 SKILL:&Gozzilioni/Old30/complete_manuals/SavageSpecies/ss_skills.lst|!PRECAMPAIGN:1,Savage Species 3.0
 #
-HIDETYPE:SKILL|Profession (Siege Engineer)|Profession (Soldier)
+HIDETYPE:SKILL|Profession (Siege Engineer)|Profession (Soldier)|Perform (Melody)|Perform (Ode)|Perform (Storytelling)
 # HIDETYPE:FEAT|AllegianceTier|AnointedKnight|ExaltedArcanist|InitiateOfPistisSophia|CallFlyingMount|VassalOfBahamut|Wonderworker
 #
 ABILITY:ff_abilities_races_MotP.lst|PRECAMPAIGN:1,Manual of the Planes 3.0
