@@ -1604,8 +1604,8 @@ my @PRE_Tags = (
     '!PREARMORPROF',
     'PREARMORTYPE',
     '!PREARMORTYPE',
-    'PREATT',
-    '!PREATT',
+    # 'PREATT',
+    # '!PREATT',
     'PREBASESIZEEQ',
     '!PREBASESIZEEQ',
     'PREBASESIZEGT',
@@ -2252,6 +2252,7 @@ my %master_order = (
         'FACT:ClassType:*',
         'FACT:Abb:*',
         'EXCHANGELEVEL',
+        'SERVESAS',
     ],
 
     'CLASS Level' => [
@@ -3762,6 +3763,7 @@ if ( 0 && $conversion_enable{'ALL:Convert SPELL to SPELLS'} ) {
 if ( 0 && $conversion_enable{'TEMPLATE:HITDICESIZE to HITDIE'} ) {
     push @{ $master_order{'TEMPLATE'} }, 'HITDICESIZE';
 }
+
 # Working variables
 my %column_with_no_tag = (
 
@@ -4157,6 +4159,8 @@ for my $stat (@valid_system_stats) {
     $valid_entities{'DEFINE Variable'}{ 'ATWILL' }++;
 # Add the magical values 'UNLIM' fot the CONTAINS tag.
     $valid_entities{'DEFINE Variable'}{ 'UNLIM'  }++;
+# Add the magical values 'LIST' fot the BONUS VARtag.
+    $valid_entities{'DEFINE Variable'}{ 'LIST'  }++;
 
 
 ################################################################################
@@ -4387,7 +4391,7 @@ my %tagheader = (
     '!PREAGESET'            => 'Maximum Age',
         'PREALIGN'              => 'Required AL',
         '!PREALIGN'             => 'Restricted AL',
-        'PREATT'                => 'Req. Att.',
+        # 'PREATT'                => 'Req. Att.',
         'PREARMORPROF'          => 'Req. Armor Prof.',
         '!PREARMORPROF'         => 'Prohibited Armor Prof.',
         'PREBASESIZEEQ'         => 'Required Base Size',
@@ -6406,7 +6410,7 @@ sub FILETYPE_parse {
 
     # No reformating needed?
     return $lines_ref unless $cl_options{output_path} && $writefiletype{$file_type};
-
+    
     # Now on to all the non header lines.
     CORE_LINE:
     for ( my $line_index = 0; $line_index < @newlines; $line_index++ ) {
@@ -6428,20 +6432,20 @@ sub FILETYPE_parse {
         my $sep = $line_info->{Sep} || "\t";
         if ( $sep ne "\t" ) {
 
-            # First, the tag known in master_order
-            for my $tag ( @{ $master_order{$curent_linetype} } ) {
-                if ( exists $line_tokens->{$tag} ) {
-                    $newline .= join $sep, @{ $line_tokens->{$tag} };
-                    $newline .= $sep;
-                    delete $line_tokens->{$tag};
-                }
-            }
+			# First, the tag known in master_order
+			for my $tag ( @{ $master_order{$curent_linetype} } ) {
+				if ( exists $line_tokens->{$tag} ) {
+					$newline .= join $sep, @{ $line_tokens->{$tag} };
+					$newline .= $sep;
+					delete $line_tokens->{$tag};
+				}
+			}
 
-            # The remaining tag are not in the master_order list
-            for my $tag ( sort keys %$line_tokens ) {
-                $newline .= join $sep, @{ $line_tokens->{$tag} };
-                $newline .= $sep;
-            }
+			# The remaining tag are not in the master_order list
+			for my $tag ( sort keys %$line_tokens ) {
+				$newline .= join $sep, @{ $line_tokens->{$tag} };
+				$newline .= $sep;
+			}
 
             # We remove the extra separator
             for ( my $i = 0; $i < length($sep); $i++ ) {
@@ -6459,15 +6463,11 @@ sub FILETYPE_parse {
 
         my $mode   = $line_info->{Mode};
         my $format = $line_info->{Format};
-#       my $header = $line_info->{Header};
-        my $header;
+        my $header = $line_info->{Header};
         if ( $conversion_enable{'No reformat message'} ) {
            $header = NO_HEADER;
         } 
-        else {
-           $header = $line_info->{Header};
-        }
-
+        
         if ( $mode == SINGLE || $format == LINE ) {
 
             # LINE: the line if formatted independently.
@@ -6478,20 +6478,20 @@ sub FILETYPE_parse {
                 # between the columns. If there is a header in the previous
                 # line, we remove it.
 
-                # First, the tag known in master_order
-                for my $tag ( @{ $master_order{$curent_linetype} } ) {
-                    if ( exists $line_tokens->{$tag} ) {
-                        $newline .= join $sep, @{ $line_tokens->{$tag} };
-                        $newline .= $sep;
-                        delete $line_tokens->{$tag};
-                    }
-                }
-                
-                # The remaining tag are not in the master_order list
-                for my $tag ( sort keys %$line_tokens ) {
-                    $newline .= join $sep, @{ $line_tokens->{$tag} };
-                    $newline .= $sep;
-                }
+				# First, the tag known in master_order
+				for my $tag ( @{ $master_order{$curent_linetype} } ) {
+					if ( exists $line_tokens->{$tag} ) {
+						$newline .= join $sep, @{ $line_tokens->{$tag} };
+						$newline .= $sep;
+						delete $line_tokens->{$tag};
+					}
+				}
+				
+				# The remaining tag are not in the master_order list
+				for my $tag ( sort keys %$line_tokens ) {
+					$newline .= join $sep, @{ $line_tokens->{$tag} };
+					$newline .= $sep;
+				}
 
                 # We remove the extra separator
                 for ( my $i = 0; $i < length($sep); $i++ ) {
@@ -7782,7 +7782,7 @@ BEGIN {
                 );
             }
 
-            if ( $tag_name eq 'BONUS:CHECKS' ) {
+            if ( ( $tag_name eq 'BONUS:CHECKS' ) || ( $tag_name eq 'BONUS:SAVE' ) ) {
                 # BONUS:CHECKS|<check list>|<jep> {|TYPE=<bonus type>} {|<pre tags>}
                 # BONUS:CHECKS|ALL|<jep>          {|TYPE=<bonus type>} {|<pre tags>}
                 # <check list> :=   ( <check name 1> { | <check name 2> } { | <check name 3>} )
@@ -9387,15 +9387,6 @@ BEGIN {
                 }
             }
         }
-        # elsif ( $tag_name eq 'ABB' and $linetype eq 'ALIGNMENT') {
-            # my %seen = ();
-            # my @verified_alignments = ();
-            
-            # $logging->ewarn ( DEBUG, qq{alignment $tag_name $tag_value}, $file_for_error, $line_for_error );
-
-            # push @verified_alignments, $tag_value;
-            # @valid_system_alignments = grep { !$seen{$_}++ } @verified_alignments;
-        # }
         elsif ( $tag_name eq 'CHANGEPROF' ) {
 
         # "CHANGEPROF:" <list of weapons> "=" <new prof> { "|"  <list of weapons> "=" <new prof> }*
@@ -10214,6 +10205,15 @@ sub scan_for_deprecated_tags {
                $line_for_error
           );
      }
+
+     # [  ]  BONUS:COMBAT|BAB This sub-token is deprecated - Use BASEAB instead. 
+     if ( $line =~ /\sCHOOSE:COMBAT|BAB\=/) {
+          $logging->ewarn( $error_level,
+               qq{BONUS:COMBAT|BAB is deprecated 6.03.04 - Remove 6.0. Use BONUS:COMBAT|BASEAB instead},
+               $file_for_error,
+               $line_for_error
+          );
+     }
 }
 ### end of the function scan_for_deprecated_tags
            
@@ -10273,7 +10273,7 @@ BEGIN {
     );
 
     sub add_to_xcheck_tables {
-        my ($entry_type,           # Type of the entry that must be cheacked
+        my ($entry_type,           # Type of the entry that must be checked
             $tag_name,             # Name of the tag for message display
                                    # If tag name contains @@, it will be replaced
                                    # by the entry text from the list for the message.
@@ -10292,7 +10292,7 @@ BEGIN {
         # We remove the empty elements in the list
         @list = grep { $_ ne "" } @list;
 
-        # If the list of entry is empty, we retrun immediately
+        # If the list of entry is empty, we return immediately
         return if scalar @list == 0;
 
         # We set $tag_name properly for the substitution
@@ -11529,6 +11529,7 @@ sub additionnal_tag_parsing {
     if (   $conversion_enable{'ALL:Add TYPE=Base.REPLACE'}
         && $tag_name eq "BONUS:COMBAT"
         && $tag_value =~ /^\|(BAB)\|/i
+        && $tag_value =~ /^\|(BASEAB)\|/i
     ) {
 
         # Is the BAB in uppercase ?

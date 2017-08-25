@@ -45,3 +45,16 @@ Go back a commit to {sha1} and reset master to point to {sha1}
 
 > $ git reset --hard {sha1}
 > $ git push {remotename} {master|branch} --force
+
+save into the stash all modified files
+> $ git stash
+including the untracked:
+> $ git stash --include-untracked
+
+list the stashes:
+> $ git stash list
+
+take the stash and apply it into the current branch and then eliminate the stash
+> $ git stash pop
+without eliminating the stash
+> $ git stash apply
