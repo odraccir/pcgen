@@ -1,0 +1,11 @@
+SOURCELONG:Unearthed Arcana	SOURCESHORT:UA	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-02
+#																																																		
+# Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:																																													
+Craft (Shipbuilding)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Shipbuilding)	SOURCEPAGE:UA	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Shipbuilding)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=ShipbuildingTools																																										
+Craft (Shipbuilding)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Craft ~ Shipbuilding	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Shipbuilding).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Shipbuilding)"),1]																																									
+Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Shipbuilding|var("SKILL.Craft (Shipbuilding).MISC")	BONUS:SKILLRANK|Craft ~ Shipbuilding|skillinfo("TOTALRANK", "Craft (Shipbuilding)")																																									
+Knowledge (Forbidden Lore)	USEUNTRAINED:NO			TYPE:Skill.None.Knowledge.Knowledge (Forbidden Lore)	SOURCEPAGE:UA	PREVARGTEQ:UA_VAR_USESANITY,1																																												
+Knowledge (Mental Therapy)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Knowledge.Knowledge (Mental Therapy)	SOURCEPAGE:UA	PREVARGTEQ:UA_VAR_USESANITY,1																																												
+
+Appraise.MOD	SITUATION:Ice object																																																	
+Spot.MOD	SITUATION:Bright light area

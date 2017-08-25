@@ -1,0 +1,4 @@
+SOURCELONG:Dragon Magazine 312	SOURCESHORT:DM312	SOURCEWEB:http://dnd.wizards.com	SOURCEDATE:2003-10
+#																																							
+# Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus														
+Unholy Sword				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Evil		COMPS:V, S	CASTTIME:1 standard action	RANGE:Tpuch	TARGETAREA:Melee weapon touched..	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:This spell allows you to channel unholy power into your sword or any other melee weapon you choose.	SOURCEPAGE:DM312																						

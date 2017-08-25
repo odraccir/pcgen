@@ -15,11 +15,6 @@ Maneuverability(Average)	CATEGORY:Special Ability	TYPE:Maneuverability	VISIBLE:N
 Maneuverability(Poor)	CATEGORY:Special Ability	TYPE:Maneuverability	VISIBLE:NO	ASPECT:Maneuverability|Poor																																						
 Maneuverability(Clumsy)	CATEGORY:Special Ability	TYPE:Maneuverability	VISIBLE:NO	ASPECT:Maneuverability|Clumsy																																						
 																																										
-# NPC Single Simple Weapon Prof.																																										
-Single Simple Weapon Proficiency	CATEGORY:Special Ability	TYPE:ClassFeatures.SpecialQuality	VISIBLE:YES	DESC:You understand how to use %1|%LIST															STACK:NO	MULT:YES	CHOOSE:WEAPONPROFICIENCY|!PC[TYPE=Simple]	SELECT:1	AUTO:WEAPONPROF|%LIST									SOURCEPAGE:DMG										
-# NPC Class skills.																																										
-Single Class Skill	CATEGORY:Special Ability	TYPE:ClassFeatures.ClassSkill.SpecialQuality	VISIBLE:YES	DESC:%1 is class skill|%LIST															STACK:NO	MULT:YES	CHOOSE:SKILL|ALL	SELECT:1	CSKILL:LIST									SOURCEPAGE:DMG										
-																																										
 Spell-Like Ability Selection	CATEGORY:Special Ability		VISIBLE:YES											BONUS:SPELLCAST|CLASS=%LIST;LEVEL=5|-1						MULT:YES	CHOOSE:CLASS|PC,SPELLTYPE=Arcane										SORTKEY:Class_Archmage	SOURCEPAGE:DMG										
 																																										
 # PC Specific Weapon Prof.																																										

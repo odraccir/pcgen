@@ -48,8 +48,8 @@ TEMPLATE:eph_templates.lst
 ABILITY:eph_abilities_MM2.lst|PRECAMPAIGN:1,Monster Manual 2
 ABILITY:eph_abilities_classes_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
 ABILITY:eph_abilities_races_FF.lst|PRECAMPAIGN:1,Fiend Folio
-ABILITY:eph_classes_FF.lst|PRECAMPAIGN:1,Fiend Folio
-ABILITY:eph_races_FF.lst|PRECAMPAIGN:1,Fiend Folio
+CLASS:eph_classes_FF.lst|PRECAMPAIGN:1,Fiend Folio
+RACE:eph_races_FF.lst|PRECAMPAIGN:1,Fiend Folio
 TEMPLATE:eph_templates_FF.lst|PRECAMPAIGN:1,Fiend Folio
 
 #

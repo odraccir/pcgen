@@ -17,13 +17,20 @@ PRECAMPAIGN:1,Core Ruleset
 
 ABILITY:h_abilities.lst
 EQUIPMENT:h_equip.lst
-EQUIPMENT:h_equip_magic_items_DMG.lst
-EQUIPMENT:h_equip_magic_items_Drac.lst
 EQUIPMOD:h_equipmods.lst
 SPELL:h_spells.lst
 SKILL:h_skills.lst
 
-HIDETYPE:SKILL|Knowledge (Underdark)
+EQUIPMENT:h_equip_magic_items_DMG.lst|PRECAMPAIGN:1,INCLUDES=Dungeon Master's Guide
+
+EQUIPMENT:h_equip_magic_items_Drac.lst|PRECAMPAIGN:1,INCLUDES=Draconomicon
+
+ABILITY:h_abilities_classes_UA.lst|PRECAMPAIGN:1,INCLUDES=Unearthed Arcana
+ABILITY:h_abilities_UA.lst|PRECAMPAIGN:1,INCLUDES=Unearthed Arcana
+ABILITYCATEGORY:h_abilitycategories_UA.lst|PRECAMPAIGN:1,INCLUDES=Unearthed Arcana
+CLASS:h_classes_UA.lst|PRECAMPAIGN:1,INCLUDES=Unearthed Arcana
+
+HIDETYPE:SKILL|Knowledge (Underdark)|Craft (Poisonmaking)
 
 # ENTRY DATE: 2015-08 
 # LST MONKEY: Riccardo

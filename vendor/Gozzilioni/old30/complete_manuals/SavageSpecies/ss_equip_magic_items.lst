@@ -21,7 +21,7 @@ Bag of Boulders		TYPE:Wondrous.Container	COST:1200	WT:0	SOURCEPAGE:SS30	CONTAINS
 Arms of the Naga		TYPE:Wondrous.Resizeable	COST:56000	WT:8	SOURCEPAGE:SS30
 Babbling Wheel		TYPE:Wondrous.MusicalInstrument	COST:20000	WT:10	SOURCEPAGE:SS30	SPROP:All sane creatures within 30 feet of the babbling wheel must succeed on a Will save (DC 11) or be affected as though by a hypnotism spell for 2d4 rounds.
 Circlet of Rest		TYPE:Wondrous.Headgear	COST:12500	WT:0	SOURCEPAGE:SS30	SPROP:When worn, it provides a +10 resistance bonus against nightmare and dream casting (see Chapter 6) and also makes the wearer immune to dream.
-Cloak of Charms		TYPE:Wondrous.Cape	COST:54000	WT:1	SOURCEPAGE:SS30	SPELLS:Cloak of Charms|TIMES=1|CASTERLEVEL=15|Charm Animal|Charm Person|Command Plants	ABILITY:Special Ability|VIRTUAL|Wild Empathy	BONUS:VAR|WildEmpathyBonus|15
+Cloak of Charms		TYPE:Wondrous.Cape	COST:54000	WT:1	SOURCEPAGE:SS30	SPELLS:Cloak of Charms|TIMES=1|CASTERLEVEL=15|Charm Animal|Charm Person|Command Plants	ABILITY:Special Ability|VIRTUAL|Wild Empathy	BONUS:VAR|WildEmpathyBonus|15|TYPE=Base	BONUS:VAR|WildEmpathyMagicalBeastBonus|-4
 Cloak of Quills		TYPE:Wondrous.Cape	COST:2500	WT:1	SOURCEPAGE:SS30
 Cloaker Flute		TYPE:Wondrous.MusicalInstrument	COST:27225	WT:3	SOURCEPAGE:SS30	
 Dragon Mask		TYPE:Wondrous.Headgear	COST:44000	WT:2	SOURCEPAGE:SS30	BONUS:VAR|HasSeeInvisibilityVision|1|TYPE=Base

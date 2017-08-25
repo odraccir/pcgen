@@ -128,7 +128,7 @@ CLASS:Fensir	STARTSKILLPTS:2	MODTOSKILLS:YES
 3	BONUS:PCLEVEL|Wizard|1																						
 4	BONUS:PCLEVEL|Wizard|1																						
 																							
-CLASS:Jackal Lord	HD:8	TYPE:Monster		MAXLEVEL:8	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:MontrousHumanoidLVL|0	BONUS:VAR|MonstrousHumanoidLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/3)									
+CLASS:Jackal Lord	HD:8	TYPE:Monster		MAXLEVEL:8	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:MonstrousHumanoidLVL|0	BONUS:VAR|MonstrousHumanoidLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/3)									
 CLASS:Jackal Lord	PRERACETYPE:Monstrous Humanoid	PRERACE:1,Jackal Lord	OUTPUTNAME:Monstrous Humanoid	VISIBLE:NO																			
 CLASS:Jackal Lord	STARTSKILLPTS:2	MODTOSKILLS:YES																					
 1	ADD:SPELLCASTER|Cleric	ABILITY:Internal|AUTOMATIC|Cleric Class																					
@@ -202,7 +202,7 @@ CLASS:Varrangoin (Arcanist)	STARTSKILLPTS:2	MODTOSKILLS:YES
 7	BONUS:PCLEVEL|Sorcerer|1																						
 8	BONUS:PCLEVEL|Sorcerer|1																						
 																							
-CLASS:Fiend of Blasphemy	HD:8	TYPE:Prestige	FACT:Abb|FoB	MAXLEVEL:6	SOURCEPAGE:FF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:FiendOfBlasphemyLVL|0	BONUS:VAR|FiendOfBlasphemyLVL|CL										
+CLASS:Fiend of Blasphemy	HD:8	TYPE:Prestige	FACT:Abb|FoB	MAXLEVEL:6	SOURCEPAGE:FF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:FiendOfBlasphemyLVL|0	BONUS:VAR|FiendOfBlasphemyLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Fiend of Blasphemy	PRERACE:1,RACETYPE=Outsider	PRERACE:1,RACESUBTYPE=Evil	PRECHECKBASE:1,Will=7	PRESKILL:2,Bluff=10,Knowledge (Religion)=10	PREABILITY:1,CATEGORY=FEAT,Leadership	PRETEXT:Must have at least one spell-like ability that duplicates a spell effect of 4th level or higher.																	
 CLASS:Fiend of Blasphemy	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Disguise|Knowledge (Religion)|Listen|Search|Sense Motive|Spellcraft|Spot																					
 CLASS:Fiend of Blasphemy	SPELLSTAT:WIS	FACT:SpellType|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5	BONUS:DOMAIN|NUMBER|2																		
@@ -226,7 +226,7 @@ CLASS:Fiend of Blasphemy	SPELLSTAT:WIS	FACT:SpellType|Divine	MEMORIZE:NO	KNOWNSP
 5	CAST:0,2,1,1,1,0																						
 6	CAST:0,2,2,1,1,1																						
 																							
-CLASS:Fiend of Corruption	HD:6	TYPE:Prestige	FACT:Abb|FoC	MAXLEVEL:6	SOURCEPAGE:FF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:FiendOfCorruptionLVL|0	BONUS:VAR|FiendOfCorruptionLVL|CL										
+CLASS:Fiend of Corruption	HD:6	TYPE:Prestige	FACT:Abb|FoC	MAXLEVEL:6	SOURCEPAGE:FF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:FiendOfCorruptionLVL|0	BONUS:VAR|FiendOfCorruptionLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Fiend of Corruption	PRERACE:1,RACETYPE=Outsider	PRERACE:1,RACESUBTYPE=Evil	PRECHECKBASE:1,Will=7	PRESKILL:3,Bluff=10,Disguise=10,Sense Motive=10	PRETEXT:Must be able to use charm person or charm monster as a spell or spell-like ability																		
 CLASS:Fiend of Corruption	STARTSKILLPTS:2	CSKILL:Bluff|Diplomacy|Disguise|Knowledge (Religion)|Listen|Search|Sense Motive|Spot																					
 1				ABILITY:Fiend of Corruption Class Feature|AUTOMATIC|Fiend of Corruption ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.FiendOfCorruptionProficiencies																			
@@ -243,7 +243,7 @@ CLASS:Fiend of Corruption	STARTSKILLPTS:2	CSKILL:Bluff|Diplomacy|Disguise|Knowle
 6				ABILITY:Fiend of Corruption Class Feature|AUTOMATIC|Fiend of Corruption ~ Grant Wish|!PREABILITY:1,CATEGORY=ACF,TYPE.FiendOfCorruptionGrantWish																			
 6				ABILITY:Fiend of Corruption Class Feature|AUTOMATIC|Fiend of Corruption ~ Soul Bargain|!PREABILITY:1,CATEGORY=ACF,TYPE.FiendOfCorruptionSoulBargain																			
 																							
-CLASS:Fiend of Possession	HD:6	TYPE:Prestige	FACT:Abb|FoP	MAXLEVEL:6	SOURCEPAGE:FF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:FiendOfPossessionLVL|0	BONUS:VAR|FiendOfPossessionLVL|CL										
+CLASS:Fiend of Possession	HD:6	TYPE:Prestige	FACT:Abb|FoP	MAXLEVEL:6	SOURCEPAGE:FF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:FiendOfPossessionLVL|0	BONUS:VAR|FiendOfPossessionLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Fiend of Possession	PRERACE:1,RACETYPE=Outsider	PRERACE:1,RACESUBTYPE=Evil	PRECHECKBASE:1,Will=5	PRESKILL:2,Hide=6,Knowledge (Arcana)=6																			
 CLASS:Fiend of Possession	STARTSKILLPTS:2	CSKILL:Bluff|Diplomacy|Disguise|Hide|Listen|Search|Sense Motive|Spellcraft|Spot																					
 1				ABILITY:Fiend of Possession Class Feature|AUTOMATIC|Fiend of Possession ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.FiendOfPossessionProficiencies																			

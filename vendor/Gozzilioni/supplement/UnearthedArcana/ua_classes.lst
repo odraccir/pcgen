@@ -1,0 +1,839 @@
+SOURCELONG:Unearthed Arcana	SOURCESHORT:UA	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-02												
+#															
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE			
+# Class Name req	Requirements	FINE													
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS			
+# Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	SPELLLIST	spell level increases (BONUS:CASTERLEVEL)									
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)					
+CLASS:Bloodline	TYPE:Bloodline	MAXLEVEL:3	DEFINE:BloodlineLVL|0	BONUS:VAR|BloodlineLVL|CL											
+1:REPEATLEVEL:1	DONOTADD:HITDIE|SKILLPOINTS	BONUS:CASTERLEVEL|ALLSPELLS|1													
+															
+CLASS:Drow Paragon	HD:6	TYPE:PC.Base.Paragon	FACT:Abb|PDr	MAXLEVEL:3	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:ParagonDrowLVL|0	BONUS:VAR|ParagonDrowLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Drow Paragon	PRERACE:1,Elf	PREABILITY:1,CATEGORY=Internal,Elf ~ Drow	!PRECLASS:1,Elf Paragon												
+CLASS:Drow Paragon	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Hide|Intimidate|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Profession|Spellcraft|Spot|Survival|Swim													
+1				ABILITY:Paragon Drow Class Feature|AUTOMATIC|Paragon Drow ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonDrowProficiencies											
+#															
+1				ABILITY:Paragon Drow Class Feature|AUTOMATIC|Paragon Drow ~ Spells per Day											
+1				ABILITY:Paragon Drow Class Feature|AUTOMATIC|Paragon Drow ~ Improved Spell-Like Abilities|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonDrowImprovedSpellLikeAbilities											
+2				ABILITY:Paragon Drow Class Feature|AUTOMATIC|Paragon Drow ~ Improved Darkvision|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonDrowImprovedDarkvision											
+2				ABILITY:Paragon Drow Class Feature|AUTOMATIC|Paragon Drow ~ Light Sensitivity|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonDrowLightSensitivity											
+3				ABILITY:Paragon Drow Class Feature|AUTOMATIC|Paragon Drow ~ Ability Boost|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonDrowAbilityBoost											
+#															
+1	TEMPLATE:Drow Paragon ~ Spellcaster ~ 1														
+3	TEMPLATE:Drow Paragon ~ Spellcaster ~ 3														
+															
+CLASS:Dwarf Paragon	HD:10	TYPE:PC.Base.Paragon	FACT:Abb|PDw	MAXLEVEL:3	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:ParagonDwarfLVL|0	BONUS:VAR|ParagonDwarfLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Dwarf Paragon	PRERACE:1,Dwarf														
+CLASS:Dwarf Paragon	STARTSKILLPTS:2	CSKILL:Appraise|Climb|TYPE.Craft|Intimidate|Jump|Knowledge (Dungeoneering)|TYPE.Profession|Sense motive|Survival													
+1				ABILITY:Paragon Dwarf Class Feature|AUTOMATIC|Paragon Dwarf ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonDwarfProficiencies											
+#															
+1				ABILITY:Paragon Dwarf Class Feature|AUTOMATIC|Paragon Dwarf ~ Craft Expertise|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonDwarfCraftExpertise											
+2				ABILITY:Paragon Dwarf Class Feature|AUTOMATIC|Paragon Dwarf ~ Improved Stonecunning|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonDwarfImprovedStonecunning											
+2				ABILITY:Paragon Dwarf Class Feature|AUTOMATIC|Paragon Dwarf ~ Improved Darkvision|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonDwarfDarkvision											
+2				ABILITY:Paragon Dwarf Class Feature|AUTOMATIC|Paragon Dwarf ~ Save Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonDwarfSaveBonus											
+3				ABILITY:Paragon Dwarf Class Feature|AUTOMATIC|Paragon Dwarf ~ Ability Boost|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonDwarfAbilityBoost											
+															
+CLASS:Elf Paragon	HD:8	TYPE:PC.Base.Paragon	FACT:Abb|PEl	MAXLEVEL:3	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:ParagonElfLVL|0	BONUS:VAR|ParagonElfLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Elf Paragon	PREMULT:1,[PRERACE:1,Elf],[PREMULT:3,[PRERACE:1,Elf],[PREABILITY:1,CATEGORY=Internal,Elf ~ Drow],[!PRECLASS:1,Drow Paragon]],[PREMULT:2,[PREABILITY:1,CATEGORY=Special Ability,Paragon Half-Elf ~ Divided Ancestry],[!PRECLASS:1,Human Paragon=1]]														
+CLASS:Elf Paragon	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Diplomacy|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Profession|Spellcraft|Spot|Survival|Swim													
+1				ABILITY:Paragon Elf Class Feature|AUTOMATIC|Paragon Elf ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonElfProficiencies											
+#															
+1				ABILITY:Paragon Elf Class Feature|AUTOMATIC|Paragon Elf ~ Elfsight|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonElfElfsight											
+1				ABILITY:Paragon Elf Class Feature|AUTOMATIC|Paragon Elf ~ Resist Enchantments|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonElfResistEnchantments											
+2				ABILITY:Paragon Elf Class Feature|AUTOMATIC|Paragon Elf ~ Spells per Day											
+2				ABILITY:Paragon Elf Class Feature|AUTOMATIC|Paragon Elf ~ Weapon Focus|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonElfWeaponFocus											
+3				ABILITY:Paragon Elf Class Feature|AUTOMATIC|Paragon Elf ~ Ability Boost|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonElfAbilityBoost											
+#															
+2	ADD:SPELLCASTER|Wizard														
+3	ADD:SPELLCASTER|Wizard														
+															
+CLASS:Gnome Paragon	HD:6	TYPE:PC.Base.Paragon	FACT:Abb|PGn	MAXLEVEL:3	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:ParagonGnomeLVL|0	BONUS:VAR|ParagonGnomeLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Gnome Paragon	PRERACE:1,Gnome														
+CLASS:Gnome Paragon	STARTSKILLPTS:4	CSKILL:Bluff|Jump|Climb|TYPE.Craft|Diplomacy|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Spellcraft|Swim													
+1				ABILITY:Paragon Gnome Class Feature|AUTOMATIC|Paragon Gnome ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonGnomeProficiencies											
+#															
+1				ABILITY:Paragon Gnome Class Feature|AUTOMATIC|Paragon Gnome ~ Illusion Aptitude|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonGnomeIllusionAptitude											
+1				ABILITY:Paragon Gnome Class Feature|AUTOMATIC|Paragon Gnome ~ Keen Senses|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonGnomeKeenSenses											
+2				ABILITY:Paragon Gnome Class Feature|AUTOMATIC|Paragon Gnome ~ Spells per Day											
+2				ABILITY:Paragon Gnome Class Feature|AUTOMATIC|Paragon Gnome ~ Mirror Image|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonGnomeMirrorImage											
+3				ABILITY:Paragon Gnome Class Feature|AUTOMATIC|Paragon Gnome ~ Ability Boost|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonGnomeAbilityBoost											
+#															
+2	ADD:SPELLCASTER|Bard														
+3	ADD:SPELLCASTER|Bard														
+															
+CLASS:Half-Dragon Paragon	HD:12	TYPE:PC.Base.Paragon	FACT:Abb|PHD	MAXLEVEL:3	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:ParagonHalfDragonLVL|0	BONUS:VAR|ParagonHalfDragonLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Half-Dragon Paragon	PRETEMPLATE:1,Half-Dragon														
+CLASS:Half-Dragon Paragon	STARTSKILLPTS:4	CSKILL:Concentration|Diplomacy|Intimidate|TYPE.Knowledge|Listen|Search|Sense Motive|Spot										ALLOWBASECLASS:NO			
+SUBCLASS:Black Half-Dragon Paragon	COST:0	PRETEMPLATE:1,Half-Dragon (Black)	CSKILL:Hide|Move Silently|Swim												
+SUBCLASS:Blue Half-Dragon Paragon	COST:0	PRETEMPLATE:1,Half-Dragon (Blue)	CSKILL:Bluff|Hide|Spellcraft												
+SUBCLASS:Brass Half-Dragon Paragon	COST:0	PRETEMPLATE:1,Half-Dragon (Brass)	CSKILL:Bluff|Gather Information|Survival												
+SUBCLASS:Bronze Half-Dragon Paragon	COST:0	PRETEMPLATE:1,Half-Dragon (Bronze)	CSKILL:Disguise|Survival|Swim												
+SUBCLASS:Copper Half-Dragon Paragon	COST:0	PRETEMPLATE:1,Half-Dragon (Copper)	CSKILL:Bluff|Hide|Jump												
+SUBCLASS:Gold Half-Dragon Paragon	COST:0	PRETEMPLATE:1,Half-Dragon (Gold)	CSKILL:Disguise|Heal|Swim												
+SUBCLASS:Green Half-Dragon Paragon	COST:0	PRETEMPLATE:1,Half-Dragon (Green)	CSKILL:Bluff|Hide|Move Silently												
+SUBCLASS:Red Half-Dragon Paragon	COST:0	PRETEMPLATE:1,Half-Dragon (Red)	CSKILL:Appraise|Bluff|Jump												
+SUBCLASS:Silver Half-Dragon Paragon	COST:0	PRETEMPLATE:1,Half-Dragon (Silver)	CSKILL:Bluff|Jump|TYPE.Perform												
+SUBCLASS:White Half-Dragon Paragon	COST:0	PRETEMPLATE:1,Half-Dragon (White)	CSKILL:Hide|Move Silently|Swim												
+1				ABILITY:Paragon Half-Dragon Class Feature|AUTOMATIC|Paragon Half-Dragon ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHalfDragonProficiencies											
+#															
+1				ABILITY:Paragon Half-Dragon Class Feature|AUTOMATIC|Paragon Half-Dragon ~ Sorcerous Blood|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHalfDragonSorcerousBlood											
+2				ABILITY:Paragon Half-Dragon Class Feature|AUTOMATIC|Paragon Half-Dragon ~ Natural Armor Increase|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHalfDragonNaturalArmorIncrease											
+3				ABILITY:Paragon Half-Dragon Class Feature|AUTOMATIC|Paragon Half-Dragon ~ Breath Weapon|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHalfDragonBreathWeapon											
+															
+CLASS:Half-Elf Paragon	HD:8	TYPE:PC.Base.Paragon	FACT:Abb|PHE	MAXLEVEL:3	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:ParagonHalfElfLVL|0	BONUS:VAR|ParagonHalfElfLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Half-Elf Paragon	PRERACE:1,Half-Elf														
+CLASS:Half-Elf Paragon	STARTSKILLPTS:4	CSKILL:Bluff|Climb|TYPE.Craft|Diplomacy|Hide|Jump|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Swim													
+1				ABILITY:Paragon Half-Elf Class Feature|AUTOMATIC|Paragon Half-Elf ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHalfElfProficiencies											
+#															
+1				ABILITY:Paragon Half-Elf Class Feature|AUTOMATIC|Paragon Half-Elf ~ Bonus Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHalfElfBonusFeat											
+1				ABILITY:Paragon Half-Elf Class Feature|AUTOMATIC|Paragon Half-Elf ~ Divided Ancestry|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHalfElfDividedAncestry											
+1				ABILITY:Paragon Half-Elf Class Feature|AUTOMATIC|Paragon Half-Elf ~ Elven Vision|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHalfElfElvenVision											
+2				ABILITY:Paragon Half-Elf Class Feature|AUTOMATIC|Paragon Half-Elf ~ Spells per Day											
+2				ABILITY:Paragon Half-Elf Class Feature|AUTOMATIC|Paragon Half-Elf ~ Persuasion|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHalfElfPersuasion											
+3				ABILITY:Paragon Half-Elf Class Feature|AUTOMATIC|Paragon Half-Elf ~ Ability Boost|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHalfElfAbilityBoost											
+#															
+2	ADD:SPELLCASTER|ANY														
+															
+CLASS:Half-Orc Paragon	HD:8	TYPE:PC.Base.Paragon	FACT:Abb|PHO	MAXLEVEL:3	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:ParagonHalfOrcLVL|0	BONUS:VAR|ParagonHalfOrcLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Half-Orc Paragon	PRERACE:1,Half-Orc														
+CLASS:Half-Orc Paragon	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Handle Animal|Intimidate|Jump|TYPE.Profession|Ride|Survival|Swim													
+1				ABILITY:Paragon Half-Orc Class Feature|AUTOMATIC|Paragon Half-Orc ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHalfOrcProficiencies											
+#															
+1				ABILITY:Paragon Half-Orc Class Feature|AUTOMATIC|Paragon Half-Orc ~ Divided Ancestry|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHalfOrcDividedAncestry											
+1				ABILITY:Paragon Half-Orc Class Feature|AUTOMATIC|Paragon Half-Orc ~ Monstrous Mien|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHalfOrcMonstrousMien											
+2				ABILITY:Paragon Half-Orc Class Feature|AUTOMATIC|Paragon Half-Orc ~ Rage|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHalfOrcRage											
+3				ABILITY:Paragon Half-Orc Class Feature|AUTOMATIC|Paragon Half-Orc ~ Ability Boost|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHalfOrcAbilityBoost											
+															
+CLASS:Halfling Paragon	HD:6	TYPE:PC.Base.Paragon	FACT:Abb|PHa	MAXLEVEL:3	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:ParagonHalflingLVL|0	BONUS:VAR|ParagonHalflingLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Halfling Paragon	PRERACE:1,Halfling														
+CLASS:Halfling Paragon	STARTSKILLPTS:4	CSKILL:Bluff|Climb|TYPE.Craft|Diplomacy|Hide|Jump|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Survival|Swim													
+1				ABILITY:Paragon Halfling Class Feature|AUTOMATIC|Paragon Halfling ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHalflingProficiencies											
+#															
+1				ABILITY:Paragon Halfling Class Feature|AUTOMATIC|Paragon Halfling ~ Athletic Prowess|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHalflingAthleticProwess											
+1				ABILITY:Paragon Halfling Class Feature|AUTOMATIC|Paragon Halfling ~ Save Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHalflingSaveBonus											
+2				ABILITY:Paragon Halfling Class Feature|AUTOMATIC|Paragon Halfling ~ Thrown Weapon Mastery|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHalflingThrownWeaponMastery											
+3				ABILITY:Paragon Halfling Class Feature|AUTOMATIC|Paragon Halfling ~ Ability Boost|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHalflingAbilityBoost											
+															
+CLASS:Human Paragon	HD:8	TYPE:PC.Base.Paragon	FACT:Abb|PHu	MAXLEVEL:3	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:ParagonHumanLVL|0	BONUS:VAR|ParagonHumanLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Human Paragon	PREMULT:1,[PRERACE:1,Human],[PREMULT:2,[PREABILITY:1,CATEGORY=Special Ability,Paragon Half-Elf ~ Divided Ancestry],[!PRECLASS:1,Elf Paragon=1]],[PREMULT:2,[PREABILITY:1,CATEGORY=Special Ability,Paragon Half-Orc ~ Divided Ancestry],[!PRECLASS:1,Orc Paragon=1]]														
+CLASS:Human Paragon	STARTSKILLPTS:4														
+1				ABILITY:Paragon Human Class Feature|AUTOMATIC|Paragon Human ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHumanProficiencies											
+#															
+1				ABILITY:Paragon Human Class Feature|AUTOMATIC|Paragon Human ~ Skills											
+1				ABILITY:Paragon Human Class Feature|AUTOMATIC|Paragon Human ~ Spells per Day											
+1				ABILITY:Paragon Human Class Feature|AUTOMATIC|Paragon Human ~ Adaptive Learning|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHumanAdaptiveLearning											
+2				ABILITY:Paragon Human Class Feature|AUTOMATIC|Paragon Human ~ Bonus Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHumanBonusFeat											
+3				ABILITY:Paragon Human Class Feature|AUTOMATIC|Paragon Human ~ Ability Boost|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonHumanAbilityBoost											
+#															
+2	ADD:SPELLCASTER|ANY														
+3	ADD:SPELLCASTER|ANY														
+															
+CLASS:Orc Paragon	HD:10	TYPE:PC.Base.Paragon	FACT:Abb|POr	MAXLEVEL:3	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:ParagonOrcLVL|0	BONUS:VAR|ParagonOrcLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Orc Paragon	PREMULT:1,[PRERACE:1,Orc],[PREMULT:2,[PREABILITY:1,CATEGORY=Special Ability,Paragon Half-Orc ~ Divided Ancestry],[!PRECLASS:1,Human Paragon=1]]														
+CLASS:Orc Paragon	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Intimidate|Jump|Listen|Spot|Survival|Swim													
+1				ABILITY:Paragon Orc Class Feature|AUTOMATIC|Paragon Orc ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonOrcProficiencies											
+#															
+1				ABILITY:Paragon Orc Class Feature|AUTOMATIC|Paragon Orc ~ Improved Darkvision|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonOrcImprovedDarkvision											
+1				ABILITY:Paragon Orc Class Feature|AUTOMATIC|Paragon Orc ~ No Light Sensitivity|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonOrcNoLightSensitivity											
+2				ABILITY:Paragon Orc Class Feature|AUTOMATIC|Paragon Orc ~ Elf Slayer|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonOrcElfSlayer											
+3				ABILITY:Paragon Orc Class Feature|AUTOMATIC|Paragon Orc ~ Ability Boost|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonOrcAbilityBoost											
+#															
+2	ADD:SPELLCASTER|ANY														
+3	ADD:SPELLCASTER|ANY														
+															
+CLASS:Tiefling Paragon	HD:8	TYPE:PC.Base.Paragon	FACT:Abb|PTi	MAXLEVEL:3	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:ParagonTieflingLVL|0	BONUS:VAR|ParagonTieflingLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Tiefling Paragon	PRERACE:1,Planetouched (Tiefling)														
+CLASS:Tiefling Paragon	STARTSKILLPTS:4	CSKILL:Bluff|TYPE.Craft|Disguise|Hide|Knowledge (The Planes)|Listen|Move Silently|TYPE.Profession|Sleight of Hand|Spot													
+1				ABILITY:Paragon Tiefling Class Feature|AUTOMATIC|Paragon Tiefling ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonTieflingProficiencies											
+#															
+1				ABILITY:Paragon Tiefling Class Feature|AUTOMATIC|Paragon Tiefling ~ Improved Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonTieflingImprovedResistance											
+2				ABILITY:Paragon Tiefling Class Feature|AUTOMATIC|Paragon Tiefling ~ Darkness|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonTieflingDarkness											
+2				ABILITY:Paragon Tiefling Class Feature|AUTOMATIC|Paragon Tiefling ~ Skill Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonTieflingSkillBonus											
+3				ABILITY:Paragon Tiefling Class Feature|AUTOMATIC|Paragon Tiefling ~ Ability Boost|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonTieflingAbilityBoost											
+															
+CLASS:Bard.MOD	!PRECLASS:1,Bardic Sage,Divine Bard,Savage Bard														
+															
+CLASS:Bardic Sage	HD:6	TYPE:PC.Base	FACT:Abb|Bds	MAXLEVEL:20	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Bard	DEFINE:BardLVL|0	BONUS:VAR|BardLVL|CL	EXCLASS:Ex-Bard	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Bardic Sage	PREALIGN:NG,TN,NE	!PRECLASS:1,Bard,Divine Bard,Savage Bard	SERVESAS:CLASS|Bard												
+CLASS:Bardic Sage	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|Concentration|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Sense Motive|Sleight of Hand|Speak Language|Spellcraft|Swim|Tumble|Use Magic Device													
+CLASS:Bardic Sage	SPELLSTAT:INT	FACT:SpellType|Arcane	MEMORIZE:NO		SPELLLIST:2|Bard|Bardic Sage		BONUSSPELLSTAT:CHA								
+#															
+1				ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BardProficiencies											
+#															
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Bardic Sage ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.BardSpells											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Bardic Sage ~ Bardic Knowledge|!PREABILITY:1,CATEGORY=ACF,TYPE.BardBardicKnowledge											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Bardic Sage ~ Bardic Music|!PREABILITY:1,CATEGORY=ACF,TYPE.BardBardicMusic											
+#															
+1	BONUS:SPELLKNOWN|CLASS=Bardic Sage;LEVEL=0|1														
+1	BONUS:SPELLKNOWN|CLASS=Bardic Sage;LEVEL=1|1														
+1	BONUS:SPELLKNOWN|CLASS=Bardic Sage;LEVEL=2|1														
+1	BONUS:SPELLKNOWN|CLASS=Bardic Sage;LEVEL=3|1														
+1	BONUS:SPELLKNOWN|CLASS=Bardic Sage;LEVEL=4|1														
+1	BONUS:SPELLKNOWN|CLASS=Bardic Sage;LEVEL=5|1														
+1	BONUS:SPELLKNOWN|CLASS=Bardic Sage;LEVEL=6|1														
+#															
+1	CAST:2	KNOWN:4													
+2	CAST:3,0	KNOWN:5,2													
+3	CAST:3,1	KNOWN:6,3													
+4	CAST:3,2,0	KNOWN:6,3,2													
+5	CAST:3,3,1	KNOWN:6,4,3													
+6	CAST:3,3,2	KNOWN:6,4,3													
+7	CAST:3,3,2,0	KNOWN:6,4,4,2													
+8	CAST:3,3,3,1	KNOWN:6,4,4,3													
+9	CAST:3,3,3,2	KNOWN:6,4,4,3													
+10	CAST:3,3,3,2,0	KNOWN:6,4,4,4,2													
+11	CAST:3,3,3,3,1	KNOWN:6,4,4,4,3													
+12	CAST:3,3,3,3,2	KNOWN:6,4,4,4,3													
+13	CAST:3,3,3,3,2,0	KNOWN:6,4,4,4,4,2													
+14	CAST:4,3,3,3,3,1	KNOWN:6,4,4,4,4,3													
+15	CAST:4,4,3,3,3,2	KNOWN:6,4,4,4,4,3													
+16	CAST:4,4,4,3,3,2,0	KNOWN:6,5,4,4,4,4,2													
+17	CAST:4,4,4,4,3,3,1	KNOWN:6,5,5,4,4,4,3													
+18	CAST:4,4,4,4,4,3,2	KNOWN:6,5,5,5,4,4,3													
+19	CAST:4,4,4,4,4,4,3	KNOWN:6,5,5,5,5,4,4													
+20	CAST:4,4,4,4,4,4,4	KNOWN:6,5,5,5,5,5,4													
+															
+CLASS:Divine Bard	HD:6	TYPE:PC.Base	FACT:Abb|DBr	MAXLEVEL:20	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Bard	DEFINE:BardLVL|0	BONUS:VAR|BardLVL|CL	EXCLASS:Ex-Bard	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Divine Bard	PREALIGN:NG,TN,NE,CG,CN,CE	!PRECLASS:1,Bardic Sage,Bard,Savage Bard	SERVESAS:CLASS|Bard												
+CLASS:Divine Bard	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|Concentration|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Sense Motive|Sleight of Hand|Speak Language|Spellcraft|Swim|Tumble|Use Magic Device													
+CLASS:Divine Bard	SPELLSTAT:WIS	FACT:SpellType|Divine	MEMORIZE:NO		SPELLLIST:2|Bard|Divine Bard		BONUSSPELLSTAT:CHA								
+#															
+1				ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BardProficiencies											
+#															
+1	PROHIBITSPELL:ALIGNMENT.Good|!PREALIGN:LG,NG,CG														
+1	PROHIBITSPELL:ALIGNMENT.Evil|!PREALIGN:LE,NE,CE														
+1	PROHIBITSPELL:ALIGNMENT.Lawful|!PREALIGN:LG,LN,LE														
+1	PROHIBITSPELL:ALIGNMENT.Chaotic|!PREALIGN:CG,CN,CE														
+#															
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Divine Bard ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.BardSpells											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Divine Bard ~ Bardic Knowledge|!PREABILITY:1,CATEGORY=ACF,TYPE.BardBardicKnowledge											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Divine Bard ~ Bardic Music|!PREABILITY:1,CATEGORY=ACF,TYPE.BardBardicMusic											
+#															
+1	CAST:2	KNOWN:4													
+2	CAST:3,0	KNOWN:5,2													
+3	CAST:3,1	KNOWN:6,3													
+4	CAST:3,2,0	KNOWN:6,3,2													
+5	CAST:3,3,1	KNOWN:6,4,3													
+6	CAST:3,3,2	KNOWN:6,4,3													
+7	CAST:3,3,2,0	KNOWN:6,4,4,2													
+8	CAST:3,3,3,1	KNOWN:6,4,4,3													
+9	CAST:3,3,3,2	KNOWN:6,4,4,3													
+10	CAST:3,3,3,2,0	KNOWN:6,4,4,4,2													
+11	CAST:3,3,3,3,1	KNOWN:6,4,4,4,3													
+12	CAST:3,3,3,3,2	KNOWN:6,4,4,4,3													
+13	CAST:3,3,3,3,2,0	KNOWN:6,4,4,4,4,2													
+14	CAST:4,3,3,3,3,1	KNOWN:6,4,4,4,4,3													
+15	CAST:4,4,3,3,3,2	KNOWN:6,4,4,4,4,3													
+16	CAST:4,4,4,3,3,2,0	KNOWN:6,5,4,4,4,4,2													
+17	CAST:4,4,4,4,3,3,1	KNOWN:6,5,5,4,4,4,3													
+18	CAST:4,4,4,4,4,3,2	KNOWN:6,5,5,5,4,4,3													
+19	CAST:4,4,4,4,4,4,3	KNOWN:6,5,5,5,5,4,4													
+20	CAST:4,4,4,4,4,4,4	KNOWN:6,5,5,5,5,5,4													
+															
+CLASS:Savage Bard	HD:6	TYPE:PC.Base	FACT:Abb|SBr	MAXLEVEL:20	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Bard	DEFINE:BardLVL|0	BONUS:VAR|BardLVL|CL	EXCLASS:Ex-Bard	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Savage Bard	PREALIGN:CG,CN,CE	!PRECLASS:1,Bardic Sage,Divine Bard,Bard	SERVESAS:CLASS|Bard												
+CLASS:Savage Bard	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|Concentration|TYPE.Craft|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Sense Motive|Sleight of Hand|Spellcraft|Swim|Tumble|Use Magic Device|Survival													
+CLASS:Savage Bard	SPELLSTAT:CHA	FACT:SpellType|Arcane	MEMORIZE:NO		SPELLLIST:2|Bard|Savage Bard										
+1				ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BardProficiencies											
+#															
+1	PROHIBITSPELL:SPELL.Calm Emotion,Comprehend Languages,Detect Secret Doors,Erase,Prestidigitation,Read Magic,Sepia Snake Sigil,Summon Monster I,Summon Monster II,Summon Monster III,Summon Monster IV,Summon Monster V,Summon Monster VI														
+#															
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Savage Bard ~ Illiteracy|!PREABILITY:1,CATEGORY=ACF,TYPE.BardIlliteracy|PREVAREQ:TL,IlliteracyLVL											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Savage Bard ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.BardSpells											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Savage Bard ~ Bardic Knowledge|!PREABILITY:1,CATEGORY=ACF,TYPE.BardBardicKnowledge											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Savage Bard ~ Bardic Music|!PREABILITY:1,CATEGORY=ACF,TYPE.BardBardicMusic											
+#															
+1	CAST:2	KNOWN:4													
+2	CAST:3,0	KNOWN:5,2													
+3	CAST:3,1	KNOWN:6,3													
+4	CAST:3,2,0	KNOWN:6,3,2													
+5	CAST:3,3,1	KNOWN:6,4,3													
+6	CAST:3,3,2	KNOWN:6,4,3													
+7	CAST:3,3,2,0	KNOWN:6,4,4,2													
+8	CAST:3,3,3,1	KNOWN:6,4,4,3													
+9	CAST:3,3,3,2	KNOWN:6,4,4,3													
+10	CAST:3,3,3,2,0	KNOWN:6,4,4,4,2													
+11	CAST:3,3,3,3,1	KNOWN:6,4,4,4,3													
+12	CAST:3,3,3,3,2	KNOWN:6,4,4,4,3													
+13	CAST:3,3,3,3,2,0	KNOWN:6,4,4,4,4,2													
+14	CAST:4,3,3,3,3,1	KNOWN:6,4,4,4,4,3													
+15	CAST:4,4,3,3,3,2	KNOWN:6,4,4,4,4,3													
+16	CAST:4,4,4,3,3,2,0	KNOWN:6,5,4,4,4,4,2													
+17	CAST:4,4,4,4,3,3,1	KNOWN:6,5,5,4,4,4,3													
+18	CAST:4,4,4,4,4,3,2	KNOWN:6,5,5,5,4,4,3													
+19	CAST:4,4,4,4,4,4,3	KNOWN:6,5,5,5,5,4,4													
+20	CAST:4,4,4,4,4,4,4	KNOWN:6,5,5,5,5,5,4													
+															
+CLASS:Cleric.MOD	!PRECLASS:1,Cloistered Cleric														
+															
+CLASS:Cloistered Cleric	HD:6	TYPE:PC.Base	FACT:Abb|CCl	MAXLEVEL:20	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Cleric	DEFINE:ClericLVL|0	BONUS:VAR|ClericLVL|CL	EXCLASS:Ex-Cleric	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Cloistered Cleric	!PRECLASS:1,Cleric	SERVESAS:CLASS|Cleric													
+CLASS:Cloistered Cleric	STARTSKILLPTS:6	CSKILL:Decipher Script|Speak Language|TYPE.Knowledge													
+CLASS:Cloistered Cleric	SPELLSTAT:WIS	FACT:SpellType|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9	SPELLLIST:2|Cleric|Cloistered Cleric		BONUS:DOMAIN|NUMBER|2								
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Cloistered Cleric ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericProficiencies											
+#															
+1	PROHIBITSPELL:ALIGNMENT.Good|PREALIGN:LE,NE,CE	PROHIBITSPELL:ALIGNMENT.Good|PREDEITYALIGN:LE,NE,CE													
+1	PROHIBITSPELL:ALIGNMENT.Evil|PREALIGN:LG,NG,CG	PROHIBITSPELL:ALIGNMENT.Evil|PREDEITYALIGN:LG,NG,CG													
+1	PROHIBITSPELL:ALIGNMENT.Lawful|PREALIGN:CG,CN,CE	PROHIBITSPELL:ALIGNMENT.Lawful|PREDEITYALIGN:CG,CN,CE													
+1	PROHIBITSPELL:ALIGNMENT.Chaotic|PREALIGN:LG,LN,LE	PROHIBITSPELL:ALIGNMENT.Chaotic|PREDEITYALIGN:LG,LN,LE													
+1	DOMAIN:Knowledge			ABILITY:Alternate Class Feature|AUTOMATIC|Cloistered Cleric ~ Deity - Domains and Domain Spells											
+#															
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Cloistered Cleric ~ Lore|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericLore											
+1				ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Aura|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericAura											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Cloistered Cleric ~ Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericSpells											
+1				ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Spontaneous Casting|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericSpontaneousCasting											
+1				ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Turn or Rebuke Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericTurnRebukeUndead											
+1				ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Bonus Languages|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericBonusLanguages											
+#															
+1	CAST:3,1														
+2	CAST:4,2														
+3	CAST:4,2,1														
+4	CAST:5,3,2														
+5	CAST:5,3,2,1														
+6	CAST:5,3,3,2														
+7	CAST:6,4,3,2,1														
+8	CAST:6,4,3,3,2														
+9	CAST:6,4,4,3,2,1														
+10	CAST:6,4,4,3,3,2														
+11	CAST:6,5,4,4,3,2,1														
+12	CAST:6,5,4,4,3,3,2														
+13	CAST:6,5,5,4,4,3,2,1														
+14	CAST:6,5,5,4,4,3,3,2														
+15	CAST:6,5,5,5,4,4,3,2,1														
+16	CAST:6,5,5,5,4,4,3,3,2														
+17	CAST:6,5,5,5,5,4,4,3,2,1														
+18	CAST:6,5,5,5,5,4,4,3,3,2														
+19	CAST:6,5,5,5,5,5,4,4,3,3														
+20	CAST:6,5,5,5,5,5,4,4,4,4														
+															
+CLASS:Druid.MOD	!PRECLASS:1,Druidic Avenger														
+															
+CLASS:Druidic Avenger	HD:8	TYPE:PC.Base	FACT:Abb|Drd	MAXLEVEL:20	SOURCEPAGE:PHB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Druid	DEFINE:DruidLVL|0	BONUS:VAR|DruidLVL|CL	EXCLASS:Ex-Druid	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Druidic Avenger	PREALIGN:NG,LN,TN,CN,NE	!PRECLASS:1,Druid	SERVESAS:CLASS|Druid												
+CLASS:Druidic Avenger	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Handle Animal|Heal|Intimidate|Knowledge (Nature)|Listen|TYPE.Profession|Ride|Spellcraft|Spot|Survival|Swim													
+CLASS:Druidic Avenger	SPELLSTAT:WIS	FACT:SpellType|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9											
+1				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidProficiencies											
+1	PROHIBITSPELL:ALIGNMENT.Good|PREALIGN:LE,NE,CE	PROHIBITSPELL:ALIGNMENT.Good|PREDEITYALIGN:LE,NE,CE													
+1	PROHIBITSPELL:ALIGNMENT.Evil|PREALIGN:LG,NG,CG	PROHIBITSPELL:ALIGNMENT.Evil|PREDEITYALIGN:LG,NG,CG													
+1	PROHIBITSPELL:ALIGNMENT.Lawful|PREALIGN:CG,CN,CE	PROHIBITSPELL:ALIGNMENT.Lawful|PREDEITYALIGN:CG,CN,CE													
+1	PROHIBITSPELL:ALIGNMENT.Chaotic|PREALIGN:LG,LN,LE	PROHIBITSPELL:ALIGNMENT.Chaotic|PREDEITYALIGN:LG,LN,LE													
+#															
+1				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidSpells											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Druidic Avenger ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidSpells											
+1				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Bonus Languages|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidBonusLanguages											
+1				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Nature Sense|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidNatureSense											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Druidic Avenger ~ Wild Empathy|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidWildEmpathy											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Druidic Avenger ~ Fast Movement|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidFastMovement											
+2				ABILITY:Alternate Class Feature|AUTOMATIC|Druidic Avenger ~ Rage|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidRage											
+2				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Woodland Stride|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidWoodlandStride											
+3				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Trackless Step|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidTracklessStep											
+4				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Resist Nature's Lure|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidResistSNatureLure											
+5				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Wild Shape|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidWildShape											
+9				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Venom Immunity|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidVenomImmunity											
+13				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ A Thousand Faces|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidAThousandFaces											
+15				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Timeless Body|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidTimelessBody											
+17				ABILITY:Alternate Class Feature|AUTOMATIC|Druidic Avenger ~ Tireless Rage|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidTirelessRage											
+#															
+1	CAST:3,1														
+2	CAST:4,2														
+3	CAST:4,2,1														
+4	CAST:5,3,2														
+5	CAST:5,3,2,1														
+6	CAST:5,3,3,2														
+7	CAST:6,4,3,2,1														
+8	CAST:6,4,3,3,2														
+9	CAST:6,4,4,3,2,1														
+10	CAST:6,4,4,3,3,2														
+11	CAST:6,5,4,4,3,2,1														
+12	CAST:6,5,4,4,3,3,2														
+13	CAST:6,5,5,4,4,3,2,1														
+14	CAST:6,5,5,4,4,3,3,2														
+15	CAST:6,5,5,5,4,4,3,2,1														
+16	CAST:6,5,5,5,4,4,3,3,2														
+17	CAST:6,5,5,5,5,4,4,3,2,1														
+18	CAST:6,5,5,5,5,4,4,3,3,2														
+19	CAST:6,5,5,5,5,5,4,4,3,3														
+20	CAST:6,5,5,5,5,5,4,4,4,4														
+															
+CLASS:Fighter.MOD	!PRECLASS:1,Thug														
+															
+CLASS:Thug	HD:10	TYPE:PC.Base	FACT:Abb|Thu	MAXLEVEL:20	SOURCEPAGE:PHB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Combat	DEFINE:FighterLVL|0	BONUS:VAR|FighterLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Thug	!PRECLASS:1,Fighter	SERVESAS:CLASS|Fighter													
+CLASS:Thug	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Handle Animal|Intimidate|Jump|Ride|Swim|Bluff|Gather Information|Knowledge (Local)|Sleight of Hand													
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Thug ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.FighterProficiencies											
+#															
+3				ABILITY:Alternate Class Feature|AUTOMATIC|Thug ~ Bonus Feats|!PREABILITY:1,CATEGORY=ACF,TYPE.FighterBonusFeats											
+															
+CLASS:Paladin.MOD	!PRECLASS:1,Paladin of Freedom=1,Paladin of Slaughter=1,Paladin of Tyranny=1														
+															
+CLASS:Paladin of Freedom	HD:10	TYPE:PC.Base	FACT:Abb|PFr	MAXLEVEL:20	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Combat	DEFINE:PaladinLVL|0	BONUS:VAR|PaladinLVL|CL	EXCLASS:Ex-Paladin	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Paladin of Freedom	PREALIGN:CG	!PRECLASS:1,Paladin=1,Paladin of Slaughter=1,Paladin of Tyranny=1	SERVESAS:CLASS|Paladin												
+CLASS:Paladin of Freedom	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Handle Animal|Heal|Knowledge (Nobility and Royalty)|Knowledge (Religion)|TYPE.Profession|Ride|Sense Motive													
+CLASS:Paladin of Freedom	SPELLSTAT:WIS	FACT:SpellType|Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	SPELLLIST:2|Paladin|Paladin of Freedom		ITEMCREATE:0.5								
+1				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinProficiencies											
+#															
+1	PROHIBITSPELL:SPELL.Death Ward														
+1	PROHIBITSPELL:SPELL.Discern Lies														
+1	PROHIBITSPELL:SPELL.Dispel Chaos														
+1	PROHIBITSPELL:SPELL.Magic Circle against Chaos														
+1	PROHIBITSPELL:SPELL.Protection from Chaos														
+#															
+1				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Aura of Good|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinAuraOfGood											
+1				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Detect Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinDetectEvil											
+1				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Smite Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSmiteEvil											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Paladin of Freedom ~ Code of Conduct|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinCodeOfConduct											
+2				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Divine Grace|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinDivineGrace											
+2				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Lay on Hands|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinLayOnHands											
+3				ABILITY:Alternate Class Feature|AUTOMATIC|Paladin of Freedom ~ Aura of Resolve|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinAuraOfCourage											
+3				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Divine Health|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinDivineHealth											
+4				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpells											
+4				ABILITY:Alternate Class Feature|AUTOMATIC|Paladin of Freedom ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpells											
+5				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Special Mount|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpecialMount											
+6				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Remove Disease|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinRemoveDisease											
+#															
+4	CAST:0,0														
+5	CAST:0,0														
+6	CAST:0,1														
+7	CAST:0,1														
+8	CAST:0,1,0														
+9	CAST:0,1,0														
+10	CAST:0,1,1														
+11	CAST:0,1,1,0														
+12	CAST:0,1,1,1														
+13	CAST:0,1,1,1														
+14	CAST:0,2,1,1,0														
+15	CAST:0,2,1,1,1														
+16	CAST:0,2,2,1,1														
+17	CAST:0,2,2,2,1														
+18	CAST:0,3,2,2,1														
+19	CAST:0,3,3,3,2														
+20	CAST:0,3,3,3,3														
+															
+CLASS:Paladin of Slaughter	HD:10	TYPE:PC.Base	FACT:Abb|PSl	MAXLEVEL:20	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Combat	DEFINE:PaladinLVL|0	BONUS:VAR|PaladinLVL|CL	EXCLASS:Ex-Paladin	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Paladin of Slaughter	PREALIGN:CE	!PRECLASS:1,Paladin=1,Paladin of Freedom=1,Paladin of Tyranny=1	SERVESAS:CLASS|Paladin												
+CLASS:Paladin of Slaughter	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Handle Animal|Heal|Intimidate|Knowledge (Nobility and Royalty)|Knowledge (Religion)|TYPE.Profession|Ride|Sense Motive													
+CLASS:Paladin of Slaughter	SPELLSTAT:WIS	FACT:SpellType|Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	SPELLLIST:1|Paladin of Slaughter		ITEMCREATE:0.5								
+1				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinProficiencies											
+#															
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Paladin of Slaughter ~ Aura of Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinAuraOfGood											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Paladin of slaughter ~ Detect Good|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinDetectEvil											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Paladin of Slaughter ~ Smite Good|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSmiteEvil											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Paladin of Slaughter ~ Code of Conduct|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinCodeOfConduct											
+2				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Divine Grace|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinDivineGrace											
+2				ABILITY:Alternate Class Feature|AUTOMATIC|Paladin of Slaughter ~ Deadly Touch|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinLayOnHands											
+3				ABILITY:Alternate Class Feature|AUTOMATIC|Paladin of Slaughter ~ Debilitating Aura|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinAuraOfCourage											
+3				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Divine Health|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinDivineHealth											
+3				ABILITY:Alternate Class Feature|AUTOMATIC|Paladin of Slaughter ~ Rebuke Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinTurnUndead											
+4				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpells											
+4				ABILITY:Alternate Class Feature|AUTOMATIC|Paladin of Slaughter ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpells											
+5				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Special Mount|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpecialMount											
+6				ABILITY:Alternate Class Feature|AUTOMATIC|Paladin of Slaughter ~ Cause Disease|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinRemoveDisease											
+#															
+4	CAST:0,0														
+5	CAST:0,0														
+6	CAST:0,1														
+7	CAST:0,1														
+8	CAST:0,1,0														
+9	CAST:0,1,0														
+10	CAST:0,1,1														
+11	CAST:0,1,1,0														
+12	CAST:0,1,1,1														
+13	CAST:0,1,1,1														
+14	CAST:0,2,1,1,0														
+15	CAST:0,2,1,1,1														
+16	CAST:0,2,2,1,1														
+17	CAST:0,2,2,2,1														
+18	CAST:0,3,2,2,1														
+19	CAST:0,3,3,3,2														
+20	CAST:0,3,3,3,3														
+															
+CLASS:Paladin of Tyranny	HD:10	TYPE:PC.Base	FACT:Abb|PTy	MAXLEVEL:20	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Combat	DEFINE:PaladinLVL|0	BONUS:VAR|PaladinLVL|CL	EXCLASS:Ex-Paladin	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Paladin of Tyranny	PREALIGN:LE	!PRECLASS:1,Paladin=1,Paladin of Freedom=1,Paladin of Slaughter=1	SERVESAS:CLASS|Paladin												
+CLASS:Paladin of Tyranny	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Nobility and Royalty)|Knowledge (Religion)|TYPE.Profession|Ride|Sense Motive													
+CLASS:Paladin of Tyranny	SPELLSTAT:WIS	FACT:SpellType|Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	SPELLLIST:1|Paladin of Tyranny		ITEMCREATE:0.5								
+1				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinProficiencies											
+#															
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Paladin of Tyranny ~ Aura of Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinAuraOfGood											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Paladin of Tyranny ~ Detect Good|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinDetectEvil											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Paladin of Tyranny ~ Smite Good|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSmiteEvil											
+1				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Code of Conduct|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinCodeOfConduct											
+2				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Divine Grace|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinDivineGrace											
+2				ABILITY:Alternate Class Feature|AUTOMATIC|Paladin of Tyranny ~ Deadly Touch|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinLayOnHands											
+3				ABILITY:Alternate Class Feature|AUTOMATIC|Paladin of Tyranny ~ Aura of Despair|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinAuraOfCourage											
+3				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Divine Health|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinDivineHealth											
+3				ABILITY:Alternate Class Feature|AUTOMATIC|Paladin of Tyranny ~ Rebuke Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinTurnUndead											
+4				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpells											
+4				ABILITY:Alternate Class Feature|AUTOMATIC|Paladin of Tyranny ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpells											
+5				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Special Mount|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpecialMount											
+6				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Remove Disease|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinRemoveDisease											
+#															
+4	CAST:0,0														
+5	CAST:0,0														
+6	CAST:0,1														
+7	CAST:0,1														
+8	CAST:0,1,0														
+9	CAST:0,1,0														
+10	CAST:0,1,1														
+11	CAST:0,1,1,0														
+12	CAST:0,1,1,1														
+13	CAST:0,1,1,1														
+14	CAST:0,2,1,1,0														
+15	CAST:0,2,1,1,1														
+16	CAST:0,2,2,1,1														
+17	CAST:0,2,2,2,1														
+18	CAST:0,3,2,2,1														
+19	CAST:0,3,3,3,2														
+20	CAST:0,3,3,3,3														
+															
+CLASS:Ranger.MOD	!PRECLASS:1,Planar Ranger,Urban Ranger														
+															
+CLASS:Planar Ranger	HD:8	TYPE:PC.Base	FACT:Abb|PRg	MAXLEVEL:20	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Combat	DEFINE:RangerLVL|0	BONUS:VAR|RangerLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Planar Ranger	!PRECLASS:1,Ranger,Urban Ranger		SERVESAS:CLASS|Ranger												
+CLASS:Planar Ranger	STARTSKILLPTS:6	CSKILL:Climb|Concentration|TYPE.Craft|Handle Animal|Heal|Hide|Jump|Knowledge (Geography)|Knowledge (The Planes)|Listen|Move Silently|TYPE.Profession|Ride|Search|Spot|Survival|Swim|Use Rope|Speak Language													
+CLASS:Planar Ranger	SPELLSTAT:WIS	FACT:SpellType|Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	SPELLLIST:1|Ranger		ITEMCREATE:0.5								
+1				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerProficiencies											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Planar Ranger ~ Bonus Languages|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerBonusLanguages											
+#															
+1				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Favored Enemy|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerFavoredEnemy											
+1				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Track|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerTrack											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Planar Ranger ~ Wild Empathy|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerWildEmpathy											
+2				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Combat Style|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerCombatStyle											
+3				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Endurance|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerEndurance											
+4				ABILITY:Alternate Class Feature|AUTOMATIC|Planar Ranger ~ Animal Companion|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerAnimalCompanion											
+4				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerSpells											
+4				ABILITY:Alternate Class Feature|AUTOMATIC|Planar Ranger ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerSpells											
+6				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Improved combat Style|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerImprovedCombatStyle											
+7				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Woodland Stride|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerWoodlandStride											
+8				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Swift Tracker|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerSwiftTracker											
+9				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Evasion|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerEvasion											
+11				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Combat Style Mastery|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerCombatStyleMastery											
+13				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Camouflage|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerCamouflage											
+17				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Hide in Plain Sight|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerHideInPlainSight											
+															
+CLASS:Urban Ranger	HD:8	TYPE:PC.Base	FACT:Abb|URg	MAXLEVEL:20	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Combat	DEFINE:RangerLVL|0	BONUS:VAR|RangerLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Urban Ranger	!PRECLASS:1,Ranger,Planar Ranger		SERVESAS:CLASS|Ranger												
+CLASS:Urban Ranger	STARTSKILLPTS:6	CSKILL:Climb|Concentration|TYPE.Craft|Gather Information|Handle Animal|Heal|Hide|Jump|Knowledge (Geography)|Knowledge (Local)|Listen|Move Silently|TYPE.Profession|Ride|Search|Sense Motive|Spot|Swim|Use Rope													
+CLASS:Urban Ranger	SPELLSTAT:WIS	FACT:SpellType|Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	SPELLLIST:1|Ranger|Urban Ranger		ITEMCREATE:0.5								
+1				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerProficiencies											
+#															
+1	PROHIBITSPELL:SPELL.Animal Messenger														
+1	PROHIBITSPELL:SPELL.Charm Animal														
+1	PROHIBITSPELL:SPELL.Detect Animals or Plants														
+1	PROHIBITSPELL:SPELL.Speak with Animals														
+1	PROHIBITSPELL:SPELL.Bear's endurance														
+1	PROHIBITSPELL:SPELL.Hold Animal														
+1	PROHIBITSPELL:SPELL.Snare														
+1	PROHIBITSPELL:SPELL.Speak with Plants														
+1	PROHIBITSPELL:SPELL.Command Plants														
+1	PROHIBITSPELL:SPELL.Diminish Plants														
+1	PROHIBITSPELL:SPELL.Plant Growth														
+1	PROHIBITSPELL:SPELL.Reduce Animal														
+1	PROHIBITSPELL:SPELL.Tree Shape														
+1	PROHIBITSPELL:SPELL.Water Walk														
+1	PROHIBITSPELL:SPELL.Commune with Nature														
+1	PROHIBITSPELL:SPELL.Tree Stride														
+#															
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Urban Ranger ~ Favored Enemy|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerFavoredEnemy											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Urban Ranger ~ Urban Track|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerTrack											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Urban Ranger ~ Wild Empathy|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerWildEmpathy											
+2				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Combat Style|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerCombatStyle											
+3				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Endurance|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerEndurance											
+4				ABILITY:Alternate Class Feature|AUTOMATIC|Urban Ranger ~ Animal Companion|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerAnimalCompanion											
+4				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerSpells											
+4				ABILITY:Alternate Class Feature|AUTOMATIC|Urban Ranger ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerSpells											
+6				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Improved combat Style|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerImprovedCombatStyle											
+8				ABILITY:Alternate Class Feature|AUTOMATIC|Urban Ranger ~ Swift Tracker|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerSwiftTracker											
+9				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Evasion|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerEvasion											
+11				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Combat Style Mastery|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerCombatStyleMastery											
+17				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Hide in Plain Sight|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerHideInPlainSight											
+															
+CLASS:Rogue.MOD	!PRECLASS:1,Wilderness Rogue														
+															
+CLASS:Wilderness Rogue	HD:6	TYPE:PC.Base	FACT:Abb|WRo	MAXLEVEL:20	SOURCEPAGE:PHB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Skill	DEFINE:RogueLVL|0	BONUS:VAR|RogueLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Wilderness Rogue	!PRECLASS:1,Rogue		SERVESAS:CLASS|Rogue												
+CLASS:Wilderness Rogue	STARTSKILLPTS:8	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Disable Device|Disguise|Escape Artist|Handle Animal|Hide|Intimidate|Jump|Knowledge (Geography)|Knowledge (Local)|Knowledge (Nature)|Listen|Move Silently|Open Lock|TYPE.Perform|TYPE.Profession|Ride|Search|Sense Motive|Sleight of Hand|Spot|Survival|Swim|Tumble|Use Magic Device|Use Rope													
+1				ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.RogueProficiencies											
+#															
+1				ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Sneak Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.RogueSneakAttack											
+1				ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Trapfinding|!PREABILITY:1,CATEGORY=ACF,TYPE.RogueTrapfinding											
+2				ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Evasion|!PREABILITY:1,CATEGORY=ACF,TYPE.RogueEvasion											
+3				ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Trap Sense|!PREABILITY:1,CATEGORY=ACF,TYPE.RogueTrapSense											
+4				ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Uncanny Dodge|!PREABILITY:1,CATEGORY=ACF,TYPE.RogueUncannyDodge											
+8				ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Improved Uncanny Dodge|!PREABILITY:1,CATEGORY=ACF,TYPE.RogueImprovedUncannyDodge											
+10				ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Special Abilities|!PREABILITY:1,CATEGORY=ACF,TYPE.RogueSpecialAbilities											
+															
+CLASS:Sorcerer.MOD	!PRECLASS:1,Battle Sorcerer														
+															
+CLASS:Battle Sorcerer	HD:8	TYPE:PC.Base	FACT:Abb|BSo	MAXLEVEL:20	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Sorcerer	DEFINE:SorcererLVL|0	BONUS:VAR|SorcererLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Battle Sorcerer	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Intimidate|Knowledge (Arcana)|TYPE.Profession|Spellcraft													
+CLASS:Battle Sorcerer	!PRECLASS:1,Sorcerer		SERVESAS:CLASS|Sorcerer												
+CLASS:Battle Sorcerer	SPELLSTAT:CHA	FACT:SpellType|Arcane	MEMORIZE:NO		SPELLLIST:1|Sorcerer										
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Battle Sorcerer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SorcererProficiencies											
+#															
+1				ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.SorcererSpells											
+1				ABILITY:Alternate Class Feature|AUTOMATIC|Battle Sorcerer ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.SorcererSpells											
+1				ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Familiar|!PREABILITY:1,CATEGORY=ACF,TYPE.SorcererFamiliar											
+#															
+1	CAST:5,3	KNOWN:3,1													
+2	CAST:6,4	KNOWN:4,1													
+3	CAST:6,5	KNOWN:4,2													
+4	CAST:6,6,3	KNOWN:5,2,1													
+5	CAST:6,6,4	KNOWN:5,3,1													
+6	CAST:6,6,5,3	KNOWN:6,3,1,1													
+7	CAST:6,6,6,4	KNOWN:6,4,2,1													
+8	CAST:6,6,6,5,3	KNOWN:7,4,2,1,1													
+9	CAST:6,6,6,6,4	KNOWN:7,4,3,2,1													
+10	CAST:6,6,6,6,5,3	KNOWN:8,4,3,2,1,1													
+11	CAST:6,6,6,6,6,4	KNOWN:8,4,4,3,2,1													
+12	CAST:6,6,6,6,6,5,3	KNOWN:8,4,4,3,2,1,1													
+13	CAST:6,6,6,6,6,6,4	KNOWN:8,4,4,3,3,2,1													
+14	CAST:6,6,6,6,6,6,5,3	KNOWN:8,4,4,3,3,2,1,1													
+15	CAST:6,6,6,6,6,6,6,4	KNOWN:8,4,4,3,3,2,2,1													
+16	CAST:6,6,6,6,6,6,6,5,3	KNOWN:8,4,4,3,3,3,2,1,1													
+17	CAST:6,6,6,6,6,6,6,6,4	KNOWN:8,4,4,3,3,3,2,2,1													
+18	CAST:6,6,6,6,6,6,6,6,5,3	KNOWN:8,4,4,3,3,3,2,2,1,1													
+19	CAST:6,6,6,6,6,6,6,6,6,4	KNOWN:8,4,4,3,3,3,2,2,2,1													
+20	CAST:6,6,6,6,6,6,6,6,6,6	KNOWN:8,4,4,3,3,3,2,2,2,2													
+															
+CLASS:Cleric.MOD	!PRECLASS:1,Cleric (Spontaneous)														
+															
+CLASS:Cleric (Spontaneous)	HD:8	TYPE:PC.Base	FACT:Abb|SpC	MAXLEVEL:20	SOURCEPAGE:PHB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Cleric	DEFINE:ClericLVL|0	BONUS:VAR|ClericLVL|CL	EXCLASS:Ex-Cleric	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Cleric (Spontaneous)	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (History)|Knowledge (Religion)|Knowledge (The Planes)|TYPE.Profession|Spellcraft													
+CLASS:Cleric (Spontaneous)	!PRECLASS:1,Cleric		SERVESAS:CLASS|Cleric												
+CLASS:Cleric (Spontaneous)	SPELLSTAT:WIS	FACT:SpellType|Divine	MEMORIZE:NO	BONUS:DOMAIN|NUMBER|2											
+1				ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericProficiencies											
+#															
+1	PROHIBITSPELL:ALIGNMENT.Good|PREALIGN:LE,NE,CE	PROHIBITSPELL:ALIGNMENT.Good|PREDEITYALIGN:LE,NE,CE													
+1	PROHIBITSPELL:ALIGNMENT.Evil|PREALIGN:LG,NG,CG	PROHIBITSPELL:ALIGNMENT.Evil|PREDEITYALIGN:LG,NG,CG													
+1	PROHIBITSPELL:ALIGNMENT.Lawful|PREALIGN:CG,CN,CE	PROHIBITSPELL:ALIGNMENT.Lawful|PREDEITYALIGN:CG,CN,CE													
+1	PROHIBITSPELL:ALIGNMENT.Chaotic|PREALIGN:LG,LN,LE	PROHIBITSPELL:ALIGNMENT.Chaotic|PREDEITYALIGN:LG,LN,LE													
+1				ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Deity - Domains and Domain Spells											
+#															
+1				ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Aura|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericAura											
+1				ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericSpells											
+1				ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Spontaneous Casting|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericSpontaneousCasting											
+1				ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Turn or Rebuke Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericTurnRebukeUndead											
+1				ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Bonus Languages|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericBonusLanguages											
+#															
+1	CAST:3,1	KNOWN:4,2													
+2	CAST:4,2	KNOWN:5,2													
+3	CAST:4,2,1	KNOWN:5,3,0													
+4	CAST:5,3,2	KNOWN:6,3,1													
+5	CAST:5,3,2,1	KNOWN:6,4,2,0													
+6	CAST:5,3,3,2	KNOWN:7,4,2,1													
+7	CAST:6,4,3,2,1	KNOWN:7,5,3,2,0													
+8	CAST:6,4,3,3,2	KNOWN:8,5,3,2,1													
+9	CAST:6,4,4,3,2,1	KNOWN:8,5,4,3,2,0													
+10	CAST:6,4,4,3,3,2	KNOWN:9,5,4,3,2,1													
+11	CAST:6,5,4,4,3,2,1	KNOWN:9,5,5,4,3,2,0													
+12	CAST:6,5,4,4,3,3,2	KNOWN:9,5,5,4,3,2,1													
+13	CAST:6,5,5,4,4,3,2,1	KNOWN:9,5,5,4,4,3,2,0													
+14	CAST:6,5,5,4,4,3,3,2	KNOWN:9,5,5,4,4,3,2,1													
+15	CAST:6,5,5,5,4,4,3,2,1	KNOWN:9,5,5,4,4,4,3,2,0													
+16	CAST:6,5,5,5,4,4,3,3,2	KNOWN:9,5,5,4,4,4,3,2,1													
+17	CAST:6,5,5,5,5,4,4,3,2,1	KNOWN:9,5,5,4,4,4,3,3,2,0													
+18	CAST:6,5,5,5,5,4,4,3,3,2	KNOWN:9,5,5,4,4,4,3,3,2,1													
+19	CAST:6,5,5,5,5,5,4,4,3,3	KNOWN:9,5,5,4,4,4,3,3,3,2													
+20	CAST:6,5,5,5,5,5,4,4,4,4	KNOWN:9,5,5,4,4,4,3,3,3,3													
+															
+CLASS:Druid.MOD	!PRECLASS:1,Druid (Spontaneous)														
+															
+CLASS:Druid (Spontaneous)	HD:8	TYPE:PC.Base	FACT:Abb|SpD	MAXLEVEL:20	SOURCEPAGE:PHB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Druid	DEFINE:DruidLVL|0	BONUS:VAR|DruidLVL|CL	EXCLASS:Ex-Druid	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Druid (Spontaneous)	PREALIGN:NG,LN,TN,CN,NE	!PRECLASS:1,Druid		SERVESAS:CLASS|Druid											
+CLASS:Druid (Spontaneous)	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Nature)|Listen|TYPE.Profession|Ride|Spellcraft|Spot|Survival|Swim													
+CLASS:Druid (Spontaneous)	SPELLSTAT:WIS	FACT:SpellType|Divine	MEMORIZE:NO												
+1				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidProficiencies											
+1	PROHIBITSPELL:ALIGNMENT.Good|PREALIGN:LE,NE,CE	PROHIBITSPELL:ALIGNMENT.Good|PREDEITYALIGN:LE,NE,CE													
+1	PROHIBITSPELL:ALIGNMENT.Evil|PREALIGN:LG,NG,CG	PROHIBITSPELL:ALIGNMENT.Evil|PREDEITYALIGN:LG,NG,CG													
+1	PROHIBITSPELL:ALIGNMENT.Lawful|PREALIGN:CG,CN,CE	PROHIBITSPELL:ALIGNMENT.Lawful|PREDEITYALIGN:CG,CN,CE													
+1	PROHIBITSPELL:ALIGNMENT.Chaotic|PREALIGN:LG,LN,LE	PROHIBITSPELL:ALIGNMENT.Chaotic|PREDEITYALIGN:LG,LN,LE													
+#															
+1				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidSpells											
+1				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Spontaneous Casting|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidSpontaneousCasting											
+1				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Bonus Languages|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidBonusLanguages											
+1				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Animal Companion|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidAnimalCompanion											
+1				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Nature Sense|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidNatureSense											
+1				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Wild Empathy|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidWildEmpathy											
+2				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Woodland Stride|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidWoodlandStride											
+3				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Trackless Step|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidTracklessStep											
+4				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Resist Nature's Lure|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidResistSNatureLure											
+5				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Wild Shape|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidWildShape											
+9				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Venom Immunity|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidVenomImmunity											
+13				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ A Thousand Faces|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidAThousandFaces											
+15				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Timeless Body|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidTimelessBody											
+#															
+1	CAST:3,1	KNOWN:4,2													
+2	CAST:4,2	KNOWN:5,2													
+3	CAST:4,2,1	KNOWN:5,3,0													
+4	CAST:5,3,2	KNOWN:6,3,1													
+5	CAST:5,3,2,1	KNOWN:6,4,2,0													
+6	CAST:5,3,3,2	KNOWN:7,4,2,1													
+7	CAST:6,4,3,2,1	KNOWN:7,5,3,2,0													
+8	CAST:6,4,3,3,2	KNOWN:8,5,3,2,1													
+9	CAST:6,4,4,3,2,1	KNOWN:8,5,4,3,2,0													
+10	CAST:6,4,4,3,3,2	KNOWN:9,5,4,3,2,1													
+11	CAST:6,5,4,4,3,2,1	KNOWN:9,5,5,4,3,2,0													
+12	CAST:6,5,4,4,3,3,2	KNOWN:9,5,5,4,3,2,1													
+13	CAST:6,5,5,4,4,3,2,1	KNOWN:9,5,5,4,4,3,2,0													
+14	CAST:6,5,5,4,4,3,3,2	KNOWN:9,5,5,4,4,3,2,1													
+15	CAST:6,5,5,5,4,4,3,2,1	KNOWN:9,5,5,4,4,4,3,2,0													
+16	CAST:6,5,5,5,4,4,3,3,2	KNOWN:9,5,5,4,4,4,3,2,1													
+17	CAST:6,5,5,5,5,4,4,3,2,1	KNOWN:9,5,5,4,4,4,3,3,2,0													
+18	CAST:6,5,5,5,5,4,4,3,3,2	KNOWN:9,5,5,4,4,4,3,3,2,1													
+19	CAST:6,5,5,5,5,5,4,4,3,3	KNOWN:9,5,5,4,4,4,3,3,3,2													
+20	CAST:6,5,5,5,5,5,4,4,4,4	KNOWN:9,5,5,4,4,4,3,3,3,3													
+															
+CLASS:Paladin.MOD	PREVAREQ:UA_VAR_PRESTIGECLASS,0														
+															
+CLASS:Ranger.MOD	PREVAREQ:UA_VAR_PRESTIGECLASS,0														
+															
+CLASS:Bard.MOD	PREVAREQ:UA_VAR_PRESTIGECLASS,0														
+															
+CLASS:Prestige Bard	HD:6	TYPE:Prestige	FACT:Abb|PBr	MAXLEVEL:15	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:PrestigeBardLVL|0	BONUS:VAR|PrestigeBardLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Prestige Bard	PREALIGN:NG,TN,NE,CG,CN,CE	PRETOTALAB:3	PRESKILL:1,TYPE.Knowledge=4	PRESKILL:1,TYPE.Perform=8	PRETEXT:Ability to cast at least one 1st-level arcane spell from each of the divination, enchantment, and illusion schools.										
+CLASS:Prestige Bard	PREVAREQ:UA_VAR_PRESTIGECLASS,1	SERVESAS:CLASS|Bard													
+CLASS:Prestige Bard	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|Concentration|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Sense Motive|Sleight of Hand|Speak Language|Spellcraft|Swim|Tumble|Use Magic Device													
+1				ABILITY:Prestige Bard Class Feature|AUTOMATIC|Prestige Bard ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigeBardProficiencies											
+#															
+1				ABILITY:Prestige Bard Class Feature|AUTOMATIC|Prestige Bard ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigeBardSpellcasting											
+1				ABILITY:Prestige Bard Class Feature|AUTOMATIC|Prestige Bard ~ Bardic Knowledge|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigeBardBardicKnowledge											
+2	ADD:SPELLCASTER|Arcane														
+3															
+4	ADD:SPELLCASTER|Arcane														
+5	ADD:SPELLCASTER|Arcane														
+6	ADD:SPELLCASTER|Arcane														
+7															
+8	ADD:SPELLCASTER|Arcane														
+9	ADD:SPELLCASTER|Arcane														
+10	ADD:SPELLCASTER|Arcane														
+11	ADD:SPELLCASTER|Arcane														
+12	ADD:SPELLCASTER|Arcane														
+13															
+14	ADD:SPELLCASTER|Arcane														
+15	ADD:SPELLCASTER|Arcane														
+															
+CLASS:Prestige Paladin	HD:10	TYPE:Prestige	FACT:Abb|PPa	MAXLEVEL:15	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:PrestigePaladinLVL|0	BONUS:VAR|PrestigePaladinLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Prestige Paladin	PREALIGN:LG	PRETOTALAB:4	PRESKILL:2,Knowledge (Religion)=2,Knowledge (Nobility and Royalty)=2	PRESKILL:1,Ride=4	PREABILITY:1,CATEGORY=FEAT,Mounted Combat	PREABILITY:1,CATEGORY=Special Ability,Turn Undead	PRETEXT:Ability to cast protection from evil as a divine spell.								
+CLASS:Prestige Paladin	PREVAREQ:UA_VAR_PRESTIGECLASS,1	SERVESAS:CLASS|Paladin													
+CLASS:Prestige Paladin	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Nobility and Royalty)|Knowledge (Religion)|TYPE.Profession|Ride|Sense Motive													
+1				ABILITY:Prestige Paladin Class Feature|AUTOMATIC|Prestige Paladin ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigePaladinProficiencies											
+#															
+1	ADD:SPELLCASTER|Divine			ABILITY:Prestige Paladin Class Feature|AUTOMATIC|Prestige Paladin ~ Spells per Day|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigePaladinSpellsPerDay											
+1				ABILITY:Prestige Paladin Class Feature|AUTOMATIC|Prestige Paladin ~ Detect Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigePaladinDetectEvil											
+1				ABILITY:Prestige Paladin Class Feature|AUTOMATIC|Prestige Paladin ~ Smite Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigePaladinSmiteEvil											
+2				ABILITY:Prestige Paladin Class Feature|AUTOMATIC|Prestige Paladin ~ Divine Grace|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigePaladinDivineGrace											
+2				ABILITY:Prestige Paladin Class Feature|AUTOMATIC|Prestige Paladin ~ Lay on Hands|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigePaladinLayOnHands											
+2				ABILITY:Prestige Paladin Class Feature|AUTOMATIC|Prestige Paladin ~ Special Mount|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigePaladinSpecialMount											
+3	ADD:SPELLCASTER|Divine			ABILITY:Prestige Paladin Class Feature|AUTOMATIC|Prestige Paladin ~ Aura of Courage|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigePaladinAuraOfCourage											
+3				ABILITY:Prestige Paladin Class Feature|AUTOMATIC|Prestige Paladin ~ Divine Health|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigePaladinDivineHealth											
+4				ABILITY:Prestige Paladin Class Feature|AUTOMATIC|Prestige Paladin ~ Remove Disease|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigePaladinRemoveDisease											
+5	ADD:SPELLCASTER|Divine														
+6															
+7	ADD:SPELLCASTER|Divine														
+8															
+9	ADD:SPELLCASTER|Divine														
+10															
+11	ADD:SPELLCASTER|Divine														
+12															
+13	ADD:SPELLCASTER|Divine														
+14															
+15	ADD:SPELLCASTER|Divine														
+															
+CLASS:Prestige Ranger	HD:8	TYPE:Prestige	FACT:Abb|PRa	MAXLEVEL:15	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:PrestigeRangerLVL|0	BONUS:VAR|PrestigeRangerLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Prestige Ranger	PRETOTALAB:4	PRESKILL:1,Knowledge (Nature)=2	PRESKILL:1,Survival=4	PREABILITY:2,CATEGORY=FEAT,Endurance,Track	PREABILITY:1,CATEGORY=FEAT,Rapid Shot,Two-Weapon Fighting	PRETEXT:Must be able to cast calm animals as a divine spell.									
+CLASS:Prestige Ranger	PREVAREQ:UA_VAR_PRESTIGECLASS,1	SERVESAS:CLASS|Ranger													
+CLASS:Prestige Ranger	STARTSKILLPTS:6	CSKILL:Climb|Concentration|TYPE.Craft|Handle Animal|Heal|Hide|Jump|Knowledge (Dungeoneering)|Knowledge (Geography)|Knowledge (Nature)|Listen|Move Silently|TYPE.Profession|Ride|Search|Spot|Survival|Swim|Use Rope													
+1				ABILITY:Prestige Ranger Class Feature|AUTOMATIC|Prestige Ranger ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigeRangerProficiencies											
+#															
+1				ABILITY:Prestige Ranger Class Feature|AUTOMATIC|Prestige Ranger ~ Animal Companion|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigeRangerAnimalCompanion											
+1				ABILITY:Prestige Ranger Class Feature|AUTOMATIC|Prestige Ranger ~ Favored Enemy|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigeRangerFavoredEnemy											
+1				ABILITY:Prestige Ranger Class Feature|AUTOMATIC|Prestige Ranger ~ Wild Empathy|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigeRangerWildEmpathy											
+2	ADD:SPELLCASTER|Divine			ABILITY:Prestige Ranger Class Feature|AUTOMATIC|Prestige Ranger ~ Combat Style|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigeRangerCombatStyle											
+2				ABILITY:Prestige Ranger Class Feature|AUTOMATIC|Prestige Ranger ~ Woodland Stride|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigeRangerWoodlandStride											
+3															
+4	ADD:SPELLCASTER|Divine														
+5															
+6	ADD:SPELLCASTER|Divine														
+7															
+8	ADD:SPELLCASTER|Divine														
+9				ABILITY:Prestige Ranger Class Feature|AUTOMATIC|Prestige Ranger ~ Camouflage|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigeRangerCamouflage											
+10	ADD:SPELLCASTER|Divine														
+11															
+12	ADD:SPELLCASTER|Divine														
+13				ABILITY:Prestige Ranger Class Feature|AUTOMATIC|Prestige Ranger ~ Hide in Plain Sight|!PREABILITY:1,CATEGORY=ACF,TYPE.PrestigeRangerHideInPlainSight											
+14	ADD:SPELLCASTER|Divine														
+15															
+															
+CLASS:Battle Scion	HD:10	TYPE:Prestige	FACT:Abb|BtS	MAXLEVEL:10	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:BattleScionLVL|0	BONUS:VAR|BattleScionLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Battle Scion	PRETEXT:To qualify to become a battle scion, a character must fulfill the criteria given in his particular weapon's entry.														
+CLASS:Battle Scion	PREVAREQ:UA_VAR_USESCIONCLASSES,1														
+CLASS:Battle Scion	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Handle Animal|Intimidate|Jump|Ride|Swim													
+1				ABILITY:Battle Scion Class Feature|AUTOMATIC|Battle Scion ~ Bonus Feats|!PREABILITY:1,CATEGORY=ACF,TYPE.BattleScionBonusFeats											
+															
+CLASS:Faith Scion	HD:8	TYPE:Prestige	FACT:Abb|FtS	MAXLEVEL:10	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:FaithScionLVL|0	BONUS:VAR|FaithScionLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Faith Scion	PRETEXT:To qualify to become a faith scion, a character must fulfill the criteria given in his particular weapon's entry.														
+CLASS:Faith Scion	PREVAREQ:UA_VAR_USESCIONCLASSES,1														
+CLASS:Faith Scion	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (Nature)|Knowledge (Religion)|TYPE.Profession|Ride|Spellcraft|Survival													
+1	ADD:SPELLCASTER|Divine			ABILITY:Faith Scion Class Feature|AUTOMATIC|Faith Scion ~ Spells per Day											
+1				ABILITY:Faith Scion Class Feature|AUTOMATIC|Faith Scion ~ Special Abilities|!PREABILITY:1,CATEGORY=ACF,TYPE.FaithScionSpecialAbilities											
+2	ADD:SPELLCASTER|Divine														
+3	ADD:SPELLCASTER|Divine														
+4	ADD:SPELLCASTER|Divine														
+5	ADD:SPELLCASTER|Divine														
+6	ADD:SPELLCASTER|Divine														
+7	ADD:SPELLCASTER|Divine														
+8	ADD:SPELLCASTER|Divine														
+9	ADD:SPELLCASTER|Divine														
+10	ADD:SPELLCASTER|Divine														
+															
+CLASS:Spell Scion	HD:6	TYPE:Prestige	FACT:Abb|SlS	MAXLEVEL:10	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:SpellScionLVL|0	BONUS:VAR|SpellScionLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Spell Scion	PRETEXT:To qualify to become a spell scion, a character must fulfill the criteria given in his particular weapon's entry.														
+CLASS:Spell Scion	PREVAREQ:UA_VAR_USESCIONCLASSES,1														
+CLASS:Spell Scion	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Spellcraft													
+1	ADD:SPELLCASTER|Arcane			ABILITY:Spell Scion Class Feature|AUTOMATIC|Spell Scion ~ Spells per Day											
+2	ADD:SPELLCASTER|Arcane														
+3	ADD:SPELLCASTER|Arcane														
+4	ADD:SPELLCASTER|Arcane														
+5	ADD:SPELLCASTER|Arcane														
+6	ADD:SPELLCASTER|Arcane														
+7	ADD:SPELLCASTER|Arcane														
+8	ADD:SPELLCASTER|Arcane														
+9	ADD:SPELLCASTER|Arcane														
+10	ADD:SPELLCASTER|Arcane														
+															
+CLASS:Swift Scion	HD:6	TYPE:Prestige	FACT:Abb|SwS	MAXLEVEL:10	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:SwiftScionLVL|0	BONUS:VAR|SwiftScionLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Swift Scion	PRETEXT:To qualify to become a swift scion, a character must fulfill the criteria given in his particular weapon's entry.														
+CLASS:Swift Scion	PREVAREQ:UA_VAR_USESCIONCLASSES,1														
+CLASS:Swift Scion	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Diplomacy|Escape Artist|TYPE.Profession|TYPE.Profession|Search|Sense motive|Spot|Swim|Tumble|Use Rope													
+1	ADD:CLASSSKILLS|Appraise,Concentration,Decipher Script,Disable Device,Disguise,Gather Information,TYPE.Knowledge,Sleight of Hand,Speak Language,Spellcraft,Survival,Use Magic Device			ABILITY:Spell Scion Class Feature|AUTOMATIC|Swift Scion ~ Bonus Class Skill											
+2				ABILITY:Spell Scion Class Feature|AUTOMATIC|Swift Scion ~ Bonus Special Ability											
+5	ADD:CLASSSKILLS|Appraise,Concentration,Decipher Script,Disable Device,Disguise,Gather Information,TYPE.Knowledge,Sleight of Hand,Speak Language,Spellcraft,Survival,Use Magic Device														
+9	ADD:CLASSSKILLS|Appraise,Concentration,Decipher Script,Disable Device,Disguise,Gather Information,TYPE.Knowledge,Sleight of Hand,Speak Language,Spellcraft,Survival,Use Magic Device														
+															
+CLASS:Tainted Sorcerer	HD:8	TYPE:Prestige	FACT:Abb|TSr	MAXLEVEL:10	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:TaintedSorcererLVL|0	BONUS:VAR|TaintedSorcererLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Tainted Sorcerer	PREALIGN:LN,LE,TN,NE,CN,CE	PRECHECKBASE:1,Will=4	PRESKILL:1,Concentration=8	PRESKILL:1,Knowledge (Arcana)=4	PRETEXT:Ability to cast 1st-level spells. Special: Must have learned the basics of taint magic from a tainted sorcerer of at least 4th level, or must have summoned a demon or devil to gain instruction.	PREVARGTEQ:TaintScore,4									
+CLASS:Tainted Sorcerer	PREVAREQ:UA_VAR_USETAINT,1														
+CLASS:Tainted Sorcerer	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Disguise|Hide|Knowledge (Arcana)|Knowledge (The Planes)|Spellcraft													
+1				ABILITY:Tainted Sorcerer Class Feature|AUTOMATIC|Tainted Sorcerer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.TaintedSorcererProficiencies											
+1				ABILITY:Tainted Sorcerer Class Feature|AUTOMATIC|Tainted Sorcerer ~ Level Advancement											
+#															
+1	ADD:SPELLCASTER|ANY			ABILITY:Tainted Sorcerer Class Feature|AUTOMATIC|Tainted Sorcerer ~ Spells per Day											
+1				ABILITY:Tainted Sorcerer Class Feature|AUTOMATIC|Tainted Sorcerer ~ Blood Component|!PREABILITY:1,CATEGORY=ACF,TYPE.TaintedSorcererBloodComponent											
+1				ABILITY:Tainted Sorcerer Class Feature|AUTOMATIC|Tainted Sorcerer ~ Taint Suppression|!PREABILITY:1,CATEGORY=ACF,TYPE.TaintedSorcererTaintSuppression											
+1				ABILITY:Tainted Sorcerer Class Feature|AUTOMATIC|Tainted Sorcerer ~ Tainted Metamagic|!PREABILITY:1,CATEGORY=ACF,TYPE.TaintedSorcererTaintedMetamagic											
+1				ABILITY:Tainted Sorcerer Class Feature|AUTOMATIC|Tainted Sorcerer ~ Tainted Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.TaintedSorcererTaintedSpellcasting											
+2	ADD:SPELLCASTER|ANY														
+3	ADD:SPELLCASTER|ANY														
+4	ADD:SPELLCASTER|ANY														
+5	ADD:SPELLCASTER|ANY														
+6	ADD:SPELLCASTER|ANY														
+7	ADD:SPELLCASTER|ANY														
+8	ADD:SPELLCASTER|ANY														
+9	ADD:SPELLCASTER|ANY														
+10	ADD:SPELLCASTER|ANY														
+															
+CLASS:Tainted Warrior	HD:12	TYPE:Prestige	FACT:Abb|TWr	MAXLEVEL:10	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:TaintedWarriorLVL|0	BONUS:VAR|TaintedWarriorLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Tainted Warrior	PREALIGN:LN,LE,TN,NE,CN,CE	PRETOTALAB:5	PREVARGTEQ:TaintScore,10	PRETEXT:Character must locate and join a temple devoted to an evil deity.											
+CLASS:Tainted Warrior	PREVAREQ:UA_VAR_USETAINT,1														
+CLASS:Tainted Warrior	STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump|Ride|Sense Motive|Swim													
+1				ABILITY:Tainted Warrior Class Feature|AUTOMATIC|Tainted Warrior ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.TaintedSorcererProficiencies											

@@ -1,0 +1,120 @@
+SOURCELONG:Unearthed Arcana	SOURCESHORT:UA	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-02
+						
+Languages	KEY:Bonus Language ~ Aquan	VISIBLE:NO	LANGBONUS:Aquan			
+						
+# Human	VISIBLE:NO	KEY:Human Base	SUBRACE:Human			
+# Hill	VISIBLE:NO	KEY:Hill Dwarf	SUBRACE:Hill			
+# High	VISIBLE:NO	KEY:High Elf	SUBRACE:High			
+# Rock	VISIBLE:NO	KEY:Rock Gnome	SUBRACE:Rock			
+# Half-Elf	VISIBLE:NO	KEY:Half-Elf ~ Half-Elf				
+# Half-Orc	VISIBLE:NO	KEY:Half-Orc				
+# Lightfoot	VISIBLE:NO	KEY:Lightfoot Halfling	SUBRACE:Lightfoot			
+# Goblin	VISIBLE:NO	KEY:Common Goblin	LEVELADJUSTMENT:2			
+# Kobold	VISIBLE:NO	KEY:Common Kobold				
+# Orc	VISIBLE:NO	KEY:Common Orc	LEVELADJUSTMENT:2			
+						
+Aquatic	VISIBLE:NO	KEY:Aquatic Dwarf	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Aquatic	RACESUBTYPE:Aquatic	MOVE:Swim,20	
+Aquatic	VISIBLE:NO	KEY:Aquatic Gnome	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Aquatic	RACESUBTYPE:Aquatic	MOVE:Swim,20	
+Aquatic	VISIBLE:NO	KEY:Aquatic Goblin	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Aquatic	RACESUBTYPE:Aquatic	MOVE:Swim,30	
+Aquatic	VISIBLE:NO	KEY:Aquatic Half-Elf	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Aquatic	RACESUBTYPE:Aquatic	MOVE:Swim,40	
+Aquatic	VISIBLE:NO	KEY:Aquatic Half-Orc	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Aquatic	RACESUBTYPE:Aquatic	MOVE:Swim,30	
+Aquatic	VISIBLE:NO	KEY:Aquatic Halfling	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Aquatic	RACESUBTYPE:Aquatic	MOVE:Swim,20	
+Aquatic	VISIBLE:NO	KEY:Aquatic Human	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Aquatic	RACESUBTYPE:Aquatic	MOVE:Swim,30	
+Aquatic	VISIBLE:NO	KEY:Aquatic Kobold	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Aquatic	RACESUBTYPE:Aquatic	MOVE:Swim,40	
+Aquatic	VISIBLE:NO	KEY:Aquatic Orc	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Aquatic	RACESUBTYPE:Aquatic	MOVE:Swim,30	LEVELADJUSTMENT:2
+						
+Arctic	VISIBLE:NO	KEY:Arctic Dwarf	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Arctic			
+Arctic	VISIBLE:NO	KEY:Arctic Elf	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Arctic			
+Arctic	VISIBLE:NO	KEY:Arctic Gnome	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Arctic			
+Arctic	VISIBLE:NO	KEY:Arctic Goblin	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Arctic	LEVELADJUSTMENT:2		
+Arctic	VISIBLE:NO	KEY:Arctic Half-Elf	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Arctic			
+Arctic	VISIBLE:NO	KEY:Arctic Half-Orc	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Arctic			
+Arctic	VISIBLE:NO	KEY:Arctic Halfling	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Arctic			
+Arctic	VISIBLE:NO	KEY:Arctic Kobold	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Arctic			
+Arctic	VISIBLE:NO	KEY:Arctic Orc	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Arctic	LEVELADJUSTMENT:2		
+						
+Favored Class	KEY:Halfling ~ Arctic ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger			
+						
+Desert	VISIBLE:NO	KEY:Desert Dwarf	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Desert			
+Desert	VISIBLE:NO	KEY:Desert Elf	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Desert			
+Desert	VISIBLE:NO	KEY:Desert Gnome	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Desert			
+Desert	VISIBLE:NO	KEY:Desert Goblin	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Desert	LEVELADJUSTMENT:2		
+Desert	VISIBLE:NO	KEY:Desert Half-Elf	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Desert			
+Desert	VISIBLE:NO	KEY:Desert Half-Orc	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Desert			
+Desert	VISIBLE:NO	KEY:Desert Halfling	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Desert			
+Desert	VISIBLE:NO	KEY:Desert Kobold	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Desert			
+Desert	VISIBLE:NO	KEY:Desert Orc	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Desert	LEVELADJUSTMENT:2		
+						
+Favored Class	KEY:Kobold ~ Desert ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue			
+						
+Jungle	VISIBLE:NO	KEY:Jungle Dwarf				
+Jungle	VISIBLE:NO	KEY:Jungle Elf				
+Jungle	VISIBLE:NO	KEY:Jungle Gnome				
+Jungle	VISIBLE:NO	KEY:Jungle Goblin	MOVE:Climb,20	LEVELADJUSTMENT:2		
+Jungle	VISIBLE:NO	KEY:Jungle Half-Elf				
+Jungle	VISIBLE:NO	KEY:Jungle Half-Orc				
+Jungle	VISIBLE:NO	KEY:Jungle Halfling				
+Jungle	VISIBLE:NO	KEY:Jungle Kobold				
+Jungle	VISIBLE:NO	KEY:Jungle Orc	LEVELADJUSTMENT:2			
+						
+Favored Class	KEY:Dwarf ~ Jungle ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger			
+Favored Class	KEY:Halfling ~ Jungle ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Barbarian			
+Favored Class	KEY:Goblin ~ Jungle ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Barbarian			
+						
+Air	VISIBLE:NO	KEY:Air Gnome	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Air			
+Air	VISIBLE:NO	KEY:Air Goblin	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Air	LEVELADJUSTMENT:2		
+						
+Earth	VISIBLE:NO	KEY:Earth Dwarf	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Earth			
+Earth	VISIBLE:NO	KEY:Earth Kobold	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Earth			
+						
+Fire	VISIBLE:NO	KEY:Fire Elf	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Fire			
+Fire	VISIBLE:NO	KEY:Fire Hobgoblin	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Fire	LEVELADJUSTMENT:1		
+Fire	VISIBLE:NO	KEY:Fire Half-Elf	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Fire			
+						
+Swim Speed	VISIBLE:NO	KEY:Races of Water ~ Swim Speed	PREMOVE:1,Swim=1	BONUS:MOVEADD|TYPE.Swim|10		
+No Swim Speed	VISIBLE:NO	KEY:Races of Water ~ No Swim Speed	!PREMOVE:1,Swim=1	MOVECLONE:Walk,Swim,*1		
+						
+Water	VISIBLE:NO	KEY:Water Halfling	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Water			
+Water	VISIBLE:NO	KEY:Water Orc	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Water	LEVELADJUSTMENT:2		
+Water	VISIBLE:NO	KEY:Water Half-Orc	ABILITY:Special Ability|AUTOMATIC|Racial Trait ~ Water			
+						
+Level Adjustment Buy down 1	VISIBLE:NO	LEVELADJUSTMENT:-1				
+Level Adjustment Buy down 2	VISIBLE:NO	LEVELADJUSTMENT:-2				
+Level Adjustment Buy down 3	VISIBLE:NO	LEVELADJUSTMENT:-3				
+Level Adjustment Buy down 4	VISIBLE:NO	LEVELADJUSTMENT:-4				
+Level Adjustment Buy down 5	VISIBLE:NO	LEVELADJUSTMENT:-5				
+Level Adjustment Buy down 6	VISIBLE:NO	LEVELADJUSTMENT:-6				
+Level Adjustment Buy down 7	VISIBLE:NO	LEVELADJUSTMENT:-7				
+Level Adjustment Buy down 8	VISIBLE:NO	LEVELADJUSTMENT:-8				
+
+Swim Speed	VISIBLE:NO	KEY:Water Elemental Bloodline ~ Swim Speed	PREMOVE:1,Swim=1	BONUS:MOVEADD|TYPE.Swim|30		
+No Swim Speed	VISIBLE:NO	KEY:Water Elemental Bloodline ~ No Swim Speed	!PREMOVE:1,Swim=1	MOVECLONE:Walk,Swim,*1		
+Acid	VISIBLE:NO	KEY:Slaad Bloodline ~ Acid	ABILITY:Special Ability|AUTOMATIC|Bloodline ~ Resistance to Acid 5
+Cold	VISIBLE:NO	KEY:Slaad Bloodline ~ Cold	ABILITY:Special Ability|AUTOMATIC|Bloodline ~ Resistance to Cold 5
+Electricity	VISIBLE:NO	KEY:Slaad Bloodline ~ Electricity	ABILITY:Special Ability|AUTOMATIC|Bloodline ~ Resistance to Electricity 5
+Fire	VISIBLE:NO	KEY:Slaad Bloodline ~ Fire	ABILITY:Special Ability|AUTOMATIC|Bloodline ~ Resistance to Fire 5
+Sonic	VISIBLE:NO	KEY:Slaad Bloodline ~ Sonic	ABILITY:Special Ability|AUTOMATIC|Bloodline ~ Resistance to Sonic 5
+
+Spellcaster ~ 1	KEY:Drow Paragon ~ Spellcaster ~ 1	VISIBLE:NO	TEMPLATE:CHOOSE:Drow Paragon ~ Spellcaster ~ Male|Drow Paragon ~ Spellcaster ~ Female
+Spellcaster ~ 3	KEY:Drow Paragon ~ Spellcaster ~ 3	VISIBLE:NO	TEMPLATE:CHOOSE:Drow Paragon ~ Spellcaster ~ Male|Drow Paragon ~ Spellcaster ~ Female
+Drow Paragon ~ Spellcaster ~ Male	VISIBLE:NO	PRECLASS:1,Drow Paragon=1	PREGENDER:M	ADD:SPELLCASTER|Wizard
+Drow Paragon ~ Spellcaster ~ Female	VISIBLE:NO	PRECLASS:1,Drow Paragon=1	PREGENDER:F	ADD:SPELLCASTER|Cleric
+
+
+Bardic Sage	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Bardic Sage=1
+Divine Bard	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Divine Bard=1
+Savage Bard	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Savage Bard=1
+Cloistered Cleric	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Cloistered Cleric=1
+Druidic Avenger	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Druidic Avenger=1
+Paladin of Freedom	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Paladin of Freedom=1
+Paladin of Slaughter	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Paladin of Slaughter=1
+Planar Ranger	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Planar Ranger=1
+Urban Ranger	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Urban Ranger=1
+
+Languages	KEY:Planar Ranger ~ Bonus Languages	VISIBLE:NO	LANGBONUS:Abyssal,Aquan,Auran,Celestial,Ignan,Infernal,Terran
+
+###TODO:Create aspect of nature wild shape template
+#Wild Shape	VISIBLE:NO	DEFINE:WildshapeAC|0	DEFINE:WildshapeMove|0	DEFINE:WildshapeFlyMove|0	DEFINE:WildshapeManeuverability|0	DEFINE:WildshapeSTR|0	DEFINE:WildshapeDEX|0	DEFINE:WildshapeCON|0	DEFINE:WildshapeToHit|0	DEFINE:WildshapeDamage|0	DEFINE:WildshapeDR|0	DEFINE:WildshapeFastHealing|0	BONUS:COMBAT|AC|WildshapeAC|TYPE=NaturalArmor.STACK	BONUS:MOVEADD|TYPE.Walk|WildshapeMove-MOVEBASE	BONUS:MOVEADD|TYPE.Fly|WildshapeMoveFly-MOVEBASE	BONUS:STAT|STR|WildshapeSTR-STRSCORE.BASE	BONUS:STAT|DEX|WildshapeDEX-DEXSCORE.BASE	BONUS:STAT|STR|WildshapeCON-CONSCORE.BASE	BONUS:WEAPONPROF=TYPE.Natural|TOHIT|WildshapeToHit	BONUS:WEAPONPROF=TYPE.Natural|DAMAGE|WildshapeDamage	DR:WildshapeDR/-	BONUS:VAR|FastHealing|WildshapeFastHealing	BONUS:VAR|Maneuverability|WildshapeManeuverability
+Aspect of Nature (Agility)	TYPE:WildShape	VISIBLE:NO	PREVARGTEQ:WildShapeProgression,1,WildShapeLVL,8															SOURCEPAGE:UA										TEMPBONUS:PC|STAT|STR|-4	TEMPBONUS:PC|STAT|DEX|8																																				
+
+Item Familiar within arms reach		VISIBLE:NO	SOURCEPAGE:UA			TEMPDESC:While am item familiar is within arm's reach, the master gains the Alertness feat												TEMPBONUS:ANYPC|SKILL|Listen,Spot|2|TYPE=Familiar|!PREABILITY:1,CATEGORY=FEAT,Alertness|PREABILITY:1,CATEGORY=FEAT,Item Familiar

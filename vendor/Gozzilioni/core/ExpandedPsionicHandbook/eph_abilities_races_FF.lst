@@ -1,7 +1,5 @@
 SOURCELONG:Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
 																																	
-CATEGORY=Special Ability|Golem (Brain) ~ Inertial Armor.MOD	SERVESAS:ABILITY=FEAT|Inertial Armor
-
 CATEGORY=Special Ability|Swarm (Cranium Rat Swarm/Greater Pack) ~ Feats.FORGET
 Feats	CATEGORY:Special Ability	TYPE:SwarmCraniumRatSwarmGreaterPackRaceTrait.SpecialQuality	VISIBLE:YES		KEY:Swarm (Cranium Rat Swarm/Greater Pack) ~ Feats (Psionic)																		ABILITY:FEAT|AUTOMATIC|Power Penetration|Greater Power Penetration
 

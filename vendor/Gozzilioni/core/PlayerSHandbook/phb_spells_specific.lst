@@ -105,6 +105,8 @@ Speak with Animals ~ Rats only.MOD	OUTPUTNAME:Speak with Animals	TYPE:SpellLike	
 
 Summon Monster VI.COPY=Summon Monster VI	KEY:Summon Monster VI ~ Large Elemental
 Summon Monster VI ~ Large Elemental.MOD	OUTPUTNAME:Summon Monster VI	DESC:Summon Large Air, Earth, Fire or Water Elemental only.	
+Summon Monster VI.COPY=Summon Monster VI	KEY:Summon Monster VI ~ Fire only
+Summon Monster VI ~ Fire only.MOD	OUTPUTNAME:Summon Monster VI	DESC:Summon Fire creature only.	
 Summon Monster VII.COPY=Summon Monster VII	KEY:Summon Monster VII ~ Huge Fire Elemental
 Summon Monster VII ~ Huge Fire Elemental.MOD	OUTPUTNAME:Summon Monster VII	DESCRIPTOR:.CLEAR	DESCRIPTOR:Fire	DESC:Summon Huge Fire Elemental only.	
 Summon Monster IX.COPY=Summon Monster IX	KEY:Summon Monster IX ~ Aquatic only

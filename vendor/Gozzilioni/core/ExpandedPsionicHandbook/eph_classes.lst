@@ -5,7 +5,7 @@ SOURCELONG:Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzi
 # Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE			ALLOWBASECLASS	
 # Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)	SPELLLIST							
 #(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)			
-CLASS:Psion	HD:4	TYPE:PC.Base	FACT:Abb|Psi	MAXLEVEL:NOLIMIT	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Psion	DEFINE:PsionLVL|0	BONUS:VAR|PsionLVL|CL
+CLASS:Psion	HD:4	TYPE:PC.Base	FACT:Abb|Psi	MAXLEVEL:NOLIMIT	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Psion	DEFINE:PsionLVL|0	BONUS:VAR|PsionLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Psion	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Psicraft											
 CLASS:Psion	SPELLSTAT:INT	FACT:SpellType|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Psion|CL							ALLOWBASECLASS:NO	
 SUBCLASS:Seer	COST:0		CHOICE:SCHOOL|Clairsentience	CSKILL:Gather Information|Listen|Spot									
@@ -54,7 +54,7 @@ SUBCLASSLEVEL:1				ABILITY:Psion Class Feature|AUTOMATIC|Psion ~ Discipline ~ Te
 19	KNOWN:0,5,4,4,4,4,3,3,3,4												
 20	KNOWN:0,5,4,4,4,4,3,3,3,6												
 
-CLASS:Psychic Warrior	HD:8	TYPE:PC.Base	FACT:Abb|Psw	MAXLEVEL:NOLIMIT	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Combat	DEFINE:PsychicWarriorLVL|0	BONUS:VAR|PsychicWarriorLVL|CL
+CLASS:Psychic Warrior	HD:8	TYPE:PC.Base	FACT:Abb|Psw	MAXLEVEL:NOLIMIT	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Combat	DEFINE:PsychicWarriorLVL|0	BONUS:VAR|PsychicWarriorLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Psychic Warrior	STARTSKILLPTS:2	CSKILL:Autohypnosis|Climb|Concentration|TYPE.Craft|Jump|Knowledge (Psionics)|TYPE.Profession|Ride|Search|Swim											
 CLASS:Psychic Warrior	SPELLSTAT:WIS	FACT:SpellType|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Psychic Warrior|CL								
 1				ABILITY:Psychic Warrior Class Feature|AUTOMATIC|Psychic Warrior ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PsychicWarriorProficiencies									
@@ -84,7 +84,7 @@ CLASS:Psychic Warrior	SPELLSTAT:WIS	FACT:SpellType|Psionic	MEMORIZE:NO		BONUS:CA
 19	KNOWN:0,3,3,3,3,3,4												
 20	KNOWN:0,3,3,3,3,3,5												
 
-CLASS:Soulknife	HD:10	TYPE:PC.Base	FACT:Abb|Slk	MAXLEVEL:NOLIMIT	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Combat	DEFINE:SoulknifeLVL|0	BONUS:VAR|SoulknifeLVL|CL
+CLASS:Soulknife	HD:10	TYPE:PC.Base	FACT:Abb|Slk	MAXLEVEL:NOLIMIT	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Combat	DEFINE:SoulknifeLVL|0	BONUS:VAR|SoulknifeLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Soulknife	STARTSKILLPTS:4	CSKILL:Autohypnosis|Climb|Concentration|TYPE.Craft|Hide|Jump|Knowledge (Psionics)|Listen|Move Silently|TYPE.Profession|Spot|Tumble											
 1				ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulknifeProficiencies									
 1				TEMPLATE:Psionic									
@@ -102,7 +102,7 @@ CLASS:Soulknife	STARTSKILLPTS:4	CSKILL:Autohypnosis|Climb|Concentration|TYPE.Cra
 9				ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Greater Weapon Focus (Mind Blade)|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulknifeGreaterWeaponFocusMindBlade									
 13				ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Knife to the Soul|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulknifeKnifeToTheSoul									
 
-CLASS:Wilder	HD:6	TYPE:PC.Base	FACT:Abb|Wil	MAXLEVEL:NOLIMIT	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Wilder	DEFINE:WilderLVL|0	BONUS:VAR|WilderLVL|CL
+CLASS:Wilder	HD:6	TYPE:PC.Base	FACT:Abb|Wil	MAXLEVEL:NOLIMIT	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Wilder	DEFINE:WilderLVL|0	BONUS:VAR|WilderLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Wilder	STARTSKILLPTS:4	CSKILL:Autohypnosis|Balance|Bluff|Climb|Concentration|TYPE.Craft|Escape Artist|Intimidate|Jump|Knowledge (Psionics)|Listen|TYPE.Profession|Psicraft|Sense Motive|Spot|Swim|Tumble											
 CLASS:Wilder	SPELLSTAT:CHA	FACT:SpellType|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Wilder|CL								
 1				ABILITY:Wilder Class Feature|AUTOMATIC|Wilder ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.WilderProficiencies									
@@ -135,7 +135,7 @@ CLASS:Hidden Talent	SPELLSTAT:CHA	FACT:SpellType|Psionic	MEMORIZE:NO		BONUS:CAST
 CLASS:Psicrystal	TYPE:Monster	MAXLEVEL:1	SOURCEPAGE:EPH										
 1	DONOTADD:HITDIE|SKILLPOINTS
 
-CLASS:Cerebremancer	HD:4	TYPE:PC.Prestige	FACT:Abb|Cer	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:CerebremancerLVL|0	BONUS:VAR|CerebremancerLVL|CL
+CLASS:Cerebremancer	HD:4	TYPE:PC.Prestige	FACT:Abb|Cer	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:CerebremancerLVL|0	BONUS:VAR|CerebremancerLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Cerebremancer	PRESKILL:2,Knowledge (Arcana)=6,Knowledge (Psionics)=6	PRESPELLCAST:TYPE=Arcane,TYPE=Psionic	PRETEXT:Able to cast 2nd-level arcane spells. Able to manifest 2nd-level powers.										
 CLASS:Cerebremancer	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Script|Knowledge (Arcana)|Knowledge (Psionics)|TYPE.Profession|Psicraft|Spellcraft											
 1				ABILITY:Cerebremancer Class Feature|AUTOMATIC|Cerebremancer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.CerebremancerProficiencies									
@@ -152,7 +152,7 @@ CLASS:Cerebremancer	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Scr
 9	ADD:SPELLCASTER|Arcane	ADD:SPELLCASTER|Psionic											
 10	ADD:SPELLCASTER|Arcane	ADD:SPELLCASTER|Psionic											
 
-CLASS:Elocater	HD:6	TYPE:PC.Prestige	FACT:Abb|Elo	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ElocaterLVL|0	BONUS:VAR|ElocaterLVL|CL
+CLASS:Elocater	HD:6	TYPE:PC.Prestige	FACT:Abb|Elo	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ElocaterLVL|0	BONUS:VAR|ElocaterLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Elocater	PRETOTALAB:3	PRESKILL:1,Concentration=8	PREABILITY:2,CATEGORY=FEAT,Mobility,Spring Attack	PRESPELLCAST:TYPE=Psionic	PRETEXT:Able to manifest 1nd-level powers.								
 CLASS:Elocater	STARTSKILLPTS:6	CSKILL:Autohypnosis|Balance|Climb|Concentration|TYPE.Craft|Disable Device|Escape Artist|Gather Information|Hide|Jump|Knowledge (Local)|Knowledge (Psionics)|Listen|TYPE.Perform|TYPE.Profession|Psicraft|Search|Sense Motive|Sleight of Hand|Spot|Swim|Tumble|Use Psionic Device											
 1				ABILITY:Elocater Class Feature|AUTOMATIC|Elocater ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ElocaterProficiencies									
@@ -177,7 +177,7 @@ CLASS:Elocater	STARTSKILLPTS:6	CSKILL:Autohypnosis|Balance|Climb|Concentration|T
 10	ADD:SPELLCASTER|Psionic												
 
 ###TODO CONTIGUOUS:Monk
-CLASS:Fist of Zuoken	HD:6	TYPE:PC.Prestige	FACT:Abb|FoZ	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:FistOfZuokenLVL|0	BONUS:VAR|FistOfZuokenLVL|CL
+CLASS:Fist of Zuoken	HD:6	TYPE:PC.Prestige	FACT:Abb|FoZ	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:FistOfZuokenLVL|0	BONUS:VAR|FistOfZuokenLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Fist of Zuoken	PRETOTALAB:4	PRESKILL:1,Concentration=9	PREABILITY:2,CATEGORY=FEAT,Wild Talent	PREABILITY:1,CATEGORY=Special Ability,Still Mind									
 CLASS:Fist of Zuoken	STARTSKILLPTS:4	CSKILL:Autohypnosis|Concentration|TYPE.Craft|Escape Artist|Hide|Jump|Knowledge (Psionics)|Knowledge (Religion)|Listen|Move Silently|Psicraft|Sense Motive|Spot|Tumble											
 CLASS:Fist of Zuoken	SPELLSTAT:WIS	FACT:SpellType|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|Fist of Zuoken|CL	SPELLLIST:1|Psychic Warrior							
@@ -198,7 +198,7 @@ CLASS:Fist of Zuoken	SPELLSTAT:WIS	FACT:SpellType|Psionic	MEMORIZE:NO		BONUS:CAS
 9	KNOWN:0,2,2,2,2,1												
 10	KNOWN:0,2,2,2,2,2												
 
-CLASS:Illithid Slayer	HD:8	TYPE:PC.Prestige	FACT:Abb|IlS	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:IllithidSlayerLVL|0	BONUS:VAR|IllithidSlayerLVL|CL
+CLASS:Illithid Slayer	HD:8	TYPE:PC.Prestige	FACT:Abb|IlS	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:IllithidSlayerLVL|0	BONUS:VAR|IllithidSlayerLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Illithid Slayer	PRETOTALAB:4	PRESKILL:1,Knowledge (Dungeoneering)=4	PREABILITY:2,CATEGORY=FEAT,Track	PREVARGTEQ:TotalPowerPoints,1	PRETEXT:Special: Must have killed an illithid, either individually or as part of a group composed of no more than six members.								
 CLASS:Illithid Slayer	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Knowledge (Dungeoneering)|Listen|Psicraft|Sense Motive|Spot|Survival											
 1				ABILITY:Illithid Slayer Class Feature|AUTOMATIC|Illithid Slayer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.IllithidSlayerProficiencies									
@@ -223,7 +223,7 @@ CLASS:Illithid Slayer	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Knowledge (Dung
 9	ADD:SPELLCASTER|Psionic												
 10	ADD:SPELLCASTER|Psionic												
 
-CLASS:Metamind	HD:4	TYPE:PC.Prestige	FACT:Abb|Met	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:MetamindLVL|0	BONUS:VAR|MetamindLVL|CL
+CLASS:Metamind	HD:4	TYPE:PC.Prestige	FACT:Abb|Met	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:MetamindLVL|0	BONUS:VAR|MetamindLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Metamind	PRESKILL:1,Knowledge (Psionics)=6	PRESKILL:1,Psicraft=4	PRECLASS:1,SPELLCASTER.Psionic=4	PRETEXT:Manifester level 4th.									
 CLASS:Metamind	STARTSKILLPTS:2	CSKILL:Autohypnosis|Concentration|TYPE.Craft|Knowledge (Psionics)|Psicraft											
 1				ABILITY:Metamind Class Feature|AUTOMATIC|Metamind ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MetamindProficiencies									
@@ -239,8 +239,8 @@ CLASS:Metamind	STARTSKILLPTS:2	CSKILL:Autohypnosis|Concentration|TYPE.Craft|Know
 8	ADD:SPELLCASTER|Psionic												
 10	ADD:SPELLCASTER|Psionic												
 
-CLASS:Psion Uncarnate	HD:4	TYPE:PC.Prestige	FACT:Abb|PsU	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:PsionUncarnateLVL|0	BONUS:VAR|PsionUncarnateLVL|CL
-CLASS:Psion Uncarnate	PRESKILL:1,Knowledge (Psionics)=8,Psicraft=8	PREABILITY:1,CATEGORY=FEAT,Psionic Body	PRESPELLCAST:TYPE=Psionic	PRETEXT:Able to manifest 3rd-level powers.	PRETEXT:Special: Must have had some instruction by another psion uncarnate, have access to teachings of the Golden Mind, or belong to an organization that has access to or is administered by the Golden Mind.								
+CLASS:Psion Uncarnate	HD:4	TYPE:PC.Prestige	FACT:Abb|PsU	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:PsionUncarnateLVL|0	BONUS:VAR|PsionUncarnateLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Psion Uncarnate	PRESKILL:1,Knowledge (Psionics)=8,Psicraft=8	PREABILITY:1,CATEGORY=FEAT,Psionic Body	PRESPELLCAST:TYPE=Psionic	PRETEXT:Able to manifest 3rd-level powers. Special: Must have had some instruction by another psion uncarnate, have access to teachings of the Golden Mind, or belong to an organization that has access to or is administered by the Golden Mind.									
 CLASS:Psion Uncarnate	STARTSKILLPTS:2	CSKILL:Autohypnosis|Bluff|Concentration|TYPE=Craft|Disguise|Knowledge (The Planes)|Knowledge (Psionics)|Psicraft|Sense Motive											
 1				ABILITY:Psion Uncarnate Class Feature|AUTOMATIC|Psion Uncarnate ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PsionUncarnateProficiencies									
 1				ABILITY:Psion Uncarnate Class Feature|AUTOMATIC|Psion Uncarnate ~ Power Known									
@@ -260,7 +260,7 @@ CLASS:Psion Uncarnate	STARTSKILLPTS:2	CSKILL:Autohypnosis|Bluff|Concentration|TY
 8	ADD:SPELLCASTER|Psionic												
 9	ADD:SPELLCASTER|Psionic												
 
-CLASS:Pyrokineticist	HD:8	TYPE:PC.Prestige	FACT:Abb|Pyr	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:PyrokineticistLVL|0	BONUS:VAR|PyrokineticistLVL|CL
+CLASS:Pyrokineticist	HD:8	TYPE:PC.Prestige	FACT:Abb|Pyr	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:PyrokineticistLVL|0	BONUS:VAR|PyrokineticistLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Pyrokineticist	PREALIGN:CG,CN,CE	PRESKILL:1,Concentration=8	PRESKILL:1,Craft (Alchemy)=1	PRESKILL:1,Knowledge (Psionics)=2	PREVARGTEQ:TotalPowerPoints,1	PRETEXT:Special: Must have set fi re to a structure of any size just to watch it burn.							
 CLASS:Pyrokineticist	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE.Craft|Intimidate|Jump|Psicraft											
 1				ABILITY:Pyrokineticist Class Feature|AUTOMATIC|Pyrokineticist ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PyrokineticistProficiencies									
@@ -277,7 +277,7 @@ CLASS:Pyrokineticist	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE.Craft|Intim
 9				ABILITY:Pyrokineticist Class Feature|AUTOMATIC|Pyrokineticist ~ Heat Death|!PREABILITY:1,CATEGORY=ACF,TYPE.PyrokineticistHeatDeath									
 10				ABILITY:Pyrokineticist Class Feature|AUTOMATIC|Pyrokineticist ~ Conflagration|!PREABILITY:1,CATEGORY=ACF,TYPE.PyrokineticistConflagration									
 
-CLASS:Thrallherd	HD:4	TYPE:PC.Prestige	FACT:Abb|Thr	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ThrallherdLVL|0	BONUS:VAR|ThrallherdLVL|CL
+CLASS:Thrallherd	HD:4	TYPE:PC.Prestige	FACT:Abb|Thr	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ThrallherdLVL|0	BONUS:VAR|ThrallherdLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Thrallherd	PRESKILL:1,Knowledge (Psionics)=8	PRESKILL:1,Diplomacy=4	PREABILITY:1,CATEGORY=FEAT,Inquisitor	PRECLASS:1,SPELLCASTER.Psionic=5	PRETEXT:Manifester level 5th.	PRESPELL:1,Mindlink							
 CLASS:Thrallherd	STARTSKILLPTS:2	CSKILL:Autohypnosis|Bluff|Concentration|TYPE=Craft|Diplomacy|Knowledge (Psionics)|Psicraft|Sense Motive											
 1				ABILITY:Thrallherd Class Feature|AUTOMATIC|Thrallherd ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallherdProficiencies									
@@ -299,7 +299,7 @@ CLASS:Thrallherd	STARTSKILLPTS:2	CSKILL:Autohypnosis|Bluff|Concentration|TYPE=Cr
 8	ADD:SPELLCASTER|Psionic												
 9	ADD:SPELLCASTER|Psionic												
 
-CLASS:War Mind	HD:10	TYPE:PC.Prestige	FACT:Abb|WMd	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:WarMindLVL|0	BONUS:VAR|WarMindLVL|CL
+CLASS:War Mind	HD:10	TYPE:PC.Prestige	FACT:Abb|WMd	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:WarMindLVL|0	BONUS:VAR|WarMindLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:War Mind	PREALIGN:LG,LN,LE,NG,TN,NE	PRETOTALAB:3	PRESKILL:1,Knowledge (History)=2	PRESKILL:1,Knowledge (Psionics)=8	PREVARGTEQ:TotalPowerPoints,1	PRETEXT:Special: Must have had some instruction by another war mind, have access to Talariic texts, or belong to an organization that has access to Talariic texts.							
 CLASS:War Mind	STARTSKILLPTS:2	CSKILL:Autohypnosis|Concentration|Intimidate|Knowledge (History)|Knowledge (Psionics)|Psicraft											
 CLASS:War Mind	SPELLSTAT:WIS	FACT:SpellType|Psionic	MEMORIZE:NO		BONUS:CASTERLEVEL|War Mind|CL	SPELLLIST:1|Psychic Warrior							

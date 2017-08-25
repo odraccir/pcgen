@@ -50,3 +50,40 @@ MASTERBONUSRACE:Animal (Raven)	TYPE:Familiar					ABILITY:Special Ability|AUTOMAT
 MASTERBONUSRACE:Animal (Snake (Viper/Tiny))	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Snake (Viper/Tiny)				
 MASTERBONUSRACE:Animal (Toad)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Toad				
 MASTERBONUSRACE:Animal (Weasel)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Weasel				
+
+###Block:Augment Summoning
+FOLLOWER:AugmentSummoning=1	TYPE:Summon Monster I	BONUS:STAT|STR,CON|4|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=10	TYPE:Summon Monster I	BONUS:STAT|STR,CON|6|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=20	TYPE:Summon Monster I	BONUS:STAT|STR,CON|8|TYPE=Enhancement				
+
+FOLLOWER:AugmentSummoning=1	TYPE:Summon Monster II	BONUS:STAT|STR,CON|4|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=10	TYPE:Summon Monster II	BONUS:STAT|STR,CON|6|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=20	TYPE:Summon Monster II	BONUS:STAT|STR,CON|8|TYPE=Enhancement				
+
+FOLLOWER:AugmentSummoning=1	TYPE:Summon Monster III	BONUS:STAT|STR,CON|4|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=10	TYPE:Summon Monster III	BONUS:STAT|STR,CON|6|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=20	TYPE:Summon Monster III	BONUS:STAT|STR,CON|8|TYPE=Enhancement				
+
+FOLLOWER:AugmentSummoning=1	TYPE:Summon Monster IV	BONUS:STAT|STR,CON|4|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=10	TYPE:Summon Monster IV	BONUS:STAT|STR,CON|6|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=20	TYPE:Summon Monster IV	BONUS:STAT|STR,CON|8|TYPE=Enhancement				
+
+FOLLOWER:AugmentSummoning=1	TYPE:Summon Monster V	BONUS:STAT|STR,CON|4|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=10	TYPE:Summon Monster V	BONUS:STAT|STR,CON|6|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=20	TYPE:Summon Monster V	BONUS:STAT|STR,CON|8|TYPE=Enhancement				
+
+FOLLOWER:AugmentSummoning=1	TYPE:Summon Monster VI	BONUS:STAT|STR,CON|4|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=10	TYPE:Summon Monster VI	BONUS:STAT|STR,CON|6|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=20	TYPE:Summon Monster VI	BONUS:STAT|STR,CON|8|TYPE=Enhancement				
+
+FOLLOWER:AugmentSummoning=1	TYPE:Summon Monster VII	BONUS:STAT|STR,CON|4|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=10	TYPE:Summon Monster VII	BONUS:STAT|STR,CON|6|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=20	TYPE:Summon Monster VII	BONUS:STAT|STR,CON|8|TYPE=Enhancement				
+
+FOLLOWER:AugmentSummoning=1	TYPE:Summon Monster VIII	BONUS:STAT|STR,CON|4|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=10	TYPE:Summon Monster VIII	BONUS:STAT|STR,CON|6|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=20	TYPE:Summon Monster VIII	BONUS:STAT|STR,CON|8|TYPE=Enhancement				
+
+FOLLOWER:AugmentSummoning=1	TYPE:Summon Monster IX	BONUS:STAT|STR,CON|4|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=10	TYPE:Summon Monster IX	BONUS:STAT|STR,CON|6|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=20	TYPE:Summon Monster IX	BONUS:STAT|STR,CON|8|TYPE=Enhancement				

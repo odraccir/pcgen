@@ -1,4 +1,4 @@
 SOURCELONG:Seafarer's Handbook	SOURCESHORT:SHb	SOURCEWEB:http://www.fantasyflightgames.com
 								
 #	SOURCEPAGE:SpellListI.rtf	SPELLLEVEL:DOMAIN|=1||=2||=3||=4||=5||=6||=7||=8||=9|	DESC:					
-Undersea	SOURCEPAGE:Shb	SPELLLEVEL:DOMAIN|Undersea=1|Buoyancy|Undersea=2|Ink Cloud|Undersea=3|Air Breathing|Undersea=4|Aquatic Form|Undersea=5|Sphere of Air|Undersea=6|Sink|Undersea=7|Acid Fog (Aquatic)|Undersea=8|Whirlpool|Undersea=9|Water ~ Elemental Swarm	DESC:You get a +4 circumstance bonus on all Swim checks; Survival (underwater) is a class skill.		BONUS:SKILL|Swim|4|TYPE=Circumstance	CSKILL:Survival (Underwater)
+Undersea	SOURCEPAGE:Shb	PREMULT:1,[PREVARLT:DomainNotAllowed,1],[PREVAREQ:AllowDomainUndersea,1]	SPELLLEVEL:DOMAIN|Undersea=1|Buoyancy|Undersea=2|Ink Cloud|Undersea=3|Air Breathing|Undersea=4|Aquatic Form|Undersea=5|Sphere of Air|Undersea=6|Sink|Undersea=7|Acid Fog (Aquatic)|Undersea=8|Whirlpool|Undersea=9|Water ~ Elemental Swarm	DESC:You get a +4 circumstance bonus on all Swim checks; Survival (underwater) is a class skill.		BONUS:SKILL|Swim|4|TYPE=Circumstance	CSKILL:Survival (Underwater)

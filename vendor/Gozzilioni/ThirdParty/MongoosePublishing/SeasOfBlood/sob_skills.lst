@@ -6,7 +6,8 @@ Craft (Soul Cage)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Cra
 Craft (Soul Cage)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Craft ~ Soul Cage	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Soul Cage).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Soul Cage)"),1]																																									
 Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Soul Cage|var("SKILL.Craft (Soul Cage).MISC")	BONUS:SKILLRANK|Craft ~ Soul Cage|skillinfo("TOTALRANK", "Craft (Soul Cage)")																																									
 
-Knowledge (Seamanship)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Seamanship)	SOURCEPAGE:SoB		BONUS:SKILL|Spellcraft|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Knowledge (Seamanship)=5																																											
+Knowledge (Seamanship)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Seamanship)	SOURCEPAGE:SoB																																													
+Knowledge (Siege Engineer)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Siege Engineer)	SOURCEPAGE:SoB																																													
 Profession (Navigator)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Navigator)	SOURCEPAGE:SoB																																													
 Profession (Merchant)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Merchant)	SOURCEPAGE:SoB, p.89
 

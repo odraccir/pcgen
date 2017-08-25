@@ -1,0 +1,18 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+
+# Subrace Support
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Paragon Aasimar Class Feature	CATEGORY:Special Ability	TYPE:ParagonAasimarClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Paragon Aasimar Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups
+ABILITYCATEGORY:Aasimar Paragon Improved Resistance	CATEGORY:Special Ability	TYPE:ParagonAasimarImprovedResistance	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Aasimar Paragon Improved Resistance			DISPLAYLOCATION:Class Features
+
+#Feats Ability pools
+
+#Companion Support
+
+#
+# End
+#

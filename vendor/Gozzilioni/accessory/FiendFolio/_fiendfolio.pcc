@@ -15,8 +15,6 @@ PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
 PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Guide
-# Do not remove the EXTRAFILE comment.
-#EXTRAFILE:missing.txt
 
 ABILITY:ff_abilities.lst
 ABILITY:ff_abilities_classes.lst
@@ -48,13 +46,13 @@ SPELL:ff_spells.lst
 ABILITY:ff_subraces.lst
 TEMPLATE:ff_templates.lst
 #
-SKILL:&Gozzilioni/Old30/complete_manuals/SavageSpecies/ss_skills.lst|!PRECAMPAIGN:1,Savage Species 3.0
+SKILL:&/Gozzilioni/old30/complete_manuals/SavageSpecies/ss_skills.lst|!PRECAMPAIGN:1,INCLUDES=Savage Species 3.0
 #
 HIDETYPE:SKILL|Profession (Siege Engineer)|Profession (Soldier)|Perform (Melody)|Perform (Ode)|Perform (Storytelling)
 # HIDETYPE:FEAT|AllegianceTier|AnointedKnight|ExaltedArcanist|InitiateOfPistisSophia|CallFlyingMount|VassalOfBahamut|Wonderworker
 #
-ABILITY:ff_abilities_races_MotP.lst|PRECAMPAIGN:1,Manual of the Planes 3.0
-ABILITY:ff_abilities_races_EPH.lst|PRECAMPAIGN:1,Expanded Psionics Handbook
+ABILITY:ff_abilities_races_MotP.lst|PRECAMPAIGN:1,INCLUDES=Manual of the Planes 3.0
+
 # ENTRY DATE: 2015-08 
 # LST MONKEY: Riccardo
 # RELEASE REVIEW #

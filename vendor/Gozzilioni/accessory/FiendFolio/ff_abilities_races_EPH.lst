@@ -1,5 +1,0 @@
-SOURCELONG:Fiend Folio	SOURCESHORT:FF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-04																														
-																																	
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	DESC:					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
-CATEGORY=Special Ability|Golem (Brain) ~ Inertial Armor.MOD	SERVESAS:ABILITY=FEAT|Inertial Armor
-CATEGORY=Special Ability|Symbiont (Psionic Sinew) ~ Inertial Armor.MOD	SERVESAS:ABILITY=FEAT|Inertial Armor

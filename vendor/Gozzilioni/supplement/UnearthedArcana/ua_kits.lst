@@ -1,0 +1,101 @@
+SOURCELONG:Unearthed Arcana	SOURCESHORT:UA	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-02
+
+STARTPACK:Table 1-3 Bloodline Strength	TYPE:DefaultMonster	VISIBLE:QUALIFY	APPLY:INSTANT	EQUIPBUY:0	PREVARGTEQ:UA_VAR_BLOODLINES,1
+SELECT:roll("1d100")
+KIT:Table 1-4 Minor Bloodline	OPTION:01-55
+KIT:Table 1-5 Intermediate Bloodline	OPTION:56-85
+KIT:Table 1-6 Major Bloodline	OPTION:86-100
+
+STARTPACK:Table 1-4 Minor bloodline	TYPE:DefaultMonster	VISIBLE:QUALIFY	APPLY:INSTANT	EQUIPBUY:0	PREVARGTEQ:UA_VAR_BLOODLINES,1
+SELECT:roll("1d100")
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Celestial	OPTION:01-05
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Demon	OPTION:06-10
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Devil	OPTION:11-15
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Doppelganger	OPTION:16-19
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Black Dragon	OPTION:20
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Blue Dragon	OPTION:21
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Brass Dragon	OPTION:22-23
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Bronze Dragon	OPTION:24-25
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Copper Dragon	OPTION:26-27
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Gold Dragon	OPTION:28-29
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Green Dragon	OPTION:30
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Red Dragon	OPTION:31-32
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Silver Dragon	OPTION:33-35
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ White Dragon	OPTION:36
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Air Elemental	OPTION:37-40
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Earth Elemental	OPTION:41-44
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Fire Elemental	OPTION:45-48
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Water Elemental	OPTION:49-52
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Fey	OPTION:53-57
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Djinni	OPTION:58-60
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Efreeti	OPTION:61-62
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Janni	OPTION:63-65
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Cloud Giant	OPTION:66-67
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Fire Giant	OPTION:68-69
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Frost Giant	OPTION:70-71
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Hill Giant	OPTION:72-74
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Stone Giant	OPTION:75-76
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Storm Giant	OPTION:77-78
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Githyanki	OPTION:79
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Githzerai	OPTION:80
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Hag	OPTION:81-82
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Lycanthrope	OPTION:83-87
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Minotaur	OPTION:88
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Ogre	OPTION:89-91
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Slaad	OPTION:92
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Titan	OPTION:93
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Troll	OPTION:94
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Vampire	OPTION:95-97
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Minor ~ Yuan-Ti	OPTION:98-100
+
+STARTPACK:Table 1-5 Intermediate Bloodline	TYPE:DefaultMonster	VISIBLE:QUALIFY	APPLY:INSTANT	EQUIPBUY:0	PREVARGTEQ:UA_VAR_BLOODLINES,1
+SELECT:roll("1d100")
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Celestial	OPTION:01-05
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Demon	OPTION:06-10
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Devil	OPTION:11-15
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Black Dragon	OPTION:16-17
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Blue Dragon	OPTION:18-19
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Brass Dragon	OPTION:20-21
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Bronze Dragon	OPTION:22-23
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Copper Dragon	OPTION:24-25
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Gold Dragon	OPTION:26-28
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Green Dragon	OPTION:29-30
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Red Dragon	OPTION:31-33
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Silver Dragon	OPTION:34-37
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ White Dragon	OPTION:38-39
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Air Elemental	OPTION:40-44
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Earth Elemental	OPTION:45-49
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Fire Elemental	OPTION:50-54
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Water Elemental	OPTION:55-59
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Fey	OPTION:60-65
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Djinni	OPTION:66-69
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Efreeti	OPTION:70-72
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Cloud Giant	OPTION:73-75
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Fire Giant	OPTION:76-78
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Frost Giant	OPTION:79-81
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Stone Giant	OPTION:82-84
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Storm Giant	OPTION:85-87
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Ogre	OPTION:88
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Slaad	OPTION:89
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Titan	OPTION:90-91
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Troll	OPTION:92-93
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Vampire	OPTION:94-97
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Intermediate ~ Yuan-Ti	OPTION:98-100
+
+STARTPACK:Table 1-6 Major Bloodline	TYPE:DefaultMonster	VISIBLE:QUALIFY	APPLY:INSTANT	EQUIPBUY:0	PREVARGTEQ:UA_VAR_BLOODLINES,1
+SELECT:roll("1d100")
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Major ~ Celestial	OPTION:01-11
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Major ~ Demon	OPTION:12-22
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Major ~ Devil	OPTION:23-33
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Major ~ Gold Dragon	OPTION:34-40
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Major ~ Red Dragon	OPTION:41-47
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Major ~ Silver Dragon	OPTION:48-57
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Major ~ Fey	OPTION:58-67
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Major ~ Djinni	OPTION:68-76
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Major ~ Efreeti	OPTION:77-83
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Major ~ Storm Giant	OPTION:84-90
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Major ~ Titan	OPTION:91-95
+ABILITY:CATEGORY=Special Ability|Bloodline ~ Major ~ Vampire	OPTION:96-100
+
+STARTPACK:Item Familiar Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Item Familiar
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10

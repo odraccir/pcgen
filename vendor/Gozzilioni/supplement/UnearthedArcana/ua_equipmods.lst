@@ -1,0 +1,16 @@
+SOURCELONG:Unearthed Arcana	SOURCESHORT:UA	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-02																																								
+#																																																																																																																			
+# Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property																																																																																																											
+# |Recharge Effect (Single Use/Use Activated)	KEY:RCH_SPL_1USE	NAMEOPT:SPELL	TYPE:Potion																					COST:((50*(max(%SPELLLEVEL,(1/2)))*%CASTERLEVEL)+%SPELLCOST+(5*%SPELLXPCOST))/10+				VISIBLE:QUALIFY	ITYPE:Enhancement.Magic.Consumable	SOURCEPAGE:DMG																																																																																		CHOOSE:EQBUILDER.SPELL
+|Recharge Effect (50 Charges/Spell Trigger)	KEY:RCH_SPL_CHRG	NAMEOPT:SPELL	TYPE:Armor.Shield.Weapon.Amulet.Belt.Bracer.Cape.Glove.Headgear.Instrument.Mantle.Ring.Robe.Shirt.Eyegear.Boot.Staff.Wand	PREVAREQ:UA_VAR_USERECHARGEMAGICITEMS,1	COST:((((15*(MAX(%SPELLLEVEL,(1/2)))*%CASTERLEVEL))*%SPELLCOST)/10)+((((15*(MAX(%SPELLLEVEL,(1/2)))*%CASTERLEVEL)+%SPELLCOST+(5*%SPELLXPCOST))*%CHARGES)*((50-%CHARGES)*2)/100)		VISIBLE:QUALIFY	ITYPE:Enhancement.Magic			SOURCEPAGE:UA																																																																																		CHOOSE:EQBUILDER.SPELL								CHARGES:1|50
+
+Forbidden Tomes	KEY:FORBIDDEN_TOMES	TYPE:Spellbook		VISIBLE:QUALIFY	ITYPE:ForbiddenTome			SOURCEPAGE:UA	PRETYPE:1,Spellbook						CHOOSE:STRING|1|2|3|TITLE=Knowledge (Forbidden Lore) gained	BONUS:SKILL|Knowledge (Forbidden Lore)|%CHOICE
+Forbidden Tomes (1 week)	KEY:FORBIDDEN_TOMES_1WEEK	TYPE:Spellbook		VISIBLE:QUALIFY		REPLACES:FORBIDDEN_TOMES_2WEEK,FORBIDDEN_TOMES_3WEEK		SOURCEPAGE:UA	PRETYPE:2,Spellbook,ForbiddenTome						
+Forbidden Tomes (2 week)	KEY:FORBIDDEN_TOMES_2WEEK	TYPE:Spellbook		VISIBLE:QUALIFY		REPLACES:FORBIDDEN_TOMES_1WEEK,FORBIDDEN_TOMES_3WEEK		SOURCEPAGE:UA	PRETYPE:2,Spellbook,ForbiddenTome						
+Forbidden Tomes (3 week)	KEY:FORBIDDEN_TOMES_3WEEK	TYPE:Spellbook		VISIBLE:QUALIFY		REPLACES:FORBIDDEN_TOMES_1WEEK,FORBIDDEN_TOMES_2WEEK		SOURCEPAGE:UA	PRETYPE:2,Spellbook,ForbiddenTome						
+Forbidden Tomes (Knowledge Arcana DC 20)	KEY:FORBIDDEN_TOMES_KA20	TYPE:Spellbook		VISIBLE:QUALIFY		REPLACES:FORBIDDEN_TOMES_KA25,FORBIDDEN_TOMES_KA30		SOURCEPAGE:UA	PRETYPE:2,Spellbook,ForbiddenTome						
+Forbidden Tomes (Knowledge Arcana DC 25)	KEY:FORBIDDEN_TOMES_KA25	TYPE:Spellbook		VISIBLE:QUALIFY		REPLACES:FORBIDDEN_TOMES_KA20,FORBIDDEN_TOMES_KA30		SOURCEPAGE:UA	PRETYPE:2,Spellbook,ForbiddenTome						
+Forbidden Tomes (Knowledge Arcana DC 30)	KEY:FORBIDDEN_TOMES_KA30	TYPE:Spellbook		VISIBLE:QUALIFY		REPLACES:FORBIDDEN_TOMES_KA20,FORBIDDEN_TOMES_KA25		SOURCEPAGE:UA	PRETYPE:2,Spellbook,ForbiddenTome						
+Forbidden Tomes (Initial Sanity)	KEY:FORBIDDEN_TOMES_INISAN	TYPE:Spellbook		VISIBLE:QUALIFY				SOURCEPAGE:UA	PRETYPE:2,Spellbook,ForbiddenTome						CHOOSE:STRING|1|1d4|1d6|1d10|TITLE=Initial Sanity loss	DESC:%1 initial sanity loss|%CHOICE
+Forbidden Tomes (Final Sanity)	KEY:FORBIDDEN_TOMES_FINSAN	TYPE:Spellbook		VISIBLE:QUALIFY				SOURCEPAGE:UA	PRETYPE:2,Spellbook,ForbiddenTome						CHOOSE:STRING|1d4|2d6|3d6|2d10|TITLE=Sanity loss upon completion	DESC:%1 sanity loss upon completion|%CHOICE
+

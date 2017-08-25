@@ -1,0 +1,72 @@
+###Block: New Racial Trait Blocks																														
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+																														
+# Subrace Support																														
+																														
+#Abilitygroup:Class Ability categories																														
+ABILITYCATEGORY:Paragon Drow Class Feature	CATEGORY:Special Ability	TYPE:ParagonDrowClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Paragon Drow Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Paragon Dwarf Class Feature	CATEGORY:Special Ability	TYPE:ParagonDwarfClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Paragon Dwarf Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Paragon Elf Class Feature	CATEGORY:Special Ability	TYPE:ParagonElfClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Paragon Elf Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Paragon Gnome Class Feature	CATEGORY:Special Ability	TYPE:ParagonGnomeClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Paragon Gnome Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Paragon Half-Dragon Class Feature	CATEGORY:Special Ability	TYPE:ParagonHalfDragonClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Paragon Half-Dragon Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Paragon Half-Elf Class Feature	CATEGORY:Special Ability	TYPE:ParagonHalfElfClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Paragon Half-Elf Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Paragon Half-Orc Class Feature	CATEGORY:Special Ability	TYPE:ParagonHalfOrcClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Paragon Half-Orc Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Paragon Halfling Class Feature	CATEGORY:Special Ability	TYPE:ParagonHalflingClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Paragon Halfling Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Paragon Human Class Feature	CATEGORY:Special Ability	TYPE:ParagonHumanClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Paragon Human Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Paragon Orc Class Feature	CATEGORY:Special Ability	TYPE:ParagonOrcClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Paragon Orc Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Paragon Tiefling Class Feature	CATEGORY:Special Ability	TYPE:ParagonTieflingClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Paragon Tiefling Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Prestige Bard Class Feature	CATEGORY:Special Ability	TYPE:PrestigeBardClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Prestige Bard Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Prestige Paladin Class Feature	CATEGORY:Special Ability	TYPE:PrestigePaladinClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Prestige Paladin Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Prestige Ranger Class Feature	CATEGORY:Special Ability	TYPE:PrestigeRangerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Prestige Ranger Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Battle Scion Class Feature	CATEGORY:Special Ability	TYPE:BattleScionClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Battle Scion Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Faith Scion Class Feature	CATEGORY:Special Ability	TYPE:FaithScionClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Faith Scion Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Spell Scion Class Feature	CATEGORY:Special Ability	TYPE:SpellScionClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Spell Scion Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Swift Scion Class Feature	CATEGORY:Special Ability	TYPE:SwiftScionClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Swift Scion Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Tainted Sorcerer Class Feature	CATEGORY:Special Ability	TYPE:TaintedSorcererClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Tainted Sorcerer Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Tainted Warrior Class Feature	CATEGORY:Special Ability	TYPE:TaintedWarriorClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Tainted Warrior Class Features			DISPLAYLOCATION:Class Features								
+																														
+ABILITYCATEGORY:Skeletal Minion Class Feature	CATEGORY:Special Ability	TYPE:SkeletalMinionClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Skeletal Minion Class Features			DISPLAYLOCATION:Class Features								
+																														
+ABILITYCATEGORY:Item Familiar Class Feature	CATEGORY:Special Ability	TYPE:ItemFamiliarClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Item Familiar Class Features			DISPLAYLOCATION:Class Features								
+																														
+#Other Abilitygroups																														
+ABILITYCATEGORY:Bloodline	CATEGORY:Internal	TYPE:Bloodline	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Bloodlines			DISPLAYLOCATION:Misc								
+ABILITYCATEGORY:Traits	CATEGORY:Special Ability	TYPE:Traits	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Traits			DISPLAYLOCATION:Racial Features								
+ABILITYCATEGORY:Flaws	CATEGORY:Special Ability	TYPE:Flaws	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Flaws			DISPLAYLOCATION:Racial Features								
+ABILITYCATEGORY:Weapon Group	CATEGORY:Special Ability	TYPE:WeaponGroup	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Weapon Group			DISPLAYLOCATION:Class Features								
+#																														
+ABILITYCATEGORY:Elf Paragon Weapon Focus	CATEGORY:Special Ability	TYPE:ParagonElfWeaponFocus	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Elf Paragon Weapon Focus			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Half-Elf Paragon Ability Boost	CATEGORY:Special Ability	TYPE:ParagonHalfElfAbilityBoost	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Half-Elf Paragon Ability Boost			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Human Paragon Adaptive Learning	CATEGORY:Special Ability	TYPE:ParagonHumanAdaptiveLearning	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Human Paragon Adaptive Learning		DISPLAYLOCATION:Class Features									
+ABILITYCATEGORY:Human Paragon Ability Boost	CATEGORY:Special Ability	TYPE:ParagonHumanAbilityBoost	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Human Paragon Ability Boost			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Tiefling Paragon Improved Resistance	CATEGORY:Special Ability	TYPE:ParagonTieflingImprovedResistance	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Tiefling Paragon Improved Resistance			DISPLAYLOCATION:Class Features								
+#																														
+ABILITYCATEGORY:Monk Fighting Style	CATEGORY:Special Ability	TYPE:MonkFightingStyle	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Monk Fighting Styles			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Evoker Energy Affinity	CATEGORY:Special Ability	TYPE:EvokerEnergyAffinity	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Evoker Energy Affinities			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Illusionist Illusion Mastery	CATEGORY:Special Ability	TYPE:IllusionistIllusionMastery	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Illusionist Illusion Masteries			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Favored Environment	CATEGORY:Special Ability	TYPE:FavoredEnvironment	VISIBLE:QUALIFY	EDITABLE:YES	POOL:FavoredEnvironmentCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Favored Environments			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Favored Environment Bonus	CATEGORY:Special Ability	TYPE:FavoredEnvironmentBonus	VISIBLE:QUALIFY	EDITABLE:YES	POOL:FavoredEnvironmentBonusCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Favored Environment Bonuses			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Prestige Ranger Combat Style	CATEGORY:Special Ability	TYPE:PrestigeRangerCombatStyle	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Prestige Ranger Combat Styles			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Swift Scion Special Ability	CATEGORY:Special Ability	TYPE:SwiftScionSpecialAbility	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Swift Scion Special Abilities			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Item Familiar Sapience	CATEGORY:Internal	TYPE:ItemFamiliarSapience	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Item Familiar Sapiences			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Item Familiar Special Ability	CATEGORY:Internal	TYPE:ItemFamiliarSpecialAbility	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Item Familiar Special Abilities			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Contact	CATEGORY:Special Ability	TYPE:Contact	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Contacts			DISPLAYLOCATION:Class Features								
+																														
+ABILITYCATEGORY:Reputation Modifier	CATEGORY:Special Ability	TYPE:ReputationRules	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Reputation Modifier			DISPLAYLOCATION:Misc								
+ABILITYCATEGORY:Honor Modifier	CATEGORY:Special Ability	TYPE:HonorAdjustment	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Honor Modifier			DISPLAYLOCATION:Misc								
+ABILITYCATEGORY:Taint System	CATEGORY:Special Ability	TYPE:TaintSystem	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Taint Modifier			DISPLAYLOCATION:Misc								
+ABILITYCATEGORY:Sanity System	CATEGORY:Special Ability	TYPE:SanitySystem	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Sanity Modifier			DISPLAYLOCATION:Misc								
+ABILITYCATEGORY:Forbidden Lore Modifier	CATEGORY:Special Ability	TYPE:ForbiddenLore	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Forbidden Lore Modifier			DISPLAYLOCATION:Misc								
+ABILITYCATEGORY:Drug Addiction	CATEGORY:Special Ability	TYPE:DrugAddiction	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Drug Addiction Modifier			DISPLAYLOCATION:Misc								
+																														
+#Feats Ability pools																														
+ABILITYCATEGORY:Thug Feat	CATEGORY:FEAT	TYPE:Fighter.Thug	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Thug Feats			DISPLAYLOCATION:Feats								
+ABILITYCATEGORY:Diviner Feat	CATEGORY:FEAT	TYPE:ItemCreation.WizardDiviner	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Diviner Feats			DISPLAYLOCATION:Feats								
+																														
+#Companion Support																														
+ABILITYCATEGORY:Skeletal Minion Selection	CATEGORY:Internal	TYPE:SkeletalMinionSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Skeletal Minion Choice			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Item Familiar Selection	CATEGORY:Internal	TYPE:SpecialMountSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Item Familiar Choice			DISPLAYLOCATION:Class Features								
+																														
+#																														
+# End																														
+#																														

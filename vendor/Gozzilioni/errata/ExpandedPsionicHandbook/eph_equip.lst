@@ -1,4 +1,4 @@
-SOURCELONG:Expanded Psionic Handbook Errata	SOURCESHORT:EPHe	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2008-04
+SOURCELONG:Expanded Psionics Handbook Errata	SOURCESHORT:EPHe	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2008-04
 #																						
 #	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:
 Golem ~ Psion-Killer.MOD	SPROP:.CLEAR	SPROP:ML 16th; Craft Psionic Construct, bend reality, dispel psionics, fabricate, mind seed, manifester must be at least 16th level.

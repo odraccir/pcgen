@@ -9,5 +9,3 @@ FOLLOWER:SymbiontLVL=1	TYPE:Symbiont	BONUS:VAR|SymbiontEgo|4|PRERACE:1,RACETYPE=
 MASTERBONUSRACE:Symbiont (Psionic Sinew)	TYPE:Symbiont					BONUS:STAT|STR|4|TYPE=Enhancement
 MASTERBONUSRACE:Symbiont (Fiendish Familiar)	TYPE:Symbiont					BONUS:STAT|BASESPELLKNOWNSTAT|2
 MASTERBONUSRACE:Symbiont (Gutworm)	TYPE:Symbiont					BONUS:STAT|CON|2|TYPE=Inherent	ABILITY:Special Ability|AUTOMATIC|Immunity to Mind-Affecting
-
-

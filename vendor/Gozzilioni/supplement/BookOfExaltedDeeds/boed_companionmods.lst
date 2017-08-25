@@ -1,7 +1,7 @@
 SOURCELONG:Book of Exalted Deeds	SOURCESHORT:BoED	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
 #										
 ###Block:Celestial Mount										
-FOLLOWER:CelestialMountLVL=1	TYPE:Special Mount	TEMPLATE:Celestial
+FOLLOWER:CelestialSpecialMountLVL=1	TYPE:Special Mount	TEMPLATE:Celestial
 
 ###Block:Call Unicorn										
 FOLLOWER:CallUnicornLVL=1	TYPE:Call Unicorn	ABILITY:Special Ability|AUTOMATIC|Call Unicorn ~ Telepathic Bond

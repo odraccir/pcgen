@@ -53,16 +53,16 @@ SOURCELONG:Fiend Folio	SOURCESHORT:FF	SOURCEWEB:http://www.gozzilioni.net	SOURCE
 ###Block: Wands
 																								
 ###Block: Wondrous
-Gal-Ralan		TYPE:Wondrous.Bracer	COST:0	WT:0	SOURCEPAGE:FF			ABILITY:Special Ability|AUTOMATIC|Resistance to Death Effects|Resistance to Energy Drain	BONUS:VAR|DeathEffectsResistanceBonus,EnergyDrainResistanceBonus|1|TYPE=Resistance																
-Gal-Ralan +1		TYPE:Wondrous.Bracer	COST:625	WT:0	SOURCEPAGE:FF	BONUS:STAT|CON|-1	BONUS:SAVE|ALL|1|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance to Death Effects|Resistance to Energy Drain	BONUS:VAR|DeathEffectsResistanceBonus,EnergyDrainResistanceBonus|2|TYPE=Resistance																
-Gal-Ralan +2		TYPE:Wondrous.Bracer	COST:2500	WT:0	SOURCEPAGE:FF	BONUS:STAT|CON|-1	BONUS:SAVE|ALL|2|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance to Death Effects|Resistance to Energy Drain	BONUS:VAR|DeathEffectsResistanceBonus,EnergyDrainResistanceBonus|3|TYPE=Resistance																
-Gal-Ralan +3		TYPE:Wondrous.Bracer	COST:5600	WT:0	SOURCEPAGE:FF	BONUS:STAT|CON|-1	BONUS:SAVE|ALL|3|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance to Death Effects|Resistance to Energy Drain	BONUS:VAR|DeathEffectsResistanceBonus,EnergyDrainResistanceBonus|4|TYPE=Resistance																
-Gal-Ralan +4		TYPE:Wondrous.Bracer	COST:10000	WT:0	SOURCEPAGE:FF	BONUS:STAT|CON|-1	BONUS:SAVE|ALL|4|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance to Death Effects|Resistance to Energy Drain	BONUS:VAR|DeathEffectsResistanceBonus,EnergyDrainResistanceBonus|5|TYPE=Resistance																
-Gal-Ralan +5		TYPE:Wondrous.Bracer	COST:15600	WT:0	SOURCEPAGE:FF	BONUS:STAT|CON|-1	BONUS:SAVE|ALL|5|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance to Death Effects|Resistance to Energy Drain	BONUS:VAR|DeathEffectsResistanceBonus,EnergyDrainResistanceBonus|6|TYPE=Resistance																
+Gal-Ralan		TYPE:Wondrous.Bracer	COST:0	WT:0	SOURCEPAGE:FF	SLOTS:2		ABILITY:Special Ability|AUTOMATIC|Resistance to Death Effects|Resistance to Energy Drain	BONUS:VAR|DeathEffectsResistanceBonus,EnergyDrainResistanceBonus|1|TYPE=Resistance																
+Gal-Ralan +1		TYPE:Wondrous.Bracer	COST:625	WT:0	SOURCEPAGE:FF	SLOTS:2	BONUS:STAT|CON|-1	BONUS:SAVE|ALL|1|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance to Death Effects|Resistance to Energy Drain	BONUS:VAR|DeathEffectsResistanceBonus,EnergyDrainResistanceBonus|2|TYPE=Resistance																
+Gal-Ralan +2		TYPE:Wondrous.Bracer	COST:2500	WT:0	SOURCEPAGE:FF	SLOTS:2	BONUS:STAT|CON|-1	BONUS:SAVE|ALL|2|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance to Death Effects|Resistance to Energy Drain	BONUS:VAR|DeathEffectsResistanceBonus,EnergyDrainResistanceBonus|3|TYPE=Resistance																
+Gal-Ralan +3		TYPE:Wondrous.Bracer	COST:5600	WT:0	SOURCEPAGE:FF	SLOTS:2	BONUS:STAT|CON|-1	BONUS:SAVE|ALL|3|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance to Death Effects|Resistance to Energy Drain	BONUS:VAR|DeathEffectsResistanceBonus,EnergyDrainResistanceBonus|4|TYPE=Resistance																
+Gal-Ralan +4		TYPE:Wondrous.Bracer	COST:10000	WT:0	SOURCEPAGE:FF	SLOTS:2	BONUS:STAT|CON|-1	BONUS:SAVE|ALL|4|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance to Death Effects|Resistance to Energy Drain	BONUS:VAR|DeathEffectsResistanceBonus,EnergyDrainResistanceBonus|5|TYPE=Resistance																
+Gal-Ralan +5		TYPE:Wondrous.Bracer	COST:15600	WT:0	SOURCEPAGE:FF	SLOTS:2	BONUS:STAT|CON|-1	BONUS:SAVE|ALL|5|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance to Death Effects|Resistance to Energy Drain	BONUS:VAR|DeathEffectsResistanceBonus,EnergyDrainResistanceBonus|6|TYPE=Resistance																
 Blackstone Rune		TYPE:Wondrous.Consumable	COST:3300	WT:0	SOURCEPAGE:FF	SPROP:Plane shift (self only plus 50 pound of objects) between Plane of Shadow and Material Plane.EQMOD:CHARGED_ITEM_3|CHARGES[3]
 Night Extract		TYPE:Wondrous.Vial.Consumable	COST:50	WT:0	SOURCEPAGE:FF	SPROP:When thrown or dropped, one vial of this magic liquid reduces the ambient light level to that of starlight in a 20-foot radius.																		
 ###TODO: PRESUBRACE:Yuan-Ti
-Holy Symbol (Serpent)		TYPE:Wondrous.Tools.DivineFocus	COST:50000	WT:0	SOURCEPAGE:FF	SPELLS:Holy Symbol (Serpent)|TIMES=1|Disintegrate,20|Destruction,20|PREABILITY:1,CATEGORY=Special Ability,Yuan-Ti Subtraits
+Holy Symbol (Serpent)		TYPE:Wondrous.Tools.DivineFocus	COST:50000	WT:0	SOURCEPAGE:FF	SPELLS:Holy Symbol (Serpent)|TIMES=1|CASTERLEVEL=TL|Disintegrate,20|Destruction,20|PREABILITY:1,CATEGORY=Special Ability,Yuan-Ti Subtraits
 
 
 ## Intelligent

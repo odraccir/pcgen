@@ -1,0 +1,16 @@
+SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+#													
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE	
+# Class Name req	Requirements	FINE											
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS	
+# Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	SPELLLIST	spell level increases (BONUS:CASTERLEVEL)							
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)			
+CLASS:Aasimar Paragon	HD:8	TYPE:PC.Base.Paragon	FACT:Abb|PAa	MAXLEVEL:3	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:ParagonAasimarLVL|0	BONUS:VAR|ParagonAasimarLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Aasimar Paragon	PRERACE:1,Planetouched (Aasimar)												
+CLASS:Aasimar Paragon	STARTSKILLPTS:4	CSKILL:TYPE.Craft|Diplomacy|Heal|Knowledge (Religion)|Knowledge (The Planes)|Listen|TYPE.Profession|Ride|Sense Motive|Spot
+1				ABILITY:Paragon Aasimar Class Feature|AUTOMATIC|Paragon Aasimar ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonAasimarProficiencies									
+#													
+1				ABILITY:Paragon Aasimar Class Feature|AUTOMATIC|Paragon Aasimar ~ Improved Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonAasimarImprovedResistance									
+2				ABILITY:Paragon Aasimar Class Feature|AUTOMATIC|Paragon Aasimar ~ Daylight|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonAasimarDarkness									
+2				ABILITY:Paragon Aasimar Class Feature|AUTOMATIC|Paragon Aasimar ~ Skill Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonAasimarSkillBonus									
+3				ABILITY:Paragon Aasimar Class Feature|AUTOMATIC|Paragon Aasimar ~ Ability Boost|!PREABILITY:1,CATEGORY=ACF,TYPE.ParagonAasimarAbilityBoost									

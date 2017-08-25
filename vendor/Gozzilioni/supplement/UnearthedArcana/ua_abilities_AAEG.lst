@@ -1,0 +1,18 @@
+SOURCELONG:Unearthed Arcana	SOURCESHORT:UA	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-02																																							
+																																										
+# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page										
+CATEGORY=Internal|Weapon Group Exotic (Bows).MOD	AUTO:WEAPONPROF|Bow (Double/Elven)
+CATEGORY=Internal|Weapon Group Exotic (Claw Weapons).MOD	AUTO:WEAPONPROF|Gauntlet (Bladed)|Bracer (Claw)|Claw (Panther)|Dagger (Stump)|Claw (Tiger)|Gauntlet (Ward Cestus)
+CATEGORY=Internal|Weapon Group Exotic (Clubs and Maces).MOD	AUTO:WEAPONPROF|Tonfa
+CATEGORY=Internal|Weapon Group Exotic (Crossbows).MOD	AUTO:WEAPONPROF|Crossbow (Great)
+CATEGORY=Internal|Weapon Group Exotic (Flails and Chains).MOD	AUTO:WEAPONPROF|Chain-and-dagger|Staff (Three-Section)|Whip-Dagger
+CATEGORY=Internal|Weapon Group Exotic (Heavy Blades).MOD	AUTO:WEAPONPROF|Khopesh|Longsword (Mercurial)|Greatsword (Mercurial)
+CATEGORY=Internal|Weapon Group Exotic (Light Blades).MOD	AUTO:WEAPONPROF|Sapara|Dagger (Triple)|War Fan
+CATEGORY=Internal|Weapon Group Exotic (Monk Weapons).MOD	AUTO:WEAPONPROF|Sword (Butterfly)|Tonfa
+CATEGORY=Internal|Weapon Group Exotic (Picks and Hammers).MOD	AUTO:WEAPONPROF|Battlepick (Gnome)
+CATEGORY=Internal|Weapon Group Exotic (Slings and Thrown Weapons).MOD	AUTO:WEAPONPROF|Chakram|Calculus (Gnome)|Skiprock (Halfling)|Shotput (Orc)|Throwing Iron
+CATEGORY=Internal|Weapon Group Exotic (Spears and Lances).MOD	AUTO:WEAPONPROF|Duom|Harpoon|Manti|Javelin (Spinning)
+
+CATEGORY=Internal|Weapon Group Exotic Double (Flails and Chains).MOD	AUTO:WEAPONPROF|Gyrspike|PREABILITY:1,CATEGORY=Internal,Weapon Group (Heavy Blades)
+CATEGORY=Internal|Weapon Group Exotic Double (Heavy Blades).MOD	AUTO:WEAPONPROF|Scimitar (Double)	AUTO:WEAPONPROF|Gyrspike|PREABILITY:1,CATEGORY=Internal,Weapon Group (Flails and Chains)
+CATEGORY=Internal|Weapon Group Exotic Double (Maces and Clubs).MOD	AUTO:WEAPONPROF|Mace (Double)

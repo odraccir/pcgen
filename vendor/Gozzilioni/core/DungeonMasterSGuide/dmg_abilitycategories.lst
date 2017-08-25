@@ -30,8 +30,6 @@ ABILITYCATEGORY:Fiendish Servant Class Feature	CATEGORY:Special Ability	TYPE:Fie
 ABILITYCATEGORY:Undead Companion Class Feature	CATEGORY:Special Ability	TYPE:UndeadCompanionClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Undead Companion Class Features			DISPLAYLOCATION:Class Features
 
 #Other Abilitygroups
-ABILITYCATEGORY:Simple Weapon Proficiency Choice	CATEGORY:Special Ability		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO	ABILITYLIST:Single Simple Weapon Proficiency										PLURAL:Simple Weapon Proficiency Choice			DISPLAYLOCATION:Class Features
-ABILITYCATEGORY:Class Skill	CATEGORY:Special Ability	TYPE:ClassSkill	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Class Skills			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:High Arcana	CATEGORY:Special Ability	TYPE:HighArcana	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:High Arcanas			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Bonus Spell	CATEGORY:Special Ability	TYPE:BonusSpell	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Bonus Spells			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Hierophant Special Ability	CATEGORY:Special Ability	TYPE:HierophantSpecialAbility	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Hierophant Special Abilities			DISPLAYLOCATION:Class Features

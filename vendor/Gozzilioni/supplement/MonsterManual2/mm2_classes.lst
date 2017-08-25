@@ -6,7 +6,7 @@ SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	
 # Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	SPELLLIST	spell level increases (BONUS:CASTERLEVEL)							#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)				
 
 CLASS:Animal (Legendary)	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AnimalLVL|0	BONUS:VAR|AnimalLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/3)
-CLASS:Animal (Legendary)	PREVAREQ:AdvencementByClass,0	PRERACETYPE:Animal	PREMULT:1,[PRELEVELMAX:1],[PRECLASS:1,Animal (Legendary)=1]	OUTPUTNAME:Animal											
+CLASS:Animal (Legendary)	PREVAREQ:AdvancementByClass,0	PRERACETYPE:Animal	PREMULT:1,[PRELEVELMAX:1],[PRECLASS:1,Animal (Legendary)=1]	OUTPUTNAME:Animal											
 CLASS:Animal (Legendary)	STARTSKILLPTS:2	MODTOSKILLS:YES												
 
 CLASS:Animal (Legendary).MOD	!PRECLASS:1,Animal=1
@@ -17,7 +17,7 @@ CLASS:Animal (Dire).MOD	!PRECLASS:1,Animal (Legendary)=1
 
 
 
-CLASS:Abeil (Queen)	HD:8	TYPE:Monster		MAXLEVEL:14	SOURCEPAGE:MM2	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:MontrousHumanoidLVL|0	BONUS:VAR|MonstrousHumanoidLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/3)
+CLASS:Abeil (Queen)	HD:8	TYPE:Monster		MAXLEVEL:14	SOURCEPAGE:MM2	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:MonstrousHumanoidLVL|0	BONUS:VAR|MonstrousHumanoidLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/3)
 CLASS:Abeil (Queen)	PRERACETYPE:Monstrous Humanoid	PRERACE:1,Abeil (Queen)	OUTPUTNAME:Monstrous Humanoid	VISIBLE:NO										
 CLASS:Abeil (Queen)	STARTSKILLPTS:2	MODTOSKILLS:YES												
 1	ADD:SPELLCASTER|Druid	ABILITY:Internal|AUTOMATIC|Druid Class
@@ -149,7 +149,7 @@ CLASS:Immoth	STARTSKILLPTS:2	MODTOSKILLS:YES
 9	BONUS:PCLEVEL|Sorcerer|1
 10	BONUS:PCLEVEL|Sorcerer|1	BONUS:PCLEVEL|Sorcerer|1
 
-CLASS:Spell Weaver	HD:8	TYPE:Monster		MAXLEVEL:10	SOURCEPAGE:MM2	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:MontrousHumanoidLVL|0	BONUS:VAR|MonstrousHumanoidLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/3)
+CLASS:Spell Weaver	HD:8	TYPE:Monster		MAXLEVEL:10	SOURCEPAGE:MM2	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:MonstrousHumanoidLVL|0	BONUS:VAR|MonstrousHumanoidLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/3)
 CLASS:Spell Weaver	PRERACETYPE:Monstrous Humanoid	PRERACE:1,Spell Weaver	OUTPUTNAME:Monstrous Humanoid	VISIBLE:NO
 CLASS:Spell Weaver	STARTSKILLPTS:2	MODTOSKILLS:YES												
 1	ADD:SPELLCASTER|Sorcerer	ABILITY:Internal|AUTOMATIC|Sorcerer Class

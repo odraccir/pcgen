@@ -15,8 +15,6 @@ PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
 PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Guide
-# Do not remove the EXTRAFILE comment.
-#EXTRAFILE:missing.txt
 
 ABILITY:dad_abilities.lst
 ABILITY:dad_abilities_classes.lst

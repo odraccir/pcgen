@@ -100,4 +100,4 @@ Cold	CATEGORY:Special Ability	TYPE:TalonOfTiamatImmunity.SpecialQuality.Extraord
 Electricity	CATEGORY:Special Ability	TYPE:TalonOfTiamatImmunity.SpecialQuality.Extraordinary	VISIBLE:DISPLAY		KEY:Talon of Tiamat ~ Energy Immunity ~ Electricity		ABILITY:Special Ability|AUTOMATIC|Immunity to Electricity	SOURCEPAGE:Drac
 Fire	CATEGORY:Special Ability	TYPE:TalonOfTiamatImmunity.SpecialQuality.Extraordinary	VISIBLE:DISPLAY		KEY:Talon of Tiamat ~ Energy Immunity ~ Fire		ABILITY:Special Ability|AUTOMATIC|Immunity to Fire	SOURCEPAGE:Drac
 
-Variant Rule ~ Colossal+ fly speed	CATEGORY:Internal	TYPE:AltRules	VISIBLE:DISPLAY	COST:0	DEFINE:DRAC_VAR_COLOSSALPLUSFLYSPEED|0	BONUS:VAR|DRAC_VAR_COLOSSALPLUSFLYSPEED|1|TYPE=Base
+Variant Rule ~ Colossal+ fly speed	CATEGORY:Special Ability	TYPE:AltRules	VISIBLE:DISPLAY	COST:0	DEFINE:DRAC_VAR_COLOSSALPLUSFLYSPEED|0	BONUS:VAR|DRAC_VAR_COLOSSALPLUSFLYSPEED|1|TYPE=Base

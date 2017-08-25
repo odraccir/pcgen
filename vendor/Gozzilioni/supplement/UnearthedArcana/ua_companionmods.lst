@@ -1,0 +1,63 @@
+SOURCELONG:Unearthed Arcana	SOURCESHORT:UA	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-02
+#										
+###Block:Animal Companion										
+FOLLOWER:CelestialAnimalCompanionLVL=1	TYPE:Animal Companion	TEMPLATE:Celestial
+FOLLOWER:FiendishAnimalCompanionLVL=1	TYPE:Animal Companion	TEMPLATE:Fiendish
+
+FOLLOWER:AugmentedSummoning=1	TYPE:Summon Monster I	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Summon Monster I	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Summon Monster I	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Summon Monster II	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Summon Monster II	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Summon Monster II	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Summon Monster III	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Summon Monster III	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Summon Monster III	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Summon Monster IV	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Summon Monster IV	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Summon Monster IV	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Summon Monster V	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Summon Monster V	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Summon Monster V	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Summon Monster VI	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Summon Monster VI	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Summon Monster VI	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Summon Monster VII	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Summon Monster VII	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Summon Monster VII	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Summon Monster VIII	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Summon Monster VIII	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Summon Monster VIII	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Summon Monster IX	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Summon Monster IX	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Summon Monster IX	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+
+FOLLOWER:SkeletalMinionLVL=1	TYPE:Skeletal Minion	BONUS:COMBAT|AC|SkeletalMinionLVL/2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|SkeletalMinionLVL/3	BONUS:STAT|DEX|SkeletalMinionLVL/3
+FOLLOWER:SkeletalMinionLVL=2	TYPE:Skeletal Minion	HD:1
+FOLLOWER:SkeletalMinionLVL=3	TYPE:Skeletal Minion	HD:1
+FOLLOWER:SkeletalMinionLVL=4	TYPE:Skeletal Minion	HD:1
+FOLLOWER:SkeletalMinionLVL=5	TYPE:Skeletal Minion	HD:1
+FOLLOWER:SkeletalMinionLVL=6	TYPE:Skeletal Minion	HD:1
+FOLLOWER:SkeletalMinionLVL=7	TYPE:Skeletal Minion	HD:1
+FOLLOWER:SkeletalMinionLVL=8	TYPE:Skeletal Minion	HD:1
+FOLLOWER:SkeletalMinionLVL=9	TYPE:Skeletal Minion	HD:1
+FOLLOWER:SkeletalMinionLVL=10	TYPE:Skeletal Minion	HD:1
+FOLLOWER:SkeletalMinionLVL=11	TYPE:Skeletal Minion	HD:1
+FOLLOWER:SkeletalMinionLVL=12	TYPE:Skeletal Minion	HD:1
+FOLLOWER:SkeletalMinionLVL=13	TYPE:Skeletal Minion	HD:1
+FOLLOWER:SkeletalMinionLVL=14	TYPE:Skeletal Minion	HD:1
+FOLLOWER:SkeletalMinionLVL=15	TYPE:Skeletal Minion	HD:1
+FOLLOWER:SkeletalMinionLVL=16	TYPE:Skeletal Minion	HD:1
+FOLLOWER:SkeletalMinionLVL=17	TYPE:Skeletal Minion	HD:1
+FOLLOWER:SkeletalMinionLVL=18	TYPE:Skeletal Minion	HD:1
+FOLLOWER:SkeletalMinionLVL=19	TYPE:Skeletal Minion	HD:1
+FOLLOWER:SkeletalMinionLVL=20	TYPE:Skeletal Minion	HD:1
+
+FOLLOWER:NecromancerEnhancedUndeadLVL=1	TYPE:Create Undead	BONUS:STAT|STR|4	BONUS:STAT|DEX|4	BONUS:HP|CURRENTMAX|NecromancerEnhancedUndeadLVL*2
+FOLLOWER:NecromancerEnhancedUndeadLVL=1	TYPE:Create Greater Undead	BONUS:STAT|STR|4	BONUS:STAT|DEX|4	BONUS:HP|CURRENTMAX|NecromancerEnhancedUndeadLVL*2
+
+FOLLOWER:ItemFamiliar=1	TYPE:Item Familiar	ABILITY:Special Ability|AUTOMATIC|Item Familiar ~ Invest Life Energy|Item Familiar ~ Invest Skill Ranks|Item Familiar ~ Invest Spell Slots
+FOLLOWER:ItemFamiliar=7	TYPE:Item Familiar	ABILITY:Special Ability|AUTOMATIC|Item Familiar ~ Sapience|Item Familiar ~ Senses|Item Familiar ~ Communication
+FOLLOWER:ItemFamiliar=10	TYPE:Item Familiar	ABILITY:Special Ability|AUTOMATIC|Item Familiar ~ Special Ability
+
+MASTERBONUSRACE:Item Familiar	TYPE:Item Familiar	ABILITY:Special Ability|AUTOMATIC|Item Familiar ~ Item Familiar

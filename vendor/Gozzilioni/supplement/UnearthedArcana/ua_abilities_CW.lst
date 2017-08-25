@@ -1,0 +1,11 @@
+SOURCELONG:Unearthed Arcana	SOURCESHORT:UA	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-02																																							
+																																										
+# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page										
+CATEGORY=Internal|Weapon Group Exotic (Bows).MOD	AUTO:WEAPONPROF|Greatbow
+CATEGORY=Internal|Weapon Group Exotic (Clubs and Maces).MOD	AUTO:WEAPONPROF|Warmace
+CATEGORY=Internal|Weapon Group Exotic (Druid Weapons).MOD	AUTO:WEAPONPROF|Greatspear
+CATEGORY=Internal|Weapon Group Exotic (Picks and Hammers).MOD	AUTO:WEAPONPROF|Pick (Dire)|Maul
+CATEGORY=Internal|Weapon Group Exotic (Polearms).MOD	AUTO:WEAPONPROF|Poleaxe (Heavy)
+CATEGORY=Internal|Weapon Group Exotic (Spears and Lances).MOD	AUTO:WEAPONPROF|Greatspear
+
+CATEGORY=Internal|Weapon Group Exotic Double (Picks and Hammers).MOD	AUTO:WEAPONPROF|Hammer (Double)

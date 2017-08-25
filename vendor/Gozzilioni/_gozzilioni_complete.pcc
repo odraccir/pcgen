@@ -2,6 +2,7 @@ CAMPAIGN:Gozzilioni Campaing Full Set
 GAMEMODE:G35e
 RANK:1
 TYPE:Gozzilioni.Complete
+SHOWINMENU:YES
 SETTING:Heroes
 BOOKTYPE:Campaign
 SOURCELONG:Gozzilioni Campaing Full Set
@@ -27,6 +28,7 @@ PCC:supplement/CompleteWarrior/_completewarrior.pcc
 PCC:supplement/Draconomicon/_draconomicon.pcc
 PCC:supplement/DeitiesAndDemigods/_deitiesanddemigods.pcc
 PCC:accessory/FiendFolio/_fiendfolio.pcc
+PCC:supplement/UnearthedArcana/_unearthedarcana.pcc
 # PCC:accessory/PlanarHandbook/_planarhandbook.pcc
 
 PCC:srd30/_srd30.pcc
@@ -44,6 +46,7 @@ PCC:old30/partial_manuals/TomeAndBlood/_tomeandblood.pcc
 PCC:houserules/_houserules.pcc
 
 PCC:web/DragonMagazine/_dragonmagazine082.pcc
+PCC:web/DragonMagazine/_dragonmagazine312.pcc
 PCC:web/RuleOfCoolForum/_ruleofcool.pcc
 
 PCC:ThirdParty/FantasyFlightGames/DarknessAndDread/_darknessanddread.pcc
