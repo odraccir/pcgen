@@ -5258,22 +5258,22 @@ GEAR:Wand (Stoneskin)	OPTION:100
 	
 STARTPACK:Treasure 7-27 Wondrous - minor	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Qaal's Feather Token (Anchor)	OPTION:01	
+GEAR:Quaal's Feather Token (Anchor)	OPTION:01	
 GEAR:Universal Solvent	OPTION:02	
 GEAR:Elixir of Love	OPTION:03	
 GEAR:Unguent of Timelessness	OPTION:04	
-GEAR:Qaal's Feather Token (Fan)	OPTION:05	
+GEAR:Quaal's Feather Token (Fan)	OPTION:05	
 GEAR:Dust of Tracelessness	OPTION:06	
 GEAR:Elixir of Hiding	OPTION:07	
 GEAR:Elixir of Sneaking	OPTION:08	
 GEAR:Elixir of Swimming	OPTION:09	
 GEAR:Elixir of Vision	OPTION:10	
 GEAR:Silversheen	OPTION:11	
-GEAR:Qaal's Feather Token (Bird)	OPTION:12	
-GEAR:Qaal's Feather Token (Tree)	OPTION:13	
-GEAR:Qaal's Feather Token (Swan Boat)	OPTION:14	
+GEAR:Quaal's Feather Token (Bird)	OPTION:12	
+GEAR:Quaal's Feather Token (Tree)	OPTION:13	
+GEAR:Quaal's Feather Token (Swan Boat)	OPTION:14	
 GEAR:Elixir of Truth	OPTION:15	
-GEAR:Qaal's Feather Token (Whip)	OPTION:16	
+GEAR:Quaal's Feather Token (Whip)	OPTION:16	
 GEAR:Dust of Dryness	OPTION:17	
 GEAR:Bag of Tricks (Gray)	OPTION:18	
 GEAR:Hand of the Mage	OPTION:19	

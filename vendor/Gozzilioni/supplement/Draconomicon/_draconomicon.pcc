@@ -3,7 +3,7 @@ GAMEMODE:G35e
 RANK:3
 TYPE:Gozzilioni.Partial.Supplement
 SETTING:Heroes
-BOOKTYPE:Campaign
+BOOKTYPE:Supplement
 SOURCELONG:Draconomicon
 SOURCESHORT:Drac
 SOURCEWEB:http://www.gozzilioni.net
@@ -25,7 +25,6 @@ ABILITYCATEGORY:drac_abilitycategories.lst
 CLASS:drac_classes.lst
 COMPANIONMOD:drac_companionmods.lst
 DEITY:drac_deities.lst
-DEITY:drac_deities_FRCS.lst|PRECAMPAIGN:1,Forgotten Realms Campaign Setting
 DOMAIN:drac_domains.lst
 EQUIPMENT:drac_equip.lst
 EQUIPMENT:drac_equip_armors_specific.lst
@@ -49,6 +48,8 @@ TEMPLATE:drac_templates.lst
 HIDETYPE:FEAT|Dragonrider
 
 FORWARDREF:SKILL|Knowledge (Underdark)
+
+DEITY:drac_deities_FRCS.lst|PRECAMPAIGN:1,Forgotten Realms Campaign Setting 3.0
 
 # ENTRY DATE: 2015-08 
 # LST MONKEY: Riccardo

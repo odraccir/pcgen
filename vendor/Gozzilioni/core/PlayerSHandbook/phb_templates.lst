@@ -1,7 +1,7 @@
 SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 
 # Human
-Human	VISIBLE:NO	KEY:Human Base	SUBRACE:Human
+Human	VISIBLE:NO	KEY:Human Base
 # Dwarf
 Hill	VISIBLE:NO	KEY:Hill Dwarf	SUBRACE:Hill
 # Elf
@@ -25,8 +25,8 @@ Languages	KEY:Gnome ~ Rock ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Gnome	LANGBON
 Favored Class	KEY:Gnome ~ Rock ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Bard
 Languages	KEY:Half-Elf ~ Half-Elf ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Elven	LANGBONUS:TYPE=Spoken
 Favored Class	KEY:Half-Elf ~ Half-Elf ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:HIGHESTLEVELCLASS
-Languages	KEY:Half-Orc ~ Human ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Orc	LANGBONUS:Draconic,Giant,Gnoll,Goblin,Abyssal
-Favored Class	KEY:Half-Orc ~ Human ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Barbarian
+Languages	KEY:Half-Orc ~ Half-Orc ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Orc	LANGBONUS:Draconic,Giant,Gnoll,Goblin,Abyssal
+Favored Class	KEY:Half-Orc ~ Half-Orc ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Barbarian
 Languages	KEY:Halfling ~ Lightfoot ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Halfling	LANGBONUS:Dwarven,Elven,Gnome,Goblin,Orc
 Favored Class	KEY:Halfling ~ Lightfoot ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue
 

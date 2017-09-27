@@ -19,16 +19,9 @@ CATEGORY=Special Ability|Half-Elf Racial Traits.MOD	DESC:Elf Weapon proficieny.|
 CATEGORY=Special Ability|Half-Elf Racial Traits.MOD	DESC:Elf Favored Class.|PREABILITY:1,CATEGORY=Special Ability,Half-Human ~ Favored Class
 																																			
 ###Block: Traits																																			
-# Human ~ Human																																			
-# Dwarf ~ Gold																																			
 Combat Bonus	CATEGORY:Special Ability	TYPE:DwarfRaceTrait.RaceTrait.SpecialQuality	VISIBLE:YES	DESC:+1 racial bonus on attack rolls against aberrations: Gold dwarves are trained in special combat techniques against these bizarre creatures|DwarfAberrationCombatBonus	KEY:Gold Dwarf ~ Combat Bonus				DEFINE:DwarfCombatBonus|0					BONUS:VAR|DwarfCombatBonus|1																		SOURCEPAGE:DMG	ASPECT:CombatBonus|+%1 racial bonus on attack rolls against aberrations.|DwarfCombatBonus		
-# Elf ~ High																																			
-# Gnome ~ Rock																																			
-# Half-Elf ~ Elf																																			
 Weapon Proficiency	CATEGORY:Special Ability	TYPE:HalfElfRaceTrait.RaceTrait.SpecialQuality	VISIBLE:YES	DESC:Half-human elves have the same weapon proficiency as elves. They receive free Martial Weapon Proficiency feats for the longsword, rapier, shortbow, and longbow. Living among people who esteem the arts of swordplay and archery, almost all half-human elves are familiar with these weapons.	KEY:Half-Human ~ Weapon Proficiency																		ABILITY:FEAT|AUTOMATIC|Martial Weapon Proficiency (Longbow)|Martial Weapon Proficiency (Longsword)|Martial Weapon Proficiency (Rapier)|Martial Weapon Proficiency (Shortbow)									SOURCEPAGE:DMG			
 Favored Class	CATEGORY:Special Ability	TYPE:HalfElfRaceTrait.RaceTrait.SpecialQuality	VISIBLE:YES	DESC:Wizard. Half-human elves lack some of the flexibility of half-elves who are raised by humans.	KEY:Half-Human ~ Favored Class																		TEMPLATE:Half-Elf ~ Half-Human ~ Favored Class									SOURCEPAGE:DMG			
-# Half-Orc ~ Human																																			
-# Halfling ~ Lightfoot																																			
 
 Race Traits ~ Animal (Hedgehog)	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=AnimalHedgehogRaceTrait											BONUS:VAR|FractionalHD|2|TYPE=Base																			
 Poison	CATEGORY:Special Ability	TYPE:AnimalHedgehogRaceTrait.SpecialAttack.Extraordinary.Poison	VISIBLE:YES	DESC:Injury, Fort DC %1, initial damage temporary 1d2 DEX, secondary damage temporary 1d2 DEX. The save DC is Constitution-based. When in Defensive Ball, spines poison foes touching hedgehog.|PoisonDC	KEY:Animal (Hedgehog) ~ Poison				DEFINE:PoisonDC|0					BONUS:VAR|PoisonDC|DefaultDCCon	BONUS:VAR|PoisonDC|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Poison)								ABILITY:Ability Focus|AUTOMATIC|Poison									SOURCEPAGE:DMG

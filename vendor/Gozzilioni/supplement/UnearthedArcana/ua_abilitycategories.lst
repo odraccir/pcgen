@@ -65,7 +65,7 @@ ABILITYCATEGORY:Diviner Feat	CATEGORY:FEAT	TYPE:ItemCreation.WizardDiviner	VISIB
 																														
 #Companion Support																														
 ABILITYCATEGORY:Skeletal Minion Selection	CATEGORY:Internal	TYPE:SkeletalMinionSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Skeletal Minion Choice			DISPLAYLOCATION:Class Features								
-ABILITYCATEGORY:Item Familiar Selection	CATEGORY:Internal	TYPE:SpecialMountSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Item Familiar Choice			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Item Familiar Selection	CATEGORY:Internal	TYPE:ItemFamiliarSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Item Familiar Choice			DISPLAYLOCATION:Class Features								
 																														
 #																														
 # End																														

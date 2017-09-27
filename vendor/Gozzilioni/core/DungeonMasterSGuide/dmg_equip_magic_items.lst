@@ -1355,12 +1355,12 @@ Pipes of Pain		TYPE:Wondrous.MusicalInstrument	COST:12000	WT:3	SOURCEPAGE:DMG
 Pipes of the Sewers		TYPE:Wondrous.MusicalInstrument	COST:1150	WT:3	SOURCEPAGE:DMG																			
 Pipes of Sounding		TYPE:Wondrous.MusicalInstrument	COST:1800	WT:3	SOURCEPAGE:DMG																			
 Portable Hole		TYPE:Wondrous.Container	COST:20000	WT:0	SOURCEPAGE:DMG	CONTAINS:*UNLIM|Any																		
-Qaal's Feather Token (Anchor)	OUTPUTNAME:Qaal's Feather Token, [NAME]	TYPE:Wondrous	COST:50	WT:0	SOURCEPAGE:DMG																			
-Qaal's Feather Token (Bird)	OUTPUTNAME:Qaal's Feather Token, [NAME]	TYPE:Wondrous	COST:300	WT:0	SOURCEPAGE:DMG																			
-Qaal's Feather Token (Fan)	OUTPUTNAME:Qaal's Feather Token, [NAME]	TYPE:Wondrous	COST:200	WT:0	SOURCEPAGE:DMG																			
-Qaal's Feather Token (Swan Boat)	OUTPUTNAME:Qaal's Feather Token, [NAME]	TYPE:Wondrous.Transportation.Ships.Container	COST:450	WT:0	SOURCEPAGE:DMG	CONTAINS:*UNLIM|Any																		
-Qaal's Feather Token (Tree)	OUTPUTNAME:Qaal's Feather Token, [NAME]	TYPE:Wondrous.Weapon.Melee.Exotic.Slashing.OneHanded.Whip	COST:400	WT:0	SOURCEPAGE:DMG				PROFICIENCY:WEAPON|Whip	WIELD:OneHanded	SIZE:H	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:LEATHER.EQ_COST_ADJ_W.PLUS1W									REACH:15
-Qaal's Feather Token (Whip)	OUTPUTNAME:Qaal's Feather Token, [NAME]	TYPE:Wondrous	COST:500	WT:0	SOURCEPAGE:DMG																			
+Quaal's Feather Token (Anchor)	OUTPUTNAME:Quaal's Feather Token, [NAME]	TYPE:Wondrous	COST:50	WT:0	SOURCEPAGE:DMG																			
+Quaal's Feather Token (Bird)	OUTPUTNAME:Quaal's Feather Token, [NAME]	TYPE:Wondrous	COST:300	WT:0	SOURCEPAGE:DMG																			
+Quaal's Feather Token (Fan)	OUTPUTNAME:Quaal's Feather Token, [NAME]	TYPE:Wondrous	COST:200	WT:0	SOURCEPAGE:DMG																			
+Quaal's Feather Token (Swan Boat)	OUTPUTNAME:Quaal's Feather Token, [NAME]	TYPE:Wondrous.Transportation.Ships.Container	COST:450	WT:0	SOURCEPAGE:DMG	CONTAINS:*UNLIM|Any																		
+Quaal's Feather Token (Tree)	OUTPUTNAME:Quaal's Feather Token, [NAME]	TYPE:Wondrous.Weapon.Melee.Exotic.Slashing.OneHanded.Whip	COST:400	WT:0	SOURCEPAGE:DMG				PROFICIENCY:WEAPON|Whip	WIELD:OneHanded	SIZE:H	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:LEATHER.EQ_COST_ADJ_W.PLUS1W									REACH:15
+Quaal's Feather Token (Whip)	OUTPUTNAME:Quaal's Feather Token, [NAME]	TYPE:Wondrous	COST:500	WT:0	SOURCEPAGE:DMG																			
 Quiver of Ehlonna		TYPE:Wondrous.Container	COST:1800	WT:2	SOURCEPAGE:DMG	CONTAINS:*UNLIM|Ammunition=60|Thrown=18|Weapon=6																		
 Ring Gates		TYPE:Wondrous	COST:40000	WT:2	SOURCEPAGE:DMG																			
 Ring Gates (pair)		TYPE:Wondrous	COST:40000	WT:2	SOURCEPAGE:DMG																			
