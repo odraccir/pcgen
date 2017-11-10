@@ -4927,7 +4927,7 @@ if ($cl_options{input_path}) {
         
         # Will hold the list of all templates found in TEMPLATE filetypes
         open $filehandle_for{TEMPLATE}, '>', 'G_export_template.csv';
-        print { $filehandle_for{TEMPLATE} } qq{"Tempate Name","Sourcepage","Line","Filename"\n};
+        print { $filehandle_for{TEMPLATE} } qq{"Tempate Name","Type","Sourcepage","Line","Filename"\n};
 
         # Will hold the list of all templates found in Proficiency filetypes
         open $filehandle_for{WEAPONPROF}, '>', 'G_export_weaponprof.csv';
@@ -13392,8 +13392,8 @@ BEGIN {
                 my $spelltype = "";
                 
                 $class = ( $line_ref->{'000ClassName'}[0] =~ /^CLASS:(.*)/ )[0];
-                $abb = ( $line_ref->{'ABB'}[0] =~ /^ABB:(.*)/ )[0]
-                    if exists $line_ref->{'ABB'};
+                $abb = ( $line_ref->{'FACT:Abb'}[0] =~ /^FACT:Abb\(((?<=\()(.*)(?=\)))/ )[0]
+                    if exists $line_ref->{'FACT:Abb'};
                 $type = ( $line_ref->{'TYPE'}[0] =~ /^TYPE:(.*)/ )[0]
                     if exists $line_ref->{'TYPE'};
                 $sourcepage = ( $line_ref->{'SOURCEPAGE'}[0] =~ /^SOURCEPAGE:(.*)/ )[0]
@@ -13542,12 +13542,15 @@ BEGIN {
             if ( $filetype eq 'TEMPLATE' ) {
                 my $template_name = "";
                 my $sourcepage = "";
+                my $type = "";
                 
                 $template_name = $line_ref->{ $master_order{$filetype}[0] }[0];
                 $sourcepage  = ( $line_ref->{'SOURCEPAGE'}[0] =~ /^SOURCEPAGE:(.*)/ )[0]
                     if exists $line_ref->{'SOURCEPAGE'};
+                $type  = ( $line_ref->{'TYPE'}[0] =~ /^TYPE:(.*)/ )[0]
+                    if exists $line_ref->{'TYPE'};
                 
-                print { $filehandle_for{TEMPLATE} } qq{"$template_name","$sourcepage","$line_for_error","$filename"\n};
+                print { $filehandle_for{TEMPLATE} } qq{"$template_name",,"$type","$sourcepage","$line_for_error","$filename"\n};
             }
             if ( $filetype eq 'WEAPONPROF' ) {
                 my $weaponprof_name = "";

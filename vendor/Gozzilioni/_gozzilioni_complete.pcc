@@ -42,7 +42,7 @@ PCC:old30/partial_manuals/PlayerSHandbook/_playershandbook.pcc
 PCC:old30/partial_manuals/PsionicHandbook/_psionichandbook.pcc
 PCC:old30/partial_manuals/SwordAndFist/_swordandfist.pcc
 PCC:old30/partial_manuals/TomeAndBlood/_tomeandblood.pcc
-PCC:old30/partial_manuals/ForgottenRealmsCampaingSetting/__forgottenrealmscampaingsetting.pcc
+PCC:old30/partial_manuals/ForgottenRealmsCampaingSetting/_forgottenrealmscampaingsetting.pcc
 
 PCC:houserules/_houserules.pcc
 
@@ -57,6 +57,8 @@ PCC:ThirdParty/MongoosePublishing/SeasOfBlood/_seasofblood.pcc
 PCC:errata/CompleteWarrior/_completewarrior_errata.pcc
 PCC:errata/MonsterManual/_monstermanual_errata.pcc
 PCC:errata/ExpandedPsionicHandbook/_expandedpsionichandbook_errata.pcc
+
+PCC:old30/partial_manuals/ForgottenRealmsCampaingSetting/_forgottenrealmscampaingsetting.pcc
 
 # ENTRY DATE: 2015-08 
 # LST MONKEY: Riccardo

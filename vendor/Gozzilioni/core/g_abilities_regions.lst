@@ -1,0 +1,4 @@
+SOURCELONG:Core Ruleset	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
+																																			
+# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page			
+No Specific Region	CATEGORY:Regional	TYPE:RegionChooser	VISIBLE:YES																													SOURCEPAGE:G	

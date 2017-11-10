@@ -1,0 +1,67 @@
+SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:06-2001
+																								
+# Template name																								
+Faerunian	VISIBLE:NO	KEY:Faerunian Human	SUBRACE:FR																					
+Gold (FR)	VISIBLE:NO	KEY:Gold (FR) Dwarf	SUBRACE:Gold (FR)																					
+Gray	VISIBLE:NO	KEY:Gray Dwarf	SUBRACE:Gray	LEVELADJUSTMENT:2																				
+Shield	VISIBLE:NO	KEY:Shield Dwarf	SUBRACE:Shield																					
+Drow	VISIBLE:NO	KEY:Drow (FR) Elf	SUBRACE:Drow (FR)	LEVELADJUSTMENT:2																				
+Moon	VISIBLE:NO	KEY:Moon Elf	SUBRACE:Moon																					
+Sun	VISIBLE:NO	KEY:Sun Elf	SUBRACE:Sun																					
+Wild	VISIBLE:NO	KEY:Wild (FR) Elf	SUBRACE:Wild (FR)																					
+Wood	VISIBLE:NO	KEY:Wood (FR) Elf	SUBRACE:Wood (FR)																					
+Deep	VISIBLE:NO	KEY:Deep Gnome	SUBRACE:Deep	LEVELADJUSTMENT:3																				
+Rock	VISIBLE:NO	KEY:Rock (FR) Gnome	SUBRACE:Rock (FR)																					
+Half-Elf	VISIBLE:NO	KEY:Half-Elf (FR) Half-Elf	SUBRACE:FR																					
+Half-Orc	VISIBLE:NO	KEY:Half-Orc (FR) Half-Orc	SUBRACE:FR																					
+Ghostwise	VISIBLE:NO	KEY:Ghostwise Halfling	SUBRACE:Ghostwise																					
+Lightfoot	VISIBLE:NO	KEY:Lightfoot (FR) Halfling	SUBRACE:Lightfoot (FR)																					
+Strongheart	VISIBLE:NO	KEY:Strongheart Halfling	SUBRACE:Strongheart																					
+Aasimar	VISIBLE:NO	KEY:Aasimar (FR) Aasimar	SUBRACE:FR	LEVELADJUSTMENT:1																				
+Air Genasi	VISIBLE:NO	KEY:Air Genasi	SUBRACE:FR	LEVELADJUSTMENT:1																				
+Earth Genasi	VISIBLE:NO	KEY:Earth Genasi	SUBRACE:FR	LEVELADJUSTMENT:1																				
+Fire Genasi	VISIBLE:NO	KEY:Fire Genasi	SUBRACE:FR	LEVELADJUSTMENT:1																				
+Water Genasi	VISIBLE:NO	KEY:Water Genasi	SUBRACE:FR	LEVELADJUSTMENT:1	MOVE:Swim,30																			
+Tiefling	VISIBLE:NO	KEY:Tiefling (FR) Tiefling	SUBRACE:FR	LEVELADJUSTMENT:1																				
+																								
+Languages	KEY:Human ~ Faerunian ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:TYPE=Spoken																				
+Languages	KEY:Dwarf ~ Gold (FR) ~ Languages	VISIBLE:NO	AUTO:LANG|Dwarven|Common	LANGBONUS:Giant,Gnome,Goblin,Shaaran,Terran,Untheric																				
+Languages	KEY:Dwarf ~ Gray ~ Languages	VISIBLE:NO	AUTO:LANG|Dwarven|Undercommon	LANGBONUS:Common,Draconic,Giant,Goblin,Orc,Terran																				
+Languages	KEY:Dwarf ~ Shield ~ Languages	VISIBLE:NO	AUTO:LANG|Dwarven|Common	LANGBONUS:Chondathan,Draconic,Giant,Goblin,Illuskan,Orc																				
+Favored Class	KEY:Elf ~ Drow (FR) ~ Favored Class	VISIBLE:NO	TEMPLATE:CHOOSE:Drow Male|Drow Female																					
+Languages	KEY:Elf ~ Drow (FR) ~ Languages	VISIBLE:NO	AUTO:LANG|Elven|Undercommon	LANGBONUS:Abyssal,Common,Draconic,Drow Sign Language,Goblin,Illuskan																				
+Languages	KEY:Elf ~ Moon ~ Languages	VISIBLE:NO	AUTO:LANG|Elven|Common	LANGBONUS:Auran,Chondathan,Gnoll,Gnome,Halfling,Illuskan,Sylvan																				
+Languages	KEY:Elf ~ Sun ~ Languages	VISIBLE:NO	AUTO:LANG|Elven|Common	LANGBONUS:Auran,Celestial,Chondathan,Gnome,Halfling,Illuskan,Sylvan																				
+Languages	KEY:Elf ~ Wild (FR) ~ Languages	VISIBLE:NO	AUTO:LANG|Elven|Common	LANGBONUS:Gnoll,Illuskan,Orc,Sylvan,Tashalan																				
+Languages	KEY:Elf ~ Wood (FR) ~ Languages	VISIBLE:NO	AUTO:LANG|Elven|Common	LANGBONUS:Chondathan,Draconic,Gnome,Goblin,Gnoll,Sylvan																				
+Languages	KEY:Gnome ~ Deep ~ Languages	VISIBLE:NO	AUTO:LANG|Gnome|Undercommon	LANGBONUS:Draconic,Dwarven,Elven,Illuskan,Terran																				
+Languages	KEY:Gnome ~ Rock (FR) ~ Languages	VISIBLE:NO	AUTO:LANG|Gnome|Common	LANGBONUS:Chondathan,Draconic,Dwarven,Goblin,Illuskan,Sylvan,Terran																				
+Languages	KEY:Half-Elf ~ Half-Elf (FR) ~ Languages	VISIBLE:NO	AUTO:LANG|Elven|Common	LANGBONUS:ALL																				
+Languages	KEY:Half-Orc ~ Half-Orc (FR) ~ Languages	VISIBLE:NO	AUTO:LANG|Orc|Common	LANGBONUS:Damaran,Giant,Gnoll,Goblin,Illuskan,Undercommon																				
+Languages	KEY:Halfling ~ Ghostwise ~ Languages	VISIBLE:NO	AUTO:LANG|Halfling|Common	LANGBONUS:Chondathan,Elven,Gnoll,Shaaran,Sylvan																				
+Languages	KEY:Halfling ~ Strongheart ~ Languages	VISIBLE:NO	AUTO:LANG|Halfling|Common	LANGBONUS:Dwarven,Gnoll,Goblin,Halruaan,Shaaran																				
+Favored Class	KEY:Halfling ~ Ghostwise ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Barbarian																					
+Languages	KEY:Halfling ~ Lightfoot (FR) ~ Languages	VISIBLE:NO	AUTO:LANG|Halfling|Common	LANGBONUS:Dwarven,Gnoll,Goblin,Halruaan,Shaaran																				
+Languages	KEY:Aasimar ~ Aasimar (FR) ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:ALL																				
+Languages	KEY:Air Genasi ~ Air Genasi ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:ALL																				
+Favored Class	KEY:Air Genasi ~ Air Genasi ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter																					
+Languages	KEY:Earth Genasi ~ Earth Genasi ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:ALL																				
+Favored Class	KEY:Earth Genasi ~ Earth Genasi ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter																					
+Languages	KEY:Fire Genasi ~ Fire Genasi ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:ALL																				
+Favored Class	KEY:Fire Genasi ~ Fire Genasi ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter																					
+Languages	KEY:Water Genasi ~ Water Genasi ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:ALL																				
+Favored Class	KEY:Water Genasi ~ Water Genasi ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter																					
+Languages	KEY:Tiefling ~ Tiefling (FR) ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:ALL																				
+																								
+Militia ~ Luiren	VISIBLE:NO	PREREGION:Luiren	AUTO:WEAPONPROF|Shortbow|Sword (Short)																					
+Militia ~ Other	VISIBLE:NO	PREMULT:1,[PREREGION:Dalelands,Impiltur],[PREVARGTEQ:RegionHalflingStrongheart,1]	AUTO:WEAPONPROF|Longbow|Longspear																					
+																								
+Transcendence	VISIBLE:NO	SOURCEPAGE:FRCS30	KEY:Divine Disciple ~ Transcendence	RACETYPE:Outsider	TEMPLATE:CHOOSE:Transcendence ~ Chaos|Transcendence ~ Evil|Transcendence ~ Good|Transcendence ~ Law																			
+Transcendence ~ Chaos	VISIBLE:NO	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=TL|Protection from Chaos																						
+Transcendence ~ Evil	VISIBLE:NO	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=TL|Protection from Evil																						
+Transcendence ~ Good	VISIBLE:NO	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=TL|Protection from Good																						
+Transcendence ~ Law	VISIBLE:NO	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=TL|Protection from Law																						
+																								
+Chosen of Mystra	VISIBLE:YES	SOURCEPAGE:FRCS30	TYPE:Assigned	ABILITY:Special Ability|AUTOMATIC|Chosen of Mystra ~ Bonus Spells|Chosen of Mystra ~ Spell Immunity|Chosen of Mystra ~ Immunities|Chosen of Mystra ~ Detect Magic|Chosen of Mystra ~ Silver Fire	BONUS:STAT|CON|10|TYPE=Enhancement																			
+Dracolich	VISIBLE:YES	SOURCEPAGE:FRCS30	TYPE:Acquired	PRERACE:1,RACETYPE=Dragon	PREALIGN:LE,NE,CE	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	ABILITY:Special Ability|AUTOMATIC|Dracolich ~ Damage|Dracolich ~ Control Undead|Dracolich ~ Paralyzing Gaze|Dracolich ~ Paralyzing Touch|Dracolich ~ Immunities|Dracolich ~ Invulnerability|Dracolich ~ Spell Resistance	BONUS:STAT|CHA|2	BONUS:MISC|CR|3															
+Shade	VISIBLE:YES	SOURCEPAGE:FRCS30	TYPE:Acquired	PRERACE:1,RACETYPE=Humanoid	RACETYPE:Outsider	BONUS:MOVEADD|TYPE.Walk|20	BONUS:COMBAT|AC|4|TYPE=Deflection	BONUS:COMBAT|TOHIT,DAMAGE|2|TYPE=Competence	ABILITY:Special Ability|AUTOMATIC|Shade ~ Control Light|Shade ~ Invisibility|Shade ~ Shadesight|Shade ~ Shadow Image|Shade ~ Shadow Stride	BONUS:VAR|FastHealing|2	ABILITY:Special Ability|AUTOMATIC|Shade ~ Shadow Stride|PREPCLEVEL:MIN=8	ABILITY:Special Ability|AUTOMATIC|Shade ~ Shadow Travel|PREPCLEVEL:MIN=12	SR:ShadeSR	DEFINE:ShadeSR|0	BONUS:VAR|ShadeSR|11+(TL-HD)	BONUS:SAVE|ALL|4|TYPE=Luck	BONUS:STAT|CON|2	BONUS:STAT|CHA|2	BONUS:SKILL|Hide,Move silently|8|TYPE=Racial	BONUS:SITUATION|Listen=In darkness|4|TYPE=Racial	BONUS:SITUATION|Spot=In darkness|4|TYPE=Racial	BONUS:MISC|CR|2	BONUS:VAR|AdvancementByClass|1	KIT:1|LN,LE,TN,NE,CN,CE

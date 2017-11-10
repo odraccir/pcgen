@@ -1,0 +1,5 @@
+SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:06-2001
+#										
+###Block:Familiar Bonus to Master										
+MASTERBONUSRACE:Animal (Lizard)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Lizard				
+MASTERBONUSRACE:Animal (Octopus)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Octopus				

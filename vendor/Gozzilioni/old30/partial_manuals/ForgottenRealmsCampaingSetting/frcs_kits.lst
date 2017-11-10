@@ -1,0 +1,73 @@
+SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:06-2001
+				
+#Kit name				
+STARTPACK:Planetouched (Air Genasi) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Planetouched (Air Genasi)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10				
+				
+STARTPACK:Planetouched (Earth Genasi) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Planetouched (Earth Genasi)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10				
+				
+STARTPACK:Planetouched (Fire Genasi) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Planetouched (Fire Genasi)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10				
+				
+STARTPACK:Planetouched (Water Genasi) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Planetouched (Water Genasi)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10				
+				
+# STARTPACK:Planetouched (Aasimar) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Planetouched (Aasimar)
+# SELECT:roll("1d2")				
+# GEAR:Scale Mail	LOCATION:Equipped			
+# GEAR:Shield (Heavy/Steel)	LOCATION:Equipped			
+# GEAR:Longsword	OPTION:01			
+# GEAR:Crossbow (Light)	OPTION:02			
+
+# STARTPACK:Treasure 8-4 Faerun Scrolls - minor	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
+# SELECT:roll("1d100")	
+# KIT:Faerun Arcane Scroll - minor	OPTION:01,70	
+# KIT:Faerun Divine Scroll - minor	OPTION:71,100	
+	
+# STARTPACK:Treasure 8-4 Faerun Scrolls - medium	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
+# SELECT:roll("1d100")	
+# KIT:Faerun Arcane Scroll - medium	OPTION:01,70	
+# KIT:Faerun Divine Scroll - medium	OPTION:71,100	
+	
+# STARTPACK:Treasure 8-4 Faerun Scrolls - major	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
+# SELECT:roll("1d100")	
+# KIT:Faerun Arcane Scroll - major	OPTION:01,70	
+# KIT:Faerun Divine Scroll - major	OPTION:71,100	
+	
+# STARTPACK:Faerun Arcane Scroll - minor	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
+# SELECT:roll("1d100")	
+
+STARTPACK:Animal (Lizard (Pack)) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Lizard (Pack))
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Animal (Lizard (Riding)) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Lizard (Riding))
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Animal (Lizard (Spitting Crawler)) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Lizard (Spitting Crawler))
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Animal (Snake (Two-Headed Adder)) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Snake (Two-Headed Adder))
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Animal (Tressym) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Tressym)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=13
+
+STARTPACK:Beholder (Death Tyrant) Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Beholder (Death Tyrant)
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+GEAR:Beholder ~ Eye Rays	QTY:10-roll("1d4+1")
+
+STARTPACK:Gargoyle (Kir-Lanan) Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Gargoyle (Kir-Lanan)
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Gargoyle (Kir-Lanan) Standard Equip	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Gargoyle (Kir-Lanan)
+GEAR:Studded Leather	LOCATION:Equipped
+
+STARTPACK:Rothé (Deep) Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Rothé (Deep)
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Rothé (Ghost) Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Rothé (Ghost)
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Rothé (Surface) Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Rothé (Surface)
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11

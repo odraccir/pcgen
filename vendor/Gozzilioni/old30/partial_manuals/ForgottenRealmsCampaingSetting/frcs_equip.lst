@@ -1,0 +1,109 @@
+SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:06-2001
+#								
+# PHB Name	OUTPUTNAME:	TYPE:	COST:	WT:	SOURCEPAGE:	Requires Modification?	Source Page	Special Property
+Portal		TYPE:Portal	COST:0	WT:0	SOURCEPAGE:FRCS30	MODS:REQUIRED																				
+#
+Musical Instrument (Birdpipes)		TYPE:Goods.Tools.Instrument.Wind.Resizable	COST:5	WT:3	SOURCEPAGE:FRCS30	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork		
+Musical Instrument (Glaur)		TYPE:Goods.Tools.Instrument.Wind.Resizable	COST:5	WT:3	SOURCEPAGE:FRCS30	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork		
+Musical Instrument (Hand Drum)		TYPE:Goods.Tools.Instrument.Percussion.Resizable	COST:5	WT:3	SOURCEPAGE:FRCS30	BONUS:SKILL|Perform (Percussion Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork		
+Musical Instrument (Longhorn)		TYPE:Goods.Tools.Instrument.Wind.Resizable	COST:5	WT:3	SOURCEPAGE:FRCS30	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork		
+Musical Instrument (Shaum)		TYPE:Goods.Tools.Instrument.Wind.Resizable	COST:5	WT:3	SOURCEPAGE:FRCS30	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork		
+Musical Instrument (Songhorn)		TYPE:Goods.Tools.Instrument.Resizable	COST:5	WT:3	SOURCEPAGE:FRCS30			
+Musical Instrument (Tantan)		TYPE:Goods.Tools.Instrument.Percussion.Resizable	COST:5	WT:3	SOURCEPAGE:FRCS30	BONUS:SKILL|Perform (Percussion Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork		
+Musical Instrument (Thelarr)		TYPE:Goods.Tools.Instrument.Wind.Resizable	COST:5	WT:3	SOURCEPAGE:FRCS30	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork		
+Musical Instrument (Tocken)		TYPE:Goods.Tools.Instrument.Percussion.Resizable	COST:5	WT:3	SOURCEPAGE:FRCS30	BONUS:SKILL|Perform (Percussion Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork		
+Musical Instrument (Wargong)		TYPE:Goods.Tools.Instrument.Percussion.Resizable	COST:5	WT:3	SOURCEPAGE:PHB	BONUS:SKILL|Perform (Percussion Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork		
+Musical Instrument (Yarting)		TYPE:Goods.Tools.Instrument.String.Resizable	COST:5	WT:3	SOURCEPAGE:PHB	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork		
+Musical Instrument (Zulkoon)		TYPE:Goods.Tools.Instrument.Resizable	COST:5	WT:3	SOURCEPAGE:PHB	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork		
+#
+Coin (Toal)		TYPE:Coin	COST:2	WT:0.02	SOURCEPAGE:FRCS30	SPROP:A coin worth two gold pieces in the city of Waterdeep, but outside Waterdeep, these coins were practically worthless.
+Coin (Harbor Moon)		TYPE:Coin	COST:50	WT:0.02	SOURCEPAGE:FRCS30	SPROP:A coin worth fifty gold pieces inside the city of Waterdeep, but only thirty gold pieces elsewhere.
+Coin (Iron Steelpence)		TYPE:Coin	COST:0.01	WT:0.02	SOURCEPAGE:FRCS30				
+Coin (Thalvers)	TYPE:Coin	COST:0.01	WT:0.02	SOURCEPAGE:FRCS30
+Coin (Bedoars)	TYPE:Coin	COST:0.1	WT:0.02	SOURCEPAGE:FRCS30
+Coin (Shilmaers)		TYPE:Coin	COST:1	WT:0.02	SOURCEPAGE:FRCS30
+Coin (Ruendils)	TYPE:Coin	COST:10	WT:0.02	SOURCEPAGE:FRCS30
+#
+Trade Bars (Silver/1)	TYPE:Goods.Trade.Bar	COST:5	WT:1	SOURCEPAGE:FRCS30
+Trade Bars (Gold/1)	TYPE:Goods.Trade.Bar	COST:50	WT:1	SOURCEPAGE:FRCS30
+Trade Bars (Silver/2)	TYPE:Goods.Trade.Bar	COST:10	WT:2	SOURCEPAGE:FRCS30
+Trade Bars (Gold/2)	TYPE:Goods.Trade.Bar	COST:10	WT:2	SOURCEPAGE:FRCS30
+Trade Bars (Silver/5)	TYPE:Goods.Trade.Bar	COST:25	WT:5	SOURCEPAGE:FRCS30
+Trade Bars (Gold/5)	TYPE:Goods.Trade.Bar	COST:250	WT:5	SOURCEPAGE:FRCS30
+Trade Bars (Silver/10)	TYPE:Goods.Trade.Bar	COST:50	WT:10	SOURCEPAGE:FRCS30
+Trade Bars (Gold/10)	TYPE:Goods.Trade.Bar	COST:500	WT:10	SOURCEPAGE:FRCS30
+Trade Bars (Black Iron/2)	TYPE:Goods.Trade.Bar	COST:10	WT:2	SOURCEPAGE:FRCS30
+Gond Bell	TYPE:Coin	COST:10	WT:0	SOURCEPAGE:FRCS30	SPROP:Cost doubled and value doubled in Gond temples.
+Shaar Ring	TYPE:Coin	COST:3	WT:0	SOURCEPAGE:FRCS30	SPROP:only found in Shaar.
+White Seyar (Pearl/1 cp)	TYPE:Coin	COST:0.01	WT:0		SOURCEPAGE:FRCS	SPROP:only found in Sea of the Fallen Stars. Value 2 sp ashore.
+Yellow Hayar (Pearl/1 sp)	TYPE:Coin	COST:0.1	WT:0		SOURCEPAGE:FRCS	SPROP:only found in Sea of the Fallen Stars. Value 2 gp ashore.
+Green Tayar (Pearl/1 gp)	TYPE:Coin	COST:1	WT:0		SOURCEPAGE:FRCS	SPROP:only found in Sea of the Fallen Stars. Value 20 gp ashore.
+Blue Nuyar (Pearl/5 gp)	TYPE:Coin	COST:5	WT:0		SOURCEPAGE:FRCS	SPROP:only found in Sea of the Fallen Stars. Value 100 gp ashore.
+Olmar (Pearl/500 gp)	TYPE:Coin	COST:500	WT:0		SOURCEPAGE:FRCS	SPROP:only found in Sea of the Fallen Stars. Value 2000 gp ashore.
+#
+###BLOCK:Mundane Items
+Aspergillum	TYPE:Goods.Tool.Container	COST:5	WT:3	SOURCEPAGE:FRCS30	CONTAINS:1|Liquid=1
+Aspergillum (Silver)	TYPE:Goods.Tool.Container	COST:50	WT:3	SOURCEPAGE:FRCS30	CONTAINS:1|Liquid=1
+Bandoleer	TYPE:Goods.Tool.Container	COST:0.5	WT:0.5	SOURCEPAGE:FRCS30	CONTAINS:UNLIM|Total=8
+Bandoleer (Masterwork)	TYPE:Goods.Tool.Container.Masterwork	COST:0.5	WT:0.5	SOURCEPAGE:FRCS30	CONTAINS:UNLIM|Total=12
+Chess set (Common)	TYPE:Goods.Tool	COST:2	WT:4	SOURCEPAGE:FRCS30
+Chess set (Fine)	TYPE:Goods.Tool	COST:25	WT:7	SOURCEPAGE:FRCS30
+Draughts set	TYPE:Goods.Tool	COST:1	WT:2	SOURCEPAGE:FRCS30
+Hammock	TYPE:Goods.Tool	COST:0.1	WT:2	SOURCEPAGE:FRCS30
+Insect Netting	TYPE:Goods.Tool	COST:5	WT:1	SOURCEPAGE:FRCS30
+Insect Netting	TYPE:Goods.Tool	COST:5	WT:1	SOURCEPAGE:FRCS30
+Old Men's Bones set	TYPE:Goods.Tool	COST:0.2	WT:1	SOURCEPAGE:FRCS30
+Potion (Belt)		TYPE:Goods.General.Container.Resizable	COST:1	WT:0.5	SOURCEPAGE:PHB	CONTAINS:UNLIM|Total=6|Potion=6
+Potion (Belt/Masterwork)		TYPE:Goods.General.Container.Resizable.Masterwork	COST:60	WT:1	SOURCEPAGE:PHB	CONTAINS:UNLIM|Total=10|Potion=10			
+Scroll Organizer		TYPE:Goods.General.Container.Resizable	COST:1	WT:0.5	SOURCEPAGE:PHB	CONTAINS:UNLIM|Total=15|Scroll=15
+Talis Deck set	TYPE:Goods.Tool	COST:2	WT:0.25	SOURCEPAGE:FRCS30
+#
+###BLOCK:Alchemical Items
+Alchemical Sleep Gas (Flask)		TYPE:Goods.Alchemical.Consumable.Flask.Liquid	COST:30	WT:1.25	SOURCEPAGE:FRCS30				
+Disappearing Ink (1 Oz. Vial/lead)		TYPE:Goods.Alchemical.Writing.Liquid.Vial.Consumable	COST:5		SOURCEPAGE:FRCS30	
+Herb (Cassil)		TYPE:Goods.Trade	COST:1	WT:0	SOURCEPAGE:FRCS30						
+Herb (Nararoot)		TYPE:Goods.Trade	COST:0.02	WT:0	SOURCEPAGE:FRCS30						
+Powderhorn		TYPE:Goods.General.Container.Resizeable	COST:55	WT:1	SOURCEPAGE:FRCS30	CONTAINS:2|Powder=UNLIM
+Powderkeg		TYPE:Goods.General.Container.Resizeable	COST:400	WT:5	SOURCEPAGE:FRCS30	CONTAINS:15|Powder=UNLIM
+Scentbreaker		TYPE:Goods.General	COST:5	WT:9	SOURCEPAGE:FRCS30
+Smokepowder (Keg)		TYPE:Goods.Alchemical.Consumable.Powder	COST:250	WT:20	SOURCEPAGE:DMG																					
+Smokepowder (Horn)		TYPE:Goods.Alchemical.Consumable.Powder	COST:35	WT:2	SOURCEPAGE:DMG																					
+
+###Block: Poisons																										
+Poison (Alchemical Sleep Gas)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:30	WT:0	SOURCEPAGE:FRCS30	SPROP:Ingested DC 15, Init.:Fall asleep 1 round, Sec.:Fall asleep 1d4 minutes. Craft (Alchemy) DC 25																				
+
+###Block:Gems
+Gem (Andar)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Aventurine)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Belijuril)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Crown of Silver)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Agate (Fire))	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Fluorspar)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Greenstone)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Hyaline)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Hydrophane)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Iol)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Irtios)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Kings' Tears)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Laeral's Tears)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Nelvine)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Orl)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Orprase)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Phenalope)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Ravenar)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Red Tears)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Crystal (Rock))	OUTPUTNAME:Rock Crystal	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Sanidine)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Spodumene)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Tchazar)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Agate (Tiger Eye))	OUTPUTNAME:Tiger Eye Agate	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Jade (Tomb))	OUTPUTNAME:Tomb Jade	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Violine)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Opal (Water))	OUTPUTNAME:Water Opal	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Gem (Waterstar)	OUTPUTNAME:[NAME]	TYPE:Goods.Gem	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+
+Phylactery (Full/Dracolich)	OUTPUTNAME:[NAME] Phylactery, Full	TYPE:Wondrous	COST:54500	WT:5	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item									SOURCEPAGE:FRCS30
+Phylactery (Contenitor/Dracolich)	OUTPUTNAME:[NAME] Phylactery, Contenitor	TYPE:Wondrous.Container	COST:0	WT:5	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item	PRECLASS:1,Lich								SOURCEPAGE:FRCS	CONTAINS:UNLIM|Total=3|DracolichPhylacteryPart1=1|DracolichPhylacteryPart2=1|DracolichPhylacteryPart3=1
+Phylactery Part 1		TYPE:DracolichPhylacteryPart1	COST:2000	WT:0	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item									SOURCEPAGE:FRCS30
+Phylactery Part 2		TYPE:DracolichPhylacteryPart2	COST:50000	WT:0	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item									SOURCEPAGE:FRCS30
+Dracolich Special Brew		TYPE:DracolichPhylacteryPart3	COST:2500	WT:0	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item									SOURCEPAGE:FRCS30

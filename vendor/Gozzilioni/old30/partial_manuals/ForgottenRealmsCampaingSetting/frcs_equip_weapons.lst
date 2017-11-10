@@ -1,0 +1,31 @@
+SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:06-2001
+#								
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:			
+# Simple Weapons																									
+## Unarmed																									
+## Light																									
+## OneHanded																									
+## TwoHanded																									
+## Ranged																									
+																									
+# Martial Weapons																									
+## Light																									
+Cutlass			PROFICIENCY:WEAPON|Cutlass	TYPE:Weapon.Melee.Martial.Slashing.Piercing.Light	COST:15	WT:3	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:FRCS30											
+## OneHanded																									
+Saber			PROFICIENCY:WEAPON|Saber	TYPE:Weapon.Melee.Martial.Slashing.Piercing.Onehanded	COST:20	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:FRCS30											
+## TwoHanded																									
+Maul			PROFICIENCY:WEAPON|Maul	TYPE:Weapon.Melee.Martial.Bludgeoning.TwoHanded	COST:15	WT:20	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:FRCS30											
+## Ranged																									
+
+# Exotic Weapons																									
+## Light																									
+Blade Boot			PROFICIENCY:WEAPON|Blade Boot	TYPE:Boot.Weapon.Melee.Exotic.Piercing.Light.Dagger	COST:15	WT:1	WIELD:Light	SLOTS:1	SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:FRCS30											
+Claw (Bracer)			PROFICIENCY:WEAPON|Claw (Bracer)	TYPE:Weapon.Exotic.Melee.Piercing.Light.Claw	COST:30	WT:2	WIELD:Light	SLOTS:1	SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:FRCS30											
+## OneHanded																									
+Khopesh			PROFICIENCY:WEAPON|Khopesh	TYPE:Weapon.Exotic.Melee.Slashing.OneHanded.Sword	COST:20	WT:12	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:FRCS30											
+Scourge			PROFICIENCY:WEAPON|Whip	TYPE:Weapon.Melee.Exotic.Slashing.OneHanded.Whip	COST:20	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:LEATHER	SOURCEPAGE:FRCS30								REACH:15	BONUS:WEAPON|DAMAGE|min(STR,0)		
+## TwoHanded																									
+## Ranged																									
+Chakram			PROFICIENCY:WEAPON|Chakram	TYPE:Weapon.Exotic.Ranged.Light.Thrown	COST:15	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:FRCS30							RANGE:30				
+																									
+# Arrows																									

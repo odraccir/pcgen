@@ -1,0 +1,48 @@
+SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:06-2001
+																																																																			
+# Added alphabet type to each language in accordance with SkillsII
+# Alphabet type will be final type, such as:
+# Abyssal	TYPE:Spoken.Written.Infernal
+# ... since the Abyssal language uses the Infernal Alphabet for its writing.
+# Per SkillsII, each language listed in Speak Language is also written/read
+# - Fluxxdog - Nov 4 08
+
+#	everyone's language
+# Language			Type								Var. Min. Value
+# Common			TYPE:Spoken.Written.Common
+
+#	racial languages (base races)
+
+# Languages
+Aglarondan	TYPE:Spoken.Written.Espruar
+Alzhedo	TYPE:Spoken.Written.Thorass
+Chessentan	TYPE:Spoken.Written.Thorass
+Chondathan	TYPE:Spoken.Written.Thorass
+Chultan	TYPE:Spoken.Written.Draconic
+Damaran	TYPE:Spoken.Written.Dethek
+Dambrathan	TYPE:Spoken.Written.Espruar
+Durpari	TYPE:Spoken.Written.Thorass
+Halruaan	TYPE:Spoken.Written.Draconic
+Illuskan	TYPE:Spoken.Written.Thorass
+Lantanese	TYPE:Spoken.Written.Draconic
+Midani	TYPE:Spoken.Written.Thorass
+Mulhorandi	TYPE:Spoken.Written.Celestial.Infernal
+Nexalan	TYPE:Spoken.Written.Draconic
+Rashemi	TYPE:Spoken.Written.Thorass
+Serusan	TYPE:Spoken.Written.Aquan
+Shaaran	TYPE:Spoken.Written.Dethek
+Shou	TYPE:Spoken.Written.Draconic
+Tashalan	TYPE:Spoken.Written.Dethek
+Tuigan	TYPE:Spoken.Written.Thorass
+Turmic	TYPE:Spoken.Written.Thorass
+Uluik	TYPE:Spoken.Written.Thorass
+Untheric	TYPE:Spoken.Written.Dethek
+
+# Dead languages
+Aragrakh	TYPE:Draconic
+Hulgorkyn	TYPE:Dethek
+Loross	TYPE:Draconic
+Netherese	TYPE:Draconic
+Roushoum	TYPE:Imaskari
+Seldruin	TYPE:Hamarfae
+Thorass	TYPE:Common.Thorass

@@ -1,0 +1,54 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+ABILITYCATEGORY:Air Genasi Race Trait	CATEGORY:Special Ability	TYPE:AirGenasiRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Earth Genasi Race Trait	CATEGORY:Special Ability	TYPE:EarthGenasiRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Fire Genasi Race Trait	CATEGORY:Special Ability	TYPE:FireGenasiRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Water Genasi Race Trait	CATEGORY:Special Ability	TYPE:WaterGenasiRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+
+# Subrace Support
+ABILITYCATEGORY:Air Genasi Subrace	CATEGORY:Internal	TYPE:AirGenasiSubrace.AirGenasiSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Earth Genasi Subrace	CATEGORY:Internal	TYPE:EarthGenasiSubrace.EarthGenasiSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Fire Genasi Subrace	CATEGORY:Internal	TYPE:FireGenasiSubrace.FireGenasiSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Water Genasi Subrace	CATEGORY:Internal	TYPE:WaterGenasiSubrace.WaterGenasiSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Arcane Devotee Class Feature	CATEGORY:Special Ability	TYPE:ArcaneDevoteeClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Arcane Devotee Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Divine Champion Class Feature	CATEGORY:Special Ability	TYPE:DivineChampionClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Divine Champion Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Divine Disciple Class Feature	CATEGORY:Special Ability	TYPE:DivineDiscipleClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Divine Disciple Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Divine Seeker Class Feature	CATEGORY:Special Ability	TYPE:DivineSeekerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Divine Seeker Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Guild Thief Class Feature	CATEGORY:Special Ability	TYPE:GuildThiefClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Guild Thief Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Harper Scout Class Feature	CATEGORY:Special Ability	TYPE:HarperScoutClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Harper Scout Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Hathran Class Feature	CATEGORY:Special Ability	TYPE:HathranClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Hathran Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Runecaster Class Feature	CATEGORY:Special Ability	TYPE:RunecasterClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Runecaster Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Shadow Adept Class Feature	CATEGORY:Special Ability	TYPE:ShadowAdeptClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Shadow Adept Class Features			DISPLAYLOCATION:Class Features
+
+ABILITYCATEGORY:Hathran Cohort Class Feature	CATEGORY:Special Ability	TYPE:HathranCohortClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Hathran Cohort Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups
+# ABILITYCATEGORY:Anoint Self	CATEGORY:Special Ability	TYPE:AnointSelf	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Anoint Selves			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Foe Hunter	CATEGORY:Special Ability	TYPE:FoeHunter	VISIBLE:QUALIFY	EDITABLE:YES	POOL:FoeHunterCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Foe Hunters				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Arcane Devotee Alignment Focus	CATEGORY:Special Ability	TYPE:AlignmentFocus	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Arcane Devotee Alignment Foci				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Harper Enemy	CATEGORY:Special Ability	TYPE:HarperEnemy	VISIBLE:QUALIFY	EDITABLE:YES	POOL:HarperEnemyCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Harper Enemies				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Harper Enemy Bonus	CATEGORY:Special Ability	TYPE:HarperEnemyBonus	VISIBLE:QUALIFY	EDITABLE:YES	POOL:HarperEnemyBonusCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Harper Enemy Bonuses			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Harper Scout Skill Focus	CATEGORY:Special Ability	TYPE:HarperScoutSkillFocus	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Harper Scout Skill Foci			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Turn Lycanthrope	CATEGORY:Special Ability	TYPE:TurnLycanthrope.RebukeLycanthrope	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Turn Lycanthrope			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Turn Reptile	CATEGORY:Special Ability	TYPE:TurnReptile.RebukeReptile	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Turn Reptile			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Turn Ooze	CATEGORY:Special Ability	TYPE:TurnOoze.RebukeOoze	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Turn Ooze			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Turn Spider	CATEGORY:Special Ability	TYPE:TurnSpider.RebukeSpider	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Turn Spider			DISPLAYLOCATION:Class Features
+
+ABILITYCATEGORY:Craft Skill Focus	CATEGORY:Special Ability	TYPE:CraftSkillFocus	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Craft Skill Foci			DISPLAYLOCATION:Class Features
+
+#Feats Ability pools
+ABILITYCATEGORY:Arcane Devotee Feat	CATEGORY:FEAT	TYPE:ItemCreation.ArcaneDevotee	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Arcane Devotee Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Divine Champion Feat	CATEGORY:FEAT	TYPE:Fighter.DivineChampion	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Divine Champion Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Guild Thief Bonus Feat	CATEGORY:FEAT	TYPE:GuildThief	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Guild Thief Bonus Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Shadow Adept Metamagic Feat	CATEGORY:FEAT	TYPE:Metamagic.ShadowAdept	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Shadow Adept Feats			DISPLAYLOCATION:Feats
+
+#Companion Support
+ABILITYCATEGORY:Hathran Cohort Selection	CATEGORY:Internal	TYPE:HathranCohortSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Hathran Cohort Choice			DISPLAYLOCATION:Class Features
+
+ABILITYCATEGORY:Faerun Region Chooser	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:YES	FRACTIONALPOOL:NO	PLURAL:Faerun Region Choosers	DISPLAYLOCATION:Region													
+
+#
+# End
+#
