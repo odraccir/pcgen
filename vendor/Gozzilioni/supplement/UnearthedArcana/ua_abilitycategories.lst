@@ -29,6 +29,10 @@ ABILITYCATEGORY:Skeletal Minion Class Feature	CATEGORY:Special Ability	TYPE:Skel
 																														
 ABILITYCATEGORY:Item Familiar Class Feature	CATEGORY:Special Ability	TYPE:ItemFamiliarClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Item Familiar Class Features			DISPLAYLOCATION:Class Features								
 																														
+ABILITYCATEGORY:Cleric Domain	CATEGORY:Special Ability	TYPE:ClericDomain	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Cleric Domains			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Druid Domain	CATEGORY:Special Ability	TYPE:DruidDomain	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Druid Domains			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Wizard Domain	CATEGORY:Special Ability	TYPE:WizardDomain	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Wizard Domains			DISPLAYLOCATION:Class Features								
+																														
 #Other Abilitygroups																														
 ABILITYCATEGORY:Bloodline	CATEGORY:Internal	TYPE:Bloodline	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Bloodlines			DISPLAYLOCATION:Misc								
 ABILITYCATEGORY:Traits	CATEGORY:Special Ability	TYPE:Traits	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Traits			DISPLAYLOCATION:Racial Features								
