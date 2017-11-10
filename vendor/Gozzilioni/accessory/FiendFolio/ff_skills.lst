@@ -1,12 +1,12 @@
 SOURCELONG:Fiend Folio	SOURCESHORT:FF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-04
 	
-Perform (Melody)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Melody)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
+Perform (Melody)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Melody)	SOURCEPAGE:FF	VISIBLE:DISPLAY																																												
 Perform (Melody)	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Perform ~ Melody	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Perform (Melody).MISC"),var("SKILL.Perform (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Perform (Melody)"),1]																																									
 Perform (Untrained).MOD								BONUS:SKILL|Perform ~ Melody|var("SKILL.Perform (Melody).MISC")	BONUS:SKILLRANK|Perform ~ Melody|skillinfo("TOTALRANK", "Perform (Melody)")																																									
-Perform (Ode)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Ode)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
+Perform (Ode)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Ode)	SOURCEPAGE:FF	VISIBLE:DISPLAY																																												
 Perform (Ode)	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Perform ~ Ode	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Perform (Ode).MISC"),var("SKILL.Perform (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Perform (Ode)"),1]																																									
 Perform (Untrained).MOD								BONUS:SKILL|Perform ~ Ode|var("SKILL.Perform (Ode).MISC")	BONUS:SKILLRANK|Perform ~ Ode|skillinfo("TOTALRANK", "Perform (Ode)")																																									
-Perform (Storytelling)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Storytelling)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
+Perform (Storytelling)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Storytelling)	SOURCEPAGE:FF	VISIBLE:DISPLAY																																												
 Perform (Storytelling)	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Perform ~ Storytelling	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Perform (Storytelling).MISC"),var("SKILL.Perform (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Perform (Storytelling)"),1]																																									
 Perform (Untrained).MOD								BONUS:SKILL|Perform ~ Storytelling|var("SKILL.Perform (Storytelling).MISC")	BONUS:SKILLRANK|Perform ~ Storytelling|skillinfo("TOTALRANK", "Perform (Storytelling)")																																									
 Profession (Siege Engineer)	USEUNTRAINED:NO		KEYSTAT:WIS	TYPE:Skill.Wisdom.Profession.Profession (Siege Engineer)	SOURCEPAGE:FF																																													

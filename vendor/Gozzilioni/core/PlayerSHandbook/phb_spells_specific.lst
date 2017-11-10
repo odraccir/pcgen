@@ -66,6 +66,9 @@ Enlarge Person ~ Self only.MOD	OUTPUTNAME:Enlarge Person	TYPE:SpellLike	TARGETAR
 Ethereal Jaunt.COPY=Ethereal Jaunt	KEY:Ethereal Jaunt ~ Self only
 Ethereal Jaunt ~ Self only.MOD	OUTPUTNAME:Ethereal Jaunt	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only plus 50 pounds of objects.	
 
+Eyebite.COPY=Eyebite	KEY:Eyebite ~ Sicken only
+Eyebite ~ Sicken only.MOD	OUTPUTNAME:Eyebite	TYPE:SpellLike	DESC:Sicken effect only.
+
 Invisibility.COPY=Invisibility	KEY:Invisibility ~ Self only
 Invisibility ~ Self only.MOD	OUTPUTNAME:Invisibility	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	
 
@@ -105,6 +108,8 @@ Speak with Animals ~ Rats only.MOD	OUTPUTNAME:Speak with Animals	TYPE:SpellLike	
 
 Summon Monster VI.COPY=Summon Monster VI	KEY:Summon Monster VI ~ Large Elemental
 Summon Monster VI ~ Large Elemental.MOD	OUTPUTNAME:Summon Monster VI	DESC:Summon Large Air, Earth, Fire or Water Elemental only.	
+Summon Monster VI.COPY=Summon Monster VI	KEY:Summon Monster VI ~ Air only
+Summon Monster VI ~ Air only.MOD	OUTPUTNAME:Summon Monster VI	DESC:Summon Air creature only.	
 Summon Monster VI.COPY=Summon Monster VI	KEY:Summon Monster VI ~ Fire only
 Summon Monster VI ~ Fire only.MOD	OUTPUTNAME:Summon Monster VI	DESC:Summon Fire creature only.	
 Summon Monster VII.COPY=Summon Monster VII	KEY:Summon Monster VII ~ Huge Fire Elemental
@@ -118,6 +123,8 @@ Summon Monster IX ~ Fiendish only.MOD	OUTPUTNAME:Summon Monster IX	DESCRIPTOR:.C
 
 Summon Nature's Ally IX.COPY=Summon Nature's Ally IX	KEY:Summon Nature's Ally IX ~ Aquatic only																								
 Summon Nature's Ally IX ~ Aquatic only.MOD	OUTPUTNAME:Summon Nature's Ally IX	DESCRIPTOR:.CLEAR	DESCRIPTOR:Water	DESC:Summon water or Aquatic creatures only.																					
+Summon Nature's Ally IX.COPY=Summon Nature's Ally IX	KEY:Summon Nature's Ally IX ~ Earth only																								
+Summon Nature's Ally IX ~ Earth only.MOD	OUTPUTNAME:Summon Nature's Ally IX	DESCRIPTOR:.CLEAR	DESCRIPTOR:Earth	DESC:Summon Earth Elemental or Animal creatures only.																					
 
 Planar Ally.COPY=Planar Ally	KEY:Planar Ally ~ Water Elemental																											
 Planar Ally ~ Water Elemental.MOD	OUTPUTNAME:Planar Ally	DESCRIPTOR:.CLEAR	DESCRIPTOR:Water	DESC:Summon Water Elemental only.																								

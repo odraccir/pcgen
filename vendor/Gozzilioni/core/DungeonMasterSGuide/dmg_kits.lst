@@ -1,19 +1,19 @@
 SOURCELONG:Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 
 STARTPACK:Starting Gold ~ Adept	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Adept=1	PRELEVELMAX:1	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:roll("2d4")*10	
+GEAR:Coin (Gold Piece)	QTY:roll("2d4")*10	
 	
 STARTPACK:Starting Gold ~ Aristocrat	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Aristocrat=1	PRELEVELMAX:1	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:roll("6d8")*10	
+GEAR:Coin (Gold Piece)	QTY:roll("6d8")*10	
 	
 STARTPACK:Starting Gold ~ Commoner	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Commoner=1	PRELEVELMAX:1	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:roll("5d4")	
+GEAR:Coin (Gold Piece)	QTY:roll("5d4")	
 	
 STARTPACK:Starting Gold ~ Expert	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Expert=1	PRELEVELMAX:1	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:roll("3d4")*10	
+GEAR:Coin (Gold Piece)	QTY:roll("3d4")*10	
 	
 STARTPACK:Starting Gold ~ Warrior	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Warrior=1	PRELEVELMAX:1	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:roll("3d4")*10	
+GEAR:Coin (Gold Piece)	QTY:roll("3d4")*10	
 
 STARTPACK:Table 3-5 Treasure	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
 KIT:Treasure 3-5 Level 01	PREVAREQ:CR,1	
@@ -325,124 +325,124 @@ KIT:Level 21+ ~ Items
 	
 STARTPACK:Level 1 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Coin (Copper)	QTY:roll("1d6")*1000	OPTION:15,29	
-GEAR:Coin (Silver)	QTY:roll("1d8")*100	OPTION:30,52	
-GEAR:Coin (Gold)	QTY:roll("2d8")*10	OPTION:53,95	
-GEAR:Coin (Platinum)	QTY:roll("1d4")*10	OPTION:96,100	
+GEAR:Coin (Copper Piece)	QTY:roll("1d6")*1000	OPTION:15,29	
+GEAR:Coin (Silver Piece)	QTY:roll("1d8")*100	OPTION:30,52	
+GEAR:Coin (Gold Piece)	QTY:roll("2d8")*10	OPTION:53,95	
+GEAR:Coin (Platinum Piece)	QTY:roll("1d4")*10	OPTION:96,100	
 	
 STARTPACK:Level 2 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Coin (Copper)	QTY:roll("1d10")*1000	OPTION:14,23	
-GEAR:Coin (Silver)	QTY:roll("2d10")*100	OPTION:24,43	
-GEAR:Coin (Gold)	QTY:roll("4d10")*10	OPTION:44,95	
-GEAR:Coin (Platinum)	QTY:roll("2d8")*10	OPTION:96,100	
+GEAR:Coin (Copper Piece)	QTY:roll("1d10")*1000	OPTION:14,23	
+GEAR:Coin (Silver Piece)	QTY:roll("2d10")*100	OPTION:24,43	
+GEAR:Coin (Gold Piece)	QTY:roll("4d10")*10	OPTION:44,95	
+GEAR:Coin (Platinum Piece)	QTY:roll("2d8")*10	OPTION:96,100	
 	
 STARTPACK:Level 3 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Coin (Copper)	QTY:roll("2d10")*1000	OPTION:12,21	
-GEAR:Coin (Silver)	QTY:roll("4d8")*100	OPTION:22,41	
-GEAR:Coin (Gold)	QTY:roll("1d4")*100	OPTION:42,95	
-GEAR:Coin (Platinum)	QTY:roll("1d10")*10	OPTION:96,100	
+GEAR:Coin (Copper Piece)	QTY:roll("2d10")*1000	OPTION:12,21	
+GEAR:Coin (Silver Piece)	QTY:roll("4d8")*100	OPTION:22,41	
+GEAR:Coin (Gold Piece)	QTY:roll("1d4")*100	OPTION:42,95	
+GEAR:Coin (Platinum Piece)	QTY:roll("1d10")*10	OPTION:96,100	
 	
 STARTPACK:Level 4 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Coin (Copper)	QTY:roll("3d10")*1000	OPTION:12,21	
-GEAR:Coin (Silver)	QTY:roll("4d12")*1000	OPTION:22,41	
-GEAR:Coin (Gold)	QTY:roll("1d6")*100	OPTION:42,95	
-GEAR:Coin (Platinum)	QTY:roll("1d8")*10	OPTION:96,100	
+GEAR:Coin (Copper Piece)	QTY:roll("3d10")*1000	OPTION:12,21	
+GEAR:Coin (Silver Piece)	QTY:roll("4d12")*1000	OPTION:22,41	
+GEAR:Coin (Gold Piece)	QTY:roll("1d6")*100	OPTION:42,95	
+GEAR:Coin (Platinum Piece)	QTY:roll("1d8")*10	OPTION:96,100	
 	
 STARTPACK:Level 5 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Coin (Copper)	QTY:roll("1d4")*10000	OPTION:11,19	
-GEAR:Coin (Silver)	QTY:roll("1d6")*1000	OPTION:20,38	
-GEAR:Coin (Gold)	QTY:roll("1d8")*100	OPTION:39,95	
-GEAR:Coin (Platinum)	QTY:roll("1d10")*10	OPTION:96,100	
+GEAR:Coin (Copper Piece)	QTY:roll("1d4")*10000	OPTION:11,19	
+GEAR:Coin (Silver Piece)	QTY:roll("1d6")*1000	OPTION:20,38	
+GEAR:Coin (Gold Piece)	QTY:roll("1d8")*100	OPTION:39,95	
+GEAR:Coin (Platinum Piece)	QTY:roll("1d10")*10	OPTION:96,100	
 	
 STARTPACK:Level 6 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Coin (Copper)	QTY:roll("1d6")*10000	OPTION:11,18	
-GEAR:Coin (Silver)	QTY:roll("1d8")*1000	OPTION:19,37	
-GEAR:Coin (Gold)	QTY:roll("1d10")*100	OPTION:38,95	
-GEAR:Coin (Platinum)	QTY:roll("1d12")*10	OPTION:96,100	
+GEAR:Coin (Copper Piece)	QTY:roll("1d6")*10000	OPTION:11,18	
+GEAR:Coin (Silver Piece)	QTY:roll("1d8")*1000	OPTION:19,37	
+GEAR:Coin (Gold Piece)	QTY:roll("1d10")*100	OPTION:38,95	
+GEAR:Coin (Platinum Piece)	QTY:roll("1d12")*10	OPTION:96,100	
 	
 STARTPACK:Level 7 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Coin (Copper)	QTY:roll("1d10")*10000	OPTION:12,18	
-GEAR:Coin (Silver)	QTY:roll("1d12")*1000	OPTION:19,35	
-GEAR:Coin (Gold)	QTY:roll("2d6")*100	OPTION:36,93	
-GEAR:Coin (Platinum)	QTY:roll("3d4")*10	OPTION:94,100	
+GEAR:Coin (Copper Piece)	QTY:roll("1d10")*10000	OPTION:12,18	
+GEAR:Coin (Silver Piece)	QTY:roll("1d12")*1000	OPTION:19,35	
+GEAR:Coin (Gold Piece)	QTY:roll("2d6")*100	OPTION:36,93	
+GEAR:Coin (Platinum Piece)	QTY:roll("3d4")*10	OPTION:94,100	
 	
 STARTPACK:Level 8 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Coin (Copper)	QTY:roll("1d12")*10000	OPTION:11,15	
-GEAR:Coin (Silver)	QTY:roll("2d6")*1000	OPTION:16,29	
-GEAR:Coin (Gold)	QTY:roll("2d8")*100	OPTION:30,87	
-GEAR:Coin (Platinum)	QTY:roll("3d6")*10	OPTION:88,100	
+GEAR:Coin (Copper Piece)	QTY:roll("1d12")*10000	OPTION:11,15	
+GEAR:Coin (Silver Piece)	QTY:roll("2d6")*1000	OPTION:16,29	
+GEAR:Coin (Gold Piece)	QTY:roll("2d8")*100	OPTION:30,87	
+GEAR:Coin (Platinum Piece)	QTY:roll("3d6")*10	OPTION:88,100	
 	
 STARTPACK:Level 9 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Coin (Copper)	QTY:roll("2d6")*10000	OPTION:11,15	
-GEAR:Coin (Silver)	QTY:roll("2d8")*1000	OPTION:16,29	
-GEAR:Coin (Gold)	QTY:roll("5d4")*100	OPTION:30,85	
-GEAR:Coin (Platinum)	QTY:roll("2d12")*10	OPTION:86,100	
+GEAR:Coin (Copper Piece)	QTY:roll("2d6")*10000	OPTION:11,15	
+GEAR:Coin (Silver Piece)	QTY:roll("2d8")*1000	OPTION:16,29	
+GEAR:Coin (Gold Piece)	QTY:roll("5d4")*100	OPTION:30,85	
+GEAR:Coin (Platinum Piece)	QTY:roll("2d12")*10	OPTION:86,100	
 	
 STARTPACK:Level 10 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Coin (Silver)	QTY:roll("2d10")*1000	OPTION:11,24	
-GEAR:Coin (Gold)	QTY:roll("6d4")*100	OPTION:25,79	
-GEAR:Coin (Platinum)	QTY:roll("5d6")*10	OPTION:80,100	
+GEAR:Coin (Silver Piece)	QTY:roll("2d10")*1000	OPTION:11,24	
+GEAR:Coin (Gold Piece)	QTY:roll("6d4")*100	OPTION:25,79	
+GEAR:Coin (Platinum Piece)	QTY:roll("5d6")*10	OPTION:80,100	
 	
 STARTPACK:Level 11 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Coin (Silver)	QTY:roll("3d10")*1000	OPTION:9,14	
-GEAR:Coin (Gold)	QTY:roll("4d8")*100	OPTION:15,75	
-GEAR:Coin (Platinum)	QTY:roll("4d10")*10	OPTION:76,100	
+GEAR:Coin (Silver Piece)	QTY:roll("3d10")*1000	OPTION:9,14	
+GEAR:Coin (Gold Piece)	QTY:roll("4d8")*100	OPTION:15,75	
+GEAR:Coin (Platinum Piece)	QTY:roll("4d10")*10	OPTION:76,100	
 	
 STARTPACK:Level 12 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Coin (Silver)	QTY:roll("3d12")*1000	OPTION:9,14	
-GEAR:Coin (Gold)	QTY:roll("1d4")*1000	OPTION:15,75	
-GEAR:Coin (Platinum)	QTY:roll("1d4")*100	OPTION:76,100	
+GEAR:Coin (Silver Piece)	QTY:roll("3d12")*1000	OPTION:9,14	
+GEAR:Coin (Gold Piece)	QTY:roll("1d4")*1000	OPTION:15,75	
+GEAR:Coin (Platinum Piece)	QTY:roll("1d4")*100	OPTION:76,100	
 	
 STARTPACK:Level 13 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Coin (Gold)	QTY:roll("1d4")*1000	OPTION:9,75	
-GEAR:Coin (Platinum)	QTY:roll("1d10")*100	OPTION:76,100	
+GEAR:Coin (Gold Piece)	QTY:roll("1d4")*1000	OPTION:9,75	
+GEAR:Coin (Platinum Piece)	QTY:roll("1d10")*100	OPTION:76,100	
 	
 STARTPACK:Level 14 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Coin (Gold)	QTY:roll("1d6")*1000	OPTION:9,75	
-GEAR:Coin (Platinum)	QTY:roll("1d12")*100	OPTION:76,100	
+GEAR:Coin (Gold Piece)	QTY:roll("1d6")*1000	OPTION:9,75	
+GEAR:Coin (Platinum Piece)	QTY:roll("1d12")*100	OPTION:76,100	
 	
 STARTPACK:Level 15 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Coin (Gold)	QTY:roll("1d8")*1000	OPTION:4,74	
-GEAR:Coin (Platinum)	QTY:roll("3d4")*100	OPTION:75,100	
+GEAR:Coin (Gold Piece)	QTY:roll("1d8")*1000	OPTION:4,74	
+GEAR:Coin (Platinum Piece)	QTY:roll("3d4")*100	OPTION:75,100	
 	
 STARTPACK:Level 16 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Coin (Gold)	QTY:roll("1d12")*1000	OPTION:9,75	
-GEAR:Coin (Platinum)	QTY:roll("3d4")*100	OPTION:76,100	
+GEAR:Coin (Gold Piece)	QTY:roll("1d12")*1000	OPTION:9,75	
+GEAR:Coin (Platinum Piece)	QTY:roll("3d4")*100	OPTION:76,100	
 	
 STARTPACK:Level 17 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Coin (Gold)	QTY:roll("3d4")*1000	OPTION:4,68	
-GEAR:Coin (Platinum)	QTY:roll("2d10")*100	OPTION:69,100	
+GEAR:Coin (Gold Piece)	QTY:roll("3d4")*1000	OPTION:4,68	
+GEAR:Coin (Platinum Piece)	QTY:roll("2d10")*100	OPTION:69,100	
 	
 STARTPACK:Level 18 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Coin (Gold)	QTY:roll("3d6")*1000	OPTION:3,65	
-GEAR:Coin (Platinum)	QTY:roll("5d4")*100	OPTION:66,100	
+GEAR:Coin (Gold Piece)	QTY:roll("3d6")*1000	OPTION:3,65	
+GEAR:Coin (Platinum Piece)	QTY:roll("5d4")*100	OPTION:66,100	
 	
 STARTPACK:Level 19 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Coin (Gold)	QTY:roll("3d8")*1000	OPTION:3,65	
-GEAR:Coin (Platinum)	QTY:roll("3d10")*100	OPTION:66,100	
+GEAR:Coin (Gold Piece)	QTY:roll("3d8")*1000	OPTION:3,65	
+GEAR:Coin (Platinum Piece)	QTY:roll("3d10")*100	OPTION:66,100	
 	
 STARTPACK:Level 20 ~ Coins	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
-GEAR:Coin (Gold)	QTY:roll("4d8")*1000	OPTION:3,65	
-GEAR:Coin (Platinum)	QTY:roll("4d10")*100	OPTION:66,100	
+GEAR:Coin (Gold Piece)	QTY:roll("4d8")*1000	OPTION:3,65	
+GEAR:Coin (Platinum Piece)	QTY:roll("4d10")*100	OPTION:66,100	
 	
 STARTPACK:Level 1 ~ Goods	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
@@ -1650,7 +1650,7 @@ GEAR:Arrow			QTY:50	EQMOD:MWORKW	OPTION:1,50
 GEAR:Bolt (Crossbow)	QTY:50	EQMOD:MWORKW	OPTION:51,80
 GEAR:Bullet (Sling)	QTY:50	EQMOD:MWORKW	OPTION:81,100
 
-STARTPACK:Table 5-1 Charachter Wealth by Level	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	PREMULT:2,[PREVARGTEQ:CR,2],[PREVARLTEQ:CR,20]	
+STARTPACK:Table 5-1 character Wealth by Level	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	PREMULT:2,[PREVARGTEQ:CR,2],[PREVARLTEQ:CR,20]	
 KIT:Starting Gold ~ CR02	PREVAREQ:CR,2	
 KIT:Starting Gold ~ CR03	PREVAREQ:CR,3	
 KIT:Starting Gold ~ CR04	PREVAREQ:CR,4	
@@ -1692,121 +1692,121 @@ KIT:Starting Gold ~ CR39	PREVAREQ:CR,39
 KIT:Starting Gold ~ CR40	PREVAREQ:CR,40	
 	
 STARTPACK:Starting Gold ~ CR02	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:2700	
+GEAR:Coin (Gold Piece)	QTY:2700	
 	
 STARTPACK:Starting Gold ~ CR03	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:2700	
+GEAR:Coin (Gold Piece)	QTY:2700	
 	
 STARTPACK:Starting Gold ~ CR04	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:5400	
+GEAR:Coin (Gold Piece)	QTY:5400	
 	
 STARTPACK:Starting Gold ~ CR05	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:9000	
+GEAR:Coin (Gold Piece)	QTY:9000	
 	
 STARTPACK:Starting Gold ~ CR06	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:13000	
+GEAR:Coin (Gold Piece)	QTY:13000	
 	
 STARTPACK:Starting Gold ~ CR07	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:19000	
+GEAR:Coin (Gold Piece)	QTY:19000	
 	
 STARTPACK:Starting Gold ~ CR08	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:27000	
+GEAR:Coin (Gold Piece)	QTY:27000	
 	
 STARTPACK:Starting Gold ~ CR09	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:36000	
+GEAR:Coin (Gold Piece)	QTY:36000	
 	
 STARTPACK:Starting Gold ~ CR10	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:49000	
+GEAR:Coin (Gold Piece)	QTY:49000	
 	
 STARTPACK:Starting Gold ~ CR11	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:66000	
+GEAR:Coin (Gold Piece)	QTY:66000	
 	
 STARTPACK:Starting Gold ~ CR12	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:88000	
+GEAR:Coin (Gold Piece)	QTY:88000	
 	
 STARTPACK:Starting Gold ~ CR13	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:110000	
+GEAR:Coin (Gold Piece)	QTY:110000	
 	
 STARTPACK:Starting Gold ~ CR14	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:150000	
+GEAR:Coin (Gold Piece)	QTY:150000	
 	
 STARTPACK:Starting Gold ~ CR15	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:200000	
+GEAR:Coin (Gold Piece)	QTY:200000	
 	
 STARTPACK:Starting Gold ~ CR16	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:260000	
+GEAR:Coin (Gold Piece)	QTY:260000	
 	
 STARTPACK:Starting Gold ~ CR17	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:340000	
+GEAR:Coin (Gold Piece)	QTY:340000	
 	
 STARTPACK:Starting Gold ~ CR18	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:440000	
+GEAR:Coin (Gold Piece)	QTY:440000	
 	
 STARTPACK:Starting Gold ~ CR19	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:580000	
+GEAR:Coin (Gold Piece)	QTY:580000	
 	
 STARTPACK:Starting Gold ~ CR20	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:760000	
+GEAR:Coin (Gold Piece)	QTY:760000	
 	
 STARTPACK:Starting Gold ~ CR21	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:975000	
+GEAR:Coin (Gold Piece)	QTY:975000	
 	
 STARTPACK:Starting Gold ~ CR22	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:1200000	
+GEAR:Coin (Gold Piece)	QTY:1200000	
 	
 STARTPACK:Starting Gold ~ CR23	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:1500000	
+GEAR:Coin (Gold Piece)	QTY:1500000	
 	
 STARTPACK:Starting Gold ~ CR24	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:1800000	
+GEAR:Coin (Gold Piece)	QTY:1800000	
 	
 STARTPACK:Starting Gold ~ CR25	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:2100000	
+GEAR:Coin (Gold Piece)	QTY:2100000	
 	
 STARTPACK:Starting Gold ~ CR26	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:2500000	
+GEAR:Coin (Gold Piece)	QTY:2500000	
 	
 STARTPACK:Starting Gold ~ CR27	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:2900000	
+GEAR:Coin (Gold Piece)	QTY:2900000	
 	
 STARTPACK:Starting Gold ~ CR28	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:3300000	
+GEAR:Coin (Gold Piece)	QTY:3300000	
 	
 STARTPACK:Starting Gold ~ CR29	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:3800000	
+GEAR:Coin (Gold Piece)	QTY:3800000	
 	
 STARTPACK:Starting Gold ~ CR30	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:4300000	
+GEAR:Coin (Gold Piece)	QTY:4300000	
 	
 STARTPACK:Starting Gold ~ CR31	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:4900000	
+GEAR:Coin (Gold Piece)	QTY:4900000	
 	
 STARTPACK:Starting Gold ~ CR32	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:5600000	
+GEAR:Coin (Gold Piece)	QTY:5600000	
 	
 STARTPACK:Starting Gold ~ CR33	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:6300000	
+GEAR:Coin (Gold Piece)	QTY:6300000	
 	
 STARTPACK:Starting Gold ~ CR34	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:7000000	
+GEAR:Coin (Gold Piece)	QTY:7000000	
 	
 STARTPACK:Starting Gold ~ CR35	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:7900000	
+GEAR:Coin (Gold Piece)	QTY:7900000	
 	
 STARTPACK:Starting Gold ~ CR36	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:8800000	
+GEAR:Coin (Gold Piece)	QTY:8800000	
 	
 STARTPACK:Starting Gold ~ CR37	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:9900000	
+GEAR:Coin (Gold Piece)	QTY:9900000	
 	
 STARTPACK:Starting Gold ~ CR38	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:11000000	
+GEAR:Coin (Gold Piece)	QTY:11000000	
 	
 STARTPACK:Starting Gold ~ CR39	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:12300000	
+GEAR:Coin (Gold Piece)	QTY:12300000	
 	
 STARTPACK:Starting Gold ~ CR40	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
-GEAR:Coin (Gold)	QTY:13600000	
+GEAR:Coin (Gold Piece)	QTY:13600000	
 	
 STARTPACK:1_item_minor	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
@@ -4178,17 +4178,17 @@ GEAR:Rod of Metamagic (Quicken/Greater)	OPTION:100
 STARTPACK:Treasure 7-20 Scrolls - minor	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
 KIT:Arcane Scroll - minor	OPTION:01,70	
-KIT:Divine Scroll - minor	OPTION:01,70	
+KIT:Divine Scroll - minor	OPTION:71,100	
 	
 STARTPACK:Treasure 7-20 Scrolls - medium	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
 KIT:Arcane Scroll - medium	OPTION:01,70	
-KIT:Divine Scroll - medium	OPTION:01,70	
+KIT:Divine Scroll - medium	OPTION:71,100	
 	
 STARTPACK:Treasure 7-20 Scrolls - major	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	
 KIT:Arcane Scroll - major	OPTION:01,70	
-KIT:Divine Scroll - major	OPTION:01,70	
+KIT:Divine Scroll - major	OPTION:71,100	
 	
 STARTPACK:Arcane Scroll - minor	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d3")	

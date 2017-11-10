@@ -24,16 +24,16 @@ STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
 
 ###Block: Starting Gold
 STARTPACK:Starting Gold ~ Psion	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Psion=1	PRELEVELMAX:1	EQUIPBUY:0
-GEAR:Coin (Gold)	QTY:roll("3d4")*10
+GEAR:Coin (Gold Piece)	QTY:roll("3d4")*10
 
 STARTPACK:Starting Gold ~ Psychic Warrior	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Psychic Warrior=1	PRELEVELMAX:1	EQUIPBUY:0
-GEAR:Coin (Gold)	QTY:roll("5d4")*10
+GEAR:Coin (Gold Piece)	QTY:roll("5d4")*10
 
 STARTPACK:Starting Gold ~ Soulknife	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Soulknife=1	PRELEVELMAX:1	EQUIPBUY:0
-GEAR:Coin (Gold)	QTY:roll("5d4")*10
+GEAR:Coin (Gold Piece)	QTY:roll("5d4")*10
 
 STARTPACK:Starting Gold ~ Wilder	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Wilder=1	PRELEVELMAX:1	EQUIPBUY:0
-GEAR:Coin (Gold)	QTY:roll("4d4")*10
+GEAR:Coin (Gold Piece)	QTY:roll("4d4")*10
 
 ###Block: Treasure tables
 # STARTPACK:EPH ~ Treasure 7-2 Random Psionic Item Generation - Minor	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	

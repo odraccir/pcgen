@@ -232,7 +232,7 @@ CLASS:Duelist	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Escape Artist|Jump|Listen|TYP
 #
 11	PREPCLEVEL:MIN=20
 
-CLASS:Dwarven Defender	HD:12	TYPE:Prestige	FACT:Abb|DDf	MAXLEVEL:NOLIMIT	SOURCEPAGE:DMG	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DwarvenDefenderLVL|0	BONUS:VAR|DwarvenDefenderLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Dwarven Defender	HD:12	TYPE:Prestige	FACT:Abb|DwD	MAXLEVEL:NOLIMIT	SOURCEPAGE:DMG	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DwarvenDefenderLVL|0	BONUS:VAR|DwarvenDefenderLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Dwarven Defender	PRERACE:1,Dwarf	PREALIGN:LG,LN,LE	PRETOTALAB:7	PREABILITY:3,CATEGORY=FEAT,Dodge,Endurance,Toughness									
 CLASS:Dwarven Defender	STARTSKILLPTS:2	CSKILL:TYPE.Craft|Listen|Sense Motive|Spot											
 1				ABILITY:Dwarven Defender Class Feature|AUTOMATIC|Dwarven Defender ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DwarvenDefenderProficiencies									
@@ -303,7 +303,7 @@ CLASS:Loremaster	STARTSKILLPTS:4	CSKILL:Appraise|Concentration|TYPE.Craft|Deciph
 #
 11	PREPCLEVEL:MIN=20
 
-CLASS:Mystic Theurge	HD:4	TYPE:Prestige	FACT:Abb|Myt	MAXLEVEL:NOLIMIT	SOURCEPAGE:DMG	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:MysticTheurgeLVL|0	BONUS:VAR|MysticTheurgeLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Mystic Theurge	HD:4	TYPE:Prestige	FACT:Abb|MyT	MAXLEVEL:NOLIMIT	SOURCEPAGE:DMG	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:MysticTheurgeLVL|0	BONUS:VAR|MysticTheurgeLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Mystic Theurge	PRESKILL:2,Knowledge (Arcana)=6,Knowledge (Religion)=6	PREMULT:2,[PRESPELLCAST:TYPE=Arcane],[PRESPELLCAST:TYPE=Divine]	PRETEXT:Ability to cast 2nd-level divine spells and 2nd-level arcane spells.										
 CLASS:Mystic Theurge	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Script|Jump|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Profession|Sense Motive|Spellcraft											
 1				ABILITY:Mystic Theurge Class Feature|AUTOMATIC|Mystic Theurge ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MysticTheurgeProficiencies									

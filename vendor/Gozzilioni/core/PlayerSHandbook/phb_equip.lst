@@ -1,10 +1,10 @@
 SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #									
 # PHB Name	OUTPUTNAME:	TYPE:	COST:	WT:	SOURCEPAGE:	Requires Modification?	Source Page	Special Property	
-Coin (Platinum)		TYPE:Coin	COST:10	WT:0.02	SOURCEPAGE:PHB				
-Coin (Gold)		TYPE:Coin	COST:1	WT:0.02	SOURCEPAGE:PHB				
-Coin (Silver)		TYPE:Coin	COST:0.1	WT:0.02	SOURCEPAGE:PHB				
-Coin (Copper)		TYPE:Coin	COST:0.01	WT:0.02	SOURCEPAGE:PHB				
+Coin (Platinum Piece)		TYPE:Coin	COST:10	WT:0.02	SOURCEPAGE:PHB				
+Coin (Gold Piece)		TYPE:Coin	COST:1	WT:0.02	SOURCEPAGE:PHB				
+Coin (Silver Piece)		TYPE:Coin	COST:0.1	WT:0.02	SOURCEPAGE:PHB				
+Coin (Copper Piece)		TYPE:Coin	COST:0.01	WT:0.02	SOURCEPAGE:PHB				
 									
 # Sorted by the "Magic Items on the Body" listing for now...									
 Headband		TYPE:Headgear	COST:0	WT:0	SOURCEPAGE:PHB	MODS:REQUIRED			

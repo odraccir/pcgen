@@ -46,8 +46,8 @@ PCC:old30/partial_manuals/ForgottenRealmsCampaingSetting/__forgottenrealmscampai
 
 PCC:houserules/_houserules.pcc
 
-PCC:web/DragonMagazine/_dragonmagazine082.pcc
-PCC:web/DragonMagazine/_dragonmagazine312.pcc
+PCC:web/DragonMagazine/dragon082/_dragonmagazine082.pcc
+PCC:web/DragonMagazine/dragon312/_dragonmagazine312.pcc
 PCC:web/RuleOfCoolForum/_ruleofcool.pcc
 
 PCC:ThirdParty/FantasyFlightGames/DarknessAndDread/_darknessanddread.pcc

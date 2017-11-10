@@ -2,7 +2,7 @@ SOURCELONG:Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.mongoosepublishing
 #
 ###Block: Starting Gold
 STARTPACK:Starting Gold ~ Sailor	TYPE:Starting Gold	VISIBLE:YES	APPLY:INSTANT	PRECLASS:1,Sailor=1	PRELEVELMAX:1	EQUIPBUY:0
-GEAR:Coin (Gold)	QTY:roll("2d4")*10
+GEAR:Coin (Gold Piece)	QTY:roll("2d4")*10
 
 ###Block: Race kits
 STARTPACK:Fideal Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Fideal

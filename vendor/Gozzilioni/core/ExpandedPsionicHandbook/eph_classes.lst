@@ -84,7 +84,7 @@ CLASS:Psychic Warrior	SPELLSTAT:WIS	FACT:SpellType|Psionic	MEMORIZE:NO		BONUS:CA
 19	KNOWN:0,3,3,3,3,3,4												
 20	KNOWN:0,3,3,3,3,3,5												
 
-CLASS:Soulknife	HD:10	TYPE:PC.Base	FACT:Abb|Slk	MAXLEVEL:NOLIMIT	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Combat	DEFINE:SoulknifeLVL|0	BONUS:VAR|SoulknifeLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Soulknife	HD:10	TYPE:PC.Base	FACT:Abb|SlK	MAXLEVEL:NOLIMIT	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Combat	DEFINE:SoulknifeLVL|0	BONUS:VAR|SoulknifeLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Soulknife	STARTSKILLPTS:4	CSKILL:Autohypnosis|Climb|Concentration|TYPE.Craft|Hide|Jump|Knowledge (Psionics)|Listen|Move Silently|TYPE.Profession|Spot|Tumble											
 1				ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulknifeProficiencies									
 1				TEMPLATE:Psionic									
@@ -135,7 +135,7 @@ CLASS:Hidden Talent	SPELLSTAT:CHA	FACT:SpellType|Psionic	MEMORIZE:NO		BONUS:CAST
 CLASS:Psicrystal	TYPE:Monster	MAXLEVEL:1	SOURCEPAGE:EPH										
 1	DONOTADD:HITDIE|SKILLPOINTS
 
-CLASS:Cerebremancer	HD:4	TYPE:PC.Prestige	FACT:Abb|Cer	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:CerebremancerLVL|0	BONUS:VAR|CerebremancerLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Cerebremancer	HD:4	TYPE:PC.Prestige	FACT:Abb|Crb		MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:CerebremancerLVL|0	BONUS:VAR|CerebremancerLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Cerebremancer	PRESKILL:2,Knowledge (Arcana)=6,Knowledge (Psionics)=6	PRESPELLCAST:TYPE=Arcane,TYPE=Psionic	PRETEXT:Able to cast 2nd-level arcane spells. Able to manifest 2nd-level powers.										
 CLASS:Cerebremancer	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Script|Knowledge (Arcana)|Knowledge (Psionics)|TYPE.Profession|Psicraft|Spellcraft											
 1				ABILITY:Cerebremancer Class Feature|AUTOMATIC|Cerebremancer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.CerebremancerProficiencies									
@@ -198,7 +198,7 @@ CLASS:Fist of Zuoken	SPELLSTAT:WIS	FACT:SpellType|Psionic	MEMORIZE:NO		BONUS:CAS
 9	KNOWN:0,2,2,2,2,1												
 10	KNOWN:0,2,2,2,2,2												
 
-CLASS:Illithid Slayer	HD:8	TYPE:PC.Prestige	FACT:Abb|IlS	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:IllithidSlayerLVL|0	BONUS:VAR|IllithidSlayerLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Illithid Slayer	HD:8	TYPE:PC.Prestige	FACT:Abb|ISl	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:IllithidSlayerLVL|0	BONUS:VAR|IllithidSlayerLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Illithid Slayer	PRETOTALAB:4	PRESKILL:1,Knowledge (Dungeoneering)=4	PREABILITY:2,CATEGORY=FEAT,Track	PREVARGTEQ:TotalPowerPoints,1	PRETEXT:Special: Must have killed an illithid, either individually or as part of a group composed of no more than six members.								
 CLASS:Illithid Slayer	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Knowledge (Dungeoneering)|Listen|Psicraft|Sense Motive|Spot|Survival											
 1				ABILITY:Illithid Slayer Class Feature|AUTOMATIC|Illithid Slayer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.IllithidSlayerProficiencies									
