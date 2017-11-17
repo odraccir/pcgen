@@ -18,6 +18,7 @@ PRECAMPAIGN:2,Core Ruleset,Player's Handbook
 #from the old SRD 3.0, cambi di nome, stranezze e riesumazioni
 # or something disappeared from 3.5 that are needed with some manuals of 3.0 updated
 SPELL:phb_spells.lst
+SPELL:phb_spells_specific.lst
 
 #ABILITY:my_abilities.lst
 #ABILITYCATEGORY:my_ability_categories.lst

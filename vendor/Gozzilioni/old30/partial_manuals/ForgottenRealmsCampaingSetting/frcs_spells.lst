@@ -39,6 +39,3 @@ Spiderform				TYPE:Spell	SCHOOL:Transmutation	SUBSCHOOL:Polymorph			COMPS:V, S, 
 Stone Spiders				TYPE:Spell	SCHOOL:Transmutation				COMPS:V, S, DF	CASTTIME:1 full round	RANGE:Close	TARGETAREA:1d3 pebbles or 1d3 vermin, no two of which can be more than 30-ft apart.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:You transform 1d3 pebbles into stone constructs that resemble monstrous spiders.	SOURCEPAGE:FRCS30											
 Thunderlance				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Force	CLASSES:Sorcerer=4|Wizard=4	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:0 ft.	TARGETAREA:A spearlike beam	DURATION:1 round/level	SAVEINFO:None	SPELLRES:Yes	DESC:A fainty, gray, shimmering force in the general shape of a staff or spear springs from your hand. Material Component: A small metal spear.	SOURCEPAGE:FRCS30											
 Waterspout				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation			COMPS:V, S, DF	CASTTIME:1 full round	RANGE:Long	TARGETAREA:A cylinder 10-ft wide and 80-ft tall	DURATION:1 round/level	SAVEINFO:Reflex negates	SPELLRES:No	DESC:Watersprout causes water to rises up into a whirling, cylindrical column.	SOURCEPAGE:FRCS30											
-#
-Mirror Image.COPY=Mirror Image	KEY:Mirror Image ~ Shade
-Mirror Image ~ Shade.MOD	OUTPUTNAME:Shadow Image	TYPE:SpellLike	SOURCEPAGE:FRCS30

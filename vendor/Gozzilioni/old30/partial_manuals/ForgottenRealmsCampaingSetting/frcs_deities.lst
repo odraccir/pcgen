@@ -27,7 +27,7 @@ Kossuth	ALIGN:TN	DEITYWEAP:Chain (Spiked)	DESC:Kossuth (M)	DOMAINS:Destruction,F
 Lathander	ALIGN:NG	DEITYWEAP:Mace (Light)|Mace (Heavy)	DESC:Lathander (M)	DOMAINS:Good,Nobility,Protection,Renewal,Strength,Sun|PREALIGN:LG,NG,TN,CG	TYPE:Greater	FACTSET:Pantheon|Faerun	SOURCEPAGE:FRCS30		
 Lliira	ALIGN:CG	DEITYWEAP:Shuriken	DESC:Lliira ()	DOMAINS:Chaos,Charm,Family,Good,Travel|PREALIGN:NG,CG,CN	TYPE:Lesser	FACTSET:Pantheon|Faerun	SOURCEPAGE:FRCS30		
 Loviatar	ALIGN:LE	DEITYWEAP:Scourge	DESC:Loviatar ()	DOMAINS:Evil,Law,Retribution,Strength,Suffering|PREALIGN:LN,LE,NE	TYPE:Lesser	FACTSET:Pantheon|Faerun	SOURCEPAGE:FRCS30		
-Lurue	ALIGN:CG	DEITYWEAP:Shortspear	DESC:Lurue ()	DOMAINS:Animal,Chaos,Good,Healing|PREALIG:NG,CG,CN	TYPE:Demigod	FACTSET:Pantheon|Faerun	SOURCEPAGE:FRCS30		
+Lurue	ALIGN:CG	DEITYWEAP:Shortspear	DESC:Lurue ()	DOMAINS:Animal,Chaos,Good,Healing|PREALIGN:NG,CG,CN	TYPE:Demigod	FACTSET:Pantheon|Faerun	SOURCEPAGE:FRCS30		
 Malar	ALIGN:CE	DEITYWEAP:Bracer (Claw)	DESC:Malar (M)	DOMAINS:Animal,Chaos,Evil,Moon,Strength|PREALIGN:NE,CN,CE	TYPE:Lesser	FACTSET:Pantheon|Faerun	SOURCEPAGE:FRCS30		
 Mask	ALIGN:NE	DEITYWEAP:Longsword	DESC:Mask (M)	DOMAINS:Darkness,Evil,Luck,Trickery|PREALIGN:LE,TN,NE,CE	TYPE:Lesser	FACTSET:Pantheon|Faerun	SOURCEPAGE:FRCS30		
 Mielikki	ALIGN:NG	DEITYWEAP:Scimitar	DESC:Mielikki (F)	DOMAINS:Animal,Good,Plant,Travel|PREALIGN:LG,NG,TN,CG	TYPE:Intermediate	FACTSET:Pantheon|Faerun	SOURCEPAGE:FRCS30		
@@ -65,7 +65,7 @@ Hator	ALIGN:NG	DEITYWEAP:Sword (Short)	DESC:Hator ()	DOMAINS:Family,Fate,Good,Mo
 Horus-Re	ALIGN:LG	DEITYWEAP:Khopesh	DESC:Horus-Re ()	DOMAINS:Good,Law,Nobility,Retribution,Sun|PREALIGN:LG,LN,CG	TYPE:Greater	FACTSET:Pantheon|Mulhorandi	SOURCEPAGE:FRCS30		
 Isis	ALIGN:NG	DEITYWEAP:Dagger (Punching)	DESC:Isis ()	DOMAINS:Family,Good,Magic,Storm,Water|PREALIGN:LG,NG,TN,CG	TYPE:Intermediate	FACTSET:Pantheon|Mulhorandi	SOURCEPAGE:FRCS30	KEY:Isis ~ FR	SERVESAS:DEITY|Isis
 Nephthys	ALIGN:CG	DEITYWEAP:Whip	DESC:Nephthys ()	DOMAINS:Chaos,Good,Protection,Trade|PREALIGN:NG,CG,CN	TYPE:Intermediate	FACTSET:Pantheon|Mulhorandi	SOURCEPAGE:FRCS30	KEY:Nephthys ~ FR	SERVESAS:DEITY|Nephthys
-Osiris	ALIGN:CG	DEITYWEAP:Flail (Heavy)|Flail (Light)	DESC:Osiris ()	DOMAINS:Death,Good,Law,Plant,Retribution|PREALIGN:LG,LN,NG	TYPE:Intermediate	FACTSET:Pantheon|Mulhorandi	SOURCEPAGE:FRCS30	KEY:Osiris ~ FR	SERVESAS:DEITY|Osiris
+Osiris	ALIGN:CG	DEITYWEAP:Flail (Heavy)|Flail	DESC:Osiris ()	DOMAINS:Death,Good,Law,Plant,Retribution|PREALIGN:LG,LN,NG	TYPE:Intermediate	FACTSET:Pantheon|Mulhorandi	SOURCEPAGE:FRCS30	KEY:Osiris ~ FR	SERVESAS:DEITY|Osiris
 Sebek	ALIGN:NE	DEITYWEAP:Longspear|Shortspear|Halfspear	DESC:Sebek ()	DOMAINS:Animal,Evil,Scalykind,Water|PREALIGN:LE,TN,NE,CE	TYPE:Demigod	FACTSET:Pantheon|Mulhorandi	SOURCEPAGE:FRCS30		
 Set	ALIGN:LE	DEITYWEAP:Longspear|Shortspear|Halfspear	DESC:Set ()	DOMAINS:Air,Darkness,Evil,Hatred,Law,Magic,Scalykind|PREALIGN:LN,LE,NE	TYPE:Intermediate	FACTSET:Pantheon|Mulhorandi	SOURCEPAGE:FRCS30	KEY:Set ~ FR	SERVESAS:DEITY|Set
 Thoth	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Thoth ()	DOMAINS:Craft,Knowledge,Magic,Rune,Spell|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	FACTSET:Pantheon|Mulhorandi	SOURCEPAGE:FRCS30	KEY:Thoth ~ FR	SERVESAS:DEITY|Thoth

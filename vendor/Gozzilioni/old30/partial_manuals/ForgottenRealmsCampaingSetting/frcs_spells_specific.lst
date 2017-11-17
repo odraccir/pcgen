@@ -1,0 +1,5 @@
+SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:06-2001
+#																												
+# Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus			
+Mirror Image.COPY=Mirror Image	KEY:Shadow Image ~ Shade
+Shadow Image ~ Shade.MOD	OUTPUTNAME:Shadow Image	TYPE:SpellLike	SOURCEPAGE:FRCS30

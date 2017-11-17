@@ -42,7 +42,8 @@ WEAPONPROF:mm1_profs_weapon.lst
 RACE:mm1_races.lst
 RACE:mm1_races_companion.lst
 SKILL:mm1_skills.lst
-SPELL:mm1_spells.lst
+# SPELL:mm1_spells.lst
+SPELL:mm1_spells_specific.lst
 TEMPLATE:mm1_templates.lst
 
 #

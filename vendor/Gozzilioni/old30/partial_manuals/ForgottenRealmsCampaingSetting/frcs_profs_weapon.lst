@@ -15,7 +15,7 @@ Saber	TYPE:Martial.Melee.Slashing.Piercing.MeleeSlashing.MeleePiercing.OneHanded
 Maul	TYPE:Martial.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Maul
 ###Exotic			
 Blade Boot	TYPE:Exotic.Melee.Piercing.MeleePiercing.Light.Dagger
-Claw (Bracer)	TYPE:Exotic.Melee.Piercing.MeleePiercing.Light.Claw
+Bracer (Claw)	TYPE:Exotic.Melee.Piercing.MeleePiercing.Light.Claw
 Khopesh	TYPE:Exotic.Melee.Slashing.MeleeSlashing.OneHanded.Sword
 Scourge	TYPE:Exotic.Melee.Slashing.MeleeSlashing.OneHanded.Reach.Whip.Finesseable
-Chakram	
+Chakram	TYPE:Exotic.Ranged.Slashing.RangedSlashing.Light
