@@ -113,7 +113,7 @@ Arvoreen	ALIGN:LG	DEITYWEAP:Sword (Short)	DESC:Arvoreen ()	DOMAINS:Good,Halfling
 Brandobaris	ALIGN:TN	DEITYWEAP:Dagger	DESC:Brandobaris ()	DOMAINS:Halfling,Luck,Travel,Trickery|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	FACTSET:Pantheon|Halfling	SOURCEPAGE:FRCS30		
 Cyrollalee	ALIGN:LG	DEITYWEAP:Club	DESC:Cyrollalee ()	DOMAINS:Family,good,Halfling,Law|PREALIGN:LG,LN,NG	TYPE:Intermediate	FACTSET:Pantheon|Halfling	SOURCEPAGE:FRCS30		
 Sheela Peryroyl	ALIGN:TN	DEITYWEAP:Sickle	DESC:Sheela Peryroyl ()	DOMAINS:Air,Charm,Halfling,Plant|PREALIGN:LN,NG,TN,NE,CN	TYPE:Intermediate	FACTSET:Pantheon|Halfling	SOURCEPAGE:FRCS30		
-Urogalan	ALIGN:LN	DEITYWEAP:TYPE.Flail	DESC:Urogalan ()	DOMAINS:Death,Earth,Halfling,Law,Protection|PREALIGN:LG,LN,LE,TN	TYPE:Demigod	FACTSET:Pantheon|Halfling	SOURCEPAGE:FRCS30		
+Urogalan	ALIGN:LN	DEITYWEAP:Flail (Heavy)|Flail	DESC:Urogalan ()	DOMAINS:Death,Earth,Halfling,Law,Protection|PREALIGN:LG,LN,LE,TN	TYPE:Demigod	FACTSET:Pantheon|Halfling	SOURCEPAGE:FRCS30		
 Yondalla	ALIGN:LG	DEITYWEAP:Sword (Short)	DESC:Yondalla (F)	DOMAINS:Family,Good,Halfling,Law,Protection|PREALIGN:LG,LN,NG	TYPE:Greater	FACTSET:Pantheon|Halfling	SOURCEPAGE:FRCS30	KEY:Yondalla ~ FR	SERVESAS:DEITY|Yondalla
 Bahgtru	ALIGN:CE	DEITYWEAP:Gauntlet (Spiked)	DESC:Bahgtru ()	DOMAINS:Chaos,Evil,Orc,Strength|PREALIGN:NE,CN,CE	TYPE:Lesser	FACTSET:Pantheon|Orc	SOURCEPAGE:FRCS30		
 Gruumsh	ALIGN:CE	DEITYWEAP:Longspear|Shortspear	DESC:Gruumsh ()	DOMAINS:Cavern,Chaos,Evil,Hatred,Orc,Strength,War|PREALIGN:NE,CN,CE	TYPE:Greater	FACTSET:Pantheon|Orc	SOURCEPAGE:FRCS30		

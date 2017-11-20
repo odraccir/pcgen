@@ -50,6 +50,9 @@ STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
 STARTPACK:Animal (Snake (Two-Headed Adder)) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Snake (Two-Headed Adder))
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10
 
+STARTPACK:Animal (Snake (Winged Viper)) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Snake (Winged Viper))
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
 STARTPACK:Animal (Tressym) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Tressym)
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=13
 
