@@ -1,17 +1,46 @@
-SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
-#																										
-CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Mount Traits|PREVARGTEQ:TrainingLevel,1	DEFINE:TrainingLEvel|0
+SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net																														
+																																
+# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Mount Traits|PREVARGTEQ:TrainingLevel,1	DEFINE:TrainingLEvel|0																														
 Mount Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility.SpecialQuality																														SOURCEPAGE:H
-CATEGORY=Special Ability|Mount Traits.MOD	DESC:Wild creature commonly found around the world.|PREABILITY:1,CATEGORY=Special Ability,Training ~ Wild
-CATEGORY=Special Ability|Mount Traits.MOD	DESC:The creature can sustain the presence of a rider, but it's cannot be reliable during a combat.|PREABILITY:1,CATEGORY=Special Ability,Training ~ Rideable
-CATEGORY=Special Ability|Mount Traits.MOD	DESC:The mount is trained to perform some simple tricks.|PREABILITY:1,CATEGORY=Special Ability,Training ~ Basic Training
-CATEGORY=Special Ability|Mount Traits.MOD	DESC:The mount can advance into mount classes.|PREABILITY:1,CATEGORY=Special Ability,Training ~ Advanced Workout
-
-# CATEGORY=Special Ability|Animal Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1
-# CATEGORY=Special Ability|Vermin Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1
-# CATEGORY=Special Ability|Magical Beast Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1
-
-# Training ability pool																																			
+CATEGORY=Special Ability|Mount Traits.MOD	DESC:Wild creature commonly found around the world.|PREABILITY:1,CATEGORY=Special Ability,Training ~ Wild																															
+CATEGORY=Special Ability|Mount Traits.MOD	DESC:The creature can sustain the presence of a rider, but it's cannot be reliable during a combat.|PREABILITY:1,CATEGORY=Special Ability,Training ~ Rideable																															
+CATEGORY=Special Ability|Mount Traits.MOD	DESC:The mount is trained to perform some simple tricks.|PREABILITY:1,CATEGORY=Special Ability,Training ~ Basic Training																															
+CATEGORY=Special Ability|Mount Traits.MOD	DESC:The mount can advance into mount classes.|PREABILITY:1,CATEGORY=Special Ability,Training ~ Advanced Workout																															
+																																
+# CATEGORY=Special Ability|Animal Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1																														
+# CATEGORY=Special Ability|Vermin Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1																														
+# CATEGORY=Special Ability|Magical Beast Traits.MOD	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1																														
+																																
+# Training ability pool																																
 Wild	CATEGORY:Internal	TYPE:TrainingLevel	VISIBLE:YES	DESC:Wild creature.	KEY:Training ~ Wild									BONUS:VAR|TrainingLevel|1																		SOURCEPAGE:H
 Rideable	CATEGORY:Internal	TYPE:TrainingLevel	VISIBLE:YES	DESC:Rideable creature	KEY:Training ~ Rideable	COST:0	PREABILITY:1,CATEGORY=Internal,Training ~ Wild							BONUS:VAR|TrainingLevel|1																		SOURCEPAGE:H
 Basic Training	CATEGORY:Internal	TYPE:TrainingLevel.SpecialQuality	VISIBLE:YES	DESC:%1 tricks|BasicTrainingNumber	KEY:Training ~ Basic Training	COST:0	PREABILITY:1,CATEGORY=Internal,Training ~ Rideable		DEFINE:BasicTrainingNumber|0					BONUS:VAR|TrainingLevel|1	BONUS:ABILITYPOOL|Animal Trick|BasicTrainingNumber																	SOURCEPAGE:H
+																																
++1 Bonus Feat	CATEGORY:Special Ability	TYPE:GM_Award.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 feat.										BONUS:ABILITYPOOL|FEAT|1					STACK:YES	MULT:YES	CHOOSE:NOCHOICE									COST:0	SORTKEY:Z_Award	SOURCEPAGE:H
++1 Skill Rank	CATEGORY:Special Ability	TYPE:GM_Award.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 skill rank (won't exceed max ranks).										BONUS:SKILLRANK|%LIST|1					STACK:YES	MULT:YES	CHOOSE:SKILL|TYPE=Skill									COST:0	SORTKEY:Z_Award	SOURCEPAGE:H
++1 Skill Bonus	CATEGORY:Special Ability	TYPE:GM_Award.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 skill bonus.										BONUS:SKILL|%LIST|1					STACK:YES	MULT:YES	CHOOSE:SKILL|TYPE=Skill									COST:0	SORTKEY:Z_Award	SOURCEPAGE:H
++1 Hit Point	CATEGORY:Special Ability	TYPE:GM_Award.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 hit point.										BONUS:HP|CURRENTMAX|1					STACK:YES	MULT:YES	CHOOSE:NOCHOICE									COST:0	SORTKEY:Z_Award	SOURCEPAGE:H
++1 Spell per Day	CATEGORY:Special Ability	TYPE:GM_Award.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 spell per day.										BONUS:ABILITYPOOL|GM Bonus Spell Cast|1					STACK:YES	MULT:YES	CHOOSE:NOCHOICE									COST:0	SORTKEY:Z_Award	SOURCEPAGE:H
++1 Spell Known	CATEGORY:Special Ability	TYPE:GM_Award.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 spell known										BONUS:ABILITYPOOL|GM Bonus Spell Known|1					STACK:YES	MULT:YES	CHOOSE:NOCHOICE									COST:0	SORTKEY:Z_Award	SOURCEPAGE:H
++1 Language	CATEGORY:Special Ability	TYPE:GM_Award.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with bonus Language.															STACK:YES	MULT:YES	CHOOSE:LANG|TYPE=Spoken		AUTO:LANG|%LIST							COST:0	SORTKEY:Z_Award	SOURCEPAGE:H
+
++1 level 1 spell known	CATEGORY:Special Ability	TYPE:GMBonusSpellKnown.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 1 spell known.										BONUS:SPELLKNOWN|CLASS=%LIST;LEVEL=1|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H
++1 level 2 spell known	CATEGORY:Special Ability	TYPE:GMBonusSpellKnown.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 2 spell known.										BONUS:SPELLKNOWN|CLASS=%LIST;LEVEL=2|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H
++1 level 3 spell known	CATEGORY:Special Ability	TYPE:GMBonusSpellKnown.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 3 spell known.										BONUS:SPELLKNOWN|CLASS=%LIST;LEVEL=3|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H
++1 level 4 spell known	CATEGORY:Special Ability	TYPE:GMBonusSpellKnown.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 4 spell known.										BONUS:SPELLKNOWN|CLASS=%LIST;LEVEL=4|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H
++1 level 5 spell known	CATEGORY:Special Ability	TYPE:GMBonusSpellKnown.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 5 spell known.										BONUS:SPELLKNOWN|CLASS=%LIST;LEVEL=5|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H
++1 level 6 spell known	CATEGORY:Special Ability	TYPE:GMBonusSpellKnown.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 6 spell known.										BONUS:SPELLKNOWN|CLASS=%LIST;LEVEL=6|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H
++1 level 7 spell known	CATEGORY:Special Ability	TYPE:GMBonusSpellKnown.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 7 spell known.										BONUS:SPELLKNOWN|CLASS=%LIST;LEVEL=7|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H
++1 level 8 spell known	CATEGORY:Special Ability	TYPE:GMBonusSpellKnown.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 8 spell known.									BONUS:SPELLKNOWN|CLASS=%LIST;LEVEL=8|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H
++1 level 9 spell known	CATEGORY:Special Ability	TYPE:GMBonusSpellKnown.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 9 spell known.										BONUS:SPELLKNOWN|CLASS=%LIST;LEVEL=9|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H
+
++1 level 1 spell cast	CATEGORY:Special Ability	TYPE:GMBonusSpellCast.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 1 spell per day.												BONUS:SPELLCAST|CLASS=%LIST;LEVEL=1|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H
++1 level 2 spell cast	CATEGORY:Special Ability	TYPE:GMBonusSpellCast.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 2 spell per day.												BONUS:SPELLCAST|CLASS=%LIST;LEVEL=2|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H
++1 level 3 spell cast	CATEGORY:Special Ability	TYPE:GMBonusSpellCast.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 3 spell per day.												BONUS:SPELLCAST|CLASS=%LIST;LEVEL=3|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H
++1 level 4 spell cast	CATEGORY:Special Ability	TYPE:GMBonusSpellCast.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 4 spell per day.												BONUS:SPELLCAST|CLASS=%LIST;LEVEL=4|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H
++1 level 5 spell cast	CATEGORY:Special Ability	TYPE:GMBonusSpellCast.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 5 spell per day.												BONUS:SPELLCAST|CLASS=%LIST;LEVEL=5|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H
++1 level 6 spell cast	CATEGORY:Special Ability	TYPE:GMBonusSpellCast.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 6 spell per day.												BONUS:SPELLCAST|CLASS=%LIST;LEVEL=6|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H
++1 level 7 spell cast	CATEGORY:Special Ability	TYPE:GMBonusSpellCast.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 7 spell per day.												BONUS:SPELLCAST|CLASS=%LIST;LEVEL=7|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H
++1 level 8 spell cast	CATEGORY:Special Ability	TYPE:GMBonusSpellCast.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 8 spell per day.												BONUS:SPELLCAST|CLASS=%LIST;LEVEL=8|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H
++1 level 9 spell cast	CATEGORY:Special Ability	TYPE:GMBonusSpellCast.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 9 spell per day.												BONUS:SPELLCAST|CLASS=%LIST;LEVEL=9|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H

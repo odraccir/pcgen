@@ -69,6 +69,9 @@ Ethereal Jaunt ~ Self only.MOD	OUTPUTNAME:Ethereal Jaunt	TYPE:SpellLike	TARGETAR
 Eyebite.COPY=Eyebite	KEY:Eyebite ~ Sicken only
 Eyebite ~ Sicken only.MOD	OUTPUTNAME:Eyebite	TYPE:SpellLike	DESC:Sicken effect only.
 
+Feather Fall.COPY=Invisibility	KEY:Feather Fall ~ Self only
+Feather Fall ~ Self only.MOD	OUTPUTNAME:Feather Fall	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	
+
 Invisibility.COPY=Invisibility	KEY:Invisibility ~ Self only
 Invisibility ~ Self only.MOD	OUTPUTNAME:Invisibility	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	
 

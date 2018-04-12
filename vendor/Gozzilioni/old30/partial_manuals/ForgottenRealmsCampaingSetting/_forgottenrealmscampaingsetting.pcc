@@ -59,6 +59,8 @@ TEMPLATE:frcs_templates_regions.lst
 
 HIDETYPE:FEAT|ArcaneDevotee|GuildThief
 
+FORWARDREF:RACE|Bat (Deep/Night Hunter),Beholderkin (Eyeball)
+
 # ENTRY DATE: 2016-07 
 # LST MONKEY: Riccardo
 # RELEASE REVIEW #

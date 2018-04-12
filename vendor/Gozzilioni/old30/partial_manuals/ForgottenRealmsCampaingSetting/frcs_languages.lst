@@ -13,7 +13,6 @@ SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:ht
 
 #	racial languages (base races)
 
-# Languages
 Aglarondan	TYPE:Spoken.Written.Espruar
 Alzhedo	TYPE:Spoken.Written.Thorass
 Chessentan	TYPE:Spoken.Written.Thorass

@@ -1,0 +1,12 @@
+SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:02-2001
+#																																																		
+# Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:																																													
+																																																		
+###Block: Situation Skills for output only																																																		
+# Skill Name																																																		
+Disable Device.MOD	SITUATION:Disabling outdoor traps																																																	
+Search.MOD	SITUATION:Locating outdoor traps																																																	
+																																																		
+																																																		
+# Note: Not using SkillUse as these are NOT ConditionalSkills, but rather proper Skills.																																																		
+# Skill Name				Unique Key						Key Stat	Untrained?		Classes	Type			Visible		Multiple Requirements																												Source Page			Situational Skill

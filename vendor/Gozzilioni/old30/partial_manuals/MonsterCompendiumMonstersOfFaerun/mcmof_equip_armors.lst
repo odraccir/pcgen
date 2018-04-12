@@ -1,0 +1,9 @@
+SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:02-2001																																																														
+#																		
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	SOURCEPAGE:	BONUS:COMBAT|AC|x|TYPE=Armor	MAXDEX:	ACCHECK:	SPELLFAILURE:	EQMOD:						
+Silverweave Armor			PROFICIENCY:ARMOR|Silverweave Armor	TYPE:Armor.Light.Suit.Nonmetal	COST:25	WT:20	SOURCEPAGE:McMof30	BONUS:COMBAT|AC|3|TYPE=Armor	MAXDEX:5	ACCHECK:-1	SPELLFAILURE:15	EQMOD:CORAL	
+Pearl Armor			PROFICIENCY:ARMOR|Pearl Armor	TYPE:Armor.Medium.Suit.Nonmetal	COST:150	WT:40	SOURCEPAGE:McMof30	BONUS:COMBAT|AC|5|TYPE=Armor	MAXDEX:2	ACCHECK:-5	SPELLFAILURE:30	EQMOD:CORAL	BONUS:MOVEADD|TYPE.SWIM|-10					
+																		
+#Shield																		
+																		
+#Barding																		

@@ -18,6 +18,7 @@ PRECAMPAIGN:1,Core Ruleset
 
 ABILITY:mm1_abilities.lst
 # ABILITY:phb_abilities_classes.lst
+ABILITY:mm1_abilities_racetraits.lst
 ABILITY:mm1_abilities_races.lst
 ABILITY:mm1_abilities_templates.lst
 ABILITY:mm1_subraces.lst

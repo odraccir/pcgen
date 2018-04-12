@@ -1,0 +1,24 @@
+###Block: New Racial Trait Blocks																														
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+																														
+# Subrace Support																														
+																														
+#Abilitygroup:Class Ability categories																														
+ABILITYCATEGORY:Beholder Mage Class Feature	CATEGORY:Special Ability	TYPE:BeholderMageClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Beholder Mage Class Features			DISPLAYLOCATION:Class Features								
+																														
+#Other Abilitygroups																														
+ABILITYCATEGORY:Tiefling Demonic Ability	CATEGORY:Special Ability	TYPE:TieflingDemonicAbility	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Tiefling Demonic Abilities			DISPLAYLOCATION:Race Traits								
+ABILITYCATEGORY:Sharn Spellcasting Level	CATEGORY:Special Ability	TYPE:SharnSpellcastingLevel	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Sharn Spellcasting Levels			DISPLAYLOCATION:Race Traits								
+ABILITYCATEGORY:Ghost Special Quality	CATEGORY:Internal	TYPE:GhostNumberSpecialQuality	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Ghost Special Qualities			DISPLAYLOCATION:Race Features								
+ABILITYCATEGORY:Lich Special Quality	CATEGORY:Internal	TYPE:LichNumberSpecialQuality	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Lich Special Qualities			DISPLAYLOCATION:Race Features
+ABILITYCATEGORY:Lich Quality	CATEGORY:Internal	TYPE:LichSpecialQuality	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Lich Qualities			DISPLAYLOCATION:Race Features
+
+#Feats Ability pools																														
+																														
+#Companion Support																														
+																														
+#other																														
+																														
+#																														
+# End																														
+#																														

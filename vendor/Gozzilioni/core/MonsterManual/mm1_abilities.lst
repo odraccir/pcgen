@@ -33,6 +33,7 @@ Druid Class	CATEGORY:Internal	TYPE:CastingClassSupport
 Sorcerer Class	CATEGORY:Internal	TYPE:CastingClassSupport																															
 Sorcerer/Cleric Class	CATEGORY:Internal	TYPE:CastingClassSupport																															
 Wizard Class	CATEGORY:Internal	TYPE:CastingClassSupport																															
+
 																																	
 ###Block: Monster Domain																																	
 Air Domain	CATEGORY:Internal	TYPE:MonsterDomainGranter	PREVARGTEQ:AirDomainAllowed,1	ABILITY:Internal|AUTOMATIC|Cleric Domain ~ Air|PREABILITY:1,CATEGORY=Internal,Cleric Class	ABILITY:Internal|AUTOMATIC|Sorcerer Domain ~ Air|PREABILITY:1,CATEGORY=Internal,Sorcerer Class	ABILITY:Internal|AUTOMATIC|Sorcerer/Cleric Domain ~ Air|PREABILITY:1,CATEGORY=Internal,Sorcerer/Cleric Class																											

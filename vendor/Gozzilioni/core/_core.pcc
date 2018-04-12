@@ -13,9 +13,13 @@ PUBNAMELONG:Gozzilioni
 PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
+RACE:*/_universal/races.lst
+
 ALIGNMENT:g__align.lst
 SAVE:g__saves.lst
 STAT:g__stats.lst
+#EXTRAFILE:g__sizeAdjustment.lst
+
 
 DATACONTROL:g__datacontrol.lst
 

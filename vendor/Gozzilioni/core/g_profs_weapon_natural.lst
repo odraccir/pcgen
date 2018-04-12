@@ -44,10 +44,12 @@ Head Spike	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
 Hoof	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Horn	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
 Icicle	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
+Leg	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Leg Rake	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing
 Kick	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Nettle	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Pincer	TYPE:Weapon.Natural.Finesseable.Melee.Slashing.Bludgeoning.MeleeBludgeoning.MeleeSlashing
+Pseudopod	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Pseudopod Slam	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning
 Rake	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing
 Ram	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.MeleeBludgeoning

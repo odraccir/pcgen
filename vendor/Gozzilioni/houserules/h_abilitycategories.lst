@@ -1,0 +1,18 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+
+# Subrace Support
+
+#Abilitygroup:Class Ability categories																						
+
+#Other Abilitygroups
+ABILITYCATEGORY:GM Bonus Spell Known	CATEGORY:Special Ability	TYPE:GM Bonus Spell Known	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO												PLURAL:GM Bonus Spell Known			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:GM Bonus Spell Cast	CATEGORY:Special Ability	TYPE:GM Bonus Spell Cast	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO												PLURAL:GM Bonus Spell Cast			DISPLAYLOCATION:Misc
+
+#Feats Ability pools
+
+#Companion Support
+
+#
+# End
+#
