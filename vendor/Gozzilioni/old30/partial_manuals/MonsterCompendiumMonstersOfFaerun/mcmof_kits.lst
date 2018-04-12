@@ -318,7 +318,7 @@ STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
 STARTPACK:Stinger Standard Equip	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Stinger
 GEAR:Chain (Spiked)
 
-STARTPACK:Tall Mouhter Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Tall Mouther
+STARTPACK:Tall Mouther Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Tall Mouther
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=11
 
 STARTPACK:Tomb Tapper Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Tomb Tapper
