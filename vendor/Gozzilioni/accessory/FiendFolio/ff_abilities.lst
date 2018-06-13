@@ -1,6 +1,7 @@
-SOURCELONG:Fiend Folio	SOURCESHORT:FF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-04																													
-																																
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+SOURCELONG:Fiend Folio	SOURCESHORT:FF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-04
+
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+# Ability Name
 CATEGORY=Internal|Standard Selection ~ Summon Monster II.MOD	COMPANIONLIST:Summon Monster II|Kaorti,Nerra (Varoot)																															
 CATEGORY=Internal|Standard Selection ~ Summon Monster III.MOD	COMPANIONLIST:Summon Monster III|Bacchae																															
 CATEGORY=Internal|Standard Selection ~ Summon Monster IV.MOD	COMPANIONLIST:Summon Monster IV|Aoa (Droplet),Demon (Skulvyn),Devil (Bloodbag Imp),Devil (Euphoric Imp),Devil (Filth Imp),Nerra (Kalareem),Yugoloth (Skeroloth)																															

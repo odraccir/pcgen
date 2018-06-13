@@ -1,0 +1,4 @@
+SOURCELONG:Magic of Faerun 3.0 Errata	SOURCESHORT:MoF30e	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2006-03
+																																	
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
+CATEGORY=FEAT|Spell Thematics.MOD	DESC:.CLEAR	DESC:Choose a theme for your spellcasting. You cast spells designated as central to your theme at +1 caster level. Add +5 to the DC of any Spellcraft check made to identify any spell you cast, whether or not it is designated as a thematic spell.	SOURCEPAGE:MoF30e

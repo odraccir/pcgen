@@ -1,10 +1,10 @@
 SOURCELONG:Arms and Equipment Guide 3.0	SOURCESHORT:AaEG30	SOURCEWEB:http://www.gozzilioni.net
 																																
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 ###Block: Race Subtype Traits																																
 CATEGORY=Internal|Monk Weapon Proficiencies.MOD	AUTO:WEAPONPROF|Sword (Butterfly)|Sai|Claw (Tiger)|Tonfa|Staff (three-section)																															
 																																
-# Ability Name	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:
+###Block:Abilities	Category of Ability	Type	visible	Special ABility			Restricted Ability	Define			BONUS				STACK	MULT	CHOOSE	SELECT														SOURCEPAGE:
 Aberration Trainer	CATEGORY:Special Ability	TYPE:TrainerAbilities	VISIBLE:YES																													SOURCEPAGE:AaEG30
 Construct Trainer	CATEGORY:Special Ability	TYPE:TrainerAbilities	VISIBLE:YES																													SOURCEPAGE:AaEG30
 Dragon Trainer	CATEGORY:Special Ability	TYPE:TrainerAbilities	VISIBLE:YES																													SOURCEPAGE:AaEG30

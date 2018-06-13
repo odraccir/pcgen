@@ -1,0 +1,207 @@
+SOURCELONG:Magic of Faerun 3.0	SOURCESHORT:MoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:02-2001																				
+																							
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE											
+# Class Name req	Requirements	FINE																					
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS											
+# Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	SPELLLIST	spell level increases (BONUS:CASTERLEVEL)							#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)
+CLASS:Gnome Artificer	HD:6	TYPE:PC.Prestige	FACT:Abb|Gar	MAXLEVEL:10	SOURCEPAGE:MoF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:GnomeArtificerLVL|0	BONUS:VAR|GnomeArtificerLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1								
+CLASS:Gnome Artificer	PREMULT:1,[PRERACE:1,Gnome],[PREMULT:2,[PRERACE:1,Human],[PREREGION:Lanthan]]	PRESKILL:1,Craft (Alchemy)=3	PRESKILL:1,Craft (Armorsmithing)=8,Craft (Blacksmithing)=8,Craft (Gemcutting)=8,Craft (Locksmithing)=8,Craft (Metalworking)=8,Craft (Trapmaking)=8,Craft (Weaponmaking)=8	PRESKILL:3,Craft (Armorsmithing)=4,Craft (Blacksmithing)=4,Craft (Gemcutting)=4,Craft (Locksmithing)=4,Craft (Metalworking)=4,Craft (Trapmaking)=4,Craft (Weaponmaking)=4	PRESKILL:1,Disable Device=2	PRESKILL:2,Knowledge (Architecture)=4,Knowledge (Engineering)=4	PRESKILL:1,Profession (Apothecary)=3,Profession (Engineer)=3,Profession (Siege Engineer)=3	PREABILITY:1,CATEGORY=FEAT,Lightning Reflexes	PREABILITY:1,CATEGORY=FEAT,Skill Focus (Craft (Armorsmithing)),Skill Focus (Craft (Blacksmithing)),Skill Focus (Craft (Gemcutting)),Skill Focus (Craft (Locksmithing)),Skill Focus (Craft (Metalworking)),Skill Focus (Craft (Trapmaking)),Skill Focus (Craft (Weaponsmithing))	PRESPELLTYPE:1,Arcane=1	PRETEXT:Able to cast 1st-level arcane spells of the Illusion school.												
+CLASS:Gnome Artificer	STARTSKILLPTS:4	CSKILL:Craft (Alchemy)|Appraise|Concentration|TYPE.Craft|Disable Device|Knowledge (Architecture and Engineering)|Listen|TYPE.Profession|Search|Use Rope																					
+CLASS:Gnome Artificer	SPELLSTAT:INT	FACT:SpellType|Mundane	SPELLBOOK:YES	KNOWNSPELLS:LEVEL=0																			
+1				ABILITY:Gnome Artificer Class Feature|AUTOMATIC|Gnome Artificer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.GnomeArtificerProficiencies																			
+#																							
+1				ABILITY:Gnome Artificer Class Feature|AUTOMATIC|Gnome Artificer ~ Artificer Item|!PREABILITY:1,CATEGORY=ACF,TYPE.GnomeArtificerArtificerItem																			
+1				ABILITY:Gnome Artificer Class Feature|AUTOMATIC|Gnome Artificer ~ Artificer Device Power|!PREABILITY:1,CATEGORY=ACF,TYPE.GnomeArtificerArtificerDevicePower																			
+2				ABILITY:Gnome Artificer Class Feature|AUTOMATIC|Gnome Artificer ~ Bonus Item|!PREABILITY:1,CATEGORY=ACF,TYPE.GnomeArtificerBonusItem																			
+3				ABILITY:Gnome Artificer Class Feature|AUTOMATIC|Gnome Artificer ~ Skill Focus|!PREABILITY:1,CATEGORY=ACF,TYPE.GnomeArtificerSkillFocus																			
+5				ABILITY:Gnome Artificer Class Feature|AUTOMATIC|Gnome Artificer ~ Salvage|!PREABILITY:1,CATEGORY=ACF,TYPE.GnomeArtificerSalvage																			
+7				ABILITY:Gnome Artificer Class Feature|AUTOMATIC|Gnome Artificer ~ Prototype|!PREABILITY:1,CATEGORY=ACF,TYPE.GnomeArtificerPrototype																			
+9				ABILITY:Gnome Artificer Class Feature|AUTOMATIC|Gnome Artificer ~ Shadow Effect|!PREABILITY:1,CATEGORY=ACF,TYPE.GnomeArtificerShadowEffect																			
+																							
+CLASS:Guild Wizard of Waterdeep	HD:4	TYPE:PC.Prestige	FACT:Abb|GuW	MAXLEVEL:10	SOURCEPAGE:MoF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:GuildWizardOfWaterdeepLVL|0	BONUS:VAR|GuildWizardOfWaterdeepLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1								
+CLASS:Guild Wizard of Waterdeep	PREALIGN:LG,LN,NG,TN,CG,CN	PRESKILL:1,Craft (Alchemy)=4	PRESKILL:2,Knowledge (Arcana)=8,Spellcraft=8	PREABILITY:1,CATEGORY=FEAT,Scribe Scroll	PREABILITY:1,CATEGORY=FEAT,TYPE=Metamagic	PREMULT:1,[PREABILITY:1,CATEGORY=FEAT,Spell Penetration],[PREABILITY:1,CATEGORY=FEAT,Spell Focus]	PRESPELLCAST:TYPE=Arcane	PRETEXT:Ability to cast 3rd-level arcane spells. Special: Prospective members must pay an initiation fee of 1,000 gp.															
+CLASS:Guild Wizard of Waterdeep	STARTSKILLPTS:4	CSKILL:Craft (Alchemy)|Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Spellcraft																					
+1				ABILITY:Guild Wizard of Waterdeep Class Feature|AUTOMATIC|Guild Wizard of Waterdeep ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.GuildWizardOfWaterdeepProficiencies																			
+1				ABILITY:Guild Wizard of Waterdeep Class Feature|AUTOMATIC|Guild Wizard of Waterdeep ~ Spells per Day																			
+#																							
+1				ABILITY:Guild Wizard of Waterdeep Class Feature|AUTOMATIC|Guild Wizard of Waterdeep ~ Membership|!PREABILITY:1,CATEGORY=ACF,TYPE.GuildwizardOfWaterdeepMembership																			
+1				ABILITY:Guild Wizard of Waterdeep Class Feature|AUTOMATIC|Guild Wizard of Waterdeep ~ Improved Spell Acquisition|!PREABILITY:1,CATEGORY=ACF,TYPE.GuildwizardOfWaterdeepImprovedSpellAcquisition																			
+2				ABILITY:Guild Wizard of Waterdeep Class Feature|AUTOMATIC|Guild Wizard of Waterdeep ~ Spellpool|!PREABILITY:1,CATEGORY=ACF,TYPE.GuildwizardOfWaterdeepImprovedSpellpool																			
+3				ABILITY:Guild Wizard of Waterdeep Class Feature|AUTOMATIC|Guild Wizard of Waterdeep ~ Bonus Item Creation Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.GuildwizardOfWaterdeepBonusItemCreationFeat																			
+4				ABILITY:Guild Wizard of Waterdeep Class Feature|AUTOMATIC|Guild Wizard of Waterdeep ~ Bonus Language|!PREABILITY:1,CATEGORY=ACF,TYPE.GuildwizardOfWaterdeepBonusLanguage																			
+5				ABILITY:Guild Wizard of Waterdeep Class Feature|AUTOMATIC|Guild Wizard of Waterdeep ~ Improved Counterspell Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.GuildwizardOfWaterdeepImprovedCounterspellFeat																			
+7				ABILITY:Guild Wizard of Waterdeep Class Feature|AUTOMATIC|Guild Wizard of Waterdeep ~ Focused Dispel|!PREABILITY:1,CATEGORY=ACF,TYPE.GuildwizardOfWaterdeepImprovedCounterspellFeat																			
+9				ABILITY:Guild Wizard of Waterdeep Class Feature|AUTOMATIC|Guild Wizard of Waterdeep ~ Break Enhancement Spell|!PREABILITY:1,CATEGORY=ACF,TYPE.GuildwizardOfWaterdeepBreakEnhancementSpell																			
+#																							
+1	ADD:SPELLCASTER|ANY																						
+2	ADD:SPELLCASTER|ANY																						
+3	ADD:SPELLCASTER|ANY																						
+4	ADD:SPELLCASTER|ANY																						
+5	ADD:SPELLCASTER|ANY																						
+6	ADD:SPELLCASTER|ANY																						
+7	ADD:SPELLCASTER|ANY																						
+8	ADD:SPELLCASTER|ANY																						
+9	ADD:SPELLCASTER|ANY																						
+10	ADD:SPELLCASTER|ANY																						
+																							
+CLASS:Harper Mage	HD:4	TYPE:PC.Prestige	FACT:Abb|Hrm	MAXLEVEL:5	SOURCEPAGE:MoF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:HarperMageLVL|0	BONUS:VAR|HarperMageLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1								
+CLASS:Harper Mage	PREALIGN:LG,LN,NG,TN,CG,CN	PRESKILL:1,Concentration=4	PRESKILL:2,Knowledge (Arcana)=8,Spellcraft=8	PRESKILL:2,TYPE.Knowledge=4	PRESKILL:1,Sense Motive=2	PREABILITY:3,CATEGORY=FEAT,Alertness,Education,Extend Spell	PRESPELLCAST:TYPE=Arcane	PRETEXT:Ability to cast 3rd-level arcane spells. Special: Sponsorship by a member of the Harpers, approval of the High Harpers.															
+CLASS:Harper Mage	STARTSKILLPTS:4	CSKILL:Craft (Alchemy)|Bluff|Concentration|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Gather Information|Heal|Hide|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Ride|Sense Motive|Speak Language|Spellcraft|Spot																					
+1				ABILITY:Harper Mage Class Feature|AUTOMATIC|Harper Mage ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperMageProficiencies																			
+1				ABILITY:Harper Mage Class Feature|AUTOMATIC|Harper Mage ~ Spells per Day																			
+#																							
+1				ABILITY:Harper Mage Class Feature|AUTOMATIC|Harper Mage ~ Harper Knowledge|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperMageHarperKnowledge																			
+1				ABILITY:Harper Mage Class Feature|AUTOMATIC|Harper Mage ~ Oghma's Insight|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperMageOghmaSInside																			
+2				ABILITY:Harper Mage Class Feature|AUTOMATIC|Harper Mage ~ Arcane Theory|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperMageArcaneTheory																			
+3				ABILITY:Harper Mage Class Feature|AUTOMATIC|Harper Mage ~ Extend Spell|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperMageExtendSpell																			
+4				ABILITY:Harper Mage Class Feature|AUTOMATIC|Harper Mage ~ Eschew Materials|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperMageEschewMaterials																			
+5				ABILITY:Harper Mage Class Feature|AUTOMATIC|Harper Mage ~ Mystra's Grace|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperMageMystraSGrace																			
+#																							
+1	ADD:SPELLCASTER|Arcane																						
+2	ADD:SPELLCASTER|Arcane																						
+3	ADD:SPELLCASTER|Arcane																						
+4	ADD:SPELLCASTER|Arcane																						
+5	ADD:SPELLCASTER|Arcane																						
+																							
+CLASS:Harper Priest	HD:8	TYPE:PC.Prestige	FACT:Abb|Hpr	MAXLEVEL:5	SOURCEPAGE:MoF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:HarperPriestLVL|0	BONUS:VAR|HarperPriestLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1								
+CLASS:Harper Priest	PREALIGN:LG,LN,NG,TN,CG,CN	PRESKILL:2,Diplomacy=4,Knowledge (Arcana)=4	PRESKILL:2,Knowledge (Religion)=8,Spellcraft=8	PREABILITY:2,CATEGORY=FEAT,Alertness,Iron Will	PRESPELLCAST:TYPE=Divine	PRETEXT:Able to cast 3rd-level divine spells. Special: Sponsorship by a member of the Harpers, approval of the High Harpers. Also, the character's patron deity must be nonevil and not one devoted to wanton destruction.																	
+CLASS:Harper Priest	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|TYPE.Knowledge|Listen|TYPE.Perform|TYPE.Profession|Sense Motive|Spellcraft|Spot|Swim|Survival																					
+1				ABILITY:Harper Priest Class Feature|AUTOMATIC|Harper Priest ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperPriestProficiencies																			
+1				ABILITY:Harper Priest Class Feature|AUTOMATIC|Harper Priest ~ Spells per Day																			
+#																							
+1				ABILITY:Harper Priest Class Feature|AUTOMATIC|Harper Priest ~ Harper Knowledge|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperPriestHarperKnowledge																			
+1				ABILITY:Harper Priest Class Feature|AUTOMATIC|Harper Priest ~ Blessing|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperPriestBlessing																			
+#																							
+1	ADD:SPELLCASTER|Divine																						
+2	ADD:SPELLCASTER|Divine																						
+3	ADD:SPELLCASTER|Divine																						
+4	ADD:SPELLCASTER|Divine																						
+5	ADD:SPELLCASTER|Divine																						
+																							
+# CLASS:Incantatrix	HD:4	TYPE:PC.Prestige	FACT:Abb|Inc	MAXLEVEL:10	SOURCEPAGE:MoF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:IncantatrixLVL|0	BONUS:VAR|IncantatrixLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1								
+# CLASS:Incantatrix	PRESKILL:2,Concentration=4,Spellcraft=4	PRESKILL:2,Knowledge (Arcana)=8,Knowledge (The Planes)=8	PREABILITY:1,CATEGORY=FEAT,Iron Will	PREABILITY:1,CATEGORY=FEAT,TYPE=Metamagic	PRETEXT:Able to cast 3rd-level arcane spells.																		
+# CLASS:Incantatrix	STARTSKILLPTS:2	CSKILL:Craft (Alchemy)|Concentration|TYPE.Craft|Heal|Intimidate|Knowledge (Arcana)|Knowledge (The Planes)|TYPE.Profession|Spellcraft																					
+																							
+CLASS:Mage-Killer	HD:4	TYPE:PC.Prestige	FACT:Abb|Mki	MAXLEVEL:10	SOURCEPAGE:MoF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:MageKillerLVL|0	BONUS:VAR|MageKillerLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1								
+CLASS:Mage-Killer	PRESKILL:1,Concentration=10	PREABILITY:4,CATEGORY=FEAT,Great Fortitude,Lightning Reflexes,Combat Casting,Martial Weapon Proficiency	PREMULT:1,[PRESPELLCAST:TYPE=Arcane],[PRESPELLCAST:TYPE=Divine]	PRETEXT:Ability to cast 4th-level arcane or divine spells. Ability to cast at least three spells that require Fortitude saves and at least three spells that require Reflex saves. (A spell that inflicts damage but allows no saving throw can substitute for any of these required spells.)																			
+CLASS:Mage-Killer	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Gather Information|Intimidate|TYPE.Knowledge|Spellcraft																					
+1				ABILITY:Mage-Killer Class Feature|AUTOMATIC|Mage-Killer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MageKillerProficiencies																			
+1				ABILITY:Mage-Killer Class Feature|AUTOMATIC|Mage-Killer ~ Spells per Day																			
+#																							
+1				ABILITY:Mage-Killer Class Feature|AUTOMATIC|Mage-Killer ~ Improved Saves|!PREABILITY:1,CATEGORY=ACF,TYPE.MageKillerImprovedSaves																			
+2				ABILITY:Mage-Killer Class Feature|AUTOMATIC|Mage-Killer ~ Augment Summoning|!PREABILITY:1,CATEGORY=ACF,TYPE.MageKillerAugmentSummoning																			
+4				ABILITY:Mage-Killer Class Feature|AUTOMATIC|Mage-Killer ~ Spell Focus|!PREABILITY:1,CATEGORY=ACF,TYPE.MageKillerSpellFocus																			
+#																							
+1	ADD:SPELLCASTER|ANY																						
+2	ADD:SPELLCASTER|ANY																						
+3	ADD:SPELLCASTER|ANY																						
+4	ADD:SPELLCASTER|ANY																						
+5	ADD:SPELLCASTER|ANY																						
+6	ADD:SPELLCASTER|ANY																						
+7	ADD:SPELLCASTER|ANY																						
+8	ADD:SPELLCASTER|ANY																						
+9	ADD:SPELLCASTER|ANY																						
+10	ADD:SPELLCASTER|ANY																						
+																							
+CLASS:Master Alchemist	HD:4	TYPE:PC.Prestige	FACT:Abb|Alc	MAXLEVEL:10	SOURCEPAGE:MoF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:MasterAlchemistLVL|0	BONUS:VAR|MasterAlchemistLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1								
+CLASS:Master Alchemist	PRESKILL:2,Craft (Alchemy)=10,Spellcraft=10	PREABILITY:3,CATEGORY=FEAT,Brew Potion,Magical Artisan (Potions),Skill Focus (Craft (Alchemy))	PREMULT:1,[PRESPELLCAST:TYPE=Arcane],[PRESPELLCAST:TYPE=Divine]	PRETEXT:Ability to cast 4th-level arcane or divine spells.																			
+CLASS:Master Alchemist	STARTSKILLPTS:2	CSKILL:Craft (Alchemy)|Concentration|TYPE.Craft|Knowledge (Arcana)|TYPE.Profession|Spellcraft																					
+1				ABILITY:Master Alchemist Class Feature|AUTOMATIC|Master Alchemist ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterAlchemistProficiencies																			
+1				ABILITY:Master Alchemist Class Feature|AUTOMATIC|Master Alchemist ~ Spells per Day																			
+#																							
+1				ABILITY:Master Alchemist Class Feature|AUTOMATIC|Master Alchemist ~ Brew|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterAlchemistBrew																			
+2				ABILITY:Master Alchemist Class Feature|AUTOMATIC|Master Alchemist ~ Brew Potion|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterAlchemistBrewPotion																			
+6				ABILITY:Master Alchemist Class Feature|AUTOMATIC|Master Alchemist ~ Improved Identification|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterAlchemistImprovedIdentification																			
+#																							
+1	ADD:SPELLCASTER|ANY																						
+2	ADD:SPELLCASTER|ANY																						
+3	ADD:SPELLCASTER|ANY																						
+4	ADD:SPELLCASTER|ANY																						
+5	ADD:SPELLCASTER|ANY																						
+6	ADD:SPELLCASTER|ANY																						
+7	ADD:SPELLCASTER|ANY																						
+8	ADD:SPELLCASTER|ANY																						
+9	ADD:SPELLCASTER|ANY																						
+10	ADD:SPELLCASTER|ANY																						
+																							
+CLASS:Mystic Wanderer	HD:8	TYPE:PC.Prestige	FACT:Abb|Myw	MAXLEVEL:10	SOURCEPAGE:MoF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:MysticWandererLVL|0	BONUS:VAR|MysticWandererLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1								
+CLASS:Mystic Wanderer	PREALIGN:NG,TN,NE,CG,CN,CE	PRESKILL:3,Craft (Alchemy)=3,Knowledge (Nature)=3,Profession (HBerbalist)=3	PRESKILL:1,Diplomacy=8	PRESKILL:1,TYPE.Perform=3	PREABILITY:1,CATEGORY=FEAT,Iron Will	PRESPELLCAST:TYPE=Divine	PRETEXT:Able to cast 2nd-level divine spells.																
+CLASS:Mystic Wanderer	STARTSKILLPTS:2	CSKILL:Craft (Alchemy)|Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (Nature)|Knowledge (Religion)|TYPE.Profession|TYPE.Perform|Spellcraft																					
+1				ABILITY:Mystic Wanderer Class Feature|AUTOMATIC|Mystic Wanderer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MysticWandererProficiencies																			
+1				ABILITY:Mystic Wanderer Class Feature|AUTOMATIC|Mystic Wanderer ~ Spells per Day																			
+#																							
+1				ABILITY:Mystic Wanderer Class Feature|AUTOMATIC|Mystic Wanderer ~ Glory of the Divine|!PREABILITY:1,CATEGORY=ACF,TYPE.MysticWandererGloryOfTheDivine																			
+1				ABILITY:Mystic Wanderer Class Feature|AUTOMATIC|Mystic Wanderer ~ Sleep|!PREABILITY:1,CATEGORY=ACF,TYPE.MysticWandererSleep																			
+2				ABILITY:Mystic Wanderer Class Feature|AUTOMATIC|Mystic Wanderer ~ Familiar|!PREABILITY:1,CATEGORY=ACF,TYPE.MysticWandererFamiliar																			
+2				ABILITY:Mystic Wanderer Class Feature|AUTOMATIC|Mystic Wanderer ~ Lore of the Nature|!PREABILITY:1,CATEGORY=ACF,TYPE.MysticWandererLoreOfTheNature																			
+3				ABILITY:Mystic Wanderer Class Feature|AUTOMATIC|Mystic Wanderer ~ Gem Magic|!PREABILITY:1,CATEGORY=ACF,TYPE.MysticWandererGemMagic																			
+3				ABILITY:Mystic Wanderer Class Feature|AUTOMATIC|Mystic Wanderer ~ Resist Charm|!PREABILITY:1,CATEGORY=ACF,TYPE.MysticWandererResistCharm																			
+4				ABILITY:Mystic Wanderer Class Feature|AUTOMATIC|Mystic Wanderer ~ Brew Potion|!PREABILITY:1,CATEGORY=ACF,TYPE.MysticWandererBrewPotion																			
+5				ABILITY:Mystic Wanderer Class Feature|AUTOMATIC|Mystic Wanderer ~ Suggestion|!PREABILITY:1,CATEGORY=ACF,TYPE.MysticWandererSuggestion																			
+6				ABILITY:Mystic Wanderer Class Feature|AUTOMATIC|Mystic Wanderer ~ Great Potion|!PREABILITY:1,CATEGORY=ACF,TYPE.MysticWandererGreatPotion																			
+7				ABILITY:Mystic Wanderer Class Feature|AUTOMATIC|Mystic Wanderer ~ Charm Monster|!PREABILITY:1,CATEGORY=ACF,TYPE.MysticWandererCharmMonster																			
+9				ABILITY:Mystic Wanderer Class Feature|AUTOMATIC|Mystic Wanderer ~ Mass Charm|!PREABILITY:1,CATEGORY=ACF,TYPE.MysticWandererMassCharm																			
+10				ABILITY:Mystic Wanderer Class Feature|AUTOMATIC|Mystic Wanderer ~ Timeless Body|!PREABILITY:1,CATEGORY=ACF,TYPE.MysticWandererTimelessBody																			
+#																							
+1	ADD:SPELLCASTER|Divine																						
+2	ADD:SPELLCASTER|Divine																						
+3	ADD:SPELLCASTER|Divine																						
+4	ADD:SPELLCASTER|Divine																						
+5	ADD:SPELLCASTER|Divine																						
+6	ADD:SPELLCASTER|Divine																						
+7	ADD:SPELLCASTER|Divine																						
+8	ADD:SPELLCASTER|Divine																						
+9	ADD:SPELLCASTER|Divine																						
+10	ADD:SPELLCASTER|Divine																						
+																							
+CLASS:Spelldancer	HD:6	TYPE:PC.Prestige	FACT:Abb|Spd	MAXLEVEL:5	SOURCEPAGE:MoF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:SpelldancerLVL|0	BONUS:VAR|SpelldancerLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1								
+CLASS:Spelldancer	PRESKILL:2,Concentration=4,Tumble=4	PRESKILL:1,Perform (Dance)=6	PREABILITY:4,CATEGORY=FEAT,Combat Casting,Dodge,Endurance,Mobility	PRETEXT:Able to cast 3rd-level spells.																			
+CLASS:Spelldancer	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Jump|Knowledge (Arcana)|TYPE.Profession|TYPE.Perform|Spellcraft|Swim|Tumble																					
+1				ABILITY:Spelldancer Class Feature|AUTOMATIC|Spelldancer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SpelldancerProficiencies																			
+1				ABILITY:Spelldancer Class Feature|AUTOMATIC|Spelldancer ~ Spells per Day																			
+#																							
+1				ABILITY:Spelldancer Class Feature|AUTOMATIC|Spelldancer ~ Spelldance|!PREABILITY:1,CATEGORY=ACF,TYPE.SpelldancerSpelldance																			
+2				ABILITY:Spelldancer Class Feature|AUTOMATIC|Spelldancer ~ Enthralling Dance|!PREABILITY:1,CATEGORY=ACF,TYPE.SpelldancerEnthrallingDance																			
+2				ABILITY:Spelldancer Class Feature|AUTOMATIC|Spelldancer ~ Evasion|!PREABILITY:1,CATEGORY=ACF,TYPE.SpelldancerEvasion																			
+3				ABILITY:Spelldancer Class Feature|AUTOMATIC|Spelldancer ~ Cooperative Dance|!PREABILITY:1,CATEGORY=ACF,TYPE.SpelldancerCooperativeDancer																			
+4				ABILITY:Spelldancer Class Feature|AUTOMATIC|Spelldancer ~ Sleep Dance|!PREABILITY:1,CATEGORY=ACF,TYPE.SpelldancerSleepDance																			
+5				ABILITY:Spelldancer Class Feature|AUTOMATIC|Spelldancer ~ Confusing Dance|!PREABILITY:1,CATEGORY=ACF,TYPE.SpelldancerConfusingDance																			
+#																							
+1	ADD:SPELLCASTER|ANY																						
+2	ADD:SPELLCASTER|ANY																						
+3	ADD:SPELLCASTER|ANY																						
+4	ADD:SPELLCASTER|ANY																						
+5	ADD:SPELLCASTER|ANY																						
+																							
+CLASS:Spellfire Channeler	HD:4	TYPE:PC.Prestige	FACT:Abb|Sfc	MAXLEVEL:5	SOURCEPAGE:MoF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:SpellfireChannelerLVL|0	BONUS:VAR|SpellfireChannelerLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1								
+CLASS:Spellfire Channeler	PRESKILL:1,Concentration=8	PRESKILL:2,Knowledge (Arcana)=2,Spellcraft=2	PREABILITY:2,CATEGORY=FEAT,Endurance,Spellfire Wielder																				
+CLASS:Spellfire Channeler	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Disguise|Heal|Intimidate|Knowledge (arcana)|TYPE.Profession|Sense motive|spellcraft|Survival																					
+1				ABILITY:Spellfire Channeler Class Feature|AUTOMATIC|Spellfire Channeler ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellfireChannelerProficiencies																			
+#																							
+1				ABILITY:Spellfire Channeler Class Feature|AUTOMATIC|Spellfire Channeler ~ Drain Charged Item|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellfireChannelerDrainChargedItem																			
+1				ABILITY:Spellfire Channeler Class Feature|AUTOMATIC|Spellfire Channeler ~ Increased Storage|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellfireChannelerIncreasedStorage																			
+2				ABILITY:Spellfire Channeler Class Feature|AUTOMATIC|Spellfire Channeler ~ Improved Healing|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellfireChannelerImprovedHealing																			
+3				ABILITY:Spellfire Channeler Class Feature|AUTOMATIC|Spellfire Channeler ~ Weapon Focus|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellfireChannelerWeaponFocus																			
+4				ABILITY:Spellfire Channeler Class Feature|AUTOMATIC|Spellfire Channeler ~ Rapid Blast|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellfireChannelerRapidBlast																			
+5				ABILITY:Spellfire Channeler Class Feature|AUTOMATIC|Spellfire Channeler ~ Drain Permanent Item|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellfireDrainPermanentItem																			
+6				ABILITY:Spellfire Channeler Class Feature|AUTOMATIC|Spellfire Channeler ~ Flight|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellfireFlight																			
+7				ABILITY:Spellfire Channeler Class Feature|AUTOMATIC|Spellfire Channeler ~ Deflect Arrows|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellfireDeflectArrows																			
+9				ABILITY:Spellfire Channeler Class Feature|AUTOMATIC|Spellfire Channeler ~ Crown of Fire|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellfireCrownOfFire																			
+10				ABILITY:Spellfire Channeler Class Feature|AUTOMATIC|Spellfire Channeler ~ Maelstrom of Fire|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellfireMaelstromOfFire																			
+																							
+CLASS:War Wizard of Cormyr	HD:4	TYPE:PC.Prestige	FACT:Abb|WwC	MAXLEVEL:5	SOURCEPAGE:MoF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:WarWizardOfCormyrLVL|0	BONUS:VAR|WarWizardOfCormyrLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1								
+CLASS:War Wizard of Cormyr	PREALIGN:LG,LN,NG,TN	PRESKILL:1,Spellcraft=10	PREABILITY:2,CATEGORY=FEAT,Enlarge Spell,Widen Spell	PREABILITY:1,CATEGORY=FEAT,Martial Weapon Focus	PRETEXT:Able to cast 4rd-level arcane spells.																		
+CLASS:War Wizard of Cormyr	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Spellcraft																					
+1				ABILITY:War Wizard of Cormyr Class Feature|AUTOMATIC|War Wizard of Cormyr ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.WarWizardOfCormyrProficiencies																			
+1				ABILITY:War Wizard of Cormyr Class Feature|AUTOMATIC|War Wizard of Cormyr ~ Spells per Day																			
+#																							
+1				ABILITY:War Wizard of Cormyr Class Feature|AUTOMATIC|War Wizard of Cormyr ~ Weapon Focus|!PREABILITY:1,CATEGORY=ACF,TYPE.WarWizardOfCormyrWeaponFocus																			
+2				ABILITY:War Wizard of Cormyr Class Feature|AUTOMATIC|War Wizard of Cormyr ~ Metamagic Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.WarWizardOfCormyrMetamagicFeat																			
+3				ABILITY:War Wizard of Cormyr Class Feature|AUTOMATIC|War Wizard of Cormyr ~ Widen Spell|!PREABILITY:1,CATEGORY=ACF,TYPE.WarWizardOfCormyrWidenSpell																			
+5				ABILITY:War Wizard of Cormyr Class Feature|AUTOMATIC|War Wizard of Cormyr ~ Enhanced Spell Area|!PREABILITY:1,CATEGORY=ACF,TYPE.WarWizardOfCormyrEnhancedSpellArea																			
+#																							
+1	ADD:SPELLCASTER|ANY																						
+2	ADD:SPELLCASTER|ANY																						
+3	ADD:SPELLCASTER|ANY																						
+4	ADD:SPELLCASTER|ANY																						
+5	ADD:SPELLCASTER|ANY																						

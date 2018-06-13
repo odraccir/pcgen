@@ -1,5 +1,5 @@
 SOURCELONG:Core Ruleset	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
-	
+
 ###Block: Alignment Kits ------------------
 STARTPACK:LG	VISIBLE:NO	APPLY:INSTANT
 ALIGN:LG

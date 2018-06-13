@@ -1,4 +1,4 @@
 SOURCELONG:Monster Manual 2	SOURCESHORT:MM2	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 																																
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 CATEGORY=FEAT|Improved Familiar.MOD	COMPANIONLIST:Familiar|Fire Bat|PRERACE:1,RACETYPE=Fire|PRECLASS:1,SPELLCASTER.Arcane=15

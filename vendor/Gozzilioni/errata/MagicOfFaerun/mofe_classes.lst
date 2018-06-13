@@ -1,0 +1,8 @@
+SOURCELONG:Magic of Faerun 3.0 Errata	SOURCESHORT:MoF30e	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2006-03
+																							
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE											
+# Class Name req	Requirements	FINE																					
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS											
+# Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	SPELLLIST	spell level increases (BONUS:CASTERLEVEL)							#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)
+CLASS:Harper Mage.MOD	PRE:.CLEAR	PREALIGN:LG,LN,NG,TN,CG,CN	PRESKILL:1,Concentration=4	PRESKILL:2,Knowledge (Arcana)=8,Spellcraft=8	PRESKILL:1,Knowledge (Local)=5	PRESKILL:3,TYPE.Knowledge=4	PRESKILL:1,Sense Motive=2	PREABILITY:3,CATEGORY=FEAT,Alertness,Extend Spell	PRESPELLCAST:TYPE=Arcane	PRETEXT:Ability to cast 3rd-level arcane spells. Special: Sponsorship by a member of the Harpers, approval of the High Harpers.															
+

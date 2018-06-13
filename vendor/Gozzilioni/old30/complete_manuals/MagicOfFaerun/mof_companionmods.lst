@@ -1,0 +1,9 @@
+SOURCELONG:Magic of Faerun 3.0	SOURCESHORT:MoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:02-2001																													
+#										
+###Block: Standard Companions										
+# Class of the Master	Type									
+FOLLOWER:SummonUndeadILVL=1	TYPE:Summon Undead I									
+FOLLOWER:SummonUndeadIILVL=1	TYPE:Summon Undead II									
+FOLLOWER:SummonUndeadIIILVL=1	TYPE:Summon Undead III									
+FOLLOWER:SummonUndeadIVLVL=1	TYPE:Summon Undead IV									
+FOLLOWER:SummonUndeadVLVL=1	TYPE:Summon Undead V									

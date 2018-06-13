@@ -1,6 +1,6 @@
 SOURCELONG:Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.fantasyflightgames.com																														
 																																
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Abomination Type Traits|PRERACE:1,RACETYPE=Abomination																															
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Abomination|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACETYPE=Abomination]																															
 																																

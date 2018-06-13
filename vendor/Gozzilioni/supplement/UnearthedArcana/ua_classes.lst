@@ -638,7 +638,7 @@ CLASS:Cleric (Spontaneous)	SPELLSTAT:WIS	FACT:SpellType|Divine	MEMORIZE:NO	BONUS
 															
 CLASS:Druid.MOD	!PRECLASS:1,Druid (Spontaneous)=1														
 															
-CLASS:Druid (Spontaneous)	HD:8	TYPE:PC.Base	FACT:Abb|SpD	MAXLEVEL:20	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Druid	DEFINE:DruidLVL|0	BONUS:VAR|DruidLVL|CL	EXCLASS:Ex-Druid	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Druid (Spontaneous)	HD:8	TYPE:PC.Base	FACT:Abb|SDr	MAXLEVEL:20	SOURCEPAGE:UA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Druid	DEFINE:DruidLVL|0	BONUS:VAR|DruidLVL|CL	EXCLASS:Ex-Druid	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Druid (Spontaneous)	PREALIGN:NG,LN,TN,CN,NE	!PRECLASS:1,Druid=1		SERVESAS:CLASS|Druid											
 CLASS:Druid (Spontaneous)	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Knowledge (Nature)|Listen|TYPE.Profession|Ride|Spellcraft|Spot|Survival|Swim													
 CLASS:Druid (Spontaneous)	SPELLSTAT:WIS	FACT:SpellType|Divine	MEMORIZE:NO												

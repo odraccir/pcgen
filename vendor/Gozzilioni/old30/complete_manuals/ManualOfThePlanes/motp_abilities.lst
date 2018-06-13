@@ -1,6 +1,6 @@
 SOURCELONG:Manual of the Planes 3.0	SOURCESHORT:MotP30	SOURCEWEB:http://www.gozzilioni.net																																
 																																		
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page		
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page		
 																																		
 #																																		
 Deity's Simple Weapon Proficiency	CATEGORY:Special Ability	TYPE:ClassFeatures.SpecialQuality	VISIBLE:YES	DESC:You understand how to use %1|%LIST															STACK:NO	MULT:YES	CHOOSE:WEAPONPROFICIENCY|DEITYWEAPON	SELECT:1	AUTO:WEAPONPROF|%LIST									SOURCEPAGE:MotP30		

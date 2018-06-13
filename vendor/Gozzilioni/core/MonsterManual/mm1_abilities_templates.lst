@@ -1,6 +1,6 @@
 SOURCELONG:Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																																
 																																			
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page			
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page			
 #Celestial Template																																			
 Smite Evil	CATEGORY:Special Ability	TYPE:CelestialRaceTrait.SpecialAttack.Supernatural	VISIBLE:YES	DESC:Once per day a celestial creature can make a normal melee attack to deal extra damage equal to its HD (maximum of +20) against an evil foe.	KEY:Celestial ~ Smite Evil									BONUS:VAR|SmiteEvilDamage|min(HD,20)	BONUS:VAR|SmiteEvil|1								ABILITY:Special Ability|AUTOMATIC|Smite Evil									SOURCEPAGE:MM1			
 Natural Weapons	CATEGORY:Special Ability	TYPE:CelestialRaceTrait.SpecialQuality	VISIBLE:YES	DESC:If a celestial creature gains damage reduction, its natural weapons are treated as magic weapons for the purpose of overcoming damage reduction.	KEY:Celestial ~ Natural Weapons																											SOURCEPAGE:MM1			

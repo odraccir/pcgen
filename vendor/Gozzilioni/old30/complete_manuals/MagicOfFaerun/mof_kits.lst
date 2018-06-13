@@ -1,0 +1,66 @@
+SOURCELONG:Magic of Faerun 3.0	SOURCESHORT:MoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:02-2001																			
+
+STARTPACK:Treasure 6-6 Rings - minor	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
+SELECT:roll("1d100")	
+GEAR:Purple Dragon Ring	OPTION:1,30
+GEAR:Ring of Might	OPTION:31,55	
+GEAR:Darkhidden	OPTION:56,80	
+GEAR:Ring of Disease Immunity	OPTION:81,100	
+
+STARTPACK:Treasure 6-6 Rings - medium	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
+SELECT:roll("1d100")	
+GEAR:Purple Dragon Ring	OPTION:1,15
+GEAR:Ring of Might	OPTION:16,30	
+GEAR:Darkhidden	OPTION:31,45	
+GEAR:Ring of Disease Immunity	OPTION:46,60	
+GEAR:Ring of Lore	OPTION:61,70	
+GEAR:Ring of Dragons	OPTION:71,80	
+GEAR:Bone Ring	OPTION:81,90	
+GEAR:Aribeth's Ring	OPTION:91,100	
+
+STARTPACK:Treasure 6-6 Rings - major	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
+SELECT:roll("1d100")	
+GEAR:Ring of Lore	OPTION:01,15	
+GEAR:Ring of Dragons	OPTION:16,30	
+GEAR:Bone Ring	OPTION:31,45	
+GEAR:Aribeth's Ring	OPTION:46,60	
+GEAR:Ring of Spell-Battle	OPTION:61,75	
+GEAR:Ring of Nine Lives	OPTION:76,90	
+GEAR:Commander's Ring	OPTION:91,100	
+
+STARTPACK:Treasure 6-8 Staffs - minor	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
+SELECT:roll("1d100")	
+GEAR:Staff (Night)	OPTION:1,11
+GEAR:Staff (Eyes)	OPTION:12,22
+GEAR:Staff (Entrapment)	OPTION:23,33
+GEAR:Staff (Skulls)	OPTION:34,44
+GEAR:Staff (Open Doors)	OPTION:45,54
+GEAR:Staff (Vision)	OPTION:55,63
+GEAR:Staff (Scrivening)	OPTION:64,72
+GEAR:Staff (Ethereal Action)	OPTION:73,81
+GEAR:Staff (Transportation)	OPTION:82,90
+GEAR:Staff (Miracles)	OPTION:91,97
+GEAR:Staff (Fiendish Darkness)	OPTION:98,100
+
+STARTPACK:Treasure 6-8 Staffs - major	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
+SELECT:roll("1d100")	
+GEAR:Staff (Night)	OPTION:1,8
+GEAR:Staff (Eyes)	OPTION:9,16
+GEAR:Staff (Entrapment)	OPTION:17,24
+GEAR:Staff (Skulls)	OPTION:25,32
+GEAR:Staff (Open Doors)	OPTION:33,40
+GEAR:Staff (Vision)	OPTION:41,49
+GEAR:Staff (Scrivening)	OPTION:50,58
+GEAR:Staff (Ethereal Action)	OPTION:59,67
+GEAR:Staff (Transportation)	OPTION:68,76
+GEAR:Staff (Miracles)	OPTION:77,85
+GEAR:Staff (Fiendish Darkness)	OPTION:86,94
+GEAR:Staff (Diviner's)	OPTION:95,97
+GEAR:Staff (Peace)	OPTION:98,100
+
+STARTPACK:Beholderkin (Spectator) Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Beholderkin (Spectator)
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+GEAR:Beholder ~ Eye Rays	QTY:4
+
+STARTPACK:Crossroads Guardian Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Beholderkin (Spectator)
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=11

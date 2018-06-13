@@ -1,0 +1,38 @@
+SOURCELONG:Magic of Faerun 3.0 Errata	SOURCESHORT:MoF30e	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2006-03
+																																	
+Dimensional Lock.MOD	CLASSES:Sorcerer=5|Wizard=5
+Amplify.MOD	CASTTIME:1 standard action	DURATION:1 Minute/level
+Ball Lightning			TYPE:Spell	CLASSES:Sorcerer=5|Wizard=5		SCHOOL:Evocation		DESCRIPTOR:Electricity	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One lightning ball/2 levels.		DURATION:1 round/level	SAVEINFO:Reflex half	SPELLRES:Yes	DESC:You create one 3-foot-diameter ball of concentrated electricity per 2 levels (maximum 15 balls) that shed light as candles and move under your control. Material Component: Material Component: A handful of copper and iron pellets.	SOURCEPAGE:MoF30e										
+Camouflage			TYPE:Spell	CLASSES:Druid=1|Ranger=1		SCHOOL:Transmutation			COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.		DURATION:10 minutes/level	SAVEINFO:None	SPELLRES:No	DESC:You change your coloring to match the environment surrounding you.	SOURCEPAGE:MoF30e							TEMPBONUS:PC|SKILL|Hide|10|TYPE=Circumstance
+Brilliant Aura.MOD	DESCRIPTOR:Light
+Cast in Stone.MOD	TARGETAREA:.CLEAR	TARGETAREA:You
+Cloud of Bewilderment.MOD	DURATION:.CLEAR	DURATION:Instantaneous
+Crawling Darkness.MOD	TARGETAREA:.CLEAR	TARGETAREA:You
+Curse of Ill Fortune.MOD	DESC:.CLEAR	DESC:You place a temporary curse upon the target, giving her a -3 penalty on attack rolls, saving throws, ability checks, and skill checks.
+Dimensional Lock.MOD	CLASSES:.CLEARALL	CLASSES:Cleric=5|Sorcerer=5|Wizard=5
+Forceward.MOD	DESCRIPTOR:Force
+General of Undeath	DESCRIPTOR:Evil
+Ghorus Toth's Metal Melt.MOD	CASTTIME:.CLEAR	CASTTIME:1 standard action
+Haunting Tune.MOD	TARGETAREA:.CLEAR	TARGETAREA:1 creature/level
+Kiss of the Vampire.MOD	CASTTIME:.CLEAR	CASTTIME:1 standard action	DESCRIPTOR:Evil
+Monstrous Regeneration.MOD	CLASSES:Druid=5
+Murderous Mist.MOD	DESCRIPTOR:Fire
+Puppeteer.MOD	DESCRIPTOR:Mind-Affecting
+Reveille.MOD	DESCRIPTOR:.CLEAR	DESCRIPTOR:Language-Dependent
+Rosemantle.MOD	DESCRIPTOR:Light
+Scent.MOD	SAVEINFO:Will negates (harmless)
+Scintillating Sphere.MOD	RANGE:CLEAR	RANGE:Long
+Skeletal Guard.MOD	DESCRIPTOR:Evil
+Skull of Secrets.MOD	DESCRIPTOR:Fire
+Songbird.MOD	TARGETAREA:CLEAR	TARGETAREA:You
+Spell Engine.MOD	DESCRIPTOR:Force
+Speechlink.MOD	SAVEINFO:Will negates (harmless)	SPELLRES:Yes
+Summon Undead I.MOD	DESCRIPTOR:.CLEAR	DESCRIPTOR:Evil|See text
+Summon Undead II.MOD	DESCRIPTOR:.CLEAR	DESCRIPTOR:Evil|See text
+Summon Undead III.MOD	DESCRIPTOR:.CLEAR	DESCRIPTOR:Evil|See text
+Summon Undead IV.MOD	DESCRIPTOR:.CLEAR	DESCRIPTOR:Evil|See text
+Summon Undead V.MOD	DESCRIPTOR:.CLEAR	DESCRIPTOR:Evil|See text
+Tirumael's Energy Spheres.MOD	DURATION:.CLEAR	DURATION:1 round/level or until discharged	
+Translocation Trick.MOD	SUBSCHOOL:Teleportation
+Understand Device.MOD	TEMPBONUS:PC|SKILL|Disable Device|10|TYPE=Competence|PRESKILL:1,Disable Device=1
+Wieldskill.MOD	DURATION:1 minute/level or until discharged		

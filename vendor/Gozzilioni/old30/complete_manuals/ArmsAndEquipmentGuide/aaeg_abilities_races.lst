@@ -1,6 +1,6 @@
 SOURCELONG:Arms and Equipment Guide 3.0	SOURCESHORT:AaEG30	SOURCEWEB:http://www.gozzilioni.net
 																																
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 ###Block: Specific Race Traits																																
 Training	CATEGORY:Special Ability	TYPE:BlinkDogRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Blink dog packs try to prevent it, but opportunists sometimes steal their pups and train them as guard creatures. DC Young/Adult: 22/29; Young Price: 10,000 gp; Training Cost: 1,000 gp.	KEY:Blink Dog ~ Training																		ABILITY:Internal|AUTOMATIC|Training ~ Wild									SOURCEPAGE:AaEG30
 Training	CATEGORY:Special Ability	TYPE:EtherealMarauderRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Only a very few ethereal marauders have been caught, fewer trained, and none domesticated. DC Young/Adult: 20/27; Young Price: 50,000 gp; Training Cost: 5,000 gp.	KEY:Ethereal Marauder ~ Training																		ABILITY:Internal|AUTOMATIC|Training ~ Wild									SOURCEPAGE:AaEG30

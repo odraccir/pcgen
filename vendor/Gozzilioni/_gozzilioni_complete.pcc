@@ -1,19 +1,22 @@
 CAMPAIGN:Gozzilioni Campaing Full Set
-GAMEMODE:G35e
 RANK:1
-TYPE:Gozzilioni.Complete
-SHOWINMENU:YES
-SETTING:Heroes
+GAMEMODE:G35e
+GENRE:Fantasy
 BOOKTYPE:Campaign
+SETTING:Heroes
+TYPE:Gozzilioni.Complete
+!PRECAMPAIGN:1,BOOKTYPE=Core Rules,[3.5 RSRD Basics]
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
 SOURCELONG:Gozzilioni Campaing Full Set
 SOURCESHORT:G
 SOURCEWEB:http://www.gozzilioni.net
 SOURCEDATE:2007-01
 ISOGL:NO
 COPYRIGHT:My Campaign, Copyright 2005 by me
-PUBNAMELONG:Gozzilioni
-PUBNAMESHORT:Gozzilioni
-PUBNAMEWEB:http://www.gozzilioni.net
+
+SHOWINMENU:YES
 
 PCC:core/_core.pcc
 PCC:core/DungeonMasterSGuide/_dungeonmastersguide.pcc
@@ -41,7 +44,6 @@ PCC:old30/partial_manuals/PlayerSHandbook/_playershandbook.pcc
 PCC:old30/partial_manuals/PsionicHandbook/_psionichandbook.pcc
 PCC:old30/partial_manuals/SwordAndFist/_swordandfist.pcc
 PCC:old30/partial_manuals/TomeAndBlood/_tomeandblood.pcc
-PCC:old30/partial_manuals/ForgottenRealmsCampaingSetting/_forgottenrealmscampaingsetting.pcc
 
 PCC:houserules/_houserules.pcc
 
@@ -56,11 +58,13 @@ PCC:ThirdParty/MongoosePublishing/SeasOfBlood/_seasofblood.pcc
 PCC:errata/CompleteWarrior/_completewarrior_errata.pcc
 PCC:errata/MonsterManual/_monstermanual_errata.pcc
 PCC:errata/ExpandedPsionicHandbook/_expandedpsionichandbook_errata.pcc
+PCC:errata/MagicOfFaerun/_magicoffaerun_errata.pcc
 
-PCC:old30/partial_manuals/ForgottenRealmsCampaingSetting/_forgottenrealmscampaingsetting.pcc
-PCC:old30/partial_manuals/MonsterCompendiumMonstersOfFaerun/_monstercompendiummonstersoffaerun.pcc
+PCC:old30/complete_manuals/ForgottenRealmsCampaingSetting/_forgottenrealmscampaingsetting.pcc
+PCC:old30/complete_manuals/MonsterCompendiumMonstersOfFaerun/_monstercompendiummonstersoffaerun.pcc
+PCC:old30/complete_manuals/MagicOfFaerun/_magicoffaerun.pcc
 
-# ENTRY DATE: 2015-08 
+# ENTRY DATE: 2015-08
 # LST MONKEY: Riccardo
 # RELEASE REVIEW #
 # BETA:

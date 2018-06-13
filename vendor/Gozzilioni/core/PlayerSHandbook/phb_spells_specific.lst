@@ -108,6 +108,8 @@ Speak with Animals.COPY=Speak with Animals	KEY:Speak with Animals ~ Bats only
 Speak with Animals ~ Bats only.MOD	OUTPUTNAME:Speak with Animals	TYPE:SpellLike	DESC:Bats only.	
 Speak with Animals.COPY=Speak with Animals	KEY:Speak with Animals ~ Rats only																																					
 Speak with Animals ~ Rats only.MOD	OUTPUTNAME:Speak with Animals	TYPE:SpellLike	DESC:Rats only.	
+Speak with Animals.COPY=Speak with Animals	KEY:Speak with Animals ~ Birds only																																					
+Speak with Animals ~ Birds only.MOD	OUTPUTNAME:Speak with Animals	TYPE:SpellLike	DESC:Birds only.	
 
 Summon Monster VI.COPY=Summon Monster VI	KEY:Summon Monster VI ~ Large Elemental
 Summon Monster VI ~ Large Elemental.MOD	OUTPUTNAME:Summon Monster VI	DESC:Summon Large Air, Earth, Fire or Water Elemental only.	

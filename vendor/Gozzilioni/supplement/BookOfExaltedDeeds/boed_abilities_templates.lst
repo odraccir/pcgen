@@ -1,6 +1,6 @@
 SOURCELONG:Book of Exalted Deeds	SOURCESHORT:BoED	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10																													
 																																
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 #Aleax Template																																
 Searing Light	CATEGORY:Special Ability	TYPE:AleaxRaceTrait.SpecialAttack.SpellLike	VISIBLE:YES	DESC:Once per round, as a standard action, an aleax may fire rays of light from its eyes. The rays duplicate the effect of a searing light spell (caster level equals the aleax's Hit Dice).	KEY:Aleax ~ Searing Light																											SOURCEPAGE:BoED
 Shapechange	CATEGORY:Special Ability	TYPE:AleaxRaceTrait.SpecialAttack.SpellLike	VISIBLE:YES	DESC:An aleax can shapechange at will, as the spell. An aleax typically has one or two favored alternate forms reflective of the deity it serves. (For example, Bahamut's aleax has been known to take the form of a gold dragon.) The aleax retains its extraordinary and spell-like abilities regardless of the new form. Caster level 20th.	KEY:Aleax ~ Shapechange																											SOURCEPAGE:BoED

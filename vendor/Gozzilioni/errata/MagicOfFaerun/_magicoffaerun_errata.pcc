@@ -1,0 +1,75 @@
+CAMPAIGN:Magic of Faerun 3.0 Errata
+GAMEMODE:G35e
+RANK:1
+TYPE:Gozzilioni.Partial.Errata
+SETTING:Heroes
+BOOKTYPE:Errata
+SOURCELONG:Magic of Faerun 3.0 Errata
+SOURCESHORT:MoF30e
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2006-03
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+
+PRECAMPAIGN:1,Magic of Faerun 3.0
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:mm1e_spells_changes.txt
+
+# ABILITY:mofe_abilities.lst
+ABILITY:mofe_abilities_classes.lst
+# ABILITY:mofe_abilities_FRCS.lst|PRECAMPAIGN:1,Forgotten Realms Campaign Setting 3.0
+# ABILITY:mofe_abilities_guilds.lst
+# ABILITY:mofe_abilities_races.lst
+# ABILITY:mofe_abilities_racetraits.lst
+# ABILITY:mofe_abilities_regions.lst
+# ABILITY:mofe_abilities_templates.lst
+# ABILITYCATEGORY:mofe_abilitycategories.lst
+# BIOSET:mofe_biosettings.lst
+CLASS:mofe_classes.lst
+# COMPANIONMOD:mofe_companionmods.lst
+# DEITY:mofe_deities.lst
+# DOMAIN:mofe_domains.lst
+EQUIPMENT:mofe_equip.lst
+# EQUIPMENT:mofe_equip_armors.lst
+# EQUIPMENT:mofe_equip_armors_specific.lst
+EQUIPMENT:mofe_equip_magic_items.lst
+# EQUIPMENT:mofe_equip_weapons.lst
+# EQUIPMENT:mofe_equip_weapons_natural.lst
+# EQUIPMENT:mofe_equip_weapons_specific.lst
+# EQUIPMENT:mofe_equip_weapons_natural.lst
+EQUIPMOD:mofe_equipmods.lst
+ABILITY:mofe_feats.lst
+# KIT:mofe_kits.lst
+# KIT:mofe_kits_regions.lst
+# LANGUAGE:mofe_languages.lst
+# ARMORPROF:mofe_profs_armor.lst
+# WEAPONPROF:mofe_profs_weapon.lst
+# RACE:mofe_races.lst
+# RACE:mofe_races_companion.lst
+# SKILL:mofe_skills.lst
+SPELL:mofe_spells.lst
+# SPELL:mofe_spells_FRCS.lst|PRECAMPAIGN:1,Forgotten Realms Campaign Setting 3.0
+# SPELL:mofe_spells_specific.lst
+# ABILITY:mofe_subraces.lst
+# TEMPLATE:mofe_templates.lst
+# TEMPLATE:mofe_templates_regions.lst
+
+#
+# HIDETYPE:SKILL|Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma
+
+# HIDETYPE:FEAT|Wizard
+
+# ENTRY DATE: 2015-08
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

@@ -50,10 +50,11 @@ HIDETYPE:SKILL|Knowledge (Forbidden Lore)|Knowledge (Mental therapy)
 HIDETYPE:FEAT|Thug|WizardDiviner
 #
 ABILITY:ua_abilities_AAEG.lst|PRECAMPAIGN:1,Arms and Equipment Guide 3.0
-ABILITY:ua_feats_AAEG.lst|PRECAMPAIGN:1,Arms and Equipment Guide 3.0	
+ABILITY:ua_feats_AAEG.lst|PRECAMPAIGN:1,Arms and Equipment Guide 3.0
 ABILITY:ua_abilities_CW.lst|PRECAMPAIGN:1,Complete Warrior
 ABILITY:ua_feats_CW.lst|PRECAMPAIGN:1,Complete Warrior
-# ENTRY DATE: 2015-08 
+
+# ENTRY DATE: 2015-08
 # LST MONKEY: Riccardo
 # RELEASE REVIEW #
 # BETA:

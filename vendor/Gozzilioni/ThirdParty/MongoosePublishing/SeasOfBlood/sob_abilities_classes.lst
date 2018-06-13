@@ -1,6 +1,6 @@
 SOURCELONG:Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.mongoosepublishing.com/																														
 #																																
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 ###Block: Alternate class feature																																	
 Sea Druid	CATEGORY:ACF	TYPE:AlternateClass.DruidBonusLanguages.DruidNatureSense.DruidWoodlandStride.DruidTracklessStep	VISIBLE:YES	DESC:Druid that lives near the seas.		PRECLASS:1,Druid=1																	ABILITY:Alternate Class Feature|AUTOMATIC|Sea Druid ~ Bonus Languages|Sea Druid ~ Nature Sense|PREVARGTEQ:DruidLVL,1	ABILITY:Alternate Class Feature|AUTOMATIC|Sea Druid ~ Speed of the Fish|PREVARGTEQ:DruidLVL,2	ABILITY:Alternate Class Feature|AUTOMATIC|Sea Druid ~ Salt Synthesis|PREVARGTEQ:DruidLVL,3					COST:0	SORTKEY:Class_Druid	SOURCEPAGE:SoB
 Bonus Languages	CATEGORY:ACF	TYPE:AlternateClassFeatures.DruidClassFeatures.SpecialQuality	VISIBLE:YES	DESC:Instead of Sylvan a Sea Druid take Aquan, the tongue of the deep sea.	KEY:Sea Druid ~ Bonus Languages	PREABILITY:1,CATEGORY=ACF,TYPE.AlternateClass,Sea Druid																	TEMPLATE:Sea Druid ~ Bonus Languages								SORTKEY:Class_Sea_Druid	SOURCEPAGE:SoB

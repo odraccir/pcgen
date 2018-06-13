@@ -1,6 +1,6 @@
 SOURCELONG:Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
 																																	
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
 ###Block: Race Traits																																	
 # Race Traits (assigned by race)																																	
 Race Traits ~ Dromite	CATEGORY:Internal				BONUS:VAR|AdvancementByClass|1																		ABILITY:Special Ability|AUTOMATIC|Dromite Racial Traits	ABILITY:Dromite Subrace|AUTOMATIC|Dromite ~ Common|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice									

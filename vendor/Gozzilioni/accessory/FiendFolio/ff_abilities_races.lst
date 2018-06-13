@@ -1,6 +1,6 @@
-SOURCELONG:Fiend Folio	SOURCESHORT:FF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-04																														
+SOURCELONG:Fiend Folio	SOURCESHORT:FF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-04
 																																	
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	DESC:					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	DESC:					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
 																																	
 ###Block: Race Traits																																	
 																																	

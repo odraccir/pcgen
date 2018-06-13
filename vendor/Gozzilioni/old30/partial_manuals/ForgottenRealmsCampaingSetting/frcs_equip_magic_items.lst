@@ -1,7 +1,0 @@
-SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:06-2001
-#								
-# PHB Name	OUTPUTNAME:	TYPE:	COST:	WT:	SOURCEPAGE:	Requires Modification?	Source Page	Special Property
-Scroll (Aid)		TYPE:Scroll.Divine.Consumable	COST:150	WT:0.01	SOURCEPAGE:FRCS30
-Scroll (Silence)		TYPE:Scroll.Divine.Consumable	COST:150	WT:0.01	SOURCEPAGE:FRCS30
-
-Potion (Shadow Mask)		TYPE:Potion.Vial.Consumable	COST:700	WT:0	SOURCEPAGE:FRCS30																			

@@ -1,6 +1,6 @@
 SOURCELONG:Savage Species 3.0	SOURCESHORT:SS30	SOURCEWEB:http://www.gozzilioni.net
 																																
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 																																
 ###Block: Race Traits																																
 Race Traits ~ Half-Ogre	CATEGORY:Internal													BONUS:VAR|AdvancementByClass|1									ABILITY:Special Ability|AUTOMATIC|Half-Ogre Racial Traits	ABILITY:Half-Ogre Subrace|AUTOMATIC|Half-Ogre ~ Half-Ogre|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice								

@@ -1,6 +1,6 @@
 SOURCELONG:Seas of Blood	SOURCESHORT:SoB	SOURCEWEB:http://www.mongoosepublishing.com/
 																																
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 # CATEGORY=Internal|Default.MOD									DEFINE:NoTypeTraits|0	DEFINE:AdvancementByClass|0																						
 # CATEGORY=Internal|Creature Type.MOD									DEFINE:RaceNaturalWeaponAlign|0					BONUS:VAR|RaceNaturalWeaponAlign|1|PREABILITY:1,CATEGORY=Special Ability,TYPE.Natural Weapons																		
 																																

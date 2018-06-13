@@ -1,6 +1,6 @@
 SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11																													
 																																
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 # Dracolich Template																																
 Control Undead	CATEGORY:Special Ability	TYPE:DracolichRaceTrait.SpecialAttack.SpellLike	VISIBLE:YES	DESC:Once every three days, a dracolich can use control undead as the spell (caster level 15th). The dracolich cannot cast other spells while this ability is in effect.	KEY:Dracolich ~ Control Undead																											SOURCEPAGE:Drac
 Paralyzing Gaze	CATEGORY:Special Ability	TYPE:DracolichRaceTrait.SpecialAttack.Supernatural	VISIBLE:YES	DESC:The gaze of a dracolich's glowing eyes can paralyze victims within 40 feet who fail a Fortitude save (DC 10 + 1/2 dracolich's HD + dracolich's Cha modifier). If the saving throw is successful, the character is forever immune to the gaze of that particular dracolich. If it fails, the victim is paralyzed for 2d6 rounds.	KEY:Dracolich ~ Paralyzing Gaze	DESC:Fort DC %1.|ParalyzingGazeDC			DEFINE:ParalyzingGazeDC|0					BONUS:VAR|ParalyzingGazeDC|DefaultDCCha	BONUS:VAR|ParalyzingGazeDC|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Paralyzing Gaze)								ABILITY:Ability Focus|AUTOMATIC|Paralyzing Gaze									SOURCEPAGE:Drac

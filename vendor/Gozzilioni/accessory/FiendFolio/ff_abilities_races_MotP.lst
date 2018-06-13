@@ -1,4 +1,4 @@
-SOURCELONG:Fiend Folio	SOURCESHORT:FF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-04																														
-																																	
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	DESC:					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
+SOURCELONG:Fiend Folio	SOURCESHORT:FF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-04
+
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	DESC:					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
 CATEGORY=Special Ability|Yugoloth (Psicoloth) ~ Summon Yugoloth.MOD	DESC:.CLEAR	DESC:Three times per day, a piscoloth can attempt to summon 4 skeroloths with a 60%% chance of success (result of 41-100 on d%%) or 1d3 mezzoloths with a 30%% chance of success (result of 71-100 on d%%).

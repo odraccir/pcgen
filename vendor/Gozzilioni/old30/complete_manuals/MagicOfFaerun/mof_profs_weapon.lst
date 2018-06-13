@@ -1,0 +1,14 @@
+SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:06-2001
+#			
+### Weapon/Spell			
+Spellfire	TYPE:Spell.Simple.Ranged.Touch.RangedTouch
+### Simple/Martial/Exotic			
+### Melee/Ranged			
+### Bludgeoning/Piercing/Slashing			
+### Reach/Double/Thrown/Projectile/Ammunition			
+### Unharmed/Light/OneHanded/TwoHanded			
+###Automatic			
+###Improvised			
+###Simple			
+###Martial			
+###Exotic			

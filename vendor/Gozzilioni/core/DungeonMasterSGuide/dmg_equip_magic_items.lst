@@ -1,6 +1,6 @@
-SOURCELONG:Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+SOURCELONG:Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																					
 #																								
-# Equipment Name	Output Name	TYPE:	COST:	WT:	SOURCEPAGE:
+# Equipment Name	Output Name	TYPE:	COST:	WT:	SOURCEPAGE:																			
 ##Block: Potions																								
 Potion (Cure Light Wounds)		TYPE:Potion.Vial.Consumable	COST:50	WT:0	SOURCEPAGE:DMG																			
 Potion (Endure Elements)		TYPE:Potion.Vial.Consumable	COST:50	WT:0	SOURCEPAGE:DMG																			
@@ -115,28 +115,28 @@ Ring of Animal Friendship		TYPE:Ring	COST:10800	WT:0	SOURCEPAGE:DMG	SPELLS:Ring 
 Ring of Blinking		TYPE:Ring	COST:27000	WT:0	SOURCEPAGE:DMG	SPELLS:Ring Blinking|TIMES=ATWILL|CASTERLEVEL=7|Blink																		
 Ring of Chameleon Power		TYPE:Ring	COST:12700	WT:0	SOURCEPAGE:DMG	SPELLS:Ring Chameleon Power|TIMES=ATWILL|CASTERLEVEL=3|Disguise Self	TEMPBONUS:PC|SKILL|Hide|10|TYPE=Competence																	
 Ring of Climbing		TYPE:Ring	COST:2500	WT:0	SOURCEPAGE:DMG	BONUS:SKILL|Climb|5|TYPE=Competence																		
-Ring of Climbing, Improved	KEY:Ring of Climbing (Improved)	TYPE:Ring	COST:10000	WT:0	SOURCEPAGE:DMG	BONUS:SKILL|Climb|10|TYPE=Competence																		
+Ring of Climbing (Improved)	OUTPUTNAME:Ring of Climbing, Improved	TYPE:Ring	COST:10000	WT:0	SOURCEPAGE:DMG	BONUS:SKILL|Climb|10|TYPE=Competence																		
 Ring of Counterspells		TYPE:Ring	COST:4000	WT:0	SOURCEPAGE:DMG																			
 Ring of Djinni Calling		TYPE:Ring	COST:125000	WT:0	SOURCEPAGE:DMG																			
 Ring of Elemental Command (Air)		TYPE:Ring	COST:200000	WT:0	SOURCEPAGE:DMG	SPROP:-2 penalty against earth-based effects.	SPELLS:Ring Elemental Command Air|TIMES=ATWILL|CASTERLEVEL=15|Feather Fall|Resist Energy ~ Electricity|Wind Wall	SPELLS:Ring Elemental Command Air|TIMES=2|CASTERLEVEL=15|Gust of Wind	SPELLS:Ring Elemental Command Air|TIMES=1|CASTERLEVEL=15|Air Walk ~ Self only	SPELLS:Ring Elemental Command Air|TIMES=1|TIMEUNIT=Week|CASTERLEVEL=15|Chain Lightning														
 Ring of Elemental Command (Earth)		TYPE:Ring	COST:200000	WT:0	SOURCEPAGE:DMG	SPROP:-2 penalty against air- or electricity-based effects.	SPELLS:Ring Elemental Command Earth|TIMES=ATWILL|CASTERLEVEL=15|Meld into Stone|Soften Earth and Stone	SPELLS:Ring Elemental Command Earth|TIMES=2|CASTERLEVEL=15|Stone Shape	SPELLS:Ring Elemental Command Earth|TIMES=1|TIMEUNIT=Week|CASTERLEVEL=15|Stoneskin ~ Self only	SPELLS:Ring Elemental Command Earth|TIMES=2|TIMEUNIT=Week|CASTERLEVEL=15|Passwall	SPELLS:Ring Elemental Command Earth|TIMES=1|CASTERLEVEL=15|Wall of Stone													
 Ring of Elemental Command (Fire)		TYPE:Ring	COST:200000	WT:0	SOURCEPAGE:DMG	SPROP:-2 penalty against water- or cold-based effects.	SPELLS:Ring Elemental Command Fire|TIMES=ATWILL|CASTERLEVEL=15|Resist Energy ~ Fire|Burning Hands	SPELLS:Ring Elemental Command Fire|TIMES=2|CASTERLEVEL=15|Flaming Sphere|Pyrotechnics	SPELLS:Ring Elemental Command Fire|TIMES=1|CASTERLEVEL=15|Wall of Fire	SPELLS:Ring Elemental Command Fire|TIMES=2|TIMEUNIT=Week|CASTERLEVEL=15|Flame Strike														
 Ring of Elemental Command (Water)		TYPE:Ring	COST:200000	WT:0	SOURCEPAGE:DMG	SPROP:-2 penalty against fire-based effects.	SPELLS:Ring Elemental Command Fire|TIMES=ATWILL|CASTERLEVEL=15|Water Walk|Create Water|Water Breathing	SPELLS:Ring Elemental Command Water|TIMES=1|CASTERLEVEL=15|Wall of Ice	SPELLS:Ring Elemental Command Earth|TIMES=2|TIMEUNIT=Week|CASTERLEVEL=15|Ice Storm|Control Weather															
-Ring of Energy Resistance, Minor (Acid)	KEY:Ring of Energy Resistance (Minor/Acid)	TYPE:Ring	COST:12000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Acid	BONUS:VAR|AcidResistanceBonus|10|TYPE=Resistance																	
-Ring of Energy Resistance, Minor (Cold)	KEY:Ring of Energy Resistance (Minor/Cold)	TYPE:Ring	COST:12000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Cold	BONUS:VAR|ColdResistanceBonus|10|TYPE=Resistance																	
-Ring of Energy Resistance, Minor (Electricity)	KEY:Ring of Energy Resistance (Minor/Electricity)	TYPE:Ring	COST:12000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Electricity	BONUS:VAR|ElectricityResistanceBonus|10|TYPE=Resistance																	
-Ring of Energy Resistance, Minor (Fire)	KEY:Ring of Energy Resistance (Minor/Fire)	TYPE:Ring	COST:12000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Fire	BONUS:VAR|FireResistanceBonus|10|TYPE=Resistance																	
-Ring of Energy Resistance, Minor (Sonic)	KEY:Ring of Energy Resistance (Minor/Sonic)	TYPE:Ring	COST:12000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Sonic	BONUS:VAR|SonicResistanceBonus|10|TYPE=Resistance																	
-Ring of Energy Resistance, Major (Acid)	KEY:Ring of Energy Resistance (Major/Acid)	TYPE:Ring	COST:28000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Acid	BONUS:VAR|AcidResistanceBonus|20|TYPE=Resistance																	
-Ring of Energy Resistance, Major (Cold)	KEY:Ring of Energy Resistance (Major/Cold)	TYPE:Ring	COST:28000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Cold	BONUS:VAR|ColdResistanceBonus|20|TYPE=Resistance																	
-Ring of Energy Resistance, Major (Electricity)	KEY:Ring of Energy Resistance (Major/Electricity)	TYPE:Ring	COST:28000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Electricity	BONUS:VAR|ElectricityResistanceBonus|20|TYPE=Resistance																	
-Ring of Energy Resistance, Major (Fire)	KEY:Ring of Energy Resistance (Major/Fire)	TYPE:Ring	COST:28000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Fire	BONUS:VAR|FireResistanceBonus|20|TYPE=Resistance																	
-Ring of Energy Resistance, Major (Sonic)	KEY:Ring of Energy Resistance (Major/Sonic)	TYPE:Ring	COST:28000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Sonic	BONUS:VAR|SonicResistanceBonus|20|TYPE=Resistance																	
-Ring of Energy Resistance, Greater (Acid)	KEY:Ring of Energy Resistance (Greater/Acid)	TYPE:Ring	COST:44000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Acid	BONUS:VAR|AcidResistanceBonus|30|TYPE=Resistance																	
-Ring of Energy Resistance, Greater (Cold)	KEY:Ring of Energy Resistance (Greater/Cold)	TYPE:Ring	COST:44000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Cold	BONUS:VAR|ColdResistanceBonus|30|TYPE=Resistance																	
-Ring of Energy Resistance, Greater (Electricity)	KEY:Ring of Energy Resistance (Greater/Electricity)	TYPE:Ring	COST:44000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Electricity	BONUS:VAR|ElectricityResistanceBonus|30|TYPE=Resistance																	
-Ring of Energy Resistance, Greater (Fire)	KEY:Ring of Energy Resistance (Greater/Fire)	TYPE:Ring	COST:44000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Fire	BONUS:VAR|FireResistanceBonus|30|TYPE=Resistance																	
-Ring of Energy Resistance, Greater (Sonic)	KEY:Ring of Energy Resistance (Greater/Sonic)	TYPE:Ring	COST:44000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Sonic	BONUS:VAR|SonicResistanceBonus|30|TYPE=Resistance																	
+Ring of Energy Resistance (Minor/Acid)	OUTPUTNAME:Ring of Energy Resistance, Minor (Acid)	TYPE:Ring	COST:12000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Acid	BONUS:VAR|AcidResistanceBonus|10|TYPE=Resistance																	
+Ring of Energy Resistance (Minor/Cold)	OUTPUTNAME:Ring of Energy Resistance, Minor (Cold)	TYPE:Ring	COST:12000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Cold	BONUS:VAR|ColdResistanceBonus|10|TYPE=Resistance																	
+Ring of Energy Resistance (Minor/Electricity)	OUTPUTNAME:Ring of Energy Resistance, Minor (Electricity)	TYPE:Ring	COST:12000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Electricity	BONUS:VAR|ElectricityResistanceBonus|10|TYPE=Resistance																	
+Ring of Energy Resistance (Minor/Fire)	OUTPUTNAME:Ring of Energy Resistance, Minor (Fire)	TYPE:Ring	COST:12000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Fire	BONUS:VAR|FireResistanceBonus|10|TYPE=Resistance																	
+Ring of Energy Resistance (Minor/Sonic)	OUTPUTNAME:Ring of Energy Resistance, Minor (Sonic)	TYPE:Ring	COST:12000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Sonic	BONUS:VAR|SonicResistanceBonus|10|TYPE=Resistance																	
+Ring of Energy Resistance (Major/Acid)	OUTPUTNAME:Ring of Energy Resistance, Major (Acid)	TYPE:Ring	COST:28000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Acid	BONUS:VAR|AcidResistanceBonus|20|TYPE=Resistance																	
+Ring of Energy Resistance (Major/Cold)	OUTPUTNAME:Ring of Energy Resistance, Major (Cold)	TYPE:Ring	COST:28000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Cold	BONUS:VAR|ColdResistanceBonus|20|TYPE=Resistance																	
+Ring of Energy Resistance (Major/Electricity)	OUTPUTNAME:Ring of Energy Resistance, Major (Electricity)	TYPE:Ring	COST:28000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Electricity	BONUS:VAR|ElectricityResistanceBonus|20|TYPE=Resistance																	
+Ring of Energy Resistance (Major/Fire)	OUTPUTNAME:Ring of Energy Resistance, Major (Fire)	TYPE:Ring	COST:28000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Fire	BONUS:VAR|FireResistanceBonus|20|TYPE=Resistance																	
+Ring of Energy Resistance (Major/Sonic)	OUTPUTNAME:Ring of Energy Resistance, Major (Sonic)	TYPE:Ring	COST:28000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Sonic	BONUS:VAR|SonicResistanceBonus|20|TYPE=Resistance																	
+Ring of Energy Resistance (Greater/Acid)	OUTPUTNAME:Ring of Energy Resistance, Greater (Acid)	TYPE:Ring	COST:44000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Acid	BONUS:VAR|AcidResistanceBonus|30|TYPE=Resistance																	
+Ring of Energy Resistance (Greater/Cold)	OUTPUTNAME:Ring of Energy Resistance, Greater (Cold)	TYPE:Ring	COST:44000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Cold	BONUS:VAR|ColdResistanceBonus|30|TYPE=Resistance																	
+Ring of Energy Resistance (Greater/Electricity)	OUTPUTNAME:Ring of Energy Resistance, Greater (Electricity)	TYPE:Ring	COST:44000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Electricity	BONUS:VAR|ElectricityResistanceBonus|30|TYPE=Resistance																	
+Ring of Energy Resistance (Greater/Fire)	OUTPUTNAME:Ring of Energy Resistance, Greater (Fire)	TYPE:Ring	COST:44000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Fire	BONUS:VAR|FireResistanceBonus|30|TYPE=Resistance																	
+Ring of Energy Resistance (Greater/Sonic)	OUTPUTNAME:Ring of Energy Resistance, Greater (Sonic)	TYPE:Ring	COST:44000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Resistance To Sonic	BONUS:VAR|SonicResistanceBonus|30|TYPE=Resistance																	
 Ring of Evasion		TYPE:Ring	COST:25000	WT:0	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Evasion																		
 Ring of Feather Falling		TYPE:Ring	COST:2200	WT:0	SOURCEPAGE:DMG	SPELLS:Ring Feather Falling|TIMES=ATWILL|CASTERLEVEL=1|Feather Fall																		
 Ring of Force Shield		TYPE:Ring	COST:8500	WT:0	SOURCEPAGE:DMG	BONUS:COMBAT|AC|2|TYPE=Shield																		
@@ -145,7 +145,7 @@ Ring of Friend Shield (1 of 2)		TYPE:Ring	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Ring
 Ring of Friend Shield (pair)		TYPE:Ring	COST:50000	WT:0	SOURCEPAGE:DMG	SPELLS:Ring Friendly Shield|TIMES=ATWILL|CASTERLEVEL=7|Shield Other	AUTO:EQUIP|Ring of Friend Shield (1 of 2)																	
 Ring of Invisibility		TYPE:Ring	COST:20000	WT:0	SOURCEPAGE:DMG	SPELLS:Ring Invisibility|TIMES=ATWILL|CASTERLEVEL=3|Invisibility																		
 Ring of Jumping		TYPE:Ring	COST:2500	WT:0	SOURCEPAGE:DMG	BONUS:SKILL|Jump|5|TYPE=Competence																		
-Ring of Jumping, Improved	KEY:Ring of Jumping (Improved)	TYPE:Ring	COST:10000	WT:0	SOURCEPAGE:DMG	BONUS:SKILL|Jump|10|TYPE=Competence																		
+Ring of Jumping (Improved)	OUTPUTNAME:Ring of Jumping, Improved	TYPE:Ring	COST:10000	WT:0	SOURCEPAGE:DMG	BONUS:SKILL|Jump|10|TYPE=Competence																		
 Ring of Mind Shielding		TYPE:Ring	COST:8000	WT:0	SOURCEPAGE:DMG	SPROP:Immunity to Detect Thougths, Discern Lies and any tentative to magically discern alignment.																		
 Ring of Protection +1		TYPE:Ring	COST:2000	WT:0	SOURCEPAGE:DMG	BONUS:COMBAT|AC|1|TYPE=Deflection																		
 Ring of Protection +2		TYPE:Ring	COST:8000	WT:0	SOURCEPAGE:DMG	BONUS:COMBAT|AC|2|TYPE=Deflection																		
@@ -155,13 +155,13 @@ Ring of Protection +5		TYPE:Ring	COST:50000	WT:0	SOURCEPAGE:DMG	BONUS:COMBAT|AC|
 Ring of Ram		TYPE:Ring	COST:8600	WT:0	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]																		
 Ring of Regeneration		TYPE:Ring	COST:90000	WT:0	SOURCEPAGE:DMG																			
 Ring of Shooting Stars		TYPE:Ring	COST:50000	WT:0	SOURCEPAGE:DMG																			
-Ring of Spell Storing, Minor	KEY:Ring of Spell Storing (Minor)	TYPE:Ring.Spellbook	COST:18000	WT:0	SOURCEPAGE:DMG	SPROP:Store 3 levels of spells.	NUMPAGES:3	PAGEUSAGE:max(SPELLLEVEL,1)																
+Ring of Spell Storing (Minor)	OUTPUTNAME:Ring of Spell Storing, Minor	TYPE:Ring.Spellbook	COST:18000	WT:0	SOURCEPAGE:DMG	SPROP:Store 3 levels of spells.	NUMPAGES:3	PAGEUSAGE:max(SPELLLEVEL,1)																
 Ring of Spell Storing		TYPE:Ring.Spellbook	COST:50000	WT:0	SOURCEPAGE:DMG	SPROP:Store 5 levels of spells.	NUMPAGES:5	PAGEUSAGE:max(SPELLLEVEL,1)																
-Ring of Spell Storing, Major	KEY:Ring of Spell Storing (Major)	TYPE:Ring.Spellbook	COST:200000	WT:0	SOURCEPAGE:DMG	SPROP:Store 7 levels of spells.	NUMPAGES:7	PAGEUSAGE:max(SPELLLEVEL,1)																
+Ring of Spell Storing (Major)	OUTPUTNAME:Ring of Spell Storing, Major	TYPE:Ring.Spellbook	COST:200000	WT:0	SOURCEPAGE:DMG	SPROP:Store 7 levels of spells.	NUMPAGES:7	PAGEUSAGE:max(SPELLLEVEL,1)																
 Ring of Spellturning		TYPE:Ring	COST:98280	WT:0	SOURCEPAGE:DMG	SPROP:3/day on command automatically reflects the next nine levels of spells cast at the wearer, exactly as if spell turning had been cast upon the wearer.																		
 Ring of Sustenance		TYPE:Ring	COST:2500	WT:0	SOURCEPAGE:DMG	SPROP:the wearer needs only sleep 2 hours per day to gain the benefit of 8 hours of sleep.																		
 Ring of Swimming		TYPE:Ring	COST:2500	WT:0	SOURCEPAGE:DMG	BONUS:SKILL|Swim|5|TYPE=Competence																		
-Ring of Swimming, Improved	KEY:Ring of Swimming (Improved)	TYPE:Ring	COST:10000	WT:0	SOURCEPAGE:DMG	BONUS:SKILL|Swim|10|TYPE=Competence																		
+Ring of Swimming (Improved)	OUTPUTNAME:Ring of Swimming, Improved	TYPE:Ring	COST:10000	WT:0	SOURCEPAGE:DMG	BONUS:SKILL|Swim|10|TYPE=Competence																		
 Ring of Telekinesis		TYPE:Ring	COST:75000	WT:0	SOURCEPAGE:DMG	SPELLS:Ring Telekinesis|TIMES=ATWILL|CASTERLEVEL=9|Telekinesis																		
 Ring of Three Wishes		TYPE:Ring	COST:97950	WT:0	SOURCEPAGE:DMG	SPELLS:Ring Three Wishes|TIMES=ATWILL|CASTERLEVEL=20|Wish	EQMOD:CHARGED_ITEM_3|CHARGES[3]																	
 Ring of Water Walking		TYPE:Ring	COST:15000	WT:0	SOURCEPAGE:DMG	SPELLS:Ring Water Walking|TIMES=ATWILL|CASTERLEVEL=9|Water Walk																		
@@ -181,24 +181,24 @@ Rod of Flame Extinguishing		TYPE:Rod	COST:15000	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGE
 Immovable Rod		TYPE:Rod	COST:5000	WT:5	SOURCEPAGE:DMG																			
 Rod of Lordly Might		TYPE:Rod	COST:70000	WT:5	SOURCEPAGE:DMG				PROFICIENCY:WEAPON|Mace (Light)	WIELD:Light	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS2W									
 Rod of Metal and Mineral Detection		TYPE:Rod	COST:10500	WT:5	SOURCEPAGE:DMG																			
-Rod of Metamagic Empower, Lesser	KEY:Rod of Metamagic (Empower/Lesser)	TYPE:Rod	COST:9000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Empower Spell feat on a 3rd level spells.																		
-Rod of Metamagic Empower	KEY:Rod of Metamagic (Empower)	TYPE:Rod	COST:32500	WT:5	SOURCEPAGE:DMG	SPROP:3/day Empower Spell feat on a 6th level spells.																		
-Rod of Metamagic Empower, Greater	KEY:Rod of Metamagic (Empower/Greater)	TYPE:Rod	COST:73000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Empower Spell feat on a 9th level spells.																		
-Rod of Metamagic Enlarge, Lesser	KEY:Rod of Metamagic (Enlarge/Lesser)	TYPE:Rod	COST:3000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Enlarge Spell feat on a 3rd level spells.																		
-Rod of Metamagic Enlarge	KEY:Rod of Metamagic (Enlarge)	TYPE:Rod	COST:11000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Enlarge Spell feat on a 6th level spells.																		
-Rod of Metamagic Enlarge, Greater	KEY:Rod of Metamagic (Enlarge/Greater)	TYPE:Rod	COST:24500	WT:5	SOURCEPAGE:DMG	SPROP:3/day Enlarge Spell feat on a 9th level spells.																		
-Rod of Metamagic Extend, Lesser	KEY:Rod of Metamagic (Extend/Lesser)	TYPE:Rod	COST:3000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Extend Spell feat on a 3rd level spells.																		
-Rod of Metamagic Extend	KEY:Rod of Metamagic (Extend)	TYPE:Rod	COST:11000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Extend Spell feat on a 6th level spells.																		
-Rod of Metamagic Extend, Greater	KEY:Rod of Metamagic (Extend/Greater)	TYPE:Rod	COST:24500	WT:5	SOURCEPAGE:DMG	SPROP:3/day Extend Spell feat on a 9th level spells.																		
-Rod of Metamagic Maximize, Lesser	KEY:Rod of Metamagic (Maximize/Lesser)	TYPE:Rod	COST:14000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Maximize Spell feat on a 3rd level spells.																		
-Rod of Metamagic Maximize	KEY:Rod of Metamagic (Maximize)	TYPE:Rod	COST:54000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Maximize Spell feat on a 6th level spells.																		
-Rod of Metamagic Maximize, Greater	KEY:Rod of Metamagic (Maximize/Greater)	TYPE:Rod	COST:121500	WT:5	SOURCEPAGE:DMG	SPROP:3/day Maximize Spell feat on a 9th level spells.																		
-Rod of Metamagic Quicken, Lesser	KEY:Rod of Metamagic (Quicken/Lesser)	TYPE:Rod	COST:35000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Quicken Spell feat on a 3rd level spells.																		
-Rod of Metamagic Quicken	KEY:Rod of Metamagic (Quicken)	TYPE:Rod	COST:75500	WT:5	SOURCEPAGE:DMG	SPROP:3/day Quicken Spell feat on a 6th level spells.																		
-Rod of Metamagic Quicken, Greater	KEY:Rod of Metamagic (Quicken/Greater)	TYPE:Rod	COST:170000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Quicken Spell feat on a 9th level spells.																		
-Rod of Metamagic Silent, Lesser	KEY:Rod of Metamagic (Silent/Lesser)	TYPE:Rod	COST:3000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Silent Spell feat on a 3rd level spells.																		
-Rod of Metamagic Silent	KEY:Rod of Metamagic (Silent)	TYPE:Rod	COST:1100	WT:5	SOURCEPAGE:DMG	SPROP:3/day Silent Spell feat on a 6th level spells.																		
-Rod of Metamagic Silent, Greater	KEY:Rod of Metamagic (Silent/Greater)	TYPE:Rod	COST:24500	WT:5	SOURCEPAGE:DMG	SPROP:3/day Silent Spell feat on a 9th level spells.																		
+Rod of Metamagic (Empower/Lesser)	OUTPUTNAME:Rod of Metamagic Empower, Lesser	TYPE:Rod	COST:9000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Empower Spell feat on a 3rd level spells.																		
+Rod of Metamagic (Empower)	OUTPUTNAME:Rod of Metamagic Empower	TYPE:Rod	COST:32500	WT:5	SOURCEPAGE:DMG	SPROP:3/day Empower Spell feat on a 6th level spells.																		
+Rod of Metamagic (Empower/Greater)	OUTPUTNAME:Rod of Metamagic Empower, Greater	TYPE:Rod	COST:73000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Empower Spell feat on a 9th level spells.																		
+Rod of Metamagic (Enlarge/Lesser)	OUTPUTNAME:Rod of Metamagic Enlarge, Lesser	TYPE:Rod	COST:3000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Enlarge Spell feat on a 3rd level spells.																		
+Rod of Metamagic (Enlarge)	OUTPUTNAME:Rod of Metamagic Enlarge	TYPE:Rod	COST:11000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Enlarge Spell feat on a 6th level spells.																		
+Rod of Metamagic (Enlarge/Greater)	OUTPUTNAME:Rod of Metamagic Enlarge, Greater	TYPE:Rod	COST:24500	WT:5	SOURCEPAGE:DMG	SPROP:3/day Enlarge Spell feat on a 9th level spells.																		
+Rod of Metamagic (Extend/Lesser)	OUTPUTNAME:Rod of Metamagic Extend, Lesser	TYPE:Rod	COST:3000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Extend Spell feat on a 3rd level spells.																		
+Rod of Metamagic (Extend)	OUTPUTNAME:Rod of Metamagic Extend	TYPE:Rod	COST:11000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Extend Spell feat on a 6th level spells.																		
+Rod of Metamagic (Extend/Greater)	OUTPUTNAME:Rod of Metamagic Extend, Greater	TYPE:Rod	COST:24500	WT:5	SOURCEPAGE:DMG	SPROP:3/day Extend Spell feat on a 9th level spells.																		
+Rod of Metamagic (Maximize/Lesser)	OUTPUTNAME:Rod of Metamagic Maximize, Lesser	TYPE:Rod	COST:14000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Maximize Spell feat on a 3rd level spells.																		
+Rod of Metamagic (Maximize)	OUTPUTNAME:Rod of Metamagic Maximize	TYPE:Rod	COST:54000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Maximize Spell feat on a 6th level spells.																		
+Rod of Metamagic (Maximize/Greater)	OUTPUTNAME:Rod of Metamagic Maximize, Greater	TYPE:Rod	COST:121500	WT:5	SOURCEPAGE:DMG	SPROP:3/day Maximize Spell feat on a 9th level spells.																		
+Rod of Metamagic (Quicken/Lesser)	OUTPUTNAME:Rod of Metamagic Quicken, Lesser	TYPE:Rod	COST:35000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Quicken Spell feat on a 3rd level spells.																		
+Rod of Metamagic (Quicken)	OUTPUTNAME:Rod of Metamagic Quicken	TYPE:Rod	COST:75500	WT:5	SOURCEPAGE:DMG	SPROP:3/day Quicken Spell feat on a 6th level spells.																		
+Rod of Metamagic (Quicken/Greater)	OUTPUTNAME:Rod of Metamagic Quicken, Greater	TYPE:Rod	COST:170000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Quicken Spell feat on a 9th level spells.																		
+Rod of Metamagic (Silent/Lesser)	OUTPUTNAME:Rod of Metamagic Silent, Lesser	TYPE:Rod	COST:3000	WT:5	SOURCEPAGE:DMG	SPROP:3/day Silent Spell feat on a 3rd level spells.																		
+Rod of Metamagic (Silent)	OUTPUTNAME:Rod of Metamagic Silent	TYPE:Rod	COST:1100	WT:5	SOURCEPAGE:DMG	SPROP:3/day Silent Spell feat on a 6th level spells.																		
+Rod of Metamagic (Silent/Greater)	OUTPUTNAME:Rod of Metamagic Silent, Greater	TYPE:Rod	COST:24500	WT:5	SOURCEPAGE:DMG	SPROP:3/day Silent Spell feat on a 9th level spells.																		
 Rod of Negation		TYPE:Rod	COST:37000	WT:5	SOURCEPAGE:DMG	SPROP:3/day.																		
 Rod of Python		TYPE:Rod.Weapon.Melee.Simple.Bludgeoning.TwoHanded.Quarterstaff	COST:13000	WT:4	SOURCEPAGE:DMG				PROFICIENCY:WEAPON|Quarterstaff	WIELD:TwoHanded	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS1W			ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.EQ_COST_ADJ_W.PLUS1W		
 Rod of Rulership		TYPE:Rod	COST:60000	WT:5	SOURCEPAGE:DMG	SPROP:500 total minutes.																		
@@ -1003,8 +1003,8 @@ Scroll (Summon Monster IX/Divine)		TYPE:Scroll.Divine.Consumable	COST:3825	WT:0.
 Scroll (Summon Nature's Ally IX)		TYPE:Scroll.Divine.Consumable	COST:3825	WT:0.01	SOURCEPAGE:DMG																			
 Scroll (Sympathy/Divine)		TYPE:Scroll.Divine.Consumable	COST:5325	WT:0.01	SOURCEPAGE:DMG																			
 Scroll (True Resurrection)		TYPE:Scroll.Divine.Consumable	COST:28825	WT:0.01	SOURCEPAGE:DMG																			
-
-###Block: Staff
+																								
+###Block: Staff																								
 Staff of Abjuration	KEY:Staff (Abjuration)	TYPE:Staff	COST:65000	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Shield (1 charge)/Resist energy (1 charge)/Dispel magic (1 charge)/Lesser globe of invulnerability (2 charges)/Dismissal (2 charges)/Repulsion (3 charges).																	
 Staff of Charming	KEY:Staff (Charming)	TYPE:Staff	COST:16500	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Charm person (1 charge)/Charm monster (2 charges).																	
 Staff of Conjuration	KEY:Staff (Conjuration)	TYPE:Staff	COST:65000	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Unseen servant (1 charge)/Summon swarm (1 charge)/Stinking cloud (1 charge)/Minor creation (2 charges)/Cloudkill (2 charges)/Summon monster VI (3 charges).																	
@@ -1027,7 +1027,7 @@ Staff of Swarming Insects	KEY:Staff (Swarming Insects)	TYPE:Staff	COST:24750	WT:
 Staff of Transmutation	KEY:Staff (Transmutation)	TYPE:Staff	COST:65000	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Expeditious retreat (1 charge)/Alter self (1 charge)/Blink (1 charge)/Polymorph (2 charges)/Baleful polymorph (2 charges)/Disintegrate (3 charges).																	
 Staff of Woodland	KEY:Staff (Woodlands)	TYPE:Staff.Weapon.Melee.Simple.Bludgeoning.TwoHanded.Quarterstaff	COST:101250	WT:4	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Charm animal (1 charge)/Speak with animals (1 charge)/Barkskin (2 charges)/Wall of thorns (3 charges)/Summon nature's ally VI (3 charges)/Animate plants (4 charges).	SPELLS:Staff Woodland|TIMES=ATWILL|CASTERLEVEL=13|Pass without Trace	PROFICIENCY:WEAPON|Quarterstaff	WIELD:TwoHanded	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS2W.CHARGED_ITEM_50|CHARGES[50]			ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.EQ_COST_ADJ_W.PLUS2W		
 																								
-###Block: Wands
+###Block: Wands																								
 Wand (Detect Magic)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
 Wand (Light)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
 Wand (Burning Hands)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
@@ -1110,7 +1110,7 @@ Wand (Unholy Blight/8th level caster)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG
 Wand (Restoration)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
 Wand (Stoneskin)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
 																								
-###Block: Wondrous
+###Block: Wondrous																								
 Amulet of Health +2		TYPE:Wondrous.Amulet	COST:4000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|CON|2|TYPE=Enhancement																		
 Amulet of Health +4		TYPE:Wondrous.Amulet	COST:16000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|CON|4|TYPE=Enhancement																		
 Amulet of Health +6		TYPE:Wondrous.Amulet	COST:36000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|CON|6|TYPE=Enhancement																		
@@ -1131,9 +1131,9 @@ Bag of Holding I		TYPE:Wondrous.Container	COST:2500	WT:15	SOURCEPAGE:DMG	CONTAIN
 Bag of Holding II		TYPE:Wondrous.Container	COST:5000	WT:25	SOURCEPAGE:DMG	CONTAINS:*500																		
 Bag of Holding III		TYPE:Wondrous.Container	COST:7400	WT:35	SOURCEPAGE:DMG	CONTAINS:*1000																		
 Bag of Holding IV		TYPE:Wondrous.Container	COST:10000	WT:60	SOURCEPAGE:DMG	CONTAINS:*1500																		
-Bag of Tricks, Gray	KEY:Bag of Tricks (Gray)	TYPE:Wondrous	COST:900	WT:0	SOURCEPAGE:DMG																			
-Bag of Tricks, Rust	KEY:Bag of Tricks (Rust)	TYPE:Wondrous	COST:3000	WT:0	SOURCEPAGE:DMG																			
-Bag of Tricks, Tan	KEY:Bag of Tricks (Tan)	TYPE:Wondrous	COST:6300	WT:0	SOURCEPAGE:DMG																			
+Bag of Tricks (Gray)	OUTPUTNAME:Bag of Tricks, Gray	TYPE:Wondrous	COST:900	WT:0	SOURCEPAGE:DMG																			
+Bag of Tricks (Rust)	OUTPUTNAME:Bag of Tricks, Rust	TYPE:Wondrous	COST:3000	WT:0	SOURCEPAGE:DMG																			
+Bag of Tricks (Tan)	OUTPUTNAME:Bag of Tricks, Tan	TYPE:Wondrous	COST:6300	WT:0	SOURCEPAGE:DMG																			
 Bead of Force		TYPE:Wondrous.Consumable	COST:3000	WT:0	SOURCEPAGE:DMG	SPROP:(Ref DC 16)																		
 Belt (Monk's)	OUTPUTNAME:Belt, Monk's	TYPE:Wondrous.Belt	COST:13000	WT:1	SOURCEPAGE:DMG	ABILITY:Special Ability|VIRTUAL|Monk ~ AC Bonus	BONUS:VAR|MonkACLVLBonus|5	ABILITY:Internal|AUTOMATIC|Unarmed Damage	BONUS:UDAM|CLASS.Monk|5		BONUS:VAR|MonkUnarmedDamageLVL|5	BONUS:VAR|StunningFistAttack|1|PREABILITY:1,CATEGORY=FEAT,Stunning Fist												
 Belt of Dwarvenkind		TYPE:Wondrous.Belt	COST:14900	WT:1	SOURCEPAGE:DMG	SPROP:on Charisma checks and Charisma-based skill checks as they relate to dealing with dwarves, a +2 competence bonus on similar checks when dealing with gnomes and halflings, and a '2 competence penalty on similar checks when dealing with anyone.	AUTO:LANG|Dwarven	ABILITY:Special Ability|VIRTUAL|Dwarf ~ Poison Save Bonus|Dwarf ~ Spell Save Bonus|Dwarf ~ Stonecunning|!PRERACE:1,Dwarf	BONUS:STAT|CON|2|TYPE=Enhancement|!PRERACE:1,Dwarf															
@@ -1286,7 +1286,7 @@ Ioun Stone (Iridescent)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	CO
 Ioun Stone (Pale Lavender)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:20000	WT:0	SOURCEPAGE:DMG	SPROP:Absorb spells of 4th level or lower.	EQMOD:CHARGED_ITEM_20|CHARGES[20]																	
 Ioun Stone (Pearly White)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:20000	WT:0	SOURCEPAGE:DMG																			
 Ioun Stone (Pale Green)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:30000	WT:0	SOURCEPAGE:DMG	BONUS:COMBAT|TOHIT|1|TYPE=Competence	BONUS:SAVE|ALL|1|TYPE=Competence	BONUS:SKILL|TYPE.Strength,TYPE.Dexterity,TYPE.Constitution,TYPE.Intelligence,TYPE.Wisdom,TYPE.Charisma|1|TYPE=Competence	BONUS:VAR|TurnCheckBase|1|TYPE=Competence															
-Ioun Stone (Orange)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:30000	WT:0	SOURCEPAGE:DMG	BONUS:VAR|Caster_Level_Bonus|1
+Ioun Stone (Orange)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:30000	WT:0	SOURCEPAGE:DMG	BONUS:VAR|Caster_Level_Bonus|1																		
 Ioun Stone (Lavender and Green)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:40000	WT:0	SOURCEPAGE:DMG	SPROP:Absorb spells of 8th level or lower.	EQMOD:CHARGED_ITEM_50|CHARGES[50]																	
 Ioun Stone (Dull Gray)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone	COST:25	WT:0	SOURCEPAGE:DMG	SPROP:Burnt-out stone.																		
 Iron Bands of Bilarro		TYPE:Wondrous	COST:26000	WT:1	SOURCEPAGE:DMG																			
@@ -1416,60 +1416,60 @@ Vestment (Druid)	OUTPUTNAME:Vestment, Druid's	TYPE:Wondrous.Shirt	COST:10000	WT:
 Well of Many Worlds		TYPE:Wondrous	COST:82000	WT:0	SOURCEPAGE:DMG																			
 Wind fan		TYPE:Wondrous	COST:5500	WT:0	SOURCEPAGE:DMG																			
 Wings of Flying		TYPE:Wondrous.Cape	COST:54000	WT:2	SOURCEPAGE:DMG	SPELLS:Wings of Flying|TIMES=ATWILL|CASTERLEVEL=10|Fly																		
-
-## Intelligent
-Zax	OUTPUTNAME:Zax, Cloak of the King	TYPE:Wondrous.Cape	COST:36000	WT:1	SOURCEPAGE:DMG	BONUS:STAT|CHA|6|TYPE=Enhancement	EQMOD:INT_ITEM.CAPE_INT_ITEM_3.INT_ITEM_WIS_14.INT_ITEM_CHA_14.INT_ITEM_ALIGN_LN.INT_ITEM_ZONE_TRUTH.INT_ITEM_DIPLOMACY.INT_ITEM_KNOWLEDGE|Knowledge (History)
-
-## Cursed
-Amulet of Inescapable Location		TYPE:Wondrous.Cursed.Amulet	COST:1000	WT:0	SOURCEPAGE:DMG	SPROP:Appears to be an Amulet of Proof against Detection and Location, but -10 penalty on all saves against divination spells.	EQMOD:CURSED_ITEM.AMLT_CURSED
-Bag of Devouring		TYPE:Wondrous.Container	COST:0	WT:15	SOURCEPAGE:DMG	CONTAINS:*250
-Boots of Dancing	TYPE:Wondrous.Boot	COST:30000	WT:1	SOURCEPAGE:DMG	SLOTS:2	SPROP:Wearer becomes victim of Otto's Irresistible Dance in combat (or fleeing).	EQMOD:CURSED_ITEM.BOOT_CURSED
-Bracers of Defenselessness		TYPE:Wondrous.Bracer	COST:1200	WT:1	SOURCEPAGE:DMG	SLOTS:2	BONUS:COMBAT|AC|-5|TYPE=Armor	EQMOD:CURSED_ITEM.BRCR_CURSED
-Broom of Animated Attack		TYPE:Wondrous	COST:5200	WT:3	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM
-Cloak of Poisonousness		TYPE:Wondrous.Cape	COST:62000	WT:1	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM.CAPE_CURSED
-Crystal Hypnosis Ball	TYPE:Artifact.Minor	COST:0	WT:7	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM	SPROP:Appears to be a normal Crystal Ball.
-Dust of Sneezing and Choking	TYPE:Wondrous.Consumable.Dust	COST:2400	WT:0	SOURCEPAGE:DMG	SPROP:Appears to be Dust of Appearance.	EQMOD:CURSED_ITEM
-Flask of Curses	TYPE:Wondrous	COST:2100	WT:1.5	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM
-Gauntlets of Fumbling (Gloves)	TYPE:Wondrous.Glove	COST:1300	WT:0	SOURCEPAGE:DMG	SLOTS:2	BONUS:STAT|DEX|-2	SPROP:Appear to be Gloves of Dexterity. Fumble held items 50%% of the time.	EQMOD:CURSED_ITEM.GLVE_CURSED
-Gauntlets of Fumbling (Gauntlets)	TYPE:Wondrous.Glove	COST:1300	WT:4	SOURCEPAGE:DMG	SLOTS:2	BONUS:STAT|DEX|-2	SPROP:Appear to be Gauntlets of Ogre Power. Fumble held items 50%% of the time.	EQMOD:CURSED_ITEM.GLVE_CURSED
-Helm of Opposite Alignment	TYPE:Wondrous.Headgear	COST:4000	WT:3	SOURCEPAGE:DMG	SPROP:Appears to be a typical helmet. Changes alignment to opposite (DC 15 Will negates).	EQMOD:CURSED_ITEM.HEAD_CURSED
-Incense of Obsession	TYPE:Wondrous.Incense.Consumable	COST:200	WT:1	SOURCEPAGE:DMG	SPROP:Appears to be Incense of Meditation.	QUALITY:Duration|8 hr.
-Medallion of Thought Projection		TYPE:Wondrous.Amulet	COST:1800	WT:0	SOURCEPAGE:DMG	SPELLS:Medallion of Thought Projection|TIMES=ATWILL|CASTERLEVEL=5|Detect Thoughts	EQMOD:CURSED_ITEM.AMLT_CURSED
-Necklace of Strangulation		TYPE:Wondrous.Amulet	COST:60000	WT:0	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM.AMLT_CURSED
-Periapt of Foul Rotting		TYPE:Wondrous.Amulet	COST:17000	WT:0	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM.AMLT_CURSED
-Potion (Poison)		TYPE:Wondrous.Potion.Vial.Consumable	COST:5000	WT:0	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM	SPROP:Ingestion (Fort DC 16). Initial: 1d10 points of CON damage. Secondary: 1d10 points of CON damage.
-Robe of Powerlessness		TYPE:Wondrous.Robe	COST:5500	WT:1	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM.CAPE_CURSED	BONUS:STAT|STR|-10	BONUS:STAT|INT|-10
-Robe of Vermin		TYPE:Wondrous.Cape	COST:16500	WT:1	SOURCEPAGE:DMG	BONUS:SAVE|ALL|-2	BONUS:COMBAT|INITIATIVE|-5	BONUS:COMBAT|TOHIT|-2	BONUS:SKILL|ALL|-2	EQMOD:CURSED_ITEM.CAPE_CURSED
-Ring of Clumsiness		TYPE:Wondrous.Ring	COST:500	WT:0	SOURCEPAGE:DMG	BONUS:STAT|DEX|-4	BONUS:MISC|SPELLFAILURE|20	EQMOD:CURSED_ITEM.RING_CURSED	
-Scarab of Death		TYPE:Wondrous.Amulet	COST:80000	WT:0	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM.AMLT_CURSED
-Stone of Weight (Loadstone)		TYPE:Wondrous	COST:1000	WT:0	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM
-Vacuous Grimoire		TYPE:Wondrous	COST:6000	WT:3	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM
-
-## Artifacts
-#Minor Artifacts
-Book of Exalted Deeds		TYPE:Artifact.Minor.Book	COST:0	WT:3	SOURCEPAGE:DMG
-Book of Infinite Spells		TYPE:Artifact.Minor.Book	COST:0	WT:3	SOURCEPAGE:DMG	ABILITY:Special Ability|AUTOMATIC|Negative Levels	BONUS:VAR|NegativeLevels|1|!PRECLASS:1,SPELLCASTER=1
-Book of Vile Darkness		TYPE:Artifact.Minor.Book	COST:0	WT:3	SOURCEPAGE:DMG
-Deck of Many Things		TYPE:Artifact.Minor	COST:0	WT:0	SOURCEPAGE:DMG
-Philosopher's Stone		TYPE:Artifact.Minor	COST:0	WT:3	SOURCEPAGE:DMG
+																								
+## Intelligent																								
+Zax	OUTPUTNAME:Zax, Cloak of the King	TYPE:Wondrous.Cape	COST:36000	WT:1	SOURCEPAGE:DMG	BONUS:STAT|CHA|6|TYPE=Enhancement	EQMOD:INT_ITEM.CAPE_INT_ITEM_3.INT_ITEM_WIS_14.INT_ITEM_CHA_14.INT_ITEM_ALIGN_LN.INT_ITEM_ZONE_TRUTH.INT_ITEM_DIPLOMACY.INT_ITEM_KNOWLEDGE|Knowledge (History)																	
+																								
+## Cursed																								
+Amulet of Inescapable Location		TYPE:Wondrous.Cursed.Amulet	COST:1000	WT:0	SOURCEPAGE:DMG	SPROP:Appears to be an Amulet of Proof against Detection and Location, but -10 penalty on all saves against divination spells.	EQMOD:CURSED_ITEM.AMLT_CURSED																	
+Bag of Devouring		TYPE:Wondrous.Container	COST:0	WT:15	SOURCEPAGE:DMG	CONTAINS:*250																		
+Boots of Dancing	TYPE:Wondrous.Boot	COST:30000	WT:1	SOURCEPAGE:DMG	SLOTS:2	SPROP:Wearer becomes victim of Otto's Irresistible Dance in combat (or fleeing).	EQMOD:CURSED_ITEM.BOOT_CURSED																	
+Bracers of Defenselessness		TYPE:Wondrous.Bracer	COST:1200	WT:1	SOURCEPAGE:DMG	SLOTS:2	BONUS:COMBAT|AC|-5|TYPE=Armor	EQMOD:CURSED_ITEM.BRCR_CURSED																
+Broom of Animated Attack		TYPE:Wondrous	COST:5200	WT:3	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM																		
+Cloak of Poisonousness		TYPE:Wondrous.Cape	COST:62000	WT:1	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM.CAPE_CURSED																		
+Crystal Hypnosis Ball	TYPE:Artifact.Minor	COST:0	WT:7	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM	SPROP:Appears to be a normal Crystal Ball.																		
+Dust of Sneezing and Choking	TYPE:Wondrous.Consumable.Dust	COST:2400	WT:0	SOURCEPAGE:DMG	SPROP:Appears to be Dust of Appearance.	EQMOD:CURSED_ITEM																		
+Flask of Curses	TYPE:Wondrous	COST:2100	WT:1.5	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM																			
+Gauntlets of Fumbling (Gloves)	TYPE:Wondrous.Glove	COST:1300	WT:0	SOURCEPAGE:DMG	SLOTS:2	BONUS:STAT|DEX|-2	SPROP:Appear to be Gloves of Dexterity. Fumble held items 50%% of the time.	EQMOD:CURSED_ITEM.GLVE_CURSED																
+Gauntlets of Fumbling (Gauntlets)	TYPE:Wondrous.Glove	COST:1300	WT:4	SOURCEPAGE:DMG	SLOTS:2	BONUS:STAT|DEX|-2	SPROP:Appear to be Gauntlets of Ogre Power. Fumble held items 50%% of the time.	EQMOD:CURSED_ITEM.GLVE_CURSED																
+Helm of Opposite Alignment	TYPE:Wondrous.Headgear	COST:4000	WT:3	SOURCEPAGE:DMG	SPROP:Appears to be a typical helmet. Changes alignment to opposite (DC 15 Will negates).	EQMOD:CURSED_ITEM.HEAD_CURSED																		
+Incense of Obsession	TYPE:Wondrous.Incense.Consumable	COST:200	WT:1	SOURCEPAGE:DMG	SPROP:Appears to be Incense of Meditation.	QUALITY:Duration|8 hr.																		
+Medallion of Thought Projection		TYPE:Wondrous.Amulet	COST:1800	WT:0	SOURCEPAGE:DMG	SPELLS:Medallion of Thought Projection|TIMES=ATWILL|CASTERLEVEL=5|Detect Thoughts	EQMOD:CURSED_ITEM.AMLT_CURSED																	
+Necklace of Strangulation		TYPE:Wondrous.Amulet	COST:60000	WT:0	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM.AMLT_CURSED																		
+Periapt of Foul Rotting		TYPE:Wondrous.Amulet	COST:17000	WT:0	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM.AMLT_CURSED																		
+Potion (Poison)		TYPE:Wondrous.Potion.Vial.Consumable	COST:5000	WT:0	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM	SPROP:Ingestion (Fort DC 16). Initial: 1d10 points of CON damage. Secondary: 1d10 points of CON damage.																	
+Robe of Powerlessness		TYPE:Wondrous.Robe	COST:5500	WT:1	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM.CAPE_CURSED	BONUS:STAT|STR|-10	BONUS:STAT|INT|-10																
+Robe of Vermin		TYPE:Wondrous.Cape	COST:16500	WT:1	SOURCEPAGE:DMG	BONUS:SAVE|ALL|-2	BONUS:COMBAT|INITIATIVE|-5	BONUS:COMBAT|TOHIT|-2	BONUS:SKILL|ALL|-2	EQMOD:CURSED_ITEM.CAPE_CURSED														
+Ring of Clumsiness		TYPE:Wondrous.Ring	COST:500	WT:0	SOURCEPAGE:DMG	BONUS:STAT|DEX|-4	BONUS:MISC|SPELLFAILURE|20	EQMOD:CURSED_ITEM.RING_CURSED																
+Scarab of Death		TYPE:Wondrous.Amulet	COST:80000	WT:0	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM.AMLT_CURSED																		
+Stone of Weight (Loadstone)		TYPE:Wondrous	COST:1000	WT:0	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM																		
+Vacuous Grimoire		TYPE:Wondrous	COST:6000	WT:3	SOURCEPAGE:DMG	EQMOD:CURSED_ITEM																		
+																								
+## Artifacts																								
+#Minor Artifacts																								
+Book of Exalted Deeds		TYPE:Artifact.Minor.Book	COST:0	WT:3	SOURCEPAGE:DMG																			
+Book of Infinite Spells		TYPE:Artifact.Minor.Book	COST:0	WT:3	SOURCEPAGE:DMG	ABILITY:Special Ability|AUTOMATIC|Negative Levels	BONUS:VAR|NegativeLevels|1|!PRECLASS:1,SPELLCASTER=1																	
+Book of Vile Darkness		TYPE:Artifact.Minor.Book	COST:0	WT:3	SOURCEPAGE:DMG																			
+Deck of Many Things		TYPE:Artifact.Minor	COST:0	WT:0	SOURCEPAGE:DMG																			
+Philosopher's Stone		TYPE:Artifact.Minor	COST:0	WT:3	SOURCEPAGE:DMG																			
 Staff of the Magi		TYPE:Artifact.Minor.Staff	COST:0	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Dispel Magic (1 charge)/Fireball (10d6,Ref DC 17,1 charge)/Ice Storm/Invisibility/Knock/Lightning (10d6,Ref DC 17,1 charge)/Passwall/Pyrotechnics (Will or Fort DC 16, 1 charge)/Wall of Fire (11 charge)/Web (1 charges)/Summon Monster IX (2 charges)/Plane Shift (Will DC 21, 2 charges)/Telekinesis (400lbs max, 2 charges).	SPELLS:Staff of the Magi|TIMES=ATWILL|CASTERLEVEL=20|Detect Magic|Enlarge Person,15|Hold Portal|Light|Mage Armor|Mage Hand	SR:23															
-Talisman of Pure Good		TYPE:Artifact.Minor.Amulet	COST:0	WT:0	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_6|CHARGES[6]
-Talisman of the Sphere		TYPE:Artifact.Minor.Amulet	COST:0	WT:1	SOURCEPAGE:DMG	EQMOD:ADAMANT
-Talisman of Ultimate Evil		TYPE:Artifact.Minor.Amulet	COST:0	WT:0	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_6|CHARGES[6]
-Talisman of Zagy		TYPE:Artifact.Minor.Amulet	COST:0	WT:1	SOURCEPAGE:DMG
-#Major Artifacts
-Hand of Vecna		TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	BONUS:STAT|DEX|-2	SPROP:touch attack deals 1d10 cold damage.	SPROP:3/day drain 1 ability score with touch attack (host's choice of ability) from victim.	SPELLS:Hand of Vecna|TIMES=1|CASTERLEVEL=20|Blasphemy,20|Unholy Aura,20	BONUS:VAR|ArtifactHandOfVecna|1
-Eye of Vecna		TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	BONUS:STAT|CHA|-2	BONUS:VAR|HasDarkvision|1	BONUS:VAR|HasTrueSeeingVision|1	SPELLS:Eye of Vecna|TIMES=3|CASTERLEVEL=20|Eyebite,20|Domination,20		SPELLS:Eye of Vecna|TIMES=1|CASTERLEVEL=20|Destruction,20|Unhallow	BONUS:VAR|ArtifactEyeOfVecna|1
-Moaning Diamond		TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Moaning Diamond|TIMES=3|CASTERLEVEL=20|Stone Shape	SPROP:can summon an elder earth elemental with maximum hit points that serves the caster until it is slain. Only one such elemental can be summoned at a time; if it is slain, a new creature cannot be summoned for 24 hours.
-Orb of Dragonkind (Black)	OUTPUTNAME:[NAME] Orb of Dragonkind	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Orb of Dragonkind|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=10|Fly,17
-Orb of Dragonkind (Blue)	OUTPUTNAME:[NAME] Orb of Dragonkind	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Orb of Dragonkind|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=10|Haste,17
-Orb of Dragonkind (Brass)	OUTPUTNAME:[NAME] Orb of Dragonkind	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Orb of Dragonkind|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=10|Teleport,19
-Orb of Dragonkind (Bronze)	OUTPUTNAME:[NAME] Orb of Dragonkind	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Orb of Dragonkind|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=10|Scrying,18
-Orb of Dragonkind (Copper)	OUTPUTNAME:[NAME] Orb of Dragonkind	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Orb of Dragonkind|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=10|Suggestion,17
-Orb of Dragonkind (Gold)	OUTPUTNAME:[NAME] Orb of Dragonkind	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Orb of Dragonkind|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=10|Cure Critical Wounds,18|Fly,17|Haste,17|Protection from Energy,17|Scrying,18|Spectral Hand|Suggestion,17|Teleport,19|Wall of Fire
-Orb of Dragonkind (Green)	OUTPUTNAME:[NAME] Orb of Dragonkind	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Orb of Dragonkind|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=10|Spectral Hand
-Orb of Dragonkind (Red)	OUTPUTNAME:[NAME] Orb of Dragonkind	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Orb of Dragonkind|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=10|Wall of Fire
-Orb of Dragonkind (Silver)	OUTPUTNAME:[NAME] Orb of Dragonkind	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Orb of Dragonkind|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=10|Cure Critical Wounds,18
-Orb of Dragonkind (White)	OUTPUTNAME:[NAME] Orb of Dragonkind	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Orb of Dragonkind|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=10|Protection from Energy,17
-Shadowstaff		TYPE:Artifact.Major.Staff	COST:0	WT:5	SPROP:+4 bonus to AC and Reflex save in shadowy area. -2 penalty on attack rolls, saves and checks in bright light or absolute darkness.	SPROP:3/day sd4 Summon Shadows. 1/day Summon Nightshade. 3/day Shadow form. 3/day Shadow bolt (ray 100-ft range, 10d6 cold damage).
-Sphere of Annihilation		TYPE:Artifact.Minor	COST:0	WT:3	SOURCEPAGE:DMG
+Talisman of Pure Good		TYPE:Artifact.Minor.Amulet	COST:0	WT:0	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_6|CHARGES[6]																		
+Talisman of the Sphere		TYPE:Artifact.Minor.Amulet	COST:0	WT:1	SOURCEPAGE:DMG	EQMOD:ADAMANT																		
+Talisman of Ultimate Evil		TYPE:Artifact.Minor.Amulet	COST:0	WT:0	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_6|CHARGES[6]																		
+Talisman of Zagy		TYPE:Artifact.Minor.Amulet	COST:0	WT:1	SOURCEPAGE:DMG																			
+#Major Artifacts																								
+Hand of Vecna		TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	BONUS:STAT|DEX|-2	SPROP:touch attack deals 1d10 cold damage.	SPROP:3/day drain 1 ability score with touch attack (host's choice of ability) from victim.	SPELLS:Hand of Vecna|TIMES=1|CASTERLEVEL=20|Blasphemy,20|Unholy Aura,20	BONUS:VAR|ArtifactHandOfVecna|1														
+Eye of Vecna		TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	BONUS:STAT|CHA|-2	BONUS:VAR|HasDarkvision|1	BONUS:VAR|HasTrueSeeingVision|1	SPELLS:Eye of Vecna|TIMES=3|CASTERLEVEL=20|Eyebite,20|Domination,20		SPELLS:Eye of Vecna|TIMES=1|CASTERLEVEL=20|Destruction,20|Unhallow	BONUS:VAR|ArtifactEyeOfVecna|1												
+Moaning Diamond		TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Moaning Diamond|TIMES=3|CASTERLEVEL=20|Stone Shape	SPROP:can summon an elder earth elemental with maximum hit points that serves the caster until it is slain. Only one such elemental can be summoned at a time; if it is slain, a new creature cannot be summoned for 24 hours.																	
+Orb of Dragonkind (Black)	OUTPUTNAME:[NAME] Orb of Dragonkind	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Orb of Dragonkind|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=10|Fly,17																		
+Orb of Dragonkind (Blue)	OUTPUTNAME:[NAME] Orb of Dragonkind	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Orb of Dragonkind|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=10|Haste,17																		
+Orb of Dragonkind (Brass)	OUTPUTNAME:[NAME] Orb of Dragonkind	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Orb of Dragonkind|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=10|Teleport,19																		
+Orb of Dragonkind (Bronze)	OUTPUTNAME:[NAME] Orb of Dragonkind	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Orb of Dragonkind|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=10|Scrying,18																		
+Orb of Dragonkind (Copper)	OUTPUTNAME:[NAME] Orb of Dragonkind	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Orb of Dragonkind|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=10|Suggestion,17																		
+Orb of Dragonkind (Gold)	OUTPUTNAME:[NAME] Orb of Dragonkind	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Orb of Dragonkind|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=10|Cure Critical Wounds,18|Fly,17|Haste,17|Protection from Energy,17|Scrying,18|Spectral Hand|Suggestion,17|Teleport,19|Wall of Fire																		
+Orb of Dragonkind (Green)	OUTPUTNAME:[NAME] Orb of Dragonkind	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Orb of Dragonkind|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=10|Spectral Hand																		
+Orb of Dragonkind (Red)	OUTPUTNAME:[NAME] Orb of Dragonkind	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Orb of Dragonkind|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=10|Wall of Fire																		
+Orb of Dragonkind (Silver)	OUTPUTNAME:[NAME] Orb of Dragonkind	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Orb of Dragonkind|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=10|Cure Critical Wounds,18																		
+Orb of Dragonkind (White)	OUTPUTNAME:[NAME] Orb of Dragonkind	TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:DMG	SPELLS:Orb of Dragonkind|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=10|Protection from Energy,17																		
+Shadowstaff		TYPE:Artifact.Major.Staff	COST:0	WT:5	SPROP:+4 bonus to AC and Reflex save in shadowy area. -2 penalty on attack rolls, saves and checks in bright light or absolute darkness.	SPROP:3/day sd4 Summon Shadows. 1/day Summon Nightshade. 3/day Shadow form. 3/day Shadow bolt (ray 100-ft range, 10d6 cold damage).																		
+Sphere of Annihilation		TYPE:Artifact.Minor	COST:0	WT:3	SOURCEPAGE:DMG																			

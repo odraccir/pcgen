@@ -1,0 +1,77 @@
+Ball Lightning Spell:
+
+Ball Lightning
+Evocation [Electricity]
+Level: Sor/Wiz 5
+Components: V, S, M
+Casting Time: 1 action
+Range: Medium (100 ft. + 10 ft./levels)
+Effect: One lightning ball 2/levels
+Duration: 1 round/level
+Saving Throw: Reflex half
+Spell Resistance: Yes
+You create one 3-foot-diameter ball of concentrated
+electricity per 2 levels (maximum 15 balls) that shed
+light as candles and move under your control. A ball of
+lightning deals 2d6 points of electricity damage to
+anything it touches, including creatures that attack it or
+move through it. When you create the balls of lightning,
+you mentally program them to move as you desire, even
+around corners. Once programmed, a ball's orders cannot
+be changed. A ball can move up to 100 feet per round
+and flies with perfect maneuverability. When a lightning
+ball strikes a creature, the ball stops and remains in place
+for the remainder of the spell's duration. A ball dissipates
+if the distance between you and it exceeds the spell's
+range. A ball can only "see" under the available light
+conditions (including the light the ball itself sheds).
+For example, you could program one lightning ball to
+follow the left wall of a corridor and strike the first
+creature it "sees," another to follow the right wall and do
+the same, and the remainder to follow 5 feet behind you
+in a semicircle. The first two lightning balls would turn
+corners to remain following the walls, even if this took
+them out of your line of sight, and strike the first creature
+they "see," which would cancel their program and leave
+them in their target.s square. Directing the balls is a free
+action on the round the spell is cast and a moveequivalent
+action on any other round.
+A creature struck by a lightning ball or that touches one
+with natural or melee weapons gets a Reflex saving
+throw for half damage. Damage from multiple balls
+resting in the same square stacks. A creature struck by
+multiple balls of lightning in a round (or entering a
+square with multiple lightning balls) gets a saving throw
+for each. A creature with SR makes separate SR checks
+against each lightning ball, with success meaning that
+ball cannot harm the creature.
+Material Component: A handful of copper and iron
+pellets.
+
+Favor of Ilmater spell:
+Add to the end of the second paragraph: The target
+cannot exceed her maximum hit points; any in excess of
+this amount are lost.
+
+Divine Fortitude spell:
+variant: The target
+becomes immune to subdual damage, charm effects,
+compulsions, and attacks that function by causing pain.
+Any attacks (whether present on the target when the spell
+is cast or occurring after the spell is cast) that cause these
+effects or cause subject to be dazed, exhausted, fatigued,
+nauseated, staggered, or stunned are suspended for the
+duration of the spell (causing the target to wake if
+unconscious from one of these effects). The target
+remains conscious at –1 to –9 hit points and can take a
+partial action each round when in that state. This variant
+of the spell lasts 1 minute/level. When the spell ends, any
+effects suspended by the spell that would otherwise still
+be in effect (such as fatigue, which normally requires 8
+hours of rest to abate) return. Effects with durations that
+expired during the duration of this spell do not resume
+when the spell ends.
+
+Pact of Martyrdom spell:
+Any excess hit points above the target's normal
+maximum hit points are lost.

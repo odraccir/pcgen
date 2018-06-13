@@ -1,6 +1,6 @@
 SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11																													
 																																
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 																																
 ###Block: Race Traits																																
 																																
@@ -548,7 +548,7 @@ Shadow Blend	CATEGORY:Special Ability	TYPE:TrueDragonShadowDragonRaceTrait.Speci
 Create Shadows	CATEGORY:Special Ability	TYPE:TrueDragonShadowDragonRaceTrait.SpecialAttack.Supernatural	VISIBLE:YES	DESC:Three times per day, a great wyrm shadow dragon can conjure a mass of leaping shadows with a radius of 100 yards and a duration of 1 hour (this is a creation effect). All normal and magical light sources are negated within this radius. All characters and creatures gain a +4 bonus on their Hide checks within the shadows, and can hide even if directly observed. Shadow dragons and other creatures with ties to the Plane of Shadow gain total concealment within the shadows, though they can move and attack normally. Their attacks gain a +2 bonus and deny their opponents any Dexterity bonus to AC, because they are considered invisible.	KEY:Dragon (Shadow Dragon) ~ Create Shadows																											SOURCEPAGE:Drac
 Mirror Image	CATEGORY:Special Ability	TYPE:TrueDragonShadowDragonRaceTrait.SpecialAttack.SpellLike	VISIBLE:YES		KEY:Dragon (Shadow Dragon) ~ Mirror Image																		SPELLS:Innate|TIMES=3|CASTERLEVEL=max(DragonAgeCategory,DragonSpellcasterLVL)|Mirror Image									SOURCEPAGE:Drac
 Nondetection	CATEGORY:Special Ability	TYPE:TrueDragonShadowDragonRaceTrait.SpecialAttack.SpellLike	VISIBLE:YES		KEY:Dragon (Shadow Dragon) ~ Nondetection																		SPELLS:Innate|TIMES=3|CASTERLEVEL=max(DragonAgeCategory,DragonSpellcasterLVL)|Nondetection									SOURCEPAGE:Drac
-Dimesion Door	CATEGORY:Special Ability	TYPE:TrueDragonShadowDragonRaceTrait.SpecialAttack.SpellLike	VISIBLE:YES		KEY:Dragon (Shadow Dragon) ~ Dimension Door																		SPELLS:Innate|TIMES=3|CASTERLEVEL=max(DragonAgeCategory,DragonSpellcasterLVL)|Dimension Door									SOURCEPAGE:Drac
+Dimension Door	CATEGORY:Special Ability	TYPE:TrueDragonShadowDragonRaceTrait.SpecialAttack.SpellLike	VISIBLE:YES		KEY:Dragon (Shadow Dragon) ~ Dimension Door																		SPELLS:Innate|TIMES=3|CASTERLEVEL=max(DragonAgeCategory,DragonSpellcasterLVL)|Dimension Door									SOURCEPAGE:Drac
 Shadow Walk	CATEGORY:Special Ability	TYPE:TrueDragonShadowDragonRaceTrait.SpecialAttack.SpellLike	VISIBLE:YES		KEY:Dragon (Shadow Dragon) ~ Shadow Walk																		SPELLS:Innate|TIMES=3|CASTERLEVEL=max(DragonAgeCategory,DragonSpellcasterLVL)|Shadow Walk									SOURCEPAGE:Drac
 																																
 Race Traits ~ Squamous Spewer	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=SquamousSpewerRaceTrait|Resistance to Acid|Resistance to Cold|Resistance to Electricity|Resistance to Fire	AUTO:LANG|Draconic											BONUS:VAR|AcidResistanceBonus,ColdResistanceBonus,ElectricityResistanceBonus,FireResistanceBonus|10|TYPE=Resistance																	

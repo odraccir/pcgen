@@ -31,6 +31,22 @@ FOLLOWER:AugmentedSummoning=20	TYPE:Summon Monster VIII	BONUS:STAT|STR|2	BONUS:S
 FOLLOWER:AugmentedSummoning=1	TYPE:Summon Monster IX	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
 FOLLOWER:AugmentedSummoning=10	TYPE:Summon Monster IX	BONUS:STAT|STR|2	BONUS:STAT|CON|2
 FOLLOWER:AugmentedSummoning=20	TYPE:Summon Monster IX	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Summon Undead I	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Summon Undead I	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Summon Undead I	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Summon Undead II	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Summon Undead II	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Summon Undead II	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Summon Undead III	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Summon Undead III	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Summon Undead III	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Summon Undead IV	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Summon Undead IV	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Summon Undead IV	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Summon Undead V	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Summon Undead V	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Summon Undead V	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+
 
 FOLLOWER:SkeletalMinionLVL=1	TYPE:Skeletal Minion	BONUS:COMBAT|AC|SkeletalMinionLVL/2|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|SkeletalMinionLVL/3	BONUS:STAT|DEX|SkeletalMinionLVL/3
 FOLLOWER:SkeletalMinionLVL=2	TYPE:Skeletal Minion	HD:1

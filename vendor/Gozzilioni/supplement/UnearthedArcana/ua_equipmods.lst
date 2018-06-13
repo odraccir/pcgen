@@ -11,6 +11,6 @@ Forbidden Tomes (3 week)	KEY:FORBIDDEN_TOMES_3WEEK	TYPE:Spellbook		VISIBLE:QUALI
 Forbidden Tomes (Knowledge Arcana DC 20)	KEY:FORBIDDEN_TOMES_KA20	TYPE:Spellbook		VISIBLE:QUALIFY		REPLACES:FORBIDDEN_TOMES_KA25,FORBIDDEN_TOMES_KA30		SOURCEPAGE:UA	PRETYPE:2,Spellbook,ForbiddenTome						
 Forbidden Tomes (Knowledge Arcana DC 25)	KEY:FORBIDDEN_TOMES_KA25	TYPE:Spellbook		VISIBLE:QUALIFY		REPLACES:FORBIDDEN_TOMES_KA20,FORBIDDEN_TOMES_KA30		SOURCEPAGE:UA	PRETYPE:2,Spellbook,ForbiddenTome						
 Forbidden Tomes (Knowledge Arcana DC 30)	KEY:FORBIDDEN_TOMES_KA30	TYPE:Spellbook		VISIBLE:QUALIFY		REPLACES:FORBIDDEN_TOMES_KA20,FORBIDDEN_TOMES_KA25		SOURCEPAGE:UA	PRETYPE:2,Spellbook,ForbiddenTome						
-Forbidden Tomes (Initial Sanity)	KEY:FORBIDDEN_TOMES_INISAN	TYPE:Spellbook		VISIBLE:QUALIFY				SOURCEPAGE:UA	PRETYPE:2,Spellbook,ForbiddenTome						CHOOSE:STRING|1|1d4|1d6|1d10|TITLE=Initial Sanity loss	DESC:%1 initial sanity loss|%CHOICE
-Forbidden Tomes (Final Sanity)	KEY:FORBIDDEN_TOMES_FINSAN	TYPE:Spellbook		VISIBLE:QUALIFY				SOURCEPAGE:UA	PRETYPE:2,Spellbook,ForbiddenTome						CHOOSE:STRING|1d4|2d6|3d6|2d10|TITLE=Sanity loss upon completion	DESC:%1 sanity loss upon completion|%CHOICE
+Forbidden Tomes (Initial Sanity)	KEY:FORBIDDEN_TOMES_INISAN	TYPE:Spellbook		VISIBLE:QUALIFY				SOURCEPAGE:UA	PRETYPE:2,Spellbook,ForbiddenTome						CHOOSE:STRING|1|1d4|1d6|1d10|TITLE=Initial Sanity loss	SPROP:% initial sanity loss|%CHOICE
+Forbidden Tomes (Final Sanity)	KEY:FORBIDDEN_TOMES_FINSAN	TYPE:Spellbook		VISIBLE:QUALIFY				SOURCEPAGE:UA	PRETYPE:2,Spellbook,ForbiddenTome						CHOOSE:STRING|1d4|2d6|3d6|2d10|TITLE=Sanity loss upon completion	SPROP:% sanity loss upon completion|%CHOICE
 

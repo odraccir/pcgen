@@ -16,6 +16,9 @@ PUBNAMEWEB:http://www.gozzilioni.net
 
 PRECAMPAIGN:1,Monster Manual
 
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:mm1e_feats_changes.txt
+
 ABILITY:mm1e_abilities_races.lst
 EQUIPMENT:mm1e_equip.lst
 KIT:mm1e_kits.lst
@@ -27,7 +30,7 @@ TEMPLATE:mm1e_templates.lst
 
 # HIDETYPE:FEAT|Wizard
 
-# ENTRY DATE: 2015-08 
+# ENTRY DATE: 2015-08
 # LST MONKEY: Riccardo
 # RELEASE REVIEW #
 # BETA:

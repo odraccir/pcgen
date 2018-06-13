@@ -18,7 +18,7 @@ RACE:*/_universal/races.lst
 ALIGNMENT:g__align.lst
 SAVE:g__saves.lst
 STAT:g__stats.lst
-#EXTRAFILE:g__sizeAdjustment.lst
+SIZE:g__sizeAdjustment.lst
 
 
 DATACONTROL:g__datacontrol.lst
@@ -36,7 +36,7 @@ TEMPLATE:g_template.lst
 
 HIDETYPE:SKILL|Literacy
 
-# ENTRY DATE: 2015-08 
+# ENTRY DATE: 2015-08
 # LST MONKEY: Riccardo
 # RELEASE REVIEW #
 # BETA:

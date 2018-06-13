@@ -1,6 +1,6 @@
 SOURCELONG:Unearthed Arcana	SOURCESHORT:UA	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-02																																							
 																																										
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page										
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page										
 CATEGORY=Internal|Weapon Group Exotic (Bows).MOD	AUTO:WEAPONPROF|Bow (Double/Elven)
 CATEGORY=Internal|Weapon Group Exotic (Claw Weapons).MOD	AUTO:WEAPONPROF|Gauntlet (Bladed)|Bracer (Claw)|Claw (Panther)|Dagger (Stump)|Claw (Tiger)|Gauntlet (Ward Cestus)
 CATEGORY=Internal|Weapon Group Exotic (Clubs and Maces).MOD	AUTO:WEAPONPROF|Tonfa

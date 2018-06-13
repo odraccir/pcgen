@@ -286,7 +286,7 @@ Marble		TYPE:Spellcomponent.SpellFocus	COST:5	WT:0		SOURCEPAGE:PHB	DESC:Focus fo
 Spoon (Tiny/Silver)		TYPE:Spellcomponent.SpellFocus	COST:5	WT:0		SOURCEPAGE:PHB	DESC:Focus for Mordenkainen's Magnificent Mansion.
 Diamond		TYPE:Spellcomponent.SpellFocus	COST:1000	WT:0	SOURCEPAGE:PHB	DESC:Focus for Protection from Spells.
 Plaque (Ivory)		TYPE:Spellcomponent.SpellFocus	COST:500	WT:0		SOURCEPAGE:PHB	DESC:Focus for Rary's Mnemonic Enhancer.
-Statuette (small iron bars attached to two small canine, one black and one white)	KEY:Statuette 1	TYPE:Spellcomponent.SpellFocus	COST:50	WT:0		SOURCEPAGE:PHB	DESC:Focus for Repulsion.
+Statuette PHB_1	OUTPUTNAME:Statuette (small iron bars attached to two small canine, one black and one white)	TYPE:Spellcomponent.SpellFocus	COST:50	WT:0		SOURCEPAGE:PHB	DESC:Focus for Repulsion.	SORTKEY:Statuette (small iron bars attached to two small canine, one black and one white)
 Mirror (Medium/Silver)		TYPE:Goods.General.Spellcomponent.SpellFocus	COST:1000	WT:0		SOURCEPAGE:PHB	DESC:Focus for Scrying.
 Font (Holy Water)		TYPE:Goods.General.Spellcomponent.SpellFocus	COST:100	WT:0		SOURCEPAGE:PHB	DESC:Focus for Scrying.
 Circlet (Jade)		TYPE:Goods.General.Headgear	COST:1500	WT:0		SOURCEPAGE:PHB	DESC:Focus for Shapechange.
@@ -327,14 +327,14 @@ Powder (Opal/2500 mo)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:250
 Powder (Silver)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:25	WT:5	SOURCEPAGE:PHB	DESC:Material component for Bless Water, Curse Water.
 Powder (Pearl)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:500	WT:0	SOURCEPAGE:PHB	DESC:Material component for Circle of Death.
 Powder (Jade)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:100	WT:0	SOURCEPAGE:PHB	DESC:Material component for Permanent Image.
-Powder (Mix Diamond, Emerald, Ruby and Sapphire)	KEY:Powder 1	TYPE:Spellcomponent.MaterialComponent.Consumable	COST:5000	WT:0	SOURCEPAGE:PHB	DESC:Material component for Temporal Stasis.
+Powder PHB_1	OUTPUTNAME:Powder (Mix Diamond, Emerald, Ruby and Sapphire)	TYPE:Spellcomponent.MaterialComponent.Consumable	COST:5000	WT:0	SOURCEPAGE:PHB	DESC:Material component for Temporal Stasis.	SORTKEY:Powder (Mix Diamond, Emerald, Ruby and Sapphire)
 #
 Incense (25 mo)		TYPE:Goods.General.Incense.Spellcomponent.MaterialComponent.Consumable	COST:25	WT:1	SOURCEPAGE:PHB	DESC:Material component for Augury.
 Incense (250 mo)		TYPE:Goods.General.Incense.Spellcomponent.MaterialComponent.Consumable	COST:250	WT:1	SOURCEPAGE:PHB	DESC:Material component for Legend Lore.
 Incense (1500 mo)		TYPE:Goods.General.Incense.Spellcomponent.MaterialComponent.Consumable	COST:1500	WT:1	SOURCEPAGE:PHB	DESC:Material component for Forbiddance.
 Statuette (Carved)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:0	WT:0	SOURCEPAGE:PHB	DESC:Material component for Binding	MODS:YES
-Mix (herbs, oils, incense)	KEY:Mix 1	TYPE:Spellcomponent.MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	DESC:Material component for Hallow, Unhallow	MODS:YES
-Mix (rare oils and unguent)	KEY:Mix 2	TYPE:Spellcomponent.MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	DESC:Material component for Reincarnation	MODS:YES
-Ointment (mushroom powder, saffron and fat)	KEY:Ointment 1	TYPE:Spellcomponent.MaterialComponent.Consumable	COST:250	WT:0	SOURCEPAGE:PHB	DESC:Material component for True Seeing.
+Mix PHB_1	OUTPUTNAME:Mix (herbs, oils, incense)	TYPE:Spellcomponent.MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	DESC:Material component for Hallow, Unhallow	MODS:YES	SORTKEY:Mix (herbs, oils, incense)
+Mix PHB_2	OUTPUTNAME:Mix (rare oils and unguent)	TYPE:Spellcomponent.MaterialComponent.Consumable	COST:1000	WT:0	SOURCEPAGE:PHB	DESC:Material component for Reincarnation	MODS:YES	SORTKEY:Mix (rare oils and unguent)
+Ointment PHB_1	OUTPUTNAME:Ointment (mushroom powder, saffron and fat)	TYPE:Spellcomponent.MaterialComponent.Consumable	COST:250	WT:0	SOURCEPAGE:PHB	DESC:Material component for True Seeing.	SORTKEY:Ointment (mushroom powder, saffron and fat)
 Ink (1 Oz. Vial/lead)		TYPE:Goods.General.Writing.Liquid.Vial.Spellcomponent.MaterialComponent.Consumable	COST:50		SOURCEPAGE:PHB	DESC:Material component for Illusory Script.
 Doll (Replica)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:0	WT:0	SOURCEPAGE:PHB	DESC:Material component for Project Image.	MODS:YES

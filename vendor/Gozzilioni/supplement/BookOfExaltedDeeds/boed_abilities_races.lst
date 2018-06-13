@@ -1,6 +1,6 @@
 SOURCELONG:Book of Exalted Deeds	SOURCESHORT:BoED	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10																														
 																																	
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Deathless Type Traits|PRERACE:1,RACETYPE=Deathless																																
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Traits Output ~ Deathless|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACETYPE=Deathless]																																
 																																	

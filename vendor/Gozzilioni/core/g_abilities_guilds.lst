@@ -1,6 +1,6 @@
 SOURCELONG:Core Ruleset	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net
 																																			
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page			
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page			
 Mentoring	CATEGORY:Guild Category	TYPE:GuildChooser	VISIBLE:YES	DESC:Mentoring								BONUS:ABILITYPOOL|Mentoring|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	COST:0													SOURCEPAGE:G
 Choose an Affiliation	CATEGORY:Guild Category	TYPE:GuildChooser	VISIBLE:YES	DESC:Guilds, organizations or groups								BONUS:ABILITYPOOL|Affiliation|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	COST:0													SOURCEPAGE:G
 Choose a Planar Faction	CATEGORY:Guild Category	TYPE:GuildChooser	VISIBLE:YES	DESC:Planar factions								BONUS:ABILITYPOOL|Planar Faction|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	COST:0													SOURCEPAGE:G

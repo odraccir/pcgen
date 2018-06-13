@@ -1,6 +1,6 @@
 SOURCELONG:Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
 																																	
-# Ability Name	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
 ###Block:MM2
 CATEGORY=Special Ability|Dragon (Amethyst Dragon) ~ Invisibility.MOD	SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonAgeCategory|Invisibility (Psionic)
 CATEGORY=Special Ability|Dragon (Amethyst Dragon) ~ Suggestion.MOD	SPELLS:Innate|TIMES=1|CASTERLEVEL=DragonAgeCategory|Invisibility (Suggestion)
