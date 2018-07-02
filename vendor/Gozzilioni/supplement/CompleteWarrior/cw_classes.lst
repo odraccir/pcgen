@@ -574,6 +574,8 @@ CLASS:Thayan Knight	STARTSKILLPTS:2	CSKILL:Bluff|Climb|TYPE.Craft|Gather Informa
 1				ABILITY:Thayan Knight Class Feature|AUTOMATIC|Thayan Knight ~ Zulkir's Favor|!PREABILITY:1,CATEGORY=ACF,TYPE.ThayanKnightZulkirSFavor										
 3				ABILITY:Thayan Knight Class Feature|AUTOMATIC|Thayan Knight ~ Zulkir's Defender|!PREABILITY:1,CATEGORY=ACF,TYPE.ThayanKnightZulkirSDefender										
 3				ABILITY:Thayan Knight Class Feature|AUTOMATIC|Thayan Knight ~ Bonus Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.ThayanKnightBonusFeat										
+4				ABILITY:Thayan Knight Class Feature|AUTOMATIC|Thayan Knight ~ Final Stand|!PREABILITY:1,CATEGORY=ACF,TYPE.ThayanKnightFinalStand										
+5				ABILITY:Thayan Knight Class Feature|AUTOMATIC|Thayan Knight ~ Zulkir's Champion|!PREABILITY:1,CATEGORY=ACF,TYPE.ThayanKnightZulkirSChampion										
 														
 CLASS:War Chanter	HD:8	TYPE:Prestige	FACT:Abb|WCh	MAXLEVEL:10	SOURCEPAGE:CW	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:WarChanterLVL|0	BONUS:VAR|WarChanterLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:War Chanter	PREALIGN:NG,TN,NE,CG,CN,CE	PRETOTALAB:4	PRESKILL:1,Perform (Sing)=6,Perform (Oratory)=6	PREABILITY:2,CATEGORY=FEAT,Combat Expertise,Weapon Focus	PREABILITY:1,CATEGORY=Special Ability,Bardic Music ~ Inspire Courage									

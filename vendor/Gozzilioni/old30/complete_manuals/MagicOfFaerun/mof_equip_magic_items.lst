@@ -80,7 +80,7 @@ Belt of Holy Might		TYPE:Wondrous.Belt	COST:104000	WT:1	SOURCEPAGE:MoF30	BONUS:C
 Bird Feather Headress		TYPE:Wondrous.Headgear	COST:2900	WT:0	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_6|CHARGES[6]																		
 Blast Globes		TYPE:Wondrous.Consumable	COST:8000	WT:1	SOURCEPAGE:MoF30																			
 Bone Bracers of the Death Deity		TYPE:Wondrous.Bracer	COST:58300	WT:1	SOURCEPAGE:MoF30	BONUS:COMBAT|AC|3|TYPE=Armor	SPELLS:Bone Bracers of the Death Deity|TIMES=1|CASTERLEVEL=7|Death Ward|Desecrate|Unholy Blight	BONUS:VAR|NegativeLevels|1|PREALIGN:LG,NG,CG	SLOTS:2															
-Book of Blood		TYPE:Wondrous.Tools.Spellbook	COST:21300	WT:3	SOURCEPAGE:MoF30	SPROP:1/day summon Yeth Hound. Finger of death drain 1 hp permanently.	SPELLS:Book of Blood|TIMES=1|CASTERLEVEL=13|Finger of Death	NUMPAGES:45	PAGEUSAGE:1	EQMOD:BOOK_WATER_PRF.BOOK_FIREPRF.BOOK_LOCK														
+Book of Blood		TYPE:Wondrous.Tools.Spellbook	COST:21300	WT:3	SOURCEPAGE:MoF30	SPROP:1/day summon Yeth Hound. Finger of death drain 1 hp permanently.	SPELLS:Book of Blood|TIMES=1|CASTERLEVEL=13|Finger of Death	NUMPAGES:45	PAGEUSAGE:1	EQMOD:BOOK_WATER_PRF.BOOK_FIRE_PRF.BOOK_LOCK														
 Bracers of the Blinding Strike		TYPE:Wondrous.Bracer	COST:102000	WT:1	SOURCEPAGE:MoF30	BONUS:COMBAT|AC|6|TYPE=Armor	ABILITY:FEAT|VIRTUAL|Improved Initiative	BONUS:COMBAT|ATTACKS|1	SLOTS:2															
 Bracers of Striking		TYPE:Wondrous.Bracer.Weapon.Melee.Bludgeoning.Double	COST:1310	WT:1	SOURCEPAGE:MoF30	ABILITY:FEAT|VIRTUAL|Improved Unarmed Strike	SLOTS:2																	
 Cape of the Fire Bath		TYPE:Wondrous.Cape	COST:6200	WT:1	SOURCEPAGE:MoF30	BONUS:SAVE|ALL|2|TYPE=Resistance	SPROP:Continuous Endure Energy (Fire).																	
@@ -176,7 +176,7 @@ Musical Instrument (Rhingalade's Harp)		TYPE:Wondrous.Tools.Instrument.String.Re
 Salve of Minor Spell Resistance		TYPE:Wondrous.Vial.Consumable	COST:1250	WT:0.5	SOURCEPAGE:MoF30	SR:17																		
 Scarab of Scintillating Auras		TYPE:Wondrous.Amulet	COST:45000	WT:0	SOURCEPAGE:MoF30	SPROP:The multitude of auras blocks attempts to detect magic or alignment within the area (90-ft).	SPELLS:Scarab of Scintillating Auras|TIMES=1|CASTERLEVEL=15|Invisibility																	
 Sending Stones		TYPE:Wondrous	COST:15000	WT:1	SOURCEPAGE:MoF30																			
-Shaundakul’s Boost		TYPE:Wondrous.Boot	COST:6300	WT:1	SOURCEPAGE:MoF30	SLOTS:2	BONUS:MOVEADD|TYPE.Walk|10	SPELLS:Shaundakul’s Boost|TIMES=1|CASTERLEVEL=11|Find the Path																
+Shaundakul's Boost		TYPE:Wondrous.Boot	COST:6300	WT:1	SOURCEPAGE:MoF30	SLOTS:2	BONUS:MOVEADD|TYPE.Walk|10	SPELLS:Shaundakul's Boost|TIMES=1|CASTERLEVEL=11|Find the Path																
 Silent Portal Disk		TYPE:Wondrous	COST:36000	WT:0	SOURCEPAGE:MoF30	SPELLS:Silent Portal Disk|TIMES=1|CASTERLEVEL=1|Silent Portal																		
 Skull Plaque		TYPE:Wondrous.Amulet	COST:9200	WT:2	SOURCEPAGE:MoF30	SPELLS:Skull Plaque|TIMES=1|CASTERLEVEL=5|Death Knell|Detect Undead																		
 Smokepowder (Per Lb.)		TYPE:Wondrous.Consumable.Gunpowder	COST:25	WT:1	SOURCEPAGE:MoF30																			
@@ -189,19 +189,19 @@ Torque of the Titans		TYPE:Wondrous.Amulet	COST:72000	WT:3	SOURCEPAGE:MoF30	SPRO
 Travel cloak		TYPE:Wondrous.Cape	COST:1200	WT:1	SOURCEPAGE:MoF30	SPROP:Continuous Endure Elements (Cold).																		
 Troll Gut Rope (50 Ft.)		TYPE:Wondrous.Rope	COST:30000	WT:7	SOURCEPAGE:MoF30	SPROP:1/day 350 ft.																		
 Unicorn Pendant		TYPE:Wondrous.Amulet	COST:28000	WT:1	SOURCEPAGE:MoF30	SPELLS:Unicorn Pendant|TIMES=1|CASTERLEVEL=7|Cure Moderate Wounds|Neutralize Poison	BONUS:VAR|LayOnHandsCHABonus|4|PRECLASS:1,Paladin=1																	
-Musical Instrument (Valarde’s Harp)		TYPE:Wondrous.Tools.Instrument.String.Resizable	COST:8500	WT:3	SOURCEPAGE:MoF30	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	EQMOD:MWORKI	SPELLS:Musical Instrument (Valarde’s Harp)|TIMES=3|CASTERLEVEL=5|Gust of Wind|Wind Wall	PRESKILL:1,Perform (String Instruments)=1															
+Musical Instrument (Valarde's Harp)		TYPE:Wondrous.Tools.Instrument.String.Resizable	COST:8500	WT:3	SOURCEPAGE:MoF30	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	EQMOD:MWORKI	SPELLS:Musical Instrument (Valarde's Harp)|TIMES=3|CASTERLEVEL=5|Gust of Wind|Wind Wall	PRESKILL:1,Perform (String Instruments)=1															
 Vestments of Power (Lesser)		TYPE:Wondrous.Cape	COST:88000	WT:0	SOURCEPAGE:MoF30	BONUS:COMBAT|AC|3|TYPE=Deflection	BONUS:SAVE|ALL|4|TYPE=Resistance	SPROP:Continuous Protection from Arrows and Feather Fall.	BONUS:VAR|FireResistanceBonusSp|15|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance to Fire														
 Vestments of Power (Greater)		TYPE:Wondrous.Cape	COST:200000	WT:0	SOURCEPAGE:MoF30	BONUS:COMBAT|AC|3|TYPE=Deflection	BONUS:SAVE|ALL|4|TYPE=Resistance	SPROP:Continuous Protection from Arrows and Feather Fall.	BONUS:VAR|FireResistanceBonusSp|15|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance to Fire	SPELLS:Vestments of Power|TIMES=ATWILL|CASTERLEVEL=9|Dimension Door|True Seeing													
 War Wizard Cloak		TYPE:Wondrous.Cape	COST:30375	WT:1	SOURCEPAGE:MoF30	SPROP:Continuous Endure Elements (cold), Feather Fall.	BONUS:VAR|HasDarkvision|1|TYPE=Base	SPELLS:War Wizard Cloak|TIMES=1|CASTERLEVEL=9|Dimension door|Ironguard (Lesser)|Protection from Arrows|Sending																
 White Cloak of the Spider		TYPE:Wondrous.Cape	COST:8200	WT:1	SOURCEPAGE:MoF30	SPELLS:White Cloak of the Spider|TIMES=ATWILL|CASTERLEVEL=3|Spider Climb	SPELLS:White Cloak of the Spider|TIMES=1|CASTERLEVEL=3|Hold Person	BONUS:VAR|PoisonResistanceBonus|2|TYPE=Luck	ABILITY:Special Ability|VIRTUAL|Resistance To Poison															
 Wild Shape Amulet		TYPE:Wondrous.Amulet	COST:40000	WT:0	SOURCEPAGE:MoF30	BONUS:VAR|DruidWildShapeLVL|4																		
-Word of Chaos’s Power		TYPE:Wondrous	COST:12000	WT:1	SOURCEPAGE:MoF30																			
+Word of Chaos's Power		TYPE:Wondrous	COST:12000	WT:1	SOURCEPAGE:MoF30																			
 White Skull Mask		TYPE:Wondrous.Eyegear	COST:50000	WT:1	SOURCEPAGE:MoF30	BONUS:VAR|DiseaseResistanceBonus,FearResistanceBonus,ParalysisResistanceBonus|4|TYPE=Resistance	ABILITY:Special Ability|VIRTUAL|Resistance to Disease|Resistance to Fear|Resistance to Paralysis|Immunity to Energy Drain																	
 Wilding Clasp		TYPE:Wondrous.Amulet.Container	COST:4000	WT:0	SOURCEPAGE:MoF30	CONTAINS:UNLIM|Amulet=1																		
 Winged Mask		TYPE:Wondrous.Eyegear	COST:13000	WT:1	SOURCEPAGE:MoF30	SPELLS:Winged Mask|TIMES=ATWILL|CASTERLEVEL=5|Fly																		
 Wings of Pain		TYPE:Wondrous.Cape	COST:17500	WT:2	SOURCEPAGE:MoF30																			
-Xvim’s Green-Eyed Gauntlet		TYPE:Wondrous.Glove	COST:11800	WT:1	SOURCEPAGE:MoF30	BONUS:VAR|DarkvisionRange|60|TYPE=Base	SPELLS:Xvim’s Green-Eyed Gauntlet|TIMES=1|CASTERLEVEL=7|Light	SLOTS:2																
-Yornar’s Crescent		TYPE:Wondrous	COST:27700	WT:1	SOURCEPAGE:MoF30	SPELLS:Yornar’s Crescent|TIMES=ATWILL|CASTERLEVEL=9|Detect Poison	SPELLS:Yornar’s Crescent|TIMES=1|CASTERLEVEL=9|Magic Fang (Greater)|Tree Stride																	
+Xvim's Green-Eyed Gauntlet		TYPE:Wondrous.Glove	COST:11800	WT:1	SOURCEPAGE:MoF30	BONUS:VAR|DarkvisionRange|60|TYPE=Base	SPELLS:Xvim's Green-Eyed Gauntlet|TIMES=1|CASTERLEVEL=7|Light	SLOTS:2																
+Yornar's Crescent		TYPE:Wondrous	COST:27700	WT:1	SOURCEPAGE:MoF30	SPELLS:Yornar's Crescent|TIMES=ATWILL|CASTERLEVEL=9|Detect Poison	SPELLS:Yornar's Crescent|TIMES=1|CASTERLEVEL=9|Magic Fang (Greater)|Tree Stride																	
 																								
 ## Cursed																								
 																								

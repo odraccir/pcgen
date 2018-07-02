@@ -1,0 +1,6 @@
+SOURCELONG:Lords of Darkness 3.0	SOURCESHORT:LoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:10-2001
+
+###Block:Special Mount										
+FOLLOWER:FlyingMountLVL=1	TYPE:Flying Mount	BONUS:VAR|BardingAllowed|1|TYPE=Base
+FOLLOWER:FlyingMountLVL=3	TYPE:Flying Mount	ABILITY:Special Ability|AUTOMATIC|Flying Mount ~ Share Spells
+FOLLOWER:FlyingMountFlyByAttack=1	TYPE:Flying Mount	ABILITY:FEAT|AUTOMATIC|Flyby Attack

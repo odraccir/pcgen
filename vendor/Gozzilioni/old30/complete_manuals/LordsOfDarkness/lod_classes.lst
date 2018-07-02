@@ -1,0 +1,77 @@
+SOURCELONG:Lords of Darkness 3.0	SOURCESHORT:LoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:10-2001
+																							
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE											
+# Class Name req	Requirements	FINE																					
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS											
+# Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	SPELLLIST	spell level increases (BONUS:CASTERLEVEL)							#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)
+CLASS:Spur Lord	HD:10	TYPE:PC.Prestige	FACT:Abb|Spl	MAXLEVEL:5	SOURCEPAGE:LoD30	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:SpurLordLVL|0	BONUS:VAR|SpurLordLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1								
+CLASS:Spur Lord	PRETOTALAB:4	PRESKILL:4,Bluff=3,Concentration=3,Knowledge (Religion)=3,Sense Motive=3	PRESKILL:1,Tumble=5	PREDEITY:1,Cyric	PREABILITY:4,CATEGORY=FEAT,Iron Will,Leadership,Lightning Reflexes,Quick Draw	PRETEXT:The character must have either made peaceful contact with an evil outsider that served Cyric or received a prophetic dream from Cyric.																	
+CLASS:Spur Lord	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Concentration|TYPE.Craft|Diplomacy|Disguise|Intimidate|Jump|Knowledge (Religion)|Move Silently|TYPE.Profession|Ride|Sense Motive|Swim|Tumble																					
+1				ABILITY:Spur Lord Class Feature|AUTOMATIC|Spur Lord ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SpurLordProficiencies																			
+#																							
+1				ABILITY:Spur Lord Class Feature|AUTOMATIC|Spur Lord ~ Dark Bond|!PREABILITY:1,CATEGORY=ACF,TYPE.SpurLordDarkBond																			
+2				ABILITY:Spur Lord Class Feature|AUTOMATIC|Spur Lord ~ Secret Blade|!PREABILITY:1,CATEGORY=ACF,TYPE.SpurLordSecretBlade																			
+3				ABILITY:Spur Lord Class Feature|AUTOMATIC|Spur Lord ~ Dark Flames|!PREABILITY:1,CATEGORY=ACF,TYPE.SpurLordDarkFlames																			
+4				ABILITY:Spur Lord Class Feature|AUTOMATIC|Spur Lord ~ Cyric's Glory|!PREABILITY:1,CATEGORY=ACF,TYPE.SpurLordCyricSGlory																			
+5				ABILITY:Spur Lord Class Feature|AUTOMATIC|Spur Lord ~ Flesh of the Prince|!PREABILITY:1,CATEGORY=ACF,TYPE.SpurLordFleshOfThePrince																			
+																							
+CLASS:Darkmask	HD:6	TYPE:PC.Prestige	FACT:Abb|Dar	MAXLEVEL:5	SOURCEPAGE:LoD30	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DarkmaskLVL|0	BONUS:VAR|DarkmaskLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1								
+CLASS:Darkmask	PRERACE:1,Drow,Half-Drow	PRESKILL:1,Hide=8	PRESKILL:1,Move Silently=6	PRESKILL:1,Sleight of Hand=4	PRESKILL:1,Survival=2	PREABILITY:2,CATEGORY=FEAT,Daylight Adaptation,Stealthy	PRETEXT:Ability to cast 2nd-level divine spells. Special: Must have survived a combat encounter against one or more clerics of Lolth.	PREDEITY:1,Vhaeraun	PRESPELLCAST:TYPE=Divine														
+CLASS:Darkmask	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Climb|Concentration|TYPE.Craft|Diplomacy|Disguise|Escape Artist|Heal|Hide|Jump|Knowledge (Religion)|Listen|Move Silently|Open Lock|TYPE.Profession|Search|Sleight of Hand|Spot|Survival|Tumble																					
+1				ABILITY:Darkmask Class Feature|AUTOMATIC|Darkmask ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DarkmaskProficiencies																			
+1				ABILITY:Darkmask Class Feature|AUTOMATIC|Darkmask ~ Spellcasting																			
+#																							
+1				ABILITY:Darkmask Class Feature|AUTOMATIC|Darkmask ~ Darkfire|!PREABILITY:1,CATEGORY=ACF,TYPE.DarkmaskDarkfire																			
+1				ABILITY:Darkmask Class Feature|AUTOMATIC|Darkmask ~ Pass without Trace|!PREABILITY:1,CATEGORY=ACF,TYPE.DarkmaskPassWithoutTrace																			
+2				ABILITY:Darkmask Class Feature|AUTOMATIC|Darkmask ~ Change Self|!PREABILITY:1,CATEGORY=ACF,TYPE.DarkmaskChangeSelf																			
+2				ABILITY:Darkmask Class Feature|AUTOMATIC|Darkmask ~ Skill Focus|!PREABILITY:1,CATEGORY=ACF,TYPE.DarkmaskSkillFocus																			
+3				ABILITY:Darkmask Class Feature|AUTOMATIC|Darkmask ~ Dark Embrace|!PREABILITY:1,CATEGORY=ACF,TYPE.DarkmaskDarkEmbrace																			
+3				ABILITY:Darkmask Class Feature|AUTOMATIC|Darkmask ~ Sneak Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.DarkmaskSneakAttack																			
+4				ABILITY:Darkmask Class Feature|AUTOMATIC|Darkmask ~ Resist Illusion|!PREABILITY:1,CATEGORY=ACF,TYPE.DarkmaskResistIllusion																			
+4				ABILITY:Darkmask Class Feature|AUTOMATIC|Darkmask ~ Cloak of Shadows|!PREABILITY:1,CATEGORY=ACF,TYPE.DarkmaskCloakOfShadows																			
+5				ABILITY:Darkmask Class Feature|AUTOMATIC|Darkmask ~ Bladebend|!PREABILITY:1,CATEGORY=ACF,TYPE.DarkmaskBladebend																			
+#																							
+1	ADD:SPELLCASTER|Divine																						
+2	ADD:SPELLCASTER|Divine																						
+3	ADD:SPELLCASTER|Divine																						
+4	ADD:SPELLCASTER|Divine																						
+5	ADD:SPELLCASTER|Divine																						
+																							
+#CLASS:Thayan Knight																							
+																							
+CLASS:Zhentarim Skymage	HD:4	TYPE:PC.Prestige	FACT:Abb|Sky	MAXLEVEL:5	SOURCEPAGE:LoD30	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ZhentarimSkymageLVL|0	BONUS:VAR|ZhentarimSkymageLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1								
+CLASS:Zhentarim Skymage	PRESKILL:4,Diplomacy=2,Handle Animal=2,Knowledge (Geography)=2,Ride=2	PRESKILL:1,Spellcraft=4	PREABILITY:3,CATEGORY=FEAT,Combat Casting,Iron Will,Mounted Combat	PRETEXT:Special: Member in good standing of the Zhentarim. Must be able to cast detect thoughts, invisibility, and suggestion, plus one summon monster spell of 3rd level or higher.																			
+CLASS:Zhentarim Skymage	STARTSKILLPTS:2	CSKILL:Balance|Concentration|TYPE.Craft|Diplomacy|Handle Animal|Knowledge (Arcana)|Knowledge (Geography)|TYPE.Profession|Ride|Sense Motive|Spellcraft|Survival																					
+1				ABILITY:Zhentarim Skymage Class Feature|AUTOMATIC|Zhentarim Skymage ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ZhentarimSkymageProficiencies																			
+1				ABILITY:Zhentarim Skymage Class Feature|AUTOMATIC|Zhentarim Skymage ~ Spells per Day																			
+#																							
+1				ABILITY:Zhentarim Skymage Class Feature|AUTOMATIC|Zhentarim Skymage ~ Bonus Scroll|!PREABILITY:1,CATEGORY=ACF,TYPE.ZhentarimSkymageBonusScroll																			
+1				ABILITY:Zhentarim Skymage Class Feature|AUTOMATIC|Zhentarim Skymage ~ Flying Mount|!PREABILITY:1,CATEGORY=ACF,TYPE.ZhentarimSkymageFlyingMount																			
+2				ABILITY:Zhentarim Skymage Class Feature|AUTOMATIC|Zhentarim Skymage ~ Flying Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.ZhentarimSkymageFlyingFeat																			
+2				ABILITY:Zhentarim Skymage Class Feature|AUTOMATIC|Zhentarim Skymage ~ Craft Wand|!PREABILITY:1,CATEGORY=ACF,TYPE.ZhentarimSkymageCraftWand																			
+3				ABILITY:Zhentarim Skymage Class Feature|AUTOMATIC|Zhentarim Skymage ~ Share Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.ZhentarimSkymageShareSpells																			
+3				ABILITY:Zhentarim Skymage Class Feature|AUTOMATIC|Zhentarim Skymage ~ Spell Focus|!PREABILITY:1,CATEGORY=ACF,TYPE.ZhentarimSkymageSpellFocus																			
+4				ABILITY:Zhentarim Skymage Class Feature|AUTOMATIC|Zhentarim Skymage ~ Skill Focus|!PREABILITY:1,CATEGORY=ACF,TYPE.ZhentarimSkymageSkillFocus																			
+5				ABILITY:Zhentarim Skymage Class Feature|AUTOMATIC|Zhentarim Skymage ~ Enlarge Spell|!PREABILITY:1,CATEGORY=ACF,TYPE.ZhentarimSkymageEnlargeSpell																			
+#																							
+1	ADD:SPELLCASTER|ANY																						
+2	ADD:SPELLCASTER|ANY																						
+3	ADD:SPELLCASTER|ANY																						
+4	ADD:SPELLCASTER|ANY																						
+5	ADD:SPELLCASTER|ANY																						
+																							
+CLASS:Entropist	HD:8	TYPE:PC.Prestige	FACT:Abb|Ent	MAXLEVEL:5	SOURCEPAGE:LoD30	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:EntropistLVL|0	BONUS:VAR|EntropistLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1								
+CLASS:Entropist	PREALIGN:LE	PRESKILL:2,Concentration=5,Knowledge (Arcana)=5	PREABILITY:2,CATEGORY=FEAT,Education,Great Fortitude	PRETEXT:Special: Must have killed an elf, sorcerer, or wizard, either in combat or by burning in a witchweed execution. Able to cast 4th-level divine spells.	PREDEITY:1,Tiamat																		
+CLASS:Entropist	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (Local)|Knowledge (Religion)|TYPE.Profession|Spellcraft																					
+1				ABILITY:Entropist Class Feature|AUTOMATIC|Entropist ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.EntropistProficiencies																			
+1				ABILITY:Entropist Class Feature|AUTOMATIC|Entropist ~ Spells per Day																			
+#																							
+1				ABILITY:Entropist Class Feature|AUTOMATIC|Entropist ~ Control Sphere|!PREABILITY:1,CATEGORY=ACF,TYPE.EntropistControlSphere																			
+1				ABILITY:Entropist Class Feature|AUTOMATIC|Entropist ~ Sanctity of Body|!PREABILITY:1,CATEGORY=ACF,TYPE.EntropistSanctityOfBody																			
+2				ABILITY:Entropist Class Feature|AUTOMATIC|Entropist ~ Arcane Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.EntropistArcaneResistance																			
+3				ABILITY:Entropist Class Feature|AUTOMATIC|Entropist ~ Hand of Entropy|!PREABILITY:1,CATEGORY=ACF,TYPE.EntropistHandOfEntropy																			
+4				ABILITY:Entropist Class Feature|AUTOMATIC|Entropist ~ Arcane Disruption|!PREABILITY:1,CATEGORY=ACF,TYPE.EntropistArcaneDisruption																			
+5				ABILITY:Entropist Class Feature|AUTOMATIC|Entropist ~ Eye of Entropy|!PREABILITY:1,CATEGORY=ACF,TYPE.EntropistEyeOfEntropy																			
+#																							
+2	ADD:SPELLCASTER|Divine																						
+4	ADD:SPELLCASTER|Divine																						

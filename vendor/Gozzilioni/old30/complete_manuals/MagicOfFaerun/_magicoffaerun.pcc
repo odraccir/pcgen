@@ -55,7 +55,7 @@ SPELL:mof_spells_FRCS.lst|PRECAMPAIGN:1,Forgotten Realms Campaign Setting 3.0
 TEMPLATE:mof_templates.lst
 # TEMPLATE:mof_templates_regions.lst
 
-FORWARDREF:EQMOD|BOOK_WATER_PRF,BOOK_FIREPRF,BOOK_LOCK
+FORWARDREF:EQMOD|BOOK_WATER_PRF,BOOK_FIRE_PRF,BOOK_LOCK
 
 # HIDETYPE:FEAT|ArcaneDevotee|GuildThief
 

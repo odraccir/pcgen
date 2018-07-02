@@ -81,6 +81,7 @@ Human.COPY=Human	KEY:Companion ~ Human (Werebear)
 Human.COPY=Human	KEY:Companion ~ Human (Wereboar)
 Human.COPY=Human	KEY:Companion ~ Human (Zombie)
 Hydra.COPY=Hydra	KEY:Companion ~ Hydra (12 heads)
+Hydra.COPY=Hydra	KEY:Companion ~ Hydra (Criohydra)
 Minotaur.COPY=Minotaur	KEY:Companion ~ Minotaur (Zombie)
 Owl (Giant).COPY=Owl (Giant)	KEY:Companion ~ Owl (Giant/Celestial)
 Pegasus.COPY=Pegasus	KEY:Companion ~ Pegasus (Celestial)
@@ -178,6 +179,7 @@ Companion ~ Human (Werebear).MOD	OUTPUTNAME:Human (Werebear)	TYPE:Companion	SERV
 Companion ~ Human (Wereboar).MOD	OUTPUTNAME:Human (Wereboar)	TYPE:Companion	SERVESAS:RACE|Human	TEMPLATE:Lycanthrope	ABILITY:Internal|NORMAL|Natural Lycanthrope|Lycanthrope ~ Boar
 Companion ~ Human (Zombie).MOD	OUTPUTNAME:Human (Zombie)	TYPE:Companion	SERVESAS:RACE|Human	TEMPLATE:Zombie
 Companion ~ Hydra (12 heads).MOD	OUTPUTNAME:Hydra (12 heads)	TYPE:Companion	SERVESAS:RACE|Hydra	KIT:1|Hydra (12 heads) Companion
+Companion ~ Hydra (Criohydra).MOD	OUTPUTNAME:Hydra (Criohydra)	TYPE:Companion	SERVESAS:RACE|Hydra	KIT:1|Hydra Companion	TEMPLATE:Criohydra
 Companion ~ Minotaur (Zombie).MOD	OUTPUTNAME:Minotaur (Zombie)	TYPE:Companion	SERVESAS:RACE|Minotaur	TEMPLATE:Zombie
 Companion ~ Owl (Giant/Celestial).MOD	OUTPUTNAME:Owl (Giant/Celestial)	TYPE:Companion	SERVESAS:RACE|Owl (Giant)	TEMPLATE:Celestial
 Companion ~ Pegasus (Celestial).MOD	OUTPUTNAME:Pegasus (Celestial)	TYPE:Companion	SERVESAS:RACE|Pegasus	TEMPLATE:Celestial

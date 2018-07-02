@@ -1,0 +1,82 @@
+CAMPAIGN:Lords Of Darkness 3.0
+GAMEMODE:G35e
+RANK:3
+TYPE:Gozzilioni.Partial.Old
+SETTING:Heroes
+BOOKTYPE:Campaign
+SOURCELONG:Lords of Darkness 3.0
+SOURCESHORT:LoF30
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:10-2001
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+
+PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Guide
+
+ABILITY:lod_abilities.lst
+ABILITY:lod_abilities_classes.lst
+# ABILITY:lod_abilities_FRCS.lst|PRECAMPAIGN:1,Forgotten Realms Campaign Setting 3.0
+ABILITY:lod_abilities_guilds.lst
+# ABILITY:lod_abilities_races.lst
+# ABILITY:lod_abilities_racetraits.lst
+# ABILITY:lod_abilities_regions.lst
+# ABILITY:lod_abilities_templates.lst
+ABILITYCATEGORY:lod_abilitycategories.lst
+# BIOSET:lod_biosettings.lst
+CLASS:lod_classes.lst
+COMPANIONMOD:lod_companionmods.lst
+# DEITY:lod_deities.lst
+# DOMAIN:lod_domains.lst
+EQUIPMENT:lod_equip.lst
+# EQUIPMENT:lod_equip_armors.lst
+EQUIPMENT:lod_equip_armors_specific.lst
+EQUIPMENT:lod_equip_magic_items.lst
+# EQUIPMENT:lod_equip_weapons.lst
+# EQUIPMENT:lod_equip_weapons_natural.lst
+EQUIPMENT:lod_equip_weapons_specific.lst
+# EQUIPMENT:lod_equip_weapons_natural.lst
+EQUIPMOD:lod_equipmods.lst
+ABILITY:lod_feats.lst
+# KIT:lod_kits.lst
+# KIT:lod_kits_regions.lst
+# LANGUAGE:lod_languages.lst
+# ARMORPROF:lod_profs_armor.lst
+# WEAPONPROF:lod_profs_weapon.lst
+# RACE:lod_races.lst
+# RACE:lod_races_companion.lst
+# SKILL:lod_skills.lst
+SPELL:lod_spells.lst
+# SPELL:lod_spells_FRCS.lst|PRECAMPAIGN:1,Forgotten Realms Campaign Setting 3.0
+# SPELL:lod_spells_specific.lst
+# ABILITY:lod_subraces.lst
+# TEMPLATE:lod_templates.lst
+# TEMPLATE:lod_templates_regions.lst
+
+# FORWARDREF:EQMOD|BOOK_WATER_PRF,BOOK_FIREPRF,BOOK_LOCK
+
+HIDETYPE:FEAT|ZhentarimSkymage
+
+# ENTRY DATE: 2016-07
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:
+
+# MINDEVVER:6.04.1
+# COMMENTS:
+
+
+
+
+
+
+
+
