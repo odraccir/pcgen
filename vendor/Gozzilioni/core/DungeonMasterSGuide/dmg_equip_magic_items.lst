@@ -1172,8 +1172,8 @@ Carpet of Flying (5x10)	OUTPUTNAME:Carpet of Flying, 5 Ft. by 10 Ft.	TYPE:Wondro
 Carpet of Flying (10x10)	OUTPUTNAME:Carpet of Flying, 10 Ft. by 10 Ft.	TYPE:Wondrous	COST:60000	WT:10	SOURCEPAGE:DMG	SORTKEY:Carpet of Flying, 1010																		
 Censer of Controlling Air Elementals		TYPE:Wondrous	COST:100000	WT:1	SOURCEPAGE:DMG																			
 Chaos Diamond		TYPE:Wondrous.Gem	COST:160000	WT:1	SOURCEPAGE:DMG	SPROP:Confusion, Lesser, Magic Circle against Law, Word of Chaos, Cloak of Chaos 1d4 times a day each.	BONUS:VAR|NegativeLevels|1|PREALIGN:LG,LN,LE,NG,TN,NE																	
-Chime of Interruption		TYPE:Wondrous.MusicalInstrument	COST:16800	WT:1	SOURCEPAGE:DMG																			
-Chime of Opening		TYPE:Wondrous.MusicalInstrument	COST:3000	WT:1	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_10|CHARGES[10]																		
+Chime of Interruption		TYPE:Wondrous.Instrument	COST:16800	WT:1	SOURCEPAGE:DMG																			
+Chime of Opening		TYPE:Wondrous.Instrument	COST:3000	WT:1	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_10|CHARGES[10]																		
 Circlet of Blasting (Minor)	OUTPUTNAME:Circlet of Blasting, Minor	TYPE:Wondrous.Headgear	COST:6840	WT:0	SPELLS:Circlet of Blasting|TIMES=1|CASTERLEVEL=6|Searing Light																			
 Circlet of Blasting (Major)	OUTPUTNAME:Circlet of Blasting, Major	TYPE:Wondrous.Headgear	COST:23790	WT:0	SPROP:Maximized.	SPELLS:Circlet of Blasting|TIMES=1|CASTERLEVEL=17|Searing Light																		
 Circlet of Persuasion		TYPE:Wondrous.Headgear	COST:4500	WT:0	SOURCEPAGE:DMG	BONUS:SKILL|TYPE.Charisma|3|TYPE=Competence																		
@@ -1201,7 +1201,7 @@ Darkskull		TYPE:Wondrous	COST:60000	WT:5	SOURCEPAGE:DMG	SPROP:continuous Unhallo
 Decanter of Endless Water		TYPE:Wondrous	COST:9000	WT:2	SOURCEPAGE:DMG																			
 Deck of Illusions		TYPE:Wondrous	COST:8100	WT:0.5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_34|CHARGES[34]																		
 Dimensional Shackles		TYPE:Wondrous	COST:28000	WT:5	SOURCEPAGE:DMG																			
-Drums of Panic		TYPE:Wondrous.MusicalInstrument	COST:30000	WT:10	SOURCEPAGE:DMG	SPELLS:Drums of Panic|TIMES=1|CASTERLEVEL=7|Cause Fear,16																		
+Drums of Panic		TYPE:Wondrous.Instrument	COST:30000	WT:10	SOURCEPAGE:DMG	SPELLS:Drums of Panic|TIMES=1|CASTERLEVEL=7|Cause Fear,16																		
 Dust of Appearance		TYPE:Wondrous.Consumable.Dust	COST:1800	WT:0	SOURCEPAGE:DMG																			
 Dust of Disappearance		TYPE:Wondrous.Consumable.Dust	COST:1800	WT:0	SOURCEPAGE:DMG																			
 Dust of Dryness		TYPE:Wondrous.Consumable.Dust	COST:850	WT:0	SOURCEPAGE:DMG	SPROP:against Water Elementals 5d6 points of damage and Fort DC 18 or destroyed.																		
@@ -1252,7 +1252,7 @@ Golem Manual (Stone)	OUTPUTNAME:Golem Manual, [NAME]	TYPE:Wondrous	COST:22000	WT
 Golem Manual (Stone/Greater)	OUTPUTNAME:Golem Manual, Greater Stone	TYPE:Wondrous	COST:44000	WT:5	SOURCEPAGE:DMG	SPROP:Geas/Quest, Limited Wish, Polymorph any Object, Slow. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem. The book supplies 7,640 XP for the creation of a greater stone golem.																		
 Hand of Glory		TYPE:Wondrous.Amulet	COST:8000	WT:2	SOURCEPAGE:DMG	BONUS:SLOTS|RING|1	SPELLS:Hand of Glory|TIMES=1|CASTERLEVEL=5|Daylight|See Invisibility																	
 Hand of the Mage		TYPE:Wondrous.Amulet	COST:900	WT:2	SOURCEPAGE:DMG	SPELLS:Hand of the Mage|TIMES=ATWILL|CASTERLEVEL=2|Mage Hand																		
-Harp of Charming		TYPE:Wondrous.MusicalInstrument	COST:7500	WT:5	SOURCEPAGE:DMG	SPROP:Suggestion Will DC 14.																		
+Harp of Charming		TYPE:Wondrous.Instrument	COST:7500	WT:5	SOURCEPAGE:DMG	SPROP:Suggestion Will DC 14.																		
 Hat of Disguise		TYPE:Wondrous.Headgear	COST:1800	WT:0	SOURCEPAGE:DMG	SPELLS:Hat of Disguise|TIMES=ATWILL|CASTERLEVEL=1|Disguise Self																		
 Headband of Intellect +2		TYPE:Wondrous.Headgear	COST:4000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|INT|2|TYPE=Enhancement																		
 Headband of Intellect +4		TYPE:Wondrous.Headgear	COST:16000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|INT|4|TYPE=Enhancement																		
@@ -1263,12 +1263,12 @@ Helm of Telepathy		TYPE:Wondrous.Headgear	COST:27000	WT:3	SOURCEPAGE:DMG	SPELLS:
 Helm of Teleportation		TYPE:Wondrous.Headgear	COST:73500	WT:3	SOURCEPAGE:DMG	SPELLS:Helm of Teleportation|TIMES=3|CASTERLEVEL=9|Teleport																		
 Helm of Underwater Action		TYPE:Wondrous.Headgear	COST:57000	WT:3	SOURCEPAGE:DMG	BONUS:VAR|UnderwaterDistance|3|TYPE=Enhancement																		
 Heward's Handy Haversack		TYPE:Wondrous.Container	COST:2000	WT:5	SOURCEPAGE:DMG	CONTAINS:*120																		
-Horn of Blasting		TYPE:Wondrous.MusicalInstrument	COST:20000	WT:1	SOURCEPAGE:DMG																			
-Horn of Blasting (Greater)	OUTPUTNAME:Horn of Blasting, Greater	TYPE:Wondrous.MusicalInstrument	COST:70000	WT:1	SOURCEPAGE:DMG																			
-Horn of Fog		TYPE:Wondrous.MusicalInstrument	COST:2000	WT:1	SOURCEPAGE:DMG																			
-Horn of Goodness/Evil		TYPE:Wondrous.MusicalInstrument	COST:2000	WT:1	SOURCEPAGE:DMG	SPELLS:Horn of Goodness|TIMES=1|CASTERLEVEL=6|Magic Circle against Evil|PREALIGN:LG,NG,CG	SPELLS:Horn of Evil|TIMES=1|CASTERLEVEL=6|Magic Circle against Good|PREALIGN:LE,NE,CE																	
-Horn of the Tritons		TYPE:Wondrous.MusicalInstrument	COST:15100	WT:2	SOURCEPAGE:DMG																			
-Horn of Valhalla		TYPE:Wondrous.MusicalInstrument	COST:50000	WT:2	SOURCEPAGE:DMG																			
+Horn of Blasting		TYPE:Wondrous.Instrument	COST:20000	WT:1	SOURCEPAGE:DMG																			
+Horn of Blasting (Greater)	OUTPUTNAME:Horn of Blasting, Greater	TYPE:Wondrous.Instrument	COST:70000	WT:1	SOURCEPAGE:DMG																			
+Horn of Fog		TYPE:Wondrous.Instrument	COST:2000	WT:1	SOURCEPAGE:DMG																			
+Horn of Goodness/Evil		TYPE:Wondrous.Instrument	COST:2000	WT:1	SOURCEPAGE:DMG	SPELLS:Horn of Goodness|TIMES=1|CASTERLEVEL=6|Magic Circle against Evil|PREALIGN:LG,NG,CG	SPELLS:Horn of Evil|TIMES=1|CASTERLEVEL=6|Magic Circle against Good|PREALIGN:LE,NE,CE																	
+Horn of the Tritons		TYPE:Wondrous.Instrument	COST:15100	WT:2	SOURCEPAGE:DMG																			
+Horn of Valhalla		TYPE:Wondrous.Instrument	COST:50000	WT:2	SOURCEPAGE:DMG																			
 Horseshoes of Speed		TYPE:Wondrous.Boot	COST:3000	WT:12	SOURCEPAGE:DMG	SLOTS:4	BONUS:MOVEADD|TYPE.Walk|30|TYPE=Enhancement|PRERACE:1,RACETYPE=Animal																	
 Horseshoes of a Zephyr		TYPE:Wondrous.Boot	COST:6000	WT:4	SOURCEPAGE:DMG	SLOTS:4																		
 Incense of Meditation		TYPE:Wondrous.Incense.Consumable	COST:4900	WT:1	SOURCEPAGE:DMG	SPROP:Maximize spells.	ABILITY:Special Ability|VIRTUAL|Incense of Meditation ~ Maximize Spells	QUALITY:Duration|8 hr.																
@@ -1294,7 +1294,7 @@ Iron Flask		TYPE:Wondrous.Flask.Container	COST:170000	WT:1	SOURCEPAGE:DMG	CONTAI
 Keoghtom's Ointment		TYPE:Wondrous.Jar.Consumable	COST:4000	WT:0.5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_5|CHARGES[5]																		
 Lantern of Revealing		TYPE:Wondrous.Container.LightSource	COST:30000	WT:2	SOURCEPAGE:DMG	SPROP:When lit, Invisibility Purge in 25' radius.	CONTAINS:1|Liquid=1	QUALITY:Bright Illumination|30 ft.	QUALITY:Shadowy Illumination|60 ft.	QUALITY:Duration|6 hr./pint														
 Lens of Detection		TYPE:Wondrous.Eyegear	COST:3500	WT:1	SOURCEPAGE:DMG	BONUS:SKILL|Search|5	BONUS:SITUATION|Survival=Find or follow tracks|5																	
-Lyre of Building		TYPE:Wondrous.MusicalInstrument	COST:13000	WT:5	SOURCEPAGE:DMG																			
+Lyre of Building		TYPE:Wondrous.Instrument	COST:13000	WT:5	SOURCEPAGE:DMG																			
 Mantle of Faith		TYPE:Wondrous.Cape	COST:76000	WT:0	SOURCEPAGE:DMG	DR:5/Evil																		
 Mantle of Spell Resistance		TYPE:Wondrous.Cape	COST:90000	WT:0	SOURCEPAGE:DMG	SR:21																		
 Manual of Bodily Health +1		TYPE:Wondrous.Book.Consumable	COST:27500	WT:5	SOURCEPAGE:DMG	SPROP:Increase Constitution by +1 inherent.																		
@@ -1348,12 +1348,12 @@ Periapt of Wisdom +2		TYPE:Wondrous.Amulet	COST:4000	WT:0	SOURCEPAGE:DMG	BONUS:S
 Periapt of Wisdom +4		TYPE:Wondrous.Amulet	COST:16000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|WIS|4|TYPE=Enhancement																		
 Periapt of Wisdom +6		TYPE:Wondrous.Amulet	COST:36000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|WIS|6|TYPE=Enhancement																		
 Periapt of Wound Closure		TYPE:Wondrous.Amulet	COST:15000	WT:0	SOURCEPAGE:DMG																			
-Phylactery of Faithfulness		TYPE:Wondrous.Amulet	COST:1000	WT:0	SOURCEPAGE:DMG	SPROP:You are aware of any action or item that could adversely affect his alignment and his standing with his deity, including magical effects.																		
+Phylactery of Faithfulness		TYPE:Wondrous.Amulet	COST:1000	WT:0	SOURCEPAGE:DMG	SPROP:You are aware of any action or item that could adversely affecThis alignment and his standing with his deity, including magical effects.																		
 Phylactery of Undead Turning		TYPE:Wondrous.Amulet	COST:11000	WT:0	SOURCEPAGE:DMG	BONUS:VAR|TurnLevelUndead|4	BONUS:VAR|TurnDamagePlusUndead|4																	
-Pipes of Haunting		TYPE:Wondrous.MusicalInstrument	COST:6000	WT:3	SOURCEPAGE:DMG																			
-Pipes of Pain		TYPE:Wondrous.MusicalInstrument	COST:12000	WT:3	SOURCEPAGE:DMG																			
-Pipes of the Sewers		TYPE:Wondrous.MusicalInstrument	COST:1150	WT:3	SOURCEPAGE:DMG																			
-Pipes of Sounding		TYPE:Wondrous.MusicalInstrument	COST:1800	WT:3	SOURCEPAGE:DMG																			
+Pipes of Haunting		TYPE:Wondrous.Instrument	COST:6000	WT:3	SOURCEPAGE:DMG																			
+Pipes of Pain		TYPE:Wondrous.Instrument	COST:12000	WT:3	SOURCEPAGE:DMG																			
+Pipes of the Sewers		TYPE:Wondrous.Instrument	COST:1150	WT:3	SOURCEPAGE:DMG																			
+Pipes of Sounding		TYPE:Wondrous.Instrument	COST:1800	WT:3	SOURCEPAGE:DMG																			
 Portable Hole		TYPE:Wondrous.Container	COST:20000	WT:0	SOURCEPAGE:DMG	CONTAINS:*UNLIM|Any																		
 Quaal's Feather Token (Anchor)	OUTPUTNAME:Quaal's Feather Token, [NAME]	TYPE:Wondrous	COST:50	WT:0	SOURCEPAGE:DMG																			
 Quaal's Feather Token (Bird)	OUTPUTNAME:Quaal's Feather Token, [NAME]	TYPE:Wondrous	COST:300	WT:0	SOURCEPAGE:DMG																			

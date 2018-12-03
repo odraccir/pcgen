@@ -16,21 +16,24 @@ PUBNAMEWEB:http://www.gozzilioni.net
 PRECAMPAIGN:1,Core Ruleset
 
 ABILITY:h_abilities.lst
-ABILITYCATEGORY:h_abilitycategories.lst
-EQUIPMENT:h_equip.lst
-EQUIPMOD:h_equipmods.lst
-SPELL:h_spells.lst
-SKILL:h_skills.lst
-
-EQUIPMENT:h_equip_magic_items_DMG.lst|PRECAMPAIGN:1,INCLUDES=Dungeon Master's Guide
-
-EQUIPMENT:h_equip_magic_items_Drac.lst|PRECAMPAIGN:1,INCLUDES=Draconomicon
-
 ABILITY:h_abilities_classes_UA.lst|PRECAMPAIGN:1,INCLUDES=Unearthed Arcana
-ABILITY:h_abilities_UA.lst|PRECAMPAIGN:1,INCLUDES=Unearthed Arcana
 ABILITY:h_abilities_races_MCMoF.lst|PRECAMPAIGN:1,INCLUDES=Monsters of Faerun 3.0
+ABILITY:h_abilities_UA.lst|PRECAMPAIGN:1,INCLUDES=Unearthed Arcana
+ABILITYCATEGORY:h_abilitycategories.lst
 ABILITYCATEGORY:h_abilitycategories_UA.lst|PRECAMPAIGN:1,INCLUDES=Unearthed Arcana
 CLASS:h_classes_UA.lst|PRECAMPAIGN:1,INCLUDES=Unearthed Arcana
+EQUIPMENT:h_equip_weapons_PHB.lst|PRECAMPAIGN:1,INCLUDES=Player's Handbook
+EQUIPMENT:h_equip.lst
+EQUIPMENT:h_equip_magic_items_DMG.lst|PRECAMPAIGN:1,INCLUDES=Dungeon Master's Guide
+EQUIPMENT:h_equip_magic_items_Drac.lst|PRECAMPAIGN:1,INCLUDES=Draconomicon
+EQUIPMOD:h_equipmods.lst
+SKILL:h_skills.lst
+SPELL:h_spells.lst
+
+
+
+
+
 
 HIDETYPE:SKILL|Knowledge (Underdark)|Craft (Poisonmaking)
 

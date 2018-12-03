@@ -1,0 +1,78 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:03-2004												
+															
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE			
+# Class Name req	Requirements	FINE													
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS			
+# Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	SPELLLIST	spell level increases (BONUS:CASTERLEVEL)									
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)					
+CLASS:Celebrant of Sharess	HD:6	TYPE:Prestige	FACT:Abb|CoS	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:CelebrantOfSharessLVL|0	BONUS:VAR|CelebrantOfSharessLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Celebrant of Sharess	PREALIGN:CG	PRESKILL:1,Diplomacy=7	PRESKILL:1,TYPE.Perform=7	PREABILITY:2,CATEGORY=FEAT,Sacred Vow,Vow of Purity											
+CLASS:Celebrant of Sharess	STARTSKILLPTS:6	CSKILL:Bluff|Concentration|TYPE.Craft|Diplomacy|Disguise|Gather Information|Jump|Listen|TYPE=Perform|TYPE=Profession|Sense Motive|Sleight of Hand|Spellcraft|Tumble													
+CLASS:Celebrant of Sharess	SPELLSTAT:CHA	FACT:SpellType|Arcane	MEMORIZE:NO												
+1				ABILITY:Celebrant of Sharess Class Feature|AUTOMATIC|Celebrant of Sharess ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.CelebrantOfSharessProficiencies											
+1				ABILITY:Celebrant of Sharess Class Feature|AUTOMATIC|Celebrant of Sharess ~ Spells											
+#															
+1				ABILITY:Celebrant of Sharess Class Feature|AUTOMATIC|Celebrant of Sharess ~ Fascinate|!PREABILITY:1,CATEGORY=ACF,TYPE.CelebrantOfSharessFascinate											
+1				ABILITY:Celebrant of Sharess Class Feature|AUTOMATIC|Celebrant of Sharess ~ Feline Familiar|!PREABILITY:1,CATEGORY=ACF,TYPE.CelebrantOfSharessFelineFamiliar											
+1				ABILITY:Celebrant of Sharess Class Feature|AUTOMATIC|Celebrant of Sharess ~ Flirtation|!PREABILITY:1,CATEGORY=ACF,TYPE.CelebrantOfSharessFlirtation											
+2				ABILITY:Celebrant of Sharess Class Feature|AUTOMATIC|Celebrant of Sharess ~ Fury of the Tigress|!PREABILITY:1,CATEGORY=ACF,TYPE.CelebrantOfSharessFuryOfTheTigress											
+4				ABILITY:Celebrant of Sharess Class Feature|AUTOMATIC|Celebrant of Sharess ~ Suggestion|!PREABILITY:1,CATEGORY=ACF,TYPE.CelebrantOfSharessSuggestion											
+5				ABILITY:Celebrant of Sharess Class Feature|AUTOMATIC|Celebrant of Sharess ~ Pounce|!PREABILITY:1,CATEGORY=ACF,TYPE.CelebrantOfSharessPounce											
+7				ABILITY:Celebrant of Sharess Class Feature|AUTOMATIC|Celebrant of Sharess ~ Sanctuary|!PREABILITY:1,CATEGORY=ACF,TYPE.CelebrantOfSharessSanctuary											
+8				ABILITY:Celebrant of Sharess Class Feature|AUTOMATIC|Celebrant of Sharess ~ Swiftness of the Tiger|!PREABILITY:1,CATEGORY=ACF,TYPE.CelebrantOfSharessSwiftnessOfTheTiger											
+10				ABILITY:Celebrant of Sharess Class Feature|AUTOMATIC|Celebrant of Sharess ~ Inspire Desire|!PREABILITY:1,CATEGORY=ACF,TYPE.CelebrantOfSharessInspireDesire											
+#															
+1	CAST:0,0	KNOWN:0,2													
+2	CAST:0,1	KNOWN:0,3													
+3	CAST:0,2,0	KNOWN:0,3,2													
+4	CAST:0,3,1	KNOWN:0,4,3													
+5	CAST:0,3,2,0	KNOWN:0,4,3,2													
+6	CAST:0,3,3,1	KNOWN:0,4,4,3													
+7	CAST:0,3,3,2,0	KNOWN:0,4,4,3,2													
+8	CAST:0,3,3,3,1	KNOWN:0,4,4,4,3													
+9	CAST:0,3,3,3,2	KNOWN:0,4,4,4,3													
+10	CAST:0,3,3,3,3	KNOWN:0,4,4,4,4													
+															
+CLASS:Harper Paragon	HD:10	TYPE:Prestige	FACT:Abb|HPa	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:HarperParagonLVL|0	BONUS:VAR|HarperParagonLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Harper Paragon	PRESKILL:1,Diplomacy=8	PRESKILL:1,TYPE.Perform=5	PRESKILL:1,Sense Motive=4	PRESKILL:1,Survival=2	PREABILITY:2,CATEGORY=FEAT,Sacred Vow,Vow of Obedience	PREABILITY:1,CATEGORY=Special Ability,Favored Enemy ~ Humanoid ~ Goblinoid,Favored Enemy ~ Humanoid ~ Gnoll,Favored Enemy ~ Humanoid ~ Orc,Favored Enemy ~ Humanoid ~ Reptilian,Favored Enemy ~ Outsider ~ Evil,Favored Enemy ~ Undead,Harper Enemy Bonus ~ Church of Bane,Harper Enemy Bonus ~ Cult of the Dragon,Harper Enemy Bonus ~ Iron Throne,Harper Enemy Bonus ~ Malaugryms,Harper Enemy Bonus ~ Red Wizards,Harper Enemy Bonus ~ Zhentarim									
+CLASS:Harper Paragon	STARTSKILLPTS:4	CSKILL:Appraise|Bluff|Climb|TYPE.Craft|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|Sleight of Hand|TYPE.Profession|Sense Motive|Speak Language|Survival|Swim|Tumble													
+1				ABILITY:Harper Paragon Class Feature|AUTOMATIC|Harper Paragon ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperParagonProficiencies											
+1				ABILITY:Harper Paragon Class Feature|AUTOMATIC|Harper Paragon ~ Spells per Day											
+#															
+1				ABILITY:Harper Paragon Class Feature|AUTOMATIC|Harper Paragon ~ Aura of Good|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperParagonAuraOfGood											
+1				ABILITY:Harper Paragon Class Feature|AUTOMATIC|Harper Paragon ~ Detect Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperParagonDetectEvil											
+1				ABILITY:Harper Paragon Class Feature|AUTOMATIC|Harper Paragon ~ Harper Knowledge|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperParagonHarperKnowledge											
+2				ABILITY:Harper Paragon Class Feature|AUTOMATIC|Harper Paragon ~ Favored Enemy (Evil)|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperParagonFavoredEnemyEvil											
+3				ABILITY:Harper Paragon Class Feature|AUTOMATIC|Harper Paragon ~ Celestial Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperParagonCelestialSpells											
+4				ABILITY:Harper Paragon Class Feature|AUTOMATIC|Harper Paragon ~ Exalted Companion|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperParagonExaltedCompanion											
+5				ABILITY:Harper Paragon Class Feature|AUTOMATIC|Harper Paragon ~ Favored Enemy|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperParagonFavoredEnemy											
+#															
+1	ADD:SPELLCASTER|ANY														
+2	ADD:SPELLCASTER|ANY														
+3	ADD:SPELLCASTER|ANY														
+4	ADD:SPELLCASTER|ANY														
+5	ADD:SPELLCASTER|ANY														
+6	ADD:SPELLCASTER|ANY														
+7	ADD:SPELLCASTER|ANY														
+8	ADD:SPELLCASTER|ANY														
+9	ADD:SPELLCASTER|ANY														
+10	ADD:SPELLCASTER|ANY														
+															
+CLASS:Martyred Champion of Ilmater	HD:10	TYPE:Prestige	FACT:Abb|MCI	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:MartyredChampionOfIlmaterLVL|0	BONUS:VAR|MartyredChampionOfIlmaterLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Martyred Champion of Ilmater	PREALIGN:LG	PREMULT:1,[PRESKILL:1,Knowledge (Religion)=4],[PRESKILL:1,TYPE.Skill=9]	PREABILITY:2,CATEGORY=FEAT,Endurance,Nimbus of Light	PREDEITY:1,Ilmater	PRETEXT:Must have died in heroic sacrifi ce and been returned to life.										
+CLASS:Martyred Champion of Ilmater	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE.Craft|Heal|Knowledge (Religion)|TYPE.Profession|Ride|Spellcraft													
+1				ABILITY:Martyred Champion of Ilmater Class Feature|AUTOMATIC|Martyred Champion of Ilmater ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MartyredChampionOfIlmaterProficiencies											
+1				ABILITY:Martyred Champion of Ilmater Class Feature|AUTOMATIC|Martyred Champion of Ilmater ~ Spells per Day											
+#															
+1				ABILITY:Martyred Champion of Ilmater Class Feature|AUTOMATIC|Martyred Champion of Ilmater ~ Diehard|!PREABILITY:1,CATEGORY=ACF,TYPE.MartyredChampionOfIlmaterDiehard											
+1				ABILITY:Martyred Champion of Ilmater Class Feature|AUTOMATIC|Martyred Champion of Ilmater ~ Unarmed Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.MartyredChampionOfIlmaterUnarmedStrike											
+2				ABILITY:Martyred Champion of Ilmater Class Feature|AUTOMATIC|Martyred Champion of Ilmater ~ Fear Immunity|!PREABILITY:1,CATEGORY=ACF,TYPE.MartyredChampionOfIlmaterFearImmunity											
+3				ABILITY:Martyred Champion of Ilmater Class Feature|AUTOMATIC|Martyred Champion of Ilmater ~ Greater Endurance|!PREABILITY:1,CATEGORY=ACF,TYPE.MartyredChampionOfIlmaterGreaterEndurance											
+4				ABILITY:Martyred Champion of Ilmater Class Feature|AUTOMATIC|Martyred Champion of Ilmater ~ Divine Grace|!PREABILITY:1,CATEGORY=ACF,TYPE.MartyredChampionOfIlmaterDivineGrace											
+5				ABILITY:Martyred Champion of Ilmater Class Feature|AUTOMATIC|Martyred Champion of Ilmater ~ Holy Suffering|!PREABILITY:1,CATEGORY=ACF,TYPE.MartyredChampionOfIlmaterHolySuffering											
+7				ABILITY:Martyred Champion of Ilmater Class Feature|AUTOMATIC|Martyred Champion of Ilmater ~ Damage Reduction|!PREABILITY:1,CATEGORY=ACF,TYPE.MartyredChampionOfIlmaterDamageReduction											
+9				ABILITY:Martyred Champion of Ilmater Class Feature|AUTOMATIC|Martyred Champion of Ilmater ~ Communion|!PREABILITY:1,CATEGORY=ACF,TYPE.MartyredChampionOfIlmaterCommunion											
+9				ABILITY:Martyred Champion of Ilmater Class Feature|AUTOMATIC|Martyred Champion of Ilmater ~ Sustenance|!PREABILITY:1,CATEGORY=ACF,TYPE.MartyredChampionOfIlmaterSustenance											
+#															
+1	UDAM:1d1,1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,4d6	UMULT:2													
+4	UDAM:1d2,1d3,1d4,1d6,1d8,1d10,2d6,3d6,4d6,5d6														

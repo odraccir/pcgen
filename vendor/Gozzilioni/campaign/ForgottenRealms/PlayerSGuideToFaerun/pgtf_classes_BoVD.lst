@@ -1,0 +1,77 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:03-2004												
+															
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE			
+# Class Name req	Requirements	FINE													
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS			
+# Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	SPELLLIST	spell level increases (BONUS:CASTERLEVEL)									
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)					
+CLASS:Black Blood Hunter	HD:8	TYPE:Prestige	FACT:Abb|BBH	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:BlackBloodHunterLVL|0	BONUS:VAR|BlackBloodHunterLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Black Blood Hunter	PRETEMPLATE:1,Lycanthrope	PREMULT:1,[PREMULT:2,[PRESKILL:1,Control Shape=8],[PREABILITY:1,CATEGORY=Internal,Afflicted Lycanthrope]],[PREABILITY:1,CATEGORY=Internal,Natural Lycanthrope]	PRESKILL:2,Jump=6,Survival=6	PRESKILL:1,Knowledge (Nature)=4	PREABILITY:2,CATEGORY=FEAT,Power Attack,Vile Natural Attack	PREDEITY:1,Malar									
+CLASS:Black Blood Hunter	STARTSKILLPTS:4	CSKILL:Climb|Hide|Intimidate|Jump|Knowledge (Nature)|Listen|Move Silently|Spot|Survival|Swim													
+1				ABILITY:Black Blood Hunter Class Feature|AUTOMATIC|Black blood Hunter ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackBloodHunterProficiencies											
+#															
+1				ABILITY:Black Blood Hunter Class Feature|AUTOMATIC|Black Blood Hunter ~ Greater Curse of Lycanthropy|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackBloodHunterGreaterCurseOfLycanthropy											
+1				ABILITY:Black Blood Hunter Class Feature|AUTOMATIC|Black Blood Hunter ~ Lycanthropic Spell|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackBloodHunterLycanthropicSpell											
+1				ABILITY:Black Blood Hunter Class Feature|AUTOMATIC|Black Blood Hunter ~ Wild Items|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackBloodHunterWildItems											
+2				ABILITY:Black Blood Hunter Class Feature|AUTOMATIC|Black Blood Hunter ~ Animal Aspect|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackBloodHunterAnimalAspect											
+2				ABILITY:Black Blood Hunter Class Feature|AUTOMATIC|Black Blood Hunter ~ Wild Empathy|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackBloodHunterWildempathy											
+3				ABILITY:Black Blood Hunter Class Feature|AUTOMATIC|Black Blood Hunter ~ Improved Hybrid Form|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackBloodHunterImprovedHybridForm											
+4				ABILITY:Black Blood Hunter Class Feature|AUTOMATIC|Black Blood Hunter ~ Improved Vile Natural Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackBloodHunterImprovedVileNaturalAttack											
+5				ABILITY:Black Blood Hunter Class Feature|AUTOMATIC|Black Blood Hunter ~ Improved Damage Reduction|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackBloodHunterImprovedDamageReduction											
+6				ABILITY:Black Blood Hunter Class Feature|AUTOMATIC|Black Blood Hunter ~ Faster Change|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackBloodHunterFasterChange											
+9				ABILITY:Black Blood Hunter Class Feature|AUTOMATIC|Black Blood Hunter ~ Quick Change|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackBloodHunterQuickChange											
+															
+CLASS:Maiden of Pain	HD:6	TYPE:Prestige	FACT:Abb|MoP	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:MaidenOfPainLVL|0	BONUS:VAR|MaidenOfPainLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Maiden of Pain	PREGENDER:F	PRESKILL:1,Intimidate=4	PREABILITY:1,CATEGORY=FEAT,Violate Spell	PRETEXT:Able to cast masochism and sadism as divine spells. Special: The candidate must have used the drug agony (liquid pain)	PREDEITY:1,Loviatar										
+CLASS:Maiden of Pain	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE.Craft|Diplomacy|Gather Information|Intimidate|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Perform|TYPE.Profession|Senze Motive|Spellcraft|Use Rope													
+1				ABILITY:Maiden of Pain Class Feature|AUTOMATIC|Maiden of Pain ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MaidenOfPainProficiencies											
+1				ABILITY:Maiden of Pain Class Feature|AUTOMATIC|Maiden of Pain ~ Spells per Day											
+#															
+1				ABILITY:Maiden of Pain Class Feature|AUTOMATIC|Maiden of Pain ~ Agony Addiction|!PREABILITY:1,CATEGORY=ACF,TYPE.MaidenOfPainAgonyAddiction											
+1				ABILITY:Maiden of Pain Class Feature|AUTOMATIC|Maiden of Pain ~ Extra Domain	DOMAIN:Pain
+1				ABILITY:Maiden of Pain Class Feature|AUTOMATIC|Maiden of Pain ~ Lasher|!PREABILITY:1,CATEGORY=ACF,TYPE.MaidenOfPainLasher											
+1				ABILITY:Maiden of Pain Class Feature|AUTOMATIC|Maiden of Pain ~ Pain Touch|!PREABILITY:1,CATEGORY=ACF,TYPE.MaidenOfPainPainTouch											
+3				ABILITY:Maiden of Pain Class Feature|AUTOMATIC|Maiden of Pain ~ Improved Trip|!PREABILITY:1,CATEGORY=ACF,TYPE.MaidenOfPainImprovedTrip											
+6				ABILITY:Maiden of Pain Class Feature|AUTOMATIC|Maiden of Pain ~ Improved Disarm|!PREABILITY:1,CATEGORY=ACF,TYPE.MaidenOfPainImprovedDisarm											
+															
+CLASS:Slime Lord	HD:8	TYPE:Prestige	FACT:Abb|SlL	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:SlimeLordLVL|0	BONUS:VAR|SlimeLordLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Slime Lord	PREALIGN:LE,NE,CE	PRETOTALAB:4	PRESKILL:1,Disguise=6	PREABILITY:1,CATEGORY=FEAT,Willing Deformity	PREDEITY:1,Ghaunadar										
+CLASS:Slime Lord	STARTSKILLPTS:4	CSKILL:Appraise|Bluff|TYPE.Craft|Disguise|Escape Artist|Forgery|Hide|Intimidate|Knowledge (Dungeonerring)|Move Silently|Survival													
+1				ABILITY:Slime Lord Class Feature|AUTOMATIC|Slime Lord ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SlimeLordProficiencies											
+#															
+1				ABILITY:Slime Lord Class Feature|AUTOMATIC|Slime Lord ~ Paralytic Slime|!PREABILITY:1,CATEGORY=ACF,TYPE.SlimeLordParalyticSlime											
+1				ABILITY:Slime Lord Class Feature|AUTOMATIC|Slime Lord ~ Pseudopods|!PREABILITY:1,CATEGORY=ACF,TYPE.SlimeLordPseudopods											
+3				ABILITY:Slime Lord Class Feature|AUTOMATIC|Slime Lord ~ Charming Gaze|!PREABILITY:1,CATEGORY=ACF,TYPE.SlimeLordCharmingGaze											
+5				ABILITY:Slime Lord Class Feature|AUTOMATIC|Slime Lord ~ Sleep Immunity|!PREABILITY:1,CATEGORY=ACF,TYPE.SlimeLordSleepImmunity											
+5				ABILITY:Slime Lord Class Feature|AUTOMATIC|Slime Lord ~ Alter Self|!PREABILITY:1,CATEGORY=ACF,TYPE.SlimeLordAlterSelf											
+7				ABILITY:Slime Lord Class Feature|AUTOMATIC|Slime Lord ~ Damage Reduction|!PREABILITY:1,CATEGORY=ACF,TYPE.SlimeLordDamageReduction											
+8				ABILITY:Slime Lord Class Feature|AUTOMATIC|Slime Lord ~ Polymorph Immunity|!PREABILITY:1,CATEGORY=ACF,TYPE.SlimeLordPolymorphImmunity											
+9				ABILITY:Slime Lord Class Feature|AUTOMATIC|Slime Lord ~ Blindsight|!PREABILITY:1,CATEGORY=ACF,TYPE.SlimeLordBlindsight											
+10				ABILITY:Slime Lord Class Feature|AUTOMATIC|Slime Lord ~ No Discernible Anathomy|!PREABILITY:1,CATEGORY=ACF,TYPE.SlimeLordNoDiscernibleAnatomy											
+															
+CLASS:Yathrinshee	HD:4	TYPE:Prestige	FACT:Abb|Yat	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:YathrinsheeLVL|0	BONUS:VAR|YathrinsheeLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Yathrinshee	PRERACE:1,Elf (Drow)	PRESKILL:2,Knowledge (Arcana)=7,Knowledge (Religion)=7	PRESKILL:1,Perform (Sing)=3	PREABILITY:2,CATEGORY=FEAT,Lichloved,Spell Focus (Necromancy)	PRETEXT:Able to cast animate dead as a divine spell and spectral hand as an arcane spell.	PREDEITY:1,Kiaransalee									
+CLASS:Yathrinshee	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Search|Spellcraft													
+1				ABILITY:Yathrinshee Class Feature|AUTOMATIC|Yathrinshee ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.YathrinsheeProficiencies											
+1				ABILITY:Yathrinshee Class Feature|AUTOMATIC|Yathrinshee ~ Spell per Day											
+#															
+1				ABILITY:Yathrinshee Class Feature|AUTOMATIC|Yathrinshee ~ Rebuke Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.YathrinsheeRebukeUndead											
+1				ABILITY:Yathrinshee Class Feature|AUTOMATIC|Yathrinshee ~ Necromancer|!PREABILITY:1,CATEGORY=ACF,TYPE.YathrinsheeNecromancer											
+2				ABILITY:Yathrinshee Class Feature|AUTOMATIC|Yathrinshee ~ Threnody|!PREABILITY:1,CATEGORY=ACF,TYPE.YathrinsheeThrenody											
+4				ABILITY:Yathrinshee Class Feature|AUTOMATIC|Yathrinshee ~ Death Ward|!PREABILITY:1,CATEGORY=ACF,TYPE.YathrinsheeDeathWard											
+5				ABILITY:Yathrinshee Class Feature|AUTOMATIC|Yathrinshee ~ Curse of the Revenancer|!PREABILITY:1,CATEGORY=ACF,TYPE.YathrinsheeCurseOfTheRevenancer											
+7				ABILITY:Yathrinshee Class Feature|AUTOMATIC|Yathrinshee ~ Zone of Desecration|!PREABILITY:1,CATEGORY=ACF,TYPE.YathrinsheeZoneOfDesecration											
+10				ABILITY:Yathrinshee Class Feature|AUTOMATIC|Yathrinshee ~ Keening|!PREABILITY:1,CATEGORY=ACF,TYPE.YathrinsheeKeening											
+#															
+2	ADD:SPELLCASTER|Arcane														
+2	ADD:SPELLCASTER|Divine														
+3	ADD:SPELLCASTER|Arcane														
+3	ADD:SPELLCASTER|Divine														
+5	ADD:SPELLCASTER|Arcane														
+5	ADD:SPELLCASTER|Divine														
+6	ADD:SPELLCASTER|Arcane														
+6	ADD:SPELLCASTER|Divine														
+8	ADD:SPELLCASTER|Arcane														
+8	ADD:SPELLCASTER|Divine														
+9	ADD:SPELLCASTER|Arcane														
+9	ADD:SPELLCASTER|Divine														

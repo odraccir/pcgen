@@ -1,0 +1,53 @@
+###Block: New Racial Trait Blocks																														
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+																														
+# Subrace Support																														
+																														
+#Abilitygroup:Class Ability categories																														
+ABILITYCATEGORY:Evereskan Tomb Guardian Class Feature	CATEGORY:Special Ability	TYPE:EvereskanTombGuardianClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Evereskan Tomb Guardian Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Eye of Horus-Re Class Feature	CATEGORY:Special Ability	TYPE:EyeOfHorusReClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Eye of Horus-Re Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Hammer of Moradin Class Feature	CATEGORY:Special Ability	TYPE:HammerOfMoradinClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Hammer of Moradin Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Harper Agent Class Feature	CATEGORY:Special Ability	TYPE:HarperAgentClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Harper Agent Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Justiciar of Tyr Class Feature	CATEGORY:Special Ability	TYPE:JusticiarOfTyrClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Justiciar of Tyr Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Monk of the Long Death Class Feature	CATEGORY:Special Ability	TYPE:MonkOfTheLongDeathClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Monk of the Long Death Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Morninglord of Lathander Class Feature	CATEGORY:Special Ability	TYPE:MorninglordOfLathanderClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Morninglord of Lathander Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Shaaryan Hunter Class Feature	CATEGORY:Special Ability	TYPE:ShaaryanHunterClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Shaaryan Hunter Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Shadow Thief of Amn Class Feature	CATEGORY:Special Ability	TYPE:ShadowThiefOfAmnClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Shadow Thief of Amn Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Spellguard of Silverymoon Class Feature	CATEGORY:Special Ability	TYPE:SpellguardOfSilverymoonClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Spellguard of Silverymoon Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Zhentarim Spy Class Feature	CATEGORY:Special Ability	TYPE:ZhentarimSpyClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Zhentarim Spy Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Netherese Arcanist Class Feature	CATEGORY:Special Ability	TYPE:NethereseArcanistClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Netherese Arcanist Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Spellfire Hierophant Class Feature	CATEGORY:Special Ability	TYPE:SpellfireHierophantClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Spellfire Hierophant Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Cognition Thief Class Feature	CATEGORY:Special Ability	TYPE:CognitionThiefClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Cognition Thief Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Black Blood Hunter Class Feature	CATEGORY:Special Ability	TYPE:BlackBloodHunterClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Black Blood Hunter Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Celebrant of Sharess Class Feature	CATEGORY:Special Ability	TYPE:CelebrantOfSharessClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Celebrant of Sharess Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Harper Paragon Class Feature	CATEGORY:Special Ability	TYPE:HarperParagonClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Harper Paragon Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Maiden of Pain Class Feature	CATEGORY:Special Ability	TYPE:MaidenOfPainClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Maiden of Pain Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Martyred Champion of Ilmater Class Feature	CATEGORY:Special Ability	TYPE:MartyredChampionOfIlmaterClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Martyred Champion of Ilmater Class Features			DISPLAYLOCATION:Class Features
+
+ABILITYCATEGORY:Feline Familiar Class Feature	CATEGORY:Special Ability	TYPE:FelineFamiliarClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Feline Familiar Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups																														
+ABILITYCATEGORY:Incantatrix Prohibited School	CATEGORY:Special Ability	TYPE:IncantatrixProhibitSchool	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Incantatrix Prohibited Schools			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Field Specialization ~ Major	CATEGORY:Special Ability	TYPE:FieldSpecializationMajor	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Fields Specialization ~ Major			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Field Specialization ~ Minor	CATEGORY:Special Ability	TYPE:FieldSpecializationMinor	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Fields Specialization ~ Minor			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Bonus Power Known	CATEGORY:Special Ability	TYPE:BonusPowerKnown	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Bonus Powers Known			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Harper Paragon Favored Enemy	CATEGORY:Special Ability	TYPE:HarperParagonFavoredEnemy	VISIBLE:QUALIFY	EDITABLE:YES	POOL:HarperParagonFavoredEnemyCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Harper Paragon Favored Enemies				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Harper Paragon Favored Enemy Bonus	CATEGORY:Special Ability	TYPE:HarperParagonFavoredEnemyBonus	VISIBLE:QUALIFY	EDITABLE:YES	POOL:HarperParagonFavoredEnemyBonusCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Harper Paragon Favored Enemy Bonuses			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Martyred Champion Level Benefit	CATEGORY:Special Ability	TYPE:MartyredChampionLevelBenefit	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Martyred Champion Level Benefits			DISPLAYLOCATION:Class Features
+
+#Feats Ability pools																														
+ABILITYCATEGORY:Divine Champion Feat	CATEGORY:FEAT	TYPE:DivineChampion	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Divine Champion Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Incantatrix Feat	CATEGORY:FEAT	TYPE:Incantatrix.Metamagic	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Incantatrix Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Shadow Thief of Amn Feat	CATEGORY:FEAT	TYPE:ShadowThiefOfAmn	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Shadow Thief of Amn Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Spellguard of Silverymoon Feat	CATEGORY:FEAT	TYPE:SpellguardOfSilverymoon.Metamagic	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Spellguard of Silverymoon Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Spellfire Hierophant Feat	CATEGORY:FEAT	TYPE:SpellfireHierophant	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Spellfire Hierophant Feats			DISPLAYLOCATION:Feats
+
+ABILITYCATEGORY:Magical Training	CATEGORY:Special Ability	TYPE:MagicalTraining	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Magical Training Spells			DISPLAYLOCATION:Feats								
+ABILITYCATEGORY:Spell Thematics	CATEGORY:Special Ability	TYPE:MagicalThematics	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Spell Thematics Spells			DISPLAYLOCATION:Feats								
+																														
+#Companion Support																														
+ABILITYCATEGORY:Feline Familiar Selection	CATEGORY:Internal	TYPE:FelineFamiliarSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Feline Familiar Choice			DISPLAYLOCATION:Class Features
+
+#																														
+# End																														
+#																														

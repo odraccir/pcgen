@@ -1,0 +1,32 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:03-2004																				
+#																							
+# Equipment Name	Output Name	TYPE:	COST:	WT:	SOURCEPAGE:																		
+Adrath Token		TYPE:Goods	COST:0	WT:0	SOURCEPAGE:PGtF	DESC:a small metal disk that allows him to cast spells that are normally forbidden by the mythal.																	
+																							
+##Block: Rings																							
+Akkabar's Battleblade Ring		TYPE:Ring	COST:25920	WT:0	SOURCEPAGE:PGtF	SPELLS:Akkabar's Battleblade Ring|TIMES=1|CASTERLEVEL=12|Blade Barrier																	
+Annulus Conflagros		TYPE:Ring	COST:92340	WT:0	SOURCEPAGE:PGtF	BONUS:VAR|FireResistanceBonus|10|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance to Fire	SPELLS:Annulus Conflagros|TIMES=ATWILL|CASTERLEVEL=6|Pyrotechnics	SPELLS:Annulus Conflagros|TIMES=3|CASTERLEVEL=6|Burning Hands	SPELLS:Annulus Conflagros|TIMES=2|CASTERLEVEL=6|Fireball	SPELLS:Annulus Conflagros|TIMES=1|CASTERLEVEL=6|Wall of Fire												
+Velsharoon's Binding		TYPE:Ring	COST:33500	WT:0	SOURCEPAGE:PGtF	SPROP:protects its wearer against undead beings, as if via a protection from evil spell, except that the bonuses are granted against undead rather than against any evil creature.	BONUS:VAR|NecromancyResistanceBonus|3|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance to Necromancy															
+																							
+##Block: Rods																							
+Rod of Divergence		TYPE:Rod	COST:117000	WT:5	SOURCEPAGE:PGtF	EQMOD:CHARGED_ITEM_50|CHARGES[50]																	
+Rod of Spheres		TYPE:Rod	COST:25000	WT:5	SOURCEPAGE:PGtF	EQMOD:CHARGED_ITEM_50|CHARGES[50]																	
+																							
+###Block: Staff																							
+Thunderstaff	KEY:Staff (Thunderstaff)	TYPE:Staff.Weapon.Melee.Ranged.Simple.Piercing.TwoHanded.Spear	COST:83841	WT:5	SOURCEPAGE:PGtF	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Shocking grasp (1 charge)/Gedlee's electric loop (1 charge)/Lightning bolt (1 charge)/Thunderlance (2 charges)/Ball lightning (2 charges)/Chain lightning (2 charges)/Great thunderclap (3 charges)/Lightning ring (3 charges)/Shapechange (blue dragon only) (3 charges).	PROFICIENCY:WEAPON|Spear	WIELD:TwoHanded	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD									RANGE:20
+																							
+###Block: Wondrous																							
+Aquamarine of Spell Extending		TYPE:Wondrous	COST:3700	WT:0	SOURCEPAGE:PGtF	ABILITY:Special Ability|AUTOMATIC|Aquamarine of Spell Extending																	
+Gauntlets of Weaponry Arcane		TYPE:Wondrous.Glove	COST:9000	WT:1	SOURCEPAGE:PGtF	SLOTS:2	SPROP:Any weapon (even a nonmetallic one such as a quarterstaff) that the wearer grasps while wearing the gauntlets overcomes damage reduction as if it were a magic silver weapon.																
+Glove of Taarnahm the Vigilant		TYPE:Wondrous.Glove	COST:10000	WT:1	SOURCEPAGE:PGtF	SLOTS:2	SPROP:Allows the wielder to hurl any melee weapon he carries as though it had the throwing and returning special abilities.																
+Instrument of the Wind		TYPE:Wondrous.Instrument	COST:22000	WT:3	SOURCEPAGE:PGtF	EQMOD:MWORKI	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork																
+Kiira N'Vaelahr		TYPE:Wondrous.Gem	COST:75040	WT:0	SOURCEPAGE:PGtF	SPELLS:Kiira N'Vaelahr|TIMES=ATWILL|CASTERLEVEL=7|Detect Thoughts	BONUS:SAVE|Will|2|TYPE=Resistance	SPELLS:Kiira N'Vaelahr|TIMES=1|CASTERLEVEL=7|Major Image|Overland Flight															
+Mantle Stone of Vhyridaan		TYPE:Wondrous.Gem.Spellbook	COST:232560	WT:0	SOURCEPAGE:PGtF	SPELLS:Mantle Stone of Vhyridaan|TIMES=3|CASTERLEVEL=13|Spell Turning	NUMPAGES:3	PAGEUSAGE:max(SPELLLEVEL,1)															
+Najjar's Cloak of Weaponry		TYPE:Wondrous.Cape.Container	COST:2500	WT:0	SOURCEPAGE:PGtF	CONTAINS:*25																	
+Pegasus Helm of Kloeth Ironstar		TYPE:Wondrous.Headgear	COST:20160	WT:0	SOURCEPAGE:PGtF																		
+Ruehar's Flute		TYPE:Wondrous.Instrument.Spellbook	COST:15000	WT:3	SOURCEPAGE:PGtF	NUMPAGES:20	PAGEUSAGE:max(SPELLLEVEL,1)	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork															
+Shroudcrown		TYPE:Wondrous.Headgear	COST:113600	WT:0	SOURCEPAGE:PGtF	SPROP:continuous Hide from Undead.	ABILITY:Special Ability|AUTOMATIC|Basic Turning|Turn Undead	BONUS:VAR|TurnLevelUndead,TurnDamagePlusUndead|10|TYPE=Level.REPLACE															
+Symrustar's Choker		TYPE:Wondrous.Amulet.Spellbook	COST:15000	WT:0	SOURCEPAGE:PGtF	NUMPAGES:36	PAGEUSAGE:max(SPELLLEVEL,1)																
+Tasmia's Heart		TYPE:Wondrous.Amulet	COST:127000	WT:0	SOURCEPAGE:PGtF	SPROP:extends the wearer's life span, doubling the number of years in each remaining age category of the character's life, as well as her maximum age.	BONUS:VAR|UnderwaterDistance|3|TYPE=Enhancement	SPELLS:Ring Freedom of Movement|TIMES=ATWILL|CASTERLEVEL=7|Freedom of Movement															
+Weirdstone		TYPE:Wondrous.Gem	COST:250000	WT:0	SOURCEPAGE:PGtF																		
+Ynloeth's Bracer		TYPE:Wondrous.Bracer	COST:70000	WT:0	SOURCEPAGE:PGtF	SLOTS:1	SPROP:the wearer of this bracer is immune to the death effect of the shattering swords of Coronal Ynloeth.	BONUS:COMBAT|AC|8|TYPE=Armor															

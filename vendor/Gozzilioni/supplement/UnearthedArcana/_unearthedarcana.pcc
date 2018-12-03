@@ -47,7 +47,7 @@ ABILITY:ua_subraces.lst
 TEMPLATE:ua_templates.lst
 #
 HIDETYPE:SKILL|Knowledge (Forbidden Lore)|Knowledge (Mental therapy)
-HIDETYPE:FEAT|Thug|WizardDiviner
+HIDETYPE:FEAT|Thug|WizardDiviner|WeaponGroup
 #
 ABILITY:ua_abilities_AAEG.lst|PRECAMPAIGN:1,Arms and Equipment Guide 3.0
 ABILITY:ua_feats_AAEG.lst|PRECAMPAIGN:1,Arms and Equipment Guide 3.0

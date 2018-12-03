@@ -40,6 +40,7 @@ SPELL:dd_spells.lst
 # ABILITY:phb_subraces.lst
 TEMPLATE:dd_templates.lst
 
+HIDETYPE:FEAT|Worker
 HIDETYPE:SKILL|Craft (Begging)|Profession (Beggar)|Profession (Gambler)|Perform (Begging)
 
 # ENTRY DATE: 2015-12

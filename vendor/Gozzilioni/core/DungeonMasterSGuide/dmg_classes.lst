@@ -351,38 +351,38 @@ CLASS:Red Wizard	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Intimidat
 9	ADD:SPELLCASTER|Arcane												
 10	ADD:SPELLCASTER|Arcane			ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Great Circle Leader|!PREABILITY:1,CATEGORY=ACF,TYPE.RedWizardGreatCircleLeader									
 #													
-SUBCLASS:Red Wizard Abjurer	COST:1	PROHIBITCOST:1	CHOICE:SCHOOL|Abjuration	KNOWNSPELLSFROMSPECIALTY:1	BONUS:ABILITYPOOL|Red Wizard Prohibited School|1								
+SUBCLASS:Red Wizard ~ Abjurer	COST:1	PROHIBITCOST:1	CHOICE:SCHOOL|Abjuration	KNOWNSPELLSFROMSPECIALTY:1	BONUS:ABILITYPOOL|Red Wizard Prohibited School|1								
 SUBCLASSLEVEL:1	ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Specialist Defense ~ Abjurer|!PREABILITY:1,CATEGORY=ACF,TYPE.RedWizardSpecialistDefense												
 SUBCLASSLEVEL:2	ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Spell Power ~ Abjurer|!PREABILITY:1,CATEGORY=ACF,TYPE.RedWizardSpellPower												
-SUBCLASS:Red Wizard Conjurer	COST:1	PROHIBITCOST:1	CHOICE:SCHOOL|Conjuration	KNOWNSPELLSFROMSPECIALTY:1	BONUS:ABILITYPOOL|Red Wizard Prohibited School|1								
+SUBCLASS:Red Wizard ~ Conjurer	COST:1	PROHIBITCOST:1	CHOICE:SCHOOL|Conjuration	KNOWNSPELLSFROMSPECIALTY:1	BONUS:ABILITYPOOL|Red Wizard Prohibited School|1								
 SUBCLASSLEVEL:1	ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Specialist Defense ~ Conjurer|!PREABILITY:1,CATEGORY=ACF,TYPE.RedWizardSpecialistDefense												
 SUBCLASSLEVEL:2	ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Spell Power ~ Conjurer|!PREABILITY:1,CATEGORY=ACF,TYPE.RedWizardSpellPower												
-SUBCLASS:Red Wizard Diviner	COST:1	PROHIBITCOST:0	CHOICE:SCHOOL|Divination	KNOWNSPELLSFROMSPECIALTY:1	BONUS:ABILITYPOOL|Red Wizard Prohibited School|1								
+SUBCLASS:Red Wizard ~ Diviner	COST:1	PROHIBITCOST:0	CHOICE:SCHOOL|Divination	KNOWNSPELLSFROMSPECIALTY:1	BONUS:ABILITYPOOL|Red Wizard Prohibited School|1								
 SUBCLASSLEVEL:1	ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Specialist Defense ~ Diviner|!PREABILITY:1,CATEGORY=ACF,TYPE.RedWizardSpecialistDefense												
 SUBCLASSLEVEL:2	ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Spell Power ~ Diviner|!PREABILITY:1,CATEGORY=ACF,TYPE.RedWizardSpellPower												
-SUBCLASS:Red Wizard Enchanter	COST:1	PROHIBITCOST:1	CHOICE:SCHOOL|Enchantment	KNOWNSPELLSFROMSPECIALTY:1	BONUS:ABILITYPOOL|Red Wizard Prohibited School|1								
+SUBCLASS:Red Wizard ~ Enchanter	COST:1	PROHIBITCOST:1	CHOICE:SCHOOL|Enchantment	KNOWNSPELLSFROMSPECIALTY:1	BONUS:ABILITYPOOL|Red Wizard Prohibited School|1								
 SUBCLASSLEVEL:1	ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Specialist Defense ~ Enchanter|!PREABILITY:1,CATEGORY=ACF,TYPE.RedWizardSpecialistDefense												
 SUBCLASSLEVEL:2	ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Spell Power ~ Enchanter|!PREABILITY:1,CATEGORY=ACF,TYPE.RedWizardSpellPower												
-SUBCLASS:Red Wizard Evoker	COST:1	PROHIBITCOST:1	CHOICE:SCHOOL|Evocation	KNOWNSPELLSFROMSPECIALTY:1	BONUS:ABILITYPOOL|Red Wizard Prohibited School|1								
+SUBCLASS:Red Wizard ~ Evoker	COST:1	PROHIBITCOST:1	CHOICE:SCHOOL|Evocation	KNOWNSPELLSFROMSPECIALTY:1	BONUS:ABILITYPOOL|Red Wizard Prohibited School|1								
 SUBCLASSLEVEL:1	ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Specialist Defense ~ Evoker|!PREABILITY:1,CATEGORY=ACF,TYPE.RedWizardSpecialistDefense												
 SUBCLASSLEVEL:2	ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Spell Power ~ Evoker|!PREABILITY:1,CATEGORY=ACF,TYPE.RedWizardSpellPower												
-SUBCLASS:Red Wizard Illusionist	COST:1	PROHIBITCOST:1	CHOICE:SCHOOL|Illusion	KNOWNSPELLSFROMSPECIALTY:1	BONUS:ABILITYPOOL|Red Wizard Prohibited School|1								
+SUBCLASS:Red Wizard ~ Illusionist	COST:1	PROHIBITCOST:1	CHOICE:SCHOOL|Illusion	KNOWNSPELLSFROMSPECIALTY:1	BONUS:ABILITYPOOL|Red Wizard Prohibited School|1								
 SUBCLASSLEVEL:1	ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Specialist Defense ~ Illusionist|!PREABILITY:1,CATEGORY=ACF,TYPE.RedWizardSpecialistDefense												
 SUBCLASSLEVEL:2	ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Spell Power ~ Illusionist|!PREABILITY:1,CATEGORY=ACF,TYPE.RedWizardSpellPower												
-SUBCLASS:Red Wizard Necromancer	COST:1	PROHIBITCOST:1	CHOICE:SCHOOL|Necromancy	KNOWNSPELLSFROMSPECIALTY:1	BONUS:ABILITYPOOL|Red Wizard Prohibited School|1								
+SUBCLASS:Red Wizard ~ Necromancer	COST:1	PROHIBITCOST:1	CHOICE:SCHOOL|Necromancy	KNOWNSPELLSFROMSPECIALTY:1	BONUS:ABILITYPOOL|Red Wizard Prohibited School|1								
 SUBCLASSLEVEL:1	ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Specialist Defense ~ Necromancer|!PREABILITY:1,CATEGORY=ACF,TYPE.RedWizardSpecialistDefense												
 SUBCLASSLEVEL:2	ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Spell Power ~ Necromancer|!PREABILITY:1,CATEGORY=ACF,TYPE.RedWizardSpellPower												
-SUBCLASS:Red Wizard Transmuter	COST:1	PROHIBITCOST:1	CHOICE:SCHOOL|Transmutation	KNOWNSPELLSFROMSPECIALTY:1	BONUS:ABILITYPOOL|Red Wizard Prohibited School|1								
+SUBCLASS:Red Wizard ~ Transmuter	COST:1	PROHIBITCOST:1	CHOICE:SCHOOL|Transmutation	KNOWNSPELLSFROMSPECIALTY:1	BONUS:ABILITYPOOL|Red Wizard Prohibited School|1								
 SUBCLASSLEVEL:1	ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Specialist Defense ~ Transmuter|!PREABILITY:1,CATEGORY=ACF,TYPE.RedWizardSpecialistDefense												
 SUBCLASSLEVEL:2	ABILITY:Red Wizard Class Feature|AUTOMATIC|Red Wizard ~ Spell Power ~ Transmuter|!PREABILITY:1,CATEGORY=ACF,TYPE.RedWizardSpellPower												
-1	PROHIBITSPELL:SCHOOL.Abjuration|PREVARGTEQ:ProhibitAbjuration,1												
-1	PROHIBITSPELL:SCHOOL.Conjuration|PREVARGTEQ:ProhibitConjuration,1												
-1	PROHIBITSPELL:SCHOOL.Divination|PREVARGTEQ:ProhibitDivination,1												
-1	PROHIBITSPELL:SCHOOL.Enchantment|PREVARGTEQ:ProhibitEnchantment,1												
-1	PROHIBITSPELL:SCHOOL.Evocation|PREVARGTEQ:ProhibitEvocation,1												
-1	PROHIBITSPELL:SCHOOL.Illusion|PREVARGTEQ:ProhibitIllusion,1												
-1	PROHIBITSPELL:SCHOOL.Necromancy|PREVARGTEQ:ProhibitNecromancy,1												
-1	PROHIBITSPELL:SCHOOL.Transmutation|PREVARGTEQ:ProhibitTransmutation,1												
+1	PROHIBITSPELL:SCHOOL.Abjuration|PREVARGTEQ:RedwizardProhibitAbjuration,1												
+1	PROHIBITSPELL:SCHOOL.Conjuration|PREVARGTEQ:RedwizardProhibitConjuration,1												
+1	PROHIBITSPELL:SCHOOL.Divination|PREVARGTEQ:RedwizardProhibitDivination,1												
+1	PROHIBITSPELL:SCHOOL.Enchantment|PREVARGTEQ:RedwizardProhibitEnchantment,1												
+1	PROHIBITSPELL:SCHOOL.Evocation|PREVARGTEQ:RedwizardProhibitEvocation,1												
+1	PROHIBITSPELL:SCHOOL.Illusion|PREVARGTEQ:RedwizardProhibitIllusion,1												
+1	PROHIBITSPELL:SCHOOL.Necromancy|PREVARGTEQ:RedwizardProhibitNecromancy,1												
+1	PROHIBITSPELL:SCHOOL.Transmutation|PREVARGTEQ:RedwizardProhibitTransmutation,1												
 #
 11	PREPCLEVEL:MIN=20
 

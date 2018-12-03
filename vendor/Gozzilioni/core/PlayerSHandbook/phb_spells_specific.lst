@@ -126,10 +126,27 @@ Summon Monster IX ~ Celestial only.MOD	OUTPUTNAME:Summon Monster IX	DESCRIPTOR:.
 Summon Monster IX.COPY=Summon Monster IX	KEY:Summon Monster IX ~ Fiendish only
 Summon Monster IX ~ Fiendish only.MOD	OUTPUTNAME:Summon Monster IX	DESCRIPTOR:.CLEAR	DESCRIPTOR:Evil	DESC:Summon fiendish creatures only.	
 
+Summon Nature's Ally III.COPY=Summon Nature's Ally III	KEY:Summon Nature's Ally III ~ Small elemental only																								
+Summon Nature's Ally III ~ Small elemental only.MOD	OUTPUTNAME:Summon Nature's Ally III	DESC:Summon small elementals only.																					
+
+Summon Nature's Ally V.COPY=Summon Nature's Ally V	KEY:Summon Nature's Ally V ~ Medium elemental only																								
+Summon Nature's Ally V ~ Medium elemental only.MOD	OUTPUTNAME:Summon Nature's Ally V	DESC:Summon medium elementals only.																					
+
+Summon Nature's Ally VI.COPY=Summon Nature's Ally VI	KEY:Summon Nature's Ally VI ~ Large elemental only																								
+Summon Nature's Ally VI ~ Large elemental only.MOD	OUTPUTNAME:Summon Nature's Ally VI	DESC:Summon large elementals only.																					
+
+Summon Nature's Ally VII.COPY=Summon Nature's Ally VII	KEY:Summon Nature's Ally VII ~ Huge elemental only																								
+Summon Nature's Ally VII ~ Huge elemental only.MOD	OUTPUTNAME:Summon Nature's Ally VII	DESC:Summon huge elementals only.																					
+
+Summon Nature's Ally VIII.COPY=Summon Nature's Ally VIII	KEY:Summon Nature's Ally VIII ~ Greater elemental only																								
+Summon Nature's Ally VIII ~ Greater elemental only.MOD	OUTPUTNAME:Summon Nature's Ally VIII	DESC:Summon greater elementals only.																					
+
 Summon Nature's Ally IX.COPY=Summon Nature's Ally IX	KEY:Summon Nature's Ally IX ~ Aquatic only																								
 Summon Nature's Ally IX ~ Aquatic only.MOD	OUTPUTNAME:Summon Nature's Ally IX	DESCRIPTOR:.CLEAR	DESCRIPTOR:Water	DESC:Summon water or Aquatic creatures only.																					
 Summon Nature's Ally IX.COPY=Summon Nature's Ally IX	KEY:Summon Nature's Ally IX ~ Earth only																								
 Summon Nature's Ally IX ~ Earth only.MOD	OUTPUTNAME:Summon Nature's Ally IX	DESCRIPTOR:.CLEAR	DESCRIPTOR:Earth	DESC:Summon Earth Elemental or Animal creatures only.																					
+Summon Nature's Ally IX.COPY=Summon Nature's Ally IX	KEY:Summon Nature's Ally IX ~ Elder elemental only																								
+Summon Nature's Ally IX ~ Elder elemental only.MOD	OUTPUTNAME:Summon Nature's Ally IX	DESC:Summon elder elementals only.																					
 
 Planar Ally.COPY=Planar Ally	KEY:Planar Ally ~ Water Elemental																											
 Planar Ally ~ Water Elemental.MOD	OUTPUTNAME:Planar Ally	DESCRIPTOR:.CLEAR	DESCRIPTOR:Water	DESC:Summon Water Elemental only.																								

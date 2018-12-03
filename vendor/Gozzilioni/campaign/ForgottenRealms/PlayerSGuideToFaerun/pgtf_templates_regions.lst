@@ -1,0 +1,144 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:03-2004
+						
+# Template Name	VISIBLE:	AUTO:LANG|	LANGBONUS:	REGION:		
+###Block: Region						
+No Faerun Region	VISIBLE:NO					
+#						
+# Region						
+Aglarond ~ Human	VISIBLE:NO	AUTO:LANG|Aglarondan	LANGBONUS:Chessentan,Damaran,Draconic,Elven,Mulhorandi,Orc,Sylvan,Untheric	REGION:Aglarond	PRERACE:1,Human	SOURCEPAGE:PgtF
+Altumbel ~ Human	VISIBLE:NO	AUTO:LANG|Aglarondan	LANGBONUS:Aquan,Chondathan,Chessentan,Rashemi,Serusan,Untheric	REGION:Altumbel	PRERACE:1,Human	SOURCEPAGE:PgtF
+Amn ~ Human	VISIBLE:NO	AUTO:LANG|Chondathan	LANGBONUS:Alzhedo,Elven,Giant,Goblin,Nexalan,Orc,Shaaran	REGION:Amn	PRERACE:1,Human	SOURCEPAGE:PgtF
+Anauroch ~ Human	VISIBLE:NO	AUTO:LANG|Midani	LANGBONUS:Chondathan,Damaran,Draconic,Gnoll,Netherese,Orc	REGION:Anauroch	PRERACE:1,Human	SOURCEPAGE:PgtF
+Calimshan ~ Human	VISIBLE:NO	AUTO:LANG|Alzhedo	LANGBONUS:Auran,Chondathan,Chultan,Draconic,Ignan,Shaaran,Tashalan	REGION:Calimshan	PRERACE:1,Human	SOURCEPAGE:PgtF
+Chessenta ~ Human	VISIBLE:NO	AUTO:LANG|Chessentan	LANGBONUS:Aglarondan,Chondathan,Draconic,Mulhorandi,Turmic,Untheric	REGION:Chessenta	PRERACE:1,Human	SOURCEPAGE:PgtF
+Chult ~ Human	VISIBLE:NO	AUTO:LANG|Chultan	LANGBONUS:Alzhedo,Draconic,Dwarven,Goblin,Shaaran,Sylvan,Tashalan	REGION:Chult	PRERACE:1,Human	SOURCEPAGE:PgtF
+Cormyr ~ Human	VISIBLE:NO	AUTO:LANG|Chondathan	LANGBONUS:Damaran,Elven,Gnome,Goblin,Halfling,Orc,Turmic	REGION:Cormyr	PRERACE:1,Human	SOURCEPAGE:PgtF
+Dalelands ~ Human	VISIBLE:NO	AUTO:LANG|Chondathan	LANGBONUS:Damaran,Elven,Giant,Gnome,Orc,Sylvan	REGION:Dalelands	PRERACE:1,Human	SOURCEPAGE:PgtF
+Damara ~ Human	VISIBLE:NO	AUTO:LANG|Damaran	LANGBONUS:Chondathan,Dwarven,Giant,Goblin,Orc,Uluik	REGION:Damara	PRERACE:1,Human	SOURCEPAGE:PgtF
+Dambrath ~ Human	VISIBLE:NO	AUTO:LANG|Dambrathan	LANGBONUS:Dwarven,Elven,Halfling,Halruaan,Gnoll,Illuskan,Shaaran	REGION:Dambrath	PRERACE:1,Human	SOURCEPAGE:PgtF
+Dragon Coast ~ Human	VISIBLE:NO	AUTO:LANG|Chondathan	LANGBONUS:Aglarondan,Chessentan,Damaran,Goblin,Halfling,Orc,Turmic	REGION:Dragon Coast	PRERACE:1,Human	SOURCEPAGE:PgtF
+Golden Water ~ Human	VISIBLE:NO	AUTO:LANG|Durpari	LANGBONUS:Draconic,Dwarven,Giant,Halruaan,Halfling,Mulhorandi,Shaaran	REGION:Golden Water	PRERACE:1,Human	SOURCEPAGE:PgtF
+Great Dale ~ Human	VISIBLE:NO	AUTO:LANG|Damaran	LANGBONUS:Giant,Goblin,Mulhorandi,Rashemi,Sylvan	REGION:Great Dale	PRERACE:1,Human	SOURCEPAGE:PgtF
+Great Glacier ~ Human	VISIBLE:NO	AUTO:LANG|Uluik	LANGBONUS:Auran,Damaran,Dwarven,Elven,Giant	REGION:Great Glacier	PRERACE:1,Human	SOURCEPAGE:PgtF
+Halruaa ~ Human	VISIBLE:NO	AUTO:LANG|Halruaan	LANGBONUS:Dambrathan,Elven,Goblin,Halfling,Shaaran,Tashalan	REGION:Halruaa	PRERACE:1,Human	SOURCEPAGE:PgtF
+Hordelands ~ Human	VISIBLE:NO	AUTO:LANG|Tuigan	LANGBONUS:Damaran,Goblin,Mulhorandi,Rashemi,Shou	REGION:Hordelands	PRERACE:1,Human	SOURCEPAGE:PgtF
+Impiltur ~ Human	VISIBLE:NO	AUTO:LANG|Damaran	LANGBONUS:Aglarondan,Chessentan,Chondathan,Dwarven,Giant,Goblin,Mulhorandi,Turmic	REGION:Impiltur	PRERACE:1,Human	SOURCEPAGE:PgtF
+Lake of Steam ~ Human	VISIBLE:NO	AUTO:LANG|Shaaran	LANGBONUS:Alzhedo,Chondathan,Dwarven,Goblin,Tashalan	REGION:Lake of Steam	PRERACE:1,Human	SOURCEPAGE:PgtF
+Lapaliija ~ Human	VISIBLE:NO	AUTO:LANG|Tashalan	LANGBONUS:Alzhedo,Chultan,Gnoll,Halruaan,Shaaran,Yuan-ti	REGION:Lapaliija	PRERACE:1,Human	SOURCEPAGE:PgtF
+Lantan ~ Human	VISIBLE:NO	AUTO:LANG|Lantanese	LANGBONUS:Alzhedo,Chondathan,Dwarven,Gnome,Ignan,Illuskan,Shaaran	REGION:Lantan	PRERACE:1,Human	SOURCEPAGE:PgtF
+Moonsea ~ Human	VISIBLE:NO	AUTO:LANG|Damaran	LANGBONUS:Chessentan,Chondathan,Draconic,Giant,Goblin,Orc	REGION:Moonsea	PRERACE:1,Human	SOURCEPAGE:PgtF
+Moonshae Isles ~ Human	VISIBLE:NO	AUTO:LANG|Illuskan	LANGBONUS:Aquan,Chondathan,Elven,Giant,Orc,Sylvan	REGION:Moonshae Isles	PRERACE:1,Human	SOURCEPAGE:PgtF
+Mulhorand ~ Human	VISIBLE:NO	AUTO:LANG|Mulhorandi	LANGBONUS:Aglarondan,Chessentan,Draconic,Durpari,Goblin,Tuigan,Untheric	REGION:Mulhorand	PRERACE:1,Human	SOURCEPAGE:PgtF
+Narfell ~ Human	VISIBLE:NO	AUTO:LANG|Damaran	LANGBONUS:Goblin,Orc,Rashemi,Tuigan,Uluik	REGION:Narfell	PRERACE:1,Human	SOURCEPAGE:PgtF
+Nelanther Isles ~ Human	VISIBLE:NO	AUTO:LANG|Chondathan	LANGBONUS:Alzhedo,Goblin,Illuskan,Lantanese,Orc,Shaaran	REGION:Nelanther Isles	PRERACE:1,Human	SOURCEPAGE:PgtF
+North ~ Human	VISIBLE:NO	AUTO:LANG|Illuskan	LANGBONUS:Chondathan,Dwarven,Elven,Giant,Goblin,Orc	REGION:North	PRERACE:1,Human	SOURCEPAGE:PgtF
+Rashemen ~ Human	VISIBLE:NO	AUTO:LANG|Rashemi	LANGBONUS:Aglarondan,Damaran,Goblin,Mulhorandi,Tuigan	REGION:Rashemen	PRERACE:1,Human	SOURCEPAGE:PgtF
+Ride ~ Human	VISIBLE:NO	AUTO:LANG|Damaran	LANGBONUS:Chondathan,Giant,Goblin,Orc,Rashemi	REGION:Ride	PRERACE:1,Human	SOURCEPAGE:PgtF
+Sembia ~ Human	VISIBLE:NO	AUTO:LANG|Chondathan	LANGBONUS:Chessentan,Damaran,Gnome,Halfling,Mulhorandi,Shaaran,Turmic	REGION:Sembia	PRERACE:1,Human	SOURCEPAGE:PgtF
+Shaar ~ Human	VISIBLE:NO	AUTO:LANG|Shaaran	LANGBONUS:Alzhedo,Dambrathan,Durpari,Dwarven,Gnoll,Halruaan,Tashalan,Untheric	REGION:Shaar	PRERACE:1,Human	SOURCEPAGE:PgtF
+Shadovar ~ Human	VISIBLE:NO	AUTO:LANG|Netherese	LANGBONUS:Chondathan,Damaran,Draconic,Elven,Loross,Thorass	REGION:Shadovar	PRERACE:1,Human	SOURCEPAGE:PgtF
+Shou Expatriate ~ Human	VISIBLE:NO	AUTO:LANG|Shou	LANGBONUS:Draconic,Durpari,Goblin,Mulhorandi,Rashemi,Tuigan	REGION:Shou Expatriate	PRERACE:1,Human	SOURCEPAGE:PgtF
+Silverymoon ~ Human	VISIBLE:NO	AUTO:LANG|Chondathan	LANGBONUS:Dwarven,Elven,Giant,Illuskan,Orc,Sylvan	REGION:Silverymoon	PRERACE:1,Human	SOURCEPAGE:PgtF
+Sword Coast ~ Human	VISIBLE:NO	AUTO:LANG|Illuskan	LANGBONUS:Chondathan,Dwarven,Giant,Halfling,Orc	REGION:Sword Coast	PRERACE:1,Human	SOURCEPAGE:PgtF
+Tashalar ~ Human	VISIBLE:NO	AUTO:LANG|Tashalan	LANGBONUS:Alzhedo,Chultan,Draconic,Illuskan,Orc,Shaaran,Yuan-Ti	REGION:Tashalar	PRERACE:1,Human	SOURCEPAGE:PgtF
+Tethyr ~ Human	VISIBLE:NO	AUTO:LANG|Chondathan	LANGBONUS:Alzhedo,Elven,Goblin,Lantanese,Orc	REGION:Tehtyr	PRERACE:1,Human	SOURCEPAGE:PgtF
+Thay ~ Human	VISIBLE:NO	AUTO:LANG|Mulhorandi	LANGBONUS:Chessentan,Damaran,Gnoll,Infernal,Rashemi,Tuigan,Untheric	REGION:Thay	PRERACE:1,Human	SOURCEPAGE:PgtF
+Thesk ~ Human	VISIBLE:NO	AUTO:LANG|Damaran	LANGBONUS:Aglarondan,Chondathan,Giant,Gnoll,Mulhorandi,Orc,Rashemi,Shou,Tuigan	REGION:Thesk	PRERACE:1,Human	SOURCEPAGE:PgtF
+Turmish ~ Human	VISIBLE:NO	AUTO:LANG|Turmic	LANGBONUS:Chessentan,Chondathan,Draconic,Dwarven,Ignan,Shaaran	REGION:Turmish	PRERACE:1,Human	SOURCEPAGE:PgtF
+Unther ~ Human	VISIBLE:NO	AUTO:LANG|Untheric	LANGBONUS:Chessentan,Draconic,Mulhorandi,Orc,Shaaran	REGION:Unther	PRERACE:1,Human	SOURCEPAGE:PgtF
+Uthgardt Tribesfolk ~ Human	VISIBLE:NO	AUTO:LANG|Illuskan	LANGBONUS:Chondathan,Dwarven,Elven,Giant,Orc	REGION:Uthgardt Tribesfolk	PRERACE:1,Human	SOURCEPAGE:PgtF
+Vaasa ~ Human	VISIBLE:NO	AUTO:LANG|Damaran	LANGBONUS:Abyssal,Giant,Goblin,Orc,Uluik	REGION:Vaasa	PRERACE:1,Human	SOURCEPAGE:PgtF
+Vast ~ Human	VISIBLE:NO	AUTO:LANG|Damaran	LANGBONUS:Aglarondan,Chondathan,Dwarven,Giant,Goblin,Orc,Rashemi	REGION:Vast	PRERACE:1,Human	SOURCEPAGE:PgtF
+Vilhon Reach ~ Human	VISIBLE:NO	AUTO:LANG|Chondathan	LANGBONUS:Chessentan,Damaran,Draconic,Elven,Shaaran,Turmic	REGION:Vilhon Reach	PRERACE:1,Human	SOURCEPAGE:PgtF
+Waterdeep ~ Human	VISIBLE:NO	AUTO:LANG|Chondathan	LANGBONUS:Dwarven,Elven,Giant,Halfling,Illuskan,Orc	REGION:Waterdeep	PRERACE:1,Human	SOURCEPAGE:PgtF
+Western Heartland ~ Human	VISIBLE:NO	AUTO:LANG|Chondathan|Tethyrian	LANGBONUS:Elven,Giant,Goblin,Illuskan,Midani,Orc,Turmic	REGION:Western Heartland	PRERACE:1,Human	SOURCEPAGE:PgtF
+Wizard's Reach ~ Human	VISIBLE:NO	AUTO:LANG|Untheric	LANGBONUS:Aglarondan,Chessentan,Elven,Mulhorandi,Orc,Serusan	REGION:Wizard's Reach	PRERACE:1,Human	SOURCEPAGE:PgtF
+Chult ~ Dwarf	VISIBLE:NO	AUTO:LANG|Chultan|Dwarven	LANGBONUS:Draconic,Goblin,Ignan,Shaaran,Tashalan	REGION:Chult	PRERACE:1,Dwarf	SOURCEPAGE:PgtF
+Galena Mountains ~ Dwarf	VISIBLE:NO	AUTO:LANG|Damaran|Dwarven	LANGBONUS:Chondathan,Giant,Goblin,Orc,Undercommon	REGION:Galena Mountains	PRERACE:1,Dwarf	SOURCEPAGE:PgtF
+Great Glacier ~ Dwarf	VISIBLE:NO	AUTO:LANG|Dwarven|Uluik	LANGBONUS:Aquan,Auran,Damaran,Draconic,Giant	REGION:Great Glacier	PRERACE:1,Dwarf	SOURCEPAGE:PgtF
+Great Rift ~ Dwarf	VISIBLE:NO	AUTO:LANG|Dwarven	LANGBONUS:Giant,Gnome,Goblin,Shaaran,Terran,Untheric	REGION:Great Rift	PRERACE:1,Dwarf	SOURCEPAGE:PgtF
+Oldonnar ~ Dwarf	VISIBLE:NO	AUTO:LANG|Dwarven	LANGBONUS:Draconic,Giant,Terran,Undercommon	REGION:Oldonnar	PRERACE:1,Dwarf	SOURCEPAGE:PgtF
+Smoking Mountains ~ Dwarf	VISIBLE:NO	AUTO:LANG|Dwarven	LANGBONUS:Chessentan,Goblin,Mulhorandi,Undercommon,Untheric	REGION:Smoking Mountains	PRERACE:1,Dwarf	SOURCEPAGE:PgtF
+Spine of the World ~ Dwarf	VISIBLE:NO	AUTO:LANG|Dwarven	LANGBONUS:Chondathan,Draconic,Giant,Goblin,Illuskan,Orc	REGION:Spine of the World	PRERACE:1,Dwarf	SOURCEPAGE:PgtF
+Sword Coast ~ Dwarf	VISIBLE:NO	AUTO:LANG|Dwarven|Illuskan	LANGBONUS:Chondathan,Elven,Giant,Gnome,Orc	REGION:Sword Coast	PRERACE:1,Dwarf	SOURCEPAGE:PgtF
+Turmish ~ Dwarf	VISIBLE:NO	AUTO:LANG|Dwarven|Turmic	LANGBONUS:Chondathan,Elven,Giant,gnome,Halfling	REGION:Turmish	PRERACE:1,Dwarf	SOURCEPAGE:PgtF
+Underdark (Darklands) ~ Dwarf	VISIBLE:NO	AUTO:LANG|Dwarven|Undercommon	LANGBONUS:Aquan,Chondathan,Draconic,Giant,Goblin	REGION:Underdark (Darklands)	PRERACE:1,Dwarf	SOURCEPAGE:PgtF
+Underdark (Northdark) ~ Dwarf	VISIBLE:NO	AUTO:LANG|Dwarven|Undercommon	LANGBONUS:Draconic,Giant,Goblin,Orc,Terran	REGION:Underdark (Northdark)	PRERACE:1,Dwarf	SOURCEPAGE:PgtF
+Underdark (Old Shanatar) ~ Dwarf	VISIBLE:NO	AUTO:LANG|Dwarven|Undercommon	LANGBONUS:Aquan,Draconic,Elven,Gnome,Terran	REGION:Underdark (Old Shanatar)	PRERACE:1,Dwarf	SOURCEPAGE:PgtF
+Waterdeep ~ Dwarf	VISIBLE:NO	AUTO:LANG|Dwarven	LANGBONUS:alzhedo,Chondathan,Elven,Halfling,Illuskan,Orc	REGION:Waterdeep	PRERACE:1,Dwarf	SOURCEPAGE:PgtF
+Chondalwood ~ Elf	VISIBLE:NO	AUTO:LANG|Elven	LANGBONUS:Chessentan,Chondathan,Gnoll,Halfling,Shaaran,Sylvan,Untheric	REGION:Chondalwood	PRERACE:1,Elf	SOURCEPAGE:PgtF
+Cormanthor Drow ~ Elf	VISIBLE:NO	AUTO:LANG|Elven	LANGBONUS:Abyssal,Chondathan,Draconic,Drow Sign Language,Sylvan,Undercommon	REGION:Cormanthor Drow	PRERACE:1,Elf	SOURCEPAGE:PgtF
+Elven Court ~ Elf	VISIBLE:NO	AUTO:LANG|Chondathan|Elven	LANGBONUS:Damaran,Giant,Gnome,Orc,Sylvan	REGION:Elven Court	PRERACE:1,Elf	SOURCEPAGE:PgtF
+Evereska ~ Elf	VISIBLE:NO	AUTO:LANG|Chondathan|Elven	LANGBONUS:Auran,Draconic,Goblin,Giant,Illuskan,Orc	REGION:Evereska	PRERACE:1,Elf	SOURCEPAGE:PgtF
+Evermeet ~ Elf	VISIBLE:NO	AUTO:LANG|Elven	LANGBONUS:Aquan,Auran,Celestial,Chondathan,Illuskan,Sylvan	REGION:Evermeet	PRERACE:1,Elf	SOURCEPAGE:PgtF
+Forest of Lethyr ~ Elf	VISIBLE:NO	AUTO:LANG|Damaran|Elven	LANGBONUS:Giant,Gnoll,Gnome,Orc,Rashemi	REGION:Forest of Lethyr	PRERACE:1,Elf	SOURCEPAGE:PgtF
+High Forest ~ Elf	VISIBLE:NO	AUTO:LANG|Elven	LANGBONUS:Gnoll,Goblin,Halfling,Illuskan,Sylvan	REGION:High Forest	PRERACE:1,Elf	SOURCEPAGE:PgtF
+Inner Sea ~ Elf	VISIBLE:NO	AUTO:LANG|Elven|Serusan	LANGBONUS:Aquan,Chondathan,Draconic,Giant,Sylvan	REGION:Inner Sea	PRERACE:1,Elf	SOURCEPAGE:PgtF
+Menzoberranyr ~ Elf	VISIBLE:NO	AUTO:LANG|Elven|Undercommon	LANGBONUS:Abyssal,Draconic,Drow Sign Language,Goblin,Illuskan	REGION:Menzoberranyr	PRERACE:1,Elf	SOURCEPAGE:PgtF
+Sildeyuir ~ Elf	VISIBLE:NO	AUTO:LANG|Aglarondan|Elven	LANGBONUS:Abyssal,Auran,Infernal,Mulhorandi,Rashemi,Sylvan	REGION:Sildeyuir	PRERACE:1,Elf	SOURCEPAGE:PgtF
+Slverymoon ~ Elf	VISIBLE:NO	AUTO:LANG|Elven|Illuskan	LANGBONUS:Chondathan,Dwarven,Giant,Orc,Sylvan	REGION:Slverymoon	PRERACE:1,Elf	SOURCEPAGE:PgtF
+Snow Eagl Aerie ~ Elf	VISIBLE:NO	AUTO:LANG|Auran|Elven	LANGBONUS:Damaran,Draconic,Giant,Rashemi,Sylvan,Tuigan	REGION:Snow Eagl Aerie	PRERACE:1,Elf	SOURCEPAGE:PgtF
+Waterdeep ~ Elf	VISIBLE:NO	AUTO:LANG|Chondathan|Elven	LANGBONUS:Alzhedo,Dwarven,Halfling,Illuskan,Orc	REGION:Waterdeep	PRERACE:1,Elf	SOURCEPAGE:PgtF
+Wealdath ~ Elf	VISIBLE:NO	AUTO:LANG|Chondathan|Elven	LANGBONUS:Alzhedo,Draconic,Giant,Goblin,Shaaran	REGION:Wealdath	PRERACE:1,Elf	SOURCEPAGE:PgtF
+Yuirwood ~ Elf	VISIBLE:NO	AUTO:LANG|Aglarondan|Elven	LANGBONUS:Chessentan,Damaran,Draconic,Mulhorandi,Sylvan,Untheric	REGION:Yuirwood	PRERACE:1,Elf	SOURCEPAGE:PgtF
+Great Dale ~ Gnome	VISIBLE:NO	AUTO:LANG|Damaran|Gnome	LANGBONUS:Draconic,Elven,Gnoll,Goblin,Orc,Sylvan	REGION:Great Dale	PRERACE:1,Gnome	SOURCEPAGE:PgtF
+Lantan ~ Gnome	VISIBLE:NO	AUTO:LANG|Gnome|Lantanese	LANGBONUS:Alzhedo,Chondathan,Draconic,Dwarven,Ignan,Illuskan	REGION:Lantan	PRERACE:1,Gnome	SOURCEPAGE:PgtF
+Thesk ~ Gnome	VISIBLE:NO	AUTO:LANG|Aglarondan|Gnome	LANGBONUS:Damaran,Draconic,Elven,Goblin,Orc,Sylvan	REGION:Thesk	PRERACE:1,Gnome	SOURCEPAGE:PgtF
+Underdark (Northdark) ~ Gnome	VISIBLE:NO	AUTO:LANG|Gnome|Undercommon	LANGBONUS:Draconic,Dwarven,Elven,Illuskan,Terran	REGION:Underdark (Northdark)	PRERACE:1,Gnome	SOURCEPAGE:PgtF
+Western Heartland ~ Gnome	VISIBLE:NO	AUTO:LANG|Gnome|Chondathan	LANGBONUS:Draconic,Dwarven,Goblin,Illuskan,Sylvan,Terran	REGION:Western Heartland	PRERACE:1,Gnome	SOURCEPAGE:PgtF
+Aglarond ~ Half-Elf	VISIBLE:NO	AUTO:LANG|Aglarondan|Elven	LANGBONUS:Chessentan,Damaran,Draconic,Mulhorandi,Orc,Sylvan,Untheric	REGION:Aglarond	PRERACE:1,Half-Elf	SOURCEPAGE:PgtF
+Dalelands ~ Half-Elf	VISIBLE:NO	AUTO:LANG|Chondathan|Elven	LANGBONUS:Dwarven,Giant,Goblin,Sylvan,Undercommon	REGION:Dalelands	PRERACE:1,Half-Elf	SOURCEPAGE:PgtF
+Dambrath ~ Half-Elf	VISIBLE:NO	AUTO:LANG|Dambrathan|Elven	LANGBONUS:Draconic,Gnoll,Halfling,Halruaan,Shaaran,Undercommon	REGION:Dambrath	PRERACE:1,Half-Elf	SOURCEPAGE:PgtF
+Dragon Coast ~ Half-Elf	VISIBLE:NO	AUTO:LANG|Elven|Serusan	LANGBONUS:Aquan,Chondathan,Giant,Goblin,Turmic	REGION:Dragon Coast	PRERACE:1,Half-Elf	SOURCEPAGE:PgtF
+Silverymoon ~ Half-Elf	VISIBLE:NO	AUTO:LANG|Elven|Illuskan	LANGBONUS:Chondathan,Dwarven,Giant,Orc,Sylvan	REGION:Silverymoon	PRERACE:1,Half-Elf	SOURCEPAGE:PgtF
+Waterdeep ~ Half-Elf	VISIBLE:NO	AUTO:LANG|Chondathan|Elven	LANGBONUS:Alzhedo,Dwarven,Halfling,Illuskan,Orc	REGION:Waterdeep	PRERACE:1,Half-Elf	SOURCEPAGE:PgtF
+Channath Vale ~ Halfling	VISIBLE:NO	AUTO:LANG|Halfling|Shaaran	LANGBONUS:Dambrathan,Dwarven,Elven,Gnoll,Halruaan	REGION:Channath Vale	PRERACE:1,Halfling	SOURCEPAGE:PgtF
+Chondalwood ~ Halfling	VISIBLE:NO	AUTO:LANG|Chondathan|Halfling	LANGBONUS:Chessentan,Elven,Gnoll,Shaaran,Sylvan	REGION:Chondalwood	PRERACE:1,Halfling	SOURCEPAGE:PgtF
+Luiren ~ Halfling	VISIBLE:NO	AUTO:LANG|Halfling	LANGBONUS:Dambrathan,Durpari,Dwarven,Elven,Gnoll,Halruaan,Shaaran	REGION:Luiren	PRERACE:1,Halfling	SOURCEPAGE:PgtF
+Western Heartland ~ Halfling	VISIBLE:NO	AUTO:LANG|Chondathan|Halfling	LANGBONUS:Alzhedo,Dwarven,Gnome,Goblin,Illuskan	REGION:Western Heartland	PRERACE:1,Halfling	SOURCEPAGE:PgtF
+Amn ~ Half-Orc	VISIBLE:NO	AUTO:LANG|Orc	LANGBONUS:Alzhedo,Draconic,Giant,Gnoll,Halfling	REGION:Amn	PRERACE:1,Half-Orc	SOURCEPAGE:PgtF
+Chessentha ~ Half-Orc	VISIBLE:NO	AUTO:LANG|Orc|Chessentan	LANGBONUS:Chondathan,Draconic,Giant,Turmic	REGION:Chessenta	PRERACE:1,Half-Orc	SOURCEPAGE:PgtF
+Chessentha ~ Orc	VISIBLE:NO	AUTO:LANG|Orc|Chessentan	LANGBONUS:Chondathan,Draconic,Giant,Turmic	REGION:Chessenta	PRERACE:1,Orc	SOURCEPAGE:PgtF
+Hordelands ~ Half-Orc	VISIBLE:NO	AUTO:LANG|Orc|Rashemi	LANGBONUS:Damaran,Gnoll,Mulhorandi,Tuigan	REGION:Hordelands	PRERACE:1,Half-Orc	SOURCEPAGE:PgtF
+Hordelands ~ Orc	VISIBLE:NO	AUTO:LANG|Orc|Rashemi	LANGBONUS:Damaran,Gnoll,Mulhorandi,Tuigan	REGION:Hordelands	PRERACE:1,Orc	SOURCEPAGE:PgtF
+Moonsea ~ Half-Orc	VISIBLE:NO	AUTO:LANG|Orc|Damaran	LANGBONUS:Chondathan,Draconic,Dwarven,Giant	REGION:Moonsea	PRERACE:1,Half-Orc	SOURCEPAGE:PgtF
+Moonsea ~ Orc	VISIBLE:NO	AUTO:LANG|Orc|Damaran	LANGBONUS:Chondathan,Draconic,Dwarven,Giant	REGION:Moonsea	PRERACE:1,Orc	SOURCEPAGE:PgtF
+North ~ Half-Orc	VISIBLE:NO	AUTO:LANG|Orc|Illuskan	LANGBONUS:Draconic,Dwarven,Goblin,Giant	REGION:North	PRERACE:1,Half-Orc	SOURCEPAGE:PgtF
+North ~ Orc	VISIBLE:NO	AUTO:LANG|Orc|Illuskan	LANGBONUS:Draconic,Dwarven,Goblin,Giant	REGION:North	PRERACE:1,Orc	SOURCEPAGE:PgtF
+Thesk ~ Half-Orc	VISIBLE:NO	AUTO:LANG|Orc|Damaran	LANGBONUS:Giant,Gnoll,Gnome,Mulhorandi,Rashemi	REGION:Thesk	PRERACE:1,Half-Orc	SOURCEPAGE:PgtF
+Thesk ~ Orc	VISIBLE:NO	AUTO:LANG|Orc|Damaran	LANGBONUS:Giant,Gnoll,Gnome,Mulhorandi,Rashemi	REGION:Thesk	PRERACE:1,Orc	SOURCEPAGE:PgtF
+Underdark (Northdark) ~ Orc	VISIBLE:NO	AUTO:LANG|Orc	LANGBONUS:Abyssal,Giant,Goblin,Illuskan,Undercommon	REGION:Underdark (Northdark)	PRERACE:1,Orc	SOURCEPAGE:PgtF
+Vaasa ~ Orc	VISIBLE:NO	AUTO:LANG|Orc|Damaran	LANGBONUS:Dwarven,Giant,Goblin,Uluik,Undercommon	PRERACE:1,Orc	SOURCEPAGE:PgtF
+Vaasa ~ Half-Orc	VISIBLE:NO	AUTO:LANG|Orc|Damaran	LANGBONUS:Dwarven,Giant,Goblin,Uluik,Undercommon	PRERACE:1,Half-Orc	SOURCEPAGE:PgtF
+Calimshan ~ Planetouched (Air Genasi)	VISIBLE:NO	AUTO:LANG|Alzhedo	LANGBONUS:Auran,Chondathan,Chultan,Goblin,Ignan,Shaaran,Tashalan	REGION:Calimshan	PRERACE:1,Planetouched (Air Genasi)	SOURCEPAGE:PgtF
+Calimshan ~ Planetouched (Fire Genasi)	VISIBLE:NO	AUTO:LANG|Alzhedo	LANGBONUS:Auran,Chondathan,Chultan,Goblin,Ignan,Shaaran,Tashalan	REGION:Calimshan	PRERACE:1,Planetouched (Fire Genasi)	SOURCEPAGE:PgtF
+Mulhorand ~ Planetouched (Aasimar)	VISIBLE:NO	AUTO:LANG|Mulhorandi	LANGBONUS:Aglarondan,Celestial,Rashemi,Shaaran,Untheric	REGION:Mulhorand	PRERACE:1,Planetouched (Aasimar)	SOURCEPAGE:PgtF
+Mulhorand ~ Planetouched (Earth Genasi)	VISIBLE:NO	AUTO:LANG|Mulhorandi	LANGBONUS:Aglarondan,Celestial,Rashemi,Shaaran,Untheric	REGION:Mulhorand	PRERACE:1,Planetouched (Earth Genasi)	SOURCEPAGE:PgtF
+Mulhorand ~ Planetouched (Tiefling)	VISIBLE:NO	AUTO:LANG|Mulhorandi	LANGBONUS:Aglarondan,Celestial,Rashemi,Shaaran,Untheric	REGION:Mulhorand	PRERACE:1,Planetouched (Tiefling)	SOURCEPAGE:PgtF
+Thay ~ Planetouched (Air Genasi)	VISIBLE:NO	AUTO:LANG|Mulhorandi	LANGBONUS:Aglarondan,Damaran,Gnoll,Infernal,Rashemi	REGION:Thay	PRERACE:1,Planetouched (Air Genasi)	SOURCEPAGE:PgtF
+Thay ~ Planetouched (Earth Genasi)	VISIBLE:NO	AUTO:LANG|Mulhorandi	LANGBONUS:Aglarondan,Damaran,Gnoll,Infernal,Rashemi	REGION:Thay	PRERACE:1,Planetouched (Earth Genasi)	SOURCEPAGE:PgtF
+Thay ~ Planetouched (Fire Genasi)	VISIBLE:NO	AUTO:LANG|Mulhorandi	LANGBONUS:Aglarondan,Damaran,Gnoll,Infernal,Rashemi	REGION:Thay	PRERACE:1,Planetouched (Fire Genasi)	SOURCEPAGE:PgtF
+Thay ~ Planetouched (Water Genasi)	VISIBLE:NO	AUTO:LANG|Mulhorandi	LANGBONUS:Aglarondan,Damaran,Gnoll,Infernal,Rashemi	REGION:Thay	PRERACE:1,Planetouched (Water Genasi)	SOURCEPAGE:PgtF
+Thay ~ Planetouched (Tiefling)	VISIBLE:NO	AUTO:LANG|Mulhorandi	LANGBONUS:Aglarondan,Damaran,Gnoll,Infernal,Rashemi	REGION:Thay	PRERACE:1,Planetouched (Tiefling)	SOURCEPAGE:PgtF
+Chessenta ~ Planetouched (Aasimar)	VISIBLE:NO	AUTO:LANG|Chessentan	LANGBONUS:Aglarondan,Chondathan,Draconic,Mulhorandi,Turmic,Untheric	REGION:Chessenta	PRERACE:1,Planetouched (Aasimar)	SOURCEPAGE:PgtF
+Chessenta ~ Planetouched (Water Genasi)	VISIBLE:NO	AUTO:LANG|Chessentan	LANGBONUS:Aglarondan,Chondathan,Draconic,Mulhorandi,Turmic,Untheric	REGION:Chessenta	PRERACE:1,Planetouched (Water Genasi)	SOURCEPAGE:PgtF
+Unther ~ Planetouched (Aasimar)	VISIBLE:NO	AUTO:LANG|Untheric	LANGBONUS:Abyssal,Chessentan,Dwarven,Orc,Shaaran	REGION:Unther	PRERACE:1,Planetouched (Aasimar)	SOURCEPAGE:PgtF
+Unther ~ Planetouched (Fire Genasi)	VISIBLE:NO	AUTO:LANG|Untheric	LANGBONUS:Abyssal,Chessentan,Dwarven,Orc,Shaaran	REGION:Unther	PRERACE:1,Planetouched (Fire Genasi)	SOURCEPAGE:PgtF
+Unther ~ Planetouched (Tiefling)	VISIBLE:NO	AUTO:LANG|Untheric	LANGBONUS:Abyssal,Chessentan,Dwarven,Orc,Shaaran	REGION:Unther	PRERACE:1,Planetouched (Tiefling)	SOURCEPAGE:PgtF
+Ashane ~ Spirit Folk	VISIBLE:NO	AUTO:LANG|Rashemi|Sylvan	LANGBONUS:Aquan,Auran,Giant,Goblin,Mulhorandi,Rashemi,Shou,Tuigan	REGION:Ashane	PRERACE:1,Spirit Folk	SOURCEPAGE:PgtF
+Earthfast Mountains ~ Bugbear	VISIBLE:NO	AUTO:LANG|Goblin	LANGBONUS:Damaran,Dwarven,Giant,Orc,Undercommon	REGION:Earthfast Mountains	PRERACE:1,Bugbear	SOURCEPAGE:PgtF
+Earthfast Mountains ~ Goblin	VISIBLE:NO	AUTO:LANG|Goblin	LANGBONUS:Damaran,Dwarven,Giant,Orc,Undercommon	REGION:Earthfast Mountains	PRERACE:1,Goblin	SOURCEPAGE:PgtF
+Earthfast Mountains ~ Hobgoblin	VISIBLE:NO	AUTO:LANG|Goblin	LANGBONUS:Damaran,Dwarven,Giant,Orc,Undercommon	REGION:Earthfast Mountains	PRERACE:1,Hobgoblin	SOURCEPAGE:PgtF
+Forest of Lethyr ~ Volodni	VISIBLE:NO	AUTO:LANG|Damaran|Sylvan	LANGBONUS:Draconic,Goblin,Mulhorandi,Orc,Rashemi,Treant	REGION:Forest of Lethyr	PRERACE:1,Volodni	SOURCEPAGE:PgtF
+Icerim Mountains ~ Taer	VISIBLE:NO	AUTO:LANG|Giant	LANGBONUS:Auran,Damaran,Dwarven,Rashemi,Tuigan	REGION:Icerim Mountains	PRERACE:1,Taer	SOURCEPAGE:PgtF
+Plateau of Thay ~ Centaur	VISIBLE:NO	AUTO:LANG|Gnoll	LANGBONUS:Abyssal,Draconic,Goblin,Infernal,Mulhorandi,Rashemi	REGION:Plateau of Thay	PRERACE:1,Centaur	SOURCEPAGE:PgtF
+Plateau of Thay ~ Gnoll	VISIBLE:NO	AUTO:LANG|Gnoll	LANGBONUS:Abyssal,Draconic,Goblin,Infernal,Mulhorandi,Rashemi	REGION:Plateau of Thay	PRERACE:1,Gnoll	SOURCEPAGE:PgtF
+Shaar ~ Wemic	VISIBLE:NO	AUTO:LANG|Sylvan	LANGBONUS:Dwarven,Gnoll,Halfling,Shaaran,Untheric	REGION:Shaar	PRERACE:1,Wemic	SOURCEPAGE:PgtF
+Sphur Upra ~ Gloaming	VISIBLE:NO	AUTO:LANG|Undercommon	LANGBONUS:Aquan,Draconic,Dwarven,Elven,Sylvan,Terran	REGION:Sphur Upra	PRERACE:1,Gloaming	SOURCEPAGE:PgtF
+Stormhorns ~ Aarakokra	VISIBLE:NO	AUTO:LANG|Auran	LANGBONUS:Chondathan,Draconic,Elven,Orc,Sylvan	REGION:Stormhorns	PRERACE:1,Aarakokra	SOURCEPAGE:PgtF
+Surkh ~ Lizardfolk	VISIBLE:NO	AUTO:LANG|Draconic	LANGBONUS:Aquan,Chondathan,Goblin,Illuskan,Orc	REGION:Surkh	PRERACE:1,Lizardfolk	SOURCEPAGE:PgtF
+Underdark (Deep Imaskar) ~ Deep Imaskari	VISIBLE:NO	AUTO:LANG|Roushoum	LANGBONUS:Abyssal,Aquan,Celestial,Draconic,Terran,Undercommon	REGION:Underdark (Deep Imaskar)	PRERACE:1,Deep Imaskari	SOURCEPAGE:PgtF
+Underdark (Fluvenilstra) ~ Slyth	VISIBLE:NO	AUTO:LANG|Undercommon	LANGBONUS:Aquan,Dwarven,Elven,Gnome,Terran	REGION:Underdark (Fluvenistra)	PRERACE:1,Slyth	SOURCEPAGE:PgtF
+Underdark (Reeshov) ~ Grimlock	VISIBLE:NO	AUTO:LANG|Terran|Undercommon	LANGBONUS:Abyssal,Elven,Kuo-Toan,Orc	REGION:Underdark (Reeshov)	PRERACE:1,Grimlock	SOURCEPAGE:PgtF
+Underdark (Sloopdilmonpolop) ~ Kuo-Toa	VISIBLE:NO	AUTO:LANG|Kuo-Toan|Undercommon	LANGBONUS:Aquan,Draconic,Dwarven,Elven	REGION:Underdark (Sloopdilmonpolop)	PRERACE:1,Kuo-Toa	SOURCEPAGE:PgtF
+Underdark (Yathchol) ~ Chitine	VISIBLE:NO	AUTO:LANG|Undercommon	LANGBONUS:Drow Sign Language,Elven,Kuo-Toan,Orc	REGION:Underdark (Yathchol)	PRERACE:1,Chitine	SOURCEPAGE:PgtF

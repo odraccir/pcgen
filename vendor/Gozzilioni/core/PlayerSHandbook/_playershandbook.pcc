@@ -58,7 +58,7 @@ HIDETYPE:SKILL|Profession (Lumberjack)|Profession (Miller)|Profession (Miner)|Pr
 HIDETYPE:SKILL|Profession (Scribe)|Profession (Engineer)|Profession (Stablehand)|Profession (Tanner)|Profession (Teamster)|Profession (Woodcutter)
 HIDETYPE:SKILL|Ride|Search|Sense Motive|Sleight of Hand|Speak Language|Spellcraft|Spot|Survival|Swim|Tumble|Use Magic Device|Use Rope
 
-HIDETYPE:FEAT|Wizard
+HIDETYPE:FEAT|Wizard|AttackOption|ModifyAC
 
 HIDETYPE:SKILL|Craft (Blacksmithing)|Craft (Carpentry)|Craft (Leatherworking)|Craft (Painting)|Craft (Pottery)|Craft (Sculpting)
 HIDETYPE:SKILL|Craft (Shipmaking)|Craft (Stonemasonry)

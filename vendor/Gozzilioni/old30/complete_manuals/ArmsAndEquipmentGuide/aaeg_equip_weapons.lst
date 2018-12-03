@@ -13,7 +13,7 @@ SOURCELONG:Arms and Equipment Guide 3.0	SOURCESHORT:AaEG30	SOURCEWEB:http://www.
 ## OneHanded																									
 ## TwoHanded																									
 Lucern Hammer			PROFICIENCY:WEAPON|Lucern Hammer	TYPE:Weapon.Martial.Melee.Piercing.TwoHanded.Hammer	COST:12	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x4	EQMOD:STEEL	SOURCEPAGE:AeEG											
-Maul			PROFICIENCY:WEAPON|Maul	TYPE:Weapon.Martial.Melee.Bludgeoning.TwoHanded	COST:15	WT:20	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:AeEG											
+# Maul			PROFICIENCY:WEAPON|Maul	TYPE:Weapon.Martial.Melee.Bludgeoning.TwoHanded	COST:15	WT:20	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:AeEG											
 ## Ranged																									
 																									
 # Exotic Weapons																									
@@ -25,7 +25,7 @@ Dagger (Stump)			PROFICIENCY:WEAPON|Dagger (Stump)	TYPE:Weapon.Exotic.Melee.Pier
 Dagger (Triple)			PROFICIENCY:WEAPON|Dagger (Triple)	TYPE:Weapon.Exotic.Melee.Piercing.Light.Dagger	COST:10	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG											
 Gauntlet (Ward Cestus)			PROFICIENCY:WEAPON|Gauntlet (Ward Cestus)	TYPE:Weapon.Exotic.Melee.Bludgeoning.Unarmed.Gauntlet	COST:10	WT:4	WIELD:Light		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG									BONUS:VAR|TotalDefenseAC|1		
 Gauntlet (Bladed)			PROFICIENCY:WEAPON|Gauntlet (Bladed)	TYPE:Weapon.Exotic.Melee.Slashing.Light.Gauntlet	COST:30	WT:4	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG									BONUS:VAR|TotalDefenseAC|1		
-Sai			PROFICIENCY:WEAPON|Sai	TYPE:Weapon.Exotic.Melee.Piercing.Light	COST:1	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG											
+# Sai			PROFICIENCY:WEAPON|Sai	TYPE:Weapon.Exotic.Melee.Piercing.Light	COST:1	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG											
 Sapara			PROFICIENCY:WEAPON|Sapara	TYPE:Weapon.Exotic.Melee.Slashing.Light	COST:15	WT:6	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG											
 Sword (Butterfly)			PROFICIENCY:WEAPON|Sword (Butterfly)	TYPE:Weapon.Exotic.Melee.Slashing.Light.Sword	COST:10	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG											
 Tonfa			PROFICIENCY:WEAPON|Tonfa	TYPE:Weapon.Exotic.Melee.Bludgeoning.Light	COST:0.2	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:AeEG											

@@ -1,0 +1,11 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:03-2004															
+#																		
+###BLOCK:Armors	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	SOURCEPAGE:	BONUS:COMBAT|AC|x|TYPE=Armor	MAXDEX:	ACCHECK:	SPELLFAILURE:	EQMOD:						
+Dragonheart Armor			PROFICIENCY:ARMOR|Scale Mail	TYPE:Enhancement.Armor.Medium.Suit.Specific	COST:25400	WT:30	SOURCEPAGE:PgtF	BONUS:COMBAT|AC|4|TYPE=Armor	MAXDEX:3	ACCHECK:-4	SPELLFAILURE:25	EQMOD:STEEL.EQ_COST_ADJ_A.PLUS3A.DRAGONHIDE_ARMR	BONUS:VAR|FireResistanceBonusSp|10	ABILITY:Special Ability|AUTOMATIC|Resistance To Fire (Sp)				
+																		
+###BLOCK:Shields	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	SOURCEPAGE:	BONUS:COMBAT|AC|x|TYPE=Armor	MAXDEX:	ACCHECK:	SPELLFAILURE:	EQMOD:						
+Captain Aerad's Shield			PROFICIENCY:SHIELD|Shield (Heavy)	TYPE:Enhancement.Shield.Heavy.Specific	COST:9170	WT:15	SOURCEPAGE:PgtF	BONUS:COMBAT|AC|2|TYPE=Shield		ACCHECK:-2	SPELLFAILURE:15	EQMOD:STEEL.EQ_COST_ADJ_S.PLUS3S		DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	WIELD:OneHanded	SIZE:M
+																		
+###BLOCK:Cursed																		
+																		
+###BLOCK:Artifact																		

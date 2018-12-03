@@ -1,0 +1,1441 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:03-2004
+					
+STARTPACK:Mercantile Background Kit	TYPE:Feat	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PREABILITY:1,CATEGORY=FEAT,Merchantile Background
+FUNDS:gp	QTY:300				
+					
+STARTPACK:Faerunian Generic Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRETEMPLATE:1,No Faerun Region
+FUNDS:gp	QTY:100
+
+#Kit Name
+REGION:Ashane
+STARTPACK:Spirit Folk ~ Ashane Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Spirit Folk
+GEAR:Chain (Spiked)	EQMOD:MWORKW				
+					
+STARTPACK:Spirit Folk ~ Ashane Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Spirit Folk
+GEAR:Nunchaku	EQMOD:MWORKW				
+					
+STARTPACK:Spirit Folk ~ Ashane Region A3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Spirit Folk
+GEAR:Siangam	EQMOD:MWORKW				
+					
+STARTPACK:Spirit Folk ~ Ashane Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Spirit Folk
+GEAR:Wand	EQMOD:SPL_CHRG|SPELLNAME[Detect Magic]|SPELLLEVEL[1]|CASTERLEVEL[1]|CHARGES[20]				
+					
+STARTPACK:Spirit Folk ~ Ashane Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Spirit Folk
+GEAR:Wand	EQMOD:SPL_CHRG|SPELLNAME[Light]|SPELLLEVEL[1]|CASTERLEVEL[1]|CHARGES[20]				
+					
+					
+					
+REGION:Aglarond					
+STARTPACK:Human ~ Aglarond Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Studded Leather	EQMOD:MWORKA				
+GEAR:Arrows (20)	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Aglarond Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Scroll (Web)					
+GEAR:Scroll (Protection from Arrows)					
+					
+STARTPACK:Half-Elf ~ Aglarond Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Elf
+GEAR:Longbow	EQMOD:MWORKW				
+					
+STARTPACK:Half-Elf ~ Aglarond Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Elf
+GEAR:Longsword	EQMOD:MWORKW				
+					
+STARTPACK:Half-Elf ~ Aglarond Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Elf
+GEAR:Hide	EQMOD:MWORKA				
+GEAR:Shield (Heavy/Wood)	EQMOD:DARKWOOD_SHLD				
+					
+					
+					
+REGION:Altumbel					
+STARTPACK:Human ~ Altumbel Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Longsword	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Altumbel Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Spear	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Altumbel Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Chain Shirt	EQMOD:MWORKA				
+GEAR:Musical Instrument (Lute)	EQMOD:MWORKI				
+					
+					
+					
+REGION:Amn					
+STARTPACK:Human ~ Amn Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Thieves' Tools	EQMOD:MWORKI				
+GEAR:Crossbow (Hand)					
+GEAR:Bolts (Crossbow/10)	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Amn Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Longsword	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Amn Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Sword (Short)	EQMOD:MWORKW				
+					
+STARTPACK:Half-Orc ~ Amn Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Battleaxe	EQMOD:MWORKW				
+					
+STARTPACK:Half-Orc ~ Amn Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Axe (Double/Orc)	EQMOD:MWORKW				
+					
+					
+					
+REGION:Anauroch					
+STARTPACK:Human ~ Anauroch Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Scimitar	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Anauroch Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Dagger	EQMOD:MWORKW				
+					
+STARTPACK:Anauroch Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Shortbow (Composite)	EQMOD:BOWSTR|2				
+GEAR:Arrows (10)	EQMOD:MWORKW				
+					
+					
+					
+REGION:Calimshan					
+STARTPACK:Human ~ Calimshan Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Wand	EQMOD:SPL_CHRG|SPELLNAME[Magic Missile]|SPELLLEVEL[1]|CASTERLEVEL[1]|CHARGES[20]				
+					
+STARTPACK:Human ~ Calimshan Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Chain Shirt	EQMOD:MWORKA				
+GEAR:Potion (Cure Light Wounds)					
+					
+STARTPACK:Planetouched (Air Genasi) ~ Calimshan Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Air Genasi)
+GEAR:Scimitar	EQMOD:MWORKW				
+					
+STARTPACK:Planetouched (Air Genasi) ~ Calimshan Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Air Genasi)
+GEAR:Falchion	EQMOD:MWORKW				
+					
+STARTPACK:Planetouched (Air Genasi) ~ Calimshan Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Air Genasi)
+GEAR:Wand	EQMOD:SPL_CHRG|SPELLNAME[Magic Missile]|SPELLLEVEL[1]|CASTERLEVEL[1]|CHARGES[20]				
+					
+STARTPACK:Planetouched (Fire Genasi) ~ Calimshan Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Fire Genasi)
+GEAR:Scimitar	EQMOD:MWORKW				
+					
+STARTPACK:Planetouched (Fire Genasi) ~ Calimshan Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Fire Genasi)
+GEAR:Falchion	EQMOD:MWORKW				
+					
+STARTPACK:Planetouched (Fire Genasi) ~ Calimshan Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Fire Genasi)
+GEAR:Wand	EQMOD:SPL_CHRG|SPELLNAME[Magic Missile]|SPELLLEVEL[1]|CASTERLEVEL[1]|CHARGES[20]				
+					
+					
+					
+					
+REGION:Channath Vale					
+STARTPACK:Halfling ~ Channath Vale Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Halfling
+GEAR:Studded Leather	EQMOD:MWORKA				
+GEAR:Poison (Black Adder Venom)	QTY:1				
+					
+STARTPACK:Halfling ~ Channath Vale Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Halfling
+GEAR:Sling	EQMOD:MWORKW				
+GEAR:Bullets (Sling/10)	EQMOD:ALC_SILVER_WEAP				
+					
+					
+					
+REGION:Chessenta					
+STARTPACK:Human ~ Chessenta Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Sword (Short)	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Chessenta Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Longspear	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Chessenta Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Scroll (Blur)					
+GEAR:Scroll (Levitate)					
+					
+STARTPACK:Half-Orc ~ Chessenta Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Sword (Bastard)	EQMOD:MWORKW				
+					
+STARTPACK:Half-Orc ~ Chessenta Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Falchion	EQMOD:MWORKW				
+					
+STARTPACK:Half-Orc ~ Chessenta Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Breastplate	EQMOD:MWORKA				
+					
+STARTPACK:Orc ~ Chessenta Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Sword (Bastard)	EQMOD:MWORKW				
+					
+STARTPACK:Orc ~ Chessenta Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Falchion	EQMOD:MWORKW				
+					
+STARTPACK:Orc ~ Chessenta Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Breastplate	EQMOD:MWORKA				
+					
+STARTPACK:Planetouched (Aasimar) ~ Chessenta Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Aasimar)
+GEAR:Sword (Short)	EQMOD:MWORKW				
+					
+STARTPACK:Planetouched (Aasimar) ~ Chessenta Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Aasimar)
+GEAR:Shortspear	EQMOD:MWORKW				
+					
+STARTPACK:Planetouched (Aasimar) ~ Chessenta Region A3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Aasimar)
+GEAR:Longspear	EQMOD:MWORKW				
+					
+STARTPACK:Planetouched (Aasimar) ~ Chessenta Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Aasimar)
+GEAR:Breastplate	EQMOD:MWORKA				
+					
+STARTPACK:Planetouched (Water Genasi) ~ Chessenta Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Water Genasi)
+GEAR:Sword (Short)	EQMOD:MWORKW				
+					
+STARTPACK:Planetouched (Water Genasi) ~ Chessenta Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Water Genasi)
+GEAR:Shortspear	EQMOD:MWORKW				
+					
+STARTPACK:Planetouched (Water Genasi) ~ Chessenta Region A3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Water Genasi)
+GEAR:Longspear	EQMOD:MWORKW				
+					
+STARTPACK:Planetouched (Water Genasi) ~ Chessenta Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Water Genasi)
+GEAR:Breastplate	EQMOD:MWORKA				
+					
+					
+					
+REGION:Chondalwood					
+STARTPACK:Elf ~ Chondalwood Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Hide	EQMOD:MWORKA				
+GEAR:Elixir of Sneaking					
+					
+STARTPACK:Elf ~ Chondalwood Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Shortspear	EQMOD:MWORKW				
+					
+STARTPACK:Halfling ~ Chondalwood Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Halfling
+GEAR:Shortbow	EQMOD:MWORKW				
+					
+STARTPACK:Halfling ~ Chondalwood Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Halfling
+GEAR:Longbow	EQMOD:MWORKW				
+					
+STARTPACK:Halfling ~ Chondalwood Region A3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Halfling
+GEAR:Shortspear	EQMOD:MWORKW				
+					
+STARTPACK:Halfling ~ Chondalwood Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Halfling
+GEAR:Poison (Blue Whinnis)	QTY:1				
+					
+					
+					
+REGION:Chult					
+STARTPACK:Human ~ Chult Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Kukri	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Chult Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Shortspear	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Chult Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Poison (Large Scorpion Venon)	QTY:2				
+					
+STARTPACK:Dwarf ~ Chult Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Handaxe	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Chult Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Shortspear	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Chult Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Poison (Black Adder Venom)	QTY:3				
+					
+					
+					
+REGION:Cormanthor Drow					
+STARTPACK:Elf ~ Cormanthor Drow Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Rapier	EQMOD:MWORKW				
+					
+STARTPACK:Elf ~ Cormanthor Drow Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Crossbow (Light)	EQMOD:MWORKW				
+					
+STARTPACK:Elf ~ Cormanthor Drow Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Crossbow (Hand)					
+GEAR:Poison (Drow Poison)					
+					
+					
+					
+REGION:Cormyr					
+STARTPACK:Human ~ Cormyr Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Longsword	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Cormyr Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Mace (Heavy)	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Cormyr Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Banded Mail	EQMOD:MWORKW				
+					
+					
+					
+REGION:Dalelands					
+STARTPACK:Human ~ Dalelands Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Longbow (Composite)	EQMOD:BOWSTR|2				
+					
+STARTPACK:Human ~ Dalelands Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Longbow	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Dalelands Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Spear	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Dalelands Region B3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Quarterstaff	EQMOD:MWORKW				
+					
+STARTPACK:Half-Elf ~ Dalelands Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Elf
+GEAR:Longbow	EQMOD:MWORKW				
+					
+STARTPACK:Half-Elf ~ Dalelands Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Elf
+GEAR:Longspear	EQMOD:MWORKW				
+					
+STARTPACK:Half-Elf ~ Dalelands Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Elf
+GEAR:Longbow (Composite)	EQMOD:BOWSTR|2				
+					
+					
+					
+REGION:Damara					
+STARTPACK:Human ~ Damara Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Sword (Bastard)	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Damara Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Battleaxe	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Damara Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Scroll (Cure Moderate Wounds/Divine)					
+					
+					
+					
+REGION:Dambrath					
+STARTPACK:Human ~ Dambrath Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Crossbow (Light)	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Dambrath Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Rapier	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Dambrath Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Poison (Drow Poison)	QTY:3				
+					
+STARTPACK:Half-Elf ~ Dambrath Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Elf
+GEAR:Chain Shirt	EQMOD:MWORKA				
+GEAR:Poison (Drow Poison)					
+					
+STARTPACK:Half-Elf ~ Dambrath Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Elf
+GEAR:Chain (Spiked)	EQMOD:MWORKW				
+					
+STARTPACK:Half-Elf ~ Dambrath Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Elf
+GEAR:Scourge	EQMOD:MWORKW				
+					
+					
+REGION:Dragon Coast					
+STARTPACK:Human ~ Dragon Coast Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Rapier	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Dragon Coast Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Crossbow (Light)	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Dragon Coast Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Potion (Blur)					
+					
+STARTPACK:Human ~ Dragon Coast Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Potion (Levitate)					
+					
+STARTPACK:Half-Elf ~ Dragon Coast Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Elf
+GEAR:Trident	EQMOD:MWORKW				
+					
+STARTPACK:Half-Elf ~ Dragon Coast Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Elf
+GEAR:Shortspear	EQMOD:MWORKW				
+					
+STARTPACK:Half-Elf ~ Dragon Coast Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Elf
+GEAR:Gem (Pearl (Freshwater/Irregular))	QTY:5	EQMOD:GEM|EVAL(50)			
+					
+					
+					
+REGION:Earthfast Mountains					
+STARTPACK:Bugbear ~ Earthfast Mountains Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Bugbear
+GEAR:Studded Leather	EQMOD:MWORKA				
+GEAR:Poison (Greenblood Oil)	QTY:2				
+					
+STARTPACK:Bugbear ~ Earthfast Mountains Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Bugbear
+GEAR:Sword (Short)	EQMOD:MWORKW				
+					
+STARTPACK:Bugbear ~ Earthfast Mountains Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Bugbear
+GEAR:Shortspear	EQMOD:MWORKW				
+					
+STARTPACK:Bugbear ~ Earthfast Mountains Region B3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Bugbear
+GEAR:Longspear	EQMOD:MWORKW				
+					
+STARTPACK:Goblin ~ Earthfast Mountains Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Goblin
+GEAR:Studded Leather	EQMOD:MWORKA				
+GEAR:Poison (Greenblood Oil)	QTY:2				
+					
+STARTPACK:Goblin ~ Earthfast Mountains Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Goblin
+GEAR:Sword (Short)	EQMOD:MWORKW				
+					
+STARTPACK:Goblin ~ Earthfast Mountains Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Goblin
+GEAR:Shortspear	EQMOD:MWORKW				
+					
+STARTPACK:Goblin ~ Earthfast Mountains Region B3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Goblin
+GEAR:Longspear	EQMOD:MWORKW				
+					
+STARTPACK:Hobgoblin ~ Earthfast Mountains Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Hobgoblin
+GEAR:Studded Leather	EQMOD:MWORKA				
+GEAR:Poison (Greenblood Oil)	QTY:2				
+					
+STARTPACK:Hobgoblin ~ Earthfast Mountains Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Hobgoblin
+GEAR:Sword (Short)	EQMOD:MWORKW				
+					
+STARTPACK:Hobgoblin ~ Earthfast Mountains Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Hobgoblin
+GEAR:Shortspear	EQMOD:MWORKW				
+					
+STARTPACK:Hobgoblin ~ Earthfast Mountains Region B3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Hobgoblin
+GEAR:Longspear	EQMOD:MWORKW				
+					
+					
+					
+REGION:Elven Court					
+STARTPACK:Elf ~ Elven Court Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Chain Shirt	EQMOD:MWORKA				
+					
+STARTPACK:Elf ~ Elven Court Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Scroll (Barkskin)					
+GEAR:Scroll (Tree Shape)					
+					
+					
+					
+REGION:Evereska					
+STARTPACK:Elf ~ Evereska Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Chainmail	EQMOD:MWORKA				
+GEAR:Arrows (20)	EQMOD:MWORKW				
+					
+STARTPACK:Elf ~ Evereska Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Wand	EQMOD:SPL_CHRG|SPELLNAME[Color Spray]|SPELLLEVEL[1]|CASTERLEVEL[1]|CHARGES[20]				
+					
+					
+					
+REGION:Evermeet					
+STARTPACK:Elf ~ Evermeet Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Scroll (Knock)					
+GEAR:Scroll (Invisibility)					
+					
+STARTPACK:Elf ~ Evermeet Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Longsword	EQMOD:MWORKW				
+					
+STARTPACK:Elf ~ Evermeet Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Longbow	EQMOD:MWORKW				
+					
+					
+					
+REGION:Forest of Lethyr					
+STARTPACK:Elf ~ Forest of Lethyr Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Studded Leather	EQMOD:MWORKA				
+GEAR:Potion (Cure Light Wounds)	QTY:3				
+					
+STARTPACK:Elf ~ Forest of Lethyr Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Hide	EQMOD:MWORKA				
+GEAR:Scroll (Heat Metal)					
+					
+					
+					
+REGION:Galena Mountains					
+STARTPACK:Dwarf ~ Galena Mountains Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Pick (Heavy)	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Galena Mountains Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Urgrosh (Dwarven)	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Galena Mountains Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Chainmail	EQMOD:MWORKA				
+					
+					
+					
+REGION:Golden Water					
+STARTPACK:Human ~ Golden Water Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Scimitar	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Golden Water Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Kukri	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Golden Water Region A3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Falchion	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Golden Water Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Wand	EQMOD:SPL_CHRG|SPELLNAME[Cure Light Wounds]|SPELLLEVEL[1]|CASTERLEVEL[1]|CHARGES[20]				
+					
+					
+					
+REGION:Great Dale					
+STARTPACK:Human ~ Great Dale Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Longbow	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Great Dale Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Shortbow	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Great Dale Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Healer's Kit					
+GEAR:Antitoxin (Vial)	QTY:2				
+GEAR:Arrows (20)					
+					
+STARTPACK:Gnome ~ Great Dale Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Gnome
+GEAR:Mace (Light)	EQMOD:MWORKW				
+					
+STARTPACK:Gnome ~ Great Dale Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Gnome
+GEAR:Shortspear	EQMOD:MWORKW				
+					
+STARTPACK:Gnome ~ Great Dale Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Gnome
+GEAR:Wand	EQMOD:SPL_CHRG|SPELLNAME[Cure Light Wounds]|SPELLLEVEL[1]|CASTERLEVEL[1]|CHARGES[20]				
+					
+					
+					
+REGION:Great Glacier					
+STARTPACK:Human ~ Great Glacier Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Spear	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Great Glacier Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Javelin	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Great Glacier Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Hide	EQMOD:MWORKW				
+GEAR:Potion (Cure Moderate Wounds)					
+					
+STARTPACK:Dwarf ~ Great Glacier Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Pick (Light)	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Great Glacier Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Shortspear	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Great Glacier Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Dog (Riding)					
+GEAR:Hide	EQMOD:MWORKA				
+BONUS:FOLLOWERS|Mount|1					
+					
+					
+					
+REGION:Great Rift					
+STARTPACK:Dwarf ~ Great Rift Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Scroll (Bull's Strength/Arcane)					
+GEAR:Thunderstone	QTY:5				
+					
+STARTPACK:Dwarf ~ Great Rift Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Mace (Heavy)	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Great Rift Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Waraxe (Dwarven)	EQMOD:MWORKW				
+					
+					
+					
+REGION:Halruaa					
+STARTPACK:Human ~ Halruaa Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Scroll (Web)					
+GEAR:Scroll	EQMOD:SCROLL_ARCANE.SCROLL_MINOR.A_1USEMI|1	QTY:6			
+					
+STARTPACK:Human ~ Halruaa Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Wand	EQMOD:SPL_CHRG|SPELLNAME[Sleep]|SPELLLEVEL[1]|CASTERLEVEL[1]|CHARGES[20]				
+					
+					
+					
+REGION:High Forest					
+STARTPACK:Elf ~ High Forest Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Longsword	EQMOD:MWORKW				
+					
+STARTPACK:Elf ~ High Forest Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Longbow	EQMOD:MWORKW				
+					
+STARTPACK:Elf ~ High Forest Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Longbow (Composite)	EQMOD:BOWSTR|2				
+					
+					
+					
+REGION:Hordelands					
+STARTPACK:Human ~ Hordelands Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Shortbow (Composite +0)	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Hordelands Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Horse (Light)					
+GEAR:Bit and Bridle					
+GEAR:Saddle (Military)					
+GEAR:Barding (Studded Leather)					
+BONUS:FOLLOWERS|Mount|1					
+					
+STARTPACK:Half-Orc ~ Hordelands Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Shortspear	EQMOD:MWORKW				
+					
+STARTPACK:Half-Orc ~ Hordelands Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Longspear	EQMOD:MWORKW				
+					
+STARTPACK:Half-Orc ~ Hordelands Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Studded Leather	EQMOD:MWORKA				
+GEAR:Potion (Bull's Strength)					
+					
+STARTPACK:Orc ~ Hordelands Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Shortspear	EQMOD:MWORKW				
+					
+STARTPACK:Orc ~ Hordelands Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Longspear	EQMOD:MWORKW				
+					
+STARTPACK:Orc ~ Hordelands Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Studded Leather	EQMOD:MWORKA				
+GEAR:Potion (Bull's Strength)					
+					
+					
+					
+REGION:Impiltur					
+STARTPACK:Human ~ Impiltur Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Sword (Bastard)	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Impiltur Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Morningstar	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Impiltur Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Thieves' Tools	EQMOD:MWORKI				
+GEAR:Studded Leather	EQMOD:MWORKI				
+					
+					
+					
+REGION:Inner Sea					
+STARTPACK:Elf ~ Inner Sea Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Trident	EQMOD:MWORKW				
+					
+STARTPACK:Elf ~ Inner Sea Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Longspear	EQMOD:MWORKW				
+					
+STARTPACK:Elf ~ Inner Sea Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Longbow (Aquatic)					
+					
+					
+					
+REGION:Lake of Steam					
+STARTPACK:Human ~ Lake of Steam Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Scimitar	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Lake of Steam Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Falchion	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Lake of Steam Region A3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Glaive	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Lake of Steam Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Potion (Darkvision)					
+					
+STARTPACK:Human ~ Lake of Steam Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Potion (Invisibility)					
+					
+REGION:Lapaliiya					
+STARTPACK:Human ~ Lapaliiya Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Scimitar	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Lapaliiya Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Javelin	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Lapaliiya Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Studded Leather	EQMOD:MWORKA				
+GEAR:Potion (Invisibility)					
+					
+					
+					
+REGION:Lantan					
+STARTPACK:Human ~ Lantan Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Pistol					
+GEAR:Gunpowder (Horn)					
+GEAR:Bullet (Firearm/10)					
+					
+STARTPACK:Human ~ Lantan Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Crossbow (Heavy)	EQMOD:MWORKW				
+					
+STARTPACK:Gnome ~ Lantan Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Gnome
+GEAR:Pistol					
+GEAR:Gunpowder (Horn)					
+GEAR:Bullet (Firearm/10)	EQMOD:MWORKW				
+					
+STARTPACK:Gnome ~ Lantan Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Gnome
+GEAR:Crossbow (Heavy)	EQMOD:MWORKW				
+					
+					
+					
+REGION:Luiren					
+STARTPACK:Halfling ~ Luiren Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Halfling
+GEAR:Sword (Short)	EQMOD:MWORKW				
+					
+STARTPACK:Halfling ~ Luiren Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Halfling
+GEAR:Longsword	EQMOD:MWORKW				
+					
+STARTPACK:Halfling ~ Luiren Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Halfling
+GEAR:Shield (Heavy/Wood)	EQMOD:DARKWOOD_SHLD				
+GEAR:Tanglefoot Bag	QTY:3				
+					
+					
+					
+					
+REGION:Menzoberranyr					
+STARTPACK:Elf ~ Menzoberranyr Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Crossbow (Hand)					
+GEAR:Bolts (Crossbow/10)	EQMOD:MWORKW	QTY:2			
+					
+STARTPACK:Elf ~ Menzoberranyr Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Scroll	EQMOD:SCROLL_DIVINE.SCROLL_MINOR.A_1USEMI|2	QTY:2			
+					
+STARTPACK:Elf ~ Menzoberranyr Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Scroll	EQMOD:SCROLL_ARCANE.SCROLL_MINOR.A_1USEMI|2	QTY:2			
+					
+					
+					
+					
+REGION:Moonsea					
+STARTPACK:Human ~ Moonsea Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Sword (Short)	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Moonsea Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Sword (Two-Bladed)	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Moonsea Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Crossbow (Hand)					
+GEAR:Poison (Greenblood Oil)					
+					
+STARTPACK:Half-Orc ~ Moonsea Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Greataxe	EQMOD:MWORKW				
+					
+STARTPACK:Half-Orc ~ Moonsea Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Axe (Double/Orc)	EQMOD:MWORKW				
+					
+STARTPACK:Half-Orc ~ Moonsea Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Chain Shirt					
+GEAR:Shield (Heavy/Steel)	EQMOD:MWORKA				
+					
+STARTPACK:Orc ~ Moonsea Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Greataxe	EQMOD:MWORKW				
+					
+STARTPACK:Orc ~ Moonsea Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Axe (Double/Orc)	EQMOD:MWORKW				
+					
+STARTPACK:Orc ~ Moonsea Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Chain Shirt					
+GEAR:Shield (Heavy/Steel)	EQMOD:MWORKA				
+					
+					
+					
+REGION:Moonshae Isles					
+STARTPACK:Human ~ Moonshae Isles Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Studded Leather	EQMOD:MWORKA				
+GEAR:Arrows (20)	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Moonshae Isles Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Handaxe	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Moonshae Isles Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Battleaxe	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Moonshae Isles Region B3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Greataxe	EQMOD:MWORKW				
+					
+					
+					
+REGION:Mulhorand					
+STARTPACK:Human ~ Mulhorand Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Sickle	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Mulhorand Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Falchion	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Mulhorand Region A3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Khopesh	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Mulhorand Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Scroll	EQMOD:SCROLL_DIVINE.SCROLL_MINOR.A_1USEMI|2	QTY:2			
+					
+STARTPACK:Planetouched (Aasimar) ~ Mulhorand Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Aasimar)
+GEAR:Falchion	EQMOD:MWORKW				
+					
+STARTPACK:Planetouched (Aasimar) ~ Mulhorand Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Aasimar)
+GEAR:Khopesh	EQMOD:MWORKW				
+					
+STARTPACK:Planetouched (Aasimar) ~ Mulhorand Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Aasimar)
+GEAR:Scroll (Restoration/Lesser)					
+GEAR:Scroll (Spiritual Weapon)					
+					
+STARTPACK:Planetouched (Earth Genasi) ~ Mulhorand Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Earth Genasi)
+GEAR:Falchion	EQMOD:MWORKW				
+					
+STARTPACK:Planetouched (Earth Genasi) ~ Mulhorand Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Earth Genasi)
+GEAR:Khopesh	EQMOD:MWORKW				
+					
+STARTPACK:Planetouched (Earth Genasi) ~ Mulhorand Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Earth Genasi)
+GEAR:Scroll (Restoration/Lesser)					
+GEAR:Scroll (Spiritual Weapon)					
+					
+STARTPACK:Planetouched (Tiefling) ~ Mulhorand Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Tiefling)
+GEAR:Falchion	EQMOD:MWORKW				
+					
+STARTPACK:Planetouched (Tiefling) ~ Mulhorand Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Tiefling)
+GEAR:Khopesh	EQMOD:MWORKW				
+					
+STARTPACK:Planetouched (Tiefling) ~ Mulhorand Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Tiefling)
+GEAR:Scroll (Restoration/Lesser)					
+GEAR:Scroll (Spiritual Weapon)					
+					
+					
+					
+					
+REGION:Narfell					
+STARTPACK:Human ~ Narfell Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Horse (Light)					
+GEAR:Bit and Bridle					
+GEAR:Saddle (Military)					
+GEAR:Barding (Studded Leather)					
+BONUS:FOLLOWERS|Mount|1					
+					
+STARTPACK:Human ~ Narfell Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Lance (Light)	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Narfell Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Longspear	EQMOD:MWORKW				
+					
+					
+					
+REGION:Nelanther Isles					
+STARTPACK:Human ~ Nelanther Isles Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Scimitar	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Nelanther Isles Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Dagger	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Nelanther Isles Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Pistol					
+GEAR:Gunpowder (Horn)					
+GEAR:Bullet (Firearm/10)					
+					
+					
+					
+REGION:North					
+STARTPACK:Human ~ North Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Battleaxe	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ North Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Mace (Heavy)	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ North Region A3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Longsword	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ North Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Studded Leather	EQMOD:MWORKA				
+GEAR:Arrows (20)	EQMOD:MWORKW				
+					
+STARTPACK:Half-Orc ~ North Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Banded Mail	EQMOD:MWORKA.SPIKE_A				
+					
+STARTPACK:Half-Orc ~ North Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Flail (Dire)	EQMOD:MWORKW				
+					
+STARTPACK:Half-Orc ~ North Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Greataxe	EQMOD:MWORKW				
+					
+STARTPACK:Half-Orc ~ North Region B3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Axe (Double/Orc)	EQMOD:MWORKW				
+					
+STARTPACK:Orc ~ North Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Banded Mail	EQMOD:MWORKA.SPIKE_A				
+					
+STARTPACK:Orc ~ North Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Flail (Dire)	EQMOD:MWORKW				
+					
+STARTPACK:Orc ~ North Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Greataxe	EQMOD:MWORKW				
+					
+STARTPACK:Orc ~ North Region B3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Axe (Double/Orc)	EQMOD:MWORKW				
+					
+					
+					
+					
+REGION:Oldonnar					
+STARTPACK:Dwarf ~ Oldonnar Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Pick (Heavy)	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Oldonnar Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Mace (Heavy)	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Oldonnar Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Chainmail	EQMOD:MWORKA				
+					
+					
+					
+REGION:Rashemen					
+STARTPACK:Human ~ Rashemen Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Greataxe	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Rashemen Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Greatsword	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Rashemen Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Wand	EQMOD:SPL_CHRG|SPELLNAME[Detect Magic]|SPELLLEVEL[1]|CASTERLEVEL[1]|CHARGES[20]				
+					
+STARTPACK:Human ~ Rashemen Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Wand	EQMOD:SPL_CHRG|SPELLNAME[Light]|SPELLLEVEL[1]|CASTERLEVEL[1]|CHARGES[20]				
+					
+					
+					
+REGION:Ride					
+STARTPACK:Human ~ Ride Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Horse (Light)					
+GEAR:Bit and Bridle					
+GEAR:Saddle (Military)					
+GEAR:Barding (Studded Leather)					
+BONUS:FOLLOWERS|Mount|1					
+					
+STARTPACK:Human ~ Ride Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Battleaxe	EQMOD:MWORKW				
+					
+					
+					
+REGION:Sembia					
+STARTPACK:Human ~ Sembia Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+FUNDS:gp	QTY:300				
+					
+STARTPACK:Human ~ Sembia Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Rapier	EQMOD:MWORKW					
+					
+STARTPACK:Human ~ Sembia Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Dagger	EQMOD:MWORKW				
+					
+					
+					
+REGION:Shaar					
+STARTPACK:Human ~ Shaar Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Studded Leather	EQMOD:MWORKA				
+GEAR:Javelin	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Shaar Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Horse (Light)					
+GEAR:Bit and Bridle					
+GEAR:Saddle (Military)					
+GEAR:Barding (Studded Leather)					
+BONUS:FOLLOWERS|Mount|1					
+					
+					
+					
+REGION:Shadovar					
+STARTPACK:Human ~ Shadovar Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Ranseur	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Shadovar Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Sword (Short)	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Shadovar Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Wand	EQMOD:SPL_CHRG|SPELLNAME[Sleep]|SPELLLEVEL[1]|CASTERLEVEL[1]|CHARGES[20]				
+					
+					
+					
+REGION:Shou Expatriate					
+STARTPACK:Human ~ Shou Expatriate Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Katana					
+					
+STARTPACK:Human ~ Shou Expatriate Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Nunchaku	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Shou Expatriate Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Kukri	EQMOD:MWORKW				
+					
+					
+					
+REGION:Sildeyuir					
+STARTPACK:Elf ~ Sildeyuir Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Longsword	EQMOD:MWORKW				
+					
+STARTPACK:Elf ~ Sildeyuir Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Rapier	EQMOD:MWORKW				
+					
+STARTPACK:Elf ~ Sildeyuir Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Chain Shirt	EQMOD:MWORKA				
+GEAR:Musical Instrument (Lute)	EQMOD:MWORKI				
+					
+					
+REGION:Silverymoon					
+STARTPACK:Human ~ Silverymoon Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Longsword	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Silverymoon Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Rapier	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Silverymoon Region A3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Longbow	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Silverymoon Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Studded Leather	EQMOD:MWORKA				
+GEAR:Scroll	EQMOD:SCROLL_ARCANE.SCROLL_MINOR.A_1USEMI|2	QTY:2			
+					
+STARTPACK:Human ~ Silverymoon Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Studded Leather	EQMOD:MWORKA				
+GEAR:Scroll	EQMOD:SCROLL_DIVINE.SCROLL_MINOR.A_1USEMI|2	QTY:2			
+					
+STARTPACK:Elf ~ Silverymoon Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Longsword	EQMOD:MWORKW				
+					
+STARTPACK:Elf ~ Silverymoon Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Rapier	EQMOD:MWORKW				
+					
+STARTPACK:Elf ~ Silverymoon Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Breastplate					
+GEAR:Arrows (20)	EQMOD:MWORKW				
+					
+STARTPACK:Half-Elf ~ Silverymoon Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Elf
+GEAR:Longsword	EQMOD:MWORKW				
+					
+STARTPACK:Half-Elf ~ Silverymoon Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Elf
+GEAR:Rapier	EQMOD:MWORKW				
+					
+STARTPACK:Half-Elf ~ Silverymoon Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Elf
+GEAR:Breastplate					
+GEAR:Arrows (20)	EQMOD:MWORKW				
+					
+					
+					
+REGION:Smoking Mountains					
+STARTPACK:Dwarf ~ Smoking Mountains Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Chain Shirt	EQMOD:MWORKA				
+					
+STARTPACK:Dwarf ~ Smoking Mountains Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Wand	EQMOD:SPL_CHRG|SPELLNAME[Cure Light Wounds]|SPELLLEVEL[1]|CASTERLEVEL[1]|CHARGES[20]				
+					
+					
+					
+REGION:Snow Eagle Aerie					
+STARTPACK:Elf ~ Snow Eagle Aerie Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Rapier	EQMOD:MWORKW				
+					
+STARTPACK:Elf ~ Snow Eagle Aerie Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Longsword	EQMOD:MWORKW				
+					
+STARTPACK:Elf ~ Snow Eagle Aerie Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Wand	EQMOD:SPL_CHRG|SPELLNAME[Cure Light Wounds]|SPELLLEVEL[1]|CASTERLEVEL[1]|CHARGES[20]				
+					
+					
+					
+REGION:Spine of the World					
+STARTPACK:Dwarf ~ Spine of the World Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Warhammer	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Spine of the World Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Waraxe (Dwarven)	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Spine of the World Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Breastplate	EQMOD:MWORKA				
+GEAR:Potion (Cure Light Wounds)	QTY:2				
+					
+					
+					
+REGION:Sword Coast					
+STARTPACK:Human ~ Sword Coast Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Longsword	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Sword Coast Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Dagger	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Sword Coast Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Pistol					
+GEAR:Gunpowder (Horn)					
+GEAR:Bullet (Firearm/10)	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Sword Coast Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Handaxe	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Sword Coast Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Greataxe	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Sword Coast Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Trade Bar (Gold)	QTY:5				
+					
+					
+					
+REGION:Tashalar					
+STARTPACK:Human ~ Tashalar Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Crossbow (Light)	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Tashalar Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Hide	EQMOD:MWORKA				
+					
+STARTPACK:Human ~ Tashalar Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Shield (Heavy/Wood)	EQMOD:DARKWOOD_SHLD				
+					
+					
+					
+REGION:Tethyr					
+STARTPACK:Human ~ Tethyr Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Potion (Cure Moderate Wounds)					
+					
+STARTPACK:Human ~ Tethyr Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Chainmail	EQMOD:MWORKA				
+					
+					
+					
+REGION:Thay					
+STARTPACK:Human ~ Thay Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Scroll	EQMOD:SCROLL_ARCANE.SCROLL_MINOR.A_1USEMI|2	QTY:2			
+					
+STARTPACK:Human ~ Thay Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Scroll	EQMOD:SCROLL_ARCANE.SCROLL_MINOR.A_1USEMI|2				
+GEAR:Scroll	EQMOD:SCROLL_ARCANE.SCROLL_MINOR.A_1USEMI|1	QTY:6			
+					
+STARTPACK:Planetouched (Air Genasi) ~ Thay Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Air Genasi)
+GEAR:Scroll (Invisibility)					
+GEAR:Scroll (Scorching Ray)					
+					
+STARTPACK:Planetouched (Air Genasi) ~ Thay Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Air Genasi)
+GEAR:Breastplate	EQMOD:MWORKA				
+					
+STARTPACK:Planetouched (Earth Genasi) ~ Thay Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Earth Genasi)
+GEAR:Scroll (Invisibility)					
+GEAR:Scroll (Scorching Ray)					
+					
+STARTPACK:Planetouched (Earth Genasi) ~ Thay Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Earth Genasi)
+GEAR:Breastplate	EQMOD:MWORKA				
+					
+STARTPACK:Planetouched (Fire Genasi) ~ Thay Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Fire Genasi)
+GEAR:Scroll (Invisibility)					
+GEAR:Scroll (Scorching Ray)					
+					
+STARTPACK:Planetouched (Fire Genasi) ~ Thay Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Fire Genasi)
+GEAR:Breastplate	EQMOD:MWORKA				
+					
+STARTPACK:Planetouched (Water Genasi) ~ Thay Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Water Genasi)
+GEAR:Scroll (Invisibility)					
+GEAR:Scroll (Scorching Ray)					
+					
+STARTPACK:Planetouched (Water Genasi) ~ Thay Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Water Genasi)
+GEAR:Breastplate	EQMOD:MWORKA				
+					
+STARTPACK:Planetouched (Tiefling) ~ Thay Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Tiefling)
+GEAR:Scroll (Invisibility)					
+GEAR:Scroll (Scorching Ray)					
+					
+STARTPACK:Planetouched (Tiefling) ~ Thay Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Tiefling)
+GEAR:Breastplate	EQMOD:MWORKA				
+					
+					
+					
+REGION:Thesk					
+STARTPACK:Human ~ Thesk Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Studded Leather	EQMOD:MWORKA				
+GEAR:Thieves' Tools	EQMOD:MWORKI				
+					
+STARTPACK:Human ~ Thesk Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Scale Mail	EQMOD:MWORKA				
+GEAR:Healer's Kit					
+					
+STARTPACK:Gnome ~ Thesk Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Gnome
+GEAR:Mace (Light)	EQMOD:MWORKW				
+					
+STARTPACK:Gnome ~ Thesk Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Gnome
+GEAR:Longsword	EQMOD:MWORKW				
+					
+STARTPACK:Gnome ~ Thesk Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Gnome
+GEAR:Studded Leather	EQMOD:MWORKA				
+GEAR:Thunderstone	QTY:5				
+GEAR:Potion (Cure Light Wounds)	QTY:2				
+					
+STARTPACK:Half-Orc ~ Thesk Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Shortspear	EQMOD:MWORKW				
+					
+STARTPACK:Half-Orc ~ Thesk Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Longspear	EQMOD:MWORKW				
+					
+STARTPACK:Half-Orc ~ Thesk Region A3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Greataxe	EQMOD:MWORKW				
+					
+STARTPACK:Half-Orc ~ Thesk Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Chainmail	EQMOD:MWORKA.SPIKE_A				
+					
+STARTPACK:Orc ~ Thesk Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Shortspear	EQMOD:MWORKW				
+					
+STARTPACK:Orc ~ Thesk Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Longspear	EQMOD:MWORKW				
+					
+STARTPACK:Orc ~ Thesk Region A3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Greataxe	EQMOD:MWORKW				
+					
+STARTPACK:Orc ~ Thesk Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Chainmail	EQMOD:MWORKA.SPIKE_A				
+					
+					
+					
+REGION:Turmish					
+STARTPACK:Human ~ Turmish Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Splint Mail					
+GEAR:Shield (Heavy/Steel)	EQMOD:MWORKA				
+					
+STARTPACK:Human ~ Turmish Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+KIT:Gems 50GP					
+KIT:Gems 50GP					
+KIT:Gems 50GP					
+KIT:Gems 50GP					
+KIT:Gems 50GP					
+					
+STARTPACK:Dwarf ~ Turmish Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Splint Mail					
+GEAR:Shield (Heavy/Steel)	EQMOD:MWORKA				
+					
+					
+					
+REGION:Underdark (Darklands)					
+STARTPACK:Dwarf ~ Underdark (Darklands) Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Warhammer	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Underdark (Darklands) Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Sword (Short)	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Underdark (Darklands) Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Splint Mail	EQMOD:MWORKA				
+					
+					
+					
+REGION:Underdark (Northdark)					
+STARTPACK:Dwarf ~ Underdark (Northdark) Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Chain Shirt	EQMOD:MWORKA				
+GEAR:Bolts (Crossbow/10)	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Underdark (Northdark) Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Handaxe	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Underdark (Northdark) Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Battleaxe	EQMOD:MWORKW				
+					
+STARTPACK:Gnome ~ Underdark (Northdark) Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Gnome
+GEAR:Dagger	EQMOD:MWORKW				
+					
+STARTPACK:Gnome ~ Underdark (Northdark) Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Gnome
+GEAR:Pick (Light)	EQMOD:MWORKW				
+					
+STARTPACK:Gnome ~ Underdark (Northdark) Region A3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Gnome
+GEAR:Pick (Heavy)	EQMOD:MWORKW				
+					
+STARTPACK:Gnome ~ Underdark (Northdark) Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Gnome
+GEAR:Chain Shirt	EQMOD:MWORKA				
+GEAR:Bolts (Crossbow/10)	EQMOD:MWORKW				
+					
+STARTPACK:Orc ~ Underdark (Northdark) Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Greataxe	EQMOD:MWORKW				
+					
+STARTPACK:Orc ~ Underdark (Northdark) Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Shortspear	EQMOD:MWORKW				
+					
+STARTPACK:Orc ~ Underdark (Northdark) Region A3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Longspear	EQMOD:MWORKW				
+					
+STARTPACK:Orc ~ Underdark (Northdark) Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Banded Mail	EQMOD:MWORKA.SPIKE_A				
+					
+					
+					
+REGION:Underdark (Old Shanatar)					
+STARTPACK:Dwarf ~ Underdark (Old Shanatar) Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Mace (Heavy)	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Underdark (Old Shanatar) Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Urgrosh (Dwarven)	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Underdark (Old Shanatar) Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Chainmail	EQMOD:MWORKA				
+					
+					
+					
+REGION:Unther					
+STARTPACK:Human ~ Unther Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Breastplate	EQMOD:MWORKA				
+					
+STARTPACK:Human ~ Unther Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Scroll (Detect Thoughts)					
+GEAR:Scroll (Scorching Ray)					
+					
+STARTPACK:Planetouched (Aasimar) ~ Unther Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Aasimar)
+GEAR:Scale Mail	EQMOD:MWORKA				
+GEAR:Arrows (20)	EQMOD:COLDIRON_AMMO				
+					
+STARTPACK:Planetouched (Aasimar) ~ Unther Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Aasimar)
+GEAR:Poison (Black Adder Venom)	QTY:3				
+					
+STARTPACK:Planetouched (Fire Genasi) ~ Unther Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Fire Genasi)
+GEAR:Scale Mail	EQMOD:MWORKA				
+GEAR:Arrows (20)	EQMOD:COLDIRON_AMMO				
+					
+STARTPACK:Planetouched (Fire Genasi) ~ Unther Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Fire Genasi)
+GEAR:Poison (Black Adder Venom)	QTY:3				
+					
+STARTPACK:Planetouched (Tiefling) ~ Unther Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Tiefling)
+GEAR:Scale Mail	EQMOD:MWORKA				
+GEAR:Arrows (20)	EQMOD:COLDIRON_AMMO				
+					
+STARTPACK:Planetouched (Tiefling) ~ Unther Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Planetouched (Tiefling)
+GEAR:Poison (Black Adder Venom)	QTY:3				
+					
+					
+					
+REGION:Uthgardt Tribesfolk					
+STARTPACK:Human ~ Uthgardt Tribesfolk Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Battleaxe	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Uthgardt Tribesfolk Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Greataxe	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Uthgardt Tribesfolk Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Studded Leather	EQMOD:MWORKA				
+GEAR:Arrows (20)					
+					
+					
+					
+REGION:Vaasa					
+STARTPACK:Human ~ Vaasa Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Splint Mail	EQMOD:MWORKA				
+					
+STARTPACK:Human ~ Vaasa Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Mace (Heavy)	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Vaasa Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Mace (Light)	EQMOD:MWORKW				
+					
+STARTPACK:Half-Orc ~ Vaasa Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Shortspear	EQMOD:MWORKW				
+					
+STARTPACK:Half-Orc ~ Vaasa Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Longspear	EQMOD:MWORKW				
+					
+STARTPACK:Half-Orc ~ Vaasa Region A3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Axe (Double/Orc)	EQMOD:MWORKW				
+					
+STARTPACK:Half-Orc ~ Vaasa Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
+GEAR:Chain Shirt					
+GEAR:Shield (Heavy/Steel)	EQMOD:MWORKA				
+					
+STARTPACK:Orc ~ Vaasa Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Shortspear	EQMOD:MWORKW				
+					
+STARTPACK:Orc ~ Vaasa Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Longspear	EQMOD:MWORKW				
+					
+STARTPACK:Orc ~ Vaasa Region A3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Axe (Double/Orc)	EQMOD:MWORKW				
+					
+STARTPACK:Orc ~ Vaasa Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Orc
+GEAR:Chain Shirt					
+GEAR:Shield (Heavy/Steel)	EQMOD:MWORKA				
+					
+					
+					
+REGION:Vast					
+STARTPACK:Human ~ Vast Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Potion (Cure Light Wounds)	QTY:3				
+GEAR:Arrows (20)	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Vast Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Banded Mail	EQMOD:SPIKE_A				
+					
+					
+					
+REGION:Vilhon Reach					
+STARTPACK:Human ~ Vilhon Reach Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Rapier	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Vilhon Reach Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Dagger	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Vilhon Reach Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Chain Shirt					
+GEAR:Bolts (Crossbow/10)	EQMOD:MWORKW	QTY:2			
+					
+					
+					
+REGION:Waterdeep					
+STARTPACK:Human ~ Waterdeep Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Longsword	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Waterdeep Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Rapier	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Waterdeep Region A3	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Sword (Short)	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Waterdeep Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Scroll	EQMOD:SCROLL_ARCANE.SCROLL_MINOR.A_1USEMI|2	QTY:2			
+					
+STARTPACK:Human ~ Waterdeep Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Scroll	EQMOD:SCROLL_DIVINE.SCROLL_MINOR.A_1USEMI|2	QTY:2			
+					
+STARTPACK:Dwarf ~ Waterdeep Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Chain Shirt	EQMOD:MWORKA				
+FUNDS:gp	QTY:50				
+					
+STARTPACK:Dwarf ~ Waterdeep Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Mace (Heavy)	EQMOD:MWORKW				
+					
+STARTPACK:Dwarf ~ Waterdeep Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
+GEAR:Battleaxe	EQMOD:MWORKW				
+					
+STARTPACK:Elf ~ Waterdeep Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Rapier	EQMOD:MWORKW				
+					
+STARTPACK:Elf ~ Waterdeep Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Dagger	EQMOD:MWORKW				
+					
+STARTPACK:Elf ~ Waterdeep Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Wand	EQMOD:SPL_CHRG|SPELLNAME[Magic Missile]|SPELLLEVEL[1]|CASTERLEVEL[1]|CHARGES[20]				
+					
+STARTPACK:Half-Elf ~ Waterdeep Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Elf
+GEAR:Rapier	EQMOD:MWORKW				
+					
+STARTPACK:Half-Elf ~ Waterdeep Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Elf
+GEAR:Dagger	EQMOD:MWORKW				
+					
+STARTPACK:Half-Elf ~ Waterdeep Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Elf
+GEAR:Chain Shirt	EQMOD:MWORKA				
+FUNDS:gp	QTY:50				
+					
+					
+					
+REGION:Wealdath					
+STARTPACK:Elf ~ Wealdath Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Longbow	EQMOD:MWORKW				
+					
+STARTPACK:Elf ~ Wealdath Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Chain Shirt	EQMOD:MWORKA				
+GEAR:Potion (Cure Light Wounds)					
+					
+					
+					
+REGION:Western Heartlands					
+STARTPACK:Human ~ Western Heartlands Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Sword (Bastard)	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Western Heartlands Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Greatsword	EQMOD:MWORKW				
+					
+STARTPACK:Human ~ Western Heartlands Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Potion (Lesser Restoration)					
+					
+STARTPACK:Gnome ~ Western Heartlands Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Gnome
+GEAR:Pistol					
+GEAR:Gunpowder (Horn)					
+GEAR:Bullet (Firearm/10)	EQMOD:MWORKW				
+					
+STARTPACK:Gnome ~ Western Heartlands Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Gnome
+GEAR:Scroll (Invisibility)					
+GEAR:Scroll (Mirror Image)					
+					
+STARTPACK:Halfling ~ Western Heartlands Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Halfling
+GEAR:Crossbow (Light)	EQMOD:MWORKW				
+					
+STARTPACK:Halfling ~ Western Heartlands Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Halfling
+GEAR:Shortbow	EQMOD:MWORKW				
+					
+STARTPACK:Halfling ~ Western Heartlands Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Halfling
+GEAR:Chain Shirt	EQMOD:MWORKA				
+					
+					
+					
+					
+					
+REGION:Wizards' Reach					
+STARTPACK:Human ~ Wizards' Reach Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Studded Leather	EQMOD:MWORKA				
+GEAR:Bolts (Crossbow/10)	EQMOD:MWORKW.PLUS1W				
+					
+STARTPACK:Human ~ Wizards' Reach Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Scroll	EQMOD:SCROLL_DIVINE.SCROLL_MINOR.A_1USEMI|2				
+GEAR:Thunderstone	QTY:3				
+					
+STARTPACK:Human ~ Wizards' Reach Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
+GEAR:Scroll	EQMOD:SCROLL_ARCANE.SCROLL_MINOR.A_1USEMI|2				
+GEAR:Thunderstone	QTY:3				
+					
+					
+					
+REGION:Yuirwood					
+STARTPACK:Elf ~ Yuirwood Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Studded Leather	EQMOD:MWORKA				
+GEAR:Arrows (20)	EQMOD:MWORKW				
+					
+STARTPACK:Elf ~ Yuirwood Region A2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Elf
+GEAR:Scroll (Barkskin)					
+GEAR:Scroll (Tree Shape)					

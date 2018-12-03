@@ -1,0 +1,25 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:03-2004												
+															
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE			
+# Class Name req	Requirements	FINE													
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS			
+# Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	SPELLLIST	spell level increases (BONUS:CASTERLEVEL)									
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)					
+CLASS:Cognition Thief	HD:4	TYPE:PC.Prestige	FACT:Abb|CoT	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:CognitionThiefLVL|0	BONUS:VAR|CognitionThiefLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1	
+CLASS:Cognition Thief	PRESKILL:2,Bluff=5,Disguise=5,Gather Information=5,Open Lock=5	PREABILITY:1,CATEGORY=FEAT,Inquisitor	PRETEXT:Able to manifest the psionic blast power.												
+CLASS:Cognition Thief	STARTSKILLPTS:4	CSKILL:Autohypnosis|Bluff|Concentration|TYPE=Craft|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Knowledge (Psionics)|Move Silently|Open Lock|TYPE.Profession|Psicraft|Sleight of Hand|Sense Motive|Stabilize Self													
+1				ABILITY:Cognition Thief Class Feature|AUTOMATIC|Cognition Thief ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.CognitionThiefProficiencies											
+1				ABILITY:Cognition Thief Class Feature|AUTOMATIC|Cognition Thief ~ Power Points per Day											
+#															
+1				ABILITY:Cognition Thief Class Feature|AUTOMATIC|Cognition Thief ~ Bonus Powers Known|!PREABILITY:1,CATEGORY=ACF,TYPE.CognitionThiefBonusPowersKnown											
+1				ABILITY:Cognition Thief Class Feature|AUTOMATIC|Cognition Thief ~ Read Thoughts|!PREABILITY:1,CATEGORY=ACF,TYPE.CognitionThiefReadThoughts											
+3				ABILITY:Cognition Thief Class Feature|AUTOMATIC|Cognition Thief ~ Confusion|!PREABILITY:1,CATEGORY=ACF,TYPE.CognitionThiefConfusion											
+7				ABILITY:Cognition Thief Class Feature|AUTOMATIC|Cognition Thief ~ Mind Probe|!PREABILITY:1,CATEGORY=ACF,TYPE.CognitionThiefMindProbe											
+10				ABILITY:Cognition Thief Class Feature|AUTOMATIC|Cognition Thief ~ Insanity|!PREABILITY:1,CATEGORY=ACF,TYPE.CognitionThiefInsanity											
+#															
+2	ADD:SPELLCASTER|Psionic														
+3	ADD:SPELLCASTER|Psionic														
+5	ADD:SPELLCASTER|Psionic														
+6	ADD:SPELLCASTER|Psionic														
+8	ADD:SPELLCASTER|Psionic														
+9	ADD:SPELLCASTER|Psionic														

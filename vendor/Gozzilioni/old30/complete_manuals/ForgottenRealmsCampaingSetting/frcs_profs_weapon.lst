@@ -12,10 +12,10 @@ SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:ht
 ###Martial			
 Cutlass	TYPE:Martial.Melee.Slashing.Piercing.MeleeSlashing.MeleePiercing.Light.Sword
 Saber	TYPE:Martial.Melee.Slashing.Piercing.MeleeSlashing.MeleePiercing.OneHanded.Sword
-Maul	TYPE:Martial.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Maul
+# Maul	TYPE:Martial.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Maul
 ###Exotic			
 Blade Boot	TYPE:Exotic.Melee.Piercing.MeleePiercing.Light.Dagger
 Bracer (Claw)	TYPE:Exotic.Melee.Piercing.MeleePiercing.Light.Claw
 Khopesh	TYPE:Exotic.Melee.Slashing.MeleeSlashing.OneHanded.Sword
-Scourge	TYPE:Exotic.Melee.Slashing.MeleeSlashing.OneHanded.Reach.Whip.Finesseable
+# Scourge	TYPE:Exotic.Melee.Slashing.MeleeSlashing.OneHanded.Reach.Whip.Finesseable
 Chakram		TYPE:Exotic.Ranged.Slashing.RangedSlashing.Light

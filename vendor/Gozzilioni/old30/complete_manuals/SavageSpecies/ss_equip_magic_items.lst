@@ -19,27 +19,27 @@ Staff of the Lich	KEY:Staff (Lich)	TYPE:Staff.Weapon.Melee.Simple.Bludgeoning.Tw
 Bag of Boulders		TYPE:Wondrous.Container	COST:1200	WT:0	SOURCEPAGE:SS30	CONTAINS:UNLIM|Rock=4																		
 ###TODO:Arms of the Naga HANDS:2
 Arms of the Naga		TYPE:Wondrous.Resizeable	COST:56000	WT:8	SOURCEPAGE:SS30
-Babbling Wheel		TYPE:Wondrous.MusicalInstrument	COST:20000	WT:10	SOURCEPAGE:SS30	SPROP:All sane creatures within 30 feet of the babbling wheel must succeed on a Will save (DC 11) or be affected as though by a hypnotism spell for 2d4 rounds.
+Babbling Wheel		TYPE:Wondrous.Instrument	COST:20000	WT:10	SOURCEPAGE:SS30	SPROP:All sane creatures within 30 feet of the babbling wheel must succeed on a Will save (DC 11) or be affected as though by a hypnotism spell for 2d4 rounds.
 Circlet of Rest		TYPE:Wondrous.Headgear	COST:12500	WT:0	SOURCEPAGE:SS30	SPROP:When worn, it provides a +10 resistance bonus against nightmare and dream casting (see Chapter 6) and also makes the wearer immune to dream.
 Cloak of Charms		TYPE:Wondrous.Cape	COST:54000	WT:1	SOURCEPAGE:SS30	SPELLS:Cloak of Charms|TIMES=1|CASTERLEVEL=15|Charm Animal|Charm Person|Command Plants	ABILITY:Special Ability|VIRTUAL|Wild Empathy	BONUS:VAR|WildEmpathyBonus|15|TYPE=Base	BONUS:VAR|WildEmpathyMagicalBeastBonus|-4
 Cloak of Quills		TYPE:Wondrous.Cape	COST:2500	WT:1	SOURCEPAGE:SS30
-Cloaker Flute		TYPE:Wondrous.MusicalInstrument	COST:27225	WT:3	SOURCEPAGE:SS30	
+Cloaker Flute		TYPE:Wondrous.Instrument	COST:27225	WT:3	SOURCEPAGE:SS30	
 Dragon Mask		TYPE:Wondrous.Headgear	COST:44000	WT:2	SOURCEPAGE:SS30	BONUS:VAR|HasSeeInvisibilityVision|1|TYPE=Base
 Fairy Gold		TYPE:Wondrous	COST:4950	WT:2	SOURCEPAGE:SS30
 Fingerbone Neckace		TYPE:Wondrous.Amulet	COST:7620	WT:0	SOURCEPAGE:SS30	BONUS:SKILL|Handle Animal,Ride|2|TYPE=Competence|PRERACE:1,Goblin	ABILITY:FEAT|VIRTUAL|Mounted Combat|PRERACE:1,Goblin
 Gazeblind Goggles		TYPE:Wondrous.Eyegear	COST:6000	WT:0	SOURCEPAGE:SS30	ABILITY:Special Ability|AUTOMATIC|Immunity To Gaze Attacks
 Geas Acorn		TYPE:Wondrous	COST:8400	WT:0	SOURCEPAGE:SS30				
 Gloves of Man		TYPE:Wondrous.Glove	COST:42000	WT:0		SOURCEPAGE:SS30	SLOTS:2			
-Grig Fiddle		TYPE:Wondrous.MusicalInstrument	COST:14400	WT:3	SOURCEPAGE:SS30	SIZE:D	SPROP:Otto's Irresistible Dance (Will DC 15).
+Grig Fiddle		TYPE:Wondrous.Instrument	COST:14400	WT:3	SOURCEPAGE:SS30	SIZE:D	SPROP:Otto's Irresistible Dance (Will DC 15).
 Hag Eye		TYPE:Wondrous.Ring.Amulet	COST:22500	WT:0	SOURCEPAGE:SS30				
 # Heartstone		TYPE:Wondrous.Amulet	COST:1800	WT:0	SOURCEPAGE:SS30	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=16|Etherealness|PRERACE:1,Night Hag	SPROP:cure any disease.	BONUS:SAVE|ALL|2|TYPE=Resistance
 Horseshoes of Flame		TYPE:Wondrous.Boot	COST:30240	WT:2	SOURCEPAGE:SS30	SPROP:3/day transform a horse into a nightmare for 7 hours.	SLOTS:4
 Liquid Vortex		TYPE:Wondrous.Flask.Consumable	COST:3300	WT:1	SOURCEPAGE:SS30				
 Mask of Fangs		TYPE:Wondrous.Eyegear	COST:30000	WT:2	SOURCEPAGE:SS30				
-Master Fiddle		TYPE:Wondrous.MusicalInstrument	COST:18000	WT:3	SIZE:T	SOURCEPAGE:SS30
+Master Fiddle		TYPE:Wondrous.Instrument	COST:18000	WT:3	SIZE:T	SOURCEPAGE:SS30
 Necklace of Natural Weapon		TYPE:Magic.Wondrous.Amulet.Weapon.Melee.Natural	COST:600	WT:0	SOURCEPAGE:SS30				
 Render Bait		TYPE:Wondrous.Amulet	COST:35640	WT:0	SOURCEPAGE:SS30	SPROP:This amulet causes a gray render within 50 feet to regard the wearer as a trusted friend and ally, as if its attitude were helpful, unless it succeeds on a Will save (DC 19).
-Satyr Pipes		TYPE:Wondrous.MusicalInstrument	COST:3000	WT:3	SOURCEPAGE:SS30	PRESKILL:1,Perform (Wind Instruments)=1	SPROP:When the pipes are played, all creatures within a 60-foot spread (except satyrs) must succeed on a Will save (DC 14) or be affected by charm person, sleep, or fear, as the spells cast by a 10th-level sorcerer (the satyr chooses the tune and its effect).|PRERACE:1,Satyr
+Satyr Pipes		TYPE:Wondrous.Instrument	COST:3000	WT:3	SOURCEPAGE:SS30	PRESKILL:1,Perform (Wind Instruments)=1	SPROP:When the pipes are played, all creatures within a 60-foot spread (except satyrs) must succeed on a Will save (DC 14) or be affected by charm person, sleep, or fear, as the spells cast by a 10th-level sorcerer (the satyr chooses the tune and its effect).|PRERACE:1,Satyr
 Scentblinder		TYPE:Wondrous.Amulet	COST:33000	WT:0	SOURCEPAGE:SS30	SPROP:While worn, a scentblinder masks the wearer's scent.
 
 #Block: Intelligent																								

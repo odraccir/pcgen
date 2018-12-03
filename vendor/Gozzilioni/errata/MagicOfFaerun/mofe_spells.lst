@@ -11,7 +11,7 @@ Crawling Darkness.MOD	TARGETAREA:.CLEAR	TARGETAREA:You
 Curse of Ill Fortune.MOD	DESC:.CLEAR	DESC:You place a temporary curse upon the target, giving her a -3 penalty on attack rolls, saving throws, ability checks, and skill checks.
 Dimensional Lock.MOD	CLASSES:.CLEARALL	CLASSES:Cleric=5|Sorcerer=5|Wizard=5
 Forceward.MOD	DESCRIPTOR:Force
-General of Undeath	DESCRIPTOR:Evil
+General of Undeath.MOD	DESCRIPTOR:Evil
 Ghorus Toth's Metal Melt.MOD	CASTTIME:.CLEAR	CASTTIME:1 standard action
 Haunting Tune.MOD	TARGETAREA:.CLEAR	TARGETAREA:1 creature/level
 Kiss of the Vampire.MOD	CASTTIME:.CLEAR	CASTTIME:1 standard action	DESCRIPTOR:Evil

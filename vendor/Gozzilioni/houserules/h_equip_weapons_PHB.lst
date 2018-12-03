@@ -1,0 +1,4 @@
+SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+#																										
+# Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property																		
+Arrows (10)				TYPE:Ammunition.Standard.Arrow	COST:1	WT:3							EQMOD:STEEL.WOOD	SOURCEPAGE:PHB								BASEQTY:10	MODS:YES		

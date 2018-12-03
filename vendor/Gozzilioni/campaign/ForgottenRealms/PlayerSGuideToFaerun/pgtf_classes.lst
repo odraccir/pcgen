@@ -1,0 +1,532 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:03-2004												
+															
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE			
+# Class Name req	Requirements	FINE													
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS			
+# Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	SPELLLIST	spell level increases (BONUS:CASTERLEVEL)									
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)					
+CLASS:Arcane Devotee	HD:4	TYPE:Prestige	FACT:Abb|Dev	MAXLEVEL:5	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ArcaneDevoteeLVL|0	BONUS:VAR|ArcaneDevoteeLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Arcane Devotee	PRETEXT:Ability to cast 4th-level arcane spells.	PRESKILL:2,Knowledge (Religion)=8,Spellcraft=8	PREABILITY:1,CATEGORY=FEAT,Enlarge Spell	PREDEITY:1,Y											
+CLASS:Arcane Devotee	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Script|TYPE.Knowledge|TYPE.Profession|Spellcraft													
+1				ABILITY:Arcane Devotee Class Feature|AUTOMATIC|Arcane Devotee ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ArcaneDevoteeProficiencies											
+1				ABILITY:Arcane Devotee Class Feature|AUTOMATIC|Arcane Devotee ~ Spells per Day											
+#															
+1				ABILITY:Arcane Devotee Class Feature|AUTOMATIC|Arcane Devotee ~ Reach of the Holy|!PREABILITY:1,CATEGORY=ACF,TYPE.ArcaneDevoteeEnlargeSpell											
+2				ABILITY:Arcane Devotee Class Feature|AUTOMATIC|Arcane Devotee ~ Sacred Defense|!PREABILITY:1,CATEGORY=ACF,TYPE.ArcaneDevoteeSacredDefense											
+3				ABILITY:Arcane Devotee Class Feature|AUTOMATIC|Arcane Devotee ~ Divine Sinergy|!PREABILITY:1,CATEGORY=ACF,TYPE.ArcaneDevoteeDivineSinergy											
+5				ABILITY:Arcane Devotee Class Feature|AUTOMATIC|Arcane Devotee ~ Divine Shroud|!PREABILITY:1,CATEGORY=ACF,TYPE.ArcaneDevoteeDivineShroud											
+#															
+1	ADD:SPELLCASTER|Arcane														
+2	ADD:SPELLCASTER|Arcane														
+3	ADD:SPELLCASTER|Arcane														
+4	ADD:SPELLCASTER|Arcane														
+5	ADD:SPELLCASTER|Arcane														
+															
+CLASS:Divine Champion	HD:10	TYPE:Prestige	FACT:Abb|Chm	MAXLEVEL:5	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DivineChampionLVL|0	BONUS:VAR|DivineChampionLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Divine Champion	PRETOTALAB:7	PRESKILL:1,Knowledge (Religion)=3	PREABILITY:1,CATEGORY=FEAT,Weapon Focus	PRETEXT:Weapon focus in the deity's favored weapon.	PREDEITY:1,Y										
+CLASS:Divine Champion	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Handle Animal|Intimidate|Jump|Knowledge (Religion)|Ride|Swim													
+1				ABILITY:Divine Champion Class Feature|AUTOMATIC|Divine Champion ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineChampionProficiencies											
+#															
+1				ABILITY:Divine Champion Class Feature|AUTOMATIC|Divine Champion ~ Lay on Hands|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineChampionProficiencies											
+2				ABILITY:Divine Champion Class Feature|AUTOMATIC|Divine Champion ~ Bonus Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineChampionBonusFeat											
+2				ABILITY:Divine Champion Class Feature|AUTOMATIC|Divine Champion ~ Sacred Defense|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineChampionSacredDefense											
+3				ABILITY:Divine Champion Class Feature|AUTOMATIC|Divine Champion ~ Smite Infidel|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineChampionSmiteInfidel											
+5				ABILITY:Divine Champion Class Feature|AUTOMATIC|Divine Champion ~ Divine Wrath|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineChampionDivineWrath											
+															
+CLASS:Divine Disciple	HD:8	TYPE:Prestige	FACT:Abb|Dis	MAXLEVEL:5	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DivineDiscipleLVL|0	BONUS:VAR|DivineDiscipleLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Divine Disciple	PRETEXT:Ability to cast 4th-level divine spells.	PRESKILL:1,Diplomacy=5	PRESKILL:1,Knowledge (Religion)=8	PREDEITY:1,Y											
+CLASS:Divine Disciple	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (History)|Knowledge (Nature)|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Spellcraft|Survival													
+1				ABILITY:Divine Disciple Class Feature|AUTOMATIC|Divine Disciple ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineDisicpleProficiencies											
+1				ABILITY:Divine Disciple Class Feature|AUTOMATIC|Divine Disciple ~ Spells per Day											
+#															
+1				ABILITY:Divine Disciple Class Feature|AUTOMATIC|Divine Disciple ~ Divine Emissary|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineDisicpleDivineEmissary											
+2				ABILITY:Divine Disciple Class Feature|AUTOMATIC|Divine Disciple ~ Sacred Defense|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineDisicpleSacredDefense											
+3				ABILITY:Divine Disciple Class Feature|AUTOMATIC|Divine Disciple ~ Imbue with Spell Ability|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineDisicpleImbueWithSpellAbility											
+4				ABILITY:Divine Disciple Class Feature|AUTOMATIC|Divine Disciple ~ Domain|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineDisicpleDomain											
+5				ABILITY:Divine Disciple Class Feature|AUTOMATIC|Divine Disciple ~ Transcendence|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineDisicpleTranscendence											
+#															
+1	ADD:SPELLCASTER|Divine														
+2	ADD:SPELLCASTER|Divine														
+3	ADD:SPELLCASTER|Divine														
+4	ADD:SPELLCASTER|Divine														
+5	ADD:SPELLCASTER|Divine														
+															
+CLASS:Divine Seeker	HD:6	TYPE:Prestige	FACT:Abb|Skr	MAXLEVEL:5	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DivineSeekerLVL|0	BONUS:VAR|DivineSeekerLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Divine Seeker	PRESKILL:1,Hide=8	PRESKILL:1,Knowledge (Religion)=3	PRESKILL:1,Move Silently=10	PRESKILL:1,Spot=5	PREDEITY:1,Y										
+CLASS:Divine Seeker	STARTSKILLPTS:6	CSKILL:Climb|TYPE.Craft|Diplomacy|Hide|Jump|Knowledge (Geography)|Knowledge (Religion)|Listen|Move Silently|TYPE.Profession|Ride|Search|Spot|Survival|Swim|Use Rope													
+1				ABILITY:Divine Seeker Class Feature|AUTOMATIC|Divine Seeker ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineSeekerProficiencies											
+#															
+1				ABILITY:Divine Seeker Class Feature|AUTOMATIC|Divine Seeker ~ Sacred Stealth|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineSeekerSacredStealth											
+1				ABILITY:Divine Seeker Class Feature|AUTOMATIC|Divine Seeker ~ Twarth Magic Trap|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineSeekerTwarthMagicTrap											
+2				ABILITY:Divine Seeker Class Feature|AUTOMATIC|Divine Seeker ~ Sacred Defense|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineSeekerSacredDefense											
+2				ABILITY:Divine Seeker Class Feature|AUTOMATIC|Divine Seeker ~ Sneak Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineSeekerSneackAttack											
+3				ABILITY:Divine Seeker Class Feature|AUTOMATIC|Divine Seeker ~ Locate Creature|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineSeekerLocateCreature											
+3				ABILITY:Divine Seeker Class Feature|AUTOMATIC|Divine Seeker ~ Locate Object|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineSeekerLocateObject											
+4				ABILITY:Divine Seeker Class Feature|AUTOMATIC|Divine Seeker ~ Divine Perseverance|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineSeekerDivinePerseverance											
+5				ABILITY:Divine Seeker Class Feature|AUTOMATIC|Divine Seeker ~ Find the Path|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineSeekerFindThePath											
+															
+CLASS:Evereskan Tomb Guardian	HD:6	TYPE:Prestige	FACT:Abb|Etg	MAXLEVEL:5	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:EvereskanTombGuadianLVL|0	BONUS:VAR|EvereskanTombGuadianLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Evereskan Tomb Guardian	PRERACE:1,Elf	PREREGION:Evereska	PRETOTALAB:4	PRESKILL:3,Hide=5,Move Silently=5,Survival=5	PRESKILL:2,Listen=2,Spot=2	PREABILITY:2,CATEGORY=FEAT,Alertness,Track	PRETEXT:Able to cast 2nd-level arcane spells.								
+CLASS:Evereskan Tomb Guardian	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Decipher Script|Disable Device|Escape Artist|Gather Information|Hide|Intimidate|Jump|Knowledge (Geography)|Knowledge (The Western Heartlands)|Listen|Move Silently|Open Lock|TYPE.Profession|Search|Sense Motive|Sleight of Hand|Spot|Swim|Tumble|Use Rope													
+1				ABILITY:Evereskan Tomb Guardian Class Feature|AUTOMATIC|Evereskan Tomb Guardian ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.EvereskanTombGuardianProficiencies											
+1				ABILITY:Evereskan Tomb Guardian Class Feature|AUTOMATIC|Evereskan Tomb Guardian ~ Spells per Day											
+#															
+1				ABILITY:Evereskan Tomb Guardian Class Feature|AUTOMATIC|Evereskan Tomb Guardian ~ Sacred Duty|!PREABILITY:1,CATEGORY=ACF,TYPE.EvereskanTombGuardianSacredDuty											
+2				ABILITY:Evereskan Tomb Guardian Class Feature|AUTOMATIC|Evereskan Tomb Guardian ~ Devoted Pursuit|!PREABILITY:1,CATEGORY=ACF,TYPE.EvereskanTombGuardianDevotedPursuit											
+2				ABILITY:Evereskan Tomb Guardian Class Feature|AUTOMATIC|Evereskan Tomb Guardian ~ Dodge Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.EvereskanTombGuardianDodgeBonus											
+3				ABILITY:Evereskan Tomb Guardian Class Feature|AUTOMATIC|Evereskan Tomb Guardian ~ Swift Tracking|!PREABILITY:1,CATEGORY=ACF,TYPE.EvereskanTombGuardianSwiftTracking											
+5				ABILITY:Evereskan Tomb Guardian Class Feature|AUTOMATIC|Evereskan Tomb Guardian ~ Silent Guardian|!PREABILITY:1,CATEGORY=ACF,TYPE.EvereskanTombGuardianSilentGuardian											
+#															
+1	ADD:SPELLCASTER|Arcane														
+2	ADD:SPELLCASTER|Arcane														
+3	ADD:SPELLCASTER|Arcane														
+4	ADD:SPELLCASTER|Arcane														
+5	ADD:SPELLCASTER|Arcane														
+															
+CLASS:Eye of Horus-Re	HD:8	TYPE:Prestige	FACT:Abb|EHR	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:EyeOfHorusReLVL|0	BONUS:VAR|EyeOfHorusReLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Eye of Horus-Re	PREALIGN:LG	PREREGION:Mulhorand	PRESKILL:1,Knowledge (Religion)=9	PRESKILL:1,Spot=4	PREABILITY:2,CATEGORY=FEAT,Alertness,Extra Turning	PRETEXT:Able to cast 3rd-level divine spells.	PREDOMAIN:1,Sun								
+CLASS:Eye of Horus-Re	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Heal|TYPE.Knowledge|TYPE.Profession|Spellcraft|Spot													
+1				ABILITY:Eye of Horus-Re Class Feature|AUTOMATIC|Eye of Horus-Re ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.EyeOfHorusReProficiencies											
+1				ABILITY:Eye of Horus-Re Class Feature|AUTOMATIC|Eye of Horus-Re ~ Spells per Day											
+#															
+1				ABILITY:Eye of Horus-Re Class Feature|AUTOMATIC|Eye of Horus-Re ~ Greater Turning|!PREABILITY:1,CATEGORY=ACF,TYPE.EyeOfHorusReGreaterTurning											
+1				ABILITY:Eye of Horus-Re Class Feature|AUTOMATIC|Eye of Horus-Re ~ Radiance|!PREABILITY:1,CATEGORY=ACF,TYPE.EyeOfHorusReRadiance											
+1				ABILITY:Eye of Horus-Re Class Feature|AUTOMATIC|Eye of Horus-Re ~ Turn Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.EyeOfHorusReTurnUndead											
+2				ABILITY:Eye of Horus-Re Class Feature|AUTOMATIC|Eye of Horus-Re ~ Everlight|!PREABILITY:1,CATEGORY=ACF,TYPE.EyeOfHorusReEverlight											
+3				ABILITY:Eye of Horus-Re Class Feature|AUTOMATIC|Eye of Horus-Re ~ Touch of the Sun|!PREABILITY:1,CATEGORY=ACF,TYPE.EyeOfHorusReTouchOfTheSun											
+5				ABILITY:Eye of Horus-Re Class Feature|AUTOMATIC|Eye of Horus-Re ~ Domain|!PREABILITY:1,CATEGORY=ACF,TYPE.EyeOfHorusReDomain											
+6				ABILITY:Eye of Horus-Re Class Feature|AUTOMATIC|Eye of Horus-Re ~ Piercing Sight|!PREABILITY:1,CATEGORY=ACF,TYPE.EyeOfHorusRePiercingSight											
+8				ABILITY:Eye of Horus-Re Class Feature|AUTOMATIC|Eye of Horus-Re ~ Positive Energy Blast|!PREABILITY:1,CATEGORY=ACF,TYPE.EyeOfHorusRePositiveEnergyBlast											
+10				ABILITY:Eye of Horus-Re Class Feature|AUTOMATIC|Eye of Horus-Re ~ True Seeing|!PREABILITY:1,CATEGORY=ACF,TYPE.EyeOfHorusReTrueSeeing											
+#															
+1															
+2	ADD:SPELLCASTER|Cleric														
+3	ADD:SPELLCASTER|Cleric														
+4	ADD:SPELLCASTER|Cleric														
+5	ADD:SPELLCASTER|Cleric														
+6	ADD:SPELLCASTER|Cleric														
+7	ADD:SPELLCASTER|Cleric														
+8	ADD:SPELLCASTER|Cleric														
+9	ADD:SPELLCASTER|Cleric														
+10	ADD:SPELLCASTER|Cleric														
+															
+###TODO CONTIGUOUS:Paladin|PREDEITY:1,Moradin															
+CLASS:Hammer of Moradin	HD:10	TYPE:Prestige	FACT:Abb|HoM	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	EXCLASS:Ex-Hammer of Moradin	DEFINE:HammerOfMoradinLVL|0	BONUS:VAR|HammerOfMoradinLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Hammer of Moradin	PRERACE:1,Dwarf	PREREGION:Spine of the World	PRETOTALAB:7	PRESKILL:1,Craft (Weaponsmithing)=10	PREABILITY:2,CATEGORY=FEAT,Iron Will,Weapon Focus (Warhammer)	PRETEXT:Able to cast 2nd-level divine spells.	PREDEITY:1,Moradin	PRETEXT:Must be a member of the Hammers of Moradin.							
+CLASS:Hammer of Moradin	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Heal|Knowledge (Arcana)|Knowledge (History)|Knowledge (Religion)|Knowledge (The Silver Marches)|Knowledge (The Planes)|TYPE.Profession|Spellcraft													
+1				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinProficiencies											
+#															
+1				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Aura of Courage|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinAuraOfCourage											
+1				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Hammer Throw|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinHammerThrow											
+2				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Goblinkiller|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinGoblinkiller											
+2				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Hammer Return|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinHammerReturn											
+3				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Damage Reduction|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinDamageReduction											
+3				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Powerful Grip|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinPowerfulGrip											
+4				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Far Shot|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinFarShot											
+4				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Quake|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinQuake											
+5				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Drowbasher|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinDrowbasher											
+7				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Chaoscrusher|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinChaoscrusher											
+7				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Stalwart|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinStalwart											
+8				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Giantslayer|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinGiantslayer											
+8				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Thunder Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinThunderStrike											
+9				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Power Throw|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinPowerThrow											
+10				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Bones of the Earth|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinBonesOfTheEarth											
+															
+CLASS:Ex-Hammer of Moradin	HD:10	TYPE:Prestige	FACT:Abb|XHoM	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	VISIBLE:NO	DEFINE:HammerOfMoradinLVL|0	BONUS:VAR|HammerOfMoradinLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Ex-Hammer of Moradin	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Heal|Knowledge (Arcana)|Knowledge (History)|Knowledge (Religion)|Knowledge (The Silver Marches)|Knowledge (The Planes)|TYPE.Profession|Spellcraft													
+1				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinProficiencies											
+#															
+1				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Hammer Throw|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinHammerThrow											
+3				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Damage Reduction|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinDamageReduction											
+3				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Powerful Grip|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinPowerfulGrip											
+4				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Far Shot|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinFarShot											
+8				ABILITY:Hammer of Moradin Class Feature|AUTOMATIC|Hammer of Moradin ~ Thunder Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.HammerOfMoradinThunderStrike											
+															
+CLASS:Harper Scout.FORGET															
+															
+CLASS:Harper Agent	HD:6	TYPE:Prestige	FACT:Abb|Hra	MAXLEVEL:5	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	EXCLASS:Ex-Harper Agent	DEFINE:HarperAgentLVL|0	BONUS:VAR|HarperAgentLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Harper Agent	PREALIGN:LG,LN,NG,TN,CG,CN	PRESKILL:1,Diplomacy=8	PRESKILL:1,TYPE.Knowledge (Local)=4	PRESKILL:2,Sense Motive=2,Survival=2	PREABILITY:2,CATEGORY=FEAT,Negotator	PRETEXT:Special: The candidate must be sponsored by a member in good standing of the Harpers and win approval from the High Harpers.	PREABILITY:1,CATEGORY=Guild Category,Harper								
+CLASS:Harper Agent	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Climb|TYPE.Craft|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Sense Motive|Sleight of Hand|Speak Language|Survival|Swim|Tumble													
+1				ABILITY:Harper Agent Class Feature|AUTOMATIC|Harper Agent ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperAgentProficiencies											
+1				ABILITY:Harper Agent Class Feature|AUTOMATIC|Harper Agent ~ Spells per Day											
+#															
+1				ABILITY:Harper Agent Class Feature|AUTOMATIC|Harper Agent ~ Harper Knowledge|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperAgentHarperKnowledge											
+2				ABILITY:Harper Agent Class Feature|AUTOMATIC|Harper Agent ~ Deneir's Eye|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperAgentDeneirSEye											
+2				ABILITY:Harper Agent Class Feature|AUTOMATIC|Harper Agent ~ Lliira's Heart|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperAgentLliiraSHeart											
+3				ABILITY:Harper Agent Class Feature|AUTOMATIC|Harper Agent ~ Tymora's Smile|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperAgentTymoraSSmile											
+4				ABILITY:Harper Agent Class Feature|AUTOMATIC|Harper Agent ~ Lurue's voice|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperAgentLurueSVoice											
+5				ABILITY:Harper Agent Class Feature|AUTOMATIC|Harper Agent ~ Mystra's Boon|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperAgentMystraSBoon											
+#															
+2	ADD:SPELLCASTER|ANY														
+3	ADD:SPELLCASTER|ANY														
+4	ADD:SPELLCASTER|ANY														
+5	ADD:SPELLCASTER|ANY														
+															
+CLASS:Ex-Harper Agent	HD:6	TYPE:Prestige	FACT:Abb|XHra	MAXLEVEL:5	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	VISIBLE:NO	DEFINE:HarperAgentLVL|0	BONUS:VAR|HarperAgentLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Ex-Harper Agent	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Climb|TYPE.Craft|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Sense Motive|Sleight of Hand|Speak Language|Survival|Swim|Tumble													
+1				ABILITY:Harper Agent Class Feature|AUTOMATIC|Harper Agent ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperAgentProficiencies											
+1				ABILITY:Harper Agent Class Feature|AUTOMATIC|Harper Agent ~ Spells per Day											
+#															
+2	ADD:SPELLCASTER|ANY														
+3	ADD:SPELLCASTER|ANY														
+4	ADD:SPELLCASTER|ANY														
+5	ADD:SPELLCASTER|ANY														
+															
+CLASS:Hathran	HD:4	TYPE:Prestige	FACT:Abb|Hth	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	EXCLASS:Ex-Harthran	DEFINE:HathranLVL|0	BONUS:VAR|HathranLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Hathran	PREALIGN:LG,LN,NG	PREGENDER:F	PREREGION:Rashemen	PRESKILL:1,Knowledge (Rashemen)=4	PREABILITY:2,CATEGORY=FEAT,Ethran,Leadership	PRETEXT:Able to cast 4th-level arcane or divine spells.	PREDEITY:1,Chauntea,Mielikki,Mystra	PREMULT:2,[PREABILITY:1,CATEGORY=FEAT,Scribe Scroll],[PREABILITY:1,CATEGORY=FEAT,TYPE.ItemCreation]	PRETEXT:The candidate must be a member in good standing of the Witches of Rashemen, and she may not possess any item creation feats other than Scribe Scroll.	PREABILITY:1,CATEGORY=Guild Category,Witches of Rashemen					
+CLASS:Hathran	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|TYPE.Knowledge|TYPE.Perform|TYPE.Profession|Speak Language|Spellcraft|Survival|Swim													
+1				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranProficiencies											
+1				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Spells per Day|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranSpellsPerDay											
+#															
+1				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Leadership Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranLeadershipBonus											
+1				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Rashemi Spirit Magic|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranRashemiSpiritMagic											
+1				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Taboo|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranTaboo											
+2				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Spirit Speech|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranSpiritSpeech											
+3				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Awe of the Wychlaran|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranAweOfTheWychlaran											
+3				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Universal Spirit Magic|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranUniversalSpiritMagic											
+4				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Spirit Concordat|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranSpiritConcordat											
+5				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Circle Leader|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranCircleLeader											
+8				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Spirit Dominion|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranSpiritDominion											
+10				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Great Circle Leader|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranGreatCircleLeader											
+															
+CLASS:Ex-Hathran	HD:4	TYPE:Prestige	FACT:Abb|Hth	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	VISIBLE:NO	DEFINE:HathranLVL|0	BONUS:VAR|HathranLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Ex-Hathran	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|TYPE.Knowledge|TYPE.Perform|TYPE.Profession|Speak Language|Spellcraft|Survival|Swim													
+1				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranProficiencies											
+1				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Spells per Day|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranSpellsPerDay											
+#															
+2				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Spirit Speech|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranSpiritSpeech											
+3				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Universal Spirit Magic|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranUniversalSpiritMagic											
+4				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Spirit Concordat|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranSpiritConcordat											
+8				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Spirit Dominion|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranSpiritDominion											
+															
+CLASS:Incantatrix	HD:4	TYPE:Prestige	FACT:Abb|Inc	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:IncantatrixLVL|0	BONUS:VAR|IncantatrixLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Incantatrix	PRESKILL:1,Concentration=4	PRESKILL:2,Knowledge (Arcana)=8,Spellcraft=8	PREABILITY:1,CATEGORY=FEAT,Iron Will	PREABILITY:1,CATEGORY=FEAT,TYPE=Metamagic	PRETEXT:Able to cast 3rd-level arcane spells.	PRETEXT:The candidate cannot have abjuration as a prohibited school.									
+CLASS:Incantatrix	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Heal|Intimidate|Knowledge (Arcana)|Knowledge (The Planes)|TYPE.Profession|Spellcraft													
+1				ABILITY:Incantatrix Class Feature|AUTOMATIC|Incantatrix ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.IncantatrixProficiencies											
+1				ABILITY:Incantatrix Class Feature|AUTOMATIC|Incantatrix ~ Spells per Day|!PREABILITY:1,CATEGORY=ACF,TYPE.IncantatrixSpellsPerDay											
+#															
+1				ABILITY:Incantatrix Class Feature|AUTOMATIC|Incantatrix ~ Focused Studies|!PREABILITY:1,CATEGORY=ACF,TYPE.IncantatrixFocusedStudies											
+2				ABILITY:Incantatrix Class Feature|AUTOMATIC|Incantatrix ~ Cooperative Metamagic|!PREABILITY:1,CATEGORY=ACF,TYPE.IncantatrixCooperativeMetamagic											
+3				ABILITY:Incantatrix Class Feature|AUTOMATIC|Incantatrix ~ Metamagic Effect|!PREABILITY:1,CATEGORY=ACF,TYPE.IncantatrixMetamagicEffect											
+5				ABILITY:Incantatrix Class Feature|AUTOMATIC|Incantatrix ~ Metamagic Spell Trigger|!PREABILITY:1,CATEGORY=ACF,TYPE.IncantatrixMetamagicSpellTrigger											
+6				ABILITY:Incantatrix Class Feature|AUTOMATIC|Incantatrix ~ Seize Concentration|!PREABILITY:1,CATEGORY=ACF,TYPE.IncantatrixSeizeConcentration											
+7				ABILITY:Incantatrix Class Feature|AUTOMATIC|Incantatrix ~ Instant Metamagic|!PREABILITY:1,CATEGORY=ACF,TYPE.IncantatrixInstantMetamagic											
+8				ABILITY:Incantatrix Class Feature|AUTOMATIC|Incantatrix ~ Snatch Spell|!PREABILITY:1,CATEGORY=ACF,TYPE.IncantatrixSnatchSpell											
+1	PROHIBITSPELL:SCHOOL.Abjuration|PREVARGTEQ:IncantatrixProhibitAbjuration,1														
+1	PROHIBITSPELL:SCHOOL.Conjuration|PREVARGTEQ:IncantatrixProhibitConjuration,1														
+1	PROHIBITSPELL:SCHOOL.Divination|PREVARGTEQ:IncantatrixProhibitDivination,1														
+1	PROHIBITSPELL:SCHOOL.Enchantment|PREVARGTEQ:IncantatrixProhibitEnchantment,1														
+1	PROHIBITSPELL:SCHOOL.Evocation|PREVARGTEQ:IncantatrixProhibitEvocation,1														
+1	PROHIBITSPELL:SCHOOL.Illusion|PREVARGTEQ:IncantatrixProhibitIllusion,1														
+1	PROHIBITSPELL:SCHOOL.Necromancy|PREVARGTEQ:IncantatrixProhibitNecromancy,1														
+1	PROHIBITSPELL:SCHOOL.Transmutation|PREVARGTEQ:IncantatrixProhibitTransmutation,1														
+#															
+1	ADD:SPELLCASTER|Arcane														
+2	ADD:SPELLCASTER|Arcane														
+3	ADD:SPELLCASTER|Arcane														
+4	ADD:SPELLCASTER|Arcane														
+5	ADD:SPELLCASTER|Arcane														
+6	ADD:SPELLCASTER|Arcane														
+7	ADD:SPELLCASTER|Arcane														
+8	ADD:SPELLCASTER|Arcane														
+9	ADD:SPELLCASTER|Arcane														
+10	ADD:SPELLCASTER|Arcane														
+#															
+SUBCLASS:Incantatrix ~ Abjurer	COST:1	PROHIBITCOST:0	CHOICE:SCHOOL|Abjuration	BONUS:ABILITYPOOL|Incantatrix Prohibited School|1											
+SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Incantatrix ~ Focused Studies ~ Abjurer											
+SUBCLASS:Incantatrix ~ Conjurer	COST:1	PROHIBITCOST:0	CHOICE:SCHOOL|Conjuration	BONUS:ABILITYPOOL|Incantatrix Prohibited School|1											
+SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Incantatrix ~ Focused Studies ~ Conjurer											
+SUBCLASS:Incantatrix ~ Diviner	COST:1	PROHIBITCOST:0	CHOICE:SCHOOL|Divination	BONUS:ABILITYPOOL|Incantatrix Prohibited School|1											
+SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Incantatrix ~ Focused Studies ~ Diviner											
+SUBCLASS:Incantatrix ~ Enchanter	COST:1	PROHIBITCOST:0	CHOICE:SCHOOL|Enchantment	BONUS:ABILITYPOOL|Incantatrix Prohibited School|1											
+SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Incantatrix ~ Focused Studies ~ Enchanter											
+SUBCLASS:Incantatrix ~ Evoker	COST:1	PROHIBITCOST:0	CHOICE:SCHOOL|Evocation	BONUS:ABILITYPOOL|Incantatrix Prohibited School|1											
+SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Incantatrix ~ Focused Studies ~ Evoker											
+SUBCLASS:Incantatrix ~ Illusionist	COST:1	PROHIBITCOST:0	CHOICE:SCHOOL|Illusion	BONUS:ABILITYPOOL|Incantatrix Prohibited School|1											
+SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Incantatrix ~ Focused Studies ~ Illusionist											
+SUBCLASS:Incantatrix ~ Necromancer	COST:1	PROHIBITCOST:0	CHOICE:SCHOOL|Necromancy	BONUS:ABILITYPOOL|Incantatrix Prohibited School|1											
+SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Incantatrix ~ Focused Studies ~ Necromancer											
+SUBCLASS:Incantatrix ~ Transmuter	COST:1	PROHIBITCOST:0	CHOICE:SCHOOL|Transmutation	BONUS:ABILITYPOOL|Incantatrix Prohibited School|1											
+SUBCLASSLEVEL:1				ABILITY:Special Ability|AUTOMATIC|Incantatrix ~ Focused Studies ~ Transmuter											
+															
+###TODO CONTIGUOUS:Paladin|PREDEITY:1,Tyr															
+CLASS:Justiciar of Tyr	HD:8	TYPE:Prestige	FACT:Abb|JTy	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	EXCLASS:Ex-Justiciar of Tyr	DEFINE:JusticiarOfTyrLVL|0	BONUS:VAR|JusticiarOfTyrLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Justiciar of Tyr	PREALIGN:LG	PRETOTALAB:5	PRESKILL:1,Diplomacy=7	PRESKILL:1,TYPE.Knowledge (Local)=4	PRESKILL:1,Knowledge (Religion)=6	PRETEXT:Able to cast 2nd-level divine spells.	PREDEITY:1,Tyr								
+CLASS:Justiciar of Tyr	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|TYPE.Knowledge (Local)|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Spellcraft													
+1				ABILITY:Justiciar of Tyr Class Feature|AUTOMATIC|Justiciar of Tyr ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.JusticiarOfTyrProficiencies											
+1				ABILITY:Justiciar of Tyr Class Feature|AUTOMATIC|Justiciar of Tyr ~ Spells per Day											
+#															
+1				ABILITY:Justiciar of Tyr Class Feature|AUTOMATIC|Justiciar of Tyr ~ Detect Chaos|!PREABILITY:1,CATEGORY=ACF,TYPE.JusticiarOfTyrDetectChaos											
+1				ABILITY:Justiciar of Tyr Class Feature|AUTOMATIC|Justiciar of Tyr ~ Smite Anarchy|!PREABILITY:1,CATEGORY=ACF,TYPE.JusticiarOfTyrSmiteAnarchy											
+2				ABILITY:Justiciar of Tyr Class Feature|AUTOMATIC|Justiciar of Tyr ~ Bureaucratic Knowledge|!PREABILITY:1,CATEGORY=ACF,TYPE.JusticiarOfTyrBureaucraticKnowledge											
+3				ABILITY:Justiciar of Tyr Class Feature|AUTOMATIC|Justiciar of Tyr ~ Axiomatic Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.JusticiarOfTyrAxiomaticSpellcasting											
+4				ABILITY:Justiciar of Tyr Class Feature|AUTOMATIC|Justiciar of Tyr ~ Detect Lies|!PREABILITY:1,CATEGORY=ACF,TYPE.JusticiarOfTyrDetectLies											
+5				ABILITY:Justiciar of Tyr Class Feature|AUTOMATIC|Justiciar of Tyr ~ Maimed God's Boon|!PREABILITY:1,CATEGORY=ACF,TYPE.JusticiarOfTyrMaimedGodSBoon											
+7				ABILITY:Justiciar of Tyr Class Feature|AUTOMATIC|Justiciar of Tyr ~ Order's Calm|!PREABILITY:1,CATEGORY=ACF,TYPE.JusticiarOfTyrOrderSCalm											
+8				ABILITY:Justiciar of Tyr Class Feature|AUTOMATIC|Justiciar of Tyr ~ Blade of Justice|!PREABILITY:1,CATEGORY=ACF,TYPE.JusticiarOfTyrBladeOfJustice											
+10				ABILITY:Justiciar of Tyr Class Feature|AUTOMATIC|Justiciar of Tyr ~ Aura of Absolute Law|!PREABILITY:1,CATEGORY=ACF,TYPE.JusticiarOfTyrAuraOfAbsoluteLaw											
+#															
+1	ADD:SPELLCASTER|Divine														
+2	ADD:SPELLCASTER|Divine														
+3	ADD:SPELLCASTER|Divine														
+4	ADD:SPELLCASTER|Divine														
+5	ADD:SPELLCASTER|Divine														
+6	ADD:SPELLCASTER|Divine														
+7	ADD:SPELLCASTER|Divine														
+8	ADD:SPELLCASTER|Divine														
+9	ADD:SPELLCASTER|Divine														
+10	ADD:SPELLCASTER|Divine														
+															
+CLASS:Ex-Justiciar of Tyr	HD:8	TYPE:Prestige	FACT:Abb|XJTy	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	VISIBLE:NO	DEFINE:JusticiarOfTyrLVL|0	BONUS:VAR|JusticiarOfTyrLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Ex-Justiciar of Tyr	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|TYPE.Knowledge (Local)|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Spellcraft													
+1				ABILITY:Justiciar of Tyr Class Feature|AUTOMATIC|Justiciar of Tyr ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.JusticiarOfTyrProficiencies											
+1				ABILITY:Justiciar of Tyr Class Feature|AUTOMATIC|Justiciar of Tyr ~ Spells per Day											
+#															
+2				ABILITY:Justiciar of Tyr Class Feature|AUTOMATIC|Justiciar of Tyr ~ Bureaucratic Knowledge|!PREABILITY:1,CATEGORY=ACF,TYPE.JusticiarOfTyrBureaucraticKnowledge											
+#															
+1	ADD:SPELLCASTER|Divine														
+2	ADD:SPELLCASTER|Divine														
+3	ADD:SPELLCASTER|Divine														
+4	ADD:SPELLCASTER|Divine														
+5	ADD:SPELLCASTER|Divine														
+6	ADD:SPELLCASTER|Divine														
+7	ADD:SPELLCASTER|Divine														
+8	ADD:SPELLCASTER|Divine														
+9	ADD:SPELLCASTER|Divine														
+10	ADD:SPELLCASTER|Divine														
+															
+CLASS:Monk of the Long Death	HD:8	TYPE:Prestige	FACT:Abb|MLD	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	EXCLASS:Ex-Monk of the Long Death	DEFINE:MonkOfTheLongDeathLVL|0	BONUS:VAR|MonkOfTheLongDeathLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Monk of the Long Death	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:1,Craft (Alchemy)=5	PRESKILL:1,Craft (Poisonmaking)=7	PRESKILL:1,Heal=3	PRESKILL:1,Knowledge (Arcana)=8	PRECHECKBASE:1,Will=5	PRETEXT:The candidate must be inducted into the monks of the long death via a secret ceremony consisting of various morbid and hideous acts designed to test his resolve.								
+CLASS:Monk of the Long Death	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Concentration|TYPE.Craft|Decipher Script|Disguise|Forgery|Heal|Intimidate|Jump|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Profession|Speak Language|Tumble													
+1				ABILITY:Monk of the Long Death Class Feature|AUTOMATIC|Monk of the Long Death ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkOfTheLongDeathProficiencies											
+#															
+1				ABILITY:Monk of the Long Death Class Feature|AUTOMATIC|Monk of the Long Death ~ Deathguard|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkOfTheLongDeathDeathguard											
+1				ABILITY:Monk of the Long Death Class Feature|AUTOMATIC|Monk of the Long Death ~ AC Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkOfTheLongDeathACBonus											
+1				ABILITY:Monk of the Long Death Class Feature|AUTOMATIC|Monk of the Long Death ~ Fast Movement|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkOfTheLongDeathFastMovement											
+1				ABILITY:Monk of the Long Death Class Feature|AUTOMATIC|Monk of the Long Death ~ Poison Use|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkOfTheLongDeathPoisonUse											
+2				ABILITY:Monk of the Long Death Class Feature|AUTOMATIC|Monk of the Long Death ~ Macabre Shroud|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkOfTheLongDeathMacabreShroud											
+3				ABILITY:Monk of the Long Death Class Feature|AUTOMATIC|Monk of the Long Death ~ Death Knell|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkOfTheLongDeathDeathKnell											
+3				ABILITY:Monk of the Long Death Class Feature|AUTOMATIC|Monk of the Long Death ~ Death Knell|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkOfTheLongDeathDeathKnell											
+6				ABILITY:Monk of the Long Death Class Feature|AUTOMATIC|Monk of the Long Death ~ Death Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkOfTheLongDeathDeathAttack											
+10				ABILITY:Monk of the Long Death Class Feature|AUTOMATIC|Monk of the Long Death ~ Death Touch|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkOfTheLongDeathDeathTouch											
+#															
+1	UDAM:1d1,1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,4d6	UMULT:2													
+2	UDAM:1d1,1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,4d6														
+3	UDAM:1d1,1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,4d6														
+4	UDAM:1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,6d6,6d6														
+5	UDAM:1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,6d6,6d6														
+6	UDAM:1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,6d6,6d6														
+7	UDAM:1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,6d6,6d6														
+8	UDAM:1d3,1d4,1d6,1d8,1d10,2d8,3d8,4d8,6d8,6d8														
+9	UDAM:1d3,1d4,1d6,1d8,1d10,2d8,3d8,4d8,6d8,6d8														
+10	UDAM:1d3,1d4,1d6,1d8,1d10,2d8,3d8,4d8,6d8,6d8														
+
+CLASS:Ex-Monk of the Long Death	HD:8	TYPE:Prestige	FACT:Abb|MLD	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	VISIBLE:NO	DEFINE:MonkOfTheLongDeathLVL|0	BONUS:VAR|MonkOfTheLongDeathLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Monk of the Long Death	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Concentration|TYPE.Craft|Decipher Script|Disguise|Forgery|Heal|Intimidate|Jump|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Profession|Speak Language|Tumble													
+1				ABILITY:Monk of the Long Death Class Feature|AUTOMATIC|Monk of the Long Death ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkOfTheLongDeathProficiencies											
+#															
+1				ABILITY:Monk of the Long Death Class Feature|AUTOMATIC|Monk of the Long Death ~ Deathguard|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkOfTheLongDeathDeathguard											
+1				ABILITY:Monk of the Long Death Class Feature|AUTOMATIC|Monk of the Long Death ~ AC Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkOfTheLongDeathACBonus											
+1				ABILITY:Monk of the Long Death Class Feature|AUTOMATIC|Monk of the Long Death ~ Fast Movement|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkOfTheLongDeathFastMovement											
+1				ABILITY:Monk of the Long Death Class Feature|AUTOMATIC|Monk of the Long Death ~ Poison Use|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkOfTheLongDeathPoisonUse											
+2				ABILITY:Monk of the Long Death Class Feature|AUTOMATIC|Monk of the Long Death ~ Macabre Shroud|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkOfTheLongDeathMacabreShroud											
+3				ABILITY:Monk of the Long Death Class Feature|AUTOMATIC|Monk of the Long Death ~ Death Knell|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkOfTheLongDeathDeathKnell											
+3				ABILITY:Monk of the Long Death Class Feature|AUTOMATIC|Monk of the Long Death ~ Death Knell|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkOfTheLongDeathDeathKnell											
+6				ABILITY:Monk of the Long Death Class Feature|AUTOMATIC|Monk of the Long Death ~ Death Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkOfTheLongDeathDeathAttack											
+10				ABILITY:Monk of the Long Death Class Feature|AUTOMATIC|Monk of the Long Death ~ Death Touch|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkOfTheLongDeathDeathTouch											
+#															
+1	UDAM:1d1,1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,4d6	UMULT:2													
+2	UDAM:1d1,1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,4d6														
+3	UDAM:1d1,1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,4d6														
+4	UDAM:1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,6d6,6d6														
+5	UDAM:1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,6d6,6d6														
+6	UDAM:1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,6d6,6d6														
+7	UDAM:1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,6d6,6d6														
+8	UDAM:1d3,1d4,1d6,1d8,1d10,2d8,3d8,4d8,6d8,6d8														
+9	UDAM:1d3,1d4,1d6,1d8,1d10,2d8,3d8,4d8,6d8,6d8														
+10	UDAM:1d3,1d4,1d6,1d8,1d10,2d8,3d8,4d8,6d8,6d8														
+
+###TODO CONTIGUOUS:Paladin|PREDEITY:1,Lathander															
+CLASS:Morninglord of Lathander	HD:8	TYPE:Prestige	FACT:Abb|MoL	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:MorninglordOfLathanderLVL|0	BONUS:VAR|MorninglordOfLathanderLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Morninglord of Lathander	PREALIGN:LG,NG,CG	PRESKILL:1,TYPE.Craft=4	PRESKILL:1,Diplomacy=7	PRESKILL:1,Knowledge (Religion)=8	PRESKILL:1,TYPE.Perform=2	PREABILITY:1,CATEGORY=FEAT,Improved Turning	PRETEXT:Able to cast 3rd-level divine spells, one of which must be daylight.	PREDEITY:1,Lathander							
+CLASS:Morninglord of Lathander	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (History)|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Perform|TYPE.Profession|Spellcraft													
+1				ABILITY:Morninglord of Lathander Class Feature|AUTOMATIC|Morninglord of Lathander ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MorninglordOfLathanderProficiencies											
+1				ABILITY:Morninglord of Lathander Class Feature|AUTOMATIC|Morninglord of Lathander ~ Spells per Day											
+#															
+1				ABILITY:Morninglord of Lathander Class Feature|AUTOMATIC|Morninglord of Lathander ~ Bane of the Reckless|!PREABILITY:1,CATEGORY=ACF,TYPE.MorninglordOfLathanderBaneOfTheReckless											
+1				ABILITY:Morninglord of Lathander Class Feature|AUTOMATIC|Morninglord of Lathander ~ Lathander's Light|!PREABILITY:1,CATEGORY=ACF,TYPE.MorninglordOfLathanderLathanderSLight											
+2				ABILITY:Morninglord of Lathander Class Feature|AUTOMATIC|Morninglord of Lathander ~ Creative Fire|!PREABILITY:1,CATEGORY=ACF,TYPE.MorninglordOfLathanderCreativeFire											
+3				ABILITY:Morninglord of Lathander Class Feature|AUTOMATIC|Morninglord of Lathander ~ Daylight|!PREABILITY:1,CATEGORY=ACF,TYPE.MorninglordOfLathanderDaylight											
+4				ABILITY:Morninglord of Lathander Class Feature|AUTOMATIC|Morninglord of Lathander ~ Searing Light|!PREABILITY:1,CATEGORY=ACF,TYPE.MorninglordOfLathanderSearingLight											
+5				ABILITY:Morninglord of Lathander Class Feature|AUTOMATIC|Morninglord of Lathander ~ Greater Turning|!PREABILITY:1,CATEGORY=ACF,TYPE.MorninglordOfLathanderGreaterTurning											
+6				ABILITY:Morninglord of Lathander Class Feature|AUTOMATIC|Morninglord of Lathander ~ Blessing of Dawn|!PREABILITY:1,CATEGORY=ACF,TYPE.MorninglordOfLathanderBlessingOfDawn											
+7				ABILITY:Morninglord of Lathander Class Feature|AUTOMATIC|Morninglord of Lathander ~ Maximize Turning|!PREABILITY:1,CATEGORY=ACF,TYPE.MorninglordOfLathanderMaximizeTurning											
+8				ABILITY:Morninglord of Lathander Class Feature|AUTOMATIC|Morninglord of Lathander ~ Rejuvenation of the Morn|!PREABILITY:1,CATEGORY=ACF,TYPE.MorninglordOfLathanderRejuvenationOfTheMorn											
+10				ABILITY:Morninglord of Lathander Class Feature|AUTOMATIC|Morninglord of Lathander ~ Aura of Radiance|!PREABILITY:1,CATEGORY=ACF,TYPE.MorninglordOfLathanderAuraOfRadiance											
+#															
+1	ADD:SPELLCASTER|Divine														
+2	ADD:SPELLCASTER|Divine														
+3	ADD:SPELLCASTER|Divine														
+4	ADD:SPELLCASTER|Divine														
+5	ADD:SPELLCASTER|Divine														
+6	ADD:SPELLCASTER|Divine														
+7	ADD:SPELLCASTER|Divine														
+8	ADD:SPELLCASTER|Divine														
+9	ADD:SPELLCASTER|Divine														
+10	ADD:SPELLCASTER|Divine														
+															
+#CLASS:Purple Dragon Knight															
+															
+CLASS:Runecaster	HD:8	TYPE:Prestige	FACT:Abb|Rnc	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:RunecasterLVL|0	BONUS:VAR|RunecasterLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Runecaster	PRESKILL:1,Spellcraft=8	PRESKILL:1,Craft (Calligraphy)=8,Craft (Gemcutting)=8,Craft (Metalworking)=8,Craft (Stonecarving)=8,Craft (Woodcarvig)=8	PREABILITY:1,CATEGORY=FEAT,Inscribe Rune	PRETEXT:Able to cast 3rd-level divine spells.											
+CLASS:Runecaster	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Profession|Spellcraft													
+1				ABILITY:Runecaster Class Feature|AUTOMATIC|Runecaster ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.RunecasterProficiencies											
+1				ABILITY:Runecaster Class Feature|AUTOMATIC|Runecaster ~ Spells per Day											
+#															
+1				ABILITY:Runecaster Class Feature|AUTOMATIC|Runecaster ~ Rune Craft|!PREABILITY:1,CATEGORY=ACF,TYPE.RunecasterRuneCraft											
+2				ABILITY:Runecaster Class Feature|AUTOMATIC|Runecaster ~ Rune Power|!PREABILITY:1,CATEGORY=ACF,TYPE.RunecasterRunePower											
+3				ABILITY:Runecaster Class Feature|AUTOMATIC|Runecaster ~ Improved Runecasting|!PREABILITY:1,CATEGORY=ACF,TYPE.RunecasterImprovedRunecasting											
+6				ABILITY:Runecaster Class Feature|AUTOMATIC|Runecaster ~ Maximize Rune|!PREABILITY:1,CATEGORY=ACF,TYPE.RunecasterMaximizeRune											
+10				ABILITY:Runecaster Class Feature|AUTOMATIC|Runecaster ~ Rune Chant|!PREABILITY:1,CATEGORY=ACF,TYPE.RunecasterRuneChant											
+#															
+1	ADD:SPELLCASTER|Divine														
+2	ADD:SPELLCASTER|Divine														
+3	ADD:SPELLCASTER|Divine														
+4	ADD:SPELLCASTER|Divine														
+5	ADD:SPELLCASTER|Divine														
+6	ADD:SPELLCASTER|Divine														
+7	ADD:SPELLCASTER|Divine														
+8	ADD:SPELLCASTER|Divine														
+9	ADD:SPELLCASTER|Divine														
+10	ADD:SPELLCASTER|Divine														
+															
+CLASS:Shaaryan Hunter	HD:10	TYPE:Prestige	FACT:Abb|Shh	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ShaaryanHunterLVL|0	BONUS:VAR|ShaaryanHunterLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Shaaryan Hunter	PREREGION:Shaar	PRETOTALAB:5	PRESKILL:1,Handle Animal=4	PRESKILL:1,Ride=5	PRESKILL:1,Survival=8	PREABILITY:4,CATEGORY=FEAT,Animal Affinity,Mounted Archery,Mounted Combat,Track									
+CLASS:Shaaryan Hunter	STARTSKILLPTS:4	CSKILL:Climb|TYPE.Craft|Handle Animal|Heal|Hide|Jump|Knowledge (Nature)|Knowledge (The Shaar)|Listen|Move Silently|TYPE.Profession|Ride|Search|Spot|Survival|Swim|Use Rope													
+1				ABILITY:Shaaryan Hunter Class Feature|AUTOMATIC|Shaaryan Hunter ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ShaaryanHunterProficiencies											
+#															
+1				ABILITY:Shaaryan Hunter Class Feature|AUTOMATIC|Shaaryan Hunter ~ Ride Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.ShaaryanHunterRidebonus											
+2				ABILITY:Shaaryan Hunter Class Feature|AUTOMATIC|Shaaryan Hunter ~ Mounted Tracking|!PREABILITY:1,CATEGORY=ACF,TYPE.ShaaryanHunterMountedTracking											
+3				ABILITY:Shaaryan Hunter Class Feature|AUTOMATIC|Shaaryan Hunter ~ Burst of Speed|!PREABILITY:1,CATEGORY=ACF,TYPE.ShaaryanHunterBurstOfSpeed											
+4				ABILITY:Shaaryan Hunter Class Feature|AUTOMATIC|Shaaryan Hunter ~ Mounted Accuracy|!PREABILITY:1,CATEGORY=ACF,TYPE.ShaaryanHunterMountedAccuracy											
+5				ABILITY:Shaaryan Hunter Class Feature|AUTOMATIC|Shaaryan Hunter ~ Spirited Charge|!PREABILITY:1,CATEGORY=ACF,TYPE.ShaaryanHunterSpiritedCharge											
+7				ABILITY:Shaaryan Hunter Class Feature|AUTOMATIC|Shaaryan Hunter ~ Long Riding|!PREABILITY:1,CATEGORY=ACF,TYPE.ShaaryanHunterLongRiding											
+8				ABILITY:Shaaryan Hunter Class Feature|AUTOMATIC|Shaaryan Hunter ~ Born in the Saddle|!PREABILITY:1,CATEGORY=ACF,TYPE.ShaaryanHunterBornInTheSaddle											
+															
+CLASS:Shadow Adept	HD:4	TYPE:Prestige	FACT:Abb|Sha	MAXLEVEL:10	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ShadowAdeptLVL|0	BONUS:VAR|ShadowAdeptLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Shadow Adept	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:2,Knowledge (Arcana)=8,Spellcraft=8	PREABILITY:1,CATEGORY=FEAT,Shadow Weave Magic	PREABILITY:1,CATEGORY=FEAT,TYPE=Metamagic	PRETEXT:Able to cast 3rd-level arcane or divine spells.										
+CLASS:Shadow Adept	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Disguise|Hide|TYPE.Knowledge|TYPE.Profession|Spellcraft													
+1				ABILITY:Shadow Adept Class Feature|AUTOMATIC|Shadow Adept ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowAdeptProficiencies											
+1				ABILITY:Shadow Adept Class Feature|AUTOMATIC|Shadow Adept ~ Spells per Day											
+#															
+1				ABILITY:Shadow Adept Class Feature|AUTOMATIC|Shadow Adept ~ Shadow Feats|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowAdeptShadowFeats											
+2				ABILITY:Shadow Adept Class Feature|AUTOMATIC|Shadow Adept ~ Low-Light Vision|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowAdeptLowLightVision											
+3				ABILITY:Shadow Adept Class Feature|AUTOMATIC|Shadow Adept ~ Shadow Defense|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowAdeptShadowDefense											
+4				ABILITY:Shadow Adept Class Feature|AUTOMATIC|Shadow Adept ~ Shield of Shadows|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowAdeptShieldOfShadows											
+7				ABILITY:Shadow Adept Class Feature|AUTOMATIC|Shadow Adept ~ Darkvision|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowAdeptDarkvision											
+7				ABILITY:Shadow Adept Class Feature|AUTOMATIC|Shadow Adept ~ Shadow Walk|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowAdeptShadowWalk											
+10				ABILITY:Shadow Adept Class Feature|AUTOMATIC|Shadow Adept ~ Shadow Double|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowAdeptShadowDouble											
+															
+															
+															
+															
+															
+															
+#															
+1	ADD:SPELLCASTER|ANY														
+2	ADD:SPELLCASTER|ANY														
+3	ADD:SPELLCASTER|ANY														
+4	ADD:SPELLCASTER|ANY														
+5	ADD:SPELLCASTER|ANY														
+6	ADD:SPELLCASTER|ANY														
+7	ADD:SPELLCASTER|ANY														
+8	ADD:SPELLCASTER|ANY														
+9	ADD:SPELLCASTER|ANY														
+10	ADD:SPELLCASTER|ANY														
+															
+CLASS:Shadow Thief of Amn	HD:6	TYPE:Prestige	FACT:Abb|STA	MAXLEVEL:5	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ShadowThiefOfAmnLVL|0	BONUS:VAR|ShadowThiefOfAmnLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Shadow Thief of Amn	PRESKILL:4,Bluff=3,Gather Information=3,Intimidate=3,Move Silently=3	PRESKILL:1,Hide=8	PREABILITY:1,CATEGORY=FEAT,Persuasive	PRETEXT:The candidate must be a member of a Shadow Thieves' guild.	PREABILITY:1,CATEGORY=Guild Category,Shadow Thief										
+CLASS:Shadow Thief of Amn	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Climb|TYPE.Craft|Diplomacy|Disable Device|Forgery|Intimidate|Jump|TYPE.Knowledge (Local)|Listen|Move Silently|Open Lock|Sleight of Hand|TYPE.Profession|Search|Sense Motive|Spot|Use Rope													
+1				ABILITY:Shadow Thief of Amn Class Feature|AUTOMATIC|Shadow Thief of Amn ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowThiefOfAmnProficiencies											
+#															
+1				ABILITY:Shadow Thief of Amn Class Feature|AUTOMATIC|Shadow Thief of Amn ~ Doublespeak|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowThiefOfAmnDoublespeak											
+1				ABILITY:Shadow Thief of Amn Class Feature|AUTOMATIC|Shadow Thief of Amn ~ Sneak Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowThiefOfAmnSneakAttack											
+2				ABILITY:Shadow Thief of Amn Class Feature|AUTOMATIC|Shadow Thief of Amn ~ Bonus Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowThiefOfAmnBonusFeat											
+2				ABILITY:Shadow Thief of Amn Class Feature|AUTOMATIC|Shadow Thief of Amn ~ Uncanny Dodge|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowThiefOfAmnUncannyDodge											
+3				ABILITY:Shadow Thief of Amn Class Feature|AUTOMATIC|Shadow Thief of Amn ~ Reputation|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowThiefOfAmnReputation											
+5				ABILITY:Shadow Thief of Amn Class Feature|AUTOMATIC|Shadow Thief of Amn ~ Improved Uncanny Dodge|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowThiefOfAmnImprovedUncannyDodge											
+															
+CLASS:Spellguard of Silverymoon	HD:4	TYPE:Prestige	FACT:Abb|Spg	MAXLEVEL:5	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	EXCLASS:Ex-Spellguard of Silverymoon	DEFINE:SpellguardOfSilverymoonLVL|0	BONUS:VAR|SpellguardOfSilverymoonLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Spellguard of Silverymoon	PREALIGN:LG,LN,NG,TN,CG,CN	PREREGION:Silverymoon,Silver Marches	PRESKILL:1,Concentration=8	PRESKILL:1,Spellcraft=5	PREABILITY:1,CATEGORY=FEAT,Combat Casting	PREABILITY:1,CATEGORY=FEAT,TYPE=Metamagic	PRETEXT:Able to cast 4th-level arcane spells. The candidate must be accepted into the Spellguard.	PREABILITY:1,CATEGORY=Guild Category,Spellguard							
+CLASS:Spellguard of Silverymoon	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Script|TYPE.Knowledge|TYPE.Profession|Spellcraft|Spot													
+1				ABILITY:Spellguard of Silverymoon Class Feature|AUTOMATIC|Spellguard of Silverymoon ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellguardOfSilverymoonProficiencies											
+1				ABILITY:Spellguard of Silverymoon Class Feature|AUTOMATIC|Spellguard of Silverymoon ~ Spells per Day											
+#															
+1				ABILITY:Spellguard of Silverymoon Class Feature|AUTOMATIC|Spellguard of Silverymoon ~ Obligation|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellguardOfSilverymoonObligation											
+1				ABILITY:Spellguard of Silverymoon Class Feature|AUTOMATIC|Spellguard of Silverymoon ~ Token|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellguardOfSilverymoonToken											
+1				ABILITY:Spellguard of Silverymoon Class Feature|AUTOMATIC|Spellguard of Silverymoon ~ Ward Attunement|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellguardOfSilverymoonWardAttunement											
+2				ABILITY:Spellguard of Silverymoon Class Feature|AUTOMATIC|Spellguard of Silverymoon ~ Metamagic Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellguardOfSilverymoonMetamatgicFeat											
+3				ABILITY:Spellguard of Silverymoon Class Feature|AUTOMATIC|Spellguard of Silverymoon ~ Selective Spell|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellguardOfSilverymoonSelectiveSpell											
+4				ABILITY:Spellguard of Silverymoon Class Feature|AUTOMATIC|Spellguard of Silverymoon ~ Spellguard|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellguardOfSilverymoonSpellguard											
+5				ABILITY:Spellguard of Silverymoon Class Feature|AUTOMATIC|Spellguard of Silverymoon ~ Spell Power|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellguardOfSilverymoonSpellPower											
+#															
+1	ADD:SPELLCASTER|Arcane														
+2	ADD:SPELLCASTER|Arcane														
+3	ADD:SPELLCASTER|Arcane														
+4	ADD:SPELLCASTER|Arcane														
+5	ADD:SPELLCASTER|Arcane														
+															
+CLASS:Ex-Spellguard of Silverymoon	HD:4	TYPE:Prestige	FACT:Abb|XSpg	MAXLEVEL:5	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	VISIBLE:NO	DEFINE:SpellguardOfSilverymoonLVL|0	BONUS:VAR|SpellguardOfSilverymoonLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Ex-Spellguard of Silverymoon	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Script|TYPE.Knowledge|TYPE.Profession|Spellcraft|Spot													
+1				ABILITY:Spellguard of Silverymoon Class Feature|AUTOMATIC|Spellguard of Silverymoon ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellguardOfSilverymoonProficiencies											
+1				ABILITY:Spellguard of Silverymoon Class Feature|AUTOMATIC|Spellguard of Silverymoon ~ Spells per Day											
+#															
+1				ABILITY:Spellguard of Silverymoon Class Feature|AUTOMATIC|Spellguard of Silverymoon ~ Obligation|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellguardOfSilverymoonObligation											
+2				ABILITY:Spellguard of Silverymoon Class Feature|AUTOMATIC|Spellguard of Silverymoon ~ Metamagic Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellguardOfSilverymoonMetamatgicFeat											
+3				ABILITY:Spellguard of Silverymoon Class Feature|AUTOMATIC|Spellguard of Silverymoon ~ Selective Spell|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellguardOfSilverymoonSelectiveSpell											
+4				ABILITY:Spellguard of Silverymoon Class Feature|AUTOMATIC|Spellguard of Silverymoon ~ Spellguard|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellguardOfSilverymoonSpellguard											
+5				ABILITY:Spellguard of Silverymoon Class Feature|AUTOMATIC|Spellguard of Silverymoon ~ Spell Power|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellguardOfSilverymoonSpellPower											
+#															
+1	ADD:SPELLCASTER|Arcane														
+2	ADD:SPELLCASTER|Arcane														
+3	ADD:SPELLCASTER|Arcane														
+4	ADD:SPELLCASTER|Arcane														
+5	ADD:SPELLCASTER|Arcane														
+															
+CLASS:Zhentarim Spy	HD:6	TYPE:Prestige	FACT:Abb|ZSp	MAXLEVEL:5	SOURCEPAGE:PgtF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ZhentarimspyLVL|0	BONUS:VAR|ZhentarimspyLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Zhentarim Spy	PREALIGN:LE,NE,CE	PRETOTALAB:5	PRESKILL:4,Bluff=5,Disguise=5,Forgery=5,Gather Information=5	PREABILITY:1,CATEGORY=FEAT,Deceitful											
+CLASS:Zhentarim Spy	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Intimidate|Jump|Listen|Move Silently|Open Lock|Search|Sense Motive|Sleight of Hand|Speak Language|Spot|Tumble|Use Magic Device|Use Rope													
+1				ABILITY:Zhentarim Spy Class Feature|AUTOMATIC|Zhentarim Spy ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ZhentarimSpyProficiencies											
+#															
+1				ABILITY:Zhentarim Spy Class Feature|AUTOMATIC|Zhentarim Spy ~ Cover Identity|!PREABILITY:1,CATEGORY=ACF,TYPE.ZhentarimSpyCoverIdentity											
+2				ABILITY:Zhentarim Spy Class Feature|AUTOMATIC|Zhentarim Spy ~ Sneak Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.ZhentarimSpySneakAttack											
+2				ABILITY:Zhentarim Spy Class Feature|AUTOMATIC|Zhentarim Spy ~ Undetectable Align|!PREABILITY:1,CATEGORY=ACF,TYPE.ZhentarimSpyUndetectableAlign											
+3				ABILITY:Zhentarim Spy Class Feature|AUTOMATIC|Zhentarim Spy ~ Poison Use|!PREABILITY:1,CATEGORY=ACF,TYPE.ZhentarimSpyPoisonUse											
+3				ABILITY:Zhentarim Spy Class Feature|AUTOMATIC|Zhentarim Spy ~ Unlikely Cover|!PREABILITY:1,CATEGORY=ACF,TYPE.ZhentarimSpyUnlikelyCover											
+4				ABILITY:Zhentarim Spy Class Feature|AUTOMATIC|Zhentarim Spy ~ Slippery Mind|!PREABILITY:1,CATEGORY=ACF,TYPE.ZhentarimSpySlipperyMind											
+5				ABILITY:Zhentarim Spy Class Feature|AUTOMATIC|Zhentarim Spy ~ Deep Cover|!PREABILITY:1,CATEGORY=ACF,TYPE.ZhentarimSpyDeepCover											
+															
+CLASS:Netherese Arcanist	HD:4	TYPE:Prestige	FACT:Abb|NeA	MAXLEVEL:5	SOURCEPAGE:PgtF					FACT:ClassType|Prestige		DEFINE:NethereseArcanistLVL|0	BONUS:VAR|NethereseArcanistLVL|CL		
+CLASS:Netherese Arcanist	PRERACE:1,Human,Shade	PRESKILL:2,Knowledge (Arcana)=25,Spellcraft=25	PREABILITY:2,CATEGORY=FEAT,Improved Metamagic,Improves Spellcasting	PRETEXT:Able to cast 13rd-level Arcane spells. Special: Traditions of Netheril: The candidate must have access to the ancient magical traditions of Netheril. A lich or a shade character from the Empire of Shade meets this criterion, or (at the DM's discretion) another character who has unearthed ancient Netherese lore might also qualify.											
+CLASS:Netherese Arcanist	STARTSKILLPTS:2	CSKILL:Concentration|Decipher Script|TYPE.Knowledge|Speak Language|Spellcraft													
+1				ABILITY:Netherese Arcanist Class Feature|AUTOMATIC|Netherese Arcanist ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.NethereseArcanistProficiencies											
+#															
+1				ABILITY:Netherese Arcanist Class Feature|AUTOMATIC|Netherese Arcanist ~ Epic Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.NethereseArcanistEpicSpellcasting											
+1				ABILITY:Netherese Arcanist Class Feature|AUTOMATIC|Netherese Arcanist ~ Field Specialization|!PREABILITY:1,CATEGORY=ACF,TYPE.NethereseArcanistFieldSpecialization											
+2				ABILITY:Netherese Arcanist Class Feature|AUTOMATIC|Netherese Arcanist ~ Spell Focus (Epic)|!PREABILITY:1,CATEGORY=ACF,TYPE.NethereseArcanistSpellFocusEpic											
+3				ABILITY:Netherese Arcanist Class Feature|AUTOMATIC|Netherese Arcanist ~ Backlash Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.NethereseArcanistBacklashResistance											
+4				ABILITY:Netherese Arcanist Class Feature|AUTOMATIC|Netherese Arcanist ~ Epic Spell Artisan|!PREABILITY:1,CATEGORY=ACF,TYPE.NethereseArcanistEpicSpellArtisan											
+5				ABILITY:Netherese Arcanist Class Feature|AUTOMATIC|Netherese Arcanist ~ Greater Spell Focus (Epic)|!PREABILITY:1,CATEGORY=ACF,TYPE.NethereseArcanistGreaterSpellFocusEpic											
+															
+CLASS:Spellfire Hierophant	HD:4	TYPE:Prestige	FACT:Abb|Sfh	MAXLEVEL:10	SOURCEPAGE:PgtF					FACT:ClassType|Prestige		DEFINE:SpellfireHierophantLVL|0	BONUS:VAR|SpellfireHierophantLVL|CL		
+CLASS:Spellfire Hierophant	PRESKILL:1,Concentration=24	PRESKILL:2,Knowledge (Arcana)=12,Spellcraft=12	PREABILITY:4,CATEGORY=FEAT,Endurance,Epic Spellfire wielder,Spellfire Wielder,Weapon Focus (Spellfire)												
+CLASS:Spellfire Hierophant	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Disguise|Heal|Intimidate|Knowledge (Arcana)|TYPE.Profession|Sense Motive|Spellcraft|Survival													
+1				ABILITY:Spellfire Hierophant Class Feature|AUTOMATIC|Spellfire Hierophant ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellfireHierophantProficiencies											
+#															
+1				ABILITY:Spellfire Hierophant Class Feature|AUTOMATIC|Spellfire Hierophant ~ Greater Charged Item Drain|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellfireHierophantGreaterChargedItemDrain											
+2				ABILITY:Spellfire Hierophant Class Feature|AUTOMATIC|Spellfire Hierophant ~ Ranged Healing|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellfireHierophantRangedHealing											
+3				ABILITY:Spellfire Hierophant Class Feature|AUTOMATIC|Spellfire Hierophant ~ Haste|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellfireHierophantHaste											
+4				ABILITY:Spellfire Hierophant Class Feature|AUTOMATIC|Spellfire Hierophant ~ Bonus Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellfireHierophantBonusFeat											
+5				ABILITY:Spellfire Hierophant Class Feature|AUTOMATIC|Spellfire Hierophant ~ Greater Permanent Item Drain|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellfireHierophantGreaterPernanentItemDrain											
+7				ABILITY:Spellfire Hierophant Class Feature|AUTOMATIC|Spellfire Hierophant ~ Spellfire Reserve|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellfireHierophantSpellfireReserve											
+10				ABILITY:Spellfire Hierophant Class Feature|AUTOMATIC|Spellfire Hierophant ~ Spellfire Burst|!PREABILITY:1,CATEGORY=ACF,TYPE.SpellfireHierophantSpellfireBurst											

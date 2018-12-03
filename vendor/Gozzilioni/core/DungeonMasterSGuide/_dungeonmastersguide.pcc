@@ -39,6 +39,7 @@ TEMPLATE:dmg_templates.lst
 
 #
 HIDETYPE:EQUIP|CrystallBall
+HIDETYPE:FEAT|RedWizard
 #
 
 # ENTRY DATE: 2015-08

@@ -400,18 +400,18 @@ Sheath (Wrist)		TYPE:Goods.General.Container	COST:20	WT:0	SOURCEPAGE:AaEG30		CON
 Poison (Alforna)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:75	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 11, Init.: 1d2 STR, Sec.: Fatigue. Craft (Poisonmaking) DC 15.					
 Poison (Banelar Essence)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:300	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 11, Init.: 2d4 CON, Sec.: Unconscious. Craft (Poisonmaking) DC 15.					
 Poison (Carrion Crawler Brain Juice)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:200	WT:0	SOURCEPAGE:DMG	SPROP:Contact DC 13, Init.:0, Sec.:3d6 CON.					
-Poison (Black Adder Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:120	WT:0	SOURCEPAGE:DMG	SPROP:Injury DC 11, Init.:1d6 CON, Sec.:1d6 CON. Craft (Poisonmaking) DC 15.					
-Poison (Bloodroot)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0	SOURCEPAGE:DMG	SPROP:Injury DC 12, Init.:0, Sec.:1d4 CON + 1d3 WIS. Craft (Poisonmaking) DC 15.					
-Poison (Blue Whinnis)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:120	WT:0	SOURCEPAGE:DMG	SPROP:Injury DC 14, Init.:1 CON, Sec.:Unconsciousness. Craft (Poisonmaking) DC 15.					
+# Poison (Black Adder Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:120	WT:0	SOURCEPAGE:DMG	SPROP:Injury DC 11, Init.:1d6 CON, Sec.:1d6 CON. Craft (Poisonmaking) DC 15.					
+# Poison (Bloodroot)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0	SOURCEPAGE:DMG	SPROP:Injury DC 12, Init.:0, Sec.:1d4 CON + 1d3 WIS. Craft (Poisonmaking) DC 15.					
+# Poison (Blue Whinnis)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:120	WT:0	SOURCEPAGE:DMG	SPROP:Injury DC 14, Init.:1 CON, Sec.:Unconsciousness. Craft (Poisonmaking) DC 15.					
 Poison (Choldrith Toxin)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1200	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 15, Init.:Paralysis, Sec.: 2d4 CON. Craft (Poisonmaking) DC 20.					
 Poison (Deathblade)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1800	WT:0	SOURCEPAGE:DMG	SPROP:Injury DC 20, Init.:1d6 CON, Sec.:2d6 CON. Craft (Poisonmaking) DC 25.					
 Poison (Fang Dragon Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:300	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 15, Init.: 1 CON perm, Sec.: 0. Craft (Poisonmaking) DC 20.					
 Poison (Giant Wasp Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:210	WT:0	SOURCEPAGE:DMG	SPROP:Injury DC 18, Init.:1d6 DEX, Sec.:1d6 DEX. Craft (Poisonmaking) DC 20.					
 Poison (Gray Whinnis)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:210	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 20, Init.: 1d4 CON, Sec.: Paralysis. Craft (Poisonmaking) DC 20.					
-Poison (Greenblood Oil)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0	SOURCEPAGE:DMG	SPROP:Injury DC 13, Init.:1 CON, Sec.:1d2 CON. Craft (Poisonmaking) DC 15.					
+# Poison (Greenblood Oil)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0	SOURCEPAGE:DMG	SPROP:Injury DC 13, Init.:1 CON, Sec.:1d2 CON. Craft (Poisonmaking) DC 15.					
 Poison (Haluroot)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:15	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 13, Init.: 1d2 WIS | 1d2 WIS. Craft (Poisonmaking) DC 15.					
-Poison (Large Scorpion Venon)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:200	WT:0	SOURCEPAGE:DMG	SPROP:Injury DC 18, Init.:1d6 STR, Sec.:1d6 STR. Craft (Poisonmaking) DC 20.					
-Poison (Medium Spider Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 14, Init.: 1d4 STR, Sec.: 1d6 STR. Craft (Poisonmaking) DC 15.					
+# Poison (Large Scorpion Venon)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:200	WT:0	SOURCEPAGE:DMG	SPROP:Injury DC 18, Init.:1d6 STR, Sec.:1d6 STR. Craft (Poisonmaking) DC 20.					
+# Poison (Medium Spider Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 14, Init.: 1d4 STR, Sec.: 1d6 STR. Craft (Poisonmaking) DC 15.					
 Poison (Purple Worm Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:700	WT:0	SOURCEPAGE:DMG	SPROP:Injury DC 24, Init.:1d6 STR, Sec.:2d6 STR. Craft (Poisonmaking) DC 20.					
 Poison (Redek Vine Extract)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 17, Init.: 2d6 DEX, Sec.: 0. Craft (Poisonmaking) DC 25.					
 Poison (Rill Leaf)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:AaEG30	SPROP:Injury DC 14, Init.: 1d2 CHA, Sec.: 1d4 CHA. Craft (Poisonmaking) DC 15.					

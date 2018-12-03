@@ -1,0 +1,158 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:03-2004
+
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+Faerunian Region	CATEGORY:Regional	TYPE:RegionChooser	VISIBLE:YES														ABILITY:Regional|AUTOMATIC|Pool ~ Faerun Region															SOURCEPAGE:PgtF
+Pool ~ Faerun Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:NO																													SOURCEPAGE:G
+																																
+Faerunian Generic Region	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES	OUTPUTNAME:Faerunian Generic Region															TEMPLATE:No Faerun Region													SOURCEPAGE:PgtF
+##BLOCK:Geographic regions																																
+Aglarond	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Aglarond ~ Human	PRERACE:1,Human													TEMPLATE:Aglarond ~ Human				CSKILL:Knowledge (Aglarond)									SOURCEPAGE:PgtF
+Altumbel	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Altumbel ~ Human	PRERACE:1,Human													TEMPLATE:Altumbel ~ Human				CSKILL:Knowledge (Aglarond)									SOURCEPAGE:PgtF
+Amn	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Amn ~ Human	PRERACE:1,Human													TEMPLATE:Amn ~ Human				CSKILL:Knowledge (Amn)									SOURCEPAGE:PgtF
+Anauroch	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Anauroch ~ Human	PRERACE:1,Human													TEMPLATE:Anauroch ~ Human				CSKILL:Knowledge (Anauroch)									SOURCEPAGE:PgtF
+Calimshan	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Calimshan ~ Human	PRERACE:1,Human													TEMPLATE:Calimshan ~ Human				CSKILL:Knowledge (Calimshan)									SOURCEPAGE:PgtF
+Chessenta	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Chessenta ~ Human	PRERACE:1,Human													TEMPLATE:Chessenta ~ Human				CSKILL:Knowledge (Chessenta)									SOURCEPAGE:PgtF
+Chult	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Chult ~ Human	PRERACE:1,Human													TEMPLATE:Chult ~ Human				CSKILL:Knowledge (Chult)									SOURCEPAGE:PgtF
+Cormyr	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Cormyr ~ Human	PRERACE:1,Human													TEMPLATE:Cormyr ~ Human				CSKILL:Knowledge (Cormyr)									SOURCEPAGE:PgtF
+The Dalelands	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Dalelands ~ Human	PRERACE:1,Human													TEMPLATE:Dalelands ~ Human				CSKILL:Knowledge (The Dalelands)									SOURCEPAGE:PgtF
+Damara	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Damara ~ Human	PRERACE:1,Human													TEMPLATE:Damara ~ Human				CSKILL:Knowledge (Damara)									SOURCEPAGE:PgtF
+Dambrath	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Dambrath ~ Human	PRERACE:1,Human													TEMPLATE:Dambrath ~ Human				CSKILL:Knowledge (Dambrath)									SOURCEPAGE:PgtF
+The Dragon Coast	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Dragon Coast ~ Human	PRERACE:1,Human													TEMPLATE:Dragon Coast ~ Human				CSKILL:Knowledge (The Dragon Coast)									SOURCEPAGE:PgtF
+The Golden Water	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Golden Water ~ Human	PRERACE:1,Human													TEMPLATE:Golden Water ~ Human				CSKILL:Knowledge (The Golden Water)									SOURCEPAGE:PgtF
+The Great Dale	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Great Dale ~ Human	PRERACE:1,Human													TEMPLATE:Great Dale ~ Human				CSKILL:Knowledge (The Great Dale)									SOURCEPAGE:PgtF
+The Great Glacier	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Great Glacier ~ Human	PRERACE:1,Human													TEMPLATE:Great Glacier ~ Human				CSKILL:Knowledge (The Great Glacier)									SOURCEPAGE:PgtF
+Halruaa	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Halruaa ~ Human	PRERACE:1,Human													TEMPLATE:Halruaa ~ Human				CSKILL:Knowledge (Halruaa)									SOURCEPAGE:PgtF
+The Hordelands	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Hordelands ~ Human	PRERACE:1,Human													TEMPLATE:Hordelands ~ Human				CSKILL:Knowledge (The Hordelands)									SOURCEPAGE:PgtF
+Impiltur	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Impiltur ~ Human	PRERACE:1,Human													TEMPLATE:Impiltur ~ Human				CSKILL:Knowledge (Impiltur)									SOURCEPAGE:PgtF
+The Lake of Steam	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Lake of Steam ~ Human	PRERACE:1,Human													TEMPLATE:Lake of Steam ~ Human				CSKILL:Knowledge (The Lake of Steam)									SOURCEPAGE:PgtF
+Lapaliiya	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Lapaliija ~ Human	PRERACE:1,Human													TEMPLATE:Lapaliija ~ Human				CSKILL:Knowledge (Lapaliiya)									SOURCEPAGE:PgtF
+Lantan	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Lantan ~ Human	PRERACE:1,Human													TEMPLATE:Lantan ~ Human				CSKILL:Knowledge (Lantan)									SOURCEPAGE:PgtF
+The Moonsea	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Moonsea ~ Human	PRERACE:1,Human													TEMPLATE:Moonsea ~ Human				CSKILL:Knowledge (The Moonsea)									SOURCEPAGE:PgtF
+The Moonshae Isles	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Moonshae Isles ~ Human	PRERACE:1,Human													TEMPLATE:Moonshae Isles ~ Human				CSKILL:Knowledge (The Moonshae Islands)									SOURCEPAGE:PgtF
+Mulhorand	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Mulhorand ~ Human	PRERACE:1,Human													TEMPLATE:Mulhorand ~ Human				CSKILL:Knowledge (Mulhorand)									SOURCEPAGE:PgtF
+Narfell	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Narfell ~ Human	PRERACE:1,Human													TEMPLATE:Narfell ~ Human				CSKILL:Knowledge (Narfell)									SOURCEPAGE:PgtF
+The Nelanther Isles	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Nelanther Isles ~ Human	PRERACE:1,Human													TEMPLATE:Nelanther Isles ~ Human				CSKILL:Knowledge (The Nelanther Isles)									SOURCEPAGE:PgtF
+The North	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:North ~ Human	PRERACE:1,Human													TEMPLATE:North ~ Human				CSKILL:Knowledge (The North)									SOURCEPAGE:PgtF
+Rashemen	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Rashemen ~ Human	PRERACE:1,Human													TEMPLATE:Rashemen ~ Human				CSKILL:Knowledge (Rashemen)									SOURCEPAGE:PgtF
+The Ride	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Ride ~ Human	PRERACE:1,Human													TEMPLATE:Ride ~ Human				CSKILL:Knowledge (The Ride)									SOURCEPAGE:PgtF
+Sembia	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Sembia ~ Human	PRERACE:1,Human													TEMPLATE:Sembia ~ Human				CSKILL:Knowledge (Sembia)									SOURCEPAGE:PgtF
+The Shaar	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Shaar ~ Human	PRERACE:1,Human													TEMPLATE:Shaar ~ Human				CSKILL:Knowledge (The Shaar)									SOURCEPAGE:PgtF
+Shadovar	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Shadovar ~ Human	PRERACE:1,Human													TEMPLATE:Shadovar ~ Human				CSKILL:Knowledge (Shadovar)									SOURCEPAGE:PgtF
+Shou Expatriate	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Shou Expatriate ~ Human	PRERACE:1,Human													TEMPLATE:Shou Expatriate ~ Human				CSKILL:Knowledge (Thesk)									SOURCEPAGE:PgtF
+Silverymoon	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Silverymoon ~ Human	PRERACE:1,Human													TEMPLATE:Silverymoon ~ Human				CSKILL:Knowledge (The Silver Marches)									SOURCEPAGE:PgtF
+The Sword Coast	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Sword Coast ~ Human	PRERACE:1,Human													TEMPLATE:Sword Coast ~ Human				CSKILL:Knowledge (The Sword Coast)									SOURCEPAGE:PgtF
+Tashalar	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Tashalar ~ Human	PRERACE:1,Human													TEMPLATE:Tashalar ~ Human				CSKILL:Knowledge (Tashalar)									SOURCEPAGE:PgtF
+Tethyr	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Tethyr ~ Human	PRERACE:1,Human													TEMPLATE:Tethyr ~ Human				CSKILL:Knowledge (Tethyr)									SOURCEPAGE:PgtF
+Thay	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Thay ~ Human	PRERACE:1,Human													TEMPLATE:Thay ~ Human				CSKILL:Knowledge (Thay)									SOURCEPAGE:PgtF
+Thesk	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Thesk ~ Human	PRERACE:1,Human													TEMPLATE:Thesk ~ Human				CSKILL:Knowledge (Thesk)									SOURCEPAGE:PgtF
+Turmish	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Turmish ~ Human	PRERACE:1,Human													TEMPLATE:Turmish ~ Human				CSKILL:Knowledge (The Vilhon Reach)									SOURCEPAGE:PgtF
+Unther	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Unther ~ Human	PRERACE:1,Human													TEMPLATE:Unther ~ Human				CSKILL:Knowledge (Unther)									SOURCEPAGE:PgtF
+Uthgardt Tribesfolk	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Uthgardt Tribesfolk ~ Human	PRERACE:1,Human													TEMPLATE:Uthgardt Tribesfolk ~ Human				CSKILL:Knowledge (The North)									SOURCEPAGE:PgtF
+Vaasa	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Vaasa ~ Human	PRERACE:1,Human													TEMPLATE:Vaasa ~ Human				CSKILL:Knowledge (Vaasa)									SOURCEPAGE:PgtF
+The Vast	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Vast ~ Human	PRERACE:1,Human													TEMPLATE:Vast ~ Human				CSKILL:Knowledge (The Vast)									SOURCEPAGE:PgtF
+The Vilhon Reach	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Vilhon Reach ~ Human	PRERACE:1,Human													TEMPLATE:Vilhon Reach ~ Human				CSKILL:Knowledge (The Vilhon Reach)									SOURCEPAGE:PgtF
+Waterdeep	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Waterdeep ~ Human	PRERACE:1,Human													TEMPLATE:Waterdeep ~ Human				CSKILL:Knowledge (Waterdeep)									SOURCEPAGE:PgtF
+The Western Heartland	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Western Heartland ~ Human	PRERACE:1,Human													TEMPLATE:Western Heartland ~ Human				CSKILL:Knowledge (The Western Heartlands)									SOURCEPAGE:PgtF
+The Wizard's Reach	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Wizard's Reach ~ Human	PRERACE:1,Human													TEMPLATE:Wizard's Reach ~ Human				CSKILL:Knowledge (Aglarond)									SOURCEPAGE:PgtF
+Chult	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Chult ~ Dwarf	PRERACE:1,Dwarf													TEMPLATE:Chult ~ Dwarf				CSKILL:Knowledge (Chult)									SOURCEPAGE:PgtF
+The Galena Mountains	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Galena Mountains ~ Dwarf	PRERACE:1,Dwarf													TEMPLATE:Galena Mountains ~ Dwarf				CSKILL:Knowledge (Damara)									SOURCEPAGE:PgtF
+The Great Glacier	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Great Glacier ~ Dwarf	PRERACE:1,Dwarf													TEMPLATE:Great Glacier ~ Dwarf				CSKILL:Knowledge (The Great Glacier)									SOURCEPAGE:PgtF
+The Great Rift	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Great Rift ~ Dwarf	PRERACE:1,Dwarf													TEMPLATE:Great Rift ~ Dwarf				CSKILL:Knowledge (The Shaar)									SOURCEPAGE:PgtF
+Oldonnar	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Oldonnar ~ Dwarf	PRERACE:1,Dwarf													TEMPLATE:Oldonnar ~ Dwarf				CSKILL:Knowledge (Underdark (Old Shanatar))									SOURCEPAGE:PgtF
+The Smoking Mountains	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Smocking Mountains ~ Dwarf	PRERACE:1,Dwarf													TEMPLATE:Smoking Mountains ~ Dwarf				CSKILL:Knowledge (The Smoking Mountains)									SOURCEPAGE:PgtF
+The Spine of the World	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Spine of the World~ Dwarf	PRERACE:1,Dwarf													TEMPLATE:Spine of the World ~ Dwarf				CSKILL:Knowledge (The Silver Marches)									SOURCEPAGE:PgtF
+The Sword Coast	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Sword Coast ~ Dwarf	PRERACE:1,Dwarf													TEMPLATE:Sword Coast ~ Dwarf				CSKILL:Knowledge (The Sword Coast)									SOURCEPAGE:PgtF
+Turmish	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Turmish ~ Dwarf	PRERACE:1,Dwarf													TEMPLATE:Turmish ~ Dwarf				CSKILL:Knowledge (The Vilhon Reach)									SOURCEPAGE:PgtF
+Underdark (Darklands)	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Underdark (Darklands) ~ Dwarf	PRERACE:1,Dwarf													TEMPLATE:Underdark (Darklands) ~ Dwarf				CSKILL:Knowledge (Underdark (Darklands))									SOURCEPAGE:PgtF
+Underdark (Northdark)	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Underdark (Northdark) ~ Dwarf	PRERACE:1,Dwarf													TEMPLATE:Underdark (Northdark) ~ Dwarf				CSKILL:Knowledge (Underdark (Northdark))									SOURCEPAGE:PgtF
+Underdark (Old Shanatar)	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Underdark (Old Shanatar) ~ Dwarf	PRERACE:1,Dwarf													TEMPLATE:Underdark (Old Shanatar) ~ Dwarf				CSKILL:Knowledge (Underdark (Old Shanatar))									SOURCEPAGE:PgtF
+Waterdeep	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Waterdep ~ Dwarf	PRERACE:1,Dwarf													TEMPLATE:Waterdeep ~ Dwarf				CSKILL:Knowledge (Waterdeep)									SOURCEPAGE:PgtF
+The Chondalwood	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Chondalwood ~ Elf	PRERACE:1,Elf													TEMPLATE:Chondalwood ~ Elf				CSKILL:Knowledge (The Chondalwood)									SOURCEPAGE:PgtF
+Cormanthor Drow	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Cormanthor Drow ~ Elf	PRERACE:1,Elf													TEMPLATE:Cormanthor Drow ~ Elf				CSKILL:Knowledge (The Dalelands)									SOURCEPAGE:PgtF
+Elven Court	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Elven Court ~ Elf	PRERACE:1,Elf													TEMPLATE:Elven Court ~ Elf				CSKILL:Knowledge (The Dalelands)									SOURCEPAGE:PgtF
+Evereska	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Evereska ~ Elf	PRERACE:1,Elf													TEMPLATE:Evereska ~ Elf				CSKILL:Knowledge (The Western Heartlands)									SOURCEPAGE:PgtF
+Evermeet	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Evermeet ~ Elf	PRERACE:1,Elf													TEMPLATE:Evermeet ~ Elf				CSKILL:Knowledge (Evermeet)									SOURCEPAGE:PgtF
+The Forest of Lethyr	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Forest of Lethyr ~ Elf	PRERACE:1,Elf													TEMPLATE:Forest of Lethyr ~ Elf				CSKILL:Knowledge (The Great Dale)									SOURCEPAGE:PgtF
+The High Forest	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:High Forest ~ Elf	PRERACE:1,Elf													TEMPLATE:High Forest ~ Elf				CSKILL:Knowledge (The High Forest)									SOURCEPAGE:PgtF
+The Inner Sea	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Inner Sea ~ Elf	PRERACE:1,Elf													TEMPLATE:Inner Sea ~ Elf				CSKILL:Knowledge (The Inner Sea)									SOURCEPAGE:PgtF
+Menzoberranyr	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Menzoberranyr ~ Elf	PRERACE:1,Elf													TEMPLATE:Menzoberranyr ~ Elf				CSKILL:Knowledge (Underdark (Northdark))									SOURCEPAGE:PgtF
+Sildeyuir	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Sildeyuir ~ Elf	PRERACE:1,Elf													TEMPLATE:Sildeyuir ~ Elf				CSKILL:Knowledge (Aglarond)									SOURCEPAGE:PgtF
+Silverymoon	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Slverymoon ~ Elf	PRERACE:1,Elf													TEMPLATE:Slverymoon ~ Elf				CSKILL:Knowledge (The Silver Marches)									SOURCEPAGE:PgtF
+Snow Eagle Aerie	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Snow Eagl Aerie ~ Elf	PRERACE:1,Elf													TEMPLATE:Snow Eagl Aerie ~ Elf				CSKILL:Knowledge (The Great Glacier)									SOURCEPAGE:PgtF
+Waterdeep	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Waterdeep ~ Elf	PRERACE:1,Elf													TEMPLATE:Waterdeep ~ Elf				CSKILL:Knowledge (Waterdeep)									SOURCEPAGE:PgtF
+The Wealdath	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Wealdath ~ Elf	PRERACE:1,Elf													TEMPLATE:Wealdath ~ Elf				CSKILL:Knowledge (The Wealdath)									SOURCEPAGE:PgtF
+The Yuirwood	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Yuirwood ~ Elf	PRERACE:1,Elf													TEMPLATE:Yuirwood ~ Elf				CSKILL:Knowledge (Aglarond)									SOURCEPAGE:PgtF
+The Great Dale	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Great Dale ~ Gnome	PRERACE:1,Gnome													TEMPLATE:Great Dale ~ Gnome				CSKILL:Knowledge (The Great Dale)									SOURCEPAGE:PgtF
+Lantan	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Lantan ~ Gnome	PRERACE:1,Gnome													TEMPLATE:Lantan ~ Gnome				CSKILL:Knowledge (Lantan)									SOURCEPAGE:PgtF
+Thesk	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Thesk ~ Gnome	PRERACE:1,Gnome													TEMPLATE:Thesk ~ Gnome				CSKILL:Knowledge (Thesk)									SOURCEPAGE:PgtF
+Underdark (Northdark)	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Underdark (Northdark) ~ Gnome	PRERACE:1,Gnome													TEMPLATE:Underdark (Northdark) ~ Gnome				CSKILL:Knowledge (Underdark (Northdark))									SOURCEPAGE:PgtF
+The Western Heartland	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Western Heartland ~ Gnome	PRERACE:1,Gnome													TEMPLATE:Western Heartland ~ Gnome				CSKILL:Knowledge (The Western Heartlands)									SOURCEPAGE:PgtF
+Aglarond	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Aglarond ~ Half-Elf	PRERACE:1,Half-Elf													TEMPLATE:Aglarond ~ Half-Elf				CSKILL:Knowledge (Aglarond)									SOURCEPAGE:PgtF
+The Dalelands	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Dalelands ~ Half-Elf	PRERACE:1,Half-Elf													TEMPLATE:Dalelands ~ Half-Elf				CSKILL:Knowledge (The Dalelands)									SOURCEPAGE:PgtF
+Dambrath	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Dambrath ~ Half-Elf	PRERACE:1,Half-Elf													TEMPLATE:Dambrath ~ Half-Elf				CSKILL:Knowledge (Dambrath)									SOURCEPAGE:PgtF
+The Dragon Coast	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Dragon Coast ~ Half-Elf	PRERACE:1,Half-Elf													TEMPLATE:Dragon Coast ~ Half-Elf				CSKILL:Knowledge (The Dragon Coast)									SOURCEPAGE:PgtF
+Silverymoon	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Silverymoon ~ Half-Elf	PRERACE:1,Half-Elf													TEMPLATE:Silverymoon ~ Half-Elf				CSKILL:Knowledge (The Silver Marches)									SOURCEPAGE:PgtF
+Waterdeep	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Waterdeep ~ Half-Elf	PRERACE:1,Half-Elf													TEMPLATE:Waterdeep ~ Half-Elf				CSKILL:Knowledge (Waterdeep)									SOURCEPAGE:PgtF
+Channath Vale	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Channath Vale ~ Halfling	PRERACE:1,Halfling													TEMPLATE:Channath Vale ~ Halfling				CSKILL:Knowledge (The Shaar)									SOURCEPAGE:PgtF
+The Chondalwood	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Chondalwood ~ Halfling	PRERACE:1,Halfling													TEMPLATE:Chondalwood ~ Halfling				CSKILL:Knowledge (The Chondalwood)									SOURCEPAGE:PgtF
+Luiren	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Luiren ~ Halfling	PRERACE:1,Halfling													TEMPLATE:Luiren ~ Halfling				CSKILL:Knowledge (Luiren)									SOURCEPAGE:PgtF
+The Western Heartland	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Western Heartland ~ Halfling	PRERACE:1,Halfling													TEMPLATE:Western Heartland ~ Halfling				CSKILL:Knowledge (The Western Heartlands)									SOURCEPAGE:PgtF
+Amn	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Amn ~ Half-Orc	PRERACE:1,Half-Orc													TEMPLATE:Amn ~ Half-Orc				CSKILL:Knowledge (Amn)									SOURCEPAGE:PgtF
+Chessenta	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Chessenta ~ Half-Orc	PRERACE:1,Half-Orc													TEMPLATE:Chessentha ~ Half-Orc				CSKILL:Knowledge (Chessenta)									SOURCEPAGE:PgtF
+Chessenta	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Chessenta ~ Orc	PRERACE:1,Orc													TEMPLATE:Chessentha ~ Orc				CSKILL:Knowledge (Chessenta)									SOURCEPAGE:PgtF
+The Hordelands	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Hordelands ~ Half-Orc	PRERACE:1,Half-Orc													TEMPLATE:Hordelands ~ Half-Orc				CSKILL:Knowledge (The Hordelands)									SOURCEPAGE:PgtF
+The Hordelands	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Hordelands ~ Orc	PRERACE:1,Orc													TEMPLATE:Hordelands ~ Orc				CSKILL:Knowledge (The Hordelands)									SOURCEPAGE:PgtF
+The Moonsea	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Moonsea ~ Half-Orc	PRERACE:1,Half-Orc													TEMPLATE:Moonsea ~ Half-Orc				CSKILL:Knowledge (The Moonsea)									SOURCEPAGE:PgtF
+The Moonsea	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Moonsea ~ Orc	PRERACE:1,Orc													TEMPLATE:Moonsea ~ Orc				CSKILL:Knowledge (The Moonsea)									SOURCEPAGE:PgtF
+The North	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:North ~ Half-Orc	PRERACE:1,Half-Orc													TEMPLATE:North ~ Half-Orc				CSKILL:Knowledge (The North)									SOURCEPAGE:PgtF
+The North	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:North ~ Orc	PRERACE:1,Orc													TEMPLATE:North ~ Orc				CSKILL:Knowledge (The North)									SOURCEPAGE:PgtF
+Thesk	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Thesk ~ Half-Orc	PRERACE:1,Half-Orc													TEMPLATE:Thesk ~ Half-Orc				CSKILL:Knowledge (Thesk)									SOURCEPAGE:PgtF
+Thesk	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Thesk ~ Orc	PRERACE:1,Orc													TEMPLATE:Thesk ~ Orc				CSKILL:Knowledge (Thesk)									SOURCEPAGE:PgtF
+Underdark (Northdark)	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Underdark (Northdark) ~ Orc	PRERACE:1,Orc													TEMPLATE:Underdark (Northdark) ~ Orc				CSKILL:Knowledge (Underdark (Northdark))									SOURCEPAGE:PgtF
+Vaasa	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Vaasa ~ Half-Orc	PRERACE:1,Half-Orc													TEMPLATE:Vaasa ~ Half-Orc				CSKILL:Knowledge (Vaasa)									SOURCEPAGE:PgtF
+Vaasa	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Vaasa ~ Orc	PRERACE:1,Orc													TEMPLATE:Vaasa ~ Orc				CSKILL:Knowledge (Vaasa)									SOURCEPAGE:PgtF
+Calimshan	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Calimshan ~ Planetouched (Air Genasi)	PRERACE:1,Planetouched (Air Genasi)													TEMPLATE:Calimshan ~ Planetouched (Air Genasi)				CSKILL:Knowledge (Calimshan)									SOURCEPAGE:PgtF
+Calimshan	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Calimshan ~ Planetouched (Fire Genasi)	PRERACE:1,Planetouched (Fire Genasi)													TEMPLATE:Calimshan ~ Planetouched (Fire Genasi)				CSKILL:Knowledge (Calimshan)									SOURCEPAGE:PgtF
+Mulhorand	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Mulhorand ~ Planetouched (Aasimar)	PRERACE:1,Planetouched (Aasimar)													TEMPLATE:Mulhorand ~ Planetouched (Aasimar)				CSKILL:Knowledge (Mulhorand)									SOURCEPAGE:PgtF
+Mulhorand	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Mulhorand ~ Planetouched (Earth Genasi)	PRERACE:1,Planetouched (Earth Genasi)													TEMPLATE:Mulhorand ~ Planetouched (Earth Genasi)				CSKILL:Knowledge (Mulhorand)									SOURCEPAGE:PgtF
+Mulhorand	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Mulhorand ~ Planetouched (Tiefling)	PRERACE:1,Planetouched (Tiefling)													TEMPLATE:Mulhorand ~ Planetouched (Tiefling)				CSKILL:Knowledge (Mulhorand)									SOURCEPAGE:PgtF
+Thay	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Thay ~ Planetouched (Air Genasi)	PRERACE:1,Planetouched (Air Genasi)													TEMPLATE:Thay ~ Planetouched (Air Genasi)				CSKILL:Knowledge (Thay)									SOURCEPAGE:PgtF
+Thay	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Thay ~ Planetouched (Earth Genasi)	PRERACE:1,Planetouched (Earth Genasi)													TEMPLATE:Thay ~ Planetouched (Earth Genasi)				CSKILL:Knowledge (Thay)									SOURCEPAGE:PgtF
+Thay	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Thay ~ Planetouched (Fire Genasi)	PRERACE:1,Planetouched (Fire Genasi)													TEMPLATE:Thay ~ Planetouched (Fire Genasi)				CSKILL:Knowledge (Thay)									SOURCEPAGE:PgtF
+Thay	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Thay ~ Planetouched (Water Genasi)	PRERACE:1,Planetouched (Water Genasi)													TEMPLATE:Thay ~ Planetouched (Water Genasi)				CSKILL:Knowledge (Thay)									SOURCEPAGE:PgtF
+Thay	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Thay ~ Planetouched (Tiefling)	PRERACE:1,Planetouched (Tiefling)													TEMPLATE:Thay ~ Planetouched (Tiefling)				CSKILL:Knowledge (Thay)									SOURCEPAGE:PgtF
+Chessenta	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Chessenta ~ Planetouched (Aasimar)	PRERACE:1,Planetouched (Aasimar)													TEMPLATE:Chessenta ~ Planetouched (Aasimar)				CSKILL:Knowledge (Chessenta)									SOURCEPAGE:PgtF
+Chessenta	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Chessenta ~ Planetouched (Water Genasi)	PRERACE:1,Planetouched (Water Genasi)													TEMPLATE:Chessenta ~ Planetouched (Water Genasi)				CSKILL:Knowledge (Chessenta)									SOURCEPAGE:PgtF
+Unther	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Unther ~ Planetouched (Aasimar)	PRERACE:1,Planetouched (Aasimar)													TEMPLATE:Unther ~ Planetouched (Aasimar)				CSKILL:Knowledge (Unther)									SOURCEPAGE:PgtF
+Unther	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Unther ~ Planetouched (Fire Genasi)	PRERACE:1,Planetouched (Fire Genasi)													TEMPLATE:Unther ~ Planetouched (Fire Genasi)				CSKILL:Knowledge (Unther)									SOURCEPAGE:PgtF
+Unther	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Unther ~ Planetouched (Tiefling)	PRERACE:1,Planetouched (Tiefling)													TEMPLATE:Unther ~ Planetouched (Tiefling)				CSKILL:Knowledge (Unther)									SOURCEPAGE:PgtF
+Ashane	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Ashane ~ Spirit Folk	PRERACE:1,Spirit Folk													TEMPLATE:Ashane ~ Spirit Folk				CSKILL:Knowledge (Rashemen)									SOURCEPAGE:PgtF
+The Earthfast Mountains	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Earthfast Mountains ~ Bugbear	PRERACE:1,Bugbear													TEMPLATE:Earthfast Mountains ~ Bugbear				CSKILL:Knowledge (The Vast)									SOURCEPAGE:PgtF
+The Earthfast Mountains	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Earthfast Mountains ~ Goblin	PRERACE:1,Goblin													TEMPLATE:Earthfast Mountains ~ Goblin				CSKILL:Knowledge (The Vast)									SOURCEPAGE:PgtF
+The Earthfast Mountains	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Earthfast Mountains ~ Hobgoblin	PRERACE:1,Hobgoblin													TEMPLATE:Earthfast Mountains ~ Hobgoblin				CSKILL:Knowledge (The Vast)									SOURCEPAGE:PgtF
+The Forest of Lethyr	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Forest of Lethyr ~ Volodni	PRERACE:1,Volodni													TEMPLATE:Forest of Lethyr ~ Volodni				CSKILL:Knowledge (The Great Dale)									SOURCEPAGE:PgtF
+The Icerim Mountains	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Icerim Mountains ~ Taer	PRERACE:1,Taer													TEMPLATE:Icerim Mountains ~ Taer				CSKILL:Knowledge (Rashemen)									SOURCEPAGE:PgtF
+The Plateau of Thay	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Plateau of Thay ~ Centaur	PRERACE:1,Centaur													TEMPLATE:Plateau of Thay ~ Centaur				CSKILL:Knowledge (Thay)									SOURCEPAGE:PgtF
+The Plateau of Thay	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Plateau of Thay ~ Gnoll	PRERACE:1,Gnoll													TEMPLATE:Plateau of Thay ~ Gnoll				CSKILL:Knowledge (Thay)									SOURCEPAGE:PgtF
+The Shaar	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Shaar ~ Wemic	PRERACE:1,Wemic													TEMPLATE:Shaar ~ Wemic				CSKILL:Knowledge (The Shaar)									SOURCEPAGE:PgtF
+Sphur Upra	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Sphur Upra ~ Gloaming	PRERACE:1,Gloaming													TEMPLATE:Sphur Upra ~ Gloaming				CSKILL:Knowledge (Underdark (Earthroot))									SOURCEPAGE:PgtF
+The Stormhorns	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Stormhorns ~ Aarakokra	PRERACE:1,Aarakokra													TEMPLATE:Stormhorns ~ Aarakokra				CSKILL:Knowledge (Cormyr)									SOURCEPAGE:PgtF
+Surkh	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Surkh ~ Lizardfolk	PRERACE:1,Lizardfolk													TEMPLATE:Surkh ~ Lizardfolk				CSKILL:Knowledge (The Vilhon Reach)									SOURCEPAGE:PgtF
+Underdark (Deep Imaskar)	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Underdark (Deep Imaskar) ~ Deep Imaskari	PRERACE:1,Deep Imaskari													TEMPLATE:Underdark (Deep Imaskar) ~ Deep Imaskari				CSKILL:Knowledge (Underdark (Earthroot))									SOURCEPAGE:PgtF
+Underdark (Fluvenilstra)	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Underdark (Fluvenilstra) ~ Slyth	PRERACE:1,Slyth													TEMPLATE:Underdark (Fluvenilstra) ~ Slyth				CSKILL:Knowledge (Underdark (Great Bhaerynden))									SOURCEPAGE:PgtF
+Underdark (Reeshov)	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Underdark (Reeshov) ~ Grimlock	PRERACE:1,Glrimlock													TEMPLATE:Underdark (Reeshov) ~ Grimlock				CSKILL:Knowledge (Underdark (Northdark))									SOURCEPAGE:PgtF
+Underdark (Sloopdilmonpolop)	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Underdark (Sloopdilmonpolop) ~ Kuo-Toa	PRERACE:1,Kuo-Toa													TEMPLATE:Underdark (Sloopdilmonpolop) ~ Kuo-Toa				CSKILL:Knowledge (Underdark (Old Shanatar))									SOURCEPAGE:PgtF
+Underdark (Yathchol)	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Underdark (Yathchol) ~ Chitine	PRERACE:1,Chitine													TEMPLATE:Underdark (Yathchol) ~ Chitine				CSKILL:Knowledge (Underdark (Northdark))									SOURCEPAGE:PgtF
+																																
+###Block:Abilities																																
+Sossal	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:NO		KEY:Sossal ~ 																		CSKILL:Knowledge (The Great Glacier)									SOURCEPAGE:G
+Nimbral	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:NO		KEY:Nimbral ~ Human																		CSKILL:Knowledge (Nimbral)									SOURCEPAGE:G
+The Outer Sea	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:NO		KEY:The Outer Sea ~ 																		CSKILL:Knowledge (The Outer Sea)									SOURCEPAGE:G
+Samarach	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:NO		KEY:Samarach ~ Human																		CSKILL:Knowledge (Samarach)									SOURCEPAGE:G
+The Silver Marches	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:NO		KEY:The Silver Marches ~ 																		CSKILL:Knowledge (The Silver Marches)									SOURCEPAGE:G
+Tharsult	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:NO		KEY:Tharsult ~ 																		CSKILL:Knowledge (Tharsult)									SOURCEPAGE:G
+Thindol	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:NO		KEY:Thindol ~ Human																		CSKILL:Knowledge (Thindol)									SOURCEPAGE:G
+Underdark (Buried Realms)	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:NO		KEY:Underdark (Buried Realms) ~ 																		CSKILL:Knowledge (Underdark (Buried Realms))									SOURCEPAGE:G
+Underdark (Earthroot)	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:NO		KEY:Underdark (Earthroot) ~ 																		CSKILL:Knowledge (Underdark (Earthroot))									SOURCEPAGE:G
+Underdark (Glimmersea)	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:NO		KEY:Underdark (Glimmersea) ~ 																		CSKILL:Knowledge (Underdark (Glimmersea))									SOURCEPAGE:G
+Underdark (Great Bhaerynden)	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:NO		KEY:Underdark (Great Bhaerynden) ~ 																		CSKILL:Knowledge (Underdark (Great Bhaerynden))									SOURCEPAGE:G

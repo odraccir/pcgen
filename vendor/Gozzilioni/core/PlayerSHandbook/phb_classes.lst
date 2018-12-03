@@ -98,7 +98,8 @@ CLASS:Ex-Bard	SPELLSTAT:CHA	FACT:SpellType|Arcane	MEMORIZE:NO
 														
 CLASS:Cleric	HD:8	TYPE:PC.Base	FACT:Abb|Clr	MAXLEVEL:20	SOURCEPAGE:PHB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Cleric	DEFINE:ClericLVL|0	BONUS:VAR|ClericLVL|CL	EXCLASS:Ex-Cleric	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Cleric	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (History)|Knowledge (Religion)|Knowledge (The Planes)|TYPE.Profession|Spellcraft												
-CLASS:Cleric	SPELLSTAT:WIS	FACT:SpellType|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9	BONUS:DOMAIN|NUMBER|2
+CLASS:Cleric	SPELLSTAT:WIS	FACT:SpellType|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9
+CLASS:Cleric	BONUS:DOMAIN|NUMBER|2
 1				ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericProficiencies										
 #
 1	PROHIBITSPELL:ALIGNMENT.Good|PREALIGN:LE,NE,CE	PROHIBITSPELL:ALIGNMENT.Good|PREDEITYALIGN:LE,NE,CE												
@@ -351,7 +352,25 @@ CLASS:Ranger	SPELLSTAT:WIS	FACT:SpellType|Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|LE
 11				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Combat Style Mastery|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerCombatStyleMastery										
 13				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Camouflage|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerCamouflage										
 17				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Hide in Plain Sight|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerHideInPlainSight										
-														
+#
+4	CAST:0,0													
+5	CAST:0,0													
+6	CAST:0,1													
+7	CAST:0,1													
+8	CAST:0,1,0													
+9	CAST:0,1,0													
+10	CAST:0,1,1													
+11	CAST:0,1,1,0													
+12	CAST:0,1,1,1													
+13	CAST:0,1,1,1													
+14	CAST:0,2,1,1,0													
+15	CAST:0,2,1,1,1													
+16	CAST:0,2,2,1,1													
+17	CAST:0,2,2,2,1													
+18	CAST:0,3,2,2,1													
+19	CAST:0,3,3,3,2													
+20	CAST:0,3,3,3,3												
+
 CLASS:Rogue	HD:6	TYPE:PC.Base	FACT:Abb|Rog	MAXLEVEL:20	SOURCEPAGE:PHB	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Skill	DEFINE:RogueLVL|0	BONUS:VAR|RogueLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Rogue	STARTSKILLPTS:8	CSKILL:Appraise|Balance|Bluff|Climb|TYPE.Craft|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Intimidate|Jump|Knowledge (Local)|Listen|Move Silently|Open Lock|TYPE.Perform|TYPE.Profession|Search|Sense Motive|Sleight of Hand|Spot|Swim|Tumble|Use Magic Device|Use Rope												
 1				ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.RogueProficiencies										

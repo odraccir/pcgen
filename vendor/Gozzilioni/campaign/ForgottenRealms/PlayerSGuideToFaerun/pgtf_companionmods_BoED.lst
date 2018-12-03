@@ -1,0 +1,17 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:03-2004
+#										
+###Block: Standard Companions										
+# Class of the Master	Type									
+# MASTERBONUSRACE:Companion ~ Animal (Bat)			TYPE:Feline Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Bat
+# MASTERBONUSRACE:Animal (Ferret)			TYPE:Feline Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Ferret
+
+###BLOCK: Feline Familiar
+FOLLOWER:FelineFamiliarLVL=1	TYPE:Feline Familiar	COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES	TEMPLATE:Familiar Race Change				
+FOLLOWER:FelineFamiliarLVL=1	TYPE:Feline Familiar		BONUS:COMBAT|AC|(mastervar("FelineFamiliarLVL")+1)/2|TYPE=NaturalArmor.STACK		DEFINESTAT:MINVALUE|INT|5+((mastervar("FelineFamiliarLVL")+1)/2)	ABILITY:Special Ability|AUTOMATIC|Feline Familiar ~ Empathic Link|Feline Familiar ~ Alertness|Feline Familiar ~ Improved Evasion|Feline Familiar ~ Share Spells				
+FOLLOWER:FelineFamiliarLVL=3	TYPE:Feline Familiar					ABILITY:Special Ability|AUTOMATIC|Feline Familiar ~ Deliver Touch Spells				
+FOLLOWER:FelineFamiliarLVL=5	TYPE:Feline Familiar					ABILITY:Special Ability|AUTOMATIC|Feline Familiar ~ Speak with Master				
+FOLLOWER:FelineFamiliarLVL=7	TYPE:Feline Familiar					ABILITY:Special Ability|AUTOMATIC|Feline Familiar ~ Speak with Animals of Its Kind				
+FOLLOWER:FelineFamiliarLVL=11	TYPE:Feline Familiar						SR:(mastervar("FelineFamiliarLVL")+5)			
+FOLLOWER:FelineFamiliarLVL=13	TYPE:Feline Familiar					ABILITY:Special Ability|AUTOMATIC|Feline Familiar ~ Scry on Familiar				
+
+MASTERBONUSRACE:Animal (Cat)	TYPE:Feline Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Cat				

@@ -25,7 +25,7 @@ ABILITY:frcs_abilities_classes.lst
 ABILITY:frcs_abilities_guilds.lst
 ABILITY:frcs_abilities_MOF.lst|PRECAMPAIGN:1,Magic of Faerun 3.0
 ABILITY:frcs_abilities_races.lst
-ABILITY:frcs_abilities_regions.lst
+ABILITY:frcs_abilities_regions.lst|!PRECAMPAIGN:1,Player's Guide to Faerun
 ABILITY:frcs_abilities_templates.lst
 ABILITYCATEGORY:frcs_abilitycategories.lst
 BIOSET:frcs_biosettings.lst
@@ -43,8 +43,9 @@ EQUIPMENT:frcs_equip_weapons.lst
 # EQUIPMENT:frcs_equip_weapons_natural.lst
 EQUIPMOD:frcs_equipmods.lst
 ABILITY:frcs_feats.lst
+ABILITY:frcs_feats_regions.lst|!PRECAMPAIGN:1,Player's Guide to Faerun
 KIT:frcs_kits.lst
-KIT:frcs_kits_regions.lst
+KIT:frcs_kits_regions.lst|!PRECAMPAIGN:1,Player's Guide to Faerun
 LANGUAGE:frcs_languages.lst
 # ARMORPROF:frcs_profs_armor.lst
 WEAPONPROF:frcs_profs_weapon.lst
@@ -55,10 +56,12 @@ SPELL:frcs_spells.lst
 SPELL:frcs_spells_specific.lst
 ABILITY:frcs_subraces.lst
 TEMPLATE:frcs_templates.lst
-TEMPLATE:frcs_templates_regions.lst
+TEMPLATE:frcs_templates_regions.lst|!PRECAMPAIGN:1,Player's Guide to Faerun
 
 HIDETYPE:FEAT|ArcaneDevotee|GuildThief
 
+FORWARDREF:EQUIPMENT|Maul,Scourge
+FORWARDREF:WEAPONPROF|Maul,Scourge
 FORWARDREF:RACE|Bat (Deep/Night Hunter),Beholderkin (Eyeball)
 
 # ENTRY DATE: 2016-07

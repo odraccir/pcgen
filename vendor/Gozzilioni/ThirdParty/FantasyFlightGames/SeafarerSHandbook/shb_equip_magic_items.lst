@@ -67,7 +67,7 @@ Boots of Water Walking		TYPE:Wondrous.Boot	COST:12000	WT:0	SOURCEPAGE:Ssh	SLOTS:
 Coracle od Xaren		TYPE:Wondrous	COST:10000	WT:20000	SOURCEPAGE:Ssh			
 Daoud's Marvelous Maritime map		TYPE:Wondrous	COST:81000	WT:150	SOURCEPAGE:Ssh			
 Figurehead of Protection		TYPE:Wondrous	COST:27000	WT:300	SOURCEPAGE:Ssh			
-Helmet of the Crab		TYPE:Wondrous.Headgear	COST:5800	WT:3	SOURCEPAGE:Ssh	SPROP:If the faceplate is kept down, the wearer also gains 360° vision, which makes him impossible to surprise. Furthermore, the helmet grants the wearer the ability to peer around corners that intersect his current location at no more than a 90° angle.	BONUS:COMBAT|AC|1|TYPE=Enhancement	ABILITY:Special Ability|VIRTUAL|All-Around Vision
+Helmet of the Crab		TYPE:Wondrous.Headgear	COST:5800	WT:3	SOURCEPAGE:Ssh	SPROP:If the faceplate is kept down, the wearer also gains 360° vision, which makes him impossible to surprise. Furthermore, the helmet grants the wearer the ability to peer around corners that intersecThis current location at no more than a 90° angle.	BONUS:COMBAT|AC|1|TYPE=Enhancement	ABILITY:Special Ability|VIRTUAL|All-Around Vision
 Lacedon Cloak		TYPE:Wondrous.Cape	COST:4750	WT:1	SOURCEPAGE:Ssh	BONUS:COMBAT|AC|2|TYPE=Enhancement	SPELLS:Lacedon Cloak|TIMES=6|CASTERLEVEL=7|Ghoul Touch,15	
 Master Wheel		TYPE:Wondrous	COST:72000	WT:75	SOURCEPAGE:Ssh			
 								

@@ -17,7 +17,7 @@ SOURCELONG:Arms and Equipment Guide 3.0	SOURCESHORT:AaEG30	SOURCEWEB:http://www.
 ###Simple			
 ###Martial			
 Lucern Hammer	TYPE:Martial.Melee.Piercing.MeleePiercing.TwoHanded.Hammer
-Maul	TYPE:Martial.Melee.Bludgeoning.TwoHanded.MeleeBludgeoning
+# Maul	TYPE:Martial.Melee.Bludgeoning.TwoHanded.MeleeBludgeoning
 ###Exotic			
 Claw (Bracer)	TYPE:Exotic.Melee.Piercing.Light.MeleePiercing.Claw
 Claw (Panther)	TYPE:Exotic.Melee.Piercing.Slashing.Light.MeleePiercing.MeleeSlashing.Claw
@@ -26,7 +26,7 @@ Dagger (Stump)	TYPE:Exotic.Melee.Piercing.Light.MeleePiercing.Dagger
 Dagger (Triple)	TYPE:Exotic.Melee.Piercing.Light.MeleePiercing.Dagger
 Gauntlet (Ward Cestus)	TYPE:Exotic.Melee.Bludgeoning.Unarmed.MeleeBludgeoning.Gauntlet
 Gauntlet (Bladed)	TYPE:Exotic.Melee.Slashing.Light.MeleeSlashing.Gauntlet
-Sai	TYPE:Exotic.Melee.Piercing.Light.MeleePiercing
+# Sai	TYPE:Exotic.Melee.Piercing.Light.MeleePiercing
 Sapara	TYPE:Exotic.Melee.Slashing.Light.MeleeSlashing
 Sword (Butterfly)	TYPE:Exotic.Melee.Slashing.Light.MeleeSlashing.Sword
 Tonfa	TYPE:Exotic.Melee.Bludgeoning.Light.MeleeBludgeoning

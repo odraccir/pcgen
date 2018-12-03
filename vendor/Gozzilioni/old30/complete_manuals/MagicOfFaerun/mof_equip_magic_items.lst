@@ -68,7 +68,7 @@ Amulet of Laeral's Tears		TYPE:Wondrous.Amulet.Consumable	COST:1200	WT:0	SOURCEP
 Aquamarine of Spell Extending		TYPE:Wondrous	COST:7200	WT:1	SOURCEPAGE:MoF30	SPROP:1/day Extend Spell without using higher spell slot.																		
 Armband of Maximized Healing		TYPE:Wondrous.Bracer	COST:7200	WT:1	SOURCEPAGE:MoF30	SPROP:1/day Maximize Spell without using higher spell slot.	SLOTS:2																	
 Arvoreen's Amulet of Aid		TYPE:Wondrous.Amulet	COST:4320	WT:0	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_6|CHARGES[6]	SPROP:Aid (1 charge)/Dimension door (3 charges)	BONUS:VAR|NegativeLevels|1|PREALIGN:LE,NE,CE																
-Azlaer's Harp		TYPE:Wondrous.MusicalInstrument	COST:16000	WT:3	SOURCEPAGE:MoF30	PRESKILL:1,TYPE.Perform=1																		
+Azlaer's Harp		TYPE:Wondrous.Instrument	COST:16000	WT:3	SOURCEPAGE:MoF30	PRESKILL:1,TYPE.Perform=1																		
 Badge of Svirfneblin		TYPE:Wondrous	COST:17480	WT:0	SOURCEPAGE:MoF30	BONUS:VAR|DarkvisionRange|60|TYPE=Base	SPELLS:Badge of Svirfneblin|TIMES=1|CASTERLEVEL=3|Blur|Disguise Self	BONUS:SKILL|Hide|TYPE=Circumstance																
 Bag of Boulders		TYPE:Wondrous.Container	COST:1200	WT:0	SOURCEPAGE:MoF30	CONTAINS:UNLIM|Rock=4																		
 Battle Bridle		TYPE:Wondrous.Eyegear.Resizable	COST:9000	WT:1	SOURCEPAGE:MoF30	SPROP:+10 Circumstabnce bonus on rider's Ride checks and allowing him to fight as if he had the Mounted Combat feat. If the rider already has the Mounted Combat, he can act as if he had the Ride-By Attack.																		
@@ -89,7 +89,7 @@ Cloak of Battle		TYPE:Wondrous.Cape	COST:22600	WT:1	SOURCEPAGE:MoF30	BONUS:COMBA
 Cloak of Blackflame		TYPE:Wondrous.Cape	COST:11800	WT:1	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_14|CHARGES[14]	SPROP:Absorb 1 energy drain per charges.																	
 Cowl of Warding		TYPE:Wondrous.Headgear	COST:200800	WT:0	SOURCEPAGE:MoF30	SPROP:Continuous Mind Blank. Turns 6 levels of spells per day as the Spell Turning spell.	SPELLS:Cowl of Warding|TIMES=ATWILL|CASTERLEVEL=15|Freedom of Movement																	
 Crystal Sphere of Singing Waters		TYPE:Wondrous	COST:28300	WT:7	SOURCEPAGE:MoF30	SPROP:Glows as Faerie Fire spell.	SPELLS:Crystal Sphere of Singing Waters|TIMES=ATWILL|CASTERLEVEL=7|Purify Food and Drink	SPELLS:Crystal Sphere of Singing Waters|TIMES=1|CASTERLEVEL=7|Neutralize Poison|Scrying																
-Dove's Harp		TYPE:Wondrous.MusicalInstrument	COST:45100	WT:3	SOURCEPAGE:MoF30	EQMOD:MWORKI	SPROP:Cure insanity in 20-ft radius.	PRESKILL:1,Perform (String Instruments)=1																
+Dove's Harp		TYPE:Wondrous.Instrument	COST:45100	WT:3	SOURCEPAGE:MoF30	EQMOD:MWORKI	SPROP:Cure insanity in 20-ft radius.	PRESKILL:1,Perform (String Instruments)=1																
 Dragonskull Talisman		TYPE:Wondrous.Amulet	COST:4000	WT:1	SOURCEPAGE:MoF30	SPROP:Invisibility to Undead for 30 minutes for the wearer and up to two other creatures.																		
 Dragon's Drought (Black)		TYPE:Wondrous.Potion.Consumable	COST:2300	WT:0	SOURCEPAGE:MoF30	SPROP:Any dragon who drink gain the breath weapon type.																		
 Dragon's Drought (Blue)		TYPE:Wondrous.Potion.Consumable	COST:4500	WT:0	SOURCEPAGE:MoF30	SPROP:Any dragon who drink gain the breath weapon type.																		
@@ -104,7 +104,7 @@ Dragon's Drought (Silver)		TYPE:Wondrous.Potion.Consumable	COST:4600	WT:0	SOURCE
 Dust of Dispersion		TYPE:Wondrous.Dust.Consumable	COST:2100	WT:0	SOURCEPAGE:MoF30																			
 Elixir of Horus-Re		TYPE:Wondrous.Potion.Consumable	COST:6500	WT:0	SOURCEPAGE:MoF30																			
 Enemy Spirit Pouch		TYPE:Wondrous	COST:2100	WT:1	SOURCEPAGE:MoF30																			
-Esheen's Harp		TYPE:Wondrous.MusicalInstrument	COST:6800	WT:3	SOURCEPAGE:MoF30	EQMOD:MWORKI	SPROP:Cause glass and metal resonate.	BONUS:SKILL|Listen|5|TYPE=Circumstance	SPELLS:Esheen's Harp|TIMES=3|CASTERLEVEL=3|Shatter	PRESKILL:1,Perform (String Instruments)=1														
+Esheen's Harp		TYPE:Wondrous.Instrument	COST:6800	WT:3	SOURCEPAGE:MoF30	EQMOD:MWORKI	SPROP:Cause glass and metal resonate.	BONUS:SKILL|Listen|5|TYPE=Circumstance	SPELLS:Esheen's Harp|TIMES=3|CASTERLEVEL=3|Shatter	PRESKILL:1,Perform (String Instruments)=1														
 Eye of the Druuthbane		TYPE:Wondrous.Gem	COST:18000	WT:3	SOURCEPAGE:MoF30	BONUS:SAVE|ALL|4|TYPE=Resistance																		
 Eye of Winking		TYPE:Wondrous.Amulet	COST:120000	WT:0	SOURCEPAGE:MoF30	SPROP:Immune to Detect Thoughts and mind reading. Charm and compulsions are turned back to the caster. During the round of Daylight user is immune to all spells, spell-like effects, and supernatural effects for 1 round, as if the wearer were protected by a personal antimagic field for 1 round.	SPELLS:Eye of Winking|TIMES=1|TIMEUNIT=Week|CASTERLEVEL=15|Daylight																	
 Fanged Mask		TYPE:Wondrous.Eyegear	COST:8302	WT:1	SOURCEPAGE:MoF30																			
@@ -118,7 +118,7 @@ Hair Shirt of Ilmater		TYPE:Wondrous.Shirt	COST:17400	WT:0	SOURCEPAGE:MoF30	BONU
 #Halruaan Skyship																								
 Hammer of the Weaponsmith		TYPE:Wondrous.Tools	COST:2055	WT:8	SOURCEPAGE:MoF30	BONUS:SKILL|Craft (Weaponsmithing)|10|TYPE=Circumstance																		
 Hand of the Oakfather		TYPE:Wondrous.Amulet	COST:41400	WT:1	SOURCEPAGE:MoF30	SPELLS:Hand of the Oakfather|TIMES=1|CASTERLEVEL=5|Barkskin|Entangle|Goodberry|Plant Growth|Speak with Plants|Tree Shape																		
-Handharp		TYPE:Wondrous.MusicalInstrument	COST:25000	WT:1	SOURCEPAGE:MoF30	SPELLS:Handharp|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=9|Dancing Light	SPROP:1/round -2 penalty on attack rolls and damage to Undead in 10-ft radius.																	
+Handharp		TYPE:Wondrous.Instrument	COST:25000	WT:1	SOURCEPAGE:MoF30	SPELLS:Handharp|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=9|Dancing Light	SPROP:1/round -2 penalty on attack rolls and damage to Undead in 10-ft radius.																	
 Harper Pin (Lesser)		TYPE:Wondrous	COST:8000	WT:0	SOURCEPAGE:MoF30	SPROP:Immunity to Detect Thougths, Discern Lies and any tentative to magically discern alignment.																		
 Harper Pin (Greater)		TYPE:Wondrous	COST:79000	WT:0	SOURCEPAGE:MoF30	SPROP:Immunity ro Magic Missile. Continuous Nondetection, Resist Energy (Electricity), Undetectable Alignment.	BONUS:VAR|MindAffectingResistanceBonusSp|5|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance To Mind-Affecting (Sp)	BONUS:SKILL|Move Silently|-10|PREALIGN:LE,NE,CE															
 Headband of the Binder		TYPE:Wondrous.Headgear	COST:2600	WT:0	SOURCEPAGE:MoF30	SPELLS:Headband of the Binder|TIMES=3|CASTERLEVEL=3|Read Magic	BONUS:VAR|BardicKnowledge|4|TYPE=Sacred|PRECLASS:1,Bard=1																	

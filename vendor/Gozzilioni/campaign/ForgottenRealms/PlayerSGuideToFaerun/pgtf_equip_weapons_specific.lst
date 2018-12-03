@@ -1,0 +1,66 @@
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:03-2004																												
+#																															
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:									
+# Simple Weapons																															
+## Unarmed																															
+Cheldaorn Katar			PROFICIENCY:WEAPON|Dagger (Punching)	TYPE:Enhancement.Weapon.Melee.Simple.Piercing.Light.Dagger	COST:8302	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:PgtF	SPROP:Poison DC 14.																
+																															
+## Light																															
+Rustblade			PROFICIENCY:WEAPON|Dagger	TYPE:Enhancement.Weapon.Melee.Ranged.Simple.Piercing.Slashing.Light.Dagger	COST:58302	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:PgtF	SPROP:Any object made of iron or iron alloy that is touched by a rustblade crumbles away as if affected by a rusting grasp spell.						RANGE:10										
+																															
+## OneHanded																															
+																															
+## TwoHanded																															
+Nychyaella's Healing Spear			PROFICIENCY:WEAPON|Spear	TYPE:Enhancement.Weapon.Melee.Ranged.Simple.Piercing.TwoHanded.Spear	COST:44392	WT:6	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.ALC_SILVER_WEAP.EQ_COST_ADJ_W.PLUS2W	SOURCEPAGE:PgtF	SPROP:Three times per day on a successful attack, the wielder may drain hit points from the victim and heal herself of the same amount of damage, as if affected by a vampiric touch spell.						RANGE:20										
+																															
+## Ranged																															
+																															
+# Martial Weapons																															
+## Light																															
+Sword of Demron (Evaelathil)			PROFICIENCY:WEAPON|Sword (Short)	TYPE:Enhancement.Weapon.Melee.Martial.Piercing.Light.Sword	COST:161045	WT:1	WIELD:Light		SIZE:S	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS4W.HOLY_M.BANE_M|Outsider (Evil).Bane_M|Undead.LGHT_EMIT_TORCH	SOURCEPAGE:PgtF									PRERACE:1,Halfling	BONUS:VAR|FireResistanceBonusSP|10|TYPE=Base	ABILITY:Special Ability|AUTOMATIC|Resistance to Fire (Sp)	SPELLS:Sword of Demron (Evaelathil)|TIMES=1|CASTERLEVEL=12|Charm Person|Locate Creature					
+Sword of Demron (Mhaorathil)			PROFICIENCY:WEAPON|Sword (Short)	TYPE:Enhancement.Weapon.Melee.Martial.Piercing.Light.Sword	COST:150297	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS4W.HOLY_M.BANE_M|Outsider (Evil).Bane_M|Undead.LGHT_EMIT_TORCH	SOURCEPAGE:PgtF									PRERACE:1,Dwarf	BONUS:VAR|FireResistanceBonusSP|10|TYPE=Base	ABILITY:Special Ability|AUTOMATIC|Resistance to Fire (Sp)	SPELLS:Sword of Demron (Mhaorathil)|TIMES=1|CASTERLEVEL=12|Cure Light Wounds|Disrupting Weapon|Remove Disease					
+																															
+## OneHanded																															
+Sword of Demron (Faervian)			PROFICIENCY:WEAPON|Longsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.OneHanded.Sword	COST:134970	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS4W.HOLY_M.BANE_M|Outsider (Evil).Bane_M|Undead.LGHT_EMIT_TORCH.SPELL_STOR	SOURCEPAGE:PgtF									PRECLASS:1,SPELLCASTER=1								
+Craemmol's Hammer			PROFICIENCY:WEAPON|Warhammer	TYPE:Enhancement.Weapon.Melee.Martial.Bludgeoning.OneHanded.Hammer	COST:43312	WT:5	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.WOOD.EQ_COST_ADJ_W.PLUS3W.LGHT_EMIT_TORCH	SOURCEPAGE:PgtF																	
+Heartcleaver			PROFICIENCY:WEAPON|Battleaxe	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.OneHanded.Axe	COST:314320	WT:12	WIELD:OneHanded		SIZE:L	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS2W.VORPAL_M	SOURCEPAGE:PgtF	SPROP:constantly drips a foul, greenish ichor, which inhibits magical healing of the wounds it inflicts (DC 20 caster level check or helaing spells have no effect)																
+Lashing Sword of Samos the Skullreaver			PROFICIENCY:WEAPON|Sword (Short)	TYPE:Enhancement.Weapon.Melee.Martial.Piercing.Light.Sword	COST:56310	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:PgtF	SPROP:energy "whip" to make a touch attack against an undead creature, which must make a DC 17 Will save or be destroyed.																
+Twinblade Alight			PROFICIENCY:WEAPON|Battleaxe	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.OneHanded.Axe	COST:82215	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.COLDIRON_WEAP.ADAMANT_WEAP.EQ_COST_ADJ_W.PLUS2W	SOURCEPAGE:PgtF	SPROP:Good-aligned, +2d6 Good damage vs. evil. Lawful-aligned, +2d6 Lawful damage vs. chaos.|PREMULT:2,[PRERACE:1,Dwarf],[PREALIGN:LG]																
+Warhammer			PROFICIENCY:WEAPON|Warhammer	TYPE:Enhancement.Weapon.Melee.Martial.Bludgeoning.OneHanded.Hammer	COST:154312	WT:5	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.WOOD.EQ_COST_ADJ_W	SOURCEPAGE:PgtF	SPROP:Can be thrown and gains the returning special ability in the hands of a Dwarf, deals an extra 1d8 damage when hurled or an extra 2d8 against giants. Once per tenday, the wielder may strike the hammer against the ground (a standard action) to create an effect identical to that of the earthquake spell. Each time the hammer strikes a creature of the giant type, the target must make a DC 16 Fortitude save or be affected as if by a reduce person spell (even though that spell normally affects only humanoids).|PRERACE:1,Dwarf								SPROP:Cannot be thrown except in the hands of a Dwarf	BONUS:WEAPON|DAMAGE,TOHIT|3|TYPE=Enhancement|PRERACE:1,Dwarf	BONUS:WEAPON|DAMAGE,TOHIT|2|TYPE=Enhancement						
+Taragarth	OUTPUTNAME:Taragarth, the Bloodbrand		PROFICIENCY:WEAPON|Sword (Short)	TYPE:Enhancement.Weapon.Melee.Martial.Piercing.Light.Sword	COST:10	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:PgtF	SPROP:Immunity to Detect Thoughts, Discern Lies and any attempt to magically discern his alignment.								BONUS:VAR|FireResistanceBonus|10|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance to Fire							
+																															
+## TwoHanded																															
+Sword of Demron (Morvian)			PROFICIENCY:WEAPON|Greatsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.TwoHanded.Sword	COST:158389	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS4W.HOLY_M.BANE_M|Outsider (Evil).Bane_M|Undead.LGHT_EMIT_TORCH.LAW_M	SOURCEPAGE:PgtF									PREALIGN:LG			SPELLS:Sword of Demron (Morvian)|TIMES=1|CASTERLEVEL=12|Daylight					
+Sword of Demron (Dragathil)			PROFICIENCY:WEAPON|Rapier	TYPE:Enhancement.Weapon.Melee.Martial.Piercing.OneHanded.Rapier	COST:125720	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS4W.HOLY_M.BANE_M|Outsider (Evil).Bane_M|Undead.LGHT_EMIT_TORCH.MERCIFUL_M	SOURCEPAGE:PgtF									PRESKILL:1,Diplomacy=5			SPELLS:Sword of Demron (Dragathil)|TIMES=1|CASTERLEVEL=12|Hold Person					BONUS:WEAPON|DAMAGEMULT:2|-0.5
+																															
+## Ranged																															
+																															
+# Exotic Weapons																															
+## Light																															
+																															
+## OneHanded																															
+																															
+## TwoHanded																															
+Sword of Demron (Keryvian)			PROFICIENCY:WEAPON|Sword (Bastard)	TYPE:Enhancement.Weapon.Melee.Exotic.Slashing.OneHanded.Sword	COST:207070	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS4W.HOLY_M.BANE_M|Outsider (Evil).Bane_M|Undead.LGHT_EMIT_TORCH.KEEN	SOURCEPAGE:PgtF									BONUS:WEAPON|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Sword (Bastard))|PRESTAT:1,STR=13	PRECLASS:1,Fighter=1,Ranger=1,Paladin=1	PREALIGN:LG,NG,CG	SPELLS:Sword of Demron (Keryvian)|TIMES=ATWILL|CASTERLEVEL=12|Jump|Feather Fall|Alarm					
+																															
+## Ranged																															
+																															
+# Arrows																															
+																															
+###Block: Intelligent																															
+Black Sword			PROFICIENCY:WEAPON|Sword (Bastard)	TYPE:Unique.Enhancement.Weapon.Melee.Exotic.Slashing.OneHanded.Sword	COST:131335	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS3W.INT_ITEM.WEAP_INT_ITEM_3.INT_ITEM_WIS_14.INT_ITEM_CHA_14.INT_ITEM_ALIGN_LN.INT_ITEM_DARKNESS.INT_ITEM_SILENCE.INT_ITEM_DISPEL_MAGIC.INT_ITEM_DED_PURP.INT_ITEM_OVERTHROW_TYRANTS.INT_ITEM_LUCK	SOURCEPAGE:PgtF									BONUS:WEAPON|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Sword (Bastard))|PRESTAT:1,STR=13								
+Shazzellim			PROFICIENCY:WEAPON|Scimitar	TYPE:Unique.Enhancement.Weapon.Melee.Martial.Piercing.OneHanded.Scimitar	COST:92415	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W.KEEN.INT_ITEM.WEAP_INT_ITEM_6.INT_ITEM_INT_17.INT_ITEM_CHA_17.INT_ITEM_ALIGN_NE.INT_ITEM_DETECT_MGC.INT_ITEM_LOCATE_OBJECT.INT_ITEM_SEARCH.INT_ITEM_DED_PURP.INT_ITEM_DEFEAT_ORGANIZATION|Harpers.INT_ITEM_FIREBALL.INT_ITEM_LANG_1|Orc.INT_ITEM_LANG_1|Abyssal.INT_ITEM_LANG_1|Infernal	SOURCEPAGE:PgtF																	
+																															
+																															
+## Cursed																															
+																															
+## Artifacts																															
+Shattering Swords of Coronal Ynloeth			PROFICIENCY:WEAPON|Longsword	TYPE:Artifact.Minor.Weapon.Melee.Martial.Slashing.OneHanded.Sword	COST:0	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS5W.HOLY_M.SPEED	SOURCEPAGE:PgtF																	
+																															
+## Unique																															
+Calathangas			PROFICIENCY:WEAPON|Rapier	TYPE:Unique.Enhancement.Weapon.Melee.Martial.Piercing.OneHanded.Rapier	COST:15800	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:PgtF									BONUS:WEAPON|DAMAGEMULT:2|-0.5								
+Dyerwaen			PROFICIENCY:WEAPON|Sword (Bastard)	TYPE:Unique.Enhancement.Weapon.Melee.Exotic.Slashing.OneHanded.Sword	COST:29335	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS2W	SOURCEPAGE:PgtF									BONUS:WEAPON|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Sword (Bastard))|PRESTAT:1,STR=13	BONUS:SKILL|Survival|2|TYPE=Competence	SPELLS:Dyerwaen|TIMES=ATWILL|CASTERLEVEL=11|Hide from Animals	SPELLS:Dyerwaen|TIMES=1|CASTERLEVEL=11|Speak with Plants					
+Elqillar			PROFICIENCY:WEAPON|Scimitar	TYPE:Unique.Enhancement.Weapon.Melee.Martial.Piercing.OneHanded.Scimitar	COST:167315	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:PgtF	SPROP:Immunity to Detect Thoughts, Discern Lies and any attempt to magically discern his alignment.								SPELLS:Elqillar|TIMES=ATWILL|CASTERLEVEL=12|Disguise Self								
+Evithyan's Blade			PROFICIENCY:WEAPON|Longsword	TYPE:Unique.Enhancement.Weapon.Melee.Martial.Slashing.OneHanded.Sword	COST:72314	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS3W	SOURCEPAGE:PgtF	SPROP:+5 to hit and 2d4 CON damage against Drow (Fort DC 20 half).																
+Ilbratha	OUTPUTNAME:Ilbratha, Mistress of Battle		PROFICIENCY:WEAPON|Longsword	TYPE:Unique.Enhancement.Weapon.Melee.Martial.Slashing.OneHanded.Sword	COST:31115	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:PgtF									SPELLS:Ilbratha|TIMES=3|CASTERLEVEL=5|Jump	SPELLS:Ilbratha|TIMES=1|CASTERLEVEL=5|Blink|Mirror Image							
+Nightwatcher			PROFICIENCY:WEAPON|Longsword	TYPE:Unique.Enhancement.Weapon.Melee.Martial.Slashing.OneHanded.Sword	COST:89315	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS3W	SOURCEPAGE:PgtF									BONUS:VAR|HasLowLightVision|1|TYPE=Base								

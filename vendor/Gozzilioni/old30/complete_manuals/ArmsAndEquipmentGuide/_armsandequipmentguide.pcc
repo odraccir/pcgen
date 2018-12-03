@@ -46,7 +46,8 @@ SKILL:aaeg_skills.lst
 # ABILITY:motp_subraces.lst
 # TEMPLATE:motp_templates.lst
 #
-# FORWARDREF:WEAPONPROF|Pincer Staff
+FORWARDREF:WEAPONPROF|Maul,Sai
+FORWARDREF:EQUIPMENT|Maul,Sai
 HIDETYPE:SKILL|Perform (Buffoonery)
 # HIDETYPE:FEAT|Wizard
 

@@ -19,6 +19,7 @@ ABILITYCATEGORY:Divine Seeker Class Feature	CATEGORY:Special Ability	TYPE:Divine
 ABILITYCATEGORY:Guild Thief Class Feature	CATEGORY:Special Ability	TYPE:GuildThiefClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Guild Thief Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Harper Scout Class Feature	CATEGORY:Special Ability	TYPE:HarperScoutClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Harper Scout Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Hathran Class Feature	CATEGORY:Special Ability	TYPE:HathranClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Hathran Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Incantatrix Class Feature	CATEGORY:Special Ability	TYPE:IncantatrixClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Incantatrix Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Runecaster Class Feature	CATEGORY:Special Ability	TYPE:RunecasterClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Runecaster Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Shadow Adept Class Feature	CATEGORY:Special Ability	TYPE:ShadowAdeptClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Shadow Adept Class Features			DISPLAYLOCATION:Class Features
 

@@ -18,7 +18,7 @@ PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Gui
 
 ABILITY:mof_abilities.lst
 ABILITY:mof_abilities_classes.lst
-ABILITY:mof_abilities_FRCS.lst|PRECAMPAIGN:1,Forgotten Realms Campaign Setting 3.0
+ABILITY:mof_abilities_FRCS.lst|PREMULT:2,[PRECAMPAIGN:1,Forgotten Realms Campaign Setting 3.0],[!PRECAMPAIGN:1,Player's Guide to Faerun]
 ABILITY:mof_abilities_guilds.lst
 ABILITY:mof_abilities_races.lst
 # ABILITY:mof_abilities_racetraits.lst
