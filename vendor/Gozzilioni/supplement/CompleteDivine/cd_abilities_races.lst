@@ -1,0 +1,20 @@
+SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-05
+																																	
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
+																																	
+###Block: Race Traits																																	
+																																	
+###Block: Subtype Traits																																	
+# Elements																																	
+# Alignments																																	
+# Racial																																	
+																																	
+# Race Groups Subtype																																	
+																																	
+# Race Groups																																	
+																																	
+###Block: Tracker																																	
+																																	
+###Block: Races Traits																																	
+Race Traits ~ Bogun	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=BogunRaceTrait											BONUS:VAR|Maneuverability|4|TYPE=Base																			
+Poison	CATEGORY:Special Ability	TYPE:BogunRaceTrait.SpecialAttack.Extraordinary.Poison	VISIBLE:YES	DESC:Injury, Fort DC %1, initial damage 1d6 DEX, secondary damage 1d6 DEX. The save DC is Constitution-based.|PoisonDC	KEY:Bogun ~ Poison				DEFINE:PoisonDC|0					BONUS:VAR|PoisonDC|DefaultDCCon	BONUS:VAR|PoisonDC|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Poison)								ABILITY:Ability Focus|AUTOMATIC|Poison									SOURCEPAGE:CD	

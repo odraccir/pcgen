@@ -1,4 +1,4 @@
-SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:02-2001																																																														
+SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
 #																		
 #	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	SOURCEPAGE:	BONUS:COMBAT|AC|x|TYPE=Armor	MAXDEX:	ACCHECK:	SPELLFAILURE:	EQMOD:						
 Silverweave Armor			PROFICIENCY:ARMOR|Silverweave Armor	TYPE:Armor.Light.Suit.Nonmetal	COST:25	WT:20	SOURCEPAGE:McMof30	BONUS:COMBAT|AC|3|TYPE=Armor	MAXDEX:5	ACCHECK:-1	SPELLFAILURE:15	EQMOD:CORAL	

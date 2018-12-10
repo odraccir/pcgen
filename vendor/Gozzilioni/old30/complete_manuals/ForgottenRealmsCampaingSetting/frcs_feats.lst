@@ -1,4 +1,4 @@
-SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:06-2001
+SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-06
 #																																															
 # Feat Name	CATEGORY:	TYPE:	visible	key	Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	DESC:	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page					
 Arcane Preparation	CATEGORY:FEAT	TYPE:General	VISIBLE:YES											PRESPELLCAST:MEMORIZE=N											DESC:Each day,you are able to prepare one or more spells as a wizard does. If you are a sorcerer or a bard, this means that you can prepare a spell with a metamagic feat ahead of time, instead of cating it as a full-round action.																	SOURCEPAGE:FRCS30					

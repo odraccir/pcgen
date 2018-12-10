@@ -1,0 +1,6 @@
+SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-05
+																																	
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page																																		
+Order of the Black Flame	CATEGORY:Guild Category	TYPE:SpecialQuality.Organization	VISIBLE:YES	DESC:The Order of the Black Flame is the hidden blade of their faith, a secret society of holy slayers devoted to the worship of a dark deity of fire and destruction.																													SOURCEPAGE:CD
+Seeker of the Misty Isle	CATEGORY:Guild Category	TYPE:SpecialQuality.Organization	VISIBLE:YES	DESC:An elite order of elves was born: the seekers of the Misty Isle.																													SOURCEPAGE:CD
+Temple Raider of Olidammara	CATEGORY:Guild Category	TYPE:SpecialQuality.Organization	VISIBLE:YES	DESC:The temple raiders are an elite cadre of thieves who worship the Laughing Rogue and specialize in stealing valuables and secret lore from the temples of other deities.																													SOURCEPAGE:CD

@@ -1,4 +1,4 @@
-SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:02-2001																													
+SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
 																																
 ###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 CATEGORY=Internal|Standard Selection ~ Create Undead.MOD	COMPANIONLIST:Create Undead|Baneguard																															

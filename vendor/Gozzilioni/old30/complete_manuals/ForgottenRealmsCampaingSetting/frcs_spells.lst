@@ -1,4 +1,4 @@
-SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:06-2001
+SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-06
 #																												
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus			
 Aganazzar's Scorcher				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Fire	CLASSES:Sorcerer=2|Wizard=2	COMPS:V, S, F	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:5-ft wide path to close range.	DURATION:Instantaneous	SAVEINFO:Reflex hlaf	SPELLRES:Yes	DESC:A jet of roaring flame bursts from your outstretched hand, scorching any creature in a 5-ft wide path to the edge of the spell's range.Focus: A red dragon's scale.	SOURCEPAGE:FRCS30											

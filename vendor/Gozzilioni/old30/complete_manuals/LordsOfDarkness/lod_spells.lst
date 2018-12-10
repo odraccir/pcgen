@@ -1,4 +1,4 @@
-SOURCELONG:Lords of Darkness 3.0	SOURCESHORT:LoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:10-2001																						
+SOURCELONG:Lords of Darkness 3.0	SOURCESHORT:LoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-10
 																									
 ###Block: AB																									
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus

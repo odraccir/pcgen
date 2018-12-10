@@ -1,4 +1,4 @@
-SOURCELONG:Magic of Faerun 3.0	SOURCESHORT:MoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:02-2001																			
+SOURCELONG:Magic of Faerun 3.0	SOURCESHORT:MoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
 
 STARTPACK:Treasure 6-6 Rings - minor	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	
 SELECT:roll("1d100")	

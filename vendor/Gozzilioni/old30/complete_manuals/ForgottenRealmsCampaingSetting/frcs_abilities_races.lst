@@ -1,4 +1,4 @@
-SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:06-2001
+SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-06
 
 ###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
 ###Block: Race Traits																																	
@@ -127,7 +127,7 @@ Harmed by Positive Energy	CATEGORY:Special Ability	TYPE:GargoyleKirLananRaceTrai
 Skills	CATEGORY:Special Ability	TYPE:GargoyleKirLananRaceTrait.SpecialQuality	VISIBLE:YES	DESC:a kir-lanan reveices a +4 racial bonus on Hide checks.	KEY:Gargoyle (Kir-Lanan) ~ Skills									BONUS:SKILL|Hide|4|TYPE=Racial																		SOURCEPAGE:FRCS30	
 																																	
 Race Traits ~ Rothe (Deep)	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|Rothe Subtraits|TYPE=RotheDeepRaceTrait|Immunity to Cold											BONUS:VAR|DarkvisionRange|90|TYPE=Racial	BONUS:VAR|ColdResistanceBonus|20|TYPE=Resistance																		
-Dancing Lights	CATEGORY:Special Ability	TYPE:RotheDeepRaceTrait.SpecialAttack.SpellLike	VISIBLE:YES	DESC:Twice per day, a deep Roth&egrave; can cast dancing lights to signal other members of the herd, conveying information about the presence of food,danger and so on. They can cast the spell as 4th level sorcerers, with a range of 140-feet.	KEY:Rothe (Deep) ~ Dancing Lights																		SPELLS:Innate|TIMES=2|CASTERLEVEL=4|Dancing Light									SOURCEPAGE:FRCS30	
+Dancing Light	CATEGORY:Special Ability	TYPE:RotheDeepRaceTrait.SpecialAttack.SpellLike	VISIBLE:YES	DESC:Twice per day, a deep Roth&egrave; can cast dancing lights to signal other members of the herd, conveying information about the presence of food,danger and so on. They can cast the spell as 4th level sorcerers, with a range of 140-feet.	KEY:Rothe (Deep) ~ Dancing Lights																		SPELLS:Innate|TIMES=2|CASTERLEVEL=4|Dancing Light									SOURCEPAGE:FRCS30	
 Immune to Mold and Fungus	CATEGORY:Special Ability	TYPE:RotheDeepRaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:Roth&egrave; are immune to any ill effect of contact with mold and fungus or their spores.	KEY:Rothe (Deep) ~ Immune to Mold and Fungus																											SOURCEPAGE:FRCS30	
 																																	
 Race Traits ~ Rothe (Ghost)	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|Rothe Subtraits|TYPE=RotheGhostRaceTrait																														

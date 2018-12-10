@@ -1,0 +1,4 @@
+SOURCELONG:Complete Divine Errata	SOURCESHORT:CDe	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-10
+																																	
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
+CATEGORY=FEAT|Divine Metamagic.MOD	DESC:.CLEAR	DESC:When you take this feat, choose a metamagic feat that you have. This feat applies only to that metamagic feat. As a free action, you can take the energy from turning or rebuking undead and use it to apply a metamagic feat to divine spells that you know. You must spend one turn or rebuke attempt, plus an additional attempt for each level increase in the metamagic feat you're using. For example, Jozan the cleric could sacrifi ce three turn attempts to empower a holy smite he's casting. Because you're using positive or negative energy to augment your spells, the spell slot for the spell doesn't change.	SOURCEPAGE:CDe	

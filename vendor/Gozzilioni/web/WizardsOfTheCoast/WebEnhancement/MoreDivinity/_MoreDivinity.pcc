@@ -1,0 +1,31 @@
+CAMPAIGN:More Divinity
+GAMEMODE:G35e
+RANK:9
+TYPE:Gozzilioni.Partial.Web
+SETTING:Heroes
+BOOKTYPE:Web Enhancement
+SOURCELONG:More Divinity
+SOURCESHORT:WEMD
+SOURCEWEB:http://dnd.wizards.com
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Wizards of the Coast
+PUBNAMESHORT:WotC
+PUBNAMEWEB:http://dnd.wizards.com
+
+PRECAMPAIGN:2,Core Ruleset,Complete Divine
+
+ABILITY:wemd_abilities_classes.lst
+ABILITYCATEGORY:wemd_abilitycategories.lst
+CLASS:wemd_classes.lst
+
+# ENTRY DATE: 2015-12
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

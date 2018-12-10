@@ -1,0 +1,95 @@
+SOURCELONG:More Divinity	SOURCESHORT:WEMD	SOURCEWEB:http://dnd.wizards.com													
+#															
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE			
+# Class Name req	Requirements	FINE													
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS			
+# Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	SPELLLIST	spell level increases (BONUS:CASTERLEVEL)									
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)					
+CLASS:Dweomerkeeper	HD:6	TYPE:PC.Prestige	FACT:Abb|Dmk	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DweomerkeeperLVL|0	BONUS:VAR|DweomerkeeperLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Dweomerkeeper	PRESKILL:1,Knowledge (Arcana)=8	PRESKILL:1,Spellcraft=8	PREABILITY:1,CATEGORY=FEAT,TYPE=ItemCreation,TYPE:Metamagic	PRETEXT:Able to cast arcane and divine spells. Special: The candidate must have created at least one magic item, whether of a permanent nature or not.	PREDOMAIN:1,Magic										
+CLASS:Dweomerkeeper	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|TYPE.Knowledge|TYPE.Profession|Spellcraft													
+1				ABILITY:Dweomerkeeper Class Feature|AUTOMATIC|Dweomerkeeper ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DweomerkeeperProficiencies											
+1				ABILITY:Dweomerkeeper Class Feature|AUTOMATIC|Dweomerkeeper ~ Spells											
+#															
+1				ABILITY:Dweomerkeeper Class Feature|AUTOMATIC|Dweomerkeeper ~ Mantle of Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.DweomerkeeperMantleOfSpells											
+2				ABILITY:Dweomerkeeper Class Feature|AUTOMATIC|Dweomerkeeper ~ Arcane Sight|!PREABILITY:1,CATEGORY=ACF,TYPE.DweomerkeeperArcaneSight											
+4				ABILITY:Dweomerkeeper Class Feature|AUTOMATIC|Dweomerkeeper ~ Supernatural Spell|!PREABILITY:1,CATEGORY=ACF,TYPE.DweomerkeeperSupernaturalSpell											
+10				ABILITY:Dweomerkeeper Class Feature|AUTOMATIC|Dweomerkeeper ~ Cloak of Mysteries|!PREABILITY:1,CATEGORY=ACF,TYPE.DweomerkeeperCloakOfMysteries											
+#															
+1	ADD:SPELLCASTER|ANY														
+2	ADD:SPELLCASTER|ANY														
+3	ADD:SPELLCASTER|ANY														
+4	ADD:SPELLCASTER|ANY														
+5	ADD:SPELLCASTER|ANY														
+6	ADD:SPELLCASTER|ANY														
+7	ADD:SPELLCASTER|ANY														
+8	ADD:SPELLCASTER|ANY														
+9	ADD:SPELLCASTER|ANY														
+10	ADD:SPELLCASTER|ANY														
+															
+CLASS:Master of Shrouds	HD:8	TYPE:PC.Prestige	FACT:Abb|MSh	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:MasterOfShroudsLVL|0	BONUS:VAR|MasterOfShroudsLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Master of Shrouds	PRECHECKBASE:1,Will=5	PRETEXT:Ability to cast divine spells and a spell that appears on the spell list for the Death, Evil, or Protection domain.	PRESKILL:2,Concentration=10,Spellcraft=10	PREABILITY:1,CATEGORY=Special Ability,Rebuke Undead											
+CLASS:Master of Shrouds	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Intimidate|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Profession|Spellcraft													
+1				ABILITY:Master of Shrouds Class Feature|AUTOMATIC|Master of Shrouds ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfShroudsProficiencies											
+1				ABILITY:Master of Shrouds Class Feature|AUTOMATIC|Master of Shrouds ~ Spells											
+#															
+1				ABILITY:Master of Shrouds Class Feature|AUTOMATIC|Master of Shrouds ~ Summon Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfShroudsSummonUndead											
+2				ABILITY:Master of Shrouds Class Feature|AUTOMATIC|Master of Shrouds ~ Extra Turning|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfShroudsExtraTurning											
+#															
+1															
+2	ADD:SPELLCASTER|Divine														
+3															
+4	ADD:SPELLCASTER|Divine														
+5															
+6	ADD:SPELLCASTER|Divine														
+7															
+8	ADD:SPELLCASTER|Divine														
+9															
+10	ADD:SPELLCASTER|Divine														
+															
+CLASS:Moon Guardian	HD:8	TYPE:PC.Prestige	FACT:Abb|MGu	MAXLEVEL:5	SOURCEPAGE:CD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:MoonGuardianLVL|0	BONUS:VAR|MoonguardianLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Moon Guardian	PREALIGN:LG,NG,CG	PRETEXT:Ability to cast 3rd-level divine spells.	PRETEMPLATE:2,Lycanthrope,Afflicted Lycanthrope												
+CLASS:Moon Guardian	STARTSKILLPTS:2	CSKILL:Concentration|Control Shape|TYPE.Craft|Knowledge (Religion)|Spellcraft													
+SUBCLASS:Bear	COST:1	CSKILL:Listen|Spot|Swim	PREABILITY:1,CATEGORY=Internal,Lycanthrope ~ Bear												
+SUBCLASS:Boar	COST:1	CSKILL:Listen|Spot	PREABILITY:1,CATEGORY=Internal,Lycanthrope ~ Boar												
+SUBCLASS:Rat	COST:1	CSKILL:Climb|Hide|Listen|Move Silently|Spot|Swim	PREABILITY:1,CATEGORY=Internal,Lycanthrope ~ Rat												
+SUBCLASS:Tiger	COST:1	CSKILL:Balance|Hide|Listen|Move Silently|Spot|Swim	PREABILITY:1,CATEGORY=Internal,Lycanthrope ~ Tiger												
+SUBCLASS:Wolf	COST:1	CSKILL:Hide|Listen|Move Silently|Spot|Survival	PREABILITY:1,CATEGORY=Internal,Lycanthrope ~ Wolf												
+SUBCLASS:Dire Wolf	COST:1	CSKILL:Hide|Listen|Move Silently|Spot|Survival	PREABILITY:1,CATEGORY=Internal,Lycanthrope ~ Dire Wolf												
+SUBCLASS:Dire Boar	COST:1	CSKILL:Listen|Spot	PREABILITY:1,CATEGORY=Internal,Lycanthrope ~ Dire Boar												
+#															
+1				ABILITY:Moon Guardian Class Feature|AUTOMATIC|Moon Guardian ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MoonGuardianProficiencies											
+1				ABILITY:Moon Guardian Class Feature|AUTOMATIC|Moon Guardian ~ Spells											
+#															
+1				ABILITY:Moon Guardian Class Feature|AUTOMATIC|Moon Guardian ~ Natural Spell|!PREABILITY:1,CATEGORY=ACF,TYPE.MoonGuardianNaturalSpell											
+1				ABILITY:Moon Guardian Class Feature|AUTOMATIC|Moon Guardian ~ Voluntary Change|!PREABILITY:1,CATEGORY=ACF,TYPE.MoonGuardianVoluntaryChange											
+3				ABILITY:Moon Guardian Class Feature|AUTOMATIC|Moon Guardian ~ Rapid Change|!PREABILITY:1,CATEGORY=ACF,TYPE.MoonGuardianRapidChange											
+5				ABILITY:Moon Guardian Class Feature|AUTOMATIC|Moon Guardian ~ Instantaneous Change|!PREABILITY:1,CATEGORY=ACF,TYPE.MoonGuardianInstantaneousChange											
+#															
+2	ADD:SPELLCASTER|Divine														
+4	ADD:SPELLCASTER|Divine														
+															
+CLASS:Nightcloak	HD:8	TYPE:PC.Prestige	FACT:Abb|Nic	MAXLEVEL:10	SOURCEPAGE:CD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:NightcloakLVL|0	BONUS:VAR|NightcloakLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Nightcloak	PREALIGN:NE	PRETOTALAB:3	PRESKILL:2,Bluff=2,Move Silently=2	PRESKILL:1,Hide=4	PRESKILL:1,TYPE.Perform=4	PREABILITY:1,CATEGORY=FEAT,Iron Will	PRETEXT:Ability to cast 3rd-level divine spells.	PREDOMAIN:1,Evil							
+CLASS:Nightcloak	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Diplomacy|Heal|Hide|Knowledge (Arcana)|Knowledge (History)|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Sense Motive|Spellcraft													
+1				ABILITY:Nightcloak Class Feature|AUTOMATIC|Nightcloak ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.NightcloakProficiencies											
+1				ABILITY:Nightcloak Class Feature|AUTOMATIC|Nightcloak ~ Spells											
+#															
+1				ABILITY:Nightcloak Class Feature|AUTOMATIC|Nightcloak ~ Might of Darkness|!PREABILITY:1,CATEGORY=ACF,TYPE.NightcloakMightOfDarkness											
+2				ABILITY:Nightcloak Class Feature|AUTOMATIC|Nightcloak ~ Eyes of Night|!PREABILITY:1,CATEGORY=ACF,TYPE.NightcloakEyesOfNight											
+4				ABILITY:Nightcloak Class Feature|AUTOMATIC|Nightcloak ~ Shadow Talk|!PREABILITY:1,CATEGORY=ACF,TYPE.NightcloakShadowTalk											
+5				ABILITY:Nightcloak Class Feature|AUTOMATIC|Nightcloak ~ True Lies|!PREABILITY:1,CATEGORY=ACF,TYPE.NightcloakTrueLies											
+7				ABILITY:Nightcloak Class Feature|AUTOMATIC|Nightcloak ~ Grace of the Dark|!PREABILITY:1,CATEGORY=ACF,TYPE.NightcloakGraceOfTheDark											
+8				ABILITY:Nightcloak Class Feature|AUTOMATIC|Nightcloak ~ Minion of Night|!PREABILITY:1,CATEGORY=ACF,TYPE.NightcloakMinionOfNight											
+10				ABILITY:Nightcloak Class Feature|AUTOMATIC|Nightcloak ~ Voice of Ineffable Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.NightcloakVoiceOfIneffableEvil											
+#															
+1	ADD:SPELLCASTER|ANY														
+2	ADD:SPELLCASTER|ANY														
+3	ADD:SPELLCASTER|ANY														
+4	ADD:SPELLCASTER|ANY														
+5	ADD:SPELLCASTER|ANY														
+6	ADD:SPELLCASTER|ANY														
+7	ADD:SPELLCASTER|ANY														
+8	ADD:SPELLCASTER|ANY														
+9	ADD:SPELLCASTER|ANY														
+10	ADD:SPELLCASTER|ANY														

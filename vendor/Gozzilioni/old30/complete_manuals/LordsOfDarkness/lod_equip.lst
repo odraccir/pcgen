@@ -1,4 +1,4 @@
-SOURCELONG:Lords of Darkness 3.0	SOURCESHORT:LoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:10-2001			
+SOURCELONG:Lords of Darkness 3.0	SOURCESHORT:LoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-10
 #						
 # Equipment Name	Output Name	TYPE:	COST:	WT:	SOURCEPAGE:	
 Magic Tattoo		TYPE:Tattoo.Consumable	COST:0	WT:0	SOURCEPAGE:LoD	MODS:REQUIRED

@@ -1,4 +1,4 @@
-SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:02-2001																						
+SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
 #																									
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:|!PRERULE:1,DisplayFullSpell	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	Desc	Bonus	Bonus	
 Create Undead.MOD	DESC:A cleric of at least 14th level can create a baneguard using the create undead spell.																								

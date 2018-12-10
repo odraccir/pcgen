@@ -1,4 +1,4 @@
-SOURCELONG:Magic of Faerun 3.0	SOURCESHORT:MoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:02-2001																			
+SOURCELONG:Magic of Faerun 3.0	SOURCESHORT:MoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
 #																						
 #	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:
 Mix MOF_1	OUTPUTNAME:Mix (exotic herbs, ground, bones, onyx)	TYPE:Spellcomponent.MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:MoF30	DESC:Material component for Death Hallow	MODS:YES	SORTKEY:Mix (exotic herbs, ground, bones, onyx)														

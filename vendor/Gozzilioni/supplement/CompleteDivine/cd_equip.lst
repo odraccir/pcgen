@@ -1,0 +1,7 @@
+SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-05
+
+#																									
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:			
+Ofuda		TYPE:Scroll.Consumable	COST:0	WT:0	SOURCEPAGE:CD	MODS:REQUIRED																				
+
+Bogun		KEY:Bogun	TYPE:Monster.Construct.Container	COST:0	WT:0	SOURCEPAGE:CD	CONTAINS:UNLIM|Any	SPROP:Unlike a homunculus, a bogun is created from natural materials available in any forest. Thus, there is no gold piece cost for its creation. All materials used become permanent parts of the bogun. The creator must be at least 7th level and possess the Craft Wondrous Item feat to make a bogun.	BONUS:FOLLOWERS|Bogun|1

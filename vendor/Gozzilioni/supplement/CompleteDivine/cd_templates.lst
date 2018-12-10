@@ -1,0 +1,110 @@
+SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-05
+
+###Block: Known First Base Class - Barbarian Illiteracy Support
+# Template Name	Visible	Template		Choose
+#First Base Class	VISIBLE:NO	TEMPLATE:%LIST	CHOOSE:TEMPLATE|QUALIFIED[TYPE=BaseClass]
+Favored Soul	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Favored Soul=1
+Shugenja	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Shugenja=1
+Spirit Shaman	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Spirit Shaman=1
+#
+Spirit Who Walks	KEY:Spirit Shaman ~ Spirit Who Walks	PRECLASS:1,Spirit Shaman=20	VISIBLE:NO	RACETYPE:Fey	DR:5/Cold Iron
+
+Mystic Union ~ Adult	VISIBLE:NO	!PREAGESET:1,Middle Age	BONUS:STAT|STR,CON,DEX|1|PREMULT:2,[PREAGESET:1,Middle Age],[!PREAGESET:1,Old]	BONUS:STAT|STR,CON,DEX|3|PREMULT:2,[PREAGESET:1,Old],[!PREAGESET:1,Venerable]	BONUS:STAT|STR,CON,DEX|6|PREAGESET:1,Venerable
+Mystic Union ~ Middle Age	VISIBLE:NO	PREMULT:2,[PREAGESET:1,Middle Age],[!PREAGESET:1,Old]	BONUS:STAT|STR,CON,DEX|2|PREMULT:2,[PREAGESET:1,Old],[!PREAGESET:1,Venerable]	BONUS:STAT|STR,CON,DEX|5|PREAGESET:1,Venerable
+Mystic Union ~ Old	VISIBLE:NO	PREMULT:2,[PREAGESET:1,Old],[!PREAGESET:1,Venerable]	BONUS:STAT|STR,CON,DEX|3|PREAGESET:1,Venerable
+Mystic Union ~ Venerable	VISIBLE:NO	PREAGESET:1,Venerable
+Mystic Union	KEY:Contemplative ~ Mystic Union	PRECLASS:1,Contemplative=10	VISIBLE:NO	TEMPLATE:CHOOSE:Mystic Union ~ Adult|Mystic Union ~ Middle Age|Mystic Union ~ Old|Mystic Union ~ Venerable	RACETYPE:Outsider	RACESUBTYPE:Native	DR:10/Magic
+
+Perfect Self	KEY:Divine Crusader ~ Perfect Self	PRECLASS:1,Divine Crusader=10	VISIBLE:NO	RACETYPE:Outsider	RACESUBTYPE:Native	DR:10/Magic
+
+Antlers	VISIBLE:DISPLAY	KEY:Geomancer ~ Antlers	TEMPLATE:CHOOSE:Geomancer Antlers Fine|Geomancer Antlers Diminutive|Geomancer Antlers Tiny|Geomancer Antlers Small|Geomancer Antlers Medium|Geomancer Antlers Large|Geomancer Antlers Huge|Geomancer Antlers Gargantuan|Geomancer Antlers Colossal	PRECLASS:1,Geomancer=1																																		
+Geomancer Antlers Fine	VISIBLE:NO		PRESIZEEQ:F						NATURALATTACKS:Antlers,Weapon.Natural.Melee.Finesseable.Piercing,*1,1																													
+Geomancer Antlers Diminutive	VISIBLE:NO		PRESIZEEQ:D						NATURALATTACKS:Antlers,Weapon.Natural.Melee.Finesseable.Piercing,*1,1d2																													
+Geomancer Antlers Tiny	VISIBLE:NO		PRESIZEEQ:T						NATURALATTACKS:Antlers,Weapon.Natural.Melee.Finesseable.Piercing,*1,1d3																													
+Geomancer Antlers Small	VISIBLE:NO		PRESIZEEQ:S						NATURALATTACKS:Antlers,Weapon.Natural.Melee.Finesseable.Piercing,*1,1d4																													
+Geomancer Antlers Medium	VISIBLE:NO		PRESIZEEQ:M						NATURALATTACKS:Antlers,Weapon.Natural.Melee.Finesseable.Piercing,*1,1d6																													
+Geomancer Antlers Large	VISIBLE:NO		PRESIZEEQ:L						NATURALATTACKS:Antlers,Weapon.Natural.Melee.Finesseable.Piercing,*1,1d8																													
+Geomancer Antlers Huge	VISIBLE:NO		PRESIZEEQ:H						NATURALATTACKS:Antlers,Weapon.Natural.Melee.Finesseable.Piercing,*1,2d6																													
+Geomancer Antlers Gargantuan	VISIBLE:NO		PRESIZEEQ:G						NATURALATTACKS:Antlers,Weapon.Natural.Melee.Finesseable.Piercing,*1,2d8																													
+Geomancer Antlers Colossal	VISIBLE:NO		PRESIZEEQ:C						NATURALATTACKS:Antlers,Weapon.Natural.Melee.Finesseable.Piercing,*1,4d6																													
+																																						
+Talons	VISIBLE:DISPLAY	KEY:Geomancer ~ Talons	TEMPLATE:CHOOSE:Geomancer Talons Fine|Geomancer Talons Diminutive|Geomancer Talons Tiny|Geomancer Talons Small|Geomancer Talons Medium|Geomancer Talons Large|Geomancer Talons Huge|Geomancer Talons Gargantuan|Geomancer Talons Colossal	PRECLASS:1,Geomancer=1																																		
+Geomancer Talons Fine	VISIBLE:NO		PRESIZEEQ:F						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1	ABILITY:FEAT|AUTOMATIC|Weapon Finesse																												
+Geomancer Talons Diminutive	VISIBLE:NO		PRESIZEEQ:D						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1	ABILITY:FEAT|AUTOMATIC|Weapon Finesse																												
+Geomancer Talons Tiny	VISIBLE:NO		PRESIZEEQ:T						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1	ABILITY:FEAT|AUTOMATIC|Weapon Finesse																												
+Geomancer Talons Small	VISIBLE:NO		PRESIZEEQ:S						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1d2	ABILITY:FEAT|AUTOMATIC|Weapon Finesse																												
+Geomancer Talons Medium	VISIBLE:NO		PRESIZEEQ:M						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1d3	ABILITY:FEAT|AUTOMATIC|Weapon Finesse																												
+Geomancer Talons Large	VISIBLE:NO		PRESIZEEQ:L						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1d4	ABILITY:FEAT|AUTOMATIC|Weapon Finesse																												
+Geomancer Talons Huge	VISIBLE:NO		PRESIZEEQ:H						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,1d6	ABILITY:FEAT|AUTOMATIC|Weapon Finesse																												
+Geomancer Talons Gargantuan	VISIBLE:NO		PRESIZEEQ:G						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,2d6	ABILITY:FEAT|AUTOMATIC|Weapon Finesse																												
+Geomancer Talons Colossal	VISIBLE:NO		PRESIZEEQ:C						NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Slashing,*2,2d8	ABILITY:FEAT|AUTOMATIC|Weapon Finesse																												
+																																						
+Mouth	VISIBLE:DISPLAY	KEY:Geomancer ~ Mouth	TEMPLATE:CHOOSE:Geomancer Bite Fine|Geomancer Bite Diminutive|Geomancer Bite Tiny|Geomancer Bite Small|Geomancer Bite Medium|Geomancer Bite Large|Geomancer Bite Huge|Geomancer Bite Gargantuan|Geomancer Bite Colossal	PRECLASS:1,Geomancer=1																																		
+Geomancer Bite Fine	VISIBLE:NO		PRESIZEEQ:F						NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Slashing,*1,1																													
+Geomancer Bite Diminutive	VISIBLE:NO		PRESIZEEQ:D						NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Slashing,*1,1d2																													
+Geomancer Bite Tiny	VISIBLE:NO		PRESIZEEQ:T						NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Slashing,*1,1d3																													
+Geomancer Bite Small	VISIBLE:NO		PRESIZEEQ:S						NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Slashing,*1,1d4																													
+Geomancer Bite Medium	VISIBLE:NO		PRESIZEEQ:M						NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Slashing,*1,1d6																													
+Geomancer Bite Large	VISIBLE:NO		PRESIZEEQ:L						NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Slashing,*1,2d6																													
+Geomancer Bite Huge	VISIBLE:NO		PRESIZEEQ:H						NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Slashing,*1,2d8																													
+Geomancer Bite Gargantuan	VISIBLE:NO		PRESIZEEQ:G						NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Slashing,*1,4d6																													
+Geomancer Bite Colossal	VISIBLE:NO		PRESIZEEQ:C						NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Slashing,*1,4d8																													
+																																						
+Claws	VISIBLE:DISPLAY	KEY:Geomancer ~ Claws	TEMPLATE:CHOOSE:Geomancer Claw Fine|Geomancer Claw Diminutive|Geomancer Claw Tiny|Geomancer Claw Small|Geomancer Claw Medium|Geomancer Claw Large|Geomancer Claw Huge|Geomancer Claw Gargantuan|Geomancer Claw Colossal	PRECLASS:1,Geomancer=1																																		
+Geomancer Claw Fine	VISIBLE:NO		PRESIZEEQ:F						NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Slashing,*2,1																													
+Geomancer Claw Diminutive	VISIBLE:NO		PRESIZEEQ:D						NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Slashing,*2,1																													
+Geomancer Claw Tiny	VISIBLE:NO		PRESIZEEQ:T						NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Slashing,*2,1d2																													
+Geomancer Claw Small	VISIBLE:NO		PRESIZEEQ:S						NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Slashing,*2,1d3																													
+Geomancer Claw Medium	VISIBLE:NO		PRESIZEEQ:M						NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Slashing,*2,1d4																													
+Geomancer Claw Large	VISIBLE:NO		PRESIZEEQ:L						NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Slashing,*2,1d6																													
+Geomancer Claw Huge	VISIBLE:NO		PRESIZEEQ:H						NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Slashing,*2,2d6																													
+Geomancer Claw Gargantuan	VISIBLE:NO		PRESIZEEQ:G						NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Slashing,*2,2d8																													
+Geomancer Claw Colossal	VISIBLE:NO		PRESIZEEQ:C						NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Slashing,*2,4d6																													
+																																						
+Stinger	VISIBLE:DISPLAY	KEY:Geomancer ~ Stinger	TEMPLATE:CHOOSE:Geomancer Stinger Fine|Geomancer Stinger Diminutive|Geomancer Stinger Tiny|Geomancer Stinger Small|Geomancer Stinger Medium|Geomancer Stinger Large|Geomancer Stinger Huge|Geomancer Stinger Gargantuan|Geomancer Stinger Colossal	PRECLASS:1,Geomancer=1																																		
+Geomancer Stinger Fine	VISIBLE:NO		PRESIZEEQ:F						NATURALATTACKS:Stinger,Weapon.Natural.Melee.Finesseable.Piercing,*2,1																													
+Geomancer Stinger Diminutive	VISIBLE:NO		PRESIZEEQ:D						NATURALATTACKS:Stinger,Weapon.Natural.Melee.Finesseable.Piercing,*2,1																													
+Geomancer Stinger Tiny	VISIBLE:NO		PRESIZEEQ:T						NATURALATTACKS:Stinger,Weapon.Natural.Melee.Finesseable.Piercing,*2,1d2																													
+Geomancer Stinger Small	VISIBLE:NO		PRESIZEEQ:S						NATURALATTACKS:Stinger,Weapon.Natural.Melee.Finesseable.Piercing,*2,1d3																													
+Geomancer Stinger Medium	VISIBLE:NO		PRESIZEEQ:M						NATURALATTACKS:Stinger,Weapon.Natural.Melee.Finesseable.Piercing,*2,1d4																													
+Geomancer Stinger Large	VISIBLE:NO		PRESIZEEQ:L						NATURALATTACKS:Stinger,Weapon.Natural.Melee.Finesseable.Piercing,*2,1d6																													
+Geomancer Stinger Huge	VISIBLE:NO		PRESIZEEQ:H						NATURALATTACKS:Stinger,Weapon.Natural.Melee.Finesseable.Piercing,*2,2d6																													
+Geomancer Stinger Gargantuan	VISIBLE:NO		PRESIZEEQ:G						NATURALATTACKS:Stinger,Weapon.Natural.Melee.Finesseable.Piercing,*2,2d8																													
+Geomancer Stinger Colossal	VISIBLE:NO		PRESIZEEQ:C						NATURALATTACKS:Stinger,Weapon.Natural.Melee.Finesseable.Piercing,*2,4d6																													
+																																						
+Jaw	VISIBLE:DISPLAY	KEY:Geomancer ~ Jaw	TEMPLATE:CHOOSE:Geomancer Jaw Fine|Geomancer Jaw Diminutive|Geomancer Jaw Tiny|Geomancer Jaw Small|Geomancer Jaw Medium|Geomancer Jaw Large|Geomancer Jaw Huge|Geomancer Jaw Gargantuan|Geomancer Jaw Colossal	PRECLASS:1,Geomancer=1																																		
+Geomancer Jaw Fine	VISIBLE:NO		PRESIZEEQ:F						NATURALATTACKS:Jaw,Weapon.Natural.Melee.Finesseable.Slashing,*1,1																													
+Geomancer Jaw Diminutive	VISIBLE:NO		PRESIZEEQ:D						NATURALATTACKS:Jaw,Weapon.Natural.Melee.Finesseable.Slashing,*1,1																													
+Geomancer Jaw Tiny	VISIBLE:NO		PRESIZEEQ:T						NATURALATTACKS:Jaw,Weapon.Natural.Melee.Finesseable.Slashing,*1,1																													
+Geomancer Jaw Small	VISIBLE:NO		PRESIZEEQ:S						NATURALATTACKS:Jaw,Weapon.Natural.Melee.Finesseable.Slashing,*1,1d2																													
+Geomancer Jaw Medium	VISIBLE:NO		PRESIZEEQ:M						NATURALATTACKS:Jaw,Weapon.Natural.Melee.Finesseable.Slashing,*1,1d3																													
+Geomancer Jaw Large	VISIBLE:NO		PRESIZEEQ:L						NATURALATTACKS:Jaw,Weapon.Natural.Melee.Finesseable.Slashing,*1,1d4																													
+Geomancer Jaw Huge	VISIBLE:NO		PRESIZEEQ:H						NATURALATTACKS:Jaw,Weapon.Natural.Melee.Finesseable.Slashing,*1,1d6																													
+Geomancer Jaw Gargantuan	VISIBLE:NO		PRESIZEEQ:G						NATURALATTACKS:Jaw,Weapon.Natural.Melee.Finesseable.Slashing,*1,2d6																													
+Geomancer Jaw Colossal	VISIBLE:NO		PRESIZEEQ:C						NATURALATTACKS:Jaw,Weapon.Natural.Melee.Finesseable.Slashing,*1,2d8																													
+																																						
+Horn	VISIBLE:DISPLAY	KEY:Geomancer ~ Horn	TEMPLATE:CHOOSE:Geomancer Horn Fine|Geomancer Horn Diminutive|Geomancer Horn Tiny|Geomancer Horn Small|Geomancer Horn Medium|Geomancer Horn Large|Geomancer Horn Huge|Geomancer Horn Gargantuan|Geomancer Horn Colossal	PRECLASS:1,Geomancer=1																																		
+Geomancer Horn Fine	VISIBLE:NO		PRESIZEEQ:F						NATURALATTACKS:Gore,Weapon.Natural.Melee.Finesseable.Piercing,*1,1d2																													
+Geomancer Horn Diminutive	VISIBLE:NO		PRESIZEEQ:D						NATURALATTACKS:Gore,Weapon.Natural.Melee.Finesseable.Piercing,*1,1d3																													
+Geomancer Horn Tiny	VISIBLE:NO		PRESIZEEQ:T						NATURALATTACKS:Gore,Weapon.Natural.Melee.Finesseable.Piercing,*1,1d4																													
+Geomancer Horn Small	VISIBLE:NO		PRESIZEEQ:S						NATURALATTACKS:Gore,Weapon.Natural.Melee.Finesseable.Piercing,*1,1d6																													
+Geomancer Horn Medium	VISIBLE:NO		PRESIZEEQ:M						NATURALATTACKS:Gore,Weapon.Natural.Melee.Finesseable.Piercing,*1,1d8																													
+Geomancer Horn Large	VISIBLE:NO		PRESIZEEQ:L						NATURALATTACKS:Gore,Weapon.Natural.Melee.Finesseable.Piercing,*1,2d6																													
+Geomancer Horn Huge	VISIBLE:NO		PRESIZEEQ:H						NATURALATTACKS:Gore,Weapon.Natural.Melee.Finesseable.Piercing,*1,2d8																													
+Geomancer Horn Gargantuan	VISIBLE:NO		PRESIZEEQ:G						NATURALATTACKS:Gore,Weapon.Natural.Melee.Finesseable.Piercing,*1,4d6																													
+Geomancer Horn Colossal	VISIBLE:NO		PRESIZEEQ:C						NATURALATTACKS:Gore,Weapon.Natural.Melee.Finesseable.Piercing,*1,4d8																													
+																																						
+Wings	VISIBLE:DISPLAY	KEY:Geomancer ~ Wings	TEMPLATE:CHOOSE:Geomancer Feathered Wings|Geomancer Batlike Wings	PRECLASS:1,Geomancer=1																																		
+Geomancer Feathered Wings	VISIBLE:NO										DESC:Feathered Wings																											
+Geomancer Batlike Wings	VISIBLE:NO										DESC:Batlike Wings																											
+																																						
+Feets	VISIBLE:DISPLAY	KEY:Geomancer ~ Feets	TEMPLATE:CHOOSE:Geomancer Trample Fine|Geomancer Trample Diminutive|Geomancer Trample Tiny|Geomancer Trample Small|Geomancer Trample Medium|Geomancer Trample Large|Geomancer Trample Huge|Geomancer Trample Gargantuan|Geomancer Trample Colossal	PRECLASS:1,Geomancer=1																																		
+Geomancer Trample Fine	VISIBLE:NO		PRESIZEEQ:F						NATURALATTACKS:Trample,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d2																													
+Geomancer Trample Diminutive	VISIBLE:NO		PRESIZEEQ:D						NATURALATTACKS:Trample,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d3																													
+Geomancer Trample Tiny	VISIBLE:NO		PRESIZEEQ:T						NATURALATTACKS:Trample,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d4																													
+Geomancer Trample Small	VISIBLE:NO		PRESIZEEQ:S						NATURALATTACKS:Trample,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d6																													
+Geomancer Trample Medium	VISIBLE:NO		PRESIZEEQ:M						NATURALATTACKS:Trample,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,2d4																													
+Geomancer Trample Large	VISIBLE:NO		PRESIZEEQ:L						NATURALATTACKS:Trample,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,2d6																													
+Geomancer Trample Huge	VISIBLE:NO		PRESIZEEQ:H						NATURALATTACKS:Trample,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,2d8																													
+Geomancer Trample Gargantuan	VISIBLE:NO		PRESIZEEQ:G						NATURALATTACKS:Trample,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,4d6																													
+Geomancer Trample Colossal	VISIBLE:NO		PRESIZEEQ:C						NATURALATTACKS:Trample,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,4d8																													

@@ -1,4 +1,4 @@
-SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:02-2001																													
+SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
 #								
 #	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:			
 Golem (Gemstone/Ruby)		KEY:Golem ~ Gemstone ~ Ruby	TYPE:Monster.Construct.Container	COST:120000	WT:0	SOURCEPAGE:MCMoF	CONTAINS:UNLIM|Any	SPROP:CL 16th; Craft Construct (see page 303), limited wish, move earth, polymorph any object, and stone shape, creator must be 16th level.

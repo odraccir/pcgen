@@ -1,0 +1,456 @@
+SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-05
+#																										
+# Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus	
+Anger of the Noonday Sun				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Light	CLASSES:Druid=6	COMPS:V, S	CASTTIME:1 standard action	RANGE:10 ft.	TARGETAREA:All sighted creatures within 10-ft-radius burst centered on you.	DURATION:Instantaneous	SAVEINFO:Reflex negates	SPELLRES:Yes	DESC:This spell unleashes a blinding fl ash of sunlight originating with you and expanding outward.	SOURCEPAGE:CD									
+Awaken (Mass)				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Druid=8	COMPS:V, S, F, XP	CASTTIME:24 hours	RANGE:Medium	TARGETAREA:One animal or tree/three levels, no two of which may be more than 30 ft. apart.	DURATION:Instantaneous	SAVEINFO:See text	SPELLRES:Yes	DESC:You awaken one or more trees or animals to humanlike sentience. XP Cost: 250 XP per creature awakened.	SOURCEPAGE:CD			XPCOST:250						
+Bane Bow				TYPE:Spell	SCHOOL:Evocation			CLASSES:Ranger=4	COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Ranged weapon touched.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:This spell allows you to channel divine power into any ranged weapon you choose.	SOURCEPAGE:CD									
+Beast Claws				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Cleric=4|Druid=3	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Beast claws changes your hands and fi ngers, giving you long, curving claws and heavy knuckles.	SOURCEPAGE:CD							TEMPBONUS:PC|VAR|SpellClawsOfTheBeast|1|TYPE=Temporary		
+Beget Bogun				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation		CLASSES:Druid=1	COMPS:V, S, M, XP	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Tiny construct.	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:Beget bogun allows you to infuse living magic into a small mannequin that you have created from vegetable matter. Material Component: The mannequin from which the bogun is created. XP Cost: 25 XP.	SOURCEPAGE:CD			XPCOST:25						
+Bestow Curse (Greater)				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Bard=6|Cleric=7|Sorcerer=78|Wizard=8	COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched.	DURATION:Permanent	SAVEINFO:Will negates	SPELLRES:Yes	DESC:The spellcaster places a curse on the creature touched, choosing one of the three following effects.	SOURCEPAGE:CD									
+Binding Winds				TYPE:Spell	SCHOOL:Evocation			CLASSES:Druid=5	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One creature.	DURATION:Concentration	SAVEINFO:Reflex negates	SPELLRES:Yes	DESC:You create a flurry of air to encircle and hold your target.	SOURCEPAGE:CD									
+Blast of Force				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Force		COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:Ray.	DURATION:Instantaneous	SAVEINFO:Fortitude partial	SPELLRES:Yes	DESC:You direct an invisible blast of force at a chosen target.	SOURCEPAGE:CD									
+Blessed Aim				TYPE:Spell	SCHOOL:Divination			CLASSES:Blackguard=2|Cleric=3|Paladin=2	COMPS:V, S	CASTTIME:1 standard action	RANGE:60 ft.	TARGETAREA:60-ft-spread, centered on you.	DURATION:Concentration	SAVEINFO:Will negates (partial)	SPELLRES:No	DESC:This spell grants a +2 morale bonus on all ranged attacks for your allies within the spread.	SOURCEPAGE:CD							TEMPBONUS:ANYPC|COMBAT|TOHIT.Ranged|2|TYPE=Morale		
+Blessing of Bahamut				TYPE:Spell	SCHOOL:Abjuration		DESCRIPTOR:Good	CLASSES:Paladin=3	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Your skin takes on a platinum sheen that protects you from the weapons of your enemies. Material Component: A canary feather, which is fl ung into the air.	SOURCEPAGE:CD							TEMPBONUS:PC|VAR|SpellBlessingOfBahamut|1|TYPE=Temporary		
+Blink (Improved)				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Bard=5|Sorcerer=5|Wizard=5	COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Like the 3rd-level arcane spell blink, you fl icker back and forth between the Material and Ethereal planes .	SOURCEPAGE:CD									
+Body of the Sun				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Force	CLASSES:Druid=2|Sorcerer=2|Wizard=2	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:5 ft.	TARGETAREA:5-ft-radius emanation centered on you.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:By drawing on the power of the sun, you cause your body to emanate fire.	SOURCEPAGE:CD									
+Bolt of Glory				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Good		COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:Ray.	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:Yes	DESC:By casting this spell, you project a bolt of energy from the Positive Energy Plane against one creature.	SOURCEPAGE:CD									
+Bolt of Bedevilment				TYPE:Spell	SCHOOL:Enchantment		DESCRIPTOR:Mind-Affecting		COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:Ray.	DURATION:1 round/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:This spell grants you the ability to make one ray attack per round.	SOURCEPAGE:CD									
+Bottle of Smoke				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation		CLASSES:Druid=4|Ranger=3	COMPS:V, S, F	CASTTIME:10 minutes	RANGE:Touch	TARGETAREA:One smoky horselike creature.	DURATION:1 hour/level	SAVEINFO:None	SPELLRES:No	DESC:You use a fi re source to create a plume of smoke that you capture in a special bottle you're holding. Focus: An ornate, corked bottle worth at least 50 gp.	SOURCEPAGE:CD									
+Brain Spider				TYPE:Spell	SCHOOL:Divination		DESCRIPTOR:Mind-Affecting	CLASSES:Cleric=8	COMPS:V, S, M, DF	CASTTIME:1 full round	RANGE:Long	TARGETAREA:Up to eight living creatures within range.	DURATION:1 minute/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:This spell allows you to eavesdrop as a standard action on the thoughts of up to eight other creatures at once, hearing as desired. Material Component: A spider of any size or type. It may be dead, but must still have all eight legs.	SOURCEPAGE:CD									
+Brambles				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Cleric=2|Druid=2	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Wooden weapon touched.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Small magical thorns or spikes protrude from the surface of a wooden weapon, such as a club, greatclub, nunchaku, or quarterstaff. Material Component: A small thorn.	SOURCEPAGE:CD									
+Briar Web				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Cleric=3|Druid=2|Ranger=2	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:Plants in a 20-ft-radius spread.	DURATION:1 minute/level	SAVEINFO:Reflex negates; see text	SPELLRES:No	DESC:This spell causes grasses, weeds, bushes, and even trees to grow thorns and then wrap and twist around creatures in or entering the area.	SOURCEPAGE:CD									
+Brialliant Aura				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Druid=7	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:1 person/2 levels, all of whom must be within 30-ft of each other.	DURATION:1 round/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:You limn your allies in a glowing nimbus, transforming their attacks into brilliant energy.	SOURCEPAGE:CD									
+Camouflage				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Druid=1|Ranger=1	COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:10 minutes/level	SAVEINFO:None	SPELLRES:No	DESC:You change the coloring of your skin and clothing to match the environment around you.	SOURCEPAGE:CD							TEMPBONUS:PC|SKILL|Hide|10|TYPE=Circumstance		
+Camouflage (Mass)				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Druid=4|Ranger=4	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:Any number of creatures, no two of which can be more than 60 ft. apart.	DURATION:10 minutes/level	SAVEINFO:None	SPELLRES:No	DESC:As camoufl age, except the effect is mobile with the group.	SOURCEPAGE:CD							TEMPBONUS:ANYPC|SKILL|Hide|10|TYPE=Circumstance		
+Castigate				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Sonic	CLASSES:Cleric=4	COMPS:V	CASTTIME:1 standard action	RANGE:10 ft.	TARGETAREA:10-ft-radius emanation.	DURATION:Instantaneous	SAVEINFO:Fortitude half	SPELLRES:Yes	DESC:This spell allows you to verbally rebuke foes.	SOURCEPAGE:CD									
+Chain of Eyes				TYPE:Spell	SCHOOL:Divination			CLASSES:Cleric=3|Druid=4	COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Living creature touched.	DURATION:1 hour/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:You can use a creature's vision instead of your own.	SOURCEPAGE:CD									
+Cloudburst				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Water	CLASSES:Druid=2	COMPS:V, S	CASTTIME:1 full round	RANGE:Long	TARGETAREA:100-ft-radius emanation.	DURATION:10 minutes/level	SAVEINFO:None	SPELLRES:No	DESC:You cause clouds to gather and a heavy rain to fall.	SOURCEPAGE:CD									
+Cloudwalkers				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Druid=7	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature/level, no two ow which can be more than 20-ft apart.	DURATION:1 hour/level	SAVEINFO:Reflex negates (harmless)	SPELLRES:Yes	DESC:You create gaseous pads of cloudstuff on the subject's feet, allowing them to walk on the clouds.	SOURCEPAGE:CD									
+Cometfall				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation		CLASSES:Cleric=6|Druid=6	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:400-pound ball of rock and ice.	DURATION:Instantaneous	SAVEINFO:Reflex half	SPELLRES:No	DESC:You conjure a bright, glowing comet, which appears in midair above your enemies, then strikes the ground with tremendous force.	SOURCEPAGE:CD									
+Contagious Touch				TYPE:Spell	SCHOOL:Necromancy			CLASSES:Druid=6	COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Upon casting this spell, you must choose one disease from this list: blinding sickness, cackle fever, filth fever, mindfire, red ache, the shakes, or slimy doom (see Disease, page 292 of the Dungeon Master's Guide, for descriptions).	SOURCEPAGE:CD									
+Creeping Cold				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Cold	CLASSES:Druid=2	COMPS:V, S, F	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature.	DURATION:3 rounds	SAVEINFO:Fortitude half	SPELLRES:Yes	DESC:You turn the subject's sweat to ice, creating blisters as the ice forms on and inside the skin. Focus: A small glass or pottery vessel worth at least 25 gp filled with ice, snow, or water.	SOURCEPAGE:CD		COST:25							
+Creeping Cold (Greater)				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Cold	CLASSES:Druid=7	COMPS:V, S, F	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature.	DURATION:See text	SAVEINFO:Fortitude half	SPELLRES:Yes	DESC:This spell is the same as creeping cold, but it adds a fourth round to the duration, during which it deals 4d6 points of damage. Focus: A small glass or pottery vessel worth at least 25 gp filled with ice, snow, or water.	SOURCEPAGE:CD		COST:25							
+Crown of Glory				TYPE:Spell	SCHOOL:Evocation				COMPS:V, S, M, DF	CASTTIME:1 full round	RANGE:120 ft.	TARGETAREA:120-ft-radius emanation, centered on you.	DURATION:1 minute/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:You are imbued with an aura of celestial authority, inspiring awe in all lesser creatures that behold your terrible perfection and righteousness. Material Component: An opal worth at least 200 gp.	SOURCEPAGE:CD							TEMPBONUS:ANYPC|STAT|CHA|4|TYPE=Enhancement		
+Crumble				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Druid=6	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One structure or construct.	DURATION:Instantaneous	SAVEINFO:Fortitude partial (object)	SPELLRES:Yes	DESC:You bring the forces of erosion to bear on a fabricated structure such as a stone bridge, a wooden building, an iron wall, a construct, or any other object not formed by nature itself.	SOURCEPAGE:CD									
+Curse of Ill Fortune				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Blackguard=2|Cleric=2	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One living creature.	DURATION:1 minute/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:You place a temporary curse upon the subject, giving her a -3 penalty on attack rolls, saving throws, ability checks, and skill checks.	SOURCEPAGE:CD							TEMPBONUS:ANYPC|COMBAT|TOHIT.Melee|-3	TEMPBONUS:ANYPC|SAVE|ALL|-3	TEMPBONUS:ANYPC|SKILL|ALL|-3
+Curse of Lycanthropy				TYPE:Spell	SCHOOL:Necromancy				COMPS:V, S, M, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Humanoid touched.	DURATION:Permanent; see text	SAVEINFO:Fortitude negates	SPELLRES:Yes	DESC:You can cause temporary lycanthropy in a humanoid you touch. Material Component: A pint of animal blood.	SOURCEPAGE:CD									
+Dance of the Unicorn				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Druid=5	COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:1 minute/level	SAVEINFO:None	SPELLRES:No	DESC:You surround yourself with a purifying, swirling mist with a radius of 5 feet per caster level that washes the air clean of smoke dust, and poisons.	SOURCEPAGE:CD									
+Death Pact				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Cleric=8	COMPS:V, S, M, DF, XP	CASTTIME:10 minutes	RANGE:Touch	TARGETAREA:Willing living creature touched.	DURATION:Permanent until triggered	SAVEINFO:None	SPELLRES:No	DESC:This spell allows the target to enter into a binding agreement with your deity that brings the target back to life if she is slain. Material Component: A diamond worth at least 500 gp. XP cost: 250 XP.	SOURCEPAGE:CD		COST:500	XPCOST:250				TEMPBONUS:ANYPC|STAT|CON|-2		
+Decomposition				TYPE:Spell	SCHOOL:Necromancy			CLASSES:Druid=2	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:50 ft.	TARGETAREA:All enemies within 50-ft-radius emanation centered on you.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:Yes	DESC:Whenever an enemy within the area takes normal (not subdual) damage, that wound festers for an additional 1 point of damage per round thereafter for the duration of the spell.	SOURCEPAGE:CD									
+Deific Vengeance				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Summoning		CLASSES:Cleric=2	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature.	DURATION:Instantaneous	SAVEINFO:Will half	SPELLRES:Yes	DESC:When you cast this spell, you call out to a deity, listing the crimes of your target and urging the deity to punish the miscreant.	SOURCEPAGE:CD									
+Detect Favored Enemy				TYPE:Spell	SCHOOL:Divination			CLASSES:Ranger=3	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:60 ft.	TARGETAREA:Quarter circle emanating from you to the extreme of the range	DURATION:Concentration, up to 10 minutes/level	SAVEINFO:None	SPELLRES:No	DESC:You can sense the presence of a favored enemy.	SOURCEPAGE:CD									
+Divine Agility				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Cleric=5	COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Living creature touched.	DURATION:1 round/level	SAVEINFO:Will negates (harmless)	SPELLRES:No	DESC:Calling on the divine power of your patron, you imbue a living creature with agility and skill in combat.	SOURCEPAGE:CD									
+Divine Sacrifice				TYPE:Spell	SCHOOL:Evocation			CLASSES:Blackguard=1|Paladin=1	COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:You can sacrifi ce life force to increase the damage you deal.	SOURCEPAGE:CD									
+Doomtide				TYPE:Spell	SCHOOL:Illusion	SUBSCHOOL:Pattern		CLASSES:Cleric=4	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:80 ft.	TARGETAREA:Eight 10-ft-cubes extending from the caster's location	DURATION:1 round/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:You fill an area with illusory black, creeping mist that vaguely resembles thousands of slender grasping tentacles.	SOURCEPAGE:CD									
+Dragon Breath				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Good|Evil	CLASSES:Cleric=5|Sorcerer=5|Wizard=5	COMPS:V, S, M/DF	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:You gain the ability to breathe a gout of energy that mimics a dragon's breath as a standard action.	SOURCEPAGE:CD									
+Dream Sight				TYPE:Spell	SCHOOL:Divination				COMPS:S, DF	CASTTIME:1 full round	RANGE:See text	TARGETAREA:You.	DURATION:1 minute/level	SAVEINFO:None	SPELLRES:No	DESC:You fall into a deep sleep while your spirit leaves your body in incorporeal form and travels to distant locations.	SOURCEPAGE:CD									
+Energy Vortex				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Acid|Cold|Fire|Electricity|Sonic	CLASSES:Cleric=4|Druid=4	COMPS:V, S	CASTTIME:1 standard action	RANGE:20 ft.	TARGETAREA:All creatures within 20-ft-radius burst centered on you.	DURATION:Instantaneous	SAVEINFO:Reflex half	SPELLRES:Yes	DESC:When you cast energy vortex, you choose one of fi ve energy types: acid, cold, fi re, electricity, or sonic.	SOURCEPAGE:CD									
+Enveloping Cocoon				TYPE:Spell	SCHOOL:Evocation			CLASSES:Druid=6	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:Cocoon of force around one Large or smaller creature.	DURATION:1 round/level	SAVEINFO:Reflex negates	SPELLRES:Yes	DESC:A cocoon of shimmering blue-green energy encloses a creature of size Large or smaller, containing it for the spell's duration or until it's destroyed. Material Component: A live caterpillar.	SOURCEPAGE:CD									
+Fire Wings				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Fire	CLASSES:Druid=3	COMPS:V, S, M, F	CASTTIME:1 full round	RANGE:Personal	TARGETAREA:You.	DURATION:1 minute/level	SAVEINFO:None	SPELLRES:No	DESC:This spell transforms your arms into wings of brilliant fire. Material Component: the feather of a bird, which you must burn when you cast the spell. Focus: A golden amulet shaped like a phoenix.	SOURCEPAGE:CD									
+Fires of Purity				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Fire	CLASSES:Druid=6|Sorcerer=6|Wizard=6	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched.	DURATION:1 round/level	SAVEINFO:Reflex negates (harmless); see text	SPELLRES:Yes	DESC:The creature you touch bursts into magical fl ames that do not harm the target, but are quite capable of harming anyone else who comes into contact with them.	SOURCEPAGE:CD									
+Flame of Faith				TYPE:Spell	SCHOOL:Evocation			CLASSES:Cleric=3	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Nonmagical weapon touched.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:You can temporarily turn any single normal or masterwork melee weapon into a magical, flaming one. Material Focus: A lump of phosphorus, touched to the target weapon.	SOURCEPAGE:CD									
+Forestfold				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Druid=4|Ranger=3	COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:10 minutes/level	SAVEINFO:None	SPELLRES:No	DESC:This spell grants you a +20 competence bonus on Hide and Move Silently checks.	SOURCEPAGE:CD							TEMPBONUS:PC|SKILL|Hide,Move Silently|20|TYPE=Competence		
+Golden Barding				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Force	CLASSES:Blackguard=1|Paladin=1	COMPS:V, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Special mount touched	DURATION:1 hour/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:You conjure forth a glowing, golden suit of barding for your special mount.	SOURCEPAGE:CD									
+Hawkeye				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Druid=1|Ranger=1	COMPS:V	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:10 minutes/level	SAVEINFO:None	SPELLRES:No	DESC:This spell gives you the ability to see accurately at long distances.	SOURCEPAGE:CD							TEMPBONUS:PC|SKILL|Spot|5|TYPE=Competence		
+Implacable Pursuer				TYPE:Spell	SCHOOL:Divination			CLASSES:Blackguard=4|Ranger=4	COMPS:V, S	CASTTIME:1 minute	RANGE:Long	TARGETAREA:One creature.	DURATION:1 hour/level	SAVEINFO:Will negates; see text	SPELLRES:Yes	DESC:With this spell, you become an unerring tracker, instantly aware of your quarry's location whenever it's on the move.	SOURCEPAGE:CD									
+Infestation of Maggots				TYPE:Spell	SCHOOL:Necromancy			CLASSES:Druid=3	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched.	DURATION:1 round/2 levels	SAVEINFO:Fortitude negates	SPELLRES:Yes	DESC:With a successful melee touch attack, you infest a creature with maggotlike creatures. Material Component: A handful of dead, dried flies.	SOURCEPAGE:CD									
+Languor				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Druid=4	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:Ray.	DURATION:1 round/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:This spell causes creatures it hits to become weak and slow.	SOURCEPAGE:CD									
+Last Breath				TYPE:Spell	SCHOOL:Necromancy			CLASSES:Druid=4	COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Dead creature touched.	DURATION:Instantaneous	SAVEINFO:None (harmless); see text	SPELLRES:Yes	DESC:With this spell, you can return a dead creature to 0 hit points, provided it died within the last round.	SOURCEPAGE:CD									
+Maddening Scream				TYPE:Spell	SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Mind-Affecting		COMPS:V	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Living creature touched.	DURATION:1d4+1 rounds	SAVEINFO:None	SPELLRES:Yes	DESC:The subject cannot keep himself from screaming, gibbering, and leaping about as though completely mad.	SOURCEPAGE:CD							TEMPBONUS:ANYPC|COMBAT|AC|-4		
+Maelstrom				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation			COMPS:V, S, DF	CASTTIME:1 full round	RANGE:Long	TARGETAREA:A whirlpool 120-ft wide and 60-ft deep.	DURATION:1 round/level	SAVEINFO:Reflex negates; see text	SPELLRES:No	DESC:Maelstrom causes a deadly vortex to form in water. A body of water at least 120 feet wide and 60 feet deep must be present, or the spell is wasted.	SOURCEPAGE:CD									
+Mark of the Hunter				TYPE:Spell	SCHOOL:Divination			CLASSES:Ranger=3	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One creature, which must be a favored enemy of the caster.	DURATION:10 minutes/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:By pointing your fi gure at a favored enemy of yours, you mark it with a glowing rune that only you can see. Material Component: A bit of skin or bone from the relevant favored enemy type.	SOURCEPAGE:CD									
+Miasma				TYPE:Spell	SCHOOL:Evocation			CLASSES:Druid=6	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One living creature.	DURATION:3 rounds/level	SAVEINFO:See text	SPELLRES:Yes	DESC:By filling the subject's mouth and throat with unbreathable gas, you prevent him from doing much more than coughing and spitting.	SOURCEPAGE:CD									
+Monstrous Thrall				TYPE:Spell	SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Mind-Affecting		COMPS:V, S, XP	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One creature.	DURATION:Instantaneous	SAVEINFO:Will negates	SPELLRES:Yes	DESC:As true domination, except the subject can be any creature and is permanently dominated if it fails its initial Will save. XP Cost: 500 XP per Hit Die or level of the subject.	SOURCEPAGE:CD			XPCOST:500						
+Murderous Mist				TYPE:Spell	SCHOOL:Evocation			CLASSES:Druid=4	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:Cloud that spreads in 30-ft-radius, 20-ft high.	DURATION:1 round/level	SAVEINFO:Reflex half; see text	SPELLRES:Yes	DESC:You create a cloud of scalding hot steam that moves in a straight line, away from you, at a speed of 10 feet per round.	SOURCEPAGE:CD									
+Nature's Avatar				TYPE:Spell	SCHOOL:Evocation			CLASSES:Druid=9	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Animal touched.	DURATION:1 minute/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:You infuse the subject with the spirit of nature.	SOURCEPAGE:CD									
+Nature's Favor				TYPE:Spell	SCHOOL:Evocation			CLASSES:Druid=3|Ranger=3	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Animal touched.	DURATION:1 minute/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:By calling on the power of nature, you grant the target animal a +1 luck bonus on attack and damage rolls for every 2 caster levels you possess.	SOURCEPAGE:CD									
+Naturewatch				TYPE:Spell	SCHOOL:Necromancy			CLASSES:Druid=0|Ranger=1	COMPS:S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:Quarter circle emanating from you to the extreme of the range	DURATION:10 minutes/level	SAVEINFO:None	SPELLRES:No	DESC:This spell is identical to deathwatch, but only functions on animals and plants.	SOURCEPAGE:CD									
+Nimbus of Light				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Light	CLASSES:Cleric=1|Paladin=1	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:1 minute/level or until discharged	SAVEINFO:None	SPELLRES:No	DESC:A glittering corona of sunlight surrounds your body at a few inches distance-until you release it as a focused blast of divine energy.	SOURCEPAGE:CD									
+Obedient Avalanche				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Cold		COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:20-ft-radius avalanche of snow, centered anywhere within range; see text.	DURATION:Instantaneous	SAVEINFO:Reflex half; see text	SPELLRES:No	DESC:You summon an avalanche of snow out of a rift in midair, burying your foes and sending them to a frosty death.	SOURCEPAGE:CD									
+Omen of Peril				TYPE:Spell	SCHOOL:Divination			CLASSES:Cleric=1|Druid=1	COMPS:V, F	CASTTIME:1 full round	RANGE:Personal	TARGETAREA:You.	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:A brief supplication gives you (and only you) a vision that hints at how dangerous the immediate future is likely to be. Focus: A set of marked sticks, bones, or similar tokens of at least 25 gp value.	SOURCEPAGE:CD		COST:25							
+Otyugh Swaem				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation			COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:Three or more oyughs, no two of which are more than 30 ft apart.	DURATION:Seven days or seven months; see text	SAVEINFO:None	SPELLRES:No	DESC:Otyugh swarm creates otyughs from a large collection of refuse and filth, such as a sewer or cesspool.	SOURCEPAGE:CD									
+Pavilion of Grandeur				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation			COMPS:V, S, DF	CASTTIME:10 minutes	RANGE:Close	TARGETAREA:Extradimensional pavillion, up to five 10-ft cubes/level, plus feastr for 12 creatures.	DURATION:1 day/level plus 12 hours; see text	SAVEINFO:None	SPELLRES:No	DESC:You conjure up a grand pavilion-sized tent that has a single entrance on the plane from which the spell was cast.	SOURCEPAGE:CD									
+Phantasmal Decoy				TYPE:Spell	SCHOOL:Illusion	SUBSCHOOL:Phantasm	DESCRIPTOR:Mind-Affecting	CLASSES:Ranger=3	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One living creature.	DURATION:1 round/level	SAVEINFO:Will disbelief (if interacted with)	SPELLRES:Yes	DESC:You create a phantasmal image of the subject's most hated enemy by sifting through the subconscious mind of the subject.	SOURCEPAGE:CD									
+Phantasmal Disorientation				TYPE:Spell	SCHOOL:Illusion	SUBSCHOOL:Phantasm	DESCRIPTOR:Mind-Affecting	CLASSES:Druid=6	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One living creature.	DURATION:10 minutes/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:You create ever-shifting phantasmal terrain and landmarks that confuse the subject when it tries to move.	SOURCEPAGE:CD									
+Phantom Bear				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Summoning		CLASSES:Druid=9	COMPS:V, S, DF	CASTTIME:1 full round	RANGE:Medium	TARGETAREA:One summoned phantom bear.	DURATION:Concentration up to 1 round/level.	SAVEINFO:None	SPELLRES:No	DESC:As phantom wolf, except you instead conjure an incorporeal bear with a fearsome roar.	SOURCEPAGE:CD									
+Phantom Stag				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation		CLASSES:Druid=5	COMPS:V, S	CASTTIME:1 standard action	RANGE:0 ft.	TARGETAREA:One quasi-real, staglike creature	DURATION:1 hour/level	SAVEINFO:None; see text	SPELLRES:No	DESC:You conjure a Large, corporeal staglike creature that bears you or a person you designate into combat or overland at great speed.	SOURCEPAGE:CD									
+Phantom Wolf				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Summoning		CLASSES:Druid=8	COMPS:V, S, DF	CASTTIME:1 full round	RANGE:Medium	TARGETAREA:One summoned phantom wolf.	DURATION:Concentration up to 1 round/level.	SAVEINFO:None	SPELLRES:No	DESC:You conjure forth an incorporeal white wolf with abnormally large, frosty jaws.	SOURCEPAGE:CD									
+Plague of Rats				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Summoning			COMPS:V, S, DF	CASTTIME:1 full round	RANGE:Medium	TARGETAREA:Swarm of dire rats in a 20-ft-spread.	DURATION:1 round/level	SAVEINFO:None; see text	SPELLRES:Yes	DESC:A swarm of dire rats viciously attacks all other creatures within a 20-foot spread, inflicting damage and spreading filth fever (see page 292 of the Dungeon Master's Guide).	SOURCEPAGE:CD									
+Poison Thorns				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Druid=5	COMPS:V	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Black, glistening thorns emerge from your skin, causing you no damage but endangering those who attack you in melee. Material Component: A dried black rose.	SOURCEPAGE:CD									
+Poison Vines				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation		CLASSES:Druid=7	COMPS:V, S, F	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:Spread of 10-ft radius/level	DURATION:10 minutes/level	SAVEINFO:Fortitude negates; see text	SPELLRES:Yes	DESC:As vine mine, but the vines you create are poisonous (contact, 1d6 Dex/2d6 Dex).	SOURCEPAGE:CD									
+Probe Thoughts				TYPE:Spell	SCHOOL:Divination		DESCRIPTOR:Mind-Affecting	CLASSES:Sorcerer=6|Wizard=6	COMPS:V, S	CASTTIME:1 minute	RANGE:Close	TARGETAREA:One living creature.	DURATION:Concentration	SAVEINFO:Fortitude negates; see text	SPELLRES:Yes	DESC:All the subject's memories and knowledge are accessible to you, ranging from memories deep below the surface to those still easily called to mind.	SOURCEPAGE:CD									
+Quill Blast				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation		CLASSES:Druid=5	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:20 ft.	TARGETAREA:20-ft-radius spread, centered on you.	DURATION:Instantaneous	SAVEINFO:Reflex half; see text	SPELLRES:Yes	DESC:Needle-sharp quills emerge from your skin as you cast this spell, then fl y outward in every direction when you complete the spell. Material Component: Porcupine quill.	SOURCEPAGE:CD									
+Recitation				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation		CLASSES:Cleric=4	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:60 ft.	TARGETAREA:All allies and foes within 60-ft-radius burst centered on you.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:By reciting a sacred passage or declaration, you invoke your deity's blessing upon yourself and your allies while causing confusion and weakness among your enemies. Divine Focus: In addition to your holy symbol, this spell requires a sacred text as a divine focus.	SOURCEPAGE:CD									
+Rejuvenation Cocoon				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Healing		CLASSES:Druid=5	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Willing creature touched.	DURATION:2 rounds	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:With this spell, you create a temporary cocoon of energy around a creature you touch that provides healing and a measure of protection. Material Component: Cocoon from a butterfl y.	SOURCEPAGE:CD									
+Renewal Pact				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Healing		CLASSES:Cleric=7	COMPS:V, S, DF, XP	CASTTIME:10 minutes	RANGE:Touch	TARGETAREA:Willing living creature touched.	DURATION:Permanent until triggered	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:This spell creates a pact between the target and a deity that uses divine energy to wipe away any of a host of conditions that may afflict the target. XP Cost: 500 XP.	SOURCEPAGE:CD			XPCOST:500						
+Resurgence				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Blackguard=1|Cleric=1|Paladin=1	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched.	DURATION:Instantaneous	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:By laying hands on a creature and saying a brief prayer, you can convince a higher power to grant a second chance to one of your allies.	SOURCEPAGE:CD									
+Resurgence (Mass)				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Blackguard=3|Cleric=4|Paladin=3	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature/level, no two of which can be more thn 30-ft apart.	DURATION:Instantaneous	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:This spell functions like resurgence, except that it affects multiple creatures.	SOURCEPAGE:CD									
+Revenance				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Healing		CLASSES:Blackguard=4|Cleric=4|Paladin=4	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Dead ally touched.	DURATION:1 minute/level	SAVEINFO:None (harmless); see text	SPELLRES:Yes	DESC:You touch a recently slain ally and temporarily restore her to life so she may continue to fight.	SOURCEPAGE:CD									
+Righteous Wrath of the Faithful				TYPE:Spell	SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Mind-Affecting	CLASSES:Cleric=7	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:30 ft	TARGETAREA:All allies within 30-ft-radius burst centered on you.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:Yes	DESC:When you cast this spell, you fi re your allies and companions with a divine madness or fury that greatly enhances their combat ability.	SOURCEPAGE:CD									
+Sacred Haven				TYPE:Spell	SCHOOL:Abjuration		DESCRIPTOR:Good	CLASSES:Paladin=4	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched.	DURATION:1 minute/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:You shield one creature in a nimbus of holy energy.	SOURCEPAGE:CD								TEMPBONUS:ANYPC|COMBAT|AC|2|TYPE=Sacred	
+Sandblast				TYPE:Spell	SCHOOL:Evocation			CLASSES:Druid=1	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:10 ft.	TARGETAREA:Semicircular burst of sand 10-ft-long, centered on your hands.	DURATION:Instantaneous	SAVEINFO:Reflex half	SPELLRES:Yes	DESC:You fire a hail of hot sand from your fi ngers, dealing 1d6 points of nonlethal damage to creatures in the arc.	SOURCEPAGE:CD									
+Scent				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Druid=2|Ranger=2|Sorcerer=2|Wizard=2	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched.	DURATION:10 minutes/level	SAVEINFO:None (harmless)	SPELLRES:Yes	DESC:You give the target an enhanced sense of smell, equivalent to the scent ability of some monsters. Arcane  material Components: A sprinkle of mustard and pepper, and a drop of sweat.	SOURCEPAGE:CD									
+Scourge				TYPE:Spell	SCHOOL:Necromancy				COMPS:V, S, F, DF	CASTTIME:1 standard action	RANGE:Long	TARGETAREA:One living creature/level, no two of which can be more than 50 ft apart.	DURATION:Instantaneous	SAVEINFO:Fortitude negates	SPELLRES:Yes	DESC:This nasty spell causes a major disease and weakness in those who fail their saving throws. Focus: A black whip or riding crop, which is cracked in the direction of the intended victims during the casting of the spell.	SOURCEPAGE:CD									
+Shadow Landscape				TYPE:Spell	SCHOOL:Illusion	SUBSCHOOL:Shadow		CLASSES:Druid=9	COMPS:V, S, DF	CASTTIME:1 hour	RANGE:Long	TARGETAREA:One-mile-radius spread, centered on a point in space.	DURATION:1 day/level	SAVEINFO:Reflex partial; see text	SPELLRES:Yes	DESC:By infusing the nearby landscape with power stolen from the Plane of Shadow, you make the surrounding terrain a more savage, dangerous place.	SOURCEPAGE:CD									
+Slime Wave				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Summoning		CLASSES:Cleric=7|Druid=7	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:15-ft-radius spread.	DURATION:1 round/level	SAVEINFO:Reflex negates	SPELLRES:No	DESC:You create a wave of green slime that begins at the range you choose and violently spreads to the limit of the area. Material Component: A few drops of stagnant pond water.	SOURCEPAGE:CD									
+Spell Resistance (Mass)				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Cleric=7	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:Up to one creature/level, no two of which can be more than 30 ft apart.	DURATION:1 round/level; see text	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:Each targeted creature gains spell resistance equal to 12 + caster level.	SOURCEPAGE:CD									
+Spikes				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Cleric=3|Druid=3	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Wooden weapon touched.	DURATION:1 hour/level	SAVEINFO:None	SPELLRES:No	DESC:As brambles, except that the affected weapon gains a +2 enhancement bonus on its attacks, and its threat range is doubled.	SOURCEPAGE:CD									
+Spiritual Chariot				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation		CLASSES:Blackguard=4|Paladin=4	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One special mount.	DURATION:1 hour/level	SAVEINFO:None	SPELLRES:No	DESC:When this spell is cast, a ghostly chariot forms behind the paladin's special mount.	SOURCEPAGE:CD									
+Stalwart Pact				TYPE:Spell	SCHOOL:Evocation			CLASSES:Cleric=5	COMPS:V, S, DF, XP	CASTTIME:10 minutes	RANGE:Touch	TARGETAREA:Willing living creature touched.	DURATION:Permanent until triggered, then 1 round/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:This spell allows the target to enter a binding agreement with a deity that provides a measure of protection when the need is dire. XP Cost: 250 XP.	SOURCEPAGE:CD			XPCOST:250						
+Standing Wave				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Druid=3	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:Waves under a creature or object within range	DURATION:10 minutes/level	SAVEINFO:Reflex negates	SPELLRES:Yes	DESC:You command the waters to lift a creature or object and propel it forward.	SOURCEPAGE:CD									
+Storm of Elemental Fury				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Summoning		CLASSES:Druid=8	COMPS:V, S	CASTTIME:1 full round	RANGE:Long	TARGETAREA:40-ft-radius storm cloud, 200 feet above the ground,	DURATION:Concentration (max 4 rounds)	SAVEINFO:See text	SPELLRES:Yes	DESC:This spell creates a black storm cloud that hovers over your enemies, striking them with a terrifying combination of effects from the Elemental Planes.	SOURCEPAGE:CD									
+Storm Tower				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Druid=7	COMPS:V, S	CASTTIME:1 full round	RANGE:Long	TARGETAREA:100-ft-tall, 20-ft-radius spread,	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:You form a tower of dark, swirling storm clouds that negates many forms of magic.	SOURCEPAGE:CD									
+Stormrage				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Electricity	CLASSES:Cleric=8|Druid=8	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:1 minute/level	SAVEINFO:None	SPELLRES:No	DESC:You harness the powers of wind and storm to move, protect yourself, and attack.	SOURCEPAGE:CD									
+Subvert Planar Essence				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Cleric=5|Sorcerer=6|Wizard=6	COMPS:V, S, M/DF	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:20-ft-radius emanation centered on a point in space	DURATION:1 round/level	SAVEINFO:Fortitude negates	SPELLRES:Yes	DESC:Outsiders within the emanation of a subvert planar essence spell fi nd their connection disrupted with the planar forces that created them	SOURCEPAGE:CD									
+Telepathic Bond (Lesser)				TYPE:Spell	SCHOOL:Divination		DESCRIPTOR:Mind-Affecting	CLASSES:Cleric=3|Sorcerer=3|Wizard=3	COMPS:V, S	CASTTIME:1 standard action	RANGE:30 ft	TARGETAREA:You and one within 30-ft.	DURATION:10 minutes/level	SAVEINFO:None	SPELLRES:No	DESC:You forge a telepathic bond with another creature with an Intelligence score of 6 or higher.	SOURCEPAGE:CD									
+Tidal Surge				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Water	CLASSES:Druid=6	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One or more creatures in a 20-ft-radius burst.	DURATION:Instantaneous	SAVEINFO:Reflex half	SPELLRES:Yes	DESC:When you cast this spell, you create a huge wave of water that slams into one or more targets within range.	SOURCEPAGE:CD									
+Tortoise Shell				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Druid=6	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Living creature touched.	DURATION:10 minutes/level	SAVEINFO:None (harmless)	SPELLRES:Yes	DESC:Tortoise shell grants the armor plating of a tortoise across a creature's torso and a tough, leathery skin elsewhere.	SOURCEPAGE:CD									
+Touch of Madness				TYPE:Spell	SCHOOL:Enchantment		DESCRIPTOR:Mind-Affecting		COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched.	DURATION:1 round/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:You may daze one living creature by making a successful touch attack.	SOURCEPAGE:CD									
+Traveller's Mount				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Blackguard=1|Druid=1|Paladin=1|Ranger=1	COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Animal or magical beast touched	DURATION:1 hour/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:This spell makes a mount better able to handle the rigors of overland travel, at the expense of its will to fi ght.	SOURCEPAGE:CD									
+True Creation				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation			COMPS:V, S, M, XP	CASTTIME:10 minutes	RANGE:0-ft	TARGETAREA:Unattended, nonmagical object of nonliving matter, up to 1-cu-ft/level.	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:You create a nonmagical, unattended object of any sort of matter. Material Component: A small piece of matter of the same type of item you plan to create-a sliver of wood to create arrow shafts, a tiny piece of the appropriate stone to create a polished gem, and so forth. XP Cost: The item's gold piece value in XP, or a minimum of 1 XP, whichever is more (see the Player's Handbook for item costs).	SOURCEPAGE:CD									
+True Domination				TYPE:Spell	SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Mind-Affecting		COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One humanoid of medium sizee or smaller.	DURATION:1 day/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:You can control the actions of any humanoid that is Medium or smaller.	SOURCEPAGE:CD									
+Unbinding				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Sorcerer=9|Wizard=9	COMPS:V, S, M, DF	CASTTIME:1 full round	RANGE:180-ft.	TARGETAREA:180-ft-radius burst centered on you.	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:When you cast an unbinding spell, a burst of force erupts from your body and magically destroys any spells that contain, constrain, or seal, with the exceptions noted below.	SOURCEPAGE:CD									
+Unyelding Root				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Druid=9	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Willing creature touched.	DURATION:1 minute/level	SAVEINFO:Fortitude negates (harmless)	SPELLRES:Yes	DESC:The creature you touch grows thick tree roots that anchor him to the ground and provide him with life-sustaining healing. (If the creature you touch isn't touching the ground, the unyielding roots spell has no effect).	SOURCEPAGE:CD									
+Vigor				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Healing		CLASSES:Cleric=3|Druid=3	COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Living creature touched.	DURATION:10 rounds + 1 round/level (max 25 rounds)	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	 DESC:This spell is the same as lesser vigor, except that it grants fast healing at the rate of 2 hit points per round.	SOURCEPAGE:CD							TEMPBONUS:ANYPC|VAR|FastHealing|2|TYPE=Temporary		
+Vigor (Greater)				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Healing		CLASSES:Cleric=5|Druid=5	COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Living creature touched.	DURATION:10 rounds + 1 round/level (max 35 rounds)	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	 DESC:This spell is the same as lesser vigor, except that it grants fast healing at the rate of 4 hit points per round.	SOURCEPAGE:CD							TEMPBONUS:ANYPC|VAR|FastHealing|4|TYPE=Temporary		
+Vigor (Lesser)				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Healing		CLASSES:Cleric=1|Druid=1	COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Living creature touched.	DURATION:10 rounds + 1 round/level (max 15 rounds)	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:With a touch of your hand, you boost the subject's life energy, granting him or her the fast healing ability for the duration of the spell.	SOURCEPAGE:CD							TEMPBONUS:ANYPC|VAR|FastHealing|1|TYPE=Temporary		
+Vigor (Mass/Lesser)				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Healing		CLASSES:Cleric=3|Druid=3	COMPS:V, S	CASTTIME:1 standard action	RANGE:20 ft.	TARGETAREA:One creature/2 levels, no two of which can be more thn 30-ft apart.	DURATION:10 rounds + 1 round/level (max 25 rounds)	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:You invoke healing energy over a group of creatures, granting each the fast healing ability for the duration of the spell.	SOURCEPAGE:CD							TEMPBONUS:ANYPC|VAR|FastHealing|1|TYPE=Temporary		
+Vigorous Circle				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Healing		CLASSES:Cleric=6|Druid=6	COMPS:V, S	CASTTIME:1 standard action	RANGE:20 ft.	TARGETAREA:One creature/2 levels, no two of which can be more thn 30-ft apart.	DURATION:10 rounds + 1 round/level (max 40 rounds)	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:This spell is the same as mass lesser vigor, except that it grants fast healing at the rate of 3 hit points per round.	SOURCEPAGE:CD							TEMPBONUS:ANYPC|VAR|FastHealing|3|TYPE=Temporary		
+Visage of the Deity				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil|Good	CLASSES:Cleric=6	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:When you cast this spell, your body changes into a form more like your deity's (in a very limited fashion, of course).	SOURCEPAGE:CD									
+Visage of the Deity (Greater)				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil|Good	CLASSES:Cleric=9	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:As lesser visage of the deity, but you take on all the qualities of a celestial or fi endish creature (see the Monster Manual for complete details)	SOURCEPAGE:CD									
+Visage of the Deity (Lesser)				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil|Good	CLASSES:Blackguard=4|Cleric=3|Paladin=4	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:As lesser visage of the deity, except that you take on the qualities of a half-celestial or half-fi end (see the Monster Manual for complete details).	SOURCEPAGE:CD									
+Waterspout				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation			COMPS:V, S, DF	CASTTIME:1 full round	RANGE:Long	TARGETAREA:A cylinder 10-ft-wide and 80-ft-tall.	DURATION:1 round/level	SAVEINFO:Reflex negates	SPELLRES:No	DESC:Waterspout causes water to rise up into a whirling, cylindrical column	SOURCEPAGE:CD									
+Wave of Grief				TYPE:Spell	SCHOOL:Enchantment		DESCRIPTOR:Evil|Mind-Affecting	CLASSES:Bard=2|Blackguard=2|Cleric=2	COMPS:S, M	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:Cone	DURATION:1 round/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:All within the cone when the spell is cast are overcome with sorrow and grief. Material Component: Three tears.	SOURCEPAGE:CD							TEMPBONUS:ANYPC|COMBAT|TOHIT|-3|TYPE=Morale	TEMPBONUS:ANYPC|SAVE|ALL|-3|TYPE=Morale	TEMPBONUS:ANYPC|SKILL|ALL|-3|TYPE=Morale
+Weapon of the Deity				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Blackguard=4|Cleric=4|Paladin=4	COMPS:V, DF	CASTTIME:1 standard action	RANGE:0 ft.	TARGETAREA:One weapon you hold	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:You must be using your deity's favored weapon to cast this spell.	SOURCEPAGE:CD									
+Weather Eye				TYPE:Spell	SCHOOL:Divination			CLASSES:Cleric=4|Druid=3	COMPS:V, S, M, DF	CASTTIME:1 hour	RANGE:1 mile radius + 1 mile/level	TARGETAREA:1 mile radius + 1 mile/level, centered on you.	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:You may accurately predict the natural weather up to one week into the future. Material Component: Incense. Divine Focus: A scrying device of some kind (bowl, mirror, crystal ball, and so forth).	SOURCEPAGE:CD									
+Whirlwind (Greater)				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Air	CLASSES:Druid=9	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:20-ft.-radius tornado, up to 5 ft./caster level tall, centered anywhere within range.	DURATION:1 round/level	SAVEINFO:Fortitude partial	SPELLRES:Yes	DESC:This spell creates a tornado that wreaks destruction as you direct, flinging your foes into the air and destroying nearby structures.	SOURCEPAGE:CD									
+Winged Mount				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Blackguard=4|Paladin=4	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Your touched mount.	DURATION:10 minutes/level	SAVEINFO:None	SPELLRES:No	DESC:This spell causes your mount to sprout giant, feathery white wings.	SOURCEPAGE:CD									
+Wood Wose				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation		CLASSES:Druid=1	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One nature servant.	DURATION:1 hour/level	SAVEINFO:None	SPELLRES:No	DESC:A wood wose is a translucent, green nature spirit that you can command to perform simple natural tasks.	SOURCEPAGE:CD									
+Wrack				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Cleric=3|Sorcerer=4|Wizard=4	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One humanoid.	DURATION:1 round/level	SAVEINFO:Fortitude negates	SPELLRES:Yes	DESC:A humanoid subject of the spellcaster's choosing is wracked with such pain that he doubles over and collapses.	SOURCEPAGE:CD									
+Zeal				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Blackguard=2|Paladin=2	COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:You invoke a divine shield to protect you as you close with a chosen opponent.	SOURCEPAGE:CD									
+Zealot Pact				TYPE:Spell	SCHOOL:Evocation			CLASSES:Cleric=6	COMPS:V, S, DF, XP	CASTTIME:10 minutes	RANGE:Touch	TARGETAREA:Willing living creature touched.	DURATION:Permanent until triggered, then 1 round/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:This spell creates a binding agreement between a deity and the target that grants the target a measure of divine power to crush the deity's enemies. XP Cost: 500 XP.	SOURCEPAGE:CD			XPCOST:500						
+																										
+#																										
+Daze.MOD	CLASSES:Shugenja=0	SCHOOL:Air Shugenja																								
+Ghost Sound.MOD	CLASSES:Shugenja=0	SCHOOL:Air Shugenja																								
+Guidance.MOD	CLASSES:Shugenja=0	SCHOOL:Air Shugenja																								
+Know Direction.MOD	CLASSES:Shugenja=0	SCHOOL:Air Shugenja																								
+Mage Hand.MOD	CLASSES:Shugenja=0	SCHOOL:Earth Shugenja																								
+Mending.MOD	CLASSES:Shugenja=0	SCHOOL:Earth Shugenja																								
+Resistance.MOD	CLASSES:Shugenja=0	SCHOOL:Earth Shugenja																								
+Virtue.MOD	CLASSES:Shugenja=0	SCHOOL:Earth Shugenja																								
+Dancing Light.MOD	CLASSES:Shugenja=0	SCHOOL:Fire Shugenja																								
+Disrupt Undead.MOD	CLASSES:Shugenja=0	SCHOOL:Fire Shugenja																								
+Flare.MOD	CLASSES:Shugenja=0	SCHOOL:Fire Shugenja																								
+Light.MOD	CLASSES:Shugenja=0	SCHOOL:Fire Shugenja																								
+Create Water.MOD	CLASSES:Shugenja=0	SCHOOL:Water Shugenja																								
+Cure Minor Wounds.MOD	CLASSES:Shugenja=0	SCHOOL:Water Shugenja																								
+Detect Poison.MOD	CLASSES:Shugenja=0	SCHOOL:Water Shugenja																								
+Purify Food and Drink.MOD	CLASSES:Shugenja=0	SCHOOL:Water Shugenja																								
+Detect Magic.MOD	CLASSES:Shugenja=0	SCHOOL:All Shugenja																								
+Read Magic.MOD	CLASSES:Shugenja=0	SCHOOL:All Shugenja																								
+Detect Snares and Pits.MOD	CLASSES:Shugenja=1	SCHOOL:Air Shugenja																								
+Disguise Self.MOD	CLASSES:Shugenja=1	SCHOOL:Air Shugenja																								
+Expeditious Retreat.MOD	CLASSES:Shugenja=1	SCHOOL:Air Shugenja																								
+Feather Fall.MOD	CLASSES:Shugenja=1	SCHOOL:Air Shugenja																								
+Silent Image.MOD	CLASSES:Shugenja=1	SCHOOL:Air Shugenja																								
+Sleep.MOD	CLASSES:Shugenja=1	SCHOOL:Air Shugenja																								
+Magic Stone.MOD	CLASSES:Shugenja=1	SCHOOL:Earth Shugenja																								
+Magic Weapon.MOD	CLASSES:Shugenja=1	SCHOOL:Earth Shugenja																								
+Pass Without Trace.MOD	CLASSES:Shugenja=1	SCHOOL:Earth Shugenja																								
+Sanctuary.MOD	CLASSES:Shugenja=1	SCHOOL:Earth Shugenja																								
+Shield of Faith.MOD	CLASSES:Shugenja=1	SCHOOL:Earth Shugenja																								
+Burning Hands.MOD	CLASSES:Shugenja=1	SCHOOL:Fire Shugenja																								
+Cause Fear.MOD	CLASSES:Shugenja=1	SCHOOL:Fire Shugenja																								
+Faerie Fire.MOD	CLASSES:Shugenja=1	SCHOOL:Fire Shugenja																								
+Hypnotism.MOD	CLASSES:Shugenja=1	SCHOOL:Fire Shugenja																								
+Shocking Grasp.MOD	CLASSES:Shugenja=1	SCHOOL:Fire Shugenja																								
+Speak with animals.MOD	CLASSES:Shugenja=1	SCHOOL:Water Shugenja																								
+Bless.MOD	CLASSES:Shugenja=1	SCHOOL:Water Shugenja																								
+Cure Light Wounds.MOD	CLASSES:Shugenja=1	SCHOOL:Water Shugenja																								
+Obscuring Mist.MOD	CLASSES:Shugenja=1	SCHOOL:Water Shugenja																								
+Remove Fear.MOD	CLASSES:Shugenja=1	SCHOOL:Water Shugenja																								
+Endure Elements.MOD	CLASSES:Shugenja=1	SCHOOL:All Shugenja																								
+Detect Thoughts.MOD	CLASSES:Shugenja=2	SCHOOL:Air Shugenja																								
+Levitate.MOD	CLASSES:Shugenja=2	SCHOOL:Air Shugenja																								
+Minor Image.MOD	CLASSES:Shugenja=2	SCHOOL:Air Shugenja																								
+Silence.MOD	CLASSES:Shugenja=2	SCHOOL:Air Shugenja																								
+Color Spray.MOD	CLASSES:Shugenja=2	SCHOOL:Air Shugenja																								
+Barkskin.MOD	CLASSES:Shugenja=2	SCHOOL:Earth Shugenja																								
+Bear's endurance.MOD	CLASSES:Shugenja=2	SCHOOL:Earth Shugenja																								
+Bull's Strength.MOD	CLASSES:Shugenja=2	SCHOOL:Earth Shugenja																								
+Hold Person.MOD	CLASSES:Shugenja=2	SCHOOL:Earth Shugenja																								
+Make Whole.MOD	CLASSES:Shugenja=2	SCHOOL:Earth Shugenja																								
+Glitterdust.MOD	CLASSES:Shugenja=2	SCHOOL:Earth Shugenja																								
+Cat's Grace.MOD	CLASSES:Shugenja=2	SCHOOL:Fire Shugenja																								
+Flame Blade.MOD	CLASSES:Shugenja=2	SCHOOL:Fire Shugenja																								
+Flaming sphere.MOD	CLASSES:Shugenja=2	SCHOOL:Fire Shugenja																								
+Heat Metal.MOD	CLASSES:Shugenja=2	SCHOOL:Fire Shugenja																								
+Produce Flame.MOD	CLASSES:Shugenja=2	SCHOOL:Fire Shugenja																								
+Fog Cloud.MOD	CLASSES:Shugenja=2	SCHOOL:Water Shugenja																								
+Cure Moderate Wounds.MOD	CLASSES:Shugenja=2	SCHOOL:Water Shugenja																								
+Delay Poison.MOD	CLASSES:Shugenja=2	SCHOOL:Water Shugenja																								
+Restoration (Lesser).MOD	CLASSES:Shugenja=2	SCHOOL:Water Shugenja																								
+Locate Object.MOD	CLASSES:Shugenja=2	SCHOOL:Water Shugenja																								
+Remove Paralysis.MOD	CLASSES:Shugenja=2	SCHOOL:Water Shugenja																								
+Resist energy.MOD	CLASSES:Shugenja=2	SCHOOL:All Shugenja																								
+Clairaudience/Clairvoyance.MOD	CLASSES:Shugenja=3	SCHOOL:Air Shugenja																								
+Gust of Wind.MOD	CLASSES:Shugenja=3	SCHOOL:Air Shugenja																								
+Haste.MOD	CLASSES:Shugenja=3	SCHOOL:Air Shugenja																								
+Invisibility.MOD	CLASSES:Shugenja=3	SCHOOL:Air Shugenja																								
+Major Image.MOD	CLASSES:Shugenja=3	SCHOOL:Air Shugenja																								
+Wind Wall.MOD	CLASSES:Shugenja=3	SCHOOL:Air Shugenja																								
+Magic Weapon (Greater).MOD	CLASSES:Shugenja=3	SCHOOL:Earth Shugenja																								
+Meld into Stone.MOD	CLASSES:Shugenja=3	SCHOOL:Earth Shugenja																								
+Plant Growth.MOD	CLASSES:Shugenja=3	SCHOOL:Earth Shugenja																								
+Prayer.MOD	CLASSES:Shugenja=3	SCHOOL:Earth Shugenja																								
+Stone Shape.MOD	CLASSES:Shugenja=3	SCHOOL:Earth Shugenja																								
+Call Lightning.MOD	CLASSES:Shugenja=3	SCHOOL:Fire Shugenja																								
+Daylight.MOD	CLASSES:Shugenja=3	SCHOOL:Fire Shugenja																								
+Fire Wings.MOD	CLASSES:Shugenja=3	SCHOOL:Fire Shugenja																								
+Keen Edge.MOD	CLASSES:Shugenja=3	SCHOOL:Fire Shugenja																								
+Searing Light.MOD	CLASSES:Shugenja=3	SCHOOL:Fire Shugenja																								
+Cure Serious Wounds.MOD	CLASSES:Shugenja=3	SCHOOL:Water Shugenja																								
+Remove Blindness/Deafness.MOD	CLASSES:Shugenja=3	SCHOOL:Water Shugenja																								
+Remove Curse.MOD	CLASSES:Shugenja=3	SCHOOL:Water Shugenja																								
+Remove Disease.MOD	CLASSES:Shugenja=3	SCHOOL:Water Shugenja																								
+Water Breathing.MOD	CLASSES:Shugenja=3	SCHOOL:Water Shugenja																								
+Water Walk.MOD	CLASSES:Shugenja=3	SCHOOL:Water Shugenja																								
+Dispel Magic.MOD	CLASSES:Shugenja=3	SCHOOL:All Shugenja																								
+Glyph of Warding.MOD	CLASSES:Shugenja=3	SCHOOL:All Shugenja																								
+Protection from Energy.MOD	CLASSES:Shugenja=3	SCHOOL:All Shugenja																								
+Summon Nature's Ally III ~ Small elemental only.MOD	CLASSES:Shugenja=3	SCHOOL:All Shugenja																								
+Air Walk.MOD	CLASSES:Shugenja=4	SCHOOL:Air Shugenja																								
+Detect Scrying.MOD	CLASSES:Shugenja=4	SCHOOL:Air Shugenja																								
+Discern Lies.MOD	CLASSES:Shugenja=4	SCHOOL:Air Shugenja																								
+Hallucinatory Terrain.MOD	CLASSES:Shugenja=4	SCHOOL:Air Shugenja																								
+Illusory Wall.MOD	CLASSES:Shugenja=4	SCHOOL:Air Shugenja																								
+Death Ward.MOD	CLASSES:Shugenja=4	SCHOOL:Earth Shugenja																								
+Dismissal.MOD	CLASSES:Shugenja=4	SCHOOL:Earth Shugenja																								
+Spell Immunity.MOD	CLASSES:Shugenja=4	SCHOOL:Earth Shugenja																								
+Spike Stones.MOD	CLASSES:Shugenja=4	SCHOOL:Earth Shugenja																								
+Dimensional Anchor.MOD	CLASSES:Shugenja=4	SCHOOL:Earth Shugenja																								
+Fire Shield.MOD	CLASSES:Shugenja=4	SCHOOL:Fire Shugenja																								
+Flame Arrow.MOD	CLASSES:Shugenja=4	SCHOOL:Fire Shugenja																								
+Lightning Bolt.MOD	CLASSES:Shugenja=4	SCHOOL:Fire Shugenja																								
+Quench.MOD	CLASSES:Shugenja=4	SCHOOL:Fire Shugenja																								
+Wall of Fire.MOD	CLASSES:Shugenja=4	SCHOOL:Fire Shugenja																								
+Control Water.MOD	CLASSES:Shugenja=4	SCHOOL:Water Shugenja																								
+Cure Critical Wounds.MOD	CLASSES:Shugenja=4	SCHOOL:Water Shugenja																								
+Locate Creature.MOD	CLASSES:Shugenja=4	SCHOOL:Water Shugenja																								
+Neutralize Poison.MOD	CLASSES:Shugenja=4	SCHOOL:Water Shugenja																								
+Restoration.MOD	CLASSES:Shugenja=4	SCHOOL:Water Shugenja																								
+Control Winds.MOD	CLASSES:Shugenja=5	SCHOOL:Air Shugenja																								
+Dimension Door.MOD	CLASSES:Shugenja=5	SCHOOL:Air Shugenja																								
+Invisibility (Greater).MOD	CLASSES:Shugenja=5	SCHOOL:Air Shugenja																								
+Mirage Arcana.MOD	CLASSES:Shugenja=5	SCHOOL:Air Shugenja																								
+Persistent Image.MOD	CLASSES:Shugenja=5	SCHOOL:Air Shugenja																								
+Passwall.MOD	CLASSES:Shugenja=5	SCHOOL:Earth Shugenja																								
+Spell Resistance.MOD	CLASSES:Shugenja=5	SCHOOL:Earth Shugenja																								
+Wall of Iron.MOD	CLASSES:Shugenja=5	SCHOOL:Earth Shugenja																								
+Wall of Stone.MOD	CLASSES:Shugenja=5	SCHOOL:Earth Shugenja																								
+Energy Vortex ~ Fire only.MOD	CLASSES:Shugenja=5	SCHOOL:Fire Shugenja																								
+Confusion.MOD	CLASSES:Shugenja=5	SCHOOL:Fire Shugenja																								
+Feeblemind.MOD	CLASSES:Shugenja=5	SCHOOL:Fire Shugenja																								
+Dragon Breath ~ Red or Gold only.MOD	CLASSES:Shugenja=5	SCHOOL:Fire Shugenja																								
+Flame Strike.MOD	CLASSES:Shugenja=5	SCHOOL:Fire Shugenja																								
+Atonement.MOD	CLASSES:Shugenja=5	SCHOOL:Water Shugenja																								
+Cure Light Wounds (Mass).MOD	CLASSES:Shugenja=5	SCHOOL:Water Shugenja																								
+Righteous Might.MOD	CLASSES:Shugenja=5	SCHOOL:Water Shugenja																								
+Scrying.MOD	CLASSES:Shugenja=5	SCHOOL:Water Shugenja																								
+Wall of Ice.MOD	CLASSES:Shugenja=5	SCHOOL:Water Shugenja																								
+Commune with Nature.MOD	CLASSES:Shugenja=5	SCHOOL:All Shugenja																								
+Summon Nature's Ally V ~ Medium elemental only.MOD	CLASSES:Shugenja=5	SCHOOL:All Shugenja																								
+Cloudkill.MOD	CLASSES:Shugenja=6	SCHOOL:Air Shugenja																								
+Permanent Image.MOD	CLASSES:Shugenja=6	SCHOOL:Air Shugenja																								
+Teleport.MOD	CLASSES:Shugenja=6	SCHOOL:Air Shugenja																								
+Veil.MOD	CLASSES:Shugenja=6	SCHOOL:Air Shugenja																								
+Wind Walk.MOD	CLASSES:Shugenja=6	SCHOOL:Air Shugenja																								
+Antimagic Field.MOD	CLASSES:Shugenja=6	SCHOOL:Earth Shugenja																								
+Banishment.MOD	CLASSES:Shugenja=6	SCHOOL:Earth Shugenja																								
+Move Earth.MOD	CLASSES:Shugenja=6	SCHOOL:Earth Shugenja																								
+Stone Tell.MOD	CLASSES:Shugenja=6	SCHOOL:Earth Shugenja																								
+Stoneskin.MOD	CLASSES:Shugenja=6	SCHOOL:Earth Shugenja																								
+Fire Seeds.MOD	CLASSES:Shugenja=6	SCHOOL:Fire Shugenja																								
+Fires of Purity.MOD	CLASSES:Shugenja=6	SCHOOL:Fire Shugenja																								
+Glyph of Warding (Greater).MOD	CLASSES:Shugenja=6	SCHOOL:Fire Shugenja																								
+Anger of the Noonday Sun.MOD	CLASSES:Shugenja=6	SCHOOL:Fire Shugenja																								
+Contingency.MOD	CLASSES:Shugenja=6	SCHOOL:Water Shugenja																								
+Control Weather.MOD	CLASSES:Shugenja=6	SCHOOL:Water Shugenja																								
+Heal.MOD	CLASSES:Shugenja=6	SCHOOL:Water Shugenja																								
+Master of the Rolling River.MOD	CLASSES:Shugenja=6	SCHOOL:Water Shugenja																								
+True Seeing.MOD	CLASSES:Shugenja=6	SCHOOL:Water Shugenja																								
+Dispel Magic (Greater).MOD	CLASSES:Shugenja=6	SCHOOL:All Shugenja																								
+Summon Nature's Ally VI ~ Large elemental only.MOD	CLASSES:Shugenja=6	SCHOOL:All Shugenja																								
+Invisibility (Mass).MOD	CLASSES:Shugenja=7	SCHOOL:Air Shugenja																								
+Mislead.MOD	CLASSES:Shugenja=7	SCHOOL:Air Shugenja																								
+Programmed Image.MOD	CLASSES:Shugenja=7	SCHOOL:Air Shugenja																								
+Teleport Object.MOD	CLASSES:Shugenja=7	SCHOOL:Air Shugenja																								
+Disintegrate.MOD	CLASSES:Shugenja=7	SCHOOL:Earth Shugenja																								
+Spell Turning.MOD	CLASSES:Shugenja=7	SCHOOL:Earth Shugenja																								
+Statue.MOD	CLASSES:Shugenja=7	SCHOOL:Earth Shugenja																								
+Flesh to Stone.MOD	CLASSES:Shugenja=7	SCHOOL:Earth Shugenja																								
+Chain Lightning.MOD	CLASSES:Shugenja=7	SCHOOL:Fire Shugenja																								
+Fire Storm.MOD	CLASSES:Shugenja=7	SCHOOL:Fire Shugenja																								
+Sunbeam.MOD	CLASSES:Shugenja=7	SCHOOL:Fire Shugenja																								
+Restoration (Greater).MOD	CLASSES:Shugenja=7	SCHOOL:Water Shugenja																								
+Scrying (Greater).MOD	CLASSES:Shugenja=7	SCHOOL:Fire Shugenja																								
+Resurrection.MOD	CLASSES:Shugenja=7	SCHOOL:Fire Shugenja																								
+Creeping Cold (Greater).MOD	CLASSES:Shugenja=7	SCHOOL:Fire Shugenja																								
+Summon Nature's Ally VII ~ Huge elemental only.MOD	CLASSES:Shugenja=7	SCHOOL:All Shugenja																								
+Screen.MOD	CLASSES:Shugenja=8	SCHOOL:Air Shugenja																								
+Teleport (Greater).MOD	CLASSES:Shugenja=8	SCHOOL:Air Shugenja																								
+Whirlwind.MOD	CLASSES:Shugenja=8	SCHOOL:Air Shugenja																								
+Binding.MOD	CLASSES:Shugenja=8	SCHOOL:Earth Shugenja																								
+Earthquake.MOD	CLASSES:Shugenja=8	SCHOOL:Earth Shugenja																								
+Protection from Spells.MOD	CLASSES:Shugenja=8	SCHOOL:Earth Shugenja																								
+Incendiary Cloud.MOD	CLASSES:Shugenja=8	SCHOOL:Fire Shugenja																								
+Power Word Blind.MOD	CLASSES:Shugenja=8	SCHOOL:Fire Shugenja																								
+Sunburst.MOD	CLASSES:Shugenja=8	SCHOOL:Fire Shugenja																								
+Discern Location.MOD	CLASSES:Shugenja=8	SCHOOL:Water Shugenja																								
+Heal (Mass).MOD	CLASSES:Shugenja=8	SCHOOL:Water Shugenja																								
+Regenerate.MOD	CLASSES:Shugenja=8	SCHOOL:Water Shugenja																								
+Summon Nature's Ally VIII ~ Greater elemental only.MOD	CLASSES:Shugenja=8	SCHOOL:All Shugenja																								
+Teleportation Circle.MOD	CLASSES:Shugenja=9	SCHOOL:Air Shugenja																								
+Etherealness.MOD	CLASSES:Shugenja=9	SCHOOL:Air Shugenja																								
+Antipathy.MOD	CLASSES:Shugenja=9	SCHOOL:Earth Shugenja																								
+Imprisonment.MOD	CLASSES:Shugenja=9	SCHOOL:Earth Shugenja																								
+Meteor Swarm.MOD	CLASSES:Shugenja=9	SCHOOL:Fire Shugenja																								
+Implosion.MOD	CLASSES:Shugenja=9	SCHOOL:Fire Shugenja																								
+True Resurrection.MOD	CLASSES:Shugenja=9	SCHOOL:Water Shugenja																								
+Storm of Vengeance.MOD	CLASSES:Shugenja=9	SCHOOL:Water Shugenja																								
+Elemental Swarm.MOD	CLASSES:Shugenja=9	SCHOOL:All Shugenja																								
+Summon Nature's Ally IX ~ Elder elemental only.MOD	CLASSES:Shugenja=9	SCHOOL:All Shugenja																								
+Detect Magic.MOD	CLASSES:Blighter=0																									
+Detect Poison.MOD	CLASSES:Blighter=0																									
+Flare.MOD	CLASSES:Blighter=0																									
+Ghost Sound.MOD	CLASSES:Blighter=0																									
+Inflict Minor Wounds.MOD	CLASSES:Blighter=0																									
+Read Magic.MOD	CLASSES:Blighter=0																									
+Touch of Fatigue.MOD	CLASSES:Blighter=0																									
+Bane.MOD	CLASSES:Blighter=1																									
+Burning Hands.MOD	CLASSES:Blighter=1																									
+Curse Water.MOD	CLASSES:Blighter=1																									
+Decomposition.MOD	CLASSES:Blighter=1																									
+Detect Undead.MOD	CLASSES:Blighter=1																									
+Doom.MOD	CLASSES:Blighter=1																									
+Endure Elements.MOD	CLASSES:Blighter=1																									
+Inflict Light Wounds.MOD	CLASSES:Blighter=1																									
+Invisibility to Animals.MOD	CLASSES:Blighter=1																									
+Ray of Enfeeblement.MOD	CLASSES:Blighter=1																									
+Chill Metal.MOD	CLASSES:Blighter=2																									
+Chill Touch.MOD	CLASSES:Blighter=2																									
+Darkness.MOD	CLASSES:Blighter=2																									
+death Knell.MOD	CLASSES:Blighter=2																									
+Fire Trap.MOD	CLASSES:Blighter=2																									
+Flaming Sphere.MOD	CLASSES:Blighter=2																									
+Heat Metal.MOD	CLASSES:Blighter=2																									
+Inflict Moderate Wounds.MOD	CLASSES:Blighter=2																									
+Produce Flame.MOD	CLASSES:Blighter=2																									
+Endure Elements.MOD	CLASSES:Blighter=2																									
+Warp Wood.MOD	CLASSES:Blighter=2																									
+Contagion.MOD	CLASSES:Blighter=3																									
+Deeper Darkness.MOD	CLASSES:Blighter=3																									
+Desecrate.MOD	CLASSES:Blighter=3																									
+Diminish Plants.MOD	CLASSES:Blighter=3																									
+Dispel Magic.MOD	CLASSES:Blighter=3																									
+Inflict Serious Wounds.MOD	CLASSES:Blighter=3																									
+Poison.MOD	CLASSES:Blighter=3																									
+Protection from Energy.MOD	CLASSES:Blighter=3																									
+Stinking Cloud.MOD	CLASSES:Blighter=3																									
+Vampiric Touch.MOD	CLASSES:Blighter=3																									
+Animate Dead.MOD	CLASSES:Blighter=4																									
+Antiplant Shell.MOD	CLASSES:Blighter=4																									
+Blight.MOD	CLASSES:Blighter=4																									
+Death Ward.MOD	CLASSES:Blighter=4																									
+Flame Strike.MOD	CLASSES:Blighter=4																									
+Inflict Critical Wounds.MOD	CLASSES:Blighter=4																									
+Languor.MOD	CLASSES:Blighter=4																									
+Repel Vermin.MOD	CLASSES:Blighter=4																									
+Rusting Grasp.MOD	CLASSES:Blighter=4																									
+Transmute Mud to Rock.MOD	CLASSES:Blighter=4																									
+Transmute Rock to Mud.MOD	CLASSES:Blighter=4																									
+Unhallow.MOD	CLASSES:Blighter=4																									
+Wall of Fire.MOD	CLASSES:Blighter=4																									
+Antilife Shell.MOD	CLASSES:Blighter=5																									
+Contagious Touch.MOD	CLASSES:Blighter=5																									
+Create Undead.MOD	CLASSES:Blighter=5																									
+Harm.MOD	CLASSES:Blighter=5																									
+Forbiddance.MOD	CLASSES:Blighter=5																									
+Repel Wood.MOD	CLASSES:Blighter=5																									
+Waves of Fatigue.MOD	CLASSES:Blighter=5																									
+Acid Fog.MOD	CLASSES:Blighter=6																									
+Antipathy.MOD	CLASSES:Blighter=6																									
+Circle of Death.MOD	CLASSES:Blighter=6																									
+Finger of Death.MOD	CLASSES:Blighter=6																									
+Fire Seeds.MOD	CLASSES:Blighter=6																									
+Dispel Magic (Greater).MOD	CLASSES:Blighter=6																									
+Harm.MOD	CLASSES:Blighter=6																									
+Control Undead.MOD	CLASSES:Blighter=7																									
+Control Weather.MOD	CLASSES:Blighter=7																									
+Earthquake.MOD	CLASSES:Blighter=7																									
+Fire Storm.MOD	CLASSES:Blighter=7																									
+Miasma.MOD	CLASSES:Blighter=7																									
+Repel Metal or Stone.MOD	CLASSES:Blighter=7																									
+Repulsion.MOD	CLASSES:Blighter=7																									
+Horrid Wilting.MOD	CLASSES:Blighter=8																									
+Mind Blank.MOD	CLASSES:Blighter=8																									
+Shambler.MOD	CLASSES:Blighter=8																									
+Waves of Exhaustion.MOD	CLASSES:Blighter=8																									
+Antipathy.MOD	CLASSES:Blighter=9																									
+Foresight.MOD	CLASSES:Blighter=9																									
+Implosion.MOD	CLASSES:Blighter=9																									
+Incendiary Cloud.MOD	CLASSES:Blighter=9																									
+Storm of Vengeance.MOD	CLASSES:Blighter=9																									
+Animate Rope.MOD	CLASSES:Consecrated Harrier=1																									
+Calm Emotions.MOD	CLASSES:Consecrated Harrier=1																									
+Command.MOD	CLASSES:Consecrated Harrier=1																									
+Disguise Self.MOD	CLASSES:Consecrated Harrier=1																									
+Doom.MOD	CLASSES:Consecrated Harrier=1																									
+Charm Person.MOD	CLASSES:Consecrated Harrier=2																									
+Daylight.MOD	CLASSES:Consecrated Harrier=2																									
+Detect Thoughts.MOD	CLASSES:Consecrated Harrier=2																									
+Hold Person.MOD	CLASSES:Consecrated Harrier=2																									
+Clairaudience/Clairvoyance.MOD	CLASSES:Consecrated Harrier=3																									
+Death Ward.MOD	CLASSES:Consecrated Harrier=3																									
+Discern Lies.MOD	CLASSES:Consecrated Harrier=3																									
+See Invisibility.MOD	CLASSES:Consecrated Harrier=3																									
+Dismissal.MOD	CLASSES:Consecrated Harrier=4																									
+Dominate Person.MOD	CLASSES:Consecrated Harrier=4																									
+Legend Lore.MOD	CLASSES:Consecrated Harrier=4																									
+Mark of Justice.MOD	CLASSES:Consecrated Harrier=4																									
+Protection from Law.MOD	CLASSES:Holy Liberator=1																									
+Heroism.MOD	CLASSES:Holy Liberator=2																									
+Magic Circle against Law.MOD	CLASSES:Holy Liberator=3																									
+Dispel Law.MOD	CLASSES:Holy Liberator=4																									
+Freedom of Movement.MOD	CLASSES:Holy Liberator=4																									
+Detect Law.MOD	CLASSES:Temple Raider of Olidammara=1																									
+Detect Secret Doors.MOD	CLASSES:Temple Raider of Olidammara=1																									
+Disguise Self.MOD	CLASSES:Temple Raider of Olidammara=1																									
+Invisibility to Undead.MOD	CLASSES:Temple Raider of Olidammara=1																									
+Obscuring Mist.MOD	CLASSES:Temple Raider of Olidammara=1																									
+Protection from Law.MOD	CLASSES:Temple Raider of Olidammara=1																									
+Augury.MOD	CLASSES:Temple Raider of Olidammara=2																									
+Cat's Grace.MOD	CLASSES:Temple Raider of Olidammara=2																									
+Darkvision.MOD	CLASSES:Temple Raider of Olidammara=2																									
+Delay Poison.MOD	CLASSES:Temple Raider of Olidammara=2																									
+Invisibility.MOD	CLASSES:Temple Raider of Olidammara=2																									
+Restoration (Lesser).MOD	CLASSES:Temple Raider of Olidammara=2																									
+Undetectable Alignment.MOD	CLASSES:Temple Raider of Olidammara=2																									
+Locate Object.MOD	CLASSES:Temple Raider of Olidammara=3																									
+Magic Circle against Law.MOD	CLASSES:Temple Raider of Olidammara=3																									
+Nondetection.MOD	CLASSES:Temple Raider of Olidammara=3																									
+Obscure Object.MOD	CLASSES:Temple Raider of Olidammara=3																									
+Remove Curse.MOD	CLASSES:Temple Raider of Olidammara=3																									
+Resist Energy.MOD	CLASSES:Temple Raider of Olidammara=3																									
+See Invisibility.MOD	CLASSES:Temple Raider of Olidammara=3																									
+Air Walk.MOD	CLASSES:Temple Raider of Olidammara=4																									
+Confusion.MOD	CLASSES:Temple Raider of Olidammara=4																									
+Death Ward.MOD	CLASSES:Temple Raider of Olidammara=4																									
+Freedom of Movement.MOD	CLASSES:Temple Raider of Olidammara=4																									
+Neutralize Poison.MOD	CLASSES:Temple Raider of Olidammara=4																									
+Restoration.MOD	CLASSES:Temple Raider of Olidammara=4																									
+Spell Immunity.MOD	CLASSES:Temple Raider of Olidammara=4																									
+																										
+#																										
+Bestow Curse (Greater) Option 1	OUTPUTNAME:Bestow Curse (Greater) (-8 penalty on attack rolls, saves, ability checks and skill checks)	KEY:Bestow Curse (Greater) ~ Option1																						TEMPBONUS:ANYPC|SAVE|ALL|-8|TYPE=Temporary	TEMPBONUS:ANYPC|COMBAT|TOHIT|-8|TYPE=Temporary	TEMPBONUS:ANYPC|SKILL|ALL|-8|TYPE=Temporary

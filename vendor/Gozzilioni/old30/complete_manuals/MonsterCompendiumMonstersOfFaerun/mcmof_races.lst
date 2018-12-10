@@ -1,4 +1,4 @@
-SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:02-2001																																
+SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
 																																			
 # Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	TYPE:	RACETYPE:	RACESUBTYPE:	MONSTERCLASS:	MOVE:	Combat bonus	NATURALATTACKS:	NATURALATTACKS:	Weapon prof. bonus	Weapon prof. bonus	FACE:	REACH:	Special Ability	Damage Reduction	Spell Res.	Stat bonus						MONCSKILL:	CR:	Required AL	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	Nb Legs	Nb Hands	SOURCEPAGE:		
 Aarakokra			STARTFEATS:1	SIZE:M	TYPE:Monstrous Humanoid	RACETYPE:Monstrous Humanoid		MONSTERCLASS:Monstrous Humanoid:1	MOVE:Walk,20,Fly,90		NATURALATTACKS:Talon,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*2,1d4				FACE:5	REACH:5	ABILITY:Internal|AUTOMATIC|Race Traits ~ Aarakokra			BONUS:STAT|STR|-2	BONUS:STAT|DEX|4					MONCSKILL:TYPE.Craft|TYPE.Knowledge|Listen|Spot|Survival	CR:1/2			LEVELADJUSTMENT:2	LEGS:2	HANDS:0	SOURCEPAGE:MCMoF	KIT:1|Aarakokra Stats	

@@ -1,0 +1,63 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+
+# Subrace Support
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Favored Soul Class Feature	CATEGORY:Special Ability	TYPE:FavoredSoulClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Favored Soul Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Shugenja Class Feature	CATEGORY:Special Ability	TYPE:ShugenjaClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Shugenja Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Spirit Shaman Class Feature	CATEGORY:Special Ability	TYPE:SpiritShamanClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Spirit Shaman Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Black Flame Zealot Class Feature	CATEGORY:Special Ability	TYPE:BlackFlameZealotClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Black Flame Zealot Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Blighter Class Feature	CATEGORY:Special Ability	TYPE:BlighterClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Blighter Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Church Inquisitor Class Feature	CATEGORY:Special Ability	TYPE:ChurchInquisitorClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Church Inquisitor Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Consecrated Harrier Class Feature	CATEGORY:Special Ability	TYPE:ConsecratedHarrierClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Consecrated Harrier Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Contemplative Class Feature	CATEGORY:Special Ability	TYPE:ContemplativeClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Contemplative Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Divine Crusader Class Feature	CATEGORY:Special Ability	TYPE:DivineCrusaderClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Divine Crusader Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Divine Oracle Class Feature	CATEGORY:Special Ability	TYPE:DivineOracleClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Divine Oracle Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Entropomancer Class Feature	CATEGORY:Special Ability	TYPE:EntropomancerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Entropomancer Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Evangelist Class Feature	CATEGORY:Special Ability	TYPE:EvangelistClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:EvangelistClass Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Geomancer Class Feature	CATEGORY:Special Ability	TYPE:GeomancerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Geomancer Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Holy Liberator Class Feature	CATEGORY:Special Ability	TYPE:HolyLiberatorClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Holy Liberator Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Hospitaler Class Feature	CATEGORY:Special Ability	TYPE:HospitalerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Hospitaler Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Pious Templar Class Feature	CATEGORY:Special Ability	TYPE:PiousTemplarClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Pious Templar Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Radiant Servant of Pelor Class Feature	CATEGORY:Special Ability	TYPE:RadiantServantOfPelorClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Radiant Servant of Pelor Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Rainbow Servant Class Feature	CATEGORY:Special Ability	TYPE:RainbowServantClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Rainbow Servant Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Sacred Exorcist Class Feature	CATEGORY:Special Ability	TYPE:SacredExorcistClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Sacred Exorcist Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Sacred Fist Class Feature	CATEGORY:Special Ability	TYPE:SacredFistClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Sacred Fist Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Seeker of the Misty Isle Class Feature	CATEGORY:Special Ability	TYPE:SeekerOfTheMistyIsleClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Seeker of the Misty Isle Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Shining Blade of Heironeous Class Feature	CATEGORY:Special Ability	TYPE:ShiningBladeOfHeironeousClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Shining Blade of Heironeous Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Stormlord Class Feature	CATEGORY:Special Ability	TYPE:StormlordClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Stormlord Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Temple Raider of Olidammara Class Feature	CATEGORY:Special Ability	TYPE:TempleRaiderOfOlidammaraClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Temple Raider of Olidammara Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Ur-Priest Class Feature	CATEGORY:Special Ability	TYPE:UrPriestClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Ur-Priest Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Void Disciple Class Feature	CATEGORY:Special Ability	TYPE:VoidDiscipleClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Void Disciple Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Warpriest Class Feature	CATEGORY:Special Ability	TYPE:WarpriestClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Warpriest Class Features			DISPLAYLOCATION:Class Features
+
+ABILITYCATEGORY:Celestial Companion Class Feature	CATEGORY:Special Ability	TYPE:CelestialCompanionClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Celestial Companion Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups
+ABILITYCATEGORY:Favored Soul Weapon Focus	CATEGORY:Special Ability	TYPE:FavoredSoulWeaponFocus	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Favored Soul Weapon Focus				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Favored Soul Energy Resistance	CATEGORY:Special Ability	TYPE:FavoredSoulEnergyResistance	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Favored Soul Weapon Specialization				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Favored Soul Weapon Specialization	CATEGORY:Special Ability	TYPE:FavoredSoulWeaponSpecialization	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Favored Soul Weapon Specialization				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Favored Soul Wings	CATEGORY:Special Ability	TYPE:FavoredSoulWeaponWings	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Favored Soul Wings				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Favored Soul Damage Reduction	CATEGORY:Special Ability	TYPE:FavoredSoulDamageReduction	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Favored Soul Damage Reduction				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Shugenja Prohibited School	CATEGORY:Special Ability	TYPE:ShugenjaProhibitSchool	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Shugenja Prohibited Schools			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Spirit Guide	CATEGORY:Special Ability	TYPE:SpiritGuide	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Spirit Guides			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Divine Crusader Weapon Specialization	CATEGORY:Special Ability	TYPE:DivineCrusaderWeaponSpecialization	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Divine Crusader Weapon Specialization				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Geomancer Drift	CATEGORY:Special Ability	TYPE:Drift1.Drift2.Drift3.Drift4.Drift5	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Geomancer Drifts				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Geomancer Ley Lines	CATEGORY:Special Ability	TYPE:LeyLine	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Geomancer LeyLines				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Pious Templar Weapon Specialization	CATEGORY:Special Ability	TYPE:PiousTemplarWeaponSpecialization	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Pious Templar Weapon Specialization				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Chosen Foe	CATEGORY:Special Ability	TYPE:ChosenFoe	VISIBLE:QUALIFY	EDITABLE:YES	POOL:ChosenFoeCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Chosen Foes				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Chosen Foe Bonus	CATEGORY:Special Ability	TYPE:ChosenFoeBonus	VISIBLE:QUALIFY	EDITABLE:YES	POOL:ChosenFoeBonusCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Chosen Foe Bonuses			DISPLAYLOCATION:Class Features
+
+#Feats Ability pools
+ABILITYCATEGORY:Hexblade Feat	CATEGORY:FEAT	TYPE:Hexblade	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Hexblade Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Ronin Feat	CATEGORY:FEAT	TYPE:Ronin	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Ronin Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Spellsword Feat	CATEGORY:FEAT	TYPE:Spellsword.Metamagic.Fighter	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Spellsword Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Thayan Knight Feat	CATEGORY:FEAT	TYPE:ThayanKnight.Fighter	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Thayan Knight Feats			DISPLAYLOCATION:Feats
+
+#Companion Support
+ABILITYCATEGORY:Celestial Companion Selection	CATEGORY:Internal	TYPE:CelestialCompanionSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Celestial Companion Choice			DISPLAYLOCATION:Class Features
+
+#
+# End
+#

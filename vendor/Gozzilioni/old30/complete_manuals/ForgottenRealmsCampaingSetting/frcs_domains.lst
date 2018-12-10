@@ -1,4 +1,4 @@
-SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:06-2001
+SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-06
 									
 #	SOURCEPAGE:SpellListI.rtf		SPELLLEVEL:DOMAIN|=1||=2||=3||=4||=5||=6||=7||=8||=9|	DESC:					
 Cavern	SOURCEPAGE:FRCS30		SPELLLEVEL:DOMAIN|Cavern=1|Detect Secret Doors|Cavern=2|Darkness|Cavern=3|Meld into Stone|Cavern=4|Leomund's Secure Shelter|Cavern=5|Passwall|Cavern=6|Find the Path|Cavern=7|Maw of stone|Cavern=8|Earthquake|Cavern=9|Imprisonment	DESC:You gain the dwarven ability of stonecunning. If you already have stonecunning, your racial bonus for stone cunning increases from +2 to +4 on checks to notice unusual stonework.		ABILITY:Special Ability|AUTOMATIC|Cavern ~ Stonecunning|!PREABILITY:1,CATEGORY=Special Ability,TYPE.Stonecunning	BONUS:VAR|StonecunningSearchBonus|2|TYPE=Racial.STACK|PREABILITY:1,CATEGORY=Special Ability,TYPE.Stonecunning		

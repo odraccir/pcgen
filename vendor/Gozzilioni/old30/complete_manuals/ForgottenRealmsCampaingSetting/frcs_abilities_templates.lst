@@ -1,4 +1,4 @@
-SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:06-2001
+SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-06
 																																
 ###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 Damage	CATEGORY:Special Ability	TYPE:DracolichRaceTrait.SpecialAttack	VISIBLE:YES	DESC:As base creature, plus an additional 1d6 points of cold damage.	KEY:Dracolich ~ Damage																											SOURCEPAGE:FRCS30

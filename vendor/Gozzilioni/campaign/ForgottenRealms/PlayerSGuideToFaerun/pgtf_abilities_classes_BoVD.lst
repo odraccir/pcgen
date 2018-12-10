@@ -1,4 +1,4 @@
-SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:03-2004																													
+SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-03
 																																
 ###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassFeatures.BlackBloodHunterClassFeatures.SpecialQuality	VISIBLE:YES	DESC:Black blood hunters gain no proficiency with any weapon, armor, or shield.	KEY:Black Blood Hunter ~ Weapon and Armor Proficiency																										SORTKEY:Class_Black_Blood_Hunter	SOURCEPAGE:PgtF

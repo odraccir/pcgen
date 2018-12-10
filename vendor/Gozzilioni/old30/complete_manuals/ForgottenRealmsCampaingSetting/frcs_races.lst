@@ -1,4 +1,4 @@
-SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:06-2001
+SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-06
 
 # Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	TYPE:	RACETYPE:	RACESUBTYPE:	MONSTERCLASS:	MOVE:	Combat bonus	NATURALATTACKS:	NATURALATTACKS:	Weapon prof. bonus	Weapon prof. bonus	FACE:	REACH:	Special Ability	Damage Reduction	Spell Res.	Stat bonus						MONCSKILL:	CR:	Required AL	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	Nb Legs	Nb Hands	SOURCEPAGE:	
 Planetouched (Air Genasi)			STARTFEATS:1	SIZE:M	TYPE:Outsider	RACETYPE:Outsider			MOVE:Walk,30						FACE:5	REACH:5	ABILITY:Internal|AUTOMATIC|Race Traits ~ Air Genasi										CR:1/2				LEGS:2	HANDS:2	SOURCEPAGE:FRCS30	KIT:1|Planetouched (Air Genasi) Stats

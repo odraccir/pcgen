@@ -1,4 +1,4 @@
-SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:06-2001
+SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-06
 																																		
 ###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page		
 Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassFeatures.ArcaneDevoteeClassFeatures.SpecialQuality	VISIBLE:YES	DESC:Arcane devotees gain no proficieny in any weapon or armor.	KEY:Arcane Devotee ~ Weapon and Armor Proficiency																										SORTKEY:Class_Arcane_Devotee	SOURCEPAGE:FRCS30		

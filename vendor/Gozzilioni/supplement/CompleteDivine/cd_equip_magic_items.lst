@@ -1,0 +1,55 @@
+SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-05
+#															
+# Equipment Name	Output Name	TYPE:	COST:	WT:	SOURCEPAGE:										
+Belt of the Champion		TYPE:Relic.Belt	COST:22000	WT:0	SOURCEPAGE:CD	BONUS:STAT|STR|6	BONUS:COMBAT|TOHIT.GRAPPLE|4	PREDEITY:1,Kord							
+Boots of Unending Journey		TYPE:Relic.Boot	COST:23600	WT:0	SOURCEPAGE:CD	SLOTS:2	ABILITY:Special Ability|AUTOMATIC|Immunity to Fatigue|Immunity To Exhaustion	PREDEITY:1,Fharlanghn							
+Censer of the Last Breath		TYPE:Relic	COST:82000	WT:1	SOURCEPAGE:CD	PREDEITY:1,Nerull									
+Cloak (Dragonscale)		TYPE:Relic.Cape	COST:75840	WT:2	SOURCEPAGE:CD	BONUS:VAR|FireResistanceBonus,ElectricityResistanceBonus,ColdResistanceBonus,AcidResistanceBonus|10|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance to Fire|Resistance to Electricity|Resistance to Cold|Resistance to Acid	PREDEITY:1,Tiamat							
+Cornucopia of the Needful		TYPE:Relic	COST:44600	WT:8	SOURCEPAGE:CD	PREDEITY:1,Yondalla									
+Ehlonna's Seed Pouch		TYPE:Relic	COST:93800	WT:4	SOURCEPAGE:CD	PREDEITY:1,Ehlonna									
+Enveloping Pit		TYPE:Relic.Container	COST:33600	WT:0	SOURCEPAGE:CD	CONTAINS:*UNLIM|Any	PREDEITY:1,Kurtumlak								
+Executioner's Hood		TYPE:Relic.Headgear	COST:50400	WT:1	SOURCEPAGE:CD	PREDEITY:1,Erythnul									
+Gem of the Glitterdepth		TYPE:Relic.Gem	COST:2200	WT:1	SOURCEPAGE:CD	BONUS:STAT|WIS|6|TYPE=Enhancement	PREDEITY:1,Garl Glittergold								
+Platinum Helm		TYPE:Relic.Headgear	COST:64000	WT:3	SOURCEPAGE:CD	BONUS:VAR|BlindsenseRange|60|TYPE=Base	ABILITY:Special Ability|AUTOMATIC|Platinum Helm ~ Frightful Presence	PREDEITY:1,Bahamut							
+Helm of the Purple Plume		TYPE:Relic.Headgear	COST:22000	WT:4	SOURCEPAGE:CD	BONUS:STAT|CHA|2	ABILITY:Special Ability|AUTOMATIC|Immunity to Fear	PREDEITY:1,Heironeous							
+Map of the Unseen Lands		TYPE:Relic	COST:25200	WT:2	SOURCEPAGE:CD	PREDEITY:1,Yondalla									
+Pipes of Frenzied Revelry		TYPE:Wondrous.Instrument	COST:22320	WT:3	SOURCEPAGE:CD	PREDEITY:1,Olidammara									
+Robes of Ebonsilk		TYPE:Relic.Cape	COST:134000	WT:1	SOURCEPAGE:CD	BONUS:COMBAT|AC|8|TYPE=Armor	BONUS:SAVE|ALL|4|TYPE=Resistance	SPROP:Continuous spider climb and freedom of movement.	PREDEITY:1,Lolth						
+Scroll of Uncertain Provenance		TYPE:Relic	COST:118000	WT:10	SOURCEPAGE:CD										
+Shard of the Sun		TYPE:Relic.Tools.DivineFocus.LightSource	COST:73280	WT:1	SOURCEPAGE:CD	QUALITY:Bright Illumination|60 ft.	QUALITY:Shadowy Illumination|60 ft.	PREDEITY:1,Pelor							
+Tabard of the Disembodied		TYPE:Shirt.Relic	COST:68600	WT:1	SOURCEPAGE:CD	SPROP:takes the wearer to the Ethereal Plane on command (as the ethereal jaunt spell) for up to 10 rounds per day, which need not be continuous.	PREDEITY:1,Nerull								
+Tabard of the Great Crusade		TYPE:Shirt.Relic	COST:68800	WT:1	SOURCEPAGE:CD	SR:5/Evil	BONUS:SAVE|ALL|2|TYPE=Morale	SPELLS:Tabard of the Great Crusade|TIMES=1|CASTERLEVEL=15|Heal	PREDEITY:1,St. Cuthbert						
+Tome of Ancient Lore		TYPE:Book.Relic	COST:22000	WT:2	SOURCEPAGE:CD	PREDEITY:1,Boccob									
+Tome of the Stilled Tongue		TYPE:Book.Spellbook.Relic	COST:34850	WT:5	SOURCEPAGE:CD	NUMPAGES:500	PAGEUSAGE:max(SPELLLEVEL,1)	PREDEITY:1,Vecna							
+															
+###Rods															
+Rod of Reversal		TYPE:Rod.Relic	COST:132000	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	ABILITY:FEAT|VIRTUAL|Improved Counterspell	PREDEITY:1,Boccob							
+Rod of the Recluse		TYPE:Rod.Weapon.Touch.Melee.Simple.Bludgeoning.Light.Mace.Relic	COST:33600	WT:5	SOURCEPAGE:CD	SPROP:2d6 points of STR damage on hit with touch attack.	PREDEITY:1,Lolth		PROFICIENCY:WEAPON|Mace (Light)	WIELD:Light	SIZE:M	DAMAGE:0	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS3W
+															
+###Scrolls															
+															
+#Staves															
+Staff of Unyielding Oak	KEY:Staff (Unyelding Oak)	TYPE:Staff.Relic	COST:81600	WT:4	SOURCEPAGE:CD		SPROP:These staffs, of which three are known to exist, are treants that have willingly bound themselves into quarterstaff form to aid Obad-Hai's followers.	PREDEITY:1,Obad-Hai							
+The Beatific (Lesser)	KEY:Staff (Beatific/Lesser)	TYPE:Staff	COST:28266	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Dispel evil (2 charges)/Dispel law (2 charges)/Chaos hammer (1 charge)/Holy smite (1 charge).								
+The Beatific (Greater)	KEY:Staff (Beatific/Greater)	TYPE:Staff	COST:78750	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Cloak of chaos (2 charges)/Holy aura (2 charges)/Word of chaos (1 charge)/Holy word (1 charge).								
+Staff of Building	KEY:Staff (Building)	TYPE:Staff	COST:38156	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Animate objects (2 charges)/Wall of stone (1 charge)/Major creation (1 charge).								
+The Diabolical (Lesser)	KEY:Staff (Diabolical/Lesser)	TYPE:Staff	COST:28266	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Dispel good (2 charges)/Dispel chaos (2 charges)/Order's wrath (1 charge)/Unholy blight (1 charge).								
+The Diabolical (Greater)	KEY:Staff (Diabolical/Greater)	TYPE:Staff	COST:78750	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Shield of law (2 charges)/Unholy aura (2 charges)/Dictum (1 charge)/Blasphemy (1 charge).								
+Staff of Fauna	KEY:Staff (Fauna)	TYPE:Staff	COST:19406	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Animal growth (2 charges)/Barkskin (1 charge)/Greater magic fang (1 charge).								
+The Gaol	KEY:Staff (Gaol)	TYPE:Staff	COST:51563	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Hold monster (1 charge)/Blade barrier (1 charge)/Dimensional anchor (1 charge)								
+Homeland	KEY:Staff (Homeland)	TYPE:Staff	COST:48469	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Find the path (1 charge)/Commune with nature (1 charge)/Forestfold (1 charge)								
+Hunting Spirit	KEY:Staff (Hunting Spirit)	TYPE:Staff	COST:66938	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Spirit bear (2 charges)/Spirit wolf (1 charge)								
+Incarnation	KEY:Staff (Incarnation)	TYPE:Staff	COST:60563	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Greater incarnation (3 charges)/Incarnation (2 charges)/Lesser incarnation (1 charge)								
+Jetstream	KEY:Staff (Jetstream)	TYPE:Staff	COST:89250	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Greater whirlwind (2 charges)/Wind walk (1 charge)/Whirlwind (1 charge)								
+Oaken Battle	KEY:Staff (Oaken Battle)	TYPE:Staff	COST:13500	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Shillelagh (1 charge)/Spikes (1 charge)								
+Pain	KEY:Staff (Pain)	TYPE:Staff	COST:27844	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Eyebite (2 charges)/Wrack (1 charge)/Inflict serious wounds (1 charge)								
+Planar Defense	KEY:Staff (Planar Defense)	TYPE:Staff	COST:44344	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Banishment (2 charges)/Subvert planar essence (1 charge)/Dismissal (1 charge)/Dimensional anchor (1 charge)								
+The Saintly (Lesser)	KEY:Staff (Saintly/Lesser)	TYPE:Staff	COST:28266	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Dispel evil (2 charges)/Dispel chaos (2 charges)/Order's wrath (1 charge)/Holy smite (1 charge)								
+The Saintly (Greater)	KEY:Staff (Saintly/Greater)	TYPE:Staff	COST:78750	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Shield of law (2 charges)/Holy aura (2 charges)/Dictum (1 charge)/Holy word (1 charge)								
+Soul-Ward	KEY:Staff (Soul-Ward)	TYPE:Staff	COST:82417	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Greater restoration (3 charges)/Death ward (1 charge)/Restoration (1 charge)								
+Storms	KEY:Staff (Storms)	TYPE:Staff	COST:118125	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Storm tower (1 charge)/Stormrage (1 charge)/Storm of elemental fury (1 charge)/Control weather (1 charge)								
+True Belief	KEY:Staff (True Belief)	TYPE:Staff	COST:31688	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Righteous wrath of the faithful (2 charges)/Castigate (1 charge)								
+Vaporous Menace	KEY:Staff (Vaporous Menace)	TYPE:Staff	COST:40094	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Acid fog (2 charges)/Miasma (1 charge)/Murderous mist (1 charge)								
+The Wanton (Lesser)	KEY:Staff (Wanton/Lesser)	TYPE:Staff	COST:28266	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Dispel good (2 charges)/Dispel law (2 charges)/Chaos hammer (1 charge)/Unholy blight (1 charge)								
+The Wanton (Greater)	KEY:Staff (Wanton/Greater)	TYPE:Staff	COST:78750	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Cloak of chaos (2 charges)/Unholy aura (2 charges)/Word of chaos (1 charge)/Blasphemy (1 charge)								
+Winds	KEY:Staff (Winds)	TYPE:Staff	COST:37969	WT:5	SOURCEPAGE:CD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Binding winds (1 charge)/Control winds (1 charge)/Summon nature's ally V (Large air elemental only) (1 charge)								

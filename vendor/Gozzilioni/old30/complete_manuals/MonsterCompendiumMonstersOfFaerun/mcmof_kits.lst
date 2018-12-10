@@ -1,4 +1,4 @@
-SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:02-2001
+SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
 	
 STARTPACK:Aarakokra Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Aarakokra
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10

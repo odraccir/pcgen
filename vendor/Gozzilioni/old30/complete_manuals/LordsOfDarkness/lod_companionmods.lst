@@ -1,4 +1,4 @@
-SOURCELONG:Lords of Darkness 3.0	SOURCESHORT:LoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:10-2001
+SOURCELONG:Lords of Darkness 3.0	SOURCESHORT:LoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-10
 
 ###Block:Flying Mount										
 FOLLOWER:FlyingMountLVL=1	TYPE:Flying Mount	BONUS:VAR|BardingAllowed|1|TYPE=Base

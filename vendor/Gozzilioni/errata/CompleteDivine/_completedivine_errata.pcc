@@ -1,0 +1,38 @@
+CAMPAIGN:Complete Divine Errata
+GAMEMODE:G35e
+RANK:4
+TYPE:Gozzilioni.Partial.Errata
+SETTING:Heroes
+BOOKTYPE:Errata
+SOURCELONG:Complete Divine Errata
+SOURCESHORT:CDe
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2004-10
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+
+PRECAMPAIGN:1,Complete Divine
+
+ABILITY:cde_feats.lst
+DEITY:cde_deities.lst
+EQUIPMENT:cde_equip_magic_items.lst
+SPELL:cde_spells.lst
+
+#
+# HIDETYPE:SKILL|Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma
+
+# HIDETYPE:FEAT|Wizard
+
+# ENTRY DATE: 2015-08
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

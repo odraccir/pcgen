@@ -1,4 +1,4 @@
-SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:02-2001												
+SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
 															
 #Archetypes															
 Direguard	TYPE:Acquired	VISIBLE:YES	SOURCEPAGE:MCMoF	PRERACE:1,Baneguard	BONUS:COMBAT|AC|1|TYPE=Deflection	BONUS:VAR|HasSeeInvisibilityVision|1|TYPE=Base									

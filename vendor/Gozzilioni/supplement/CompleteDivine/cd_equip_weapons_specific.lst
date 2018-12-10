@@ -1,0 +1,41 @@
+SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-05
+#																												
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:						
+# Simple Weapons																												
+## Unarmed																												
+Gauntlet of the Blood-Lord			PROFICIENCY:WEAPON|Gauntlet	TYPE:Weapon.Melee.Simple.Bludgeoning.Unarmed.Gauntlet.Relic	COST:33600	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:CD									BONUS:COMBAT|TOHIT|4|TYPE=Luck	PREDEITY:1,Hextor				
+## Light																												
+Gauntlet of the Talon			PROFICIENCY:WEAPON|Gauntlet (Spiked)	TYPE:Weapon.Melee.Simple.Piercing.Unarmed.Gauntlet.Relic	COST:20000	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.GHOST_M	SOURCEPAGE:CD									BONUS:EQM|WEIGHTADD|-1|PREMULT:3,[PREEQUIP:1,TYPE.Armor],[PREEQUIP:1,TYPE.Medium,TYPE.Heavy],[!PREEQUIP:1,Breastplate]	BONUS:VAR|MonkACLVLBonus|5	BONUS:VAR|MonkKiStrikeLVL|5	BONUS:UDAM|CLASS.Monk|5	BONUS:COMBAT|TOHIT.GRAPPLE|4	PREDEITY:1,Bahamut
+Ruby Blade			PROFICIENCY:WEAPON|Dagger	TYPE:Weapon.Melee.Ranged.Simple.Piercing.Slashing.Light.Dagger.Relic	COST:46902	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.PLUS3W.LAW_M	SOURCEPAGE:CD							RANGE:10		BONUS:VAR|TurnLevelUndead,TurnDamagePlusUndead|4	SPROP:Continuous Status.	PREDEITY:1,Wee Jas			
+## OneHanded																												
+Chromatic Rod			PROFICIENCY:WEAPON|Morningstar	TYPE:Weapon.Melee.Simple.Bludgeoning.Piercing.OneHanded.Relic	COST:71908	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.PLUS2W.FLM_M.FROST_M.SHOCK_M	SOURCEPAGE:CD									SPELLS:Chromatic Rod|TIMES=1|CASTERLEVEL=12|Insect Plague|Veil,19|Dominate Person,17|Find the Path|Wall of Ice	PREDEITY:1,Tiamat				
+Cudgel that Never Forget			PROFICIENCY:WEAPON|Mace (Heavy)	TYPE:Weapon.Melee.Simple.Bludgeoning.OneHanded.Mace.Relic	COST:82112	WT:8	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.PLUS2W.LAW_M.INT_ITEM.WEAP_INT_ITEM_5.INT_ITEM_INT_16.INT_ITEM_CHA_16.INT_ITEM_ALIGN_LN.INT_ITEM_DEATHWATCH.INT_ITEM_INTIMIDATE.INT_ITEM_CURE_MODERATE.INT_ITEM_LANG_3|Common,Infernal,Abyssal,Celestial	SOURCEPAGE:CD									PREDEITY:1,St. Cuthbert					
+Dawnstar			PROFICIENCY:WEAPON|Morningstar	TYPE:Weapon.Melee.Simple.Bludgeoning.Piercing.OneHanded.Relic	COST:61908	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.PLUS3W.BRI_EN_M	SOURCEPAGE:CD									PREDEITY:1,Pelor					
+Morningstar of the Many			PROFICIENCY:WEAPON|Morningstar	TYPE:Weapon.Melee.Simple.Bludgeoning.Piercing.OneHanded.Relic	COST:30300	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.PLUS2W	SOURCEPAGE:CD									PREDEITY:1,Erythnul					
+## TwoHanded																												
+Skewer-of-Gnomes			PROFICIENCY:WEAPON|Spear	TYPE:Weapon.Melee.Ranged.Simple.Piercing.TwoHanded.Spear.Relic	COST:61900	WT:3	WIELD:TwoHanded		SIZE:S	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.PLUS3W.UNHOLY_M.BANE_M|Humanoids (gnome)	SOURCEPAGE:CD							RANGE:20		PREDEITY:1,Kurtumlak					
+Spear of Retribution			PROFICIENCY:WEAPON|Spear	TYPE:Weapon.Melee.Ranged.Simple.Piercing.TwoHanded.Spear.Relic	COST:61900	WT:6	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.PLUS2W.RETURN	SOURCEPAGE:CD							RANGE:20		PREDEITY:1,Gruumsh					
+## Ranged																												
+																												
+# Martial Weapons																												
+## Light																												
+## OneHanded																												
+Rapier of Desperate Measures			PROFICIENCY:WEAPON|Rapier	TYPE:Weapon.Melee.Martial.Piercing.OneHanded.Rapier.Relic	COST:23920	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL.PLUS2W.KEEN	SOURCEPAGE:CD									BONUS:WEAPON|DAMAGEMULT:2|-0.5	PREDEITY:1,Olidammara				
+Rapier			PROFICIENCY:WEAPON|Rapier	TYPE:Weapon.Melee.Martial.Piercing.OneHanded.Rapier.Relic	COST:35600	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL.PLUS4W.GHOST_M	SOURCEPAGE:CD									BONUS:WEAPON|DAMAGEMULT:2|-0.5					
+Sword of Virtue Beyond Reproach			PROFICIENCY:WEAPON|Longsword	TYPE:Weapon.Melee.Martial.Slashing.OneHanded.Sword.Relic	COST:50000	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.PLUS3W.HOLY_M	SOURCEPAGE:CD									PREDEITY:1,Kurtumlak					
+## TwoHanded																												
+Hooked Hammer of the Hearthfire			PROFICIENCY:WEAPON|Hammer (Hooked/Gnome)	TYPE:Weapon.Melee.Exotic.Bludgeoning.TwoHanded.Double.Hammer.Gnome.Relic	COST:35600	WT:6	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.PLUS2W.FLM_M	SOURCEPAGE:CD		ALTTYPE:Weapon.Melee.Piercing	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x4	ALTEQMOD:STEEL.PLUS2W.FLM_M				PREDEITY:1,Garl Glittergold				
+Sword of Mighty Thews			PROFICIENCY:WEAPON|Greatsword	TYPE:Weapon.Melee.Martial.Slashing.TwoHanded.Sword.Relic	COST:45600	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.PLUS3W.BANE_M|Dragons	SOURCEPAGE:CD									PREDEITY:1,Kord					
+## Ranged																												
+																												
+# Exotic Weapons																												
+## Light																												
+## OneHanded																												
+Axe of Ancestral Virtue			PROFICIENCY:WEAPON|Waraxe (Dwarven)	TYPE:Weapon.Melee.Exotic.Slashing.OneHanded.Axe.Dwarven.Relic	COST:50230	WT:8	WIELD:OneHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.WOOD.ADAMANT_WEAP.KEEN.INT_ITEM.WEAP_INT_ITEM_6.INT_ITEM_WIS_17.INT_ITEM_CHA_17.INT_ITEM_ALIGN_LN.INT_ITEM_BLESS.INT_ITEM_CURE_MODERATE.INT_ITEM_FAERIE.INT_ITEM_HASTE	SOURCEPAGE:CD									BONUS:WEAPON|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Waraxe (Dwarven))|PRESTAT:1,STR=13	PREDEITY:1,Moradin				
+## TwoHanded																												
+Chain of Obeisance			PROFICIENCY:WEAPON|Chain (Spiked)	TYPE:Weapon.Melee.Exotic.Piercing.TwoHanded.Chain.Relic	COST:35600	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.PLUS2W.UNHOLY_M	SOURCEPAGE:CD								REACHMULT:2		PREDEITY:1,Hextor				
+## Ranged																												
+Bow of the Wintermoon	OUTPUTNAME:Bow of the Wintermoon STR		PROFICIENCY:WEAPON|Longbow	TYPE:Weapon.Ranged.Martial.Piercing.Bow.Longbow.Composite.Container.Relic	COST:36300	WT:3	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD.FROST_R.BOWSTR|STR.BANE_M_ELF	SOURCEPAGE:CD							RANGE:110		CONTAINS:UNLIM|Arrow|SpecificArrow	BONUS:WEAPON|DAMAGE|min(STR,0)	PREDEITY:1,Corellon Larethian			
+																												
+# Arrows																												
+Arrow (Raptor)				TYPE:Ammunition.Arrow.Relic	COST:14500	WT:0.15							EQMOD:STEEL.WOOD.PLUS3W.RETURN	SOURCEPAGE:CD									MODS:YES	PREDEITY:1,Ehlonna				

@@ -1,4 +1,4 @@
-SOURCELONG:Lords of Darkness 3.0	SOURCESHORT:LoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:10-2001
+SOURCELONG:Lords of Darkness 3.0	SOURCESHORT:LoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-10
 																																		
 ###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	DESC:Beholder mage neither gain nor lose proficiency with any weapons, armor, or shields by gaining levels in this class.					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page		
 Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassFeatures.SpurLordClassFeatures.SpecialQuality	VISIBLE:YES	DESC:Spur Lords gain proficiency with the longsword and one other simple or martial weapon of their choice. They gain no proficiency in armor or shields of any type.	KEY:Spur Lord ~ Weapon and Armor Proficiency																		ABILITY:Internal|AUTOMATIC|TYPE=WeaponProfSpurLord								SORTKEY:Class_Spur_Lord	SOURCEPAGE:LoD30		

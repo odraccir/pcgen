@@ -1,0 +1,9 @@
+SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-05
+#																									
+# Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus
+#																									
+Energy Vortex.COPY=Energy Vortex	KEY:Energy Vortex ~ Fire only																								
+Energy Vortex ~ Fire only.MOD	OUTPUTNAME:Energy Vortex	DESCRIPTOR:.CLEAR	DESCRIPTOR:Fire	DESC:Fire only.																					
+																									
+Dragon Breath.COPY=Dragon Breath	KEY:Dragon Breath ~ Red or Gold only																								
+Dragon Breath ~ Red or Gold only.MOD	OUTPUTNAME:Dragon Breath	DESCRIPTOR:.CLEAR	DESCRIPTOR:Fire	DESC:Red or Gold only.																					

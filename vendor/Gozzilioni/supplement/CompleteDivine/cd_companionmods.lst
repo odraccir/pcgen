@@ -1,0 +1,19 @@
+SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-05
+								
+###Block:Special Mount								
+#12								
+FOLLOWER:CelestialCompanionLVL=1	TYPE:Celestial Companion	HD:2	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:STAT|DEX|1	DEFINESTAT:MINVALUE|INT|6	ABILITY:Special Ability|AUTOMATIC|Celestial Companion ~ Empathic Link|Celestial Companion ~ Improved Evasion|Celestial Companion ~ Share Saving Throws|Celestial Companion ~ Share Spells	BONUS:VAR|BardingAllowed|1|TYPE=Base	TEMPLATE:Celestial
+#13-15								
+FOLLOWER:CelestialCompanionLVL=2	TYPE:Celestial Companion	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|DEX|1	DEFINESTAT:MINVALUE|INT|7	ABILITY:Special Ability|AUTOMATIC|Celestial Companion ~ Speak with Holy Liberator		
+#16-18								
+FOLLOWER:CelestialCompanionLVL=5	TYPE:Celestial Companion	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|DEX|1	DEFINESTAT:MINVALUE|INT|8	ABILITY:Special Ability|AUTOMATIC|Celestial Companion ~ Blood Bond		
+#19-20								
+FOLLOWER:CelestialCompanionLVL=8	TYPE:Celestial Companion	HD:2	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	BONUS:STAT|DEX|1	DEFINESTAT:MINVALUE|INT|9	ABILITY:Special Ability|AUTOMATIC|Celestial Companion ~ Spell Resistance	SR:mastervar("CelestialCompanionLVL")+10	
+#25								
+FOLLOWER:CelestialCompanionLVL=13	TYPE:Celestial Companion	HD:2	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:STAT|DEX|1	DEFINESTAT:MINVALUE|INT|10			
+#30								
+FOLLOWER:CelestialCompanionLVL=18	TYPE:Celestial Companion	HD:2	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:STAT|DEX|1	DEFINESTAT:MINVALUE|INT|10			
+#35								
+FOLLOWER:CelestialCompanionLVL=23	TYPE:Celestial Companion	HD:2	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:STAT|DEX|1	DEFINESTAT:MINVALUE|INT|10			
+#40								
+FOLLOWER:CelestialCompanionLVL=28	TYPE:Celestial Companion	HD:2	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:STAT|DEX|1	DEFINESTAT:MINVALUE|INT|10			

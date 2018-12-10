@@ -1,4 +1,4 @@
-SOURCELONG:Dungeons Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07															
+SOURCELONG:Magic of Faerun 3.0	SOURCESHORT:MoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
 #																		
 ###Block:Armor	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	SOURCEPAGE:	BONUS:COMBAT|AC|x|TYPE=Armor	MAXDEX:	ACCHECK:	SPELLFAILURE:	EQMOD:						
 Laeral's Storm Armor			PROFICIENCY:ARMOR|Full Plate	TYPE:Armor.Heavy.Suit.Specific	COST:1500	WT:50	SOURCEPAGE:MoF30	BONUS:COMBAT|AC|8|TYPE=Armor	MAXDEX:1	ACCHECK:-6	SPELLFAILURE:35	EQMOD:STEEL.EQ_COST_ADJ_A.PLUS2A.FIRE_RST.ELECTRICITY_RST	SPROP:66650gp. The wearer is never hindered or moved against her will by strong winds.					

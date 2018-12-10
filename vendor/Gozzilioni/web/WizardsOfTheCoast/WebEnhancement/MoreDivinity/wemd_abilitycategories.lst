@@ -1,0 +1,20 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+
+# Subrace Support
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Dweomerkeeper Class Feature	CATEGORY:Special Ability	TYPE:DweomerkeeperClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dweomerkeeper Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Master of Shrouds Class Feature	CATEGORY:Special Ability	TYPE:MasterOfShroudsClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Master Of Shrouds Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Moon Guardian Class Feature	CATEGORY:Special Ability	TYPE:MoonGuardianClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Moon Guardian Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Nightcloak Class Feature	CATEGORY:Special Ability	TYPE:NightcloakClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Nightcloak Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups
+
+#Feats Ability pools
+
+#Companion Support
+
+#
+# End
+#

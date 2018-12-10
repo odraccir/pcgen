@@ -1,4 +1,4 @@
-SOURCELONG:Magic of Faerun 3.0	SOURCESHORT:MoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:02-2001																								
+SOURCELONG:Magic of Faerun 3.0	SOURCESHORT:MoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
 																											
 ###Block: AB																											
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus		
