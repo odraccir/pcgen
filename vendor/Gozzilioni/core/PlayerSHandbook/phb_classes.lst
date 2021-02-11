@@ -305,7 +305,7 @@ CLASS:Paladin	SPELLSTAT:WIS	FACT:SpellType|Divine		KNOWNSPELLS:LEVEL=0|LEVEL=1|L
 2				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Lay on Hands|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinLayOnHands										
 3				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Aura of Courage|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinAuraOfCourage										
 3				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Divine Health|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinDivineHealth										
-3				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Turn Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinTurnUndead										
+4				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Turn Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinTurnUndead										
 4				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpells
 5				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Special Mount|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpecialMount										
 6				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Remove Disease|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinRemoveDisease										

@@ -1,0 +1,45 @@
+SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+
+Aasimar	VISIBLE:NO	KEY:Common Aasimar	LEVELADJUSTMENT:1																															
+Languages	KEY:Aasimar ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Celestial	LANGBONUS:Draconic,Dwarven,Elven,Gnome,Halfling,Sylvan																														
+Favored Class	KEY:Aasimar ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Paladin																															
+
+Bariaur	VISIBLE:NO	KEY:Common Bariaur	LEVELADJUSTMENT:1
+Languages	KEY:Bariaur ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Celestial	LANGBONUS:Abyssal,Infernal
+Favored Class	KEY:Bariaur ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger
+
+Buomman	VISIBLE:NO	KEY:Common Buomman
+Languages	KEY:Buomman ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Buommi	LANGBONUS:Aquan,Githzerai,Terran
+Favored Class	KEY:Buomman ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Monk
+
+Languages	KEY:Mephling ~ Air Mephling ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Auran	LANGBONUS:Aquan,Ignan,Terran
+Favored Class	KEY:Mephling ~ Air Mephling ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Bard
+
+Languages	KEY:Mephling ~ Earth Mephling ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Terran	LANGBONUS:Auran,Aquan,Ignan
+Favored Class	KEY:Mephling ~ Earth Mephling ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Druid
+
+Languages	KEY:Mephling ~ Fire Mephling ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Ignan	LANGBONUS:Auran,Aquan,Terran
+Favored Class	KEY:Mephling ~ Fire Mephling ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Sorcerer
+
+Languages	KEY:Mephling ~ Water Mephling ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Aquan	LANGBONUS:Auran,Ignan,Terran
+Favored Class	KEY:Mephling ~ Water Mephling ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Monk
+
+Neraph	VISIBLE:NO	KEY:Common Neraph
+Languages	KEY:Neraph ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Neraph|Slaad	LANGBONUS:Common,Celestial,Abyssal
+Favored Class	KEY:Neraph ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger
+
+Shadowswyft	VISIBLE:NO	KEY:Common Shadowswyft	LEVELADJUSTMENT:1																															
+Languages	KEY:Shadowswyft ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Shadowswyft|Common	LANGBONUS:Abyssal,Celestial,Elven
+Favored Class	KEY:Shadowswyft ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue
+
+Spiker	VISIBLE:NO	KEY:Common Spiker
+Languages	KEY:Spiker ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:Infernal
+Favored Class	KEY:Spiker ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter
+
+Tiefling	VISIBLE:NO	KEY:Common Tiefling	LEVELADJUSTMENT:1																															
+Languages	KEY:Tiefling ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Infernal	LANGBONUS:Draconic,Dwarven,Elven,Gnome,Goblin,Halfling,Orc																														
+Favored Class	KEY:Tiefling ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue																															
+
+Wildren	VISIBLE:NO	KEY:Common Wildren	LEVELADJUSTMENT:1																															
+Languages	KEY:Wildren ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Dwarven	LANGBONUS:Sylvan,Gnome,Goblin,Orc,Terran																														
+Favored Class	KEY:Wildren ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Barbarian																															

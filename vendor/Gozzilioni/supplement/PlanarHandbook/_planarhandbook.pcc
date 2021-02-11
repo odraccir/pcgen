@@ -1,0 +1,60 @@
+CAMPAIGN:Planar Handbook
+GAMEMODE:G35e
+RANK:1
+TYPE:Gozzilioni.Partial.Accessory
+SETTING:Heroes
+BOOKTYPE:Campaign
+SOURCELONG:Planar Handbook
+SOURCESHORT:PH
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2003-07
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+
+PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Guide
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:missing.txt
+
+ABILITY:ph_abilities.lst
+ABILITY:ph_abilities_classes.lst
+ABILITY:ph_abilities_races.lst
+# ABILITY:ph_abilities_templates.lst
+ABILITYCATEGORY:ph_abilitycategories.lst
+BIOSET:ph_biosettings.lst
+CLASS:ph_classes.lst
+COMPANIONMOD:ph_companionmods.lst
+DOMAIN:ph_domains.lst
+# EQUIPMENT:ph_equip.lst
+# EQUIPMENT:ph_equip_magic_items.lst
+# EQUIPMENT:ph_equip_weapons.lst
+# EQUIPMENT:ph_equip_weapons_natural.lst
+# EQUIPMOD:ph_equipmods.lst
+# ABILITY:ph_feats.lst
+KIT:ph_kits.lst
+LANGUAGE:ph_languages.lst
+# WEAPONPROF:ph_profs_weapon.lst
+RACE:ph_races.lst
+# RACE:ph_races_companion.lst
+# SKILL:ph_skills.lst
+# SPELL:ph_spells.lst
+ABILITY:ph_subraces.lst
+TEMPLATE:ph_templates.lst
+#
+# HIDETYPE:SKILL|Craft (Stoneworking)
+
+# HIDETYPE:FEAT|Wizard
+
+# ENTRY DATE: 2015-08
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

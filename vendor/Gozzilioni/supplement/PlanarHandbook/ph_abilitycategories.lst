@@ -1,0 +1,37 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+ABILITYCATEGORY:Aasimar Race Trait	CATEGORY:Special Ability	TYPE:AasimarRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Bariaur Race Trait	CATEGORY:Special Ability	TYPE:BariaurRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Buomman Race Trait	CATEGORY:Special Ability	TYPE:BuommanRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Neraph Race Trait	CATEGORY:Special Ability	TYPE:NeraphRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Shadowswyft Race Trait	CATEGORY:Special Ability	TYPE:ShadowswyftRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Spiker Race Trait	CATEGORY:Special Ability	TYPE:SpikerRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Tiefling Race Trait	CATEGORY:Special Ability	TYPE:TieflingRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Wildren Race Trait	CATEGORY:Special Ability	TYPE:WildrenRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+
+# Subrace Support
+ABILITYCATEGORY:Aasimar Subrace	CATEGORY:Internal	TYPE:AasimarSubrace.AasimarSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Bariaur Subrace	CATEGORY:Internal	TYPE:BariaurSubrace.BariaurSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Buomman Subrace	CATEGORY:Internal	TYPE:BuommanSubrace.BuommanSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Neraph Subrace	CATEGORY:Internal	TYPE:NeraphSubrace.NeraphSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Shadowswyft Subrace	CATEGORY:Internal	TYPE:ShadowswyftSubrace.ShadowswyftSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Spiker Subrace	CATEGORY:Internal	TYPE:SpikerSubrace.SpikerSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Tiefling Subrace	CATEGORY:Internal	TYPE:TieflingSubrace.TieflingSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Wildren Subrace	CATEGORY:Internal	TYPE:WildrenSubrace.WildrenSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Planar Domain	CATEGORY:Special Ability	TYPE:PlanarDomain	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Planar Domains			DISPLAYLOCATION:Class Features								
+
+#Other Abilitygroups
+ABILITYCATEGORY:Energy Resistance 5	CATEGORY:Special Ability	TYPE:EnergyResistance5	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Energy Resistances 5			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Aligned Spellcasting	CATEGORY:Special Ability	TYPE:AlignedSpellcasting	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Aligned Spellcasting			DISPLAYLOCATION:Class Features
+
+#Feats Ability pools
+
+#Companion Support
+
+#other
+
+#
+# End
+#

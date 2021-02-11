@@ -9,7 +9,7 @@ Neutral	KEY:Divine Agent ~ Mystic Union ~ Neutral	VISIBLE:NO	PREDEITYALIGN:TN	DR
 
 Disease Damage (Gray Wasting)			VISIBLE:NO	SOURCEPAGE:MotP30	TEMPVALUE:MIN=1|MAX=4|TITLE=Charisma Damage		TEMPDESC:Contact DC 20, Incubation 1 day, Damage 1d4 Cha drain, Apply this temporary bonus each day the victim takes damage.																							TEMPBONUS:ANYPC|STAT|CHA|-1*(%CHOICE)
 
-Bariaur	VISIBLE:NO	KEY:Common Bariaur	LEVELADJUSTMENT:2
+Bariaur	VISIBLE:NO	KEY:Common Bariaur	LEVELADJUSTMENT:1
 Languages	KEY:Bariaur ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Celestial
 Favored Class	KEY:Bariaur ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Barbarian
 

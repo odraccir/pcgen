@@ -1,0 +1,7 @@
+SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																													
+
+###Block:Celestial Mount										
+FOLLOWER:CelestialSpecialMountLVL=1	TYPE:Special Mount	TEMPLATE:Celestial
+
+###Block:Animal Companion										
+FOLLOWER:CelestialAnimalCompanionLVL=1	TYPE:Animal Companion	TEMPLATE:Celestial

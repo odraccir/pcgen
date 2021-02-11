@@ -1,0 +1,11 @@
+SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																														
+
+CLASS:Cleric.MOD
+0	DOMAIN:Planar ~ Abyss|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Abyss
+0	DOMAIN:Planar ~ Arborea|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Arborea
+0	DOMAIN:Planar ~ Baator|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Baator
+0	DOMAIN:Planar ~ Celestia|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Celestia
+0	DOMAIN:Planar ~ Elysium|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Elysium
+0	DOMAIN:Planar ~ Hades|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Hades
+0	DOMAIN:Planar ~ Limbo|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Limbo
+0	DOMAIN:Planar ~ Mechanus|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Mechanus

@@ -32,7 +32,7 @@ PCC:supplement/DeitiesAndDemigods/_deitiesanddemigods.pcc
 PCC:accessory/FiendFolio/_fiendfolio.pcc
 PCC:supplement/UnearthedArcana/_unearthedarcana.pcc
 PCC:supplement/CompleteDivine/_completedivine.pcc
-# PCC:accessory/PlanarHandbook/_planarhandbook.pcc
+PCC:supplement/PlanarHandbook/_planarhandbook.pcc
 
 PCC:houserules/_houserules.pcc
 

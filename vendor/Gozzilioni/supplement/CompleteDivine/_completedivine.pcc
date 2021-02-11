@@ -35,7 +35,7 @@ CLASS:cd_classes.lst
 # CLASS:cd_classes_BoVD.lst|PRECAMPAIGN:1,Book of Vile Darkness
 # CLASS:cd_classes_EPH.lst|PRECAMPAIGN:1,Expanded Psionics Handbook
 COMPANIONMOD:cd_companionmods.lst
-DEITY:cd_deities.lst|PRECAMPAIGN:1,Book of Exalted Deeds
+DEITY:cd_deities.lst
 # DEITY:cd_deities_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
 # DEITY:cd_deities_BoVD.lst|PRECAMPAIGN:1,Book of Vile Darkness
 DOMAIN:cd_domains.lst
