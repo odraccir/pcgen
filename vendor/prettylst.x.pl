@@ -3,7 +3,7 @@
 # Copyright 2002 to 2006 by Eric Beaudoin <beaudoer@videotron.ca>.
 # Copyright 2006 to 2007 by Andrew McDougall <tir.gwaith@gmail.com>
 # Copyright 2008 by Phillip Ryan <philryan49@hotmail.com>
-# Copyright 2009 to 2014 by Andrew Maitland <drew0500@yahoo.com>
+# Copyright 2009 to 2018 by Andrew Maitland <drew0500@yahoo.com>
 
 # All rights reserved.  You can redistribute and/or modify
 # this program under the same terms as Perl itself.
@@ -20,15 +20,15 @@
 
 use 5.008_001;				# Perl 5.8.1 or better is now mandantory
 use strict;
-use warnings;
+ use warnings;
 use Fatal qw( open close );		# Force some built-ins to die on error
 use English qw( -no_match_vars );	# No more funky punctuation variables
 
-my $VERSION		= "6.06.00G";
-my $VERSION_DATE	= "2017-04-26";
+my $VERSION		= "6.08.00G";
+my $VERSION_DATE	= "2018-11-16";
 my ($PROGRAM_NAME)	= "PCGen PrettyLST";
 my ($SCRIPTNAME)	= ( $PROGRAM_NAME =~ m{ ( [^/\\]* ) \z }xms );
-my $VERSION_LONG	= "$SCRIPTNAME version: $VERSION -- $VERSION_DATE";
+my $VERSION_LONG	= "# $SCRIPTNAME version: $VERSION -- $VERSION_DATE";
 
 my $today = localtime;
 our $logging;
@@ -114,12 +114,14 @@ my %validfiletype = (
 	'SHIELDPROF'	=> \&FILETYPE_parse,
 	'VARIABLE'		=> \&FILETYPE_parse,
 	'DATACONTROL'		=> \&FILETYPE_parse,
-	'GLOBALMOD'		=> \&FILETYPE_parse,
+	'GLOBALMODIFIER'		=> \&FILETYPE_parse,
 	'#EXTRAFILE'	=> 1,
 	'SAVE'		=> \&FILETYPE_parse,
 	'STAT'		=> \&FILETYPE_parse,
 	'ALIGNMENT'		=> \&FILETYPE_parse,
 	'SIZE'		=> \&FILETYPE_parse,
+	'DYNAMIC'		=> \&FILETYPE_parse,
+
 );
 
 # The file type that will be rewritten.
@@ -157,6 +159,7 @@ my %writefiletype = (
 	'STAT'		=> 1,
 	'ALIGNMENT'		=> 1,
 	'SIZE'		=> 1,
+	'DYNAMIC'		=> 1,
 );
 
 # The active conversions
@@ -588,18 +591,24 @@ my @valid_system_game_modes  = do { no warnings 'qw'; qw(
 # Main PCGen Release
 	35e
 	3e
-	Deadlands
+	5e
 	Darwins_World_2
+	Deadlands
 	FantasyCraft
 	Gaslight
+	Immortal
 	Killshot
 	LoE
 	Modern
+	OSRIC
 	Pathfinder
+	Pathfinder2
+	Pathfinder_PFS
+	Sagaborn
 	Sidewinder
 	Spycraft
+	Starfinder
 	Xcrawl
-	OSRIC
 
 # Third Party/Homebrew Support
 	DnD
@@ -708,6 +717,7 @@ my %valid_game_modes = map { $_ => 1 } (
 	'Starwars_Edge',
 	'T20',
 	'Traveller20',
+	'Starfinder',
 	'G35e',
 
 );
@@ -1563,9 +1573,9 @@ my %master_file_type = (
 			ValidateKeep	=> YES,
 		},
 	],
-	GLOBALMOD => [
+	GLOBALMODIFIER => [
 		\%SOURCE_file_type_def,
-		{ Linetype	=> 'GLOBALMOD',
+		{ Linetype	=> 'GLOBALMODIFIER',
 			RegEx			=> qr(^([^\t:]+)),
 			Mode			=> MAIN,
 			Format		=> BLOCK,
@@ -1604,6 +1614,16 @@ my %master_file_type = (
 			ValidateKeep	=> YES,
 		},
 	],
+	DYNAMIC => [
+		\%SOURCE_file_type_def,
+		{ Linetype	=> 'DYNAMIC',
+			RegEx			=> qr(^([^\t:]+)),
+			Mode			=> MAIN,
+			Format		=> BLOCK,
+			Header		=> BLOCK_HEADER,
+			ValidateKeep	=> YES,
+		},
+	],
 	SIZE => [
 		\%SOURCE_file_type_def,
 		{ Linetype	=> 'SIZE',
@@ -1616,7 +1636,8 @@ my %master_file_type = (
 			RegExGetEntry	=> qr(SIZENAME:(.*)),
 		},
 	],
-	
+
+
 );
 
 # The PRExxx tags. They are used in many of the line types.
@@ -1913,6 +1934,7 @@ my @SOURCE_Tags = (
 	'SOURCEPAGE:.CLEAR',
 	'SOURCEPAGE',
 	'SOURCELINK',
+	'SOURCEDATE',
 );
 
 my @TEMP_Tags = (
@@ -1934,6 +1956,21 @@ my @QUALIFY_Tags = (
 	'QUALIFY:SKILL',
 	'QUALIFY:TEMPLATE',
 	'QUALIFY:WEAPONPROF',
+);
+
+my @QUALITY_Tags = (
+	'QUALITY:Capacity:*',
+	'QUALITY:Usage:*',
+	'QUALITY:Aura:*',
+	'QUALITY:Caster Level:*',
+	'QUALITY:Slot:*',
+	'QUALITY:Construction Craft DC:*',
+	'QUALITY:Construction Cost:*',
+	'QUALITY:Construction Requirements:*',
+	'QUALITY:*',
+	'QUALITY:Bright Illumination:*',
+	'QUALITY:Shadowy Illumination:*',
+	'QUALITY:Duration:*',
 );
 
 # [ 1956340 ] Centralize global BONUS tags
@@ -2038,6 +2075,35 @@ my @double_PCC_tags = (
 	'BONUS:WIELDCATEGORY:*',	
 );	
 
+my @Global_FACT_Tags = (
+	'FACT:Abb',
+	'FACT:AppliedName',
+	'FACT:Article',
+	'FACT:BaseSize',
+	'FACT:ClassType',
+	'FACT:SpellType',
+	'FACT:Symbol',
+	'FACT:Worshippers',
+	'FACT:Title',
+	'FACT:Appearance',
+	'FACT:RateOfFire',
+	'FACT:CompMaterial',
+	'FACT:*',
+);
+
+my @Global_FACTSET_Tags = (
+	'FACTSET:Pantheon',
+	'FACTSET:Race',
+	'FACTSET:*',
+);
+
+my @INFO_Tags = (
+	'INFO:Prerequisite',
+	'INFO:Normal',
+	'INFO:Special',
+	'INFO:*',
+);
+
 
 # Order for the tags for each line type.
 my %master_order = (
@@ -2051,6 +2117,7 @@ my %master_order = (
 		'TYPE:.CLEAR',
 		'TYPE:*',
 		'VISIBLE',
+		'INFO:Prerequisite',
 		@PRE_Tags,
 		@QUALIFY_Tags,
 		'SERVESAS',
@@ -2110,6 +2177,8 @@ my %master_order = (
 		'NATURALATTACKS',
 		'ASPECT:*',
 		'BENEFIT:*',
+		'INFO:Normal',
+		'INFO:Special',
 		# 'TEMPDESC',
 		'SPELLKNOWN:CLASS:*',
 		'SPELLKNOWN:DOMAIN:*',
@@ -2189,12 +2258,12 @@ my %master_order = (
 		'XTRAFEATS',
 		'SPELLSTAT',
 		'BONUSSPELLSTAT',
-		# 'FACT:SpellType:*',
-		# 'SPELLTYPE',
+		'FACT:SpellType:*',
+		'SPELLTYPE',
 		'TYPE',
-		# 'CLASSTYPE',
-		# 'FACT:Abb:*',
-		# 'ABB',
+		'CLASSTYPE',
+		'FACT:Abb',
+		'ABB',
 		'MAXLEVEL',
 		'CASTAS',
 		'MEMORIZE',
@@ -2277,13 +2346,11 @@ my %master_order = (
 		# 'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 		# 'LANGAUTO:.CLEAR',	# Deprecated - 6.0
 		# 'LANGAUTO:*',		# Deprecated - 6.0
-        @TEMP_Tags,
+		@TEMP_Tags,
 		'FACTSET',
-		'FACT:SpellType:*',
-		'FACT:ClassType:*',
-		'FACT:Abb:*',
 		'EXCHANGELEVEL',
 		'SERVESAS',
+		'FACT:ClassType',
 	],
 
 	'CLASS Level' => [
@@ -2371,8 +2438,7 @@ my %master_order = (
 		# 'LANGAUTO:*',		# Deprecated - 6.0
 		# 'FEATAUTO:.CLEAR',	# Deprecated - 6.0
 		# 'FEATAUTO:*',		# Deprecated - 6.0
-        @TEMP_Tags,
-
+		@TEMP_Tags,
 	],
 
 	'COMPANIONMOD' => [
@@ -2429,6 +2495,7 @@ my %master_order = (
 		'DOMAINS:*',
 		'FOLLOWERALIGN',
 		'DESCISPI',
+		'DESC:.CLEAR',
 		'DESC',
 		'FACT:*',
 		'FACTSET:*',
@@ -2447,16 +2514,23 @@ my %master_order = (
 		'SAB:*',
 		'ABILITY:*',
 		'UNENCUMBEREDMOVE',
-		# 'SYMBOL',			#  Deprecated 6.05.01
-		# 'PANTHEON',			#  Deprecated 6.05.01
-		# 'TITLE',			#  Deprecated 6.05.01
-		# 'WORSHIPPERS',		#  Deprecated 6.05.01
-		# 'APPEARANCE',			#  Deprecated 6.05.01
-		# 'VFEAT:*',			#  Deprecated 6.05.01
-		# 'SA:.CLEAR',			#  Deprecated 6.05.01
-		# 'SA:*',			#  Deprecated 6.05.01
-		# 'RACE:*',			#  Deprecated 6.05.01
-        'TYPE',
+		'FACT:Article',
+		'FACT:Symbol',
+		'FACTSET:Pantheon',
+		'FACT:Title',
+		'FACT:Worshippers',
+		'FACT:Appearance',
+		'FACTSET:Race',
+		'SYMBOL',			#  Deprecated 6.05.01
+		'PANTHEON',			#  Deprecated 6.05.01
+		'TITLE',			#  Deprecated 6.05.01
+		'WORSHIPPERS',		#  Deprecated 6.05.01
+		'APPEARANCE',			#  Deprecated 6.05.01
+		'VFEAT:*',			#  Deprecated 6.05.01
+		'SA:.CLEAR',			#  Deprecated 6.05.01
+		'SA:*',			#  Deprecated 6.05.01
+		'RACE:*',			#  Deprecated 6.05.01
+        	'TYPE',
 	],
 
 	'DOMAIN' => [
@@ -2588,7 +2662,7 @@ my %master_order = (
 		'BONUS:ESIZE:*',
 		'BONUS:ITEMCOST:*',
 		'BONUS:WEAPON:*',
-		'QUALITY:*',		# [ 1593868 ] New equipment tag "QUALITY"
+		@QUALITY_Tags,		# [ 1593868 ] New equipment tag "QUALITY"
 		'SPROP:.CLEAR',
 		'SPROP:*',
 		'SAB:.CLEAR',
@@ -2613,13 +2687,14 @@ my %master_order = (
 		# 'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 		# 'SA:.CLEAR',		# Deprecated - replaced by SAB
 		# 'SA:*',				# Deprecated
-		# 'ALTCRITICAL',		# Removed [ 1615457 ] Replace ALTCRITICAL with ALTCRITMULT
+#		'ALTCRITICAL',		# Removed [ 1615457 ] Replace ALTCRITICAL with ALTCRITMULT
 		@TEMP_Tags,
 		'KIT:*',
 	],
 
 	'EQUIPMOD' => [
 		'000ModifierName',
+		'SORTKEY',
 		'KEY',
 		'NAMEISPI',
 		'OUTPUTNAME',
@@ -2670,7 +2745,6 @@ my %master_order = (
 		# 'SA:.CLEAR',			#  Deprecated 6.05.01
 		# 'SA:*',			#  Deprecated 6.05.01
 		@TEMP_Tags,
-		'SORTKEY',
 	],
 
 # This entire File is being deprecated
@@ -2751,6 +2825,7 @@ my %master_order = (
 		'NATURALATTACKS',
 		'ASPECT:*',
 		'BENEFIT:*',
+		@INFO_Tags,
 		# 'TEMPDESC',
 		'SPELLKNOWN:CLASS:*',
 		'SPELLKNOWN:DOMAIN:*',
@@ -3026,6 +3101,11 @@ my %master_order = (
 		'TEMPLATE',
 		'WEAPONPROF',
 		'#EXTRAFILE',		# Fix #EXTRAFILE so it recognizes #EXTRAFILE references (so OGL is a known referenced file again.)
+		'SIZE',
+		'DATATABLE',
+		'DYNAMIC',
+		'GLOBALMODIFIER',
+		'VARIABLE',
 
 		#These tags are normal file global tags....
 		@double_PCC_tags,		#Global tags that are double - $tag does not end with ':'
@@ -3040,6 +3120,7 @@ my %master_order = (
 		'FAVCLASS',
 		'XTRASKILLPTSPERLVL',
 		'STARTFEATS',
+		'FACT:BaseSize',
 		'SIZE',
 		'MOVE',
 		'MOVECLONE',
@@ -3123,13 +3204,13 @@ my %master_order = (
 		'SPELLLEVEL:CLASS:*',
 		'SPELLLEVEL:DOMAIN:*',
 		'KIT:*',
+		'FACT:*',
 		# 'SA:.CLEAR',		# Deprecated
 		# 'SA:*',				# Deprecated
 		# 'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 		# 'LANGAUTO:.CLEAR',	# Deprecated - 6.0
 		# 'LANGAUTO:*',		# Deprecated - 6.0
 		'GROUP',
-		'FACT:BaseSize',
 	],
 
 	'SHIELDPROF' => [
@@ -3221,6 +3302,7 @@ my %master_order = (
 		'VARIANTS:.CLEAR',
 		'VARIANTS:*',
 		'COMPS',
+		'FACT:CompMaterial',
 		'CASTTIME:.CLEAR',
 		'CASTTIME:*',
 		'RANGE:.CLEAR',
@@ -3544,6 +3626,7 @@ my %master_order = (
 		# 'LANGAUTO.CLEAR',	# Deprecated - Remove 6.0
 		# 'LANGAUTO:*',		# Deprecated - Remove 6.0
 		# 'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
+		'DONOTADD:SKILLPOINTS',
 	],
 
 	'SWITCHRACE' => [
@@ -3650,6 +3733,7 @@ my %master_order = (
 		'DESC:*',
 		# 'TEMPDESC',
 		# 'TEMPBONUS',
+		# 'TEMPVALUE',
 		# 'SPELL:*',		# Deprecated 5.x.x - Remove 6.0 - use SPELLS
 		# 'ADD:SPECIAL',		# Deprecated - Remove 5.16 - Special abilities are now set using hidden feats 0r Abilities.
 #		'HEIGHT',		# Deprecated
@@ -3695,6 +3779,10 @@ my %master_order = (
 		'000GlobalmonName',
 		'EXPLANATION',			
 	],
+	'DYNAMIC' => [
+		'000DynamicName',
+		'EXPLANATION',			
+	],
 
 	'ALIGNMENT' => [
 		'000AlignmentName',
@@ -3712,9 +3800,12 @@ my %master_order = (
 		'KEY',			
 		'STATMOD',			
 		'DEFINE:MAXLEVELSTAT',			
-		'DEFINE:*',			
+		# 'DEFINE',			
 		@Global_BONUS_Tags,			
-		'ABILITY:*',			
+		# 'ABILITY',
+		'MODIFY',
+		'DEFINE:*',
+		'ABILITY:*',
 		'BONUS:LANG',
 		'BONUS:MODSKILLPOINTS:*',
 	],
@@ -3926,28 +4017,43 @@ my %column_with_no_tag = (
 	'STAT' => [
 		'000StatName',
 	],
+	'DYNAMIC' => [
+		'000DynamicName',
+	],
+	'SIZE' => [
+		'000SizeName',
+	],
+
+
 
 );
 
-
+# Added FACT:Basesize despite the fact that this appears to be unused arw - 20180830
 my %token_FACT_tag = map { $_ => 1 } (
-	'FACT:Abb',
-	'FACT:AppliedName',
-	'FACT:ClassType',
-	'FACT:SpellType',
-	'FACT:Symbol',
-	'FACT:Worshippers',
-	'FACT:Title',
-	'FACT:Appearance',
-	'FACT:RateOfFire',
-	'FACT:BaseSize',
+	'Abb',
+	'AppliedName',
+	'Article',
+	'BaseSize',
+	'ClassType',
+	'SpellType',
+	'Symbol',
+	'Worshippers',
+	'Title',
+	'Appearance',
+	'RateOfFire',
+	'CompMaterial',
 );
 
 my %token_FACTSET_tag = map { $_ => 1 } (
-	'FACTSET:Pantheon',
-	'FACTSET:Race',
+	'Pantheon',
+	'Race',
 );
 
+my %token_INFO_tag = map { $_ => 1 } (
+	'Prerequisite',
+	'Normal',
+	'Special',
+);
 
 my %token_ADD_tag = map { $_ => 1 } (
 	'ADD:.CLEAR',
@@ -4041,6 +4147,17 @@ my %token_QUALIFY_tag = map { $_ => 1 } (
 	'SKILL',
 	'TEMPLATE',
 	'WEAPONPROF',
+);
+
+my %token_QUALITY_tag = map { $_ => 1 } (
+	'Capacity',
+	'Usage',
+	'Aura',
+	'Caster Level',
+	'Slot',
+	'Construction Craft DC',
+	'Construction Cost',
+	'Construction Requirements',
 );
 
 my %token_BONUS_MONSKILLPTS_types = map { $_ => 1 } (
@@ -4302,7 +4419,7 @@ my %tagheader = (
 		'BONUS:ABILITYPOOL'			=> 'Bonus Ability Pool',
 		'BONUS:CASTERLEVEL'			=> 'Caster level',
 		'BONUS:CHECKS'				=> 'Save checks bonus',
-		'BONUS:CONCENTRATION'				=> 'Concentration bonus',
+		'BONUS:CONCENTRATION'		=> 'Concentration bonus',
 		'BONUS:SAVE'				=> 'Save bonus',
 		'BONUS:COMBAT'				=> 'Combat bonus',
 		'BONUS:DAMAGE'				=> 'Weapon damage bonus',
@@ -4361,6 +4478,7 @@ my %tagheader = (
 		'CLASSES'					=> 'Classes',
 		'COMPANIONLIST'				=> 'Allowed Companions',
 		'COMPS'						=> 'Components',
+		'FACT:CompMaterial'			=> 'Material/Focus',
 		'CONTAINS'					=> 'Contains',
 		'COST'						=> 'Cost',
 		'CR'						=> 'Challenge Rating',
@@ -4409,6 +4527,10 @@ my %tagheader = (
 		'HITDICEADVANCEMENT'		=> 'Hit Dice Advancement',
 		'HITDICESIZE'				=> 'Hit Dice Size',
 		'ITEM'						=> 'Item',
+		'INFO'						=> 'Information',
+		'INFO:Normal'				=> 'Normal without Feat',
+		'INFO:Prerequisite'			=> 'Prerequisite',
+		'INFO:Special'				=> 'Special Feat Information',
 		'KEY'						=> 'Unique Key',
 		'KIT'						=> 'Apply Kit',
 		'KNOWN'						=> 'Known',
@@ -4437,6 +4559,7 @@ my %tagheader = (
 		'OUTPUTNAME'				=> 'Output Name',
 		'PAGEUSAGE'					=> 'Page Usage',				# [ 1450980 ] New Spellbook tags
 		'PANTHEON'					=> 'Pantheon',
+		'FACTSET:Pantheon'			=> 'Pantheon',
 		'PPCOST'					=> 'Power Points',			# [ 1814797 ] PPCOST needs to added as valid tag in SPELLS
 		'PRE:.CLEAR'				=> 'Clear Prereq.',
 		'PREABILITY'				=> 'Required Ability',
@@ -4481,6 +4604,8 @@ my %tagheader = (
 		'!PREEQMOD'					=> 'Prohibited Equipment Mod.',
 		'PREFEAT'					=> 'Required Feat',
 		'!PREFEAT'					=> 'Prohibited Feat',
+		'PREFACT'					=>	'Required Fact',
+		'!PREFACT'					=>	'Prohibited Fact',
 		'PREGENDER'					=> 'Required Gender',
 		'!PREGENDER'				=> 'Prohibited Gender',
 		'PREHANDSEQ'				=> 'Req. nb of Hands',
@@ -4551,6 +4676,7 @@ my %tagheader = (
 		'PRETEMPLATE'				=> 'Required Template',
 		'!PRETEMPLATE'				=> 'Prohibited Template',
 		'PRETEXT'					=> 'Required Text',
+		'PRETOTALAB'				=> 'Req. Total Att.',
 		'PRETYPE'					=> 'Required Type',
 		'!PRETYPE'					=> 'Prohibited Type',
 		'PREVAREQ'					=> 'Required Var. value',
@@ -4660,7 +4786,6 @@ my %tagheader = (
 		'WT'						=> 'Weight',
 		'XPCOST'					=> 'XP Cost',
 		'XTRAFEATS'					=> 'Extra Feats',
-		'PRETOTALAB'					=> 'Minimum Base Attack Bonus',
 		'FACT:BaseSize'					=> 'Size',
 	},
 
@@ -4739,13 +4864,21 @@ my %tagheader = (
 	},
 
 	'EQUIPMENT' => {
-		'000EquipmentName'	=> '# Equipment Name',
-		'BASEITEM'			=> 'Base Item for EQMOD',
-		'RESIZE'			=> 'Can be Resized',
-		'QUALITY'			=> 'Quality and value',
-		'SLOTS'				=> 'Slot Needed',
-		'WIELD'				=> 'Wield Category',
-		'MODS'				=> 'Requires Modification?',
+		'000EquipmentName'					=> '# Equipment Name',
+		'BASEITEM'							=> 'Base Item for EQMOD',
+		'RESIZE'							=> 'Can be Resized',
+		'QUALITY:Capacity'					=> 'Technological item maximum charge',
+		'QUALITY:Usage'						=> 'Technological item discharge rate',
+		'QUALITY:Aura'						=> 'Magic item aura',
+		'QUALITY:Caster Level'				=> 'Magic item caster level',
+		'QUALITY:Slot'						=> 'Required equipment slot',
+		'QUALITY:Construction Craft DC'		=> 'Technological item craft DC',
+		'QUALITY:Construction Cost'			=> 'Item construction cost',
+		'QUALITY:Construction Requirements'	=> 'Required feats and spells',
+		'QUALITY'							=> 'Quality and value',
+		'SLOTS'								=> 'Slot Needed',
+		'WIELD'								=> 'Wield Category',
+		'MODS'								=> 'Requires Modification?',
 	},
 
 	'EQUIPMOD' => {
@@ -4813,6 +4946,7 @@ my %tagheader = (
 
 	'RACE' => {
 		'000RaceName'		=> '# Race Name',
+		'FACT:BaseSize'				=> 'Base size',
 		'FAVCLASS'			=> 'Favored Class',
 		'SKILLMULT'			=> 'Skill Multiplier',
 		'MONCSKILL'			=> 'Racial HD Class Skills',
@@ -4979,18 +5113,14 @@ if ($cl_options{input_path}) {
 		# Will hold the list of all skills found in SKILL filetypes
 		open $filehandle_for{SKILL}, '>', 'G_export_skill.csv';
 		print { $filehandle_for{SKILL} } qq{"Skill Name","Sourcepage","Stat","Line","Filename"\n};
- 
+
 		# Will hold the list of all spells found in SPELL filetypes
 		open $filehandle_for{SPELL}, '>', 'G_export_spell.csv';
 		print { $filehandle_for{SPELL} } qq{"Spell Name","Classes","Domain","Descriptor","Type","Source Page","Line","Filename","Desc","Save"\n};
-		
+
 		# Will hold the list of all templates found in TEMPLATE filetypes
 		open $filehandle_for{TEMPLATE}, '>', 'G_export_template.csv';
 		print { $filehandle_for{TEMPLATE} } qq{"Tempate Name","Type","Sourcepage","Line","Filename"\n};
-
-		# Will hold the list of all weaponprof found in Proficiency filetypes
-		open $filehandle_for{WEAPONPROF}, '>', 'G_export_weaponprof.csv';
-		print { $filehandle_for{WEAPONPROF} } qq{"Weaponprof Name","Line","Filename","TYPE"\n};
 
 		# Will hold the list of all variables found in DEFINE tags
 		if ( $cl_options{xcheck} ) {
@@ -5003,6 +5133,10 @@ if ($cl_options{input_path}) {
 		open $filehandle_for{Willpower}, '>', 'G_export_willpower.csv';
 		print { $filehandle_for{Willpower} } qq{"Tag","Line","Filename"\n};
 		}
+		# Will hold the list of all weaponprof found in Proficiency filetypes
+		open $filehandle_for{WEAPONPROF}, '>', 'G_export_weaponprof.csv';
+		print { $filehandle_for{WEAPONPROF} } qq{"Weaponprof Name","Line","Filename","TYPE"\n};
+
 	}
 
 	##########################################################
@@ -5093,6 +5227,7 @@ if ($cl_options{input_path}) {
 		my $SOURCELONG_found	= q{};		#
 		my $SOURCESHORT_found   = q{};		#
 		my $LST_found		= NO;
+		my $CVS_tag_found		= NO;
 		my @pcc_lines		= ();
 		my %found_filetype;
 		my $continue		= YES;
@@ -5202,6 +5337,11 @@ if ($cl_options{input_path}) {
 				delete $filelist_notpcc{$lstfile} if exists $filelist_notpcc{$lstfile};
 				$LST_found = YES;
 			}
+			elsif ( $tag =~ /^\#/ ) {
+
+				# It is a comment line
+				$CVS_tag_found = YES if /^\#.*CVS.*Revision/i;
+			}
 			elsif ( $valid_tags{'PCC'}{$tag} ) {
 
 				# All the tags that do not have file should be cought here
@@ -5274,6 +5414,7 @@ if ($cl_options{input_path}) {
 						# prevent the file from being written.
 						$continue		= NO;
 						$must_write	= NO;
+						$CVS_tag_found  = YES;
 					}
 				}
 				elsif ( $tag eq 'BOOKTYPE' || $tag eq 'TYPE' ) {
@@ -5295,6 +5436,12 @@ if ($cl_options{input_path}) {
 					$GAMEMODE_found = $value;
 					$must_write	= YES;
 				}
+			}
+		}
+		elsif ( $_ =~ / \A [#] /xms ) {
+			# It is a comment line
+			if ( / \A [#] .* CVS .* Revision /xmsi ) {
+				$CVS_tag_found = YES;
 			}
 		}
 		elsif ( / <html> /xmsi ) {
@@ -5343,7 +5490,7 @@ if ($cl_options{input_path}) {
 		}
 
 		# Do we copy the .PCC???
-		if ( $cl_options{output_path} && ( $must_write ) && $writefiletype{"PCC"} ) {
+		if ( $cl_options{output_path} && ( $must_write || !$CVS_tag_found ) && $writefiletype{"PCC"} ) {
 			my $new_pcc_file = $pcc_file_name;
 			$new_pcc_file =~ s/$cl_options{input_path}/$cl_options{output_path}/i;
 
@@ -5355,6 +5502,13 @@ if ($cl_options{input_path}) {
 			# We keep track of the files we modify
 			push @modified_files, $pcc_file_name;
 
+			# We add a CVS revision number is not present
+			if ( !$conversion_enable{'No reformat message'} ) {
+				print {$new_pcc_fh}
+					"# $today -- reformated by $SCRIPTNAME v$VERSION\n"
+					if $pcc_lines[0] !~ / \A [#] .* reformated /xmsi;
+			}
+			
 			for my $line (@pcc_lines) {
 				print {$new_pcc_fh} "$line\n";
 			}
@@ -5471,15 +5625,13 @@ if ( $conversion_enable{'CLASSSPELL convertion to SPELL'} ) {
 	# CLASS first
 	for my $filetype (qw(CLASS DOMAIN CLASSSPELL)) {
 		for my $file_name ( sort keys %{ $classspell_files{$filetype} } ) {
-			push @files_to_parse_sorted, $file_name;
-			delete $temp_files_to_parse{$file_name};
+		push @files_to_parse_sorted, $file_name;
+		delete $temp_files_to_parse{$file_name};
 		}
 	}
 }
 
-# if ( keys %Spell_Files ) {
-if ( $conversion_enable{'EQUIPMENT: generate EQMOD'}
-  || $conversion_enable{'CLASS: SPELLLIST from Spell.MOD'} ) {
+if ( keys %Spell_Files ) {
 
 	# The SPELL file must be loaded before the EQUIPMENT
 	# in order to properly generate the EQMOD tags or do
@@ -5529,8 +5681,6 @@ for my $file (@files_to_parse_sorted) {
 
 		# We read only what we know needs to be processed
 		next FILE_TO_PARSE if ref( $validfiletype{ $files_to_parse{$file} } ) ne 'CODE';
-		# We read only files located in input_path dir
-		next FILE_TO_PARSE if ($file !~ /$cl_options{input_path}/xmsi );
 
 		# We try to read the file and continue to the next one even if we
 		# encounter problems
@@ -5569,6 +5719,17 @@ for my $file (@files_to_parse_sorted) {
 		$logging->ewarn( ERROR, "HTML file detected. Maybe you had a problem with your CSV checkout.\n", $file );
 		next FILE_TO_PARSE;
 	}
+
+	# If the first line is the prettylst comment, we remove it.
+	my $cvs_line	= "";
+	my $cvs_present = 0;
+	if ( $lines[0] =~ /\# .* -- reformated by /i || $lines[0] =~ /\#.*CVS.*Revision/i ) {
+		$cvs_line	= $lines[0];
+		$lines[0]	= '#$$$ CVS comment $$$';
+		$cvs_present = 1;
+	}
+	$cvs_line = ( $cvs_line =~ /(\# cvs.*revision.*author.*?) -- /i )[0]
+			|| '# CVS $' . 'Revision: $ $' . 'Author: $';
 
 	# Read the full file into the @lines array
 	chomp(@lines);
@@ -5613,6 +5774,7 @@ for my $file (@files_to_parse_sorted) {
 
 		# First, we check if there are obvious resons not to write the new file
 		if (	!$numberofcf						# No extra CRLF char. were removed
+			&& $cvs_present						# CVS head was already present
 			&& scalar(@lines) == scalar(@$newlines_ref)	# Same number of lines
 		) {
 			# We assume the arrays are the same ...
@@ -5650,14 +5812,18 @@ for my $file (@files_to_parse_sorted) {
 
 		# The first line of the new file will be a comment line.
 		if ( !$conversion_enable{'No reformat message'} ) {
-			print {$write_fh} "$today -- reformated by $SCRIPTNAME v$VERSION\n";
+			print {$write_fh} "# $today -- reformated by $SCRIPTNAME v$VERSION\n"
+			#print {$write_fh} ""
+			if $cl_options{output_path} || ( *NEWFILE eq *STDOUT );
 		}
-		
+
 		# We print the result
 		LINE:
 		for my $line ( @{$newlines_ref} ) {
+			next LINE if $line eq '#$$$ CVS comment $$$';
+
 			#$line =~ s/\s+$//;
-			print {$write_fh} "$line\n" if $cl_options{output_path};
+			print {$write_fh} "$line\n" if $cl_options{output_path} || ( *NEWFILE eq *STDOUT );
 		}
 
 		close $write_fh if $cl_options{output_path};
@@ -5984,7 +6150,7 @@ if ( $cl_options{xcheck} ) {
 		for my $linetype ( sort keys %missing_headers ) {
 		if ($firsttime) {
 			print STDERR "\n================================================================\n";
-			print STDERR "List of TAGs whitout defined header in \%tagheader\n";
+			print STDERR "List of TAGs without defined header in \%tagheader\n";
 			print STDERR "----------------------------------------------------------------\n";
 		}
 
@@ -6139,7 +6305,7 @@ sub FILETYPE_parse {
 		$new_line =~ s/\x94/\"/g;
 		$new_line =~ s/\x95/*/g;
 		$new_line =~ s/\x96/-/g;
-		$new_line =~ s/\x97/-/g;
+		$new_line =~ s/\x97/--/g;
 		$new_line =~ s-\x98-<sup>~</sup>-g;
 		$new_line =~ s-\x99-<sup>TM</sup>-g;
 		$new_line =~ s/\x9B/>/g;
@@ -7308,6 +7474,105 @@ sub parse_tag {
 				);
 	}
 
+	if ( $tag eq 'FACT' ) {
+		my ($fact_type) = ( $value =~ /^([^=:|]+)/ );
+
+		if ( $fact_type && exists $token_FACT_tag{$fact_type} ) {
+
+			# Is it valid for the current token type?
+			$tag .= ':' . $fact_type;
+			$value =~ s/^$fact_type(.*)/$1/;
+		}
+		elsif ($fact_type) {
+
+			# No valid fact type was found
+			$count_tags{"Invalid"}{"Total"}{"$tag:$fact_type"}++;
+			$count_tags{"Invalid"}{$linetype}{"$tag:$fact_type"}++;
+			$logging->ewarn( NOTICE,
+				qq{Invalid FACT:$fact_type tag "$tag_text" found in $linetype.},
+				$file_for_error,
+				$line_for_error
+			);
+			$no_more_error = 1;
+		}
+		else {
+			$count_tags{"Invalid"}{"Total"}{"FACT"}++;
+			$count_tags{"Invalid"}{$linetype}{"FACT"}++;
+			$logging->ewarn( NOTICE,
+				qq{Invalid FACT tag "$tag_text" found in $linetype},
+				$file_for_error,
+				$line_for_error
+			);
+			$no_more_error = 1;
+		}
+	}
+
+	if ( $tag eq 'FACTSET' ) {
+		my ($factset_type) = ( $value =~ /^([^=:|]+)/ );
+
+		if ( $factset_type && exists $token_FACTSET_tag{$factset_type} ) {
+
+			# Is it valid for the current token type?
+			$tag .= ':' . $factset_type;
+			$value =~ s/^$factset_type(.*)/$1/;
+		}
+		elsif ($factset_type) {
+
+			# No valid factset type was found
+			$count_tags{"Invalid"}{"Total"}{"$tag:$factset_type"}++;
+			$count_tags{"Invalid"}{$linetype}{"$tag:$factset_type"}++;
+			$logging->ewarn( NOTICE,
+				qq{Invalid FACTSET:$factset_type tag "$tag_text" found in $linetype.},
+				$file_for_error,
+				$line_for_error
+			);
+			$no_more_error = 1;
+		}
+		else {
+			$count_tags{"Invalid"}{"Total"}{"FACTSET"}++;
+			$count_tags{"Invalid"}{$linetype}{"FACTSET"}++;
+			$logging->ewarn( NOTICE,
+				qq{Invalid FACTSET tag "$tag_text" found in $linetype},
+				$file_for_error,
+				$line_for_error
+			);
+			$no_more_error = 1;
+		}
+	}
+
+	if ( $tag eq 'INFO' ) {
+		my ($info_type) = ( $value =~ /^([^=:|]+)/ );
+
+		if ( $info_type && exists $token_INFO_tag{$info_type} ) {
+
+			# Is it valid for the current token type?
+			$tag .= ':' . $info_type;
+			$value =~ s/^$info_type(.*)/$1/;
+		}
+		elsif ($info_type) {
+
+			# No valid info type was found
+			$count_tags{"Invalid"}{"Total"}{"$tag:$info_type"}++;
+			$count_tags{"Invalid"}{$linetype}{"$tag:$info_type"}++;
+			$logging->ewarn( NOTICE,
+				qq{Invalid INFO:$info_type tag "$tag_text" found in $linetype.},
+				$file_for_error,
+				$line_for_error
+			);
+			$no_more_error = 1;
+		}
+		else {
+			$count_tags{"Invalid"}{"Total"}{"INFO"}++;
+			$count_tags{"Invalid"}{$linetype}{"INFO"}++;
+			$logging->ewarn( NOTICE,
+				qq{Invalid INFO tag "$tag_text" found in $linetype},
+				$file_for_error,
+				$line_for_error
+			);
+			$no_more_error = 1;
+		}
+	}
+
 	# Special cases like ADD:... and BONUS:...
 	if ( $tag eq 'ADD' ) {
 		my ( $type, $addtag, $therest, $add_count )
@@ -7367,6 +7632,38 @@ sub parse_tag {
 			$count_tags{"Invalid"}{$linetype}{"QUALIFY"}++;
 			$logging->ewarn( NOTICE,
 				qq{Invalid QUALIFY tag "$tag_text" found in $linetype},
+				$file_for_error,
+				$line_for_error
+			);
+			$no_more_error = 1;
+		}
+	}
+
+	if ( $tag eq 'QUALITY' ) {
+		my ($quality_type) = ( $value =~ /^([^=:|]+)/ );
+		if ( $quality_type && exists $token_QUALITY_tag{$quality_type} ) {
+
+			# Is it valid for the current token type?
+			$tag .= ':' . $quality_type;
+			$value =~ s/^$quality_type(.*)/$1/;
+		}
+		elsif ($quality_type) {
+
+			# No valid quality type was found
+			$count_tags{"Invalid"}{"Total"}{"$tag:$quality_type"}++;
+			$count_tags{"Invalid"}{$linetype}{"$tag:$quality_type"}++;
+			$logging->ewarn( NOTICE,
+				qq{Invalid QUALITY:$quality_type tag "$tag_text" found in $linetype.},
+				$file_for_error,
+				$line_for_error
+			);
+			$no_more_error = 1;
+		}
+		else {
+			$count_tags{"Invalid"}{"Total"}{"QUALITY"}++;
+			$count_tags{"Invalid"}{$linetype}{"QUALITY"}++;
+			$logging->ewarn( NOTICE,
+				qq{Invalid QUALITY tag "$tag_text" found in $linetype},
 				$file_for_error,
 				$line_for_error
 			);
@@ -9422,8 +9719,19 @@ BEGIN {
 			for my $entry ( split '\|', $tag_value ) {
 				my @parameters = split ',', $entry;
 
-				# Must have 4 parameters
-				if ( scalar @parameters == 4 || scalar @parameters == 5 ) {
+				my $NumberOfParams = scalar @parameters;
+
+				# must have 4 or 5 parameters
+				if ($NumberOfParams == 5 or $NumberOfParams == 4) { 
+				
+					# If Parameter 5 exists, it must be an SPROP
+					if (defined $parameters[4]) {
+						$logging->ewarn( NOTICE,
+							qq{5th parameter should be an SPROP in "NATURALATTACKS:$entry"},
+							$file_for_error,
+							$line_for_error
+						) unless $parameters[4] =~ /^SPROP=/;
+					}
 
 					# Parameter 3 is a number
 					$logging->ewarn( NOTICE,
@@ -9621,11 +9929,7 @@ sub validate_pre_tag {
 		}
 
 		for my $item ( @items ) {
-		# if ( my ($check_name,$value) = ( $item =~ / \A ( \w+ ) = ( \d+ ) \z /xms ) ) {
-			my ($check_name,$value);
-			if ( ( ($check_name,$value) = ( $item =~ / \A ( \w+ ) = ( \d+ ) \z /xms ) ) 
-			   || ( ($check_name,$value) = ( $item =~ / \A ( \w+ ) =TL \z /xms ) ) ) {
-
+		if ( my ($check_name,$value) = ( $item =~ / \A ( \w+ ) = ( \d+ ) \z /xms ) ) {
 			if ( !exists $valid_check_name{$check_name} ) {
 				$logging->ewarn( NOTICE,
 				qq{Invalid save check name "$check_name" found in "$tag_name:$tag_value"},
@@ -10356,7 +10660,7 @@ BEGIN {
 		# We remove the empty elements in the list
 		@list = grep { $_ ne "" } @list;
 
-		# If the list of entry is empty, we return immediately
+		# If the list of entry is empty, we retrun immediately
 		return if scalar @list == 0;
 
 		# We set $tag_name properly for the substitution
@@ -13192,7 +13496,7 @@ BEGIN {
 				qq{$equipment_name has no TYPE.},
 				$file_for_error,
 				$line_for_error
-			)unless $messagetype eq "";
+			) unless $equipment_name =~ /.MOD$/i;
 			}
 		}
 		}
@@ -13219,7 +13523,8 @@ BEGIN {
 			CLASS:
 			for ( split '\|', $line_ref->{'CLASSES'}[0] ) {
 				if ( index( $_, 'Wizard' ) != -1 || index( $_, 'Cleric' ) != -1 ) {
-				$spell_level = (/=(\d+)$/)[0] if  (/=(\d+)$/) < $spell_level;
+#				$spell_level = (/=(\d+)$/)[0] if  (/=(\d+)$/) < $spell_level;
+				$spell_level = (/=(\d+)$/)[0];
 				last CLASS;
 				}
 			}
@@ -13313,10 +13618,10 @@ BEGIN {
 			record_bioset_tags( $dir, $race, "", "", "", $file_for_error, $line_for_error );
 		}
 		
-		if ($conversion_enable{'BIOSET:generate the new files'}
+		if (   $conversion_enable{'BIOSET:generate the new files'}
 		&& $filetype		eq 'RACE'
 		&& $line_info->[0] eq 'RACE'
-		&& (exists $line_ref->{'AGE'}
+		&& (   exists $line_ref->{'AGE'}
 			|| exists $line_ref->{'HEIGHT'}
 			|| exists $line_ref->{'WEIGHT'} )
 		) {
@@ -13430,6 +13735,7 @@ BEGIN {
 			# Get the spell name
 			my $spellname  = $line_ref->{'000SpellName'}[0];
 			my $sourcepage = "";
+			$sourcepage = $line_ref->{'SOURCEPAGE'}[0] if exists $line_ref->{'SOURCEPAGE'};
 			my $type = "";
 			my $spellclass = "";
 			my $spelldomains = "";
@@ -13457,11 +13763,14 @@ BEGIN {
 		}
 		if ( $filetype eq 'CLASS' ) {
 			my $class = ( $line_ref->{'000ClassName'}[0] =~ /^CLASS:(.*)/ )[0];
-			my $abb = "";
+			my $abb = ""; 
+			my $abb1 = ""; 
 			my $type  = "";
 			my $sourcepage = "";
 			my $spelltype = "";
 				
+			$abb1 = ( $line_ref->{'ABB'}[0] =~ /^ABB:(.*)/ )[0]
+				if exists $line_ref->{'ABB'};
 			$abb = ( $line_ref->{'FACT:Abb'}[0] =~ /^FACT:Abb\(((?<=\()(.*)(?=\)))/ )[0]
 				if exists $line_ref->{'FACT:Abb'};
 			$type = ( $line_ref->{'TYPE'}[0] =~ /^TYPE:(.*)/ )[0]
@@ -13473,11 +13782,11 @@ BEGIN {
 				
 			print { $filehandle_for{CLASS} } qq{"$class","$abb","$spelltype","$type","$sourcepage","$line_for_error","$filename"\n}
 				if $class_name ne $class;
+			print qq{Class read $class ($abb): $abb1\n}; # if $abb ne $abb1;
 			$class_name = $class;
 		}
 
 		if ( $filetype eq 'DEITY' ) {
-			my $deity = ( $line_ref->{'000DeityName'})[0];
 			my $pantheon = "";
 			my $sourcepage = "";
 				
@@ -13486,7 +13795,8 @@ BEGIN {
 			$sourcepage = ( $line_ref->{'SOURCEPAGE'}[0] =~ /^SOURCEPAGE:(.*)/ )[0]
 				if exists $line_ref->{'SOURCEPAGE'};
 		
-			print { $filehandle_for{DEITY} } qq{"$deity","$pantheon","$sourcepage","$line_for_error","$filename"\n}; 
+			print { $filehandle_for{DEITY} }
+				qq{"$line_ref->{'000DeityName'}[0]","$pantheon","$sourcepage","$line_for_error","$filename"\n}; 
 		}
 
 		if ( $filetype eq 'DOMAIN' ) {
@@ -14624,14 +14934,13 @@ sub find_full_path {
 			}
 		}
 	}
-	
+
 	# Remove the /xxx/../ for the directory
 	if ($file_name =~ / [.][.] /xms ) {
 		if( $file_name !~ s{ [/] [^/]+ [/] [.][.] [/] }{/}xmsg ) {
 		die qq{Cannot des with the .. directory in "$file_name"};
 		}
 	}
-	# print qq{final path $file_name \n};
 
 	return $file_name;
 }
@@ -15137,6 +15446,8 @@ sub warn_deprecate {
 
 			# Header part.
 			print {$bioset_fh} << "END_OF_HEADER";
+# $today -- reformated by $SCRIPTNAME v$VERSION
+
 AGESET:0|Adulthood
 END_OF_HEADER
 
@@ -17240,6 +17551,4 @@ Add special case for the ADD:adlib tags
 =head2 v1.00 -- 2002.01.27
 
 First working version. Only the EQUIPMENT file are supported.
-.
 
-IPMENT file are supported.
