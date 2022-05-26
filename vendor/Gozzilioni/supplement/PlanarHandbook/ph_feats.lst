@@ -1,0 +1,72 @@
+SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																																											
+#																																														
+# Feat Name	CATEGORY:	TYPE:	visible	key	Req. Att.	Required Class	Required Feat				Req. nb of Hand	Required Lvl	Required Skill	Req. Spellbook		Required Stat						Var. Min. Value	Special Ability	Define	DESC:	Stackable?	Multiple?	Choose	Automaticaly Gained Armor Prof.	Automaticaly Gained Shield Prof.	Automaticaly Gained Weapon Prof.	Add Spell Lvl	Save checks bonus	Combat bonus	BONUS:DC	Bonus to HP	% bonus to range	Bonus to skill	Modify VAR	Weapon prop. bonus	Weapon prof. bonus	Source Page				
+Acheron Flurry	CATEGORY:FEAT	TYPE:General	VISIBLE:YES				PREABILITY:1,CATEGORY=FEAT,Improved Unarmed Strike						PRESKILL:1,Knowledge (The Planes)=4			PRESTAT:2,DEX=15,WIS=15									DESC:During your turn, designate an opponent within reach to whom you have dealt damage during this encounter using an unarmed strike. You can spend a standard action to confound and distract your chosen foe with a constant flood of distracting mock attacks. While doing this leaves you open to attacks (applying a -2 penalty to your Armor Class), your foe may take only a single standard action or move action on his next turn. If you move away (or are otherwise no longer conscious and adjacent to your foe) before your chosen foe's next turn, he may act normally.									TEMPBONUS:PC|COMBAT|AC|-2								SOURCEPAGE:PH				
+Air Heritage	CATEGORY:FEAT	TYPE:Heritage	VISIBLE:YES																						DESC:Your fly speed increases by 30 feet (up to a maximum increase equal to your normal fly speed). If you don't have a fly speed as a racial ability, this benefit has no effect. You also gain a +2 bonus on Balance and Jump checks when carrying a light load or no load and wearing light armor or no armor.													BONUS:SKILL|Balance,Jump|2|PREVARLT:ENCUMBERANCE,1,var("COUNT[EQTYPE.ARMOR.IS.HEAVY]"),1,var("COUNT[EQTYPE.ARMOR.IS.MEDIUM]"),1				SOURCEPAGE:PH	BONUS:MOVEADD|TYPE.Walk|30|PREMOVE:1,Fly=1			
+Anarchic Heritage	CATEGORY:FEAT	TYPE:Heritage	VISIBLE:YES							PREALIGN:NG,TN,NE,CG,CN,CE															DESC:You gain a +4 bonus on saving throws agains polymorph or petrification effects. You also gain a +1 bonus on saving throws against spells or other effects created by lawful creatures.														BONUS:VAR|PolymorphResistanceBonus,PetrificationResistanceBonus|4			SOURCEPAGE:PH	ABILITY:Special Ability|VIRTUAL|Resistance To Polymorph|Resistance To Petrification|Resistance To Lawful spells	BONUS:VAR|LawfulResistanceBonus|1		
+Axiomatic Heritage	CATEGORY:FEAT	TYPE:Heritage	VISIBLE:YES							PREALIGN:LG,LN,LE,NG,TN,NE															DESC:You gain a +4 bonus on Will saving throws against enchantment (charm) spells and effects. You also gain a +1 bonus on saving throws against spells or other effects created by chaotic creatures.														BONUS:VAR|CharmResistanceBonus|4			SOURCEPAGE:PH	ABILITY:Special Ability|VIRTUAL|Resistance To Charm|Resistance To Lawful spells	BONUS:VAR|ChaoticResistanceBonus|1		
+Celestial Heritage	CATEGORY:FEAT	TYPE:Heritage	VISIBLE:YES							PREALIGN:LG,LN,NG,TN,CG,CN															DESC:You gain a +4 bonus on Fortitude saving throws against disease. You also gain a +1 bonus on saving throws against spells or other effects created by evil creatures.														BONUS:VAR|DiseaseResistanceBonus|4			SOURCEPAGE:PH	ABILITY:Special Ability|VIRTUAL|Resistance To Disease|Resistance To Evil spells	BONUS:VAR|EvilResistanceBonus|1		
+Celestial Summoning Specialist	CATEGORY:FEAT	TYPE:General	VISIBLE:YES							PREALIGN:LG,LN,NG,TN,CG,CN			PRESKILL:2,Knowledge (The Planes)=2,Knowledge (Religion)=2								PRESPELL:1,Summon Monster I,Summon Monster II,Summon Monster III,Summon Monster IV,Summon Monster V,Summon Monster VISummon Monster VII,Summon Monster VIII,Summon Monster IX				DESC:Add one good-aligned creature to the list of creatures for each summon monster spell that you can cast. (Work with the DM to select creatures appropriate to the spell's list of summonable creatures.) Each time you gain the ability to cast a new summon monster spell, you may add one good-aligned creature to the list.																	SOURCEPAGE:PH				
+Earth Heritage	CATEGORY:FEAT	TYPE:Heritage	VISIBLE:YES																						DESC:Your stability grants you a +4 bonus on checks to avoid being bull rushed or tripped while standing on the ground. This bonus stacks with the benefi ts of similar effects, such as a dwarf's stability. You also gain a +1 bonus on weapon damage rolls if both you and your foe touch the ground.														BONUS:VAR|StabilityBonus|4			SOURCEPAGE:PH	ABILITY:Special Ability|VIRTUAL|Stability			
+Elemental Spellcasting	CATEGORY:FEAT	TYPE:General	VISIBLE:YES										PRESKILL:1,Knowledge (The Planes)=2												DESC:You cast spells with the chosen descriptor at +1 caster level.	STACK:NO	MULT:YES	CHOOSE:NOCHOICE											BONUS:ABILITYPOOL|Elemental Spellcasting|1			SOURCEPAGE:PH				
+Fiendish Heritage	CATEGORY:FEAT	TYPE:Heritage	VISIBLE:YES							PREALIGN:LN,LE,TN,NE,CN,CE															DESC:You gain a +4 bonus on Fortitude saving throws against poison. You also gain a +1 bonus on saving throws against spells or other effects created by good creatures.														BONUS:VAR|PoisonResistanceBonus|4			SOURCEPAGE:PH	ABILITY:Special Ability|VIRTUAL|Resistance To Poison|Resistance To Good spells	BONUS:VAR|GoodResistanceBonus|1		
+Fiendish Summoning Specialist	CATEGORY:FEAT	TYPE:General	VISIBLE:YES							PREALIGN:LN,LE,TN,NE,CN,CE			PRESKILL:2,Knowledge (The Planes)=2,Knowledge (Religion)=2								PRESPELL:1,Summon Monster I,Summon Monster II,Summon Monster III,Summon Monster IV,Summon Monster V,Summon Monster VISummon Monster VII,Summon Monster VIII,Summon Monster IX				DESC:Add one evil-aligned creature to the list of creatures for each summon monster spell that you can cast. (Work with the DM to select creatures appropriate to the spell's list of summonable creatures.) Each time you gain the ability to cast a new summon monster spell, you may add one evil-aligned creature to the list.	STACK:NO	MULT:YES	CHOOSE:NOCHOICE														SOURCEPAGE:PH				
+Fire Heritage	CATEGORY:FEAT	TYPE:Heritage	VISIBLE:YES																						DESC:You gain a +1 bonus on initiative checks. In addition, your unarmed attacks and natural weapons deal an extra 1 point of fire damage.									BONUS:COMBAT|INITIATIVE|1						BONUS:COMBAT|DAMAGE.Unarmed|1|TYPE=Fire		SOURCEPAGE:PH				
+Improved Elemental Heritage	CATEGORY:FEAT	TYPE:Heritage	VISIBLE:YES				PREABILITY:1,CATEGORY=FEAT,Air Heritage,Earth Heritage,Fire Heritage,Water Heritage																		DESC:You gain resistance 5 to a specific type of energy, based on your elemental heritage: acid (earth), cold (water), electricity (air), or fire (fire). You also gain a +2 bonus on saving throws against spells with the descriptor that matches your chosen elemental heritage (air, earth, fire, or water).														BONUS:VAR|AcidResistanceBonus|5|TYPE=Resistance|PREABILITY:1,CATEGORY=FEAT,Earth Heritage			SOURCEPAGE:PH	BONUS:VAR|ColdResistanceBonus|5|TYPE=Resistance|PREABILITY:1,CATEGORY=FEAT,WaterHeritage	BONUS:VAR|ElectricityResistanceBonus|5|TYPE=Resistance|PREABILITY:1,CATEGORY=FEAT,Air Heritage	BONUS:VAR|FireResistanceBonus|5|TYPE=Resistance|PREABILITY:1,CATEGORY=FEAT,Fire Heritage	BONUS:VAR|AirResistanceBonus|1
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				
+#																									DESC:																	SOURCEPAGE:PH				

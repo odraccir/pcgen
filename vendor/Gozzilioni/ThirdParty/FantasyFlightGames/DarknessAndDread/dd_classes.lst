@@ -1,5 +1,5 @@
-SOURCELONG:Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.fantasyflightgames.com											
-#													
+SOURCELONG:Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.fantasyflightgames.com
+#
 # Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE	
 # Class Name req	Requirements	FINE											
 # Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS	

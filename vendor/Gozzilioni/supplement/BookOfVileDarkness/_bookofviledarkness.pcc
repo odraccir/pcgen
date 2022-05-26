@@ -1,0 +1,61 @@
+CAMPAIGN:Book of Vile Darkness
+GAMEMODE:G35e
+RANK:3
+TYPE:Gozzilioni.Partial.Supplement
+SETTING:Heroes
+BOOKTYPE:Supplement
+SOURCELONG:Book of Vile Darkness
+SOURCESHORT:BoVD
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2002-10
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+
+PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Guide
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:missing.txt
+
+# ABILITY:bovd_abilities.lst
+# ABILITY:bovd_abilities_classes.lst
+# ABILITY:bovd_abilities_races.lst
+# ABILITY:bovd_abilities_templates.lst
+# ABILITYCATEGORY:bovd_abilitycategories.lst
+# CLASS:bovd_classes.lst
+# COMPANIONMOD:bovd_companionmods.lst
+# DEITY:bovd_deities.lst
+# DOMAIN:bovd_domains.lst
+# EQUIPMENT:bovd_equip.lst
+# EQUIPMENT:bovd_equip_armors_specific.lst
+# EQUIPMENT:bovd_equip_magic_items.lst
+# EQUIPMENT:bovd_equip_weapons.lst
+# EQUIPMENT:bovd_equip_weapons_natural.lst
+# EQUIPMENT:bovd_equip_weapons_specific.lst
+# EQUIPMENT:bovd_equip_weapons_natural.lst
+# EQUIPMOD:bovd_equipmods.lst
+# ABILITY:bovd_feats.lst
+# KIT:bovd_kits.lst
+# LANGUAGE:bovd_languages.lst
+# WEAPONPROF:bovd_profs_weapon.lst
+# RACE:bovd_races.lst
+# RACE:bovd_races_companion.lst
+# SKILL:bovd_skills.lst
+# SPELL:bovd_spells.lst
+# ABILITY:bovd_subraces.lst
+# TEMPLATE:bovd_templates.lst
+
+# HIDETYPE:SKILL|Craft (Stoneworking)
+# HIDETYPE:FEAT|AllegianceTier|AnointedKnight|ExaltedArcanist|InitiateOfPistisSophia|CallFlyingMount|VassalOfBahamut|Wonderworker
+
+# ENTRY DATE: 2015-08
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

@@ -1,4 +1,4 @@
-SOURCELONG:Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.fantasyflightgames.com						
-#								
+SOURCELONG:Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.fantasyflightgames.com
+#
 # PHB Name	OUTPUTNAME:	TYPE:	COST:	WT:	SOURCEPAGE:	Requires Modification?	Source Page	Special Property
 Book (The book of distant gates)		TYPE:Goods.Book	COST:0	WT:0.5	SOURCEPAGE:DD	SPROP: written in Draconic; Rituals: dimensional anchor, dismissal, lesser planar binding, magic circle against evil; Knowledge (the planes) +4.		

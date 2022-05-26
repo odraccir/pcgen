@@ -27,6 +27,7 @@ ABILITYCATEGORY:Energy Resistance 5	CATEGORY:Special Ability	TYPE:EnergyResistan
 ABILITYCATEGORY:Aligned Spellcasting	CATEGORY:Special Ability	TYPE:AlignedSpellcasting	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Aligned Spellcasting			DISPLAYLOCATION:Class Features
 
 #Feats Ability pools
+ABILITYCATEGORY:Elemental Spellcasting	CATEGORY:Special Ability	TYPE:ElementalSpellcasting	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Elemental Spellcasting			DISPLAYLOCATION:FEATS
 
 #Companion Support
 

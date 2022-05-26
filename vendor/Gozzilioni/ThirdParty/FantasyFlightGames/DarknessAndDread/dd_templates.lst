@@ -1,5 +1,5 @@
-SOURCELONG:Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.fantasyflightgames.com		
-				
+SOURCELONG:Darkness and Dread	SOURCESHORT:DD	SOURCEWEB:http://www.fantasyflightgames.com
+
 Acolyte	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Acolyte=1
 Alchemist	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Alchemist=1
 Antiquarian	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Antiquarian=1

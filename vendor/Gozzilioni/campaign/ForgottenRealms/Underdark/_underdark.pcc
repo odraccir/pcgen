@@ -76,7 +76,7 @@ SPELL:und_spells.lst
 # FORWARDREF:SPELL|Clarity of Mind,Contagious Fog,Dehydrate,Drown (Mass),Mark of the Outcast
 # FORWARDREF:SPELL|Rushing Waters,Sanctuary (Mass),Weighed in the Balance,Word of Balance
 
-# FORWARDREF:EQMOD|BOOK_WATER_PRF,BOOK_FIREPRF,BOOK_LOCK
+# FORWARDREF:EQMOD|BOOK_WATER_PRF,BOOK_FIRE_PRF,BOOK_LOCK
 
 # HIDETYPE:FEAT|DivineChampion,ShadowThiefOfAmn,SpellfireHierophant
 
