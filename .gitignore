@@ -6,9 +6,14 @@
 *.log
 *.lck
 *.properties
+bin/**/*
+conf/**/*
 data/**/*
 docs/**/*
+include/**/*
+legal/**/*
 jre/**/*
+lib/**/*
 libs/**/*
 outputsheets/**/*
 plugins/**/*
@@ -21,15 +26,18 @@ autobuild.properties
 config.ini
 LICENSE
 logging.properties
+pcgen
 pcgen.exe
 pcgen.jar
 pcgen.log
 pcgen.log.*
 pcgen.sh
+pcgen.bat
 pcgen_hi_mem.bat
 pcgen_low_mem.bat
 pcgen-batch-convert.jar
 pcgen-convert_hi_mem.bat
+release
 
 !system/gameModes/35e/**
 !data/35e/wizards_of_the_coast/**
