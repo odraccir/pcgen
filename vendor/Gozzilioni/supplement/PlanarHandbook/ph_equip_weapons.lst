@@ -1,0 +1,35 @@
+SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																			
+#																						
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:
+# Simple Weapons																						
+## Unarmed																						
+## Light																						
+Musperule			PROFICIENCY:WEAPON|Musperule	TYPE:Weapon.Simple.Melee.Bludgeoning.Light	COST:2	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PH								
+## OneHanded																						
+Sickle (Heavy)			PROFICIENCY:WEAPON|Sickle (Heavy)	TYPE:Weapon.Simple.Melee.Slashing.OneHanded	COST:12	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PH								
+## TwoHanded																						
+## Ranged																						
+																						
+# Martial Weapons																						
+## Light																						
+Lancet (Gehennan)			PROFICIENCY:WEAPON|Lancet (Gehennan)	TYPE:Weapon.Martial.Melee.Piercing.Light	COST:7	WT:3	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PH								
+Stabaxe			PROFICIENCY:WEAPON|Stabaxe	TYPE:Weapon.Martial.Melee.Piercing.Light	COST:5	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:PH								
+Straightblade			PROFICIENCY:WEAPON|Straightblade	TYPE:Weapon.Martial.Melee.Slashing.Light	COST:7	WT:3	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PH								
+## OneHanded																						
+## TwoHanded																						
+Ripper			PROFICIENCY:WEAPON|Ripper	TYPE:Weapon.Martial.Melee.Piercing.TwoHanded	COST:55	WT:9	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PH								
+																						
+## Ranged																						
+																						
+# Exotic Weapons																						
+## Light																						
+## OneHanded																						
+## TwoHanded																						
+Jovar			PROFICIENCY:WEAPON|Jovar	TYPE:Weapon.Exotic.Melee.Slashing.TwoHanded	COST:500	WT:13	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PH								
+Ramhammer			PROFICIENCY:WEAPON|Ramhammer	TYPE:Weapon.Exotic.Melee.Bludgeoning.TwoHanded	COST:30	WT:12	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x4	EQMOD:STEEL	SOURCEPAGE:PH								REACHMULT:2
+																						
+## Ranged																						
+Annulat			PROFICIENCY:WEAPON|Annulat	TYPE:Weapon.Exotic.Ranged.Slashing.Light	COST:30	WT:0.5	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:PH							RANGE:30	
+																						
+																						
+# Arrows																						

@@ -1,0 +1,41 @@
+SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																			
+#																						
+# Equipment Name	Output Name	TYPE:	COST:	WT:	SOURCEPAGE:																	
+##Block: Rings																						
+Elemental Adaptation		TYPE:Ring	COST:24000	WT:0	SOURCEPAGE:PH	SPROP:+5 bonus on Spellcraft checks to cast spells or use spell-like abilities that would be impeded by an Elemental Plane's magic traits.																
+Ethereal Travel		TYPE:Ring	COST:182000	WT:0	SOURCEPAGE:PH																	
+Free Magic		TYPE:Ring	COST:45000	WT:0	SOURCEPAGE:PH	EQMOD:CHARGED_ITEM_50|CHARGES[50]																
+Limbo Control		TYPE:Ring	COST:120000	WT:0	SOURCEPAGE:PH																	
+Negative Protection		TYPE:Ring	COST:72000	WT:0	SOURCEPAGE:PH	SPROP:This ring enables the wearer to ignore the 1d6 points of damage dealt by negative-dominant planes, such as the Negative Energy Plane. Additionally, the wearer cannot gain negative levels while he wears this ring,																
+Positive Protection		TYPE:Ring	COST:72000	WT:0	SOURCEPAGE:PH	SPROP:This ring enables the wearer to ignore the blinding effect of positive-dominant planes, such as the Positive Energy Plane. In addition, the wearer does not gain the fast healing ability usually conferred by a positive-dominant plane, nor does the character gain additional hit points when he reaches his normal maximum. Spells that channel positive energy-typically healing spells-have no effect on the wearer.																
+Water Breathing		TYPE:Ring	COST:12000	WT:0	SOURCEPAGE:PH	SPROP:This ring enables the wearer to breathe freely in water.																
+																						
+##Block: Rods																						
+Rod of Celestial Might		TYPE:Rod.Weapon.Melee.Simple.Bludgeoning.TwoHanded.Quarterstaff	COST:110600	WT:4	SOURCEPAGE:PH			SPELLS:Celestial Might|TIMES=3|CASTERLEVEL=13|Holy Smite	PROFICIENCY:WEAPON|Quarterstaff	WIELD:TwoHanded	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS2W			ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.EQ_COST_ADJ_W.PLUS2W
+Rod of Enervating Strike		TYPE:Rod	COST:47312	WT:5	SOURCEPAGE:PH																	
+																						
+##Block: Staff																						
+Staff of Abyssal Iron	KEY:Staff (Abyssal Iron)	TYPE:Staff	COST:39350	WT:5	SOURCEPAGE:PH	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Protection from good (1 charge)/Protection from law (1 charge)/Magic circle against good (1 charge)/Magic circle against law (1 charge)/Blasphemy (4 charges)/Word of chaos (4 charges)/Wall of iron (3 charges)															
+Staff of Etherealness	KEY:Staff (Etherealness)	TYPE:Staff	COST:43300	WT:5	SOURCEPAGE:PH	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Ethereal jaunt (2 charges)/Etherealness (3 charges)/Teleport object (3 charges)															
+Staff of Planes	KEY:Staff (Planes)	TYPE:Staff	COST:43100	WT:5	SOURCEPAGE:PH	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Analyze portal (1 charge)/Gate (3 charges)/Summon monster VI (2 charges)															
+Staff of Vitalization	KEY:Staff (Vitalization)	TYPE:Staff	COST:54000	WT:5	SOURCEPAGE:PH	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Mass cure light wounds (1 charge)/Mass cure moderate wounds (2 charges)/Mass cure serious wounds (3 charges)/Mass cure critical wounds (4 charges)/Mass heal (5 charges)															
+Staff of Waves and Depths	KEY:Staff (Waves and Depths)	TYPE:Staff	COST:11200	WT:5	SOURCEPAGE:PH	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Water walk (1 charge)/Control water (1 charge)															
+Staff of Winds and Sky	KEY:Staff (Winds and Sky)	TYPE:Staff	COST:27000	WT:5	SOURCEPAGE:PH	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Air walk (1 charge)/Control winds (1 charge)															
+																						
+###Block: Wondrous																						
+Boots of Gravity		TYPE:Wondrous.Boot	COST:50400	WT:1	SOURCEPAGE:PH	SLOTS:2																
+Cloak of Shadows		TYPE:Wondrous.Cape	COST:75000	WT:1	SOURCEPAGE:PH	BONUS:SKILL|Hide|5|TYPE=Competence																
+Deck of Illusions (Planar)		TYPE:Wondrous	COST:8100	WT:0.5	SOURCEPAGE:PH	EQMOD:CHARGED_ITEM_34|CHARGES[34]																
+Gate Compass		TYPE:Wondrous	COST:2500	WT:1	SOURCEPAGE:PH																	
+Gate Compass (Greater)		TYPE:Wondrous	COST:10000	WT:1	SOURCEPAGE:PH																	
+Ring Gates (Planar)		TYPE:Wondrous	COST:200000	WT:20	SOURCEPAGE:PH																	
+Ring Gates (Planar/pair)		TYPE:Wondrous	COST:200000	WT:20	SOURCEPAGE:PH																	
+Ring Gates (Planar/1 of 2)		TYPE:Wondrous	COST:100000	WT:10	SOURCEPAGE:PH																	
+Rope of Crossing (50-ft)		TYPE:Wondrous.Rope	COST:90000	WT:10	SOURCEPAGE:PH																	
+Sextant of the Planes		TYPE:Wondrous	COST:54000	WT:12	SOURCEPAGE:PH																	
+Vestment of Steadfast Spellcasting		TYPE:Wondrous.Cape	COST:25000	WT:2	SOURCEPAGE:PH		SPELLS:Robe of Blending|TIMES=ATWILL|CASTERLEVEL=10|Disguise Self															
+Yeth Horn		TYPE:Wondrous.Masterwork.Goods.Tools.Instrument.Wind.Resizable	COST:10000	WT:1	SOURCEPAGE:PH		BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork															
+
+###Block: Wondrous																						
+Crown of Corruption		TYPE:Artifact.Headgear	COST:0	WT:3	SOURCEPAGE:PH	SPELLS:Crown of Corruption|TIMES=ATWILL|CASTERLEVEL=25|Energy Drain,23|Suggestion (Mass),19|Control Undead,20
+Sceptre of Ephelomon		TYPE:Artifact	COST:0	WT:0	SOURCEPAGE:PH	SPROP:The bearer has total control over red dragons. Dominate Monster DC 30. Once per week, the bearer can create a gate through which a very old red dragon fl ies. The dragon must immediately make a DC 35 Will save or serve the scepter-bearer without reward. Even if the dragon makes its save, it is considered controlled as described in the gate spell and may be ordered to fi ght the scepter-bearer's foes, or the dragon can bargain with the bearer of the scepter.	ABILITY:Special Ability|AUTOMATIC|Immunity to Fire|Immunity to Fear	SPELLS:Sceptre of Ephelomon|TIMES=1|TIMEUNIT=Week|CASTERLEVEL=30|Gate

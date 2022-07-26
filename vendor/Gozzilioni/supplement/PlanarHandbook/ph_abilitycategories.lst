@@ -1,38 +1,61 @@
-###Block: New Racial Trait Blocks
+###Block: New Racial Trait Blocks																														
 # Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
-ABILITYCATEGORY:Aasimar Race Trait	CATEGORY:Special Ability	TYPE:AasimarRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
-ABILITYCATEGORY:Bariaur Race Trait	CATEGORY:Special Ability	TYPE:BariaurRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
-ABILITYCATEGORY:Buomman Race Trait	CATEGORY:Special Ability	TYPE:BuommanRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
-ABILITYCATEGORY:Neraph Race Trait	CATEGORY:Special Ability	TYPE:NeraphRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
-ABILITYCATEGORY:Shadowswyft Race Trait	CATEGORY:Special Ability	TYPE:ShadowswyftRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
-ABILITYCATEGORY:Spiker Race Trait	CATEGORY:Special Ability	TYPE:SpikerRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
-ABILITYCATEGORY:Tiefling Race Trait	CATEGORY:Special Ability	TYPE:TieflingRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
-ABILITYCATEGORY:Wildren Race Trait	CATEGORY:Special Ability	TYPE:WildrenRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
-
-# Subrace Support
-ABILITYCATEGORY:Aasimar Subrace	CATEGORY:Internal	TYPE:AasimarSubrace.AasimarSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
-ABILITYCATEGORY:Bariaur Subrace	CATEGORY:Internal	TYPE:BariaurSubrace.BariaurSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
-ABILITYCATEGORY:Buomman Subrace	CATEGORY:Internal	TYPE:BuommanSubrace.BuommanSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
-ABILITYCATEGORY:Neraph Subrace	CATEGORY:Internal	TYPE:NeraphSubrace.NeraphSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
-ABILITYCATEGORY:Shadowswyft Subrace	CATEGORY:Internal	TYPE:ShadowswyftSubrace.ShadowswyftSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
-ABILITYCATEGORY:Spiker Subrace	CATEGORY:Internal	TYPE:SpikerSubrace.SpikerSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
-ABILITYCATEGORY:Tiefling Subrace	CATEGORY:Internal	TYPE:TieflingSubrace.TieflingSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
-ABILITYCATEGORY:Wildren Subrace	CATEGORY:Internal	TYPE:WildrenSubrace.WildrenSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
-
-#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Aasimar Race Trait	CATEGORY:Special Ability	TYPE:AasimarRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits						
+ABILITYCATEGORY:Bariaur Race Trait	CATEGORY:Special Ability	TYPE:BariaurRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits						
+ABILITYCATEGORY:Buomman Race Trait	CATEGORY:Special Ability	TYPE:BuommanRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits						
+ABILITYCATEGORY:Neraph Race Trait	CATEGORY:Special Ability	TYPE:NeraphRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits						
+ABILITYCATEGORY:Shadowswyft Race Trait	CATEGORY:Special Ability	TYPE:ShadowswyftRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits						
+ABILITYCATEGORY:Spiker Race Trait	CATEGORY:Special Ability	TYPE:SpikerRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits						
+ABILITYCATEGORY:Tiefling Race Trait	CATEGORY:Special Ability	TYPE:TieflingRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits						
+ABILITYCATEGORY:Wildren Race Trait	CATEGORY:Special Ability	TYPE:WildrenRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits						
+																														
+# Subrace Support																														
+ABILITYCATEGORY:Aasimar Subrace	CATEGORY:Internal	TYPE:AasimarSubrace.AasimarSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits						
+ABILITYCATEGORY:Bariaur Subrace	CATEGORY:Internal	TYPE:BariaurSubrace.BariaurSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits						
+ABILITYCATEGORY:Buomman Subrace	CATEGORY:Internal	TYPE:BuommanSubrace.BuommanSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits						
+ABILITYCATEGORY:Neraph Subrace	CATEGORY:Internal	TYPE:NeraphSubrace.NeraphSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits						
+ABILITYCATEGORY:Shadowswyft Subrace	CATEGORY:Internal	TYPE:ShadowswyftSubrace.ShadowswyftSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits						
+ABILITYCATEGORY:Spiker Subrace	CATEGORY:Internal	TYPE:SpikerSubrace.SpikerSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits						
+ABILITYCATEGORY:Tiefling Subrace	CATEGORY:Internal	TYPE:TieflingSubrace.TieflingSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits						
+ABILITYCATEGORY:Wildren Subrace	CATEGORY:Internal	TYPE:WildrenSubrace.WildrenSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits						
+																														
+#Abilitygroup:Class Ability categories																														
 ABILITYCATEGORY:Planar Domain	CATEGORY:Special Ability	TYPE:PlanarDomain	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Planar Domains			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Doomlord Body or Soul	CATEGORY:Special Ability	TYPE:BodyOrSoul	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Body or Soul			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Elemental Warrior Affinity	CATEGORY:Special Ability	TYPE:ElementalAffinity	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Elemental Affinities			DISPLAYLOCATION:Class Features								
+																														
+#Other Abilitygroups																														
+ABILITYCATEGORY:Energy Resistance 5	CATEGORY:Special Ability	TYPE:EnergyResistance5	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Energy Resistances 5			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Aligned Spellcasting	CATEGORY:Special Ability	TYPE:AlignedSpellcasting	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Aligned Spellcasting			DISPLAYLOCATION:Class Features								
+																														
+#Feats Ability pools																														
+ABILITYCATEGORY:Doomlord Feat	CATEGORY:FEAT	TYPE:Doomlord	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Doomlord Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Elemental Spellcasting	CATEGORY:Special Ability	TYPE:ElementalSpellcasting	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Elemental Spellcasting			DISPLAYLOCATION:FEATS								
+ABILITYCATEGORY:Cipher Adept Feat	CATEGORY:FEAT	TYPE:CipherAdept	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Cipher Adept Feats			DISPLAYLOCATION:Feats
+																														
+#Companion Support																														
+																														
+ABILITYCATEGORY:Heavenly Host Selection	CATEGORY:Internal	TYPE:HeavenlyHostSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Heavenly Host Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Hellish Horde Selection	CATEGORY:Internal	TYPE:HellishHordeSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Hellish Horde Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Hunters of Hades Selection	CATEGORY:Internal	TYPE:HuntersOfHadesSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Hunters of Hades Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Summon Babau Demon Selection	CATEGORY:Internal	TYPE:SummonBabauDemonSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Summon Babau Demon Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Summon Bearded Devil Selection	CATEGORY:Internal	TYPE:SummonBeardedDevilSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Summon Bearded Devil Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Summon Bralani Eladrin Selection	CATEGORY:Internal	TYPE:SummonBralaniEladrinSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Summon Bralani Eladrin Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Summon Elementite Swarm Selection	CATEGORY:Internal	TYPE:SummonElementiteSwarmSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Summon Elementite Swarm Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Summon Elysian Thrush Selection	CATEGORY:Internal	TYPE:SummonElysianThrushSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Summon Elysian Thrush Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Summon Greater Elemental Selection	CATEGORY:Internal	TYPE:SummonGreaterElementalSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Summon Greater Elemental Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Summon Hound Archon Selection	CATEGORY:Internal	TYPE:SummonHoundArchonSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Summon Hound Archon Choice			DISPLAYLOCATION:Misc
 
-#Other Abilitygroups
-ABILITYCATEGORY:Energy Resistance 5	CATEGORY:Special Ability	TYPE:EnergyResistance5	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Energy Resistances 5			DISPLAYLOCATION:Class Features
-ABILITYCATEGORY:Aligned Spellcasting	CATEGORY:Special Ability	TYPE:AlignedSpellcasting	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Aligned Spellcasting			DISPLAYLOCATION:Class Features
-
-#Feats Ability pools
-ABILITYCATEGORY:Elemental Spellcasting	CATEGORY:Special Ability	TYPE:ElementalSpellcasting	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Elemental Spellcasting			DISPLAYLOCATION:FEATS
-
-#Companion Support
-
-#other
-
-#
-# End
-#
+#other																														
+ABILITYCATEGORY:Defiant Class Feature	CATEGORY:Special Ability	TYPE:DefiantClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Defiant Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Doomlord Class Feature	CATEGORY:Special Ability	TYPE:DoomlordClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Doomlord Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Chaotician Class Feature	CATEGORY:Special Ability	TYPE:ChaoticianClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Chaotician Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Fatemaker Class Feature	CATEGORY:Special Ability	TYPE:FatemakerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Fatemaker Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Visionary Seeker Class Feature	CATEGORY:Special Ability	TYPE:VisionarySeekerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Visionary Seeker Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Ardent Dilettante Class Feature	CATEGORY:Special Ability	TYPE:ArdentDilettanteClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Ardent Dilettante Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Cipher Adept Class Feature	CATEGORY:Special Ability	TYPE:CipherAdeptClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Cipher Adept Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Astral Dancer Class Feature	CATEGORY:Special Ability	TYPE:AstralDancerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Astral Dancer Class Features			DISPLAYLOCATION:Class Features								
+ABILITYCATEGORY:Elemental Warrior Class Feature	CATEGORY:Special Ability	TYPE:ElementalWarriorClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Elemental Warrior Class Features			DISPLAYLOCATION:Class Features								
+#																														
+# End																														
+#																														

@@ -26,7 +26,7 @@ STARTPACK:Amn Region B2	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1
 GEAR:Sword (Short)	EQMOD:MWORKW					
 						
 STARTPACK:Amn Region C1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1		
-BONUS:FOLLOWERS|Mount|1						
+TEMPLATE:Amn Region C1 ~ Mount						
 GEAR:Horse (Warhorse/Light)						
 GEAR:Bit and Bridle						
 GEAR:Saddle (Military)						

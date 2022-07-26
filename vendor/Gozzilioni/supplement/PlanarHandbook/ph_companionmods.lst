@@ -1,7 +1,69 @@
-SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																													
+SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
+			
+###Block:Celestial Mount			
+FOLLOWER:CelestialSpecialMountLVL=1	TYPE:Special Mount	TEMPLATE:Celestial	
+			
+###Block:Animal Companion			
+FOLLOWER:CelestialAnimalCompanionLVL=1	TYPE:Animal Companion	TEMPLATE:Celestial	
+			
+FOLLOWER:StalwartPlanarAllyFeat=1	TYPE:Summon Monster I	BONUS:COMBAT|AC|4	BONUS:SAVE|ALL|4
+FOLLOWER:StalwartPlanarAllyFeat=1	TYPE:Summon Monster II	BONUS:COMBAT|AC|4	BONUS:SAVE|ALL|4
+FOLLOWER:StalwartPlanarAllyFeat=1	TYPE:Summon Monster III	BONUS:COMBAT|AC|4	BONUS:SAVE|ALL|4
+FOLLOWER:StalwartPlanarAllyFeat=1	TYPE:Summon Monster IV	BONUS:COMBAT|AC|4	BONUS:SAVE|ALL|4
+FOLLOWER:StalwartPlanarAllyFeat=1	TYPE:Summon Monster V	BONUS:COMBAT|AC|4	BONUS:SAVE|ALL|4
+FOLLOWER:StalwartPlanarAllyFeat=1	TYPE:Summon Monster VI	BONUS:COMBAT|AC|4	BONUS:SAVE|ALL|4
+FOLLOWER:StalwartPlanarAllyFeat=1	TYPE:Summon Monster VII	BONUS:COMBAT|AC|4	BONUS:SAVE|ALL|4
+FOLLOWER:StalwartPlanarAllyFeat=1	TYPE:Summon Monster VIII	BONUS:COMBAT|AC|4	BONUS:SAVE|ALL|4
+FOLLOWER:StalwartPlanarAllyFeat=1	TYPE:Summon Monster IX	BONUS:COMBAT|AC|4	BONUS:SAVE|ALL|4
 
-###Block:Celestial Mount										
-FOLLOWER:CelestialSpecialMountLVL=1	TYPE:Special Mount	TEMPLATE:Celestial
+FOLLOWER:HeavenlyHostLVL=1	TYPE:Heavenly Host									
+FOLLOWER:HellishHostLVL=1	TYPE:Hellish Host									
+FOLLOWER:HuntersOfHadesLVL=1	TYPE:Hunters of Hades									
+FOLLOWER:SummonBabauDemonLVL=1	TYPE:Summon Babau Demon									
+FOLLOWER:SummonBeardedDevilLVL=1	TYPE:Summon Bearded Devil									
+FOLLOWER:SummonBralaniEladrinLVL=1	TYPE:Summon Bralani Eladrin									
+FOLLOWER:SummonElementiteSwarmLVL=1	TYPE:Summon Elementite Swarm									
+FOLLOWER:SummonElysianThrushLVL=1	TYPE:Summon Elysian Thrush									
+FOLLOWER:SummonGreaterElementalLVL=1	TYPE:Summon Greater Elemental	HD:18								
+FOLLOWER:SummonHoundArchonLVL=1	TYPE:Summon Hound Archon									
 
-###Block:Animal Companion										
-FOLLOWER:CelestialAnimalCompanionLVL=1	TYPE:Animal Companion	TEMPLATE:Celestial
+###Block:Augment Summoning
+FOLLOWER:AugmentSummoning=1	TYPE:Heavenly Host	BONUS:STAT|STR,CON|4|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=10	TYPE:Heavenly Host	BONUS:STAT|STR,CON|6|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=20	TYPE:Heavenly Host	BONUS:STAT|STR,CON|8|TYPE=Enhancement				
+
+FOLLOWER:AugmentSummoning=1	TYPE:Hellish Host	BONUS:STAT|STR,CON|4|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=10	TYPE:Hellish Host	BONUS:STAT|STR,CON|6|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=20	TYPE:Hellish Host	BONUS:STAT|STR,CON|8|TYPE=Enhancement				
+
+FOLLOWER:AugmentSummoning=1	TYPE:Hunters of Hades	BONUS:STAT|STR,CON|4|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=10	TYPE:Hunters of Hades	BONUS:STAT|STR,CON|6|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=20	TYPE:Hunters of Hades	BONUS:STAT|STR,CON|8|TYPE=Enhancement				
+
+FOLLOWER:AugmentSummoning=1	TYPE:Summon Babau Demon	BONUS:STAT|STR,CON|4|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=10	TYPE:Summon Babau Demon	BONUS:STAT|STR,CON|6|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=20	TYPE:Summon Babau Demon	BONUS:STAT|STR,CON|8|TYPE=Enhancement				
+
+FOLLOWER:AugmentSummoning=1	TYPE:Summon Bearded Devil	BONUS:STAT|STR,CON|4|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=10	TYPE:Summon Bearded Devil	BONUS:STAT|STR,CON|6|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=20	TYPE:Summon Bearded Devil	BONUS:STAT|STR,CON|8|TYPE=Enhancement				
+
+FOLLOWER:AugmentSummoning=1	TYPE:Summon Bralani Eladrin	BONUS:STAT|STR,CON|4|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=10	TYPE:Summon Bralani Eladrin	BONUS:STAT|STR,CON|6|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=20	TYPE:Summon Bralani Eladrin	BONUS:STAT|STR,CON|8|TYPE=Enhancement				
+
+FOLLOWER:AugmentSummoning=1	TYPE:Summon Elementite Swarm	BONUS:STAT|STR,CON|4|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=10	TYPE:Summon Elementite Swarm	BONUS:STAT|STR,CON|6|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=20	TYPE:Summon Elementite Swarm	BONUS:STAT|STR,CON|8|TYPE=Enhancement				
+
+FOLLOWER:AugmentSummoning=1	TYPE:Summon Elysian Thrush	BONUS:STAT|STR,CON|4|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=10	TYPE:Summon Elysian Thrush	BONUS:STAT|STR,CON|6|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=20	TYPE:Summon Elysian Thrush	BONUS:STAT|STR,CON|8|TYPE=Enhancement				
+
+FOLLOWER:AugmentSummoning=1	TYPE:Summon Greater Elemental	BONUS:STAT|STR,CON|4|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=10	TYPE:Summon Greater Elemental	BONUS:STAT|STR,CON|6|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=20	TYPE:Summon Greater Elemental	BONUS:STAT|STR,CON|8|TYPE=Enhancement				
+
+FOLLOWER:AugmentSummoning=1	TYPE:Summon Hound Archon	BONUS:STAT|STR,CON|4|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=10	TYPE:Summon Hound Archon	BONUS:STAT|STR,CON|6|TYPE=Enhancement				
+FOLLOWER:AugmentSummoning=20	TYPE:Summon Hound Archon	BONUS:STAT|STR,CON|8|TYPE=Enhancement				

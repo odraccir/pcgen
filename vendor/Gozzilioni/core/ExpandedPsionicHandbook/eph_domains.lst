@@ -1,4 +1,4 @@
-SOURCELONG:Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
+SOURCELONG:Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04					
 								
-#	SOURCEPAGE:SpellListI.rtf	SPELLLEVEL:DOMAIN|=1||=2||=3||=4||=5||=6||=7||=8||=9|	DESC:					
-Mind	SOURCEPAGE:EPH	SPELLLEVEL:DOMAIN|Mind=1|Comprehend Languages|Mind=2|Detect Thoughts|Mind=3|Telepathic Bond (Lesser)|Mind=4|Discern Lies|Mind=5|Rary's Telepathic Bond|Mind=6|Probe Thoughts|Mind=7|Brain Spider|Mind=8|Mind Blank|Mind=9|Weird	DESC:Gain a +2 bonus on Bluff, Diplomacy, and Sense Motive checks. Gain a +2 bonus on Will saves against enchantment spells and effects.		BONUS:SKILL|Bluff,Diplomacy,Sense Motive|2	ABILITY:Special Ability|AUTOMATIC|Resistance To Enchantment	BONUS:VAR|EnchantmentResistanceBonus|2
+#	SOURCEPAGE:SpellListI.rtf		SPELLLEVEL:DOMAIN|=1||=2||=3||=4||=5||=6||=7||=8||=9|	DESC:				
+Mind	SOURCEPAGE:EPH	PREMULT:1,[PREVARLT:DomainNotAllowed,1],[PREVAREQ:AllowDomainMind,1]	SPELLLEVEL:DOMAIN|Mind=1|Comprehend Languages|Mind=2|Detect Thoughts|Mind=3|Telepathic Bond (Lesser)|Mind=4|Discern Lies|Mind=5|Rary's Telepathic Bond|Mind=6|Probe Thoughts|Mind=7|Brain Spider|Mind=8|Mind Blank|Mind=9|Weird	DESC:Gain a +2 bonus on Bluff, Diplomacy, and Sense Motive checks. Gain a +2 bonus on Will saves against enchantment spells and effects.		BONUS:SKILL|Bluff,Diplomacy,Sense Motive|2	ABILITY:Special Ability|AUTOMATIC|Resistance To Enchantment	BONUS:VAR|EnchantmentResistanceBonus|2

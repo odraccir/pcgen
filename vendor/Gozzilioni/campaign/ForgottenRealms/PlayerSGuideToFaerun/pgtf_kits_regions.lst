@@ -492,7 +492,7 @@ GEAR:Shortspear	EQMOD:MWORKW
 STARTPACK:Dwarf ~ Great Glacier Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Dwarf
 GEAR:Dog (Riding)					
 GEAR:Hide	EQMOD:MWORKA				
-BONUS:FOLLOWERS|Mount|1					
+TEMPLATE:Dwarf ~ Great Glacier Region B1 ~ Riding Dog
 					
 					
 					
@@ -540,7 +540,7 @@ GEAR:Horse (Light)
 GEAR:Bit and Bridle					
 GEAR:Saddle (Military)					
 GEAR:Barding (Studded Leather)					
-BONUS:FOLLOWERS|Mount|1					
+TEMPLATE:Human ~ Hordelands Region B1 ~ Light Horse
 					
 STARTPACK:Half-Orc ~ Hordelands Region A1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Half-Orc
 GEAR:Shortspear	EQMOD:MWORKW				
@@ -766,7 +766,7 @@ GEAR:Horse (Light)
 GEAR:Bit and Bridle					
 GEAR:Saddle (Military)					
 GEAR:Barding (Studded Leather)					
-BONUS:FOLLOWERS|Mount|1					
+TEMPLATE:Human ~ Narfell Region A1 ~ Light Horse
 					
 STARTPACK:Human ~ Narfell Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
 GEAR:Lance (Light)	EQMOD:MWORKW				
@@ -864,7 +864,7 @@ GEAR:Horse (Light)
 GEAR:Bit and Bridle					
 GEAR:Saddle (Military)					
 GEAR:Barding (Studded Leather)					
-BONUS:FOLLOWERS|Mount|1					
+TEMPLATE:Human ~ Ride Region A1 ~ Light Horse
 					
 STARTPACK:Human ~ Ride Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Human
 GEAR:Battleaxe	EQMOD:MWORKW				
@@ -893,7 +893,7 @@ GEAR:Horse (Light)
 GEAR:Bit and Bridle					
 GEAR:Saddle (Military)					
 GEAR:Barding (Studded Leather)					
-BONUS:FOLLOWERS|Mount|1					
+TEMPLATE:Human ~ Shaar Region A1 ~ Light Horse
 					
 					
 					

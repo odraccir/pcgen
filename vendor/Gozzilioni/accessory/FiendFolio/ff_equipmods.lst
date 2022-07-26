@@ -12,4 +12,4 @@ Sickening	KEY:SICK_M	TYPE:Weapon.Melee.Thrown	PLUS:3	VISIBLE:QUALIFY	SOURCEPAGE:
 Sickening	KEY:SICK_R	TYPE:Weapon.Ranged	PLUS:3	VISIBLE:QUALIFY	SOURCEPAGE:FF	SPROP:Evil-aligned, +2d6 Evil damage vs. good bestowed on ammunition, -2 penalty on attack rolls, weapon damage rolls, 1 negative level bestowed to good wielder.	PRETYPE:3,Enhancement,Weapon,Ranged	!PRETYPE:1,Thrown								ASSIGNTOALL:NO		BONUS:VAR|NegativeLevels|1|PREALIGN:LG,NG,CG																																																																																																	
 
 #
-Resin	KEY:RESIN_A	TYPE:BaseMaterial.MasterworkQuality.Armor		COST:250	VISIBLE:QUALIFY	ITYPE:Leather.Resin.Masterwork	REPLACE:STEEL	SOURCEPAGE:FF	SPROP:Protect the wearer on the Material Plane from the effects of the environment.	PRETYPE:1,Metal	!PRETYPE:1,Masterwork	ASSIGNTOALL:NO	
+Resin	KEY:RESIN	TYPE:BaseMaterial.MasterworkQuality		COST:250	VISIBLE:QUALIFY	ITYPE:Leather.Resin.Masterwork	REPLACES:STEEL	SOURCEPAGE:FF	SPROP:Protect the wearer on the Material Plane from the effects of the environment.	PRETYPE:1,Metal	!PRETYPE:1,Masterwork	ASSIGNTOALL:NO	

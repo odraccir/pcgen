@@ -142,3 +142,11 @@ Underdark (Fluvenilstra) ~ Slyth	VISIBLE:NO	AUTO:LANG|Undercommon	LANGBONUS:Aqua
 Underdark (Reeshov) ~ Grimlock	VISIBLE:NO	AUTO:LANG|Terran|Undercommon	LANGBONUS:Abyssal,Elven,Kuo-Toan,Orc	REGION:Underdark (Reeshov)	PRERACE:1,Grimlock	SOURCEPAGE:PgtF
 Underdark (Sloopdilmonpolop) ~ Kuo-Toa	VISIBLE:NO	AUTO:LANG|Kuo-Toan|Undercommon	LANGBONUS:Aquan,Draconic,Dwarven,Elven	REGION:Underdark (Sloopdilmonpolop)	PRERACE:1,Kuo-Toa	SOURCEPAGE:PgtF
 Underdark (Yathchol) ~ Chitine	VISIBLE:NO	AUTO:LANG|Undercommon	LANGBONUS:Drow Sign Language,Elven,Kuo-Toan,Orc	REGION:Underdark (Yathchol)	PRERACE:1,Chitine	SOURCEPAGE:PgtF
+
+
+###
+Human ~ Narfell Region A1 ~ Light Horse	VISIBLE:NO	BONUS:FOLLOWERS|Mount|1		SOURCEPAGE:PgtF
+Human ~ Hordelands Region B1 ~ Light Horse	VISIBLE:NO	BONUS:FOLLOWERS|Mount|1		SOURCEPAGE:PgtF
+Human ~ Ride Region A1 ~ Light Horse	VISIBLE:NO	BONUS:FOLLOWERS|Mount|1		SOURCEPAGE:PgtF
+Human ~ Shaar Region A1 ~ Light Horse	VISIBLE:NO	BONUS:FOLLOWERS|Mount|1		SOURCEPAGE:PgtF
+Dwarf ~ Great Glacier Region B1 ~ Riding Dog	VISIBLE:NO	BONUS:FOLLOWERS|Mount|1		SOURCEPAGE:PgtF

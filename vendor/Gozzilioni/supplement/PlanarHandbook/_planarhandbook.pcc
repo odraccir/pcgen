@@ -27,26 +27,31 @@ ABILITYCATEGORY:ph_abilitycategories.lst
 BIOSET:ph_biosettings.lst
 CLASS:ph_classes.lst
 COMPANIONMOD:ph_companionmods.lst
+DOMAIN:ph_deities_CD.lst|PRECAMPAIGN:1,Complete Divine
+DOMAIN:ph_deities_pgtf.lst|PRECAMPAIGN:1,Player's Guide to Faerun
 DOMAIN:ph_domains.lst
-# EQUIPMENT:ph_equip.lst
-# EQUIPMENT:ph_equip_magic_items.lst
-# EQUIPMENT:ph_equip_weapons.lst
+EQUIPMENT:ph_equip.lst
+EQUIPMENT:ph_equip_armors.lst
+EQUIPMENT:ph_equip_magic_items.lst
+EQUIPMENT:ph_equip_weapons.lst
+EQUIPMENT:ph_equip_weapons_specific.lst
 # EQUIPMENT:ph_equip_weapons_natural.lst
-# EQUIPMOD:ph_equipmods.lst
-# ABILITY:ph_feats.lst
+EQUIPMOD:ph_equipmods.lst
+ABILITY:ph_feats.lst
 KIT:ph_kits.lst
 LANGUAGE:ph_languages.lst
-# WEAPONPROF:ph_profs_weapon.lst
+WEAPONPROF:ph_profs_armor.lst
+WEAPONPROF:ph_profs_weapon.lst
 RACE:ph_races.lst
-# RACE:ph_races_companion.lst
+RACE:ph_races_companion.lst
 # SKILL:ph_skills.lst
-# SPELL:ph_spells.lst
+SPELL:ph_spells.lst
 ABILITY:ph_subraces.lst
 TEMPLATE:ph_templates.lst
 #
 # HIDETYPE:SKILL|Craft (Stoneworking)
 
-# HIDETYPE:FEAT|Wizard
+HIDETYPE:FEAT|Doomlord|CipherAdept
 
 # ENTRY DATE: 2015-08
 # LST MONKEY: Riccardo

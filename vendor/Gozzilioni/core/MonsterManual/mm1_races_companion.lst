@@ -4,11 +4,11 @@ SOURCELONG:Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SO
 Arrowhawk.COPY=Arrowhawk	KEY:Companion ~ Arrowhawk (Adult)
 Arrowhawk.COPY=Arrowhawk	KEY:Companion ~ Arrowhawk (Elder)
 Chimera.COPY=Chimera	KEY:Companion ~ Chimera (Skeleton)
-Dinosaur (Deinonychus).COPY=Dinosaur (Deinonychus/Fiendish)	KEY:Companion ~ Dinosaur (Deinonychus/Fiendish)
-Dinosaur (Elasmosaurus).COPY=Dinosaur (Elasmosaurus/Fiendish)	KEY:Companion ~ Dinosaur (Elasmosaurus/Fiendish)
-Dinosaur (Megaraptor).COPY=Dinosaur (Megaraptor/Fiendish)	KEY:Companion ~ Dinosaur (Megaraptor/Fiendish)
-Dinosaur (Triceratops).COPY=Dinosaur (Triceratops/Celestial)	KEY:Companion ~ Dinosaur (Triceratops/Celestial)
-Dinosaur (Tyrannosaurus).COPY=Dinosaur (Tyrannosaurus/Fiendish)	KEY:Companion ~ Dinosaur (Tyrannosaurus/Fiendish)
+Dinosaur (Deinonychus).COPY=Dinosaur (Deinonychus	KEY:Companion ~ Dinosaur (Deinonychus/Fiendish)
+Dinosaur (Elasmosaurus).COPY=Dinosaur (Elasmosaurus	KEY:Companion ~ Dinosaur (Elasmosaurus/Fiendish)
+Dinosaur (Megaraptor).COPY=Dinosaur (Megaraptor)	KEY:Companion ~ Dinosaur (Megaraptor/Fiendish)
+Dinosaur (Triceratops).COPY=Dinosaur (Triceratops)	KEY:Companion ~ Dinosaur (Triceratops/Celestial)
+Dinosaur (Tyrannosaurus).COPY=Dinosaur (Tyrannosaurus)	KEY:Companion ~ Dinosaur (Tyrannosaurus/Fiendish)
 Dire Animal (Dire Ape).COPY=Dire Animal (Dire Ape)	KEY:Companion ~ Dire Animal (Dire Ape/Fiendish)
 Dire Animal (Dire Badger).COPY=Dire Animal (Dire Badger)	KEY:Companion ~ Dire Animal (Dire Badger/Celestial)
 Dire Animal (Dire Bat).COPY=Dire Animal (Dire Bat)	KEY:Companion ~ Dire Animal (Dire Bat/Fiendish)
@@ -278,6 +278,8 @@ Animal (Snake (Constrictor)).COPY=Animal (Snake (Constrictor))	KEY:Companion ~ A
 Companion ~ Animal (Snake (Constrictor/Giant)).MOD	OUTPUTNAME:Animal (Snake (Constrictor/Giant))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Constrictor))	KIT:1|Animal (Snake (Constrictor/Giant)) Companion
 Animal (Snake (Constrictor)).COPY=Animal (Snake (Constrictor))	KEY:Companion ~ Animal (Snake (Constrictor/Fiendish))
 Companion ~ Animal (Snake (Constrictor/Fiendish)).MOD	OUTPUTNAME:Animal (Snake (Constrictor))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Constrictor))	TEMPLATE:Fiendish
+Animal (Snake (Constrictor)).COPY=Animal (Snake (Constrictor))	KEY:Companion ~ Animal (Snake (Constrictor/Giant/Fiendish))
+Companion ~ Animal (Snake (Constrictor/Giant/Fiendish)).MOD	OUTPUTNAME:Animal (Snake (Constrictor/Giant/Fiendish))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Constrictor))	KIT:1|Animal (Snake (Constrictor/Giant)) Companion	TEMPLATE:Fiendish
 Animal (Snake (Viper/Tiny)).COPY=Animal (Snake (Viper/Tiny))	KEY:Companion ~ Animal (Snake (Viper/Tiny/Celestial))
 Companion ~ Animal (Snake (Viper/Tiny/Celestial)).MOD	OUTPUTNAME:Animal (Snake (Viper/Tiny/Celestial))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper/Tiny))	TEMPLATE:Celestial
 Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Medium))

@@ -1,7 +1,9 @@
 SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 
-#Halfling			TYPE:Spoken.Written.Read
 #Druidic			TYPE:Spoken.Written.Read.Druid.Secret	PREVARGTEQ:DruidicLanguage,1
 Buommi			TYPE:Spoken
 Neraph			TYPE:Spoken.Written.Read
 Shadowswyft			TYPE:Spoken.Written.Read
+
+#BLOCK:Races
+Elsewhale			TYPE:Spoken

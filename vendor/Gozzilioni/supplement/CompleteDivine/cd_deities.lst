@@ -44,7 +44,7 @@ Osprem	ALIGN:LN	DEITYWEAP:Trident	DESC:Osprem (F)	DOMAINS:Law,Protection,Travel,
 Pholtus	ALIGN:LG	DEITYWEAP:Quarterstaff	DESC:Pholtus (M)	DOMAINS:Good,Inquisition,Knowledge,Law,Sun|PREALIGN:LG,LN,NG	TYPE:Intermediate	FACTSET:Pantheon|Greyhawk	SOURCEPAGE:CD	
 Procan	ALIGN:CN	DEITYWEAP:Trident	DESC:Procan (M)	DOMAINS:Animal,Chaos,Travel,Water,Weather|PREALIGN:TN,CG,CN,CE	TYPE:Intermediate	FACTSET:Pantheon|Greyhawk	SOURCEPAGE:CD	
 Pyremius	ALIGN:NE	DEITYWEAP:Longsword	DESC:Pyremius (M)	DOMAINS:Destruction,Evil,fire|PREALIGN:LE,TN,NE,CE	TYPE:Lesser	FACTSET:Pantheon|Greyhawk	SOURCEPAGE:CD	
-Rao	ALIGN:LG	DEITYWEAP:Mace (Light)	DESC:Rao (M)	DOMAINS:Community,Good,Knowledge,Luck,Putrification|PREALIGN:LG,LN,NG	TYPE:Greater	FACTSET:Pantheon|Greyhawk	SOURCEPAGE:CD	
+Rao	ALIGN:LG	DEITYWEAP:Mace (Light)	DESC:Rao (M)	DOMAINS:Community,Good,Knowledge,Luck,Purification|PREALIGN:LG,LN,NG	TYPE:Greater	FACTSET:Pantheon|Greyhawk	SOURCEPAGE:CD	
 Telchur	ALIGN:CN	DEITYWEAP:Spear	DESC:Telchur (M)	DOMAINS:Air,Chaos,Cold,Strength|PREALIGN:TN,CG,CN,CE	TYPE:Lesser	FACTSET:Pantheon|Greyhawk	SOURCEPAGE:CD	
 Tharizdun	ALIGN:NE	DEITYWEAP:Check Toee	DESC:Tharizdun (M)	DOMAINS:Chaos,Destruction,Evil,Force,Madness|PREALIGN:TN,LE,NE,CE	TYPE:Intermediate	FACTSET:Pantheon|Greyhawk	SOURCEPAGE:CD	
 Trithereon	ALIGN:CG	DEITYWEAP:Spear	DESC:Trithereon (M)	DOMAINS:Chaos,Good,Liberation,Summoner|PREALIGN:NG,CG,CN	TYPE:Lesser	FACTSET:Pantheon|Greyhawk	SOURCEPAGE:CD	
@@ -63,14 +63,14 @@ Grolantor	ALIGN:CE	DEITYWEAP:Club	DESC:Grolantor ()	DOMAINS:Chaos,Death,Earth,Ev
 Hiatea	ALIGN:NG	DEITYWEAP:Spear	DESC:Hiatea ()	DOMAINS:Animal,Good,Plant,Sun|PREALIGN:LG,NG,TN,CG	TYPE:Greater	FACTSET:Pantheon|Giant	SOURCEPAGE:CD	
 Hruggek	ALIGN:CE	DEITYWEAP:Morningstar	DESC:Hruggek ()	DOMAINS:Knowledge,Law,Magic|PREALIGN:NE,CN,CE	TYPE:Intermediate	FACTSET:Pantheon|Bugbear	SOURCEPAGE:CD	
 Iallanis	ALIGN:NG	DEITYWEAP:Battleaxe|Slam	DESC:Lallanis ()	DOMAINS:Good,Healing,Strength,Sun|PREALIGN:LG,NG,TN,CG	TYPE:Lesser	FACTSET:Pantheon|Giant	SOURCEPAGE:CD	
-Ilsensine	ALIGN:LE	DEITYWEAP:Unharmed Strike|Tentacle	DESC:Ilsensine ()	DOMAINS:Evil,Knowledge,Law,Magic,Mind|PREALIGN:LN,LE,NE	TYPE:Greater	FACTSET:Pantheon|Mind Flayer	SOURCEPAGE:CD	
+Ilsensine	ALIGN:LE	DEITYWEAP:Unarmed Strike|Tentacle	DESC:Ilsensine ()	DOMAINS:Evil,Knowledge,Law,Magic,Mind|PREALIGN:LN,LE,NE	TYPE:Greater	FACTSET:Pantheon|Mind Flayer	SOURCEPAGE:CD	
 Kaelthiere	ALIGN:NE	DEITYWEAP:Spear	DESC:Kaelthiere ()	DOMAINS:Destruction,Evil,Fire,War|PREALIGN:LE,TN,NE,CE	TYPE:Intermediate	FACTSET:Pantheon|Salamader|Efreet|Azer	SOURCEPAGE:CD	
 Laduguer	ALIGN:LE	DEITYWEAP:Warhammer	DESC:Laduguer ()	DOMAINS:Destruction,Earth,Evil,Law,War|PREALIGN:LN,LE,NE	TYPE:Intermediate	FACTSET:Pantheon|Duergar	SOURCEPAGE:CD	
 Laogzed	ALIGN:CE	DEITYWEAP:Javelin	DESC:Laogzed ()	DOMAINS:Chaos,Death,Destruction,Evil|PREALIGN:NE,CN,CE	TYPE:Demigod	FACTSET:Pantheon|Troglodytes	SOURCEPAGE:CD	
 Maglubiyet	ALIGN:NE	DEITYWEAP:Battleaxe	DESC:Maglubiyet ()	DOMAINS:Chaos,Destruction,Evil,Trickery|PREALIGN:LE,TN,NE,CE	TYPE:Greater	FACTSET:Pantheon|Goblin|Hobgoblin	SOURCEPAGE:CD	
 Memnor	ALIGN:NE	DEITYWEAP:Morningstar	DESC:Memnor ()	DOMAINS:Death,Evil,Trickery|PREALIGN:LE,TN,NE,CE	TYPE:Intermediate	FACTSET:Pantheon|Giant (Cloud)	SOURCEPAGE:CD	
 Merrshaulk	ALIGN:CE	DEITYWEAP:Longsword	DESC:Merrshaulk ()	DOMAINS:Chaos,Destruction,Evil,Plant|PREALIGN:NE,CN,CE	TYPE:Intermediate	FACTSET:Pantheon|Yuan-Ti	SOURCEPAGE:CD	
-Panzuriel	ALIGN:NE	DEITYWEAP:Quarterstaff	DESC:Pansuriel ()	DOMAINS:Destruction,Evil,Ear,Water|PREALIGN:LE,TN,NE,CE	TYPE:Intermediate	FACTSET:Pantheon|Merrow|Scrag|Kraken	SOURCEPAGE:CD	
+Panzuriel	ALIGN:NE	DEITYWEAP:Quarterstaff	DESC:Pansuriel ()	DOMAINS:Destruction,Evil,Earth,Water|PREALIGN:LE,TN,NE,CE	TYPE:Intermediate	FACTSET:Pantheon|Merrow|Scrag|Kraken	SOURCEPAGE:CD	
 Sekolah	ALIGN:LE	DEITYWEAP:Trident	DESC:Sekolah ()	DOMAINS:Evil,Law,Strength,War|PREALIGN:LN,LE,NE	TYPE:Lesser	FACTSET:Pantheon|Sahuagin	SOURCEPAGE:CD	
 Semuanya	ALIGN:TN	DEITYWEAP:Greatclub	DESC:Semuanya ()	DOMAINS:Animal,Plant,Water|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	FACTSET:Pantheon|Lizardfolk	SOURCEPAGE:CD	
 Shekinester	ALIGN:TN	DEITYWEAP:Dagger|Bite	DESC:Shekinester ()	DOMAINS:Destruction,Knowledge,Magic,Protection|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	FACTSET:Pantheon|Naga	SOURCEPAGE:CD	

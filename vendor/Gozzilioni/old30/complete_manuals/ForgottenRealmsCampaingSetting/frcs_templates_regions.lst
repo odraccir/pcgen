@@ -63,3 +63,4 @@ Halfling Lightfoot Region	VISIBLE:NO	AUTO:LANG|Halfling	LANGBONUS:Chessentan,Cho
 Halfling Strongheart Region	VISIBLE:NO	AUTO:LANG|Halfling	LANGBONUS:Dwarven,Gnoll,Goblin,Halruaan,Shaaran	DEFINE:RegionHalflingStrongheart|0	BONUS:VAR|RegionHalflingStrongheart|1|TYPE=Base
 Orc Orc Region	VISIBLE:NO	AUTO:LANG|Orc	LANGBONUS:Damaran,Giant,Gnoll,Goblin,Illuskan,Undercommon	DEFINE:RegionOrcOrc|0	BONUS:VAR|RegionOrcOrc|1|TYPE=Base
 
+Amn Region C1 ~ Mount	VISIBLE:NO	BONUS:FOLLOWERS|Mount|1	SOURCEPAGE:FRCS

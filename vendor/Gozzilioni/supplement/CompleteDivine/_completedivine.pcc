@@ -57,7 +57,7 @@ KIT:cd_kits.lst
 # KIT:cd_kits_regions.lst
 # LANGUAGE:cd_languages.lst
 # ARMORPROF:cd_profs_armor.lst
-# WEAPONPROF:cd_profs_weapon.lst
+WEAPONPROF:cd_profs_weapon.lst
 RACE:cd_races.lst
 # RACE:cd_races_companion.lst
 # SKILL:cd_skills.lst

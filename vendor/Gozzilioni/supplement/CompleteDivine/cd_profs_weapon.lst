@@ -1,0 +1,25 @@
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11																				
+#			
+### Weapon/Spell			
+### Simple/Martial/Exotic			
+### Melee/Ranged			
+### Bludgeoning/Piercing/Slashing			
+### Reach/Double/Thrown/Projectile/Ammunition			
+### Unharmed/Light/OneHanded/TwoHanded			
+###Automatic			
+
+###Improvised			
+
+###Simple			
+Musperule	TYPE:Simple.Melee.Bludgeoning.MeleeBludgeoning.Light.Club		
+Sickle (Heavy)	TYPE:Simple.Melee.Slashing.MeleeSlashing.OneHanded		
+###Martial			
+Lancet (Gehennan)	TYPE:Martial.Melee.Piercing.MeleePiercing.Light.Dagger
+Stabaxe	TYPE:Martial.Melee.Piercing.MeleePiercing.Light.Axe
+Straightblade	TYPE:Martial.Melee.Slashing.MeleeSlashing.Light
+Ripper	TYPE:Martial.Melee.Piercing.MeleePiercing.TwoHanded
+###Exotic			
+Jovar	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded
+Ramhammer	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.Reach
+###Ranged			
+Annulat	TYPE:Exotic.Ranged.Slashing.RangedSlashing.Light.Neraph

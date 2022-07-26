@@ -1,0 +1,44 @@
+SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																														
+
+###Block:Adventuring Gear
+Harness (Ether)		TYPE:Goods.General.Container.Resizable	COST:20	WT:2	SOURCEPAGE:PH	CONTAINS:UNLIM|Any	
+Parchment (Fireproof/Sheet)		TYPE:Goods.General.Writing.Documents	COST:0.8		SOURCEPAGE:PH				
+Gravity Tent		TYPE:Goods.General.Resizable	COST:25	WT:40	SOURCEPAGE:PH				
+Ink (1 Oz. Vial/Black/Waterproof)		TYPE:Goods.General.Writing.Liquid.Vial	COST:6	SOURCEPAGE:PH				
+Weight Suit		TYPE:Goods.Clothing.Resizable	COST:20	WT:100	SOURCEPAGE:PH
+
+###Block: Tools									
+Hourglass (Differential)		TYPE:Goods.Tools	COST:75	WT:4	SOURCEPAGE:PH				
+Spellbook (Wizard's/Blank/Fireproof)		TYPE:Goods.Tools.Spellbook.Fireproof	COST:50	WT:5	SOURCEPAGE:PH	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)		
+Spellbook (Wizard's/Blank/Waterproof)		TYPE:Goods.Tools.Spellbook.Waterproof	COST:30	WT:4	SOURCEPAGE:PH	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)		
+Planar Atlas		TYPE:Goods.Tools	COST:25	WT:2	SOURCEPAGE:PH	BONUS:SKILL|Knowledge (The Planes)|2|TYPE=Competence
+True Divine Focus		TYPE:Goods.Tools.DivineFocus	COST:1000	WT:0	SOURCEPAGE:PH	BONUS:CASTERLEVEL|Druid|1 			
+Holy Symbol (True)		TYPE:Goods.Tools.DivineFocus	COST:500	WT:1	SOURCEPAGE:PHB	BONUS:VAR|TurnCheckUndead|2|TYPE=Sacred			
+Unholy Symbol (True)		TYPE:Goods.Tools.DivineFocus	COST:500	WT:1	SOURCEPAGE:PHB	BONUS:VAR|TurnCheckUndead|2|TYPE=Profane			
+
+###Block: Creatures									
+Elsewhale	TYPE:Goods.Creature.Container	COST:8000	WT:2200	SOURCEPAGE:PH	CONTAINS:UNLIM|Creature=16			
+Gaspar	TYPE:Goods.Creature.Container	COST:22500	WT:10000	SOURCEPAGE:PH	
+Nightmare (Lesser)	TYPE:Goods.Creature.Container	COST:22500	WT:10000	SOURCEPAGE:PH	CONTAINS:*600|Any			
+Ur'Epona	TYPE:Goods.Creature.Container	COST:32000	WT:2200	SOURCEPAGE:PH	CONTAINS:*600|Any			
+
+###Block: Veichles									
+Astral Skiff		TYPE:Goods.Transportation.Container	COST:10000		SOURCEPAGE:PH	CONTAINS:2200|Any	SPROP:Huge vehicle; Profession (sailor) +0; Spd fly 120 ft. (average); Overall AC 3; Section hp 40 (hardness 10); Section AC 3; Ram 4d8; Face 15 ft. by 5 ft.; Height 10 ft.; SA ramming; Crew 1 (carries 3); Cargo 1 ton (Spd 100 ft. if carrying 1/2 ton or more).		
+Ethereal Tunneler		TYPE:Goods.Transportation.Container	COST:140000		SOURCEPAGE:PH	CONTAINS:00|Any	SPROP:Huge vehicle; Profession (miner) +4; Spd burrow 10 ft. (clumsy); Overall AC 3; Section hp 40/120 (hardness 20/5); Section AC 3; Ram 10d6; Face 10 ft. by 20 ft.; Height 10 ft.; SA ramming; SQ steering mechanism triggers ethereal jaunt on vehicle and all passengers 1/day for up to 20 rounds; Crew 5 (plus 10 soldiers).		
+Gate Zeppelin		TYPE:Goods.Transportation.Container	COST:160000		SOURCEPAGE:PH	CONTAINS:22000|Any	SPROP:Colossal vehicle; Profession (pilot) -4; Spd fly 40 ft. (nautical average); Overall AC -3; Section hp 30 (hardness 5); Section AC 3; Rigging 200 hp (hardness 0), AC 1; Ram 4d6; Face 40 ft. by 10 ft.; Height 10 ft; SA ramming; SQ steering mechanism triggers gate 1/day through which zeppelin may pass (after which the gate closes); Crew 10; Cargo 10 tons (Spd 20 ft. if carrying 5 tons or more).		
+Planar Sailer		TYPE:Goods.Transportation.Container	COST:25000		SOURCEPAGE:PH	CONTAINS:331000|Any	SPROP:Colossal vehicle; Profession (sailor) +4; Spd wind x 20 ft. (nautical average); Overall AC -3; Section hp 50 (hardness 5); Section AC 3; Rigging 80 hp (hardness 0), AC 1; Ram 12d6; Face 80 ft. by 20 ft.; Height 10 ft. (draft 10 ft.); SA ram; SQ steering mechanism triggers special plane shift effect on vehicle and contents; Crew 20; Cargo 150 tons (Spd wind x 15 ft. if 75 tons or more).		
+
+###Block: Alchemical									
+Anarchic Water (Flask)		TYPE:Goods.Alchemical.Consumable.Flask.Liquid	COST:50	WT:1	SOURCEPAGE:PH				
+Antitrait Grease (Vial)		TYPE:Goods.Alchemical.Consumable.Vial.Liquid	COST:50	WT:0	SOURCEPAGE:PH				
+Atramen Oil (Flask)		TYPE:Goods.Alchemical.Consumable.Flask.Liquid	COST:50	WT:1	SOURCEPAGE:PH				
+Axiomatic Water (Flask)		TYPE:Goods.Alchemical.Consumable.Flask.Liquid	COST:50	WT:1	SOURCEPAGE:PH				
+Bahamut's Breath (Flask)		TYPE:Goods.Alchemical.Consumable.Flask.Liquid	COST:120	WT:1	SOURCEPAGE:PH				
+Celestial Cloak		TYPE:Goods.Cape	COST:1000	WT:1	SOURCEPAGE:PH				
+Chaos (Flask)		TYPE:Goods.Alchemical.Consumable.Flask.Liquid	COST:100	WT:0.5	SOURCEPAGE:PH				
+Elemental Loadstone		TYPE:Goods	COST:200	WT:50	SOURCEPAGE:PH				
+Lliquid Embers (Flask)		TYPE:Goods.Alchemical.Consumable.Flask.Liquid	COST:600	WT:1	SOURCEPAGE:PH				
+Mechanus Eye		TYPE:Goods	COST:100	WT:0	SOURCEPAGE:PH
+Ocanthus Knife		TYPE:Goods	COST:450	WT:1	SOURCEPAGE:PH
+Pure Element (Flask)		TYPE:Goods.Alchemical.Consumable.Flask.Liquid	COST:1000	WT:1	SOURCEPAGE:PH
+Red Tidewater (Flask)		TYPE:Goods.Alchemical.Consumable.Flask.Liquid	COST:1000	WT:1	SOURCEPAGE:PH

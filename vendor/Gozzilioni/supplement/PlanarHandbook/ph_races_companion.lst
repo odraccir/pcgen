@@ -1,0 +1,778 @@
+SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																														
+																																	
+# Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	TYPE:	RACETYPE:	RACESUBTYPE:	MONSTERCLASS:	MOVE:	Combat bonus	NATURALATTACKS:	NATURALATTACKS:	Weapon prof. bonus	Weapon prof. bonus	FACE:	REACH:	Special Ability	Damage Reduction	Spell Res.	Stat bonus						MONCSKILL:	CR:	Required AL	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	Nb Legs	Nb Hands	SOURCEPAGE:
+Animal (Bat).COPY=Animal (Bat)	KEY:Companion ~ Animal (Bat/Anarchic)																																
+Companion ~ Animal (Bat/Anarchic).MOD	OUTPUTNAME:Animal (Bat/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Bat)	TEMPLATE:Anarchic																													
+Animal (Bat).COPY=Animal (Bat)	KEY:Companion ~ Animal (Bat/Axiomatic)																																
+Companion ~ Animal (Bat/Axiomatic).MOD	OUTPUTNAME:Animal (Bat/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Bat)	TEMPLATE:Axiomatic																													
+Animal (Cat).COPY=Animal (Cat)	KEY:Companion ~ Animal (Cat/Anarchic)																																
+Companion ~ Animal (Cat/Anarchic).MOD	OUTPUTNAME:Animal (Cat/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Cat)	TEMPLATE:Anarchic																													
+Animal (Cat).COPY=Animal (Cat)	KEY:Companion ~ Animal (Cat/Axiomatic)																																
+Companion ~ Animal (Cat/Axiomatic).MOD	OUTPUTNAME:Animal (Cat/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Cat)	TEMPLATE:Axiomatic																													
+Animal (Hawk).COPY=Animal (Hawk)	KEY:Companion ~ Animal (Hawk/Anarchic)																																
+Companion ~ Animal (Hawk/Anarchic).MOD	OUTPUTNAME:Animal (Hawk/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Hawk)	TEMPLATE:Anarchic																													
+Animal (Hawk).COPY=Animal (Hawk)	KEY:Companion ~ Animal (Hawk/Axiomatic)																																
+Companion ~ Animal (Hawk/Axiomatic).MOD	OUTPUTNAME:Animal (Hawk/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Hawk)	TEMPLATE:Axiomatic																													
+Animal (Lizard).COPY=Animal (Lizard)	KEY:Companion ~ Animal (Lizard/Anarchic)																																
+Companion ~ Animal (Lizard/Anarchic).MOD	OUTPUTNAME:Animal (Lizard/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Lizard)	TEMPLATE:Anarchic																													
+Animal (Lizard).COPY=Animal (Lizard)	KEY:Companion ~ Animal (Lizard/Axiomatic)																																
+Companion ~ Animal (Lizard/Axiomatic).MOD	OUTPUTNAME:Animal (Lizard/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Lizard)	TEMPLATE:Axiomatic																													
+Animal (Owl).COPY=Animal (Owl)	KEY:Companion ~ Animal (Owl/Anarchic)																																
+Companion ~ Animal (Owl/Anarchic).MOD	OUTPUTNAME:Animal (Owl/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Owl)	TEMPLATE:Anarchic																													
+Animal (Owl).COPY=Animal (Owl)	KEY:Companion ~ Animal (Owl/Axiomatic)																																
+Companion ~ Animal (Owl/Axiomatic).MOD	OUTPUTNAME:Animal (Owl/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Owl)	TEMPLATE:Axiomatic																													
+Animal (Rat).COPY=Animal (Rat)	KEY:Companion ~ Animal (Rat/Anarchic)																																
+Companion ~ Animal (Rat/Anarchic).MOD	OUTPUTNAME:Animal (Rat/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Rat)	TEMPLATE:Anarchic																													
+Animal (Rat).COPY=Animal (Rat)	KEY:Companion ~ Animal (Rat/Axiomatic)																																
+Companion ~ Animal (Rat/Axiomatic).MOD	OUTPUTNAME:Animal (Rat/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Rat)	TEMPLATE:Axiomatic																													
+Animal (Raven).COPY=Animal (Raven)	KEY:Companion ~ Animal (Raven/Anarchic)																																
+Companion ~ Animal (Raven/Anarchic).MOD	OUTPUTNAME:Animal (Raven/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Raven)	TEMPLATE:Anarchic																													
+Animal (Raven).COPY=Animal (Raven)	KEY:Companion ~ Animal (Raven/Axiomatic)																																
+Companion ~ Animal (Raven/Axiomatic).MOD	OUTPUTNAME:Animal (Raven/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Raven)	TEMPLATE:Axiomatic																													
+Animal (Toad).COPY=Animal (Toad)	KEY:Companion ~ Animal (Toad/Anarchic)																																
+Companion ~ Animal (Toad/Anarchic).MOD	OUTPUTNAME:Animal (Toad/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Toad)	TEMPLATE:Anarchic																													
+Animal (Toad).COPY=Animal (Toad)	KEY:Companion ~ Animal (Toad/Axiomatic)																																
+Companion ~ Animal (Toad/Axiomatic).MOD	OUTPUTNAME:Animal (Toad/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Toad)	TEMPLATE:Axiomatic																													
+Animal (Weasel).COPY=Animal (Weasel)	KEY:Companion ~ Animal (Weasel/Anarchic)																																
+Companion ~ Animal (Weasel/Anarchic).MOD	OUTPUTNAME:Animal (Weasel/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Weasel)	TEMPLATE:Anarchic																													
+Animal (Weasel).COPY=Animal (Weasel)	KEY:Companion ~ Animal (Weasel/Axiomatic)																																
+Companion ~ Animal (Weasel/Axiomatic).MOD	OUTPUTNAME:Animal (Weasel/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Weasel)	TEMPLATE:Axiomatic																													
+
+Animal (Bat).COPY=Animal (Bat)	KEY:Companion ~ Animal (Bat/Celestial)																																
+Companion ~ Animal (Bat/Celestial).MOD	OUTPUTNAME:Animal (Bat/Celestial)	TYPE:Companion	SERVESAS:RACE|Animal (Bat)	TEMPLATE:Celestial																													
+Animal (Bat).COPY=Animal (Bat)	KEY:Companion ~ Animal (Bat/Fiendish)
+Companion ~ Animal (Bat/Fiendish).MOD	OUTPUTNAME:Animal (Bat/Fiendish)	TYPE:Companion	SERVESAS:RACE|Animal (Bat)	TEMPLATE:Fiendish
+Animal (Cat).COPY=Animal (Cat)	KEY:Companion ~ Animal (Cat/Celestial)																																
+Companion ~ Animal (Cat/Celestial).MOD	OUTPUTNAME:Animal (Cat/Celestial)	TYPE:Companion	SERVESAS:RACE|Animal (Cat)	TEMPLATE:Celestial																													
+Animal (Cat).COPY=Animal (Cat)	KEY:Companion ~ Animal (Cat/Fiendish)																																
+Companion ~ Animal (Cat/Fiendish).MOD	OUTPUTNAME:Animal (Cat/Fiendish)	TYPE:Companion	SERVESAS:RACE|Animal (Cat)	TEMPLATE:Fiendish																													
+Animal (Hawk).COPY=Animal (Hawk)	KEY:Companion ~ Animal (Hawk/Celestial)																																
+Companion ~ Animal (Hawk/Celestial).MOD	OUTPUTNAME:Animal (Hawk/Celestial)	TYPE:Companion	SERVESAS:RACE|Animal (Hawk)	TEMPLATE:Celestial																													
+Animal (Hawk).COPY=Animal (Hawk)	KEY:Companion ~ Animal (Hawk/Fiendish)																																
+Companion ~ Animal (Hawk/Fiendish).MOD	OUTPUTNAME:Animal (Hawk/Fiendish)	TYPE:Companion	SERVESAS:RACE|Animal (Hawk)	TEMPLATE:Fiendish																													
+Animal (Lizard).COPY=Animal (Lizard)	KEY:Companion ~ Animal (Lizard/Celestial)																																
+Companion ~ Animal (Lizard/Celestial).MOD	OUTPUTNAME:Animal (Lizard/Celestial)	TYPE:Companion	SERVESAS:RACE|Animal (Lizard)	TEMPLATE:Celestial																													
+Animal (Lizard).COPY=Animal (Lizard)	KEY:Companion ~ Animal (Lizard/Fiendish)																																
+Companion ~ Animal (Lizard/Fiendish).MOD	OUTPUTNAME:Animal (Lizard/Fiendish)	TYPE:Companion	SERVESAS:RACE|Animal (Lizard)	TEMPLATE:Fiendish																													
+Animal (Owl).COPY=Animal (Owl)	KEY:Companion ~ Animal (Owl/Celestial)																																
+Companion ~ Animal (Owl/Celestial).MOD	OUTPUTNAME:Animal (Owl/Celestial)	TYPE:Companion	SERVESAS:RACE|Animal (Owl)	TEMPLATE:Celestial																													
+Animal (Owl).COPY=Animal (Owl)	KEY:Companion ~ Animal (Owl/Fiendish)																																
+Companion ~ Animal (Owl/Fiendish).MOD	OUTPUTNAME:Animal (Owl/Fiendish)	TYPE:Companion	SERVESAS:RACE|Animal (Owl)	TEMPLATE:Fiendish																													
+Animal (Rat).COPY=Animal (Rat)	KEY:Companion ~ Animal (Rat/Celestial)																																
+Companion ~ Animal (Rat/Celestial).MOD	OUTPUTNAME:Animal (Rat/Celestial)	TYPE:Companion	SERVESAS:RACE|Animal (Rat)	TEMPLATE:Celestial																													
+Animal (Rat).COPY=Animal (Rat)	KEY:Companion ~ Animal (Rat/Fiendish)																																
+Companion ~ Animal (Rat/Fiendish).MOD	OUTPUTNAME:Animal (Rat/Fiendish)	TYPE:Companion	SERVESAS:RACE|Animal (Rat)	TEMPLATE:Fiendish																													
+Animal (Raven).COPY=Animal (Raven)	KEY:Companion ~ Animal (Raven/Celestial)																																
+Companion ~ Animal (Raven/Celestial).MOD	OUTPUTNAME:Animal (Raven/Celestial)	TYPE:Companion	SERVESAS:RACE|Animal (Raven)	TEMPLATE:Celestial																													
+Animal (Raven).COPY=Animal (Raven)	KEY:Companion ~ Animal (Raven/Fiendish)																																
+Companion ~ Animal (Raven/Fiendish).MOD	OUTPUTNAME:Animal (Raven/Fiendish)	TYPE:Companion	SERVESAS:RACE|Animal (Raven)	TEMPLATE:Fiendish																													
+Animal (Snake (Viper/Tiny)).COPY=Animal (Snake (Viper/Tiny))	KEY:Companion ~ Animal (Snake (Viper/Tiny/Celestial))																																
+Companion ~ Animal (Snake (Viper/Tiny/Celestial)).MOD	OUTPUTNAME:Animal (Viper/Tiny/Celestial)	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper/Tiny))	TEMPLATE:Celestial																													
+Animal (Snake (Viper/Tiny)).COPY=Animal (Snake (Viper/Tiny))	KEY:Companion ~ Animal (Snake (Viper/Tiny/Fiendish))																																
+Companion ~ Animal (Snake (Viper/Tiny/Fiendish)).MOD	OUTPUTNAME:Animal (Viper/Tiny/Fiendish)	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper/Tiny))	TEMPLATE:Fiendish																													
+Animal (Toad).COPY=Animal (Toad)	KEY:Companion ~ Animal (Toad/Celestial)																																
+Companion ~ Animal (Toad/Celestial).MOD	OUTPUTNAME:Animal (Toad/Celestial)	TYPE:Companion	SERVESAS:RACE|Animal (Toad)	TEMPLATE:Celestial																													
+Animal (Toad).COPY=Animal (Toad)	KEY:Companion ~ Animal (Toad/Fiendish)																																
+Companion ~ Animal (Toad/Fiendish).MOD	OUTPUTNAME:Animal (Toad/Fiendish)	TYPE:Companion	SERVESAS:RACE|Animal (Toad)	TEMPLATE:Fiendish																													
+Animal (Weasel).COPY=Animal (Weasel)	KEY:Companion ~ Animal (Weasel/Celestial)																																
+Companion ~ Animal (Weasel/Celestial).MOD	OUTPUTNAME:Animal (Weasel/Celestial)	TYPE:Companion	SERVESAS:RACE|Animal (Weasel)	TEMPLATE:Celestial																													
+Animal (Weasel).COPY=Animal (Weasel)	KEY:Companion ~ Animal (Weasel/Fiendish)																																
+Companion ~ Animal (Weasel/Fiendish).MOD	OUTPUTNAME:Animal (Weasel/Fiendish)	TYPE:Companion	SERVESAS:RACE|Animal (Weasel)	TEMPLATE:Fiendish																													
+
+#BLOCK:Summon Monster I
+Animal (Dog).COPY=Animal (Dog)	KEY:Companion ~ Animal (Dog/Anarchic)
+Companion ~ Animal (Dog/Anarchic).MOD	OUTPUTNAME:Animal (Dog/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Dog)	TEMPLATE:Anarchic
+Animal (Dog).COPY=Animal (Dog)	KEY:Companion ~ Animal (Dog/Axiomatic)
+Companion ~ Animal (Dog/Axiomatic).MOD	OUTPUTNAME:Animal (Dog/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Dog)	TEMPLATE:Axiomatic
+Animal (Dog).COPY=Animal (Dog)	KEY:Companion ~ Animal (Dog/Entropic)
+Companion ~ Animal (Dog/Entropic).MOD	OUTPUTNAME:Animal (Dog/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Dog)	TEMPLATE:Entropic
+Animal (Dog).COPY=Animal (Dog)	KEY:Companion ~ Animal (Dog/Vivacious)
+Companion ~ Animal (Dog/Vivacious).MOD	OUTPUTNAME:Animal (Dog/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Dog)	TEMPLATE:Vivacious
+Animal (Owl).COPY=Animal (Owl)	KEY:Companion ~ Animal (Owl/Anarchic)
+Companion ~ Animal (Owl/Anarchic).MOD	OUTPUTNAME:Animal (Owl/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Owl)	TEMPLATE:Anarchic
+Animal (Owl).COPY=Animal (Owl)	KEY:Companion ~ Animal (Owl/Axiomatic)
+Companion ~ Animal (Owl/Axiomatic).MOD	OUTPUTNAME:Animal (Owl/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Owl)	TEMPLATE:Axiomatic
+Animal (Owl).COPY=Animal (Owl)	KEY:Companion ~ Animal (Owl/Entropic)
+Companion ~ Animal (Owl/Entropic).MOD	OUTPUTNAME:Animal (Owl/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Owl)	TEMPLATE:Entropic
+Animal (Owl).COPY=Animal (Owl)	KEY:Companion ~ Animal (Owl/Vivacious)
+Companion ~ Animal (Owl/Vivacious).MOD	OUTPUTNAME:Animal (Owl/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Owl)	TEMPLATE:Vivacious
+Giant Fire Beetle.COPY=Giant Fire Beetle	KEY:Companion ~ Giant Fire Beetle (Anarchic)
+Companion ~ Giant Fire Beetle (Anarchic).MOD	OUTPUTNAME:Giant Fire Beetle (Anarchic)	TYPE:Companion	SERVESAS:RACE|Giant Fire Beetle	TEMPLATE:Anarchic
+Giant Fire Beetle.COPY=Giant Fire Beetle	KEY:Companion ~ Giant Fire Beetle (Axiomatic)
+Companion ~ Giant Fire Beetle (Axiomatic).MOD	OUTPUTNAME:Giant Fire Beetle (Axiomatic)	TYPE:Companion	SERVESAS:RACE|Giant Fire Beetle	TEMPLATE:Axiomatic
+Giant Fire Beetle.COPY=Giant Fire Beetle	KEY:Companion ~ Giant Fire Beetle (Entropic)
+Companion ~ Giant Fire Beetle (Entropic).MOD	OUTPUTNAME:Giant Fire Beetle (Entropic)	TYPE:Companion	SERVESAS:RACE|Giant Fire Beetle	TEMPLATE:Entropic
+Giant Fire Beetle.COPY=Giant Fire Beetle	KEY:Companion ~ Giant Fire Beetle (Vivacious)
+Companion ~ Giant Fire Beetle (Vivacious).MOD	OUTPUTNAME:Giant Fire Beetle (Vivacious)	TYPE:Companion	SERVESAS:RACE|Giant Fire Beetle	TEMPLATE:Vivacious
+Animal (Porpoise).COPY=Animal (Porpoise)	KEY:Companion ~ Animal (Porpoise/Anarchic)
+Companion ~ Animal (Porpoise/Anarchic).MOD	OUTPUTNAME:Animal (Porpoise/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Porpoise)	TEMPLATE:Anarchic
+Animal (Porpoise).COPY=Animal (Porpoise)	KEY:Companion ~ Animal (Porpoise/Axiomatic)
+Companion ~ Animal (Porpoise/Axiomatic).MOD	OUTPUTNAME:Animal (Porpoise/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Porpoise)	TEMPLATE:Axiomatic
+Animal (Porpoise).COPY=Animal (Porpoise)	KEY:Companion ~ Animal (Porpoise/Entropic)
+Companion ~ Animal (Porpoise/Entropic).MOD	OUTPUTNAME:Animal (Porpoise/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Porpoise)	TEMPLATE:Entropic
+Animal (Porpoise).COPY=Animal (Porpoise)	KEY:Companion ~ Animal (Porpoise/Vivacious)
+Companion ~ Animal (Porpoise/Vivacious).MOD	OUTPUTNAME:Animal (Porpoise/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Porpoise)	TEMPLATE:Vivacious
+Animal (Badger).COPY=Animal (Badger)	KEY:Companion ~ Animal (Badger/Anarchic)
+Companion ~ Animal (Badger/Anarchic).MOD	OUTPUTNAME:Animal (Badger/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Badger)	TEMPLATE:Anarchic
+Animal (Badger).COPY=Animal (Badger)	KEY:Companion ~ Animal (Badger/Axiomatic)
+Companion ~ Animal (Badger/Axiomatic).MOD	OUTPUTNAME:Animal (Badger/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Badger)	TEMPLATE:Axiomatic
+Animal (Badger).COPY=Animal (Badger)	KEY:Companion ~ Animal (Badger/Entropic)
+Companion ~ Animal (Badger/Entropic).MOD	OUTPUTNAME:Animal (Badger/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Badger)	TEMPLATE:Entropic
+Animal (Badger).COPY=Animal (Badger)	KEY:Companion ~ Animal (Badger/Vivacious)
+Companion ~ Animal (Badger/Vivacious).MOD	OUTPUTNAME:Animal (Badger/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Badger)	TEMPLATE:Vivacious
+Animal (Monkey).COPY=Animal (Monkey)	KEY:Companion ~ Animal (Monkey/Anarchic)
+Companion ~ Animal (Monkey/Anarchic).MOD	OUTPUTNAME:Animal (Monkey/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Monkey)	TEMPLATE:Anarchic
+Animal (Monkey).COPY=Animal (Monkey)	KEY:Companion ~ Animal (Monkey/Axiomatic)
+Companion ~ Animal (Monkey/Axiomatic).MOD	OUTPUTNAME:Animal (Monkey/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Monkey)	TEMPLATE:Axiomatic
+Animal (Monkey).COPY=Animal (Monkey)	KEY:Companion ~ Animal (Monkey/Entropic)
+Companion ~ Animal (Monkey/Entropic).MOD	OUTPUTNAME:Animal (Monkey/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Monkey)	TEMPLATE:Entropic
+Animal (Monkey).COPY=Animal (Monkey)	KEY:Companion ~ Animal (Monkey/Vivacious)
+Companion ~ Animal (Monkey/Vivacious).MOD	OUTPUTNAME:Animal (Monkey/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Monkey)	TEMPLATE:Vivacious
+Dire Animal (Dire Rat).COPY=Dire Animal (Dire Rat)	KEY:Companion ~ Dire Animal (Dire Rat/Anarchic)
+Companion ~ Dire Animal (Dire Rat/Anarchic).MOD	OUTPUTNAME:Dire Animal (Dire Rat/Anarchic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Rat)	TEMPLATE:Anarchic
+Dire Animal (Dire Rat).COPY=Dire Animal (Dire Rat)	KEY:Companion ~ Dire Animal (Dire Rat/Axiomatic)
+Companion ~ Dire Animal (Dire Rat/Axiomatic).MOD	OUTPUTNAME:Dire Animal (Dire Rat/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Rat)	TEMPLATE:Axiomatic
+Dire Animal (Dire Rat).COPY=Dire Animal (Dire Rat)	KEY:Companion ~ Dire Animal (Dire Rat/Entropic)
+Companion ~ Dire Animal (Dire Rat/Entropic).MOD	OUTPUTNAME:Dire Animal (Dire Rat/Entropic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Rat)	TEMPLATE:Entropic
+Dire Animal (Dire Rat).COPY=Dire Animal (Dire Rat)	KEY:Companion ~ Dire Animal (Dire Rat/Vivacious)
+Companion ~ Dire Animal (Dire Rat/Vivacious).MOD	OUTPUTNAME:Dire Animal (Dire Rat/Vivacious)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Rat)	TEMPLATE:Vivacious
+Animal (Raven).COPY=Animal (Raven)	KEY:Companion ~ Animal (Raven/Anarchic)
+Companion ~ Animal (Raven/Anarchic).MOD	OUTPUTNAME:Animal (Raven/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Raven)	TEMPLATE:Anarchic
+Animal (Raven).COPY=Animal (Raven)	KEY:Companion ~ Animal (Raven/Axiomatic)
+Companion ~ Animal (Raven/Axiomatic).MOD	OUTPUTNAME:Animal (Raven/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Raven)	TEMPLATE:Axiomatic
+Animal (Raven).COPY=Animal (Raven)	KEY:Companion ~ Animal (Raven/Entropic)
+Companion ~ Animal (Raven/Entropic).MOD	OUTPUTNAME:Animal (Raven/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Raven)	TEMPLATE:Entropic
+Animal (Raven).COPY=Animal (Raven)	KEY:Companion ~ Animal (Raven/Vivacious)
+Companion ~ Animal (Raven/Vivacious).MOD	OUTPUTNAME:Animal (Raven/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Raven)	TEMPLATE:Vivacious
+Monstrous Centipede (Medium).COPY=Monstrous Centipede (Medium)	KEY:Companion ~ Monstrous Centipede (Medium/Anarchic)
+Companion ~ Monstrous Centipede (Medium/Anarchic).MOD	OUTPUTNAME:Monstrous Centipede (Medium/Anarchic)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Medium)	TEMPLATE:Anarchic
+Monstrous Centipede (Medium).COPY=Monstrous Centipede (Medium)	KEY:Companion ~ Monstrous Centipede (Medium/Axiomatic)
+Companion ~ Monstrous Centipede (Medium/Axiomatic).MOD	OUTPUTNAME:Monstrous Centipede (Medium/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Medium)	TEMPLATE:Axiomatic
+Monstrous Centipede (Medium).COPY=Monstrous Centipede (Medium)	KEY:Companion ~ Monstrous Centipede (Medium/Entropic)
+Companion ~ Monstrous Centipede (Medium/Entropic).MOD	OUTPUTNAME:Monstrous Centipede (Medium/Entropic)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Medium)	TEMPLATE:Entropic
+Monstrous Centipede (Medium).COPY=Monstrous Centipede (Medium)	KEY:Companion ~ Monstrous Centipede (Medium/Vivacious)
+Companion ~ Monstrous Centipede (Medium/Vivacious).MOD	OUTPUTNAME:Monstrous Centipede (Medium/Vivacious)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Medium)	TEMPLATE:Vivacious
+Monstrous Scorpion (Small).COPY=Monstrous Scorpion (Small)	KEY:Companion ~ Monstrous Scorpion (Small/Anarchic)
+Companion ~ Monstrous Scorpion (Small/Anarchic).MOD	OUTPUTNAME:Monstrous Scorpion (Small/Anarchic)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Small)	TEMPLATE:Anarchic
+Monstrous Scorpion (Small).COPY=Monstrous Scorpion (Small)	KEY:Companion ~ Monstrous Scorpion (Small/Axiomatic)
+Companion ~ Monstrous Scorpion (Small/Axiomatic).MOD	OUTPUTNAME:Monstrous Scorpion (Small/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Small)	TEMPLATE:Axiomatic
+Monstrous Scorpion (Small).COPY=Monstrous Scorpion (Small)	KEY:Companion ~ Monstrous Scorpion (Small/Entropic)
+Companion ~ Monstrous Scorpion (Small/Entropic).MOD	OUTPUTNAME:Monstrous Scorpion (Small/Entropic)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Small)	TEMPLATE:Entropic
+Monstrous Scorpion (Small).COPY=Monstrous Scorpion (Small)	KEY:Companion ~ Monstrous Scorpion (Small/Vivacious)
+Companion ~ Monstrous Scorpion (Small/Vivacious).MOD	OUTPUTNAME:Monstrous Scorpion (Small/Vivacious)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Small)	TEMPLATE:Vivacious
+Animal (Hawk).COPY=Animal (Hawk)	KEY:Companion ~ Animal (Hawk/Anarchic)
+Companion ~ Animal (Hawk/Anarchic).MOD	OUTPUTNAME:Animal (Hawk/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Hawk)	TEMPLATE:Anarchic
+Animal (Hawk).COPY=Animal (Hawk)	KEY:Companion ~ Animal (Hawk/Axiomatic)
+Companion ~ Animal (Hawk/Axiomatic).MOD	OUTPUTNAME:Animal (Hawk/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Hawk)	TEMPLATE:Axiomatic
+Animal (Hawk).COPY=Animal (Hawk)	KEY:Companion ~ Animal (Hawk/Entropic)
+Companion ~ Animal (Hawk/Entropic).MOD	OUTPUTNAME:Animal (Hawk/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Hawk)	TEMPLATE:Entropic
+Animal (Hawk).COPY=Animal (Hawk)	KEY:Companion ~ Animal (Hawk/Vivacious)
+Companion ~ Animal (Hawk/Vivacious).MOD	OUTPUTNAME:Animal (Hawk/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Hawk)	TEMPLATE:Vivacious
+Monstrous Spider (Small).COPY=Monstrous Spider (Small)	KEY:Companion ~ Monstrous Spider (Small/Anarchic)
+Companion ~ Monstrous Spider (Small/Anarchic).MOD	OUTPUTNAME:Monstrous Spider (Small/Anarchic)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Small)	TEMPLATE:Anarchic
+Monstrous Spider (Small).COPY=Monstrous Spider (Small)	KEY:Companion ~ Monstrous Spider (Small/Axiomatic)
+Companion ~ Monstrous Spider (Small/Axiomatic).MOD	OUTPUTNAME:Monstrous Spider (Small/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Small)	TEMPLATE:Axiomatic
+Monstrous Spider (Small).COPY=Monstrous Spider (Small)	KEY:Companion ~ Monstrous Spider (Small/Entropic)
+Companion ~ Monstrous Spider (Small/Entropic).MOD	OUTPUTNAME:Monstrous Spider (Small/Entropic)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Small)	TEMPLATE:Entropic
+Monstrous Spider (Small).COPY=Monstrous Spider (Small)	KEY:Companion ~ Monstrous Spider (Small/Vivacious)
+Companion ~ Monstrous Spider (Small/Vivacious).MOD	OUTPUTNAME:Monstrous Spider (Small/Vivacious)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Small)	TEMPLATE:Vivacious
+Animal (Octopus).COPY=Animal (Octopus)	KEY:Companion ~ Animal (Octopus/Anarchic)
+Companion ~ Animal (Octopus/Anarchic).MOD	OUTPUTNAME:Animal (Octopus/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Octopus)	TEMPLATE:Anarchic
+Animal (Octopus).COPY=Animal (Octopus)	KEY:Companion ~ Animal (Octopus/Axiomatic)
+Companion ~ Animal (Octopus/Axiomatic).MOD	OUTPUTNAME:Animal (Octopus/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Octopus)	TEMPLATE:Axiomatic
+Animal (Octopus).COPY=Animal (Octopus)	KEY:Companion ~ Animal (Octopus/Entropic)
+Companion ~ Animal (Octopus/Entropic).MOD	OUTPUTNAME:Animal (Octopus/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Octopus)	TEMPLATE:Entropic
+Animal (Octopus).COPY=Animal (Octopus)	KEY:Companion ~ Animal (Octopus/Vivacious)
+Companion ~ Animal (Octopus/Vivacious).MOD	OUTPUTNAME:Animal (Octopus/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Octopus)	TEMPLATE:Vivacious
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Tiny/Anarchic))
+Companion ~ Animal (Snake (Viper/Tiny/Anarchic)).MOD	OUTPUTNAME:Animal (Snake (Viper/Tiny/Anarchic))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	TEMPLATE:Anarchic
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Tiny/Axiomatic))
+Companion ~ Animal (Snake (Viper/Tiny/Axiomatic)).MOD	OUTPUTNAME:Animal (Snake (Viper/Tiny/Axiomatic))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	TEMPLATE:Axiomatic
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Tiny/Entropic))
+Companion ~ Animal (Snake (Viper/Tiny/Entropic)).MOD	OUTPUTNAME:Animal (Snake (Viper/Tiny/Entropic))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	TEMPLATE:Entropic
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Tiny/Vivacious))
+Companion ~ Animal (Snake (Viper/Tiny/Vivacious)).MOD	OUTPUTNAME:Animal (Snake (Viper/Tiny/Vivacious))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	TEMPLATE:Vivacious
+
+#BLOCK:Summon Monster II
+Giant Bee.COPY=Giant Bee	KEY:Companion ~ Giant Bee (Anarchic)
+Companion ~ Giant Bee (Anarchic).MOD	OUTPUTNAME:Giant Bee (Anarchic)	TYPE:Companion	SERVESAS:RACE|Giant Bee	TEMPLATE:Anarchic
+Giant Bee.COPY=Giant Bee	KEY:Companion ~ Giant Bee (Axiomatic)
+Companion ~ Giant Bee (Axiomatic).MOD	OUTPUTNAME:Giant Bee (Axiomatic)	TYPE:Companion	SERVESAS:RACE|Giant Bee	TEMPLATE:Axiomatic
+Giant Bee.COPY=Giant Bee	KEY:Companion ~ Giant Bee (Entropic)
+Companion ~ Giant Bee (Entropic).MOD	OUTPUTNAME:Giant Bee (Entropic)	TYPE:Companion	SERVESAS:RACE|Giant Bee	TEMPLATE:Entropic
+Giant Bee.COPY=Giant Bee	KEY:Companion ~ Giant Bee (Vivacious)
+Companion ~ Giant Bee (Vivacious).MOD	OUTPUTNAME:Giant Bee (Vivacious)	TYPE:Companion	SERVESAS:RACE|Giant Bee	TEMPLATE:Vivacious
+Giant Bombardier Beetle.COPY=Giant Bombardier Beetle	KEY:Companion ~ Giant Bombardier Beetle (Anarchic)
+Companion ~ Giant Bombardier Beetle (Anarchic).MOD	OUTPUTNAME:Giant Bombardier Beetle (Anarchic)	TYPE:Companion	SERVESAS:RACE|Giant Bombardier Beetle	TEMPLATE:Anarchic
+Giant Bombardier Beetle.COPY=Giant Bombardier Beetle	KEY:Companion ~ Giant Bombardier Beetle (Axiomatic)
+Companion ~ Giant Bombardier Beetle (Axiomatic).MOD	OUTPUTNAME:Giant Bombardier Beetle (Axiomatic)	TYPE:Companion	SERVESAS:RACE|Giant Bombardier Beetle	TEMPLATE:Axiomatic
+Giant Bombardier Beetle.COPY=Giant Bombardier Beetle	KEY:Companion ~ Giant Bombardier Beetle (Entropic)
+Companion ~ Giant Bombardier Beetle (Entropic).MOD	OUTPUTNAME:Giant Bombardier Beetle (Entropic)	TYPE:Companion	SERVESAS:RACE|Giant Bombardier Beetle	TEMPLATE:Entropic
+Giant Bombardier Beetle.COPY=Giant Bombardier Beetle	KEY:Companion ~ Giant Bombardier Beetle (Vivacious)
+Companion ~ Giant Bombardier Beetle (Vivacious).MOD	OUTPUTNAME:Giant Bombardier Beetle (Vivacious)	TYPE:Companion	SERVESAS:RACE|Giant Bombardier Beetle	TEMPLATE:Vivacious
+Animal (Dog (Riding)).COPY=Animal (Dog (Riding))	KEY:Companion ~ Animal (Dog (Riding/Anarchic))
+Companion ~ Animal (Dog (Riding/Anarchic)).MOD	OUTPUTNAME:Animal (Dog (Riding/Anarchic))	TYPE:Companion	SERVESAS:RACE|Animal (Dog (Riding))	TEMPLATE:Anarchic
+Animal (Dog (Riding)).COPY=Animal (Dog (Riding))	KEY:Companion ~ Animal (Dog (Riding/Axiomatic))
+Companion ~ Animal (Dog (Riding/Axiomatic)).MOD	OUTPUTNAME:Animal (Dog (Riding/Axiomatic))	TYPE:Companion	SERVESAS:RACE|Animal (Dog (Riding))	TEMPLATE:Axiomatic
+Animal (Dog (Riding)).COPY=Animal (Dog (Riding))	KEY:Companion ~ Animal (Dog (Riding/Entropic))
+Companion ~ Animal (Dog (Riding/Entropic)).MOD	OUTPUTNAME:Animal (Dog (Riding/Entropic))	TYPE:Companion	SERVESAS:RACE|Animal (Dog (Riding))	TEMPLATE:Entropic
+Animal (Dog (Riding)).COPY=Animal (Dog (Riding))	KEY:Companion ~ Animal (Dog (Riding/Vivacious))
+Companion ~ Animal (Dog (Riding/Vivacious)).MOD	OUTPUTNAME:Animal (Dog (Riding/Vivacious))	TYPE:Companion	SERVESAS:RACE|Animal (Dog (Riding))	TEMPLATE:Vivacious
+Animal (Eagle).COPY=Animal (Eagle)	KEY:Companion ~ Animal (Eagle/Anarchic)
+Companion ~ Animal (Eagle/Anarchic).MOD	OUTPUTNAME:Animal (Eagle/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Eagle)	TEMPLATE:Anarchic
+Animal (Eagle).COPY=Animal (Eagle)	KEY:Companion ~ Animal (Eagle/Axiomatic)
+Companion ~ Animal (Eagle/Axiomatic).MOD	OUTPUTNAME:Animal (Eagle/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Eagle)	TEMPLATE:Axiomatic
+Animal (Eagle).COPY=Animal (Eagle)	KEY:Companion ~ Animal (Eagle/Entropic)
+Companion ~ Animal (Eagle/Entropic).MOD	OUTPUTNAME:Animal (Eagle/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Eagle)	TEMPLATE:Entropic
+Animal (Eagle).COPY=Animal (Eagle)	KEY:Companion ~ Animal (Eagle/Vivacious)
+Companion ~ Animal (Eagle/Vivacious).MOD	OUTPUTNAME:Animal (Eagle/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Eagle)	TEMPLATE:Vivacious
+Animal (Squid).COPY=Animal (Squid)	KEY:Companion ~ Animal (Squid (Anarchic))
+Companion ~ Animal (Squid (Anarchic)).MOD	OUTPUTNAME:Animal (Squid (Anarchic))	TYPE:Companion	SERVESAS:RACE|Animal (Squid)	TEMPLATE:Anarchic
+Animal (Squid).COPY=Animal (Squid)	KEY:Companion ~ Animal (Squid (Axiomatic))
+Companion ~ Animal (Squid (Axiomatic)).MOD	OUTPUTNAME:Animal (Squid (Axiomatic))	TYPE:Companion	SERVESAS:RACE|Animal (Squid)	TEMPLATE:Axiomatic
+Animal (Squid).COPY=Animal (Squid)	KEY:Companion ~ Animal (Squid (Entropic))
+Companion ~ Animal (Squid (Entropic)).MOD	OUTPUTNAME:Animal (Squid (Entropic))	TYPE:Companion	SERVESAS:RACE|Animal (Squid)	TEMPLATE:Entropic
+Animal (Squid).COPY=Animal (Squid)	KEY:Companion ~ Animal (Squid (Vivacious))
+Companion ~ Animal (Squid (Vivacious)).MOD	OUTPUTNAME:Animal (Squid (Vivacious))	TYPE:Companion	SERVESAS:RACE|Animal (Squid)	TEMPLATE:Vivacious
+Animal (Wolf).COPY=Animal (Wolf)	KEY:Companion ~ Animal (Wolf/Anarchic)
+Companion ~ Animal (Wolf/Anarchic).MOD	OUTPUTNAME:Animal (Wolf/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Wolf)	TEMPLATE:Anarchic
+Animal (Wolf).COPY=Animal (Wolf)	KEY:Companion ~ Animal (Wolf/Axiomatic)
+Companion ~ Animal (Wolf/Axiomatic).MOD	OUTPUTNAME:Animal (Wolf/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Wolf)	TEMPLATE:Axiomatic
+Animal (Wolf).COPY=Animal (Wolf)	KEY:Companion ~ Animal (Wolf/Entropic)
+Companion ~ Animal (Wolf/Entropic).MOD	OUTPUTNAME:Animal (Wolf/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Wolf)	TEMPLATE:Entropic
+Animal (Wolf).COPY=Animal (Wolf)	KEY:Companion ~ Animal (Wolf/Vivacious)
+Companion ~ Animal (Wolf/Vivacious).MOD	OUTPUTNAME:Animal (Wolf/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Wolf)	TEMPLATE:Vivacious
+Monstrous Centipede (Large).COPY=Monstrous Centipede (Large)	KEY:Companion ~ Monstrous Centipede (Large/Anarchic)
+Companion ~ Monstrous Centipede (Large/Anarchic).MOD	OUTPUTNAME:Monstrous Centipede (Large/Anarchic)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Large)	TEMPLATE:Anarchic
+Monstrous Centipede (Large).COPY=Monstrous Centipede (Large)	KEY:Companion ~ Monstrous Centipede (Large/Axiomatic)
+Companion ~ Monstrous Centipede (Large/Axiomatic).MOD	OUTPUTNAME:Monstrous Centipede (Large/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Large)	TEMPLATE:Axiomatic
+Monstrous Centipede (Large).COPY=Monstrous Centipede (Large)	KEY:Companion ~ Monstrous Centipede (Large/Entropic)
+Companion ~ Monstrous Centipede (Large/Entropic).MOD	OUTPUTNAME:Monstrous Centipede (Large/Entropic)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Large)	TEMPLATE:Entropic
+Monstrous Centipede (Large).COPY=Monstrous Centipede (Large)	KEY:Companion ~ Monstrous Centipede (Large/Vivacious)
+Companion ~ Monstrous Centipede (Large/Vivacious).MOD	OUTPUTNAME:Monstrous Centipede (Large/Vivacious)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Large)	TEMPLATE:Vivacious
+Monstrous Scorpion (Medium).COPY=Monstrous Scorpion (Medium)	KEY:Companion ~ Monstrous Scorpion (Medium/Anarchic)
+Companion ~ Monstrous Scorpion (Medium/Anarchic).MOD	OUTPUTNAME:Monstrous Scorpion (Medium/Anarchic)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Medium)	TEMPLATE:Anarchic
+Monstrous Scorpion (Medium).COPY=Monstrous Scorpion (Medium)	KEY:Companion ~ Monstrous Scorpion (Medium/Axiomatic)
+Companion ~ Monstrous Scorpion (Medium/Axiomatic).MOD	OUTPUTNAME:Monstrous Scorpion (Medium/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Medium)	TEMPLATE:Axiomatic
+Monstrous Scorpion (Medium).COPY=Monstrous Scorpion (Medium)	KEY:Companion ~ Monstrous Scorpion (Medium/Entropic)
+Companion ~ Monstrous Scorpion (Medium/Entropic).MOD	OUTPUTNAME:Monstrous Scorpion (Medium/Entropic)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Medium)	TEMPLATE:Entropic
+Monstrous Scorpion (Medium).COPY=Monstrous Scorpion (Medium)	KEY:Companion ~ Monstrous Scorpion (Medium/Vivacious)
+Companion ~ Monstrous Scorpion (Medium/Vivacious).MOD	OUTPUTNAME:Monstrous Scorpion (Medium/Vivacious)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Medium)	TEMPLATE:Vivacious
+Animal (Shark).COPY=Animal (Shark)	KEY:Companion ~ Animal (Shark (Medium/Anarchic))
+Companion ~ Animal (Shark (Medium/Anarchic)).MOD	OUTPUTNAME:Animal (Shark (Medium/Anarchic))	TYPE:Companion	SERVESAS:RACE|Animal (Shark)	TEMPLATE:Anarchic
+Animal (Shark).COPY=Animal (Shark)	KEY:Companion ~ Animal (Shark (Medium/Axiomatic))
+Companion ~ Animal (Shark (Medium/Axiomatic)).MOD	OUTPUTNAME:Animal (Shark (Medium/Axiomatic))	TYPE:Companion	SERVESAS:RACE|Animal (Shark)	TEMPLATE:Axiomatic
+Animal (Shark).COPY=Animal (Shark)	KEY:Companion ~ Animal (Shark (Medium/Entropic))
+Companion ~ Animal (Shark (Medium/Entropic)).MOD	OUTPUTNAME:Animal (Shark (Medium/Entropic))	TYPE:Companion	SERVESAS:RACE|Animal (Shark)	TEMPLATE:Entropic
+Animal (Shark).COPY=Animal (Shark)	KEY:Companion ~ Animal (Shark (Medium/Vivacious))
+Companion ~ Animal (Shark (Medium/Vivacious)).MOD	OUTPUTNAME:Animal (Shark (Medium/Vivacious))	TYPE:Companion	SERVESAS:RACE|Animal (Shark)	TEMPLATE:Vivacious
+Monstrous Spider (Medium).COPY=Monstrous Spider (Medium)	KEY:Companion ~ Monstrous Spider (Medium/Anarchic)
+Companion ~ Monstrous Spider (Medium/Anarchic).MOD	OUTPUTNAME:Monstrous Spider (Medium/Anarchic)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Medium)	TEMPLATE:Anarchic
+Monstrous Spider (Medium).COPY=Monstrous Spider (Medium)	KEY:Companion ~ Monstrous Spider (Medium/Axiomatic)
+Companion ~ Monstrous Spider (Medium/Axiomatic).MOD	OUTPUTNAME:Monstrous Spider (Medium/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Medium)	TEMPLATE:Axiomatic
+Monstrous Spider (Medium).COPY=Monstrous Spider (Medium)	KEY:Companion ~ Monstrous Spider (Medium/Entropic)
+Companion ~ Monstrous Spider (Medium/Entropic).MOD	OUTPUTNAME:Monstrous Spider (Medium/Entropic)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Medium)	TEMPLATE:Entropic
+Monstrous Spider (Medium).COPY=Monstrous Spider (Medium)	KEY:Companion ~ Monstrous Spider (Medium/Vivacious)
+Companion ~ Monstrous Spider (Medium/Vivacious).MOD	OUTPUTNAME:Monstrous Spider (Medium/Vivacious)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Medium)	TEMPLATE:Vivacious
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Medium/Anarchic))
+Companion ~ Animal (Snake (Viper/Medium/Anarchic)).MOD	OUTPUTNAME:Snake (Viper/Medium)	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	KIT:1|Animal (Snake (Viper/Medium)) Companion
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Medium/Axiomatic))
+Companion ~ Animal (Snake (Viper/Medium/Axiomatic)).MOD	OUTPUTNAME:Snake (Viper/Medium)	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	KIT:1|Animal (Snake (Viper/Medium)) Companion
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Medium/Entropic))
+Companion ~ Animal (Snake (Viper/Medium/Entropic)).MOD	OUTPUTNAME:Snake (Viper/Medium)	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	KIT:1|Animal (Snake (Viper/Medium)) Companion
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Medium/Vivacious))
+Companion ~ Animal (Snake (Viper/Medium/Vivacious)).MOD	OUTPUTNAME:Snake (Viper/Medium)	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	KIT:1|Animal (Snake (Viper/Medium)) Companion
+
+#BLOCK:Summon Monster III
+Animal (Bear/Black).COPY=Animal (Bear/Black)	KEY:Companion ~ Animal (Bear/Black/Anarchic)
+Companion ~ Animal (Bear/Black/Anarchic).MOD	OUTPUTNAME:Animal (Bear/Black/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Bear/Black)	TEMPLATE:Anarchic
+Animal (Bear/Black).COPY=Animal (Bear/Black)	KEY:Companion ~ Animal (Bear/Black/Axiomatic)
+Companion ~ Animal (Bear/Black/Axiomatic).MOD	OUTPUTNAME:Animal (Bear/Black/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Bear/Black)	TEMPLATE:Axiomatic
+Animal (Bear/Black).COPY=Animal (Bear/Black)	KEY:Companion ~ Animal (Bear/Black/Entropic)
+Companion ~ Animal (Bear/Black/Entropic).MOD	OUTPUTNAME:Animal (Bear/Black/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Bear/Black)	TEMPLATE:Entropic
+Animal (Bear/Black).COPY=Animal (Bear/Black)	KEY:Companion ~ Animal (Bear/Black/Vivacious)
+Companion ~ Animal (Bear/Black/Vivacious).MOD	OUTPUTNAME:Animal (Bear/Black/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Bear/Black)	TEMPLATE:Vivacious
+Animal (Bison).COPY=Animal (Bison)	KEY:Companion ~ Animal (Bison/Anarchic)
+Companion ~ Animal (Bison/Anarchic).MOD	OUTPUTNAME:Animal (Bison/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Bison)	TEMPLATE:Anarchic
+Animal (Bison).COPY=Animal (Bison)	KEY:Companion ~ Animal (Bison/Axiomatic)
+Companion ~ Animal (Bison/Axiomatic).MOD	OUTPUTNAME:Animal (Bison/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Bison)	TEMPLATE:Axiomatic
+Animal (Bison).COPY=Animal (Bison)	KEY:Companion ~ Animal (Bison/Entropic)
+Companion ~ Animal (Bison/Entropic).MOD	OUTPUTNAME:Animal (Bison/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Bison)	TEMPLATE:Entropic
+Animal (Bison).COPY=Animal (Bison)	KEY:Companion ~ Animal (Bison/Vivacious)
+Companion ~ Animal (Bison/Vivacious).MOD	OUTPUTNAME:Animal (Bison/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Bison)	TEMPLATE:Vivacious
+Dire Animal (Dire Badger).COPY=Dire Animal (Dire Badger)	KEY:Companion ~ Dire Animal (Dire Badger/Anarchic)
+Companion ~ Dire Animal (Dire Badger/Anarchic).MOD	OUTPUTNAME:Dire Animal (Dire Badger/Anarchic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Badger)	TEMPLATE:Anarchic
+Dire Animal (Dire Badger).COPY=Dire Animal (Dire Badger)	KEY:Companion ~ Dire Animal (Dire Badger/Axiomatic)
+Companion ~ Dire Animal (Dire Badger/Axiomatic).MOD	OUTPUTNAME:Dire Animal (Dire Badger/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Badger)	TEMPLATE:Axiomatic
+Dire Animal (Dire Badger).COPY=Dire Animal (Dire Badger)	KEY:Companion ~ Dire Animal (Dire Badger/Entropic)
+Companion ~ Dire Animal (Dire Badger/Entropic).MOD	OUTPUTNAME:Dire Animal (Dire Badger/Entropic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Badger)	TEMPLATE:Entropic
+Dire Animal (Dire Badger).COPY=Dire Animal (Dire Badger)	KEY:Companion ~ Dire Animal (Dire Badger/Vivacious)
+Companion ~ Dire Animal (Dire Badger/Vivacious).MOD	OUTPUTNAME:Dire Animal (Dire Badger/Vivacious)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Badger)	TEMPLATE:Vivacious
+Hippogriff.COPY=Hippogriff	KEY:Companion ~ Hippogriff (Anarchic)
+Companion ~ Hippogriff (Anarchic).MOD	OUTPUTNAME:Hippogriff (Anarchic)	TYPE:Companion	SERVESAS:RACE|Hippogriff	TEMPLATE:Anarchic
+Hippogriff.COPY=Hippogriff	KEY:Companion ~ Hippogriff (Axiomatic)
+Companion ~ Hippogriff (Axiomatic).MOD	OUTPUTNAME:Hippogriff (Axiomatic)	TYPE:Companion	SERVESAS:RACE|Hippogriff	TEMPLATE:Axiomatic
+Hippogriff.COPY=Hippogriff	KEY:Companion ~ Hippogriff (Entropic)
+Companion ~ Hippogriff (Entropic).MOD	OUTPUTNAME:Hippogriff (Entropic)	TYPE:Companion	SERVESAS:RACE|Hippogriff	TEMPLATE:Entropic
+Hippogriff.COPY=Hippogriff	KEY:Companion ~ Hippogriff (Vivacious)
+Companion ~ Hippogriff (Vivacious).MOD	OUTPUTNAME:Hippogriff (Vivacious)	TYPE:Companion	SERVESAS:RACE|Hippogriff	TEMPLATE:Vivacious
+Animal (Ape).COPY=Animal (Ape)	KEY:Companion ~ Animal (Ape/Anarchic)
+Companion ~ Animal (Ape/Anarchic).MOD	OUTPUTNAME:Animal (Ape/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Ape)	TEMPLATE:Anarchic
+Animal (Ape).COPY=Animal (Ape)	KEY:Companion ~ Animal (Ape/Axiomatic)
+Companion ~ Animal (Ape/Axiomatic).MOD	OUTPUTNAME:Animal (Ape/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Ape)	TEMPLATE:Axiomatic
+Animal (Ape).COPY=Animal (Ape)	KEY:Companion ~ Animal (Ape/Entropic)
+Companion ~ Animal (Ape/Entropic).MOD	OUTPUTNAME:Animal (Ape/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Ape)	TEMPLATE:Entropic
+Animal (Ape).COPY=Animal (Ape)	KEY:Companion ~ Animal (Ape/Vivacious)
+Companion ~ Animal (Ape/Vivacious).MOD	OUTPUTNAME:Animal (Ape/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Ape)	TEMPLATE:Vivacious
+Dire Animal (Dire Weasel).COPY=Dire Animal (Dire Weasel)	KEY:Companion ~ Dire Animal (Dire Weasel/Anarchic)
+Companion ~ Dire Animal (Dire Weasel/Anarchic).MOD	OUTPUTNAME:Dire Animal (Dire Weasel/Anarchic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Weasel)	TEMPLATE:Anarchic
+Dire Animal (Dire Weasel).COPY=Dire Animal (Dire Weasel)	KEY:Companion ~ Dire Animal (Dire Weasel/Axiomatic)
+Companion ~ Dire Animal (Dire Weasel/Axiomatic).MOD	OUTPUTNAME:Dire Animal (Dire Weasel/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Weasel)	TEMPLATE:Axiomatic
+Dire Animal (Dire Weasel).COPY=Dire Animal (Dire Weasel)	KEY:Companion ~ Dire Animal (Dire Weasel/Entropic)
+Companion ~ Dire Animal (Dire Weasel/Entropic).MOD	OUTPUTNAME:Dire Animal (Dire Weasel/Entropic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Weasel)	TEMPLATE:Entropic
+Dire Animal (Dire Weasel).COPY=Dire Animal (Dire Weasel)	KEY:Companion ~ Dire Animal (Dire Weasel/Vivacious)
+Companion ~ Dire Animal (Dire Weasel/Vivacious).MOD	OUTPUTNAME:Dire Animal (Dire Weasel/Vivacious)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Weasel)	TEMPLATE:Vivacious
+Animal (Snake (Constrictor)).COPY=Animal (Snake (Constrictor))	KEY:Companion ~ Animal (Snake (Constrictor/Anarchic))
+Companion ~ Animal (Snake (Constrictor/Anarchic)).MOD	OUTPUTNAME:Animal (Snake (Constrictor))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Constrictor))	TEMPLATE:Anarchic
+Animal (Snake (Constrictor)).COPY=Animal (Snake (Constrictor))	KEY:Companion ~ Animal (Snake (Constrictor/Axiomatic))
+Companion ~ Animal (Snake (Constrictor/Axiomatic)).MOD	OUTPUTNAME:Animal (Snake (Constrictor))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Constrictor))	TEMPLATE:Axiomatic
+Animal (Snake (Constrictor)).COPY=Animal (Snake (Constrictor))	KEY:Companion ~ Animal (Snake (Constrictor/Entropic))
+Companion ~ Animal (Snake (Constrictor/Entropic)).MOD	OUTPUTNAME:Animal (Snake (Constrictor))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Constrictor))	TEMPLATE:Entropic
+Animal (Snake (Constrictor)).COPY=Animal (Snake (Constrictor))	KEY:Companion ~ Animal (Snake (Constrictor/Vivacious))
+Companion ~ Animal (Snake (Constrictor/Vivacious)).MOD	OUTPUTNAME:Animal (Snake (Constrictor))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Constrictor))	TEMPLATE:Vivacious
+Animal (Boar).COPY=Animal (Boar)	KEY:Companion ~ Animal (Boar/Anarchic)
+Companion ~ Animal (Boar/Anarchic).MOD	OUTPUTNAME:Animal (Boar/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Boar)	TEMPLATE:Anarchic
+Animal (Boar).COPY=Animal (Boar)	KEY:Companion ~ Animal (Boar/Axiomatic)
+Companion ~ Animal (Boar/Axiomatic).MOD	OUTPUTNAME:Animal (Boar/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Boar)	TEMPLATE:Axiomatic
+Animal (Boar).COPY=Animal (Boar)	KEY:Companion ~ Animal (Boar/Entropic)
+Companion ~ Animal (Boar/Entropic).MOD	OUTPUTNAME:Animal (Boar/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Boar)	TEMPLATE:Entropic
+Animal (Boar).COPY=Animal (Boar)	KEY:Companion ~ Animal (Boar/Vivacious)
+Companion ~ Animal (Boar/Vivacious).MOD	OUTPUTNAME:Animal (Boar/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Boar)	TEMPLATE:Vivacious
+Dire Animal (Dire Bat).COPY=Dire Animal (Dire Bat)	KEY:Companion ~ Dire Animal (Dire Bat/Anarchic)
+Companion ~ Dire Animal (Dire Bat/Anarchic).MOD	OUTPUTNAME:Dire Animal (Dire Bat/Anarchic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Bat)	TEMPLATE:Anarchic
+Dire Animal (Dire Bat).COPY=Dire Animal (Dire Bat)	KEY:Companion ~ Dire Animal (Dire Bat/Axiomatic)
+Companion ~ Dire Animal (Dire Bat/Axiomatic).MOD	OUTPUTNAME:Dire Animal (Dire Bat/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Bat)	TEMPLATE:Axiomatic
+Dire Animal (Dire Bat).COPY=Dire Animal (Dire Bat)	KEY:Companion ~ Dire Animal (Dire Bat/Entropic)
+Companion ~ Dire Animal (Dire Bat/Entropic).MOD	OUTPUTNAME:Dire Animal (Dire Bat/Entropic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Bat)	TEMPLATE:Entropic
+Dire Animal (Dire Bat).COPY=Dire Animal (Dire Bat)	KEY:Companion ~ Dire Animal (Dire Bat/Vivacious)
+Companion ~ Dire Animal (Dire Bat/Vivacious).MOD	OUTPUTNAME:Dire Animal (Dire Bat/Vivacious)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Bat)	TEMPLATE:Vivacious
+Monstrous Centipede (Huge).COPY=Monstrous Centipede (Huge)	KEY:Companion ~ Monstrous Centipede (Huge/Anarchic)
+Companion ~ Monstrous Centipede (Huge/Anarchic).MOD	OUTPUTNAME:Monstrous Centipede (Huge/Anarchic)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Huge)	TEMPLATE:Anarchic
+Monstrous Centipede (Huge).COPY=Monstrous Centipede (Huge)	KEY:Companion ~ Monstrous Centipede (Huge/Axiomatic)
+Companion ~ Monstrous Centipede (Huge/Axiomatic).MOD	OUTPUTNAME:Monstrous Centipede (Huge/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Huge)	TEMPLATE:Axiomatic
+Monstrous Centipede (Huge).COPY=Monstrous Centipede (Huge)	KEY:Companion ~ Monstrous Centipede (Huge/Entropic)
+Companion ~ Monstrous Centipede (Huge/Entropic).MOD	OUTPUTNAME:Monstrous Centipede (Huge/Entropic)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Huge)	TEMPLATE:Entropic
+Monstrous Centipede (Huge).COPY=Monstrous Centipede (Huge)	KEY:Companion ~ Monstrous Centipede (Huge/Vivacious)
+Companion ~ Monstrous Centipede (Huge/Vivacious).MOD	OUTPUTNAME:Monstrous Centipede (Huge/Vivacious)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Huge)	TEMPLATE:Vivacious
+Animal (Crocodile).COPY=Animal (Crocodile)	KEY:Companion ~ Animal (Crocodile/Anarchic)
+Companion ~ Animal (Crocodile/Anarchic).MOD	OUTPUTNAME:Animal (Crocodile/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Crocodile)	TEMPLATE:Anarchic
+Animal (Crocodile).COPY=Animal (Crocodile)	KEY:Companion ~ Animal (Crocodile/Axiomatic)
+Companion ~ Animal (Crocodile/Axiomatic).MOD	OUTPUTNAME:Animal (Crocodile/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Crocodile)	TEMPLATE:Axiomatic
+Animal (Crocodile).COPY=Animal (Crocodile)	KEY:Companion ~ Animal (Crocodile/Entropic)
+Companion ~ Animal (Crocodile/Entropic).MOD	OUTPUTNAME:Animal (Crocodile/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Crocodile)	TEMPLATE:Entropic
+Animal (Crocodile).COPY=Animal (Crocodile)	KEY:Companion ~ Animal (Crocodile/Vivacious)
+Companion ~ Animal (Crocodile/Vivacious).MOD	OUTPUTNAME:Animal (Crocodile/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Crocodile)	TEMPLATE:Vivacious
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Large/Anarchic))
+Companion ~ Animal (Snake (Viper/Large/Anarchic)).MOD	OUTPUTNAME:Animal (Snake (Viper/Large/Anarchic))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	KIT:1|Animal (Snake (Viper/Large)) Companion	TEMPLATE:Anarchic
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Large/Axiomatic))
+Companion ~ Animal (Snake (Viper/Large/Axiomatic)).MOD	OUTPUTNAME:Animal (Snake (Viper/Large/Axiomatic))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	KIT:1|Animal (Snake (Viper/Large)) Companion	TEMPLATE:Axiomatic
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Large/Entropic))
+Companion ~ Animal (Snake (Viper/Large/Entropic)).MOD	OUTPUTNAME:Animal (Snake (Viper/Large/Entropic))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	KIT:1|Animal (Snake (Viper/Large)) Companion	TEMPLATE:Entropic
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Large/Vivacious))
+Companion ~ Animal (Snake (Viper/Large/Vivacious)).MOD	OUTPUTNAME:Animal (Snake (Viper/Large/Vivacious))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	KIT:1|Animal (Snake (Viper/Large)) Companion	TEMPLATE:Vivacious
+Animal (Wolverine).COPY=Animal (Wolverine)	KEY:Companion ~ Animal (Wolverine/Anarchic)
+Companion ~ Animal (Wolverine/Anarchic).MOD	OUTPUTNAME:Animal (Wolverine/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Wolverine)	TEMPLATE:Anarchic
+Animal (Wolverine).COPY=Animal (Wolverine)	KEY:Companion ~ Animal (Wolverine/Axiomatic)
+Companion ~ Animal (Wolverine/Axiomatic).MOD	OUTPUTNAME:Animal (Wolverine/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Wolverine)	TEMPLATE:Axiomatic
+Animal (Wolverine).COPY=Animal (Wolverine)	KEY:Companion ~ Animal (Wolverine/Entropic)
+Companion ~ Animal (Wolverine/Entropic).MOD	OUTPUTNAME:Animal (Wolverine/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Wolverine)	TEMPLATE:Entropic
+Animal (Wolverine).COPY=Animal (Wolverine)	KEY:Companion ~ Animal (Wolverine/Vivacious)
+Companion ~ Animal (Wolverine/Vivacious).MOD	OUTPUTNAME:Animal (Wolverine/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Wolverine)	TEMPLATE:Vivacious
+
+#BLOCK:Summon Monster IV
+Owl (Giant).COPY=Owl (Giant)	KEY:Companion ~ Owl (Giant/Anarchic)
+Companion ~ Owl (Giant/Anarchic).MOD	OUTPUTNAME:Owl (Giant/Anarchic)	TYPE:Companion	SERVESAS:RACE|Owl (Giant)	TEMPLATE:Anarchic
+Owl (Giant).COPY=Owl (Giant)	KEY:Companion ~ Owl (Giant/Axiomatic)
+Companion ~ Owl (Giant/Axiomatic).MOD	OUTPUTNAME:Owl (Giant/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Owl (Giant)	TEMPLATE:Axiomatic
+Owl (Giant).COPY=Owl (Giant)	KEY:Companion ~ Owl (Giant/Vivacious)
+Companion ~ Owl (Giant/Vivacious).MOD	OUTPUTNAME:Owl (Giant/Vivacious)	TYPE:Companion	SERVESAS:RACE|Owl (Giant)	TEMPLATE:Vivacious
+Owl (Giant).COPY=Owl (Giant)	KEY:Companion ~ Owl (Giant/Entropic)
+Companion ~ Owl (Giant/Entropic).MOD	OUTPUTNAME:Owl (Giant/Entropic)	TYPE:Companion	SERVESAS:RACE|Owl (Giant)	TEMPLATE:Entropic
+Eagle (Giant).COPY=Eagle (Giant)	KEY:Companion ~ Eagle (Giant/Anarchic)
+Companion ~ Eagle (Giant/Anarchic).MOD	OUTPUTNAME:Eagle (Giant/Anarchic)	TYPE:Companion	SERVESAS:RACE|Eagle (Giant)	TEMPLATE:Anarchic
+Eagle (Giant).COPY=Eagle (Giant)	KEY:Companion ~ Eagle (Giant/Axiomatic)
+Companion ~ Eagle (Giant/Axiomatic).MOD	OUTPUTNAME:Eagle (Giant/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Eagle (Giant)	TEMPLATE:Axiomatic
+Eagle (Giant).COPY=Eagle (Giant)	KEY:Companion ~ Eagle (Giant/Entropic)
+Companion ~ Eagle (Giant/Entropic).MOD	OUTPUTNAME:Eagle (Giant/Entropic)	TYPE:Companion	SERVESAS:RACE|Eagle (Giant)	TEMPLATE:Entropic
+Eagle (Giant).COPY=Eagle (Giant)	KEY:Companion ~ Eagle (Giant/Vivacious)
+Companion ~ Eagle (Giant/Vivacious).MOD	OUTPUTNAME:Eagle (Giant/Vivacious)	TYPE:Companion	SERVESAS:RACE|Eagle (Giant)	TEMPLATE:Vivacious
+Animal (Lion).COPY=Animal (Lion)	KEY:Companion ~ Animal (Lion/Anarchic)
+Companion ~ Animal (Lion/Anarchic).MOD	OUTPUTNAME:Lion (Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Lion)	TEMPLATE:Anarchic
+Animal (Lion).COPY=Animal (Lion)	KEY:Companion ~ Animal (Lion/Axiomatic)
+Companion ~ Animal (Lion/Axiomatic).MOD	OUTPUTNAME:Lion (Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Lion)	TEMPLATE:Axiomatic
+Animal (Lion).COPY=Animal (Lion)	KEY:Companion ~ Animal (Lion/Entropic)
+Companion ~ Animal (Lion/Entropic).MOD	OUTPUTNAME:Lion (Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Lion)	TEMPLATE:Entropic
+Animal (Lion).COPY=Animal (Lion)	KEY:Companion ~ Animal (Lion/Vivacious)
+Companion ~ Animal (Lion/Vivacious).MOD	OUTPUTNAME:Lion (Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Lion)	TEMPLATE:Vivacious
+Dire Animal (Dire Wolf).COPY=Dire Animal (Dire Wolf)	KEY:Companion ~ Dire Animal (Dire Wolf/Anarchic)
+Companion ~ Dire Animal (Dire Wolf/Anarchic).MOD	OUTPUTNAME:Dire Animal (Dire Wolf/Anarchic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Wolf)	TEMPLATE:Anarchic
+Dire Animal (Dire Wolf).COPY=Dire Animal (Dire Wolf)	KEY:Companion ~ Dire Animal (Dire Wolf/Axiomatic)
+Companion ~ Dire Animal (Dire Wolf/Axiomatic).MOD	OUTPUTNAME:Dire Animal (Dire Wolf/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Wolf)	TEMPLATE:Axiomatic
+Dire Animal (Dire Wolf).COPY=Dire Animal (Dire Wolf)	KEY:Companion ~ Dire Animal (Dire Wolf/Entropic)
+Companion ~ Dire Animal (Dire Wolf/Entropic).MOD	OUTPUTNAME:Dire Animal (Dire Wolf/Entropic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Wolf)	TEMPLATE:Entropic
+Dire Animal (Dire Wolf).COPY=Dire Animal (Dire Wolf)	KEY:Companion ~ Dire Animal (Dire Wolf/Vivacious)
+Companion ~ Dire Animal (Dire Wolf/Vivacious).MOD	OUTPUTNAME:Dire Animal (Dire Wolf/Vivacious)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Wolf)	TEMPLATE:Vivacious
+Giant Wasp.COPY=Giant Wasp	KEY:Companion ~ Giant Wasp (Anarchic)
+Companion ~ Giant Wasp (Anarchic).MOD	OUTPUTNAME:Giant Wasp (Anarchic)	TYPE:Companion	SERVESAS:RACE|Giant Wasp	TEMPLATE:Anarchic
+Giant Wasp.COPY=Giant Wasp	KEY:Companion ~ Giant Wasp (Axiomatic)
+Companion ~ Giant Wasp (Axiomatic).MOD	OUTPUTNAME:Giant Wasp (Axiomatic)	TYPE:Companion	SERVESAS:RACE|Giant Wasp	TEMPLATE:Axiomatic
+Giant Wasp.COPY=Giant Wasp	KEY:Companion ~ Giant Wasp (Entropic)
+Companion ~ Giant Wasp (Entropic).MOD	OUTPUTNAME:Giant Wasp (Entropic)	TYPE:Companion	SERVESAS:RACE|Giant Wasp	TEMPLATE:Entropic
+Giant Wasp.COPY=Giant Wasp	KEY:Companion ~ Giant Wasp (Vivacious)
+Companion ~ Giant Wasp (Vivacious).MOD	OUTPUTNAME:Giant Wasp (Vivacious)	TYPE:Companion	SERVESAS:RACE|Giant Wasp	TEMPLATE:Vivacious
+Giant Praying Mantis.COPY=Giant Praying Mantis	KEY:Companion ~ Giant Praying Mantis (Anarchic)
+Companion ~ Giant Praying Mantis (Anarchic).MOD	OUTPUTNAME:Giant Praying Mantis (Anarchic)	TYPE:Companion	SERVESAS:RACE|Giant Praying Mantis	TEMPLATE:Anarchic
+Giant Praying Mantis.COPY=Giant Praying Mantis	KEY:Companion ~ Giant Praying Mantis (Axiomatic)
+Companion ~ Giant Praying Mantis (Axiomatic).MOD	OUTPUTNAME:Giant Praying Mantis (Axiomatic)	TYPE:Companion	SERVESAS:RACE|Giant Praying Mantis	TEMPLATE:Axiomatic
+Giant Praying Mantis.COPY=Giant Praying Mantis	KEY:Companion ~ Giant Praying Mantis (Entropic)
+Companion ~ Giant Praying Mantis (Entropic).MOD	OUTPUTNAME:Giant Praying Mantis (Entropic)	TYPE:Companion	SERVESAS:RACE|Giant Praying Mantis	TEMPLATE:Entropic
+Giant Praying Mantis.COPY=Giant Praying Mantis	KEY:Companion ~ Giant Praying Mantis (Vivacious)
+Companion ~ Giant Praying Mantis (Vivacious).MOD	OUTPUTNAME:Giant Praying Mantis (Vivacious)	TYPE:Companion	SERVESAS:RACE|Giant Praying Mantis	TEMPLATE:Vivacious
+Animal (Shark).COPY=Animal (Shark)	KEY:Companion ~ Animal (Shark (Huge/Anarchic))
+Companion ~ Animal (Shark (Huge/Anarchic)).MOD	OUTPUTNAME:Animal (Shark (Huge/Anarchic))	TYPE:Companion	SERVESAS:RACE|Animal (Shark)	TEMPLATE:Anarchic	KIT:1|Animal (Shark/Huge) Companion
+Animal (Shark).COPY=Animal (Shark)	KEY:Companion ~ Animal (Shark (Huge/Axiomatic))
+Companion ~ Animal (Shark (Huge/Axiomatic)).MOD	OUTPUTNAME:Animal (Shark (Huge/Axiomatic))	TYPE:Companion	SERVESAS:RACE|Animal (Shark)	TEMPLATE:Axiomatic	KIT:1|Animal (Shark/Huge) Companion
+Animal (Shark).COPY=Animal (Shark)	KEY:Companion ~ Animal (Shark (Huge/Entropic))
+Companion ~ Animal (Shark (Huge/Entropic)).MOD	OUTPUTNAME:Animal (Shark (Huge/Entropic))	TYPE:Companion	SERVESAS:RACE|Animal (Shark)	TEMPLATE:Entropic	KIT:1|Animal (Shark/Huge) Companion
+Animal (Shark).COPY=Animal (Shark)	KEY:Companion ~ Animal (Shark (Huge/Vivacious))
+Companion ~ Animal (Shark (Huge/Vivacious)).MOD	OUTPUTNAME:Animal (Shark (Huge/Vivacious))	TYPE:Companion	SERVESAS:RACE|Animal (Shark)	TEMPLATE:Vivacious	KIT:1|Animal (Shark/Huge) Companion
+Monstrous Spider (Large).COPY=Monstrous Spider (Large)	KEY:Companion ~ Monstrous Spider (Large/Anarchic)
+Companion ~ Monstrous Spider (Large/Anarchic).MOD	OUTPUTNAME:Monstrous Spider (Large/Anarchic)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Large)	TEMPLATE:Anarchic
+Monstrous Spider (Large).COPY=Monstrous Spider (Large)	KEY:Companion ~ Monstrous Spider (Large/Axiomatic)
+Companion ~ Monstrous Spider (Large/Axiomatic).MOD	OUTPUTNAME:Monstrous Spider (Large/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Large)	TEMPLATE:Axiomatic
+Monstrous Spider (Large).COPY=Monstrous Spider (Large)	KEY:Companion ~ Monstrous Spider (Large/Entropic)
+Companion ~ Monstrous Spider (Large/Entropic).MOD	OUTPUTNAME:Monstrous Spider (Large/Entropic)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Large)	TEMPLATE:Entropic
+Monstrous Spider (Large).COPY=Monstrous Spider (Large)	KEY:Companion ~ Monstrous Spider (Large/Vivacious)
+Companion ~ Monstrous Spider (Large/Vivacious).MOD	OUTPUTNAME:Monstrous Spider (Large/Vivacious)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Large)	TEMPLATE:Vivacious
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Huge/Anarchic))
+Companion ~ Animal (Snake (Viper/Huge/Anarchic)).MOD	OUTPUTNAME:Animal (Snake (Viper/Huge/Anarchic))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	KIT:1|Animal (Snake (Viper/Huge)) Companion	TEMPLATE:Anarchic
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Huge/Axiomatic))
+Companion ~ Animal (Snake (Viper/Huge/Axiomatic)).MOD	OUTPUTNAME:Animal (Snake (Viper/Huge/Axiomatic))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	KIT:1|Animal (Snake (Viper/Huge)) Companion	TEMPLATE:Axiomatic
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Huge/Entropic))
+Companion ~ Animal (Snake (Viper/Huge/Entropic)).MOD	OUTPUTNAME:Animal (Snake (Viper/Huge/Entropic))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	KIT:1|Animal (Snake (Viper/Huge)) Companion	TEMPLATE:Entropic
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Huge/Vivacious))
+Companion ~ Animal (Snake (Viper/Huge/Vivacious)).MOD	OUTPUTNAME:Animal (Snake (Viper/Huge/Vivacious))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	KIT:1|Animal (Snake (Viper/Huge)) Companion	TEMPLATE:Vivacious
+
+#BLOCK:Summon Monster V
+Animal (Bear/Brown).COPY=Animal (Bear/Brown)	KEY:Companion ~ Animal (Bear/Brown/Anarchic)
+Companion ~ Animal (Bear/Brown/Anarchic).MOD	OUTPUTNAME:Animal (Bear/Brown/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Bear/Brown)	TEMPLATE:Anarchic
+Animal (Bear/Brown).COPY=Animal (Bear/Brown)	KEY:Companion ~ Animal (Bear/Brown/Axiomatic)
+Companion ~ Animal (Bear/Brown/Axiomatic).MOD	OUTPUTNAME:Animal (Bear/Brown/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Bear/Brown)	TEMPLATE:Axiomatic
+Animal (Bear/Brown).COPY=Animal (Bear/Brown)	KEY:Companion ~ Animal (Bear/Brown/Entropic)
+Companion ~ Animal (Bear/Brown/Entropic).MOD	OUTPUTNAME:Animal (Bear/Brown/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Bear/Brown)	TEMPLATE:Entropic
+Animal (Bear/Brown).COPY=Animal (Bear/Brown)	KEY:Companion ~ Animal (Bear/Brown/Vivacious)
+Companion ~ Animal (Bear/Brown/Vivacious).MOD	OUTPUTNAME:Animal (Bear/Brown/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Bear/Brown)	TEMPLATE:Vivacious
+Giant Stag Beetle.COPY=Giant Stag Beetle	KEY:Companion ~ Giant Stag Beetle (Anarchic)
+Companion ~ Giant Stag Beetle (Anarchic).MOD	OUTPUTNAME:Giant Stag Beetle (Anarchic)	TYPE:Companion	SERVESAS:RACE|Giant Stag Beetle	TEMPLATE:Anarchic
+Giant Stag Beetle.COPY=Giant Stag Beetle	KEY:Companion ~ Giant Stag Beetle (Axiomatic)
+Companion ~ Giant Stag Beetle (Axiomatic).MOD	OUTPUTNAME:Giant Stag Beetle (Axiomatic)	TYPE:Companion	SERVESAS:RACE|Giant Stag Beetle	TEMPLATE:Axiomatic
+Giant Stag Beetle.COPY=Giant Stag Beetle	KEY:Companion ~ Giant Stag Beetle (Entropic)
+Companion ~ Giant Stag Beetle (Entropic).MOD	OUTPUTNAME:Giant Stag Beetle (Entropic)	TYPE:Companion	SERVESAS:RACE|Giant Stag Beetle	TEMPLATE:Entropic
+Giant Stag Beetle.COPY=Giant Stag Beetle	KEY:Companion ~ Giant Stag Beetle (Vivacious)
+Companion ~ Giant Stag Beetle (Vivacious).MOD	OUTPUTNAME:Giant Stag Beetle (Vivacious)	TYPE:Companion	SERVESAS:RACE|Giant Stag Beetle	TEMPLATE:Vivacious
+Sea Cat.COPY=Sea Cat	KEY:Companion ~ Sea Cat (Anarchic)
+Companion ~ Sea Cat (Anarchic).MOD	OUTPUTNAME:Sea Cat (Anarchic)	TYPE:Companion	SERVESAS:RACE|Sea Cat	TEMPLATE:Anarchic
+Sea Cat.COPY=Sea Cat	KEY:Companion ~ Sea Cat (Axiomatic)
+Companion ~ Sea Cat (Axiomatic).MOD	OUTPUTNAME:Sea Cat (Axiomatic)	TYPE:Companion	SERVESAS:RACE|Sea Cat	TEMPLATE:Axiomatic
+Sea Cat.COPY=Sea Cat	KEY:Companion ~ Sea Cat (Entropic)
+Companion ~ Sea Cat (Entropic).MOD	OUTPUTNAME:Sea Cat (Entropic)	TYPE:Companion	SERVESAS:RACE|Sea Cat	TEMPLATE:Entropic
+Sea Cat.COPY=Sea Cat	KEY:Companion ~ Sea Cat (Vivacious)
+Companion ~ Sea Cat (Vivacious).MOD	OUTPUTNAME:Sea Cat (Vivacious)	TYPE:Companion	SERVESAS:RACE|Sea Cat	TEMPLATE:Vivacious
+Griffon.COPY=Griffon	KEY:Companion ~ Griffon (Anarchic)
+Companion ~ Griffon (Anarchic).MOD	OUTPUTNAME:Griffon (Anarchic)	TYPE:Companion	SERVESAS:RACE|Griffon	TEMPLATE:Anarchic
+Griffon.COPY=Griffon	KEY:Companion ~ Griffon (Axiomatic)
+Companion ~ Griffon (Axiomatic).MOD	OUTPUTNAME:Griffon (Axiomatic)	TYPE:Companion	SERVESAS:RACE|Griffon	TEMPLATE:Axiomatic
+Griffon.COPY=Griffon	KEY:Companion ~ Griffon (Entropic)
+Companion ~ Griffon (Entropic).MOD	OUTPUTNAME:Griffon (Entropic)	TYPE:Companion	SERVESAS:RACE|Griffon	TEMPLATE:Entropic
+Griffon.COPY=Griffon	KEY:Companion ~ Griffon (Vivacious)
+Companion ~ Griffon (Vivacious).MOD	OUTPUTNAME:Griffon (Vivacious)	TYPE:Companion	SERVESAS:RACE|Griffon	TEMPLATE:Vivacious
+Dinosaur (Deinonychus).COPY=Dinosaur (Deinonychus/Anarchic)	KEY:Companion ~ Dinosaur (Deinonychus/Anarchic)
+Companion ~ Dinosaur (Deinonychus/Anarchic).MOD	OUTPUTNAME:Dinosaur (Deinonychus/Anarchic)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Deinonychus)	TEMPLATE:Anarchic
+Dinosaur (Deinonychus).COPY=Dinosaur (Deinonychus/Axiomatic)	KEY:Companion ~ Dinosaur (Deinonychus/Axiomatic)
+Companion ~ Dinosaur (Deinonychus/Axiomatic).MOD	OUTPUTNAME:Dinosaur (Deinonychus/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Deinonychus)	TEMPLATE:Axiomatic
+Dinosaur (Deinonychus).COPY=Dinosaur (Deinonychus/Entropic)	KEY:Companion ~ Dinosaur (Deinonychus/Entropic)
+Companion ~ Dinosaur (Deinonychus/Entropic).MOD	OUTPUTNAME:Dinosaur (Deinonychus/Entropic)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Deinonychus)	TEMPLATE:Entropic
+Dinosaur (Deinonychus).COPY=Dinosaur (Deinonychus/Vivacious)	KEY:Companion ~ Dinosaur (Deinonychus/Vivacious)
+Companion ~ Dinosaur (Deinonychus/Vivacious).MOD	OUTPUTNAME:Dinosaur (Deinonychus/Vivacious)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Deinonychus)	TEMPLATE:Vivacious
+Dire Animal (Dire Ape).COPY=Dire Animal (Dire Ape)	KEY:Companion ~ Dire Animal (Dire Ape/Anarchic)
+Companion ~ Dire Animal (Dire Ape/Anarchic).MOD	OUTPUTNAME:Dire Animal (Dire Ape/Anarchic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Ape)	TEMPLATE:Anarchic
+Dire Animal (Dire Ape).COPY=Dire Animal (Dire Ape)	KEY:Companion ~ Dire Animal (Dire Ape/Axiomatic)
+Companion ~ Dire Animal (Dire Ape/Axiomatic).MOD	OUTPUTNAME:Dire Animal (Dire Ape/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Ape)	TEMPLATE:Axiomatic
+Dire Animal (Dire Ape).COPY=Dire Animal (Dire Ape)	KEY:Companion ~ Dire Animal (Dire Ape/Entropic)
+Companion ~ Dire Animal (Dire Ape/Entropic).MOD	OUTPUTNAME:Dire Animal (Dire Ape/Entropic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Ape)	TEMPLATE:Entropic
+Dire Animal (Dire Ape).COPY=Dire Animal (Dire Ape)	KEY:Companion ~ Dire Animal (Dire Ape/Vivacious)
+Companion ~ Dire Animal (Dire Ape/Vivacious).MOD	OUTPUTNAME:Dire Animal (Dire Ape/Vivacious)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Ape)	TEMPLATE:Vivacious
+Dire Animal (Dire Boar).COPY=Dire Animal (Dire Boar)	KEY:Companion ~ Dire Animal (Dire Boar/Anarchic)
+Companion ~ Dire Animal (Dire Boar/Anarchic).MOD	OUTPUTNAME:Dire Animal (Dire Boar/Anarchic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Boar)	TEMPLATE:Anarchic
+Dire Animal (Dire Boar).COPY=Dire Animal (Dire Boar)	KEY:Companion ~ Dire Animal (Dire Boar/Axiomatic)
+Companion ~ Dire Animal (Dire Boar/Axiomatic).MOD	OUTPUTNAME:Dire Animal (Dire Boar/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Boar)	TEMPLATE:Axiomatic
+Dire Animal (Dire Boar).COPY=Dire Animal (Dire Boar)	KEY:Companion ~ Dire Animal (Dire Boar/Entropic)
+Companion ~ Dire Animal (Dire Boar/Entropic).MOD	OUTPUTNAME:Dire Animal (Dire Boar/Entropic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Boar)	TEMPLATE:Entropic
+Dire Animal (Dire Boar).COPY=Dire Animal (Dire Boar)	KEY:Companion ~ Dire Animal (Dire Boar/Vivacious)
+Companion ~ Dire Animal (Dire Boar/Vivacious).MOD	OUTPUTNAME:Dire Animal (Dire Boar/Vivacious)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Boar)	TEMPLATE:Vivacious
+Animal (Shark).COPY=Animal (Shark)	KEY:Companion ~ Animal (Shark (Huge/Anarchic))
+Companion ~ Animal (Shark (Huge/Anarchic)).MOD	OUTPUTNAME:Animal (Shark (Huge/Anarchic))	TYPE:Companion	SERVESAS:RACE|Animal (Shark)	TEMPLATE:Anarchic	KIT:1|Animal (Shark/Huge) Companion
+Animal (Shark).COPY=Animal (Shark)	KEY:Companion ~ Animal (Shark (Huge/Axiomatic))
+Companion ~ Animal (Shark (Huge/Axiomatic)).MOD	OUTPUTNAME:Animal (Shark (Huge/Axiomatic))	TYPE:Companion	SERVESAS:RACE|Animal (Shark)	TEMPLATE:Axiomatic	KIT:1|Animal (Shark/Huge) Companion
+Animal (Shark).COPY=Animal (Shark)	KEY:Companion ~ Animal (Shark (Huge/Entropic))
+Companion ~ Animal (Shark (Huge/Entropic)).MOD	OUTPUTNAME:Animal (Shark (Huge/Entropic))	TYPE:Companion	SERVESAS:RACE|Animal (Shark)	TEMPLATE:Entropic	KIT:1|Animal (Shark/Huge) Companion
+Animal (Shark).COPY=Animal (Shark)	KEY:Companion ~ Animal (Shark (Huge/Vivacious))
+Companion ~ Animal (Shark (Huge/Vivacious)).MOD	OUTPUTNAME:Animal (Shark (Huge/Vivacious))	TYPE:Companion	SERVESAS:RACE|Animal (Shark)	TEMPLATE:Vivacious	KIT:1|Animal (Shark/Huge) Companion
+Monstrous Scorpion (Large).COPY=Monstrous Scorpion (Large)	KEY:Companion ~ Monstrous Scorpion (Large/Anarchic)
+Companion ~ Monstrous Scorpion (Large/Anarchic).MOD	OUTPUTNAME:Monstrous Scorpion (Large/Anarchic)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Large)	TEMPLATE:Anarchic
+Monstrous Scorpion (Large).COPY=Monstrous Scorpion (Large)	KEY:Companion ~ Monstrous Scorpion (Large/Axiomatic)
+Companion ~ Monstrous Scorpion (Large/Axiomatic).MOD	OUTPUTNAME:Monstrous Scorpion (Large/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Large)	TEMPLATE:Axiomatic
+Monstrous Scorpion (Large).COPY=Monstrous Scorpion (Large)	KEY:Companion ~ Monstrous Scorpion (Large/Entropic)
+Companion ~ Monstrous Scorpion (Large/Entropic).MOD	OUTPUTNAME:Monstrous Scorpion (Large/Entropic)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Large)	TEMPLATE:Entropic
+Monstrous Scorpion (Large).COPY=Monstrous Scorpion (Large)	KEY:Companion ~ Monstrous Scorpion (Large/Vivacious)
+Companion ~ Monstrous Scorpion (Large/Vivacious).MOD	OUTPUTNAME:Monstrous Scorpion (Large/Vivacious)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Large)	TEMPLATE:Vivacious
+Dire Animal (Dire Wolverine).COPY=Dire Animal (Dire Wolverine)	KEY:Companion ~ Dire Animal (Dire Wolverine/Anarchic)
+Companion ~ Dire Animal (Dire Wolverine/Anarchic).MOD	OUTPUTNAME:Dire Animal (Dire Wolverine/Anarchic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Wolverine)	TEMPLATE:Anarchic
+Dire Animal (Dire Wolverine).COPY=Dire Animal (Dire Wolverine)	KEY:Companion ~ Dire Animal (Dire Wolverine/Axiomatic)
+Companion ~ Dire Animal (Dire Wolverine/Axiomatic).MOD	OUTPUTNAME:Dire Animal (Dire Wolverine/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Wolverine)	TEMPLATE:Axiomatic
+Dire Animal (Dire Wolverine).COPY=Dire Animal (Dire Wolverine)	KEY:Companion ~ Dire Animal (Dire Wolverine/Entropic)
+Companion ~ Dire Animal (Dire Wolverine/Entropic).MOD	OUTPUTNAME:Dire Animal (Dire Wolverine/Entropic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Wolverine)	TEMPLATE:Entropic
+Dire Animal (Dire Wolverine).COPY=Dire Animal (Dire Wolverine)	KEY:Companion ~ Dire Animal (Dire Wolverine/Vivacious)
+Companion ~ Dire Animal (Dire Wolverine/Vivacious).MOD	OUTPUTNAME:Dire Animal (Dire Wolverine/Vivacious)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Wolverine)	TEMPLATE:Vivacious
+Animal (Crocodile (Giant)).COPY=Animal (Crocodile (Giant))	KEY:Companion ~ Animal (Crocodile (Giant/Anarchic))
+Companion ~ Animal (Crocodile (Giant/Anarchic)).MOD	OUTPUTNAME:Animal (Crocodile (Giant/Anarchic))	TYPE:Companion	SERVESAS:RACE|Animal (Crocodile (Giant))	TEMPLATE:Anarchic
+Animal (Crocodile (Giant)).COPY=Animal (Crocodile (Giant))	KEY:Companion ~ Animal (Crocodile (Giant/Axiomatic))
+Companion ~ Animal (Crocodile (Giant/Axiomatic)).MOD	OUTPUTNAME:Animal (Crocodile (Giant/Axiomatic))	TYPE:Companion	SERVESAS:RACE|Animal (Crocodile (Giant))	TEMPLATE:Axiomatic
+Animal (Crocodile (Giant)).COPY=Animal (Crocodile (Giant))	KEY:Companion ~ Animal (Crocodile (Giant/Entropic))
+Companion ~ Animal (Crocodile (Giant/Entropic)).MOD	OUTPUTNAME:Animal (Crocodile (Giant/Entropic))	TYPE:Companion	SERVESAS:RACE|Animal (Crocodile (Giant))	TEMPLATE:Entropic
+Animal (Crocodile (Giant)).COPY=Animal (Crocodile (Giant))	KEY:Companion ~ Animal (Crocodile (Giant/Vivacious))
+Companion ~ Animal (Crocodile (Giant/Vivacious)).MOD	OUTPUTNAME:Animal (Crocodile (Giant/Vivacious))	TYPE:Companion	SERVESAS:RACE|Animal (Crocodile (Giant))	TEMPLATE:Vivacious
+Animal (Tiger).COPY=Animal (Tiger)	KEY:Companion ~ Animal (Tiger/Anarchic)
+Companion ~ Animal (Tiger/Anarchic).MOD	OUTPUTNAME:Animal (Tiger/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Tiger)	TEMPLATE:Anarchic
+Animal (Tiger).COPY=Animal (Tiger)	KEY:Companion ~ Animal (Tiger/Axiomatic)
+Companion ~ Animal (Tiger/Axiomatic).MOD	OUTPUTNAME:Animal (Tiger/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Tiger)	TEMPLATE:Axiomatic
+Animal (Tiger).COPY=Animal (Tiger)	KEY:Companion ~ Animal (Tiger/Entropic)
+Companion ~ Animal (Tiger/Entropic).MOD	OUTPUTNAME:Animal (Tiger/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Tiger)	TEMPLATE:Entropic
+Animal (Tiger).COPY=Animal (Tiger)	KEY:Companion ~ Animal (Tiger/Vivacious)
+Companion ~ Animal (Tiger/Vivacious).MOD	OUTPUTNAME:Animal (Tiger/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Tiger)	TEMPLATE:Vivacious
+
+#BLOCK:Summon Monster VI
+Animal (Bear/Polar).COPY=Animal (Bear/Polar)	KEY:Companion ~ Animal (Bear/Polar/Anarchic)
+Companion ~ Animal (Bear/Polar/Anarchic).MOD	OUTPUTNAME:Animal (Bear/Polar/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Bear/Polar)	TEMPLATE:Anarchic
+Animal (Bear/Polar).COPY=Animal (Bear/Polar)	KEY:Companion ~ Animal (Bear/Polar/Axiomatic)
+Companion ~ Animal (Bear/Polar/Axiomatic).MOD	OUTPUTNAME:Animal (Bear/Polar/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Bear/Polar)	TEMPLATE:Axiomatic
+Animal (Bear/Polar).COPY=Animal (Bear/Polar)	KEY:Companion ~ Animal (Bear/Polar/Entropic)
+Companion ~ Animal (Bear/Polar/Entropic).MOD	OUTPUTNAME:Animal (Bear/Polar/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Bear/Polar)	TEMPLATE:Entropic
+Animal (Bear/Polar).COPY=Animal (Bear/Polar)	KEY:Companion ~ Animal (Bear/Polar/Vivacious)
+Companion ~ Animal (Bear/Polar/Vivacious).MOD	OUTPUTNAME:Animal (Bear/Polar/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Bear/Polar)	TEMPLATE:Vivacious
+Animal (Whale (Orca)).COPY=Animal (Whale (Orca))	KEY:Companion ~ Animal (Whale (Orca/Anarchic))
+Companion ~ Animal (Whale (Orca/Anarchic)).MOD	OUTPUTNAME:Animal (Whale (Orca/Anarchic))	TYPE:Companion	SERVESAS:RACE|Animal (Whale (Orca))	TEMPLATE:Anarchic
+Animal (Whale (Orca)).COPY=Animal (Whale (Orca))	KEY:Companion ~ Animal (Whale (Orca/Axiomatic))
+Companion ~ Animal (Whale (Orca/Axiomatic)).MOD	OUTPUTNAME:Animal (Whale (Orca/Axiomatic))	TYPE:Companion	SERVESAS:RACE|Animal (Whale (Orca))	TEMPLATE:Axiomatic
+Animal (Whale (Orca)).COPY=Animal (Whale (Orca))	KEY:Companion ~ Animal (Whale (Orca/Entropic))
+Companion ~ Animal (Whale (Orca/Entropic)).MOD	OUTPUTNAME:Animal (Whale (Orca/Entropic))	TYPE:Companion	SERVESAS:RACE|Animal (Whale (Orca))	TEMPLATE:Entropic
+Animal (Whale (Orca)).COPY=Animal (Whale (Orca))	KEY:Companion ~ Animal (Whale (Orca/Vivacious))
+Companion ~ Animal (Whale (Orca/Vivacious)).MOD	OUTPUTNAME:Animal (Whale (Orca/Vivacious))	TYPE:Companion	SERVESAS:RACE|Animal (Whale (Orca))	TEMPLATE:Vivacious
+Dire Animal (Dire Lion).COPY=Dire Animal (Dire Lion)	KEY:Companion ~ Dire Animal (Dire Lion/Anarchic)
+Companion ~ Dire Animal (Dire Lion/Anarchic).MOD	OUTPUTNAME:Dire Animal (Dire Lion/Anarchic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Lion)	TEMPLATE:Anarchic
+Dire Animal (Dire Lion).COPY=Dire Animal (Dire Lion)	KEY:Companion ~ Dire Animal (Dire Lion/Axiomatic)
+Companion ~ Dire Animal (Dire Lion/Axiomatic).MOD	OUTPUTNAME:Dire Animal (Dire Lion/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Lion)	TEMPLATE:Axiomatic
+Dire Animal (Dire Lion).COPY=Dire Animal (Dire Lion)	KEY:Companion ~ Dire Animal (Dire Lion/Entropic)
+Companion ~ Dire Animal (Dire Lion/Entropic).MOD	OUTPUTNAME:Dire Animal (Dire Lion/Entropic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Lion)	TEMPLATE:Entropic
+Dire Animal (Dire Lion).COPY=Dire Animal (Dire Lion)	KEY:Companion ~ Dire Animal (Dire Lion/Vivacious)
+Companion ~ Dire Animal (Dire Lion/Vivacious).MOD	OUTPUTNAME:Dire Animal (Dire Lion/Vivacious)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Lion)	TEMPLATE:Vivacious
+Monstrous Centipede (Gargantuan).COPY=Monstrous Centipede (Gargantuan)	KEY:Companion ~ Monstrous Centipede (Gargantuan/Anarchic)
+Companion ~ Monstrous Centipede (Gargantuan/Anarchic).MOD	OUTPUTNAME:Monstrous Centipede (Gargantuan/Anarchic)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Gargantuan)	TEMPLATE:Anarchic
+Monstrous Centipede (Gargantuan).COPY=Monstrous Centipede (Gargantuan)	KEY:Companion ~ Monstrous Centipede (Gargantuan/Axiomatic)
+Companion ~ Monstrous Centipede (Gargantuan/Axiomatic).MOD	OUTPUTNAME:Monstrous Centipede (Gargantuan/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Gargantuan)	TEMPLATE:Axiomatic
+Monstrous Centipede (Gargantuan).COPY=Monstrous Centipede (Gargantuan)	KEY:Companion ~ Monstrous Centipede (Gargantuan/Entropic)
+Companion ~ Monstrous Centipede (Gargantuan/Entropic).MOD	OUTPUTNAME:Monstrous Centipede (Gargantuan/Entropic)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Gargantuan)	TEMPLATE:Entropic
+Monstrous Centipede (Gargantuan).COPY=Monstrous Centipede (Gargantuan)	KEY:Companion ~ Monstrous Centipede (Gargantuan/Vivacious)
+Companion ~ Monstrous Centipede (Gargantuan/Vivacious).MOD	OUTPUTNAME:Monstrous Centipede (Gargantuan/Vivacious)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Gargantuan)	TEMPLATE:Vivacious
+Animal (Rhinoceros).COPY=Animal (Rhinoceros)	KEY:Companion ~ Animal (Rhinoceros/Anarchic)
+Companion ~ Animal (Rhinoceros/Anarchic).MOD	OUTPUTNAME:Animal (Rhinoceros/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Rhinoceros)	TEMPLATE:Anarchic
+Animal (Rhinoceros).COPY=Animal (Rhinoceros)	KEY:Companion ~ Animal (Rhinoceros/Axiomatic)
+Companion ~ Animal (Rhinoceros/Axiomatic).MOD	OUTPUTNAME:Animal (Rhinoceros/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Rhinoceros)	TEMPLATE:Axiomatic
+Animal (Rhinoceros).COPY=Animal (Rhinoceros)	KEY:Companion ~ Animal (Rhinoceros/Entropic)
+Companion ~ Animal (Rhinoceros/Entropic).MOD	OUTPUTNAME:Animal (Rhinoceros/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Rhinoceros)	TEMPLATE:Entropic
+Animal (Rhinoceros).COPY=Animal (Rhinoceros)	KEY:Companion ~ Animal (Rhinoceros/Vivacious)
+Companion ~ Animal (Rhinoceros/Vivacious).MOD	OUTPUTNAME:Animal (Rhinoceros/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Rhinoceros)	TEMPLATE:Vivacious
+Dinosaur (Elasmosaurus).COPY=Dinosaur (Elasmosaurus/Anarchic)	KEY:Companion ~ Dinosaur (Elasmosaurus/Anarchic)
+Companion ~ Dinosaur (Elasmosaurus/Anarchic).MOD	OUTPUTNAME:Dinosaur (Elasmosaurus/Anarchic)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Elasmosaurus)	TEMPLATE:Anarchic
+Dinosaur (Elasmosaurus).COPY=Dinosaur (Elasmosaurus/Axiomatic)	KEY:Companion ~ Dinosaur (Elasmosaurus/Axiomatic)
+Companion ~ Dinosaur (Elasmosaurus/Axiomatic).MOD	OUTPUTNAME:Dinosaur (Elasmosaurus/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Elasmosaurus)	TEMPLATE:Axiomatic
+Dinosaur (Elasmosaurus).COPY=Dinosaur (Elasmosaurus/Entropic)	KEY:Companion ~ Dinosaur (Elasmosaurus/Entropic)
+Companion ~ Dinosaur (Elasmosaurus/Entropic).MOD	OUTPUTNAME:Dinosaur (Elasmosaurus/Entropic)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Elasmosaurus)	TEMPLATE:Entropic
+Dinosaur (Elasmosaurus).COPY=Dinosaur (Elasmosaurus/Vivacious)	KEY:Companion ~ Dinosaur (Elasmosaurus/Vivacious)
+Companion ~ Dinosaur (Elasmosaurus/Vivacious).MOD	OUTPUTNAME:Dinosaur (Elasmosaurus/Vivacious)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Elasmosaurus)	TEMPLATE:Vivacious
+Monstrous Spider (Huge).COPY=Monstrous Spider (Huge)	KEY:Companion ~ Monstrous Spider (Huge/Anarchic)
+Companion ~ Monstrous Spider (Huge/Anarchic).MOD	OUTPUTNAME:Monstrous Spider (Huge/Anarchic)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Huge)	TEMPLATE:Anarchic
+Monstrous Spider (Huge).COPY=Monstrous Spider (Huge)	KEY:Companion ~ Monstrous Spider (Huge/Axiomatic)
+Companion ~ Monstrous Spider (Huge/Axiomatic).MOD	OUTPUTNAME:Monstrous Spider (Huge/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Huge)	TEMPLATE:Axiomatic
+Monstrous Spider (Huge).COPY=Monstrous Spider (Huge)	KEY:Companion ~ Monstrous Spider (Huge/Entropic)
+Companion ~ Monstrous Spider (Huge/Entropic).MOD	OUTPUTNAME:Monstrous Spider (Huge/Entropic)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Huge)	TEMPLATE:Entropic
+Monstrous Spider (Huge).COPY=Monstrous Spider (Huge)	KEY:Companion ~ Monstrous Spider (Huge/Vivacious)
+Companion ~ Monstrous Spider (Huge/Vivacious).MOD	OUTPUTNAME:Monstrous Spider (Huge/Vivacious)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Huge)	TEMPLATE:Vivacious
+Animal (Snake (Constrictor)).COPY=Animal (Snake (Constrictor))	KEY:Companion ~ Animal (Snake (Constrictor/Giant/Anarchic))
+Companion ~ Animal (Snake (Constrictor/Giant/Anarchic)).MOD	OUTPUTNAME:Animal (Snake (Constrictor/Giant/Anarchic))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Constrictor))	KIT:1|Animal (Snake (Constrictor/Giant)) Companion	TEMPLATE:Anarchic
+Animal (Snake (Constrictor)).COPY=Animal (Snake (Constrictor))	KEY:Companion ~ Animal (Snake (Constrictor/Giant/Axiomatic))
+Companion ~ Animal (Snake (Constrictor/Giant/Axiomatic)).MOD	OUTPUTNAME:Animal (Snake (Constrictor/Giant/Axiomatic))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Constrictor))	KIT:1|Animal (Snake (Constrictor/Giant)) Companion	TEMPLATE:Axiomatic
+Animal (Snake (Constrictor)).COPY=Animal (Snake (Constrictor))	KEY:Companion ~ Animal (Snake (Constrictor/Giant/Entropic))
+Companion ~ Animal (Snake (Constrictor/Giant/Entropic)).MOD	OUTPUTNAME:Animal (Snake (Constrictor/Giant/Entropic))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Constrictor))	KIT:1|Animal (Snake (Constrictor/Giant)) Companion	TEMPLATE:Entropic
+Animal (Snake (Constrictor)).COPY=Animal (Snake (Constrictor))	KEY:Companion ~ Animal (Snake (Constrictor/Giant/Vivacious))
+Companion ~ Animal (Snake (Constrictor/Giant/Vivacious)).MOD	OUTPUTNAME:Animal (Snake (Constrictor/Giant/Vivacious))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Constrictor))	KIT:1|Animal (Snake (Constrictor/Giant)) Companion	TEMPLATE:Vivacious
+
+#BLOCK:Summon Monster VII
+Animal (Elephant).COPY=Animal (Elephant)	KEY:Companion ~ Animal (Elephant/Anarchic)
+Companion ~ Animal (Elephant/Anarchic).MOD	OUTPUTNAME:Animal (Elephant/Anarchic)	TYPE:Companion	SERVESAS:RACE|Animal (Elephant)	TEMPLATE:Anarchic
+Animal (Elephant).COPY=Animal (Elephant)	KEY:Companion ~ Animal (Elephant/Axiomatic)
+Companion ~ Animal (Elephant/Axiomatic).MOD	OUTPUTNAME:Animal (Elephant/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Animal (Elephant)	TEMPLATE:Axiomatic
+Animal (Elephant).COPY=Animal (Elephant)	KEY:Companion ~ Animal (Elephant/Entropic)
+Companion ~ Animal (Elephant/Entropic).MOD	OUTPUTNAME:Animal (Elephant/Entropic)	TYPE:Companion	SERVESAS:RACE|Animal (Elephant)	TEMPLATE:Entropic
+Animal (Elephant).COPY=Animal (Elephant)	KEY:Companion ~ Animal (Elephant/Vivacious)
+Companion ~ Animal (Elephant/Vivacious).MOD	OUTPUTNAME:Animal (Elephant/Vivacious)	TYPE:Companion	SERVESAS:RACE|Animal (Elephant)	TEMPLATE:Vivacious
+Animal (Whale (Baleen)).COPY=Animal (Whale (Baleen))	KEY:Companion ~ Animal (Whale (Baleen/Anarchic))
+Companion ~ Animal (Whale (Baleen/Anarchic)).MOD	OUTPUTNAME:Animal (Whale (Baleen/Anarchic))	TYPE:Companion	SERVESAS:RACE|Animal (Whale (Baleen))	TEMPLATE:Anarchic
+Animal (Whale (Baleen)).COPY=Animal (Whale (Baleen))	KEY:Companion ~ Animal (Whale (Baleen/Axiomatic))
+Companion ~ Animal (Whale (Baleen/Axiomatic)).MOD	OUTPUTNAME:Animal (Whale (Baleen/Axiomatic))	TYPE:Companion	SERVESAS:RACE|Animal (Whale (Baleen))	TEMPLATE:Axiomatic
+Animal (Whale (Baleen)).COPY=Animal (Whale (Baleen))	KEY:Companion ~ Animal (Whale (Baleen/Entropic))
+Companion ~ Animal (Whale (Baleen/Entropic)).MOD	OUTPUTNAME:Animal (Whale (Baleen/Entropic))	TYPE:Companion	SERVESAS:RACE|Animal (Whale (Baleen))	TEMPLATE:Entropic
+Animal (Whale (Baleen)).COPY=Animal (Whale (Baleen))	KEY:Companion ~ Animal (Whale (Baleen/Vivacious))
+Companion ~ Animal (Whale (Baleen/Vivacious)).MOD	OUTPUTNAME:Animal (Whale (Baleen/Vivacious))	TYPE:Companion	SERVESAS:RACE|Animal (Whale (Baleen))	TEMPLATE:Vivacious
+Dinosaur (Megaraptor).COPY=Dinosaur (Megaraptor/Anarchic)	KEY:Companion ~ Dinosaur (Megaraptor/Anarchic)
+Companion ~ Dinosaur (Megaraptor/Anarchic).MOD	OUTPUTNAME:Dinosaur (Megaraptor/Anarchic)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Megaraptor)	TEMPLATE:Anarchic
+Dinosaur (Megaraptor).COPY=Dinosaur (Megaraptor/Axiomatic)	KEY:Companion ~ Dinosaur (Megaraptor/Axiomatic)
+Companion ~ Dinosaur (Megaraptor/Axiomatic).MOD	OUTPUTNAME:Dinosaur (Megaraptor/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Megaraptor)	TEMPLATE:Axiomatic
+Dinosaur (Megaraptor).COPY=Dinosaur (Megaraptor/Entropic)	KEY:Companion ~ Dinosaur (Megaraptor/Entropic)
+Companion ~ Dinosaur (Megaraptor/Entropic).MOD	OUTPUTNAME:Dinosaur (Megaraptor/Entropic)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Megaraptor)	TEMPLATE:Entropic
+Dinosaur (Megaraptor).COPY=Dinosaur (Megaraptor/Vivacious)	KEY:Companion ~ Dinosaur (Megaraptor/Vivacious)
+Companion ~ Dinosaur (Megaraptor/Vivacious).MOD	OUTPUTNAME:Dinosaur (Megaraptor/Vivacious)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Megaraptor)	TEMPLATE:Vivacious
+Monstrous Scorpion (Huge).COPY=Monstrous Scorpion (Huge)	KEY:Companion ~ Monstrous Scorpion (Huge/Anarchic)
+Companion ~ Monstrous Scorpion (Huge/Anarchic).MOD	OUTPUTNAME:Monstrous Scorpion (Huge/Anarchic)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Huge)	TEMPLATE:Anarchic
+Monstrous Scorpion (Huge).COPY=Monstrous Scorpion (Huge)	KEY:Companion ~ Monstrous Scorpion (Huge/Axiomatic)
+Companion ~ Monstrous Scorpion (Huge/Axiomatic).MOD	OUTPUTNAME:Monstrous Scorpion (Huge/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Huge)	TEMPLATE:Axiomatic
+Monstrous Scorpion (Huge).COPY=Monstrous Scorpion (Huge)	KEY:Companion ~ Monstrous Scorpion (Huge/Entropic)
+Companion ~ Monstrous Scorpion (Huge/Entropic).MOD	OUTPUTNAME:Monstrous Scorpion (Huge/Entropic)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Huge)	TEMPLATE:Entropic
+Monstrous Scorpion (Huge).COPY=Monstrous Scorpion (Huge)	KEY:Companion ~ Monstrous Scorpion (Huge/Vivacious)
+Companion ~ Monstrous Scorpion (Huge/Vivacious).MOD	OUTPUTNAME:Monstrous Scorpion (Huge/Vivacious)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Huge)	TEMPLATE:Vivacious
+Animal (Octopus (Giant)).COPY=Animal (Octopus (Giant/Anarchic))	KEY:Companion ~ Animal (Octopus (Giant/Anarchic))
+Companion ~ Animal (Octopus (Giant/Anarchic)).MOD	OUTPUTNAME:Animal (Octopus (Giant/Anarchic))	TYPE:Companion	SERVESAS:RACE|Animal (Octopus (Giant))	TEMPLATE:Anarchic
+Animal (Octopus (Giant)).COPY=Animal (Octopus (Giant/Axiomatic))	KEY:Companion ~ Animal (Octopus (Giant/Axiomatic))
+Companion ~ Animal (Octopus (Giant/Axiomatic)).MOD	OUTPUTNAME:Animal (Octopus (Giant/Axiomatic))	TYPE:Companion	SERVESAS:RACE|Animal (Octopus (Giant))	TEMPLATE:Axiomatic
+Animal (Octopus (Giant)).COPY=Animal (Octopus (Giant/Entropic))	KEY:Companion ~ Animal (Octopus (Giant/Entropic))
+Companion ~ Animal (Octopus (Giant/Entropic)).MOD	OUTPUTNAME:Animal (Octopus (Giant/Entropic))	TYPE:Companion	SERVESAS:RACE|Animal (Octopus (Giant))	TEMPLATE:Entropic
+Animal (Octopus (Giant)).COPY=Animal (Octopus (Giant/Vivacious))	KEY:Companion ~ Animal (Octopus (Giant/Vivacious))
+Companion ~ Animal (Octopus (Giant/Vivacious)).MOD	OUTPUTNAME:Animal (Octopus (Giant/Vivacious))	TYPE:Companion	SERVESAS:RACE|Animal (Octopus (Giant))	TEMPLATE:Vivacious
+Girallon.COPY=Girallon	KEY:Companion ~ Girallon (Anarchic)
+Companion ~ Girallon (Anarchic).MOD	OUTPUTNAME:Girallon (Anarchic)	TYPE:Companion	SERVESAS:RACE|Girallon	TEMPLATE:Anarchic
+Girallon.COPY=Girallon	KEY:Companion ~ Girallon (Axiomatic)
+Companion ~ Girallon (Axiomatic).MOD	OUTPUTNAME:Girallon (Axiomatic)	TYPE:Companion	SERVESAS:RACE|Girallon	TEMPLATE:Axiomatic
+Girallon.COPY=Girallon	KEY:Companion ~ Girallon (Entropic)
+Companion ~ Girallon (Entropic).MOD	OUTPUTNAME:Girallon (Entropic)	TYPE:Companion	SERVESAS:RACE|Girallon	TEMPLATE:Entropic
+Girallon.COPY=Girallon	KEY:Companion ~ Girallon (Vivacious)
+Companion ~ Girallon (Vivacious).MOD	OUTPUTNAME:Girallon (Vivacious)	TYPE:Companion	SERVESAS:RACE|Girallon	TEMPLATE:Vivacious
+
+#BLOCK:Summon Monster VIII
+Dire Animal (Dire Bear).COPY=Dire Animal (Dire Bear)	KEY:Companion ~ Dire Animal (Dire Bear/Anarchic)
+Companion ~ Dire Animal (Dire Bear/Anarchic).MOD	OUTPUTNAME:Dire Animal (Dire Bear/Anarchic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Bear)	TEMPLATE:Anarchic
+Dire Animal (Dire Bear).COPY=Dire Animal (Dire Bear)	KEY:Companion ~ Dire Animal (Dire Bear/Axiomatic)
+Companion ~ Dire Animal (Dire Bear/Axiomatic).MOD	OUTPUTNAME:Dire Animal (Dire Bear/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Bear)	TEMPLATE:Axiomatic
+Dire Animal (Dire Bear).COPY=Dire Animal (Dire Bear)	KEY:Companion ~ Dire Animal (Dire Bear/Entropic)
+Companion ~ Dire Animal (Dire Bear/Entropic).MOD	OUTPUTNAME:Dire Animal (Dire Bear/Entropic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Bear)	TEMPLATE:Entropic
+Dire Animal (Dire Bear).COPY=Dire Animal (Dire Bear)	KEY:Companion ~ Dire Animal (Dire Bear/Vivacious)
+Companion ~ Dire Animal (Dire Bear/Vivacious).MOD	OUTPUTNAME:Dire Animal (Dire Bear/Vivacious)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Bear)	TEMPLATE:Vivacious
+Animal (Whale (Cachalot)).COPY=Animal (Whale (Cachalot))	KEY:Companion ~ Animal (Whale (Cachalot/Anarchic))
+Companion ~ Animal (Whale (Cachalot/Anarchic)).MOD	OUTPUTNAME:Animal (Whale (Cachalot/Anarchic))	TYPE:Companion	SERVESAS:RACE|Animal (Whale (Cachalot))	TEMPLATE:Anarchic
+Animal (Whale (Cachalot)).COPY=Animal (Whale (Cachalot))	KEY:Companion ~ Animal (Whale (Cachalot/Axiomatic))
+Companion ~ Animal (Whale (Cachalot/Axiomatic)).MOD	OUTPUTNAME:Animal (Whale (Cachalot/Axiomatic))	TYPE:Companion	SERVESAS:RACE|Animal (Whale (Cachalot))	TEMPLATE:Axiomatic
+Animal (Whale (Cachalot)).COPY=Animal (Whale (Cachalot))	KEY:Companion ~ Animal (Whale (Cachalot/Entropic))
+Companion ~ Animal (Whale (Cachalot/Entropic)).MOD	OUTPUTNAME:Animal (Whale (Cachalot/Entropic))	TYPE:Companion	SERVESAS:RACE|Animal (Whale (Cachalot))	TEMPLATE:Entropic
+Animal (Whale (Cachalot)).COPY=Animal (Whale (Cachalot))	KEY:Companion ~ Animal (Whale (Cachalot/Vivacious))
+Companion ~ Animal (Whale (Cachalot/Vivacious)).MOD	OUTPUTNAME:Animal (Whale (Cachalot/Vivacious))	TYPE:Companion	SERVESAS:RACE|Animal (Whale (Cachalot))	TEMPLATE:Vivacious
+Dinosaur (Triceratops).COPY=Dinosaur (Triceratops)	KEY:Companion ~ Dinosaur (Triceratops/Anarchic)
+Companion ~ Dinosaur (Triceratops/Anarchic).MOD	OUTPUTNAME:Dinosaur (Triceratops/Anarchic)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Triceratops)	TEMPLATE:Anarchic
+Dinosaur (Triceratops).COPY=Dinosaur (Triceratops)	KEY:Companion ~ Dinosaur (Triceratops/Axiomatic)
+Companion ~ Dinosaur (Triceratops/Axiomatic).MOD	OUTPUTNAME:Dinosaur (Triceratops/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Triceratops)	TEMPLATE:Axiomatic
+Dinosaur (Triceratops).COPY=Dinosaur (Triceratops)	KEY:Companion ~ Dinosaur (Triceratops/Entropic)
+Companion ~ Dinosaur (Triceratops/Entropic).MOD	OUTPUTNAME:Dinosaur (Triceratops/Entropic)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Triceratops)	TEMPLATE:Entropic
+Dinosaur (Triceratops).COPY=Dinosaur (Triceratops)	KEY:Companion ~ Dinosaur (Triceratops/Vivacious)
+Companion ~ Dinosaur (Triceratops/Vivacious).MOD	OUTPUTNAME:Dinosaur (Triceratops/Vivacious)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Triceratops)	TEMPLATE:Vivacious
+Animal (Squid).COPY=Animal (Squid)	KEY:Companion ~ Animal (Squid (Giant/Anarchic))
+Companion ~ Animal (Squid (Giant/Anarchic)).MOD	OUTPUTNAME:Animal (Squid (Giant/Anarchic))	TYPE:Companion	SERVESAS:RACE|Animal (Squid)	KIT:1|Animal (Squid (Giant)) Companion	TEMPLATE:Anarchic	
+Animal (Squid).COPY=Animal (Squid)	KEY:Companion ~ Animal (Squid (Giant/Axiomatic))
+Companion ~ Animal (Squid (Giant/Axiomatic)).MOD	OUTPUTNAME:Animal (Squid (Giant/Axiomatic))	TYPE:Companion	SERVESAS:RACE|Animal (Squid)	KIT:1|Animal (Squid (Giant)) Companion	TEMPLATE:Axiomatic	
+Animal (Squid).COPY=Animal (Squid)	KEY:Companion ~ Animal (Squid (Giant/Entropic))
+Companion ~ Animal (Squid (Giant/Entropic)).MOD	OUTPUTNAME:Animal (Squid (Giant/Entropic))	TYPE:Companion	SERVESAS:RACE|Animal (Squid)	KIT:1|Animal (Squid (Giant)) Companion	TEMPLATE:Entropic	
+Animal (Squid).COPY=Animal (Squid)	KEY:Companion ~ Animal (Squid (Giant/Vivacious))
+Companion ~ Animal (Squid (Giant/Vivacious)).MOD	OUTPUTNAME:Animal (Squid (Giant/Vivacious))	TYPE:Companion	SERVESAS:RACE|Animal (Squid)	KIT:1|Animal (Squid (Giant)) Companion	TEMPLATE:Vivacious	
+Monstrous Centipede (Colossal).COPY=Monstrous Centipede (Colossal)	KEY:Companion ~ Monstrous Centipede (Colossal/Anarchic)
+Companion ~ Monstrous Centipede (Colossal/Anarchic).MOD	OUTPUTNAME:Monstrous Centipede (Colossal/Anarchic)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Colossal)	TEMPLATE:Anarchic
+Monstrous Centipede (Colossal).COPY=Monstrous Centipede (Colossal)	KEY:Companion ~ Monstrous Centipede (Colossal/Axiomatic)
+Companion ~ Monstrous Centipede (Colossal/Axiomatic).MOD	OUTPUTNAME:Monstrous Centipede (Colossal/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Colossal)	TEMPLATE:Axiomatic
+Monstrous Centipede (Colossal).COPY=Monstrous Centipede (Colossal)	KEY:Companion ~ Monstrous Centipede (Colossal/Entropic)
+Companion ~ Monstrous Centipede (Colossal/Entropic).MOD	OUTPUTNAME:Monstrous Centipede (Colossal/Entropic)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Colossal)	TEMPLATE:Entropic
+Monstrous Centipede (Colossal).COPY=Monstrous Centipede (Colossal)	KEY:Companion ~ Monstrous Centipede (Colossal/Vivacious)
+Companion ~ Monstrous Centipede (Colossal/Vivacious).MOD	OUTPUTNAME:Monstrous Centipede (Colossal/Vivacious)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Colossal)	TEMPLATE:Vivacious
+Dire Animal (Dire Tiger).COPY=Dire Animal (Dire Tiger)	KEY:Companion ~ Dire Animal (Dire Tiger/Anarchic)
+Companion ~ Dire Animal (Dire Tiger/Anarchic).MOD	OUTPUTNAME:Dire Animal (Dire Tiger/Anarchic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Tiger)	TEMPLATE:Anarchic
+Dire Animal (Dire Tiger).COPY=Dire Animal (Dire Tiger)	KEY:Companion ~ Dire Animal (Dire Tiger/Axiomatic)
+Companion ~ Dire Animal (Dire Tiger/Axiomatic).MOD	OUTPUTNAME:Dire Animal (Dire Tiger/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Tiger)	TEMPLATE:Axiomatic
+Dire Animal (Dire Tiger).COPY=Dire Animal (Dire Tiger)	KEY:Companion ~ Dire Animal (Dire Tiger/Entropic)
+Companion ~ Dire Animal (Dire Tiger/Entropic).MOD	OUTPUTNAME:Dire Animal (Dire Tiger/Entropic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Tiger)	TEMPLATE:Entropic
+Dire Animal (Dire Tiger).COPY=Dire Animal (Dire Tiger)	KEY:Companion ~ Dire Animal (Dire Tiger/Vivacious)
+Companion ~ Dire Animal (Dire Tiger/Vivacious).MOD	OUTPUTNAME:Dire Animal (Dire Tiger/Vivacious)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Tiger)	TEMPLATE:Vivacious
+Monstrous Spider (Gargantuan).COPY=Monstrous Spider (Gargantuan)	KEY:Companion ~ Monstrous Spider (Gargantuan/Anarchic)
+Companion ~ Monstrous Spider (Gargantuan/Anarchic).MOD	OUTPUTNAME:Monstrous Spider (Gargantuan/Anarchic)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Gargantuan)	TEMPLATE:Anarchic
+Monstrous Spider (Gargantuan).COPY=Monstrous Spider (Gargantuan)	KEY:Companion ~ Monstrous Spider (Gargantuan/Axiomatic)
+Companion ~ Monstrous Spider (Gargantuan/Axiomatic).MOD	OUTPUTNAME:Monstrous Spider (Gargantuan/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Gargantuan)	TEMPLATE:Axiomatic
+Monstrous Spider (Gargantuan).COPY=Monstrous Spider (Gargantuan)	KEY:Companion ~ Monstrous Spider (Gargantuan/Entropic)
+Companion ~ Monstrous Spider (Gargantuan/Entropic).MOD	OUTPUTNAME:Monstrous Spider (Gargantuan/Entropic)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Gargantuan)	TEMPLATE:Entropic
+Monstrous Spider (Gargantuan).COPY=Monstrous Spider (Gargantuan)	KEY:Companion ~ Monstrous Spider (Gargantuan/Vivacious)
+Companion ~ Monstrous Spider (Gargantuan/Vivacious).MOD	OUTPUTNAME:Monstrous Spider (Gargantuan/Vivacious)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Gargantuan)	TEMPLATE:Vivacious
+Dinosaur (Tyrannosaurus).COPY=Dinosaur (Tyrannosaurus)	KEY:Companion ~ Dinosaur (Tyrannosaurus/Anarchic)
+Companion ~ Dinosaur (Tyrannosaurus/Anarchic).MOD	OUTPUTNAME:Dinosaur (Tyrannosaurus/Anarchic)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Tyrannosaurus)	TEMPLATE:Anarchic
+Dinosaur (Tyrannosaurus).COPY=Dinosaur (Tyrannosaurus)	KEY:Companion ~ Dinosaur (Tyrannosaurus/Axiomatic)
+Companion ~ Dinosaur (Tyrannosaurus/Axiomatic).MOD	OUTPUTNAME:Dinosaur (Tyrannosaurus/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Tyrannosaurus)	TEMPLATE:Axiomatic
+Dinosaur (Tyrannosaurus).COPY=Dinosaur (Tyrannosaurus)	KEY:Companion ~ Dinosaur (Tyrannosaurus/Entropic)
+Companion ~ Dinosaur (Tyrannosaurus/Entropic).MOD	OUTPUTNAME:Dinosaur (Tyrannosaurus/Entropic)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Tyrannosaurus)	TEMPLATE:Entropic
+Dinosaur (Tyrannosaurus).COPY=Dinosaur (Tyrannosaurus)	KEY:Companion ~ Dinosaur (Tyrannosaurus/Vivacious)
+Companion ~ Dinosaur (Tyrannosaurus/Vivacious).MOD	OUTPUTNAME:Dinosaur (Tyrannosaurus/Vivacious)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Tyrannosaurus)	TEMPLATE:Vivacious
+
+#BLOCK:Summon Monster IX
+Roc.COPY=Roc	KEY:Companion ~ Roc (Anarchic)
+Companion ~ Roc (Anarchic).MOD	OUTPUTNAME:Roc (Anarchic)	TYPE:Companion	SERVESAS:RACE|Roc	TEMPLATE:Anarchic
+Roc.COPY=Roc	KEY:Companion ~ Roc (Axiomatic)
+Companion ~ Roc (Axiomatic).MOD	OUTPUTNAME:Roc (Axiomatic)	TYPE:Companion	SERVESAS:RACE|Roc	TEMPLATE:Axiomatic
+Roc.COPY=Roc	KEY:Companion ~ Roc (Entropic)
+Companion ~ Roc (Entropic).MOD	OUTPUTNAME:Roc (Entropic)	TYPE:Companion	SERVESAS:RACE|Roc	TEMPLATE:Entropic
+Roc.COPY=Roc	KEY:Companion ~ Roc (Vivacious)
+Companion ~ Roc (Vivacious).MOD	OUTPUTNAME:Roc (Vivacious)	TYPE:Companion	SERVESAS:RACE|Roc	TEMPLATE:Vivacious
+Dire Animal (Dire Shark).COPY=Dire Animal (Dire Shark)	KEY:Companion ~ Dire Animal (Dire Shark/Anarchic)
+Companion ~ Dire Animal (Dire Shark/Anarchic).MOD	OUTPUTNAME:Dire Animal (Dire Shark/Anarchic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Shark)	TEMPLATE:Anarchic
+Dire Animal (Dire Shark).COPY=Dire Animal (Dire Shark)	KEY:Companion ~ Dire Animal (Dire Shark/Axiomatic)
+Companion ~ Dire Animal (Dire Shark/Axiomatic).MOD	OUTPUTNAME:Dire Animal (Dire Shark/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Shark)	TEMPLATE:Axiomatic
+Dire Animal (Dire Shark).COPY=Dire Animal (Dire Shark)	KEY:Companion ~ Dire Animal (Dire Shark/Entropic)
+Companion ~ Dire Animal (Dire Shark/Entropic).MOD	OUTPUTNAME:Dire Animal (Dire Shark/Entropic)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Shark)	TEMPLATE:Entropic
+Dire Animal (Dire Shark).COPY=Dire Animal (Dire Shark)	KEY:Companion ~ Dire Animal (Dire Shark/Vivacious)
+Companion ~ Dire Animal (Dire Shark/Vivacious).MOD	OUTPUTNAME:Dire Animal (Dire Shark/Vivacious)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Shark)	TEMPLATE:Vivacious
+Monstrous Scorpion (Gargantuan).COPY=Monstrous Scorpion (Gargantuan)	KEY:Companion ~ Monstrous Scorpion (Gargantuan/Anarchic)
+Companion ~ Monstrous Scorpion (Gargantuan/Anarchic).MOD	OUTPUTNAME:Monstrous Scorpion (Gargantuan/Anarchic)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Gargantuan)	TEMPLATE:Anarchic
+Monstrous Scorpion (Gargantuan).COPY=Monstrous Scorpion (Gargantuan)	KEY:Companion ~ Monstrous Scorpion (Gargantuan/Axiomatic)
+Companion ~ Monstrous Scorpion (Gargantuan/Axiomatic).MOD	OUTPUTNAME:Monstrous Scorpion (Gargantuan/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Gargantuan)	TEMPLATE:Axiomatic
+Monstrous Scorpion (Gargantuan).COPY=Monstrous Scorpion (Gargantuan)	KEY:Companion ~ Monstrous Scorpion (Gargantuan/Entropic)
+Companion ~ Monstrous Scorpion (Gargantuan/Entropic).MOD	OUTPUTNAME:Monstrous Scorpion (Gargantuan/Entropic)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Gargantuan)	TEMPLATE:Entropic
+Monstrous Scorpion (Gargantuan).COPY=Monstrous Scorpion (Gargantuan)	KEY:Companion ~ Monstrous Scorpion (Gargantuan/Vivacious)
+Companion ~ Monstrous Scorpion (Gargantuan/Vivacious).MOD	OUTPUTNAME:Monstrous Scorpion (Gargantuan/Vivacious)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Gargantuan)	TEMPLATE:Vivacious
+Monstrous Spider (Colossal).COPY=Monstrous Spider (Colossal)	KEY:Companion ~ Monstrous Spider (Colossal/Anarchic)
+Companion ~ Monstrous Spider (Colossal/Anarchic).MOD	OUTPUTNAME:Monstrous Spider (Colossal/Anarchic)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Colossal)	TEMPLATE:Anarchic
+Monstrous Spider (Colossal).COPY=Monstrous Spider (Colossal)	KEY:Companion ~ Monstrous Spider (Colossal/Axiomatic)
+Companion ~ Monstrous Spider (Colossal/Axiomatic).MOD	OUTPUTNAME:Monstrous Spider (Colossal/Axiomatic)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Colossal)	TEMPLATE:Axiomatic
+Monstrous Spider (Colossal).COPY=Monstrous Spider (Colossal)	KEY:Companion ~ Monstrous Spider (Colossal/Entropic)
+Companion ~ Monstrous Spider (Colossal/Entropic).MOD	OUTPUTNAME:Monstrous Spider (Colossal/Entropic)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Colossal)	TEMPLATE:Entropic
+Monstrous Spider (Colossal).COPY=Monstrous Spider (Colossal)	KEY:Companion ~ Monstrous Spider (Colossal/Vivacious)
+Companion ~ Monstrous Spider (Colossal/Vivacious).MOD	OUTPUTNAME:Monstrous Spider (Colossal/Vivacious)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Colossal)	TEMPLATE:Vivacious

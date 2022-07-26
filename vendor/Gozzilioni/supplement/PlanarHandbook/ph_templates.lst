@@ -1,45 +1,64 @@
-SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
-
-Aasimar	VISIBLE:NO	KEY:Common Aasimar	LEVELADJUSTMENT:1																															
-Languages	KEY:Aasimar ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Celestial	LANGBONUS:Draconic,Dwarven,Elven,Gnome,Halfling,Sylvan																														
-Favored Class	KEY:Aasimar ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Paladin																															
-
-Bariaur	VISIBLE:NO	KEY:Common Bariaur	LEVELADJUSTMENT:1
-Languages	KEY:Bariaur ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Celestial	LANGBONUS:Abyssal,Infernal
-Favored Class	KEY:Bariaur ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger
-
-Buomman	VISIBLE:NO	KEY:Common Buomman
-Languages	KEY:Buomman ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Buommi	LANGBONUS:Aquan,Githzerai,Terran
-Favored Class	KEY:Buomman ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Monk
-
-Languages	KEY:Mephling ~ Air Mephling ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Auran	LANGBONUS:Aquan,Ignan,Terran
-Favored Class	KEY:Mephling ~ Air Mephling ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Bard
-
-Languages	KEY:Mephling ~ Earth Mephling ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Terran	LANGBONUS:Auran,Aquan,Ignan
-Favored Class	KEY:Mephling ~ Earth Mephling ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Druid
-
-Languages	KEY:Mephling ~ Fire Mephling ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Ignan	LANGBONUS:Auran,Aquan,Terran
-Favored Class	KEY:Mephling ~ Fire Mephling ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Sorcerer
-
-Languages	KEY:Mephling ~ Water Mephling ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Aquan	LANGBONUS:Auran,Ignan,Terran
-Favored Class	KEY:Mephling ~ Water Mephling ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Monk
-
-Neraph	VISIBLE:NO	KEY:Common Neraph
-Languages	KEY:Neraph ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Neraph|Slaad	LANGBONUS:Common,Celestial,Abyssal
-Favored Class	KEY:Neraph ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger
-
-Shadowswyft	VISIBLE:NO	KEY:Common Shadowswyft	LEVELADJUSTMENT:1																															
-Languages	KEY:Shadowswyft ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Shadowswyft|Common	LANGBONUS:Abyssal,Celestial,Elven
-Favored Class	KEY:Shadowswyft ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue
-
-Spiker	VISIBLE:NO	KEY:Common Spiker
-Languages	KEY:Spiker ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:Infernal
-Favored Class	KEY:Spiker ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter
-
-Tiefling	VISIBLE:NO	KEY:Common Tiefling	LEVELADJUSTMENT:1																															
-Languages	KEY:Tiefling ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Infernal	LANGBONUS:Draconic,Dwarven,Elven,Gnome,Goblin,Halfling,Orc																														
-Favored Class	KEY:Tiefling ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue																															
-
-Wildren	VISIBLE:NO	KEY:Common Wildren	LEVELADJUSTMENT:1																															
-Languages	KEY:Wildren ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Dwarven	LANGBONUS:Sylvan,Gnome,Goblin,Orc,Terran																														
-Favored Class	KEY:Wildren ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Barbarian																															
+SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																					
+																								
+Aasimar	VISIBLE:NO	KEY:Common Aasimar	LEVELADJUSTMENT:1																					
+Languages	KEY:Aasimar ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Celestial	LANGBONUS:Draconic,Dwarven,Elven,Gnome,Halfling,Sylvan																				
+Favored Class	KEY:Aasimar ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Paladin																					
+																								
+Bariaur	VISIBLE:NO	KEY:Common Bariaur	LEVELADJUSTMENT:1																					
+Languages	KEY:Bariaur ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Celestial	LANGBONUS:Abyssal,Infernal																				
+Favored Class	KEY:Bariaur ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger																					
+																								
+Buomman	VISIBLE:NO	KEY:Common Buomman																						
+Languages	KEY:Buomman ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Buommi	LANGBONUS:Aquan,Githzerai,Terran																				
+Favored Class	KEY:Buomman ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Monk																					
+																								
+Languages	KEY:Mephling ~ Air Mephling ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Auran	LANGBONUS:Aquan,Ignan,Terran																				
+Favored Class	KEY:Mephling ~ Air Mephling ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Bard																					
+																								
+Languages	KEY:Mephling ~ Earth Mephling ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Terran	LANGBONUS:Auran,Aquan,Ignan																				
+Favored Class	KEY:Mephling ~ Earth Mephling ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Druid																					
+																								
+Languages	KEY:Mephling ~ Fire Mephling ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Ignan	LANGBONUS:Auran,Aquan,Terran																				
+Favored Class	KEY:Mephling ~ Fire Mephling ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Sorcerer																					
+																								
+Languages	KEY:Mephling ~ Water Mephling ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Aquan	LANGBONUS:Auran,Ignan,Terran																				
+Favored Class	KEY:Mephling ~ Water Mephling ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Monk																					
+																								
+Neraph	VISIBLE:NO	KEY:Common Neraph																						
+Languages	KEY:Neraph ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Neraph|Slaad	LANGBONUS:Common,Celestial,Abyssal																				
+Favored Class	KEY:Neraph ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger																					
+																								
+Shadowswyft	VISIBLE:NO	KEY:Common Shadowswyft	LEVELADJUSTMENT:1																					
+Languages	KEY:Shadowswyft ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Shadowswyft|Common	LANGBONUS:Abyssal,Celestial,Elven																				
+Favored Class	KEY:Shadowswyft ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue																					
+																								
+Spiker	VISIBLE:NO	KEY:Common Spiker																						
+Languages	KEY:Spiker ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:Infernal																				
+Favored Class	KEY:Spiker ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter																					
+																								
+Tiefling	VISIBLE:NO	KEY:Common Tiefling	LEVELADJUSTMENT:1																					
+Languages	KEY:Tiefling ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Infernal	LANGBONUS:Draconic,Dwarven,Elven,Gnome,Goblin,Halfling,Orc																				
+Favored Class	KEY:Tiefling ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue																					
+																								
+Wildren	VISIBLE:NO	KEY:Common Wildren	LEVELADJUSTMENT:1																					
+Languages	KEY:Wildren ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Dwarven	LANGBONUS:Sylvan,Gnome,Goblin,Orc,Terran																				
+Favored Class	KEY:Wildren ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Barbarian																					
+																								
+Anarchic	TYPE:Inherited	VISIBLE:YES	SOURCEPAGE:PH	PRERACE:1,RACETYPE=Aberration,RACETYPE=Animal,RACETYPE=Dragon,RACETYPE=Fey,RACETYPE=Giant,RACETYPE=Humanoid,RACETYPE=Magical Beast,RACETYPE=Monstrous Humanoid,RACETYPE=Ooze,RACETYPE=Plant,RACETYPE=Vermin	!PRERACE:1,RACESUBTYPE=Incorporeal	PREALIGN:NG,TN,NE,CG,CN,CE	RACESUBTYPE:Extraplanar	TEMPLATE:CHOOSE:Anarchic ~ Animal|Anarchic ~ Vermin	DEFINESTAT:MINVALUE|INT|3	ABILITY:Special Ability|AUTOMATIC|Smite Law|Resistance To Acid|Resistance To Cold|Resistance To Electricity|Resistance To Fire|Resistance To Sonic|Immunity To Polymorph|Immunity To Petrification|Fast Healing	BONUS:VAR|SmiteLaw|1	BONUS:VAR|SmiteLawDamage|min(TL,20)	BONUS:VAR|AcidResistanceBonus,ColdResistanceBonus,ElectricityResistanceBonus,FireResistanceBonus,SonicResistanceBonus|5		DR:5/magic|PREHD:MIN=12	VISION:Darkvision (60')	BONUS:MISC|CR|1|PRELEVEL:MIN=4	BONUS:MISC|CR|1|PRELEVEL:MIN=8	LEVELADJUSTMENT:5					
+Anarchic ~ Animal	VISIBLE:NO	PRERACE:1,RACETYPE=Animal	RACETYPE:Magical Beast	RACESUBTYPE:Augmented Animal																				
+Anarchic ~ Vermin	VISIBLE:NO	PRERACE:1,RACETYPE=Vermin	RACETYPE:Magical Beast	RACESUBTYPE:Augmented Vermin																				
+Axiomatic	TYPE:Inherited	VISIBLE:YES	SOURCEPAGE:PH	PRERACE:1,RACETYPE=Aberration,RACETYPE=Animal,RACETYPE=Dragon,RACETYPE=Fey,RACETYPE=Giant,RACETYPE=Humanoid,RACETYPE=Magical Beast,RACETYPE=Monstrous Humanoid,RACETYPE=Ooze,RACETYPE=Plant,RACETYPE=Vermin	!PRERACE:1,RACESUBTYPE=Incorporeal	PREALIGN:LG,LN,LE,NG,TN,NE	RACESUBTYPE:Extraplanar	TEMPLATE:CHOOSE:Axiomatic ~ Animal|Axiomatic ~ Vermin	DEFINESTAT:MINVALUE|INT|3	ABILITY:Special Ability|AUTOMATIC|Smite Chaos|Resistance To Cold|Resistance To Electricity|Resistance To Fire|Resistance To Sonic|Axiomatic ~ Linked Mind	BONUS:VAR|SmiteChaos|1	BONUS:VAR|SmiteChaosDamage|min(TL,20)	BONUS:VAR|ColdResistanceBonus,ElectricityResistanceBonus,FireResistanceBonus,SonicResistanceBonus|5	BONUS:VAR|ColdResistanceBonus,ElectricityResistanceBonus,FireResistanceBonus,SonicResistanceBonus|5|PREHD:MIN=12	SR:min(5+HD,25)	VISION:Darkvision (60')	BONUS:MISC|CR|1|PRELEVEL:MIN=4	BONUS:MISC|CR|1|PRELEVEL:MIN=8	LEVELADJUSTMENT:4					
+Axiomatic ~ Animal	VISIBLE:NO	PRERACE:1,RACETYPE=Animal	RACETYPE:Magical Beast	RACESUBTYPE:Augmented Animal																				
+Axiomatic ~ Vermin	VISIBLE:NO	PRERACE:1,RACETYPE=Vermin	RACETYPE:Magical Beast	RACESUBTYPE:Augmented Vermin																				
+Entropic	TYPE:Inherited	VISIBLE:YES	SOURCEPAGE:PH	PRERACE:1,RACETYPE=Aberration,RACETYPE=Animal,RACETYPE=Dragon,RACETYPE=Fey,RACETYPE=Giant,RACETYPE=Humanoid,RACETYPE=Magical Beast,RACETYPE=Monstrous Humanoid,RACETYPE=Outsider,RACETYPE=Plant,RACETYPE=Undead,RACETYPE=Vermin			TEMPLATE:CHOOSE:Entropic ~ Undead|Entropic ~ Other			NATURALATTACKS:Negative Energy Ray,Weapon.Natural.Ranged.Finesseable.Touch,*1,1d4				ABILITY:Special Ability|AUTOMATIC|Entropic ~ Negative Energy Ray|Entropic ~ Limited Spell Resistance (Positive Energy)|Entropic ~ Negative Adaptation|Entropic ~ Negative Energy Aura|Turn Resistance	BONUS:VAR|TurnResistBonus|4	BONUS:STAT|CON|2	BONUS:STAT|CHA|2	DEFINESTAT:MINVALUE|INT|3			BONUS:MISC|CR|1	BONUS:MISC|CR|1|PRELEVEL:MIN=4	BONUS:MISC|CR|1|PRELEVEL:MIN=8	LEVELADJUSTMENT:2
+Entropic ~ Undead		VISIBLE:NO	SOURCEPAGE:PH	PRERACE:1,TYPE=Undead			RACETYPE:Undead	RACESUBTYPE:Extraplanar																
+Entropic ~ Other		VISIBLE:NO	SOURCEPAGE:PH	!PRERACE:1,TYPE=Undead			RACETYPE:Outsider	RACESUBTYPE:Extraplanar																
+Vivacious	TYPE:Inherited	VISIBLE:NO	SOURCEPAGE:PH	PRERACE:1,RACETYPE=Aberration,RACETYPE=Animal,RACETYPE=Dragon,RACETYPE=Fey,RACETYPE=Giant,RACETYPE=Humanoid,RACETYPE=Magical Beast,RACETYPE=Monstrous Humanoid,RACETYPE=Outsider,RACETYPE=Plant,RACETYPE=Vermin	!PRERACE:1,RACESUBTYPE=Incorporeal		RACETYPE:Outsider	RACESUBTYPE:Extraplanar		NATURALATTACKS:Positive Energy Ray,Weapon.Natural.Ranged.Finesseable.Touch,*1,1d4	MOVECLONE:Walk,Fly,0	BONUS:COMBAT|CA|mac(CHA,1)|TYPE=Deflection	BONUS:VAR|FastHealing|5	ABILITY:Special Ability|AUTOMATIC|Vivacious ~ Positive Energy Ray|Vivacious ~ Limited Spell Resistance (Negative Energy)|Vivacious ~ Positive Adaptation|Vivacious ~ Positive Energy Aura	BONUS:VAR|Maneuverability|5	BONUS:STAT|CON|2	BONUS:STAT|CHA|2	DEFINESTAT:MINVALUE|INT|3	DEFINESTAT:NOSTAT|STR		BONUS:MISC|CR|1	BONUS:MISC|CR|1|PRELEVEL:MIN=4	BONUS:MISC|CR|1|PRELEVEL:MIN=8	LEVELADJUSTMENT:2
+																								
+Frost Dwarf	VISIBLE:NO	KEY:Frost Dwarf	LEVELADJUSTMENT:1																					
+Languages	KEY:Dwarf ~ Frost ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Dwarven|Giant	LANGBONUS:Draconic,Goblin,Orc,Terran,Undercommon																				
+Favored Class	KEY:Dwarf ~ Frost ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter																					
+																								
+Fire Gnome	VISIBLE:NO	KEY:Fire Gnome	LEVELADJUSTMENT:1																					
+Languages	KEY:Gnome ~ Fire ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Gnome|Ignan	LANGBONUS:Draconic,Dwarven,Elven,Giant,Goblin,Orc,Terran																				
+Favored Class	KEY:Gnome ~ Fire ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Sorcerer																					

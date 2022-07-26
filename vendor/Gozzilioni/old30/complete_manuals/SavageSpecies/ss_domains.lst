@@ -1,4 +1,4 @@
-SOURCELONG:Savage Species 3.0	SOURCESHORT:SS30	SOURCEWEB:http://www.gozzilioni.net
-								
-#	SOURCEPAGE:SpellListI.rtf	SPELLLEVEL:DOMAIN|=1||=2||=3||=4||=5||=6||=7||=8||=9|	DESC:					
-Suffering	SOURCEPAGE:SS30		SPELLLEVEL:DOMAIN|Suffering=1|Bane|Suffering=2|Bear's Endurance|Suffering=3|Bestow Curse|Suffering=4|Enervation|Suffering=5|Feeblemind|Suffering=6|Harm|Suffering=7|Eyebite|Suffering=8|Symbol of Pain|Suffering=9|Horrid Wilting	DESC:You can use a pain touch once per day. Make a melee touch attack against a living creature, which bestows on that creature a -2 enhancement penalty to Strength and Dexterity for 1 minute on a successful attack. This spell-like ability does not affect creatures immune to critical hits.
+SOURCELONG:Savage Species 3.0	SOURCESHORT:SS30	SOURCEWEB:http://www.gozzilioni.net		
+				
+#	SOURCEPAGE:SpellListI.rtf	SPELLLEVEL:DOMAIN|=1||=2||=3||=4||=5||=6||=7||=8||=9|	DESC:	
+Suffering	SOURCEPAGE:SS30	PREMULT:1,[PREVARLT:DomainNotAllowed,1],[PREVAREQ:AllowDomainSuffering,1]	SPELLLEVEL:DOMAIN|Suffering=1|Bane|Suffering=2|Bear's Endurance|Suffering=3|Bestow Curse|Suffering=4|Enervation|Suffering=5|Feeblemind|Suffering=6|Harm|Suffering=7|Eyebite|Suffering=8|Symbol of Pain|Suffering=9|Horrid Wilting	DESC:You can use a pain touch once per day. Make a melee touch attack against a living creature, which bestows on that creature a -2 enhancement penalty to Strength and Dexterity for 1 minute on a successful attack. This spell-like ability does not affect creatures immune to critical hits.

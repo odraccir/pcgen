@@ -1,0 +1,19 @@
+SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07							
+#								
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:|PREALIGN:	TYPE:	FACTSET:Pantheon|	SOURCEPAGE:	
+#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	SYMBOL:a Kitten on a keyboard
+###Block: Core								
+Blibdoolpoolp.MOD	DOMAINS:Planar ~ Abyss|PREALIGN:CE
+Diirinka.MOD	DOMAINS:Planar ~ Abyss|PREALIGN:CE
+Great Mother.MOD	DOMAINS:Planar ~ Abyss|PREALIGN:CE
+Hruggek.MOD	DOMAINS:Planar ~ Abyss|PREALIGN:CE
+Lolth.MOD	DOMAINS:Planar ~ Abyss|PREALIGN:CE
+Merrshaulk.MOD	DOMAINS:Planar ~ Abyss|PREALIGN:CE
+Corellon Larethian.MOD DOMAINS:Planar ~ Arborea|PREALIGN:CG
+Kurtulmak.MOD	DOMAINS:Planar ~ Baator|PREALIGN:LE
+Sekolah.MOD	DOMAINS:Planar ~ Baator|PREALIGN:LE
+Tiamat.MOD	DOMAINS:Planar ~ Baator|PREALIGN:LE
+Bahamut.MOD	DOMAINS:Planar ~ Celestia|PREALIGN:LG
+Heironeous.MOD	DOMAINS:Planar ~ Celestia|PREALIGN:LG
+Yondalla.MOD	DOMAINS:Planar ~ Celestia|PREALIGN:LG
+Pelor.MOD	DOMAINS:Planar ~ Elysium|PREALIGN:NG

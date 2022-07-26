@@ -1,11 +1,190 @@
-SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07																														
-
-CLASS:Cleric.MOD
-0	DOMAIN:Planar ~ Abyss|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Abyss
-0	DOMAIN:Planar ~ Arborea|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Arborea
-0	DOMAIN:Planar ~ Baator|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Baator
-0	DOMAIN:Planar ~ Celestia|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Celestia
-0	DOMAIN:Planar ~ Elysium|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Elysium
-0	DOMAIN:Planar ~ Hades|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Hades
-0	DOMAIN:Planar ~ Limbo|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Limbo
-0	DOMAIN:Planar ~ Mechanus|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Mechanus
+SOURCELONG:Planar Handbook	SOURCESHORT:PH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07											
+														
+CLASS:Cleric.MOD														
+0	DOMAIN:Planar ~ Abyss|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Abyss													
+0	DOMAIN:Planar ~ Arborea|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Arborea													
+0	DOMAIN:Planar ~ Baator|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Baator													
+0	DOMAIN:Planar ~ Celestia|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Celestia													
+0	DOMAIN:Planar ~ Elysium|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Elysium													
+0	DOMAIN:Planar ~ Hades|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Hades													
+0	DOMAIN:Planar ~ Limbo|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Limbo													
+0	DOMAIN:Planar ~ Mechanus|PREABILITY:1,CATEGORY=Special Ability,Planar Domain ~ Mechanus													
+														
+CLASS:Defiant	HD:8	TYPE:Prestige	FACT:Abb|Def	MAXLEVEL:10	SOURCEPAGE:PH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	EXCHANGELEVEL:Cleric|11|10|1	DEFINE:DefiantLVL|0	BONUS:VAR|DefiantLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Defiant	PRECHECKBASE:1,Will=5	PRESKILL:1,Knowledge (The Planes)=4	PRESKILL:1,Religion=8	PRETEXT:Special: Defi ants cannot worship any deity or have one as a patron. Any character who has any connection to a god, demigod, or other divine entity must renounce that connection before taking a level in this prestige class. A paladin or cleric of a specifi c god cannot become a defiant until the character renounces all belief and faith in the deity, becoming an ex-cleric or ex-paladin and losing all spells and class features except for armor and shield proficiencies and profi ciency with simple weapons. This restriction does not affect clerics who worship a cause or a nonpersonifi ed source of divine magic.										
+CLASS:Defiant	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Gather Information|Intimidate|Knowledge (The Planes)|Knowledge (Religion)|Listen|TYPE.Profession|Spellcraft												
+1				ABILITY:Defiant Class Feature|AUTOMATIC|Defiant ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DefiantProficiencies										
+1				ABILITY:Defiant Class Feature|AUTOMATIC|Defiant ~ Fallen Cleric|PRECLASS:1,Cleric=1										
+1				ABILITY:Defiant Class Feature|AUTOMATIC|Defiant ~ Fallen Cleric ~ Heal Wounds|PRECLASS:1,Cleric=1										
+3				ABILITY:Defiant Class Feature|AUTOMATIC|Defiant ~ Fallen Cleric ~ Ability Bonus|PRECLASS:1,Cleric=3										
+5				ABILITY:Defiant Class Feature|AUTOMATIC|Defiant ~ Fallen Cleric ~ Languages|PRECLASS:1,Cleric=5										
+7				ABILITY:Defiant Class Feature|AUTOMATIC|Defiant ~ Fallen Cleric ~ Dismissal|PRECLASS:1,Cleric=7										
+9				ABILITY:Defiant Class Feature|AUTOMATIC|Defiant ~ Fallen Cleric ~ Plane Shift|PRECLASS:1,Cleric=9										
+#														
+1				ABILITY:Defiant Class Feature|AUTOMATIC|Defiant ~ Spell Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.DefiantSpellResistance										
+2				ABILITY:Defiant Class Feature|AUTOMATIC|Defiant ~ Divine Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.DefiantDivineResistance										
+3				ABILITY:Defiant Class Feature|AUTOMATIC|Defiant ~ Divine Damage Immunity|!PREABILITY:1,CATEGORY=ACF,TYPE.DefiantDivineDamageImmunity										
+4				ABILITY:Defiant Class Feature|AUTOMATIC|Defiant ~ Divine Cancellation|!PREABILITY:1,CATEGORY=ACF,TYPE.DefiantDivineCancellation										
+5				ABILITY:Defiant Class Feature|AUTOMATIC|Defiant ~ Aligned Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.DefiantAlignedStrike										
+6				ABILITY:Defiant Class Feature|AUTOMATIC|Defiant ~ Divine Prevention|!PREABILITY:1,CATEGORY=ACF,TYPE.DefiantDivinePrevention										
+7				ABILITY:Defiant Class Feature|AUTOMATIC|Defiant ~ Nondetection|!PREABILITY:1,CATEGORY=ACF,TYPE.DefiantNondetection										
+8				ABILITY:Defiant Class Feature|AUTOMATIC|Defiant ~ Divine Retribution|!PREABILITY:1,CATEGORY=ACF,TYPE.DefiantDivineRetribution										
+9				ABILITY:Defiant Class Feature|AUTOMATIC|Defiant ~ Divine Interference|!PREABILITY:1,CATEGORY=ACF,TYPE.DefiantDivineInterference										
+10				ABILITY:Defiant Class Feature|AUTOMATIC|Defiant ~ Divine Disavowal|!PREABILITY:1,CATEGORY=ACF,TYPE.DefiantDivineDisavowal										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Doomlord	HD:12	TYPE:Prestige	FACT:Abb|Doo	MAXLEVEL:10	SOURCEPAGE:PH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DoomlordLVL|0	BONUS:VAR|DoomlordLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Doomlord	PREATT:7	PREABILITY:1,CATEGORY=Feat,Improved Sunder	PREABILITY:1,CATEGORY=FEAT,Weapon Focus (TYPE=Sword)	PRETEXT:Special: Must sunder a weapon, scatter 500 gp into a crowd, and destroy a building. These acts must be witnessed or verified by a member of the Doomguard.										
+CLASS:Doomlord	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Disable Device|Jump|Knowledge (Architecture and Engineering)|Listen|Spellcraft|Spot|Survival|Swim												
+1				ABILITY:Doomlord Class Feature|AUTOMATIC|Doomlord ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DoomlordProficiencies										
+1				ABILITY:Doomlord Class Feature|AUTOMATIC|Doomlord ~ Spells per Day										
+#														
+2	ADD:SPELLCASTER|ANY													
+4	ADD:SPELLCASTER|ANY													
+6	ADD:SPELLCASTER|ANY													
+8	ADD:SPELLCASTER|ANY													
+10	ADD:SPELLCASTER|ANY													
+#														
+1				ABILITY:Doomlord Class Feature|AUTOMATIC|Doomlord ~ Entropic Blow|!PREABILITY:1,CATEGORY=ACF,TYPE.DoomlordEntropicBlow										
+1				ABILITY:Doomlord Class Feature|AUTOMATIC|Doomlord ~ Healing Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.DoomlordHealingResistance										
+2				ABILITY:Doomlord Class Feature|AUTOMATIC|Doomlord ~ Destructive Expertise|!PREABILITY:1,CATEGORY=ACF,TYPE.DoomlordDestructiveExpertise										
+3				ABILITY:Doomlord Class Feature|AUTOMATIC|Doomlord ~ Negative Adaptation|!PREABILITY:1,CATEGORY=ACF,TYPE.DoomlordNegativeAdaptation										
+4				ABILITY:Doomlord Class Feature|AUTOMATIC|Doomlord ~ Body or Soul|!PREABILITY:1,CATEGORY=ACF,TYPE.DoomlordBodyOrSoul										
+7				ABILITY:Doomlord Class Feature|AUTOMATIC|Doomlord ~ Unmaking Magic|!PREABILITY:1,CATEGORY=ACF,TYPE.DoomlordUnmakingMagic										
+9				ABILITY:Doomlord Class Feature|AUTOMATIC|Doomlord ~ Disintegrate|!PREABILITY:1,CATEGORY=ACF,TYPE.DoomlordDisintegrate										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Fatemaker	HD:6	TYPE:Prestige	FACT:Abb|Fat	MAXLEVEL:10	SOURCEPAGE:PH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:FatemakerLVL|0	BONUS:VAR|FatemakerLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Fatemaker	PREATT:4	PRESKILL:1,Bluff=8,Diplomacy=8,Intimidate=8	PRESKILL:3,Bluff=5,Diplomacy=5,Intimidate=5	PREABILITY:1,CATEGORY=FEAT,Skill Focus (Bluff),Skill Focus (Diplomacy),Skill Focus (Intimidate)										
+CLASS:Fatemaker	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|Concentration|TYPE.Craft|Decipher Script|Diplomacy|Disguise|Escape Artist|Forgery|Gather Information|Hide|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|TYPE.Profession|Search|Sense Motive|Sleight of Hand|Speak Language|Spellcraft|Spot|Swim|Tumble|Use Magic Device												
+CLASS:Fatemaker	SPELLSTAT:CHA	FACT:SpellType|Arcane	MEMORIZE:NO											
+1				ABILITY:Fatemaker Class Feature|AUTOMATIC|Fatemaker ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.FatemakerProficiencies										
+1				ABILITY:Fatemaker Class Feature|AUTOMATIC|Fatemaker ~ Spells										
+#														
+1	CAST:0,0	KNOWN:0,2												
+2	CAST:0,1	KNOWN:0,3												
+3	CAST:0,2,0	KNOWN:0,3,2												
+4	CAST:0,3,1	KNOWN:0,4,3												
+5	CAST:0,3,2,0	KNOWN:0,4,3,2												
+6	CAST:0,3,3,1	KNOWN:0,4,4,3												
+7	CAST:0,3,3,2,0	KNOWN:0,4,4,3,2												
+8	CAST:0,3,3,3,1	KNOWN:0,4,4,4,3												
+9	CAST:0,3,3,3,2	KNOWN:0,4,4,4,3												
+10	CAST:0,3,3,3,3	KNOWN:0,4,4,4,4												
+#														
+1				ABILITY:Fatemaker Class Feature|AUTOMATIC|Fatemaker ~ Take-Charge Appeal|!PREABILITY:1,CATEGORY=ACF,TYPE.FatemakerTakeChargeAppeal										
+2				ABILITY:Fatemaker Class Feature|AUTOMATIC|Fatemaker ~ Confidence of the Fated|!PREABILITY:1,CATEGORY=ACF,TYPE.FatemakerConfidenceOfTheFated										
+3				ABILITY:Fatemaker Class Feature|AUTOMATIC|Fatemaker ~ Sneak Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.FatemakerSneakAttack										
+4				ABILITY:Fatemaker Class Feature|AUTOMATIC|Fatemaker ~ Aura of Confidence|!PREABILITY:1,CATEGORY=ACF,TYPE.FatemakerAuraOfConfidence										
+10				ABILITY:Fatemaker Class Feature|AUTOMATIC|Fatemaker ~ Ego Manifestation|!PREABILITY:1,CATEGORY=ACF,TYPE.FatemakerEgoManifestation										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Visionary Seeker	HD:6	TYPE:Prestige	FACT:Abb|ViS	MAXLEVEL:10	SOURCEPAGE:PH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:VisionarySeekerLVL|0	BONUS:VAR|VisionarySeekerLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Visionary Seeker	PREMULT:1,[PRESKILL:1,TYPE.Knowledge=8],[PRESKILL:1,Survival=8]	PRETEXT:Must be inducted by a member of the Mind's Eye.												
+CLASS:Visionary Seeker	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Sense Motive|Spellcraft|Spot|Survival												
+1				ABILITY:Visionary Seeker Class Feature|AUTOMATIC|Visionary Seeker ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.VisionarySeekerProficiencies										
+1				ABILITY:Visionary Seeker Class Feature|AUTOMATIC|Visionary Seeker ~ Spells per Day										
+#														
+1	ADD:SPELLCASTER|ANY													
+3	ADD:SPELLCASTER|ANY													
+5	ADD:SPELLCASTER|ANY													
+7	ADD:SPELLCASTER|ANY													
+9	ADD:SPELLCASTER|ANY													
+#														
+1				ABILITY:Visionary Seeker Class Feature|AUTOMATIC|Visionary Seeker ~ Divination Expertise|!PREABILITY:1,CATEGORY=ACF,TYPE.VisionarySeekerDivinationExpertise										
+2				ABILITY:Visionary Seeker Class Feature|AUTOMATIC|Visionary Seeker ~ Spell Mimic|!PREABILITY:1,CATEGORY=ACF,TYPE.VisionarySeekerSpellMimic										
+3				ABILITY:Visionary Seeker Class Feature|AUTOMATIC|Visionary Seeker ~ Intuition|!PREABILITY:1,CATEGORY=ACF,TYPE.VisionarySeekerIntuition										
+4				ABILITY:Visionary Seeker Class Feature|AUTOMATIC|Visionary Seeker ~ Bend Fate|!PREABILITY:1,CATEGORY=ACF,TYPE.VisionarySeekerBendFate										
+8				ABILITY:Visionary Seeker Class Feature|AUTOMATIC|Visionary Seeker ~ Trick Fate|!PREABILITY:1,CATEGORY=ACF,TYPE.VisionarySeekerTrickFate										
+10				ABILITY:Visionary Seeker Class Feature|AUTOMATIC|Visionary Seeker ~ Moment of Prescience|!PREABILITY:1,CATEGORY=ACF,TYPE.VisionarySeekerMomentOfPrescience										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Ardent Dilettante	HD:8	TYPE:Prestige	FACT:Abb|ArD	MAXLEVEL:10	SOURCEPAGE:PH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ArdentDilettanteLVL|0	BONUS:VAR|ArdentDilettanteLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Ardent Dilettante	PRESKILL:1,TYPE.Skill=8	PRESKILL:6,TYPE.Skill=1	PRETEXT:Must recount five experiences, one for each of the different senses, at a festhall or sensorium run by the Society of Sensation.											
+CLASS:Ardent Dilettante	STARTSKILLPTS:4	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Sense Motive|Spellcraft|Spot|Survival												
+1				ABILITY:Ardent Dilettante Class Feature|AUTOMATIC|Ardent Dilettante ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ArdentDilettanteProficiencies										
+1				ABILITY:Ardent Dilettante Class Feature|AUTOMATIC|Ardent Dilettante ~ Spells per Day										
+#														
+2	ADD:SPELLCASTER|ANY													
+3	ADD:SPELLCASTER|ANY													
+4	ADD:SPELLCASTER|ANY													
+5	ADD:SPELLCASTER|ANY													
+6	ADD:SPELLCASTER|ANY													
+7	ADD:SPELLCASTER|ANY													
+8	ADD:SPELLCASTER|ANY													
+9	ADD:SPELLCASTER|ANY													
+10	ADD:SPELLCASTER|ANY													
+#														
+1				ABILITY:Ardent Dilettante Class Feature|AUTOMATIC|Ardent Dilettante ~ Heightened Senses|!PREABILITY:1,CATEGORY=ACF,TYPE.ArdentDilettanteHeightenedSenses										
+1				ABILITY:Ardent Dilettante Class Feature|AUTOMATIC|Ardent Dilettante ~ Lore|!PREABILITY:1,CATEGORY=ACF,TYPE.ArdentDilettanteLore										
+2				ABILITY:Ardent Dilettante Class Feature|AUTOMATIC|Ardent Dilettante ~ Enthrall|!PREABILITY:1,CATEGORY=ACF,TYPE.ArdentDilettanteEnthrall										
+3				ABILITY:Ardent Dilettante Class Feature|AUTOMATIC|Ardent Dilettante ~ Joie de Vivre|!PREABILITY:1,CATEGORY=ACF,TYPE.ArdentDilettanteJoieDeVivre										
+4				ABILITY:Ardent Dilettante Class Feature|AUTOMATIC|Ardent Dilettante ~ Bonus Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.ArdentDilettanteBonusFeat										
+4				ABILITY:Ardent Dilettante Class Feature|AUTOMATIC|Ardent Dilettante ~ Sense Link|!PREABILITY:1,CATEGORY=ACF,TYPE.ArdentDilettanteSenseLink										
+5				ABILITY:Ardent Dilettante Class Feature|AUTOMATIC|Ardent Dilettante ~ Scent|!PREABILITY:1,CATEGORY=ACF,TYPE.ArdentDilettanteScent										
+6				ABILITY:Ardent Dilettante Class Feature|AUTOMATIC|Ardent Dilettante ~ Seen it Before|!PREABILITY:1,CATEGORY=ACF,TYPE.ArdentDilettanteSeenItBefore										
+8				ABILITY:Ardent Dilettante Class Feature|AUTOMATIC|Ardent Dilettante ~ See it Again|!PREABILITY:1,CATEGORY=ACF,TYPE.ArdentDilettanteSeeItAgan										
+9				ABILITY:Ardent Dilettante Class Feature|AUTOMATIC|Ardent Dilettante ~ Blindsense|!PREABILITY:1,CATEGORY=ACF,TYPE.ArdentDilettanteBlindsense										
+10				ABILITY:Ardent Dilettante Class Feature|AUTOMATIC|Ardent Dilettante ~ Death Holds No Mysteries|!PREABILITY:1,CATEGORY=ACF,TYPE.ArdentDilettanteDeathHoldsNoMysteries										
+#														
+4	PRESKILL:1,TYPE.Perform=8	PRESKILL:2,TYPE.Skill=5	PRESKILL:7,TYPE.Skill=1											
+7	PRESKILL:1,TYPE.Perform=8	PRESKILL:1,TYPE.Strength=5	PRESKILL:1,TYPE.Dexterity=5	PRESKILL:8,TYPE.Skill=1										
+10	PRESKILL:1,TYPE.Perform=8	PRESKILL:1,TYPE.Strength=5	PRESKILL:1,TYPE.Dexterity=5	PRESKILL:1,TYPE.Constitution=5	PREMULT:1,[PRESKILL:1,TYPE.Intelligence=5],[PRESKILL:1,TYPE.Wisdom=5]	PREWEAPONPROF:4,TYPE.Martial	PREWEAPONPROF:1,TYPE.Exotic	PRESPELLTYPE:2,Arcane=1,Divine=2	PRETEXT:The character must have visited six different Planes. The character must have died and returned to life or unlife.					
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Cipher Adept	HD:8	TYPE:Prestige	FACT:Abb|Cip	MAXLEVEL:10	SOURCEPAGE:PH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:CipherAdeptLVL|0	BONUS:VAR|CipherAdeptLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Cipher Adept	PREALIGN:TN	PRESKILL:2,Balance=5,Survival=5	PRESKILL:1,Listen=10	PREABILITY:3,CATEGORY=FEAT,Agile,Dodge,Improved Initiative										
+CLASS:Cipher Adept	STARTSKILLPTS:2	CSKILL:Balance|Bluff|Concentration|Disable Device|Escape Artist|Handle Animal|Hide|Move Silently|Ride|Sense Motive|Spot|Survival|Swim|Tumble|Use Magic Device												
+1				ABILITY:Cipher Adept Class Feature|AUTOMATIC|Cipher Adept ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.CipherAdeptProficiencies										
+1				ABILITY:Cipher Adept Class Feature|AUTOMATIC|Cipher Adept ~ Improved Unarmed Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.CipherAdeptImprovedUnarmedStrike										
+1				ABILITY:Cipher Adept Class Feature|AUTOMATIC|Cipher Adept ~ Strike the Weak Spot|!PREABILITY:1,CATEGORY=ACF,TYPE.CipherAdeptStrikeTheWeakSpot										
+2				ABILITY:Cipher Adept Class Feature|AUTOMATIC|Cipher Adept ~ Evasion|!PREABILITY:1,CATEGORY=ACF,TYPE.CipherAdeptEvasion										
+3				ABILITY:Cipher Adept Class Feature|AUTOMATIC|Cipher Adept ~ Combat Instinct|!PREABILITY:1,CATEGORY=ACF,TYPE.CipherAdeptCombatInstinct										
+4				ABILITY:Cipher Adept Class Feature|AUTOMATIC|Cipher Adept ~ Bonus Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.CipherAdeptBonusFeat										
+5				ABILITY:Cipher Adept Class Feature|AUTOMATIC|Cipher Adept ~ Combination Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.CipherAdeptCombinationStrike										
+7				ABILITY:Cipher Adept Class Feature|AUTOMATIC|Cipher Adept ~ Improved Evasion|!PREABILITY:1,CATEGORY=ACF,TYPE.CipherAdeptImprovedEvasion										
+10				ABILITY:Cipher Adept Class Feature|AUTOMATIC|Cipher Adept ~ Move Without Barriers|!PREABILITY:1,CATEGORY=ACF,TYPE.CipherAdeptMoveWithoutBarriers										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Chaotician	HD:10	TYPE:Prestige	FACT:Abb|Ctn	MAXLEVEL:5	SOURCEPAGE:PH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ChaoticianLVL|0	BONUS:VAR|ChaoticianLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Chaotician	PREALIGN:CG,CN,CE	PREATT:4	PRECHECKBASE:3,Fortitude=2,Reflex=2,Will=2	PREALIGN:CG,CN,CE										
+CLASS:Chaotician	STARTSKILLPTS:4	CSKILL:Bluff|TYPE.Craft|Decipher Script|Diplomacy|Forgery|Gather Information|Intimidate|TYPE.Knowledge|Search|Sense Motive|Spot|Use Magic Device												
+1				ABILITY:Chaotician Class Feature|AUTOMATIC|Chaotician ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ChaoticianProficiencies										
+1				ABILITY:Chaotician Class Feature|AUTOMATIC|Chaotician ~ Chaotic Contagion|!PREABILITY:1,CATEGORY=ACF,TYPE.ChaoticianChaoticContagion										
+1				ABILITY:Chaotician Class Feature|AUTOMATIC|Chaotician ~ Scofflaw|!PREABILITY:1,CATEGORY=ACF,TYPE.ChaoticianScofflaw										
+2				ABILITY:Chaotician Class Feature|AUTOMATIC|Chaotician ~ Anarchic Grace|!PREABILITY:1,CATEGORY=ACF,TYPE.ChaoticianAnarchicGrace										
+3				ABILITY:Chaotician Class Feature|AUTOMATIC|Chaotician ~ Babble|!PREABILITY:1,CATEGORY=ACF,TYPE.ChaoticianBabble										
+3				ABILITY:Chaotician Class Feature|AUTOMATIC|Chaotician ~ Clarity of Confusion|!PREABILITY:1,CATEGORY=ACF,TYPE.ChaoticianClarityOfConfusion										
+5				ABILITY:Chaotician Class Feature|AUTOMATIC|Chaotician ~ Destiny's Arbiter|!PREABILITY:1,CATEGORY=ACF,TYPE.ChaoticianDestinySArbiter										
+#														
+6	PREPCLEVEL:MIN=20													
+														
+CLASS:Astral Dancer	HD:8	TYPE:Prestige	FACT:Abb|AsD	MAXLEVEL:10	SOURCEPAGE:PH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:AstralDancerLVL|0	BONUS:VAR|AstralDancerLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Astral Dancer	PRESKILL:3,Balance=8,Jump=8,Tumble=8	PREABILITY:3,CATEGORY=Feat,Dodge,Mobility,Spring Attack												
+CLASS:Astral Dancer	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Climb|Escape Artist|Hide|Jump|Knowledge (The Planes)|Listen|Move Silently|TYPE.Profession|Search|Sleight of Hand|Spot|Tumble|Use Rope												
+1				ABILITY:Astral Dancer Class Feature|AUTOMATIC|Astral Dancer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.AstralDancerProficiencies										
+1				ABILITY:Astral Dancer Class Feature|AUTOMATIC|Astral Dancer ~ Relative Altitude|!PREABILITY:1,CATEGORY=ACF,TYPE.AstralDancerRelativeAltitude										
+2				ABILITY:Astral Dancer Class Feature|AUTOMATIC|Astral Dancer ~ Evasion|!PREABILITY:1,CATEGORY=ACF,TYPE.AstralDancerEvasion										
+3				ABILITY:Astral Dancer Class Feature|AUTOMATIC|Astral Dancer ~ Improved Maneuverability|!PREABILITY:1,CATEGORY=ACF,TYPE.AstralDancerImprovedManeuverability										
+5				ABILITY:Astral Dancer Class Feature|AUTOMATIC|Astral Dancer ~ Astral Dodge|!PREABILITY:1,CATEGORY=ACF,TYPE.AstralDancerAstralDodge										
+6				ABILITY:Astral Dancer Class Feature|AUTOMATIC|Astral Dancer ~ Improved Evasion|!PREABILITY:1,CATEGORY=ACF,TYPE.AstralDancerImprovedEvasion										
+7				ABILITY:Astral Dancer Class Feature|AUTOMATIC|Astral Dancer ~ Astral Agility|!PREABILITY:1,CATEGORY=ACF,TYPE.AstralDancerAstralAgility										
+10				ABILITY:Astral Dancer Class Feature|AUTOMATIC|Astral Dancer ~ Lightning Speed|!PREABILITY:1,CATEGORY=ACF,TYPE.AstralDancerLightningSpeed										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Elemental Warrior	HD:10	TYPE:Prestige	FACT:Abb|ElW	MAXLEVEL:5	SOURCEPAGE:PH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ElementalWarriorLVL|0	BONUS:VAR|ElementalWarriorLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Elemental Warrior	PREATT:7	PRESKILL:1,Knowledge (The Planes)=5	PRETEXT:The character must have traveled to at least one of the Elemental Planes.											
+CLASS:Elemental Warrior	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Handle Animal|Intimidate|Jump|Knowledge (The Planes)|Ride|Swim												
+1				ABILITY:Elemental Warrior Class Feature|AUTOMATIC|Elemental Warrior ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalWarriorProficiencies										
+1				ABILITY:Elemental Warrior Class Feature|AUTOMATIC|Elemental Warrior ~ Elemental Affinity|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalWarriorElementalAffinity										
+2				ABILITY:Elemental Warrior Class Feature|AUTOMATIC|Elemental Warrior ~ Elemental Manifestation|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalWarriorElementalManifestation										
+3				ABILITY:Elemental Warrior Class Feature|AUTOMATIC|Elemental Warrior ~ Elemental Weapon|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalWarriorElementalWeapon										
+4				ABILITY:Elemental Warrior Class Feature|AUTOMATIC|Elemental Warrior ~ Elemental Movement|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalWarriorElementalMovement										
+5				ABILITY:Elemental Warrior Class Feature|AUTOMATIC|Elemental Warrior ~ Elemental Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalWarriorElementalStrike										

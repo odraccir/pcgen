@@ -14,7 +14,7 @@ SOURCELONG:Manual of the Planes 3.0	SOURCESHORT:MotP30	SOURCEWEB:http://www.gozz
 # Race Groups Subtype																																	
 																																	
 # Race Groups																																	
-Energon Subtraits	CATEGORY:Special Ability	TYPE:SubTraitAbility																					ABILITY:Special Ability|AUTOMATIC|Energon ~ Energy Ray|Energon ~ Explosion									SOURCEPAGE:MM1	
+Energon Subtraits	CATEGORY:Special Ability	TYPE:SubTraitAbility																					ABILITY:Special Ability|AUTOMATIC|Energon ~ Energy Ray|Energon ~ Explosion									SOURCEPAGE:MotP	
 Energy Ray	CATEGORY:Special Ability	TYPE:EnergonRaceTrait.SpecialQuality	VISIBLE:YES	DESC:An energon's energy ray has a range of 30 feet.	KEY:Energon ~ Energy Ray																											SOURCEPAGE:MotP30	
 Explosion	CATEGORY:Special Ability	TYPE:EnergonRaceTrait.SpecialQuality.Supernatural	VISIBLE:YES	DESC:If an energon is reduced to 0 hit points, its body is instantaneously destroyed in an explosion of positive or negative energy that deals 1d8+9 points of damage to everyone in a 20-foot-radius burst (Fortitude save DC %1 half ).|ExplosionDC	KEY:Energon ~ Explosion				DEFINE:ExplosionDC|0					BONUS:VAR|ExplosionDC|DefaultDCCha																		SOURCEPAGE:MotP30	
 																																	
