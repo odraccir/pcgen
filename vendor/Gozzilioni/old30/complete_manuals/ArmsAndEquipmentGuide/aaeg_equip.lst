@@ -55,7 +55,7 @@ Magnet (Small)		TYPE:Goods.General	COST:10	WT:1	SOURCEPAGE:AaEG30
 Marbles		TYPE:Goods.General	COST:0.2	WT:2	SOURCEPAGE:AaEG30						
 Mess Kit		TYPE:Goods.General.Kit	COST:0.6	WT:1	SOURCEPAGE:AaEG30						
 Mill (Hand)		TYPE:Goods.General	COST:2	WT:1	SOURCEPAGE:AaEG30						
-Money Belt		TYPE:Goods.General.Container	COST:4	WT:0	SOURCEPAGE:AaEG30	CONTAINS:UNLIM|Coins=50					
+Money Belt		TYPE:Goods.General.CoinPurse.Container	COST:4	WT:0	SOURCEPAGE:AaEG30	CONTAINS:UNLIM|Coins=50					
 Music Box		TYPE:Goods.General	COST:35	WT:0	SOURCEPAGE:AaEG30						
 Net (Butterfly)		TYPE:Goods.General	COST:10	WT:.25	SOURCEPAGE:AaEG30						
 Percolator		TYPE:Goods.General	COST:1	WT:1	SOURCEPAGE:AaEG30						
@@ -391,7 +391,7 @@ Animal Training Pole		TYPE:Goods.General	COST:10	WT:3	SOURCEPAGE:AaEG30	SPROP:+2
 Cloak (Forester's)		TYPE:Goods.Clothing.Cape	COST:20	WT:3	SOURCEPAGE:AaEG30	SPROP:+1 Circumstance bonus on Hide check made in Forest					
 Crossbow Sight (Gnomish)		TYPE:Goods.General	COST:150	WT:1	SOURCEPAGE:AaEG30	SPROP:Treat the target as 2 increments closer					
 Listening Cone		TYPE:Goods.General	COST:20	WT:1	SOURCEPAGE:AaEG30	SPROP:+1 Circumstance bonus on Listen checks made through a door or solid obstacles					
-Backpack (Framed)		TYPE:Goods.General.Container	COST:50	WT:2	SOURCEPAGE:AaEG30		CONTAINS:10%UNLIM|Any				
+Backpack (Framed)		TYPE:Goods.General.Backpack.Container	COST:50	WT:2	SOURCEPAGE:AaEG30		CONTAINS:10%UNLIM|Any				
 Robe (Desert)		TYPE:Goods.Clothing.Robe	COST:20	WT:2	SOURCEPAGE:AaEG30	SPROP:+2 Circimstance bonus on Fortitude saves against exposure to high temperature					
 Sheath (Boot)		TYPE:Goods.General.Container	COST:30	WT:0	SOURCEPAGE:AaEG30		CONTAINS:UNLIM|Light=1				
 Sheath (Wrist)		TYPE:Goods.General.Container	COST:20	WT:0	SOURCEPAGE:AaEG30		CONTAINS:UNLIM|Dagger=1				

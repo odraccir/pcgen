@@ -1,0 +1,112 @@
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10
+			
+See Invisibility.COPY=See Invisibility	KEY:See Invisibility ~ 1 minute		
+See Invisibility ~ 1 minute.MOD	OUTPUTNAME:See Invisibility	DURATION:.CLEAR	DURATION:1 minute
+			
+Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Asmodeus ~ Summon Monster I		
+Disciple of Asmodeus ~ Summon Monster I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Hellcat.
+Summon Monster V.COPY=Summon Monster V	KEY:Disciple of Asmodeus ~ Summon Monster V		
+Disciple of Asmodeus ~ Summon Monster V.MOD	OUTPUTNAME:Summon Monster V	CLASSES:.CLEARALL	DESC:Only summons 1d4 Hellcat.
+Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Baalzebul ~ Summon Osyluth		
+Disciple of Baalzebul ~ Summon Osyluth.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Osyluth.
+Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Baalzebul ~ Summon Cornugon		
+Disciple of Baalzebul ~ Summon Cornugon.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Cornugon.
+Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Dispater ~ Summon Erinyes I		
+Disciple of Dispater ~ Summon Erinyes I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Erinyes.
+Summon Monster V.COPY=Summon Monster V	KEY:Disciple of Dispater ~ Summon Erinyes II		
+Disciple of Dispater ~ Summon Erinyes II.MOD	OUTPUTNAME:Summon Monster V	CLASSES:.CLEARALL	DESC:Only summons 1d4 Erinyes.
+Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Mammon ~ Summon Osyluth		
+Disciple of Mammon ~ Summon Osyluth.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Osyluth.
+Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Mammon ~ Summon Gelugon		
+Disciple of Mammon ~ Summon Gelugon.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Gelugon.
+Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Mephistopheles ~ Summon Hamatula I		
+Disciple of Mephistopheles ~ Summon Hamatula I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Hamatula.
+Summon Monster V.COPY=Summon Monster V	KEY:Disciple of Mephistopheles ~ Summon Hamatula II		
+Disciple of Mephistopheles ~ Summon Hamatula II.MOD	OUTPUTNAME:Summon Monster V	CLASSES:.CLEARALL	DESC:Only summons 1d4 Hamatula.
+Detect Undead.COPY=Detect Undead	KEY:Detect Mortals		
+Detect Mortals.MOD	OUTPUTNAME:Detect Mortals	CLASSES:.CLEARALL	
+Summon Monster I.COPY=Summon Monster I	KEY:Thrall of Demogorgon ~ Summon Monster I		
+Thrall of Demogorgon ~ Summon Monster I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons a demon of 5 HD.
+Summon Monster V.COPY=Summon Monster II	KEY:Thrall of Demogorgon ~ Summon Monster II		
+Thrall of Demogorgon ~ Summon Monster II.MOD	OUTPUTNAME:Summon Monster II	CLASSES:.CLEARALL	DESC:Only summons a demon of 10 HD.
+Summon Monster I.COPY=Summon Monster I	KEY:Thrall of Graz'zt ~ Summon Monster I		
+Thrall of Graz'zt ~ Summon Monster I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons a demon of 5 HD.
+Summon Monster V.COPY=Summon Monster II	KEY:Thrall of Graz'zt ~ Summon Monster II		
+Thrall of Graz'zt ~ Summon Monster II.MOD	OUTPUTNAME:Summon Monster II	CLASSES:.CLEARALL	DESC:Only summons a demon of 10 HD.
+Summon Monster I.COPY=Summon Monster I	KEY:Thrall of Juiblex~ Summon Ooze		
+Thrall of Juiblex~ Summon Ooze.MOD	OUTPUTNAME:Summon Ooze	CLASSES:.CLEARALL	DESC:Only summons a patch of green slime, a gray ooze, an ochre jelly, or a gelatinous cube.
+Summon Monster I.COPY=Summon Monster I	KEY:Thrall of Juiblex ~ Summon Monster I		
+Thrall of Juiblex ~ Summon Monster I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons a demon of 5 HD.
+Summon Monster V.COPY=Summon Monster II	KEY:Thrall of Juiblex ~ Summon Monster II		
+Thrall of Juiblex ~ Summon Monster II.MOD	OUTPUTNAME:Summon Monster II	CLASSES:.CLEARALL	DESC:Only summons a demon of 10 HD.
+Summon Monster I.COPY=Summon Monster I	KEY:Thrall of Juiblex~ Summon Pudding		
+Thrall of Juiblex~ Summon Pudding.MOD	OUTPUTNAME:Summon Pudding	CLASSES:.CLEARALL	DESC:Only summons a black pudding.
+Summon Monster I.COPY=Summon Monster I	KEY:Thrall of Orcus ~ Summon Monster I		
+Thrall of Orcus ~ Summon Monster I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1d4 ghouls, 1d3 shadows, 1 wight, or 1 wraith.
+Summon Monster V.COPY=Summon Monster V	KEY:Thrall of Orcus ~ Summon Monster II		
+Thrall of Orcus ~ Summon Monster II.MOD	OUTPUTNAME:Summon Monster II	CLASSES:.CLEARALL	DESC:Only summons 1d3 mummies, 1 spectre, 1 mohrg, 1 vampire, or 1 ghost.
+Summon Monster IX.COPY=Summon Monster IX	KEY:Thrall of Orcus ~ Summon Monster III		
+Thrall of Orcus ~ Summon Monster III.MOD	OUTPUTNAME:Summon Monster III	CLASSES:.CLEARALL	DESC:Only summons 1 nightwing.
+			
+			
+			
+			
+Bane.MOD	CLASSES:Demonologist=1		
+Demonflesh.MOD	CLASSES:Demonologist=1		
+Doom.MOD	CLASSES:Demonologist=1		
+Protection from Evil.MOD	CLASSES:Demonologist=1		
+Protection from Good.MOD	CLASSES:Demonologist=1		
+Spores of the Vrock.MOD	CLASSES:Demonologist=1		
+Summon Monster I.MOD	CLASSES:Demonologist=1		
+Unnerving Gaze.MOD	CLASSES:Demonologist=1		
+Bestow Curse.MOD	CLASSES:Demonologist=2		
+Dance of Ruin.MOD	CLASSES:Demonologist=2		
+Demoncall.MOD	CLASSES:Demonologist=2		
+Magic Circle against Evil.MOD	CLASSES:Demonologist=2		
+Magic Circle against Good.MOD	CLASSES:Demonologist=2		
+Protection from Elements.MOD	CLASSES:Demonologist=2		
+Stunning Screech.MOD	CLASSES:Demonologist=2		
+Summon Monster II.MOD	CLASSES:Demonologist=2		
+Abyssal Might.MOD	CLASSES:Demonologist=3		
+Call Dretch Horde.MOD	CLASSES:Demonologist=3		
+Corrupt Summons.MOD	CLASSES:Demonologist=3		
+Demon Wings.MOD	CLASSES:Demonologist=3		
+Dread Word.MOD	CLASSES:Demonologist=3		
+Dimensional Anchor.MOD	CLASSES:Demonologist=3		
+Planar Binding (Lesser).MOD	CLASSES:Demonologist=3		
+Summon Monster III.MOD	CLASSES:Demonologist=3		
+Bestow Curse (Greater).MOD	CLASSES:Demonologist=4		
+Call Nightmare.MOD	CLASSES:Demonologist=4		
+Cloud of Achaierai.MOD	CLASSES:Demonologist=4		
+Dismissal.MOD	CLASSES:Demonologist=4		
+Impotent Possessor.MOD	CLASSES:Demonologist=4		
+Imprison Possessor.MOD	CLASSES:Demonologist=4		
+Planar Binding.MOD	CLASSES:Demonologist=4		
+Summon Monster IV.MOD	CLASSES:Demonologist=4		
+Cause Fear.MOD	CLASSES:Mortal Hunter=1		
+Charm Person.MOD	CLASSES:Mortal Hunter=1		
+Detect Good.MOD	CLASSES:Mortal Hunter=1		
+Heartache.MOD	CLASSES:Mortal Hunter=1		
+Protection from Good.MOD	CLASSES:Mortal Hunter=1		
+Sleep.MOD	CLASSES:Mortal Hunter=1		
+Unnerving Gaze.MOD	CLASSES:Mortal Hunter=1		
+Detect Thoughts.MOD	CLASSES:Mortal Hunter=2		
+Evil Eye.MOD	CLASSES:Mortal Hunter=2		
+Hold Person.MOD	CLASSES:Mortal Hunter=2		
+Magic Circle against Good.MOD	CLASSES:Mortal Hunter=2		
+See Invisibility.MOD	CLASSES:Mortal Hunter=2		
+Web.MOD	CLASSES:Mortal Hunter=2		
+Wither Limb.MOD	CLASSES:Mortal Hunter=2		
+Flesh Ripper.MOD	CLASSES:Mortal Hunter=3		
+Morror Sending.MOD	CLASSES:Mortal Hunter=3		
+Nondetection.MOD	CLASSES:Mortal Hunter=3		
+Scrying.MOD	CLASSES:Mortal Hunter=3		
+Suggestion.MOD	CLASSES:Mortal Hunter=3		
+Vile Lance.MOD	CLASSES:Mortal Hunter=3		
+Wrack.MOD	CLASSES:Mortal Hunter=3		
+Arcane Eye.MOD	CLASSES:Mortal Hunter=4		
+Call Dretch Horde.MOD	CLASSES:Mortal Hunter=4		
+Locate Creature.MOD	CLASSES:Mortal Hunter=4		
+Morality Undone.MOD	CLASSES:Mortal Hunter=4		
+Phantasmal Killer.MOD	CLASSES:Mortal Hunter=4		
+Resonating Resistance.MOD	CLASSES:Mortal Hunter=4		

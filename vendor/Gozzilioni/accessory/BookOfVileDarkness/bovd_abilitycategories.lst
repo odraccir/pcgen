@@ -1,0 +1,36 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+
+# Subrace Support
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Cancer Mage Class Feature	CATEGORY:Special Ability	TYPE:CancerMageClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Cancer Mage Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Demonologist Class Feature	CATEGORY:Special Ability	TYPE:DemonologistClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Demonologist Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Diabolist Class Feature	CATEGORY:Special Ability	TYPE:DiabolistClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Diabolist Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Disciple of Asmodeus Class Feature	CATEGORY:Special Ability	TYPE:DiscipleOfAsmodeusClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Disciple of Asmodeus Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Disciple of Baalzebul Class Feature	CATEGORY:Special Ability	TYPE:DiscipleOfBaalzebulClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Disciple of Baalzebul Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Disciple of Dispater Class Feature	CATEGORY:Special Ability	TYPE:DiscipleOfDispaterClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Disciple of Dispater Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Disciple of Mammon Class Feature	CATEGORY:Special Ability	TYPE:DiscipleOfMammonClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Disciple of Mammon Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Disciple of Mephistopheles Class Feature	CATEGORY:Special Ability	TYPE:DiscipleOfMephistophelesClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Disciple of Mephistopheles Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Lifedrinker Class Feature	CATEGORY:Special Ability	TYPE:LifedrinkerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Lifedrinker Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Mortal Hunter Class Feature	CATEGORY:Special Ability	TYPE:MortalHunterClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Mortal Hunter Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Soul Eater Class Feature	CATEGORY:Special Ability	TYPE:SoulEaterClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Soul Eater Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Thrall of Demogorgon Class Feature	CATEGORY:Special Ability	TYPE:ThrallOfDemogorgonClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Thrall of Demogorgon Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Thrall of Graz'zt Class Feature	CATEGORY:Special Ability	TYPE:ThrallOfGrazztClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Thrall of Graz'zt Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Thrall of Juiblex Class Feature	CATEGORY:Special Ability	TYPE:ThrallOfJuiblexClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Thrall of Juiblex Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Thrall of Orcus Class Feature	CATEGORY:Special Ability	TYPE:ThrallOfOrcusClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Thrall of Orcus Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Vermin Lord Class Feature	CATEGORY:Special Ability	TYPE:VerminLordClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Vermin Lord Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Warrior Of Darkness Class Feature	CATEGORY:Special Ability	TYPE:WarriorOfDarknessClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Warrior Of Darkness Class Features			DISPLAYLOCATION:Class Features
+
+ABILITYCATEGORY:Cancerous Companion Class Feature	CATEGORY:Special Ability	TYPE:CancerousCompanionClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Cancerous Companion Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Thrall of Demogorgon Bonus Feat or Spells	CATEGORY:Special Ability	TYPE:ThrallOfDemogorgonBonusFeatOrSpells	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Thrall of Demogorgon Bonus Feat or Spells			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Thrall of Orcus Bonus Feat or Spells	CATEGORY:Special Ability	TYPE:ThrallOfOrcusBonusFeatOrSpells	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Thrall of Orcus Bonus Feat or Spells			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Thrall of Orcus Massive Girth/Skeletal Visage	CATEGORY:Special Ability	TYPE:ThrallOfOrcusMassiveGirthSkeletalVisage	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Thrall of Orcus Massive Girth/Skeletal Visage			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Black Magic Oil	CATEGORY:Special Ability	TYPE:BlackMagicOil	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Black Magic Oil			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Black Magic Elixir	CATEGORY:Special Ability	TYPE:BlackMagicElixir	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Black Magic Elixir			DISPLAYLOCATION:Class Features
+
+###BLOCK:Companion Support
+ABILITYCATEGORY:Cancerous Companion Selection	CATEGORY:Internal	TYPE:CancerousCompanionSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Cancerous Companion Choice			DISPLAYLOCATION:Class Features
+
+###BLOCK:#Feats Ability pools
+ABILITYCATEGORY:Violent Knowledge Feat	CATEGORY:FEAT	TYPE:ViolentKnowledgeFeat	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Violent Knowledge Feats			DISPLAYLOCATION:Feats

@@ -1,0 +1,358 @@
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10											
+														
+# Class Name	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:CHECKS)	Save checks bonus (Reflex)	Save checks bonus (Willpower)	Combat bonus	EXCLASS	FINE			
+# Class Name	Requirements	FINE												
+# Class Name	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE					
+# Class Name	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	spell level increases (BONUS:CASTERLEVEL)									
+#(level number)	ADD:SPELLCASTER o CAST	AUTO:WEAPONPROF	(FEATAUTO)	ABILITY:Special Ability|AUTOMATIC|	ABILITY:Special Ability|AUTOMATIC|	(DOMAIN)	(BONUS)			(DEFINE)				
+CLASS:Cancer Mage	HD:6	TYPE:Prestige	FACT:Abb|CaM	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:CancerMageLVL|0	BONUS:VAR|CancerMageLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Cancer Mage	PREALIGN:LE,NE,CE	PRECHECKBASE:1,Fortitude=5	PRESKILL:1,Heal=3	PRESKILL:2,Hide=6,Move Silently=6	PRESKILL:1,Knowledge (Nature)=2	PREABILITY:3,CATEGORY=FEAT,Great Fortitude,Poison Immunity,Toughness	PRETEXT:The cancer mage must have fallen victim to the ravages of a disease and must have taken damage from a poison.							
+CLASS:Cancer Mage	STARTSKILLPTS:6	CSKILL:Craft (Alchemy)|Balance|Bluff|Climb|TYPE.Craft|Disable Device|Disguise|Escape Artist|Gather Information|Heal|Hide|Intimidate|Survival|Jump|Knowledge (Nature)|Listen|Move Silently|Sleight of Hands|TYPE.Profession|Ride|Search|Sense motive|Spot|Swim|Tumble|Use Rope												
+1				ABILITY:Cancer Mage Class Feature|AUTOMATIC|Cancer Mage ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.CancerMageProficiencies										
+#														
+1				ABILITY:Cancer Mage Class Feature|AUTOMATIC|Cancer Mage ~ Sneak Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.CancerMageSneakAttack										
+1				ABILITY:Cancer Mage Class Feature|AUTOMATIC|Cancer Mage ~ Disease Host|!PREABILITY:1,CATEGORY=ACF,TYPE.CancerMageDiseaseHost										
+2				ABILITY:Cancer Mage Class Feature|AUTOMATIC|Cancer Mage ~ Contagion|!PREABILITY:1,CATEGORY=ACF,TYPE.CancerMageContagion										
+2				ABILITY:Cancer Mage Class Feature|AUTOMATIC|Cancer Mage ~ Cancerous Companion|!PREABILITY:1,CATEGORY=ACF,TYPE.CancerMageCancerousCompanion										
+3				ABILITY:Cancer Mage Class Feature|AUTOMATIC|Cancer Mage ~ Tatterdemalion|!PREABILITY:1,CATEGORY=ACF,TYPE.CancerMageTatterdemalion										
+4				ABILITY:Cancer Mage Class Feature|AUTOMATIC|Cancer Mage ~ Children of the Night|!PREABILITY:1,CATEGORY=ACF,TYPE.CancerMageChildrenOfTheNight										
+5				ABILITY:Cancer Mage Class Feature|AUTOMATIC|Cancer Mage ~ Viral Agent|!PREABILITY:1,CATEGORY=ACF,TYPE.CancerMageViralAgent										
+6				ABILITY:Cancer Mage Class Feature|AUTOMATIC|Cancer Mage ~ Infected Wound|!PREABILITY:1,CATEGORY=ACF,TYPE.CancerMageInfectedWound										
+8				ABILITY:Cancer Mage Class Feature|AUTOMATIC|Cancer Mage ~ Viral Ally|!PREABILITY:1,CATEGORY=ACF,TYPE.CancerMageViralAlly										
+10				ABILITY:Cancer Mage Class Feature|AUTOMATIC|Cancer Mage ~ Disease Form|!PREABILITY:1,CATEGORY=ACF,TYPE.CancerMageDiseaseForm										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Demonologist	HD:4	TYPE:Prestige	FACT:Abb|Dem	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DemonologistLVL|0	BONUS:VAR|DemonologistLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Demonologist	PREALIGN:CE	PRESKILL:1,Knowledge (Arcana)=4	PRESKILL:1,Knowledge (The Planes)=8	PREABILITY:3,CATEGORY=FEAT,Evil Brand,Sacrifical Mastery,Malign Spell Focus	 PRESPELLSCHOOL:1,Conjuration=3	PRESPELLSCHOOL:6,Conjuration=1								
+CLASS:Demonologist	STARTSKILLPTS:4	CSKILL:Craft (Alchemy)|Bluff|Concentration|Decipher Script|Forgery|Intimidate|Knowledge (Arcana)|Knowledge (The Planes)|Knowledge (Religion)|Ride|Sense Motive|Spellcraft												
+CLASS:Demonologist	SPELLSTAT:CHA	FACT:SpellType|Arcane	MEMORIZE:NO											
+1	CAST:0,1													
+2	CAST:0,1,1													
+3	CAST:0,2,1,1													
+4	CAST:0,2,2,1,1													
+5	CAST:0,3,2,2,1													
+6	CAST:0,3,3,2,2													
+7	CAST:0,3,3,3,2													
+8	CAST:0,4,3,3,3													
+9	CAST:0,4,4,3,3													
+10	CAST:0,4,4,4,3													
+#														
+1				ABILITY:Demonologist Class Feature|AUTOMATIC|Demonologist ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DemonologistProficiencies										
+1				ABILITY:Demonologist Class Feature|AUTOMATIC|Demonologist ~ Spells										
+#														
+1				ABILITY:Demonologist Class Feature|AUTOMATIC|Demonologist ~ Charm Demon|!PREABILITY:1,CATEGORY=ACF,TYPE.DemonologistCharmDemon										
+2				ABILITY:Demonologist Class Feature|AUTOMATIC|Demonologist ~ Quasit Familiar|!PREABILITY:1,CATEGORY=ACF,TYPE.DemonologistQuasitFamiliar										
+3				ABILITY:Demonologist Class Feature|AUTOMATIC|Demonologist ~ Summoning Mastery|!PREABILITY:1,CATEGORY=ACF,TYPE.DemonologistSummoningMastery										
+4				ABILITY:Demonologist Class Feature|AUTOMATIC|Demonologist ~ Resistances|!PREABILITY:1,CATEGORY=ACF,TYPE.DemonologistResistances										
+5				ABILITY:Demonologist Class Feature|AUTOMATIC|Demonologist ~ Poison Immunity|!PREABILITY:1,CATEGORY=ACF,TYPE.DemonologistPoisonImmunity										
+7				ABILITY:Demonologist Class Feature|AUTOMATIC|Demonologist ~ Hold Demon|!PREABILITY:1,CATEGORY=ACF,TYPE.DemonologistHoldDemon										
+8				ABILITY:Demonologist Class Feature|AUTOMATIC|Demonologist ~ Telepathy|!PREABILITY:1,CATEGORY=ACF,TYPE.DemonologistTelepathy										
+10				ABILITY:Demonologist Class Feature|AUTOMATIC|Demonologist ~ Dominate Demon|!PREABILITY:1,CATEGORY=ACF,TYPE.DemonologistDominateDemon										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Diabolist	HD:4	TYPE:Prestige	FACT:Abb|Dia	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DiabolistLVL|0	BONUS:VAR|DiabolistLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Diabolist	PREALIGN:LE	PRECHECKBASE:1,Will=5	PRESKILL:2,Bluff=3,Intimidate=3	PRESKILL:1,Knowledge (The Planes)=8	PREABILITY:2,CATEGORY=FEAT,Evil Brand,Corrupt Spell	PRESPELLDESCRIPTOR:4,Evil=1	PRETEXT:The character must offer her soul-but not necessarily her loyalty-to the forces of hell in exchange for power. When the diabolist dies (permanently), her soul becomes the possession of a powerful devil. The devil uses the soul as it sees fit.							
+CLASS:Diabolist	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Intimidate|Knowledge (Arcana)|Knowledge (The Planes)|Spellcraft|Spot												
+1	ADD:SPELLCASTER|ANY													
+2	ADD:SPELLCASTER|ANY													
+3	ADD:SPELLCASTER|ANY													
+4	ADD:SPELLCASTER|ANY													
+5	ADD:SPELLCASTER|ANY													
+6	ADD:SPELLCASTER|ANY													
+7	ADD:SPELLCASTER|ANY													
+8	ADD:SPELLCASTER|ANY													
+9	ADD:SPELLCASTER|ANY													
+10	ADD:SPELLCASTER|ANY													
+#														
+1				ABILITY:Diabolist Class Feature|AUTOMATIC|Diabolist ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DiabolistProficiencies										
+1				ABILITY:Diabolist Class Feature|AUTOMATIC|Diabolist ~ Spells										
+#														
+1				ABILITY:Diabolist Class Feature|AUTOMATIC|Diabolist ~ Diabolism|!PREABILITY:1,CATEGORY=ACF,TYPE.DiabolistDiabolism										
+2				ABILITY:Diabolist Class Feature|AUTOMATIC|Diabolist ~ Imp Familiar|!PREABILITY:1,CATEGORY=ACF,TYPE.DiabolistImpFamiliar										
+8				ABILITY:Diabolist Class Feature|AUTOMATIC|Diabolist ~ Vile Diabolism|!PREABILITY:1,CATEGORY=ACF,TYPE.DiabolistVileDiabolism										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Disciple of Asmodeus	HD:6	TYPE:Prestige	FACT:Abb|DoA	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DiscipleOfAsmodeusLVL|0	BONUS:VAR|DiscipleOfAsmodeusLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Disciple of Asmodeus	PREALIGN:LE,NE	PRESKILL:2,Bluff=4,Sense Motive=4	PRESKILL:1,Diplomacy=5	PREABILITY:3,CATEGORY=FEAT,Disciple of Darkness,Evil Brand,Leadership	PRETEXT:The sect of Asmodeus initiates its disciples in a horrific rite that involves the sacrifice of an intelligent being. The sacrifice must be of someone with royal blood or of similar political significance.									
+CLASS:Disciple of Asmodeus	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Decipher Script|Diplomacy|Gather Information|Hide|Intimidate|TYPE.Knowledge|Listen|Search|Sense Motive|Spellcraft|Spot												
+1	ADD:SPELLCASTER|ANY													
+2	ADD:SPELLCASTER|ANY													
+3	ADD:SPELLCASTER|ANY													
+4	ADD:SPELLCASTER|ANY													
+5	ADD:SPELLCASTER|ANY													
+6	ADD:SPELLCASTER|ANY													
+7	ADD:SPELLCASTER|ANY													
+8	ADD:SPELLCASTER|ANY													
+9	ADD:SPELLCASTER|ANY													
+10	ADD:SPELLCASTER|ANY													
+#														
+1				ABILITY:Disciple of Asmodeus Class Feature|AUTOMATIC|Disciple of Asmodeus ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfAsmodeusProficiencies										
+1				ABILITY:Disciple of Asmodeus Class Feature|AUTOMATIC|Disciple of Asmodeus ~ Spells										
+#														
+1				ABILITY:Disciple of Asmodeus Class Feature|AUTOMATIC|Disciple of Asmodeus ~ Charm|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfAsmodeusCharm										
+1				ABILITY:Disciple of Asmodeus Class Feature|AUTOMATIC|Disciple of Asmodeus ~ Learn Secret|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfAsmodeusLearnSecret										
+2				ABILITY:Disciple of Asmodeus Class Feature|AUTOMATIC|Disciple of Asmodeus ~ Command|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfAsmodeusCommand										
+4				ABILITY:Disciple of Asmodeus Class Feature|AUTOMATIC|Disciple of Asmodeus ~ Summon Hellcat|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfAsmodeusSummonHellcat										
+6				ABILITY:Disciple of Asmodeus Class Feature|AUTOMATIC|Disciple of Asmodeus ~ Evil Authority|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfAsmodeusEvilAuthority										
+8				ABILITY:Disciple of Asmodeus Class Feature|AUTOMATIC|Disciple of Asmodeus ~ Summon Major Devil|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfAsmodeusSummonMajorDevil										
+9				ABILITY:Disciple of Asmodeus Class Feature|AUTOMATIC|Disciple of Asmodeus ~ Greater Command|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfAsmodeusGreaterCommand										
+10				ABILITY:Disciple of Asmodeus Class Feature|AUTOMATIC|Disciple of Asmodeus ~ Dread Might|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfAsmodeusDreadMight										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Disciple of Baalzebul	HD:6	TYPE:Prestige	FACT:Abb|DoB	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DiscipleOfBaalzebulLVL|0	BONUS:VAR|DiscipleOfBaalzebulLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Disciple of Baalzebul	PREALIGN:LE,NE,CE	PRESKILL:1,Bluff=10	PRESKILL:2,Diplomacy=4,Gather Information=4	PREABILITY:1,CATEGORY=FEAT,Disciple of Darkness	PRETEXT:The sect of Baalzebul initiates new disciples in a terrible ritual that involves the sacrifice of an intelligent being. The ritual must take place in the home of the sacrificial victim.									
+CLASS:Disciple of Baalzebul	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Climb|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Gather Information|Hide|Intimidate|Bluff|Jump|Knowledge (Religion)|Listen|Move Silently|Open Lock|Sleight of Hands|TYPE.Profession|Ride|Search|Sense Motive|Spot|Use Magic Device												
+1				ABILITY:Disciple of Baalzebul Class Feature|AUTOMATIC|Disciple of Baalzebul ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfBaalzebulProficiencies										
+#														
+1				ABILITY:Disciple of Baalzebul Class Feature|AUTOMATIC|Disciple of Baalzebul ~ Tongue of the Devil|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfBaalzebulTongueOfTheDevil										
+2				ABILITY:Disciple of Baalzebul Class Feature|AUTOMATIC|Disciple of Baalzebul ~ Sneak Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfBaalzebulSneakAttack										
+3				ABILITY:Disciple of Baalzebul Class Feature|AUTOMATIC|Disciple of Baalzebul ~ Suggestion|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfBaalzebulSuggestion										
+4				ABILITY:Disciple of Baalzebul Class Feature|AUTOMATIC|Disciple of Baalzebul ~ Summon Osyluth|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfBaalzebulSummonOsyluth										
+6				ABILITY:Disciple of Baalzebul Class Feature|AUTOMATIC|Disciple of Baalzebul ~ Insect Plague|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfBaalzebulInsectPlague										
+7				ABILITY:Disciple of Baalzebul Class Feature|AUTOMATIC|Disciple of Baalzebul ~ Beguiling Nature|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfBaalzebulBeguilingNature										
+9				ABILITY:Disciple of Baalzebul Class Feature|AUTOMATIC|Disciple of Baalzebul ~ Summon Cornugon|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfBaalzebulSummonCornugon										
+10				ABILITY:Disciple of Baalzebul Class Feature|AUTOMATIC|Disciple of Baalzebul ~ King of Lies|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfBaalzebulKingOfLies										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Disciple of Dispater	HD:10	TYPE:Prestige	FACT:Abb|DoD	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DiscipleOfDispaterLVL|0	BONUS:VAR|DiscipleOfDispaterLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Disciple of Dispater	PREALIGN:LE,NE,CE	PREATT:6	PREABILITY:3,CATEGORY=FEAT,Disciple of Darkness,Combat Expertise,Power Attack	PRETEXT:Dispater's sect initiates new disciples in a terrible ritual that involves the sacrifice of an intelligent being atop an altar made of iron. The ritual must take place in the presence of an erinyes, who reports back to Dispater afterward.										
+CLASS:Disciple of Dispater	STARTSKILLPTS:4	CSKILL:Balance|Climb|Disable Device|Disguise|Escape Artist|Hide|Bluff|Intimidate|Jump|Knowledge (Religion)|Listen|Move Silently|TYPE.Profession|Ride|Search|Spot												
+1				ABILITY:Disciple of Dispater Class Feature|AUTOMATIC|Disciple of Dispater ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfDispaterProficiencies										
+#														
+1				ABILITY:Disciple of Dispater Class Feature|AUTOMATIC|Disciple of Dispater ~ Device Lore|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfDispaterDeviceLore										
+2				ABILITY:Disciple of Dispater Class Feature|AUTOMATIC|Disciple of Dispater ~ Iron Hews|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfDispaterIronHews										
+3				ABILITY:Disciple of Dispater Class Feature|AUTOMATIC|Disciple of Dispater ~ Rusting Grasp|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfDispaterRustingGrasp										
+4				ABILITY:Disciple of Dispater Class Feature|AUTOMATIC|Disciple of Dispater ~ Iron Power|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfDispaterIronPower										
+5				ABILITY:Disciple of Dispater Class Feature|AUTOMATIC|Disciple of Dispater ~ Summon Erinyes|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfDispaterSummonErinyes										
+6				ABILITY:Disciple of Dispater Class Feature|AUTOMATIC|Disciple of Dispater ~ Greater Iron Hews|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfDispaterGreaterIronHews										
+7				ABILITY:Disciple of Dispater Class Feature|AUTOMATIC|Disciple of Dispater ~ Ironskin|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfDispaterIronskin										
+10				ABILITY:Disciple of Dispater Class Feature|AUTOMATIC|Disciple of Dispater ~ Iron Body|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfDispaterIronBody										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Disciple of Mammon	HD:6	TYPE:Prestige	FACT:Abb|DoM	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DiscipleOfMammonLVL|0	BONUS:VAR|DiscipleOfMammonLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Disciple of Mammon	PREALIGN:LE,NE,CE	PREATT:4	PREABILITY:1,CATEGORY=FEAT,Disciple of Darkness	PRETEXT:The character must go through a disgusting and humiliating sexual ritual and betray her closest friend to an evil end before she can properly serve her new master.										
+CLASS:Disciple of Mammon	STARTSKILLPTS:4	CSKILL:Appraise|Balance|Disable Device|Disguise|Escape Artist|Forgery|Hide|Bluff|Intimidate|TYPE.Knowledge|Listen|Move Silently|Open Lock|Sleight of Hands|TYPE.Profession|Search|Spot												
+1				ABILITY:Disciple of Mammon Class Feature|AUTOMATIC|Disciple of Mammon ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMammonProficiencies										
+#														
+1				ABILITY:Disciple of Mammon Class Feature|AUTOMATIC|Disciple of Mammon ~ Lie|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMammonLie										
+2				ABILITY:Disciple of Mammon Class Feature|AUTOMATIC|Disciple of Mammon ~ Cheat|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMammonCheat										
+3				ABILITY:Disciple of Mammon Class Feature|AUTOMATIC|Disciple of Mammon ~ Thief|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMammonThief										
+3				ABILITY:Disciple of Mammon Class Feature|AUTOMATIC|Disciple of Mammon ~ Steal|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMammonSteal										
+4				ABILITY:Disciple of Mammon Class Feature|AUTOMATIC|Disciple of Mammon ~ Divert Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMammonDivertAttack										
+5				ABILITY:Disciple of Mammon Class Feature|AUTOMATIC|Disciple of Mammon ~ Summon Osyluth|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMammonSummonOsyluth										
+6				ABILITY:Disciple of Mammon Class Feature|AUTOMATIC|Disciple of Mammon ~ Take Object|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMammonTakeObject										
+7				ABILITY:Disciple of Mammon Class Feature|AUTOMATIC|Disciple of Mammon ~ Enhance Value|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMammonEnhanceValue										
+8				ABILITY:Disciple of Mammon Class Feature|AUTOMATIC|Disciple of Mammon ~ Divert Spell|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMammonDivertSpell										
+9				ABILITY:Disciple of Mammon Class Feature|AUTOMATIC|Disciple of Mammon ~ Nondetection|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMammonNondetection										
+10				ABILITY:Disciple of Mammon Class Feature|AUTOMATIC|Disciple of Mammon ~ Summon Gelugon|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMammonSummonGelugon										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Disciple of Mephistopheles	HD:8	TYPE:Prestige	FACT:Abb|DoP	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DiscipleOfMephistophelesLVL|0	BONUS:VAR|DiscipleOfMephistophelesLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Disciple of Mephistopheles	PREALIGN:LE,NE,CE	PREATT:6	PREABILITY:2,CATEGORY=FEAT,Disciple of Darkness,Evil Brand	PRETEXT:The sect of Mephistopheles welcomes new disciples with a terrible ritual that involves the sacrifice of an intelligent being in magical fire.										
+CLASS:Disciple of Mephistopheles	STARTSKILLPTS:4	CSKILL:Balance|Climb|Disable Device|Disguise|Escape Artist|Hide|Intimidate|Bluff|Jump|Knowledge (Religion)|Listen|Move Silently|TYPE.Profession|Ride|Search|Spot												
+1				ABILITY:Disciple of Mephistopheles Class Feature|AUTOMATIC|Disciple of Mephistopheles ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMephistophelesProficiencies										
+#														
+1				ABILITY:Disciple of Mephistopheles Class Feature|AUTOMATIC|Disciple of Mephistopheles ~ Hellfire Grasp|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMephistophelesHellfireGrasp										
+1				ABILITY:Disciple of Mephistopheles Class Feature|AUTOMATIC|Disciple of Mephistopheles ~ Fire Adept|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMephistophelesFireAdept										
+2				ABILITY:Disciple of Mephistopheles Class Feature|AUTOMATIC|Disciple of Mephistopheles ~ Fire Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMephistophelesFireResistance										
+3				ABILITY:Disciple of Mephistopheles Class Feature|AUTOMATIC|Disciple of Mephistopheles ~ Hellfire Blast|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMephistophelesHellfireBlast										
+4				ABILITY:Disciple of Mephistopheles Class Feature|AUTOMATIC|Disciple of Mephistopheles ~ Flare|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMephistophelesFlare										
+5				ABILITY:Disciple of Mephistopheles Class Feature|AUTOMATIC|Disciple of Mephistopheles ~ Summon Hamatula|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMephistophelesSummonHamatula										
+6				ABILITY:Disciple of Mephistopheles Class Feature|AUTOMATIC|Disciple of Mephistopheles ~ Hellfire|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMephistophelesHellfire										
+7				ABILITY:Disciple of Mephistopheles Class Feature|AUTOMATIC|Disciple of Mephistopheles ~ Fire Shield|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMephistophelesFireShield										
+8				ABILITY:Disciple of Mephistopheles Class Feature|AUTOMATIC|Disciple of Mephistopheles ~ Hellfire Storm|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMephistophelesHellfireStorm										
+10				ABILITY:Disciple of Mephistopheles Class Feature|AUTOMATIC|Disciple of Mephistopheles ~ Body of Flame|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMephistophelesBodyOfFlame										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Lifedrinker	HD:12	TYPE:Prestige	FACT:Abb|Lid	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:LifedrinkerLVL|0	BONUS:VAR|LifedrinkerLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Lifedrinker	PREALIGN:LE,NE,CE	PRESKILL:2,Knowledge (Arcana)=6,Spellcraft=6	PREMULT:1,[PRERACE:1,Vampire],[PRETEMPLATE:1,Vampire]											
+CLASS:Lifedrinker	STARTSKILLPTS:4	CSKILL:Bluff|Hide|Knowledge (Arcana)|Listen|Move Silently|TYPE.Profession|Search|Sense Motive|Spellcraft|Spot												
+1				ABILITY:Lifedrinker Class Feature|AUTOMATIC|Lifedrinker ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.LifedrinkerProficiencies										
+#														
+1				ABILITY:Lifedrinker Class Feature|AUTOMATIC|Lifedrinker ~ Lifewell|!PREABILITY:1,CATEGORY=ACF,TYPE.LifedrinkerLifewell										
+1				ABILITY:Lifedrinker Class Feature|AUTOMATIC|Lifedrinker ~ Invigorate|!PREABILITY:1,CATEGORY=ACF,TYPE.LifedrinkerInvigorate										
+2				ABILITY:Lifedrinker Class Feature|AUTOMATIC|Lifedrinker ~ Spell Boost ~ Empower|!PREABILITY:1,CATEGORY=ACF,TYPE.LifedrinkerSpellBoostEmpower										
+3				ABILITY:Lifedrinker Class Feature|AUTOMATIC|Lifedrinker ~ Spell Boost ~ Heighten|!PREABILITY:1,CATEGORY=ACF,TYPE.LifedrinkerSpellBoostHeighten										
+4				ABILITY:Lifedrinker Class Feature|AUTOMATIC|Lifedrinker ~ Special Attack Boost ~ Empower|!PREABILITY:1,CATEGORY=ACF,TYPE.LifedrinkerSpecialAttackBoostEmpower										
+5				ABILITY:Lifedrinker Class Feature|AUTOMATIC|Lifedrinker ~ Blood Servant|!PREABILITY:1,CATEGORY=ACF,TYPE.LifedrinkerBloodServant										
+5				ABILITY:Lifedrinker Class Feature|AUTOMATIC|Lifedrinker ~ Boost Defenses|!PREABILITY:1,CATEGORY=ACF,TYPE.LifedrinkerBoostDefenses										
+6				ABILITY:Lifedrinker Class Feature|AUTOMATIC|Lifedrinker ~ Spell Boost ~ Maximize|!PREABILITY:1,CATEGORY=ACF,TYPE.LifedrinkerSpellBostMaximize										
+7				ABILITY:Lifedrinker Class Feature|AUTOMATIC|Lifedrinker ~ Greater Blood Drain|!PREABILITY:1,CATEGORY=ACF,TYPE.LifedrinkerGreaterBloodDrain										
+7				ABILITY:Lifedrinker Class Feature|AUTOMATIC|Lifedrinker ~ Special Attack Boost ~ Maximize|!PREABILITY:1,CATEGORY=ACF,TYPE.LifedrinkerSpecialAttackBoostMaximize										
+8				ABILITY:Lifedrinker Class Feature|AUTOMATIC|Lifedrinker ~ Spell Boost ~ Quicken|!PREABILITY:1,CATEGORY=ACF,TYPE.LifedrinkerSpellBostQuicken										
+9				ABILITY:Lifedrinker Class Feature|AUTOMATIC|Lifedrinker ~ Greater Invigorate|!PREABILITY:1,CATEGORY=ACF,TYPE.LifedrinkerGreaterInvigorate										
+10				ABILITY:Lifedrinker Class Feature|AUTOMATIC|Lifedrinker ~ Blood Revel|!PREABILITY:1,CATEGORY=ACF,TYPE.LifedrinkerBloodRevel										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Mortal Hunter	HD:10	TYPE:Prestige	FACT:Abb|Mor	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:MortalHunterLVL|0	BONUS:VAR|MortalHunterLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Mortal Hunter	PRERACE:1,RACETYPE=Outsider	PREALIGN:LE,NE,CE	PREATT:5	PRESKILL:1,Move Silently=3	PRESKILL:1,Survival=5	PRELANG:1,Common	PREABILITY:2,CATEGORY=Feat,Mortalbane,Track							
+CLASS:Mortal Hunter	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Concentration|Disguise|Hide|Survival|Jump|Knowledge (Arcana)|Knowledge (Religion)|Knowledge (The Planes)|Listen|Move Silently|Search|Sense Motive|Spot|Survival												
+CLASS:Mortal Hunter	SPELLSTAT:CHA	FACT:SpellType|Arcane	MEMORIZE:NO											
+1	CAST:0,0													
+2	CAST:0,1													
+3	CAST:0,1,0													
+4	CAST:0,1,1													
+5	CAST:0,1,1,0													
+6	CAST:0,1,1,1													
+7	CAST:0,2,1,1,0													
+8	CAST:0,2,1,1,1													
+9	CAST:0,2,2,1,1													
+10	CAST:0,2,2,2,1													
+#														
+1				ABILITY:Mortal Hunter Class Feature|AUTOMATIC|Mortal Hunter ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MortalHunterProficiencies										
+1				ABILITY:Mortal Hunter Class Feature|AUTOMATIC|Mortal Hunter ~ Spells										
+#														
+1				ABILITY:Mortal Hunter Class Feature|AUTOMATIC|Mortal Hunter ~ Mortal Hunting|!PREABILITY:1,CATEGORY=ACF,TYPE.MortalHunterMortalHunting										
+1				ABILITY:Mortal Hunter Class Feature|AUTOMATIC|Mortal Hunter ~ Mortal Skin|!PREABILITY:1,CATEGORY=ACF,TYPE.MortalHunterMortalSkin										
+2				ABILITY:Mortal Hunter Class Feature|AUTOMATIC|Mortal Hunter ~ Detect Mortals|!PREABILITY:1,CATEGORY=ACF,TYPE.MortalHunterDetectMortals										
+2				ABILITY:Mortal Hunter Class Feature|AUTOMATIC|Mortal Hunter ~ Boost Spell-Like Ability|!PREABILITY:1,CATEGORY=ACF,TYPE.MortalHunterBoostSpellLikeAbility										
+4				ABILITY:Mortal Hunter Class Feature|AUTOMATIC|Mortal Hunter ~ Smite Mortals|!PREABILITY:1,CATEGORY=ACF,TYPE.MortalHunterSmiteMortals										
+5				ABILITY:Mortal Hunter Class Feature|AUTOMATIC|Mortal Hunter ~ Spurn Mortal Magic|!PREABILITY:1,CATEGORY=ACF,TYPE.MortalHunterSpurnMortalMagic										
+7				ABILITY:Mortal Hunter Class Feature|AUTOMATIC|Mortal Hunter ~ Claws of the Overfiend|!PREABILITY:1,CATEGORY=ACF,TYPE.MortalHunterClawsOfTheOverfiend										
+8				ABILITY:Mortal Hunter Class Feature|AUTOMATIC|Mortal Hunter ~ Mortalbnane Shout|!PREABILITY:1,CATEGORY=ACF,TYPE.MortalHunterMortalbaneShout										
+10				ABILITY:Mortal Hunter Class Feature|AUTOMATIC|Mortal Hunter ~ Slay Mortal|!PREABILITY:1,CATEGORY=ACF,TYPE.MortalHunterSlayMortal										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Soul Eater	HD:8	TYPE:Prestige	FACT:Abb|Sou	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:SoulEaterLVL|0	BONUS:VAR|SoulEaterLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Soul Eater	!PRERACE:1,RACETYPE=Humanoind	PREALIGN:LE,NE,CE	PREATT:5	PRESKILL:1,Knowledge (Arcana)=2	PREABILITY:2,CATEGORY=FEAT,Alertness,Weapon Focus	PRETEXT:Soul eaters are usually created against their will. Sometimes, the emissary of an evil god or a powerful fiend approaches a monster on the verge of death. In exchange for continued life, the creature must feed on souls thereafter. More rarely, a creature desiring the ability to feed on souls undergoes a forbidden, profane ritual that allows it to become a soul eater.								
+CLASS:Soul Eater	STARTSKILLPTS:4	CSKILL:Climb|Concentration|Hide|Intimidate|Jump|Listen|Move Silently|TYPE.Profession|Search|Spellcraft|Spot|Swim|Use Rope												
+#														
+1				ABILITY:Soul Eater Class Feature|AUTOMATIC|Soul Eater ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulEaterProficiencies										
+#														
+1				ABILITY:Soul Eater Class Feature|AUTOMATIC|Soul Eater ~ Energy Drain|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulEaterEnergyDrain										
+2				ABILITY:Soul Eater Class Feature|AUTOMATIC|Soul Eater ~ Soul Strength|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulEaterSoulStrength										
+3				ABILITY:Soul Eater Class Feature|AUTOMATIC|Soul Eater ~ Soul Blast|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulEaterSoulBlast										
+4				ABILITY:Soul Eater Class Feature|AUTOMATIC|Soul Eater ~ Soul Enhancement|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulEaterSoulEnhancement										
+5				ABILITY:Soul Eater Class Feature|AUTOMATIC|Soul Eater ~ Soul Endurance|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulEaterSoulEndurance										
+6				ABILITY:Soul Eater Class Feature|AUTOMATIC|Soul Eater ~ Soul Radiance|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulEaterSoulRadiance										
+8				ABILITY:Soul Eater Class Feature|AUTOMATIC|Soul Eater ~ Soul Agility|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulEaterSoulAgility										
+9				ABILITY:Soul Eater Class Feature|AUTOMATIC|Soul Eater ~ Soul Slave|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulEaterSoulSlave										
+10				ABILITY:Soul Eater Class Feature|AUTOMATIC|Soul Eater ~ Soul Power|!PREABILITY:1,CATEGORY=ACF,TYPE.SoulEaterSoulPower										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Thrall of Demogorgon	HD:8	TYPE:Prestige	FACT:Abb|ToD	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ThrallOfDemogorgonLVL|0	BONUS:VAR|ThrallOfDemogorgonLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Thrall of Demogorgon	PREALIGN:CE	PREATT:4	PRESKILL:2,Knowledge (Arcana)=2,Knowledge (Religion)=2	PRESKILL:3,TYPE.Knowledge=2	PREABILITY:2,CATEGORY=FEAT,willing Deformity,Thrall to Demon	PREMULT:1,[PRESPELLTYPE:1,ANY=1],[PREABILITY:1,CATEGORY=Special Ability,Sneak Attack]	PRETEXT:A thrall of Demogorgon is initiated in a horrific rite that involves the sacrifice of an intelligent being dedicated to Demogorgon. This ceremony must take place on unhallowed ground, at night, in the presence of a demon.							
+CLASS:Thrall of Demogorgon	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Concentration|Hide|Intimidate|Survival|Jump|TYPE.Knowledge|Move Silently|TYPE.Profession|Search|Sense Motive|Spot|Swim|Use Rope												
+#														
+1				ABILITY:Thrall of Demogorgon Class Feature|AUTOMATIC|Thrall of Demogorgon ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfDemogorgonProficiencies										
+#														
+1				ABILITY:Thrall of Demogorgon Class Feature|AUTOMATIC|Thrall of Demogorgon ~ Bonus Feat or Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfDemogorgonBonusFeatOrSpells										
+1				ABILITY:Thrall of Demogorgon Class Feature|AUTOMATIC|Thrall of Demogorgon ~ Scaly Flesh|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfDemogorgonScalyFlesh										
+1				ABILITY:Thrall of Demogorgon Class Feature|AUTOMATIC|Thrall of Demogorgon ~ Hypnosis|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfDemogorgonHypnosis										
+2				ABILITY:Thrall of Demogorgon Class Feature|AUTOMATIC|Thrall of Demogorgon ~ Touch of Fear|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfDemogorgonTouchOfFear										
+3				ABILITY:Thrall of Demogorgon Class Feature|AUTOMATIC|Thrall of Demogorgon ~ Reaching Touch|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfDemogorgonReachingTouch										
+4				ABILITY:Thrall of Demogorgon Class Feature|AUTOMATIC|Thrall of Demogorgon ~ Dual Actions|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfDemogorgonDualActions										
+5				ABILITY:Thrall of Demogorgon Class Feature|AUTOMATIC|Thrall of Demogorgon ~ Summon Demon|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfDemogorgonSummonDemon										
+6				ABILITY:Thrall of Demogorgon Class Feature|AUTOMATIC|Thrall of Demogorgon ~ Rotting Touch|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfDemogorgonRottingTouch										
+8				ABILITY:Thrall of Demogorgon Class Feature|AUTOMATIC|Thrall of Demogorgon ~ Two Personas|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfDemogorgonTwoPersonas										
+10				ABILITY:Thrall of Demogorgon Class Feature|AUTOMATIC|Thrall of Demogorgon ~ Demogorgon's Will|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfDemogorgonDemogorgonSWill										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Thrall of Graz'zt	HD:6	TYPE:Prestige	FACT:Abb|ToG	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ThrallOfGrazztLVL|0	BONUS:VAR|ThrallOfGrazztLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Thrall of Graz'zt	PREALIGN:LE,NE,CE	PRESKILL:1,Knowledge (Arcana)=5	PRESKILL:2,Bluff=2,Diplomacy=2	PREABILITY:2,CATEGORY=FEAT,Thrall to Demon,Violate Spell	PRESPELLDESCRIPTOR:1,Evil=3	PRETEXT:Graz'zt's followers initiate new thralls in a horrific rite that involves the sacrifice of an intelligent being. This rite must be performed within an area of magical darkness under the influence of a desecrate or unhallow spell								
+CLASS:Thrall of Graz'zt	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Decipher Script|Diplomacy|Gather Information|Hide|TYPE.Knowledge|Listen|Move Silently|Open Lock|TYPE.Perform|Sleight of Hands|Search|Sense Motive|Spellcraft|Spot|Use Magic Device												
+1	ADD:SPELLCASTER|ANY													
+3	ADD:SPELLCASTER|ANY													
+5	ADD:SPELLCASTER|ANY													
+7	ADD:SPELLCASTER|ANY													
+9	ADD:SPELLCASTER|ANY													
+10	ADD:SPELLCASTER|ANY													
+#														
+1				ABILITY:Thrall of Graz'zt Class Feature|AUTOMATIC|Thrall of Graz'zt ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfGrazztProficiencies										
+1				ABILITY:Thrall of Graz'zt Class Feature|AUTOMATIC|Thrall of Graz'zt ~ Spells										
+#														
+1				ABILITY:Thrall of Graz'zt Class Feature|AUTOMATIC|Thrall of Graz'zt ~ Charm|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfGraz'ztCharm										
+2				ABILITY:Thrall of Graz'zt Class Feature|AUTOMATIC|Thrall of Graz'zt ~ Spell Betrayal|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfGraz'ztSpellBetrayal										
+3				ABILITY:Thrall of Graz'zt Class Feature|AUTOMATIC|Thrall of Graz'zt ~ Dark Charisma|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfGraz'ztDarkCharisma										
+4				ABILITY:Thrall of Graz'zt Class Feature|AUTOMATIC|Thrall of Graz'zt ~ Summon Demon|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfGraz'ztSummonDemon										
+6				ABILITY:Thrall of Graz'zt Class Feature|AUTOMATIC|Thrall of Graz'zt ~ Spellstrike|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfGraz'ztSpellstrike										
+														
+CLASS:Thrall of Juiblex	HD:10	TYPE:Prestige	FACT:Abb|ToJ	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ThrallOfJuiblexLVL|0	BONUS:VAR|ThrallOfJuiblexLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Thrall of Juiblex	PREALIGN:LE,NE,CE	PREATT:6	PRESKILL:1,Escape Artist=5	PREABILITY:2,CATEGORY=FEAT,Thrall to Demon,Willing Deformity	PRETEXT:The thrall of Juiblex is initiated in a horrific rite that involves the sacrifice of an intelligent being. At least three oozes, slimes, or puddings must be present for the ritual. The victim of the sacrificial ritual must be dissolved in acid. Special: Must have been polymorphed or experienced some sort of shapechanging experience.									
+CLASS:Thrall of Juiblex	STARTSKILLPTS:2	CSKILL:Climb|Disguise|Escape Artist|Intimidate|Jump|Knowledge (Religion)|Listen|Move Silently|Spot												
+#														
+1				ABILITY:Thrall of Juiblex Class Feature|AUTOMATIC|Thrall of Juiblex ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfJuiblexProficiencies										
+#														
+1				ABILITY:Thrall of Juiblex Class Feature|AUTOMATIC|Thrall of Juiblex ~ Sickening Slime|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfJuiblexSickeningSlime										
+2				ABILITY:Thrall of Juiblex Class Feature|AUTOMATIC|Thrall of Juiblex ~ Corrosive Touch|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfJuiblexCorrosiveTouch										
+3				ABILITY:Thrall of Juiblex Class Feature|AUTOMATIC|Thrall of Juiblex ~ Summon Ooze|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfJuiblexSummonOoze										
+4				ABILITY:Thrall of Juiblex Class Feature|AUTOMATIC|Thrall of Juiblex ~ Contagion|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfJuiblexContagion										
+4				ABILITY:Thrall of Juiblex Class Feature|AUTOMATIC|Thrall of Juiblex ~ Alter Self|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfJuiblexAlterSelf										
+5				ABILITY:Thrall of Juiblex Class Feature|AUTOMATIC|Thrall of Juiblex ~ Summon Demon|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfJuiblexSummonDemon										
+6				ABILITY:Thrall of Juiblex Class Feature|AUTOMATIC|Thrall of Juiblex ~ Corrosive Spew|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfJuiblexCorrosiveSpew										
+7				ABILITY:Thrall of Juiblex Class Feature|AUTOMATIC|Thrall of Juiblex ~ Summon Pudding|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfJuiblexSummonPudding										
+8				ABILITY:Thrall of Juiblex Class Feature|AUTOMATIC|Thrall of Juiblex ~ Polymorph Self|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfJuiblexPolymorphSelf										
+10				ABILITY:Thrall of Juiblex Class Feature|AUTOMATIC|Thrall of Juiblex ~ No Discernible Anatomy|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfJuiblexNoDiscernibleAnatomy										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Thrall of Orcus	HD:8	TYPE:Prestige	FACT:Abb|ToO	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ThrallOfOrcusLVL|0	BONUS:VAR|ThrallOfOrcusLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Thrall of Orcus	PREALIGN:LE,NE,CE	PREATT:4	PRESKILL:2,Knowledge (Arcana)=2,Knowledge (Religion)=2	PREABILITY:2,CATEGORY=FEAT,Lichloved,Thrall to Demon	PRESPELLSCHOOL:1,Necromancy=1	PRETEXT:The sacrifice of an intelligent being is the centerpiece of the horrific rite that initiates a new thrall of Orcus. This ritual takes place in complete darkness atop an altar made of at least thirty skulls.								
+CLASS:Thrall of Orcus	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Hide|Intimidate|TYPE.Knowledge|Move Silently|TYPE.Profession|Spot												
+#														
+1				ABILITY:Thrall of Orcus Class Feature|AUTOMATIC|Thrall of Orcus ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfOrcusProficiencies										
+#														
+1				ABILITY:Thrall of Orcus Class Feature|AUTOMATIC|Thrall of Orcus ~ Bonus Feat or Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfOrcusBonusFeatOrSpells										
+1				ABILITY:Thrall of Orcus Class Feature|AUTOMATIC|Thrall of Orcus ~ Carrion Stench|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfOrcusCarrionStench										
+2				ABILITY:Thrall of Orcus Class Feature|AUTOMATIC|Thrall of Orcus ~ Touch of Fear|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfOrcusTouchOfFear										
+3				ABILITY:Thrall of Orcus Class Feature|AUTOMATIC|Thrall of Orcus ~ Demon Wings|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfOrcusDemonWings										
+4				ABILITY:Thrall of Orcus Class Feature|AUTOMATIC|Thrall of Orcus ~ Massive Girth ~ Skeletal Visage|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfOrcusMassiveGirthSkeletalVisage										
+5				ABILITY:Thrall of Orcus Class Feature|AUTOMATIC|Thrall of Orcus ~ Summon Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfOrcusSummonUndead										
+6				ABILITY:Thrall of Orcus Class Feature|AUTOMATIC|Thrall of Orcus ~ Pallor of Death|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfOrcusPallorOfDeath										
+8				ABILITY:Thrall of Orcus Class Feature|AUTOMATIC|Thrall of Orcus ~ Death Touch|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfOrcusDeathTouch										
+10				ABILITY:Thrall of Orcus Class Feature|AUTOMATIC|Thrall of Orcus ~ Summon Nightwing|!PREABILITY:1,CATEGORY=ACF,TYPE.ThrallOfOrcusSummonNightwing										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+# CLASS:Ur-Priest														
+# CLASS:Ur-Priest														
+# CLASS:Ur-Priest														
+														
+CLASS:Vermin Lord	HD:6	TYPE:Prestige	FACT:Abb|Vrm	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:VerminLordLVL|0	BONUS:VAR|VerminLordLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Vermin Lord	PREALIGN:LE,NE,CE	PRESKILL:2,Move Silently=3,Hide=3	PRESKILL:1,Knowledge (Nature)=2	PREABILITY:2,CATEGORY=FEAT,Verminfriend	PRESPELL:1,Giant Vermin	PRETEXT:The vermin lord must be ordained by an intelligent evil creature with a physical resemblance to vermin— a drider, chasme, gelugon, aranea, bebilith, phase spider, evil formian, or similar creature. The ordaining creature must be intelligent enough to communicate with the vermin lordto- be. Of course, such a creature will demand service or payment in return.								
+CLASS:Vermin Lord	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Concentration|Hide|Knowledge (Nature)|Listen|Move Silently|TYPE.Perform|Sleight of Hands|Search|Spellcraft|Spot												
+1	ADD:SPELLCASTER|ANY													
+3	ADD:SPELLCASTER|ANY													
+5	ADD:SPELLCASTER|ANY													
+7	ADD:SPELLCASTER|ANY													
+9	ADD:SPELLCASTER|ANY													
+10	ADD:SPELLCASTER|ANY													
+#														
+1				ABILITY:Vermin Lord Class Feature|AUTOMATIC|Vermin Lord ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.VerminLordProficiencies										
+1				ABILITY:Vermin Lord Class Feature|AUTOMATIC|Vermin Lord ~ Spells										
+#														
+1				ABILITY:Vermin Lord Class Feature|AUTOMATIC|Vermin Lord ~ Chitin|!PREABILITY:1,CATEGORY=ACF,TYPE.VerminLordChitin										
+2				ABILITY:Vermin Lord Class Feature|AUTOMATIC|Vermin Lord ~ Blood Drain|!PREABILITY:1,CATEGORY=ACF,TYPE.VerminLordBloodDrain										
+3				ABILITY:Vermin Lord Class Feature|AUTOMATIC|Vermin Lord ~ Spider Hand|!PREABILITY:1,CATEGORY=ACF,TYPE.VerminLordSpiderHand										
+4				ABILITY:Vermin Lord Class Feature|AUTOMATIC|Vermin Lord ~ Swarm Armor|!PREABILITY:1,CATEGORY=ACF,TYPE.VerminLordSwarmArmor										
+5				ABILITY:Vermin Lord Class Feature|AUTOMATIC|Vermin Lord ~ Wings of the Vermin|!PREABILITY:1,CATEGORY=ACF,TYPE.VerminLordWingsOfTheVermin										
+6				ABILITY:Vermin Lord Class Feature|AUTOMATIC|Vermin Lord ~ Spider Legs|!PREABILITY:1,CATEGORY=ACF,TYPE.VerminLordSpiderLegs										
+7				ABILITY:Vermin Lord Class Feature|AUTOMATIC|Vermin Lord ~ Spew Vermin|!PREABILITY:1,CATEGORY=ACF,TYPE.VerminLordSpewVermin										
+8				ABILITY:Vermin Lord Class Feature|AUTOMATIC|Vermin Lord ~ Poison|!PREABILITY:1,CATEGORY=ACF,TYPE.VerminLordPoison										
+10				ABILITY:Vermin Lord Class Feature|AUTOMATIC|Vermin Lord ~ Hivemind|!PREABILITY:1,CATEGORY=ACF,TYPE.VerminLordHivemind										
+#														
+11	PREPCLEVEL:MIN=20													
+														
+CLASS:Warrior of Darkness	HD:10	TYPE:Prestige	FACT:Abb|WoD	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:WarriorOfDarknessLVL|0	BONUS:VAR|WarriorOfDarknessLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Warrior of Darkness	PREALIGN:LE,NE,CE	PREATT:5	PRESKILL:2,Craft (Alchemy)=3,Knowledge (Arcana)=3	PRELANG:1,Abyssal,Infernal	PRESKILL:1,Spellcraft=1	PREABILITY:1,CATEGORY=FEAT,Iron Will	PRETEXT:The character must endure a week of painful and scarring black magic rituals performed in solitude, the secrets of which take months to study and research successfully.							
+CLASS:Warrior of Darkness	STARTSKILLPTS:4	CSKILL:Craft (Alchemy)|Bluff|Climb|Concentration|Hide|Jump|Knowledge (Arcana)|Knowledge (The Planes)|Move Silently|Ride|Spellcraft												
+#														
+1				ABILITY:Warrior of Darkness Class Feature|AUTOMATIC|Warrior of Darkness ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.WarriorOfDarknessProficiencies										
+#														
+1				ABILITY:Warrior of Darkness Class Feature|AUTOMATIC|Warrior of Darkness ~ Black Magic Oil|!PREABILITY:1,CATEGORY=ACF,TYPE.WarriorOfDarknessBlackMagicOil										
+2				ABILITY:Warrior of Darkness Class Feature|AUTOMATIC|Warrior of Darkness ~ Darkling Weapon|!PREABILITY:1,CATEGORY=ACF,TYPE.WaoorioOfDarknessDarklingWeapon										
+3				ABILITY:Warrior of Darkness Class Feature|AUTOMATIC|Warrior of Darkness ~ Black Magic Elixir|!PREABILITY:1,CATEGORY=ACF,TYPE.WaoorioOfDarknessBlackMagicElixir										
+5				ABILITY:Warrior of Darkness Class Feature|AUTOMATIC|Warrior of Darkness ~ Scarred Flesh|!PREABILITY:1,CATEGORY=ACF,TYPE.WaoorioOfDarknessScarredFlesh										
+8				ABILITY:Warrior of Darkness Class Feature|AUTOMATIC|Warrior of Darkness ~ Repellent Flesh|!PREABILITY:1,CATEGORY=ACF,TYPE.WaoorioOfDarknessRepellentFlesh										

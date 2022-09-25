@@ -25,7 +25,7 @@ CLASS:Beholder Mage	SPELLSTAT:INT	FACT:SpellType|Arcane	SPELLBOOK:YES
 9	CAST:6,6,6,6,6,6,6,6,5,3																						
 10	CAST:6,6,6,6,6,6,6,6,6,5																						
 																							
-CLASS:Banelar	HD:10	TYPE:Monster		MAXLEVEL:7	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:MagicalBeastLVL|0	BONUS:VAR|MagicalBeastLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/3)									
+CLASS:Banelar	HD:10	TYPE:Monster		MAXLEVEL:7	SOURCEPAGE:MCMoF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:MagicalBeastLVL|0	BONUS:VAR|MagicalBeastLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/3)									
 CLASS:Banelar	PRERACETYPE:Magical Beast	PRERACE:1,Banelar	OUTPUTNAME:Magical Beast	VISIBLE:NO																			
 CLASS:Banelar	STARTSKILLPTS:2	MODTOSKILLS:YES																					
 1	ADD:SPELLCASTER|Cleric	ABILITY:Internal|AUTOMATIC|Cleric Class																					
@@ -43,7 +43,7 @@ CLASS:Banelar	STARTSKILLPTS:2	MODTOSKILLS:YES
 6	BONUS:PCLEVEL|Wizard|1																						
 7																							
 
-CLASS:Choldrith	HD:8	TYPE:Monster		MAXLEVEL:4	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AberrationLVL|0	BONUS:VAR|AberrationLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
+CLASS:Choldrith	HD:8	TYPE:Monster		MAXLEVEL:4	SOURCEPAGE:MCMoF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AberrationLVL|0	BONUS:VAR|AberrationLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
 CLASS:Choldrith	PRERACETYPE:Aberration	PRERACE:1,Choldrith	OUTPUTNAME:Aberration	VISIBLE:NO																			
 CLASS:Choldrith	STARTSKILLPTS:2	MODTOSKILLS:YES												
 1	ADD:SPELLCASTER|Cleric	ABILITY:Internal|AUTOMATIC|Cleric Class																					
@@ -52,7 +52,7 @@ CLASS:Choldrith	STARTSKILLPTS:2	MODTOSKILLS:YES
 3	BONUS:PCLEVEL|Cleric|1																						
 4	BONUS:PCLEVEL|Cleric|1																						
 
-CLASS:Cloaker Lord	HD:8	TYPE:Monster		MAXLEVEL:4	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AberrationLVL|0	BONUS:VAR|AberrationLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
+CLASS:Cloaker Lord	HD:8	TYPE:Monster		MAXLEVEL:4	SOURCEPAGE:MCMoF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AberrationLVL|0	BONUS:VAR|AberrationLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
 CLASS:Cloaker Lord	PRERACETYPE:Aberration	PRERACE:1,Choldrith	OUTPUTNAME:Aberration	VISIBLE:NO																			
 CLASS:Cloaker Lord	STARTSKILLPTS:2	MODTOSKILLS:YES												
 1	ADD:SPELLCASTER|Wizard (Shadower)	ABILITY:Internal|AUTOMATIC|Wizard Shadower Class																					
@@ -72,7 +72,7 @@ SUBCLASSLEVEL:1	ABILITY:Wizard Class Feature|AUTOMATIC|Shadower Learning Bonus
 
 CLASS:Wizard (Shadower)	SPELLSTAT:INT	BONUS:CASTERLEVEL|Wizard (Shadower)|CL	SPELLLIST:1|Wizard	DEFINE:ShadowerLVL|0	BONUS:VAR|ShadowerLVL|CL
 
-CLASS:Sharn	HD:8	TYPE:Monster		MAXLEVEL:4	SOURCEPAGE:MM1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AberrationLVL|0	BONUS:VAR|AberrationLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
+CLASS:Sharn	HD:8	TYPE:Monster		MAXLEVEL:4	SOURCEPAGE:MCMoF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AberrationLVL|0	BONUS:VAR|AberrationLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
 CLASS:Sharn	PRERACETYPE:Aberration	PRERACE:1,Sharn	OUTPUTNAME:Aberration	VISIBLE:NO																			
 CLASS:Sharn	STARTSKILLPTS:2	MODTOSKILLS:YES												
 1	ADD:SPELLCASTER|Cleric	ABILITY:Internal|AUTOMATIC|Cleric Class																					

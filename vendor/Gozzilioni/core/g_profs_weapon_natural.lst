@@ -26,6 +26,9 @@ Shocking Touch	TYPE:Weapon.Natural.Finesseable.Melee.Touch.MeleeTouch
 
 Musk Puff	TYPE:Weapon.Natural.Finesseable.Ranged.Touch.RangedTouch
 
+Eldritch Fire	TYPE:Weapon.Natural.Finesseable.Ranged.Touch.RangedTouch
+Hellfire Blast	TYPE:Weapon.Natural.Finesseable.Ranged.Touch.RangedTouch
+
 #Melee
 Armblade	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning.MeleePiercing.MeleeSlashing.MeleeBludgeoning.Sword
 Beak	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing

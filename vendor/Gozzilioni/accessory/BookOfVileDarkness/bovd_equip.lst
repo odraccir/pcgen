@@ -1,0 +1,113 @@
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10			
+						
+###Block:Torture Device						
+Torture Device (Branding Iron)		TYPE:Goods.TortureDevice	COST:2	WT:4	SOURCEPAGE:BoVD	SPROP:1d3 damage. +3 circumstance bonus on Intimidate during torture.
+Torture Device (Dagger)		TYPE:Goods.TortureDevice	COST:2	WT:1	SOURCEPAGE:BoVD	SPROP:2d4 damage. +4 circumstance bonus on Intimidate during torture.
+Torture Device (Hot Lead)		TYPE:Goods.TortureDevice	COST:0.1	WT:1	SOURCEPAGE:BoVD	SPROP:1d3 damage. +3 circumstance bonus on Intimidate during torture.
+Torture Device (Iron Maidem/Low)		TYPE:Goods.TortureDevice	COST:200	WT:250	SOURCEPAGE:BoVD	SPROP:1 damage. +6 circumstance bonus on Intimidate during torture. Escape Artist DC 27.
+Torture Device (Iron Maidem/Medium)		TYPE:Goods.TortureDevice	COST:200	WT:250	SOURCEPAGE:BoVD	SPROP:5 damage. +8 circumstance bonus on Intimidate during torture. Escape Artist DC 27.
+Torture Device (Iron Maidem/Severe)		TYPE:Goods.TortureDevice	COST:200	WT:250	SOURCEPAGE:BoVD	SPROP:10 damage. +10 circumstance bonus on Intimidate during torture. Escape Artist DC 27.
+Torture Device (Iron Maidem/Terminal)		TYPE:Goods.TortureDevice	COST:200	WT:250	SOURCEPAGE:BoVD	SPROP:50 damage. +12 circumstance bonus on Intimidate during torture. Escape Artist DC 27.
+Torture Device (Jaw Breaker)		TYPE:Goods.TortureDevice	COST:10	WT:1	SOURCEPAGE:BoVD	SPROP:2d4 damage. +4 circumstance bonus on Intimidate during torture.
+Torture Device (Needle)		TYPE:Goods.TortureDevice	COST:0.1	WT:0	SOURCEPAGE:BoVD	SPROP:1 damage. +2 circumstance bonus on Intimidate during torture.
+Torture Device (Pillory)		TYPE:Goods.TortureDevice	COST:50	WT:50	SOURCEPAGE:BoVD	SPROP:1d6 damage. +2 circumstance bonus on Intimidate during torture. Escape Artist DC 20.
+Torture Device (Rack)		TYPE:Goods.TortureDevice	COST:150	WT:200	SOURCEPAGE:BoVD	SPROP:1 damage. +2 circumstance bonus on Intimidate during torture. Escape Artist DC 22.
+Torture Device (Scalpel)		TYPE:Goods.TortureDevice	COST:4	WT:0	SOURCEPAGE:BoVD	SPROP:1d6 damage. +4 circumstance bonus on Intimidate during torture.
+Torture Device (Thumbscrew)		TYPE:Goods.TortureDevice	COST:1	WT:1	SOURCEPAGE:BoVD	SPROP:1d2 damage. +3 circumstance bonus on Intimidate during torture.
+						
+###Block:Execution Device						
+Execution Device (Crucifixion Cross)		TYPE:Goods.ExecutionDevice	COST:1	WT:50	SOURCEPAGE:BoVD	SPROP:Execution DC 15, Escape Artist DC 28.
+Execution Device (Draw and Quarter)		TYPE:Goods.ExecutionDevice	COST:0.3	WT:1	SOURCEPAGE:BoVD	SPROP:Execution DC 18, Escape Artist DC 25. 5d6 botched damage.
+Execution Device (Hanging Rope)		TYPE:Goods.ExecutionDevice	COST:0.3	WT:1	SOURCEPAGE:BoVD	SPROP:Execution DC 18, Escape Artist against Use Rope. 1d3/round botched damage.
+Execution Device (Headsman's Axe)		TYPE:Goods.ExecutionDevice	COST:20	WT:20	SOURCEPAGE:BoVD	SPROP:Execution DC 18, Escape Artist against Use Rope. Coup de Grace botched damage.
+						
+###Block:Alchemical						
+Feather Powder (Vial)		TYPE:Goods.Alchemical.Consumable.Vial.Liquid	COST:70	WT:1	SOURCEPAGE:BoVD	
+Festering Bomb		TYPE:Goods.Alchemical.Consumable	COST:50	WT:0	SOURCEPAGE:BoVD	
+Karras Stone Knife		TYPE:Goods.Alchemical	COST:250	WT:0	SOURCEPAGE:BoVD	
+Violated Horn		TYPE:Goods.Alchemical	COST:3000	WT:0	SOURCEPAGE:BoVD	
+Weeping Stone		TYPE:Goods.Alchemical	COST:100	WT:0	SOURCEPAGE:BoVD	
+						
+###Block:Drugs						
+Drug (Agony)	OUTPUTNAME:[NAME]	TYPE:Goods.Drug.Consumable	COST:200	WT:0	SOURCEPAGE:BoVD	SPROP:Ingested DC 18, Init.:User is stunned for 1d4+1 rounds and can take only partial actions for 1d6 minutes after that., Sec.:1d4+1 enhancement bonus to Charisma for 1d10+50 minutes. Craft DC 25.
+Drug (Baccaran)	OUTPUTNAME:[NAME]	TYPE:Goods.Drug.Consumable	COST:10	WT:0	SOURCEPAGE:BoVD	SPROP:Ingested DC 14, Init.:1d4 points of Strength damage, Sec.:1d4+1 enhancement bonus toWisdom for 1d10+15 minutes. Craft DC 20.
+Drug (Devilweed)	OUTPUTNAME:[NAME]	TYPE:Goods.Drug.Consumable	COST:6	WT:0	SOURCEPAGE:BoVD	SPROP:Inhaled DC 15, Init.:1 point ofWisdom damage, Sec.:The smoker gains a +2 alchemical bonus to Strength for 1d3 hours. Craft DC 20.
+Drug (Luhix)	OUTPUTNAME:[NAME]	TYPE:Goods.Drug.Consumable	COST:2000	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 25, Init.:1 point of ability score damage to all ability scores, Sec.:The imbiber gains a +2 alchemical bonus to all ability scores for 1d2 hours. Craft DC 30.
+Drug (Mordayn Vapor)	OUTPUTNAME:[NAME]	TYPE:Goods.Drug.Consumable	COST:200	WT:0	SOURCEPAGE:BoVD	SPROP:Inhaled DC 17, Init.:Exotic visions of incredible beauty enthrall the user for the next 1d20+10 minutes. During this time the user has a 50% chance to lose any action he attempts, as described in the bestow curse spell., Sec.:1d4 points of Constitution damage and 1d4 points ofWisdom damage. Craft DC 20.
+Drug (Mushroom Powder)	OUTPUTNAME:[NAME]	TYPE:Goods.Drug.Consumable	COST:100	WT:0	SOURCEPAGE:BoVD	SPROP:Inhaled DC 15, Init.:+2 alchemical bonus to Intelligence and Charisma for 1 hour, Sec.:1 point of Strength damage. Craft DC 25.
+Drug (Reflower Leaves)	OUTPUTNAME:[NAME]	TYPE:Goods.Drug.Consumable	COST:300	WT:0	SOURCEPAGE:BoVD	SPROP:Ingested DC 10, Init.:None, Sec.:As amove-equivalent action, the user may focus his attention upon a particular creature. If he follows that action with an attack against the creature, he gains a +4 competence bonus on the attack roll. This ability lasts 10 minutes. Craft DC 27.
+Drug (Sannish)	OUTPUTNAME:[NAME]	TYPE:Goods.Drug.Consumable	COST:15	WT:0	SOURCEPAGE:BoVD	SPROP:Ingested DC 9, Init.:1 point ofWisdom damage, Sec.:The user becomes numbed to pain for 1d4 hours, immune to pain-induced penalties (such as from a symbol of pain). Craft DC 20.
+Drug (Terran Brandy)	OUTPUTNAME:[NAME]	TYPE:Goods.Drug.Consumable	COST:500	WT:0	SOURCEPAGE:BoVD	SPROP:Ingested DC 19, Init.:+2 alchemical bonus to effective caster level for 1d20+20 minutes, Sec.:2 points of Constitution damage. Craft DC 30.
+Drug (Vodare)	OUTPUTNAME:[NAME]	TYPE:Goods.Drug.Consumable	COST:40	WT:0	SOURCEPAGE:BoVD	SPROP:Ingested DC 13, Init.:+2 alchemical bonus on Intimidate checks and saving throws against fear effects for 1d4 hours, Sec.:-4 alchemical penalty on Diplomacy and Bluff checks for 2d4 hours. Craft DC 15.
+						
+###Block:Poison						
+Poison (Tiny Centipede Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:40	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 11, Init.:1 Dex, Sec.:1 Dex. Craft DC 15.
+Poison (Small Centipede Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:90	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 11, Init.:1d2 Dex, Sec.:1d2 Dex. Craft DC 15.
+Poison (Medium Centipede Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:110	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 13, Init.:1d3 Dex, Sec.:1d3 Dex. Craft DC 15.
+Poison (Large Centipede Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 16, Init.:1d4 Dex, Sec.:1d4 Dex. Craft DC 18.
+Poison (Huge Centipede Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:210	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 18, Init.:1d6 Dex, Sec.:1d6 Dex. Craft DC 20.
+Poison (Gargantuan Centipede Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:950	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 26, Init.:1d8 Dex, Sec.:1d8 Dex. Craft DC 20.
+Poison (Colossal Centipede Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2900	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 30, Init.:2d6 Dex, Sec.:2d6 Dex. Craft DC 30.
+Poison (Tiny Scorpion Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:90	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 11, Init.:1d2 Str, Sec.:1d2 Str. Craft DC 15.
+Poison (Small Scorpion Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 11, Init.:1d3 Str, Sec.:1d3 Str. Craft DC 15.
+Poison (Medium Scorpion Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:175	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 15, Init.:1d4 Str, Sec.:1d4 Str. Craft DC 18.
+Poison (Large Scorpion Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:200	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 18, Init.:1d6 Str, Sec.:1d6 Str. Craft DC 20.
+Poison (Huge Scorpion Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1200	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 26, Init.:1d8 Str, Sec.:1d8 Str. Craft DC 25.
+Poison (Gargantuan Scorpion Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:3000	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 36, Init.:2d6 Str, Sec.:2d6 Str. Craft DC 32.
+Poison (Colossal Scorpion Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:9000	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 54, Init.:2d8 Str, Sec.:2d8 Str. Craft DC 35.
+Poison (Tiny Spider Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:90	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 11, Init.:1d2 Str, Sec.:1d2 Str. Craft DC 15.
+Poison (Small Spider Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 11, Init.:1d3 Str, Sec.:1d3 Str. Craft DC 15.
+Poison (Medium Spider Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 13, Init.:1d4 Str, Sec.:1d4 Str. Craft DC 18.
+Poison (Large Spider Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:175	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 16, Init.:1d6 Str, Sec.:1d6 Str. Craft DC 18.
+Poison (Huge Spider Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1000	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 22, Init.:1d8 Str, Sec.:1d8 Str. Craft DC 20.
+Poison (Gargantuan Spider Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2500	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 31, Init.:2d6 Str, Sec.:2d6 Str. Craft DC 26.
+Poison (Colossal Spider Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:3000	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 35, Init.:2d8 Str, Sec.:2d8 Str. Craft DC 35.
+Poison (Bebilith Venom)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:900	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 20, Init.:1d6 Con, Sec.:2d6 Con. Craft DC 20.
+Poison (Devilseye)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1000	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 21, Init.:1 point of SR, Sec.:1d3 points of SR. Craft DC 22. Affects outsiders otherwise immune to poison. Damage to SR returns at the same rate as ability score damage.
+Poison (Lifebane)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2000	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 20, Init.:1d6 Con, Sec.:1d6 Con. Craft DC 25. Damage is vile damage.
+Poison (Eyeblast)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:500	WT:0	SOURCEPAGE:BoVD	SPROP:Injury DC 22, Init.:Blindness, Sec.:Blindness. Craft DC 23.
+Poison (Balor Bile)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1000	WT:0	SOURCEPAGE:BoVD	SPROP:Contact DC 25, Init.:1d6 Str, Sec.:1d6 Str. Craft DC 25.
+Poison (Vilestar)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:6000	WT:0	SOURCEPAGE:BoVD	SPROP:Contact DC 24, Init.:2d6 Str, Sec.:2d6 Str. Craft DC 34. Damage is vile damage.
+Poison (Sasson Juice)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:500	WT:0	SOURCEPAGE:BoVD	SPROP:Contact DC 18, Init.:1d4 Dex, Sec.:1d4 Dex. Craft DC 22.
+Poison (Sufferfume)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1200	WT:0	SOURCEPAGE:BoVD	SPROP:Inhaled DC 20, Init.:1 all scores, Sec.:1 all scores. Craft DC 21.
+Poison (Urthanyk)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2000	WT:0	SOURCEPAGE:BoVD	SPROP:Inhaled DC 19, Init.:1d6 Str, Sec.:1d6 Str. Craft DC 26.
+Poison (Mist of Nourn)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:7000	WT:0	SOURCEPAGE:BoVD	SPROP:Inhaled DC 25, Init.:1d8 Con, Sec.:1d8 Con. Craft DC 35.
+Poison (Ishentav)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:500	WT:0	SOURCEPAGE:BoVD	SPROP:Inhaled DC 13, Init.:1d6 Str, Sec.:1d6 Str. Craft DC 25.
+Poison (Burning Angel Wing Fumes)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2800	WT:0	SOURCEPAGE:BoVD	SPROP:Inhaled DC 18, Init.:1d6 Cha, Sec.:2d6 Cha. Craft DC 27.
+Poison (Basilisk Breath)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:2500	WT:0	SOURCEPAGE:BoVD	SPROP:Inhaled DC 17, Init.:1d6 Con, Sec.:1d6 Con. Craft DC 26. Affects outsiders otherwise immune to poison.
+Psychic Poison (Darin-tasith)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:0	WT:0	SOURCEPAGE:BoVD	SPROP:Target Creature, Init.:1d6 Int, Sec.:1d6 Int. Minimum level 7th.
+Psychic Poison (Karadrach)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:0	WT:0	SOURCEPAGE:BoVD	SPROP:Target Creature, Init.:1d6 Wis, Sec.:1d6 Wis. Minimum level 7th.
+Psychic Poison (Estadrach)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:0	WT:0	SOURCEPAGE:BoVD	SPROP:Target Creature, Init.:1d8 Wis, Sec.:2d8 Wis. Minimum level 9th.
+Psychic Poison (Stradda)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:0	WT:0	SOURCEPAGE:BoVD	SPROP:Target Creature or Object, Init.:1d6 Cha, Sec.:1d6 Cha. Minimum level 8th.
+Psychic Poison (Nishita)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:0	WT:0	SOURCEPAGE:BoVD	SPROP:Target Object, Init.:1d6 Int, Sec.:1d6 Int. Minimum level 7th.
+Psychic Poison (Vashita)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:0	WT:0	SOURCEPAGE:BoVD	SPROP:Target Object, Init.:1d6 Wis, Sec.:1d6 Wis. Minimum level 7th.
+Psychic Poison (Lanshita)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:0	WT:0	SOURCEPAGE:BoVD	SPROP:Target Object, Init.:2d6 Cha, Sec.:2d6 Cha. Minimum level 11th.
+Psychic Poison (Blu Unlyn)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:0	WT:0	SOURCEPAGE:BoVD	SPROP:Target Area, Init.:1d6 Int, Sec.:1d6 Int. Minimum level 8th.
+Psychic Poison (Red Unlyn)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:0	WT:0	SOURCEPAGE:BoVD	SPROP:Target Area, Init.:1d6 Wis, Sec.:1d6 Wis. Minimum level 8th.
+Psychic Poison (Amber Unlyn)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:0	WT:0	SOURCEPAGE:BoVD	SPROP:Target Area, Init.:1d6 Cha, Sec.:1d6 Cha. Minimum level 8th.
+Psychic Poison (Violet Unlyn)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:0	WT:0	SOURCEPAGE:BoVD	SPROP:Target Area, Init.:1d6 Int, Sec.:2d6 Int. Minimum level 10th.
+Psychic Poison (Black Unlyn)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:0	WT:0	SOURCEPAGE:BoVD	SPROP:Target Area, Init.:1d6 Int, 1d6 Wis, 1d6 Cha, Sec.:1d6 Int, 1d6 Wis, 1d6 Cha. Minimum level 13th.
+						
+###Block:Spell Component						
+Agony		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:200	WT:0	SOURCEPAGE:BoVD	SPROP:+2 bonus on effective caster level on a single Evil spell.
+Beast brain fluid		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:0.3	WT:0	SOURCEPAGE:BoVD	
+Bit of lycanthrope fur or skin		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:0.7	WT:0	SOURCEPAGE:BoVD	
+Bit of ochre jelly or gray ooze		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:.5	WT:0	SOURCEPAGE:BoVD	
+Chromatic dragon heart		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:6	WT:0	SOURCEPAGE:BoVD	SPROP:30%% chance to deals +2d6 extra points of damage if the spell deals damage normally.
+Demon flesh		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:5	WT:0	SOURCEPAGE:BoVD	
+Demon heart		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:18	WT:0	SOURCEPAGE:BoVD	SPROP:25%% chance to have any damage dealed increased by 10%%.
+Devil's heart		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:20	WT:0	SOURCEPAGE:BoVD	SPROP:10%% chance to not forget the spell when cast.
+Feather of an intelligent creature		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:20	WT:0	SOURCEPAGE:BoVD	
+Humanoid bone		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:0.01	WT:0	SOURCEPAGE:BoVD	
+Humanoid brain		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:0.04	WT:0	SOURCEPAGE:BoVD	SPROP:50%% chance to have its range doubled.
+Humanoid child eye		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:0.02	WT:0	SOURCEPAGE:BoVD	SPROP:20%% chance to have its duration doubled.
+Humanoid finger		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:0.01	WT:0	SOURCEPAGE:BoVD	SPROP:40%% chance to receive +1 profane bonus on spell's attack roll.
+humanoid hand		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:0.03	WT:0	SOURCEPAGE:BoVD	
+humanoid heart		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:0.1	WT:0	SOURCEPAGE:BoVD	SPROP:10%% chance to +2 bonus on effective caster level on a single spell..
+Metallic dragon heart		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:7	WT:0	SOURCEPAGE:BoVD	SPROP:40%% chance to increase by +1 the save DC. (at least 15 HD dragon)
+Soul (larval form)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:250	WT:0	SOURCEPAGE:BoVD	SPROP:+2 the save DC.
+Soul (receptacle)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:200	WT:0	SOURCEPAGE:BoVD	SPROP:+10 profane bonus on caster level check to overcome spell resistance.
+Tongue of creature capable of speech		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:0.03	WT:0	SOURCEPAGE:BoVD	
+Vial (Humanoid blood)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:0.03	WT:0	SOURCEPAGE:BoVD	
+Vrock feather		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:1	WT:0	SOURCEPAGE:BoVD	
+Yugoloth brain		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:5	WT:0	SOURCEPAGE:BoVD	SPROP:10%% chance to allow no saving throw against its effect.

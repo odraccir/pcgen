@@ -1,0 +1,42 @@
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10				
+							
+							
+# Human							
+Vashar	VISIBLE:NO	KEY:Human Vashar	SUBRACE:Vashar				
+# Halfling							
+Jerren	VISIBLE:NO	KEY:Jerren Halfling	SUBRACE:Jerren				
+							
+Languages	KEY:Halfling ~ Jerren ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Halfling	LANGBONUS:Infernal,Abyssal,Goblin,Orc			
+Favored Class	KEY:Halfling ~ Jerren ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue				
+							
+###Block: Diseases							
+Disease Damage (Acid Fever)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=6|TITLE=Stength Damage		TEMPDESC:Infection DC 18 (Injury), Incubation 1d3 days, Damage 1d6 Str (When damaged, character must succeed at another saving throw or 1 point of temporary damage is permanent drain instead), Apply this temporary bonus each day the victim takes damage.	TEMPBONUS:ANYPC|STAT|STR|-1*(%CHOICE)
+Disease Damage (Blue Guts)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=4|TITLE=Stength Damage		TEMPDESC:Infection DC 14 (Special), Incubation 1d3 days, Damage 1d3 Str.	TEMPBONUS:ANYPC|STAT|STR|-1*(%CHOICE)
+Disease Damage (Deathsong/Str Damage)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=8|TITLE=Stength Damage		TEMPDESC:Infection DC 25 (Contact), Incubation 1 day, Damage 1d8 Str, 1d8 Dex and 1d8 Con.	TEMPBONUS:ANYPC|STAT|STR|-1*(%CHOICE)
+Disease Damage (Deathsong/Dex Damage)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=8|TITLE=Dexterity Damage		TEMPDESC:Infection DC 25 (Contact), Incubation 1 day, Damage 1d8 Str, 1d8 Dex and 1d8 Con.	TEMPBONUS:ANYPC|STAT|DEX|-1*(%CHOICE)
+Disease Damage (Deathsong/Con Damage)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=8|TITLE=Constitution Damage		TEMPDESC:Infection DC 25 (Contact), Incubation 1 day, Damage 1d8 Str, 1d8 Dex and 1d8 Con.	TEMPBONUS:ANYPC|STAT|CON|-1*(%CHOICE)
+Disease Damage (Faceless Hate/Str Damage)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=6|TITLE=Stength Damage		TEMPDESC:Infection DC 20 (Inury), Incubation 1d4 days, Damage 1d6 Str and 1d6 Con. Successful saves do not allow the character to recover. Only magical healing can save the character. 	TEMPBONUS:ANYPC|STAT|STR|-1*(%CHOICE)
+Disease Damage (Faceless Hate/Con Damage)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=6|TITLE=Constitution Damage		TEMPDESC:Infection DC 20 (Inury), Incubation 1d4 days, Damage 1d6 Str and 1d6 Con. Successful saves do not allow the character to recover. Only magical healing can save the character. The victim must makes three successful Fortitude saving throws to recover.	TEMPBONUS:ANYPC|STAT|CON|-1*(%CHOICE)
+Disease Damage (Festering Hate/Constitution Damage)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=3|TITLE=Constitution Damage		TEMPDESC:Infection DC 22 (Special), Incubation varies. Successful saves do not allow the character to recover. Only magical healing can save the character. 	TEMPBONUS:ANYPC|STAT|CON|-1*(%CHOICE)
+Disease Damage (Festering Hate/Strength Enhancement)		VISIBLE:NO	SOURCEPAGE:BoVD			TEMPDESC:Infection DC 22 (Special), Incubation varies. Successful saves do not allow the character to recover. Only magical healing can save the character. 	TEMPBONUS:ANYPC|STAT|STR|2|TYPE=Enhancement.STACK
+Disease Damage (Fire Taint)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=6|TITLE=Wisdom Damage		TEMPDESC:Infection DC 20 (Injury), Incubation 1d4 days, Damage 1d6 Str and 1d6 Con. When damaged, character must succeed at another saving throw or 1 point of temporary damage is permanent drain instead.	TEMPBONUS:ANYPC|STAT|WIS|-1*(%CHOICE)
+Disease Damage (Frigid Ravaging)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=6|TITLE=Constitution Damage		TEMPDESC:Infection DC 18 (Inhaled), Incubation 1 day, Damage 1d6 Con. When damaged, character must succeed at another saving throw or 1 point of temporary damage is permanent drain instead.	TEMPBONUS:ANYPC|STAT|CON|-1*(%CHOICE)
+Disease Damage (Iron Corruption)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=4|TITLE=Constitution Damage		TEMPDESC:Infection DC 18 (Injury), Incubation 1d3 days, Damage 1d4 Con.	TEMPBONUS:ANYPC|STAT|CON|-1*(%CHOICE)
+Disease Damage (Life Blindness)		VISIBLE:NO	SOURCEPAGE:BoVD			TEMPDESC:Infection DC 21 (Inhaled), Incubation 1 day, Damage special.	
+Disease Damage (Lightning Curse)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=6|TITLE=Intelligence Damage		TEMPDESC:Infection DC 18 (Contact), Incubation 1 day, Damage 1d6 Int. When damaged, character must succeed at another saving throw or 1 point of temporary damage is permanent drain instead.	TEMPBONUS:ANYPC|STAT|INT|-1*(%CHOICE)
+Disease Damage (Melting Fury/Strength Damage)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=4|TITLE=Strength Damage		TEMPDESC:Infection DC 16 (Contact), Incubation 1d6 days, Damage 1d4 Str, 1d4 Dex and 1d4 Con.	TEMPBONUS:ANYPC|STAT|STR|-1*(%CHOICE)
+Disease Damage (Melting Fury/Dexterity Damage)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=4|TITLE=Dexterity Damage		TEMPDESC:Infection DC 16 (Contact), Incubation 1d6 days, Damage 1d4 Str, 1d4 Dex and 1d4 Con.	TEMPBONUS:ANYPC|STAT|DEX|-1*(%CHOICE)
+Disease Damage (Melting Fury/Constitution Damage)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=4|TITLE=Constitution Damage		TEMPDESC:Infection DC 16 (Contact), Incubation 1d6 days, Damage 1d4 Str, 1d4 Dex and 1d4 Con.	TEMPBONUS:ANYPC|STAT|CON|-1*(%CHOICE)
+Disease Damage (Misery's Passage)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=6|TITLE=Strength Damage		TEMPDESC:Infection DC 15 (Injury), Incubation varies, Damage 1d6 Str. The victim must makes three successful Fortitude saving throws to recover.	TEMPBONUS:ANYPC|STAT|STR|-1*(%CHOICE)
+Disease Damage (Possession Infection/Wisdom Damage)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=6|TITLE=Wisdom Damage		TEMPDESC:Infection DC 17 (Contact), Incubation 1 day, Damage 1d6 Wis and 1d6 Cha.	TEMPBONUS:ANYPC|STAT|WIS|-1*(%CHOICE)
+Disease Damage (Possession Infection/Charisma Damage)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=6|TITLE=Charisma Damage		TEMPDESC:Infection DC 17 (Contact), Incubation 1 day, Damage 1d6 Wis and 1d6 Cha.	TEMPBONUS:ANYPC|STAT|CHA|-1*(%CHOICE)
+Disease Damage (Sound Sickness)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=6|TITLE=Dexterity Damage		TEMPDESC:Infection DC 18 (Contact), Incubation 1d3 days, Damage 1d6 Dex. When damaged, character must succeed at another saving throw or 1 point of temporary damage is permanent drain instead. With each failed saving throw, a second saving throw must be made. If at any time the second save fails, the victim becomes permanently deafened.	TEMPBONUS:ANYPC|STAT|DEX|-1*(%CHOICE)
+Disease Damage (Soul Rot/Wisdom Damage)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=6|TITLE=Wisdom Damage		TEMPDESC:Infection DC 23 (Special), Incubation 1d8 days, Damage 1d6 Wis and 1d6 Cha.	TEMPBONUS:ANYPC|STAT|WIS|-1*(%CHOICE)
+Disease Damage (Soul Rot/Charisma Damage)		VISIBLE:NO	SOURCEPAGE:BoVD	TEMPVALUE:MIN=1|MAX=6|TITLE=Charisma Damage		TEMPDESC:Infection DC 23 (Special), Incubation 1d8 days, Damage 1d6 Wis and 1d6 Cha.	TEMPBONUS:ANYPC|STAT|CHA|-1*(%CHOICE)
+Disease Damage (Vile Rigidity)		VISIBLE:NO	SOURCEPAGE:BoVD			TEMPDESC:Infection DC 19 (Contact), Incubation 1 day, Damage special.	
+Disease Damage (Warp Touch)		VISIBLE:NO	SOURCEPAGE:BoVD			TEMPDESC:Infection DC 20 (Contact), Incubation immediate, Damage special.	
+
+###Block: Class 
+Vermin Lord ~ Bite	VISIBLE:NO	SOURCEPAGE:BoVD	TEMPLATE:CHOOSE|Vermin Lord ~ Bite ~ 1|Vermin Lord ~ Bite ~ 2
+Vermin Lord ~ Bite ~ 1	VISIBLE:NO	SOURCEPAGE:BoVD	PREMULT:2,[PREVARGTEQ:VerminLordLVL,2],[PREVARLTEQ:VerminLordLVL,7]	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,2d6
+Vermin Lord ~ Bite ~ 2	VISIBLE:NO	SOURCEPAGE:BoVD	PREVARGTEQ:VerminLordLVL,8	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,2d6,SPROP=Poison

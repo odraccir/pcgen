@@ -65,7 +65,7 @@ Gold (Per Lb.)		TYPE:Goods.Trade	COST:50	WT:1	SOURCEPAGE:PHB
 Platinum (Per Lb.)		TYPE:Goods.Trade	COST:500	WT:1	SOURCEPAGE:PHB				
 									
 # Adventuring Gear									
-Backpack		TYPE:Goods.General.Resizable.Container	COST:2	WT:2	SOURCEPAGE:PHB	CONTAINS:UNLIM|Any			
+Backpack		TYPE:Goods.General.Resizable.Backpack.Container	COST:2	WT:2	SOURCEPAGE:PHB	CONTAINS:UNLIM|Any			
 Barrel		TYPE:Goods.General.Container	COST:2	WT:30	SOURCEPAGE:PHB	CONTAINS:UNLIM|Any			
 Basket		TYPE:Goods.General.Container	COST:0.4	WT:1	SOURCEPAGE:PHB	CONTAINS:UNLIM|Any			
 Bedroll		TYPE:Goods.General.Resizable	COST:0.1	WT:5	SOURCEPAGE:PHB				
@@ -120,7 +120,7 @@ Pitcher (Clay)		TYPE:Goods.Container.General	COST:0.02	WT:5	SOURCEPAGE:PHB	CONTA
 Piton		TYPE:Goods.General	COST:0.1	WT:0.5	SOURCEPAGE:PHB				
 Pole (10 Ft.)		TYPE:Goods.General	COST:0.2	WT:8	SOURCEPAGE:PHB				
 Pot (Iron)		TYPE:Goods.General.Container	COST:0.5	WT:10	SOURCEPAGE:PHB	CONTAINS:UNLIM|Any			
-Pouch (Belt)		TYPE:Goods.General.Container.Resizable	COST:1	WT:0.5	SOURCEPAGE:PHB	CONTAINS:UNLIM|Any			
+Pouch (Belt)		TYPE:Goods.General.Container.CoinPurse.Resizable	COST:1	WT:0.5	SOURCEPAGE:PHB	CONTAINS:UNLIM|Any			
 Ram (Portable)		TYPE:Goods.General	COST:10	WT:20	SOURCEPAGE:PHB				
 Rations (Trail/Per Day)		TYPE:Goods.Food.Resizable.Consumable	COST:0.5	WT:1	SOURCEPAGE:PHB				
 Rope (Hempen/50 Ft.)		TYPE:Goods.General.Rope	COST:1	WT:10	SOURCEPAGE:PHB				
@@ -194,7 +194,7 @@ Musical Instrument (Recorder)		TYPE:Goods.Tools.Instrument.Wind.Resizable	COST:5
 Musical Instrument (Shawm)		TYPE:Goods.Tools.Instrument.Wind.Resizable	COST:5	WT:3	SOURCEPAGE:PHB	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork			
 Musical Instrument (Trumpet)		TYPE:Goods.Tools.Instrument.Wind.Resizable	COST:5	WT:3	SOURCEPAGE:PHB	BONUS:SKILL|Perform (Wind Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork			
 Scale (Merchant's)		TYPE:Goods.Tools	COST:2	WT:1	SOURCEPAGE:PHB	SPROP:+2 to appraise items valued by weight			
-Spell Component Pouch		TYPE:Goods.Tools	COST:5	WT:2	SOURCEPAGE:PHB				
+Spell Component Pouch		TYPE:Goods.Tools.CoinPurse	COST:5	WT:2	SOURCEPAGE:PHB				
 Spellbook (Wizard's/Blank)		TYPE:Goods.Tools.Spellbook	COST:15	WT:3	SOURCEPAGE:PHB	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)		
 Thieves' Tools		TYPE:Goods.Tools.Resizable.Thief.ThiefTools	COST:30	WT:1	SOURCEPAGE:PHB	BONUS:SKILL|Disable Device,Open Lock|2|TYPE=Circumstance|PRETYPE:1,Masterwork			
 Waterclock		TYPE:Goods.Tools.Resizable	COST:1000	WT:200	SOURCEPAGE:PHB				

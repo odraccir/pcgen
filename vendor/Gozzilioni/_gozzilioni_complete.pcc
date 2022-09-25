@@ -25,7 +25,6 @@ PCC:core/MonsterManual/_monstermanual.pcc
 PCC:core/ExpandedPsionicHandbook/_expandedpsionicshandbook.pcc
 
 PCC:supplement/MonsterManual2/_monstermanual2.pcc
-PCC:supplement/BookOfVileDarkness/_bookofviledarkness.pcc
 PCC:supplement/BookOfExaltedDeeds/_bookofexalteddeeds.pcc
 PCC:supplement/CompleteWarrior/_completewarrior.pcc
 PCC:supplement/Draconomicon/_draconomicon.pcc
@@ -34,28 +33,26 @@ PCC:accessory/FiendFolio/_fiendfolio.pcc
 PCC:supplement/UnearthedArcana/_unearthedarcana.pcc
 PCC:supplement/CompleteDivine/_completedivine.pcc
 PCC:supplement/PlanarHandbook/_planarhandbook.pcc
+PCC:accessory/BookOfVileDarkness/_bookofviledarkness.pcc
 
 PCC:houserules/_houserules.pcc
-
-PCC:web/DragonMagazine/dragon082/_dragonmagazine082.pcc
-PCC:web/DragonMagazine/dragon312/_dragonmagazine312.pcc
-PCC:web/RuleOfCoolForum/_ruleofcool.pcc
-PCC:web/WizardsOfTheCoast/WebEnhancement/MoreDivinity/_MoreDivinity.pcc
-
-PCC:ThirdParty/FantasyFlightGames/DarknessAndDread/_darknessanddread.pcc
-PCC:ThirdParty/FantasyFlightGames/SeafarerSHandbook/_seafarershandbook.pcc
-PCC:ThirdParty/MongoosePublishing/SeasOfBlood/_seasofblood.pcc
-
-PCC:campaign/ForgottenRealms/PlayerSGuideToFaerun/_playersguidetofaerun.pcc
-PCC:campaign/ForgottenRealms/Underdark/_underdark.pcc
 
 PCC:errata/CompleteWarrior/_completewarrior_errata.pcc
 PCC:errata/CompleteDivine/_completedivine_errata.pcc
 PCC:errata/MonsterManual/_monstermanual_errata.pcc
 PCC:errata/ExpandedPsionicHandbook/_expandedpsionichandbook_errata.pcc
-PCC:errata/MagicOfFaerun/_magicoffaerun_errata.pcc
 
-###Old editions
+PCC:web/DragonMagazine/dragon082/_dragonmagazine082.pcc
+PCC:web/DragonMagazine/dragon312/_dragonmagazine312.pcc
+PCC:web/RuleOfCoolForum/_ruleofcool.pcc
+PCC:web/WizardsOfTheCoast/WebEnhancement/MoreDivinity/_MoreDivinity.pcc
+PCC:web/WizardsOfTheCoast/_WoTC_Errors.pcc
+
+PCC:ThirdParty/FantasyFlightGames/DarknessAndDread/_darknessanddread.pcc
+PCC:ThirdParty/FantasyFlightGames/SeafarerSHandbook/_seafarershandbook.pcc
+PCC:ThirdParty/MongoosePublishing/SeasOfBlood/_seasofblood.pcc
+
+###Old manuals
 PCC:srd30/_srd30.pcc
 PCC:old30/complete_manuals/ArmsAndEquipmentGuide/_armsandequipmentguide.pcc
 PCC:old30/complete_manuals/EpicLevelHandbook/_epiclevelhandbook.pcc
@@ -69,10 +66,15 @@ PCC:old30/partial_manuals/SwordAndFist/_swordandfist.pcc
 PCC:old30/partial_manuals/TomeAndBlood/_tomeandblood.pcc
 PCC:old30/partial_manuals/OrientalAdventure/_orientaladventure.pcc
 
+###Forgotten Realms
+PCC:campaign/ForgottenRealms/PlayerSGuideToFaerun/_playersguidetofaerun.pcc
+PCC:campaign/ForgottenRealms/Underdark/_underdark.pcc
 PCC:old30/complete_manuals/ForgottenRealmsCampaingSetting/_forgottenrealmscampaingsetting.pcc
 PCC:old30/complete_manuals/MonsterCompendiumMonstersOfFaerun/_monstercompendiummonstersoffaerun.pcc
 PCC:old30/complete_manuals/MagicOfFaerun/_magicoffaerun.pcc
 PCC:old30/complete_manuals/LordsOfDarkness/_lordsofdarkness.pcc
+
+PCC:errata/MagicOfFaerun/_magicoffaerun_errata.pcc
 
 # ENTRY DATE: 2015-08
 # LST MONKEY: Riccardo

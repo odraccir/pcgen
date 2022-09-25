@@ -173,7 +173,7 @@ Ioun Stone of Resistance +5		TYPE:Wondrous.IounStone	COST:50000	WT:0	SOURCEPAGE:
 																						
 ## Artifacts																						
 #Minor Artifacts																						
-Everfull Purse		TYPE:Artifact.Minor.Container	COST:0	WT:0.5	SOURCEPAGE:ELH	SPROP:if contains a single gold coin at sunset it will be replaced at rise by 25 gold pieces.	CONTAINS:*UNLIM|Coin=1															
+Everfull Purse		TYPE:Artifact.Minor.CoinPurse.Container	COST:0	WT:0.5	SOURCEPAGE:ELH	SPROP:if contains a single gold coin at sunset it will be replaced at rise by 25 gold pieces.	CONTAINS:*UNLIM|Coin=1															
 Libram of Gainful Conjuration		TYPE:Artifact.Minor.Book	COST:0	WT:3	SOURCEPAGE:ELH																	
 Libram of Ineffable Damnation		TYPE:Artifact.Minor.Book	COST:0	WT:3	SOURCEPAGE:ELH																	
 Libram of Silver Magic		TYPE:Artifact.Minor.Book	COST:0	WT:3	SOURCEPAGE:ELH																	
