@@ -35,7 +35,7 @@ CLASS:Defiant	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Gather Information
 11	PREPCLEVEL:MIN=20													
 														
 CLASS:Doomlord	HD:12	TYPE:Prestige	FACT:Abb|Doo	MAXLEVEL:10	SOURCEPAGE:PH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DoomlordLVL|0	BONUS:VAR|DoomlordLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
-CLASS:Doomlord	PREATT:7	PREABILITY:1,CATEGORY=Feat,Improved Sunder	PREABILITY:1,CATEGORY=FEAT,Weapon Focus (TYPE=Sword)	PRETEXT:Special: Must sunder a weapon, scatter 500 gp into a crowd, and destroy a building. These acts must be witnessed or verified by a member of the Doomguard.										
+CLASS:Doomlord	PREATT:7	PREABILITY:1,CATEGORY=FEAT,Improved Sunder	PREABILITY:1,CATEGORY=FEAT,Weapon Focus (TYPE=Sword)	PRETEXT:Special: Must sunder a weapon, scatter 500 gp into a crowd, and destroy a building. These acts must be witnessed or verified by a member of the Doomguard.										
 CLASS:Doomlord	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Disable Device|Jump|Knowledge (Architecture and Engineering)|Listen|Spellcraft|Spot|Survival|Swim												
 1				ABILITY:Doomlord Class Feature|AUTOMATIC|Doomlord ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DoomlordProficiencies										
 1				ABILITY:Doomlord Class Feature|AUTOMATIC|Doomlord ~ Spells per Day										
@@ -166,7 +166,7 @@ CLASS:Chaotician	STARTSKILLPTS:4	CSKILL:Bluff|TYPE.Craft|Decipher Script|Diploma
 6	PREPCLEVEL:MIN=20													
 														
 CLASS:Astral Dancer	HD:8	TYPE:Prestige	FACT:Abb|AsD	MAXLEVEL:10	SOURCEPAGE:PH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:AstralDancerLVL|0	BONUS:VAR|AstralDancerLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
-CLASS:Astral Dancer	PRESKILL:3,Balance=8,Jump=8,Tumble=8	PREABILITY:3,CATEGORY=Feat,Dodge,Mobility,Spring Attack												
+CLASS:Astral Dancer	PRESKILL:3,Balance=8,Jump=8,Tumble=8	PREABILITY:3,CATEGORY=FEAT,Dodge,Mobility,Spring Attack												
 CLASS:Astral Dancer	STARTSKILLPTS:6	CSKILL:Balance|Bluff|Climb|Escape Artist|Hide|Jump|Knowledge (The Planes)|Listen|Move Silently|TYPE.Profession|Search|Sleight of Hand|Spot|Tumble|Use Rope												
 1				ABILITY:Astral Dancer Class Feature|AUTOMATIC|Astral Dancer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.AstralDancerProficiencies										
 1				ABILITY:Astral Dancer Class Feature|AUTOMATIC|Astral Dancer ~ Relative Altitude|!PREABILITY:1,CATEGORY=ACF,TYPE.AstralDancerRelativeAltitude										

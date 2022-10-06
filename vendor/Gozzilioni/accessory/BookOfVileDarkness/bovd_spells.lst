@@ -1,112 +1,264 @@
-SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10
-			
-See Invisibility.COPY=See Invisibility	KEY:See Invisibility ~ 1 minute		
-See Invisibility ~ 1 minute.MOD	OUTPUTNAME:See Invisibility	DURATION:.CLEAR	DURATION:1 minute
-			
-Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Asmodeus ~ Summon Monster I		
-Disciple of Asmodeus ~ Summon Monster I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Hellcat.
-Summon Monster V.COPY=Summon Monster V	KEY:Disciple of Asmodeus ~ Summon Monster V		
-Disciple of Asmodeus ~ Summon Monster V.MOD	OUTPUTNAME:Summon Monster V	CLASSES:.CLEARALL	DESC:Only summons 1d4 Hellcat.
-Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Baalzebul ~ Summon Osyluth		
-Disciple of Baalzebul ~ Summon Osyluth.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Osyluth.
-Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Baalzebul ~ Summon Cornugon		
-Disciple of Baalzebul ~ Summon Cornugon.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Cornugon.
-Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Dispater ~ Summon Erinyes I		
-Disciple of Dispater ~ Summon Erinyes I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Erinyes.
-Summon Monster V.COPY=Summon Monster V	KEY:Disciple of Dispater ~ Summon Erinyes II		
-Disciple of Dispater ~ Summon Erinyes II.MOD	OUTPUTNAME:Summon Monster V	CLASSES:.CLEARALL	DESC:Only summons 1d4 Erinyes.
-Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Mammon ~ Summon Osyluth		
-Disciple of Mammon ~ Summon Osyluth.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Osyluth.
-Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Mammon ~ Summon Gelugon		
-Disciple of Mammon ~ Summon Gelugon.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Gelugon.
-Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Mephistopheles ~ Summon Hamatula I		
-Disciple of Mephistopheles ~ Summon Hamatula I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Hamatula.
-Summon Monster V.COPY=Summon Monster V	KEY:Disciple of Mephistopheles ~ Summon Hamatula II		
-Disciple of Mephistopheles ~ Summon Hamatula II.MOD	OUTPUTNAME:Summon Monster V	CLASSES:.CLEARALL	DESC:Only summons 1d4 Hamatula.
-Detect Undead.COPY=Detect Undead	KEY:Detect Mortals		
-Detect Mortals.MOD	OUTPUTNAME:Detect Mortals	CLASSES:.CLEARALL	
-Summon Monster I.COPY=Summon Monster I	KEY:Thrall of Demogorgon ~ Summon Monster I		
-Thrall of Demogorgon ~ Summon Monster I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons a demon of 5 HD.
-Summon Monster V.COPY=Summon Monster II	KEY:Thrall of Demogorgon ~ Summon Monster II		
-Thrall of Demogorgon ~ Summon Monster II.MOD	OUTPUTNAME:Summon Monster II	CLASSES:.CLEARALL	DESC:Only summons a demon of 10 HD.
-Summon Monster I.COPY=Summon Monster I	KEY:Thrall of Graz'zt ~ Summon Monster I		
-Thrall of Graz'zt ~ Summon Monster I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons a demon of 5 HD.
-Summon Monster V.COPY=Summon Monster II	KEY:Thrall of Graz'zt ~ Summon Monster II		
-Thrall of Graz'zt ~ Summon Monster II.MOD	OUTPUTNAME:Summon Monster II	CLASSES:.CLEARALL	DESC:Only summons a demon of 10 HD.
-Summon Monster I.COPY=Summon Monster I	KEY:Thrall of Juiblex~ Summon Ooze		
-Thrall of Juiblex~ Summon Ooze.MOD	OUTPUTNAME:Summon Ooze	CLASSES:.CLEARALL	DESC:Only summons a patch of green slime, a gray ooze, an ochre jelly, or a gelatinous cube.
-Summon Monster I.COPY=Summon Monster I	KEY:Thrall of Juiblex ~ Summon Monster I		
-Thrall of Juiblex ~ Summon Monster I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons a demon of 5 HD.
-Summon Monster V.COPY=Summon Monster II	KEY:Thrall of Juiblex ~ Summon Monster II		
-Thrall of Juiblex ~ Summon Monster II.MOD	OUTPUTNAME:Summon Monster II	CLASSES:.CLEARALL	DESC:Only summons a demon of 10 HD.
-Summon Monster I.COPY=Summon Monster I	KEY:Thrall of Juiblex~ Summon Pudding		
-Thrall of Juiblex~ Summon Pudding.MOD	OUTPUTNAME:Summon Pudding	CLASSES:.CLEARALL	DESC:Only summons a black pudding.
-Summon Monster I.COPY=Summon Monster I	KEY:Thrall of Orcus ~ Summon Monster I		
-Thrall of Orcus ~ Summon Monster I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1d4 ghouls, 1d3 shadows, 1 wight, or 1 wraith.
-Summon Monster V.COPY=Summon Monster V	KEY:Thrall of Orcus ~ Summon Monster II		
-Thrall of Orcus ~ Summon Monster II.MOD	OUTPUTNAME:Summon Monster II	CLASSES:.CLEARALL	DESC:Only summons 1d3 mummies, 1 spectre, 1 mohrg, 1 vampire, or 1 ghost.
-Summon Monster IX.COPY=Summon Monster IX	KEY:Thrall of Orcus ~ Summon Monster III		
-Thrall of Orcus ~ Summon Monster III.MOD	OUTPUTNAME:Summon Monster III	CLASSES:.CLEARALL	DESC:Only summons 1 nightwing.
-			
-			
-			
-			
-Bane.MOD	CLASSES:Demonologist=1		
-Demonflesh.MOD	CLASSES:Demonologist=1		
-Doom.MOD	CLASSES:Demonologist=1		
-Protection from Evil.MOD	CLASSES:Demonologist=1		
-Protection from Good.MOD	CLASSES:Demonologist=1		
-Spores of the Vrock.MOD	CLASSES:Demonologist=1		
-Summon Monster I.MOD	CLASSES:Demonologist=1		
-Unnerving Gaze.MOD	CLASSES:Demonologist=1		
-Bestow Curse.MOD	CLASSES:Demonologist=2		
-Dance of Ruin.MOD	CLASSES:Demonologist=2		
-Demoncall.MOD	CLASSES:Demonologist=2		
-Magic Circle against Evil.MOD	CLASSES:Demonologist=2		
-Magic Circle against Good.MOD	CLASSES:Demonologist=2		
-Protection from Elements.MOD	CLASSES:Demonologist=2		
-Stunning Screech.MOD	CLASSES:Demonologist=2		
-Summon Monster II.MOD	CLASSES:Demonologist=2		
-Abyssal Might.MOD	CLASSES:Demonologist=3		
-Call Dretch Horde.MOD	CLASSES:Demonologist=3		
-Corrupt Summons.MOD	CLASSES:Demonologist=3		
-Demon Wings.MOD	CLASSES:Demonologist=3		
-Dread Word.MOD	CLASSES:Demonologist=3		
-Dimensional Anchor.MOD	CLASSES:Demonologist=3		
-Planar Binding (Lesser).MOD	CLASSES:Demonologist=3		
-Summon Monster III.MOD	CLASSES:Demonologist=3		
-Bestow Curse (Greater).MOD	CLASSES:Demonologist=4		
-Call Nightmare.MOD	CLASSES:Demonologist=4		
-Cloud of Achaierai.MOD	CLASSES:Demonologist=4		
-Dismissal.MOD	CLASSES:Demonologist=4		
-Impotent Possessor.MOD	CLASSES:Demonologist=4		
-Imprison Possessor.MOD	CLASSES:Demonologist=4		
-Planar Binding.MOD	CLASSES:Demonologist=4		
-Summon Monster IV.MOD	CLASSES:Demonologist=4		
-Cause Fear.MOD	CLASSES:Mortal Hunter=1		
-Charm Person.MOD	CLASSES:Mortal Hunter=1		
-Detect Good.MOD	CLASSES:Mortal Hunter=1		
-Heartache.MOD	CLASSES:Mortal Hunter=1		
-Protection from Good.MOD	CLASSES:Mortal Hunter=1		
-Sleep.MOD	CLASSES:Mortal Hunter=1		
-Unnerving Gaze.MOD	CLASSES:Mortal Hunter=1		
-Detect Thoughts.MOD	CLASSES:Mortal Hunter=2		
-Evil Eye.MOD	CLASSES:Mortal Hunter=2		
-Hold Person.MOD	CLASSES:Mortal Hunter=2		
-Magic Circle against Good.MOD	CLASSES:Mortal Hunter=2		
-See Invisibility.MOD	CLASSES:Mortal Hunter=2		
-Web.MOD	CLASSES:Mortal Hunter=2		
-Wither Limb.MOD	CLASSES:Mortal Hunter=2		
-Flesh Ripper.MOD	CLASSES:Mortal Hunter=3		
-Morror Sending.MOD	CLASSES:Mortal Hunter=3		
-Nondetection.MOD	CLASSES:Mortal Hunter=3		
-Scrying.MOD	CLASSES:Mortal Hunter=3		
-Suggestion.MOD	CLASSES:Mortal Hunter=3		
-Vile Lance.MOD	CLASSES:Mortal Hunter=3		
-Wrack.MOD	CLASSES:Mortal Hunter=3		
-Arcane Eye.MOD	CLASSES:Mortal Hunter=4		
-Call Dretch Horde.MOD	CLASSES:Mortal Hunter=4		
-Locate Creature.MOD	CLASSES:Mortal Hunter=4		
-Morality Undone.MOD	CLASSES:Mortal Hunter=4		
-Phantasmal Killer.MOD	CLASSES:Mortal Hunter=4		
-Resonating Resistance.MOD	CLASSES:Mortal Hunter=4		
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10																							
+																										
+# Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	DESC:	Bonus	Bonus	
+Aberrate				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Sorcerer=1|Wizard=1	COMPS:V, S, Fiend	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One living creature.	DURATION:10 min/level	SAVEINFO:Fort negates.	SPELLRES:Yes	DESC:Subject becomes an aberration.	SOURCEPAGE:BoVD									
+Absorb Mind				TYPE:Spell	SCHOOL:Divination		DESCRIPTOR:Evil	CLASSES:Corrupt=3	COMPS:V, S, F, Corrupt	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster.	DURATION:1 min/level	SAVEINFO:None	SPELLRES:No	DESC:Caster gains 25%% chance of knowing information in a brain eaten.	SOURCEPAGE:BoVD						DESC:Focus: A fresh or preserved (still bloody) 1-ounce portion of another creature's brain. Corruption Cost: 2d6 points of Wisdom damage.			
+Absorb Strength				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Corrupt=4	COMPS:V, S, F, Corrupt	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster.	DURATION:10 min/level	SAVEINFO:None	SPELLRES:No	DESC:Caster gains 1/4 of creature's STR and CON when he eats it.	SOURCEPAGE:BoVD						DESC:Focus: A fresh or preserved (still bloody) 1-ounce portion of another creature's flesh. Corruption Cost: 2d6 points of Wisdom damage.			
+Abyssal Might				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Summoning	DESCRIPTOR:Evil	CLASSES:Blackguard=3|Cleric=4|Sorcerer=4|Wizard=4	COMPS:V, S, M, Demon	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster.	DURATION:10 min/level	SAVEINFO:None	SPELLRES:No	DESC:Caster gains +2 to STR, CON, DEX and SR,.	SOURCEPAGE:BoVD						DESC:Material Component: The heart of a dwarf child.	TEMPBONUS:PC|STAT|STR,DEX,CON|2|TYPE=Enhancement	TEMPBONUS:PC|MISC|SR|2|TYPE=Enhancement	
+Addiction				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Assassin=1|Bard=2|Cleric=2|Sorcerer=2|Wizard=2	COMPS:V, S, Drug	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One living creature.	DURATION:Instantaneous	SAVEINFO:Fort negates.	SPELLRES:Yes	DESC:Subject becomes addicted to a drug.	SOURCEPAGE:BoVD						DESC:Drug Component: The chosen drug for the addiction.			
+Alert Bebilith				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Calling	DESCRIPTOR:Evil	CLASSES:Sorcerer=6|Wizard=6	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One bebilith.	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:Summons bebilith to deal with a demon.	SOURCEPAGE:BoVD						DESC:Material Component: A bit of demon's flesh and a lump of iron.			
+Angry Ache				TYPE:Spell	SCHOOL:Necromancy			CLASSES:Assassin=1|Cleric=1	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One living creature.	DURATION:1 min/level	SAVEINFO:Fort negates.	SPELLRES:Yes	DESC:Subject takes -2 penalty on attack rolls.	SOURCEPAGE:BoVD							TEMPBONUS:PC|COMBAT|TOHIT|-2*((%CHOICE)/4)|TYPE=Enhancement	TEMPVALUE:MIN=1|MAX=20|TITLE=Choose Choose caster level	
+Apocalypse from the Sky				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Evil	CLASSES:Corrupt=9	COMPS:V, S, M, Corrupt	CASTTIME:1 day	RANGE:Personal	TARGETAREA:10-mile radius/level, centered on caster.	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:Yes	DESC:All in a 10-mile radius/level take 10d6 damage.	SOURCEPAGE:BoVD						DESC:Material Component: An artifact, usually one of good perverted to this corrupt use. Corruption Cost: 3d6 points of Constitution damage and 4d6 points of Wisdom drain. Just preparing this spell deals 1d3 points of Wisdom damage, with another 1d3 points of Wisdom damage for each day it remains among the caster's prepared spells.			
+Befoul				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Cleric=8	COMPS:V, S, M	CASTTIME:1 minute	RANGE:Touch	TARGETAREA:Water in a volume of 100 ft./level by 100 ft./level by 10 ft./level	DURATION:Permanent	SAVEINFO:None (See text)	SPELLRES:Yes	DESC:Large amount of water becomes poisonous.	SOURCEPAGE:BoVD						DESC:Material Component: A dead fish and a drop of poison.			
+Bestow Greater Curse				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Bard=6|Cleric=7|Sorcerer=8|Wizard=8	COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched.	DURATION:Permanent	SAVEINFO:Will negates.	SPELLRES:Yes	DESC:Caster transfers 1 hp/level of wounds on another.	SOURCEPAGE:BoVD									
+Bestow Wound				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Sorcerer=1|Wizard=1	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Living creature touched.	DURATION:Instantaneous	SAVEINFO:Fort negates.	SPELLRES:Yes	DESC:Create extradimensional bag of torture tools.	SOURCEPAGE:BoVD						DESC:Material Component: A small eye agate worth at least 10 gp.			
+Black Bag				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Evil	CLASSES:Assassin=1|Sorcerer=1|Wizard=1	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:A black leather bag.	DURATION:24 hours	SAVEINFO:None	SPELLRES:No	DESC:Transforms a willing subject into a Bodak. Drug:Agony	SOURCEPAGE:BoVD						DESC:Material Component: A strip of black leather soaked in the blood of a willing masochist.			
+Bodak Birth				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Cleric=8	COMPS:V, S, F, Drug	CASTTIME:1 minute	RANGE:Touch	TARGETAREA:Caster or one creature touched.	DURATION:Instantaneous	SAVEINFO:None (See text)	SPELLRES:No	DESC:Turns a bone into a magic weapon.	SOURCEPAGE:BoVD						DESC:Focus: Figurine of subject, bathed in animal blood. Drug Component: Agony.			
+Boneblade				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Blackguard=2|Cleric=3	COMPS:V, S, F, Undead	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One bone that becomes a blade	DURATION:10 min/level	SAVEINFO:None	SPELLRES:No	DESC:Turns a bone into a magic weapon.	SOURCEPAGE:BoVD						DESC:Focus: A 6-inch-long bone.			
+Boneblast				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Blackguard=1|Cleric=2	COMPS:V, S, M, Undead	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One creature that has a skeleton	DURATION:Instantaneous	SAVEINFO:Fort half or Fort negates; (See text)	SPELLRES:Yes	DESC:1d3 CON damage to subject.	SOURCEPAGE:BoVD						DESC:Material Component: The bone of a small child that still lives.			
+Call Dretch Horde				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Calling	DESCRIPTOR:Evil	CLASSES:Sorcerer=5|Wizard=5	COMPS:V, S, Soul	CASTTIME:1 minute	RANGE:Close	TARGETAREA:2d4 dretches.	DURATION:One year	SAVEINFO:None	SPELLRES:No	DESC:Summon 2d4 dretches.	SOURCEPAGE:BoVD									
+Call Lemure Horde				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Calling	DESCRIPTOR:Evil	CLASSES:Sorcerer=5|Wizard=5	COMPS:V, S, Soul	CASTTIME:1 minute	RANGE:Close	TARGETAREA:3d4 lemures.	DURATION:One year	SAVEINFO:None	SPELLRES:No	DESC:Summon 2d4 lemures.	SOURCEPAGE:BoVD									
+Call Nightmare				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Calling	DESCRIPTOR:Evil	CLASSES:Sorcerer=5|Wizard=5	COMPS:V, S, Soul	CASTTIME:1 minute	RANGE:Medium	TARGETAREA:One nightmare	DURATION:One week	SAVEINFO:None	SPELLRES:No	DESC:Summon a Nightmare.	SOURCEPAGE:BoVD									
+Charnel Fire				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Cleric=5	COMPS:V, S	CASTTIME:1 minute	RANGE:Touch	TARGETAREA:One corpse	DURATION:Instantaneous	SAVEINFO:None (Will negates for Undead)	SPELLRES:No (Yes for Undead)	DESC:Consumes one corpse or undead creature.	SOURCEPAGE:BoVD									
+Cheat				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Sorcerer=1|Wizard=1	COMPS:V, S, F	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:1 min/level or until used	SAVEINFO:None	SPELLRES:No	DESC:Caster rerolls when determining the success of a game of chance.	SOURCEPAGE:BoVD						DESC:Focus: A pair of dice made from human bones.			
+Circle of Nausea				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Evil	CLASSES:Cleric=3|Druid=2	COMPS:V, S, F	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:An emanation extending in a 20-ft.-radius around a 2-ft.-radius circle on the ground with the caster in the center	DURATION:1 min/level	SAVEINFO:Fort negates.	SPELLRES:Yes	DESC:Foes are denied all actions or take -2 penalty on attacks, saving throws and skill check.	SOURCEPAGE:BoVD									
+Claws of the Bebilith				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Corrupt=5	COMPS:V, S, Corrupt	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:10 min/level	SAVEINFO:None	SPELLRES:No	DESC:Caster gains cLawfuls based on her size. Corrupt:1d6 DEX damage.	SOURCEPAGE:BoVD						DESC:Corruption Cost: 1d6 points of Dexterity damage.			
+Claws of the Savage				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Blackguard=4|Cleric=4|Druid=4	COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One creature	DURATION:10 min/level	SAVEINFO:None	SPELLRES:No	DESC:Subject gains claws that deal damage based on size.	SOURCEPAGE:BoVD									
+Cloud of the Achaierai				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Evil	CLASSES:Cleric=6	COMPS:V, S, Disease	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:10-ft-radius spread	DURATION:10 min/level	SAVEINFO:Fort partial	SPELLRES:Yes	DESC:Cloud deals 2d6 damage plus Confusion. Disease: Soul Rot	SOURCEPAGE:BoVD						DESC:Disease Component: Soul rot.			
+Clutch of Orcus				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Cleric=3	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One humanoid	DURATION:Concentration (See text)	SAVEINFO:Will negates; See text	SPELLRES:No	DESC:Deals 1d3 points of damage each round and paralyzes foe while caster concentrates.	SOURCEPAGE:BoVD									
+Consume Likeness				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Corrupt=6	COMPS:V, S, F, Corrupt	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:Permanent	SAVEINFO:None	SPELLRES:No	DESC:Caster steals the appearance of a dead person, adding +10 on Disguise checks.	SOURCEPAGE:BoVD						DESC:Focus: A fresh or preserved (still bloody) 1-ounce portion of another creature's flesh. Corruption Cost: 2d6 points of Wisdom drain.			
+Cruel Disappointment				TYPE:Spell	SCHOOL:Illusion	SUBSCHOOL:Phantasm	DESCRIPTOR:Fear|Mind-Affecting|Evili	CLASSES:Sorcerer=3|Wizard=3	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One living creature.	DURATION:Instantaneous	SAVEINFO:Will disbelief (if interacted with) andWill negates; See text	SPELLRES:Yes	DESC:Fools subject for 1 round, then -4 penalty on attacks, saves and checks.	SOURCEPAGE:BoVD									
+Crushing Fist of Spite				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Evil|Force	CLASSES:Sorcerer=9|Wizard=9	COMPS:V, S, M, Disease	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:5-ft.-radius cylinder, 30 ft. High	DURATION:1 round/level	SAVEINFO:Reflex half or Reflex negates; See text	SPELLRES:Yes	DESC:Fist deals 1d6/damage/level each round.	SOURCEPAGE:BoVD						DESC:Material Component: A severed hand from a good-aligned humanoid cleric. Disease Component: Festering anger.			
+Curse of the Putrid Husk				TYPE:Spell	SCHOOL:Illusion	SUBSCHOOL:Phantasm	DESCRIPTOR:Fear|Mind-Affecting|Evili	CLASSES:Bard=3|Sorcerer=3|Wizard=3	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature	DURATION:1 round + 1d10 minutes	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Subject is unconscious for 1d10 minutes.	SOURCEPAGE:BoVD									
+Damning Darkness				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Darkness|Evil	CLASSES:Cleric=4|Sorcerer=4|Wizard=4	COMPS:V, M/DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Object touched	DURATION:10 min/level	SAVEINFO:None	SPELLRES:No	DESC:Darkness deals either 2d6 or 1d6 damage/round.	SOURCEPAGE:BoVD						DESC:Arcane Material Component: A dollop of pitch with a tiny needle hidden inside it.			
+Dance of Ruin				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Bard=2|Cleric=2|Sorcerer=2|Wizard=2	COMPS:V, S	CASTTIME:1 full round	RANGE:Close	TARGETAREA:Spread centered on caster	DURATION:Instantaneous	SAVEINFO:Reflex half	SPELLRES:Yes	DESC:Nondemons take 2d20 damage.	SOURCEPAGE:BoVD									
+Dancing Chains				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Sorcerer=4|Wizard=4	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One chain/level within range	DURATION:1 min/level	SAVEINFO:None	SPELLRES:No	DESC:Animates one chain/level.	SOURCEPAGE:BoVD									
+Darkbolt				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Darkness|Evil	CLASSES:Cleric=2|Sorcerer=2|Wizard=2	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature	DURATION:Instantaneous	SAVEINFO:Fort partial	SPELLRES:Yes	DESC:Deals 1d8 damage/2 levels and stuns 1 round.	SOURCEPAGE:BoVD									
+Darklight				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Darkness	CLASSES:Assassin=2|Sorcerer=1|Wizard=1	COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One creature or object touched	DURATION:1 min/level	SAVEINFO:None	SPELLRES:No	DESC:Creates 5-ft radius area where all can see without light.	SOURCEPAGE:BoVD									
+Death by Thorns				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Death|Evil	CLASSES:Corrupt=7	COMPS:V, S, Corrupt	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Up to three creatures, no two of which can be more than 15 ft. apart	DURATION:Instantaneous	SAVEINFO:Fort partial	SPELLRES:Yes	DESC:Up to three creatures die in 1d4 rounds or are incapacitated, taking 4d6 damage.	SOURCEPAGE:BoVD						DESC:Corruption Cost: 1d3 points of Wisdom drain.			
+Death Grimace				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Assassin=1|Blackguard=1|Sorcerer=1|Wizard=1	COMPS:S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One corpse	DURATION:Permanent	SAVEINFO:None	SPELLRES:No	DESC:Caster leaves magical 'calling card' on a corpse.	SOURCEPAGE:BoVD									
+Demon Wings				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Blackguard=3	COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:10 min/level	SAVEINFO:None	SPELLRES:No	DESC:Caster flies at  his land speed.	SOURCEPAGE:BoVD									
+Demoncall				TYPE:Spell	SCHOOL:Divination		DESCRIPTOR:Evil	CLASSES:Blackguard=2	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:Caster gains +10 on one Knowledge (The Planes), Knowledge (Arcana) or Knowledge (Religion) checks.	SOURCEPAGE:BoVD							TEMPBONUS:PC|SKILL|Knowledge (Arcana),Knowledge (The Planes),Knowledge (Religion)|10|TYPE=Profane		
+Demonflesh				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Blackguard=1	COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:1 min/level	SAVEINFO:None	SPELLRES:No	DESC:Caster gains +1 natural armor/5 caster levels.	SOURCEPAGE:BoVD									
+Despoil				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Cleric=9	COMPS:V, S, M	CASTTIME:1 minute	RANGE:Touch	TARGETAREA:100-ft/level radius	DURATION:Instantaneous	SAVEINFO:Fortitude partial (plants) or Fortitude negates (other living creatures)	SPELLRES:Yes	DESC:Kills plants, damage objects in 100-ft radius/level.	SOURCEPAGE:BoVD						DESC:Material Component: Corpse of a freshly dead or preserved (still bloody) living creature.			
+Devil's Ego				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil		COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:1 min/level	SAVEINFO:None	SPELLRES:No	DESC:Caster gains 1d4+1 CHA and become an outsider.	SOURCEPAGE:BoVD									
+Devil's Eye				TYPE:Spell	SCHOOL:Divination		DESCRIPTOR:Evil	CLASSES:Blackguard=2|Cleric=3|Sorcerer=3|Wizard=3	COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:1 min/level	SAVEINFO:None	SPELLRES:No	DESC:Caster can see in even magical darkness, up to 30-ft.	SOURCEPAGE:BoVD									
+Devil's Tail				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil		COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:1 min/level	SAVEINFO:None	SPELLRES:No	DESC:Caster fgains a spiked tail that deals 1d4 damage.	SOURCEPAGE:BoVD									
+Devil's Tongue				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Corrupt=2	COMPS:S, Corrupt	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:1 min/level	SAVEINFO:None	SPELLRES:No	DESC:Tongue grapples with reach 15-ft.	SOURCEPAGE:BoVD						DESC:Corruption Cost: 1d6 points of Wisdom damage.			
+Distort Summon				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Sorcerer=4|Wizard=4	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:50-ft.-radius spread	DURATION:1 hour/level	SAVEINFO:None	SPELLRES:No	DESC:Creates area where only evil creatures can be summoned.	SOURCEPAGE:BoVD									
+Distort Weapon				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Blackguard=1	COMPS:V, S	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Weapon touched	DURATION:1 min/level	SAVEINFO:None	SPELLRES:No	DESC:Weapon confirms critical hits against good foes.	SOURCEPAGE:BoVD									
+Dread Word				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Evil	CLASSES:Sorcerer=3|Wizard=3	COMPS:V	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature of good alignment	DURATION:Instantaneous	SAVEINFO:Fort negates.	SPELLRES:Yes	DESC:1d3 CON drain on one target.	SOURCEPAGE:BoVD									
+Drown				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Evil	CLASSES:Sorcerer=3|Wizard=3	COMPS:V	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One humanoid	DURATION:Instantaneous	SAVEINFO:Fort negates.	SPELLRES:Yes	DESC:Subject begins to drown or takes 2d6 damage.	SOURCEPAGE:BoVD									
+Drug Resistance				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Cleric=1|Sorcerer=1|Wizard=1	COMPS:V, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One living creature.	DURATION:1 hour/level	SAVEINFO:Fort negates (harmless)	SPELLRES:Yes	DESC:Subject is immune to addiction.	SOURCEPAGE:BoVD									
+Ectoplasmic Enhancement				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Sorcerer=6|Wizard=6	COMPS:V, S	CASTTIME:1 full round	RANGE:Close	TARGETAREA:One incorporeal undead/level	DURATION:24 hours	SAVEINFO:None	SPELLRES:No	DESC:Incorporeal undead gain +1 AC, +1d8 hp, +1 on attacks and +2 turn resistance for every 3 levels. 	SOURCEPAGE:BoVD									
+Entice Gift				TYPE:Spell	SCHOOL:Enchantment		DESCRIPTOR:Mind-Affecting	CLASSES:Sorcerer=2|Wizard=2	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature	DURATION:1 round	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Creature gives caster what it's holding.	SOURCEPAGE:BoVD									
+Eternity of Torture				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil		COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature	DURATION:Permanent	SAVEINFO:Fort partial	SPELLRES:Yes	DESC:Target is rendered helpless, ageless and has all ability scores except for CON drop to 0.	SOURCEPAGE:BoVD									
+Evil Eye				TYPE:Spell	SCHOOL:Enchantment		DESCRIPTOR:Evil	CLASSES:Sorcerer=3|Wizard=3	COMPS:S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature	DURATION:Instantaneous; See text	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Subject takes -4 penalty on attacks, saves and checks.	SOURCEPAGE:BoVD							TEMPBONUS:ANYPC|COMBAT|TOHIT|-4|TYPE=Luck	TEMPBONUS:ANYPC|SAVE|ALL|-4|TYPE=Luck	TEMPBONUS:ANYPC|SKILL|ALL|-4|TYPE=Luck
+Evil Weather				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Evil	CLASSES:Corrupt=8	COMPS:V, S, M, XP, Corrupt	CASTTIME:1 hour	RANGE:Personal	TARGETAREA:1-mile/level radius, centered on caster	DURATION:3d6 minutes	SAVEINFO:None	SPELLRES:No	DESC:Caster conjures one type of evil weather.	SOURCEPAGE:BoVD						DESC:To conjure violet rain, the caster must sacrifice 10,000 gp worth of amethysts and spend 200 XP. Other forms of evil weather have no material component or experience point cost. Corruption Cost: 3d6 points of Constitution damage.			
+Extract Drug				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation		CLASSES:Bard=1|Cleric=1|Druid=1|Sorcerer=1|Wizard=1	COMPS:V, S, F	CASTTIME:1 minute	RANGE:Touch	TARGETAREA:One dose of drug	DURATION:Permanent	SAVEINFO:None	SPELLRES:No	DESC:Creates drug from inanimate object.	SOURCEPAGE:BoVD						DESC:Focus: 15 lb. or 1 cubic foot of the material in question.			
+Eye of the Beholder				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Sorcerer=7|Wizard=7	COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Caster's eye gains random beholdxer ray.	SOURCEPAGE:BoVD							TEMPBONUS:PC|SKILL|Spot|2|TYPE=Circumstance		
+Eye of the Zombie				TYPE:Spell	SCHOOL:Divination		DESCRIPTOR:Evil	CLASSES:Cleric=2|Sorcerer=3|Wizard=3	COMPS:V, S, F	CASTTIME:30 minutes	RANGE:Personal	TARGETAREA:Caster and one zombie	DURATION:1 hour/level	SAVEINFO:None	SPELLRES:Yes	DESC:Caster sees through a zombie's eyes'	SOURCEPAGE:BoVD						DESC:Focus: Zombie eyes and a pint of brackish water.			
+False Sending				TYPE:Spell	SCHOOL:Illusion	SUBSCHOOL:Glamer		CLASSES:Cleric=5|Sorcerer=6|Wizard=6	COMPS:V, S, M/DF	CASTTIME:10 minutes	RANGE:See text	TARGETAREA:One creature	DURATION:1 round; See text	SAVEINFO:Will negates	SPELLRES:Yes	DESC:As Sending, except caster imitates someone else.	SOURCEPAGE:BoVD						DESC:Arcane Material Component: A short piece of corroded copper wire.			
+Fangs of the Vampire King				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Corrupt=2	COMPS:S, Corrupt	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:1 min/level	SAVEINFO:None	SPELLRES:No	DESC:Caster gains bite attack with +10 bonus that deals 1d6 damage and 1 CON damage. Corrupt:1d6 STR damage.	SOURCEPAGE:BoVD						DESC:Corruption Cost: 1d6 points of Strength damage.			
+Fiendish Clarity				TYPE:Spell	SCHOOL:Divination		DESCRIPTOR:Evil	CLASSES:Cleric=7|Sorcerer=7|Wizard=7	COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:10 min/level	SAVEINFO:None	SPELLRES:No	DESC:Caster sees in even magical darkness, see invisible up to 60-ft and can detect good.	SOURCEPAGE:BoVD									
+Fiendish Quickening				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Cleric=6|Sorcerer=6|Wizard=6	COMPS:V, S, Fiend	CASTTIME:1 full round	RANGE:Personal	TARGETAREA:Caster	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Caster's ability to teleport without error is quickened.	SOURCEPAGE:BoVD									
+Flesh Armor				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Assassin=4	COMPS:V, S, M, F	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:10 min/level or until discharged	SAVEINFO:None	SPELLRES:No	DESC:Caster gains DR 10/+1 (10/magic)	SOURCEPAGE:BoVD						DESC:Material Component: A bit of flesh torn from the caster's body during the casting (dealing 1 point of damage). Focus: The entire freshly harvested skin of another creature of the caster's size.	TEMPBONUS:PC|DR|Magic|10		
+Flesh Ripper				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Evil	CLASSES:Cleric=3	COMPS:V, S, Undead, Fiend	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One living creature.	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:Yes	DESC:Black claw deals 1d8 damage/level and critical hits deal bleeding wounds.	SOURCEPAGE:BoVD									
+Forbidden Speech				TYPE:Spell	SCHOOL:Enchantment		DESCRIPTOR:Evil|Mind-Affecting	CLASSES:Corrupt=5	COMPS:V, S, Corrupt	CASTTIME:1 minute	RANGE:Touch	TARGETAREA:1 living creature	DURATION:Permanent	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Subject cannot speek about a certain topic. Corrupt:1d6 STR damage.	SOURCEPAGE:BoVD						DESC:Corruption Cost: 1d6 points of Strength damage.			
+Glimpse of Truth				TYPE:Spell	SCHOOL:Divination		DESCRIPTOR:Evil	CLASSES:Sorcerer=3|Wizard=3	COMPS:V, S, Drug	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:1 hour	SAVEINFO:None	SPELLRES:No	DESC:Caster gets an answer to a yes-or-no question. Drug: Mordayn Vapor	SOURCEPAGE:BoVD						DESC:Drug Component: Mordayn vapor.			
+Graz'zt's Long Grasp				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Sorcerer=2|Wizard=2	COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:10 min/level	SAVEINFO:None	SPELLRES:No	DESC:Caster's hand flies from her arm to make grapple attacks.	SOURCEPAGE:BoVD									
+Grim Revenge				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Sorcerer=4|Wizard=4	COMPS:V, S, Undead	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One living creature.	DURATION:Instantaneous	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Tears hand from target, dealing 6d6 damage, then hand attacks target.	SOURCEPAGE:BoVD									
+Gutwrench				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Death|Evil	CLASSES:Sorcerer=8|Wizard=8	COMPS:V, S, Undead	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One living creature.	DURATION:Instantaneous	SAVEINFO:Fort partial	SPELLRES:Yes	DESC:Kills subject and gives caster 4d6 temporary hit points and +4 STR.	SOURCEPAGE:BoVD									
+Heartache				TYPE:Spell	SCHOOL:Enchantment		DESCRIPTOR:Evil|Mind-Affecting	CLASSES:Cleric=1	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature	DURATION:1 round	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Subject helpless for 1 round.	SOURCEPAGE:BoVD									
+Heartclutch				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Cleric=5	COMPS:V, S, Disease	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:The heart of one creature	DURATION:Instantaneous	SAVEINFO:Fort partial	SPELLRES:Yes	DESC:Subject dies in 1d3 rounds or take 3d6 damage +1/level.	SOURCEPAGE:BoVD						DESC:Disease Component: Soul rot.			
+Hell's Power				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Evil	CLASSES:Blackguard=3|Cleric=4|Sorcerer=4|Wizard=4	COMPS:V, S, M, Devil	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:10 min/level	SAVEINFO:None	SPELLRES:No	DESC:Caster gains +2 AC and +1 to existing DR.	SOURCEPAGE:BoVD						DESC:Material Component:The heart of an elf child.			
+Hellfire				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Evil		COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:5-ft.-radius spread	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:Yes	DESC:Explosion of brimstone deals 3d6 damage in 5-ft radius.	SOURCEPAGE:BoVD									
+Hellfire Storm				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Evil		COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:20-ft.-radius spread	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:Yes	DESC:Explosion of brimstone deals 5d6 damage in 20-ft radius.	SOURCEPAGE:BoVD									
+Identify Transgressor				TYPE:Spell	SCHOOL:Divination		DESCRIPTOR:Evil	CLASSES:Cleric=4	COMPS:V, S, Drug, Location	CASTTIME:10 minutes	RANGE:Personal	TARGETAREA:Caster	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:Caster learns the identity of one person. Drug: Vodare. Location: an area under the effect of a Desecrate or Unhallw spell.	SOURCEPAGE:BoVD						DESC:Drug Component: Vodare. Location Component: An area under the effect of a desecrate or unhallow spell.			
+Impotent Possessor				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Sorcerer=6|Wizard=6	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One possessing creature	DURATION:Permanent	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Subject that can possess creatures is rendered powerless.	SOURCEPAGE:BoVD									
+Imprison Possessor				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Sorcerer=5|Wizard=5	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One possessing creature and its host	DURATION:Permanent	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Subject that can possess creatures is trapped in current body.	SOURCEPAGE:BoVD									
+Imprison Soul				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Cleric=7	COMPS:V, S, M, F	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One creature	DURATION:Instantaneous	SAVEINFO:Will negates	SPELLRES:No	DESC:Traps soul in a small object, and victim takes 1d4 CON damage/day.	SOURCEPAGE:BoVD						DESC:Material Component: A portion of the target's body (a fingernail, a strand of hair, or some other small part). Focus: A Tiny or smaller object to be the receptacle for the subject's soul.			
+Lahm's Finger Darts				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Corrupt=2	COMPS:V, S, Corrupt	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:Up to five creatures, no two of which can be more than 15 ft. apart	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:Yes	DESC:Caster's fingers become projectiles that deal 1d4 DEX damage.	SOURCEPAGE:BoVD						DESC:Corruption Cost: 1 point of Strength damage per dart, plus the loss of one finger per dart. A hand with one or no fingers is useless.			
+Liquid Pain				TYPE:Spell	SCHOOL:Necromancy			CLASSES:Sorcerer=4|Wizard=4	COMPS:V, S, F	CASTTIME:1 day	RANGE:Touch	TARGETAREA:One living creature.	DURATION:Permanent	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Extracts one dose of liquid pain from tortured victim.	SOURCEPAGE:BoVD						DESC:Focus: A jar, vial, or other container for the liquid pain.			
+Love's Pain				TYPE:Spell	SCHOOL:Evocation			CLASSES:Corrupt=3	COMPS:V, S, Corrupt	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One living creature.	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:Yes	DESC:Deals 1d6 damage/2 levels to subject's dearest loved one.	SOURCEPAGE:BoVD						DESC:Corruption Cost: 1d6 points of Intelligence damage.			
+Masochism				TYPE:Spell	SCHOOL:Enchantment		DESCRIPTOR:Evil	CLASSES:Assassin=3|Blackguard=3|Cleric=3|Sorcerer=2|Wizard=2	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:For every 10 hp damage caster takes, he gains +1 on attacks, saves and checks.	SOURCEPAGE:BoVD						DESC:Material Component: A leather strap that has been soaked in the caster's blood.			
+Mindrape				TYPE:Spell	SCHOOL:Enchantment		DESCRIPTOR:Evil|Mind-Affecting	CLASSES:Sorcerer=9|Wizard=9	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One creature	DURATION:Instantaneous	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Caster learns everything subject knows and can alter its memory or knowledge.	SOURCEPAGE:BoVD									
+Mirror Sending				TYPE:Spell	SCHOOL:Evocation			CLASSES:Sorcerer=4|Wizard=4	COMPS:V, S, F	CASTTIME:See text	RANGE:See text	TARGETAREA:One living creature.	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:Yes	DESC:Caster sends her image to a mirror and can see and speak through it.	SOURCEPAGE:BoVD						DESC:Focus: A mirror of finely wrought and highly polished silver costing not less than 1,000 gp. The mirror must be at least 2 feet by 4 feet.			
+Morality Undone				TYPE:Spell	SCHOOL:Enchantment		DESCRIPTOR:Evil|Mind-Affecting	CLASSES:Bard=5|Cleric=5|Corrupt=4	COMPS:V, S, M/DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One nonevil creature	DURATION:10 min/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Subject becomes evil.	SOURCEPAGE:BoVD						DESC:Arcane Material Component: A powdered holy symbol.			
+Nether Trail				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation		CLASSES:Sorcerer=1|Wizard=1	COMPS:S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:A trail 20-ft long/level	DURATION:10 min/level	SAVEINFO:Will negates	SPELLRES:No	DESC:Creates a trail compelling evil orders to follow	SOURCEPAGE:BoVD						DESC:Material Component: A urine-soaked holy symbol, which crumbles into the powder that creates the nether trail.			
+No Light				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Bard=1|Cleric=0|Sorcerer=0|Wizard=0	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:20-ft.-radius spread	DURATION:1 min/level	SAVEINFO:None	SPELLRES:No	DESC:Prevents normal light from illuminating.	SOURCEPAGE:BoVD									
+Pestilence				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Cleric=8|Druid=7	COMPS:V, S, Disease	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Living creature touched.	DURATION:Instantaneous	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Subject gains a disease as do all who touch him.	SOURCEPAGE:BoVD						DESC:Disease: any disease			
+Phantasmal Thief				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation		CLASSES:Sorcerer=8|Wizard=8	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One object	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Creates an unseen force that steals from others.	SOURCEPAGE:BoVD						DESC:Material Component: A spool of green thread.			
+Plague of Nightmares				TYPE:Spell	SCHOOL:Enchantment		DESCRIPTOR:Evil|Mind-Affecting	CLASSES:Corrupt=8	COMPS:V, S, F, Corrupt	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One living creature.	DURATION:Instantaneous	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Subject takes 1d4 CON damage and does not heal.	SOURCEPAGE:BoVD						DESC:Focus: A fresh or preserved (still bloody) 1-ounce portion of another creature's flesh. Corruption Cost: 1d6 points of Strength damage, taken all at once at the end of each week.			
+Power Leech				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Corrupt=5	COMPS:V, S, Corrupt	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One living creature.	DURATION:1 round/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Caster drains subject's ability score 1 point/round and gains +1 bonus per point.	SOURCEPAGE:BoVD						DESC:Corruption Cost: 1 point of Wisdom drain.			
+Pox				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Corrupt=6|Druid=6	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:Up to one living creature/level, no two of which can be more than 10 ft. apart	DURATION:Instantaneous	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:One creature/level take 1d4 CON drain.	SOURCEPAGE:BoVD									
+Preserve Organ				TYPE:Spell	SCHOOL:Necromancy			CLASSES:Cleric=0|Druid=0|Sorcerer=0|Wizard=0	COMPS:V, S, DF	CASTTIME:10 minutes	RANGE:Touch	TARGETAREA:One organ	DURATION:24 hours	SAVEINFO:Fort negates (harmless)	SPELLRES:Yes	DESC:Protects one detached organ from decay for 24 hours.	SOURCEPAGE:BoVD									
+Psychic Poison				TYPE:Spell	SCHOOL:Abjuration		DESCRIPTOR:Evil	CLASSES:Cleric=4|Sorcerer=4|Wizard=4	COMPS:V, S, M/DF	CASTTIME:10 minutes	RANGE:Close	TARGETAREA:50-ft.-radius spread, or one single object or creature that can fit in that area	DURATION:1 hour/level	SAVEINFO:None	SPELLRES:No	DESC:Poisons those casting Divination or Mind-Affecting spells at object, creature or area.	SOURCEPAGE:BoVD						DESC:Arcane Material Component: A bit of humanoid brain tissue.			
+Rapture of Rupture				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Corrupt=7	COMPS:V, S, Corrupt	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One living creature touched per level	DURATION:Instantaneous	SAVEINFO:Fort half	SPELLRES:Yes	DESC:Subject takes 6d6 damage and is stunned, then takes 1d6 damage/round thereafter.	SOURCEPAGE:BoVD						DESC:Corruption Cost: 1 point of Strength damage per target touched.			
+Reality Blind				TYPE:Spell	SCHOOL:Illusion	SUBSCHOOL:Phantasm	DESCRIPTOR:Evil|Mind-Affecting	CLASSES:Sorcerer=3|Wizard=3	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature	DURATION:Concentration (See text)	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Subject can take no actions and afterward does not heal naturally.	SOURCEPAGE:BoVD						DESC:Material Component: A 2-inch-diameter multicolored disk of paper or ribbon.			
+Red Fester				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Corrupt=3	COMPS:V, S, Corrupt	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched.	DURATION:Instantaneous	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Subject takes 1d6 STR damage and 1d4 CHA damage.	SOURCEPAGE:BoVD						DESC:Corruption Cost: 1d6 points of Strength damage.			
+Resonating Resistance				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Cleric=5|Sorcerer=5|Wizard=5	COMPS:V, Fiend	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:1 min/level	SAVEINFO:None	SPELLRES:No	DESC:Foes must check spell resistance twice against caster.	SOURCEPAGE:BoVD									
+Rotting Curse of Urfestra				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Corrupt=3	COMPS:V, S, Corrupt	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Living creature touched.	DURATION:Instantaneous	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Subject takes 1d6 CON damage per hour.	SOURCEPAGE:BoVD						DESC:Corruption Cost: 1d6 points of Strength damage.			
+Sacrificial Skill				TYPE:Spell	SCHOOL:Enchantment		DESCRIPTOR:Evil	CLASSES:Assassin=2|Cleric=1|Sorcerer=1|Wizard=1	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:1 min/level	SAVEINFO:None	SPELLRES:No	DESC:Caster gains +5 bonus on Knowledge (Religion) checks made during sacrifice.	SOURCEPAGE:BoVD						DESC:Material Component: A lock of hair taken from an unwilling humanoid.			
+Sadism				TYPE:Spell	SCHOOL:Enchantment		DESCRIPTOR:Evil	CLASSES:Assassin=3|Blackguard=3|Cleric=3|Sorcerer=2|Wizard=2	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:For every 10 hp damage caster deals, he gains +1 on attacks, saves and checks.	SOURCEPAGE:BoVD						DESC:Material Component: A leather strap that has been soaked in human blood.			
+Sap Strength				TYPE:Spell	SCHOOL:Enchantment		DESCRIPTOR:Evil	CLASSES:Cleric=2|Sorcerer=2|Wizard=2	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One living creature	DURATION:Instantaneous	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Subject becomes exhausted.	SOURCEPAGE:BoVD						DESC:Material Component: A long needle and a tiny glass bottle.			
+Seething Eyebane				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Acid|Evil	CLASSES:Corrupt=1	COMPS:V, S, Corrupt	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched.	DURATION:Instantaneous	SAVEINFO:Fort negates; See text	SPELLRES:Yes	DESC:Subject is blinded and all within 5-ft take 1d6 damage.	SOURCEPAGE:BoVD						DESC:Corruption Cost: 1d6 points of Constitution damage.			
+Serpent of Theggeron				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Corrupt=3	COMPS:S, Corrupt	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:1 min/level	SAVEINFO:None	SPELLRES:No	DESC:Caster's arms become serpents with 10-ft reach, +10 attack and 1d8 damage plus poison.	SOURCEPAGE:BoVD						DESC:Corruption Cost: 1d6 points of Intelligence damage.			
+Shriveling				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Cleric=3|Sorcerer=2|Wizard=2	COMPS:V, S, Disease	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One living creature	DURATION:Instantaneous	SAVEINFO:Reflex half	SPELLRES:Yes	DESC:Subject takes 1d4 damage/level.	SOURCEPAGE:BoVD						DESC:Disease Component: Soul rot.			
+Slash Tongue				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Cleric=0|Sorcerer=0|Wizard=0	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One living creature with a tongue	DURATION:1 round	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Subject takes -1 penalty on attacks, saves and check for 1 round.	SOURCEPAGE:BoVD									
+Slow Consumption				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Cleric=1|Sorcerer=2|Wizard=2	COMPS:V, S, Location	CASTTIME:10 minutes	RANGE:Touch	TARGETAREA:One living creature	DURATION:Permanent	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Caster absorb health and sustenance from helpless subject.	SOURCEPAGE:BoVD						DESC:Location Component: An area under the effect of a desecrate or unhallow spell.			
+Snare Astral Traveler				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Cleric=6|Sorcerer=6|Wizard=6	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One astral creature	DURATION:1 round/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Capture one astral creature and holds it motionless.	SOURCEPAGE:BoVD									
+Song of Festering Death				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Evil	CLASSES:Bard=2	COMPS:V	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One living creature	DURATION:Concentration	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Subject takes 2d6 damage per round while caster concentrate.	SOURCEPAGE:BoVD									
+Sorrow				TYPE:Spell	SCHOOL:Enchantment		DESCRIPTOR:Evil|Mind-Affecting	CLASSES:Bard=1|Cleric=1	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One living creature	DURATION:1 round/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Subject takes -3 penalty on attacks, saves and checks.	SOURCEPAGE:BoVD						DESC:Material Component: A tear.	TEMPBONUS:ANYPC|COMBAT|TOHIT|-3|TYPE=Morale	TEMPBONUS:ANYPC|SAVE|ALL|-3|TYPE=Morale	TEMPBONUS:ANYPC|SKILL|ALL|-3|TYPE=Morale
+Soul's Shackles				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Bard=5|Sorcerer=5|Wizard=5	COMPS:V, S, F, Location	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One living creature	DURATION:Instantaneous	SAVEINFO:None; See text	SPELLRES:Yes	DESC:Imprisons soul of dead creture in talisman, from wich the caster can question it.	SOURCEPAGE:BoVD						DESC:Focus: The talisman that will be the receptacle for the soul. Location Component: An area under the effect of a desecrate or unhallow spell.			
+Soul's Treasure Lost				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Sorcerer=8|Wizard=8	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature	DURATION:Instantaneous	SAVEINFO:Fort negates (object)	SPELLRES:Yes	DESC:Disintegrates subject's most valuable object.	SOURCEPAGE:BoVD		COST:500				DESC:Material Component: A crushed ruby worth at least 500 gp.			
+Spider Hand				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Cleric=1|Druid=1	COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster's hand	DURATION:Concentration (up to 1 min/level)	SAVEINFO:None	SPELLRES:No	DESC:Caster's hand becomes a small monstrous spider.	SOURCEPAGE:BoVD									
+Spider Legs				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Cleric=2	COMPS:V, S, F	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:1 min/level	SAVEINFO:None	SPELLRES:No	DESC:Caster grows long spider legs that have a speed of 30-ft and move on vertical surfaces.	SOURCEPAGE:BoVD									
+Spores of the Vrock				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Evil	CLASSES:Cleric=2	COMPS:V, S, M/DF	CASTTIME:1 full round	RANGE:Personal	TARGETAREA:5-ft.-radius, centered on caster	DURATION:Instantaneous	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:All within 5-ft take 1d8 damage and 1d2 damage each round thereafter for 10 round.	SOURCEPAGE:BoVD						DESC:Arcane Material Component: The feathers of an avian creature with an Intelligence score of at least 3 (a harpy, achaierai, or similar creature).			
+Spread of Savagery				TYPE:Spell	SCHOOL:Enchantment		DESCRIPTOR:Evil	CLASSES:Cleric=9	COMPS:V, S, M/DF	CASTTIME:1 hour	RANGE:Long	TARGETAREA:10-ft./level radius spread	DURATION:1 hour/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Creatures within 10-ft/level become hostile and savage.	SOURCEPAGE:BoVD						DESC:Arcane Material Component: Three drops of brain fluid from a beast.			
+Steal Life				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Sorcerer=8|Wizard=8	COMPS:V, S, Location	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One living humanoid	DURATION:Concentration	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Caster drains 1 ability score point/round and becomes younger.	SOURCEPAGE:BoVD						DESC:Location Component: An area under the effect of a desecrate or unhallow spell.			
+Stop Heart				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Assassin=4|Cleric=4|Sorcerer=5|Wizard=5	COMPS:S, Drug	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One living humanoid or animal	DURATION:Instantaneous	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Subject drops to -8 hp immediately.	SOURCEPAGE:BoVD						DESC:Drug Component: Baccaran.			
+Stunning Screech				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Evil|Sonic	CLASSES:Bard=3	COMPS:V, S, M, Drug	CASTTIME:1 standard action	RANGE:30 ft.	TARGETAREA:All creatures within range	DURATION:1 round	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:All within 30-ft are stunned for 1 round.	SOURCEPAGE:BoVD						DESC:Material Component: Feather of a large bird or a vrock. Drug Component:Mushroom powder.			
+Stupor				TYPE:Spell	SCHOOL:Enchantment		DESCRIPTOR:Mind-Affecting	CLASSES:Assassin=1|Cleric=1|Sorcerer=1|Wizard=1	COMPS:S, M	CASTTIME:1 minute	RANGE:Touch	TARGETAREA:One helpless creature	DURATION:1 hour/level	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:One helpless subject is put in a state that allows him to be moved but take no other action.	SOURCEPAGE:BoVD						DESC:Material Component: A puffball mushroom.			
+Suspend Disease				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Cleric=1|Druid=1|Sorcerer=1|Wizard=1	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One creature	DURATION:24 hours	SAVEINFO:Fort negates (harmless)	SPELLRES:Yes	DESC:Keeps disease from harming creature for 24 hours.	SOURCEPAGE:BoVD						DESC:Material Component: A drop of bile.			
+Thousand Needles				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Evil	CLASSES:Cleric=6	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One living creature	DURATION:1 min/level	SAVEINFO:Fort partial	SPELLRES:Yes	DESC:Subject takes 2d6 damage and -4 penalty on attacks, saves and checks.	SOURCEPAGE:BoVD						DESC:Material Component: A handful of needles, all of which have drawn blood.			
+Tongue of Baalzebul				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Cleric=1	COMPS:V, S, M, Drug	CASTTIME:1 full round	RANGE:Personal	TARGETAREA:Caster	DURATION:1 hour/level	SAVEINFO:None	SPELLRES:No	DESC:Caster gains +2 bonus on Bluff , Diplomacy and Gather Information.	SOURCEPAGE:BoVD						DESC:Material Component: A tongue from any creature capable of speech. Drug Component: Mushroom powder.	TEMPBONUS:PC|SKILL|Bluff,Diplomacy,Gather Information|2|TYPE=Competence		
+Tongue Serpents				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Sorcerer=3|Wizard=3	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:1 hour/level or until discharged	SAVEINFO:None	SPELLRES:No	DESC:Caster spits ount one Tiny viper/4 levels.	SOURCEPAGE:BoVD									
+Tongue Tendrils				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Sorcerer=1|Wizard=1	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster	DURATION:1 hour/level or until discharged	SAVEINFO:None	SPELLRES:No	DESC:Caster spits out tendrils that grapple.	SOURCEPAGE:BoVD						DESC:Material Component: A serpent's tongue.			
+Touch of Juiblex				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Corrupt=3	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched.	DURATION:Instantaneous	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Subject turns to green slime in 4 rounds.	SOURCEPAGE:BoVD						DESC:Corruption Cost: 1d6 points of Strength damage.			
+Unheavened				TYPE:Spell	SCHOOL:Abjuration		DESCRIPTOR:Evil	CLASSES:Sorcerer=2|Wizard=2	COMPS:V, S, Drug	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One creature	DURATION:10 min/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:Subject gains +4 save bonus against power of good outsiders.	SOURCEPAGE:BoVD						DESC:Drug Component: Vodare.			
+Unliving Weapon				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Cleric=3	COMPS:V, S, M	CASTTIME:1 full round	RANGE:Touch	TARGETAREA:One undead creature	DURATION:1 hour/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Undead subject explodes for 1d6 damage/2 levels when struck or at specific time.	SOURCEPAGE:BoVD						DESC:Material Component: A drop of bile and a bit of sulfur.			
+Unnerving Gaze				TYPE:Spell	SCHOOL:Illusion	SUBSCHOOL:Phantasm		CLASSES:Sorcerer=0|Wizard=0	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One humanoid creature	DURATION:1 round/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Subject takes -1 penalty on attacks for 1d3 rounds.	SOURCEPAGE:BoVD							TEMPBONUS:ANYPC|COMBAT|TOHIT|-1|TYPE=Morale		
+Utterdark				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Evil	CLASSES:Sorcerer=9|Wizard=9	COMPS:V, S, M/DF	CASTTIME:1 hour	RANGE:Close	TARGETAREA:100-ft./level radius spread, centered on caster	DURATION:1 hour/level	SAVEINFO:None	SPELLRES:No	DESC:100-ft/level radius of darkness that evil creature 	SOURCEPAGE:BoVD						DESC:Arcane Material Component: A black stick, 6 inches long, with humanoid blood smeared upon it.			
+Vile Lance				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Evil	CLASSES:Blackguard=4|Cleric=3|Sorcerer=3|Wizard=3	COMPS:V, S, M/DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One shortspear	DURATION:10 min/level	SAVEINFO:None	SPELLRES:No	DESC:Creates +2 shortspear that deals vile damage.	SOURCEPAGE:BoVD						DESC:Arcane Material Component: A bone fragment of a good-aligned creature.			
+Wall of Chains				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation		CLASSES:Sorcerer=3|Wizard=3	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:A wall whose area is up to one 5-ft. square/level (S) (see text)	DURATION:1 min/level	SAVEINFO:None	SPELLRES:No	DESC:Creates barrier of woven chains that has 20 hp/2 caster levels.	SOURCEPAGE:BoVD						DESC:Material Component: A single link from an iron chain.			
+Wall of Deadly Chains				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation		CLASSES:Sorcerer=4|Wizard=4	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:A wall whose area is up to one 5-ft. square/level (S) (see text)	DURATION:1 min/level	SAVEINFO:Reflex half	SPELLRES:No	DESC:Creates barrier of woven chains that has 20 hp/4 caster levels and deals 3d6 damage to all within 5-ft.	SOURCEPAGE:BoVD									
+Wall of Eyes				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Evil	CLASSES:Sorcerer=7|Wizard=7	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:A wall whose area is up to one 5-ft. square/level (S) (see text)	DURATION:Instantaneous	SAVEINFO:Will negates; See text	SPELLRES:No	DESC:Creates barrier that caster can see through and that paralyzes and consumes those that touch it.	SOURCEPAGE:BoVD						DESC:Material Component: A single humanoid eye.			
+Wall of Ooze				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation		CLASSES:Cleric=5|Sorcerer=5|Wizard=5	COMPS:V, S, M/DF	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:A wall whose area is up to one 5-ft. square/level (S) (see text)	DURATION:Concentration + 1 round/level	SAVEINFO:Fort partial; See text	SPELLRES:No	DESC:Creates barrier that has 50 hp/4 levels that paralyzes and deals 2d6 damage to all that touch it.	SOURCEPAGE:BoVD						DESC:Arcane Material Component: A bit of an ochre jelly or gray ooze.			
+Wave of Grief				TYPE:Spell	SCHOOL:Enchantment		DESCRIPTOR:Evil|Mind-Affecting	CLASSES:Bard=2|Cleric=2	COMPS:S, M	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:Cone	DURATION:1 round/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:All within cone take -3 penalty on attacks, saves and checks.	SOURCEPAGE:BoVD						DESC:Material Component: Three tears.	TEMPBONUS:ANYPC|COMBAT|TOHIT|-3|TYPE=Morale	TEMPBONUS:ANYPC|SAVE|ALL|-3|TYPE=Morale	TEMPBONUS:ANYPC|SKILL|ALL|-3|TYPE=Morale
+Wave of Pain				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Bard=6	COMPS:S, M	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:Cone	DURATION:1 round/2 levels	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Stuns all within cone for 1 round/2 levels.	SOURCEPAGE:BoVD						DESC:Material Component: A needle.			
+Were-Doom				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Chaos|Evil	CLASSES:Cleric=9|Druid=9	COMPS:V, S, M	CASTTIME:1 minute	RANGE:Long	TARGETAREA:50-ft./level radius	DURATION:24 hours	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:1d4 creatures are infected with Lycanthropy.	SOURCEPAGE:BoVD						DESC:Material Component: A bit of a lycanthrope's fur or skin.			
+Whirlwind of Teeth				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Evil	CLASSES:Sorcerer=7|Wizard=7	COMPS:V, S, M/DF	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:5-ft./level radius cylinder 10 ft./level high	DURATION:1 round/level	SAVEINFO:Reflex half	SPELLRES:Yes	DESC:Creates moving 5-ft/level cylinder that deals 1d8 damage/2 levels each round.	SOURCEPAGE:BoVD						DESC:Arcane Material Component: A handful of bloody teeth.			
+Wither Limb				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Cleric=2|Sorcerer=2|Wizard=2	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One humanoid creature with limbs	DURATION:1 round/level	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Caster reduces subject's speed to 5-ft or make it impossible for subject to use objects or cast somatic spells.	SOURCEPAGE:BoVD									
+Wrack				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Evil	CLASSES:Cleric=3|Sorcerer=4|Wizard=4	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One humanoid creature	DURATION:1 round/level	SAVEINFO:Fort negates	SPELLRES:Yes	DESC:Blinds subject and render it helpless for 1 round/level, then -2 on attacks, saves and checks for 1d10 minutes.	SOURCEPAGE:BoVD									
+Wretched Blight				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Evil	CLASSES:Cleric=7	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:20-ft.-radius spread	DURATION:Instantaneous	SAVEINFO:Fort partial; See text	SPELLRES:Yes	DESC:Deals 1d8 damage/level, in 20-ft radius and stuns foes for 1d4 rounds.	SOURCEPAGE:BoVD									
+																										
+																										
+See Invisibility.COPY=See Invisibility	KEY:See Invisibility ~ 1 minute																									
+See Invisibility ~ 1 minute.MOD	OUTPUTNAME:See Invisibility	DURATION:.CLEAR	DURATION:1 minute																							
+																										
+Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Asmodeus ~ Summon Monster I																									
+Disciple of Asmodeus ~ Summon Monster I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Hellcat.																							
+Summon Monster V.COPY=Summon Monster V	KEY:Disciple of Asmodeus ~ Summon Monster V																									
+Disciple of Asmodeus ~ Summon Monster V.MOD	OUTPUTNAME:Summon Monster V	CLASSES:.CLEARALL	DESC:Only summons 1d4 Hellcat.																							
+Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Baalzebul ~ Summon Osyluth																									
+Disciple of Baalzebul ~ Summon Osyluth.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Osyluth.																							
+Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Baalzebul ~ Summon Cornugon																									
+Disciple of Baalzebul ~ Summon Cornugon.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Cornugon.																							
+Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Dispater ~ Summon Erinyes I																									
+Disciple of Dispater ~ Summon Erinyes I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Erinyes.																							
+Summon Monster V.COPY=Summon Monster V	KEY:Disciple of Dispater ~ Summon Erinyes II																									
+Disciple of Dispater ~ Summon Erinyes II.MOD	OUTPUTNAME:Summon Monster V	CLASSES:.CLEARALL	DESC:Only summons 1d4 Erinyes.																							
+Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Mammon ~ Summon Osyluth																									
+Disciple of Mammon ~ Summon Osyluth.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Osyluth.																							
+Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Mammon ~ Summon Gelugon																									
+Disciple of Mammon ~ Summon Gelugon.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Gelugon.																							
+Summon Monster I.COPY=Summon Monster I	KEY:Disciple of Mephistopheles ~ Summon Hamatula I																									
+Disciple of Mephistopheles ~ Summon Hamatula I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1 Hamatula.																							
+Summon Monster V.COPY=Summon Monster V	KEY:Disciple of Mephistopheles ~ Summon Hamatula II																									
+Disciple of Mephistopheles ~ Summon Hamatula II.MOD	OUTPUTNAME:Summon Monster V	CLASSES:.CLEARALL	DESC:Only summons 1d4 Hamatula.																							
+Detect Undead.COPY=Detect Undead	KEY:Detect Mortals																									
+Detect Mortals.MOD	OUTPUTNAME:Detect Mortals	CLASSES:.CLEARALL																								
+Summon Monster I.COPY=Summon Monster I	KEY:Thrall of Demogorgon ~ Summon Monster I																									
+Thrall of Demogorgon ~ Summon Monster I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons a demon of 5 HD.																							
+Summon Monster V.COPY=Summon Monster II	KEY:Thrall of Demogorgon ~ Summon Monster II																									
+Thrall of Demogorgon ~ Summon Monster II.MOD	OUTPUTNAME:Summon Monster II	CLASSES:.CLEARALL	DESC:Only summons a demon of 10 HD.																							
+Summon Monster I.COPY=Summon Monster I	KEY:Thrall of Graz'zt ~ Summon Monster I																									
+Thrall of Graz'zt ~ Summon Monster I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons a demon of 5 HD.																							
+Summon Monster V.COPY=Summon Monster II	KEY:Thrall of Graz'zt ~ Summon Monster II																									
+Thrall of Graz'zt ~ Summon Monster II.MOD	OUTPUTNAME:Summon Monster II	CLASSES:.CLEARALL	DESC:Only summons a demon of 10 HD.																							
+Summon Monster I.COPY=Summon Monster I	KEY:Thrall of Juiblex ~ Summon Ooze																									
+Thrall of Juiblex ~ Summon Ooze.MOD	OUTPUTNAME:Summon Ooze	CLASSES:.CLEARALL	DESC:Only summons a patch of green slime, a gray ooze, an ochre jelly, or a gelatinous cube.																							
+Summon Monster I.COPY=Summon Monster I	KEY:Thrall of Juiblex ~ Summon Monster I																									
+Thrall of Juiblex ~ Summon Monster I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons a demon of 5 HD.																							
+Summon Monster V.COPY=Summon Monster II	KEY:Thrall of Juiblex ~ Summon Monster II																									
+Thrall of Juiblex ~ Summon Monster II.MOD	OUTPUTNAME:Summon Monster II	CLASSES:.CLEARALL	DESC:Only summons a demon of 10 HD.																							
+Summon Monster I.COPY=Summon Monster I	KEY:Thrall of Juiblex ~ Summon Pudding																									
+Thrall of Juiblex ~ Summon Pudding.MOD	OUTPUTNAME:Summon Pudding	CLASSES:.CLEARALL	DESC:Only summons a black pudding.																							
+Summon Monster I.COPY=Summon Monster I	KEY:Thrall of Orcus ~ Summon Monster I																									
+Thrall of Orcus ~ Summon Monster I.MOD	OUTPUTNAME:Summon Monster I	CLASSES:.CLEARALL	DESC:Only summons 1d4 ghouls, 1d3 shadows, 1 wight, or 1 wraith.																							
+Summon Monster V.COPY=Summon Monster V	KEY:Thrall of Orcus ~ Summon Monster II																									
+Thrall of Orcus ~ Summon Monster II.MOD	OUTPUTNAME:Summon Monster II	CLASSES:.CLEARALL	DESC:Only summons 1d3 mummies, 1 spectre, 1 mohrg, 1 vampire, or 1 ghost.																							
+Summon Monster IX.COPY=Summon Monster IX	KEY:Thrall of Orcus ~ Summon Monster III																									
+Thrall of Orcus ~ Summon Monster III.MOD	OUTPUTNAME:Summon Monster III	CLASSES:.CLEARALL	DESC:Only summons 1 nightwing.																							
+																										
+																										
+																										
+																										
+Bane.MOD	CLASSES:Demonologist=1																									
+Demonflesh.MOD	CLASSES:Demonologist=1																									
+Doom.MOD	CLASSES:Demonologist=1																									
+Protection from Evil.MOD	CLASSES:Demonologist=1																									
+Protection from Good.MOD	CLASSES:Demonologist=1																									
+Spores of the Vrock.MOD	CLASSES:Demonologist=1																									
+Summon Monster I.MOD	CLASSES:Demonologist=1																									
+Unnerving Gaze.MOD	CLASSES:Demonologist=1																									
+Bestow Curse.MOD	CLASSES:Demonologist=2																									
+Dance of Ruin.MOD	CLASSES:Demonologist=2																									
+Demoncall.MOD	CLASSES:Demonologist=2																									
+Magic Circle against Evil.MOD	CLASSES:Demonologist=2																									
+Magic Circle against Good.MOD	CLASSES:Demonologist=2																									
+Protection from Energy.MOD	CLASSES:Demonologist=2																									
+Stunning Screech.MOD	CLASSES:Demonologist=2																									
+Summon Monster II.MOD	CLASSES:Demonologist=2																									
+Abyssal Might.MOD	CLASSES:Demonologist=3																									
+Call Dretch Horde.MOD	CLASSES:Demonologist=3																									
+Distort Summon.MOD	CLASSES:Demonologist=3																									
+Demon Wings.MOD	CLASSES:Demonologist=3																									
+Dread Word.MOD	CLASSES:Demonologist=3																									
+Dimensional Anchor.MOD	CLASSES:Demonologist=3																									
+Planar Binding (Lesser).MOD	CLASSES:Demonologist=3																									
+Summon Monster III.MOD	CLASSES:Demonologist=3																									
+Bestow Curse (Greater).MOD	CLASSES:Demonologist=4																									
+Call Nightmare.MOD	CLASSES:Demonologist=4																									
+Cloud of the Achaierai.MOD	CLASSES:Demonologist=4																									
+Dismissal.MOD	CLASSES:Demonologist=4																									
+Impotent Possessor.MOD	CLASSES:Demonologist=4																									
+Imprison Possessor.MOD	CLASSES:Demonologist=4																									
+Planar Binding.MOD	CLASSES:Demonologist=4																									
+Summon Monster IV.MOD	CLASSES:Demonologist=4																									
+Cause Fear.MOD	CLASSES:Mortal Hunter=1																									
+Charm Person.MOD	CLASSES:Mortal Hunter=1																									
+Detect Good.MOD	CLASSES:Mortal Hunter=1																									
+Heartache.MOD	CLASSES:Mortal Hunter=1																									
+Protection from Good.MOD	CLASSES:Mortal Hunter=1																									
+Sleep.MOD	CLASSES:Mortal Hunter=1																									
+Unnerving Gaze.MOD	CLASSES:Mortal Hunter=1																									
+Detect Thoughts.MOD	CLASSES:Mortal Hunter=2																									
+Evil Eye.MOD	CLASSES:Mortal Hunter=2																									
+Hold Person.MOD	CLASSES:Mortal Hunter=2																									
+Magic Circle against Good.MOD	CLASSES:Mortal Hunter=2																									
+See Invisibility.MOD	CLASSES:Mortal Hunter=2																									
+Web.MOD	CLASSES:Mortal Hunter=2																									
+Wither Limb.MOD	CLASSES:Mortal Hunter=2																									
+Flesh Ripper.MOD	CLASSES:Mortal Hunter=3																									
+Mirror Sending.MOD	CLASSES:Mortal Hunter=3																									
+Nondetection.MOD	CLASSES:Mortal Hunter=3																									
+Scrying.MOD	CLASSES:Mortal Hunter=3																									
+Suggestion.MOD	CLASSES:Mortal Hunter=3																									
+Vile Lance.MOD	CLASSES:Mortal Hunter=3																									
+Wrack.MOD	CLASSES:Mortal Hunter=3																									
+Arcane Eye.MOD	CLASSES:Mortal Hunter=4																									
+Call Dretch Horde.MOD	CLASSES:Mortal Hunter=4																									
+Locate Creature.MOD	CLASSES:Mortal Hunter=4																									
+Morality Undone.MOD	CLASSES:Mortal Hunter=4																									
+Phantasmal Killer.MOD	CLASSES:Mortal Hunter=4																									
+Resonating Resistance.MOD	CLASSES:Mortal Hunter=4																									
+																										
+Bestow Greater Curse Option 1	OUTPUTNAME:Bestow Greater Curse (-8 penalty on attack rolls, saves, skill checks)	KEY:Bestow Greater Curse ~ Option1																						TEMPBONUS:ANYPC|SAVE|ALL|-8|TYPE=Temporary	TEMPBONUS:ANYPC|COMBAT|TOHIT|-8|TYPE=Temporary	TEMPBONUS:ANYPC|SKILL|ALL|-8|TYPE=Temporary
+Bestow Greater Curse Option 2a	OUTPUTNAME:Bestow Greater Curse (-6 to Strength)	KEY:Bestow Greater Curse ~ Option2a																						TEMPBONUS:ANYPC|STAT|STR|-6		
+Bestow Greater Curse Option 2b	OUTPUTNAME:Bestow Greater Curse (-6 to Dexterity)	KEY:Bestow Greater Curse ~ Option2b																						TEMPBONUS:ANYPC|STAT|DEX|-6		
+Bestow Greater Curse Option 2c	OUTPUTNAME:Bestow Greater Curse (-6 to Constitution)	KEY:Bestow Greater Curse ~ Option2c																						TEMPBONUS:ANYPC|STAT|CON|-6		
+Bestow Greater Curse Option 2d	OUTPUTNAME:Bestow Greater Curse (-6 to Intelligence)	KEY:Bestow Greater Curse ~ Option2d																						TEMPBONUS:ANYPC|STAT|INT|-6		
+Bestow Greater Curse Option 2e	OUTPUTNAME:Bestow Greater Curse (-6 to Wisdom)	KEY:Bestow Greater Curse ~ Option2e																						TEMPBONUS:ANYPC|STAT|WIS|-6		
+Bestow Greater Curse Option 2f	OUTPUTNAME:Bestow Greater Curse (-6 to Charisma)	KEY:Bestow Greater Curse ~ Option2f																						TEMPBONUS:ANYPC|STAT|CHA|-6		

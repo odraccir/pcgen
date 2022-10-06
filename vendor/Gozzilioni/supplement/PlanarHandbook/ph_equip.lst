@@ -18,7 +18,7 @@ Unholy Symbol (True)		TYPE:Goods.Tools.DivineFocus	COST:500	WT:1	SOURCEPAGE:PHB	
 
 ###Block: Creatures									
 Elsewhale	TYPE:Goods.Creature.Container	COST:8000	WT:2200	SOURCEPAGE:PH	CONTAINS:UNLIM|Creature=16			
-Gaspar	TYPE:Goods.Creature.Container	COST:22500	WT:10000	SOURCEPAGE:PH	
+Gaspar	TYPE:Goods.Creature.Container	COST:22500	WT:10000	SOURCEPAGE:PH	CONTAINS:*600|Any
 Nightmare (Lesser)	TYPE:Goods.Creature.Container	COST:22500	WT:10000	SOURCEPAGE:PH	CONTAINS:*600|Any			
 Ur'Epona	TYPE:Goods.Creature.Container	COST:32000	WT:2200	SOURCEPAGE:PH	CONTAINS:*600|Any			
 

@@ -7,7 +7,7 @@ SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilion
 #(level number)	ADD:SPELLCASTER o CAST	AUTO:WEAPONPROF	(FEATAUTO)	ABILITY:Special Ability|AUTOMATIC|	ABILITY:Special Ability|AUTOMATIC|	(DOMAIN)	(BONUS)			(DEFINE)				
 CLASS:Cancer Mage	HD:6	TYPE:Prestige	FACT:Abb|CaM	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:CancerMageLVL|0	BONUS:VAR|CancerMageLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Cancer Mage	PREALIGN:LE,NE,CE	PRECHECKBASE:1,Fortitude=5	PRESKILL:1,Heal=3	PRESKILL:2,Hide=6,Move Silently=6	PRESKILL:1,Knowledge (Nature)=2	PREABILITY:3,CATEGORY=FEAT,Great Fortitude,Poison Immunity,Toughness	PRETEXT:The cancer mage must have fallen victim to the ravages of a disease and must have taken damage from a poison.							
-CLASS:Cancer Mage	STARTSKILLPTS:6	CSKILL:Craft (Alchemy)|Balance|Bluff|Climb|TYPE.Craft|Disable Device|Disguise|Escape Artist|Gather Information|Heal|Hide|Intimidate|Survival|Jump|Knowledge (Nature)|Listen|Move Silently|Sleight of Hands|TYPE.Profession|Ride|Search|Sense motive|Spot|Swim|Tumble|Use Rope												
+CLASS:Cancer Mage	STARTSKILLPTS:6	CSKILL:Craft (Alchemy)|Balance|Bluff|Climb|TYPE.Craft|Disable Device|Disguise|Escape Artist|Gather Information|Heal|Hide|Intimidate|Survival|Jump|Knowledge (Nature)|Listen|Move Silently|Sleight of Hand|TYPE.Profession|Ride|Search|Sense motive|Spot|Swim|Tumble|Use Rope												
 1				ABILITY:Cancer Mage Class Feature|AUTOMATIC|Cancer Mage ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.CancerMageProficiencies										
 #														
 1				ABILITY:Cancer Mage Class Feature|AUTOMATIC|Cancer Mage ~ Sneak Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.CancerMageSneakAttack										
@@ -105,7 +105,7 @@ CLASS:Disciple of Asmodeus	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Decipher S
 														
 CLASS:Disciple of Baalzebul	HD:6	TYPE:Prestige	FACT:Abb|DoB	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DiscipleOfBaalzebulLVL|0	BONUS:VAR|DiscipleOfBaalzebulLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Disciple of Baalzebul	PREALIGN:LE,NE,CE	PRESKILL:1,Bluff=10	PRESKILL:2,Diplomacy=4,Gather Information=4	PREABILITY:1,CATEGORY=FEAT,Disciple of Darkness	PRETEXT:The sect of Baalzebul initiates new disciples in a terrible ritual that involves the sacrifice of an intelligent being. The ritual must take place in the home of the sacrificial victim.									
-CLASS:Disciple of Baalzebul	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Climb|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Gather Information|Hide|Intimidate|Bluff|Jump|Knowledge (Religion)|Listen|Move Silently|Open Lock|Sleight of Hands|TYPE.Profession|Ride|Search|Sense Motive|Spot|Use Magic Device												
+CLASS:Disciple of Baalzebul	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Climb|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Gather Information|Hide|Intimidate|Bluff|Jump|Knowledge (Religion)|Listen|Move Silently|Open Lock|Sleight of Hand|TYPE.Profession|Ride|Search|Sense Motive|Spot|Use Magic Device												
 1				ABILITY:Disciple of Baalzebul Class Feature|AUTOMATIC|Disciple of Baalzebul ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfBaalzebulProficiencies										
 #														
 1				ABILITY:Disciple of Baalzebul Class Feature|AUTOMATIC|Disciple of Baalzebul ~ Tongue of the Devil|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfBaalzebulTongueOfTheDevil										
@@ -137,7 +137,7 @@ CLASS:Disciple of Dispater	STARTSKILLPTS:4	CSKILL:Balance|Climb|Disable Device|D
 														
 CLASS:Disciple of Mammon	HD:6	TYPE:Prestige	FACT:Abb|DoM	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DiscipleOfMammonLVL|0	BONUS:VAR|DiscipleOfMammonLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Disciple of Mammon	PREALIGN:LE,NE,CE	PREATT:4	PREABILITY:1,CATEGORY=FEAT,Disciple of Darkness	PRETEXT:The character must go through a disgusting and humiliating sexual ritual and betray her closest friend to an evil end before she can properly serve her new master.										
-CLASS:Disciple of Mammon	STARTSKILLPTS:4	CSKILL:Appraise|Balance|Disable Device|Disguise|Escape Artist|Forgery|Hide|Bluff|Intimidate|TYPE.Knowledge|Listen|Move Silently|Open Lock|Sleight of Hands|TYPE.Profession|Search|Spot												
+CLASS:Disciple of Mammon	STARTSKILLPTS:4	CSKILL:Appraise|Balance|Disable Device|Disguise|Escape Artist|Forgery|Hide|Bluff|Intimidate|TYPE.Knowledge|Listen|Move Silently|Open Lock|Sleight of Hand|TYPE.Profession|Search|Spot												
 1				ABILITY:Disciple of Mammon Class Feature|AUTOMATIC|Disciple of Mammon ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMammonProficiencies										
 #														
 1				ABILITY:Disciple of Mammon Class Feature|AUTOMATIC|Disciple of Mammon ~ Lie|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfMammonLie										
@@ -194,7 +194,7 @@ CLASS:Lifedrinker	STARTSKILLPTS:4	CSKILL:Bluff|Hide|Knowledge (Arcana)|Listen|Mo
 11	PREPCLEVEL:MIN=20													
 														
 CLASS:Mortal Hunter	HD:10	TYPE:Prestige	FACT:Abb|Mor	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:MortalHunterLVL|0	BONUS:VAR|MortalHunterLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
-CLASS:Mortal Hunter	PRERACE:1,RACETYPE=Outsider	PREALIGN:LE,NE,CE	PREATT:5	PRESKILL:1,Move Silently=3	PRESKILL:1,Survival=5	PRELANG:1,Common	PREABILITY:2,CATEGORY=Feat,Mortalbane,Track							
+CLASS:Mortal Hunter	PRERACE:1,RACETYPE=Outsider	PREALIGN:LE,NE,CE	PREATT:5	PRESKILL:1,Move Silently=3	PRESKILL:1,Survival=5	PRELANG:1,Common	PREABILITY:2,CATEGORY=FEAT,Mortalbane,Track							
 CLASS:Mortal Hunter	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Concentration|Disguise|Hide|Survival|Jump|Knowledge (Arcana)|Knowledge (Religion)|Knowledge (The Planes)|Listen|Move Silently|Search|Sense Motive|Spot|Survival												
 CLASS:Mortal Hunter	SPELLSTAT:CHA	FACT:SpellType|Arcane	MEMORIZE:NO											
 1	CAST:0,0													
@@ -218,7 +218,7 @@ CLASS:Mortal Hunter	SPELLSTAT:CHA	FACT:SpellType|Arcane	MEMORIZE:NO
 4				ABILITY:Mortal Hunter Class Feature|AUTOMATIC|Mortal Hunter ~ Smite Mortals|!PREABILITY:1,CATEGORY=ACF,TYPE.MortalHunterSmiteMortals										
 5				ABILITY:Mortal Hunter Class Feature|AUTOMATIC|Mortal Hunter ~ Spurn Mortal Magic|!PREABILITY:1,CATEGORY=ACF,TYPE.MortalHunterSpurnMortalMagic										
 7				ABILITY:Mortal Hunter Class Feature|AUTOMATIC|Mortal Hunter ~ Claws of the Overfiend|!PREABILITY:1,CATEGORY=ACF,TYPE.MortalHunterClawsOfTheOverfiend										
-8				ABILITY:Mortal Hunter Class Feature|AUTOMATIC|Mortal Hunter ~ Mortalbnane Shout|!PREABILITY:1,CATEGORY=ACF,TYPE.MortalHunterMortalbaneShout										
+8				ABILITY:Mortal Hunter Class Feature|AUTOMATIC|Mortal Hunter ~ Mortalbane Shout|!PREABILITY:1,CATEGORY=ACF,TYPE.MortalHunterMortalbaneShout										
 10				ABILITY:Mortal Hunter Class Feature|AUTOMATIC|Mortal Hunter ~ Slay Mortal|!PREABILITY:1,CATEGORY=ACF,TYPE.MortalHunterSlayMortal										
 #														
 11	PREPCLEVEL:MIN=20													
@@ -262,7 +262,7 @@ CLASS:Thrall of Demogorgon	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Concentration|Hide
 														
 CLASS:Thrall of Graz'zt	HD:6	TYPE:Prestige	FACT:Abb|ToG	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ThrallOfGrazztLVL|0	BONUS:VAR|ThrallOfGrazztLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Thrall of Graz'zt	PREALIGN:LE,NE,CE	PRESKILL:1,Knowledge (Arcana)=5	PRESKILL:2,Bluff=2,Diplomacy=2	PREABILITY:2,CATEGORY=FEAT,Thrall to Demon,Violate Spell	PRESPELLDESCRIPTOR:1,Evil=3	PRETEXT:Graz'zt's followers initiate new thralls in a horrific rite that involves the sacrifice of an intelligent being. This rite must be performed within an area of magical darkness under the influence of a desecrate or unhallow spell								
-CLASS:Thrall of Graz'zt	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Decipher Script|Diplomacy|Gather Information|Hide|TYPE.Knowledge|Listen|Move Silently|Open Lock|TYPE.Perform|Sleight of Hands|Search|Sense Motive|Spellcraft|Spot|Use Magic Device												
+CLASS:Thrall of Graz'zt	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Decipher Script|Diplomacy|Gather Information|Hide|TYPE.Knowledge|Listen|Move Silently|Open Lock|TYPE.Perform|Sleight of Hand|Search|Sense Motive|Spellcraft|Spot|Use Magic Device												
 1	ADD:SPELLCASTER|ANY													
 3	ADD:SPELLCASTER|ANY													
 5	ADD:SPELLCASTER|ANY													
@@ -321,8 +321,8 @@ CLASS:Thrall of Orcus	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Hide
 # CLASS:Ur-Priest														
 														
 CLASS:Vermin Lord	HD:6	TYPE:Prestige	FACT:Abb|Vrm	MAXLEVEL:NOLIMIT	SOURCEPAGE:BoVD	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:VerminLordLVL|0	BONUS:VAR|VerminLordLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
-CLASS:Vermin Lord	PREALIGN:LE,NE,CE	PRESKILL:2,Move Silently=3,Hide=3	PRESKILL:1,Knowledge (Nature)=2	PREABILITY:2,CATEGORY=FEAT,Verminfriend	PRESPELL:1,Giant Vermin	PRETEXT:The vermin lord must be ordained by an intelligent evil creature with a physical resemblance to vermin— a drider, chasme, gelugon, aranea, bebilith, phase spider, evil formian, or similar creature. The ordaining creature must be intelligent enough to communicate with the vermin lordto- be. Of course, such a creature will demand service or payment in return.								
-CLASS:Vermin Lord	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Concentration|Hide|Knowledge (Nature)|Listen|Move Silently|TYPE.Perform|Sleight of Hands|Search|Spellcraft|Spot												
+CLASS:Vermin Lord	PREALIGN:LE,NE,CE	PRESKILL:2,Move Silently=3,Hide=3	PRESKILL:1,Knowledge (Nature)=2	PREABILITY:2,CATEGORY=FEAT,Verminfriend	PRESPELL:1,Giant Vermin	PRETEXT:The vermin lord must be ordained by an intelligent evil creature with a physical resemblance to vermin- a drider, chasme, gelugon, aranea, bebilith, phase spider, evil formian, or similar creature. The ordaining creature must be intelligent enough to communicate with the vermin lordto- be. Of course, such a creature will demand service or payment in return.								
+CLASS:Vermin Lord	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Concentration|Hide|Knowledge (Nature)|Listen|Move Silently|TYPE.Perform|Sleight of Hand|Search|Spellcraft|Spot												
 1	ADD:SPELLCASTER|ANY													
 3	ADD:SPELLCASTER|ANY													
 5	ADD:SPELLCASTER|ANY													

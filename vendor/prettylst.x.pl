@@ -1655,8 +1655,8 @@ my @PRE_Tags = (
 	'!PREARMORPROF',
 	'PREARMORTYPE',
 	'!PREARMORTYPE',
-	# 'PREATT',
-	# '!PREATT',
+	'PREATT',
+	'!PREATT',
 	'PREBASESIZEEQ',
 	'!PREBASESIZEEQ',
 	'PREBASESIZEGT',
@@ -13769,10 +13769,10 @@ BEGIN {
 			my $sourcepage = "";
 			my $spelltype = "";
 				
-			$abb1 = ( $line_ref->{'ABB'}[0] =~ /^ABB:(.*)/ )[0]
-				if exists $line_ref->{'ABB'};
-			$abb = ( $line_ref->{'FACT:Abb'}[0] =~ /^FACT:Abb\(((?<=\()(.*)(?=\)))/ )[0]
-				if exists $line_ref->{'FACT:Abb'};
+			# $abb1 = ( $line_ref->{'ABB'}[0] =~ /^ABB:(.*)/ )[0]
+				# if exists $line_ref->{'ABB'};
+			# $abb = ( $line_ref->{'FACT:Abb'}[0] =~ /^FACT:Abb\(((?<=\()(.*)(?=\)))/ )[0]
+				# if exists $line_ref->{'FACT:Abb'};
 			$type = ( $line_ref->{'TYPE'}[0] =~ /^TYPE:(.*)/ )[0]
 				if exists $line_ref->{'TYPE'};
 			$sourcepage = ( $line_ref->{'SOURCEPAGE'}[0] =~ /^SOURCEPAGE:(.*)/ )[0]
@@ -13780,9 +13780,11 @@ BEGIN {
 			$spelltype = ( $line_ref->{'SPELLTYPE'}[0] =~ /^SPELLTYPE:(.*)/ )[0]
 				if exists $line_ref->{'SPELLTYPE'};
 				
-			print { $filehandle_for{CLASS} } qq{"$class","$abb","$spelltype","$type","$sourcepage","$line_for_error","$filename"\n}
+			# print { $filehandle_for{CLASS} } qq{"$class","$abb","$spelltype","$type","$sourcepage","$line_for_error","$filename"\n}
+				# if $class_name ne $class;
+			print { $filehandle_for{CLASS} } qq{"$class","","$spelltype","$type","$sourcepage","$line_for_error","$filename"\n}
 				if $class_name ne $class;
-			print qq{Class read $class ($abb): $abb1\n}; # if $abb ne $abb1;
+			# print qq{Class read $class ($abb): $abb1\n}; # if $abb ne $abb1;
 			$class_name = $class;
 		}
 

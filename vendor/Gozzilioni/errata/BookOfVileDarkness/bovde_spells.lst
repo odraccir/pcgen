@@ -1,0 +1,7 @@
+SOURCELONG:Book of Vile Darkness Errata	SOURCESHORT:BoVDe	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10																							
+																										
+# Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	DESC:	Bonus	Bonus	
+Apocalypse from the Sky.MOD	COMPS:V, S, F, Corrupt	DESC:.CLEAR	DESC:All in a 10-mile radius/level take 10d6 damage.	DESC:Focus: An artifact, usually good perverted to this corrupt use. Corruption Cost: 3d6 points of Constitution damage and 4d6 points of Wisdom drain. Just preparing this spell deals 1d3 points of Wisdom damage, with another 1d3 points of Wisdom damage for each day it remains among the caster's prepared spells.			
+Bestow Greater Curse.MOD	SCHOOL:.CLEAR	SCHOOL:Necromancy
+Flesh Ripper.MOD	COMPS:.CLEAR	COMPS:V, S, Undead/Fiend
+Hell's Power	DESC:.CLEAR	DESC:Caster gains +2 AC and increase existing DR. Old Damage Reduction New Damage Reduction&nl;DR #/silver or good DR #/good&nl;DR #/good DR #/silver and good&nl;DR #/silver and good DR #/magic and silver and good&nl;DR #/magic and silver and good DR #/epic and silver and good	DESC:Material Component:The heart of an elf child.			

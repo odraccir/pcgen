@@ -40,7 +40,7 @@ EQUIPMOD:ph_equipmods.lst
 ABILITY:ph_feats.lst
 KIT:ph_kits.lst
 LANGUAGE:ph_languages.lst
-WEAPONPROF:ph_profs_armor.lst
+ARMORPROF:ph_profs_armor.lst
 WEAPONPROF:ph_profs_weapon.lst
 RACE:ph_races.lst
 RACE:ph_races_companion.lst

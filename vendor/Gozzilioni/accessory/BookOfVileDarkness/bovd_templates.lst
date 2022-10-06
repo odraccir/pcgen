@@ -37,6 +37,7 @@ Disease Damage (Vile Rigidity)		VISIBLE:NO	SOURCEPAGE:BoVD			TEMPDESC:Infection 
 Disease Damage (Warp Touch)		VISIBLE:NO	SOURCEPAGE:BoVD			TEMPDESC:Infection DC 20 (Contact), Incubation immediate, Damage special.	
 
 ###Block: Class 
-Vermin Lord ~ Bite	VISIBLE:NO	SOURCEPAGE:BoVD	TEMPLATE:CHOOSE|Vermin Lord ~ Bite ~ 1|Vermin Lord ~ Bite ~ 2
+Vermin Lord ~ Bite	VISIBLE:NO	SOURCEPAGE:BoVD	TEMPLATE:CHOOSE:Vermin Lord ~ Bite ~ 1|Vermin Lord ~ Bite ~ 2
 Vermin Lord ~ Bite ~ 1	VISIBLE:NO	SOURCEPAGE:BoVD	PREMULT:2,[PREVARGTEQ:VerminLordLVL,2],[PREVARLTEQ:VerminLordLVL,7]	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,2d6
 Vermin Lord ~ Bite ~ 2	VISIBLE:NO	SOURCEPAGE:BoVD	PREVARGTEQ:VerminLordLVL,8	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,2d6,SPROP=Poison
+

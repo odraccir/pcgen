@@ -24,9 +24,10 @@ ABILITY:bovd_abilities_races.lst
 # ABILITY:bovd_abilities_templates.lst
 ABILITYCATEGORY:bovd_abilitycategories.lst
 CLASS:bovd_classes.lst
+CLASS:bovd_classes_corrupted.lst
 COMPANIONMOD:bovd_companionmods.lst
-# DEITY:bovd_deities.lst
-# DOMAIN:bovd_domains.lst
+DEITY:bovd_deities.lst
+DOMAIN:bovd_domains.lst
 EQUIPMENT:bovd_equip.lst
 EQUIPMENT:bovd_equip_armors.lst
 # EQUIPMENT:bovd_equip_armors_specific.lst
@@ -39,10 +40,10 @@ EQUIPMOD:bovd_equipmods.lst
 ABILITY:bovd_feats.lst
 # KIT:bovd_kits.lst
 LANGUAGE:bovd_languages.lst
-WEAPONPROF:bovd_profs_armor.lst
+ARMORPROF:bovd_profs_armor.lst
 # WEAPONPROF:bovd_profs_weapon.lst
 # RACE:bovd_races.lst
-# RACE:bovd_races_companion.lst
+RACE:bovd_races_companion.lst
 # SKILL:bovd_skills.lst
 SPELL:bovd_spells.lst
 ABILITY:bovd_subraces.lst

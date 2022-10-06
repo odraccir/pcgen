@@ -1,0 +1,5 @@
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10																														
+																																			
+# Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	TYPE:	RACETYPE:	RACESUBTYPE:	MONSTERCLASS:	MOVE:	Combat bonus	NATURALATTACKS:	NATURALATTACKS:	Weapon prof. bonus	Weapon prof. bonus	FACE:	REACH:	Special Ability	Damage Reduction	Spell Res.	Stat bonus						MONCSKILL:	CR:	Required AL	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	Nb Legs	Nb Hands	SOURCEPAGE:		
+Cancer		KEY:Companion ~ Cancerous		STARTFEATS:1	SIZE:T	TYPE:Companion	RACETYPE:Aberration			MOVE:Walk,0						FACE:0	REACH:0											CR:0				LEGS:0	HANDS:0	SOURCEPAGE:BoVD		
+

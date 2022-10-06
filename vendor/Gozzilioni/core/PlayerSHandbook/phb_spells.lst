@@ -639,20 +639,20 @@ Law ~ Summon Monster IX.MOD	OUTPUTNAME:Summon Monster IX	DESCRIPTOR:.CLEAR	DESCR
 																																							
 Bestow Curse Option 1	OUTPUTNAME:Bestow Curse (-4 penalty on attack rolls, saves, skill checks)	KEY:Bestow Curse ~ Option1																						TEMPBONUS:ANYPC|SAVE|ALL|-4|TYPE=Temporary	TEMPBONUS:ANYPC|COMBAT|TOHIT|-4|TYPE=Temporary	TEMPBONUS:ANYPC|SKILL|ALL|-4|TYPE=Temporary													
 Bestow Curse Option 2a	OUTPUTNAME:Bestow Curse (-6 to Strength)	KEY:Bestow Curse ~ Option2a																						TEMPBONUS:ANYPC|STAT|STR|-6															
-Bestow Curse Option 2b	OUTPUTNAME:Bestow Curse (-6 to Dexterity)	KEY:Bestow Curse ~ Option2b																						TEMPBONUS:ANYPC|STAT|STR|-6															
-Bestow Curse Option 2c	OUTPUTNAME:Bestow Curse (-6 to Constitution)	KEY:Bestow Curse ~ Option2c																						TEMPBONUS:ANYPC|STAT|STR|-6															
-Bestow Curse Option 2d	OUTPUTNAME:Bestow Curse (-6 to Intelligence)	KEY:Bestow Curse ~ Option2d																						TEMPBONUS:ANYPC|STAT|STR|-6															
-Bestow Curse Option 2e	OUTPUTNAME:Bestow Curse (-6 to Wisdom)	KEY:Bestow Curse ~ Option2e																						TEMPBONUS:ANYPC|STAT|STR|-6															
-Bestow Curse Option 2f	OUTPUTNAME:Bestow Curse (-6 to Charisma)	KEY:Bestow Curse ~ Option2f																						TEMPBONUS:ANYPC|STAT|STR|-6															
+Bestow Curse Option 2b	OUTPUTNAME:Bestow Curse (-6 to Dexterity)	KEY:Bestow Curse ~ Option2b																						TEMPBONUS:ANYPC|STAT|DEX|-6															
+Bestow Curse Option 2c	OUTPUTNAME:Bestow Curse (-6 to Constitution)	KEY:Bestow Curse ~ Option2c																						TEMPBONUS:ANYPC|STAT|CON|-6															
+Bestow Curse Option 2d	OUTPUTNAME:Bestow Curse (-6 to Intelligence)	KEY:Bestow Curse ~ Option2d																						TEMPBONUS:ANYPC|STAT|INT|-6															
+Bestow Curse Option 2e	OUTPUTNAME:Bestow Curse (-6 to Wisdom)	KEY:Bestow Curse ~ Option2e																						TEMPBONUS:ANYPC|STAT|WIS|-6															
+Bestow Curse Option 2f	OUTPUTNAME:Bestow Curse (-6 to Charisma)	KEY:Bestow Curse ~ Option2f																						TEMPBONUS:ANYPC|STAT|CHA|-6															
 Magic Vestment Option 1	OUTPUTNAME:Magic Vestment (Clothing)	KEY:Magic Vestment ~ Option1																					TEMPDESC:Grants armor bonus to selected clothing	TEMPVALUE:MIN=5|MAX=20|TITLE=Choose spell caster level	TEMPBONUS:EQ|Clothing|COMBAT|AC|min(floor(%CHOICE/4),5)|TYPE=ArmorEnhancement														
 Magic Vestment Option 2	OUTPUTNAME:Magic Vestment (Armor)	KEY:Magic Vestment ~ Option2																					TEMPDESC:Grants armor bonus to selected armor	TEMPVALUE:MIN=5|MAX=20|TITLE=Choose spell caster level	TEMPBONUS:EQ|Armor|COMBAT|AC|min(floor(%CHOICE/4),5)|TYPE=ArmorEnhancement														
 Magic Vestment Option 3	OUTPUTNAME:Magic Vestment (Shield)	KEY:Magic Vestment ~ Option3																					TEMPDESC:Grants armor bonus to selected shield	TEMPVALUE:MIN=5|MAX=20|TITLE=Choose spell caster level	TEMPBONUS:EQ|Shield|COMBAT|AC|min(floor(%CHOICE/4),5)|TYPE=ShieldEnhancement														
 Mark of Justice Option 1	OUTPUTNAME:Mark of Justice (-4 penalty on attack rolls, saves, skill checks)	KEY:Mark of Justice Option1																						TEMPBONUS:ANYPC|SAVE|ALL|-4|TYPE=Temporary	TEMPBONUS:ANYPC|COMBAT|TOHIT|-4|TYPE=Temporary	TEMPBONUS:ANYPC|SKILL|ALL|-4|TYPE=Temporary													
 Mark of Justice Option 2a	OUTPUTNAME:Mark of Justice (-6 to Strength)	KEY:Mark of Justice Option2a																						TEMPBONUS:ANYPC|STAT|STR|-6															
-Mark of Justice Option 2b	OUTPUTNAME:Mark of Justice (-6 to Dexterity)	KEY:Mark of Justice Option2b																						TEMPBONUS:ANYPC|STAT|STR|-6															
-Mark of Justice Option 2c	OUTPUTNAME:Mark of Justice (-6 to Constitution)	KEY:Mark of Justice Option2c																						TEMPBONUS:ANYPC|STAT|STR|-6															
-Mark of Justice Option 2d	OUTPUTNAME:Mark of Justice (-6 to Intelligence)	KEY:Mark of Justice Option2d																						TEMPBONUS:ANYPC|STAT|STR|-6															
-Mark of Justice Option 2e	OUTPUTNAME:Mark of Justice (-6 to Wisdom)	KEY:Mark of Justice Option2e																						TEMPBONUS:ANYPC|STAT|STR|-6															
-Mark of Justice Option 2f	OUTPUTNAME:Mark of Justice (-6 to Charisma)	KEY:Mark of Justice Option2f																						TEMPBONUS:ANYPC|STAT|STR|-6															
+Mark of Justice Option 2b	OUTPUTNAME:Mark of Justice (-6 to Dexterity)	KEY:Mark of Justice Option2b																						TEMPBONUS:ANYPC|STAT|DEX|-6															
+Mark of Justice Option 2c	OUTPUTNAME:Mark of Justice (-6 to Constitution)	KEY:Mark of Justice Option2c																						TEMPBONUS:ANYPC|STAT|CON|-6															
+Mark of Justice Option 2d	OUTPUTNAME:Mark of Justice (-6 to Intelligence)	KEY:Mark of Justice Option2d																						TEMPBONUS:ANYPC|STAT|INT|-6															
+Mark of Justice Option 2e	OUTPUTNAME:Mark of Justice (-6 to Wisdom)	KEY:Mark of Justice Option2e																						TEMPBONUS:ANYPC|STAT|WIS|-6															
+Mark of Justice Option 2f	OUTPUTNAME:Mark of Justice (-6 to Charisma)	KEY:Mark of Justice Option2f																						TEMPBONUS:ANYPC|STAT|CHA|-6															
 Prayer Option 1	OUTPUTNAME:Prayer (Ally)	KEY:Prayer Option1																						TEMPBONUS:ANYPC|SAVE|ALL|1|TYPE=Luck	TEMPBONUS:ANYPC|COMBAT|TOHIT|1|TYPE=Luck	TEMPBONUS:ANYPC|COMBAT|DAMAGE.Melee,DAMAGE.Ranged|1|TYPE=Luck	TEMPBONUS:ANYPC|SKILL|TYPE.Skill|1|TYPE=Luck												
 Prayer Option 2	OUTPUTNAME:Prayer (Enemy)	KEY:Prayer Option2																						TEMPBONUS:ANYPC|SAVE|ALL|-1|TYPE=Luck	TEMPBONUS:ANYPC|COMBAT|TOHIT|-1|TYPE=Luck	TEMPBONUS:ANYPC|COMBAT|DAMAGE.Melee,DAMAGE.Ranged|-1|TYPE=Luck	TEMPBONUS:ANYPC|SKILL|TYPE.Skill|-1|TYPE=Luck												
