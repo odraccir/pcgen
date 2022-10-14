@@ -14,12 +14,9 @@ PUBNAMELONG:Gozzilioni
 PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
 
-PRECAMPAIGN:1,Complete Divine
+PRECAMPAIGN:1,Book of Vile Darkness
 
-ABILITY:cde_feats.lst
-DEITY:cde_deities.lst
-EQUIPMENT:cde_equip_magic_items.lst
-SPELL:cde_spells.lst
+SPELL:bovde_spells.lst
 
 #
 # HIDETYPE:SKILL|Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma
