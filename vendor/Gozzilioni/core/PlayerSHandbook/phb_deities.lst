@@ -1,7 +1,7 @@
 SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #								
 #	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		PANTHEON:Greyhawk	SOURCEPAGE:CD	
-#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	SYMBOL:a Kitten on a keyboard
+#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	FACT:Symbol|a Kitten on a keyboard
 Boccob	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Boccob (M)	DOMAINS:Knowledge,Magic,Trickery|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB	
 Corellon Larethian	ALIGN:CG	DEITYWEAP:Longsword	DESC:Corellon Larethian (M)	DOMAINS:Chaos,Good,Protection,War|PREALIGN:NG,CG,CN	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB	
 Ehlonna	ALIGN:NG	DEITYWEAP:Longbow	DESC:Ehlonna (F)	DOMAINS:Animal,Good,Plant|PREALIGN:LG,LN,CG,NG	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB	

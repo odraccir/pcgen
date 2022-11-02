@@ -1,6 +1,6 @@
 SOURCELONG:Expanded Psionics Handbook	SOURCESHORT:EPH	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-04
 
 #	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		PANTHEON:Greyhawk	SOURCEPAGE:CD	
-#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	SYMBOL:a Kitten on a keyboard
+#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	FACT:Symbol|a Kitten on a keyboard
 Zuoken	ALIGN:TN	DEITYWEAP:Nunchaku	DESC:Zuoken (M)	DOMAINS:Knowledge,Mind,Strength,War|PREALIGN:LN,NG,TN,NE,CN	TYPE:Demigod	FACTSET:Pantheon|None	SOURCEPAGE:EPH	
 Ilsensine	ALIGN:LE	DEITYWEAP:Tentacle|Unarmed Strike	DESC:Ilsensine (M)	DOMAINS:Evil,Law,Knowledge,Magic,Mind|PREALIGN:LN,LE,NE	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:EPH	

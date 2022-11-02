@@ -31,18 +31,18 @@ DOMAIN:bovd_domains.lst
 EQUIPMENT:bovd_equip.lst
 EQUIPMENT:bovd_equip_armors.lst
 # EQUIPMENT:bovd_equip_armors_specific.lst
-# EQUIPMENT:bovd_equip_magic_items.lst
-# EQUIPMENT:bovd_equip_weapons.lst
+EQUIPMENT:bovd_equip_magic_items.lst
+EQUIPMENT:bovd_equip_weapons.lst
 # EQUIPMENT:bovd_equip_weapons_natural.lst
 # EQUIPMENT:bovd_equip_weapons_specific.lst
 # EQUIPMENT:bovd_equip_weapons_natural.lst
 EQUIPMOD:bovd_equipmods.lst
 ABILITY:bovd_feats.lst
-# KIT:bovd_kits.lst
+KIT:bovd_kits.lst
 LANGUAGE:bovd_languages.lst
 ARMORPROF:bovd_profs_armor.lst
-# WEAPONPROF:bovd_profs_weapon.lst
-# RACE:bovd_races.lst
+WEAPONPROF:bovd_profs_weapon.lst
+RACE:bovd_races.lst
 RACE:bovd_races_companion.lst
 # SKILL:bovd_skills.lst
 SPELL:bovd_spells.lst

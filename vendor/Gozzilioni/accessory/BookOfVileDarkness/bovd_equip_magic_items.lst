@@ -1,0 +1,77 @@
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10			
+
+##Block: Rings																								
+Master Ring		TYPE:Ring	COST:40600	WT:0	SOURCEPAGE:BoVD	SPROP:deal 3d6 points of damage per round as a free action to anyone wearing a slave ring keyed to it.																		
+Ring of Weeping		TYPE:Ring	COST:3000	WT:0	SOURCEPAGE:BoVD	SPROP:bestow a weeping, crippling sadness by touch (Will DC 11)																																						
+Slave Ring		TYPE:Ring	COST:500	WT:0	SOURCEPAGE:BoVD																																							
+Ring of Vile Weapon		TYPE:Ring	COST:20000	WT:0	SOURCEPAGE:BoVD	SPROP:+1 Vile damage.	BONUS:COMBAT|DAMAGE|1|TYPE=Vile																																					
+Ring of Vile Spell		TYPE:Ring	COST:15000	WT:0	SOURCEPAGE:BoVD	SPROP:+1 Vile damage/spell level cast.																																						
+
+##Block: Rods																								
+Celestial Bane Rod	KEY:Rod (Celestial Bane)	TYPE:Rod	COST:56000	WT:3	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]																		
+Harrow Rod	KEY:Rod (Harrow)	TYPE:Rod	COST:54000	WT:3	SOURCEPAGE:BoVD	SPELLS:Rod (Harrow)|TIMES=3|CASTERLEVEL=7|Cone of Acid,17
+Rod of Possession	KEY:Rod (Possession)	TYPE:Rod	COST:20000	WT:3	SOURCEPAGE:BoVD	EQMOD:CHARGED_ITEM_50|CHARGES[50]
+Flesheater	KEY:Rod (Flesheater)	TYPE:Rod	COST:18000	WT:3	SOURCEPAGE:BoVD	EQMOD:CHARGED_ITEM_50|CHARGES[50]
+
+###Block: Staff																								
+Staff of Corruption	KEY:Staff (Corruption)	TYPE:Staff	COST:192000	WT:5	SOURCEPAGE:BoVD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Befoul (2 charges)/Despoil (2 charges)/Morality undone (1 charge, DC 16)/Shriveling (heightened to 6th level, 10d4 damage, DC 19) (1 charge)/Wither limb (heightened to 6th level, 10d8 damage, DC 19) (1 charge).																	
+Staff of Darkness	KEY:Staff (Darkness)	TYPE:Staff	COST:24000	WT:5	SOURCEPAGE:BoVD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Damning darkness (2 charges, DC 16)/Darkbolt (3d8 damage, DC 13) (1 charge)/Darkness (1 charge)/Deeper darkness (2 charges).																	
+Staff of Pestilence	KEY:Staff (Pestilence)	TYPE:Staff	COST:70000	WT:5	SOURCEPAGE:BoVD	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Contagion (1 charge, DC 16)/Insect plague (1 charge, DC 17)/Pox(2 charges, DC 19).																	
+
+###Block: Wondrous										
+Belt of the Dread Emperor		TYPE:Wondrous	COST:120000	WT:1		SOURCEPAGE:BovD			DESC:recall spells at cost of hp of the creature attached.	
+Collar of Venom		TYPE:Wondrous.Amulet	COST:50000	WT:3		SOURCEPAGE:BovD			DESC:Poison (Fort DC 14, Init.:1d10 CON, Sec.:1d10 CON)	
+Collar of Virulent Venom		TYPE:Wondrous.Amulet	COST:50000	WT:3		SOURCEPAGE:BovD			DESC:Poison (Fort DC 20, Init.:1d10 CON, Sec.:1d10 CON)	
+Dark Altar Stone		TYPE:Wondrous	COST:150000	WT:100		SOURCEPAGE:BovD				
+Elixir of Dark Speech		TYPE:Wondrous.Potion.Consumable	COST:150	WT:0		SOURCEPAGE:BovD				
+Fanatic's Collar		TYPE:Wondrous.Amulet	COST:30000	WT:2		SOURCEPAGE:BovD				
+Flesh Ring of Scorn		TYPE:Wondrous	COST:8000	WT:0		SOURCEPAGE:BovD				
+Gem of Psychic Poison		TYPE:Wondrous	COST:28000	WT:0		SOURCEPAGE:BovD			DESC:Poison (Init.:1d6 INT, Sec.:1d6 INT)	
+Heaven's Thorn		TYPE:Wondrous	COST:4550	WT:1		SOURCEPAGE:BovD			DESC:touch attack stuns good-aligned outsider 1d4 round.	
+Hook of Dissolution		TYPE:Wondrous	COST:14400	WT:2		SOURCEPAGE:BovD			DESC:3/day (Fort DC 22)	
+Iron Maiden of Preservation		TYPE:Wondrous	COST:7000	WT:550		SOURCEPAGE:BovD				
+Maggot Harvester		TYPE:Wondrous	COST:10000	WT:5		SOURCEPAGE:BovD				
+Necklace of Demons		TYPE:Wondrous.Amulet	COST:28500	WT:1		SOURCEPAGE:BovD				
+Nipple Clamp of Exquisite Pain		TYPE:Wondrous	COST:8000	WT:0		SOURCEPAGE:BovD				
+Oil of the Lamia		TYPE:Wondrous.Liquid.Flask.Consumable	COST:2000	WT:1		SOURCEPAGE:BovD				
+Pain Extractor		TYPE:Wondrous	COST:64000	WT:3		SOURCEPAGE:BovD				
+Pipe of Grief		TYPE:Wondrous	COST:3000	WT:1		SOURCEPAGE:BovD				
+Piercing Needles of Pain		TYPE:Wondrous	COST:35000	WT:1		SOURCEPAGE:BovD				
+Quiver of Lies		TYPE:Wondrous.Container	COST:12000	WT:0		SOURCEPAGE:BovD				CONTAINS:UNLIM|Total=20|Arrow=20|Bolt=20
+Rack of Irresistible Torture		TYPE:Wondrous	COST:3000	WT:275		SOURCEPAGE:BovD			DESC:+10 bonus on intimidate check made by the torturer.	
+Skull of Fear		TYPE:Wondrous	COST:70000	WT:2		SOURCEPAGE:BovD			DESC:10' fr radius, Aura of Fear (Will DC 16)	
+Slime Pot		TYPE:Wondrous	COST:11200	WT:5		SOURCEPAGE:BovD				
+Spiralburst Bottle		TYPE:Wondrous.Flask.Consumable	COST:19000	WT:1		SOURCEPAGE:BovD				
+Symbol of Demogorgon		TYPE:Wondrous.Amulet.DivineFocus	COST:10000	WT:0		SOURCEPAGE:BovD			SPROP:you can prepare Rotting Curse of Urfestra without Corruption cost.	BONUS:STAT|WIS|2|TYPE=Enhancement
+Tongue Studs of Hell Breath		TYPE:Wondrous	COST:35000	WT:1		SOURCEPAGE:BovD			DESC:3/day 50' Line of Hellfire Breath 3d6 unholy.	
+Vasharan Offal Bag		TYPE:Wondrous	COST:3000	WT:10		SOURCEPAGE:BovD				
+Vasharan Worm Pod		TYPE:Wondrous	COST:35000	WT:5		SOURCEPAGE:BovD				
+
+## Artifacts																								
+#Minor Artifacts																								
+Angel Blood		TYPE:Artifact.Minor.Flask.Consumable	COST:0	WT:1	SOURCEPAGE:BoVD																																																																																																																																												
+Angel Tears		TYPE:Artifact.Minor.Flask.Consumable	COST:0	WT:.5	SOURCEPAGE:BoVD																																																																																																																																												
+Demon Blood		TYPE:Artifact.Minor	COST:0	WT:1	SOURCEPAGE:BoVD																																																																																																																																												
+Demonstone		TYPE:Artifact.Minor	COST:0	WT:.5	SOURCEPAGE:BoVD	BONUS:COMBAT|TOHIT|1|TYPE=Luck	BONUS:COMBAT|DAMAGE|1|TYPE=Luck	BONUS:SKILL|ALL|1|TYPE=Luck	BONUS:SAVE|ALL|1|TYPE=Luck																																																																																																																																								
+Devil Blood		TYPE:Artifact.Minor.Flask.Consumable	COST:0	WT:0	SOURCEPAGE:BoVD																																																																																																																																												
+Kython Armor			PROFICIENCY:ARMOR|Full Plate	TYPE:Armor.Heavy.Suit.Artifact.Minor.Plate	COST:0	WT:50	SOURCEPAGE:BoVD	BONUS:COMBAT|AC|8|TYPE=Armor	MAXDEX:1	ACCHECK:-6	SPELLFAILURE:35	EQMOD:STEEL.EQ_COST_ADJ_A.PLUS3W						
+Midnight Blade			PROFICIENCY:WEAPON|Sword (Bastard)	TYPE:Weapon.Melee.Exotic.Slashing.OneHanded.Sword.Artifact.Minor	COST:0	WT:10	WIELD:OneHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS5W	SOURCEPAGE:BoVD									BONUS:WEAPON|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Sword (Bastard))|PRESTAT:1,STR=13		
+Rhapsody of Pain		TYPE:Artifact.Minor.Earring	COST:0	WT:0	SOURCEPAGE:BoVD	SPROP:continually under the effects of both a sadism and a masochism spell. Immune to the debilitating effects of pain, such as those brought on by a symbol of pain, although she still feels the pain.
+Ring of the Dread Emperor		TYPE:Artifact.Minor	COST:0	WT:0	SOURCEPAGE:BoVD	SPELLS:Ring of the Dread Emperor|TIMES=ATWILL|CASTERLEVEL=16|Freedom of Movement
+Staff of Malice			PROFICIENCY:WEAPON|Quarterstaff	TYPE:Artifact.Minor.Staff.Weapon.Melee.Simple.Bludgeoning.TwoHanded.Double.Quarterstaff	COST:0	WT:4	WIELD:TwoHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS3W.CHARGED_ITEM_50|CHARGES[50]	SOURCEPAGE:BoVD	SPROP:Bestow greater curse (1 charge, DC 21)/Boneblast (1 charge, DC 16)/Destruction (1 charge, DC 21)/Pestilence (2 charges, DC 22)/Stop heart (1 charge, DC 18)/Wrack (1 charge, DC 17)/Wretched blight (15d8 damage, DC 23) (2 charges).	ALTTYPE:Artifact.Minor.Staff.Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.EQ_COST_ADJ_W.PLUS3W					
+Vasharan Crossbow			PROFICIENCY:WEAPON|Crossbow (Heavy)	TYPE:Artifact.Minor.Weapon.Ranged.Simple.Piercing.Crossbow.Container	COST:0	WT:4			SIZE:M	DAMAGE:1d10	CRITRANGE:2	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS4W	SOURCEPAGE:BoVD	SPROP:can be loaded and fired as quickly as a light crossbow can.						RANGE:120		CONTAINS:UNLIM|Bolt|SpecificBolt		
+
+#Minor Artifacts Diabolic Engines and Demonic DEvices
+Cauldron of Zombie Spewing		TYPE:Artifact.Minor	COST:0	WT:5000	SOURCEPAGE:BoVD	SPROP:The cauldron has hardness 10, 250 hp, and a break DC of 35.However, the glass portions and tubing can be destroyed much more easily (hardness 1, 20 hp, break DC 12).																																																																																																																																											
+Demonic Graft Machine		TYPE:Artifact.Minor	COST:0	WT:2500	SOURCEPAGE:BoVD	SPROP:Anyone that comes within 5 feet of the open mouth must succeed at a Reflex save (DC 15) or be grabbed by a tonguelike appendage and dragged into the machine. The Demonic Graft Machine has hardness 10, 200 hp, and a break DC of 35.																																																																																																																																											
+Pain Pit		TYPE:Artifact.Minor	COST:0	WT:8000	SOURCEPAGE:BoVD	SPROP:The cylinder itself has hardness 10, 300 hp, and a break DC of 35. The storage vat can be destroyed more easily (hardness 1, 30 hp, break DC 15).																																																																																																																																											
+
+#Major Artifact
+Angelwing Razor			PROFICIENCY:WEAPON|Longsword	TYPE:Artifact.Major.Weapon.Melee.Martial.Slashing.OneHanded.Sword	COST:0	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS5W.VORPAL_M	SOURCEPAGE:BoVD	SPROP:Ignores damage reduction and hardness of any kind. It can even cut through a wall of force or similar effect.										
+Death Rock		TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:BoVD
+Despoiler of Flash	TYPE:Artifact.Major.Staff	COST:0	WT:5	SOURCEPAGE:BoVD
+Ironflask of Tuerny the Merciless	TYPE:Artifact.Major.Flask	COST:0	WT:0.05	SOURCEPAGE:BoVD
+Rubyrod of Asmodeus			PROFICIENCY:WEAPON|Greatclub	TYPE:Artifact.Major.Weapon.Melee.Martial.Bludgeoning.TwoHanded.Club	COST:0	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS6W.UNHOLY_M	SOURCEPAGE:BoVD	SPELLS:Rubyrod of Asmodeus|TIMES=ATWILL|CASTERLEVEL=20|Inflict Critical Wounds,19										
+The Wand of Orcus			PROFICIENCY:WEAPON|Mace (Heavy)	TYPE:Artifact.Major.Weapon.Melee.Simple.Bludgeoning.OneHanded.Mace	COST:12	WT:8	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS6W.UNHOLY_M.CHAOS_M	SOURCEPAGE:BoVD	SPELLS:The Wand of Orcus|TIMES=1|CASTERLEVEL=20|Abyssal Might|Bodak Birth|Call Nightmare|Clutch of Orcus,18|Summon Monster VII|Wrack,18|Wretched Blight,23	BONUS:COMBAT|AC|5|Deflection									
+
+Extra Armor		TYPE:Item	COST:0	WT:0	SOURCEPAGE:BoVD,178	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE	PRERACE:1,RACESUBTYPE=Kython

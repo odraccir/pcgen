@@ -1,7 +1,7 @@
 SOURCELONG:Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04					
 #								
 #	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:	TYPE:	PANTHEON:Greyhawk	SOURCEPAGE:CD	
-#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	SYMBOL:a Kitten on a keyboard
+#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	FACT:Symbol|a Kitten on a keyboard
 ###NOTE: d&d pantheon skipped								
 Zeus	ALIGN:CG	DEITYWEAP:Shortspear|Halfspear	DESC:Zeus (M)	DOMAINS:Air,Chaos,Good,Nobility,Strength,Weather|PREALIGN:NG,CG,CN	TYPE:Greater	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	
 Aphrodite	ALIGN:CG	DEITYWEAP:Dagger	DESC:Aphrodite (F)	DOMAINS:Chaos,Charm,Good|PREALIGN:NG,CG,CN	TYPE:Intermediate	FACTSET:Pantheon|Olympian	SOURCEPAGE:DaD	

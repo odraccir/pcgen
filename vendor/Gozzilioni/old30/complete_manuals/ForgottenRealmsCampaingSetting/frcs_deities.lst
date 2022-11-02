@@ -1,7 +1,7 @@
 SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-06
 #									
 #	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:|PREALIGN:	TYPE:	FACTSET:Pantheon|	SOURCEPAGE:CD		
-#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	SYMBOL:a Kitten on a keyboard	
+#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	FACT:Symbol|a Kitten on a keyboard	
 Akadi	ALIGN:TN	DEITYWEAP:Flail (Heavy)	DESC:Akadi ()	DOMAINS:Air,Illusion,Travel,Trickery|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	FACTSET:Pantheon|Faerun	SOURCEPAGE:FRCS30		
 Auril	ALIGN:NE	DEITYWEAP:Battleaxe	DESC:Auril (M)	DOMAINS:Air,Evil,Storm,Water|PREALIGN:LE,TN,NE,CE	TYPE:Lesser	FACTSET:Pantheon|Faerun	SOURCEPAGE:FRCS30		
 Azuth	ALIGN:LN	DEITYWEAP:Quarterstaff	DESC:Azuth (M)	DOMAINS:Illusion,Magic,Knowledge,Law,Spell|PREALIGN:LG,LN,LE,TN	TYPE:Lesser	FACTSET:Pantheon|Faerun	SOURCEPAGE:FRCS30		

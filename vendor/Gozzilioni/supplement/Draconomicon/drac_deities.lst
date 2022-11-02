@@ -1,7 +1,7 @@
 SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11
 #								
 #	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		PANTHEON:Greyhawk	SOURCEPAGE:CD	
-#Boccob	ALIGN:TN	DEITYWEAP:Quarterstaff	DESC:Boccob (M)	DOMAINS:Knowledge,Magic,Trickery|PREALIGN:LN,NG,TN,NE,CN	TYPE:Greater	FACTSET:Pantheon|None	SOURCEPAGE:PHB	SYMBOL:a Kitten on a keyboard
+#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		FACTSET:Pantheon|BoD	SOURCEPAGE:not recorded yet	FACT:Symbol|:a Kitten on a keyboard
 Aasterinian	ALIGN:CN	DEITYWEAP:Scimitar|Claw	DESC:Aasterinian (M)	DOMAINS:Chaos,Dragon,Luck,Travel,Trickery|PREALIGN:CG,TN,CN,CE	TYPE:Demigod	FACTSET:Pantheon|Dragon	SOURCEPAGE:Drac
 Astilabor	ALIGN:TN	DEITYWEAP:Scimitar|Claw	DESC:Astilabor (F)	DOMAINS:Dragon,Protection,Wealth|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	FACTSET:Pantheon|Dragon	SOURCEPAGE:Drac	
 Bahamut	ALIGN:LG	DEITYWEAP:Pick (Heavy)|Bite	DESC:Bahamut (M)	DOMAINS:Air,Dragon,Good,Luck,Protection|PREALIGN:LG,LN,NG	TYPE:Lesser	FACTSET:Pantheon|Dragon	SOURCEPAGE:Drac	

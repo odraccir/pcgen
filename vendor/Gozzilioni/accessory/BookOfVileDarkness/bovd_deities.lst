@@ -1,13 +1,24 @@
-SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10				
-							
-#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		PANTHEON:Greyhawk	SOURCEPAGE:CD
-Karaan							SOURCEPAGE:BoVD
-Yeenoghu							SOURCEPAGE:BoVD
-Demogorgon							SOURCEPAGE:BoVD
-The Patient One							SOURCEPAGE:BoVD
-Graz’zt							SOURCEPAGE:BoVD
-The Xammux							SOURCEPAGE:BoVD
-Demogorgon							SOURCEPAGE:BoVD
-Mammon							SOURCEPAGE:BoVD
-Rallaster							SOURCEPAGE:BoVD
-Scahrossar							SOURCEPAGE:BoVD
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10					
+								
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		FACTSET:Pantheon|Greyhawk	SOURCEPAGE:CD	
+#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		FACTSET:Pantheon|BoD	SOURCEPAGE:not recorded yet	FACT:Symbol|a Kitten on a keyboard
+Karaan							SOURCEPAGE:BoVD, spells	
+The Patient One							SOURCEPAGE:BoVD, spells	
+The Xammux							SOURCEPAGE:BoVD, spells	
+Rallaster							SOURCEPAGE:BoVD, spells	
+Scahrossar							SOURCEPAGE:BoVD, spells	
+#								
+Demogorgon	ALIGN:CE			DOMAINS:Demonic,Evil,Corruption		FACTSET:Pantheon|Archfiend	SOURCEPAGE:BoVD	FACT:Symbol|serpentine forked tail
+Graz'zt	ALIGN:CE			DOMAINS:Demonic,Evil,Darkness		FACTSET:Pantheon|Archfiend	SOURCEPAGE:BoVD	FACT:Symbol|black, six-fingered hand
+Juiblex	ALIGN:CE					FACTSET:Pantheon|Archfiend	SOURCEPAGE:BoVD	FACT:Symbol|pseudopod dripping slime.
+Orcus	ALIGN:CE			DOMAINS:Chaos,Evil,Death		FACTSET:Pantheon|Archfiend	SOURCEPAGE:BoVD	FACT:Symbol|black, skulltopped rod
+Yeenoghu	ALIGN:CE			DOMAINS:Chaos,Demonic,Bestial		FACTSET:Pantheon|Archfiend	SOURCEPAGE:BoVD	FACT:Symbol|triple-headed flail.
+Bel	ALIGN:LE					FACTSET:Pantheon|Archdevil	SOURCEPAGE:BoVD	FACT:Symbol|fanged mouth biting down on a sword's blade.
+Dispater	ALIGN:LE			DOMAINS:Diabolic,Evil,War		FACTSET:Pantheon|Archdevil	SOURCEPAGE:BoVD	FACT:Symbol|black iron tower on a red field.
+Mammon	ALIGN:LE			DOMAINS:Diabolic,Evil,Greed		FACTSET:Pantheon|Archdevil	SOURCEPAGE:BoVD	FACT:Symbol|pair of red scaled hands open and looming over a diamond-shaped, black gem.
+Belial	ALIGN:LE			DOMAINS:Trickery,Knowledge,Evil		FACTSET:Pantheon|Archdevil	SOURCEPAGE:BoVD	FACT:Symbol|red glowing eyes over a horizontally positioned ranseur, with the whole thing circled by a red tail ending in a wicked barb
+Levistus	ALIGN:LE			DOMAINS:Evil,Diabolic,Trickery		FACTSET:Pantheon|Archdevil	SOURCEPAGE:BoVD	FACT:Symbol|thin sword thrust into a block of ice
+Hag Countess	ALIGN:LE					FACTSET:Pantheon|Archdevil	SOURCEPAGE:BoVD	FACT:Symbol|a pair of blackfeathered wings on a white background.
+Baalzebul	ALIGN:LE			DOMAINS:Diabolic,Trickery,War		FACTSET:Pantheon|Archdevil	SOURCEPAGE:BoVD	FACT:Symbol|a fly's head, a web with flies caught in it, or a black slug sitting atop a throne
+Mephistopheles	ALIGN:LE			DOMAINS:Diabolic,Evil,Fire		FACTSET:Pantheon|Archdevil	SOURCEPAGE:BoVD	FACT:Symbol|a red hand with black fingernails shrouded in dark flames.
+Asmodeus	ALIGN:LE			DOMAINS:Diabolic,Evil,Law		FACTSET:Pantheon|Archdevil	SOURCEPAGE:BoVD	

@@ -1,0 +1,44 @@
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10			
+
+# Simple Weapons																									
+## Unarmed																									
+## Light																									
+Sacrifical Knife			PROFICIENCY:WEAPON|Dagger	TYPE:Weapon.Melee.Ranged.Simple.Piercing.Slashing.Light.Dagger.Specific	COST:3305	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:BoVD	SPROP:adds a +3 competence bonus on Knowledge (religion) checks required when a sacrifice is made with the knife.						RANGE:10				
+## OneHanded																									
+Blackguard's Blade			PROFICIENCY:WEAPON|Longsword	TYPE:Weapon.Melee.Martial.Slashing.OneHanded.Sword.Specific	COST:9515	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS2W	SOURCEPAGE:BoVD	BONUS:VAR|SmiteGoodDamage|10										
+## TwoHanded																									
+Angelkiller			PROFICIENCY:WEAPON|Greatsword	TYPE:Weapon.Melee.Martial.Slashing.TwoHanded.Sword.Specific	COST:110350	WT:15	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS3W.UNHOLY_M	SOURCEPAGE:BoVD	SPROP:forces any celestial it damages to succeed at a Fortitude save (DC 20) or be destroyed.										
+Warpsword			PROFICIENCY:WEAPON|Greatsword	TYPE:Weapon.Melee.Martial.Slashing.TwoHanded.Sword.Specific	COST:78350	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS2W	SOURCEPAGE:BoVD	SPROP:infects anyone it strikes with warp touch (see Diseases in Chapter 2) if the target fails a Fortitude save (DC 14).										
+## Ranged																									
+
+# Martial Weapons																									
+## Unarmed																									
+## Light																									
+## OneHanded																									
+## TwoHanded																									
+## Ranged																									
+
+
+# Exotic Weapons																									
+## Light																									
+Charnel Reaver			PROFICIENCY:WEAPON|Waraxe (Dwarven)	TYPE:Weapon.Melee.Exotic.Slashing.OneHanded.Axe.Dwarven.Specific	COST:108330	WT:15	WIELD:OneHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL.WOOD.EQ_COST_ADJ_W.PLUS3W	SOURCEPAGE:BoVD	SPROP:Consumes the physical form of any living creature it slays, requiring a true resurrection spell to bring the creature back to life.								BONUS:WEAPON|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Waraxe (Dwarven))|PRESTAT:1,STR=13		
+## OneHanded																									
+Harrowheart			PROFICIENCY:WEAPON|Rapier	TYPE:Weapon.Melee.Martial.Piercing.OneHanded.Rapier.Specific	COST:15320	WT:3	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS2W	SOURCEPAGE:BoVD	SPROP:deals x3 damage when it scores a critical hit on a creature of good alignment.								BONUS:WEAPON|DAMAGEMULT:2|-0.5		
+## TwoHanded																									
+Snap-Thong			PROFICIENCY:WEAPON|Snap-Thong	TYPE:Weapon.Melee.Exotic.Piercing	COST:0	WT:0	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:BoVD	SPROP:A wielder that hits an opponent of Small to Large size may attempt to start a grapple as a free action without provoking an attack of opportunity. If the wielder gets a hold, the snap-tong grabs the opponent and deals 2d6 points of damage each round the hold is maintained.
+Chain of Barriers			PROFICIENCY:WEAPON|Chain (Spiked)	TYPE:Weapon.Melee.Exotic.Piercing.TwoHanded.Chain.Specific	COST:29325	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:BoVD	SPROP:With the proper word, however, it expands to become a wall of chains.							REACHMULT:2			
+## Ranged																									
+Three-Armed Blade			PROFICIENCY:WEAPON|Three-Armed Blade	TYPE:Weapon.Ranged.Exotic.Slashing.Container	COST:0	WT:0	WIELD:OneHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:BoVD							RANGE:20		CONTAINS:UNLIM|ThreeArmedBlade|SpecificThreeArmedBlade	BONUS:WEAPON|DAMAGE|STR	
+
+# Arrows																									
+Hell's Heart Arrow				TYPE:Ammunition.Specific.Arrow	COST:60	WT:0.15							EQMOD:STEEL.WOOD.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:BoVD	SPROP:once fired, passes through creatures of evil alignment. Such creatures offer no cover bonus, nor do they count when determining whether the archer firing into a melee must take the -4 penalty.								MODS:YES		
+Spectral Arrow				TYPE:Ammunition.Specific.Arrow	COST:2560	WT:0.15							EQMOD:STEEL.WOOD.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:BoVD	SPROP:it is an invisible brilliant energy projectile that bestows two negative levels rather than dealing normal damage.								MODS:YES		
+Bullets (Three-Armed Blade/10)				TYPE:Ammunition.Standard.ThreeArmedBlade	COST:0	WT:0							EQMOD:STEEL	SOURCEPAGE:BoVD								BASEQTY:10	MODS:YES		
+Bullet (Three-Armed Blade)				TYPE:Ammunition.Standard.ThreeArmedBlade	COST:0	WT:0							EQMOD:STEEL	SOURCEPAGE:BoVD									MODS:YES		
+
+
+# Kython Weaponry
+Acid Spitter			PROFICIENCY:WEAPON|Claw	TYPE:Weapon.Natural.Ranged.Touch.Light.Kython.Acid	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:3d6	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:BoVD,178	RANGE:10	PRERACE:1,RACESUBTYPE=Kython						
+Bone Shard Crossbow			PROFICIENCY:WEAPON|Claw	TYPE:Weapon.Natural.Ranged.Piercing.TwoHanded.Kython.Crossbow.Poison	COST:0	WT:0	WIELD:TwoHanded		SIZE:M	DAMAGE:1	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:BoVD,178	RANGE:20	PRERACE:1,RACESUBTYPE=Kython						
+Boneblade			PROFICIENCY:WEAPON|Claw	TYPE:Weapon.Natural.Melee.Slashing	COST:0	WT:0	WIELD:OneHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.MWORKW						SOURCEPAGE:BoVD,178		PRERACE:1,RACESUBTYPE=Kython
+Mouth Launcher			PROFICIENCY:WEAPON|Bite	TYPE:Weapon.Natural.Melee.Piercing	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL						SOURCEPAGE:BoVD,178		PRERACE:1,RACESUBTYPE=Kython	BONUS:COMBAT|ATTACKS|1	BONUS:MISC|CR|1

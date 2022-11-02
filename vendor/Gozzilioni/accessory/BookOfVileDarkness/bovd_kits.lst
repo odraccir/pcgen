@@ -1,0 +1,81 @@
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net
+
+STARTPACK:Demon (Mane) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Mane)
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+STARTPACK:Demon (Rutterkin) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Rutterkin)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Demon (Bar-lgura) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Bar-lgura)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+STARTPACK:Demon (Shadow) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Shadow)
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=10
+
+STARTPACK:Demon (Chasme) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Chasme)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Devil (Kocrachon) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Kocrachon)
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Devil (Ghargatula) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Devil (Ghargatula)
+STAT:STR=11|DEX=10|CON=11|INT=11|WIS=11|CHA=10
+
+STARTPACK:Eye of Fear and Flame Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Eye of Fear and Flame
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Kython Weaponry	TYPE:StartingKit	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	PRERACE:1,RACESUBTYPE=Kython
+SELECT:roll("1d100")
+GEAR:Acid Spitter	OPTION:1,20
+GEAR:Bone Shard Crossbow	OPTION:21,50
+GEAR:Boneblade	OPTION:51,60
+GEAR:Extra Armor	OPTION:61,70
+GEAR:Mouth Launcher	OPTION:71,80
+GEAR:Mucus Pod	OPTION:81,90
+GEAR:Phase Organ	OPTION:91,100
+
+STARTPACK:Kython (Broodling) Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Kython (Broodling)
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Kython (Juvenile) Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Kython (Juvenile)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Kython (Juvenile) Weaponry	TYPE:StartingKit	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	PRERACE:1,Kython (Juvenile)
+SELECT:roll("1d100")
+KIT:Kython Weaponry	OPTION:1,10
+
+STARTPACK:Kython (Adult) Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Kython (Adult)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Kython (Adult) Weaponry	TYPE:StartingKit	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	PRERACE:1,Kython (Adult)
+SELECT:roll("1d100")
+KIT:Kython Weaponry	OPTION:1,30
+
+STARTPACK:Kython (Impaler) Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Kython (Impaler)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=11
+
+STARTPACK:Kython (Impaler) Weaponry	TYPE:StartingKit	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	PRERACE:1,Kython (Impaler)
+SELECT:roll("1d100")
+KIT:Kython Weaponry	OPTION:1,50
+
+STARTPACK:Kython (Slaymaster) Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Kython (Slaymaster)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Kython (Slaymaster) Weaponry	TYPE:StartingKit	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	PRERACE:1,Kython (Slaymaster)
+SELECT:roll("1d100")
+KIT:Kython Weaponry|Kython Weaponry	OPTION:1,10
+KIT:Kython Weaponry|Kython Weaponry	OPTION:1,10
+KIT:Kython Weaponry	OPTION:11,90
+
+STARTPACK:Kython (Slaughterking) Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Kython (Slaughterking)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Kython (Slaughterking) Weaponry	TYPE:StartingKit	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0	PRERACE:1,Kython (Slaughterking)
+SELECT:roll("1d100")
+KIT:Kython Weaponry	OPTION:1,40
+
+STARTPACK:Vaat Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Vaat
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Vilewight Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Vilewight
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10

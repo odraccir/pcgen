@@ -1,5 +1,8 @@
 ###Block: New Racial Trait Blocks
 # Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+#										
+#Abilitygroup:Spellcasting										
+ABILITYCATEGORY:Vile Spellcasting Type	CATEGORY:Special Ability	TYPE:VileSpells	VISIBLE:YES	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO	PLURAL:Vile Spellcasting Types	DISPLAYLOCATION:Misc	
 
 # Subrace Support
 

@@ -24,6 +24,7 @@ ABILITY:boed_abilities_races.lst
 ABILITY:boed_abilities_templates.lst
 ABILITYCATEGORY:boed_abilitycategories.lst
 CLASS:boed_classes.lst
+CLASS:boed_classes_sanctified.lst
 COMPANIONMOD:boed_companionmods.lst
 DEITY:boed_deities.lst
 DOMAIN:boed_domains.lst

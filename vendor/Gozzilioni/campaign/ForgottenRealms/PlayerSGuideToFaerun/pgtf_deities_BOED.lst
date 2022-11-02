@@ -1,7 +1,7 @@
 SOURCELONG:Player's Guide to Faerun	SOURCESHORT:PGtF	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-03
 #									
 #	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:|PREALIGN:	TYPE:	FACTSET:Pantheon|	SOURCEPAGE:CD		
-#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	SYMBOL:a Kitten on a keyboard	
+#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	FACT:Symbol|a Kitten on a keyboard	
 Berronar Truesilver.MOD	DOMAINS:Community|PREALIGN:LG,LN,NG
 Cyrollalee.MOD	DOMAINS:Community|PREALIGN:LG,LN,NG
 Eldath.MOD	DOMAINS:Community|PREALIGN:LG,NG,TN,CG

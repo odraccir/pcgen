@@ -77,6 +77,7 @@ Tail Spike	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.MeleePiercing
 Tail Sting	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Piercing.MeleeBludgeoning.MeleePiercing
 Talon	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning.MeleePiercing.MeleeSlashing.MeleeBludgeoning
 Tendril	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
+Tendril Bite	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Reach.MeleePiercing
 Tentacle	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
 Tentacle (Arms)	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing
 Tentacle Rake	TYPE:Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing.MeleeBludgeoning.MeleeSlashing

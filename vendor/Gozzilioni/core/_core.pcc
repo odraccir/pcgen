@@ -27,6 +27,7 @@ DATACONTROL:g__datacontrol.lst
 ABILITY:g_abilities.lst
 ABILITY:g_abilities_guilds.lst
 ABILITY:g_abilities_pools.lst
+ABILITY:g_abilities_racetraits.lst
 ABILITY:g_abilities_regions.lst
 ABILITYCATEGORY:g_abilitycategories.lst
 DEITY:g_deities.lst

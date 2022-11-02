@@ -1,0 +1,23 @@
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10			
+#			
+### Weapon/Spell			
+### Simple/Martial/Exotic			
+### Melee/Ranged			
+### Bludgeoning/Piercing/Slashing			
+### Reach/Double/Thrown/Projectile/Ammunition			
+### Unharmed/Light/OneHanded/TwoHanded			
+###Automatic			
+#			
+# Fake Auto	TYPE:Auto		
+# Fake Simple	TYPE:Simple.Melee		
+# Fake Martial	TYPE:Martial.Melee		
+# Fake Exotic	TYPE:Exotic.Melee		
+#			
+
+###Improvised			
+###Simple			
+###Martial			
+###Exotic			
+Snap-Thong	TYPE:Weapon.Exotic.Melee.Piercing.MeleePiercing.TwoHanded		
+Three-Armed Blade	TYPE:Weapon.Exotic.Ranged.Slashing.RangedSlashing.OneHanded
+###Natural
