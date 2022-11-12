@@ -1,0 +1,29 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
+
+#																										
+# Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property																		
+Disease Damage (Cabin Fever)			VISIBLE:NO	SOURCEPAGE:Fro	TEMPVALUE:MIN=1|MAX=4|TITLE=Wisdom Damage		TEMPDESC:Confinment DC 12, Incubation 1 day, Damage 1d4 wis damage, Apply this temporary bonus each day the victim takes damage.																							TEMPBONUS:ANYPC|STAT|WIS|-1*(%CHOICE)
+Disease Damage (Coldfire Ruin)			VISIBLE:NO	SOURCEPAGE:Fro	TEMPVALUE:MIN=1|MAX=8|TITLE=Constitution Damage		TEMPDESC:Exposure DC 20, Incubation 1 day, Damage 1d8 con damage, Apply this temporary bonus each day the victim takes damage.																							TEMPBONUS:ANYPC|STAT|CON|-1*(%CHOICE)
+Disease Damage (Creeping Frost)			VISIBLE:NO	SOURCEPAGE:Fro	TEMPVALUE:MIN=1|MAX=4|TITLE=Dexterity Damage		TEMPDESC:Injury DC 16, Incubation 1 day, Damage 1d4 dex damage, Apply this temporary bonus each day the victim takes damage.																							TEMPBONUS:ANYPC|STAT|DEX|-1*(%CHOICE)
+Disease Damage (Winter Rot)			VISIBLE:NO	SOURCEPAGE:Fro	TEMPVALUE:MIN=1|MAX=6|TITLE=Strength Damage		TEMPDESC:Contect DC 20, Incubation 1d3 day, Damage 1d6 str damage, Apply this temporary bonus each day the victim takes damage.																							TEMPBONUS:ANYPC|STAT|STR|-1*(%CHOICE)
+
+####Block: Subraces
+Glacier	VISIBLE:NO	KEY:Glacier Dwarf	SUBRACE:Glacier																						
+Snow	VISIBLE:NO	KEY:Snow Elf	SUBRACE:Snow																						
+Ice	VISIBLE:NO	KEY:Ice Gnome	SUBRACE:Ice																						
+Tundra	VISIBLE:NO	KEY:Tundra Halfling	SUBRACE:Tundra																						
+Common	VISIBLE:NO	KEY:Common Neanderthal
+Common	VISIBLE:NO	KEY:Common Uldras
+
+#
+Favored Class	KEY:Halfling ~ Tundra ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger
+Languages	KEY:Neanderthal ~ Neanderthal ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:Dwarven,Giant,Orc
+Favored Class	KEY:Neanderthal ~ Neanderthal ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Barbarian
+Languages	KEY:Uldras ~ Uldras ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Sylvan	LANGBONUS:ALL
+Favored Class	KEY:Uldras ~ Uldras ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Druid
+
+Beackon the Frozen ~ Cold	VISIBLE:NO	RACESUBTYPE:Cold
+Winter's Mount ~ Cold	VISIBLE:NO	RACESUBTYPE:Cold
+
+Favored Class	KEY:Chosen of Iborighu ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Cleric
+Favored Class	KEY:Mark of Hleid ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Cleric

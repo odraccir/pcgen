@@ -1,0 +1,34 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
+
+###Block: Standard Companions										
+# Class of the Master	Type									
+###Block:Familiar Bonus to Master										
+MASTERBONUSRACE:Animal (Arctic Fox)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Arctic Fox				
+MASTERBONUSRACE:Animal (Gyrfalcon)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Gyrfalcon
+MASTERBONUSRACE:Animal (Lemming)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Lemming
+MASTERBONUSRACE:Animal (Owl (Snow))	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Owl (Snow)
+MASTERBONUSRACE:Animal (Penguin)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Penguin	
+MASTERBONUSRACE:Animal (Puffin)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Puffin
+
+###Block:Beackon the Frozen
+FOLLOWER:BeackonTheFrozen=1	TYPE:Summon Monster I	TEMPLATE:Beackon the Frozen ~ Cold
+FOLLOWER:BeackonTheFrozen=1	TYPE:Summon Monster II	TEMPLATE:Beackon the Frozen ~ Cold
+FOLLOWER:BeackonTheFrozen=1	TYPE:Summon Monster III	TEMPLATE:Beackon the Frozen ~ Cold
+FOLLOWER:BeackonTheFrozen=1	TYPE:Summon Monster IV	TEMPLATE:Beackon the Frozen ~ Cold
+FOLLOWER:BeackonTheFrozen=1	TYPE:Summon Monster V	TEMPLATE:Beackon the Frozen ~ Cold
+FOLLOWER:BeackonTheFrozen=1	TYPE:Summon Monster VI	TEMPLATE:Beackon the Frozen ~ Cold
+FOLLOWER:BeackonTheFrozen=1	TYPE:Summon Monster VII	TEMPLATE:Beackon the Frozen ~ Cold
+FOLLOWER:BeackonTheFrozen=1	TYPE:Summon Monster VIII	TEMPLATE:Beackon the Frozen ~ Cold
+FOLLOWER:BeackonTheFrozen=1	TYPE:Summon Monster IX	TEMPLATE:Beackon the Frozen ~ Cold
+###Block: Icy Calling
+FOLLOWER:IcyCalling=1	TYPE:Summon Monster I	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
+FOLLOWER:IcyCalling=1	TYPE:Summon Monster II	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
+FOLLOWER:IcyCalling=1	TYPE:Summon Monster III	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
+FOLLOWER:IcyCalling=1	TYPE:Summon Monster IV	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
+FOLLOWER:IcyCalling=1	TYPE:Summon Monster V	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
+FOLLOWER:IcyCalling=1	TYPE:Summon Monster VI	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
+FOLLOWER:IcyCalling=1	TYPE:Summon Monster VII	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
+FOLLOWER:IcyCalling=1	TYPE:Summon Monster VIII	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
+FOLLOWER:IcyCalling=1	TYPE:Summon Monster IX	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
+###Block: Winter's Mount
+FOLLOWER:WinterSMount=1	TYPE:Special Mount	TEMPLATE:Winter's Mount ~ Cold	ABILITY:Special Ability|AUTOMATIC|Immunity To Cold	BONUS:STAT|CON|2|TYPE=Racial.STACK

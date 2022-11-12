@@ -1,0 +1,15 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
+
+# Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	MOVE:	FACE:	REACH:	Vision		Required AL	Automatic Languages	Bonus Languages	Combat bonus		Bonus to skill				Stat bonus								MONCSKILL:	Automaticaly Gained Shield Prof.		Automaticaly Gained Weapon Prof.		Virtual Feat		Feat		Nb Legs	Nb Hands	Weapon prof. bonus			Natural Attacks		Special Ability						Spell Res.	Damage Reduction		MONSTERCLASS:	RACETYPE:	RACESUBTYPE:	TYPE:	Template			Hit Dice	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	CR:	SOURCEPAGE:	Innate Spells
+Neanderthal			STARTFEATS:1	SIZE:M	TYPE:Humanoid	RACETYPE:Humanoid			MOVE:Walk,30						FACE:5	REACH:5	ABILITY:Internal|AUTOMATIC|Race Traits ~ Neanderthal										CR:1/2				LEGS:2	HANDS:2	SOURCEPAGE:Fro	KIT:1|Neanderthal Stats																														
+Uldras			STARTFEATS:1	SIZE:S	TYPE:Fey	RACETYPE:Fey			MOVE:Walk,20						FACE:5	REACH:5	ABILITY:Internal|AUTOMATIC|Race Traits ~ Uldras										CR:1/2				LEGS:2	HANDS:2	SOURCEPAGE:Fro	KIT:1|Uldras Stats																											LEVELADJUSTMENT:1			
+
+###Block: Companions
+Animal (Hawk).COPY=Animal (Hawk)	KEY:Animal (Gyrfalcon)
+Animal (Gyrfalcon).MOD	OUTPUTNAME:Animal (Gyrfalcon)
+Animal (Rat).COPY=Animal (Rat)	KEY:Animal (Lemming)
+Animal (Lemming).MOD	OUTPUTNAME:Animal (Lemming)
+Animal (Owl).COPY=Animal (Owl)	KEY:Animal (Owl (Snow))
+Animal (Owl (Snow)).MOD	OUTPUTNAME:Animal (Owl (Snow))
+Animal (Raven).COPY=Animal (Raven)	KEY:Animal (Puffin)
+Animal (Puffin).MOD	OUTPUTNAME:Animal (Lemming)

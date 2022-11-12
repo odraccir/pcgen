@@ -1,0 +1,5 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
+
+# Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	MOVE:	FACE:	REACH:	Vision		Required AL	Automatic Languages	Bonus Languages	Combat bonus		Bonus to skill				Stat bonus								MONCSKILL:	Automaticaly Gained Shield Prof.		Automaticaly Gained Weapon Prof.		Virtual Feat		Feat		Nb Legs	Nb Hands	Weapon prof. bonus			Natural Attacks		Special Ability						Spell Res.	Damage Reduction		MONSTERCLASS:	RACETYPE:	RACESUBTYPE:	TYPE:	Template			Hit Dice	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	CR:	SOURCEPAGE:	Innate Spells
+Animal (Leopard).COPY=Animal (Leopard)	KEY:Companion ~ Animal (Leopard (Snow))
+Companion ~ Animal (Leopard (Snow)).MOD	OUTPUTNAME:Animal (Leopard (Snow))	TYPE:Companion	SERVESAS:RACE|Animal (Leopard)	KIT:1|Animal (Leopard (Snow)) Companion

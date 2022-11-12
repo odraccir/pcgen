@@ -1,0 +1,12 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09					
+#								
+#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	FACT:Symbol|a Kitten on a keyboard
+Aengrist	ALIGN:LG	DEITYWEAP:Sword (Bastard)	DESC:Aengrist (M)	DOMAINS:Law,Protection,War,Winter|PREALIGN:LG,LN,NG	TYPE:Greater	FACTSET:Pantheon|Frostfell	SOURCEPAGE:Fro	
+Auril	ALIGN:NE	DEITYWEAP:Axe (Ice)	DESC:Auril (F)	DOMAINS:Air,Cold,Evil,Storm,Water,Winter|PREALIGN:LE,TN,NE,CE	TYPE:Greater	FACTSET:Pantheon|Frostfell	SOURCEPAGE:Fro	
+Hleid	ALIGN:NG	DEITYWEAP:Trident	DESC:Hleid (F)	DOMAINS:Animal,good,Healing,Winter|PREALIGN:LG,NG,TN,CG	TYPE:Greater	FACTSET:Pantheon|Frostfell	SOURCEPAGE:Fro	
+Iborighu	ALIGN:CE	DEITYWEAP:Scythe	DESC:Iborighu (M)	DOMAINS:Chaos,Cold,Death,War|PREALIGN:NE,CE,CN	TYPE:Greater	FACTSET:Pantheon|Frostfell	SOURCEPAGE:Fro	
+Levistus	ALIGN:LE	DEITYWEAP:Rapier	DESC:Levistus (M)	DOMAINS:Cold,Diabolic,Evil,Icebergs,Trickery|PREALIGN:LN,LE,NE	TYPE:Greater	FACTSET:Pantheon|Frostfell	SOURCEPAGE:Fro	
+Telchur	ALIGN:CN	DEITYWEAP:Shortspear|Shortbow	DESC:Telchur (M)	DOMAINS:Air,Chaos,Cold,Strength,Winter|PREALIGN:CG,TN,CN,CE	TYPE:Greater	FACTSET:Pantheon|Frostfell	SOURCEPAGE:Fro	
+Thrym	ALIGN:CE	DEITYWEAP:Greataxe	DESC:Thrym (M)	DOMAINS:Chaos,Cold,Earth,Evil,Strength,War|PREALIGN:CN,NE,CE	TYPE:Greater	FACTSET:Pantheon|Frostfell	SOURCEPAGE:Fro	
+Ulutiu	ALIGN:LN	DEITYWEAP:Longspear|Shortspear	DESC:Ulutiu (M)	DOMAINS:Animal,Law,Ocean,Protection,Strength|PREALIGN:LG,LN,LE,TN	TYPE:Greater	FACTSET:Pantheon|Frostfell	SOURCEPAGE:Fro	
+Vatun	ALIGN:CE	DEITYWEAP:Battleaxe	DESC:Vatun (M)	DOMAINS:Air,Animal,Chaos,Snow,Strength|PREALIGN:CG,TN,CN,CE	TYPE:Greater	FACTSET:Pantheon|Frostfell	SOURCEPAGE:Fro	
