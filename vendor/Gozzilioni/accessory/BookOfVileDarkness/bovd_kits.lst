@@ -1,4 +1,4 @@
-SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10
 
 STARTPACK:Demon (Mane) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Mane)
 STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11

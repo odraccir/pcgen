@@ -1,5 +1,5 @@
-SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10			
-						
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10
+
 ###Block:Class Armor
 Tatterdemalion Armor			PROFICIENCY:ARMOR|Tatterdemalion Armor	TYPE:Armor.Light.Suit.Standard.Nonmetal	COST:0	WT:20	SOURCEPAGE:BoVD	BONUS:COMBAT|AC|4|TYPE=Armor	MAXDEX:5	ACCHECK:-1	SPELLFAILURE:15	EQMOD:CLOTH.MWORKA						
 

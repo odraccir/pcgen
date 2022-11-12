@@ -1,5 +1,5 @@
-SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10				
-							
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10
+
 FOLLOWER:CancerousCompanionLVL=2	TYPE:Cancer	COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:1	USEMASTERSKILL:YES	DEFINESTAT:MINVALUE|INT|6	ABILITY:Special Ability|AUTOMATIC|Cancerous Companion ~ Blindsight
 FOLLOWER:CancerousCompanionLVL=3	TYPE:Cancer					DEFINESTAT:MINVALUE|INT|7	ABILITY:Special Ability|AUTOMATIC|Cancerous Companion ~ Spell-Like Abilities
 FOLLOWER:CancerousCompanionLVL=4	TYPE:Cancer					DEFINESTAT:MINVALUE|INT|8	ABILITY:Special Ability|AUTOMATIC|Cancerous Companion ~ Evasion

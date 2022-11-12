@@ -1,5 +1,5 @@
-SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10				
-							
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10
+
 #	SOURCEPAGE:SpellListI.rtf		SPELLLEVEL:DOMAIN|=1||=2||=3||=4||=5||=6||=7||=8||=9|	DESC:			
 Bestial	SOURCEPAGE:BoVD	PREMULT:1,[PREVARLT:DomainNotAllowed,1],[PREVAREQ:AllowDomainBestial,1]	SPELLLEVEL:DOMAIN|Bestial=1|Magic Fang|Bestial=2|Bull's Strength|Bestial=3|Magic Fang (Greater)|Bestial=4|Claws of the Savage|Bestial=5|Charm Monster|Bestial=6|Hold Monster|Bestial=7|Whirlwind of Teeth|Bestial=8|Spread of Savagery|Bestial=9|Were-Doom	DESC:Character gains the scent extraordinary ability.			ABILITY:Special Ability|AUTOMATIC|Scent
 Corruption	SOURCEPAGE:BoVD	PREMULT:1,[PREVARLT:DomainNotAllowed,1],[PREVAREQ:AllowDomainCorruption,1]	SPELLLEVEL:DOMAIN|Corruption=1|Doom|Corruption=2|Blindness/Deafness|Corruption=3|Contagion|Corruption=4|Morality Undone|Corruption=5|Feeblemind|Corruption=6|Pox|Corruption=7|Insanity|Corruption=8|Befoul|Corruption=9|Despoil	DESC:Once per day, character can attack an object and ignore its hardness rating.			

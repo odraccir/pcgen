@@ -1,4 +1,4 @@
-SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10			
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10
 
 ##Block: Rings																								
 Master Ring		TYPE:Ring	COST:40600	WT:0	SOURCEPAGE:BoVD	SPROP:deal 3d6 points of damage per round as a free action to anyone wearing a slave ring keyed to it.																		
