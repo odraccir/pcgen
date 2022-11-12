@@ -608,35 +608,6 @@ Word of Recall				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Teleportation		CLASSES
 Zone of Silence				TYPE:Spell	SCHOOL:Illusion	SUBSCHOOL:Glamer		CLASSES:Bard=4	COMPS:V, S	CASTTIME:1 round	RANGE:Personal	TARGETAREA:5-ft-radius emanation centered on you.	DURATION:1 hour/level	SAVEINFO:None	SPELLRES:No	DESC:By casting zone of silence, you manipulate sound waves in your immediate vicinity so that you and those within the spell's area can converse normally, yet no one outside can hear your voices or any other noises from within, including languagedependent or sonic spell effects (such as command or shout).	SOURCEPAGE:PHB																						
 Zone of Truth				TYPE:Spell	SCHOOL:Enchantment	SUBSCHOOL:Compulsion	DESCRIPTOR:Mind-Affecting	CLASSES:Cleric=2|Paladin=2	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:20-ft-radius emanation.	DURATION:1 minute/level	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Creatures within the emanation area (or those who enter it) can't speak any deliberate and intentional lies.	SOURCEPAGE:PHB																						
 																																							
-Elemental Swarm.COPY=Elemental Swarm	KEY:Air ~ Elemental Swarm																																						
-Air ~ Elemental Swarm.MOD	OUTPUTNAME:Elemental Swarm (Air Only)	DESCRIPTOR:.CLEAR	DESCRIPTOR:Air	DESC:Cast as an Air spell only.																																			
-Elemental Swarm.COPY=Elemental Swarm	KEY:Earth ~ Elemental Swarm																																						
-Earth ~ Elemental Swarm.MOD	OUTPUTNAME:Elemental Swarm (Earth Only)	DESCRIPTOR:.CLEAR	DESCRIPTOR:Earth	DESC:Cast as an Earth spell only.																																			
-Elemental Swarm.COPY=Elemental Swarm	KEY:Fire ~ Elemental Swarm																																						
-Fire ~ Elemental Swarm.MOD	OUTPUTNAME:Elemental Swarm (Fire Only)	DESCRIPTOR:.CLEAR	DESCRIPTOR:Fire	DESC:Cast as a Fire spell only.																																			
-Elemental Swarm.COPY=Elemental Swarm	KEY:Water ~ Elemental Swarm																																						
-Water ~ Elemental Swarm.MOD	OUTPUTNAME:Elemental Swarm (Water Only)	DESCRIPTOR:.CLEAR	DESCRIPTOR:Water	DESC:Cast as a Water spell only.																																			
-																																							
-Resist Energy.COPY=Resist Energy	KEY:Fire ~ Resist Energy																																						
-Fire ~ Resist Energy.MOD	DESC:Resist cold or fire only.																																						
-																																							
-Speak with Animals.COPY=Speak with Animals	KEY:Gnome ~ Speak with Animals																																						
-Gnome ~ Speak with Animals.MOD	OUTPUTNAME:Speak with Animals (Burrowing only)	DURATION:1 Minute																																					
-																																							
-Summon Nature's Ally IV.COPY=Summon Nature's Ally IV	KEY:Animal ~ Summon Nature's Ally IV																																						
-Animal ~ Summon Nature's Ally IV.MOD	OUTPUTNAME:Summon Nature's Ally IV			DESC:Can only summon animals.																																			
-Summon Nature's Ally VIII.COPY=Summon Nature's Ally VIII	KEY:Animal ~ Summon Nature's Ally VIII																																						
-Animal ~ Summon Nature's Ally VIII.MOD	OUTPUTNAME:Summon Nature's Ally VIII			DESC:Can only summon animals.																																			
-																																							
-Summon Monster IX.COPY=Summon Monster IX	KEY:Chaos ~ Summon Monster IX																																						
-Chaos ~ Summon Monster IX.MOD	OUTPUTNAME:Summon Monster IX	DESCRIPTOR:.CLEAR	DESCRIPTOR:Chaos	DESC:Cast as a Chaos spell only.																																			
-Summon Monster IX.COPY=Summon Monster IX	KEY:Evil ~ Summon Monster IX																																						
-Evil ~ Summon Monster IX.MOD	OUTPUTNAME:Summon Monster IX	DESCRIPTOR:.CLEAR	DESCRIPTOR:Evil	DESC:Cast as an Evil spell only.																																			
-Summon Monster IX.COPY=Summon Monster IX	KEY:Good ~ Summon Monster IX																																						
-Good ~ Summon Monster IX.MOD	OUTPUTNAME:Summon Monster IX	DESCRIPTOR:.CLEAR	DESCRIPTOR:Good	DESC:Cast as a Good spell only.																																			
-Summon Monster IX.COPY=Summon Monster IX	KEY:Law ~ Summon Monster IX																																						
-Law ~ Summon Monster IX.MOD	OUTPUTNAME:Summon Monster IX	DESCRIPTOR:.CLEAR	DESCRIPTOR:Law	DESC:Cast as a Law spell only.																																			
-																																							
 Bestow Curse Option 1	OUTPUTNAME:Bestow Curse (-4 penalty on attack rolls, saves, skill checks)	KEY:Bestow Curse ~ Option1																						TEMPBONUS:ANYPC|SAVE|ALL|-4|TYPE=Temporary	TEMPBONUS:ANYPC|COMBAT|TOHIT|-4|TYPE=Temporary	TEMPBONUS:ANYPC|SKILL|ALL|-4|TYPE=Temporary													
 Bestow Curse Option 2a	OUTPUTNAME:Bestow Curse (-6 to Strength)	KEY:Bestow Curse ~ Option2a																						TEMPBONUS:ANYPC|STAT|STR|-6															
 Bestow Curse Option 2b	OUTPUTNAME:Bestow Curse (-6 to Dexterity)	KEY:Bestow Curse ~ Option2b																						TEMPBONUS:ANYPC|STAT|DEX|-6															

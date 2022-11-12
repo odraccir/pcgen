@@ -1,20 +1,13 @@
 SOURCELONG:Savage Species 3.0	SOURCESHORT:SS30	SOURCEWEB:http://www.gozzilioni.net
 #																								
 # Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property																
-##Block: Potions																								
 ##Block: Rings																								
 Ring of Growth		TYPE:Ring	COST:18000	WT:0	SOURCEPAGE:SS30	SPELLS:Ring Growth|TIMES=1|CASTERLEVEL=9|Enlarge Person																		
 Ring of Shrinking		TYPE:Ring	COST:3600	WT:0	SOURCEPAGE:SS30	SPELLS:Ring Shrinking|TIMES=1|CASTERLEVEL=9|Reduce Person																		
 Ring of Wordtwisting		TYPE:Ring	COST:23508	WT:0	SOURCEPAGE:SS30	BONUS:SKILL|Bluff,Diplomacy,Sense Motive|2|TYPE=Insight	BONUS:SKILL|Bluff,Diplomacy,Intimidate,Sense Motive|4|TYPE=Insight|PREVARGTEQ:HasOrcBlood,1	SPROP:Tongues always active.|PREVARGTEQ:HasOrcBlood,1
-##Block: Rods																								
-##Block: Scrolls																								
-###Block: Arcane Level 0																								
-###Block: Divine Level 0																								
 ##Block: Staff																								
 Staff of the Glutton	KEY:Staff (Glutton)	TYPE:Staff	COST:58200	WT:5	SOURCEPAGE:SS30	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Acid Fog (cl 11th/2 charge)/Summon Swarm (cl 11th/2 charges).																	
 Staff of the Lich	KEY:Staff (Lich)	TYPE:Staff.Weapon.Melee.Simple.Bludgeoning.TwoHanded.Quarterstaff	COST:78950	WT:4	SOURCEPAGE:SS30	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Negative energy Wave (2 charge)/Negative energy Blast (2 charge)/Negative Energy Ray (1 charge).		PROFICIENCY:WEAPON|Quarterstaff	WIELD:TwoHanded	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS2W.UNHOLY_M			ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.EQ_COST_ADJ_W.PLUS1W.UNHOLY_M
-##Block: Staff																								
-##Block: Wand																								
 ##Block: Wondrous																								
 Bag of Boulders		TYPE:Wondrous.Container	COST:1200	WT:0	SOURCEPAGE:SS30	CONTAINS:UNLIM|Rock=4																		
 ###TODO:Arms of the Naga HANDS:2
@@ -41,7 +34,3 @@ Necklace of Natural Weapon		TYPE:Magic.Wondrous.Amulet.Weapon.Melee.Natural	COST
 Render Bait		TYPE:Wondrous.Amulet	COST:35640	WT:0	SOURCEPAGE:SS30	SPROP:This amulet causes a gray render within 50 feet to regard the wearer as a trusted friend and ally, as if its attitude were helpful, unless it succeeds on a Will save (DC 19).
 Satyr Pipes		TYPE:Wondrous.Instrument	COST:3000	WT:3	SOURCEPAGE:SS30	PRESKILL:1,Perform (Wind Instruments)=1	SPROP:When the pipes are played, all creatures within a 60-foot spread (except satyrs) must succeed on a Will save (DC 14) or be affected by charm person, sleep, or fear, as the spells cast by a 10th-level sorcerer (the satyr chooses the tune and its effect).|PRERACE:1,Satyr
 Scentblinder		TYPE:Wondrous.Amulet	COST:33000	WT:0	SOURCEPAGE:SS30	SPROP:While worn, a scentblinder masks the wearer's scent.
-
-#Block: Intelligent																								
-#Block: Cursed																								
-#Block: Artifact																								

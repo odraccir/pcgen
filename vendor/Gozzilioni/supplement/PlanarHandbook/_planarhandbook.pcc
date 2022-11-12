@@ -27,8 +27,8 @@ ABILITYCATEGORY:ph_abilitycategories.lst
 BIOSET:ph_biosettings.lst
 CLASS:ph_classes.lst
 COMPANIONMOD:ph_companionmods.lst
-DOMAIN:ph_deities_CD.lst|PRECAMPAIGN:1,Complete Divine
-DOMAIN:ph_deities_pgtf.lst|PRECAMPAIGN:1,Player's Guide to Faerun
+DEITY:ph_deities_CD.lst|PRECAMPAIGN:1,Complete Divine
+DEITY:ph_deities_pgtf.lst|PRECAMPAIGN:1,Player's Guide to Faerun
 DOMAIN:ph_domains.lst
 EQUIPMENT:ph_equip.lst
 EQUIPMENT:ph_equip_armors.lst
