@@ -1,0 +1,4 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
+
+###Block: Poisons																										
+One-Two Punch			PROFICIENCY:WEAPON|Unarmed Strike	TYPE:Weapon.Natural.Melee.Simple.Bludgeoning.Unarmed	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	MODS:NO	SOURCEPAGE:Fro									BONUS:WEAPON|ATTACKS|OneTwoPunchAttacks	BONUS:WEAPON|TOHIT|min(-1*OneTwoPunchPenalty,0)

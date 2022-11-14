@@ -100,8 +100,12 @@ CLASS:Frostrager	PREATT:6	PRESKILL:2,Intimidate=4,Survival=4	PREABILITY:3,CATEGO
 CLASS:Frostrager	STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump|Listen|Survival|Swim												
 1				ABILITY:Frostrager Class Feature|AUTOMATIC|Frostrager ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.FrostragerProficiencies										
 #														
-1				ABILITY:Frostrager Class Feature|AUTOMATIC|Frostrager ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.FrostragerProficiencies										
+1				ABILITY:Frostrager Class Feature|AUTOMATIC|Frostrager ~ Frostrage|!PREABILITY:1,CATEGORY=ACF,TYPE.FrostragerFrostrage										
 1				ABILITY:Frostrager Class Feature|AUTOMATIC|Frostrager ~ Freezing Blood|!PREABILITY:1,CATEGORY=ACF,TYPE.FrostragerFreezingBlood										
+2				ABILITY:Frostrager Class Feature|AUTOMATIC|Frostrager ~ One-Two Punch|!PREABILITY:1,CATEGORY=ACF,TYPE.FrostragerOneTwoPunch										
+3				ABILITY:Frostrager Class Feature|AUTOMATIC|Frostrager ~ Absorb Cold|!PREABILITY:1,CATEGORY=ACF,TYPE.FrostragerAbsorbCold										
+4				ABILITY:Frostrager Class Feature|AUTOMATIC|Frostrager ~ Improved Frostrage|!PREABILITY:1,CATEGORY=ACF,TYPE.FrostragerImprovedFrostrage										
+4				ABILITY:Frostrager Class Feature|AUTOMATIC|Frostrager ~ Improved Frostrage|!PREABILITY:1,CATEGORY=ACF,TYPE.FrostragerImprovedFrostrage										
 #														
 														
 CLASS:Dragon Disciple	HD:12	TYPE:Prestige	FACT:Abb|DDi	MAXLEVEL:NOLIMIT	SOURCEPAGE:DMG	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DragonDiscipleLVL|0	BONUS:VAR|DragonDiscipleLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
