@@ -1,0 +1,46 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
+
+#																																							
+# Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus														
+
+###Block: Class Spell List
+Cause Fear.MOD	CLASSES:Disciple of Thrym=1
+Corrupt Weapon.MOD	CLASSES:Disciple of Thrym=1
+Detect fire.MOD	CLASSES:Disciple of Thrym=1
+Divine Favor.MOD	CLASSES:Disciple of Thrym=1
+Doom.MOD	CLASSES:Disciple of Thrym=1
+Ease of Breath.MOD	CLASSES:Disciple of Thrym=1
+Frostburn (Lesser).MOD	CLASSES:Disciple of Thrym=1
+Magic Weapon.MOD	CLASSES:Disciple of Thrym=1
+Obscuring Mist.MOD	CLASSES:Disciple of Thrym=1
+Protection from Good.MOD	CLASSES:Disciple of Thrym=1
+Protection from Law.MOD	CLASSES:Disciple of Thrym=1
+Shivering Touch (Lesser).MOD	CLASSES:Disciple of Thrym=1
+Blood Snow.MOD	CLASSES:Disciple of Thrym=2
+Bull's Strength.MOD	CLASSES:Disciple of Thrym=2
+Chill Metal.MOD	CLASSES:Disciple of Thrym=2
+Conjure Ice Object.MOD	CLASSES:Disciple of Thrym=2
+Eagle's Splendor.MOD	CLASSES:Disciple of Thrym=2
+Fog Cloud.MOD	CLASSES:Disciple of Thrym=2
+Frost Weapon.MOD	CLASSES:Disciple of Thrym=2
+Zone of Glacial cold.MOD	CLASSES:Disciple of Thrym=2
+Binding Snow.MOD	CLASSES:Disciple of Thrym=3
+Ice Shape.MOD	CLASSES:Disciple of Thrym=3
+Aura of Cold (Lesser).MOD	CLASSES:Disciple of Thrym=3
+Meld into Ice.MOD	CLASSES:Disciple of Thrym=3
+Shivering touch.MOD	CLASSES:Disciple of Thrym=3
+Sleet Storm.MOD	CLASSES:Disciple of Thrym=3
+Boreal Wind.MOD	CLASSES:Disciple of Thrym=4
+Glacial globe of Invulnerability.MOD	CLASSES:Disciple of Thrym=4
+Frostburn.MOD	CLASSES:Disciple of Thrym=4
+Hibernal Healing.MOD	CLASSES:Disciple of Thrym=4
+Summon Giants.MOD	CLASSES:Disciple of Thrym=4
+Dispel Fire.MOD	CLASSES:Disciple of Thrym=5
+Dispel Good.MOD	CLASSES:Disciple of Thrym=5
+Dispel Law.MOD	CLASSES:Disciple of Thrym=5
+Entomb.MOD	CLASSES:Disciple of Thrym=5
+Frostbite.MOD	CLASSES:Disciple of Thrym=5
+Ice Storm.MOD	CLASSES:Disciple of Thrym=5
+Stoneskin.MOD	CLASSES:Disciple of Thrym=5
+Wall of Ice.MOD	CLASSES:Disciple of Thrym=5
+# .MOD	CLASSES:Disciple of Thrym=5

@@ -27,3 +27,6 @@ Winter's Mount ~ Cold	VISIBLE:NO	RACESUBTYPE:Cold
 
 Favored Class	KEY:Chosen of Iborighu ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Cleric
 Favored Class	KEY:Mark of Hleid ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Cleric
+
+###Block Class Templates
+Frost Mage ~ One with Cold	VISIBLE:NO	RACESUBTYPE:Cold	ABILITY:Special Ability|AUTOMATIC|Immunity to Cold	SOURCEPAGE:Fro

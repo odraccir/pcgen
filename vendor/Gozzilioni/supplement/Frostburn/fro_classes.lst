@@ -34,89 +34,75 @@ CLASS:Cryokineticist	STARTSKILLPTS:2	CSKILL:Climb|Concentration|TYPE.Craft|Intim
 3				ABILITY:Cryokineticist Class Feature|AUTOMATIC|Cryokineticist ~ Bolt of Cold|!PREABILITY:1,CATEGORY=ACF,TYPE.CryokineticistBoltOfCold										
 4				ABILITY:Cryokineticist Class Feature|AUTOMATIC|Cryokineticist ~ Weapon Afrost|!PREABILITY:1,CATEGORY=ACF,TYPE.CryokineticistWeaponAfrost										
 5				ABILITY:Cryokineticist Class Feature|AUTOMATIC|Cryokineticist ~ Frostfell Creature Insight|!PREABILITY:1,CATEGORY=ACF,TYPE.CryokineticistFrostfellCreatureInsight										
-														
+6				ABILITY:Cryokineticist Class Feature|AUTOMATIC|Cryokineticist ~ Cold Walk|!PREABILITY:1,CATEGORY=ACF,TYPE.CryokineticistColdWalk										
+7				ABILITY:Cryokineticist Class Feature|AUTOMATIC|Cryokineticist ~ Fear no Cold|!PREABILITY:1,CATEGORY=ACF,TYPE.CryokineticistFearNoCold										
+8				ABILITY:Cryokineticist Class Feature|AUTOMATIC|Cryokineticist ~ Greater Weapon Afrost|!PREABILITY:1,CATEGORY=ACF,TYPE.CryokineticistGreaterWeaponAfrost										
+9				ABILITY:Cryokineticist Class Feature|AUTOMATIC|Cryokineticist ~ Wall of Ice|!PREABILITY:1,CATEGORY=ACF,TYPE.CryokineticistWallOfIce										
+10				ABILITY:Cryokineticist Class Feature|AUTOMATIC|Cryokineticist ~ Bone Chill|!PREABILITY:1,CATEGORY=ACF,TYPE.CryokineticistBoneChill										
 #														
 11	PREPCLEVEL:MIN=20													
 														
-CLASS:Archmage	HD:4	TYPE:Prestige	FACT:Abb|Acm	MAXLEVEL:5	SOURCEPAGE:DMG	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ArchmageLVL|0	BONUS:VAR|ArchmageLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
-CLASS:Archmage	PRESKILL:2,Knowledge (Arcana)=15,Spellcraft=15	PREABILITY:1,CATEGORY=FEAT,Skill Focus (Spellcraft)	PREABILITY:2,CHECKMULT,CATEGORY=FEAT,Spell Focus	PRESPELLCAST:TYPE=Arcane	PRETEXT:Ability to cast 7th-level arcane spells.	PRESPELLSCHOOL:5,Abjuration=5,Conjuration=5,Divination=5,Enchantment=5,Evocation=5,Illusion=5,Necromancy=5,Transmutation=5								
-CLASS:Archmage	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Search|Spellcraft												
-1				ABILITY:Archmage Class Feature|AUTOMATIC|Archmage ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ArchmageProficiencies										
-1				ABILITY:Archmage Class Feature|AUTOMATIC|Archmage ~ Spells per Day										
+CLASS:Disciple of Thrym	HD:10	TYPE:Prestige	FACT:Abb|DoT	MAXLEVEL:NOLIMIT	SOURCEPAGE:Fro	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DiscipleOfThymLVL|0	BONUS:VAR|DiscipleOfThymLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Disciple of Thrym	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:1,Intimidate=4	PRESKILL:1,Survival=8	PREATT:4	PREABILITY:1,CATEGORY=FEAT,Weapon Focus (Greataxe)	PREMULT:1,[PREABILITY:1,CATEGORY=FEAT,Cold Endurance],[PRERACE:1,RACESUBTYPE=Cold]								
+CLASS:Disciple of Thrym	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Sense Motive|Speak Language|Spellcraft|Survival												
+CLASS:Disciple of Thrym	SPELLSTAT:WIS	FACT:SpellType|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5
+1				ABILITY:Disciple of Thrym Class Feature|AUTOMATIC|Disciple of Thrym ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfThrymProficiencies										
+1				ABILITY:Disciple of Thrym Class Feature|AUTOMATIC|Disciple of Thrym ~ Spells per Day
 #														
-1				ABILITY:Archmage Class Feature|AUTOMATIC|Archmage ~ High Arcana|!PREABILITY:1,CATEGORY=ACF,TYPE.ArchmageHighArcana										
+1				ABILITY:Disciple of Thrym Class Feature|AUTOMATIC|Disciple of Thrym ~ Detect Fire|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfThrymDetectFire
+1				ABILITY:Disciple of Thrym Class Feature|AUTOMATIC|Disciple of Thrym ~ Protection of Winter|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfThrymProtectionOfWinter
+2				ABILITY:Disciple of Thrym Class Feature|AUTOMATIC|Disciple of Thrym ~ Resistance to Fire|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfThrymResistanceToFire
+3				ABILITY:Disciple of Thrym Class Feature|AUTOMATIC|Disciple of Thrym ~ Powerful Grip|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfThrymPowerfulGrip
+4				ABILITY:Disciple of Thrym Class Feature|AUTOMATIC|Disciple of Thrym ~ Frost Greataxe|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfThrymFrostGreataxe
+5				ABILITY:Disciple of Thrym Class Feature|AUTOMATIC|Disciple of Thrym ~ Agonizing Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfThrymAgonizingStrike
+7				ABILITY:Disciple of Thrym Class Feature|AUTOMATIC|Disciple of Thrym ~ Dispel Fire|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfThrymDispelFire
+8				ABILITY:Disciple of Thrym Class Feature|AUTOMATIC|Disciple of Thrym ~ Icy Greataxe|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfThrymIcyGreataxe
+10				ABILITY:Disciple of Thrym Class Feature|AUTOMATIC|Disciple of Thrym ~ Immunity to Fire|!PREABILITY:1,CATEGORY=ACF,TYPE.DiscipleOfThrymImmunityToFire
 #														
-1	ADD:SPELLCASTER|Arcane													
-2	ADD:SPELLCASTER|Arcane													
-3	ADD:SPELLCASTER|Arcane													
-4	ADD:SPELLCASTER|Arcane													
-5	ADD:SPELLCASTER|Arcane													
+1	CAST:0,1													
+2	CAST:0,2													
+3	CAST:0,2,1													
+4	CAST:0,3,2													
+5	CAST:0,3,2,1													
+6	CAST:0,3,3,2													
+7	CAST:0,4,3,2,1													
+8	CAST:0,4,3,3,2													
+9	CAST:0,4,4,3,2,1													
+10	CAST:0,4,4,3,3,2													
 														
-CLASS:Assassin	HD:6	TYPE:Prestige	FACT:Abb|Asn	MAXLEVEL:NOLIMIT	SOURCEPAGE:DMG	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:AssassinLVL|0	BONUS:VAR|AssassinLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
-CLASS:Assassin	PREALIGN:LE,NE,CE	PRESKILL:1,Disguise=4	PRESKILL:2,Hide=8,Move Silently=8	PRETEXT:The character must kill someone for no other reason than to join the assassins.										
-CLASS:Assassin	STARTSKILLPTS:4	CSKILL:Balance|Bluff|Climb|TYPE.Craft|Decipher Script|Diplomacy|Disable Device|Disguise|Escape Artist|Forgery|Gather Information|Hide|Intimidate|Jump|Listen|Move Silently|Open Lock|Search|Sense Motive|Sleight of Hand|Spot|Swim|Tumble|Use Magic Device|Use Rope												
-CLASS:Assassin	SPELLSTAT:INT	FACT:SpellType|Arcane	MEMORIZE:NO											
-1				ABILITY:Assassin Class Feature|AUTOMATIC|Assassin ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.AssassinProficiencies										
+CLASS:Frost Mage	HD:4	TYPE:Prestige	FACT:Abb|FMa	MAXLEVEL:NOLIMIT	SOURCEPAGE:Fro	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:FrostMageLVL|0	BONUS:VAR|FrostMageLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Frost Mage	PREABILITY:1,CATEGORY=FEAT,Frozen Magic	PRESKILL:1,Knowledge (Arcana)=8	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=1	PRETEXT:The character must spend 24 hours unprotected in a blizzard.
+CLASS:Frost Mage	STARTSKILLPTS:2	CSKILL:Concentration|Craft (Alchemy)|TYPE.Knowledge|TYPE.Profession|Search|Spellcraft												
+1				ABILITY:Frost Mage Class Feature|AUTOMATIC|Frost Mage ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.FrostMageProficiencies										
+1				ABILITY:Frost Mage Class Feature|AUTOMATIC|Frost Mage ~ Spells per Day
 #														
-1				ABILITY:Assassin Class Feature|AUTOMATIC|Assassin ~ Spells|!PREABILITY:1,CATEGORY=ACF,TYPE.AssassinSpells										
-1				ABILITY:Assassin Class Feature|AUTOMATIC|Assassin ~ Sneak Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.AssassinSneakAttack										
-1				ABILITY:Assassin Class Feature|AUTOMATIC|Assassin ~ Death Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.AssassinDeathAttack										
-1				ABILITY:Assassin Class Feature|AUTOMATIC|Assassin ~ Poison Use|!PREABILITY:1,CATEGORY=ACF,TYPE.AssassinPoisonUse										
-2				ABILITY:Assassin Class Feature|AUTOMATIC|Assassin ~ Save Bonus against Poison|!PREABILITY:1,CATEGORY=ACF,TYPE.AssassinPoisonSave										
-2				ABILITY:Assassin Class Feature|AUTOMATIC|Assassin ~ Uncanny Dodge|!PREABILITY:1,CATEGORY=ACF,TYPE.AssassinUncannyDodge										
-5				ABILITY:Assassin Class Feature|AUTOMATIC|Assassin ~ Improved Uncanny Dodge|!PREABILITY:1,CATEGORY=ACF,TYPE.AssassinImprovedUncannyDodge										
-8				ABILITY:Assassin Class Feature|AUTOMATIC|Assassin ~ Hide in Plain Sight|!PREABILITY:1,CATEGORY=ACF,TYPE.AssassinHideInPlainSight										
+1				ABILITY:Frost Mage Class Feature|AUTOMATIC|Frost Mage ~ Natural Armor Increase|!PREABILITY:1,CATEGORY=ACF,TYPE.FrostMageNaturalArmorIncrease										
+2				ABILITY:Frost Mage Class Feature|AUTOMATIC|Frost Mage ~ Resistance to Cold|!PREABILITY:1,CATEGORY=ACF,TYPE.FrostMageNaturalResistanceToCold										
+3				ABILITY:Frost Mage Class Feature|AUTOMATIC|Frost Mage ~ Gain Knowledge|!PREABILITY:1,CATEGORY=ACF,TYPE.FrostMageGainKnowledge										
+4				ABILITY:Frost Mage Class Feature|AUTOMATIC|Frost Mage ~ Piercing Cold|!PREABILITY:1,CATEGORY=ACF,TYPE.FrostMagePiercingCold										
+5				ABILITY:Frost Mage Class Feature|AUTOMATIC|Frost Mage ~ One with Cold|!PREABILITY:1,CATEGORY=ACF,TYPE.FrostMageOneWithCold										
 #														
-1	CAST:0,0	KNOWN:0,2												
-2	CAST:0,1	KNOWN:0,3												
-3	CAST:0,2,0	KNOWN:0,3,2												
-4	CAST:0,3,1	KNOWN:0,4,3												
-5	CAST:0,3,2,0	KNOWN:0,4,3,2												
-6	CAST:0,3,3,1	KNOWN:0,4,4,3												
-7	CAST:0,3,3,2,0	KNOWN:0,4,4,3,2												
-8	CAST:0,3,3,3,1	KNOWN:0,4,4,4,3												
-9	CAST:0,3,3,3,2	KNOWN:0,4,4,4,3												
-10	CAST:0,3,3,3,3	KNOWN:0,4,4,4,4												
+1	ADD:SPELLCASTER|ANY													
+2	ADD:SPELLCASTER|ANY													
+3	ADD:SPELLCASTER|ANY													
+4	ADD:SPELLCASTER|ANY													
+5	ADD:SPELLCASTER|ANY													
+6	ADD:SPELLCASTER|ANY													
+7	ADD:SPELLCASTER|ANY													
+8	ADD:SPELLCASTER|ANY													
+9	ADD:SPELLCASTER|ANY													
+10	ADD:SPELLCASTER|ANY													
 #														
 11	PREPCLEVEL:MIN=20													
 														
-CLASS:Blackguard	HD:10	TYPE:Prestige	FACT:Abb|Blk	MAXLEVEL:NOLIMIT	SOURCEPAGE:DMG	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	EXCHANGELEVEL:Ex-Paladin|11|10|1	DEFINE:BlackguardLVL|0	BONUS:VAR|BlackguardLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
-CLASS:Blackguard	PREALIGN:LE,NE,CE	PRESKILL:1,Hide=5	PRESKILL:1,Knowledge (Religion)=2	PREABILITY:3,CATEGORY=FEAT,Cleave,Improved Sunder,Power Attack	PRETEXT:The character must have made peaceful contact with an evil outsider who was summoned by him or someone else.									
-CLASS:Blackguard	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Hide|Intimidate|Knowledge (Religion)|TYPE.Profession|Ride												
-CLASS:Blackguard	SPELLSTAT:WIS	FACT:SpellType|Divine	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4										
-1				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackguardProficiencies										
-1				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Spells										
-1				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Fallen Paladin|PRECLASS:1,Ex-Paladin=1										
+CLASS:Frostrager	HD:12	TYPE:Prestige	FACT:Abb|FRa	MAXLEVEL:5	SOURCEPAGE:Fro	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:FrostragerLVL|0	BONUS:VAR|FrostragerLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Frostrager	PREATT:6	PRESKILL:2,Intimidate=4,Survival=4	PREABILITY:3,CATEGORY=FEAT,Frozen Berserker,Improved Unarmed Strike,Power Attack	PREABILITY:1,CATEGORY=Special Ability,Rage	PRETEXT:The character must have been reduced to fewer than 0 hit points by cold damage (either from magical cold attacks or by taking enough damage from exposure to extreme cold environments). Whether or not this trauma is what allows the frostrage to take root in the character’s soul, or if the trauma merely unhinges the character’s mind enough that he decides to become a frostrager, is unknown.
+CLASS:Frostrager	STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump|Listen|Survival|Swim												
+1				ABILITY:Frostrager Class Feature|AUTOMATIC|Frostrager ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.FrostragerProficiencies										
 #														
-1				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Fallen Paladin ~ Smite Good|PRECLASS:1,Ex-Paladin=1										
-1				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Fallen Paladin ~ Lay on Hands|PRECLASS:1,Ex-Paladin=3										
-1				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Fallen Paladin ~ Sneak Attack|PRECLASS:1,Ex-Paladin=5										
-1				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Fallen Paladin ~ Fiendish Summoning|PRECLASS:1,Ex-Paladin=7										
-5				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Fallen Paladin ~ Undead Companion|PRECLASS:1,Ex-Paladin=9										
-1				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Fallen Paladin ~ Favored of the Dark|PRECLASS:1,Ex-Paladin=11										
+1				ABILITY:Frostrager Class Feature|AUTOMATIC|Frostrager ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.FrostragerProficiencies										
+1				ABILITY:Frostrager Class Feature|AUTOMATIC|Frostrager ~ Freezing Blood|!PREABILITY:1,CATEGORY=ACF,TYPE.FrostragerFreezingBlood										
 #														
-1				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Aura of Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackguardAuraOfEvil										
-1				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Detect Good|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackguardDetectGood										
-1				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Poison Use|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackguardPoisonUse										
-2				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Dark Blessing|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackguardDarkBlessing										
-2				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Smite Good|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackguardSmiteGood										
-3				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Command Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackguardCommandUndead										
-3				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Aura of Despair|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackguardAuraOfDespair										
-4				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Sneak Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackguardSneakAttack										
-5				ABILITY:Blackguard Class Feature|AUTOMATIC|Blackguard ~ Fiendish Servant|!PREABILITY:1,CATEGORY=ACF,TYPE.BlackguardFiendishServant										
-#														
-1	CAST:0,0													
-2	CAST:0,1													
-3	CAST:0,1,0													
-4	CAST:0,1,1													
-5	CAST:0,1,1,0													
-6	CAST:0,1,1,1													
-7	CAST:0,2,1,1,0													
-8	CAST:0,2,1,1,1													
-9	CAST:0,2,2,1,1													
-10	CAST:0,2,2,2,1													
-#														
-11	PREPCLEVEL:MIN=20													
 														
 CLASS:Dragon Disciple	HD:12	TYPE:Prestige	FACT:Abb|DDi	MAXLEVEL:NOLIMIT	SOURCEPAGE:DMG	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DragonDiscipleLVL|0	BONUS:VAR|DragonDiscipleLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Dragon Disciple	!PRERACE:1,TYPE=Dragon	PRESKILL:1,Knowledge (Arcana)=8	PRELANG:1,Draconic	PRESPELLCAST:MEMORIZE=N	PRESPELLCAST:TYPE=Arcane									

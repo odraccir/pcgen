@@ -9,6 +9,10 @@ ABILITYCATEGORY:Uldras Subrace	CATEGORY:Internal	TYPE:UldrasSubrace.UldrasSubrac
 #Abilitygroup:Class Ability categories																								
 ABILITYCATEGORY:Cloud Anchorite Class Feature	CATEGORY:Special Ability	TYPE:CloudAnchoriteClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Cloud Anchorite Class Features			DISPLAYLOCATION:Class Features		
 ABILITYCATEGORY:Cryokineticist Class Feature	CATEGORY:Special Ability	TYPE:CryokineticistClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Cryokineticist Class Features			DISPLAYLOCATION:Class Features		
+ABILITYCATEGORY:Disciple of Thrym Class Feature	CATEGORY:Special Ability	TYPE:DiscipleOfThrymClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Disciple of Thrym Class Features			DISPLAYLOCATION:Class Features		
+ABILITYCATEGORY:Frost Mage Class Feature	CATEGORY:Special Ability	TYPE:FrostMageClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Frost Mage Class Features			DISPLAYLOCATION:Class Features		
+ABILITYCATEGORY:Frostrager Class Feature	CATEGORY:Special Ability	TYPE:FrostragerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Frostrager Class Features			DISPLAYLOCATION:Class Features		
 																								
 #Other Abilitygroups																								
 ABILITYCATEGORY:Cloud Anchorite Feat	CATEGORY:FEAT	TYPE:CloudAnchorite	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Cloud Anchorite Feats			DISPLAYLOCATION:Feats		
+ABILITYCATEGORY:Gain Knowledge	CATEGORY:Special Ability	TYPE:GainKnowledge	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Gain Knowledges			DISPLAYLOCATION:Class Features		
