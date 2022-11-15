@@ -25,3 +25,5 @@ Conjure Ice Beast I	CATEGORY:Special Ability	TYPE:GainKnowledge	VISIBLE:YES	DESC
 Conjure Ice Beast II	CATEGORY:Special Ability	TYPE:GainKnowledge	VISIBLE:YES	DESC:Gain Conjure Ice Beast II.	KEY:Frost Mage ~ Gain Knowledge ~ Bard 2	PRECLASS:1,Bard=1																	SPELLKNOWN:CLASS|Bard=2|Conjure Ice Beast II								SORTKEY:Class_Frost_Mage	SOURCEPAGE:Fro
 Conjure Ice Beast III	CATEGORY:Special Ability	TYPE:GainKnowledge	VISIBLE:YES	DESC:Gain Conjure Ice Beast III.	KEY:Frost Mage ~ Gain Knowledge ~ Bard 3	PRECLASS:1,Bard=1																	SPELLKNOWN:CLASS|Bard=3|Conjure Ice Beast III								SORTKEY:Class_Frost_Mage	SOURCEPAGE:Fro
 Conjure Ice Beast IV	CATEGORY:Special Ability	TYPE:GainKnowledge	VISIBLE:YES	DESC:Gain Conjure Ice Beast IV.	KEY:Frost Mage ~ Gain Knowledge ~ Bard 4	PRECLASS:1,Bard=1																	SPELLKNOWN:CLASS|Bard=4|Conjure Ice Beast IV								SORTKEY:Class_Frost_Mage	SOURCEPAGE:Fro
+
+Standard Selection ~ Special Mount (Paladin).MOD	COMPANIONLIST:Special Mount|Animal (Megaloceros)|PREVARGTEQ:KnightOfTheIronGlacierLVL,1
