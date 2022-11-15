@@ -44,3 +44,26 @@ Basic Training	CATEGORY:Internal	TYPE:TrainingLevel.SpecialQuality	VISIBLE:YES	D
 +1 level 7 spell cast	CATEGORY:Special Ability	TYPE:GMBonusSpellCast.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 7 spell per day.												BONUS:SPELLCAST|CLASS=%LIST;LEVEL=7|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H
 +1 level 8 spell cast	CATEGORY:Special Ability	TYPE:GMBonusSpellCast.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 8 spell per day.												BONUS:SPELLCAST|CLASS=%LIST;LEVEL=8|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H
 +1 level 9 spell cast	CATEGORY:Special Ability	TYPE:GMBonusSpellCast.SpecialQuality	VISIBLE:YES	DESC:GM awarded PC with +1 level 9 spell per day.												BONUS:SPELLCAST|CLASS=%LIST;LEVEL=9|1					STACK:YES	MULT:YES	CHOOSE:CLASS|SPELLCASTER									COST:0		SOURCEPAGE:H
+
+###Block: Guild 
+Mentoring	CATEGORY:Guild Category	TYPE:GuildGroupChooser	VISIBLE:YES									BONUS:ABILITYPOOL|Mentoring|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	COST:0													SOURCEPAGE:G
+Choose a Groups	CATEGORY:Guild Category	TYPE:GuildGroupChooser	VISIBLE:YES									BONUS:ABILITYPOOL|Groups Chooser|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	COST:0													SOURCEPAGE:G
+Choose a Guild Affiliation	CATEGORY:Guild Category	TYPE:GuildGroupChooser	VISIBLE:YES									BONUS:ABILITYPOOL|Guild Affiliation|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	COST:0													SOURCEPAGE:G
+Choose a Planar Faction	CATEGORY:Guild Category	TYPE:GuildGroupChooser	VISIBLE:YES									BONUS:ABILITYPOOL|Planar Faction|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	COST:0													SOURCEPAGE:G
+Choose a Church Eresy	CATEGORY:Guild Category	TYPE:GuildGroupChooser	VISIBLE:YES									BONUS:ABILITYPOOL|Church Eresy|1				STACK:YES	MULT:YES	CHOOSE:NOCHOICE	SELECT:1	COST:0													SOURCEPAGE:G
+
+Guild Member	CATEGORY:Special Ability	TYPE:Guild.SpecialQuality	VISIBLE:YES	DESC:%1|%LIST							BONUS:ABILITYPOOL|Guild Affiliation|1				STACK:NO	MULT:YES	CHOOSE:ABILITY|Guild Category|TYPE=GuildAffiliation	SELECT:1														SOURCEPAGE:G			
+
+#																																	
+The Athar	CATEGORY:Guild Category	TYPE:SpecialQuality.PlanarFaction	VISIBLE:YES																														SOURCEPAGE:PH
+The Doomguard	CATEGORY:Guild Category	TYPE:SpecialQuality.PlanarFaction	VISIBLE:YES																														SOURCEPAGE:PH
+The Fated	CATEGORY:Guild Category	TYPE:SpecialQuality.PlanarFaction	VISIBLE:YES																														SOURCEPAGE:PH
+The Mind's Eye	CATEGORY:Guild Category	TYPE:SpecialQuality.PlanarFaction	VISIBLE:YES																														SOURCEPAGE:PH
+The Society of Sensation	CATEGORY:Guild Category	TYPE:SpecialQuality.PlanarFaction	VISIBLE:YES																														SOURCEPAGE:PH
+The Transcendent Order	CATEGORY:Guild Category	TYPE:SpecialQuality.PlanarFaction	VISIBLE:YES																														SOURCEPAGE:PH
+The Xaositecs	CATEGORY:Guild Category	TYPE:SpecialQuality.PlanarFaction	VISIBLE:YES																														SOURCEPAGE:PH
+#
+Cult of Iborighu	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:For
+Cloud Anchorite Monastery	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:Fro
+Cult of Iborighu	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:For
+Ravens Bluff	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES																														SOURCEPAGE:AD&D
