@@ -30,3 +30,4 @@ Favored Class	KEY:Mark of Hleid ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Cleric
 
 ###Block Class Templates
 Frost Mage ~ One with Cold	VISIBLE:NO	RACESUBTYPE:Cold	ABILITY:Special Ability|AUTOMATIC|Immunity to Cold	SOURCEPAGE:Fro
+Primeval ~ Primeval Shapechanger	VISIBLE:NO	RACETYPE:Magical Beast	RACESUBTYPE:Shapechanger	DR:10/Magic

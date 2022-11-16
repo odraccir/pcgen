@@ -118,6 +118,49 @@ CLASS:Knight of the Iron Glacier	STARTSKILLPTS:2	CSKILL:TYPE.Craft|Diplomacy|Han
 4				ABILITY:Knight of the Iron Glacier Class Feature|AUTOMATIC|Knight of the Iron Glacier ~ Rally the Troops|!PREABILITY:1,CATEGORY=ACF,TYPE.KnightOfTheIronGlacierRallyTheTroops										
 7				ABILITY:Knight of the Iron Glacier Class Feature|AUTOMATIC|Knight of the Iron Glacier ~ Oath of Wrath|!PREABILITY:1,CATEGORY=ACF,TYPE.KnightOfTheIronGlacierOathOfWrath										
 10				ABILITY:Knight of the Iron Glacier Class Feature|AUTOMATIC|Knight of the Iron Glacier ~ Overwhelming Odds|!PREABILITY:1,CATEGORY=ACF,TYPE.KnightOfTheIronGlacierOverwhelmingOdds										
+#														
+11	PREPCLEVEL:MIN=20													
+
+CLASS:Primeval	HD:10	TYPE:Prestige	FACT:Abb|Pri	MAXLEVEL:NOLIMIT	SOURCEPAGE:Fro	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:PrimevalLVL|0	BONUS:VAR|PrimevalLVL|CL	BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Primeval	PREALIGN:NG,TN,NE,CG,CN,CE	PREATT:8	PRESKILL:3,Handle Animal=5,Knowledge (Nature)=5,Survival=5	PREABILITY:3,CATEGORY=FEAT,Endurance,Self-Sufficient,Toughness	
+CLASS:Primeval	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Handle Animal|Intimidate|Jump|Knowledge (Nature)|Listen|Spot|Survival|Swim
+1				ABILITY:Primeval Class Feature|AUTOMATIC|Primeval ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PrimevalProficiencies										
+#														
+1				ABILITY:Primeval Class Feature|AUTOMATIC|Primeval ~ Primeval Form|!PREABILITY:1,CATEGORY=ACF,TYPE.PrimevalPrimevalForm										
+1				ABILITY:Primeval Class Feature|AUTOMATIC|Primeval ~ Animal Empathy|!PREABILITY:1,CATEGORY=ACF,TYPE.PrimevalAnimalEmpathy										
+2				ABILITY:Primeval Class Feature|AUTOMATIC|Primeval ~ Regression|!PREABILITY:1,CATEGORY=ACF,TYPE.PrimevalRegression										
+2				ABILITY:Primeval Class Feature|AUTOMATIC|Primeval ~ Low-Light Vision|!PREABILITY:1,CATEGORY=ACF,TYPE.PrimevalLowLightVision										
+2				ABILITY:Primeval Class Feature|AUTOMATIC|Primeval ~ Feral Power|!PREABILITY:1,CATEGORY=ACF,TYPE.PrimevalFeralPower										
+5				ABILITY:Primeval Class Feature|AUTOMATIC|Primeval ~ Scent|!PREABILITY:1,CATEGORY=ACF,TYPE.PrimevalScent										
+8				ABILITY:Primeval Class Feature|AUTOMATIC|Primeval ~ Fast Movement|!PREABILITY:1,CATEGORY=ACF,TYPE.PrimevalFastMovement										
+10				ABILITY:Primeval Class Feature|AUTOMATIC|Primeval ~ Primeval Shapechanger|!PREABILITY:1,CATEGORY=ACF,TYPE.PrimevalPrimevalShapechanger										
+#														
+11	PREPCLEVEL:MIN=20													
+
+CLASS:Rimefire Witch	HD:6	TYPE:Prestige	FACT:Abb|RiW	MAXLEVEL:NOLIMIT	SOURCEPAGE:Fro	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:RimefireWitchLVL|0	BONUS:VAR|RimefireWitchLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Rimefire Witch	PRESKILL:3,Concentration=6,Knowledge (History)=6Spellcraft=6	PRESKILL:1,Knowledge (Religion)=9	PREABILITY:2,CATEGORY=FEAT,Iron will,Mark of Hleid	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=1	PRETEXT:Once a character meets all the requirements listed above, she soon has a vivid dream in which she receives a call from a rimefire eidolon. Once she wakes from the dream, she knows the most direct route to the rimefi re eidolon’s iceberg, as if she had cast discern location to fi nd it. This call does not force the character to answer, but until she travels to the iceberg and accepts the bond of the rimefi re eidolon that dwells within, she cannot take any levels of rimefi re witch. The journey to the iceberg should be played out as a minor quest, perhaps with some encounters with Iborighu cultists bent on preventing the rise of a new rimefire witch.
+CLASS:Rimefire Witch	STARTSKILLPTS:2	CSKILL:Climb|Concentration|Diplomacy|Gather Information|Heal|Jump|Knowledge (Arcana)|Knowledge (History)|Knowledge (Religion)|Sense Motive|Spellcraft|Swim
+1				ABILITY:Rimefire Witch Class Feature|AUTOMATIC|Rimefire Witch ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.RimefireWitchProficiencies										
+1				ABILITY:Rimefire Witch Class Feature|AUTOMATIC|Rimefire Witch ~ Spells per Day
+#														
+1				ABILITY:Rimefire Witch Class Feature|AUTOMATIC|Rimefire Witch ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.RimefireWitchProficiencies										
+#														
+1	ADD:SPELLCASTER|ANY
+2	ADD:SPELLCASTER|ANY
+3	ADD:SPELLCASTER|ANY
+4	ADD:SPELLCASTER|ANY
+5	ADD:SPELLCASTER|ANY
+6	ADD:SPELLCASTER|ANY
+7	ADD:SPELLCASTER|ANY
+8	ADD:SPELLCASTER|ANY
+9	ADD:SPELLCASTER|ANY
+10	ADD:SPELLCASTER|ANY
+#														
+11	PREPCLEVEL:MIN=20													
+
+
+
+
 
 
 CLASS:Barbarian.MOD	MAXLEVEL:NOLIMIT													

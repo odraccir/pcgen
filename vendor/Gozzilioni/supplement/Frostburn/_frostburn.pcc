@@ -19,14 +19,15 @@ PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Gui
 #EXTRAFILE:missing.txt
 
 ABILITY:fro_abilities.lst
+ABILITY:fro_abilities_classes.lst
 ABILITY:fro_abilities_FF.lst|PRECAMPAIGN:1,Fiend folio
 ABILITY:fro_abilities_MM2.lst|PRECAMPAIGN:1,Monster Manual 2
-# ABILITY:fro_abilities_classes.lst
 ABILITY:fro_abilities_races.lst
+ABILITY:fro_abilities_regions.lst
 # ABILITY:fro_abilities_templates.lst
 ABILITYCATEGORY:fro_abilitycategories.lst
 BIOSET:fro_biosettings.lst
-# CLASS:fro_classes.lst
+CLASS:fro_classes.lst
 # CLASS:fro_classes_sanctified.lst
 COMPANIONMOD:fro_companionmods.lst
 COMPANIONMOD:fro_companionmods_PH.lst|PRECAMPAIGN:1,Planar Handbook
@@ -35,7 +36,7 @@ DEITY:fro_deities.lst
 EQUIPMENT:fro_equip.lst
 # EQUIPMENT:fro_equip_armors_specific.lst
 # EQUIPMENT:fro_equip_magic_items.lst
-# EQUIPMENT:fro_equip_weapons.lst
+EQUIPMENT:fro_equip_weapons.lst
 # EQUIPMENT:fro_equip_weapons_natural.lst
 # EQUIPMENT:fro_equip_weapons_specific.lst
 # # EQUIPMENT:mm2_equip_weapons_natural.lst
@@ -47,10 +48,11 @@ KIT:fro_kits.lst
 RACE:fro_races.lst
 RACE:fro_races_companion.lst
 SKILL:fro_skills.lst
-# SPELL:fro_spells.lst
+SPELL:fro_spells.lst
 SPELL:fro_spells_specific.lst
 ABILITY:fro_subraces.lst
 TEMPLATE:fro_templates.lst
+TEMPLATE:fro_templates_regions.lst
 #
 # HIDETYPE:SKILL|Craft (Stoneworking)
 HIDETYPE:FEAT|CloudAnchorite

@@ -13,8 +13,10 @@ ABILITYCATEGORY:Disciple of Thrym Class Feature	CATEGORY:Special Ability	TYPE:Di
 ABILITYCATEGORY:Frost Mage Class Feature	CATEGORY:Special Ability	TYPE:FrostMageClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Frost Mage Class Features			DISPLAYLOCATION:Class Features		
 ABILITYCATEGORY:Frostrager Class Feature	CATEGORY:Special Ability	TYPE:FrostragerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Frostrager Class Features			DISPLAYLOCATION:Class Features		
 ABILITYCATEGORY:Knight of the Iron Glacier Class Feature	CATEGORY:Special Ability	TYPE:KnightOfTheIronGlacierClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Knight of the Iron Glacier Class Features			DISPLAYLOCATION:Class Features		
-ABILITYCATEGORY:Primeval Glacier Class Feature	CATEGORY:Special Ability	TYPE:PrimevalClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Primeval Class Features			DISPLAYLOCATION:Class Features		
+ABILITYCATEGORY:Primeval Class Feature	CATEGORY:Special Ability	TYPE:PrimevalClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Primeval Class Features			DISPLAYLOCATION:Class Features		
+ABILITYCATEGORY:Rimefire Witch Class Feature	CATEGORY:Special Ability	TYPE:RimefireWitchClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Rimefire Witch Class Features			DISPLAYLOCATION:Class Features		
 																								
 #Other Abilitygroups																								
 ABILITYCATEGORY:Cloud Anchorite Feat	CATEGORY:FEAT	TYPE:CloudAnchorite	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Cloud Anchorite Feats			DISPLAYLOCATION:Feats		
 ABILITYCATEGORY:Gain Knowledge	CATEGORY:Special Ability	TYPE:GainKnowledge	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Gain Knowledges			DISPLAYLOCATION:Class Features		
+ABILITYCATEGORY:Primeval Form	CATEGORY:Special Ability	TYPE:PrimevalForm	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Primeval Forms			DISPLAYLOCATION:Class Features		
