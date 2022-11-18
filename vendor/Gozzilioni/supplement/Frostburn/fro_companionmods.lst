@@ -1,6 +1,12 @@
 SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
 
 ###Block: Standard Companions										
+FOLLOWER:SummonTheEntombedLVL=1	TYPE:Summon the Entombed
+FOLLOWER:AugmentedSummoning=1	TYPE:Summon the Entombed	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Summon the Entombed	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Summon the Entombed	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+									
+
 # Class of the Master	Type									
 ###Block:Familiar Bonus to Master										
 MASTERBONUSRACE:Animal (Arctic Fox)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Familiar ~ Arctic Fox				
@@ -20,6 +26,7 @@ FOLLOWER:BeackonTheFrozen=1	TYPE:Summon Monster VI	TEMPLATE:Beackon the Frozen ~
 FOLLOWER:BeackonTheFrozen=1	TYPE:Summon Monster VII	TEMPLATE:Beackon the Frozen ~ Cold
 FOLLOWER:BeackonTheFrozen=1	TYPE:Summon Monster VIII	TEMPLATE:Beackon the Frozen ~ Cold
 FOLLOWER:BeackonTheFrozen=1	TYPE:Summon Monster IX	TEMPLATE:Beackon the Frozen ~ Cold
+FOLLOWER:BeackonTheFrozen=1	TYPE:Summon the Entombed	TEMPLATE:Beackon the Frozen ~ Cold
 ###Block: Icy Calling
 FOLLOWER:IcyCalling=1	TYPE:Summon Monster I	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
 FOLLOWER:IcyCalling=1	TYPE:Summon Monster II	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
@@ -30,7 +37,14 @@ FOLLOWER:IcyCalling=1	TYPE:Summon Monster VI	BONUS:STAT|STR|4|TYPE=Enhancement	B
 FOLLOWER:IcyCalling=1	TYPE:Summon Monster VII	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
 FOLLOWER:IcyCalling=1	TYPE:Summon Monster VIII	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
 FOLLOWER:IcyCalling=1	TYPE:Summon Monster IX	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
+FOLLOWER:IcyCalling=1	TYPE:Summon the Entombed	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
 ###Block: Winter's Mount
 FOLLOWER:WinterSMount=1	TYPE:Special Mount	TEMPLATE:Winter's Mount ~ Cold	ABILITY:Special Ability|AUTOMATIC|Immunity To Cold	BONUS:STAT|CON|2|TYPE=Racial.STACK
 ###BLOCK:Knight of the Iron Glacier
 FOLLOWER:KnightOfTheIronGlacierMount=1	TYPE:Special Mount	TEMPLATE:Warbeast|PRERACE:1,Animal (Megaloceros)
+###BLOCK:Rimefire Bond
+FOLLOWER:RimefireBondLVL=1	TYPE:Rimefire Bond	BONUS:VAR|MindAffectingResistanceBonus,DeathEffectsResistanceBonus|2|TYPE=Morale	ABILITY:Special Ability|AUTOMATIC|Resistance To Mind-Affecting|Resistance To Death Effects			
+
+###Block:Rimefire Bond Bonus to Master										
+MASTERBONUSRACE:Rimefire Eidolon	TYPE:Rimefire Bond	BONUS:VAR|MindAffectingResistanceBonus,DeathEffectsResistanceBonus|2|TYPE=Morale	ABILITY:Special Ability|AUTOMATIC|Resistance To Mind-Affecting|Resistance To Death Effects			
+

@@ -15,8 +15,15 @@ ABILITYCATEGORY:Frostrager Class Feature	CATEGORY:Special Ability	TYPE:Frostrage
 ABILITYCATEGORY:Knight of the Iron Glacier Class Feature	CATEGORY:Special Ability	TYPE:KnightOfTheIronGlacierClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Knight of the Iron Glacier Class Features			DISPLAYLOCATION:Class Features		
 ABILITYCATEGORY:Primeval Class Feature	CATEGORY:Special Ability	TYPE:PrimevalClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Primeval Class Features			DISPLAYLOCATION:Class Features		
 ABILITYCATEGORY:Rimefire Witch Class Feature	CATEGORY:Special Ability	TYPE:RimefireWitchClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Rimefire Witch Class Features			DISPLAYLOCATION:Class Features		
+ABILITYCATEGORY:Stormsinger Class Feature	CATEGORY:Special Ability	TYPE:StormsingerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Stormsinger Class Features			DISPLAYLOCATION:Class Features		
+ABILITYCATEGORY:Winterhaunt of Iborighu Class Feature	CATEGORY:Special Ability	TYPE:WinterhauntOfIborighuClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Winterhaunt of Iborighu Class Features			DISPLAYLOCATION:Class Features		
 																								
 #Other Abilitygroups																								
 ABILITYCATEGORY:Cloud Anchorite Feat	CATEGORY:FEAT	TYPE:CloudAnchorite	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Cloud Anchorite Feats			DISPLAYLOCATION:Feats		
 ABILITYCATEGORY:Gain Knowledge	CATEGORY:Special Ability	TYPE:GainKnowledge	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Gain Knowledges			DISPLAYLOCATION:Class Features		
 ABILITYCATEGORY:Primeval Form	CATEGORY:Special Ability	TYPE:PrimevalForm	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Primeval Forms			DISPLAYLOCATION:Class Features		
+
+#BLOCK:Companions
+ABILITYCATEGORY:Rimefire Bond Class Feature	CATEGORY:Special Ability	TYPE:RimefireBondClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Rimefire Bond Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Rimefire Bond Selection	CATEGORY:Internal	TYPE:RimefireBondSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Rimefire Bond Choice			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Summon the Entombed Selection	CATEGORY:Internal	TYPE:SummonTheEntombedSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Summon the Entombed Choice			DISPLAYLOCATION:Misc
