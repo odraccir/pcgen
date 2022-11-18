@@ -1,4 +1,24 @@
 SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
 
-###Block: Poisons																										
+###Block: Natural																										
 One-Two Punch			PROFICIENCY:WEAPON|Unarmed Strike	TYPE:Weapon.Natural.Melee.Simple.Bludgeoning.Unarmed	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	MODS:NO	SOURCEPAGE:Fro									BONUS:WEAPON|ATTACKS|OneTwoPunchAttacks	BONUS:WEAPON|TOHIT|min(-1*OneTwoPunchPenalty,0)
+
+###Block: Exotic Weapons
+#One Handed
+Ice Axe			PROFICIENCY:WEAPON|Ice Axe	TYPE:Weapon.Melee.Martial.Exotic.Piercing.Slashing.OneHanded.Axe	COST:10	WT:5	WIELD:OneHanded	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x4	EQMOD:STEEL	SOURCEPAGE:Fro									BONUS:SITUATION|Climb=Mountains terrain|1|TYPE=Circumstance	BONUS:SITUATION|Climb=Icy or snow terrain|1|TYPE=Circumstance	BONUS:SITUATION|Climb=Mountains terrain|4|TYPE=Circumstance|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Ice Axe)	BONUS:SITUATION|Climb=Icy or snow terrain|4|TYPE=Circumstance|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Ice Axe)	BONUS:WEAPON|TOHIT|-2|!PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Ice Axe)
+Iuak			PROFICIENCY:WEAPON|Iuak	TYPE:Weapon.Melee.Exotic.Slashing.OneHanded	COST:12	WT:4	WIELD:OneHanded	SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:Fro
+Tigerskull Club			PROFICIENCY:WEAPON|Iuak	TYPE:Weapon.Melee.Exotic.Bludgeoning.Piercing.OneHanded.Club	COST:15	WT:8	WIELD:OneHanded	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x4	EQMOD:WOOD	SOURCEPAGE:Fro
+#Two Handed
+Goad			PROFICIENCY:WEAPON|Goad	TYPE:Weapon.Melee.Exotic.Bludgeoning.Piercing.TwoHanded	COST:8	WT:10	WIELD:TwoHanded	SIZE:M	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:Fro
+Ritiik			PROFICIENCY:WEAPON|Ritiik	TYPE:Weapon.Melee.Exotic.Piercing.TwoHanded	COST:5	WT:6	WIELD:TwoHanded	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:Fro
+Sugliin			PROFICIENCY:WEAPON|Sugliin	TYPE:Weapon.Melee.Exotic.Piercing.Slashing.TwoHanded	COST:35	WT:20	WIELD:TwoHanded	SIZE:M	DAMAGE:2d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL
+#Ranged
+Bone Bow	OUTPUTNAME:Bone Bow STR		PROFICIENCY:WEAPON|Bone Bow	TYPE:Weapon.Ranged.Exotic.Piercing.Bow.Longbow.Composite.Container	COST:250	WT:4	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:BONE	SOURCEPAGE:Fro							RANGE:120		CONTAINS:UNLIM|BoneArrow|SpecificBoneArrow	BONUS:WEAPON|DAMAGE|min(STR,0)	MODS:REQUIRED
+Glot			PROFICIENCY:WEAPON|Glot	TYPE:Weapon.Ranged.Exotic.Bludgeoning.TwoHanded	COST:1	WT:1	WIELD:TwoHanded	SIZE:M	DAMAGE:1d4	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:Fro							RANGE:10
+Harpoon			PROFICIENCY:WEAPON|Harpoon	TYPE:Weapon.Ranged.Exotic.Piercing.TwoHanded	COST:15	WT:10	WIELD:TwoHanded	SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:Fro							RANGE:30
+Icechucker			PROFICIENCY:WEAPON|Icechucker	TYPE:Weapon.Ranged.Exotic.Piercing.TwoHanded	COST:150	WT:12	WIELD:TwoHanded	SIZE:M	DAMAGE:1d12	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:Fro							RANGE:30
+Razor Skipdisk			PROFICIENCY:WEAPON|Razor Skipdisk	TYPE:Weapon.Ranged.Exotic.Slashing.TwoHanded	COST:15	WT:2	WIELD:TwoHanded	SIZE:M	DAMAGE:1d12	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:Fro							RANGE:30
+
+# Arrows																									
+Bone Arrows (20)				TYPE:Ammunition.BoneArrow	COST:1	WT:3							EQMOD:STEEL.WOOD	SOURCEPAGE:PHB								BASEQTY:20	MODS:YES		
+Bone Arrow				TYPE:Ammunition.BoneArrow	COST:0.05	WT:0.15							EQMOD:STEEL.WOOD	SOURCEPAGE:PHB									MODS:YES		

@@ -4,4 +4,5 @@ Search.MOD	SITUATION:Notice unusual icework
 Appraise.MOD	SITUATION:Snow, Ice or Frostfell object																																																	
 Balance.MOD	SITUATION:Mountains terrain
 Climb.MOD	SITUATION:Mountains terrain
+Climb.MOD	SITUATION:Icy or snow terrain
 Jump.MOD	SITUATION:Mountains terrain

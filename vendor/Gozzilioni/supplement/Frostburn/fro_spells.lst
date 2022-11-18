@@ -1,46 +1,73 @@
-SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
-
-#																																							
-# Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus														
-
-###Block: Class Spell List
-Cause Fear.MOD	CLASSES:Disciple of Thrym=1
-Corrupt Weapon.MOD	CLASSES:Disciple of Thrym=1
-Detect fire.MOD	CLASSES:Disciple of Thrym=1
-Divine Favor.MOD	CLASSES:Disciple of Thrym=1
-Doom.MOD	CLASSES:Disciple of Thrym=1
-Ease of Breath.MOD	CLASSES:Disciple of Thrym=1
-Frostburn (Lesser).MOD	CLASSES:Disciple of Thrym=1
-Magic Weapon.MOD	CLASSES:Disciple of Thrym=1
-Obscuring Mist.MOD	CLASSES:Disciple of Thrym=1
-Protection from Good.MOD	CLASSES:Disciple of Thrym=1
-Protection from Law.MOD	CLASSES:Disciple of Thrym=1
-Shivering Touch (Lesser).MOD	CLASSES:Disciple of Thrym=1
-Blood Snow.MOD	CLASSES:Disciple of Thrym=2
-Bull's Strength.MOD	CLASSES:Disciple of Thrym=2
-Chill Metal.MOD	CLASSES:Disciple of Thrym=2
-Conjure Ice Object.MOD	CLASSES:Disciple of Thrym=2
-Eagle's Splendor.MOD	CLASSES:Disciple of Thrym=2
-Fog Cloud.MOD	CLASSES:Disciple of Thrym=2
-Frost Weapon.MOD	CLASSES:Disciple of Thrym=2
-Zone of Glacial cold.MOD	CLASSES:Disciple of Thrym=2
-Binding Snow.MOD	CLASSES:Disciple of Thrym=3
-Ice Shape.MOD	CLASSES:Disciple of Thrym=3
-Aura of Cold (Lesser).MOD	CLASSES:Disciple of Thrym=3
-Meld into Ice.MOD	CLASSES:Disciple of Thrym=3
-Shivering touch.MOD	CLASSES:Disciple of Thrym=3
-Sleet Storm.MOD	CLASSES:Disciple of Thrym=3
-Boreal Wind.MOD	CLASSES:Disciple of Thrym=4
-Glacial globe of Invulnerability.MOD	CLASSES:Disciple of Thrym=4
-Frostburn.MOD	CLASSES:Disciple of Thrym=4
-Hibernal Healing.MOD	CLASSES:Disciple of Thrym=4
-Summon Giants.MOD	CLASSES:Disciple of Thrym=4
-Dispel Fire.MOD	CLASSES:Disciple of Thrym=5
-Dispel Good.MOD	CLASSES:Disciple of Thrym=5
-Dispel Law.MOD	CLASSES:Disciple of Thrym=5
-Entomb.MOD	CLASSES:Disciple of Thrym=5
-Frostbite.MOD	CLASSES:Disciple of Thrym=5
-Ice Storm.MOD	CLASSES:Disciple of Thrym=5
-Stoneskin.MOD	CLASSES:Disciple of Thrym=5
-Wall of Ice.MOD	CLASSES:Disciple of Thrym=5
-# .MOD	CLASSES:Disciple of Thrym=5
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09																						
+																									
+#																									
+# Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus
+Algid Enhancement				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Cold	CLASSES:Cleric=6	COMPS:V, S, Coldfire	CASTTIME:1 full round	RANGE:Close	TARGETAREA:One cold creature/level.	DURATION:4 hours	SAVEINFO:None	SPELLRES:No	DESC:Coldfire Component: One ounce of coldfire.	SOURCEPAGE:Fro								
+Animate Snow				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Cold	CLASSES:Druid=6	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:Up to a 20-ft. cube of snow.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Material Component: Meltwater from a glacier.	SOURCEPAGE:Fro								
+Anticold Sphere				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Sorcerer=5|Wizard=5	COMPS:V, S	CASTTIME:1 standard action	RANGE:10 ft.	TARGETAREA:10-ft.-radius emanation, centered on you	DURATION:10 minutes/level	SAVEINFO:None	SPELLRES:Yes		SOURCEPAGE:Fro								
+Arctic Haze				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Cold	CLASSES:Druid=3|Sorcerer=3|Wizard=3	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:Fog spreads in a 30-ft. Radius, 20 ft. high	DURATION:10 minutes/level	SAVEINFO:Fort half	SPELLRES:No		SOURCEPAGE:Fro								
+Aura of Cold (Greater)				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Cold	CLASSES:Cleric=7|Druid=7	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:10 ft.	TARGETAREA:10-ft.-radius spherical emanation, centered on you	DURATION:1 round/level	SAVEINFO:None	SPELLRES:Yes		SOURCEPAGE:Fro								
+Aura of Cold (Lesser)				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Cold	CLASSES:Cleric=3|Druid=3|Paladin=4|Ranger=4	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:5 ft.	TARGETAREA:5-ft.-radius spherical emanation, centered on you	DURATION:1 round/level	SAVEINFO:None	SPELLRES:Yes		SOURCEPAGE:Fro								
+Binding Snow				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Cold	CLASSES:Cleric=3|Druid=3|Paladin=3|Ranger=3	COMPS:V, S, DF, Frostfell	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One 10-ft. square/level	DURATION:1 hour/level	SAVEINFO:Ref negates	SPELLRES:Yes		SOURCEPAGE:Fro								
+Blizzard				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Cold	CLASSES:Druid=5	COMPS:V, S	CASTTIME:1 full round	RANGE:Long	TARGETAREA:100 ft.-radius/level spread	DURATION:1 round/level	SAVEINFO:Fort partial	SPELLRES:No		SOURCEPAGE:Fro								
+Blood Snow				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Cold	CLASSES:Cleric=2|Druid=2|Sorcerer=3|Wizard=3	COMPS:V, S	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:20-ft. square of snow/level	DURATION:1 round/level	SAVEINFO:Fort negates	SPELLRES:Yes		SOURCEPAGE:Fro								
+Bone Chill				TYPE:Spell	SCHOOL:Necromancy			CLASSES:Sorcerer=2|Wizard=2	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:Ray.	DURATION:1 round/level	SAVEINFO:Fort negates	SPELLRES:No	DESC:Material Component: A small piece of bone and a 1-inch cube of ice.	SOURCEPAGE:Fro								
+Boreal Wind				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Cold	CLASSES:Bard=5|Cleric=5|Druid=4|Sorcerer=5|Wizard=5	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Long	TARGETAREA:Gust of wind (20 ft. Wide, 20 ft. high) emanating out from you to the extreme of the range	DURATION:1 round + 1 round/2 levels	SAVEINFO:Fort negates	SPELLRES:Yes		SOURCEPAGE:Fro								
+Brumal Stiffening				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Cold	CLASSES:Cleric=2|Druid=2|Sorcerer=2|Wizard=2	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One weapon.	DURATION:1 round/level	SAVEINFO:Ref negates	SPELLRES:Yes		SOURCEPAGE:Fro								
+Call Avalanche				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Cold	CLASSES:Druid=5	COMPS:V, S	CASTTIME:1 full round	RANGE:Long	TARGETAREA:10 ft.-radius/level spread	DURATION:Instantaneous	SAVEINFO:Ref half; see text	SPELLRES:No		SOURCEPAGE:Fro								
+Column of Ice				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Cold	CLASSES:Druid=3|Sorcerer=4|Wizard=4	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One column of ice, 10-ft. Radius and 5 ft./level in height	DURATION:Permanent	SAVEINFO:Ref negates	SPELLRES:No	DESC:Arcane Material Component: A 2-inch rod of ice.	SOURCEPAGE:Fro								
+Cometstrike				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Cold	CLASSES:Druid=9	COMPS:V, DF	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:Three different creatures or objects	DURATION:3 rounds	SAVEINFO:Ref partial	SPELLRES:No		SOURCEPAGE:Fro								
+Conjure Ice Beast I				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Cold	CLASSES:Cleric=1|Druid=1|Ranger=1	COMPS:V, S, DF	CASTTIME:1 full round	RANGE:Close	TARGETAREA:One conjured ice creature	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No		SOURCEPAGE:Fro								
+Conjure Ice Beast II				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Cold	CLASSES:Cleric=2|Druid=2|Ranger=2	COMPS:V, S, DF	CASTTIME:1 full round	RANGE:Close	TARGETAREA:One or more conjured ice creatures, no two of which can be more than 30 ft. apart	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No		SOURCEPAGE:Fro								
+Conjure Ice Beast III				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Cold	CLASSES:Cleric=3|Druid=3|Ranger=3	COMPS:V, S, DF	CASTTIME:1 full round	RANGE:Close	TARGETAREA:One or more conjured ice creatures, no two of which can be more than 30 ft. apart	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No		SOURCEPAGE:Fro								
+Conjure Ice Beast IV				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Cold	CLASSES:Cleric=4|Druid=4|Ranger=4	COMPS:V, S, DF	CASTTIME:1 full round	RANGE:Close	TARGETAREA:One or more conjured ice creatures, no two of which can be more than 30 ft. apart	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No		SOURCEPAGE:Fro								
+Conjure Ice Beast V				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Cold	CLASSES:Cleric=5|Druid=5	COMPS:V, S, DF	CASTTIME:1 full round	RANGE:Close	TARGETAREA:One or more conjured ice creatures, no two of which can be more than 30 ft. apart	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No		SOURCEPAGE:Fro								
+Conjure Ice Beast VI				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Cold	CLASSES:Cleric=6|Druid=6	COMPS:V, S, DF	CASTTIME:1 full round	RANGE:Close	TARGETAREA:One or more conjured ice creatures, no two of which can be more than 30 ft. apart	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No		SOURCEPAGE:Fro								
+Conjure Ice Beast VII				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Cold	CLASSES:Cleric=7|Druid=7	COMPS:V, S, DF	CASTTIME:1 full round	RANGE:Close	TARGETAREA:One or more conjured ice creatures, no two of which can be more than 30 ft. apart	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No		SOURCEPAGE:Fro								
+Conjure Ice Beast VIII				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Cold	CLASSES:Cleric=8|Druid=8	COMPS:V, S, DF	CASTTIME:1 full round	RANGE:Close	TARGETAREA:One or more conjured ice creatures, no two of which can be more than 30 ft. apart	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No		SOURCEPAGE:Fro								
+Conjure Ice Beast IX				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Cold	CLASSES:Cleric=9|Druid=9	COMPS:V, S, DF	CASTTIME:1 full round	RANGE:Close	TARGETAREA:One or more conjured ice creatures, no two of which can be more than 30 ft. apart	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No		SOURCEPAGE:Fro								
+																									
+																									
+																									
+																									
+###Block: Class Spell List																									
+Cause Fear.MOD	CLASSES:Disciple of Thrym=1																								
+Corrupt Weapon.MOD	CLASSES:Disciple of Thrym=1																								
+Detect fire.MOD	CLASSES:Disciple of Thrym=1																								
+Divine Favor.MOD	CLASSES:Disciple of Thrym=1																								
+Doom.MOD	CLASSES:Disciple of Thrym=1																								
+Ease of Breath.MOD	CLASSES:Disciple of Thrym=1																								
+Frostburn (Lesser).MOD	CLASSES:Disciple of Thrym=1																								
+Magic Weapon.MOD	CLASSES:Disciple of Thrym=1																								
+Obscuring Mist.MOD	CLASSES:Disciple of Thrym=1																								
+Protection from Good.MOD	CLASSES:Disciple of Thrym=1																								
+Protection from Law.MOD	CLASSES:Disciple of Thrym=1																								
+Shivering Touch (Lesser).MOD	CLASSES:Disciple of Thrym=1																								
+Blood Snow.MOD	CLASSES:Disciple of Thrym=2																								
+Bull's Strength.MOD	CLASSES:Disciple of Thrym=2																								
+Chill Metal.MOD	CLASSES:Disciple of Thrym=2																								
+Conjure Ice Object.MOD	CLASSES:Disciple of Thrym=2																								
+Eagle's Splendor.MOD	CLASSES:Disciple of Thrym=2																								
+Fog Cloud.MOD	CLASSES:Disciple of Thrym=2																								
+Frost Weapon.MOD	CLASSES:Disciple of Thrym=2																								
+Zone of Glacial cold.MOD	CLASSES:Disciple of Thrym=2																								
+Binding Snow.MOD	CLASSES:Disciple of Thrym=3																								
+Ice Shape.MOD	CLASSES:Disciple of Thrym=3																								
+Aura of Cold (Lesser).MOD	CLASSES:Disciple of Thrym=3																								
+Meld into Ice.MOD	CLASSES:Disciple of Thrym=3																								
+Shivering touch.MOD	CLASSES:Disciple of Thrym=3																								
+Sleet Storm.MOD	CLASSES:Disciple of Thrym=3																								
+Boreal Wind.MOD	CLASSES:Disciple of Thrym=4																								
+Glacial globe of Invulnerability.MOD	CLASSES:Disciple of Thrym=4																								
+Frostburn.MOD	CLASSES:Disciple of Thrym=4																								
+Hibernal Healing.MOD	CLASSES:Disciple of Thrym=4																								
+Summon Giants.MOD	CLASSES:Disciple of Thrym=4																								
+Dispel Fire.MOD	CLASSES:Disciple of Thrym=5																								
+Dispel Good.MOD	CLASSES:Disciple of Thrym=5																								
+Dispel Law.MOD	CLASSES:Disciple of Thrym=5																								
+Entomb.MOD	CLASSES:Disciple of Thrym=5																								
+Frostbite.MOD	CLASSES:Disciple of Thrym=5																								
+Ice Storm.MOD	CLASSES:Disciple of Thrym=5																								
+Stoneskin.MOD	CLASSES:Disciple of Thrym=5																								
+Wall of Ice.MOD	CLASSES:Disciple of Thrym=5																								
+# .MOD	CLASSES:Disciple of Thrym=5																								

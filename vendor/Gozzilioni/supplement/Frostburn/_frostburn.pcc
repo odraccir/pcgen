@@ -32,7 +32,7 @@ CLASS:fro_classes.lst
 COMPANIONMOD:fro_companionmods.lst
 COMPANIONMOD:fro_companionmods_PH.lst|PRECAMPAIGN:1,Planar Handbook
 DEITY:fro_deities.lst
-# DOMAIN:fro_domains.lst
+DOMAIN:fro_domains.lst
 EQUIPMENT:fro_equip.lst
 # EQUIPMENT:fro_equip_armors_specific.lst
 # EQUIPMENT:fro_equip_magic_items.lst
