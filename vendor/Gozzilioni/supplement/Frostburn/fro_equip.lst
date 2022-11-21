@@ -42,8 +42,9 @@ Iceberg			TYPE:Goods.Transportation.Container	COST:0	WT:0	CONTAINS:1000000|Any=U
 Skyberg			TYPE:Goods.Transportation.Container	COST:0	WT:0	CONTAINS:1000000|Any=UNLIM	SOURCEPAGE:Fro													
 Ship (Coldfire)			TYPE:Goods.Transportation.Ships.Container	COST:500000	WT:0	CONTAINS:200000|Any=UNLIM	SOURCEPAGE:Fro	EQMOD:ICEKEEL_TRANSP|CFENGINE_TRANSP												
 
-
-
+###Block:Spell Component						
+Hammer caverd from salt crystal		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:Fro	
+Ship (glass)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:200	WT:0	SOURCEPAGE:Fro	
 
 
 

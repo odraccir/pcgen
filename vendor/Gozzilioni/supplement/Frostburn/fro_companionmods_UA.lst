@@ -1,0 +1,34 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
+
+###Block: Standard Companions										
+FOLLOWER:AugmentedSummoning=1	TYPE:Summon the Entombed	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Summon the Entombed	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Summon the Entombed	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+
+FOLLOWER:AugmentedSummoning=1	TYPE:Conjure Ice Beast I	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Conjure Ice Beast I	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Conjure Ice Beast I	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Conjure Ice Beast II	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Conjure Ice Beast II	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Conjure Ice Beast II	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Conjure Ice Beast III	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Conjure Ice Beast III	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Conjure Ice Beast III	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Conjure Ice Beast IV	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Conjure Ice Beast IV	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Conjure Ice Beast IV	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Conjure Ice Beast V	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Conjure Ice Beast V	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Conjure Ice Beast V	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Conjure Ice Beast VI	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Conjure Ice Beast VI	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Conjure Ice Beast VI	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Conjure Ice Beast VII	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Conjure Ice Beast VII	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Conjure Ice Beast VII	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Conjure Ice Beast VIII	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Conjure Ice Beast VIII	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Conjure Ice Beast VIII	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=1	TYPE:Conjure Ice Beast IX	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
+FOLLOWER:AugmentedSummoning=10	TYPE:Conjure Ice Beast IX	BONUS:STAT|STR|2	BONUS:STAT|CON|2
+FOLLOWER:AugmentedSummoning=20	TYPE:Conjure Ice Beast IX	BONUS:STAT|STR|2	BONUS:STAT|CON|2

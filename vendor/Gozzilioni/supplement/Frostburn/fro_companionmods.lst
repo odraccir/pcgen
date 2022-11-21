@@ -2,10 +2,6 @@ SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCED
 
 ###Block: Standard Companions										
 FOLLOWER:SummonTheEntombedLVL=1	TYPE:Summon the Entombed
-FOLLOWER:AugmentedSummoning=1	TYPE:Summon the Entombed	BONUS:HP|CURRENTMAX|HD	BONUS:COMBAT|AC|1|TYPE=Competence							
-FOLLOWER:AugmentedSummoning=10	TYPE:Summon the Entombed	BONUS:STAT|STR|2	BONUS:STAT|CON|2
-FOLLOWER:AugmentedSummoning=20	TYPE:Summon the Entombed	BONUS:STAT|STR|2	BONUS:STAT|CON|2
-									
 
 # Class of the Master	Type									
 ###Block:Familiar Bonus to Master										
@@ -47,4 +43,16 @@ FOLLOWER:RimefireBondLVL=1	TYPE:Rimefire Bond	BONUS:VAR|MindAffectingResistanceB
 
 ###Block:Rimefire Bond Bonus to Master										
 MASTERBONUSRACE:Rimefire Eidolon	TYPE:Rimefire Bond	BONUS:VAR|MindAffectingResistanceBonus,DeathEffectsResistanceBonus|2|TYPE=Morale	ABILITY:Special Ability|AUTOMATIC|Resistance To Mind-Affecting|Resistance To Death Effects			
+
+FOLLOWER:ConjureIceBeastI=1	TYPE:Conjure Ice Beast I	TEMPLATE:Ice Beast
+FOLLOWER:ConjureIceBeastII=1	TYPE:Conjure Ice Beast II	TEMPLATE:Ice Beast
+FOLLOWER:ConjureIceBeastIII=1	TYPE:Conjure Ice Beast III	TEMPLATE:Ice Beast
+FOLLOWER:ConjureIceBeastIV=1	TYPE:Conjure Ice Beast IV	TEMPLATE:Ice Beast
+FOLLOWER:ConjureIceBeastV=1	TYPE:Conjure Ice Beast V	TEMPLATE:Ice Beast
+FOLLOWER:ConjureIceBeastVI=1	TYPE:Conjure Ice Beast VI	TEMPLATE:Ice Beast
+FOLLOWER:ConjureIceBeastVII=1	TYPE:Conjure Ice Beast VII	TEMPLATE:Ice Beast
+FOLLOWER:ConjureIceBeastVIII=1	TYPE:Conjure Ice Beast VIII	TEMPLATE:Ice Beast
+FOLLOWER:ConjureIceBeastIX=1	TYPE:Conjure Ice Beast IX	TEMPLATE:Ice Beast
+
+FOLLOWER:SummonGiants=1	TYPE:Summon Giants
 

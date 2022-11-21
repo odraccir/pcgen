@@ -31,6 +31,7 @@ CLASS:fro_classes.lst
 # CLASS:fro_classes_sanctified.lst
 COMPANIONMOD:fro_companionmods.lst
 COMPANIONMOD:fro_companionmods_PH.lst|PRECAMPAIGN:1,Planar Handbook
+COMPANIONMOD:fro_companionmods_UA.lst|PRECAMPAIGN:1,Unearthed Arcana
 DEITY:fro_deities.lst
 DOMAIN:fro_domains.lst
 EQUIPMENT:fro_equip.lst
