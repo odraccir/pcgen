@@ -1,0 +1,10 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09																						
+																									
+#																									
+###Block: Epic spells																									
+# Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus
+Energy Emanation				TYPE:Power	SCHOOL:Psychokinesis		DESCRIPTOR:See text	CLASSES:Psion=2|Wilder=2|Psychic Warrior=2	COMPS:Vi	CASTTIME:1 standard action	RANGE:5-ft	TARGETAREA:5-ft radius emanation, centered on you.	DURATION:1 round/level	SAVEINFO:Fortitude half	SPELLRES:Yes	DESC:Deals 1d6 points of chosen energy damage to creatures surrounding you.	SOURCEPAGE:Fro					DESC:Power Points: 3			
+Energy Flash				TYPE:Power	SCHOOL:Psychokinesis		DESCRIPTOR:See text	CLASSES:Psion=4|Wilder=4	COMPS:Vi	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Touched creature, or up to 1 cu ft of water/level.	DURATION:Instantaneous	SAVEINFO:Fortitude half	SPELLRES:Yes	DESC:Touch deals 7d6 of chosen energy damage to fie.	SOURCEPAGE:Fro								
+Energy Nullification Field				TYPE:Power	SCHOOL:Psychokinesis		DESCRIPTOR:See text	CLASSES:Kineticist=5	COMPS:Vi, Au	CASTTIME:1 standard action	RANGE:10 ft	TARGETAREA:10-ft radius emanation, centered on you.	DURATION:10 minutes/level	SAVEINFO:None	SPELLRES:No	DESC:Suppresses psionic powers with chosen energy descriptor.	SOURCEPAGE:Fro								
+Mind over Energy				TYPE:Power	SCHOOL:Psychometabolism			CLASSES:Psion=6|Wilder=6|Psychic Warrior=6	COMPS:Vi	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:Gain brief immunity to chosen energy type.	SOURCEPAGE:Fro								
+Slow Breathing				TYPE:Power	SCHOOL:Psychometabolism			CLASSES:Psion=1|Wilder=1|Psychic Warrior=1	COMPS:Vi	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:1 hour/level	SAVEINFO:None (harmless)	SPELLRES:No	DESC:Gain a +4 competence bonus on saving throws against altitude sickness.	SOURCEPAGE:Fro								
