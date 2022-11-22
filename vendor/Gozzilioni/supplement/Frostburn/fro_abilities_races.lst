@@ -1,5 +1,5 @@
-SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
-
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09																														
+																																	
 ###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
 Race Traits ~ Neanderthal	CATEGORY:Internal				BONUS:VAR|AdvancementByClass|1																		ABILITY:Special Ability|AUTOMATIC|Neanderthal Racial Traits	ABILITY:Neanderthal Subrace|AUTOMATIC|Neanderthal ~ Common|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice									
 Race Traits ~ Uldras	CATEGORY:Internal				BONUS:VAR|AdvancementByClass|1																		ABILITY:Special Ability|AUTOMATIC|Uldras Racial Traits	ABILITY:Uldras Subrace|AUTOMATIC|Uldras ~ Common|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice									
@@ -37,3 +37,7 @@ Frosty Touch	CATEGORY:Special Ability	TYPE:UldrasRaceTrait.RaceTrait.SpecialQual
 Spell-Like Abilities	CATEGORY:Special Ability	TYPE:UldrasRaceTrait.RaceTrait.SpecialQuality.SpellLike	VISIBLE:YES		KEY:Uldras ~ Spell-Like Abilities																		SPELLS:Innate|TIMES=3|CASTERLEVEL=TL|Ray of Frost,10+CHA	SPELLS:Innate|TIMES=1|CASTERLEVEL=TL|Speak with Animals|Touch of Fatigue,10+CHA								SOURCEPAGE:Fro	
 Languages	CATEGORY:Special Ability	TYPE:UldrasRaceTrait.RaceTrait.SpecialQuality	VISIBLE:YES	DESC:Common and Sylvan. Bonus Languages: All. Uldras are gifted linguists, and the Speak Language skill is always a class skill for them.	KEY:Uldras ~ Languages																		TEMPLATE:Uldras ~ Uldras ~ Languages	CSKILL:Speak Language								SOURCEPAGE:Fro	
 Favored Class	CATEGORY:Special Ability	TYPE:UldrasRaceTrait.RaceTrait.SpecialQuality	VISIBLE:YES	DESC:Druid. A multiclass uldra's druid class does not count when determining whether he takes an experience point penalty for multiclassing.	KEY:Uldras ~ Favored Class																		TEMPLATE:Uldras ~ Uldras ~ Favored Class									SOURCEPAGE:Fro	
+																																	
+###Block: Race Traits																																	
+Race Traits ~ Branta	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=BrantaRaceTrait	BONUS:VAR|DarkvisionRange|60|TYPE=Racial	BONUS:VAR|HasLowLightVision|1|TYPE=Racial																												
+Improved Grab	CATEGORY:Special Ability	TYPE:BrantaRaceTrait.SpecialAttack.Extraordinary.Improved Grab	VISIBLE:YES	DESC:To use this ability, the branta must hit a Medium or smaller foe with a gore attack. If it gets a hold, it tosses its opponent..	KEY:Branta ~ Improved Grab																											SOURCEPAGE:Fro	

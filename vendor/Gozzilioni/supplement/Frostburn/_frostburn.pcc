@@ -39,7 +39,7 @@ EQUIPMENT:fro_equip.lst
 # EQUIPMENT:fro_equip_magic_items.lst
 EQUIPMENT:fro_equip_weapons.lst
 # EQUIPMENT:fro_equip_weapons_natural.lst
-# EQUIPMENT:fro_equip_weapons_specific.lst
+EQUIPMENT:fro_equip_weapons_specific.lst
 # # EQUIPMENT:mm2_equip_weapons_natural.lst
 EQUIPMOD:fro_equipmods.lst
 ABILITY:fro_feats.lst
