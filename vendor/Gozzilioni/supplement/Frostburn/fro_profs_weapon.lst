@@ -1,0 +1,19 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
+
+### Weapon/Spell			
+### Simple/Martial/Exotic			
+### Melee/Ranged			
+### Bludgeoning/Piercing/Slashing			
+### Reach/Double/Thrown/Projectile/Ammunition			
+### Unharmed/Light/OneHanded/TwoHanded			
+Ice Axe	TYPE:Martial.Exotic.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing.OneHanded.Axe
+Iuak	TYPE:Exotic.Melee.Slashing.MeleeSlashing.OneHanded
+Tigerskull Club	TYPE:Exotic.Melee.Bludgeoning.Piercing.MeleeBludgeoning.MeleePiercing.OneHanded.Club
+Goad	TYPE:Exotic.Melee.Bludgeoning.Piercing.MeleeBludgeoning.MeleePiercing.TwoHanded
+Ritiik	TYPE:Exotic.Melee.Piercing.MeleePiercing.TwoHanded
+Sugliin	TYPE:Exotic.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing.TwoHanded
+Bone Bow	TYPE:Martial.Ranged.Piercing.RangedPiercing.Twohanded.Bow	HANDS:2	
+Glot	TYPE:Exotic.Ranged.Bludgeoning.RangedBludgeoning.TwoHanded
+Harpoon	TYPE:Exotic.Ranged.Piercing.RangedPiercing.TwoHanded
+Icechucker	TYPE:Exotic.Ranged.Piercing.RangedPiercing.TwoHanded
+Razor Skipdisk	TYPE:Exotic.Ranged.Slashing.RangedSlashing.TwoHanded

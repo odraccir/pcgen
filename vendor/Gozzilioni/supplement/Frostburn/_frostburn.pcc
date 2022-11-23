@@ -50,8 +50,8 @@ RACE:fro_races.lst
 RACE:fro_races_companion.lst
 SKILL:fro_skills.lst
 SPELL:fro_spells.lst
-SPELL:fro_spells_ELH.lst|PRECAPAIGN:1,Epic Level Handbook
-SPELL:fro_spells_EPH.lst|PRECAPAIGN:1,Expanded Psionic Handbook
+SPELL:fro_spells_ELH.lst|PRECAMPAIGN:1,Epic Level Handbook
+SPELL:fro_spells_EPH.lst|PRECAMPAIGN:1,Expanded Psionic Handbook
 SPELL:fro_spells_specific.lst
 ABILITY:fro_subraces.lst
 TEMPLATE:fro_templates.lst

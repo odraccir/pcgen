@@ -5,10 +5,47 @@ Neanderthal			STARTFEATS:1	SIZE:M	TYPE:Humanoid	RACETYPE:Humanoid			MOVE:Walk,30
 Uldras			STARTFEATS:1	SIZE:S	TYPE:Fey	RACETYPE:Fey			MOVE:Walk,20						FACE:5	REACH:5	ABILITY:Internal|AUTOMATIC|Race Traits ~ Uldras										CR:1/2				LEGS:2	HANDS:2	SOURCEPAGE:Fro	KIT:1|Uldras Stats																											LEVELADJUSTMENT:1			
 																																																																
 ###Block: Races																																																																
-Branta			STARTFEATS:1	SIZE:L	TYPE:Magical Beast	RACETYPE:Magical Beast	RACESUBTYPE:Cold	MONSTERCLASS:Magical Beast:3	MOVE:Walk,50	BONUS:COMBAT|AC|3|TYPE=NaturalArmor	NATURALATTACKS:Gore,Weapon.Natural.Finesseable.Melee.Piercing,*1,1d8|Hoof,Weapon.Natural.Finesseable.Melee.Bludgeoning,*2				FACE:10	REACH:5	ABILITY:Internal|AUTOMATIC|Race Traits ~ Branta			BONUS:STAT|STR|8	BONUS:STAT|DEX|4	BONUS:STAT|CON|6	BONUS:STAT|INT|-8	BONUS:STAT|WIS|2	BONUS:STAT|CHA|-4	MONCSKILL:Balance|Jump|Listen|Spot	CR:2	KIT:1|TN	HITDICEADVANCEMENT:6		LEGS:4	HANDS:0	SOURCEPAGE:Fro	KIT:1|Branta Stats																														
+Branta			STARTFEATS:1	SIZE:L	TYPE:Magical Beast	RACETYPE:Magical Beast	RACESUBTYPE:Cold	MONSTERCLASS:Magical Beast:3	MOVE:Walk,50	BONUS:COMBAT|AC|3|TYPE=NaturalArmor	NATURALATTACKS:Gore,Weapon.Natural.Finesseable.Melee.Piercing,*1,1d8|Hoof,Weapon.Natural.Finesseable.Melee.Bludgeoning,*2,1d4				FACE:10	REACH:5	ABILITY:Internal|AUTOMATIC|Race Traits ~ Branta			BONUS:STAT|STR|8	BONUS:STAT|DEX|4	BONUS:STAT|CON|6	BONUS:STAT|INT|-8	BONUS:STAT|WIS|2	BONUS:STAT|CHA|-4	MONCSKILL:Balance|Jump|Listen|Spot	CR:2	KIT:1|TN	HITDICEADVANCEMENT:6		LEGS:4	HANDS:0	SOURCEPAGE:Fro	KIT:1|Branta Stats																														
+Chilblain			STARTFEATS:1	SIZE:L	TYPE:Aberration	RACETYPE:Aberration	RACESUBTYPE:Cold	MONSTERCLASS:Aberration:20	MOVE:Walk,30,Fly,60	BONUS:COMBAT|AC|23|TYPE=NaturalArmor	NATURALATTACKS:Tail Slap,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,4d6|Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Cold,*4,1d8				FACE:10	REACH:10	ABILITY:Internal|AUTOMATIC|Race Traits ~ Chilblain	SR:29	DR:15/Silver	BONUS:STAT|STR|18	BONUS:STAT|DEX|6	BONUS:STAT|CON|14	BONUS:STAT|INT|-6	BONUS:STAT|WIS|4	BONUS:STAT|CHA|9	MONCSKILL:Concentration|Intimidate|Listen|Spot	CR:18		HITDICEADVANCEMENT:30,45		LEGS:4	HANDS:4	SOURCEPAGE:Fro	KIT:1|Chilblain Stats																														
+Dire Animal (Dire Polar Bear)			STARTFEATS:1	SIZE:H	TYPE:Animal	RACETYPE:Animal	RACESUBTYPE:Dire	MONSTERCLASS:Animal (Dire):18	MOVE:Walk,50,Swim,20	BONUS:COMBAT|AC|11|TYPE=NaturalArmor	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,2d6|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,3d8				FACE:15	REACH:10	ABILITY:Internal|AUTOMATIC|Race Traits ~ Dire Animal (Dire Polar Bear)			BONUS:STAT|STR|28		BONUS:STAT|CON|12	BONUS:STAT|INT|-8	BONUS:STAT|WIS|2		MONCSKILL:Hide|Listen|Spot|Swim	CR:11		HITDICEADVANCEMENT:36,45		LEGS:4	HANDS:3	SOURCEPAGE:Fro	KIT:1|Dire Animal (Dire Polar Bear) Stats																														
+Glyptodon			STARTFEATS:1	SIZE:L	TYPE:Animal	RACETYPE:Animal		MONSTERCLASS:Animal:10	MOVE:Walk,20,Burrow,5	BONUS:COMBAT|AC|10|TYPE=NaturalArmor	NATURALATTACKS:Tail Slap,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,2d6|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d4				FACE:10	REACH:5	ABILITY:Internal|AUTOMATIC|Race Traits ~ Glyptodon		DR:5/Piercing	BONUS:STAT|STR|10	BONUS:STAT|DEX|-2	BONUS:STAT|CON|6	BONUS:STAT|INT|-8	BONUS:STAT|WIS|2	BONUS:STAT|CHA|-4	MONCSKILL:Listen|Spot|Swim	CR:5		HITDICEADVANCEMENT:15,30		LEGS:4	HANDS:0	SOURCEPAGE:Fro	KIT:1|Glyptodon Stats																														
+Megaloceros			STARTFEATS:1	SIZE:L	TYPE:Animal	RACETYPE:Animal		MONSTERCLASS:Animal:6	MOVE:Walk,40	BONUS:COMBAT|AC|4|TYPE=NaturalArmor	NATURALATTACKS:Gore,Weapon.Natural.Melee.Finesseable.Piercing,*1,1d8				FACE:10	REACH:5	ABILITY:Internal|AUTOMATIC|Race Traits ~ Megaloceros			BONUS:STAT|STR|10	BONUS:STAT|DEX|2	BONUS:STAT|CON|6	BONUS:STAT|INT|-8		BONUS:STAT|CHA|-2	MONCSKILL:Listen|Spot	CR:4		HITDICEADVANCEMENT:12,18		LEGS:4	HANDS:0	SOURCEPAGE:Fro	KIT:1|Megaloceros Stats																														
+Smilodon			STARTFEATS:1	SIZE:L	TYPE:Animal	RACETYPE:Animal		MONSTERCLASS:Animal:9	MOVE:Walk,40	BONUS:COMBAT|AC|4|TYPE=NaturalArmor	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,2d6|Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d6				FACE:10	REACH:5	ABILITY:Internal|AUTOMATIC|Race Traits ~ Smilodon			BONUS:STAT|STR|14	BONUS:STAT|DEX|4	BONUS:STAT|CON|6	BONUS:STAT|INT|-8	BONUS:STAT|WIS|4	BONUS:STAT|CHA|-4	MONCSKILL:Balance|Hide|Jump|Listen|Move Silently|Spot	CR:5		HITDICEADVANCEMENT:18		LEGS:4	HANDS:0	SOURCEPAGE:Fro	KIT:1|Smilodon Stats																														
+Wolly Mammoth			STARTFEATS:1	SIZE:H	TYPE:Animal	RACETYPE:Animal		MONSTERCLASS:Animal:14	MOVE:Walk,40	BONUS:COMBAT|AC|10|TYPE=NaturalArmor	NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,2d6|Stamp,Weapon.Natural.Melee.Finesseable.Bludgeoning,*2,2d6	NATURALATTACKS:Gore,Weapon.Natural.Melee.Finesseable.Piercing,*1,2d10			FACE:15	REACH:10	ABILITY:Internal|AUTOMATIC|Race Traits ~ Wolly Mammoth			BONUS:STAT|STR|24	BONUS:STAT|DEX|-2	BONUS:STAT|CON|14	BONUS:STAT|INT|-8	BONUS:STAT|WIS|2	BONUS:STAT|CHA|-4	MONCSKILL:Listen|Spot	CR:9		HITDICEADVANCEMENT:20,28		LEGS:4	HANDS:0	SOURCEPAGE:Fro	KIT:1|Wolly Mammoth Stats																														
+Zeuglodon			STARTFEATS:1	SIZE:G	TYPE:Animal	RACETYPE:Animal		MONSTERCLASS:Animal:15	MOVE:Swim,40	BONUS:COMBAT|AC|11|TYPE=NaturalArmor	NATURALATTACKS:Tail Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,4d6|Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,4d6				FACE:20	REACH:15	ABILITY:Internal|AUTOMATIC|Race Traits ~ Zeuglodon			BONUS:STAT|STR|28	BONUS:STAT|DEX|2	BONUS:STAT|CON|18	BONUS:STAT|INT|-8		BONUS:STAT|CHA|-4	MONCSKILL:Listen|Spot|Swim	CR:9		HITDICEADVANCEMENT:30,45		LEGS:0	HANDS:0	SOURCEPAGE:Fro	KIT:1|Zeuglodon Stats																														
+Domovoi		FAVCLASS:Rogue	STARTFEATS:1	SIZE:S	TYPE:Fey	RACETYPE:Fey	RACESUBTYPE:Fire	MONSTERCLASS:Fey:2	MOVE:Walk,20	BONUS:COMBAT|AC|2|TYPE=NaturalArmor	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d3				FACE:5	REACH:5	ABILITY:Internal|AUTOMATIC|Race Traits ~ Domovoi			BONUS:STAT|STR|-2	BONUS:STAT|DEX|4	BONUS:STAT|CON|2	BONUS:STAT|INT|4	BONUS:STAT|WIS|6	BONUS:STAT|CHA|6	MONCSKILL:Balance|Escape Artist|Hide|Jump|Listen|Move Silently|Sleight of Hand|Spot|Tumble|Use Rope	CR:1		HITDICEADVANCEMENT:6	LEVELADJUSTMENT:4	LEGS:2	HANDS:2	SOURCEPAGE:Fro	KIT:1|Domovoi Stats																														
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
+																																																																
 																																																																
 																																																																
 ###Block: Companions																																																																
+Animal (Leopard).COPY=Animal (Leopard (Snow))																																																																
 Animal (Hawk).COPY=Animal (Hawk)	KEY:Animal (Gyrfalcon)																																																															
 Animal (Gyrfalcon).MOD	OUTPUTNAME:Animal (Gyrfalcon)																																																															
 Animal (Rat).COPY=Animal (Rat)	KEY:Animal (Lemming)																																																															
@@ -16,4 +53,4 @@ Animal (Lemming).MOD	OUTPUTNAME:Animal (Lemming)
 Animal (Owl).COPY=Animal (Owl)	KEY:Animal (Owl (Snow))																																																															
 Animal (Owl (Snow)).MOD	OUTPUTNAME:Animal (Owl (Snow))																																																															
 Animal (Raven).COPY=Animal (Raven)	KEY:Animal (Puffin)																																																															
-Animal (Puffin).MOD	OUTPUTNAME:Animal (Lemming)																																																															
+Animal (Puffin).MOD	OUTPUTNAME:Animal (Puffin)																																																															

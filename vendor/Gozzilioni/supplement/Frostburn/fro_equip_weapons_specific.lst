@@ -1,4 +1,4 @@
 SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
 
 ###Block:Magic Weapons
-Pick of Iceparting			PROFICIENCY:WEAPON|Pick (Heavy)	TYPE:Enhancing.Weapon.Melee.Martial.Piercing.OneHanded.Pick	COST:30000	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x4	EQMOD:STEEL.WOOD.PLUS2_W.BANE_M_SUB|Subtype (Cold)	SOURCEPAGE:PHB	SPROP:can score critical hits against creatures of the cold subtype normally immune to critical hits.										
+Pick of Iceparting			PROFICIENCY:WEAPON|Pick (Heavy)	TYPE:Enhancing.Weapon.Melee.Martial.Piercing.OneHanded.Pick	COST:30000	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x4	EQMOD:STEEL.WOOD.PLUS2W.BANE_M_SUB|Subtype (Cold)	SOURCEPAGE:PHB	SPROP:can score critical hits against creatures of the cold subtype normally immune to critical hits.										

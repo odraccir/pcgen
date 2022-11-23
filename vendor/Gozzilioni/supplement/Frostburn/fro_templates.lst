@@ -14,13 +14,15 @@ Ice	VISIBLE:NO	KEY:Ice Gnome	SUBRACE:Ice
 Tundra	VISIBLE:NO	KEY:Tundra Halfling	SUBRACE:Tundra																						
 Common	VISIBLE:NO	KEY:Common Neanderthal
 Common	VISIBLE:NO	KEY:Common Uldras
-
+Common	VISIBLE:NO	KEY:Common Domovoi	
 #
 Favored Class	KEY:Halfling ~ Tundra ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger
 Languages	KEY:Neanderthal ~ Neanderthal ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:Dwarven,Giant,Orc
 Favored Class	KEY:Neanderthal ~ Neanderthal ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Barbarian
 Languages	KEY:Uldras ~ Uldras ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Sylvan	LANGBONUS:ALL
 Favored Class	KEY:Uldras ~ Uldras ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Druid
+Languages	KEY:Domovoi ~ Domovoi ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Ignan|Sylvan	LANGBONUS:Dwarven,Giant,Gnome,Goblin,Halfling
+Favored Class	KEY:Domovoi ~ Domovoi ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue
 
 Beackon the Frozen ~ Cold	VISIBLE:NO	RACESUBTYPE:Cold
 Winter's Mount ~ Cold	VISIBLE:NO	RACESUBTYPE:Cold
