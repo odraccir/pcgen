@@ -6,6 +6,7 @@
 *.jar
 *.log
 *.lck
+*.tsv
 *.properties
 bin/**/*
 conf/**/*
@@ -23,6 +24,7 @@ settings/**/*
 system/**/*
 vendor_file/**/*
 vendordata/**/*
+vendor/**/*.tsv
 autobuild.properties
 config.ini
 LICENSE
