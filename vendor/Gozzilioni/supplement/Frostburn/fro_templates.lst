@@ -15,6 +15,7 @@ Tundra	VISIBLE:NO	KEY:Tundra Halfling	SUBRACE:Tundra
 Common	VISIBLE:NO	KEY:Common Neanderthal
 Common	VISIBLE:NO	KEY:Common Uldras
 Common	VISIBLE:NO	KEY:Common Domovoi	
+Common	VISIBLE:NO	KEY:Common Frost Folk	
 #
 Favored Class	KEY:Halfling ~ Tundra ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger
 Languages	KEY:Neanderthal ~ Neanderthal ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:Dwarven,Giant,Orc
@@ -23,6 +24,8 @@ Languages	KEY:Uldras ~ Uldras ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Sylvan	LAN
 Favored Class	KEY:Uldras ~ Uldras ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Druid
 Languages	KEY:Domovoi ~ Domovoi ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Ignan|Sylvan	LANGBONUS:Dwarven,Giant,Gnome,Goblin,Halfling
 Favored Class	KEY:Domovoi ~ Domovoi ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue
+Languages	KEY:Frost Folk ~ Frost Folk ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:Auran,Draconic,Dwarven,Giant,Goblin,Orc
+Favored Class	KEY:Frost Folk ~ Frost Folk ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Barbarian
 
 Beackon the Frozen ~ Cold	VISIBLE:NO	RACESUBTYPE:Cold
 Winter's Mount ~ Cold	VISIBLE:NO	RACESUBTYPE:Cold

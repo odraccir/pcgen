@@ -4,11 +4,13 @@ SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCED
 Race Traits ~ Neanderthal	CATEGORY:Internal				BONUS:VAR|AdvancementByClass|1																		ABILITY:Special Ability|AUTOMATIC|Neanderthal Racial Traits	ABILITY:Neanderthal Subrace|AUTOMATIC|Neanderthal ~ Common|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice									
 Race Traits ~ Uldras	CATEGORY:Internal				BONUS:VAR|AdvancementByClass|1																		ABILITY:Special Ability|AUTOMATIC|Uldras Racial Traits	ABILITY:Uldras Subrace|AUTOMATIC|Uldras ~ Common|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice									
 Race Traits ~ Domovoi	CATEGORY:Internal																						ABILITY:Special Ability|AUTOMATIC|Domovoi Racial Traits	ABILITY:Domovoi Subrace|AUTOMATIC|Domovoi ~ Common|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice									
+Race Traits ~ Frost Folk	CATEGORY:Internal																						ABILITY:Special Ability|AUTOMATIC|Frost Folk Racial Traits	ABILITY:Frost Folk Subrace|AUTOMATIC|Frost Folk ~ Common|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice									
 																																	
 ###Block: Racial Assigned (assigned by race trait)																																	
 Neanderthal Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:DISPLAY		KEY:Neanderthal Racial Traits																												
 Uldras Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:DISPLAY		KEY:Uldras Racial Traits																												
 Domovoi Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:DISPLAY		KEY:Domovoi Racial Traits																												
+Frost Folk Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:DISPLAY		KEY:Frost Folk Racial Traits																												
 																																	
 ###Block: Traits																																	
 # Dwarf ~ Glacier																																	
@@ -43,6 +45,18 @@ Favored Class	CATEGORY:Special Ability	TYPE:UldrasRaceTrait.RaceTrait.SpecialQua
 Spell-Like Abilities	CATEGORY:Special Ability	TYPE:DomovoiRaceTrait.RaceTrait.SpecialQuality.SpellLike	VISIBLE:YES		KEY:Domovoi ~ Spell-Like Abilities																		SPELLS:Innate|TIMES=ATILL|CASTERLEVEL=TL|Produce Flame|Pyrotechnics,12+CHA	SPELLS:Innate|TIMES=3|CASTERLEVEL=TL|Flaming Sphere,12+CHA								SOURCEPAGE:Fro	
 Slippery	CATEGORY:Special Ability	TYPE:DomovoiRaceTrait.RaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:A domovoi’s coating of ashes and soot makes it difficult to hang onto. A domovoi gains a +2 racial bonus on any Escape Artist checks or grapple checks. This bonus is included in the statistics given above.	KEY:Domovoi ~ Slippery									BONUS:SKILL|Escape Artist|2|TYPE=Racial																		SOURCEPAGE:Fro	
 Low-Light Vision	CATEGORY:Special Ability	TYPE:DomovoiRaceTrait.RaceTrait.SpecialQuality	VISIBLE:YES		KEY:Domovoi ~ Low-Light Vision									BONUS:VAR|HasLowLightVision|1|TYPE=Base																		SOURCEPAGE:Fro	
+Languages	CATEGORY:Special Ability	TYPE:DomovoiRaceTrait.RaceTrait.SpecialQuality	VISIBLE:YES	DESC:Common, Ignan, Sylvan. Bonus Languages: Dwarven, Giant, Gnome, Goblin, Halfl ing.	KEY:Domovoi ~ Languages																		TEMPLATE:Domovoi ~ Domovoi ~ Languages									SOURCEPAGE:Fro	
+Favored Class	CATEGORY:Special Ability	TYPE:DomovoiRaceTrait.RaceTrait.SpecialQuality	VISIBLE:YES	DESC:Rogue. A multiclass domovoi's rogue class does not count when determining whether he takes an experience point penalty for multiclassing.	KEY:Domovoi ~ Favored Class																		TEMPLATE:Domovoi ~ Domovoi ~ Favored Class									SOURCEPAGE:Fro	
+#Frost Folk ~ Common																																	
+Ice Blast	CATEGORY:Special Ability	TYPE:FrostFolkRaceTrait.RaceTrait.SpecialAttack.Supernatural	VISIBLE:YES	DESC:Frost folk can produce a 20-foot cone of icy mist from their left eye. This deals 2d6 points of cold damage to all creatures within the area (Refl ex save DC %1 half). The save DC is Constitution based. Once a frost folk uses his ice blast, he must wait 1d4 rounds before he can use this ability again.|IceBlastDC	KEY:Frost Folk ~ Ice Blast				DEFINE:IceBlastDC					BONUS:VAR|IceBlastDC|DefaultDCCon	BONUS:VAR|IceBlastDC|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Ice Blast)								ABILITY:Ability Focus|AUTOMATIC|Ice Blast									SOURCEPAGE:Fro	
+Snowsight	CATEGORY:Special Ability	TYPE:FrostFolkRaceTrait.RaceTrait.SpecialQuality.Extraordinary	VISIBLE:YES	DESC:All frost folk have innate snowsight, as the spell. No snowstorm can obscure their vision.	KEY:Frost Folk ~ Snowsight																											SOURCEPAGE:Fro	
+Skills	CATEGORY:Special Ability	TYPE:FrostFolkRaceTrait.RaceTrait.SpecialQuality	VISIBLE:YES	DESC:*All frost folk gain a +8 racial bonus on Hide checks in snow and ice terrain.	KEY:Frost Folk ~ Skills																											SOURCEPAGE:Fro	
+Languages	CATEGORY:Special Ability	TYPE:FrostFolkRaceTrait.RaceTrait.SpecialQuality	VISIBLE:YES	DESC:Common. Bonus Languages: Auran, Draconic, Dwarven, Giant, Goblin, Orc.	KEY:Frost Folk ~ Languages																		TEMPLATE:Frost Folk ~ Frost Folk ~ Languages									SOURCEPAGE:Fro	
+Favored Class	CATEGORY:Special Ability	TYPE:FrostFolkRaceTrait.RaceTrait.SpecialQuality	VISIBLE:YES	DESC:Barbarian. A multiclass frost folk's barbarian class does not count when determining whether he takes an experience point penalty for multiclassing.	KEY:Frost Folk ~ Favored Class																		TEMPLATE:Frost Folk ~ Frost Folk ~ Favored class									SOURCEPAGE:Fro	
+																																	
+																																	
+																																	
+																																	
 																																	
 ###Block: Race Traits																																	
 Race Traits ~ Branta	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=BrantaRaceTrait	BONUS:VAR|DarkvisionRange|60|TYPE=Racial	BONUS:VAR|HasLowLightVision|1|TYPE=Racial																												
