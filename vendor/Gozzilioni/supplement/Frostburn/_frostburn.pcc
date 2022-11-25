@@ -23,6 +23,7 @@ ABILITY:fro_abilities_classes.lst
 ABILITY:fro_abilities_FF.lst|PRECAMPAIGN:1,Fiend folio
 ABILITY:fro_abilities_MM2.lst|PRECAMPAIGN:1,Monster Manual 2
 ABILITY:fro_abilities_races.lst
+ABILITY:fro_abilities_racetraits.lst
 ABILITY:fro_abilities_regions.lst
 # ABILITY:fro_abilities_templates.lst
 ABILITYCATEGORY:fro_abilitycategories.lst
@@ -44,7 +45,7 @@ EQUIPMENT:fro_equip_weapons_specific.lst
 EQUIPMOD:fro_equipmods.lst
 ABILITY:fro_feats.lst
 KIT:fro_kits.lst
-# LANGUAGE:fro_languages.lst
+LANGUAGE:fro_languages.lst
 # WEAPONPROF:fro_profs_weapon.lst
 RACE:fro_races.lst
 RACE:fro_races_companion.lst

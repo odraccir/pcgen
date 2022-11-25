@@ -65,3 +65,22 @@ STAT:STR=10|DEX=10|CON=11|INT=10|WIS=10|CHA=11
 
 STARTPACK:Domovoi Stats	TYPE:DefaultMonster.Fey	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Domovoi
 STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+
+STARTPACK:Dwarf (Midgard) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Dwarf (Midgard)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Dwarf (Midgard) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Dwarf (Midgard)
+GEAR:Chain Shirt	EQMOD:PLUS2W	SIZE:S	LOCATION:Equipped
+GEAR:Battleaxe	EQMOD:PLUS2W	SIZE:S	
+GEAR:Crossbow (Light)	EQMOD:PLUS1W	SIZE:S	
+GEAR:Ring of Protection +1			LOCATION:Equipped
+
+STARTPACK:Elemental Weird (Ice Weird) Stats	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Elemental Weird (Ice Weird)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Elemental Weird (Snow Weird) Stats	TYPE:DefaultMonster.Elemental	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Elemental Weird (Snow Weird)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Entombed Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Entombed
+STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=10
+

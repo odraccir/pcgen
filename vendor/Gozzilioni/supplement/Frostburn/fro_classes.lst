@@ -217,38 +217,42 @@ CLASS:Winterhaunt of Iborighu	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|In
 #														
 11	PREPCLEVEL:MIN=20													
 
+CLASS:Ice Weird	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:Fro	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:ElementalLVL|0	BONUS:VAR|ElementalLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/2)
+CLASS:Ice Weird	PRERACETYPE:Elemental	PRERACE:1,Elemental Weird (Ice Weird)	OUTPUTNAME:Elemental	VISIBLE:NO										
+CLASS:Ice Weird	STARTSKILLPTS:2	MODTOSKILLS:YES												
+1	ADD:SPELLCASTER|Sorcerer/Cleric	ABILITY:Internal|AUTOMATIC|Sorcerer/Cleric Class
+1	BONUS:ABILITYPOOL|Monster Domains|3	BONUS:VAR|ChaosDomainAllowed,ColdDomainAllowed,LawDomainAllowed|1|TYPE=Base
+2	BONUS:PCLEVEL|Sorcerer/Cleric|1
+3	BONUS:PCLEVEL|Sorcerer/Cleric|1
+4	BONUS:PCLEVEL|Sorcerer/Cleric|1
+5	BONUS:PCLEVEL|Sorcerer/Cleric|1	BONUS:PCLEVEL|Sorcerer/Cleric|1
+6	BONUS:PCLEVEL|Sorcerer/Cleric|1
+7	BONUS:PCLEVEL|Sorcerer/Cleric|1
+8	BONUS:PCLEVEL|Sorcerer/Cleric|1
+9	BONUS:PCLEVEL|Sorcerer/Cleric|1
+10	BONUS:PCLEVEL|Sorcerer/Cleric|1	BONUS:PCLEVEL|Sorcerer/Cleric|1
+11	BONUS:PCLEVEL|Sorcerer/Cleric|1
+12	BONUS:PCLEVEL|Sorcerer/Cleric|1
+13	BONUS:PCLEVEL|Sorcerer/Cleric|1
+14	BONUS:PCLEVEL|Sorcerer/Cleric|1
+15	BONUS:PCLEVEL|Sorcerer/Cleric|1	BONUS:PCLEVEL|Sorcerer/Cleric|1
 
-
-
-CLASS:Barbarian.MOD	MAXLEVEL:NOLIMIT													
-21				ABILITY:Barbarian Class Feature|AUTOMATIC|Barbarian ~ Epic Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.BarbarianEpicFeat										
-														
-CLASS:Bard.MOD	MAXLEVEL:NOLIMIT													
-21				ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Epic Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.BardEpicFeat										
-														
-CLASS:Cleric.MOD	MAXLEVEL:NOLIMIT													
-21				ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Epic Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.ClericEpicFeat										
-														
-CLASS:Druid.MOD	MAXLEVEL:NOLIMIT													
-21				ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Epic Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidEpicFeat										
-														
-CLASS:Fighter.MOD	MAXLEVEL:NOLIMIT													
-21				ABILITY:Fighter Class Feature|AUTOMATIC|Fighter ~ Epic Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.FighterEpicFeat										
-														
-CLASS:Monk.MOD	MAXLEVEL:NOLIMIT													
-21				ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Epic Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkEpicFeat										
-														
-CLASS:Paladin.MOD	MAXLEVEL:NOLIMIT													
-21				ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Epic Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinEpicFeat										
-														
-CLASS:Ranger.MOD	MAXLEVEL:NOLIMIT													
-21				ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Epic Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.RangerEpicFeat										
-														
-CLASS:Rogue.MOD	MAXLEVEL:NOLIMIT													
-21				ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Epic Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.RogueEpicFeat										
-														
-CLASS:Sorcerer.MOD	MAXLEVEL:NOLIMIT													
-21				ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Epic Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.SorcererEpicFeat										
-														
-CLASS:Wizard.MOD	MAXLEVEL:NOLIMIT													
-21				ABILITY:Wizard Class Feature|AUTOMATIC|Wizard ~ Epic Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.WizardEpicFeat										
+CLASS:Snow Weird	HD:8	TYPE:Monster		MAXLEVEL:NOLIMIT	SOURCEPAGE:Fro	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:ElementalLVL|0	BONUS:VAR|ElementalLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/2)
+CLASS:Snow Weird	PRERACETYPE:Elemental	PRERACE:1,Elemental Weird (Snow Weird)	OUTPUTNAME:Elemental	VISIBLE:NO										
+CLASS:Snow Weird	STARTSKILLPTS:2	MODTOSKILLS:YES												
+1	ADD:SPELLCASTER|Sorcerer/Cleric	ABILITY:Internal|AUTOMATIC|Sorcerer/Cleric Class
+1	BONUS:ABILITYPOOL|Monster Domains|2	BONUS:VAR|AirDomainAllowed,ColdDomainAllowed|1|TYPE=Base
+2	BONUS:PCLEVEL|Sorcerer/Cleric|1
+3	BONUS:PCLEVEL|Sorcerer/Cleric|1
+4	BONUS:PCLEVEL|Sorcerer/Cleric|1
+5	BONUS:PCLEVEL|Sorcerer/Cleric|1	BONUS:PCLEVEL|Sorcerer/Cleric|1
+6	BONUS:PCLEVEL|Sorcerer/Cleric|1
+7	BONUS:PCLEVEL|Sorcerer/Cleric|1
+8	BONUS:PCLEVEL|Sorcerer/Cleric|1
+9	BONUS:PCLEVEL|Sorcerer/Cleric|1
+10	BONUS:PCLEVEL|Sorcerer/Cleric|1	BONUS:PCLEVEL|Sorcerer/Cleric|1
+11	BONUS:PCLEVEL|Sorcerer/Cleric|1
+12	BONUS:PCLEVEL|Sorcerer/Cleric|1
+13	BONUS:PCLEVEL|Sorcerer/Cleric|1
+14	BONUS:PCLEVEL|Sorcerer/Cleric|1
+15	BONUS:PCLEVEL|Sorcerer/Cleric|1	BONUS:PCLEVEL|Sorcerer/Cleric|1
