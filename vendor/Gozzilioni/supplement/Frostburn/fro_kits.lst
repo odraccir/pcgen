@@ -84,3 +84,39 @@ STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
 STARTPACK:Entombed Stats	TYPE:DefaultMonster.Undead	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Entombed
 STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=10
 
+STARTPACK:Frost Folk Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Frost Folk
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Frost Folk Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Frost Folk
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Frost Folk Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Frost Folk
+GEAR:Studded Leather		SIZE:M	LOCATION:Equipped
+GEAR:Shield (Wooden)		SIZE:M
+GEAR:Battleaxe		SIZE:M	
+GEAR:Longbow Composite	EQMOD:BOWSTR|2
+
+STARTPACK:Genie (Qorrashi) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Genie (Qorrashi)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Genie (Qorrashi) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Genie (Qorrashi)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Giant (Frost) Mauler Standard Equip	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Giant (Frost)
+CLASS:Barbarian	LEVEL:2
+GEAR:Chain shirt		SIZE:L	LOCATION:Equipped
+
+STARTPACK:Giant (Frost) Spiritspeaker Standard Equip	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Giant (Frost)
+GEAR:Breastplate		SIZE:L	LOCATION:Equipped
+GEAR:Shield (Heavy)		SIZE:L
+GEAR:Battleaxe
+
+STARTPACK:Giant (Frost) Tundra Scout Standard Equip	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Giant (Frost)
+GEAR:Chain Shirt	EQMOD:MWORKA	SIZE:L	LOCATION:Equipped
+GEAR:Longspear		SIZE:L
+
+STARTPACK:Golem (Ice) Stats	TYPE:DefaultMonster.Construct	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Golem (Ice)
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Ice Toad Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ice Toad
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=11

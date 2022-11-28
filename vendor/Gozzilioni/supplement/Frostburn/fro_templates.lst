@@ -16,7 +16,7 @@ Common	VISIBLE:NO	KEY:Common Neanderthal
 Common	VISIBLE:NO	KEY:Common Uldras
 Common	VISIBLE:NO	KEY:Common Domovoi	
 Common	VISIBLE:NO	KEY:Common Frost Folk	
-Snow	VISIBLE:NO	KEY:Snow Goblin	SUBRACE:Snow	
+Snow	VISIBLE:NO	KEY:Snow Goblin	SUBRACE:Snow	LEVELADJUSTMENT:1
 #
 Favored Class	KEY:Halfling ~ Tundra ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger
 Languages	KEY:Neanderthal ~ Neanderthal ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:Dwarven,Giant,Orc
@@ -44,3 +44,5 @@ Winterhaunt of Iborighu ~ Cold Subtype	VISIBLE:NO	RACESUBTYPE:Cold ABILITY:Speci
 Winterhaunt of Iborighu ~ Wintry Apotheosys	VISIBLE:NO	RACETYPE:Elemental RACESUBTYPE:Evil	BONUS:VAR|DarkvisionRange|60|TYPE=Base	SOURCEPAGE:Fro
 
 Ring of the Icy Soul ~ Cold subtype	VISIBLE:NO	RACESUBTYPE:Cold	ABILITY:Special Ability|AUTOMATIC|Immunity To Cold
+
+Ice Beast	TYPE:Acquired	VISIBLE:YES	!PRERACE:1,RACETYPE=Undead	!PRERACE:1,RACESUBTYPE=Fire	!PRERACE:1,RACESUBTYPE=Incorporeal	RACETYPE:Construct	HITDIE:10	BONUS:COMBAT|AC|1|TYPE=NaturalArmor|PRESIZELTEQ:T	BONUS:COMBAT|AC|2|TYPE=NaturalArmor|PRESIZEEQ:S	BONUS:COMBAT|AC|4|TYPE=NaturalArmor|PRESIZEEQ:M	BONUS:COMBAT|AC|6|TYPE=NaturalArmor|PRESIZEEQ:L	BONUS:COMBAT|AC|8|TYPE=NaturalArmor|PRESIZEEQ:H	BONUS:COMBAT|AC|11|TYPE=NaturalArmor|PRESIZEEQ:G	BONUS:COMBAT|AC|15|TYPE=NaturalArmor|PRESIZEEQ:C	TEMPLATE:CHOOSE:Claw (Fine)|Claw (Diminutive)|Claw (Tiny)|Claw (Small)|Claw (Medium)|Claw (Large)|Claw (Huge)|Claw (Gargantuan)|Claw (Colossal)	ABILITY:Special Ability|AUTOMATIC|Ice Beast ~ Cold Aura|Ice Beast ~ Engulf|Ice Beast ~ Frigid Touch|Ice Beast ~ Ice Breath	RACESUBTYPE:Cold	DEFINE:IceBeastDR|0	DR:IceBeastDR/Magic	BONUS:VAR|IceBeastDR|5|PREHD:MIN=5	BONUS:VAR|IceBeastDR|5|PREHD:MIN=10	BONUS:VAR|IceBeastDR|5|PREHD:MIN=20	BONUS:SAVE|BASE.Fortitude|HD/3	BONUS:SAVE|BASE.Reflex|HD/3	BONUS:SAVE|BASE.Will|HD/3	DEFINESTAT:NONSTAT|CON	DEFINESTAT:NONSTAT|INT	DEFINESTAT:LOCK|WIS|10	DEFINESTAT:LOCK|CHA|1	CR:1	KIT:1|TN	

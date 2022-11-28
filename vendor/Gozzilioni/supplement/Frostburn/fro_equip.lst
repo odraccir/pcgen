@@ -80,3 +80,5 @@ Skull		TYPE:Skull.Consumable	COST:0	WT:0	SOURCEPAGE:FF	MODS:REQUIRED
 ###Block:Staff
 Staff of the Iceberg	KEY:Staff (Iceberg)	TYPE:Staff.Weapon.Melee.Simple.Bludgeoning.TwoHanded.Double.Quarterstaff	COST:138000	WT:5	SOURCEPAGE:Fro	EQMOD:CHARGED_ITEM_50|CHARGES[50].WOOD.PLUS2W.FROST_BURST_M	SPROP:Snow walk (1 charge)/Entomb (2 charges)/Ice ship (2 charges)/Ice castle (3 charges)/Iceberg (5 charges).	PROFICIENCY:WEAPON|Quarterstaff	WIELD:TwoHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2			ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.PLUS2W.FROST_BURST_M					
 Staff of Winter	KEY:Staff (Winter)	TYPE:Staff	COST:58000	WT:5	SOURCEPAGE:Fro	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Boreal wind (1 charge)/Obscuring snow (1 charge)/Winter’s embrace (1 charge)/Whiteout (2 charges)
+
+Golem (Ice)		KEY:Golem ~ Ice	TYPE:Monster.Construct.Container	COST:60000	WT:0	SOURCEPAGE:Fro	CONTAINS:UNLIM|Any	SPROP:CL 10th; Craft Construct (see page 303), ice shape,wall of ice and animate snow or cone of cold, caster must be at least 10th level.
