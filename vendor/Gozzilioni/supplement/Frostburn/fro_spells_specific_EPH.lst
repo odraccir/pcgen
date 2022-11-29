@@ -1,0 +1,8 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
+
+#																																							
+# Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus														
+Energy Emanation.COPY=Energy Emanation	KEY:Energy Emanation ~ Cold only
+Energy Emanation ~ Cold only.MOD	OUTPUTNAME:Energy Emanation	DESC:Cold only.
+Energy Flash.COPY=Energy Flash	KEY:Energy Flash ~ Cold only
+Energy Flash ~ Cold only.MOD	OUTPUTNAME:Energy Flash	DESC:Cold only.
