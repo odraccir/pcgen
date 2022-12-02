@@ -4,3 +4,5 @@ SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCED
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus														
 Speak with Animals.COPY=Speak with Animals	KEY:Ice Gnome ~ Speak with Animals																																						
 Ice Gnome ~ Speak with Animals.MOD	OUTPUTNAME:Speak with Animals (Arctic mammal only)	DURATION:1 Minute																																					
+Summon Giants.COPY=Summon Giants	KEY:Summon Giants ~ Frost Giants only
+Summon Giants ~ Frost Giants only	OUTPUTNAME:Summon Giants	DESC:Frost Giants only

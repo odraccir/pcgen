@@ -92,12 +92,9 @@ STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
 
 STARTPACK:Frost Folk Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Frost Folk
 GEAR:Studded Leather		SIZE:M	LOCATION:Equipped
-GEAR:Shield (Wooden)		SIZE:M
+GEAR:Shield (Heavy/Wood)		SIZE:M
 GEAR:Battleaxe		SIZE:M	
-GEAR:Longbow Composite	EQMOD:BOWSTR|2
-
-STARTPACK:Genie (Qorrashi) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Genie (Qorrashi)
-STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+GEAR:Longbow (Composite)	EQMOD:BOWSTR|2
 
 STARTPACK:Genie (Qorrashi) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Genie (Qorrashi)
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
@@ -108,7 +105,7 @@ GEAR:Chain shirt		SIZE:L	LOCATION:Equipped
 
 STARTPACK:Giant (Frost) Spiritspeaker Standard Equip	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Giant (Frost)
 GEAR:Breastplate		SIZE:L	LOCATION:Equipped
-GEAR:Shield (Heavy)		SIZE:L
+GEAR:Shield (Heavy/Steel)		SIZE:L
 GEAR:Battleaxe
 
 STARTPACK:Giant (Frost) Tundra Scout Standard Equip	TYPE:DefaultMonster.Giant	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Giant (Frost)
@@ -129,3 +126,30 @@ STAT:STR=11|DEX=10|CON=11|INT=11|WIS=10|CHA=10
 
 STARTPACK:Marzanna Stats	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Marzanna
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Ooze (White) Stats	TYPE:DefaultMonster.Ooze	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Ooze (White) Stats
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Raven (Giant) Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Raven (Giant)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Rimefire Eidolon Stats	TYPE:DefaultMonster.Fey	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Rimefire Eidolon
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=11|CHA=10
+
+STARTPACK:Rusalka Stats	TYPE:DefaultMonster.Fey	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Rusalka
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Shivhad Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Shivhad
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Snowcloak Stats	TYPE:DefaultMonster.Aberration	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Snowcloak
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=11|CHA=10
+
+STARTPACK:Snow Spider (Small) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Snow Spider (Small)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Snow Spider (Medium) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Snow Spider (Medium)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=10
+
+STARTPACK:Snow Spider (Large) Stats	TYPE:DefaultMonster.Vermin	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Snow Spider (Large)
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=10

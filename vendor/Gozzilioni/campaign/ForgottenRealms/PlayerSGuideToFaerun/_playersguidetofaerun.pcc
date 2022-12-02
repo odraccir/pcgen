@@ -78,7 +78,7 @@ FORWARDREF:SPELL|Rushing Waters,Sanctuary (Mass),Weighed in the Balance,Word of 
 
 FORWARDREF:EQMOD|BOOK_WATER_PRF,BOOK_FIRE_PRF,BOOK_LOCK
 
-HIDETYPE:FEAT|DivineChampion,ShadowThiefOfAmn,SpellfireHierophant
+HIDETYPE:FEAT|DivineChampion|ShadowThiefOfAmn|SpellfireHierophant
 
 # ENTRY DATE: 2016-07
 # LST MONKEY: Riccardo

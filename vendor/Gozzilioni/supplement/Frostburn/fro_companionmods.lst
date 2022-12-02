@@ -37,7 +37,7 @@ FOLLOWER:IcyCalling=1	TYPE:Summon the Entombed	BONUS:STAT|STR|4|TYPE=Enhancement
 ###Block: Winter's Mount
 FOLLOWER:WinterSMount=1	TYPE:Special Mount	TEMPLATE:Winter's Mount ~ Cold	ABILITY:Special Ability|AUTOMATIC|Immunity To Cold	BONUS:STAT|CON|2|TYPE=Racial.STACK
 ###BLOCK:Knight of the Iron Glacier
-FOLLOWER:KnightOfTheIronGlacierMount=1	TYPE:Special Mount	TEMPLATE:Warbeast[PRERACE:1,Megaloceros]
+FOLLOWER:KnightOfTheIronGlacierMount=1	TYPE:Special Mount	TEMPLATE:Knight of the Chalice ~ Mount
 ###BLOCK:Rimefire Bond
 FOLLOWER:RimefireBondLVL=1	TYPE:Rimefire Bond	BONUS:VAR|MindAffectingResistanceBonus,DeathEffectsResistanceBonus|2|TYPE=Morale	ABILITY:Special Ability|AUTOMATIC|Resistance To Mind-Affecting|Resistance To Death Effects			
 

@@ -18,7 +18,7 @@ CLASS:Cloud Anchorite	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE.Cr
 4				ABILITY:Cloud Anchorite Class Feature|AUTOMATIC|Cloud Anchorite ~ Fast Movement|!PREABILITY:1,CATEGORY=ACF,TYPE.CloudAnchoriteFastMovement										
 5				ABILITY:Cloud Anchorite Class Feature|AUTOMATIC|Cloud Anchorite ~ Empty Stride|!PREABILITY:1,CATEGORY=ACF,TYPE.CloudAnchoriteEmptyStride										
 6				ABILITY:Cloud Anchorite Class Feature|AUTOMATIC|Cloud Anchorite ~ Acrobatic Charge|!PREABILITY:1,CATEGORY=ACF,TYPE.CloudAnchoriteAcrobaticCharge										
-9				ABILITY:Cloud Anchorite Class Feature|AUTOMATIC|Cloud Anchorite ~ Walk on the Cloud|!PREABILITY:1,CATEGORY=ACF,TYPE.CloudAnchoriteWalkOnTheCloud										
+9				ABILITY:Cloud Anchorite Class Feature|AUTOMATIC|Cloud Anchorite ~ Walk on the Clouds|!PREABILITY:1,CATEGORY=ACF,TYPE.CloudAnchoriteWalkOnTheClouds										
 10				ABILITY:Cloud Anchorite Class Feature|AUTOMATIC|Cloud Anchorite ~ Immortality of the Mountain|!PREABILITY:1,CATEGORY=ACF,TYPE.CloudAnchoriteImmortalityOfTheMountain										
 #														
 11	PREPCLEVEL:MIN=20													
