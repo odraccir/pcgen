@@ -66,10 +66,10 @@ Augmented Undead			CATEGORY:Internal		TYPE:AugmentedSubType.AugmentedSubTypeUnde
 Augmented Vermin			CATEGORY:Internal		TYPE:AugmentedSubType.AugmentedSubTypeVermin			TEMPLATE:RaceSubtype ~ Augmented Vermin																																																																																																																																																																																																																																																																																																															
 
 ###Block:Elemental Subtype
-CATEGORY:Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|Creature Elemental Subtype|PRERACE:1,%|PRERACE:1,RACESUBTYPE=Air,RACESUBTYPE=Earth,RACESUBTYPE=Fire,RACESUBTYPE=Water,RACESUBTYPE=Cold
-Creature Elemental Subtype	CATEGORY:Internal	TYPE:Internal	VISIBLE:NO	ABILITY:Special Ability
-CATEGORY:Internal|Creature Elemental Subtype.MOD	ABILITY:Special Ability|AUTOMATIC|Immunity to Cold|Vulnerability to Fire|PRERACE:1,RACESUBTYPE=Cold
-CATEGORY:Internal|Creature Elemental Subtype.MOD	ABILITY:Special Ability|AUTOMATIC|Immunity to Fire|Vulnerability to Cold|PRERACE:1,RACESUBTYPE=Fire
+CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|Creature Elemental Subtype|PRERACE:1,%|PRERACE:1,RACESUBTYPE=Air,RACESUBTYPE=Earth,RACESUBTYPE=Fire,RACESUBTYPE=Water,RACESUBTYPE=Cold
+Creature Elemental Subtype	CATEGORY:Internal	TYPE:Internal	VISIBLE:NO	SOURCEPAGE:Fro
+CATEGORY=Internal|Creature Elemental Subtype.MOD	ABILITY:Special Ability|AUTOMATIC|Immunity to Cold|Vulnerability to Fire|PRERACE:1,RACESUBTYPE=Cold
+CATEGORY=Internal|Creature Elemental Subtype.MOD	ABILITY:Special Ability|AUTOMATIC|Immunity to Fire|Vulnerability to Cold|PRERACE:1,RACESUBTYPE=Fire
 
 ###Block: Uncanny Dodge																																																																																																																																																																																																																																																																																																																							
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base|PREABILITY:1,CATEGORY=Special Ability,TYPE.Uncanny Dodge																																																																																																																																																																																																																																																																																																																						
