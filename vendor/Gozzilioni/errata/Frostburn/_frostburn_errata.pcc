@@ -1,0 +1,33 @@
+CAMPAIGN:Frostburn Errata
+GAMEMODE:G35e
+RANK:4
+TYPE:Gozzilioni.Partial.Errata
+SETTING:Heroes
+BOOKTYPE:Errata
+SOURCELONG:Frostburn Errata
+SOURCESHORT:Froe
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2006-02
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+
+PRECAMPAIGN:1,Frostburn
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:extrafile.txt
+
+ABILITY:froe_abilities_races.lst
+
+# ENTRY DATE: 2015-08
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

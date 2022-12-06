@@ -2,3 +2,4 @@ Frostbite
 Hypotermia
 Howl of the north effects
 Traps
+Blue Ice Plating: 1 inch thick; hardness 10; hp 20; break DC 26.
