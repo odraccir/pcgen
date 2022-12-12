@@ -1,5 +1,9 @@
 SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
 
+Craft (Iceworking)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Iceworking)	SOURCEPAGE:Fro	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Iceworking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=IceworkingTools																																										
+Craft (Iceworking)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Craft ~ Iceworking	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Iceworking).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Iceworking)"),1]																																									
+Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Iceworking|var("SKILL.Craft (Iceworking).MISC")	BONUS:SKILLRANK|Craft ~ Iceworking|skillinfo("TOTALRANK", "Craft (Iceworking)")																																									
+
 Search.MOD	SITUATION:Notice unusual icework																																																	
 Appraise.MOD	SITUATION:Snow, Ice or Frostfell object																																																	
 Balance.MOD	SITUATION:Mountains terrain

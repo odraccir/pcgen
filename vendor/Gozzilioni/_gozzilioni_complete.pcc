@@ -81,6 +81,7 @@ PCC:errata/MagicOfFaerun/_magicoffaerun_errata.pcc
 
 ###Other
 PCC:web/DAndDWiki/_danddwiki.pcc
+PCC:web/GiantITP/_giantitp.pcc
 
 # ENTRY DATE: 2015-08
 # LST MONKEY: Riccardo
