@@ -1,0 +1,46 @@
+###Block: New Racial Trait Blocks																								
+ABILITYCATEGORY:Neanderthal Race Trait	CATEGORY:Special Ability	TYPE:NeanderthalRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Uldras Race Trait	CATEGORY:Special Ability	TYPE:UldrasRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Domovoi Race Trait	CATEGORY:Special Ability	TYPE:DomovoiRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Frost Folk Race Trait	CATEGORY:Special Ability	TYPE:FrostFolkRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+																								
+# Subrace Support																								
+ABILITYCATEGORY:Neanderthal Subrace	CATEGORY:Internal	TYPE:NeanderthalSubrace.NeanderthalSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Uldras Subrace	CATEGORY:Internal	TYPE:UldrasSubrace.UldrasSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Domovoi Subrace	CATEGORY:Internal	TYPE:DomovoiSubrace.DomovoiSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Frost Folk Subrace	CATEGORY:Internal	TYPE:FrostFolkSubrace.FrostFolkSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+																								
+#Abilitygroup:Class Ability categories																								
+ABILITYCATEGORY:Cloud Anchorite Class Feature	CATEGORY:Special Ability	TYPE:CloudAnchoriteClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Cloud Anchorite Class Features			DISPLAYLOCATION:Class Features		
+ABILITYCATEGORY:Cryokineticist Class Feature	CATEGORY:Special Ability	TYPE:CryokineticistClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Cryokineticist Class Features			DISPLAYLOCATION:Class Features		
+ABILITYCATEGORY:Disciple of Thrym Class Feature	CATEGORY:Special Ability	TYPE:DiscipleOfThrymClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Disciple of Thrym Class Features			DISPLAYLOCATION:Class Features		
+ABILITYCATEGORY:Frost Mage Class Feature	CATEGORY:Special Ability	TYPE:FrostMageClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Frost Mage Class Features			DISPLAYLOCATION:Class Features		
+ABILITYCATEGORY:Frostrager Class Feature	CATEGORY:Special Ability	TYPE:FrostragerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Frostrager Class Features			DISPLAYLOCATION:Class Features		
+ABILITYCATEGORY:Knight of the Iron Glacier Class Feature	CATEGORY:Special Ability	TYPE:KnightOfTheIronGlacierClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Knight of the Iron Glacier Class Features			DISPLAYLOCATION:Class Features		
+ABILITYCATEGORY:Primeval Class Feature	CATEGORY:Special Ability	TYPE:PrimevalClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Primeval Class Features			DISPLAYLOCATION:Class Features		
+ABILITYCATEGORY:Rimefire Witch Class Feature	CATEGORY:Special Ability	TYPE:RimefireWitchClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Rimefire Witch Class Features			DISPLAYLOCATION:Class Features		
+ABILITYCATEGORY:Stormsinger Class Feature	CATEGORY:Special Ability	TYPE:StormsingerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Stormsinger Class Features			DISPLAYLOCATION:Class Features		
+ABILITYCATEGORY:Winterhaunt of Iborighu Class Feature	CATEGORY:Special Ability	TYPE:WinterhauntOfIborighuClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Winterhaunt of Iborighu Class Features			DISPLAYLOCATION:Class Features		
+																								
+#Other Abilitygroups																								
+ABILITYCATEGORY:Cloud Anchorite Feat	CATEGORY:FEAT	TYPE:CloudAnchorite	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Cloud Anchorite Feats			DISPLAYLOCATION:Feats		
+ABILITYCATEGORY:Gain Knowledge	CATEGORY:Special Ability	TYPE:GainKnowledge	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Gain Knowledges			DISPLAYLOCATION:Class Features		
+ABILITYCATEGORY:Primeval Form	CATEGORY:Special Ability	TYPE:PrimevalForm	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Primeval Forms			DISPLAYLOCATION:Class Features		
+
+#BLOCK:Companions
+ABILITYCATEGORY:Rimefire Bond Class Feature	CATEGORY:Special Ability	TYPE:RimefireBondClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Rimefire Bond Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Rimefire Bond Selection	CATEGORY:Internal	TYPE:RimefireBondSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Rimefire Bond Choice			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Summon the Entombed Selection	CATEGORY:Internal	TYPE:SummonTheEntombedSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Summon the Entombed Choice			DISPLAYLOCATION:Misc
+
+ABILITYCATEGORY:Turn Fire Frostfell	CATEGORY:Special Ability	TYPE:TurnFire.RebukeCold	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Turn Fire			DISPLAYLOCATION:Class Features
+
+ABILITYCATEGORY:Conjure Ice Beast I Selection	CATEGORY:Internal	TYPE:ConjureIceBeastISelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Conjure Ice Beast I Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Conjure Ice Beast II Selection	CATEGORY:Internal	TYPE:ConjureIceBeastIISelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Conjure Ice Beast II Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Conjure Ice Beast III Selection	CATEGORY:Internal	TYPE:ConjureIceBeastIIISelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Conjure Ice Beast III Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Conjure Ice Beast IV Selection	CATEGORY:Internal	TYPE:ConjureIceBeastIVSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Conjure Ice Beast IV Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Conjure Ice Beast V Selection	CATEGORY:Internal	TYPE:ConjureIceBeastVSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Conjure Ice Beast V Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Conjure Ice Beast VI Selection	CATEGORY:Internal	TYPE:ConjureIceBeastVISelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Conjure Ice Beast VI Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Conjure Ice Beast VII Selection	CATEGORY:Internal	TYPE:ConjureIceBeastVIISelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Conjure Ice Beast VII Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Conjure Ice Beast VIII Selection	CATEGORY:Internal	TYPE:ConjureIceBeastVIIISelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Conjure Ice Beast VIII Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Conjure Ice Beast IX Selection	CATEGORY:Internal	TYPE:ConjureIceBeastIXSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Conjure Ice Beast IX Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Summon Giants Selection	CATEGORY:Internal	TYPE:SummonGiantsSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Summon Giants Choice			DISPLAYLOCATION:Misc

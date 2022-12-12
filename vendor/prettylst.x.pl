@@ -754,7 +754,7 @@ my %tag_fix_value = (
 	STACK			=> { YES => 1, NO => 1 },
 	SPELLBOOK		=> { YES => 1, NO => 1 },
 	SPELLSTAT		=> { map { $_ => 1 } ( @valid_system_stats, 'SPELL', 'NONE', 'OTHER' ) },
-	TIMEUNIT		=> { map { $_ => 1 } ( 'Year', 'Month', 'Week', 'Day', 'Hour', 'Minute', 'Round', 'Encounter', 'Charges' ) },
+	TIMEUNIT		=> { map { $_ => 1 } ( 'Year', 'Month', 'Week', 'Day', 'Hour', 'Minute', 'Round', 'Encounter', 'Charges', '2 rounds' ) },
 	USEUNTRAINED	=> { YES => 1, NO => 1 },
 	USEMASTERSKILL	=> { YES => 1, NO => 1 },
 	VISIBLE			=> { YES => 1, NO => 1, EXPORT => 1, DISPLAY => 1, QUALIFY => 1, CSHEET => 1, GUI => 1, ALWAYS => 1 }, #[ 1593907 ] False warning: Invalid value "CSHEET" for tag "VISIBLE"
@@ -2530,7 +2530,8 @@ my %master_order = (
 		'SA:.CLEAR',			#  Deprecated 6.05.01
 		'SA:*',			#  Deprecated 6.05.01
 		'RACE:*',			#  Deprecated 6.05.01
-        	'TYPE',
+			'TYPE',
+			'GROUP',
 	],
 
 	'DOMAIN' => [
@@ -15336,6 +15337,8 @@ sub warn_deprecate {
 		'Half-Orc' => [ 'AGE:14:1:4:1:6:2:6',   'HEIGHT:M:58:2:10:0:F:52:2:10:0',   'WEIGHT:M:130:2:4:F:90:2:4'	],
 		'Halfling' => [ 'AGE:20:2:4:3:6:4:6',   'HEIGHT:M:32:2:4:0:F:30:2:4:0',	'WEIGHT:M:30:1:1:F:25:1:1'	],
 		'Dromite' => [ 'AGE:30:1:4:1:6:2:6',   'HEIGHT:M:85:2:4:0:F:85:2:4:0',	'WEIGHT:M:30:1:1:F:30:1:1'	],
+		'Neanderthal' =>	[ 'AGE:14:1:4:1:6:3:6',   'HEIGHT:M:78:2:8:0:F:72:2:8:0',   'WEIGHT:M:200:2:4:F:150:2:4'	],
+		'Uldras' =>	[ 'AGE:100:3:6:5:6:8:6', 'HEIGHT:M:28:2:4:0:F:26:2:4:0',	'WEIGHT:M:25:1:4:F:20:1:4'	],
 		);
 
 		###############################################################

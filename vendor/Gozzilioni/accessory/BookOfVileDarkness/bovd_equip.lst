@@ -1,5 +1,5 @@
-SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10			
-						
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10
+
 ###Block:Torture Device						
 Torture Device (Branding Iron)		TYPE:Goods.TortureDevice	COST:2	WT:4	SOURCEPAGE:BoVD	SPROP:1d3 damage. +3 circumstance bonus on Intimidate during torture.
 Torture Device (Dagger)		TYPE:Goods.TortureDevice	COST:2	WT:1	SOURCEPAGE:BoVD	SPROP:2d4 damage. +4 circumstance bonus on Intimidate during torture.
@@ -113,5 +113,5 @@ Vrock feather		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:1	WT:0	SOUR
 Yugoloth brain		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:5	WT:0	SOURCEPAGE:BoVD	SPROP:10%% chance to allow no saving throw against its effect.
 
 #
-Mucus Pod		TYPE:Bracer	COST:0	WT:0	SOURCEPAGE:BoVD, 178	SPROP:A creature hit by the claw must succeed at a Reflex saving throw (DC 18) or be entangled in the mucus for 1d6+4 rounds.	PRERACE:1,RACESUBTYPE=Kython
+Mucus Pod		TYPE:Bracer	COST:0	WT:0	SOURCEPAGE:BoVD, 178	SPROP:A creature hit by the claw must succeed at a Reflex saving throw (DC 18) or be entangled in the mucus for 1d6+4 rounds.	PRERACE:1,RACESUBTYPE=Kython	SLOTS:2
 Phase Organ		TYPE:Headgear	COST:0	WT:0	SOURCEPAGE:BoVD, 178	SPROP:It allows the kython to become incorporeal (or corporeal again) as a free action. It cannot use this supernatural ability more than once per round.	PRERACE:1,RACESUBTYPE=Kython

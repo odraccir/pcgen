@@ -153,7 +153,7 @@ CLASS:Cerebremancer	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Scr
 10	ADD:SPELLCASTER|Arcane	ADD:SPELLCASTER|Psionic											
 
 CLASS:Elocater	HD:6	TYPE:PC.Prestige	FACT:Abb|Elo	MAXLEVEL:10	SOURCEPAGE:EPH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ElocaterLVL|0	BONUS:VAR|ElocaterLVL|CL	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
-CLASS:Elocater	PRETOTALAB:3	PRESKILL:1,Concentration=8	PREABILITY:2,CATEGORY=FEAT,Mobility,Spring Attack	PRESPELLCAST:TYPE=Psionic	PRETEXT:Able to manifest 1nd-level powers.								
+CLASS:Elocater	PRETOTALAB:3	PRESKILL:1,Concentration=8	PREABILITY:2,CATEGORY=FEAT,Mobility,Spring Attack	PRESPELLCAST:TYPE=Psionic	PRETEXT:Able to manifest 1st-level powers.								
 CLASS:Elocater	STARTSKILLPTS:6	CSKILL:Autohypnosis|Balance|Climb|Concentration|TYPE.Craft|Disable Device|Escape Artist|Gather Information|Hide|Jump|Knowledge (Local)|Knowledge (Psionics)|Listen|TYPE.Perform|TYPE.Profession|Psicraft|Search|Sense Motive|Sleight of Hand|Spot|Swim|Tumble|Use Psionic Device											
 1				ABILITY:Elocater Class Feature|AUTOMATIC|Elocater ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ElocaterProficiencies									
 1				ABILITY:Elocater Class Feature|AUTOMATIC|Elocater ~ Power Known									

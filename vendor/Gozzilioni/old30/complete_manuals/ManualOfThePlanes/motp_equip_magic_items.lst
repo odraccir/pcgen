@@ -1,76 +1,7 @@
 SOURCELONG:Manual of the Planes 3.0	SOURCESHORT:MotP30	SOURCEWEB:http://www.gozzilioni.net
 #																								
 # Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property																
-##Block: Potions																								
-# Potion (Magic Vestment +5)		TYPE:Potion.Flask.Consumable	COST:3000	WT:0	SOURCEPAGE:DMG																			
-																								
-##Block: Rings																								
-# Ring of Animal Friendship		TYPE:Ring	COST:10800	WT:0	SOURCEPAGE:DMG	SPELLS:Ring Animal Friendship|TIMES=ATWILL|CASTERLEVEL=3|Charm Animal																		
-																								
-##Block: Rods																								
-# Rod of Absorption		TYPE:Rod	COST:50000	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]																		
-																								
-##Block: Scrolls																								
-###Block: Arcane Level 0																								
-# Scroll (Acid Splash)		TYPE:Scroll.Arcane.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
-																								
-###Block: Arcane Level 1																								
-																								
-###Block: Arcane Level 2																								
-																								
-###Block: Arcane Level 3																								
-																								
-###Block: Arcane Level 4																								
-																								
-###Block: Arcane Level 5																								
-																								
-###Block: Arcane Level 6																								
-																								
-###Block: Arcane Level 7																								
-																								
-###Block: Arcane Level 8																								
-																								
-###Block: Arcane Level 9																								
-																								
-###Block: Divine Level 0																								
-# Scroll (Create Water)		TYPE:Scroll.Divine.Consumable	COST:12.5	WT:0.01	SOURCEPAGE:DMG																			
-																								
-###Block: Divine Level 1																								
-																								
-###Block: Divine Level 2																								
-																								
-###Block: Divine Level 3																								
-																								
-###Block: Divine Level 4																								
-																								
-###Block: Divine Level 5																								
-																								
-###Block: Divine Level 6																								
-																								
-###Block: Divine Level 7																								
-																								
-###Block: Divine Level 8																								
-																								
-###Block: Divine Level 9																								
-
-###Block: Staff
-# Staff of Abjuration	KEY:Staff (Abjuration)	TYPE:Staff	COST:65000	WT:5	SOURCEPAGE:DMG	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Shield (1 charge)/Resist energy (1 charge)/Dispel magic (1 charge)/Lesser globe of invulnerability (2 charges)/Dismissal (2 charges)/Repulsion (3 charges).																	
-
-###Block: Wand
-# Wand (Detect Magic)		TYPE:Wand	COST:375	WT:0.06	SOURCEPAGE:DMG	EQMOD:WOOD.CHARGED_ITEM_50|CHARGES[50]																		
-
 ###Block: Wondrous
 # Amulet of Health +2		TYPE:Wondrous.Amulet	COST:4000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|CON|2|TYPE=Enhancement																		
 Dimensional Sextant		TYPE:Wondrous	COST:21600	WT:2	SOURCEPAGE:MotP30, p.22
 Ethereal Tapestry		TYPE:Wondrous	COST:47520	WT:87	SOURCEPAGE:MotP30, p.59
-## Intelligent
-# Zax	OUTPUTNAME:Zax, Cloak of the King	TYPE:Wondrous.Cape	COST:36000	WT:1	SOURCEPAGE:DMG	BONUS:STAT|CHA|6|TYPE=Enhancement	EQMOD:INT_ITEM.CAPE_INT_ITEM_3.INT_ITEM_WIS_14.INT_ITEM_CHA_14.INT_ITEM_ALIGN_LN.INT_ITEM_ZONE_TRUTH.INT_ITEM_DIPLOMACY.INT_ITEM_KNOWLEDGE|Knowledge (History)
-
-## Cursed
-# Amulet of Inescapable Location		TYPE:Wondrous.Cursed.Amulet	COST:1000	WT:0	SOURCEPAGE:DMG	SPROP:Appears to be an Amulet of Proof against Detection and Location, but -10 penalty on all saves against divination spells.	EQMOD:CURSED_ITEM.AMLT_CURSED
-
-## Artifacts
-#Minor Artifacts
-# Book of Exalted Deeds		TYPE:Artifact.Minor.Book	COST:0	WT:3	SOURCEPAGE:DMG
-
-#Major Artifacts

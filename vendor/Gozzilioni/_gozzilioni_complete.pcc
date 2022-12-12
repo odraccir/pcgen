@@ -34,6 +34,7 @@ PCC:supplement/UnearthedArcana/_unearthedarcana.pcc
 PCC:supplement/CompleteDivine/_completedivine.pcc
 PCC:supplement/PlanarHandbook/_planarhandbook.pcc
 PCC:accessory/BookOfVileDarkness/_bookofviledarkness.pcc
+PCC:supplement/Frostburn/_frostburn.pcc
 
 PCC:houserules/_houserules.pcc
 
@@ -42,6 +43,7 @@ PCC:errata/CompleteDivine/_completedivine_errata.pcc
 PCC:errata/MonsterManual/_monstermanual_errata.pcc
 PCC:errata/ExpandedPsionicHandbook/_expandedpsionichandbook_errata.pcc
 PCC:errata/BookOfVileDarkness/_bookofviledarkness_errata.pcc
+PCC:errata/Frostburn/_frostburn_errata.pcc
 
 PCC:web/DragonMagazine/dragon082/_dragonmagazine082.pcc
 PCC:web/DragonMagazine/dragon312/_dragonmagazine312.pcc
@@ -79,6 +81,7 @@ PCC:errata/MagicOfFaerun/_magicoffaerun_errata.pcc
 
 ###Other
 PCC:web/DAndDWiki/_danddwiki.pcc
+PCC:web/GiantITP/_giantitp.pcc
 
 # ENTRY DATE: 2015-08
 # LST MONKEY: Riccardo

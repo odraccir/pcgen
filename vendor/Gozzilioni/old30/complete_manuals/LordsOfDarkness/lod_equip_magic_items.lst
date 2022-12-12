@@ -1,14 +1,8 @@
 SOURCELONG:Lords of Darkness 3.0	SOURCESHORT:LoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-10
 #							
 # Equipment Name	Output Name	TYPE:	COST:	WT:	SOURCEPAGE:		
-###Block: Potions							
-							
 ###Block: Rings							
 Ring of Antivenom		TYPE:Ring	COST:6750	WT:0	SOURCEPAGE:LoD30	EQMOD:CHARGED_ITEM_25|CHARGES[25]	
-							
-###Block: Rods							
-							
-###Block: Staff							
 							
 ###Block: Wondrous Items							
 Drow House Insignia (1st)		TYPE:Wondrous	COST:360	WT:0.5	SOURCEPAGE:LoD30		
@@ -22,11 +16,7 @@ Fire Elemental Gem V		TYPE:Wondrous.Consumable	COST:6000	WT:0	SOURCEPAGE:LoD30
 Fire Elemental Gem VI		TYPE:Wondrous.Consumable	COST:7650	WT:0	SOURCEPAGE:LoD30		
 Pifwafi (Greater)		TYPE:Wondrous.Cape	COST:6100	WT:1	SOURCEPAGE:LoD30	SPROP:Continuous Endure Energy (Fire)	BONUS:SKILL|Hide|5|TYPE=Competence
 							
-## Cursed							
-							
 ## Artifacts							
 #Minor Artifacts							
 Chardalyn		TYPE:Artifact.Minor	COST:0	WT:0	SOURCEPAGE:LoD30		ABILITY:Special Ability|VIRTUAL|Immunity to Fire|Immunity to Electricity
 							
-#Major Artifacts							
-

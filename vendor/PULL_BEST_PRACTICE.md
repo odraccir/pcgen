@@ -13,6 +13,10 @@ or
 > git push -u
 
 * modify the branch with the new feature
+* verify non-ASCII charachters 
+
+> regexp  [^\x00-\x7F]+
+
 * Commit
 
 > git commit -am 'Leave helpful description here'

@@ -1,5 +1,5 @@
-SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10																							
-																										
+SOURCELONG:Book of Vile Darkness	SOURCESHORT:BoVD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-10
+
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	DESC:	Bonus	Bonus	
 Aberrate				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Sorcerer=1|Wizard=1	COMPS:V, S, Fiend	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One living creature.	DURATION:10 min/level	SAVEINFO:Fort negates.	SPELLRES:Yes	DESC:Subject becomes an aberration.	SOURCEPAGE:BoVD									
 Absorb Mind				TYPE:Spell	SCHOOL:Divination		DESCRIPTOR:Evil	CLASSES:Corrupt=3	COMPS:V, S, F, Corrupt	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Caster.	DURATION:1 min/level	SAVEINFO:None	SPELLRES:No	DESC:Caster gains 25%% chance of knowing information in a brain eaten.	SOURCEPAGE:BoVD						DESC:Focus: A fresh or preserved (still bloody) 1-ounce portion of another creature's brain. Corruption Cost: 2d6 points of Wisdom damage.			

@@ -1,0 +1,55 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
+
+#																										
+# Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property																		
+Disease Damage (Cabin Fever)			VISIBLE:NO	SOURCEPAGE:Fro	TEMPVALUE:MIN=1|MAX=4|TITLE=Wisdom Damage		TEMPDESC:Confinment DC 12, Incubation 1 day, Damage 1d4 wis damage, Apply this temporary bonus each day the victim takes damage.																							TEMPBONUS:ANYPC|STAT|WIS|-1*(%CHOICE)
+Disease Damage (Coldfire Ruin)			VISIBLE:NO	SOURCEPAGE:Fro	TEMPVALUE:MIN=1|MAX=8|TITLE=Constitution Damage		TEMPDESC:Exposure DC 20, Incubation 1 day, Damage 1d8 con damage, Apply this temporary bonus each day the victim takes damage.																							TEMPBONUS:ANYPC|STAT|CON|-1*(%CHOICE)
+Disease Damage (Creeping Frost)			VISIBLE:NO	SOURCEPAGE:Fro	TEMPVALUE:MIN=1|MAX=4|TITLE=Dexterity Damage		TEMPDESC:Injury DC 16, Incubation 1 day, Damage 1d4 dex damage, Apply this temporary bonus each day the victim takes damage.																							TEMPBONUS:ANYPC|STAT|DEX|-1*(%CHOICE)
+Disease Damage (Winter Rot)			VISIBLE:NO	SOURCEPAGE:Fro	TEMPVALUE:MIN=1|MAX=6|TITLE=Strength Damage		TEMPDESC:Contect DC 20, Incubation 1d3 day, Damage 1d6 str damage, Apply this temporary bonus each day the victim takes damage.																							TEMPBONUS:ANYPC|STAT|STR|-1*(%CHOICE)
+
+####Block: Subraces
+Glacier	VISIBLE:NO	KEY:Glacier Dwarf	SUBRACE:Glacier																						
+Snow	VISIBLE:NO	KEY:Snow Elf	SUBRACE:Snow																						
+Ice	VISIBLE:NO	KEY:Ice Gnome	SUBRACE:Ice																						
+Tundra	VISIBLE:NO	KEY:Tundra Halfling	SUBRACE:Tundra																						
+Common	VISIBLE:NO	KEY:Common Neanderthal
+Common	VISIBLE:NO	KEY:Common Uldras
+Common	VISIBLE:NO	KEY:Common Domovoi	
+Common	VISIBLE:NO	KEY:Common Frost Folk	
+Snow	VISIBLE:NO	KEY:Snow Goblin	SUBRACE:Snow	LEVELADJUSTMENT:1
+#
+Favored Class	KEY:Halfling ~ Tundra ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger
+Languages	KEY:Neanderthal ~ Neanderthal ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:Dwarven,Giant,Orc
+Favored Class	KEY:Neanderthal ~ Neanderthal ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Barbarian
+Languages	KEY:Uldras ~ Uldras ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Sylvan	LANGBONUS:ALL
+Favored Class	KEY:Uldras ~ Uldras ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Druid
+Languages	KEY:Domovoi ~ Domovoi ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Ignan|Sylvan	LANGBONUS:Dwarven,Giant,Gnome,Goblin,Halfling
+Favored Class	KEY:Domovoi ~ Domovoi ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue
+Languages	KEY:Frost Folk ~ Frost Folk ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:Auran,Draconic,Dwarven,Giant,Goblin,Orc
+Favored Class	KEY:Frost Folk ~ Frost Folk ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Barbarian
+Languages	KEY:Goblin ~ Snow ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Goblin	LANGBONUS:Draconic,Giant,Orc
+Favored Class	KEY:Goblin ~ Snow ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter
+
+###Block: Feats
+Beackon the Frozen ~ Cold	VISIBLE:NO	RACESUBTYPE:Cold
+Winter's Mount ~ Cold	VISIBLE:NO	RACESUBTYPE:Cold
+
+Favored Class	KEY:Chosen of Iborighu ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Cleric
+Favored Class	KEY:Mark of Hleid ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Cleric
+
+###Block Class Templates
+Frost Mage ~ One with Cold	VISIBLE:NO	RACESUBTYPE:Cold	ABILITY:Special Ability|AUTOMATIC|Immunity to Cold	SOURCEPAGE:Fro
+Primeval ~ Primeval Shapechanger	VISIBLE:NO	RACETYPE:Magical Beast	RACESUBTYPE:Shapechanger	DR:10/Magic	SOURCEPAGE:Fro
+Rimefire Witch ~ Rimefire Apotheosys	VISIBLE:NO	RACETYPE:Fey	BONUS:VAR|HasLowLightVision|1|TYPE=Base	DR:5/Cold Iron	BONUS:STAT|CHA|2|TYPE=Racial	SOURCEPAGE:Fro
+Winterhaunt of Iborighu ~ Cold Subtype	VISIBLE:NO	RACESUBTYPE:Cold ABILITY:Special Ability|AUTOMATIC|Immunity to Cold	SOURCEPAGE:Fro
+Winterhaunt of Iborighu ~ Wintry Apotheosys	VISIBLE:NO	RACETYPE:Elemental RACESUBTYPE:Evil	BONUS:VAR|DarkvisionRange|60|TYPE=Base	SOURCEPAGE:Fro
+Knight of the Chalice ~ Mount	VISIBLE:NO	TEMPLATE:Knight of the Chalice ~ Normal|Knight of the Chalice ~ Megaloceros
+Knight of the Chalice ~ Normal	VISIBLE:NO	!PRERACE:1,Megaloceros
+Knight of the Chalice ~ Megaloceros	VISIBLE:NO	PRERACE:1,Megaloceros	TEMPLATE:Warbeast
+
+###Block:Objects
+Ring of the Icy Soul ~ Cold subtype	VISIBLE:NO	RACESUBTYPE:Cold	ABILITY:Special Ability|AUTOMATIC|Immunity To Cold
+
+###Block:Races
+Ice Beast	TYPE:Aquired	VISIBLE:YES	!PRERACE:1,RACETYPE=Undead	!PRERACE:1,RACESUBTYPE=Fire	!PRERACE:1,RACESUBTYPE=Incorporeal	RACETYPE:Construct	HITDIE:10	BONUS:COMBAT|AC|1|TYPE=NaturalArmor|PRESIZELTEQ:T	BONUS:COMBAT|AC|2|TYPE=NaturalArmor|PRESIZEEQ:S	BONUS:COMBAT|AC|4|TYPE=NaturalArmor|PRESIZEEQ:M	BONUS:COMBAT|AC|6|TYPE=NaturalArmor|PRESIZEEQ:L	BONUS:COMBAT|AC|8|TYPE=NaturalArmor|PRESIZEEQ:H	BONUS:COMBAT|AC|11|TYPE=NaturalArmor|PRESIZEEQ:G	BONUS:COMBAT|AC|15|TYPE=NaturalArmor|PRESIZEEQ:C	TEMPLATE:CHOOSE:Claw (Fine)|Claw (Diminutive)|Claw (Tiny)|Claw (Small)|Claw (Medium)|Claw (Large)|Claw (Huge)|Claw (Gargantuan)|Claw (Colossal)	ABILITY:Special Ability|AUTOMATIC|Ice Beast ~ Cold Aura|Ice Beast ~ Engulf|Ice Beast ~ Frigid Touch|Ice Beast ~ Ice Breath	RACESUBTYPE:Cold	DEFINE:IceBeastDR|0	DR:IceBeastDR/Magic	BONUS:VAR|IceBeastDR|5|PREHD:MIN=5	BONUS:VAR|IceBeastDR|5|PREHD:MIN=10	BONUS:VAR|IceBeastDR|5|PREHD:MIN=20	BONUS:SAVE|BASE.Fortitude|HD/3	BONUS:SAVE|BASE.Reflex|HD/3	BONUS:SAVE|BASE.Will|HD/3	DEFINESTAT:NONSTAT|CON	DEFINESTAT:NONSTAT|INT	DEFINESTAT:LOCK|WIS|10	DEFINESTAT:LOCK|CHA|1	CR:1	KIT:1|TN	
+Spirit Animal	TYPE:Aquired	VISIBLE:YES	PRERACE:1,RACETYPE=Animal	RACETYPE:Fey	RACESUBTYPE:Incorporeal|Augmented Animal	HITDIE:6	BONUS:STAT|WIS,CHA|4	BONUS:SKILL|Hide,Listen,Search,Spot|4|TYPE=Racial.STACK	BONUS:MISC|CR|1	KIT:1|TN

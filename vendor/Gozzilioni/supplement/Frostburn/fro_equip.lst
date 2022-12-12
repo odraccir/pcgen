@@ -1,0 +1,84 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
+
+###Block: Poisons																										
+Poison (Ice Toad Bile)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:250	WT:0	SOURCEPAGE:Fro	SPROP:Contact DC 12, Init.:1d4 Str, Sec.:Unconscious 1d4 hours.					
+Poison (Snow Spider Blood)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:750	WT:0	SOURCEPAGE:Fro	SPROP:Contact DC 13, Init.:Paralysis, Sec.:0.					
+Poison (Snowflake Lichen Powder)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:75	WT:0	SOURCEPAGE:Fro	SPROP:Inhaled DC 11, Init.:1 Str, Sec.:1 Dex.					
+Poison (White Pudding Essence)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:500	WT:0	SOURCEPAGE:Fro	SPROP:Inhaled DC 13, Init.:1d2 Wis, Sec.:1d2 Wis + 1d2 Int					
+Poison (Icegaunt Dust)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:Fro	SPROP:Inhaled DC 14, Init.:1d6 Con, Sec.:2d4 Con + 2d4 Dex.					
+Poison (Chilblain Brain Juice)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:110	WT:0	SOURCEPAGE:Fro	SPROP:Injury DC 12, Init.:1 Dex, Sec.:1d4 Dex.					
+Poison (Wholly Mammuth Eye Juice)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:140	WT:0	SOURCEPAGE:Fro	SPROP:Injury DC 14, Init.:1d2 Str + 1d2 Dex, Sec.:1d4 Str.					
+Poison (Yeti Oil)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:100	WT:0	SOURCEPAGE:Fro	SPROP:Injury DC 15, Init.:1d4 Dex, Sec.:1d4 Dex.					
+
+###Goods:Trading goods
+Crampons	TYPE:Goods	COST:5	WT:1	SOURCEPAGE:Fro	BONUS:SKILL|Balance,Climb|2|TYPE=Circumstance
+###TODO: Fur Clothing:	BONUS:ARMORPROF=TYPE.Medium|ACCHECK|-2	BONUS:ARMORPROF=TYPE.Light|ACCHECK|-2	BONUS:ARMORPROF=TYPE.Heavy|ACCHECK|-2									
+Fur Clothing	TYPE:Goods.Shirt	COST:8	WT:10	SOURCEPAGE:Fro
+Hut (Portable)	TYPE:Goods	COST:125	WT:75	SOURCEPAGE:Fro
+Skates	TYPE:Goods	COST:10	WT:3	SOURCEPAGE:Fro	SPROP:can be use only on icy surfaces.	PRESKILL:1,Balance=5
+Skis and Poles	TYPE:Goods	COST:15	WT:6	SOURCEPAGE:Fro	SPROP:can be use only on icy or snowy surfaces.
+Snow Goggles	TYPE:Goods.Eyegear	COST:2	WT:0	SOURCEPAGE:Fro	SPROP:+2 circumstances bonus on saving throws to resist blinding effects.	BONUS:SKILL|Spot,Search|-4|TYPE=Circumstance
+Snowshoes	TYPE:Goods.Boot	COST:15	WT:8	SOURCEPAGE:Fro	SPROP:allow to move across the snow and ice with increased speed.
+Winter Fullcloth	TYPE:Goods.Clothing	COST:4	WT:2	SOURCEPAGE:Fro	SPROP:+1 circumstance bonus on Fortitude saving throws against exposure to cold weather.
+
+###Block: Alchemical									
+Armor Insulation (Flask)	TYPE:Goods.Alchemical.Flask.Consumable	COST:50	WT:2	SOURCEPAGE:Fro	SPROP:Craft (Alchemy) DC 25.												
+Freeze Powder (Vial)	TYPE:Goods.Alchemical.Vial.Consumable	COST:100	WT:1	SOURCEPAGE:Fro	SPROP:Craft (Alchemy) DC 25.												
+Frostbite Salve (Jar)	TYPE:Goods.Alchemical.Jar.Consumable	COST:50	WT:1	SOURCEPAGE:Fro	SPROP:Craft (Alchemy) DC 20.												
+Ice Chalks	TYPE:Goods.Alchemical.Consumable	COST:20	WT:0	SOURCEPAGE:Fro	SPROP:Craft (Alchemy) DC 15.												
+Melt Powder (Vial)	TYPE:Goods.Alchemical.Vial.Consumable	COST:25	WT:1	SOURCEPAGE:Fro	SPROP:Craft (Alchemy) DC 20.												
+Polar Skin (Flask)	TYPE:Goods.Alchemical.Flask.Consumable	COST:25	WT:1	SOURCEPAGE:Fro	SPROP:Craft (Alchemy) DC 25.												
+Razor Ice Powder (Vial)	TYPE:Goods.Alchemical.Vial.Consumable	COST:50	WT:1	SOURCEPAGE:Fro	SPROP:Craft (Alchemy) DC 25.												
+Whale Grease (Flask)	TYPE:Goods.Alchemical.Flask.Consumable	COST:75	WT:2	SOURCEPAGE:Fro	SPROP:Craft (Alchemy) DC 25.												
+
+###Block:Vehicles
+Sled (Fro)			TYPE:Goods.Transportation.Container	COST:20	WT:300	CONTAINS:1000|Any=UNLIM	SOURCEPAGE:Fro													
+Worg Warsled			TYPE:Goods.Transportation.Container	COST:400	WT:900	CONTAINS:900|Any=UNLIM	SOURCEPAGE:Fro													
+Ice Sled-Wagon			TYPE:Goods.Transportation.Container	COST:35	WT:400	CONTAINS:2000|Any=UNLIM	SOURCEPAGE:Fro													
+Sailing Ship (Ice)			TYPE:Goods.Transportation.Ship.Container	COST:10000	WT:0	CONTAINS:150000|Any=UNLIM	SOURCEPAGE:Fro													
+Warship (Ice)			TYPE:Goods.Transportation.Ships.Container	COST:25000	WT:0	CONTAINS:5000|Any=UNLIM	SOURCEPAGE:Fro													
+Iceberg			TYPE:Goods.Transportation.Container	COST:0	WT:0	CONTAINS:1000000|Any=UNLIM	SOURCEPAGE:Fro													
+Skyberg			TYPE:Goods.Transportation.Container	COST:0	WT:0	CONTAINS:1000000|Any=UNLIM	SOURCEPAGE:Fro													
+Ship (Coldfire)			TYPE:Goods.Transportation.Ships.Container	COST:500000	WT:0	CONTAINS:200000|Any=UNLIM	SOURCEPAGE:Fro	EQMOD:ICEKEEL_TRANSP|CFENGINE_TRANSP												
+
+###Block:Spell Component						
+Hammer caverd from salt crystal		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:50	WT:0	SOURCEPAGE:Fro	
+Ship (glass)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:200	WT:0	SOURCEPAGE:Fro	
+
+###Bloc:Artifacts
+Crystal Tear		TYPE:Artifact.Minor	COST:0	WT:4	SOURCEPAGE:Fro	SPROP:If the melted tear is imbibed before it evaporates, it grants a +4 inherent bonus to one of the drinker’s ability scores.
+
+##Block: Wondrous items
+Frostfell Figurine of Wondrous Power (Basalt Glyptodon)	OUTPUTNAME:Frostfell Figurine of Wondrous Power, [NAME]	TYPE:Wondrous	COST:32000	WT:0	SOURCEPAGE:Fro																			
+Frostfell Figurine of Wondrous Power (Coral Zeuglodon)	OUTPUTNAME:Frostfell Figurine of Wondrous Power, [NAME]	TYPE:Wondrous	COST:42000	WT:0	SOURCEPAGE:Fro																			
+Frostfell Figurine of Wondrous Power (Diamond Ice Toad)	OUTPUTNAME:Frostfell Figurine of Wondrous Power, [NAME]	TYPE:Wondrous	COST:33000	WT:0	SOURCEPAGE:Fro																			
+Frostfell Figurine of Wondrous Power (Iron Megaloceros)	OUTPUTNAME:Frostfell Figurine of Wondrous Power, [NAME]	TYPE:Wondrous	COST:27000	WT:0	SOURCEPAGE:Fro																			
+Frostfell Figurine of Wondrous Power (Malachite Smilodon)	OUTPUTNAME:Frostfell Figurine of Wondrous Power, [NAME]	TYPE:Wondrous	COST:36000	WT:0	SOURCEPAGE:Fro																			
+Gloves of the Uldra Savant		TYPE:Wondrous.Gloves	COST:12700	WT:2	SOURCEPAGE:Fro	SLOTS:2	SPELLS:Gloves of the Uldra Savant|TIMES=ATWILL|CASTERLEVEL=5|Ray of Frost,12
+Iceheart (Minor)		TYPE:Wondrous	COST:24000	WT:1	SOURCEPAGE:Fro	SPELLS:Iceheart (Minor)|TIMES=ATWILL|CASTERLEVEL=5|Ray of Frost,12	SPELLS:Iceheart (Minor)|TIMES=3|CASTERLEVEL=5|Fog Cloud|Sleet Storm
+Iceheart (Major)		TYPE:Wondrous	COST:140000	WT:1	SOURCEPAGE:Fro	SPELLS:Iceheart (Major)|TIMES=ATWILL|CASTERLEVEL=15|Ray of Frost,12	SPELLS:Iceheart (Major)|TIMES=3|CASTERLEVEL=15|Cone of Cold,14|Fog Cloud|Ice Storm|Sleet Storm	SPELLS:Iceheart (Major)|TIMES=1|CASTERLEVEL=15|Polar Ray|Fimbulwinter
+Icicle Rod		TYPE:Wondrous.Weapon.Melee.Finesseable.Martial.Standard.Piercing.Sword	COST:120000	WT:0	SOURCEPAGE:Fro	SPROP:Maximised Ice Storm.	SPELLS:Icicle Rod|TIMES=1|CASTERLEVEL=15|Entomb|Ice Storm	EQMOD:STEEL.PLUS1W.FROST_M	PROFICIENCY:WEAPON|Sword (Short)		CRITMULT:x2	CRITRANGE:1	DAMAGE:1d6								ABILITY:Special Ability|AUTOMATIC|Resistance To Cold	BONUS:VAR|ColdResistanceBonus|10|TYPE=Resistance
+Instant Igloo			TYPE:Wondrous	COST:11000	WT:0		SOURCEPAGE:Fro		
+Mantle of Hidden Faith			TYPE:Wondrous.Cape	COST:15000	WT:0		SOURCEPAGE:Fro	SPROP:Shields your faith, alignment, and patron deity from magical detection
+Simulacrum Elixir			TYPE:Wondrous.Vial.Consumable	COST:21000	WT:1	SOURCEPAGE:Fro		
+Vial of Icy Sheets			TYPE:Wondrous.Vial.Consumable	COST:2000	WT:1		SOURCEPAGE:Fro		
+
+
+###Block:Rings
+Ring of the Icy Soul			TYPE:Ring	COST:100000	WT:0	SOURCEPAGE:Fro	TEMPLATE:Ring of the Icy Soul ~ Cold subtype
+Ring of Floating			TYPE:Ring	COST:2000	WT:0	SOURCEPAGE:Fro	
+Ring of the White Wyrm			TYPE:Ring	COST:64000	WT:0	SOURCEPAGE:Fro	
+
+###Block:Rods
+Rod of Piercing Cold			TYPE:Rod.Weapon.Melee.Ranged.Simple.Piercing.Slashing.Light.Dagger	COST:29300	WT:1	SOURCEPAGE:Fro	PROFICIENCY:WEAPON|Dagger	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.PLUS2W.FROST_M								RANGE:10				
+Rod of Piercing Cold (Lesser)			TYPE:Rod.Weapon.Melee.Ranged.Simple.Piercing.Slashing.Light.Dagger	COST:21430	WT:1	SOURCEPAGE:Fro	PROFICIENCY:WEAPON|Dagger	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.PLUS2W.FROST_M								RANGE:10				
+Rod of Piercing Cold (Greater)			TYPE:Rod.Weapon.Melee.Ranged.Simple.Piercing.Slashing.Light.Dagger	COST:42800	WT:1	SOURCEPAGE:Fro	PROFICIENCY:WEAPON|Dagger	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.PLUS2W.FROST_M								RANGE:10				
+
+###Block:Skulls
+Skull		TYPE:Skull.Consumable	COST:0	WT:0	SOURCEPAGE:FF	MODS:REQUIRED																				
+
+###Block:Staff
+Staff of the Iceberg	KEY:Staff (Iceberg)	TYPE:Staff.Weapon.Melee.Simple.Bludgeoning.TwoHanded.Double.Quarterstaff	COST:138000	WT:5	SOURCEPAGE:Fro	EQMOD:CHARGED_ITEM_50|CHARGES[50].WOOD.PLUS2W.FROST_BURST_M	SPROP:Snow walk (1 charge)/Entomb (2 charges)/Ice ship (2 charges)/Ice castle (3 charges)/Iceberg (5 charges).	PROFICIENCY:WEAPON|Quarterstaff	WIELD:TwoHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2			ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.PLUS2W.FROST_BURST_M					
+Staff of Winter	KEY:Staff (Winter)	TYPE:Staff	COST:58000	WT:5	SOURCEPAGE:Fro	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Boreal wind (1 charge)/Obscuring snow (1 charge)/Winter’s embrace (1 charge)/Whiteout (2 charges)
+
+Golem (Ice)		KEY:Golem ~ Ice	TYPE:Monster.Construct.Container	COST:60000	WT:0	SOURCEPAGE:Fro	CONTAINS:UNLIM|Any	SPROP:CL 10th; Craft Construct (see page 303), ice shape,wall of ice and animate snow or cone of cold, caster must be at least 10th level.

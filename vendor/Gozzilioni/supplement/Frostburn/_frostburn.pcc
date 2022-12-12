@@ -1,0 +1,74 @@
+CAMPAIGN:Frostburn
+GAMEMODE:G35e
+RANK:3
+TYPE:Gozzilioni.Partial.Supplement
+SETTING:Heroes
+BOOKTYPE:Supplement
+SOURCELONG:Frostburn
+SOURCESHORT:Fro
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2004-09
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+
+PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Guide
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:missing.txt
+
+ABILITY:fro_abilities.lst
+ABILITY:fro_abilities_classes.lst
+ABILITY:fro_abilities_FF.lst|PRECAMPAIGN:1,Fiend folio
+ABILITY:fro_abilities_MM2.lst|PRECAMPAIGN:1,Monster Manual 2
+ABILITY:fro_abilities_races.lst
+ABILITY:fro_abilities_racetraits.lst
+ABILITY:fro_abilities_regions.lst
+# ABILITY:fro_abilities_templates.lst
+ABILITYCATEGORY:fro_abilitycategories.lst
+BIOSET:fro_biosettings.lst
+CLASS:fro_classes.lst
+# CLASS:fro_classes_sanctified.lst
+COMPANIONMOD:fro_companionmods.lst
+COMPANIONMOD:fro_companionmods_PH.lst|PRECAMPAIGN:1,Planar Handbook,Gozzilioni Campaing Full Set
+COMPANIONMOD:fro_companionmods_UA.lst|PRECAMPAIGN:1,Unearthed Arcana,Gozzilioni Campaing Full Set
+DEITY:fro_deities.lst
+DOMAIN:fro_domains.lst
+EQUIPMENT:fro_equip.lst
+# EQUIPMENT:fro_equip_armors_specific.lst
+# EQUIPMENT:fro_equip_magic_items.lst
+EQUIPMENT:fro_equip_weapons.lst
+# EQUIPMENT:fro_equip_weapons_natural.lst
+EQUIPMENT:fro_equip_weapons_specific.lst
+# # EQUIPMENT:mm2_equip_weapons_natural.lst
+EQUIPMOD:fro_equipmods.lst
+ABILITY:fro_feats.lst
+KIT:fro_kits.lst
+LANGUAGE:fro_languages.lst
+WEAPONPROF:fro_profs_weapon.lst
+RACE:fro_races.lst
+RACE:fro_races_companion.lst
+SKILL:fro_skills.lst
+SPELL:fro_spells.lst
+SPELL:fro_spells_ELH.lst|PRECAMPAIGN:1,Epic Level Handbook 3.0,Gozzilioni Campaing Full Set
+SPELL:fro_spells_EPH.lst|PRECAMPAIGN:1,Expanded Psionics Handbook,Gozzilioni Campaing Full Set
+SPELL:fro_spells_specific.lst
+SPELL:fro_spells_specific_EPH.lst|PRECAMPAIGN:1,Expanded Psionics Handbook,Gozzilioni Campaing Full Set
+ABILITY:fro_subraces.lst
+TEMPLATE:fro_templates.lst
+TEMPLATE:fro_templates_regions.lst
+#
+# HIDETYPE:SKILL|Craft (Stoneworking)
+HIDETYPE:FEAT|CloudAnchorite
+
+# ENTRY DATE: 2015-08
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

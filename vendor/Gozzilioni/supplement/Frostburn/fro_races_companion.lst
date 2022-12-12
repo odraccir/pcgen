@@ -1,0 +1,16 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
+
+# Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	MOVE:	FACE:	REACH:	Vision		Required AL	Automatic Languages	Bonus Languages	Combat bonus		Bonus to skill				Stat bonus								MONCSKILL:	Automaticaly Gained Shield Prof.		Automaticaly Gained Weapon Prof.		Virtual Feat		Feat		Nb Legs	Nb Hands	Weapon prof. bonus			Natural Attacks		Special Ability						Spell Res.	Damage Reduction		MONSTERCLASS:	RACETYPE:	RACESUBTYPE:	TYPE:	Template			Hit Dice	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	CR:	SOURCEPAGE:	Innate Spells
+Animal (Leopard).COPY=Animal (Leopard)	KEY:Companion ~ Animal (Leopard (Snow))
+Companion ~ Animal (Leopard (Snow)).MOD	OUTPUTNAME:Animal (Leopard (Snow))	TYPE:Companion	SERVESAS:RACE|Animal (Leopard)	KIT:1|Animal (Leopard (Snow)) Companion
+
+Giant (Hill).COPY=Giant (Hill)	KEY:Companion ~ Giant (Hill/Fiendish)
+Companion ~ Giant (Hill/Fiendish).MOD	OUTPUTNAME:Giant (Hill/Fiendish)	TYPE:Companion	SERVESAS:RACE|Giant (Hill)	KIT:1|Giant (Hill) Companion	TEMPLATE:Fiendish
+Giant (Stone).COPY=Giant (Stone)	KEY:Companion ~ Giant (Stone/Celestial)
+Companion ~ Giant (Stone/Celestial).MOD	OUTPUTNAME:Giant (Stone/Celestial)	TYPE:Companion	SERVESAS:RACE|Giant (Stone)	KIT:1|Giant (Stone) Companion	TEMPLATE:Celestial
+Giant (Stone).COPY=Giant (Stone)	KEY:Companion ~ Giant (Stone/Fiendish)
+Companion ~ Giant (Stone/Fiendish).MOD	OUTPUTNAME:Giant (Stone/Fiendish)	TYPE:Companion	SERVESAS:RACE|Giant (Stone)	KIT:1|Giant (Stone) Companion	TEMPLATE:Fiendish
+Giant (Frost).COPY=Giant (Frost)	KEY:Companion ~ Giant (Frost/Fiendish)
+Companion ~ Giant (Frost/Fiendish).MOD	OUTPUTNAME:Giant (Frost/Fiendish)	TYPE:Companion	SERVESAS:RACE|Giant (Frost)	KIT:1|Giant (Frost) Companion	TEMPLATE:Fiendish
+Giant (Fire).COPY=Giant (Fire)	KEY:Companion ~ Giant (Fire/Fiendish)
+Companion ~ Giant (Fire/Fiendish).MOD	OUTPUTNAME:Giant (Fire/Fiendish)	TYPE:Companion	SERVESAS:RACE|Giant (Fire)	KIT:1|Giant (Fire) Companion	TEMPLATE:Fiendish

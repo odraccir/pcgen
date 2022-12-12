@@ -1,0 +1,25 @@
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
+
+###Block: Beackon the Frozen
+FOLLOWER:BeackonTheFrozen=1	TYPE:Heavenly Host	TEMPLATE:Beackon the Frozen ~ Cold
+FOLLOWER:BeackonTheFrozen=1	TYPE:Hellish Host	TEMPLATE:Beackon the Frozen ~ Cold
+FOLLOWER:BeackonTheFrozen=1	TYPE:Hunters of Hades	TEMPLATE:Beackon the Frozen ~ Cold
+FOLLOWER:BeackonTheFrozen=1	TYPE:Summon Babau Demon	TEMPLATE:Beackon the Frozen ~ Cold
+FOLLOWER:BeackonTheFrozen=1	TYPE:Summon Bearded Devil	TEMPLATE:Beackon the Frozen ~ Cold
+FOLLOWER:BeackonTheFrozen=1	TYPE:Summon Bralani Eladrin	TEMPLATE:Beackon the Frozen ~ Cold
+FOLLOWER:BeackonTheFrozen=1	TYPE:Summon Elementite Swarm	TEMPLATE:Beackon the Frozen ~ Cold
+FOLLOWER:BeackonTheFrozen=1	TYPE:Summon Elysian Thrush	TEMPLATE:Beackon the Frozen ~ Cold
+FOLLOWER:BeackonTheFrozen=1	TYPE:Summon Greater Elemental	TEMPLATE:Beackon the Frozen ~ Cold
+FOLLOWER:BeackonTheFrozen=1	TYPE:Summon Hound Archon	TEMPLATE:Beackon the Frozen ~ Cold
+
+###Block: Icy Calling
+FOLLOWER:IcyCalling=1	TYPE:Heavenly Host	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
+FOLLOWER:IcyCalling=1	TYPE:Hellish Host	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
+FOLLOWER:IcyCalling=1	TYPE:Hunters of Hades	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
+FOLLOWER:IcyCalling=1	TYPE:Summon Babau Demon	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
+FOLLOWER:IcyCalling=1	TYPE:Summon Bearded Devil	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
+FOLLOWER:IcyCalling=1	TYPE:Summon Bralani Eladrin	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
+FOLLOWER:IcyCalling=1	TYPE:Summon Elementite Swarm	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
+FOLLOWER:IcyCalling=1	TYPE:Summon Elysian Thrush	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
+FOLLOWER:IcyCalling=1	TYPE:Summon Greater Elemental	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
+FOLLOWER:IcyCalling=1	TYPE:Summon Hound Archon	BONUS:STAT|STR|4|TYPE=Enhancement	BONUS:STAT|DEX|4|TYPE=Enhancement
