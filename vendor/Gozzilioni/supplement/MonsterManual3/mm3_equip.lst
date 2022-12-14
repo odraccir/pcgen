@@ -1,0 +1,21 @@
+SOURCELONG:Monster Manual 3	SOURCESHORT:MM3	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
+
+Golem (Achemical)		KEY:Golem ~ Alchemical	TYPE:Monster.Construct.Container	COST:70000	WT:0	SOURCEPAGE:MM3	CONTAINS:UNLIM|Any	SPROP:CL 14th; Craft Construct (see page 206), geas/quest, limited wish, and poison, caster must be at least 14th level.
+Golem (Gloom)		KEY:Golem ~ Gloom	TYPE:Monster.Construct.Container	COST:40000	WT:0	SOURCEPAGE:MM3	CONTAINS:UNLIM|Any	SPROP:CL 11th; Craft Construct (see page 206), crushing despair, limited wish, planar binding, caster must be evil and at least 11th level.
+Golem (Hangman)		KEY:Golem ~ Hangman	TYPE:Monster.Construct.Container	COST:144000	WT:0	SOURCEPAGE:MM3	CONTAINS:UNLIM|Any	SPROP:CL 16th; Craft Construct (see page 206), animate rope, geas/ quest, limited wish, caster must be at least 16th level; Price 144,000 gp.
+Golem (Mud)		KEY:Golem ~ Mud	TYPE:Monster.Construct.Container	COST:65000	WT:0	SOURCEPAGE:MM3	CONTAINS:UNLIM|Any	SPROP:CL 14th; Craft Construct (see page 206), geas/ quest, limited wish, transmute rock to mud, caster must be at least 14th level.
+Golem (Prismatic)		KEY:Golem ~ Prismatic	TYPE:Monster.Construct.Container	COST:150000	WT:0	SOURCEPAGE:MM3	CONTAINS:UNLIM|Any	SPROP:CL 17th; Craft Construct (see page 206), greater planar binding, prismatic sphere, prismatic sphere, wish, caster must be good and at least 17th level.
+Golem (Shadesteel)		KEY:Golem ~ Shadesteel	TYPE:Monster.Construct.Container	COST:130000	WT:0	SOURCEPAGE:MM3	CONTAINS:UNLIM|Any	SPROP:CL 17th; Craft Construct (see page 206), energy drain, geas/quest, limited wish, shades caster must be at least 17th level.
+Golem (Web)		KEY:Golem ~ Web	TYPE:Monster.Construct.Container	COST:65000	WT:0	SOURCEPAGE:MM3	CONTAINS:UNLIM|Any	SPROP:CL 14th; Craft Construct (see page 206), geas/quest, limited wish, poison, spider climb, web, caster must be at least 14th level.
+Grisgol			TYPE:Monster.Construct.Container	COST:210000	WT:0	SOURCEPAGE:MM3	CONTAINS:UNLIM|Any	SPROP:CL 19th; Craft Construct (see page 303 of the Monster Manual), control undead, geas/ quest, illusory script, insanity, limited wish, mending, polymorph any object, plus all spells to be included in the grisgol, caster must be at least 19th level.
+Golem (Shredstorm Swarm)		KEY:Golem ~ Shredstorm Swarm	TYPE:Monster.Construct.Container	COST:85000	WT:0	SOURCEPAGE:MM3	CONTAINS:UNLIM|Any	SPROP:CL 13th; Craft Construct, fly, geas/quest, greater magic weapon, lightning bolt, limited wish, caster must be at least 13th level;
+Slaughterstone Behemot			TYPE:Monster.Construct.Container	COST:170000	WT:0	SOURCEPAGE:MM3	CONTAINS:UNLIM|Any	SPROP:CL 18th; Craft Construct, geas/quest, sound burst, stoneskin, caster must be at least 18th level;
+Slaughterstone Eviscerator			TYPE:Monster.Construct.Container	COST:127500	WT:0	SOURCEPAGE:MM3	CONTAINS:UNLIM|Any	SPROP:CL 16th; Craft Construct, keen edge, geas/quest, haste, stoneskin, caster must be at least 16th level;
+Topiary Guardian (Medium)			TYPE:Monster.Plant.Container	COST:20000	WT:0	SOURCEPAGE:MM3	CONTAINS:UNLIM|Any	SPROP:CL 13th; Craft Construct, awaken, geas/quest, limited wish, creator must be a 13th-level caster;
+Topiary Guardian (Large)			TYPE:Monster.Plant.Container	COST:60000	WT:0	SOURCEPAGE:MM3	CONTAINS:UNLIM|Any	SPROP:CL 13th; Craft Construct, awaken, geas/quest, limited wish, creator must be a 13th-level caster;
+Topiary Guardian (Huge)			TYPE:Monster.Plant.Container	COST:115000	WT:0	SOURCEPAGE:MM3	CONTAINS:UNLIM|Any	SPROP:CL 13th; Craft Construct, awaken, geas/quest, limited wish, creator must be a 13th-level caster;
+
+Hireling (Mercenary/War Troll)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:30	WT:0	SOURCEPAGE:MM3																				
+Hireling (Mercenary/Seargeant War Troll)	OUTPUTNAME:[Name] Hireling	TYPE:Service.Container	CONTAINS:UNLIM|Any	COST:75	WT:0	SOURCEPAGE:MM3																				
+
+Warforged Body	COST:0	PROFICIENCY:ARMOR|Warforged Body	EQMOD:Warforged Body	TYPE:WarforgedArmor.Armor	BONUS:COMBAT|AC|max(2,WarforgedAC)|TYPE=Armor	DEFINE:WarforgedAC|0	ACCHECK:0	SPELLFAILURE:5	MAXDEX:8	PRERACE:1,Warforged

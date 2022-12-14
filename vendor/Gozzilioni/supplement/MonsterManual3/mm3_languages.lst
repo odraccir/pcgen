@@ -1,0 +1,11 @@
+SOURCELONG:Monster Manual 3	SOURCESHORT:MM3	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
+
+# Language			Type								Var. Min. Value
+Armandish			TYPE:Spoken
+Ibixian			TYPE:Spoken
+Kenku			TYPE:Spoken
+Lumi			TYPE:Spoken
+Nycter			TYPE:Spoken
+Odopi			TYPE:Spoken
+Stonesing			TYPE:Spoken
+Susurrus			TYPE:Spoken	PRERACE:1,Susurrus

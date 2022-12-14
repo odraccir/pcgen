@@ -1,0 +1,28 @@
+###Block: New Racial Trait Blocks																								
+ABILITYCATEGORY:Armand Race Trait	CATEGORY:Special Ability	TYPE:ArmandRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Changeling Race Trait	CATEGORY:Special Ability	TYPE:ChangelingRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Dracotaur Race Trait	CATEGORY:Special Ability	TYPE:DracotaurRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Giant (Sand) Race Trait	CATEGORY:Special Ability	TYPE:GiantSandRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Goatfolk Race Trait	CATEGORY:Special Ability	TYPE:GoatfolkRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Kenku Race Trait	CATEGORY:Special Ability	TYPE:KenkuRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Shifter Race Trait	CATEGORY:Special Ability	TYPE:ShifterRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Warforged Race Trait	CATEGORY:Special Ability	TYPE:WarforgedRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+																								
+# Subrace Support																								
+ABILITYCATEGORY:Armand Subrace	CATEGORY:Internal	TYPE:ArmandSubrace.ArmandSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Changeling Subrace	CATEGORY:Internal	TYPE:ChangelingSubrace.ChangelingSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Dracotaur Subrace	CATEGORY:Internal	TYPE:DracotaurSubrace.DracotaurSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Giant (Sand) Subrace	CATEGORY:Internal	TYPE:GiantSandSubrace.GiantSandSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Goatfolk Subrace	CATEGORY:Internal	TYPE:GoatfolkSubrace.GoatfolkSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Kenku Subrace	CATEGORY:Internal	TYPE:KenkuSubrace.KenkuSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Shifter Subrace	CATEGORY:Internal	TYPE:ShifterSubrace.ShifterSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Warforged Subrace	CATEGORY:Internal	TYPE:WarforgedSubrace.WarforgedSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+																								
+#Abilitygroup:Class Ability categories																								
+																								
+#Other Abilitygroups																								
+ABILITYCATEGORY:Shifter Trait	CATEGORY:Internal	TYPE:ShifterTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+
+ABILITYCATEGORY:Spellwarped Spell Absorption	CATEGORY:Special Ability	TYPE:SpellwarpedSpellAbsorption	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+
+#BLOCK:Companions

@@ -1,0 +1,68 @@
+SOURCELONG:Monster Manual 3	SOURCESHORT:MM3	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09												
+															
+#															
+####Block: Subraces															
+Common	VISIBLE:NO	KEY:Common Armand	LEVELADJUSTMENT:3												
+Common	VISIBLE:NO	KEY:Common Changeling													
+Common	VISIBLE:NO	KEY:Common Dracotaur	LEVELADJUSTMENT:5												
+Common	VISIBLE:NO	KEY:Common Giant (Sand)	LEVELADJUSTMENT:4												
+Forestkith	VISIBLE:NO	KEY:Forestkith Goblin	LEVELADJUSTMENT:1	RACESUBTYPE:Goblinoid											
+Common	VISIBLE:NO	KEY:Common Kenku													
+Skullcrusher	VISIBLE:NO	KEY:Skullcrusher Ogre	LEVELADJUSTMENT:3												
+Common	VISIBLE:NO	KEY:Common Shifter													
+Common	VISIBLE:NO	KEY:Common Warforged													
+															
+#															
+Languages	KEY:Armand ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Armandish	LANGBONUS:Elven,Giant,Gnome,Goblin,Sylvan											
+Favored Class	KEY:Armand ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Monk												
+Languages	KEY:Changeling ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:Auran,Dwarven,Elven,Giant,Gnome,Halfling,Terran											
+Favored Class	KEY:Changeling ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue												
+Languages	KEY:Dracotaur ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Draconic	LANGBONUS:ALL											
+Favored Class	KEY:Dracotaur ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Sorcerer												
+Languages	KEY:Giant (Sand) ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Giant	LANGBONUS:Draconic,Elven,Goblin,Orc											
+Favored Class	KEY:Giant (Sand) ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter												
+Languages	KEY:Shifter ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common	LANGBONUS:Elven,Gnome,Halfling,Sylvan											
+Favored Class	KEY:Shifter ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger												
+Languages	KEY:Goblin ~ Forestkith ~ Languages	VISIBLE:NO	AUTO:LANG|Goblin	LANGBONUS:Common,Elven,Giant,Orc											
+Favored Class	KEY:Goblin ~ Forestkith ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Barbarian												
+Languages	KEY:Kenku ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Kenku	LANGBONUS:Auran,Dwarven,Gnome,Goblin,Halfling											
+Favored Class	KEY:Kenku ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Rogue												
+Languages	KEY:Lizardfolk ~ Poison Dusk ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Draconic	LANGBONUS:Halfling,Sylvan											
+Favored Class	KEY:Lizardfolk ~ Poison Dusk ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Ranger												
+Languages	KEY:Ogre ~ Skullcrusher ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Giant	LANGBONUS:Dwarven,Orc,Goblin,Terran											
+Favored Class	KEY:Ogre ~ Skullcrusher ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter												
+Languages	KEY:Warforged ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common												
+Favored Class	KEY:Warforged ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter												
+															
+###Block: Feats															
+															
+###Block Class Templates															
+															
+###Block:Objects															
+															
+###Block:Races															
+Favored Class	KEY:Giant (Death) ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter												
+															
+Spellwarped	TYPE:Inherited	VISIBLE:YES	SOURCEPAGE:MM3	PREMULT:1,[PRERACE:1,RACETYPE=Aberration],[PRERACE:1,RACETYPE=Animal],[PRERACE:1,RACETYPE=Dragon],[PRERACE:1,RACETYPE=Fey],[PRERACE:1,RACETYPE=Giant],[PRERACE:1,RACETYPE=Humanoid],[PRERACE:1,RACETYPE=Magical Beast],[PRERACE:1,RACETYPE=Monstrous Humanoid],[PRERACE:1,RACETYPE=Plant],[PRERACE:1,RACETYPE=Vermin]	RACETYPE:Aberration	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	SR:11+HD	ABILITY:Special Ability|AUTOMATIC|Spellwarped ~ Spell Absorption	BONUS:STAT|STR|4	BONUS:STAT|DEX|2	BONUS:STAT|CON|4	BONUS:STAT|INT|4	BONUS:MISC|CR|1|PREHD:MIN=4	BONUS:MISC|CR|1|PREHD:MIN=11	LEVELADJUSTMENT:3
+Topiary Guardian	TYPE:Inherited	VISIBLE:YES	SOURCEPAGE:MM3	PRERACE:1,RACETYPE=Animal	PREMULT:2,[PRESIZEGTEQ:M],[PRESIZELTEQ:H]	RACETYPE:Plant	RACESUBTYPE:Topiary	HITDIE:8	TEMPLATE:CHOOSE:Topiary Guardian ~ Small|Topiary Guardian ~ Medium|Topiary Guardian ~ Large|Topiary Guardian ~ Huge|Topiary Guardian ~ Gargantuan	BONUS:MISC|CR|1	KIT:1|TN
+Topiary Guardian ~ Small	TYPE:Hidden	VISIBLE:NO	SOURCEPAGE:MM3	PRESIZELT:S	BONUS:COMBAT|AC|2|TYPE=NatualArmor.STACK	
+Topiary Guardian ~ Medium	TYPE:Hidden	VISIBLE:NO	SOURCEPAGE:MM3	PRESIZEEQ:M	BONUS:COMBAT|AC|4|TYPE=NatualArmor.STACK	DEFINESTAT:LOCK|STR|17	DEFINESTAT:LOCK|DEX|16	DEFINESTAT:LOCK|CON|14	DEFINESTAT:NONSTAT|INT	DEFINESTAT:LOCK|WIS|10	DEFINESTAT:LOCK|CHA|1
+Topiary Guardian ~ Large	TYPE:Hidden	VISIBLE:NO	SOURCEPAGE:MM3	PRESIZEEQ:L	BONUS:COMBAT|AC|6|TYPE=NatualArmor.STACK	DEFINESTAT:LOCK|STR|25	DEFINESTAT:LOCK|DEX|14	DEFINESTAT:LOCK|CON|18	DEFINESTAT:NONSTAT|INT	DEFINESTAT:LOCK|WIS|10	DEFINESTAT:LOCK|CHA|1
+Topiary Guardian ~ Huge	TYPE:Hidden	VISIBLE:NO	SOURCEPAGE:MM3	PRESIZEEQ:H	BONUS:COMBAT|AC|9|TYPE=NatualArmor.STACK	DEFINESTAT:LOCK|STR|33	DEFINESTAT:LOCK|DEX|12	DEFINESTAT:LOCK|CON|22	DEFINESTAT:NONSTAT|INT	DEFINESTAT:LOCK|WIS|10	DEFINESTAT:LOCK|CHA|1
+Topiary Guardian ~ Gargantuan	TYPE:Hidden	VISIBLE:NO	SOURCEPAGE:MM3	PRESIZEGTEQ:G	BONUS:COMBAT|AC|12|TYPE=NatualArmor.STACK	
+Voidmind Creature	TYPE:Acquired	VISIBLE:YES	SOURCEPAGE:MM3	PRERACE:1,[PRERACE:1,RACETYPE=Aberration],[PRERACE:1,RACETYPE=Animal],[PRERACE:1,RACETYPE=Dragon],[PRERACE:1,RACETYPE=Fey],[PRERACE:1,RACETYPE=Giant],[PRERACE:1,RACETYPE=Humanoid],[PRERACE:1,RACETYPE=Magical Beast],[PRERACE:1,RACETYPE=Monstrous Humanoid],[PRERACE:1,RACETYPE=Outsider]	PREMULT:2,[PRESIZEGTEQ:T],[PRESIZELTEQ:H]	BONUS:COMBAT|AC|4|TYPE=NAturalArmor.STACK	TEMPLATE:CHOOSE:Voidmind Creature ~ Tiny|Voidmind Creature ~ Small|Voidmind Creature ~ Medium|Voidmind Creature ~ Large|Voidmind Creature ~ Huge	ABILITY:Special Ability|AUTOMATIC|Voidmind Creature ~ Cone of Slime|Voidmind Creature ~ Constrict|Voidmind Creature ~ Improved Grab|Voidmind Creature ~ Sentient Tentacle|Immunity to Mind-Affecting spells|Immunity to Mind-Affecting|Immunity to Ability Damage|Immunity to Ability Drain|Immunity to Energy Drain|Voidmind Creature ~ Mind Flayer Host	DR:5/Magic	SR:10+HD	BONUS:STAT|STR|4	BONUS:STAT|DEX|2	BONUS:STAT|CON|4	BONUS:STAT|INT|2	BONUS:STAT|CHA|-2	BONUS:SKILL|Bluff,Escape Artist,Intimidate|4|TYPE=Racial	ABILITY:FEAT|AUTOMATIC|Alertness|Combat Reflexes|Great Fortitude	BONUS:MISC|CR|1	LEVELADJUSTMENT:3
+Voidmind Creature ~ Tiny	TYPE:Hidden	VISIBLE:NO	SOURCEPAGE:MM3	PRESIZEEQ:T	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*1,1d3	BONUS:VAR|ConstrictDice|1	BONUS:VAR|ConstrictDieSize|3|TYPE=Base
+Voidmind Creature ~ Small	TYPE:Hidden	VISIBLE:NO	SOURCEPAGE:MM3	PRESIZEEQ:S	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*1,1d4	BONUS:VAR|ConstrictDice|1	BONUS:VAR|ConstrictDieSize|4|TYPE=Base
+Voidmind Creature ~ Medium	TYPE:Hidden	VISIBLE:NO	SOURCEPAGE:MM3	PRESIZEEQ:M	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*1,1d6	BONUS:VAR|ConstrictDice|1	BONUS:VAR|ConstrictDieSize|6|TYPE=Base
+Voidmind Creature ~ Large	TYPE:Hidden	VISIBLE:NO	SOURCEPAGE:MM3	PRESIZEEQ:L	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*1,1d8	BONUS:VAR|ConstrictDice|1	BONUS:VAR|ConstrictDieSize|8|TYPE=Base
+Voidmind Creature ~ Huge	TYPE:Hidden	VISIBLE:NO	SOURCEPAGE:MM3	PRESIZEEQ:H	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*1,2d6	BONUS:VAR|ConstrictDice|2	BONUS:VAR|ConstrictDieSize|6|TYPE=Base
+Woodling	TYPE:Inherited	VISIBLE:YES	SOURCEPAGE:MM3	PREMULT:1,[PRERACE:1,RACETYPE=Animal],[PRERACE:1,RACETYPE=Dragon],[PRERACE:1,RACETYPE=Fey],[PRERACE:1,RACETYPE=Giant],[PRERACE:1,RACETYPE=Humanoid],[PRERACE:1,RACETYPE=Magical Beast]	BONUS:COMBAT|AC|7|TYPE=NaturalArmor.STACK	TEMPLATE:CHOOSE:Woodling ~ Fine|Woodling ~ Diminutive|Woodling ~ Tiny|Woodling ~ Small|Woodling ~ Medium|Woodling ~ Large|Woodling ~ Huge|Woodling ~ Gargantuan|Woodling ~ Colossal	ABILITY:Special Ability|AUTOMATIC|Woodling ~ Spell-Like Abilities|PRESTAT:1,WIS=8	DR:5/Slasing	BONUS:VAR|HasLowLightVision|1|TYPE=Base	ABILITY:Special Ability|AUTOMATIC|Plant Type Traits|Woodling ~ Skills|Vulnerability to Fire	BONUS:MISC|CR|2	LEVELADJUSTMENT:3
+Woodling ~ Fine	TYPE:Hidden	VISIBLE:NO	SOURCEPAGE:MM3	PRESIZEEQ:F	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1
+Woodling ~ Diminutive	TYPE:Hidden	VISIBLE:NO	SOURCEPAGE:MM3	PRESIZEEQ:D	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d2
+Woodling ~ Tiny	TYPE:Hidden	VISIBLE:NO	SOURCEPAGE:MM3	PRESIZEEQ:T	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d3
+Woodling ~ Small	TYPE:Hidden	VISIBLE:NO	SOURCEPAGE:MM3	PRESIZEEQ:S	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d4
+Woodling ~ Medium	TYPE:Hidden	VISIBLE:NO	SOURCEPAGE:MM3	PRESIZEEQ:M	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d6
+Woodling ~ Large	TYPE:Hidden	VISIBLE:NO	SOURCEPAGE:MM3	PRESIZEEQ:L	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d8
+Woodling ~ Huge	TYPE:Hidden	VISIBLE:NO	SOURCEPAGE:MM3	PRESIZEEQ:H	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,2d6
+Woodling ~ Gargantuan	TYPE:Hidden	VISIBLE:NO	SOURCEPAGE:MM3	PRESIZEEQ:G	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,2d8
+Woodling ~ Colossal	TYPE:Hidden	VISIBLE:NO	SOURCEPAGE:MM3	PRESIZEEQ:C	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,4d6

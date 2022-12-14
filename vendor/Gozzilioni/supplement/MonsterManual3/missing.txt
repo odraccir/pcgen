@@ -1,0 +1,3 @@
+Living spell
+Spellwarped: incomplete Spell Absorption ability. No resistance to energy.
+Topiary Guardian: set HD not forced.

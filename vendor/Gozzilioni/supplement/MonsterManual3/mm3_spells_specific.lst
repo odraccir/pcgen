@@ -1,0 +1,10 @@
+SOURCELONG:Monster Manual 3	SOURCESHORT:MM3	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
+
+Dimension Door.COPY=Dimension Door	KEY:Dimension Door ~ Self only
+Dimension Door ~ Self only.MOD	OUTPUTNAME:Dimension Door	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:You.	DESC:Self only.
+Summon Monster VI.COPY=Summon Monster VI	KEY:Summon Monster VI ~ Evil only
+Summon Monster VI ~ Evil only.MOD	OUTPUTNAME:Summon Monster VI	DESC:Summon Evil creature only.	
+Summon Swarm.COPY=Summon Swarm	KEY:Summon Swarm ~ Spiders only
+Summon Swarm ~ Spiders only.MOD	OUTPUTNAME:Summon Swarm	DESC:Summon Spiders only.
+Silence.COPY=Silence	KEY:Silence ~ Self only
+Silence ~ Self only.MOD	OUTPUTNAME:Silence	TARGETAREA:You.	DESC:Silence only You.

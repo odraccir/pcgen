@@ -1,4 +1,4 @@
-CAMPAIGN:Gozzilioni Campaing Full Set
+CAMPAIGN:3.5 Gozzilioni Campaing Full Set
 RANK:1
 GAMEMODE:G35e
 GENRE:Fantasy
@@ -35,6 +35,7 @@ PCC:supplement/CompleteDivine/_completedivine.pcc
 PCC:supplement/PlanarHandbook/_planarhandbook.pcc
 PCC:accessory/BookOfVileDarkness/_bookofviledarkness.pcc
 PCC:supplement/Frostburn/_frostburn.pcc
+PCC:supplement/MonsterManual3/_monstermanual3.pcc
 
 PCC:houserules/_houserules.pcc
 

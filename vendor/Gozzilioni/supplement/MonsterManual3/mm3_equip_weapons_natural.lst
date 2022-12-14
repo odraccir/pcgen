@@ -1,0 +1,4 @@
+SOURCELONG:Monster Manual 3	SOURCESHORT:MM3	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
+
+###Block: Natural																										
+Eye Ray		KEY:Lurking Strangler ~ Eye Ray		PROFICIENCY:WEAPON|Spells (Ray)	TYPE:Weapon.Natural.Ranged.Simple.Touch	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:0	CRITRANGE:1	CRITMULT:x2		SOURCEPAGE:MM3							RANGE:30		PREABILITY:1,CATEGORY=Special Ability,Lurking Strangler ~ Eye Rays

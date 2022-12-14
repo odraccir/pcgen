@@ -1,0 +1,13 @@
+SOURCELONG:Monster Manual 3	SOURCESHORT:MM3	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09																																																													
+																																																																
+# Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	TYPE:	RACETYPE:	RACESUBTYPE:	MONSTERCLASS:	MOVE:	Combat bonus	NATURALATTACKS:	NATURALATTACKS:	Weapon prof. bonus	Weapon prof. bonus	FACE:	REACH:	Special Ability	Damage Reduction	Spell Res.	Stat bonus						MONCSKILL:	CR:	Required AL	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	Nb Legs	Nb Hands	SOURCEPAGE:		
+Elemental (Storm).COPY=Elemental (Storm)	KEY:Companion ~ Elemental (Storm/Medium)
+Companion ~ Elemental (Storm/Medium).MOD	OUTPUTNAME:Elemental (Storm/Medium)	TYPE:Companion	SERVESAS:RACE|Elemental (Storm)	KIT:1|Elemental (Storm/Medium) Companion
+Elemental (Storm).COPY=Elemental (Storm)	KEY:Companion ~ Elemental (Storm/Large)
+Elemental (Storm).COPY=Elemental (Storm)	KEY:Companion ~ Elemental (Storm/Huge)
+Companion ~ Elemental (Storm/Huge).MOD	OUTPUTNAME:Elemental (Storm/Huge)	TYPE:Companion	SERVESAS:RACE|Elemental (Storm)	KIT:1|Elemental (Storm/Huge) Companion
+Companion ~ Elemental (Storm/Large).MOD	OUTPUTNAME:Elemental (Storm/Large)	TYPE:Companion	SERVESAS:RACE|Elemental (Storm)	KIT:1|Elemental (Storm/Large) Companion
+Elemental (Storm).COPY=Elemental (Storm)	KEY:Companion ~ Elemental (Storm/Greater)
+Companion ~ Elemental (Storm/Greater).MOD	OUTPUTNAME:Elemental (Storm/Greater)	TYPE:Companion	SERVESAS:RACE|Elemental (Storm)	KIT:1|Elemental (Storm/Greater) Companion
+Elemental (Storm).COPY=Elemental (Storm)	KEY:Companion ~ Elemental (Storm/Elder)
+Companion ~ Elemental (Storm/Elder).MOD	OUTPUTNAME:Elemental (Storm/Elder)	TYPE:Companion	SERVESAS:RACE|Elemental (Storm)	KIT:1|Elemental (Storm/Elder) Companion

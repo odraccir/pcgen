@@ -31,8 +31,8 @@ BIOSET:fro_biosettings.lst
 CLASS:fro_classes.lst
 # CLASS:fro_classes_sanctified.lst
 COMPANIONMOD:fro_companionmods.lst
-COMPANIONMOD:fro_companionmods_PH.lst|PRECAMPAIGN:1,Planar Handbook,Gozzilioni Campaing Full Set
-COMPANIONMOD:fro_companionmods_UA.lst|PRECAMPAIGN:1,Unearthed Arcana,Gozzilioni Campaing Full Set
+COMPANIONMOD:fro_companionmods_PH.lst|PRECAMPAIGN:1,Planar Handbook,3.5 Gozzilioni Campaing Full Set
+COMPANIONMOD:fro_companionmods_UA.lst|PRECAMPAIGN:1,Unearthed Arcana,3.5 Gozzilioni Campaing Full Set
 DEITY:fro_deities.lst
 DOMAIN:fro_domains.lst
 EQUIPMENT:fro_equip.lst
@@ -51,10 +51,10 @@ RACE:fro_races.lst
 RACE:fro_races_companion.lst
 SKILL:fro_skills.lst
 SPELL:fro_spells.lst
-SPELL:fro_spells_ELH.lst|PRECAMPAIGN:1,Epic Level Handbook 3.0,Gozzilioni Campaing Full Set
-SPELL:fro_spells_EPH.lst|PRECAMPAIGN:1,Expanded Psionics Handbook,Gozzilioni Campaing Full Set
+SPELL:fro_spells_ELH.lst|PRECAMPAIGN:1,Epic Level Handbook 3.0,3.5 Gozzilioni Campaing Full Set
+SPELL:fro_spells_EPH.lst|PRECAMPAIGN:1,Expanded Psionics Handbook,3.5 Gozzilioni Campaing Full Set
 SPELL:fro_spells_specific.lst
-SPELL:fro_spells_specific_EPH.lst|PRECAMPAIGN:1,Expanded Psionics Handbook,Gozzilioni Campaing Full Set
+SPELL:fro_spells_specific_EPH.lst|PRECAMPAIGN:1,Expanded Psionics Handbook,3.5 Gozzilioni Campaing Full Set
 ABILITY:fro_subraces.lst
 TEMPLATE:fro_templates.lst
 TEMPLATE:fro_templates_regions.lst
