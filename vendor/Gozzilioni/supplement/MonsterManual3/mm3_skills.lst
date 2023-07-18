@@ -1,0 +1,7 @@
+SOURCELONG:Monster Manual 3	SOURCESHORT:MM3	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09																													
+
+Craft (Weaving)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Weaving)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Weaving)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=WeavingTools																																										
+Craft (Weaving)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Craft ~ Weaving	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Weaving).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Weaving)"),1]																																									
+Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Weaving|var("SKILL.Craft (Weaving).MISC")	BONUS:SKILLRANK|Craft ~ Weaving|skillinfo("TOTALRANK", "Craft (Weaving)")																																									
+
+Hide.MOD	SITUATION:Natural environments

@@ -18,7 +18,7 @@ Hut (Portable)	TYPE:Goods	COST:125	WT:75	SOURCEPAGE:Fro
 Skates	TYPE:Goods	COST:10	WT:3	SOURCEPAGE:Fro	SPROP:can be use only on icy surfaces.	PRESKILL:1,Balance=5
 Skis and Poles	TYPE:Goods	COST:15	WT:6	SOURCEPAGE:Fro	SPROP:can be use only on icy or snowy surfaces.
 Snow Goggles	TYPE:Goods.Eyegear	COST:2	WT:0	SOURCEPAGE:Fro	SPROP:+2 circumstances bonus on saving throws to resist blinding effects.	BONUS:SKILL|Spot,Search|-4|TYPE=Circumstance
-Snowshoes	TYPE:Goods.Boot	COST:15	WT:8	SOURCEPAGE:Fro	SPROP:allow to move across the snow and ice with increased speed.
+Snowshoes	TYPE:Goods.Boot	COST:15	WT:8	SOURCEPAGE:Fro	SPROP:allow to move across the snow and ice with increased speed.	SLOTS:2
 Winter Fullcloth	TYPE:Goods.Clothing	COST:4	WT:2	SOURCEPAGE:Fro	SPROP:+1 circumstance bonus on Fortitude saving throws against exposure to cold weather.
 
 ###Block: Alchemical									
@@ -46,7 +46,7 @@ Hammer caverd from salt crystal		TYPE:Spellcomponent.MaterialComponent.Consumabl
 Ship (glass)		TYPE:Spellcomponent.MaterialComponent.Consumable	COST:200	WT:0	SOURCEPAGE:Fro	
 
 ###Bloc:Artifacts
-Crystal Tear		TYPE:Artifact.Minor	COST:0	WT:4	SOURCEPAGE:Fro	SPROP:If the melted tear is imbibed before it evaporates, it grants a +4 inherent bonus to one of the drinker’s ability scores.
+Crystal Tear		TYPE:Artifact.Minor	COST:0	WT:4	SOURCEPAGE:Fro	SPROP:If the melted tear is imbibed before it evaporates, it grants a +4 inherent bonus to one of the drinker's ability scores.
 
 ##Block: Wondrous items
 Frostfell Figurine of Wondrous Power (Basalt Glyptodon)	OUTPUTNAME:Frostfell Figurine of Wondrous Power, [NAME]	TYPE:Wondrous	COST:32000	WT:0	SOURCEPAGE:Fro																			
@@ -79,6 +79,6 @@ Skull		TYPE:Skull.Consumable	COST:0	WT:0	SOURCEPAGE:FF	MODS:REQUIRED
 
 ###Block:Staff
 Staff of the Iceberg	KEY:Staff (Iceberg)	TYPE:Staff.Weapon.Melee.Simple.Bludgeoning.TwoHanded.Double.Quarterstaff	COST:138000	WT:5	SOURCEPAGE:Fro	EQMOD:CHARGED_ITEM_50|CHARGES[50].WOOD.PLUS2W.FROST_BURST_M	SPROP:Snow walk (1 charge)/Entomb (2 charges)/Ice ship (2 charges)/Ice castle (3 charges)/Iceberg (5 charges).	PROFICIENCY:WEAPON|Quarterstaff	WIELD:TwoHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2			ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.PLUS2W.FROST_BURST_M					
-Staff of Winter	KEY:Staff (Winter)	TYPE:Staff	COST:58000	WT:5	SOURCEPAGE:Fro	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Boreal wind (1 charge)/Obscuring snow (1 charge)/Winter’s embrace (1 charge)/Whiteout (2 charges)
+Staff of Winter	KEY:Staff (Winter)	TYPE:Staff	COST:58000	WT:5	SOURCEPAGE:Fro	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Boreal wind (1 charge)/Obscuring snow (1 charge)/Winter's embrace (1 charge)/Whiteout (2 charges)
 
 Golem (Ice)		KEY:Golem ~ Ice	TYPE:Monster.Construct.Container	COST:60000	WT:0	SOURCEPAGE:Fro	CONTAINS:UNLIM|Any	SPROP:CL 10th; Craft Construct (see page 303), ice shape,wall of ice and animate snow or cone of cold, caster must be at least 10th level.

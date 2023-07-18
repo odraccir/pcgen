@@ -128,7 +128,7 @@ GEAR:Poison (Black Adder Venom)	QTY:1
 					
 STARTPACK:Halfling ~ Channath Vale Region B1	TYPE:Region	VISIBLE:QUALIFY	EQUIPBUY:0	PRELEVELMAX:1	PRERACE:1,Halfling
 GEAR:Sling	EQMOD:MWORKW				
-GEAR:Bullets (Sling/10)	EQMOD:ALC_SILVER_WEAP				
+GEAR:Bullets (Sling/10)	EQMOD:ALC_SILVER_AMMO				
 					
 					
 					

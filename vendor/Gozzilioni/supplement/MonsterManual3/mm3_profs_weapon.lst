@@ -1,0 +1,17 @@
+SOURCELONG:Monster Manual 3	SOURCESHORT:MM3	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09																														
+#			
+### Weapon/Spell			
+### Simple/Martial/Exotic			
+### Melee/Ranged			
+### Bludgeoning/Piercing/Slashing			
+### Reach/Double/Thrown/Projectile/Ammunition			
+### Unharmed/Light/OneHanded/TwoHanded			
+###Automatic			
+
+###Improvised			
+
+###Simple			
+###Martial			
+###Exotic			
+Sand Blaster	TYPE:Exotic.Ranged.Bludgeoning.RangedBludgeoning.OneHanded		
+Flindbar	TYPE:Exotic.Melee.Bludgeoning.RangedBludgeoning.OneHanded		

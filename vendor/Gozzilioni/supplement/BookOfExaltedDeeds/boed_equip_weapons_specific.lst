@@ -41,8 +41,8 @@ Celestial Blade			PROFICIENCY:WEAPON|Sword (Bastard)	TYPE:Weapon.Melee.Exotic.Sl
 ## Ranged																								
 																								
 # Arrows																								
-Arrow (Hellpiercer)				TYPE:Ammunition.Specific.Arrow	COST:4007	WT:0.15							EQMOD:ALC_SILVER_WEAP.WOOD.EQ_COST_ADJ_W.PLUS3W.SHOCK_BURST_A	SOURCEPAGE:BoED	SPROP:purified couatl venom (see Ravages and Afflictions in Chapter 3: Exalted Equipment).									
-Bolt (Crossbow/Hellpiercer)				TYPE:Ammunition.Specific.Bolt	COST:4007	WT:0.1							EQMOD:ALC_SILVER_WEAP.WOOD.EQ_COST_ADJ_W.PLUS3W.SHOCK_BURST_A	SOURCEPAGE:BoED	SPROP:purified couatl venom (see Ravages and Afflictions in Chapter 3: Exalted Equipment).									
+Arrow (Hellpiercer)				TYPE:Ammunition.Specific.Arrow	COST:4007	WT:0.15							EQMOD:ALC_SILVER_AMMO.WOOD.EQ_COST_ADJ_W.PLUS3W.SHOCK_BURST_A	SOURCEPAGE:BoED	SPROP:purified couatl venom (see Ravages and Afflictions in Chapter 3: Exalted Equipment).									
+Bolt (Crossbow/Hellpiercer)				TYPE:Ammunition.Specific.Bolt	COST:4007	WT:0.1							EQMOD:ALC_SILVER_AMMO.WOOD.EQ_COST_ADJ_W.PLUS3W.SHOCK_BURST_A	SOURCEPAGE:BoED	SPROP:purified couatl venom (see Ravages and Afflictions in Chapter 3: Exalted Equipment).									
 																								
 ## Intelligent																								
 Barsolidor			PROFICIENCY:WEAPON|Longsword	TYPE:Weapon.Melee.Martial.Slashing.OneHanded.Sword.Specific	COST:52515	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS3W.INT_ITEM.WEAP_INT_ITEM_6.INT_ITEM_INT_17.INT_ITEM_CHA_17.INT_ITEM_ALIGN_CG.INT_ITEM_LANG_3|Celestial,Common,Draconic,Elven.INT_ITEM_CURE_MODERATE.INT_ITEM_ZONE_TRUTH.INT_ITEM_KNOWLEDGE|Knowledge (History).INT_ITEM_DETECT_EVIL.INT_ITEM_DETECT_EVIL	SOURCEPAGE:BoED										

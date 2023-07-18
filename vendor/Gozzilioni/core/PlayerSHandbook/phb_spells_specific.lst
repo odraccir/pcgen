@@ -13,6 +13,8 @@ Animal Shapes.COPY=Animal Shapes	KEY:Animal Shapes ~ Vermins only
 Animal Shapes ~ Vermins only.MOD	OUTPUTNAME:Animal Shapes	TYPE:SpellLike	DESC:Vermins only.
 Animal Shapes.COPY=Animal Shapes	KEY:Animal Shapes ~ Reptiles only																								
 Animal Shapes ~ Reptiles only.MOD	OUTPUTNAME:Animal Shapes	DESC:Affects ophidian or reptilian creatures only.																							
+Animal Shapes.COPY=Animal Shapes	KEY:Animal Shapes ~ Snakes only																								
+Animal Shapes ~ Snakes only.MOD	OUTPUTNAME:Animal Shapes	DESC:Affects snakes creatures only.																							
 
 Animal Trance.COPY=Animal Trance	KEY:Animal Trance ~ Vermins only
 Animal Trance ~ Vermins only.MOD	OUTPUTNAME:Animal Trance	TYPE:SpellLike	DESC:Vermins only.

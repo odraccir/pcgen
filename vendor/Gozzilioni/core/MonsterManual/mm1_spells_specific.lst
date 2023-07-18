@@ -1,7 +1,6 @@
 SOURCELONG:Monster Manual	SOURCESHORT:MM1	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-07
 #																								
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:|!PRERULE:1,DisplayFullSpell	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	Desc	Bonus	Bonus
-### Teleport (Greater) ~ Self only.MOD	CLASS:.CLEARALL
 Cause Fear.COPY=Cause Fear	KEY:Cause Fear ~ Quasit
 Cause Fear ~ Quasit.MOD	OUTPUTNAME:Cause Fear	TYPE:SpellLike	TARGETAREA:.CLEAR	TARGETAREA:30-ft radius from the Quasit	SOURCEPAGE:MM1
 

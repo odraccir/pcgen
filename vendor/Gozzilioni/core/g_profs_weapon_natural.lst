@@ -26,9 +26,12 @@ Shocking Touch	TYPE:Weapon.Natural.Finesseable.Melee.Touch.MeleeTouch
 
 Musk Puff	TYPE:Weapon.Natural.Finesseable.Ranged.Touch.RangedTouch
 
-Eldritch Fire	TYPE:Weapon.Natural.Finesseable.Ranged.Touch.RangedTouch
-Hellfire Blast	TYPE:Weapon.Natural.Finesseable.Ranged.Touch.RangedTouch
-Rimefire Bolt	TYPE:Weapon.Natural.Finesseable.Ranged.Touch.RangedTouch
+# Eldritch Fire	TYPE:Weapon.Spell.Finesseable.Ranged.Touch.RangedTouch
+# Hellfire Blast	TYPE:Weapon.Spell.Finesseable.Ranged.Touch.RangedTouch
+# Rimefire Bolt	TYPE:Weapon.Spell.Finesseable.Ranged.Touch.RangedTouch
+# Glacial Ray	TYPE:Weapon.Spell.Finesseable.Ranged.Touch.RangedTouch
+# Bolt of Cold	TYPE:Weapon.Spell.Finesseable.Ranged.Touch.RangedTouch
+# Spit Fire	TYPE:Weapon.Spell.Finesseable.Ranged.Touch.RangedTouch
 
 #Melee
 Armblade	TYPE:Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning.MeleePiercing.MeleeSlashing.MeleeBludgeoning.Sword
@@ -101,7 +104,7 @@ Electricity Ray	TYPE:Weapon.Natural.Finesseable.Ranged
 Pressure Dart	TYPE:Weapon.Natural.Finesseable.Ranged
 Needle	TYPE:Weapon.Natural.Finesseable.Ranged.Piercing.RangedPiercing
 Spine	TYPE:Weapon.Natural.Finesseable.Ranged.Piercing.RangedPiercing
-
+Throat Dart	TYPE:Weapon.Natural.Finesseable.Ranged.Piercing.Unarmed.RangedPiercing
 
 # Fake Auto	TYPE:Auto		
 # Fake Simple	TYPE:Simple.Melee		
