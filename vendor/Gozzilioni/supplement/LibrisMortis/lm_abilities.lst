@@ -1,0 +1,53 @@
+SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-10																													
+																																
+###Block: Exalted Spellcasting																																
+Necrotic Spellcaster (Arcane/INT Spellstat)	CATEGORY:Special Ability	TYPE:NecroticSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Necrotic (Arcane/INT)													SOURCEPAGE:LM
+Necrotic Spellcaster (Arcane/WIS Spellstat)	CATEGORY:Special Ability	TYPE:NecroticSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Necrotic (Arcane/WIS)													SOURCEPAGE:LM
+Necrotic Spellcaster (Arcane/CHA Spellstat)	CATEGORY:Special Ability	TYPE:NecroticSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Necrotic (Arcane/CHA)													SOURCEPAGE:LM
+Necrotic Spellcaster (Divine/INT Spellstat)	CATEGORY:Special Ability	TYPE:NecroticSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Necrotic (Divine/INT)													SOURCEPAGE:LM
+Necrotic Spellcaster (Divine/WIS Spellstat)	CATEGORY:Special Ability	TYPE:NecroticSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Necrotic (Divine/WIS)													SOURCEPAGE:LM
+Necrotic Spellcaster (Divine/CHA Spellstat)	CATEGORY:Special Ability	TYPE:NecroticSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Necrotic (Divine/CHA)													SOURCEPAGE:LM
+																																
+Undead Leadership Score	CATEGORY:Special Ability	TYPE:Internal	VISIBLE:NO	DEFINE:UndeadLeadershipFollowerLVL1|0	DEFINE:UndeadLeadershipFollowerLVL2|0	DEFINE:UndeadLeadershipFollowerLVL3|0	DEFINE:UndeadLeadershipFollowerLVL4|0	DEFINE:UndeadLeadershipFollowerLVL5|0	DEFINE:UndeadLeadershipFollowerLVL6|0	TEMPVALUE:MIN=-10|MAX=10|TITLE=Undead Leadership Score Adjustment	TEMPDESC:Several factors can affect a character's Undead Leadership score, causing it to vary from the base score. Add modifiers as needed.	TEMPBONUS:PC|VAR|UndeadLeadershipScore|%CHOICE																				SOURCEPAGE:LM
+																																
+Undead Leadership Cohort	CATEGORY:Special Ability	ABILITY:Internal|AUTOMATIC|Undead Leadership Cohort (Base)|Undead Leadership Cohort																														
+Undead Leadership Cohort (Base)	CATEGORY:Internal								DEFINE:UndeadLeadershipCohortLVL|0	DEFINE:UndeadLeadershipCohortDetermination|0													FOLLOWERS:Undead Leadership Cohort|1	ABILITY:Undead Leadership Cohort Selection|AUTOMATIC|Standard Selection ~ Undead Leadership Cohort|!PREABILITY:1,CATEGORY=Internal,TYPE.UndeadLeadershipCohortAlternate								SOURCEPAGE:LM
+Undead Leadership Cohort	CATEGORY:Internal	TYPE:UndeadLeadershipCohortSelection	VISIBLE:NO																													SOURCEPAGE:LM
+Expanded Selection	CATEGORY:Internal	TYPE:UndeadLeadershipCohortSelection.UndeadLeadershipCohortAlternate		KEY:Expanded Selection ~ Undead Leadership Cohort																			COST:0	COMPANIONLIST:Undead Leadership Cohort|ANY								SOURCEPAGE:LM
+Undead Leadership Cohort (Default)	CATEGORY:Internal	TYPE:UndeadLeadershipCohortSelection.UndeadLeadershipCohortBase		KEY:Standard Selection ~ Undead Leadership Cohort	!PREABILITY:1,CATEGORY=Internal,TYPE.UndeadLeadershipCohortAlternate																		COST:0	COMPANIONLIST:Undead Leadership Cohort|Skeleton,Zombie	COMPANIONLIST:Undead Leadership Cohort|Ghoul|PREVARGT:UndeadLeadershipCohortLVL,5	COMPANIONLIST:Undead Leadership Cohort|Shadow|PREVARGT:UndeadLeadershipCohortLVL,6	COMPANIONLIST:Undead Leadership Cohort|Allip,Ghast,Wight|PREVARGT:UndeadLeadershipCohortLVL,7					SOURCEPAGE:LM
+																																
+CATEGORY=Internal|Default.MOD	DEFINE:HasSummonUndeadI|0	ABILITY:Special Ability|AUTOMATIC|Summon Undead I																														
+CATEGORY=Internal|Default.MOD	DEFINE:HasSummonUndeadII|0	ABILITY:Special Ability|AUTOMATIC|Summon Undead II																														
+CATEGORY=Internal|Default.MOD	DEFINE:HasSummonUndeadIII|0	ABILITY:Special Ability|AUTOMATIC|Summon Undead III																														
+CATEGORY=Internal|Default.MOD	DEFINE:HasSummonUndeadIV|0	ABILITY:Special Ability|AUTOMATIC|Summon Undead IV																														
+CATEGORY=Internal|Default.MOD	DEFINE:HasSummonUndeadV|0	ABILITY:Special Ability|AUTOMATIC|Summon Undead V																														
+																																
+Summon Undead I	CATEGORY:Special Ability	ABILITY:Internal|AUTOMATIC|Summon Undead I (Base)|Summon Undead I	BONUS:VAR|SummonUndeadILVL|1																													
+Summon Undead I (Base)	CATEGORY:Internal								DEFINE:SummonUndeadILVL|0	DEFINE:SummonUndeadIDetermination|0														ABILITY:Summon Undead I Selection|AUTOMATIC|Standard Selection ~ Summon Undead I|!PREABILITY:1,CATEGORY=Internal,TYPE.SummonUndeadIAlternate								SOURCEPAGE:LM
+Summon Undead I	CATEGORY:Internal	TYPE:SummonUndeadISelection	VISIBLE:NO																													SOURCEPAGE:LM
+Expanded Selection	CATEGORY:Internal	TYPE:SummonUndeadISelection.SummonUndeadIAlternate		KEY:Expanded Selection ~ Summon Undead I																			COST:0	COMPANIONLIST:Summon Undead I|ANY								SOURCEPAGE:LM
+Summon Undead I (Default)	CATEGORY:Internal	TYPE:SummonUndeadISelection.SummonUndeadIBase		KEY:Standard Selection ~ Summon Undead I	!PREABILITY:1,CATEGORY=Internal,TYPE.SummonUndeadIAlternate																		COST:0	COMPANIONLIST:Summon Undead I|Companion ~ Human (Skeleton)								SOURCEPAGE:LM
+																																
+Summon Undead II	CATEGORY:Special Ability	ABILITY:Internal|AUTOMATIC|Summon Undead II (Base)|Summon Undead II	BONUS:VAR|SummonUndeadIILVL|1																													
+Summon Undead II (Base)	CATEGORY:Internal								DEFINE:SummonUndeadIILVL|0	DEFINE:SummonUndeadIIDetermination|0														ABILITY:Summon Undead II Selection|AUTOMATIC|Standard Selection ~ Summon Undead II|!PREABILITY:1,CATEGORY=Internal,TYPE.SummonUndeadIIAlternate								SOURCEPAGE:LM
+Summon Undead II	CATEGORY:Internal	TYPE:SummonUndeadIISelection	VISIBLE:NO																													SOURCEPAGE:LM
+Expanded Selection	CATEGORY:Internal	TYPE:SummonUndeadIISelection.SummonUndeadIIAlternate		KEY:Expanded Selection ~ Summon Undead II																			COST:0	COMPANIONLIST:Summon Undead II|ANY								SOURCEPAGE:LM
+Summon Undead II (Default)	CATEGORY:Internal	TYPE:SummonUndeadIISelection.SummonUndeadIIBase		KEY:Standard Selection ~ Summon Undead II	!PREABILITY:1,CATEGORY=Internal,TYPE.SummonUndeadIIAlternate																		COST:0	COMPANIONLIST:Summon Undead II|Companion ~ Human (Zombie)								SOURCEPAGE:LM
+																																
+Summon Undead III	CATEGORY:Special Ability	ABILITY:Internal|AUTOMATIC|Summon Undead III (Base)|Summon Undead III	BONUS:VAR|SummonUndeadIIILVL|1																													
+Summon Undead III (Base)	CATEGORY:Internal								DEFINE:SummonUndeadIIILVL|0	DEFINE:SummonUndeadIIIDetermination|0														ABILITY:Summon Undead III Selection|AUTOMATIC|Standard Selection ~ Summon Undead III|!PREABILITY:1,CATEGORY=Internal,TYPE.SummonUndeadIIIAlternate								SOURCEPAGE:LM
+Summon Undead III	CATEGORY:Internal	TYPE:SummonUndeadIIISelection	VISIBLE:NO																													SOURCEPAGE:LM
+Expanded Selection	CATEGORY:Internal	TYPE:SummonUndeadIIISelection.SummonUndeadIIIAlternate		KEY:Expanded Selection ~ Summon Undead III																			COST:0	COMPANIONLIST:Summon Undead III|ANY								SOURCEPAGE:LM
+Summon Undead III (Default)	CATEGORY:Internal	TYPE:SummonUndeadIIISelection.SummonUndeadIIIBase		KEY:Standard Selection ~ Summon Undead III	!PREABILITY:1,CATEGORY=Internal,TYPE.SummonUndeadIIIAlternate																		COST:0	COMPANIONLIST:Summon Undead III|Ghoul								SOURCEPAGE:LM
+																																
+Summon Undead IV	CATEGORY:Special Ability	ABILITY:Internal|AUTOMATIC|Summon Undead IV (Base)|Summon Undead IV	BONUS:VAR|SummonUndeadIVLVL|1																													
+Summon Undead IV (Base)	CATEGORY:Internal								DEFINE:SummonUndeadIVLVL|0	DEFINE:SummonUndeadIVDetermination|0														ABILITY:Summon Undead IV Selection|AUTOMATIC|Standard Selection ~ Summon Undead IV|!PREABILITY:1,CATEGORY=Internal,TYPE.SummonUndeadIVAlternate								SOURCEPAGE:LM
+Summon Undead IV	CATEGORY:Internal	TYPE:SummonUndeadIVSelection	VISIBLE:NO																													SOURCEPAGE:LM
+Expanded Selection	CATEGORY:Internal	TYPE:SummonUndeadIVSelection.SummonUndeadIVAlternate		KEY:Expanded Selection ~ Summon Undead IV																			COST:0	COMPANIONLIST:Summon Undead IV|ANY								SOURCEPAGE:LM
+Summon Undead IV (Default)	CATEGORY:Internal	TYPE:SummonUndeadIVSelection.SummonUndeadIVBase		KEY:Standard Selection ~ Summon Undead IV	!PREABILITY:1,CATEGORY=Internal,TYPE.SummonUndeadIVAlternate																		COST:0	COMPANIONLIST:Summon Undead IV|Allip,Ghoul (Ghast)								SOURCEPAGE:LM
+																																
+Summon Undead V	CATEGORY:Special Ability	ABILITY:Internal|AUTOMATIC|Summon Undead V (Base)|Summon Undead V	BONUS:VAR|SummonUndeadVLVL|1																													
+Summon Undead V (Base)	CATEGORY:Internal								DEFINE:SummonUndeadVLVL|0	DEFINE:SummonUndeadVDetermination|0														ABILITY:Summon Undead V Selection|AUTOMATIC|Standard Selection ~ Summon Undead V|!PREABILITY:1,CATEGORY=Internal,TYPE.SummonUndeadVAlternate								SOURCEPAGE:LM
+Summon Undead V	CATEGORY:Internal	TYPE:SummonUndeadVSelection	VISIBLE:NO																													SOURCEPAGE:LM
+Expanded Selection	CATEGORY:Internal	TYPE:SummonUndeadVSelection.SummonUndeadVAlternate		KEY:Expanded Selection ~ Summon Undead V																			COST:0	COMPANIONLIST:Summon Undead V|ANY								SOURCEPAGE:LM
+Summon Undead V (Default)	CATEGORY:Internal	TYPE:SummonUndeadVSelection.SummonUndeadVBase		KEY:Standard Selection ~ Summon Undead V	!PREABILITY:1,CATEGORY=Internal,TYPE.SummonUndeadVAlternate																		COST:0	COMPANIONLIST:Summon Undead V|Mummy,Shadow,Vampire Spawn,Wight								SOURCEPAGE:LM

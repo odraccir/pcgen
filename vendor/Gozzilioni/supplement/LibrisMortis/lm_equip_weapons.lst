@@ -1,0 +1,7 @@
+SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-10												
+
+Holy Water Sprinkler			PROFICIENCY:WEAPON|Mace (Heavy)	TYPE:Weapon.Melee.Simple.Bludgeoning.OneHanded.Mace	COST:62	WT:8	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:LM											
+
+#Bullet
+Priest's Bullet (20)				TYPE:Ammunition.Standard.SlingStone.Container	COST:400	WT:3							EQMOD:GLASS	SOURCEPAGE:LM								BASEQTY:20	MODS:YES	CONTAINS:1|Liquid=1	
+Priest's Bullet				TYPE:Ammunition.Standard.SlingStone.Container	COST:20	WT:0.15							EQMOD:GLASS	SOURCEPAGE:LM									MODS:YES	CONTAINS:1|Liquid=1	

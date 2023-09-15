@@ -1,0 +1,19 @@
+SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-10
+
+Inescapable Craving	VISIBLE:NO	SOURCEPAGE:LM	TEMPDESC:An undead with an inescapable craving takes ability damage each day unless it makes a successful DC 25 Will save.	TEMPVALUE:MIN=1|MAX=6|TITLE=Satiation Damage	TEMPBONUS:ANYPC|STAT|WIS|-1*(%CHOICE)
+Diet Dependent	VISIBLE:NO	SOURCEPAGE:LM	TEMPDESC:A diet-dependent undead takes ability damage every three days unless it makes a successful DC 15 Will save.	TEMPVALUE:MIN=2|MAX=8|TITLE=Satiation Damage	TEMPBONUS:ANYPC|STAT|WIS|-1*(%CHOICE)
+
+Awaken Undead	TYPE:Spell Effect	TEMPLATE:CHOOSE:Intelligent Undead|Non Intelligent Undead	VISIBLE:YES	PRERACE:1,Racetype=Undead	SUBRACE:Awakened
+Intelligent Undead	VISIBLE:NO	PRESTATGTEQ:1,INT=4	BONUS:VAR|TurnReststance|2|TYPE=Profane
+Non Intelligent Undead	VISIBLE:NO	PRESTATLTEQ:INT=3	KIT:Awakened Undead	BONUS:VAR|TurnReststance|2|TYPE=Profane
+
+Hunger ~ Bite	VISIBLE:NO	TYPE:Domain	TEMPLATE:CHOOSE:Hunger ~ Bite (Fine)|Hunger ~ Bite (Diminutive)|Hunger ~ Bite (Tiny)|Hunger ~ Bite (Small)|Hunger ~ Bite (Medium)|Hunger ~ Bite (Large)|Hunger ~ Bite (Huge)|Hunger ~ Bite (Gargantuan)|Hunger ~ Bite (Colossal)																					
+Hunger ~ Bite (Fine)	VISIBLE:NO	PRESIZEEQ:F	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1
+Hunger ~ Bite (Diminutive)	VISIBLE:NO	PRESIZEEQ:D	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d2
+Hunger ~ Bite (Tiny)	VISIBLE:NO	PRESIZEEQ:T	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d3
+Hunger ~ Bite (Small)	VISIBLE:NO	PRESIZEEQ:S	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d4
+Hunger ~ Bite (Medium)	VISIBLE:NO	PRESIZEEQ:M	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6
+Hunger ~ Bite (Large)	VISIBLE:NO	PRESIZEEQ:L	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d8
+Hunger ~ Bite (Huge)	VISIBLE:NO	PRESIZEEQ:H	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,2d6
+Hunger ~ Bite (Gargantuan)	VISIBLE:NO	PRESIZEEQ:G	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,3d6
+Hunger ~ Bite (Colossal)	VISIBLE:NO	PRESIZEEQ:C	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,4d6

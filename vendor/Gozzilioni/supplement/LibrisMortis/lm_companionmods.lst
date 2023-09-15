@@ -1,0 +1,37 @@
+
+###Block:Bolster Resistance
+FOLLOWER:BolsterResistance=1	TYPE:Create Undead	BONUS:VAR|TurnResistance|4
+FOLLOWER:BolsterResistance=1	TYPE:Create Greater Undead	BONUS:VAR|TurnResistance|4
+
+###Block:Corpsecrafter
+FOLLOWER:Corpsecrafter=1	TYPE:Create Undead	BONUS:STAT|STR|2	BONUS:HP|CURRENTMAX|HD*2
+FOLLOWER:Corpsecrafter=1	TYPE:Create Greater Undead	BONUS:STAT|STR|2	BONUS:HP|CURRENTMAX|HD*2
+
+###Block:Hardened Flesh
+FOLLOWER:HardenedFlesh=1	TYPE:Create Undead	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK
+FOLLOWER:HardenedFlesh=1	TYPE:Create Greater Undead	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK
+
+###Block:Nimble Bones
+FOLLOWER:NimbleBones=1	TYPE:Create Undead	BONUS:COMBAT|INITIATIVE|4	BONUS:MOVEADD|TYPE.Walk|10
+FOLLOWER:NimbleBones=1	TYPE:Create Greater Undead	BONUS:COMBAT|INITIATIVE|4	BONUS:MOVEADD|TYPE.Walk|10
+
+FOLLOWER:StitchedFleshFamiliarLVL=1	TYPE:Familiar	RACETYPE:Undead
+
+#Leadership
+FOLLOWER:UndeadLeadershipScore=1	TYPE:Cohort
+FOLLOWER:UndeadLeadershipScore=1	TYPE:Follower LVL 1
+FOLLOWER:UndeadLeadershipScore=1	TYPE:Follower LVL 2
+FOLLOWER:UndeadLeadershipScore=1	TYPE:Follower LVL 3
+FOLLOWER:UndeadLeadershipScore=1	TYPE:Follower LVL 4
+FOLLOWER:UndeadLeadershipScore=1	TYPE:Follower LVL 5
+FOLLOWER:UndeadLeadershipScore=1	TYPE:Follower LVL 6
+
+#Improved Summoning from Master of Shrouds
+FOLLOWER:ImprovedSummoningLVL=1	TYPE:Summon Undead I	BONUS:COMBAT|DAMAGE.Melee|2|TYPE=Enhancement	BONUS:COMBAT|TOHIT|2|TYPE=Enhancement
+FOLLOWER:ImprovedSummoningLVL=1	TYPE:Summon Undead II	BONUS:COMBAT|DAMAGE.Melee|2|TYPE=Enhancement	BONUS:COMBAT|TOHIT|2|TYPE=Enhancement
+FOLLOWER:ImprovedSummoningLVL=1	TYPE:Summon Undead III	BONUS:COMBAT|DAMAGE.Melee|2|TYPE=Enhancement	BONUS:COMBAT|TOHIT|2|TYPE=Enhancement
+FOLLOWER:ImprovedSummoningLVL=1	TYPE:Summon Undead IV	BONUS:COMBAT|DAMAGE.Melee|2|TYPE=Enhancement	BONUS:COMBAT|TOHIT|2|TYPE=Enhancement
+FOLLOWER:ImprovedSummoningLVL=1	TYPE:Summon Undead V	BONUS:COMBAT|DAMAGE.Melee|2|TYPE=Enhancement	BONUS:COMBAT|TOHIT|2|TYPE=Enhancement
+
+FOLLOWER:EphemeralEnhancedSpawnLVL=1	TYPE:Create Spawn	BONUS:STAT|DEX|4|TYPE=Enhancement
+FOLLOWER:EnhancedSpawnLVL=1	TYPE:Create Spawn	BONUS:STAT|STR|2|TYPE=Enhancement	BONUS:STAT|DEX|2|TYPE=Enhancement

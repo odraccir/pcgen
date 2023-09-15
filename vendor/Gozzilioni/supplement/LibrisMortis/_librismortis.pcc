@@ -1,0 +1,76 @@
+CAMPAIGN:Libris Mortis
+GAMEMODE:G35e
+RANK:3
+TYPE:Gozzilioni.Partial.Supplement
+SETTING:Heroes
+BOOKTYPE:Supplement
+SOURCELONG:Libris Mortis
+SOURCESHORT:LM
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2004-10
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+
+PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Guide
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:missing.txt
+
+ABILITY:lm_abilities.lst
+ABILITY:lm_abilities_classes.lst
+# ABILITY:lm_abilities_FF.lst|PRECAMPAIGN:1,Fiend folio
+# ABILITY:lm_abilities_MM2.lst|PRECAMPAIGN:1,Monster Manual 2
+# ABILITY:lm_abilities_races.lst
+# ABILITY:lm_abilities_racetraits.lst
+# ABILITY:lm_abilities_regions.lst
+# ABILITY:lm_abilities_templates.lst
+ABILITYCATEGORY:lm_abilitycategories.lst
+# BIOSET:lm_biosettings.lst
+CLASS:lm_classes.lst
+# CLASS:lm_classes_sanctified.lst
+COMPANIONMOD:lm_companionmods.lst
+# COMPANIONMOD:lm_companionmods_PH.lst|PRECAMPAIGN:1,Planar Handbook,3.5 Gozzilioni Campaing Full Set
+# COMPANIONMOD:lm_companionmods_UA.lst|PRECAMPAIGN:1,Unearthed Arcana,3.5 Gozzilioni Campaing Full Set
+DEITY:lm_deities.lst
+DOMAIN:lm_domains.lst
+EQUIPMENT:lm_equip.lst
+EQUIPMENT:lm_equip_armors.lst
+# EQUIPMENT:lm_equip_armors_specific.lst
+# EQUIPMENT:lm_equip_magic_items.lst
+EQUIPMENT:lm_equip_weapons.lst
+# EQUIPMENT:lm_equip_weapons_natural.lst
+# EQUIPMENT:lm_equip_weapons_specific.lst
+# EQUIPMENT:mm2_equip_weapons_natural.lst
+EQUIPMOD:lm_equipmods.lst
+ABILITY:lm_feats.lst
+KIT:lm_kits.lst
+# LANGUAGE:lm_languages.lst
+# WEAPONPROF:lm_profs_weapon.lst
+# ARMORPROF:lm_profs_armor.lst
+RACE:lm_races.lst
+# RACE:lm_races_companion.lst
+# SKILL:lm_skills.lst
+SPELL:lm_spells.lst
+# SPELL:lm_spells_ELH.lst|PRECAMPAIGN:1,Epic Level Handbook 3.0,3.5 Gozzilioni Campaing Full Set
+# SPELL:lm_spells_EPH.lst|PRECAMPAIGN:1,Expanded Psionics Handbook,3.5 Gozzilioni Campaing Full Set
+# SPELL:lm_spells_specific.lst
+# SPELL:lm_spells_specific_EPH.lst|PRECAMPAIGN:1,Expanded Psionics Handbook,3.5 Gozzilioni Campaing Full Set
+# ABILITY:lm_subraces.lst
+TEMPLATE:lm_templates.lst
+# TEMPLATE:lm_templates_regions.lst
+#
+# HIDETYPE:SKILL|Craft (Stoneworking)
+# HIDETYPE:FEAT|CloudAnchorite
+
+# ENTRY DATE: 2015-08
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:
