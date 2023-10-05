@@ -16,9 +16,6 @@ PUBNAMEWEB:http://www.gozzilioni.net
 
 PRECAMPAIGN:1,Frostburn
 
-# Do not remove the EXTRAFILE comment.
-#EXTRAFILE:extrafile.txt
-
 ABILITY:froe_abilities_races.lst
 
 # ENTRY DATE: 2015-08

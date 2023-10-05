@@ -1,0 +1,10 @@
+SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-10
+#								
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:|PREALIGN:	TYPE:	FACTSET:Pantheon|	SOURCEPAGE:	
+#Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	FACT:Symbol|a Kitten on a keyboard
+###Block: Core								
+Afflux	ALIGN:NE	DEITYWEAP:Sword (Short)	DESC:Afflux (M)	DOMAINS:Deathbound,Evil,Knowledge,Undeath|PREALIGN:LE,TN,NE,CE	TYPE:Lesser	FACTSET:Pantheon|Undead	SOURCEPAGE:LM	
+Doresian	ALIGN:CE	DEITYWEAP:Scimitar	DESC:Doresian (M)	DOMAINS:Chaos,Evil,Hunger|PREALIGN:NE,CE,CN	TYPE:Demigod	FACTSET:Pantheon|Undead	SOURCEPAGE:LM
+Evening Glory	ALIGN:TN	DEITYWEAP:Dagger	DESC:Evening Glory (F)	DOMAINS:Chaos,Charm,Good|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	FACTSET:Pantheon|Undead	SOURCEPAGE:LM
+Nerull	ALIGN:NE	DEITYWEAP:Scythe	DESC:Nerull (M)	DOMAINS:Death,Evil,Trickery|PREALIGN:LE,TN,NE,CE	TYPE:Greater	FACTSET:Pantheon|Undead	SOURCEPAGE:LM
+Orcus	ALIGN:CE	DEITYWEAP:Mace (Heavy)|Mace (Light)	DESC:Orcus (M)	DOMAINS:Chaos,Darkness,Death,Evil|PREALIGN:NE,CN,CE	TYPE:Demon Lord	FACTSET:Pantheon|Undead	SOURCEPAGE:LM

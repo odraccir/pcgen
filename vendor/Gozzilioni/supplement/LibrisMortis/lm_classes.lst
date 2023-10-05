@@ -1,0 +1,211 @@
+SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-10												
+															
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE			
+# Class Name req	Requirements	FINE													
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS			
+# Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	SPELLLIST	spell level increases (BONUS:CASTERLEVEL)									
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)					
+CLASS:Necrotic	HD:1	TYPE:NecroticSpells	FACT:Abb|Necrotic		SOURCEPAGE:LM					FACT:ClassType|Spellcasting	VISIBLE:NO	DEFINE:NecroticLVL|0	BONUS:VAR|NecroticLVL|CL		
+CLASS:Necrotic	SPELLSTAT:SPELL		SPELLBOOK:YES		BONUS:CASTERLEVEL|Necrotic|TL	BONUSSPELLSTAT:NONE									
+1	DONOTADD:HITDIE|SKILLPOINTS	CAST:0,0,0,0,0,0,0,0,0,0													
+#															
+CLASS:Necrotic (Arcane/WIS)	HD:1	TYPE:NecroticSpells	FACT:Abb|Necrotic		SOURCEPAGE:LM					FACT:ClassType|Spellcasting	VISIBLE:NO	DEFINE:NecroticLVL|0	BONUS:VAR|NecroticLVL|CL		
+CLASS:Necrotic (Arcane/WIS)	SPELLSTAT:WIS	FACT:SpellType|Arcane	SPELLBOOK:YES	SPELLLIST:1|Necrotic	BONUS:CASTERLEVEL|Necrotic (Arcane/WIS)|TL	BONUSSPELLSTAT:NONE									
+1	DONOTADD:HITDIE|SKILLPOINTS	CAST:0,0,0,0,0,0,0,0,0,0													
+#															
+CLASS:Necrotic (Arcane/INT)	HD:1	TYPE:NecroticSpells	FACT:Abb|Necrotic		SOURCEPAGE:LM					FACT:ClassType|Spellcasting	VISIBLE:NO	DEFINE:NecroticLVL|0	BONUS:VAR|NecroticLVL|CL		
+CLASS:Necrotic (Arcane/INT)	SPELLSTAT:INT	FACT:SpellType|Arcane	SPELLBOOK:YES	SPELLLIST:1|Necrotic	BONUS:CASTERLEVEL|Necrotic (Arcane/INT)|TL	BONUSSPELLSTAT:NONE									
+1	DONOTADD:HITDIE|SKILLPOINTS	CAST:0,0,0,0,0,0,0,0,0,0													
+#															
+CLASS:Necrotic (Arcane/CHA)	HD:1	TYPE:NecroticSpells	FACT:Abb|Necrotic		SOURCEPAGE:LM					FACT:ClassType|Spellcasting	VISIBLE:NO	DEFINE:NecroticLVL|0	BONUS:VAR|NecroticLVL|CL		
+CLASS:Necrotic (Arcane/CHA)	SPELLSTAT:CHA	FACT:SpellType|Arcane	SPELLBOOK:YES	SPELLLIST:1|Necrotic	BONUS:CASTERLEVEL|Necrotic (Arcane/CHA)|TL	BONUSSPELLSTAT:NONE									
+1	DONOTADD:HITDIE|SKILLPOINTS	CAST:0,0,0,0,0,0,0,0,0,0													
+#															
+CLASS:Necrotic (Divine/WIS)	HD:1	TYPE:NecroticSpells	FACT:Abb|Necrotic		SOURCEPAGE:LM					FACT:ClassType|Spellcasting	VISIBLE:NO	DEFINE:NecroticLVL|0	BONUS:VAR|NecroticLVL|CL		
+CLASS:Necrotic (Divine/WIS)	SPELLSTAT:WIS	FACT:SpellType|Divine	SPELLBOOK:YES	SPELLLIST:1|Necrotic	BONUS:CASTERLEVEL|Necrotic (Divine/INT)|TL	BONUSSPELLSTAT:NONE									
+1	DONOTADD:HITDIE|SKILLPOINTS	CAST:0,0,0,0,0,0,0,0,0,0													
+#															
+CLASS:Necrotic (Divine/INT)	HD:1	TYPE:NecroticSpells	FACT:Abb|Necrotic		SOURCEPAGE:LM					FACT:ClassType|Spellcasting	VISIBLE:NO	DEFINE:NecroticLVL|0	BONUS:VAR|NecroticLVL|CL		
+CLASS:Necrotic (Divine/INT)	SPELLSTAT:INT	FACT:SpellType|Divine	SPELLBOOK:YES	SPELLLIST:1|Necrotic	BONUS:CASTERLEVEL|Necrotic (Divine/WIS)|TL	BONUSSPELLSTAT:NONE									
+1	DONOTADD:HITDIE|SKILLPOINTS	CAST:0,0,0,0,0,0,0,0,0,0													
+#															
+CLASS:Necrotic (Divine/CHA)	HD:1	TYPE:NecroticSpells	FACT:Abb|Necrotic		SOURCEPAGE:LM					FACT:ClassType|Spellcasting	VISIBLE:NO	DEFINE:NecroticLVL|0	BONUS:VAR|NecroticLVL|CL		
+CLASS:Necrotic (Divine/CHA)	SPELLSTAT:CHA	FACT:SpellType|Divine	SPELLBOOK:YES	SPELLLIST:1|Necrotic	BONUS:CASTERLEVEL|Necrotic (Divine/CHA)|TL	BONUSSPELLSTAT:NONE									
+1	DONOTADD:HITDIE|SKILLPOINTS	CAST:0,0,0,0,0,0,0,0,0,0													
+#															
+															
+CLASS:Death's Chosen	HD:10	TYPE:Prestige	FACT:Abb|DsC	MAXLEVEL:3	SOURCEPAGE:LM	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DeathSChosenLVL|0	BONUS:VAR|DeathSChosenLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Death's Chosen	PRERACE:1,RACETYPE=Aberration,RACETYPE=Dragon,RACETYPE=Giant,RACETYPE=Humanoid,RACETYPE=Magical Beast,RACETYPE=Monstrous Humanoid	PREALIGN:LN,LE,TN,NE,CN,CE	PRETOTALAB:5	PRESKILL:1,Knowledge (Religion)=1	PRESKILL:1,Spot=2	PRETEXT:The character must be accepted as a death's chosen by a sentient undead creature with at least as many Hit Dice as the character.									
+CLASS:Death's Chosen	STARTSKILLPTS:2	CSKILL:TYPE.Craft|Diplomacy|Gather Information|Hide|Knowledge (Religion)|Listen|Move Silently|TYPE.Profession|Search|Spot													
+1				ABILITY:Death's Chosen Class Feature|AUTOMATIC|Death's Chosen ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DeathSChosenProficiencies											
+#															
+1				ABILITY:Death's Chosen Class Feature|AUTOMATIC|Death's Chosen ~ Shield of the Master|!PREABILITY:1,CATEGORY=ACF,TYPE.DeathSChosenShieldOfTheMaster											
+1				ABILITY:Death's Chosen Class Feature|AUTOMATIC|Death's Chosen ~ Vigor of the Chosen|!PREABILITY:1,CATEGORY=ACF,TYPE.DeathSChosenVigorOfTheChosen											
+2				ABILITY:Death's Chosen Class Feature|AUTOMATIC|Death's Chosen ~ Will of the Chosen|!PREABILITY:1,CATEGORY=ACF,TYPE.DeathSChosenWillOfTheChosen											
+3				ABILITY:Death's Chosen Class Feature|AUTOMATIC|Death's Chosen ~ Bravery of the Chosen|!PREABILITY:1,CATEGORY=ACF,TYPE.DeathSChosenBraveryOfTheChosen											
+3				ABILITY:Death's Chosen Class Feature|AUTOMATIC|Death's Chosen ~ Unnatural Aura|!PREABILITY:1,CATEGORY=ACF,TYPE.DeathSChosenUnnaturalAura											
+															
+CLASS:Dirgesinger	HD:6	TYPE:Prestige	FACT:Abb|Dir	MAXLEVEL:5	SOURCEPAGE:LM	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DirgesingerLVL|0	BONUS:VAR|DirgesingerLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Dirgesinger	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:1,Knowledge (Religion)=4	PRESKILL:1,TYPE.Perform=8	PREABILITY:1,CATEGORY=FEAT,Requiem	PREABILITY:1,CATEGORY=Special Ability,Bardic Music										
+CLASS:Dirgesinger	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE.Craft|Diplomacy|Intimidate|Knowledge (History)|Listen|TYPE.Perform|Sense Motive|Speak Language													
+1				ABILITY:Dirgesinger Class Feature|AUTOMATIC|Dirgesinger ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DirgesingerProficiencies											
+#															
+1				ABILITY:Dirgesinger Class Feature|AUTOMATIC|Dirgesinger ~ Dirgesong|!PREABILITY:1,CATEGORY=ACF,TYPE.DirgesingerDirgesong											
+															
+CLASS:Master of Radiance	HD:8	TYPE:Prestige	FACT:Abb|Mas	MAXLEVEL:5	SOURCEPAGE:LM	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:MasterOfRadianceLVL|0	BONUS:VAR|MasterOfRadianceLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Master of Radiance	PREALIGN:LG,LN,NG,TN,CG,CN	PRESKILL:1,Knowledge (Nature)=8	PRESKILL:1,Knowledge (Religion)=5	PRESPELLCAST:TYPE=Divine	PRESPELL:1,Daylight										
+CLASS:Master of Radiance	STARTSKILLPTS:8	CSKILL:Concentration|Diplomacy|Heal|Knowledge (Nature)|Knowledge (Religion)|TYPE.Profession|Spellcraft|Spot													
+1				ABILITY:Master of Radiance Class Feature|AUTOMATIC|Master of Radiance ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfRadianceProficiencies											
+2				ABILITY:Master of Radiance Class Feature|AUTOMATIC|Master of Radiance ~ Spells per Day											
+#															
+2	ADD:SPELLCASTER|Divine														
+3	ADD:SPELLCASTER|Divine														
+4	ADD:SPELLCASTER|Divine														
+5	ADD:SPELLCASTER|Divine														
+#															
+1				ABILITY:Master of Radiance Class Feature|AUTOMATIC|Master of Radiance ~ Turn Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfRadianceTurnUndead											
+1				ABILITY:Master of Radiance Class Feature|AUTOMATIC|Master of Radiance ~ Radiant Aura|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfRadianceRadiantAura											
+2				ABILITY:Master of Radiance Class Feature|AUTOMATIC|Master of Radiance ~ Searing Light|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfRadianceSearingLight											
+5				ABILITY:Master of Radiance Class Feature|AUTOMATIC|Master of Radiance ~ Beam of Sunlight|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfRadianceBeamOfSunlight											
+															
+CLASS:Master of Shrouds	HD:8	TYPE:Prestige	FACT:Abb|Msh	MAXLEVEL:10	SOURCEPAGE:LM	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:MasterOfShroudsLVL|0	BONUS:VAR|MasterOfShroudsLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Master of Shrouds	PREALIGN:LN,LE,TN,NE,CN,CE	PRECHECKBASE:1,Will=5	PRESKILL:3,Concentration=5,Knowledge (Religion)=5,Spellcraft=5	PREABILITY:2,CATEGORY=FEAT,Augment Summoning,Spell Focus (Conjuration)	PRESPELLCAST:TYPE=Divine	PRESPELL:1,Protection from Good	PREABILITY:1,CATEGORY=Special Ability,TYPE=TurnUndead								
+CLASS:Master of Shrouds	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Hide|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Profession|Spellcraft													
+1				ABILITY:Master of Shrouds Class Feature|AUTOMATIC|Master of Shrouds ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfShroudsProficiencies											
+2				ABILITY:Master of Shrouds Class Feature|AUTOMATIC|Master of Shrouds ~ Spells per Day											
+#															
+2	ADD:SPELLCASTER|Divine														
+3	ADD:SPELLCASTER|Divine														
+4	ADD:SPELLCASTER|Divine														
+5	ADD:SPELLCASTER|Divine														
+6	ADD:SPELLCASTER|Divine														
+7	ADD:SPELLCASTER|Divine														
+8	ADD:SPELLCASTER|Divine														
+9	ADD:SPELLCASTER|Divine														
+10	ADD:SPELLCASTER|Divine														
+#															
+1				ABILITY:Master of Shrouds Class Feature|AUTOMATIC|Master of Shrouds ~ Extra Rebuking|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfShroudsExtraRebuking											
+1				ABILITY:Master of Shrouds Class Feature|AUTOMATIC|Master of Shrouds ~ Rebuke Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfShroudsRebukeUndead											
+2				ABILITY:Master of Shrouds Class Feature|AUTOMATIC|Master of Shrouds ~ Summon Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfShroudsSummonUndead											
+5				ABILITY:Master of Shrouds Class Feature|AUTOMATIC|Master of Shrouds ~ Improved Summoning|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfShroudsImprovedSummoning											
+															
+CLASS:Pale Master	HD:4	TYPE:Prestige	FACT:Abb|Plm	MAXLEVEL:8	SOURCEPAGE:LM	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:PaleMasterLVL|0	BONUS:VAR|PaleMasterLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Pale Master	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:1,Knowledge (Religion)=8	PREABILITY:1,CATEGORY=FEAT,Skill Focus (Knowledge (Religion))	PRESPELLCAST:TYPE=Arcane	PRESPELL:2,Command Undead,Vampiric Touch	PRETEXT:The candidate must have spent three or more days locked in a tomb with animate undead. This contact may be peaceful or violent. A character who is slain by the undead and later raised still meets the requirement, although the resulting level loss may delay compliance with other prerequisites.									
+CLASS:Pale Master	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Hide|TYPE.Knowledge|Listen|Move Silently|TYPE.Profession|Spellcraft													
+1				ABILITY:Pale Master Class Feature|AUTOMATIC|Pale Master ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PaleMasterProficiencies											
+2				ABILITY:Pale Master Class Feature|AUTOMATIC|Pale Master ~ Spells per Day											
+#															
+2	ADD:SPELLCASTER|Arcane														
+3	ADD:SPELLCASTER|Arcane														
+4	ADD:SPELLCASTER|Arcane														
+5	ADD:SPELLCASTER|Arcane														
+6	ADD:SPELLCASTER|Arcane														
+7	ADD:SPELLCASTER|Arcane														
+8	ADD:SPELLCASTER|Arcane														
+9	ADD:SPELLCASTER|Arcane														
+10	ADD:SPELLCASTER|Arcane														
+#															
+2				ABILITY:Pale Master Class Feature|AUTOMATIC|Pale Master ~ Animate Dead|!PREABILITY:1,CATEGORY=ACF,TYPE.PaleMasterAnimateDead											
+3				ABILITY:Pale Master Class Feature|AUTOMATIC|Pale Master ~ Darkvision|!PREABILITY:1,CATEGORY=ACF,TYPE.PaleMasterDarkvision											
+4				ABILITY:Pale Master Class Feature|AUTOMATIC|Pale Master ~ Undead Armor Affinity|!PREABILITY:1,CATEGORY=ACF,TYPE.PaleMasterUndeadArmorAffinity											
+5				ABILITY:Pale Master Class Feature|AUTOMATIC|Pale Master ~ Control Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.PaleMasterControlUndead											
+5				ABILITY:Pale Master Class Feature|AUTOMATIC|Pale Master ~ Deathless Vigor|!PREABILITY:1,CATEGORY=ACF,TYPE.PaleMasterDeathlessVigor											
+6				ABILITY:Pale Master Class Feature|AUTOMATIC|Pale Master ~ Undead Graft|!PREABILITY:1,CATEGORY=ACF,TYPE.PaleMasterUndeadGraft											
+7				ABILITY:Pale Master Class Feature|AUTOMATIC|Pale Master ~ Tough as Bone|!PREABILITY:1,CATEGORY=ACF,TYPE.PaleMasterToughAsBone											
+9				ABILITY:Pale Master Class Feature|AUTOMATIC|Pale Master ~ Undead Cohort|!PREABILITY:1,CATEGORY=ACF,TYPE.PaleMasterUndeadCohort											
+10				ABILITY:Pale Master Class Feature|AUTOMATIC|Pale Master ~ Deathless Mastery|!PREABILITY:1,CATEGORY=ACF,TYPE.PaleMasterDeathlessMastery											
+															
+CLASS:Sacred Purifier	HD:8	TYPE:Prestige	FACT:Abb|Scp	MAXLEVEL:5	SOURCEPAGE:LM	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:SacredPurifierLVL|0	BONUS:VAR|SacredPurifierLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Sacred Purifier	PREALIGN:LG,NG,CG	PRECHECKBASE:1,Will=5	PRESKILL:1,Knowledge (Religion)=8	PREABILITY:1,CATEGORY=FEAT,Extra Turning	PRESPELLCAST:TYPE=Divine	PRESPELLTYPE:1,Divine=2	PREABILITY:1,CATEGORY=Special Ability,TYPE=TurnUndead								
+CLASS:Sacred Purifier	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Heal|Knowledge (Religion)|TYPE.Profession|Search|Spellcraft													
+1				ABILITY:Sacred Purifier Class Feature|AUTOMATIC|Sacred Purifier ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SacredPurifierProficiencies											
+2				ABILITY:Sacred Purifier Class Feature|AUTOMATIC|Sacred Purifier ~ Spells per Day											
+#															
+2	ADD:SPELLCASTER|Divine														
+3	ADD:SPELLCASTER|Divine														
+4	ADD:SPELLCASTER|Divine														
+5	ADD:SPELLCASTER|Divine														
+#															
+1				ABILITY:Sacred Purifier Class Feature|AUTOMATIC|Sacred Purifier ~ Greater Turning|!PREABILITY:1,CATEGORY=ACF,TYPE.SacredPurifierGreaterTurning											
+1				ABILITY:Sacred Purifier Class Feature|AUTOMATIC|Sacred Purifier ~ Turn Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.SacredPurifierTurnUndead											
+3				ABILITY:Sacred Purifier Class Feature|AUTOMATIC|Sacred Purifier ~ Sacred Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.SacredPurifierSacredStrike											
+5				ABILITY:Sacred Purifier Class Feature|AUTOMATIC|Sacred Purifier ~ Positive Energy Burst|!PREABILITY:1,CATEGORY=ACF,TYPE.SacredPurifierPositiveEnergyBurst											
+															
+CLASS:True Necromancer	HD:6	TYPE:Prestige	FACT:Abb|TrN	MAXLEVEL:14	SOURCEPAGE:LM	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:TrueNecromancerLVL|0	BONUS:VAR|TrueNecromancerLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:True Necromancer	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:2,Knowledge (Arcana)=8,Knowledge (Religion)=8	PREABILITY:1,CATEGORY=FEAT,Spell Focus (Necromancy)	PREMULT:2,[PRESPELLCAST:TYPE=Divine],[PRESPELLCAST:TYPE=Arcane]	PRESPELL:2,Summon Undead II,Command Undead	PREABILITY:1,CATEGORY=Special Ability,TYPE=RebukeUndead	PREDOMAIN:1,Death								
+CLASS:True Necromancer	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Heal|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Profession|Search|Spellcraft													
+1				ABILITY:True Necromancer Class Feature|AUTOMATIC|True necromancer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.TrueNecromancerProficiencies											
+2				ABILITY:True Necromancer Class Feature|AUTOMATIC|True Necromancer ~ Spells per Day											
+#															
+1	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+2	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+3	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+4	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+5	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+6	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+7	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+8	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+9	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+10	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+11	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+12	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+13	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+14	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+#															
+1				ABILITY:True Necromancer Class Feature|AUTOMATIC|True Necromancer ~ Rebuke Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.TrueUndeadRebukeUndead											
+2				ABILITY:True Necromancer Class Feature|AUTOMATIC|True Necromancer ~ Create Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.TrueUndeadCreateUndead											
+3				ABILITY:True Necromancer Class Feature|AUTOMATIC|True Necromancer ~ Necromantic Prowess|!PREABILITY:1,CATEGORY=ACF,TYPE.TrueUndeadNecromanticProwess											
+4				ABILITY:True Necromancer Class Feature|AUTOMATIC|True Necromancer ~ Zone of Desecration|!PREABILITY:1,CATEGORY=ACF,TYPE.TrueUndeadZoneOfDesecration											
+7				ABILITY:True Necromancer Class Feature|AUTOMATIC|True Necromancer ~ Major Desecration|!PREABILITY:1,CATEGORY=ACF,TYPE.TrueUndeadMajorDesecration											
+8				ABILITY:True Necromancer Class Feature|AUTOMATIC|True Necromancer ~ Create Major Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.TrueUndeadCreateMajorUndead											
+10				ABILITY:True Necromancer Class Feature|AUTOMATIC|True Necromancer ~ Horrid Wilting|!PREABILITY:1,CATEGORY=ACF,TYPE.TrueUndeadHorridWilting											
+13				ABILITY:True Necromancer Class Feature|AUTOMATIC|True Necromancer ~ Energy Drain|!PREABILITY:1,CATEGORY=ACF,TYPE.TrueUndeadEnergyDrain											
+14				ABILITY:True Necromancer Class Feature|AUTOMATIC|True Necromancer ~ Wail of the Banshee|!PREABILITY:1,CATEGORY=ACF,TYPE.TrueUndeadWailOfTheBanshee											
+															
+CLASS:Ephemeral Exemplar	HD:12	TYPE:Prestige	FACT:Abb|EpE	MAXLEVEL:3	SOURCEPAGE:LM	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:EphemeralExemplarLVL|0	BONUS:VAR|EphemeralExemplarLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Ephemeral Exemplar	PRERACE:1,RACETYPE=Undead	PRERACE:1,RACESUBTYPE=Incorporeal	PREATT:3	PRECHECKBASE:1,Will=5											
+CLASS:Ephemeral Exemplar	STARTSKILLPTS:4	CSKILL:Hide|Listen|Search|Spot													
+1				ABILITY:Ephemeral Exemplar Class Feature|AUTOMATIC|Ephemeral Exemplar ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.EphemeralExemplarProficiencies											
+#															
+1				ABILITY:Ephemeral Exemplar Class Feature|AUTOMATIC|Ephemeral Exemplar ~ Improved Deflection|!PREABILITY:1,CATEGORY=ACF,TYPE.EphemeralExemplarImprovedDeflection											
+1				ABILITY:Ephemeral Exemplar Class Feature|AUTOMATIC|Ephemeral Exemplar ~ Turn Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.EphemeralExemplarTurnResistance											
+2				ABILITY:Ephemeral Exemplar Class Feature|AUTOMATIC|Ephemeral Exemplar ~ Enhanced Spawn|!PREABILITY:1,CATEGORY=ACF,TYPE.EphemeralExemplarEnhancedSpawn											
+3				ABILITY:Ephemeral Exemplar Class Feature|AUTOMATIC|Ephemeral Exemplar ~ Ghostly Grasp|!PREABILITY:1,CATEGORY=ACF,TYPE.EphemeralExemplarGhostlyGrasp											
+															
+CLASS:Lurking Terror	HD:12	TYPE:Prestige	FACT:Abb|LuT	MAXLEVEL:3	SOURCEPAGE:LM	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:LurkingTerrorLVL|0	BONUS:VAR|LurkingTerrorLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Lurking Terror	PRERACE:1,RACETYPE=Undead	PRESKILL:1,Hide=8	PREMULT:1,[PRESKILL:1,Move Silently=8],[PRERACE:1,RACESUBTYPE=Incorporeal]												
+CLASS:Lurking Terror	STARTSKILLPTS:4	CSKILL:Climb|Escape Artist|Hide|Jump|Listen|Move Silently|Search|Spot													
+1				ABILITY:Lurking Terror Class Feature|AUTOMATIC|Lurking Terror ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.LurkingTerrorProficiencies											
+#															
+1				ABILITY:Lurking Terror Class Feature|AUTOMATIC|Lurking Terror ~ Deathly Power|!PREABILITY:1,CATEGORY=ACF,TYPE.LurkingTerrorDeathlyPower											
+2				ABILITY:Lurking Terror Class Feature|AUTOMATIC|Lurking Terror ~ Improved Darkvision|!PREABILITY:1,CATEGORY=ACF,TYPE.LurkingTerrorImprovedDarkvision											
+2				ABILITY:Ephemeral Exemplar Class Feature|AUTOMATIC|Ephemeral Exemplar ~ Enhanced Spawn|!PREABILITY:1,CATEGORY=ACF,TYPE.EphemeralExemplarEnhancedSpawn											
+3				ABILITY:Ephemeral Exemplar Class Feature|AUTOMATIC|Ephemeral Exemplar ~ Ghostly Grasp|!PREABILITY:1,CATEGORY=ACF,TYPE.EphemeralExemplarGhostlyGrasp											
+															
+CLASS:Master Vampire	HD:12	TYPE:Prestige	FACT:Abb|MaV	MAXLEVEL:3	SOURCEPAGE:LM	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:MasterVampireLVL|0	BONUS:VAR|MasterVampireLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Master Vampire	PRERACE:1,RACETYPE=Undead	PRETEMPLATE:1,Vampire	PRETEXT:The character must control at least two vampires or vampire spawn that it has created by means of its create spawn ability.												
+CLASS:Master Vampire	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Concentration|Diplomacy|Hide|Intimidate|Listen|Move Silently|Search|Sense Motive|Spot													
+1				ABILITY:Master Vampire Class Feature|AUTOMATIC|Master Vampire ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterVampireProficiencies											
+1				ABILITY:Master Vampire Class Feature|AUTOMATIC|Master Vampire ~ Spells per Day											
+#															
+1	ADD:SPELLCASTER|ANY														
+3	ADD:SPELLCASTER|ANY														
+#															
+1				ABILITY:Master Vampire Class Feature|AUTOMATIC|Master Vampire ~ More Spawn|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterVampireMoreSpawn											
+1				ABILITY:Master Vampire Class Feature|AUTOMATIC|Master Vampire ~ Turn Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterVampireTurnResistance											
+2				ABILITY:Master Vampire Class Feature|AUTOMATIC|Master Vampire ~ Enhanced Spawn|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterVampireEnhancedSpawn											
+3				ABILITY:Master Vampire Class Feature|AUTOMATIC|Master Vampire ~ Master's Chosen|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterVampireMasterSChosen											
+															
+CLASS:Tomb Warden	HD:12	TYPE:Prestige	FACT:Abb|TWa	MAXLEVEL:3	SOURCEPAGE:LM	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige	EXCLASS:Ex-Tomb Warden	DEFINE:TombWardenLVL|0	BONUS:VAR|TombWardenLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Tomb Warden	PRERACE:1,RACETYPE=Undead	PREALIGN:LG,LN,LE,NG,TN,NE	PRETOTALAB:3	PRECHECKBASE:1,Will=5	PREABILITY:1,CATEGORY=FEAT,Toughness	PRETEXT:A tomb warden must dedicate itself to the protection of a tomb, graveyard, or similar resting place of the dead.									
+CLASS:Tomb Warden	STARTSKILLPTS:4	CSKILL:Hide|Knowledge (Religion)|Listen|Move Silently|Search|Sense Motive|Spot													
+1				ABILITY:Tomb Warden Class Feature|AUTOMATIC|Tomb Warden ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.TombWardenProficiencies											
+#															
+1				ABILITY:Tomb Warden Class Feature|AUTOMATIC|Tomb Warden ~ Turn Immunity|!PREABILITY:1,CATEGORY=ACF,TYPE.TombWardenTurnImmunity											
+2				ABILITY:Tomb Warden Class Feature|AUTOMATIC|Tomb Warden ~ Tomb Sense|!PREABILITY:1,CATEGORY=ACF,TYPE.TombWardenTombSense											
+3				ABILITY:Tomb Warden Class Feature|AUTOMATIC|Tomb Warden ~ Power of the Dead|!PREABILITY:1,CATEGORY=ACF,TYPE.TombWardenPowerOfTheDead											
+															
+CLASS:Ex-Tomb Warden	HD:12	TYPE:Prestige	FACT:Abb|xTWa	MAXLEVEL:3	SOURCEPAGE:LM	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:TombWardenLVL|0	BONUS:VAR|TombWardenLVL|CL		BONUS:VAR|ClassBABGood|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Ex-Tomb Warden	VISIBLE:NO														
+CLASS:Ex-Tomb Warden	STARTSKILLPTS:4	CSKILL:Hide|Knowledge (Religion)|Listen|Move Silently|Search|Sense Motive|Spot													
+1				ABILITY:Tomb Warden Class Feature|AUTOMATIC|Tomb Warden ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.TombWardenProficiencies											

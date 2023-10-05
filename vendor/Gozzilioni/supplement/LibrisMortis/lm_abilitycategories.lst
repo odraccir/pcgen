@@ -1,0 +1,38 @@
+###Block: New Racial Trait Blocks																								
+																								
+# Subrace Support																								
+																								
+#Abilitygroup:Class Ability categories																								
+ABILITYCATEGORY:Death's Chosen Class Feature	CATEGORY:Special Ability	TYPE:DeathSChosenClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Death's Chosen Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Dirgesinger Class Feature	CATEGORY:Special Ability	TYPE:DirgesingerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dirgesinger Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Dirgesinger Class Feature	CATEGORY:Special Ability	TYPE:DirgesingerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dirgesinger Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Master of Radiance Class Feature	CATEGORY:Special Ability	TYPE:MasterOfRadianceClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Master of Radiance Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Master of Shrouds Class Feature	CATEGORY:Special Ability	TYPE:MasterOfShroudsClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Master of Shrouds Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Pale Master Class Feature	CATEGORY:Special Ability	TYPE:PaleMasterClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Pale Master Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Sacred Purifier Class Feature	CATEGORY:Special Ability	TYPE:SacredPurifierClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Sacred Purifier Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:True Necromancer Class Feature	CATEGORY:Special Ability	TYPE:TrueNecromancerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:True Necromancer Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Ephemeral Exemplar Class Feature	CATEGORY:Special Ability	TYPE:EphemeralExemplarClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Ephemeral Exemplar Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Lurking Terror Class Feature	CATEGORY:Special Ability	TYPE:LurkingTerrorClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Lurking Terror Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Master Vampire Class Feature	CATEGORY:Special Ability	TYPE:MasterVampireClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Master Vampire Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Tomb Warden Class Feature	CATEGORY:Special Ability	TYPE:TombWardenClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Tomb Warden Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups																								
+ABILITYCATEGORY:Graft Flesh	CATEGORY:Special Ability	TYPE:GraftFlesh	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Graft Flesh			DISPLAYLOCATION:Class Abilities		
+ABILITYCATEGORY:Necrotic Cyst Spellcasting Type	CATEGORY:Special Ability	TYPE:NecroticSpells	VISIBLE:YES	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Necrotic Cyst Spellcasting Type			DISPLAYLOCATION:Misc		
+ABILITYCATEGORY:Evolved Undead	CATEGORY:Special Ability	TYPE:EvolvedUndead	VISIBLE:YES	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Evolved Undead			DISPLAYLOCATION:Misc		
+ABILITYCATEGORY:Ghost Brute Special Attack	CATEGORY:Special Ability	TYPE:GhostBruteSpecialAttack	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Ghost Brute Special Attacks			DISPLAYLOCATION:Race Features
+ABILITYCATEGORY:Half-Vampire Special Attack	CATEGORY:Special Ability	TYPE:HalfVampireSpecialAttack	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Half-Vampire Special Attacks			DISPLAYLOCATION:Race Features
+ABILITYCATEGORY:Swarm-Shifter Swarm	CATEGORY:Special Ability	TYPE:SwarmShifterSwarm	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Swarm-Shifter Swarm			DISPLAYLOCATION:Race Features
+ABILITYCATEGORY:Ghost Haunting Special Attack	CATEGORY:Special Ability	TYPE:GhostHauntingNumberSpecialAttack	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Ghost Haunting Special Attacks			DISPLAYLOCATION:Race Features
+ABILITYCATEGORY:Ghost Haunting Ability	CATEGORY:Special Ability	TYPE:GhostHauntingSpecialAttack	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Ghost Haunting Abilities			DISPLAYLOCATION:Race Features
+ABILITYCATEGORY:Ghost Sagacious Skill	CATEGORY:Internal	TYPE:GhostSagaciousSkills	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO	PLURAL:Ghost Sagacious Skills	DISPLAYLOCATION:Race Features
+ABILITYCATEGORY:Skeleton Soldier Weapon Focus	CATEGORY:Internal	TYPE:SkeletonSoldierWeaponFocus	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO	PLURAL:Skeleton Soldier Weapon Focus	DISPLAYLOCATION:Race Features
+
+#BLOCK:Companions
+ABILITYCATEGORY:Undead Leadership Cohort Selection	CATEGORY:Internal	TYPE:UndeadLeadershipCohortSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Undead Leadership Cohort Choice			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Summon Undead I Selection	CATEGORY:Internal	TYPE:SummonUndeadISelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Summon Undead I Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Summon Undead II Selection	CATEGORY:Internal	TYPE:SummonUndeadIISelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Summon Undead II Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Summon Undead III Selection	CATEGORY:Internal	TYPE:SummonUndeadIIISelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Summon Undead III Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Summon Undead IV Selection	CATEGORY:Internal	TYPE:SummonUndeadIVSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Summon Undead IV Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Summon Undead V Selection	CATEGORY:Internal	TYPE:SummonUndeadVSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Summon Undead V Choice			DISPLAYLOCATION:Misc
+

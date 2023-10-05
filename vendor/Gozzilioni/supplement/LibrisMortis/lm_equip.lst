@@ -1,0 +1,60 @@
+SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-10												
+
+#Poisons																				
+# Equipment Name				Output Name		Type					Cost		Weight	Source Page						Special Property
+Positoxin (Gravedust)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Positoxin.Consumable	COST:100	WT:0		SOURCEPAGE:LM	SPROP:Contact DC 10, Init.:1 DEX drain, Sec.:1d4 Dex drain. Craft (Alchemy) DC 20.													
+Positoxin (Boneshard Paste)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Positoxin.Consumable	COST:750	WT:0		SOURCEPAGE:LM	SPROP:Contact DC 13, Init.:1 STR drain, Sec.:1d4 STR drain. Craft (Alchemy) DC 26.													
+Positoxin (Sunlight Oil)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Positoxin.Consumable	COST:1300	WT:0		SOURCEPAGE:LM	SPROP:Contact DC 16, Init.:1d4 STR drain, Sec.:1d4 DEX drain + 1d3 STR Drain. Craft (Alchemy) DC 32.													
+Positoxin (Bloodwine)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Positoxin.Consumable	COST:250	WT:0		SOURCEPAGE:LM	SPROP:Injury DC 11, Init.:1d4 CHA, Sec.:2d4 CHA. Craft (Alchemy) DC 22.													
+Positoxin (Celestial Essence)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Positoxin.Consumable	COST:400	WT:0		SOURCEPAGE:LM	SPROP:Injury DC 14, Init.:1d6 WIS, Sec.:2d6 WIS. Craft (Alchemy) DC 28.													
+Positoxin (Lichbane)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Positoxin.Consumable	COST:650	WT:0		SOURCEPAGE:LM	SPROP:Injury DC 17, Init.:1 INT drain + 1 WIS drain + 1 CHA drain, Sec.:1d4 INT + 1d4 WIS + 1d4 CHA.. Craft (Alchemy) DC 34.													
+Positoxin (Liquid Mortality)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Positoxin.Consumable	COST:1250	WT:0		SOURCEPAGE:LM	SPROP:Injury DC 20, Init.:1d4 STR drain, Sec.:2d4 STR drain. Craft (Alchemy) DC 40.													
+
+###Block: Alchemical									
+Brittlebone (Flask)	TYPE:Goods.Alchemical.Flask.Consumable	COST:30	WT:8	SOURCEPAGE:LM	SPROP:Craft (Alchemy) DC 20.												
+Embalming Fire (Flask)	TYPE:Goods.Alchemical.Flask.Consumable	COST:20	WT:8	SOURCEPAGE:LM	SPROP:Craft (Alchemy) DC 20.												
+Ghost Oil (Flask)	TYPE:Goods.Alchemical.Flask.Consumable	COST:50	WT:1	SOURCEPAGE:LM	SPROP:Craft (Alchemy) DC 25.												
+Liquid Night (Flask)	TYPE:Goods.Alchemical.Flask.Consumable	COST:150	WT:8	SOURCEPAGE:LM	SPROP:Craft (Alchemy) DC 25.												
+
+##Block: Wondrous items
+# Frostfell Figurine of Wondrous Power (Basalt Glyptodon)	OUTPUTNAME:Frostfell Figurine of Wondrous Power, [NAME]	TYPE:Wondrous	COST:32000	WT:0	SOURCEPAGE:Fro																			
+Bagpipes of the Damned		TYPE:Wondrous.Instrument.Wind	COST:3000	WT:4	SOURCEPAGE:LM	SPROP:All undead within 60 feet gain a +4 bonus on turn resistance for 10 rounds (The piper must make a DC 15 Perform (wind instruments) check).
+Cloak of Turn Resistance		TYPE:Wondrous.Cape	COST:11000	WT:0	SOURCEPAGE:LM	BONUS:VAR|TurnResistanceBonus|4
+Ectoplasmatic Ichor (Vial)	TYPE:Wondrous.Vial.Consumable	COST:500	WT:1	SOURCEPAGE:LM	SPROP:Allows incorporeal creatures to interact with that object as if they were corporeal.
+Ghost Net			TYPE:Wondrous	COST:8000	WT:0	SOURCEPAGE:LM
+Ghoul Gauntlet			TYPE:Wondrous.Glove	COST:10000	WT:0	SOURCEPAGE:LM	SLOTS:2
+Goggles of the Day			TYPE:Wondrous.Eyegear	COST:4500	WT:1	SOURCEPAGE:LM	
+Goggles of Lifesight			TYPE:Wondrous.Eyegear	COST:2000	WT:1	SOURCEPAGE:LM	
+Husk Globe			TYPE:Wondrous	COST:8500	WT:700	SOURCEPAGE:LM	
+Lyre of the Restful Soul		TYPE:Wondrous.Instrument.String	COST:3000	WT:5	SOURCEPAGE:LM	SPROP:All undead within 60 feet gain a -4 penalty on turn resistance for 10 rounds (The drummer must make a DC 15 Perform (string instruments) check).
+Night Caller			TYPE:Wondrous.Instrument.Wind	COST:7000	WT:0	SOURCEPAGE:LM	
+Nycoptic Manuscripts			TYPE:Wondrous.Book	COST:2500	WT:2	SOURCEPAGE:LM	SPROP:+5 competence on Knowledge (Arcana) that deals with necromantic topics.
+Unholy Shrouds (Lesser)			TYPE:Wondrous.Consumable	COST:3600	WT:10	SOURCEPAGE:LM
+Unholy Shrouds (Greater)			TYPE:Wondrous.Consumable	COST:6400	WT:10	SOURCEPAGE:LM
+
+###Block:Rods
+# Rod of Piercing Cold			TYPE:Rod.Weapon.Melee.Ranged.Simple.Piercing.Slashing.Light.Dagger	COST:29300	WT:1	SOURCEPAGE:Fro	PROFICIENCY:WEAPON|Dagger	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.PLUS2W.FROST_M								RANGE:10				
+Nightstick			TYPE:Rod	COST:7500	WT:1	SOURCEPAGE:LM	BONUS:VAR|TurnUndead|4|PREABILITY:1,CATEGORY=Special Ability,TYPE=TurnUndead,TYPE=RebukeUndead
+Rod of Defiance			TYPE:Rod.Weapon.Melee.Simple.Bludgeoning.OneHanded.Mace	COST:13000	WT:8	SOURCEPAGE:LM	PROFICIENCY:WEAPON|Mace (Heavy)	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.PLUS2W	SPROP:All undead in a radius of 30 feet of the wielder who holds the rod of defi ance are treated as if they had -4 turn resistance.
+Rod of Undead Mastery			TYPE:Rod	COST:10000	WT:1	SOURCEPAGE:LM	SPROP:Anyone who holds the rod can control twice as many undead than he normally could.
+Scepter of the Netherworld			TYPE:Rod	COST:9000	WT:1	SOURCEPAGE:LM	BONUS:VAR|TurnLevelUndead|3|PREABILITY:1,CATEGORY=Special Ability,TYPE=TurnUndead,TYPE=RebukeUndead
+
+###Block:Undead Graft
+Graft (Bonemail)		TYPE:Graft.Undead	COST:16000	WT:0	SOURCEPAGE:LM	SPROP:Bonemail resembles armor crafted from interlocking bones and shards of bone, but is actually part of the grafted creature's body. Bonemail grants a +2 natural armor bonus to the grafted creature's AC.	BONUS:COMBAT|AC|2|TYPE=NaturalArmor
+Graft (Bodak's Eye)		TYPE:Graft.Undead	COST:25000	WT:0	SOURCEPAGE:LM	SPROP:This white, empty eye fi ts into a humanoid creature's empty eye socket and allows the grafted creature to make a death gaze attack once per day. The creature must use a standard action to target a creature with the gaze, and the range of the effect is 30 feet. A DC 15 Fortitude save negates the effect. Unlike an actual bodak's death gaze, a target that dies from this attack does not transform into a bodak 24 hours later.
+Graft (Enervating Arm)		TYPE:Graft.Undead	COST:25000	WT:0	SOURCEPAGE:LM	SPROP:An enervating arm is a gaunt limb of desiccated, leathery fl esh. It grants a +4 inherent bonus to the grafted creature's Strength. Twice per day, the grafted creature can use an enervating touch to bestow one negative level on a living creature. Removing the negative level requires a DC 14 Fortitude save. A touch that misses does not count against the daily limit.	BONUS:STAT|STR|4|TYPE=Inherent
+Graft (Eye of Flame)		TYPE:Graft.Undead	COST:10800	WT:0	SOURCEPAGE:LM	SPROP:This crimson eye-shaped gem fi ts into a humanoid creature's empty eye socket and can produce a fi reball once per day upon command. The fi reball deals 10d6 points of damage (Refl ex DC 14 half). Half of the damage is fi re damage, and the other half is divine damage that affects even targets resistant to fi re.
+Graft (Ghostly Arm)		TYPE:Graft.Undead	COST:6000	WT:0	SOURCEPAGE:LM	SPROP:This gray, incorporeal arm can't be used to manipulate solid objects. However, the grafted creature can use the ghostly arm to deliver an incorporeal touch attack that deals 1d6 points of damage, the equivalent of a ghost's corrupting touch attack. Treat the arm as a secondary weapon, but because it is incorporeal the arm has no Strength score and therefore gains no bonus or penalty on damage rolls from the user's Strength.
+Graft (Mohrg's Tongue)		TYPE:Graft.Undead	COST:24000	WT:0	SOURCEPAGE:LM	SPROP:This long, cartilaginous tongue bears sharp claws at its tip. The grafted creature can make touch attacks with the tongue (treat it as a secondary weapon). A successful touch paralyzes the target for 1d4 minutes (Fortitude DC 17 negates).
+Graft (Mummified Eye)		TYPE:Graft.Undead	COST:50000	WT:0	SOURCEPAGE:LM	SPROP:This hard, round orb fi ts into a humanoid creature's empty eye socket and looks much like a normal eye at fi rst glance, but it has a distinctly dry appearance and does not move in the socket. The grafted creature can use the eyebite spell as a 12th-level caster once per day.	SPELLS:Graft (Mummified Eye)|TIMES=1|CASTERLEVEL=12|Eyebite
+Graft (Mummified Hand)		TYPE:Graft.Undead	COST:16200	WT:0	SOURCEPAGE:LM	SPROP:This withered hand is swathed in the remnants of funereal wrappings. The grafted creature can use the mummifi ed hand to deliver a slam attack; the damage dealt is the same as that dealt by a zombie of the creature's size. In addition, three times per day the grafted creature can deliver mummy rot with a slam attack. The choice to use mummy rot must be made before the attack is rolled; if the attack misses, the daily use is lost. The Fortitude save to resist the mummy rot is DC 16.
+Graft (Paralyzing Arm)		TYPE:Graft.Undead	COST:40000	WT:0	SOURCEPAGE:FF	SPROP:A paralyzing arm is a hardy limb of preserved undead fl esh. It grants a +4 inherent bonus to the grafted creature's Strength. Twice per day, the grafted creature can use a paralyzing touch. A living creature touched must make a Fortitude save (DC 14) or be paralyzed for 1d6+2 minutes. Elves are immune to this paralyzing touch. A touch that misses does not count against the daily limit.	BONUS:STAT|STR|4|TYPE=Inherent
+Graft (Skeletal Hand)		TYPE:Graft.Undead	COST:3000	WT:0	SOURCEPAGE:LM	SPROP:The grafted creature can use this bony hand to make claw attacks. The damage dealt is the same as that dealt by a skeleton of the creature's size.
+Graft (Undead Skin)		TYPE:Graft.Undead	COST:16000	WT:0	SOURCEPAGE:LM	SPROP:This mottled gray hide grants the grafted creature 25%% resistance to critical hits and sneak attacks, similar to armor of light fortifi cation. This resistance doesn't stack with similar abilities.
+Graft (Vampiric Fang)		TYPE:Graft.Undead	COST:25000	WT:0	SOURCEPAGE:LM	SPROP:This set of sharp teeth replaces the creature's existing teeth. The grafted creature gains the ability to drain blood from a living victim with its fangs by making a successful grapple check. If it pins the foe, it drains blood, dealing 1d4 points of Constitution damage each round. On each such successful drain attack, the grafted creature gains 5 temporary hit points that last for up to 1 hour.
+Graft (Weakening Arm)		TYPE:Graft.Undead	COST:40000	WT:0	SOURCEPAGE:LM	SPROP:A weakening arm is a skeletal forelimb that grants a +4 inherent bonus to the grafted creature's Strength. Twice per day, the grafted creature can use a weakening touch.A living creature touched takes 1d6 points of Strength damage. A touch that misses does not count against the daily limit.	BONUS:STAT|STR|4|TYPE=Inherent
+Graft (Zombie Arm)		TYPE:Graft.Undead	COST:25000	WT:0	SOURCEPAGE:LM	SPROP:A zombie arm is a perpetually rotting limb. It grants a +2 inherent bonus to the grafted creature's Strength, but also permanently reduces the grafted creature's Dexterity by 2. The grafted creature can use the zombie arm to make slam attacks; the damage dealt is the same as that dealt by a zombie of the creature's size.	BONUS:STAT|STR|2|TYPE=Inherent	BONUS:STAT|DEX|-2
+
+###Block: Golem
+Golem (Grave Dirt)		KEY:Golem ~ Grave Dirt	TYPE:Monster.Construct.Container	COST:18250	WT:0	SOURCEPAGE:LM	CONTAINS:UNLIM|Any	SPROP:CL 11th; Craft Construct (see Monster Manual, page 303), animate objects, commune, resurrection, caster must be at least 11th level.
+Golem (Tombstone)		KEY:Golem ~ Tombstone	TYPE:Monster.Construct.Container	COST:90000	WT:0	SOURCEPAGE:MM1	CONTAINS:UNLIM|Any	SPROP:CL 14th; Craft Construct (see page 303), antimagic field, geas Quest, symbol of stunning, caster must be at least 14th level.
