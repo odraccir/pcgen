@@ -4,8 +4,8 @@ Inescapable Craving	VISIBLE:NO	SOURCEPAGE:LM	TEMPDESC:An undead with an inescapa
 Diet Dependent	VISIBLE:NO	SOURCEPAGE:LM	TEMPDESC:A diet-dependent undead takes ability damage every three days unless it makes a successful DC 15 Will save.	TEMPVALUE:MIN=2|MAX=8|TITLE=Satiation Damage	TEMPBONUS:ANYPC|STAT|WIS|-1*(%CHOICE)
 
 Awaken Undead	TYPE:Spell Effect	TEMPLATE:CHOOSE:Intelligent Undead|Non Intelligent Undead	VISIBLE:YES	PRERACE:1,Racetype=Undead	SUBRACE:Awakened
-Intelligent Undead	VISIBLE:NO	PRESTATGTEQ:1,INT=4	BONUS:VAR|TurnReststance|2|TYPE=Profane
-Non Intelligent Undead	VISIBLE:NO	PRESTATLTEQ:INT=3	KIT:Awakened Undead	BONUS:VAR|TurnReststance|2|TYPE=Profane
+Intelligent Undead	VISIBLE:NO	PRESTAT:1,INT=4	BONUS:VAR|TurnReststance|2|TYPE=Profane
+Non Intelligent Undead	VISIBLE:NO	!PRESTAT:1,INT=4	KIT:1|Awakened Undead	BONUS:VAR|TurnReststance|2|TYPE=Profane
 
 Hunger ~ Bite	VISIBLE:NO	TYPE:Domain	TEMPLATE:CHOOSE:Hunger ~ Bite (Fine)|Hunger ~ Bite (Diminutive)|Hunger ~ Bite (Tiny)|Hunger ~ Bite (Small)|Hunger ~ Bite (Medium)|Hunger ~ Bite (Large)|Hunger ~ Bite (Huge)|Hunger ~ Bite (Gargantuan)|Hunger ~ Bite (Colossal)																					
 Hunger ~ Bite (Fine)	VISIBLE:NO	PRESIZEEQ:F	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1
@@ -17,3 +17,129 @@ Hunger ~ Bite (Large)	VISIBLE:NO	PRESIZEEQ:L	NATURALATTACKS:Bite,Weapon.Natural.
 Hunger ~ Bite (Huge)	VISIBLE:NO	PRESIZEEQ:H	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,2d6
 Hunger ~ Bite (Gargantuan)	VISIBLE:NO	PRESIZEEQ:G	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,3d6
 Hunger ~ Bite (Colossal)	VISIBLE:NO	PRESIZEEQ:C	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,4d6
+
+Evolved Undead	TYPE:Acquired	PRERACE:1,RACETYPE=Undead	TEMPLATE:CHOOSE:Evolved Undead ~ Incorporeal|Evolved Undead ~ Corporeal	BONUS:ABILITYPOOL|Evolved Undead|1	BONUS:VAR|FastHealing|3	BONUS:MISC|CR|1	LEVELADJUSTMENT:1
+Evolved Undead ~ Incorporeal	VISIBLE:NO	PRERACE:1,RACESUBTYPE=Incorporeal	BONUS:COMBAT|AC|1|TYPE=Deflection.STACK	BONUS:STAT|CHA|2
+Evolved Undead ~ Corporeal	VISIBLE:NO	!PRERACE:1,RACESUBTYPE=Incorporeal	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|2	BONUS:STAT|CHA|2
+Ghost Brute	TYPE:Acquired	PRERACE:1,RACETYPE=Animal,RACETYPE=Magical Beast,RACETYPE=Plant	!PRESTAT:1,CHA=8	RACETYPE:Undead	RACESUBTYPE:Incorporeal	HITDIE:12|CLASS.TYPE=Monster	MOVE:Fly,30	BONUS:VAR|Maneuverability|5|TYPE=Base	BONUS:COMBAT|AC|max(CHA,1)|TYPE=Deflection	DEFINE:GostBruteDC|0	BONUS:VAR|GhostBruteDC|DefaultDCCha	BONUS:ABILITYPOOL|Ghost Brute Special Attack|1	ABILITY:Special Ability|AUTOMATIC|Ghost Brute ~ Manifestation|Ghost Brute ~ Rejuvenation|Ghost Brute ~ Turn Resistance	DEFINESTAT:NONSTAT|CON	BONUS:STAT|CHA|8	BONUS:SKILL|Hide,Listen,Spot|8|TYPE=Racial	CR:2	LEVELADJUSTMENT:5
+Gravetouched Ghoul	TYPE:Acquired	PRERACE:1,RACETYPE=Aberration,RACETYPE=Fey,RACETYPE=Giant,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid	PRESTAT:1,CHA=3	RACETYPE:Undead	HITDIE:12|CLASS.TYPE=Monster	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	TEMPLATE:CHOOSE:Gravetouched Ghoul ~ Bite (Fine)|Gravetouched Ghoul ~ Bite (Diminutive)|Gravetouched Ghoul ~ Bite (Tiny)|Gravetouched Ghoul ~ Bite (Small)|Gravetouched Ghoul ~ Bite (Medium)|Gravetouched Ghoul ~ Bite (Large)|Gravetouched Ghoul ~ Bite (Huge)|Gravetouched Ghoul ~ Bite (Gargantuan)|Gravetouched Ghoul ~ Bite (Colossal)	DEFINE:GravetouchedGhoulDC|0	BONUS:VAR|GravetouchedGhoulDC|DefaultDCCHA	ABILITY:Special Ability|AUTOMATIC|Gravetouched Ghoul ~ Ghoul Fever|Gravetouched Ghoul ~ Paralysis|Gravetouched Ghoul ~ Turn Resistance|Gravetouched Ghoul ~ Diet Dependent	BONUS:STAT|STR|2	DEFINESTAT:NONSTAT|CON	BONUS:STAT|DEX|4	BONUS:STAT|INT|2	BONUS:STAT|WIS|4	BONUS:STAT|CHA|2	ABILITY:FEAT|AUTOMATIC|Multiattack	CR:1	LEVELADJUSTMENT:2	KIT:1|CE	
+Gravetouched Ghoul ~ Bite (Fine)	VISIBLE:NO	PRESIZEEQ:F	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1
+Gravetouched Ghoul ~ Bite (Diminutive)	VISIBLE:NO	PRESIZEEQ:D	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d2|Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*2,1
+Gravetouched Ghoul ~ Bite (Tiny)	VISIBLE:NO	PRESIZEEQ:T	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d3|Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*2,1d2
+Gravetouched Ghoul ~ Bite (Small)	VISIBLE:NO	PRESIZEEQ:S	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d4|Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*2,1d3
+Gravetouched Ghoul ~ Bite (Medium)	VISIBLE:NO	PRESIZEEQ:M	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6|Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*2,1d4
+Gravetouched Ghoul ~ Bite (Large)	VISIBLE:NO	PRESIZEEQ:L	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d8|Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*2,1d6
+Gravetouched Ghoul ~ Bite (Huge)	VISIBLE:NO	PRESIZEEQ:H	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,2d6|Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*2,1d8
+Gravetouched Ghoul ~ Bite (Gargantuan)	VISIBLE:NO	PRESIZEEQ:G	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,2d8|Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*2,2d6
+Gravetouched Ghoul ~ Bite (Colossal)	VISIBLE:NO	PRESIZEEQ:C	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,4d6|Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*2,2d8
+Half-Vampire	TYPE:Inherited	VISIBLE:YES	PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	TEMPLATE:CHOOSE:Half-Vampire ~ Slam (Fine)|Half-Vampire ~ Slam (Diminutive)|Half-Vampire ~ Slam (Tiny)|Half-Vampire ~ Slam (Small)|Half-Vampire ~ Slam (Medium)|Half-Vampire ~ Slam (Large)|Half-Vampire ~ Slam (Huge)|Half-Vampire ~ Slam (Gargantuan)|Half-Vampire ~ Slam (Colossal)	DEFINE:HalfVampireDC|0	BONUS:VAR|HalfVampireDC|DefaultDCCha	BONUS:ABILITYPOOL|Half-VAmpire Special Attack|1	ABILITY:Special Ability|AUTOMATIC|Half-Vampire ~ Damage Reduction|Half-Vampire ~ Fast Healing|Half-Vampire ~ Resistances	BONUS:STAT|STR|2	BONUS:STAT|DEX|2	BONUS:STAT|CHA|4	BONUS:SKILL|Bluff,Hide,Listen,Move Silently,Spot|2|YPE=Racial	ABILITY:FEAT|AUTOMATIC|Improved Initiative	BONUS:MISC|CR|1	LEVELADJUSTMENT:2
+Half-Vampire ~ Slam (Fine)	VISIBLE:NO	PRESIZEEQ:F	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1
+Half-Vampire ~ Slam (Diminutive)	VISIBLE:NO	PRESIZEEQ:D	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d2
+Half-Vampire ~ Slam (Tiny)	VISIBLE:NO	PRESIZEEQ:T	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d3
+Half-Vampire ~ Slam (Small)	VISIBLE:NO	PRESIZEEQ:S	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d4
+Half-Vampire ~ Slam (Medium)	VISIBLE:NO	PRESIZEEQ:M	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d6
+Half-Vampire ~ Slam (Large)	VISIBLE:NO	PRESIZEEQ:L	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d8
+Half-Vampire ~ Slam (Huge)	VISIBLE:NO	PRESIZEEQ:H	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,2d6
+Half-Vampire ~ Slam (Gargantuan)	VISIBLE:NO	PRESIZEEQ:G	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,2d8
+Half-Vampire ~ Slam (Colossal)	VISIBLE:NO	PRESIZEEQ:C	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,4d6
+Hooded Pupil	TYPE:Acquired	PRERACE:1,RACETYPE=Humanoid,RACETYPE=Giant	!PRERACE:1,RACESUBTYPE=Incorporeal	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	ABILITY:Special Ability|AUTOMATIC|Hooded Pupil ~ Clutch of Orcus|Hooded Pupil ~ Drinking Blood|Resistance to Cold|Hooded Pupil ~ Spider Climb	BONUS:VAR|ColdResistanceBOnus|5|TYPE=Resistance	BONUS:STAT|STR|2	BONUS:STAT|WIS|2	BONUS:STAT|CHA|2	BONUS:SKILL|Hide,Listen,Move Silently,Spot|2|TYPE=Racial	ABILITY:FEAT|AUTOMATIC|Alertness|Improved Initiative|Lightning Reflexes	BONUS:MISC|CR|1	KIT:1|LE|NE|CE	LEVELADJUSTMENT:4
+Mummified Creature	TYPE:Acquired	PRERACE:1,RACETYPE=Giant,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid	!PRERACE:1,RACESUBTYPE=Incorporeal	RACETYPE:Undead	HITDIE:12	BONUS:MOVEADD|TYPE.Walk|-10	BONUS:COMBAT|AC|10|TYPE=NaturalArmor.REPLACE	TEMPLATE:CHOOSE:Mummified Creature ~ Slam (Fine)|Mummified Creature ~ Slam (Diminutive)|Mummified Creature ~ Slam (Tiny)|Mummified Creature ~ Slam (Small)|Mummified Creature ~ Slam (Medium)|Mummified Creature ~ Slam (Large)|Mummified Creature ~ Slam (Huge)|Mummified Creature ~ Slam (Gargantuan)|Mummified Creature ~ Slam (Colossal)	DEFINE:MummifiedCreatureDC|0	BONUS:VAR|MummifiedCreatureDC|DefaultDCCHA	ABILITY:Special Ability|AUTOMATIC|Mummified Creature ~ Despair|Mummified Creature ~ Mummy Rot|Vulnerability to Fire	DR:5/-	BONUS:STAT|STR|8	BONUS:STAT|INT|-4	BONUS:STAT|WIS|4	BONUS:STAT|CHA|4	DEFINESTAT:NONSTAT|CON	DEFINESTAT:MINVALUE|INT|1	BONUS:MISC|CR|3	KIT:1|LE	LEVELADJUSTMENT:4	FAVOREDCLASS:Fighter
+Mummified Creature ~ Slam (Fine)	VISIBLE:NO	PRESIZEEQ:F	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d2
+Mummified Creature ~ Slam (Diminutive)	VISIBLE:NO	PRESIZEEQ:D	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d3
+Mummified Creature ~ Slam (Tiny)	VISIBLE:NO	PRESIZEEQ:T	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d4
+Mummified Creature ~ Slam (Small)	VISIBLE:NO	PRESIZEEQ:S	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d6
+Mummified Creature ~ Slam (Medium)	VISIBLE:NO	PRESIZEEQ:M	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d8
+Mummified Creature ~ Slam (Large)	VISIBLE:NO	PRESIZEEQ:L	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,2d6
+Mummified Creature ~ Slam (Huge)	VISIBLE:NO	PRESIZEEQ:H	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,2d8
+Mummified Creature ~ Slam (Gargantuan)	VISIBLE:NO	PRESIZEEQ:G	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,2d10
+Mummified Creature ~ Slam (Colossal)	VISIBLE:NO	PRESIZEEQ:C	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,4d8
+Necromental	TYPE:Acquired	PRERACE:1,RACETYPE=Elemental	RACETYPE:Undead	HITDIE:12|CLASS.TYPE=Monster	BONUS:COMBAT|AC|2|TYPE=NaturalArmor.STACK	ABILITY:Special Ability|AUTOMATIC|Necromental ~ Create Spawn|Necromental ~ Energy Drain	BONUS:VAR|FastHealing|3	DEFINESTAT:NONSTAT|CON	DEFINESTAT:LOCK|INT|1	DEFINESTAT:LOCK|WIS|10	DEFINESTAT:LOCK|CHA|1	ABILITY:FEAT|AUTOMATIC|Great Fortitude	BONUS:MISC|CR|1	KIT:1|NE
+Necropolitan	TYPE:Acquired	PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid	RACETYPE:Undead	HITDIE:12|CLASS.TYPE=Monster	ABILITY:Special Ability|AUTOMATIC|Necropolitan ~ Resist Control|Necropolitan ~ Unnatural Resilience	BONUS:VAR|TurnResistanceBonus|2	DEFINESTAT:NONSTAT|CON	BONUS:VAR|AdvancementByClass|1	
+Revived Fossil	TYPE:Acquired	!PRERACE:1,RACETYPE=Undead	!PRERACE:1,RACESUBTYPE=Incorporeal	RACESUBTYPE:.REMOVE.Good	RACESUBTYPE:.REMOVE.Evil	RACESUBTYPE:.REMOVE.Lawful	RACESUBTYPE:.REMOVE.Chaotic	TEMPLATE:CHOOSE:Revived Fossil ~ Tiny|Revived Fossil ~ Small|Revived Fossil ~ Medium|Revived Fossil ~ LArge|Revived Fossil ~ Huge|Revived Fossil ~ Gargantuan|Revived Fossil ~ Colossal	BONUS:HP|CURRENTMAX|max(SIZE-2,0)*10	BONUS:HP|CURRENTMAX|max(SIZE-6,0)*10	DR:10/Adamantine	ABILITY:Special Ability|AUTOMATIC|Immunity to Cold	BONUS:STAT|DEX|-2	DEFINESTAT:NONSTAT|CON	DEFINESTAT:NONSTAT|INT	DEFINESTAT:LOCK|WIS|10	DEFINESTAT:LOCK|CHA|1	ABILITY:FEAT|AUTOMATIC|Combat Reflexes	BONUS:MISC|CR|1|PREHD:MIN=1	BONUS:MISC|CR|1|PREHD:MIN=2	BONUS:MISC|CR|1|PREHD:MIN=4	BONUS:MISC|CR|1|PREHD:MIN=6	BONUS:MISC|CR|1|PREHD:MIN=8	BONUS:MISC|CR|1|PREHD:MIN=10	BONUS:MISC|CR|1|PREHD:MIN=12	BONUS:MISC|CR|1|PREHD:MIN=15	BONUS:MISC|CR|1|PREHD:MIN=18	KIT:1|NE	
+# TEMPLATE:CHOOSE:Revived Fossil ~ Aberration|Revived Fossil ~ Animal|Revived Fossil ~ Construct|Revived Fossil ~ Dragon|Revived Fossil ~ Elemental|Revived Fossil ~ Fey|Revived Fossil ~ Giant|Revived Fossil ~ Humanoid|Revived Fossil ~ Magical Beast|Revived Fossil ~ Ooze|Revived Fossil ~ Outsider|Revived Fossil ~ Plant|Revived Fossil ~ Vermin	
+# Revived Fossil ~ Aberration	VISIBLE:NO	PRERACE:1,TYPE=Aberration	RACESUBTYPE:Augmented Aberration
+# Revived Fossil ~ Animal	VISIBLE:NO	PRERACE:1,TYPE=Animal	RACESUBTYPE:Augmented Animal
+# Revived Fossil ~ Construct	VISIBLE:NO	PRERACE:1,TYPE=Construct	RACESUBTYPE:Augmented Construct
+# Revived Fossil ~ Dragon	VISIBLE:NO	PRERACE:1,TYPE=Dragon	RACESUBTYPE:Augmented Dragon
+# Revived Fossil ~ Elemental	VISIBLE:NO	PRERACE:1,TYPE=Elemental	RACESUBTYPE:Augmented Elemental
+# Revived Fossil ~ Fey	VISIBLE:NO	PRERACE:1,TYPE=Fey	RACESUBTYPE:Augmented Fey
+# Revived Fossil ~ Giant	VISIBLE:NO	PRERACE:1,TYPE=Giant	RACESUBTYPE:Augmented Giant
+# Revived Fossil ~ Humanoid	VISIBLE:NO	PRERACE:1,TYPE=Humanoid	RACESUBTYPE:Augmented Humanoid
+# Revived Fossil ~ Magical Beast	VISIBLE:NO	PRERACE:1,TYPE=Magical Beast	RACESUBTYPE:Augmented Magical Beast
+# Revived Fossil ~ Ooze	VISIBLE:NO	PRERACE:1,TYPE=Ooze	RACESUBTYPE:Augmented Ooze
+# Revived Fossil ~ Outsider	VISIBLE:NO	PRERACE:1,TYPE=Outsider	RACESUBTYPE:Augmented Outsider
+# Revived Fossil ~ Plant	VISIBLE:NO	PRERACE:1,TYPE=Plant	RACESUBTYPE:Augmented Plant
+# Revived Fossil ~ Vermin	VISIBLE:NO	PRERACE:1,TYPE=Vermin	RACESUBTYPE:Augmented Vermin
+Revived Fossil ~ Fine	VISIBLE:NO	PRESIZELTEQ:F	BONUS:COMBAT|AC|6|TYPE=NaturalArmor.REPLACE	NATURALATTACKS:Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*1,1d3
+Revived Fossil ~ Tiny	VISIBLE:NO	PRESIZEEQ:T	BONUS:COMBAT|AC|6|TYPE=NaturalArmor.REPLACE	NATURALATTACKS:Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*1,1d4
+Revived Fossil ~ Small	VISIBLE:NO	PRESIZEEQ:S	BONUS:COMBAT|AC|9|TYPE=NaturalArmor.REPLACE	NATURALATTACKS:Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*1,1d8
+Revived Fossil ~ Medium	VISIBLE:NO	PRESIZEEQ:M	BONUS:COMBAT|AC|12|TYPE=NaturalArmor.REPLACE	NATURALATTACKS:Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*1,2d6
+Revived Fossil ~ Large	VISIBLE:NO	PRESIZEEQ:L	BONUS:COMBAT|AC|15|TYPE=NaturalArmor.REPLACE	NATURALATTACKS:Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*1,2d8
+Revived Fossil ~ Huge	VISIBLE:NO	PRESIZEEQ:H	BONUS:COMBAT|AC|18|TYPE=NaturalArmor.REPLACE	NATURALATTACKS:Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*1,2d10
+Revived Fossil ~ Gargantuan	VISIBLE:NO	PRESIZEEQ:G	BONUS:COMBAT|AC|24|TYPE=NaturalArmor.REPLACE	NATURALATTACKS:Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*1,2d12
+Revived Fossil ~ Colossal	VISIBLE:NO	PRESIZEGTEQ:C	BONUS:COMBAT|AC|30|TYPE=NaturalArmor.REPLACE	NATURALATTACKS:Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*1,2d20
+Swarm-Shifter	TYPE:Acquired	PRERACE:1,RACETYPE=Undead	PRESTAT:1,INT=1	RACESUBTYPE:Shapeshifter	DEFINE:SwarfShifterSwarmNumber|0	BONUS:VAR|SwarfShifterSwarmNumber|1	BONUS:ABILITYPOOL|Swarm-Shifter Swarm|SwarfShifterSwarmNumber	BONUS:MISC|CR|1	BONUS:MISC|CR|1|PREVARGTEQ:SwarfShifterSwarmNumber,2
+Umbral	TYPE:Acquired	PRERACE:1,RACETYPE=Aberration,RACETYPE=Dragon,RACETYPE=Giant,RACETYPE=Magical Beast,RACETYPE=Monstrous Humanoid	RACETYPE:Undead	RACESUBTYPE:Incorporeal	RACESUBTYPE:.REMOVE.Good	RACESUBTYPE:.REMOVE.Evil	RACESUBTYPE:.REMOVE.Lawful	RACESUBTYPE:.REMOVE.Chaotic	HITDIE:12|CLASS.TYPE=Monster	MOVE:Fly,40	BONUS:VAR|Maneuverability|5|TYPE=Base	TEMPLATE:CHOOSE:Umbral ~ Fine|Umbral ~ Diminutive|Umbral ~ Tiny|Umbral ~ Small|Umbral ~ Medium|Umbral ~ LArge|Umbral ~ Huge|Umbral ~ Gargantuan|Umbral ~ Colossal	NATURALATTACKS:Incorporeal Touch,Weapon.Natural.Finesseable.Melee.Touch,*1,0	ABILITY:Special Ability|AUTOMATIC|Umbral ~ Create Spawn|Umbral ~ Inescapable Craving	BONUS:VAR|TurnResistanceBonus|2	BONUS:STAT|DEX|4	BONUS:STAT|INT|-4	BONUS:STAT|WIS|2	BONUS:STAT|CHA|2	DEFINESTAT:NONSTAT|STR	DEFINESTAT:NONSTAT|CON	DEFINESTAT:MINVALUE|INT|1	BONUS:MISC|CR|2	BONUS:MISC|CR|1|PRESIZEGTEQ:H	KIT:1|CE	
+Umbral ~ Fine	VISIBLE:NO	PRESIZELTEQ:F	ABILITY:Special Ability|AUTOMATIC|Umbral ~ Strength Damage ~ F
+Umbral ~ Diminutive	VISIBLE:NO	PRESIZEEQ:D	ABILITY:Special Ability|AUTOMATIC|Umbral ~ Strength Damage ~ F
+Umbral ~ Tiny	VISIBLE:NO	PRESIZEEQ:T	ABILITY:Special Ability|AUTOMATIC|Umbral ~ Strength Damage ~ T
+Umbral ~ Small	VISIBLE:NO	PRESIZEEQ:S	ABILITY:Special Ability|AUTOMATIC|Umbral ~ Strength Damage ~ S
+Umbral ~ Medium	VISIBLE:NO	PRESIZEEQ:M	ABILITY:Special Ability|AUTOMATIC|Umbral ~ Strength Damage ~ M
+Umbral ~ Large	VISIBLE:NO	PRESIZEEQ:L	ABILITY:Special Ability|AUTOMATIC|Umbral ~ Strength Damage ~ L
+Umbral ~ Huge	VISIBLE:NO	PRESIZEEQ:H	ABILITY:Special Ability|AUTOMATIC|Umbral ~ Strength Damage ~ H
+Umbral ~ Gargantuan	VISIBLE:NO	PRESIZEEQ:G	ABILITY:Special Ability|AUTOMATIC|Umbral ~ Strength Damage ~ G
+Umbral ~ Colossal	VISIBLE:NO	PRESIZEGTEQ:C	ABILITY:Special Ability|AUTOMATIC|Umbral ~ Strength Damage ~ C
+#Variant Ghost
+Ghost (Haunting)	VISIBLE:YES	PRETEMPLATE:1,Ghost	BONUS:ABILITYPOOL|Ghost Haunting Special Attack|1
+Ghost (Sagacious)	VISIBLE:YES	PRETEMPLATE:1,Ghost	ABILITY:Special Ability|AUTOMATIC|Ghost (Sagacious) ~ Lore	BONUS:ABILITYPOOL|Ghost Sagacious Skill|5
+#Variant Lich
+Lich (Good)	TYPE:Acquired	VISIBLE:YES	PRERACE:1,RACETYPE=Humanoid	RACETYPE:Undead	HITDIE:12|CLASS.TYPE=Monster	BONUS:COMBAT|AC|5|TYPE=NaturalArmor	NATURALATTACKS:Touch,Weapon.Natural.Finesseable.Melee,*1,0,SPROP=+1d8 Negative Energy Damage	DEFINE:LichDC|0	BONUS:VAR|LichDC|DefaultDCCha	ABILITY:Special Ability|AUTOMATIC|Lich ~ Fear Aura|Lich ~ Paralyzing Touch|Lich ~ Turn Resistance|Lich ~ Natural Weapons|Immunity To Cold|Immunity To Electricity|Immunity To Polymorph|Immunity To Mind-Affecting|Lich ~ Skills|Lich (Good) ~ Turn Undead|Lich (Good) ~ Turning Immunity	DR:15/Bludgeoning and Magic	BONUS:STAT|INT|2	BONUS:STAT|WIS|2	BONUS:STAT|CHA|2	CR:2	BONUS:VAR|AdvancementByClass|1	LEVELADJUSTMENT:4																	
+Lichfiend	TYPE:Acquired	VISIBLE:YES	PRERACE:1,RACETYPE=Outsider	RACETYPE:Undead	HITDIE:12|CLASS.TYPE=Monster	BONUS:COMBAT|AC|5|TYPE=NaturalArmor	NATURALATTACKS:Touch,Weapon.Natural.Finesseable.Melee,*1,0,SPROP=+1d8 Negative Energy Damage	DEFINE:LichDC|0	BONUS:VAR|LichDC|DefaultDCCha	ABILITY:Special Ability|AUTOMATIC|Lich ~ Fear Aura|Lich ~ Paralyzing Touch|Lich ~ Turn Resistance|Lich ~ Natural Weapons|Immunity To Cold|Immunity To Electricity|Immunity To Polymorph|Immunity To Mind-Affecting|Lich ~ Skills	DR:15/Good and Bludgeoning	BONUS:STAT|INT|2	BONUS:STAT|WIS|2	BONUS:STAT|CHA|2	CR:2	BONUS:VAR|AdvancementByClass|1	LEVELADJUSTMENT:4																	
+#Variant Skeleton
+Skeleton (Fiery/Fire)	TYPE:Acquired	VISIBLE:YES	PRETEMPLATE:1,Skeleton	ABILITY:Special Ability|AUTOMATIC|Skeleton (Fiery/Fire) ~ Attack|Immunity to Fire	BONUS:MISC|CR|0.5
+Skeleton (Fiery/Electricity)	TYPE:Acquired	VISIBLE:YES	PRETEMPLATE:1,Skeleton	ABILITY:Special Ability|AUTOMATIC|Skeleton (Fiery/Electricity) ~ Attack|Immunity to Electricity	BONUS:MISC|CR|0.5
+Skeleton (Fiery/Cold)	TYPE:Acquired	VISIBLE:YES	PRETEMPLATE:1,Skeleton	ABILITY:Special Ability|AUTOMATIC|Skeleton (Fiery/Cold) ~ Attack|Immunity to Cold	BONUS:MISC|CR|0.5
+Skeleton (Nimble)	TYPE:Acquired	VISIBLE:YES	PRETEMPLATE:1,Skeleton	MOVECLONE:Walk,Climb,*1	BONUS:STAT|DEX|2	BONUS:MISC|CR|0.5
+Skeleton (Soldier)	TYPE:Acquired	VISIBLE:YES	PRETEMPLATE:1,Skeleton	ABILITY:Special Ability|AUTOMATIC|Skeleton (Soldier) ~ Cooperation	ABILITY:FEAT|VIRTUAL|Combat Reflexes	BONUS:ABILITYPOOL|Skeleton Soldier Weapon Focus|1	BONUS:MISC|CR|1
+Skeleton (Vicious)	TYPE:Acquired	VISIBLE:YES	PRETEMPLATE:1,Skeleton	BONUS:WEAPONPROF=Claw|DAMAGESIZE|1	ABILITY:Special Ability|AUTOMATIC|Skeleton (Vicious) ~ Rend	ABILITY:FEAT|AUTOMATIC|Improved Critical (Claw)	BONUS:MISC|CR|1
+#Variant Vampire
+Vampire (Moonbane)	TYPE:Acquired	VISIBLE:YES	PRETEMPLATE:1,Vampire	ABILITY:Special Ability|AUTOMATIC|Vampire (Moonbane) ~ Vulnerable to Moonlight
+Vampire (Persuasive)	TYPE:Acquired	VISIBLE:YES	PRETEMPLATE:1,Vampire	ABILITY:Special Ability|AUTOMATIC|Vampire (Persuasive) ~ Suggestion	BONUS:VAR|VampirePersuasive|1
+Vampire (Psychic)	TYPE:Acquired	VISIBLE:YES	PRETEMPLATE:1,Vampire	ABILITY:Special Ability|AUTOMATIC|Vampire (Psychic) ~ Wisdom Drain	BONUS:VAR|VampirePsychic|1
+Vampire (Savage)	TYPE:Acquired	VISIBLE:YES	PRETEMPLATE:1,Vampire	TEMPLATE:CHOOSE:Vampire (Savage) ~ Slam|Vampire (Savage) ~ Claw	BONUS:STAT|STR|4	BONUS:STAT|INT|-4	BONUS:STAT|CHA|-4	ABILITY:Special Ability|AUTOMATIC|Vampire (Savage) ~ Skills
+Claw	VISIBLE:NO	KEY:Vampire (Savage) ~ Claw	TEMPLATE:CHOOSE:Vampire (Savage) ~ Claw ~ F|Vampire (Savage) ~ Claw ~ D|Vampire (Savage) ~ Claw ~ T|Vampire (Savage) ~ Claw ~ S|Vampire (Savage) ~ Claw ~ M|Vampire (Savage) ~ Claw ~ L|Vampire (Savage) ~ Claw ~ H|Vampire (Savage) ~ Claw ~ G|Vampire (Savage) ~ Claw ~ C
+Slam	VISIBLE:NO	KEY:Vampire (Savage) ~ Slam	TEMPLATE:CHOOSE:Vampire (Savage) ~ Slam ~ F|Vampire (Savage) ~ Slam ~ D|Vampire (Savage) ~ Slam ~ T|Vampire (Savage) ~ Slam ~ S|Vampire (Savage) ~ Slam ~ M|Vampire (Savage) ~ Slam ~ L|Vampire (Savage) ~ Slam ~ H|Vampire (Savage) ~ Slam ~ G|Vampire (Savage) ~ Slam ~ C
+Vampire (Savage) ~ Claw ~ F	VISIBLE:NO	PRESIZELTEQ:F	NATURALATTACKS:Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*1,1
+Vampire (Savage) ~ Claw ~ D	VISIBLE:NO	PRESIZEEQ:D	NATURALATTACKS:Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*1,1
+Vampire (Savage) ~ Claw ~ T	VISIBLE:NO	PRESIZEEQ:T	NATURALATTACKS:Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*1,1d2
+Vampire (Savage) ~ Claw ~ S	VISIBLE:NO	PRESIZEEQ:S	NATURALATTACKS:Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*1,1d3
+Vampire (Savage) ~ Claw ~ M	VISIBLE:NO	PRESIZEEQ:M	NATURALATTACKS:Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*1,1d4
+Vampire (Savage) ~ Claw ~ L	VISIBLE:NO	PRESIZEEQ:L	NATURALATTACKS:Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*1,1d6
+Vampire (Savage) ~ Claw ~ H	VISIBLE:NO	PRESIZEEQ:H	NATURALATTACKS:Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*1,1d8
+Vampire (Savage) ~ Claw ~ G	VISIBLE:NO	PRESIZEEQ:G	NATURALATTACKS:Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*1,2d6
+Vampire (Savage) ~ Claw ~ C	VISIBLE:NO	PRESIZEGTEQ:C	NATURALATTACKS:Claw,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*1,2d8
+Vampire (Savage) ~ Slam ~ F	VISIBLE:NO	PRESIZELTEQ:F	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1
+Vampire (Savage) ~ Slam ~ D	VISIBLE:NO	PRESIZEEQ:D	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1
+Vampire (Savage) ~ Slam ~ T	VISIBLE:NO	PRESIZEEQ:T	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1
+Vampire (Savage) ~ Slam ~ S	VISIBLE:NO	PRESIZEEQ:S	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d3
+Vampire (Savage) ~ Slam ~ M	VISIBLE:NO	PRESIZEEQ:M	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d4
+Vampire (Savage) ~ Slam ~ L	VISIBLE:NO	PRESIZEEQ:L	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d6
+Vampire (Savage) ~ Slam ~ H	VISIBLE:NO	PRESIZEEQ:H	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d8
+Vampire (Savage) ~ Slam ~ G	VISIBLE:NO	PRESIZEEQ:G	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,2d6
+Vampire (Savage) ~ Slam ~ C	VISIBLE:NO	PRESIZEGTEQ:C	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,2d8
+Vampire (Swarmform)	TYPE:Acquired	VISIBLE:YES	PRETEMPLATE:1,Vampire	ABILITY:Special Ability|AUTOMATIC|Vampire (Swarmform) ~ Swarm Form
+#Varian Zombie
+Zombie (Bloodthirsty)	TYPE:Acquired	VISIBLE:YES	PRETEMPLATE:1,Zombie	TEMPLATE:CHOOSE:Zombie (Bloodthirsty) ~ Bite ~ F|Zombie (Bloodthirsty) ~ Bite ~ D|Zombie (Bloodthirsty) ~ Bite ~ T|Zombie (Bloodthirsty) ~ Bite ~ S|Zombie (Bloodthirsty) ~ Bite ~ M|Zombie (Bloodthirsty) ~ Bite ~ L|Zombie (Bloodthirsty) ~ Bite ~ H|Zombie (Bloodthirsty) ~ Bite ~ G|Zombie (Bloodthirsty) ~ Bite ~ C	ABILITY:Special Ability|AUTOMATIC|Zombie (Bloodthirsty) ~ Blood Drain	ABILITY:FEAT|AUTOMATIC|Improved Critical (Bite)	BONUS:MISC|CR|1
+Zombie (Bloodthirsty) ~ Bite ~ F	VISIBLE:NO	PRESIZELTEQ:F	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1
+Zombie (Bloodthirsty) ~ Bite ~ D	VISIBLE:NO	PRESIZEEQ:D	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d2
+Zombie (Bloodthirsty) ~ Bite ~ T	VISIBLE:NO	PRESIZEEQ:T	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d3
+Zombie (Bloodthirsty) ~ Bite ~ S	VISIBLE:NO	PRESIZEEQ:S	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d4
+Zombie (Bloodthirsty) ~ Bite ~ M	VISIBLE:NO	PRESIZEEQ:M	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6
+Zombie (Bloodthirsty) ~ Bite ~ L	VISIBLE:NO	PRESIZEEQ:L	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d8
+Zombie (Bloodthirsty) ~ Bite ~ H	VISIBLE:NO	PRESIZEEQ:H	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,2d6
+Zombie (Bloodthirsty) ~ Bite ~ G	VISIBLE:NO	PRESIZEEQ:G	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,2d8
+Zombie (Bloodthirsty) ~ Bite ~ C	VISIBLE:NO	PRESIZEGTEQ:C	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,4d6
+Zombie (Diseased)	TYPE:Acquired	VISIBLE:YES	PRETEMPLATE:1,Zombie	ABILITY:Special Ability|AUTOMATIC|Zombie (Diseased) ~ Disease	BONUS:MISC|CR|0.5
+Zombie (Fast)	TYPE:Acquired	VISIBLE:YES	PRETEMPLATE:1,Zombie	BONUS:MOVEADD|TYPE.Walk|30	BONUS:COMBAT|AC|2|TYPE=Dodge	BONUS:VAR|ZombieFast|1	BONUS:MISC|CR|0.5
+Zombie (Hunting)	TYPE:Acquired	VISIBLE:YES	PRETEMPLATE:1,Zombie	ABILITY:Special Ability|AUTOMATIC|Scent	ABILITY:FEAT|AUTOMATIC|Track	DEFINESTAT:LOCK|WIS|16	BONUS:SKILL|Listen,Spot|4|TYPE=Racial	BONUS:MISC|CR|0.5	
+Zombie (Unkillable)	TYPE:Acquired	VISIBLE:YES	PRETEMPLATE:1,Zombie	ABILITY:Special Ability|AUTOMATIC|Zombie (Unkillable) ~ Undying Toughness	ABILITY:FEAT|AUTOMATIC|Improved Toughness	BONUS:VAR|FastHealing|5

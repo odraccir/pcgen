@@ -19,7 +19,7 @@ Liquid Night (Flask)	TYPE:Goods.Alchemical.Flask.Consumable	COST:150	WT:8	SOURCE
 ##Block: Wondrous items
 # Frostfell Figurine of Wondrous Power (Basalt Glyptodon)	OUTPUTNAME:Frostfell Figurine of Wondrous Power, [NAME]	TYPE:Wondrous	COST:32000	WT:0	SOURCEPAGE:Fro																			
 Bagpipes of the Damned		TYPE:Wondrous.Instrument.Wind	COST:3000	WT:4	SOURCEPAGE:LM	SPROP:All undead within 60 feet gain a +4 bonus on turn resistance for 10 rounds (The piper must make a DC 15 Perform (wind instruments) check).
-Cloak of Turn Resistance		TYPE:Wondrous.Cape	COST:11000	WT:0	SOURCEPAGE:LM	BONUS:VAR|TurnResistance|4
+Cloak of Turn Resistance		TYPE:Wondrous.Cape	COST:11000	WT:0	SOURCEPAGE:LM	BONUS:VAR|TurnResistanceBonus|4
 Ectoplasmatic Ichor (Vial)	TYPE:Wondrous.Vial.Consumable	COST:500	WT:1	SOURCEPAGE:LM	SPROP:Allows incorporeal creatures to interact with that object as if they were corporeal.
 Ghost Net			TYPE:Wondrous	COST:8000	WT:0	SOURCEPAGE:LM
 Ghoul Gauntlet			TYPE:Wondrous.Glove	COST:10000	WT:0	SOURCEPAGE:LM	SLOTS:2
@@ -55,4 +55,6 @@ Graft (Vampiric Fang)		TYPE:Graft.Undead	COST:25000	WT:0	SOURCEPAGE:LM	SPROP:Thi
 Graft (Weakening Arm)		TYPE:Graft.Undead	COST:40000	WT:0	SOURCEPAGE:LM	SPROP:A weakening arm is a skeletal forelimb that grants a +4 inherent bonus to the grafted creature's Strength. Twice per day, the grafted creature can use a weakening touch.A living creature touched takes 1d6 points of Strength damage. A touch that misses does not count against the daily limit.	BONUS:STAT|STR|4|TYPE=Inherent
 Graft (Zombie Arm)		TYPE:Graft.Undead	COST:25000	WT:0	SOURCEPAGE:LM	SPROP:A zombie arm is a perpetually rotting limb. It grants a +2 inherent bonus to the grafted creature's Strength, but also permanently reduces the grafted creature's Dexterity by 2. The grafted creature can use the zombie arm to make slam attacks; the damage dealt is the same as that dealt by a zombie of the creature's size.	BONUS:STAT|STR|2|TYPE=Inherent	BONUS:STAT|DEX|-2
 
-
+###Block: Golem
+Golem (Grave Dirt)		KEY:Golem ~ Grave Dirt	TYPE:Monster.Construct.Container	COST:18250	WT:0	SOURCEPAGE:LM	CONTAINS:UNLIM|Any	SPROP:CL 11th; Craft Construct (see Monster Manual, page 303), animate objects, commune, resurrection, caster must be at least 11th level.
+Golem (Tombstone)		KEY:Golem ~ Tombstone	TYPE:Monster.Construct.Container	COST:90000	WT:0	SOURCEPAGE:MM1	CONTAINS:UNLIM|Any	SPROP:CL 14th; Craft Construct (see page 303), antimagic field, geas Quest, symbol of stunning, caster must be at least 14th level.

@@ -1,1 +1,2 @@
 haunting not handled.
+pregenerated skeletons, zombie, ghoul as companion

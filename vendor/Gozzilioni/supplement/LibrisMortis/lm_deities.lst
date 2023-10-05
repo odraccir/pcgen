@@ -7,4 +7,4 @@ Afflux	ALIGN:NE	DEITYWEAP:Sword (Short)	DESC:Afflux (M)	DOMAINS:Deathbound,Evil,
 Doresian	ALIGN:CE	DEITYWEAP:Scimitar	DESC:Doresian (M)	DOMAINS:Chaos,Evil,Hunger|PREALIGN:NE,CE,CN	TYPE:Demigod	FACTSET:Pantheon|Undead	SOURCEPAGE:LM
 Evening Glory	ALIGN:TN	DEITYWEAP:Dagger	DESC:Evening Glory (F)	DOMAINS:Chaos,Charm,Good|PREALIGN:LN,NG,TN,NE,CN	TYPE:Lesser	FACTSET:Pantheon|Undead	SOURCEPAGE:LM
 Nerull	ALIGN:NE	DEITYWEAP:Scythe	DESC:Nerull (M)	DOMAINS:Death,Evil,Trickery|PREALIGN:LE,TN,NE,CE	TYPE:Greater	FACTSET:Pantheon|Undead	SOURCEPAGE:LM
-Orcus	ALIGN:CE	DEITYWEAP:Mace	DESC:Orcus (M)	DOMAINS:Chaos,Darkness,Death,Evil|PREALIGN:NE,CN,CE	TYPE:Demon Lord	FACTSET:Pantheon|Undead	SOURCEPAGE:LM
+Orcus	ALIGN:CE	DEITYWEAP:Mace (Heavy)|Mace (Light)	DESC:Orcus (M)	DOMAINS:Chaos,Darkness,Death,Evil|PREALIGN:NE,CN,CE	TYPE:Demon Lord	FACTSET:Pantheon|Undead	SOURCEPAGE:LM

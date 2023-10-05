@@ -22,10 +22,10 @@ ABILITY:lm_abilities.lst
 ABILITY:lm_abilities_classes.lst
 # ABILITY:lm_abilities_FF.lst|PRECAMPAIGN:1,Fiend folio
 # ABILITY:lm_abilities_MM2.lst|PRECAMPAIGN:1,Monster Manual 2
-# ABILITY:lm_abilities_races.lst
+ABILITY:lm_abilities_races.lst
 # ABILITY:lm_abilities_racetraits.lst
 # ABILITY:lm_abilities_regions.lst
-# ABILITY:lm_abilities_templates.lst
+ABILITY:lm_abilities_templates.lst
 ABILITYCATEGORY:lm_abilitycategories.lst
 # BIOSET:lm_biosettings.lst
 CLASS:lm_classes.lst
@@ -46,7 +46,7 @@ EQUIPMENT:lm_equip_weapons.lst
 EQUIPMOD:lm_equipmods.lst
 ABILITY:lm_feats.lst
 KIT:lm_kits.lst
-# LANGUAGE:lm_languages.lst
+LANGUAGE:lm_languages.lst
 # WEAPONPROF:lm_profs_weapon.lst
 # ARMORPROF:lm_profs_armor.lst
 RACE:lm_races.lst

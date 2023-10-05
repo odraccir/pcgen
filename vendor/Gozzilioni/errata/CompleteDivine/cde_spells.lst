@@ -1,10 +1,10 @@
 SOURCELONG:Complete Divine Errata	SOURCESHORT:CDe	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-10
 																																	
 Maelstrom.MOD	CLASSES:Druid=8	SOURCEPAGE:CDe	
-Miasma.MOD	SAVEINFO:.CLEAR	SAVEINFO:Fortitude negates	SOURCEPAGE:CDe	
+Miasma.MOD	SAVEINFO:Fortitude negates	SOURCEPAGE:CDe	
 Nature's Favor.MOD	DESC:.CLEAR	DESC:By calling on the power of nature, you grant the target animal a +1 luck bonus on attack and damage rolls for every three caster levels you possess (maximum +3).	SOURCEPAGE:CDe	
-Plague of Rats.MOD	TARGETAREA:.CLEAR	SPELLRES:.CLEAR	DESC:.CLEAR	TARGETAREA:One swarm of rats/two levels, each of which must be adjacent to at least one other swarm.	SPELLRES:No	DESC:You summon a number of swarms of rats (one per two levels, to a maximum of six swarms at 12th level).	SOURCEPAGE:CDe	
+Plague of Rats.MOD	TARGETAREA:.CLEAR	DESC:.CLEAR	TARGETAREA:One swarm of rats/two levels, each of which must be adjacent to at least one other swarm.	SPELLRES:No	DESC:You summon a number of swarms of rats (one per two levels, to a maximum of six swarms at 12th level).	SOURCEPAGE:CDe	
 Poison Vines.MOD	DESC:.CLEAR	DESC:With this spell you create a mass of entangling vines.	SOURCEPAGE:CDe	
-Probe Thoughts.MOD	SAVEINFO:.CLEAR	SAVEINFO:Will negates; see text	
+Probe Thoughts.MOD	SAVEINFO:Will negates; see text	
 Tidal Surge.MOD	CLASSES:Druid=6	SOURCEPAGE:CDe	
 Waterspout.MOD	CLASSES:Druid=7	SOURCEPAGE:CDe	

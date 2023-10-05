@@ -54,14 +54,14 @@ CLASS:Dirgesinger	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|TYPE.Craft|Diplomac
 															
 CLASS:Master of Radiance	HD:8	TYPE:Prestige	FACT:Abb|Mas	MAXLEVEL:5	SOURCEPAGE:LM	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:MasterOfRadianceLVL|0	BONUS:VAR|MasterOfRadianceLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
 CLASS:Master of Radiance	PREALIGN:LG,LN,NG,TN,CG,CN	PRESKILL:1,Knowledge (Nature)=8	PRESKILL:1,Knowledge (Religion)=5	PRESPELLCAST:TYPE=Divine	PRESPELL:1,Daylight										
-CLASS:Master of Radiance	STARTSKILLPTS:8	CSKILL:Concentration|Diplomacy|Heal|Knowledge (Nature)|Knowledge (Religion)|TYPE.Profession|Spellcraft!Spot													
+CLASS:Master of Radiance	STARTSKILLPTS:8	CSKILL:Concentration|Diplomacy|Heal|Knowledge (Nature)|Knowledge (Religion)|TYPE.Profession|Spellcraft|Spot													
 1				ABILITY:Master of Radiance Class Feature|AUTOMATIC|Master of Radiance ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfRadianceProficiencies											
 2				ABILITY:Master of Radiance Class Feature|AUTOMATIC|Master of Radiance ~ Spells per Day											
 #															
-2	ADD:SPELLCASTER|Divine|1														
-3	ADD:SPELLCASTER|Divine|1														
-4	ADD:SPELLCASTER|Divine|1														
-5	ADD:SPELLCASTER|Divine|1														
+2	ADD:SPELLCASTER|Divine														
+3	ADD:SPELLCASTER|Divine														
+4	ADD:SPELLCASTER|Divine														
+5	ADD:SPELLCASTER|Divine														
 #															
 1				ABILITY:Master of Radiance Class Feature|AUTOMATIC|Master of Radiance ~ Turn Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfRadianceTurnUndead											
 1				ABILITY:Master of Radiance Class Feature|AUTOMATIC|Master of Radiance ~ Radiant Aura|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfRadianceRadiantAura											
@@ -74,15 +74,15 @@ CLASS:Master of Shrouds	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomac
 1				ABILITY:Master of Shrouds Class Feature|AUTOMATIC|Master of Shrouds ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfShroudsProficiencies											
 2				ABILITY:Master of Shrouds Class Feature|AUTOMATIC|Master of Shrouds ~ Spells per Day											
 #															
-2	ADD:SPELLCASTER|Divine|1														
-3	ADD:SPELLCASTER|Divine|1														
-4	ADD:SPELLCASTER|Divine|1														
-5	ADD:SPELLCASTER|Divine|1														
-6	ADD:SPELLCASTER|Divine|1														
-7	ADD:SPELLCASTER|Divine|1														
-8	ADD:SPELLCASTER|Divine|1														
-9	ADD:SPELLCASTER|Divine|1														
-10	ADD:SPELLCASTER|Divine|1														
+2	ADD:SPELLCASTER|Divine														
+3	ADD:SPELLCASTER|Divine														
+4	ADD:SPELLCASTER|Divine														
+5	ADD:SPELLCASTER|Divine														
+6	ADD:SPELLCASTER|Divine														
+7	ADD:SPELLCASTER|Divine														
+8	ADD:SPELLCASTER|Divine														
+9	ADD:SPELLCASTER|Divine														
+10	ADD:SPELLCASTER|Divine														
 #															
 1				ABILITY:Master of Shrouds Class Feature|AUTOMATIC|Master of Shrouds ~ Extra Rebuking|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfShroudsExtraRebuking											
 1				ABILITY:Master of Shrouds Class Feature|AUTOMATIC|Master of Shrouds ~ Rebuke Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterOfShroudsRebukeUndead											
@@ -95,15 +95,15 @@ CLASS:Pale Master	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Hide
 1				ABILITY:Pale Master Class Feature|AUTOMATIC|Pale Master ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PaleMasterProficiencies											
 2				ABILITY:Pale Master Class Feature|AUTOMATIC|Pale Master ~ Spells per Day											
 #															
-2	ADD:SPELLCASTER|Arcane|1														
-3	ADD:SPELLCASTER|Arcane|1														
-4	ADD:SPELLCASTER|Arcane|1														
-5	ADD:SPELLCASTER|Arcane|1														
-6	ADD:SPELLCASTER|Arcane|1														
-7	ADD:SPELLCASTER|Arcane|1														
-8	ADD:SPELLCASTER|Arcane|1														
-9	ADD:SPELLCASTER|Arcane|1														
-10	ADD:SPELLCASTER|Arcane|1														
+2	ADD:SPELLCASTER|Arcane														
+3	ADD:SPELLCASTER|Arcane														
+4	ADD:SPELLCASTER|Arcane														
+5	ADD:SPELLCASTER|Arcane														
+6	ADD:SPELLCASTER|Arcane														
+7	ADD:SPELLCASTER|Arcane														
+8	ADD:SPELLCASTER|Arcane														
+9	ADD:SPELLCASTER|Arcane														
+10	ADD:SPELLCASTER|Arcane														
 #															
 2				ABILITY:Pale Master Class Feature|AUTOMATIC|Pale Master ~ Animate Dead|!PREABILITY:1,CATEGORY=ACF,TYPE.PaleMasterAnimateDead											
 3				ABILITY:Pale Master Class Feature|AUTOMATIC|Pale Master ~ Darkvision|!PREABILITY:1,CATEGORY=ACF,TYPE.PaleMasterDarkvision											
@@ -121,10 +121,10 @@ CLASS:Sacred Purifier	STARTSKILLPTS:2	CSKILL:Concentration|Diplomacy|Heal|Knowle
 1				ABILITY:Sacred Purifier Class Feature|AUTOMATIC|Sacred Purifier ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SacredPurifierProficiencies											
 2				ABILITY:Sacred Purifier Class Feature|AUTOMATIC|Sacred Purifier ~ Spells per Day											
 #															
-2	ADD:SPELLCASTER|Divine|1														
-3	ADD:SPELLCASTER|Divine|1														
-4	ADD:SPELLCASTER|Divine|1														
-5	ADD:SPELLCASTER|Divine|1														
+2	ADD:SPELLCASTER|Divine														
+3	ADD:SPELLCASTER|Divine														
+4	ADD:SPELLCASTER|Divine														
+5	ADD:SPELLCASTER|Divine														
 #															
 1				ABILITY:Sacred Purifier Class Feature|AUTOMATIC|Sacred Purifier ~ Greater Turning|!PREABILITY:1,CATEGORY=ACF,TYPE.SacredPurifierGreaterTurning											
 1				ABILITY:Sacred Purifier Class Feature|AUTOMATIC|Sacred Purifier ~ Turn Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.SacredPurifierTurnUndead											
@@ -137,20 +137,20 @@ CLASS:True Necromancer	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Heal|Know
 1				ABILITY:True Necromancer Class Feature|AUTOMATIC|True necromancer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.TrueNecromancerProficiencies											
 2				ABILITY:True Necromancer Class Feature|AUTOMATIC|True Necromancer ~ Spells per Day											
 #															
-1	ADD:SPELLCASTER|Divine|1	ADD:SPELLCASTER|Arcane|1													
-2	ADD:SPELLCASTER|Divine|1	ADD:SPELLCASTER|Arcane|1													
-3	ADD:SPELLCASTER|Divine|1	ADD:SPELLCASTER|Arcane|1													
-4	ADD:SPELLCASTER|Divine|1	ADD:SPELLCASTER|Arcane|1													
-5	ADD:SPELLCASTER|Divine|1	ADD:SPELLCASTER|Arcane|1													
-6	ADD:SPELLCASTER|Divine|1	ADD:SPELLCASTER|Arcane|1													
-7	ADD:SPELLCASTER|Divine|1	ADD:SPELLCASTER|Arcane|1													
-8	ADD:SPELLCASTER|Divine|1	ADD:SPELLCASTER|Arcane|1													
-9	ADD:SPELLCASTER|Divine|1	ADD:SPELLCASTER|Arcane|1													
-10	ADD:SPELLCASTER|Divine|1	ADD:SPELLCASTER|Arcane|1													
-11	ADD:SPELLCASTER|Divine|1	ADD:SPELLCASTER|Arcane|1													
-12	ADD:SPELLCASTER|Divine|1	ADD:SPELLCASTER|Arcane|1													
-13	ADD:SPELLCASTER|Divine|1	ADD:SPELLCASTER|Arcane|1													
-14	ADD:SPELLCASTER|Divine|1	ADD:SPELLCASTER|Arcane|1													
+1	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+2	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+3	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+4	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+5	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+6	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+7	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+8	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+9	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+10	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+11	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+12	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+13	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
+14	ADD:SPELLCASTER|Divine	ADD:SPELLCASTER|Arcane													
 #															
 1				ABILITY:True Necromancer Class Feature|AUTOMATIC|True Necromancer ~ Rebuke Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.TrueUndeadRebukeUndead											
 2				ABILITY:True Necromancer Class Feature|AUTOMATIC|True Necromancer ~ Create Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.TrueUndeadCreateUndead											
@@ -188,8 +188,8 @@ CLASS:Master Vampire	STARTSKILLPTS:4	CSKILL:Bluff|Climb|Concentration|Diplomacy|
 1				ABILITY:Master Vampire Class Feature|AUTOMATIC|Master Vampire ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterVampireProficiencies											
 1				ABILITY:Master Vampire Class Feature|AUTOMATIC|Master Vampire ~ Spells per Day											
 #															
-1	ADD:SPELLCASTER|ANY|1														
-3	ADD:SPELLCASTER|ANY|1														
+1	ADD:SPELLCASTER|ANY														
+3	ADD:SPELLCASTER|ANY														
 #															
 1				ABILITY:Master Vampire Class Feature|AUTOMATIC|Master Vampire ~ More Spawn|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterVampireMoreSpawn											
 1				ABILITY:Master Vampire Class Feature|AUTOMATIC|Master Vampire ~ Turn Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterVampireTurnResistance											

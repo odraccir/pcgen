@@ -19,6 +19,14 @@ ABILITYCATEGORY:Tomb Warden Class Feature	CATEGORY:Special Ability	TYPE:TombWard
 #Other Abilitygroups																								
 ABILITYCATEGORY:Graft Flesh	CATEGORY:Special Ability	TYPE:GraftFlesh	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Graft Flesh			DISPLAYLOCATION:Class Abilities		
 ABILITYCATEGORY:Necrotic Cyst Spellcasting Type	CATEGORY:Special Ability	TYPE:NecroticSpells	VISIBLE:YES	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Necrotic Cyst Spellcasting Type			DISPLAYLOCATION:Misc		
+ABILITYCATEGORY:Evolved Undead	CATEGORY:Special Ability	TYPE:EvolvedUndead	VISIBLE:YES	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Evolved Undead			DISPLAYLOCATION:Misc		
+ABILITYCATEGORY:Ghost Brute Special Attack	CATEGORY:Special Ability	TYPE:GhostBruteSpecialAttack	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Ghost Brute Special Attacks			DISPLAYLOCATION:Race Features
+ABILITYCATEGORY:Half-Vampire Special Attack	CATEGORY:Special Ability	TYPE:HalfVampireSpecialAttack	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Half-Vampire Special Attacks			DISPLAYLOCATION:Race Features
+ABILITYCATEGORY:Swarm-Shifter Swarm	CATEGORY:Special Ability	TYPE:SwarmShifterSwarm	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Swarm-Shifter Swarm			DISPLAYLOCATION:Race Features
+ABILITYCATEGORY:Ghost Haunting Special Attack	CATEGORY:Special Ability	TYPE:GhostHauntingNumberSpecialAttack	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Ghost Haunting Special Attacks			DISPLAYLOCATION:Race Features
+ABILITYCATEGORY:Ghost Haunting Ability	CATEGORY:Special Ability	TYPE:GhostHauntingSpecialAttack	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Ghost Haunting Abilities			DISPLAYLOCATION:Race Features
+ABILITYCATEGORY:Ghost Sagacious Skill	CATEGORY:Internal	TYPE:GhostSagaciousSkills	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO	PLURAL:Ghost Sagacious Skills	DISPLAYLOCATION:Race Features
+ABILITYCATEGORY:Skeleton Soldier Weapon Focus	CATEGORY:Internal	TYPE:SkeletonSoldierWeaponFocus	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO	PLURAL:Skeleton Soldier Weapon Focus	DISPLAYLOCATION:Race Features
 
 #BLOCK:Companions
 ABILITYCATEGORY:Undead Leadership Cohort Selection	CATEGORY:Internal	TYPE:UndeadLeadershipCohortSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Undead Leadership Cohort Choice			DISPLAYLOCATION:Class Features
