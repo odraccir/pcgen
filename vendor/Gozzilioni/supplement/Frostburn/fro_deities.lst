@@ -1,5 +1,5 @@
-SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09					
-#								
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
+#
 #Mosat	ALIGN:CG	DEITYWEAP:Tiger claws	DESC:The CONTENTed One	DOMAINS:Chaos,Knowledge,Animal		PANTHEON:BoD	SOURCEPAGE:not recorded yet	FACT:Symbol|a Kitten on a keyboard
 Aengrist	ALIGN:LG	DEITYWEAP:Sword (Bastard)	DESC:Aengrist (M)	DOMAINS:Law,Protection,War,Winter|PREALIGN:LG,LN,NG	TYPE:Greater	FACTSET:Pantheon|Frostfell	SOURCEPAGE:Fro	
 Auril	ALIGN:NE	DEITYWEAP:Ice Axe	DESC:Auril (F)	DOMAINS:Air,Cold,Evil,Storm,Water,Winter|PREALIGN:LE,TN,NE,CE	TYPE:Greater	FACTSET:Pantheon|Frostfell	SOURCEPAGE:Fro	

@@ -1,0 +1,57 @@
+CAMPAIGN:Savage Species 3.0
+GAMEMODE:G35e
+RANK:3
+TYPE:Gozzilioni.Partial.Old
+SETTING:Heroes
+BOOKTYPE:Accessory
+SOURCELONG:Savage Species 3.0
+SOURCESHORT:SS30
+SOURCEWEB:http://www.gozzilioni.net
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+
+PRECAMPAIGN:2,Core Ruleset,Monster Manual
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:missing.txt
+
+ABILITY:ss_abilities.lst
+ABILITY:ss_abilities_classes.lst
+ABILITY:ss_abilities_races.lst
+ABILITY:ss_abilities_templates.lst
+ABILITYCATEGORY:ss_abilitycategories.lst
+CLASS:ss_classes.lst
+COMPANIONMOD:ss_companionmods.lst
+DOMAIN:ss_domains.lst
+EQUIPMOD:ss_equimods.lst
+EQUIPMENT:ss_equip.lst
+EQUIPMENT:ss_equip_armors_specific.lst
+EQUIPMENT:ss_equip_magic_items.lst
+EQUIPMENT:ss_equip_weapons.lst
+EQUIPMENT:ss_equip_weapons_specific.lst
+ABILITY:ss_feats.lst
+KIT:ss_kits.lst
+# LANGUAGE:mm2_languages.lst
+WEAPONPROF:ss_profs_weapon.lst
+RACE:ss_races.lst
+SKILL:ss_skills.lst
+SPELL:ss_spells.lst
+ABILITY:ss_subraces.lst
+TEMPLATE:ss_templates.lst
+#
+FORWARDREF:WEAPONPROF|Pincer Staff
+HIDETYPE:SKILL|Perform (Chant)
+# HIDETYPE:FEAT|Wizard
+
+# ENTRY DATE: 2016-07
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

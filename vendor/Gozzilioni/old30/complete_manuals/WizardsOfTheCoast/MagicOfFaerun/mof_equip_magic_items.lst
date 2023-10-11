@@ -1,0 +1,221 @@
+SOURCELONG:Magic of Faerun 3.0	SOURCESHORT:MoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
+#																								
+# Equipment Name	Output Name	TYPE:	COST:	WT:	SOURCEPAGE:																			
+###Block: Potions																								
+Potion (Oil of Animate Dead)	OUTPUTNAME:[NAME]	TYPE:Potion.Vial.Consumable	COST:1550	WT:0	SOURCEPAGE:MoF30	SPROP:When rubbed on a corpse or skeleton of Medium-size or smaller, this oil animates the remains, turning the corpse into a zombie or skeleton.																		
+Potion (Infertility)		TYPE:Potion.Vial.Consumable	COST:150	WT:0	SOURCEPAGE:MoF30	SPROP:This potion renders the character drinking it sterile for one month. It has no effect on offspring already conceived.																		
+																								
+###Block: Rings																								
+Aribeth's Ring		TYPE:Ring	COST:50000	WT:0	SOURCEPAGE:MoF30	SR:17																		
+Bone Ring		TYPE:Ring	COST:36000	WT:0	SOURCEPAGE:MoF30	SPROP:Immune to Energy Drain and Ability Drain each for 1 charge.	EQMOD:CHARGED_ITEM_50|50																	
+Commander's Ring		TYPE:Ring	COST:120000	WT:0	SOURCEPAGE:MoF30		BONUS:SAVE|ALL|2|TYPE=Circumstance	BONUS:COMBAT|AC|2|TYPE=Deflection	SPELLS:Commander's Ring|TIMES=3|CASTERLEVEL=12|Feather Fall|Knock|Wall of force|Daylight	BONUS:SLOTS|RING|1|PREEQUIP:1,Purple Dragon Ring														
+Darkhidden		TYPE:Ring	COST:6700	WT:0	SOURCEPAGE:MoF30	SPROP:The wearer is invisibile to darkvision.																		
+Ring of Disease Immunity		TYPE:Ring	COST:8000	WT:0	SOURCEPAGE:MoF30	SPROP:immune to all types of infections and diseases (including contagion spells, lycanthropy, and mummy rot). The wearer also heals 1 extra hit point per day of rest.	ABILITY:Special Ability|VIRTUAL|Immunity to Disease																	
+Ring of Dragons		TYPE:Ring	COST:25000	WT:0	SOURCEPAGE:MoF30	SPROP:Verbally (as with tongues) or telepathically (as with Rary's telepathic bond) communicate with any dragon within the wearer's line of sight.	SPELLS:Ring of Dragons|TIMES=1|CASTERLEVEL=15|Silent Image																	
+Ring of Lore		TYPE:Ring	COST:23250	WT:0	SOURCEPAGE:MoF30	SPROP:may find magic traps created through glyphs, runes, sigils, and symbols with a successful Search check, just as a rogue does.	SPELLS:Ring of Lore|TIMES=1|TIMEUNIT=Week|Legend Lore|Stone Tell																	
+Ring of Might		TYPE:Ring	COST:4000	WT:0	SOURCEPAGE:MoF30	SPROP:Unarmed attacks deal 1d8 points of damage.	ABILITY:FEAT|VIRTUAL|Improved Unarmed Strike																	
+Ring of Nine Lives		TYPE:Ring	COST:70000	WT:0	SOURCEPAGE:MoF30	SPROP:When hp reach 0 automatically expend a charge to cast Heal.	EQMOD:CHARGED_ITEM_7|7																	
+Purple Dragon Ring		TYPE:Ring	COST:2125	WT:0	SOURCEPAGE:MoF30	SPROP:Detect Poison by touch.	SPELLS:Purple Dragon Ring|TIMES=ATWILL|CASTERLEVEL=1|Light																	
+Ring of Spell-Battle		TYPE:Ring	COST:67600	WT:0	SOURCEPAGE:MoF30	SPROP:The ring informs its wearer of all spellcasting that occurs within 60 feet of it.																		
+																								
+###Block: Rods																								
+Rod of Cats		TYPE:Rod.Weapon.Melee.Simple.Bludgeoning.TwoHanded.Quarterstaff.Container	COST:25000	WT:4	SOURCEPAGE:MoF30		BONUS:VAR|HasLowLightVision|1|TYPE=Base	BONUS:SKILL|Climb,Hide,Move Silently|10|TYPE=Competence	PROFICIENCY:WEAPON|Quarterstaff	WIELD:TwoHanded	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS1W			ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.EQ_COST_ADJ_W.PLUS1W	SPELLS:Rod of Cats|TIMES=1|CASTERLEVEL=5|Darkness	CONTAINS:UNLIM|Total=1|ThiefTools=1|Scroll=1
+Rod of Displacement		TYPE:Rod	COST:48600	WT:5	SOURCEPAGE:MoF30	SPROP:20%% miss chance.	SPELLS:Rod of Displacement|TIMES=2|CASTERLEVEL=5|Jump|Knock																	
+Rod of Divergence (Acid)		TYPE:Rod	COST:32600	WT:5	SOURCEPAGE:MoF30	SPROP:Continuous Resist Energy (Acid)	SPELLS:Rod of Divergence|TIMES=ATWILL|CASTERLEVEL=13|Faerie Fire																	
+Rod of Divergence (Cold)		TYPE:Rod	COST:32600	WT:5	SOURCEPAGE:MoF30	SPROP:Continuous Resist Energy (Cold)	SPELLS:Rod of Divergence|TIMES=ATWILL|CASTERLEVEL=13|Faerie Fire																	
+Rod of Divergence (Electricity)		TYPE:Rod	COST:32600	WT:5	SOURCEPAGE:MoF30	SPROP:Continuous Resist Energy (Electricity)	SPELLS:Rod of Divergence|TIMES=ATWILL|CASTERLEVEL=13|Faerie Fire																	
+Rod of Divergence (Fire)		TYPE:Rod	COST:32600	WT:5	SOURCEPAGE:MoF30	SPROP:Continuous Resist Energy (Fire)	SPELLS:Rod of Divergence|TIMES=ATWILL|CASTERLEVEL=13|Faerie Fire																	
+Rod of Divergence (Sonic)		TYPE:Rod	COST:32600	WT:5	SOURCEPAGE:MoF30	SPROP:Continuous Resist Energy (Sonic)	SPELLS:Rod of Divergence|TIMES=ATWILL|CASTERLEVEL=13|Faerie Fire																	
+Rod of Fury +1		TYPE:Rod	COST:26800	WT:5	SOURCEPAGE:MoF30	SPROP:1/day Empower Spell	BONUS:COMBAT|AC|1|TYPE=Deflection																	
+Rod of Fury +2		TYPE:Rod	COST:38800	WT:5	SOURCEPAGE:MoF30	SPROP:1/day Empower Spell	BONUS:COMBAT|AC|2|TYPE=Deflection																	
+Rod of Fury +3		TYPE:Rod	COST:58800	WT:5	SOURCEPAGE:MoF30	SPROP:1/day Empower Spell	BONUS:COMBAT|AC|3|TYPE=Deflection																	
+Rod of Fury +4		TYPE:Rod	COST:77600	WT:5	SOURCEPAGE:MoF30	SPROP:1/day Empower Spell	BONUS:COMBAT|AC|4|TYPE=Deflection																	
+Rod of Fury +5		TYPE:Rod	COST:95600	WT:5	SOURCEPAGE:MoF30	SPROP:1/day Empower Spell	BONUS:COMBAT|AC|5|TYPE=Deflection																	
+Rod of Mirrors		TYPE:Rod	COST:40200	WT:5	SOURCEPAGE:MoF30																			
+Rod of Silence		TYPE:Rod	COST:24200	WT:5	SOURCEPAGE:MoF30		ABILITY:Special Ability|VIRTUAL|Resistance To Sonic (Sp)	BONUS:VAR|SonicResistanceBonusSp|4|TYPE=Resistance	SPELLS:Rod of Silence|TIMES=1|CASTERLEVEL=9|Silence|Shout															
+Rod of Spheres		TYPE:Rod	COST:3240	WT:5	SOURCEPAGE:MoF30																			
+Rod of Spider		TYPE:Rod	COST:40000	WT:5	SOURCEPAGE:MoF30																			
+Rod of Surprises		TYPE:Rod	COST:21600	WT:5	SOURCEPAGE:MoF30																			
+Rod of Turning		TYPE:Rod	COST:84800	WT:5	SOURCEPAGE:MoF30		SPELLS:Rod of Turning|TIMES=1|CASTERLEVEL=14|Banishment,26|Holy Word,20																	
+Rod of Viscid Globs		TYPE:Rod	COST:6000	WT:5	SOURCEPAGE:MoF30																			
+Rod of Whips		TYPE:Rod.Weapon.Melee.Exotic.Slashing.OneHanded.Whip	COST:21600	WT:5	SOURCEPAGE:MoF30	SPROP:3/day activation and lasts for 1 hour. Strike incorporeal as Spiritual weapon.			PROFICIENCY:WEAPON|Whip	WIELD:OneHanded	SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	EQMOD:LEATHER.EQ_COST_ADJ_W.PLUS1W.DANCE								REACH:15	BONUS:WEAPON|DAMAGE|min(STR,0)
+																								
+###Block: Staff																								
+Diviner's Staff	KEY:Staff (Diviner's)	TYPE:Staff	COST:137375	WT:5	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Identify (1 charge)/Locate object (1 charge)/Locate creature (1 charge)/Analyze dweomer (2 charges)/Vision (2 charges)	BONUS:SKILL|TYPE.Knowledge|1|TYPE=Competence																
+Staff of Entrapment	KEY:Staff (Entrapment)	TYPE:Staff	COST:36750	WT:5	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Dimensional anchor (1 charge, DC 16)/Otiluke's resilient sphere (1 charge, DC 16)	BONUS:SKILL|TYPE.Knowledge|1|TYPE=Competence																
+Staff of Ethereal Action	KEY:Staff (Ethereal Action)	TYPE:Staff.Weapon.Melee.Simple.Bludgeoning.TwoHanded.Double.Quarterstaff	COST:57300	WT:5	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Blink (1 charge)/Ethereal jaunt (1charge)		PROFICIENCY:WEAPON|Quarterstaff	WIELD:TwoHanded	SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS1W.GHOST_M			ALTTYPE:Weapon.Melee.Bludgeoning	ALTDAMAGE:1d6	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:WOOD.EQ_COST_ADJ_W.PLUS1W.GHOST_M		
+Staff of Eyes	KEY:Staff (Eyes)	TYPE:Staff	COST:34700	WT:5	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Arcane eye (1 charge)/Remove blindness (1 charge)/See invisibility (1 charge)																	
+Staff of Fiendish Darkness	KEY:Staff (Fiendish Darkness)	TYPE:Staff	COST:98200	WT:5	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Darkness (1 charge)/Summon monster IX (nightmare only) (2 charges)/Dispel magic (2 charges)/Animate dead (2 charges)	BONUS:VAR|NegativeLevels|1|PREALIGN:LG,NG,CG																
+Staff of Miracles	KEY:Staff (Miracles)	TYPE:Staff	COST:77000	WT:5	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Heal (1 charge)/Holy aura (2 charges)/Rosemantle (2 charges)																	
+Staff of Night	KEY:Staff (Night)	TYPE:Staff	COST:30000	WT:5	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Immune to confusing gaze attack of humber hulks. Darkvision (1 charge)/Low-light vision (1 charge)/Dispel magic (only works against light spells) (1 charge)/Darkness (1 charge)/Summon monster VI (summons one umber hulk only, usable only once every tenday) (2 charges)																	
+Staff of Open Doors	KEY:Staff (Open Doors)	TYPE:Staff	COST:42200	WT:5	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Knock (1 charge)/Open/close (1 charge)/Passwall (1 charge)/Shatter (1 charge)																	
+Staff of Peace	KEY:Staff (Peace)	TYPE:Staff	COST:175250	WT:5	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Heightened (6th-level) sanctuary (1 charge, DC 19)/Heightened (6th-level) hold person (1 charge, DC 19)/Heightened (6th-level) calm emotions (1 charge, DC 19) /Greater command (2 charges, DC 19)	BONUS:SKILL|Diplomacy|10|TYPE=Competence|PREDEITY:1,Eldath																
+Staff of Scrivening	KEY:Staff (Scrivening)	TYPE:Staff	COST:53600	WT:5	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Comprehend languages (1 charge)/Erase (1 charge)/Suppress glyph (2 charges)/Amanuensis (1 charge)/Read magic (1 charge)																	
+Staff of Skulls	KEY:Staff (Skulls)	TYPE:Staff	COST:39200	WT:5	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Animate dead (1 charge)/Circle of doom (2 charges, DC 17)/Cure light wounds (1 charge)/Inflict light wounds (1 charge, DC 11)																	
+Staff of Transportation	KEY:Staff (Transportation)	TYPE:Staff	COST:67500	WT:5	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Blink (1 charge)/Dimension door (1 charge)/Teleport (2 charges)																	
+Staff of Vision	KEY:Staff (Vision)	TYPE:Staff	COST:42800	WT:5	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:See invisibility (1 charge)/Darkvision (1 charge)/Remove blindness (1 charge)/True seeing (2 charges). Each use of a spell Will DC 12 or 1 INT damage.																	
+																								
+###Block: Wondrous Items																								
+Amber amulet of Vermin (Giant Bee)		TYPE:Wondrous.Amulet.Consumable	COST:500	WT:0	SOURCEPAGE:MoF30																			
+Amber amulet of Vermin (Giant Ant (Queen))	OUTPUTNAME:Amber amulet of Vermin (Giant Ant, Queen)	TYPE:Wondrous.Amulet.Consumable	COST:700	WT:0	SOURCEPAGE:MoF30																			
+Amber amulet of Vermin (Giant Praying Mantis)		TYPE:Wondrous.Amulet.Consumable	COST:700	WT:0	SOURCEPAGE:MoF30																			
+Amber amulet of Vermin (Huge Monstrous Centipede)		TYPE:Wondrous.Amulet.Consumable	COST:700	WT:0	SOURCEPAGE:MoF30																			
+Amber amulet of Vermin (Large monstrous Scorpion)		TYPE:Wondrous.Amulet.Consumable	COST:700	WT:0	SOURCEPAGE:MoF30																			
+Amber amulet of Vermin (Large Monstrous Spider)		TYPE:Wondrous.Amulet.Consumable	COST:700	WT:0	SOURCEPAGE:MoF30																			
+Amber amulet of Vermin (Giant Wasp)		TYPE:Wondrous.Amulet.Consumable	COST:800	WT:0	SOURCEPAGE:MoF30																			
+Amber amulet of Vermin (Giant Stag Beetle)		TYPE:Wondrous.Amulet.Consumable	COST:1200	WT:0	SOURCEPAGE:MoF30																			
+Amulet of Laeral's Tears		TYPE:Wondrous.Amulet.Consumable	COST:1200	WT:0	SOURCEPAGE:MoF30	SPROP:24 temporary hp a day.																		
+Aquamarine of Spell Extending		TYPE:Wondrous	COST:7200	WT:1	SOURCEPAGE:MoF30	SPROP:1/day Extend Spell without using higher spell slot.																		
+Armband of Maximized Healing		TYPE:Wondrous.Bracer	COST:7200	WT:1	SOURCEPAGE:MoF30	SPROP:1/day Maximize Spell without using higher spell slot.	SLOTS:2																	
+Arvoreen's Amulet of Aid		TYPE:Wondrous.Amulet	COST:4320	WT:0	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_6|CHARGES[6]	SPROP:Aid (1 charge)/Dimension door (3 charges)	BONUS:VAR|NegativeLevels|1|PREALIGN:LE,NE,CE																
+Azlaer's Harp		TYPE:Wondrous.Instrument	COST:16000	WT:3	SOURCEPAGE:MoF30	PRESKILL:1,TYPE.Perform=1																		
+Badge of Svirfneblin		TYPE:Wondrous	COST:17480	WT:0	SOURCEPAGE:MoF30	BONUS:VAR|DarkvisionRange|60|TYPE=Base	SPELLS:Badge of Svirfneblin|TIMES=1|CASTERLEVEL=3|Blur|Disguise Self	BONUS:SKILL|Hide|TYPE=Circumstance																
+Bag of Boulders		TYPE:Wondrous.Container	COST:1200	WT:0	SOURCEPAGE:MoF30	CONTAINS:UNLIM|Rock=4																		
+Battle Bridle		TYPE:Wondrous.Eyegear.Resizable	COST:9000	WT:1	SOURCEPAGE:MoF30	SPROP:+10 Circumstabnce bonus on rider's Ride checks and allowing him to fight as if he had the Mounted Combat feat. If the rider already has the Mounted Combat, he can act as if he had the Ride-By Attack.																		
+Beholder Crown		TYPE:Wondrous.Headgear.Consumable.Resizable	COST:22000	WT:1	SOURCEPAGE:MoF30																			
+Belt of Lions		TYPE:Wondrous.Belt	COST:20000	WT:1	SOURCEPAGE:MoF30	SPROP:Continuous Speak with Animals to communicate to feline. +4 competence bonus on all Charisma checks and Charisma- based skill checks related to dealing with felines	BONUS:VAR|HasLowLightVision|1|TYPE=Base	BONUS:SKILL|Move Silently,Tumble|10|TPE=Competence																
+Belt of Priestly Might		TYPE:Wondrous.Belt	COST:40000	WT:1	SOURCEPAGE:MoF30	BONUS:COMBAT|AC|2|TYPE=NaturalArmor	BONUS:STAT|STR|4|TPE=Enhancement																	
+Belt of Priestly Might and Warding		TYPE:Wondrous.Belt	COST:52800	WT:1	SOURCEPAGE:MoF30	BONUS:COMBAT|AC|2|TYPE=NaturalArmor	BONUS:STAT|STR|4|TPE=Enhancement	SPELLS:Belt of Priestly Might and Warding|TIMES=1|CASTERLEVEL=6|Magic Circle against Evil|PREDEITYALIGN:LG,LN,NG,TN,CG,CN	SPELLS:Belt of Priestly Might and Warding|TIMES=1|CASTERLEVEL=6|Magic Circle against Good|PREDEITYALIGN:LE,NE,CE															
+Belt of Holy Might		TYPE:Wondrous.Belt	COST:104000	WT:1	SOURCEPAGE:MoF30	BONUS:COMBAT|AC|2|TYPE=NaturalArmor	BONUS:STAT|STR|4|TPE=Enhancement	SPELLS:Belt of Priestly Might and Warding|TIMES=1|CASTERLEVEL=11|Magic Circle against Evil|PREDEITYALIGN:LG,LN,NG,TN,CG,CN	SPELLS:Belt of Priestly Might and Warding|TIMES=1|CASTERLEVEL=11|Magic Circle against Good|PREDEITYALIGN:LE,NE,CE	SPELLS:Belt of Priestly Might and Warding|TIMES=1|CASTERLEVEL=11|Word of Recall														
+Bird Feather Headress		TYPE:Wondrous.Headgear	COST:2900	WT:0	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_6|CHARGES[6]																		
+Blast Globes		TYPE:Wondrous.Consumable	COST:8000	WT:1	SOURCEPAGE:MoF30																			
+Bone Bracers of the Death Deity		TYPE:Wondrous.Bracer	COST:58300	WT:1	SOURCEPAGE:MoF30	BONUS:COMBAT|AC|3|TYPE=Armor	SPELLS:Bone Bracers of the Death Deity|TIMES=1|CASTERLEVEL=7|Death Ward|Desecrate|Unholy Blight	BONUS:VAR|NegativeLevels|1|PREALIGN:LG,NG,CG	SLOTS:2															
+Book of Blood		TYPE:Wondrous.Tools.Spellbook	COST:21300	WT:3	SOURCEPAGE:MoF30	SPROP:1/day summon Yeth Hound. Finger of death drain 1 hp permanently.	SPELLS:Book of Blood|TIMES=1|CASTERLEVEL=13|Finger of Death	NUMPAGES:45	PAGEUSAGE:1	EQMOD:BOOK_WATER_PRF.BOOK_FIRE_PRF.BOOK_LOCK														
+Bracers of the Blinding Strike		TYPE:Wondrous.Bracer	COST:102000	WT:1	SOURCEPAGE:MoF30	BONUS:COMBAT|AC|6|TYPE=Armor	ABILITY:FEAT|VIRTUAL|Improved Initiative	BONUS:COMBAT|ATTACKS|1	SLOTS:2															
+Bracers of Striking		TYPE:Wondrous.Bracer.Weapon.Melee.Bludgeoning.Double	COST:1310	WT:1	SOURCEPAGE:MoF30	ABILITY:FEAT|VIRTUAL|Improved Unarmed Strike	SLOTS:2																	
+Cape of the Fire Bath		TYPE:Wondrous.Cape	COST:6200	WT:1	SOURCEPAGE:MoF30	BONUS:SAVE|ALL|2|TYPE=Resistance	SPROP:Continuous Endure Energy (Fire).																	
+Cape of the Winter		TYPE:Wondrous.Cape	COST:6200	WT:1	SOURCEPAGE:MoF30	BONUS:SAVE|ALL|2|TYPE=Resistance	SPROP:Continuous Endure Energy (Cold).																	
+Cloak of Battle		TYPE:Wondrous.Cape	COST:22600	WT:1	SOURCEPAGE:MoF30	BONUS:COMBAT|AC|4|TYPE=Armor	SPROP:transofrm into a +1 quarterstaff. Can make a disarm attack.																	
+Cloak of Blackflame		TYPE:Wondrous.Cape	COST:11800	WT:1	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_14|CHARGES[14]	SPROP:Absorb 1 energy drain per charges.																	
+Cowl of Warding		TYPE:Wondrous.Headgear	COST:200800	WT:0	SOURCEPAGE:MoF30	SPROP:Continuous Mind Blank. Turns 6 levels of spells per day as the Spell Turning spell.	SPELLS:Cowl of Warding|TIMES=ATWILL|CASTERLEVEL=15|Freedom of Movement																	
+Crystal Sphere of Singing Waters		TYPE:Wondrous	COST:28300	WT:7	SOURCEPAGE:MoF30	SPROP:Glows as Faerie Fire spell.	SPELLS:Crystal Sphere of Singing Waters|TIMES=ATWILL|CASTERLEVEL=7|Purify Food and Drink	SPELLS:Crystal Sphere of Singing Waters|TIMES=1|CASTERLEVEL=7|Neutralize Poison|Scrying																
+Dove's Harp		TYPE:Wondrous.Instrument	COST:45100	WT:3	SOURCEPAGE:MoF30	EQMOD:MWORKI	SPROP:Cure insanity in 20-ft radius.	PRESKILL:1,Perform (String Instruments)=1																
+Dragonskull Talisman		TYPE:Wondrous.Amulet	COST:4000	WT:1	SOURCEPAGE:MoF30	SPROP:Invisibility to Undead for 30 minutes for the wearer and up to two other creatures.																		
+Dragon's Drought (Black)		TYPE:Wondrous.Potion.Consumable	COST:2300	WT:0	SOURCEPAGE:MoF30	SPROP:Any dragon who drink gain the breath weapon type.																		
+Dragon's Drought (Blue)		TYPE:Wondrous.Potion.Consumable	COST:4500	WT:0	SOURCEPAGE:MoF30	SPROP:Any dragon who drink gain the breath weapon type.																		
+Dragon's Drought (Green)		TYPE:Wondrous.Potion.Consumable	COST:3500	WT:0	SOURCEPAGE:MoF30	SPROP:Any dragon who drink gain the breath weapon type.																		
+Dragon's Drought (Red)		TYPE:Wondrous.Potion.Consumable	COST:5500	WT:0	SOURCEPAGE:MoF30	SPROP:Any dragon who drink gain the breath weapon type.																		
+Dragon's Drought (White)		TYPE:Wondrous.Potion.Consumable	COST:1200	WT:0	SOURCEPAGE:MoF30	SPROP:Any dragon who drink gain the breath weapon type.																		
+Dragon's Drought (Brass)		TYPE:Wondrous.Potion.Consumable	COST:1200	WT:0	SOURCEPAGE:MoF30	SPROP:Any dragon who drink gain the breath weapon type.																		
+Dragon's Drought (Bronze)		TYPE:Wondrous.Potion.Consumable	COST:3500	WT:0	SOURCEPAGE:MoF30	SPROP:Any dragon who drink gain the breath weapon type.																		
+Dragon's Drought (Copper)		TYPE:Wondrous.Potion.Consumable	COST:2400	WT:0	SOURCEPAGE:MoF30	SPROP:Any dragon who drink gain the breath weapon type.																		
+Dragon's Drought (Gold)		TYPE:Wondrous.Potion.Consumable	COST:5600	WT:0	SOURCEPAGE:MoF30	SPROP:Any dragon who drink gain the breath weapon type.																		
+Dragon's Drought (Silver)		TYPE:Wondrous.Potion.Consumable	COST:4600	WT:0	SOURCEPAGE:MoF30	SPROP:Any dragon who drink gain the breath weapon type.																		
+Dust of Dispersion		TYPE:Wondrous.Dust.Consumable	COST:2100	WT:0	SOURCEPAGE:MoF30																			
+Elixir of Horus-Re		TYPE:Wondrous.Potion.Consumable	COST:6500	WT:0	SOURCEPAGE:MoF30																			
+Enemy Spirit Pouch		TYPE:Wondrous	COST:2100	WT:1	SOURCEPAGE:MoF30																			
+Esheen's Harp		TYPE:Wondrous.Instrument	COST:6800	WT:3	SOURCEPAGE:MoF30	EQMOD:MWORKI	SPROP:Cause glass and metal resonate.	BONUS:SKILL|Listen|5|TYPE=Circumstance	SPELLS:Esheen's Harp|TIMES=3|CASTERLEVEL=3|Shatter	PRESKILL:1,Perform (String Instruments)=1														
+Eye of the Druuthbane		TYPE:Wondrous.Gem	COST:18000	WT:3	SOURCEPAGE:MoF30	BONUS:SAVE|ALL|4|TYPE=Resistance																		
+Eye of Winking		TYPE:Wondrous.Amulet	COST:120000	WT:0	SOURCEPAGE:MoF30	SPROP:Immune to Detect Thoughts and mind reading. Charm and compulsions are turned back to the caster. During the round of Daylight user is immune to all spells, spell-like effects, and supernatural effects for 1 round, as if the wearer were protected by a personal antimagic field for 1 round.	SPELLS:Eye of Winking|TIMES=1|TIMEUNIT=Week|CASTERLEVEL=15|Daylight																	
+Fanged Mask		TYPE:Wondrous.Eyegear	COST:8302	WT:1	SOURCEPAGE:MoF30																			
+Gauntlet of Fury		TYPE:Wondrous.Glove	COST:22000	WT:2	SOURCEPAGE:MoF30	SLOTS:1	BONUS:COMBAT|AC|2|TYPE=Armor	SPROP:1/3 days Magic Missile 1st level caster.																
+Gloves of Lightning		TYPE:Wondrous.Glove	COST:8000	WT:0	SOURCEPAGE:MoF30	SLOTS:2																		
+Gloves of Balanced Hands		TYPE:Wondrous.Glove	COST:18000	WT:0	SOURCEPAGE:MoF30	SLOTS:2	ABILITY:FEAT|VIRTUAL|Two-Weapon Fighting																	
+Golden Chalice of Lathander		TYPE:Wondrous	COST:29500	WT:2	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_3|CHARGES[3]	SPELLS:Golden Chalice of Lathander|TIMES=ATWILL|CASTERLEVEL=9|Daylight	SPELLS:Golden Chalice of Lathander|TIMES=ATWILL|CASTERLEVEL=9|Cure Light Wounds (Mass)	SPROP:Healing Circle consume 1 charge.															
+Gwaeron's Belt		TYPE:Wondrous.Belt	COST:60500	WT:1	SOURCEPAGE:MoF30	SPELLS:Gwaeron's Belt|TIMES=1|CASTERLEVEL=12|Wind Walk																		
+Gwaeron's Boots		TYPE:Wondrous.Boot	COST:6000	WT:1	SOURCEPAGE:MoF30	SPROP:Continuous Pass without Trace.	SLOTS:2																	
+Hair Shirt of Ilmater		TYPE:Wondrous.Shirt	COST:17400	WT:0	SOURCEPAGE:MoF30	BONUS:STAT|DEX|-2	BONUS:COMBAT|AC|3|TYPE=NaturalArmor	SPELLS:Hair Shirt of Ilmater|TIMES=1|CASTERLEVEL=9|Cure Serious Wounds																
+#Halruaan Skyship																								
+Hammer of the Weaponsmith		TYPE:Wondrous.Tools	COST:2055	WT:8	SOURCEPAGE:MoF30	BONUS:SKILL|Craft (Weaponsmithing)|10|TYPE=Circumstance																		
+Hand of the Oakfather		TYPE:Wondrous.Amulet	COST:41400	WT:1	SOURCEPAGE:MoF30	SPELLS:Hand of the Oakfather|TIMES=1|CASTERLEVEL=5|Barkskin|Entangle|Goodberry|Plant Growth|Speak with Plants|Tree Shape																		
+Handharp		TYPE:Wondrous.Instrument	COST:25000	WT:1	SOURCEPAGE:MoF30	SPELLS:Handharp|TIMES=1|TIMEUNIT=Round|CASTERLEVEL=9|Dancing Light	SPROP:1/round -2 penalty on attack rolls and damage to Undead in 10-ft radius.																	
+Harper Pin (Lesser)		TYPE:Wondrous	COST:8000	WT:0	SOURCEPAGE:MoF30	SPROP:Immunity to Detect Thougths, Discern Lies and any tentative to magically discern alignment.																		
+Harper Pin (Greater)		TYPE:Wondrous	COST:79000	WT:0	SOURCEPAGE:MoF30	SPROP:Immunity ro Magic Missile. Continuous Nondetection, Resist Energy (Electricity), Undetectable Alignment.	BONUS:VAR|MindAffectingResistanceBonusSp|5|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance To Mind-Affecting (Sp)	BONUS:SKILL|Move Silently|-10|PREALIGN:LE,NE,CE															
+Headband of the Binder		TYPE:Wondrous.Headgear	COST:2600	WT:0	SOURCEPAGE:MoF30	SPELLS:Headband of the Binder|TIMES=3|CASTERLEVEL=3|Read Magic	BONUS:VAR|BardicKnowledge|4|TYPE=Sacred|PRECLASS:1,Bard=1																	
+Heart of the Beast		TYPE:Wondrous.Consumable	COST:2000	WT:1	SOURCEPAGE:MoF30	SPROP:Divine Power 10th level caster upon the creature that eats it. If the creature also has a base attack bonus of +10 or higher, it gains a +1 bonus on attacks.																		
+Helm of Darkness		TYPE:Wondrous.Headgear	COST:157000	WT:3	SOURCEPAGE:MoF30	EQMOD:SELF_ID_I																		
+Helm of Gazes		TYPE:Wondrous.Headgear	COST:33000	WT:3	SOURCEPAGE:MoF30																			
+Ice Necklace of the Ulutiun		TYPE:Wondrous.Amulet	COST:50000	WT:1	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_6|CHARGES[6]																		
+Musical Instrument (Fochluchan Bandore)		TYPE:Wondrous.Tools.Instrument.String.Resizable	COST:1900	WT:3	SOURCEPAGE:MoF30	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	EQMOD:MWORKI	SPELLS:Musical Instrument (Fochluchan Bandore)|TIMES=1|CASTERLEVEL=3|Light	SPELLS:Musical Instrument (Fochluchan Bandore)|TIMES=1|CASTERLEVEL=3|Flare|Mending|Message|PRESKILL:1,Perform (String)=2	BONUS:VAR|BardicMusicLVL|1|TYPE=Competence|PRECLASS:1,Bard=1														
+Musical Instrument (Mac-Fuirmidb Cithern)		TYPE:Wondrous.Tools.Instrument.String.Resizable	COST:2900	WT:3	SOURCEPAGE:MoF30	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	EQMOD:MWORKI	SPELLS:Musical Instrument (Mac-Fuirmidb Cithern)|TIMES=1|CASTERLEVEL=3|Cure Light Wounds|Mage Armor|Sleep|PRESKILL:1,Perform (String)=4		BONUS:VAR|BardicMusicLVL|2|TYPE=Competence|PRECLASS:1,Bard=1														
+Musical Instrument (Doss Lute)		TYPE:Wondrous.Tools.Instrument.String.Resizable	COST:9800	WT:3	SOURCEPAGE:MoF30	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	EQMOD:MWORKI	BONUS:VAR|NegativeLevels|1|PRESKILL:1,Perform (String)=6	SPELLS:Musical Instrument (Doss Lute)|TIMES=1|CASTERLEVEL=5|Delay Poison|Hold Person|Mirror Image|PRESKILL:1,Perform (String)=6	BONUS:VAR|BardicMusicLVL|3|TYPE=Competence|PRECLASS:1,Bard=1														
+Musical Instrument (Canaith Mandolin)		TYPE:Wondrous.Tools.Instrument.String.Resizable	COST:23400	WT:3	SOURCEPAGE:MoF30	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	EQMOD:MWORKI	BONUS:VAR|NegativeLevels|1|PRESKILL:1,Perform (String)=8	SPELLS:Musical Instrument (Canaith Mandolin)|TIMES=1|CASTERLEVEL=5|Cure Serious Wounds|Dispel Magic|Summon Monster III|PRESKILL:1,Perform (String)=8	BONUS:VAR|BardicMusicLVL|4|TYPE=Competence|PRECLASS:1,Bard=1														
+Musical Instrument (Cli Lyre)		TYPE:Wondrous.Tools.Instrument.String.Resizable	COST:37600	WT:3	SOURCEPAGE:MoF30	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	EQMOD:MWORKI	BONUS:VAR|NegativeLevels|1|PRESKILL:1,Perform (String)=10	SPELLS:Musical Instrument (Cli Lyre)|TIMES=1|CASTERLEVEL=11|Break Enchantment|Dimension door|Shout|PRESKILL:1,Perform (String)=10	BONUS:VAR|BardicMusicLVL|5|TYPE=Competence|PRECLASS:1,Bard=1														
+Musical Instrument (Anstruth Harp)		TYPE:Wondrous.Tools.Instrument.String.Resizable	COST:60000	WT:3	SOURCEPAGE:MoF30	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	EQMOD:MWORKI	BONUS:VAR|NegativeLevels|1|PRESKILL:1,Perform (String)=12	SPELLS:Musical Instrument (Anstruth Harp)|TIMES=1|CASTERLEVEL=14|Control Weather|Cure Light Wounds (Mass)|Mind Fog|PRESKILL:1,Perform (String)=12	BONUS:VAR|BardicMusicLVL|6|TYPE=Competence|PRECLASS:1,Bard=1														
+Musical Instrument (Ollamh Harp)		TYPE:Wondrous.Tools.Instrument.String.Resizable	COST:83600	WT:3	SOURCEPAGE:MoF30	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	EQMOD:MWORKI	BONUS:VAR|NegativeLevels|1|PRESKILL:1,Perform (String)=14	SPELLS:Musical Instrument (Ollamh Harp)|TIMES=1|CASTERLEVEL=17|Control Weather|Eyebite|Repulsion|PRESKILL:1,Perform (String)=14	BONUS:VAR|BardicMusicLVL|7|TYPE=Competence|PRECLASS:1,Bard=1														
+Instrument of the Winds		TYPE:Wondrous.Tools.Instrument.String.Resizable	COST:11000	WT:3	SOURCEPAGE:MoF30	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	EQMOD:MWORKI	SPELLS:Instrument of the Winds|TIMES=ATWILL|CASTERLEVEL=11|Summon Monster VI																
+Musical Instrument (Janthra's Harp)		TYPE:Wondrous.Tools.Instrument.String.Resizable	COST:12000	WT:3	SOURCEPAGE:MoF30	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	EQMOD:MWORKI	PRESKILL:1,Perform (String Instruments)=1																
+Joyous Star Song		TYPE:Wondrous.Scroll	COST:5800	WT:0	SOURCEPAGE:MoF30																			
+Kiira		TYPE:Wondrous.Headgear.Spellbook	COST:7500	WT:0	SOURCEPAGE:MoF30	BONUS:SKILL|TYPE.Knowledge|2|TYPE=Competence	NUMPAGES:30	PAGEUSAGE:1																
+Knife of the Bowyer		TYPE:Wondrous.Tool	COST:2055	WT:1	SOURCEPAGE:MoF30	BONUS:SKILL|Craft (Bowmaking)|10|TYPE=Circumstance																		
+Lenses of Darkness		TYPE:Wondrous.Eyegear	COST:7700	WT:0	SOURCEPAGE:MoF30	SPROP:+4 circumstance bonus on saving throws against light and illusion (pattern) spells, as well as any effects that cause blindness because of light (such as a prismatic wall).																		
+Mask of Blood		TYPE:Wondrous.Headgear	COST:17000	WT:1	SOURCEPAGE:MoF30	BONUS:VAR|ExtraRageDuration|1																		
+Mierest's Startlit Sphere		TYPE:Wondrous	COST:53000	WT:1	SOURCEPAGE:MoF30																			
+Mirror Mask		TYPE:Wondrous.Headgear	COST:8759	WT:1	SOURCEPAGE:MoF30	SPROP:+5 resistance bonus on all saves against gaze attacks and spells that work through sight.																		
+Musical Instrument (Methild's Harp)		TYPE:Wondrous.Tools.Instrument.String.Resizable	COST:4100	WT:3	SOURCEPAGE:MoF30	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	EQMOD:MWORKI	PRESKILL:1,Perform (String Instruments)=1																
+Mithral Bells		TYPE:Wondrous	COST:3700	WT:1	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_11|CHARGES[11]	BONUS:SKILL|TYPE.Perform|2|TYPE=Circumstance																	
+Monk's Tattoo		TYPE:Wondrous	COST:80000	WT:0	SOURCEPAGE:MoF30	BONUS:VAR|MonkACLVLBonus|4	BONUS:UDAM|CLASS.Monk|4	BONUS:VAR|MonkUnarmedDamageLVL|4	BONUS:VAR|MonkFastMovementLVL|4															
+Moon Bracers +1		TYPE:Wondrous.Bracer	COST:12100	WT:1	SOURCEPAGE:MoF30	SLOTS:2	BONUS:COMBAT|AC|1|TYPE=Armor	SPELLS:Moon Bracers|TIMES=1|CASTERLEVEL=7|Dimension Door																
+Moon Bracers +2		TYPE:Wondrous.Bracer	COST:14100	WT:1	SOURCEPAGE:MoF30	SLOTS:2	BONUS:COMBAT|AC|2|TYPE=Armor	SPELLS:Moon Bracers|TIMES=1|CASTERLEVEL=7|Dimension Door																
+Moon Bracers +3		TYPE:Wondrous.Bracer	COST:19100	WT:1	SOURCEPAGE:MoF30	SLOTS:2	BONUS:COMBAT|AC|3|TYPE=Armor	SPELLS:Moon Bracers|TIMES=1|CASTERLEVEL=7|Dimension Door																
+Moon Bracers +4		TYPE:Wondrous.Bracer	COST:36200	WT:1	SOURCEPAGE:MoF30	SLOTS:2	BONUS:COMBAT|AC|4|TYPE=Armor	SPELLS:Moon Bracers|TIMES=1|CASTERLEVEL=7|Dimension Door																
+Moon Bracers +5		TYPE:Wondrous.Bracer	COST:45200	WT:1	SOURCEPAGE:MoF30	SLOTS:2	BONUS:COMBAT|AC|5|TYPE=Armor	SPELLS:Moon Bracers|TIMES=1|CASTERLEVEL=7|Dimension Door																
+Moon Bracers +6		TYPE:Wondrous.Bracer	COST:56200	WT:1	SOURCEPAGE:MoF30	SLOTS:2	BONUS:COMBAT|AC|6|TYPE=Armor	SPELLS:Moon Bracers|TIMES=1|CASTERLEVEL=7|Dimension Door																
+Moon Bracers +7		TYPE:Wondrous.Bracer	COST:69160	WT:1	SOURCEPAGE:MoF30	SLOTS:2	BONUS:COMBAT|AC|7|TYPE=Armor	SPELLS:Moon Bracers|TIMES=1|CASTERLEVEL=7|Dimension Door																
+Moon Bracers +8		TYPE:Wondrous.Bracer	COST:84160	WT:1	SOURCEPAGE:MoF30	SLOTS:2	BONUS:COMBAT|AC|8|TYPE=Armor	SPELLS:Moon Bracers|TIMES=1|CASTERLEVEL=7|Dimension Door																
+Moon Note		TYPE:Wondrous	COST:180	WT:0	SOURCEPAGE:MoF30	SPELLS:Moon Note|TIMES=1|CASTERLEVEL=3|Dancing Light																		
+Moon Cloak +1		TYPE:Wondrous.Cape	COST:9000	WT:1	SOURCEPAGE:MoF30	BONUS:SAVE|ALL|1|TYPE=Resistance	SPELLS:Moon Cloak|TIMES=1|CASTERLEVEL=7|Levitate|Water Walk																	
+Moon Cloak +2		TYPE:Wondrous.Cape	COST:13800	WT:1	SOURCEPAGE:MoF30	BONUS:SAVE|ALL|2|TYPE=Resistance	SPELLS:Moon Cloak|TIMES=1|CASTERLEVEL=7|Levitate|Water Walk																	
+Moon Cloak +3		TYPE:Wondrous.Cape	COST:18800	WT:1	SOURCEPAGE:MoF30	BONUS:SAVE|ALL|3|TYPE=Resistance	SPELLS:Moon Cloak|TIMES=1|CASTERLEVEL=7|Levitate|Water Walk																	
+Moon Cloak +4		TYPE:Wondrous.Cape	COST:25800	WT:1	SOURCEPAGE:MoF30	BONUS:SAVE|ALL|4|TYPE=Resistance	SPELLS:Moon Cloak|TIMES=1|CASTERLEVEL=7|Levitate|Water Walk																	
+Moon Cloak +5		TYPE:Wondrous.Cape	COST:34800	WT:1	SOURCEPAGE:MoF30	BONUS:SAVE|ALL|5|TYPE=Resistance	SPELLS:Moon Cloak|TIMES=1|CASTERLEVEL=7|Levitate|Water Walk																	
+Moondraught		TYPE:Wondrous.Vial.Consumable	COST:1500	WT:0	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_4|CHARGES[4]																		
+Moonfire Salve		TYPE:Wondrous.Vial.Consumable	COST:2500	WT:0.5	SOURCEPAGE:MoF30																			
+Moonstone Mask		TYPE:Wondrous.Eyegear	COST:12000	WT:1	SOURCEPAGE:MoF30	BONUS:VAR|HasDarkVision|1|TYPE=Base	BONUS:SKILL|Listen,Spot|5|TYPE=Circumstance																	
+Necklace of Acid Pearls		TYPE:Wondrous.Amulet	COST:10700	WT:1	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_9|CHARGES[9]																		
+Necklace of Copper Dragon Scales		TYPE:Wondrous.Amulet	COST:10700	WT:1	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_6|CHARGES[6]																		
+Necklace of Lightning		TYPE:Wondrous.Amulet	COST:4350	WT:1	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_7|CHARGES[7]																		
+Necklace of Nature's Teeth		TYPE:Wondrous.Amulet	COST:2900	WT:0	SOURCEPAGE:MoF30																			
+Musical Instrument (Nithanalor's Harp)		TYPE:Wondrous.Tools.Instrument.String.Resizable	COST:22300	WT:3	SOURCEPAGE:MoF30	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	EQMOD:MWORKI	SPELLS:Musical Instrument (Nithanalor's Harp)|TIMES=1|CASTERLEVEL=7|Stoneskin|PRESKILL:1,Perform (String)=1																
+Orb of Holiness		TYPE:Wondrous	COST:89450	WT:1	SOURCEPAGE:MoF30																			
+Orbakh's Glass Skull		TYPE:Wondrous	COST:157000	WT:3	SOURCEPAGE:MoF30	SPELLS:Orbakh's Glass Skull|TIMES=3|CASTERLEVEL=7|Disrupt Undead	SPELLS:Orbakh's Glass Skull|TIMES=1|CASTERLEVEL=7|Enervation|Shroud of Undeath																	
+Phoenix Helm		TYPE:Wondrous.Headgear	COST:53000	WT:3	SOURCEPAGE:MoF30	SPELLS:Phoenix Helm|TIMES=1|CASTERLEVEL=9|Feather Fall|Flame Arrow|Fly|Resist Energy|Speak with Animals ~ Birds only																		
+Phylactery of the Priesthood (Lesser)		TYPE:Wondrous.Headgear.Bracer	COST:27200	WT:0	SOURCEPAGE:MoF30	SPROP:3/day Maximize Spell	SLOTS:2																	
+Phylactery of the Priesthood (Greater)		TYPE:Wondrous.Headgear.Bracer	COST:108000	WT:0	SOURCEPAGE:MoF30	SPROP:3/day Maximize Spell	SLOTS:2																	
+Musical Instrument (Rhingalade's Harp)		TYPE:Wondrous.Tools.Instrument.String.Resizable	COST:5400	WT:3	SOURCEPAGE:MoF30	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	EQMOD:MWORKI	SPELLS:Musical Instrument (Rhingalade's Harp)|TIMES=1|CASTERLEVEL=6|Blink|Mirror Image|PRESKILL:1,Perform (String)=1																
+Salve of Minor Spell Resistance		TYPE:Wondrous.Vial.Consumable	COST:1250	WT:0.5	SOURCEPAGE:MoF30	SR:17																		
+Scarab of Scintillating Auras		TYPE:Wondrous.Amulet	COST:45000	WT:0	SOURCEPAGE:MoF30	SPROP:The multitude of auras blocks attempts to detect magic or alignment within the area (90-ft).	SPELLS:Scarab of Scintillating Auras|TIMES=1|CASTERLEVEL=15|Invisibility																	
+Sending Stones		TYPE:Wondrous	COST:15000	WT:1	SOURCEPAGE:MoF30																			
+Shaundakul's Boost		TYPE:Wondrous.Boot	COST:6300	WT:1	SOURCEPAGE:MoF30	SLOTS:2	BONUS:MOVEADD|TYPE.Walk|10	SPELLS:Shaundakul's Boost|TIMES=1|CASTERLEVEL=11|Find the Path																
+Silent Portal Disk		TYPE:Wondrous	COST:36000	WT:0	SOURCEPAGE:MoF30	SPELLS:Silent Portal Disk|TIMES=1|CASTERLEVEL=1|Silent Portal																		
+Skull Plaque		TYPE:Wondrous.Amulet	COST:9200	WT:2	SOURCEPAGE:MoF30	SPELLS:Skull Plaque|TIMES=1|CASTERLEVEL=5|Death Knell|Detect Undead																		
+Smokepowder (Per Lb.)		TYPE:Wondrous.Consumable.Gunpowder	COST:25	WT:1	SOURCEPAGE:MoF30																			
+Spice Jar		TYPE:Wondrous	COST:5600	WT:1	SOURCEPAGE:MoF30																			
+Sunite Sash		TYPE:Wondrous	COST:19600	WT:1	SOURCEPAGE:MoF30	BONUS:STAT|CHA|2|TYPE=Enhancement	BONUS:COMBAT|AC|2|TYPE=Deflection	SPELLS:Sunite Sash|TIMES=1|CASTERLEVEL=6|Handfire																
+Tongs of the Armorer		TYPE:Wondrous.Tool	COST:2055	WT:5	SOURCEPAGE:MoF30	BONUS:SKILL|Craft (Armorsmithing)|10|TYPE=Circumstance																		
+Torque of the Deity +1		TYPE:Wondrous.Amulet	COST:4500	WT:2	SOURCEPAGE:MoF30	SPROP:Immunity to Lycanthropy, +1 sacred bonus on attacks and damage against lycanthropes.	BONUS:SAVE|ALL|1|TYPE=Resistance	BONUS:COMBAT|AC|1|TYPE=Deflection																
+Torque of the Deity +2		TYPE:Wondrous.Amulet	COST:16500	WT:2	SOURCEPAGE:MoF30	SPROP:Immunity to Lycanthropy, +2 sacred bonus on attacks and damage against lycanthropes.	BONUS:SAVE|ALL|2|TYPE=Resistance	BONUS:COMBAT|AC|2|TYPE=Deflection																
+Torque of the Titans		TYPE:Wondrous.Amulet	COST:72000	WT:3	SOURCEPAGE:MoF30	SPROP:5/day +10 Enhancement bonus on Strenght.																		
+Travel cloak		TYPE:Wondrous.Cape	COST:1200	WT:1	SOURCEPAGE:MoF30	SPROP:Continuous Endure Elements (Cold).																		
+Troll Gut Rope (50 Ft.)		TYPE:Wondrous.Rope	COST:30000	WT:7	SOURCEPAGE:MoF30	SPROP:1/day 350 ft.																		
+Unicorn Pendant		TYPE:Wondrous.Amulet	COST:28000	WT:1	SOURCEPAGE:MoF30	SPELLS:Unicorn Pendant|TIMES=1|CASTERLEVEL=7|Cure Moderate Wounds|Neutralize Poison	BONUS:VAR|LayOnHandsCHABonus|4|PRECLASS:1,Paladin=1																	
+Musical Instrument (Valarde's Harp)		TYPE:Wondrous.Tools.Instrument.String.Resizable	COST:8500	WT:3	SOURCEPAGE:MoF30	BONUS:SKILL|Perform (String Instruments)|2|TYPE=Circumstance|PRETYPE:1,Masterwork	EQMOD:MWORKI	SPELLS:Musical Instrument (Valarde's Harp)|TIMES=3|CASTERLEVEL=5|Gust of Wind|Wind Wall	PRESKILL:1,Perform (String Instruments)=1															
+Vestments of Power (Lesser)		TYPE:Wondrous.Cape	COST:88000	WT:0	SOURCEPAGE:MoF30	BONUS:COMBAT|AC|3|TYPE=Deflection	BONUS:SAVE|ALL|4|TYPE=Resistance	SPROP:Continuous Protection from Arrows and Feather Fall.	BONUS:VAR|FireResistanceBonusSp|15|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance to Fire														
+Vestments of Power (Greater)		TYPE:Wondrous.Cape	COST:200000	WT:0	SOURCEPAGE:MoF30	BONUS:COMBAT|AC|3|TYPE=Deflection	BONUS:SAVE|ALL|4|TYPE=Resistance	SPROP:Continuous Protection from Arrows and Feather Fall.	BONUS:VAR|FireResistanceBonusSp|15|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance to Fire	SPELLS:Vestments of Power|TIMES=ATWILL|CASTERLEVEL=9|Dimension Door|True Seeing													
+War Wizard Cloak		TYPE:Wondrous.Cape	COST:30375	WT:1	SOURCEPAGE:MoF30	SPROP:Continuous Endure Elements (cold), Feather Fall.	BONUS:VAR|HasDarkvision|1|TYPE=Base	SPELLS:War Wizard Cloak|TIMES=1|CASTERLEVEL=9|Dimension door|Ironguard (Lesser)|Protection from Arrows|Sending																
+White Cloak of the Spider		TYPE:Wondrous.Cape	COST:8200	WT:1	SOURCEPAGE:MoF30	SPELLS:White Cloak of the Spider|TIMES=ATWILL|CASTERLEVEL=3|Spider Climb	SPELLS:White Cloak of the Spider|TIMES=1|CASTERLEVEL=3|Hold Person	BONUS:VAR|PoisonResistanceBonus|2|TYPE=Luck	ABILITY:Special Ability|VIRTUAL|Resistance To Poison															
+Wild Shape Amulet		TYPE:Wondrous.Amulet	COST:40000	WT:0	SOURCEPAGE:MoF30	BONUS:VAR|DruidWildShapeLVL|4																		
+Word of Chaos's Power		TYPE:Wondrous	COST:12000	WT:1	SOURCEPAGE:MoF30																			
+White Skull Mask		TYPE:Wondrous.Eyegear	COST:50000	WT:1	SOURCEPAGE:MoF30	BONUS:VAR|DiseaseResistanceBonus,FearResistanceBonus,ParalysisResistanceBonus|4|TYPE=Resistance	ABILITY:Special Ability|VIRTUAL|Resistance to Disease|Resistance to Fear|Resistance to Paralysis|Immunity to Energy Drain																	
+Wilding Clasp		TYPE:Wondrous.Amulet.Container	COST:4000	WT:0	SOURCEPAGE:MoF30	CONTAINS:UNLIM|Amulet=1																		
+Winged Mask		TYPE:Wondrous.Eyegear	COST:13000	WT:1	SOURCEPAGE:MoF30	SPELLS:Winged Mask|TIMES=ATWILL|CASTERLEVEL=5|Fly																		
+Wings of Pain		TYPE:Wondrous.Cape	COST:17500	WT:2	SOURCEPAGE:MoF30																			
+Xvim's Green-Eyed Gauntlet		TYPE:Wondrous.Glove	COST:11800	WT:1	SOURCEPAGE:MoF30	BONUS:VAR|DarkvisionRange|60|TYPE=Base	SPELLS:Xvim's Green-Eyed Gauntlet|TIMES=1|CASTERLEVEL=7|Light	SLOTS:2																
+Yornar's Crescent		TYPE:Wondrous	COST:27700	WT:1	SOURCEPAGE:MoF30	SPELLS:Yornar's Crescent|TIMES=ATWILL|CASTERLEVEL=9|Detect Poison	SPELLS:Yornar's Crescent|TIMES=1|CASTERLEVEL=9|Magic Fang (Greater)|Tree Stride																	
+																								
+## Cursed																								
+																								
+## Artifacts																								
+#Minor Artifacts																								
+Blast Scepter		TYPE:Artifact.Minor	COST:0	WT:6	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_50|CHARGES[50].SELF_ID	ABILITY:Special Ability|VIRTUAL|Immunity to Fire|Immunity to Electricity																	
+Glowstone		TYPE:Artifact.Minor.Gem	COST:0	WT:0.5	SOURCEPAGE:MoF30	EQMOD:CHARGED_ITEM_1000|CHARGES[1000]																		
+Greenstone Amulet		TYPE:Artifact.Minor.Amulet	COST:0	WT:0	SOURCEPAGE:MoF30	SPROP:Continuous Mind Blank.	BONUS:VAR|NecromancyResistanceBonus|4|TYPE=Resistance	ABILITY:Special Ability|VIRTUAL|Resistance To Necromancy																
+Rod of Valmaxian		TYPE:Artifact.Minor.Rod	COST:0	WT:5	SOURCEPAGE:MoF30	BONUS:SPELLCAST|TYPE=Arcane;LEVEL=1|1	BONUS:SPELLCAST|TYPE=Arcane;LEVEL=2|1	BONUS:SPELLCAST|TYPE=Arcane;LEVEL=3|1	BONUS:SPELLCAST|TYPE=Arcane;LEVEL=4|1	BONUS:SPELLCAST|TYPE=Arcane;LEVEL=5|1	BONUS:SPELLCAST|TYPE=Arcane;LEVEL=6|1	BONUS:SPELLCAST|TYPE=Arcane;LEVEL=7|1	BONUS:SPELLCAST|TYPE=Arcane;LEVEL=8|1	BONUS:SPELLCAST|TYPE=Arcane;LEVEL=9|1	BONUS:SPELLCAST|TYPE=Divine;LEVEL=1|1	BONUS:SPELLCAST|TYPE=Divine;LEVEL=2|1	BONUS:SPELLCAST|TYPE=Divine;LEVEL=3|1	BONUS:SPELLCAST|TYPE=Divine;LEVEL=4|1	BONUS:SPELLCAST|TYPE=Divine;LEVEL=5|1	BONUS:SPELLCAST|TYPE=Divine;LEVEL=6|1	BONUS:SPELLCAST|TYPE=Divine;LEVEL=7|1	BONUS:SPELLCAST|TYPE=Divine;LEVEL=8|1	BONUS:SPELLCAST|TYPE=Divine;LEVEL=9|1	
+Shimmaryn		TYPE:Artifact.Minor	COST:0	WT:0	SOURCEPAGE:MoF30																			
+																								
+#Major Artifacts																								
+Crown of Horns		TYPE:Artifact.Major	COST:0	WT:2	SOURCEPAGE:MoF30																			
+Naga Crown		TYPE:Artifact.Major	COST:0	WT:0	SOURCEPAGE:MoF30																			
+
+
+

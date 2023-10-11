@@ -59,25 +59,26 @@ PCC:ThirdParty/MongoosePublishing/SeasOfBlood/_seasofblood.pcc
 
 ###Old manuals
 PCC:srd30/_srd30.pcc
-PCC:old30/complete_manuals/ArmsAndEquipmentGuide/_armsandequipmentguide.pcc
-PCC:old30/complete_manuals/EpicLevelHandbook/_epiclevelhandbook.pcc
-PCC:old30/complete_manuals/ManualOfThePlanes/_manualoftheplanes.pcc
-PCC:old30/complete_manuals/SavageSpecies/_savagespecies.pcc
-PCC:old30/partial_manuals/DefendersOfTheFaith/_defendersofthefaith.pcc
-PCC:old30/partial_manuals/MonsterManual/_monstermanual.pcc
-PCC:old30/partial_manuals/PlayerSHandbook/_playershandbook.pcc
-PCC:old30/partial_manuals/PsionicHandbook/_psionichandbook.pcc
-PCC:old30/partial_manuals/SwordAndFist/_swordandfist.pcc
-PCC:old30/partial_manuals/TomeAndBlood/_tomeandblood.pcc
-PCC:old30/partial_manuals/OrientalAdventure/_orientaladventure.pcc
+PCC:old30/complete_manuals/WizardsOfTheCoast/ArmsAndEquipmentGuide/_armsandequipmentguide.pcc
+PCC:old30/complete_manuals/WizardsOfTheCoast/EpicLevelHandbook/_epiclevelhandbook.pcc
+PCC:old30/complete_manuals/WizardsOfTheCoast/ManualOfThePlanes/_manualoftheplanes.pcc
+PCC:old30/complete_manuals/WizardsOfTheCoast/SavageSpecies/_savagespecies.pcc
+PCC:old30/partial_manuals/WizardsOfTheCoast/DefendersOfTheFaith/_defendersofthefaith.pcc
+PCC:old30/partial_manuals/WizardsOfTheCoast/MonsterManual/_monstermanual.pcc
+PCC:old30/partial_manuals/WizardsOfTheCoast/PlayerSHandbook/_playershandbook.pcc
+PCC:old30/partial_manuals/WizardsOfTheCoast/PsionicHandbook/_psionichandbook.pcc
+PCC:old30/partial_manuals/WizardsOfTheCoast/SwordAndFist/_swordandfist.pcc
+PCC:old30/partial_manuals/WizardsOfTheCoast/TomeAndBlood/_tomeandblood.pcc
+PCC:old30/partial_manuals/WizardsOfTheCoast/OrientalAdventure/_orientaladventure.pcc
+PCC:old30/partial_manuals/AvalanchePress/NobleSteed/_noblesteed.pcc
 
 ###Forgotten Realms
 PCC:campaign/ForgottenRealms/PlayerSGuideToFaerun/_playersguidetofaerun.pcc
 PCC:campaign/ForgottenRealms/Underdark/_underdark.pcc
-PCC:old30/complete_manuals/ForgottenRealmsCampaingSetting/_forgottenrealmscampaingsetting.pcc
-PCC:old30/complete_manuals/MonsterCompendiumMonstersOfFaerun/_monstercompendiummonstersoffaerun.pcc
-PCC:old30/complete_manuals/MagicOfFaerun/_magicoffaerun.pcc
-PCC:old30/complete_manuals/LordsOfDarkness/_lordsofdarkness.pcc
+PCC:old30/complete_manuals/WizardsOfTheCoast/ForgottenRealmsCampaingSetting/_forgottenrealmscampaingsetting.pcc
+PCC:old30/complete_manuals/WizardsOfTheCoast/MonsterCompendiumMonstersOfFaerun/_monstercompendiummonstersoffaerun.pcc
+PCC:old30/complete_manuals/WizardsOfTheCoast/MagicOfFaerun/_magicoffaerun.pcc
+PCC:old30/complete_manuals/WizardsOfTheCoast/LordsOfDarkness/_lordsofdarkness.pcc
 
 PCC:errata/MagicOfFaerun/_magicoffaerun_errata.pcc
 

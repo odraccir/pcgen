@@ -1,0 +1,74 @@
+SOURCELONG:Noble Steed 3.0	SOURCESHORT:NS30	SOURCEWEB:http://www.avalanchepress.com
+
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE			
+# Class Name req	Requirements	FINE													
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS			
+# Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	SPELLLIST	spell level increases (BONUS:CASTERLEVEL)									
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)					
+CLASS:Courser	HD:1	TYPE:Steed	FACT:Abb|Cou	MAXLEVEL:3	SOURCEPAGE:NS	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Steed		DEFINE:CourserLVL|0	BONUS:VAR|CourserLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Courser	PREVARGTEQ:TrainingLVL,2	PRESTAT:1,DEX=14	PRESTAT:1,CON=15								
+CLASS:Courser	STARTSKILLPTS:0														
+1				ABILITY:Courser Class Feature|AUTOMATIC|Courser ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.CoursesProficiencies											
+#															
+1	DONOTADD:HITDIE|SKILLPOINTS	BONUS:VAR|SteedLVL|DestrierLVL		ABILITY:Steed Class Feature|AUTOMATIC|Steed ~ Bonus Hit Points|!PREABILITY:1,CATEGORY=ACF,TYPE.SteedBonusHitPoints											
+1				ABILITY:Steed Class Feature|AUTOMATIC|Steed ~ Ability Increases|!PREABILITY:1,CATEGORY=ACF,TYPE.SteedAbilityIncreases											
+2	DONOTADD:HITDIE|SKILLPOINTS
+3	DONOTADD:HITDIE|SKILLPOINTS
+4	DONOTADD:HITDIE|SKILLPOINTS
+5	DONOTADD:HITDIE|SKILLPOINTS
+6	DONOTADD:HITDIE|SKILLPOINTS
+7	DONOTADD:HITDIE|SKILLPOINTS
+8	DONOTADD:HITDIE|SKILLPOINTS
+9	DONOTADD:HITDIE|SKILLPOINTS
+10	DONOTADD:HITDIE|SKILLPOINTS
+#															
+1				ABILITY:Courser Class Feature|AUTOMATIC|Courser ~ Increased Movement|!PREABILITY:1,CATEGORY=ACF,TYPE.CourserIncreasedMovement											
+3				ABILITY:Courser Class Feature|AUTOMATIC|Courser ~ Bonus Feats|!PREABILITY:1,CATEGORY=ACF,TYPE.CourserBonusFeats											
+
+CLASS:Destrier	HD:1	TYPE:Steed	FACT:Abb|Des	MAXLEVEL:3	SOURCEPAGE:NS	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Steed		DEFINE:DestrierLVL|0	BONUS:VAR|DestrierLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Destrier	PREVARGTEQ:TrainingLVL,2	PRESTAT:1,STR=16	PRESTAT:1,CON=15								
+CLASS:Destrier	STARTSKILLPTS:0														
+1				ABILITY:Destrier Class Feature|AUTOMATIC|Destrier ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DestrierProficiencies											
+#															
+1	DONOTADD:SKILLPOINTS	BONUS:VAR|SteedLVL|DestrierLVL		ABILITY:Steed Class Feature|AUTOMATIC|Steed ~ Bonus Hit Points|!PREABILITY:1,CATEGORY=ACF,TYPE.SteedBonusHitPoints											
+1				ABILITY:Steed Class Feature|AUTOMATIC|Steed ~ Ability Increases|!PREABILITY:1,CATEGORY=ACF,TYPE.SteedAbilityIncreases											
+2	DONOTADD:HITDIE|SKILLPOINTS
+3	DONOTADD:HITDIE|SKILLPOINTS
+4	DONOTADD:HITDIE|SKILLPOINTS
+5	DONOTADD:HITDIE|SKILLPOINTS
+6	DONOTADD:HITDIE|SKILLPOINTS
+7	DONOTADD:HITDIE|SKILLPOINTS
+8	DONOTADD:HITDIE|SKILLPOINTS
+9	DONOTADD:HITDIE|SKILLPOINTS
+10	DONOTADD:HITDIE|SKILLPOINTS
+#
+1				ABILITY:Destrier Class Feature|AUTOMATIC|Destrier ~ Bonus Feats|!PREABILITY:1,CATEGORY=ACF,TYPE.DestrierBonusFeats											
+1				ABILITY:Destrier Class Feature|AUTOMATIC|Destrier ~ Bonus Hit Die|!PREABILITY:1,CATEGORY=ACF,TYPE.DestrierBonusHitDie											
+1				ABILITY:Destrier Class Feature|AUTOMATIC|Destrier ~ Bonus Initiative|!PREABILITY:1,CATEGORY=ACF,TYPE.DestrierBonusInitiative											
+2				ABILITY:Destrier Class Feature|AUTOMATIC|Destrier ~ Threaten|!PREABILITY:1,CATEGORY=ACF,TYPE.DestrierThreaten											
+4				ABILITY:Destrier Class Feature|AUTOMATIC|Destrier ~ Toughness|!PREABILITY:1,CATEGORY=ACF,TYPE.DestrierToughness											
+10				ABILITY:Destrier Class Feature|AUTOMATIC|Destrier ~ Toughness II|!PREABILITY:1,CATEGORY=ACF,TYPE.DestrierToughnessII											
+
+
+CLASS:Palfrey	HD:1	TYPE:Steed	FACT:Abb|Pal	MAXLEVEL:3	SOURCEPAGE:NS	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Steed		DEFINE:PalfreyLVL|0	BONUS:VAR|PalfreyLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Palfrey	PREVARGTEQ:TrainingLVL,2	PRESTAT:1,DEX=16	PRESTAT:1,INT=3								
+CLASS:Palfrey	STARTSKILLPTS:0														
+1				ABILITY:Palfrey Class Feature|AUTOMATIC|Palfrey ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.PalfreyProficiencies											
+#															
+1	DONOTADD:HITDIE|SKILLPOINTS	BONUS:VAR|SteedLVL|PalfreyLVL		ABILITY:Steed Class Feature|AUTOMATIC|Steed ~ Bonus Hit Points|!PREABILITY:1,CATEGORY=ACF,TYPE.SteedBonusHitPoints											
+1				ABILITY:Steed Class Feature|AUTOMATIC|Steed ~ Ability Increases|!PREABILITY:1,CATEGORY=ACF,TYPE.SteedAbilityIncreases											
+2	DONOTADD:HITDIE|SKILLPOINTS
+3	DONOTADD:HITDIE|SKILLPOINTS
+4	DONOTADD:HITDIE|SKILLPOINTS
+5	DONOTADD:HITDIE|SKILLPOINTS
+6	DONOTADD:HITDIE|SKILLPOINTS
+7	DONOTADD:HITDIE|SKILLPOINTS
+8	DONOTADD:HITDIE|SKILLPOINTS
+9	DONOTADD:HITDIE|SKILLPOINTS
+10	DONOTADD:HITDIE|SKILLPOINTS
+#
+1				ABILITY:Palfrey Class Feature|AUTOMATIC|Palfrey ~ Bonus Feats|!PREABILITY:1,CATEGORY=ACF,TYPE.PalfreyBonusFeats											
+3				ABILITY:Palfrey Class Feature|AUTOMATIC|Palfrey ~ Trick Riding|!PREABILITY:1,CATEGORY=ACF,TYPE.PalfreyTrickRiding											
+3				ABILITY:Palfrey Class Feature|AUTOMATIC|Palfrey ~ Lunge|!PREABILITY:1,CATEGORY=ACF,TYPE.PalfreyLunge											
+5				ABILITY:Palfrey Class Feature|AUTOMATIC|Palfrey ~ Swift Hooves|!PREABILITY:1,CATEGORY=ACF,TYPE.PalfreySwiftHooves											
+8				ABILITY:Palfrey Class Feature|AUTOMATIC|Palfrey ~ Preternatural Awareness|!PREABILITY:1,CATEGORY=ACF,TYPE.PalfreyPreternaturalAwareness											

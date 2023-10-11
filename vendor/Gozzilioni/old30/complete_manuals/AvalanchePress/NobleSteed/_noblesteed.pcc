@@ -1,0 +1,87 @@
+CAMPAIGN:Noble Steed 3.0
+GAMEMODE:G35e
+RANK:6
+TYPE:Gozzilioni.ThirdParty.Avalanche Press
+SETTING:Heroes
+BOOKTYPE:Third Party
+SOURCELONG:Noble Steed 3.0
+SOURCESHORT:NS30
+SOURCEWEB:http://www.avalanchepress.com
+ISOGL:YES
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Avalanche Press
+PUBNAMESHORT:AP
+PUBNAMEWEB:http://www.avalanchepress.com
+
+PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Guide
+
+ABILITY:ns_abilities.lst
+# ABILITY:ns_abilities_FF.lst|PRECAMPAIGN:1,Fiend folio
+# ABILITY:ns_abilities_MM2.lst|PRECAMPAIGN:1,Monster Manual 2
+ABILITY:ns_abilities_classes.lst
+ABILITY:ns_abilities_races.lst
+# ABILITY:ns_abilities_racetraits.lst
+# ABILITY:ns_abilities_regions.lst
+# ABILITY:ns_abilities_templates.lst
+ABILITYCATEGORY:ns_abilitycategories.lst
+# BIOSET:ns_biosettings.lst
+CLASS:ns_classes.lst
+# CLASS:ns_classes_sanctified.lst
+# COMPANIONMOD:ns_companionmods.lst
+# COMPANIONMOD:ns_companionmods_PH.lst|PRECAMPAIGN:1,Planar Handbook,3.5 Gozzilioni Campaing Full Set
+# COMPANIONMOD:ns_companionmods_UA.lst|PRECAMPAIGN:1,Unearthed Arcana,3.5 Gozzilioni Campaing Full Set
+# DEITY:ns_deities.lst
+# DOMAIN:ns_domains.lst
+EQUIPMENT:ns_equip.lst
+# EQUIPMENT:ns_equip_armors.lst
+# EQUIPMENT:ns_equip_armors_specific.lst
+# EQUIPMENT:ns_equip_magic_items.lst
+# EQUIPMENT:ns_equip_weapons.lst
+# EQUIPMENT:ns_equip_weapons_natural.lst
+# EQUIPMENT:ns_equip_weapons_specific.lst
+# EQUIPMENT:mm2_equip_weapons_natural.lst
+EQUIPMOD:ns_equipmods.lst
+ABILITY:ns_feats.lst
+KIT:ns_kits.lst
+# LANGUAGE:ns_languages.lst
+# WEAPONPROF:ns_profs_weapon.lst
+# ARMORPROF:ns_profs_armor.lst
+RACE:ns_races.lst
+# RACE:ns_races_companion.lst
+SKILL:ns_skills.lst
+ABILITY:ns_subraces.lst
+# SPELL:ns_spells.lst
+# SPELL:ns_spells_ELH.lst|PRECAMPAIGN:1,Epic Level Handbook 3.0,3.5 Gozzilioni Campaing Full Set
+# SPELL:ns_spells_EPH.lst|PRECAMPAIGN:1,Expanded Psionics Handbook,3.5 Gozzilioni Campaing Full Set
+# SPELL:ns_spells_specific.lst
+# SPELL:ns_spells_specific_EPH.lst|PRECAMPAIGN:1,Expanded Psionics Handbook,3.5 Gozzilioni Campaing Full Set
+# ABILITY:ns_subraces.lst
+TEMPLATE:ns_templates.lst
+# TEMPLATE:ns_templates_regions.lst
+#
+# HIDETYPE:SKILL|Craft (Stoneworking)
+# HIDETYPE:FEAT|CloudAnchorite
+
+# ENTRY DATE: 2015-08
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:
+
+#
+
+# ENTRY DATE: 2016-07
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

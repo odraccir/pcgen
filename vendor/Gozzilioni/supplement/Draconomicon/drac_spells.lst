@@ -1,4 +1,4 @@
-SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11																								
+SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11
 #																											
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus		
 Animate Breath				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Sorcerer=7|Wizard=7	COMPS:S, B	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You.	DURATION:1 round/level	SAVEINFO:None	SPELLRES:No	DESC:You imbue the energy of your breath weapon with coherence, mobility, and a semblance of life.	SOURCEPAGE:Drac										

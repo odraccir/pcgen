@@ -1,5 +1,5 @@
-SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11																													
-																																
+SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11
+
 ###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 # Dracolich Template																																
 Control Undead	CATEGORY:Special Ability	TYPE:DracolichRaceTrait.SpecialAttack.SpellLike	VISIBLE:YES	DESC:Once every three days, a dracolich can use control undead as the spell (caster level 15th). The dracolich cannot cast other spells while this ability is in effect.	KEY:Dracolich ~ Control Undead																											SOURCEPAGE:Drac

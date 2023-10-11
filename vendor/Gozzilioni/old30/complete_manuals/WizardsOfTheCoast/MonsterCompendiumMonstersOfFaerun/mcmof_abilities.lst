@@ -1,0 +1,25 @@
+SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
+																																
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+CATEGORY=Internal|Standard Selection ~ Create Undead.MOD	COMPANIONLIST:Create Undead|Baneguard																															
+																																
+# Monsters indicated as Familiars but only in descriptive text.																																
+# Bat (Deep/Night Hunter)	They sometimes serve as familiars to drow wizards in the Underdark.																															
+# subterran Spider (Hairy)	Hairy spiders are sometimes used by wizards and sorcerers (especially drow wizards) as familiars, as they are able to carry small items and walk on walls and ceilings.																															
+# DM boons or Improved Familiar?																																
+																																
+Spellray	CATEGORY:Special Ability	TYPE:ClassFeatures.FamiliarClassFeatures.SpecialAttack.Extraordinary	VISIBLE:YES	DESC:A sorcerer or wizard can use her eyeball familiar as a vehicle for the delivery of a touch spell. The master casts the spell on her familiar, and the next time the eyeball acts, it must attempt to strike another target with its spellray. If this ranged touch attack succeeds, the spell affects the ray's target as if the spellcaster had delivered the touch spell. If the eyeball does not discharge the spellray on its next action, the spell's charge is lost.	KEY:Beholderkin (Eyeball) ~ Spellray																											SOURCEPAGE:MCMoF30
+																																
+###Block: Monster Class Spellcasting for Domains																																
+Wizard Shadower Class	CATEGORY:Internal	TYPE:CastingClassSupport																														
+																																
+CATEGORY=Internal|Dragon Defaults.MOD	ABILITY:Internal|AUTOMATIC|DRAGON_SIZE_SMALL2_GROUP|PREVAREQ:DragonSizeGroup,9	ABILITY:Internal|AUTOMATIC|DRAGON_SIZE_SMALL2_GROUP|PREVAREQ:DragonSizeGroup,10																														
+DRAGON_SIZE_SMALL3_GROUP		CATEGORY:Internal	VISIBLE:NO	BONUS:VAR|DragonSizeTracker|3|PREVARGTEQ:DragonAgeCategory,1	BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,2		BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,4		BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,6		BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,8			BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,11																		
+DRAGON_SIZE_SMALL2_GROUP		CATEGORY:Internal	VISIBLE:NO	BONUS:VAR|DragonSizeTracker|3|PREVARGTEQ:DragonAgeCategory,1	BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,2	BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,3	BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,4			BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,7		BONUS:VAR|DragonSizeTracker|1|PREVARGTEQ:DragonAgeCategory,9																				
+																																
+# Dragon_Shadow_Fly_Speed	CATEGORY:Internal	VISIBLE:NO	ABILITY:Internal|AUTOMATIC|DRAGON_FLY_SPEED_AVER_150|PRESIZELTEQ:S	ABILITY:Internal|AUTOMATIC|DRAGON_FLY_SPEED_AVER_150|PREMULT:2,[PRESIZEGTEQ:M],[PRESIZELTEQ:G]	ABILITY:Internal|AUTOMATIC|DRAGON_FLY_SPEED_CLUM_150|PRESIZEGTEQ:C																											
+# DRAGON_FLY_SPEED_AVER_150		CATEGORY:Internal	VISIBLE:NO	DEFINE:Maneuverability|0	BONUS:VAR|Maneuverability|3|TYPE=Base	MOVE:Fly,150																										
+# DRAGON_FLY_SPEED_AVER_150		CATEGORY:Internal	VISIBLE:NO	DEFINE:Maneuverability|0	BONUS:VAR|Maneuverability|2|TYPE=Base	MOVE:Fly,150																										
+# DRAGON_FLY_SPEED_CLUM_150		CATEGORY:Internal	VISIBLE:NO	DEFINE:Maneuverability|0	BONUS:VAR|Maneuverability|1|TYPE=Base	MOVE:Fly,150																										
+																																
+CATEGORY=Internal|Standard Selection ~ Leadership Cohort.MOD	COMPANIONLIST:Leadership Cohort|Companion ~ Unicorn (Black)|PREVARGT:LeadershipCohortLVL,4																															

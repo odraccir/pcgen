@@ -1,0 +1,90 @@
+SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
+																							
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE											
+# Class Name req	Requirements	FINE																					
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS											
+# Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	SPELLLIST	spell level increases (BONUS:CASTERLEVEL)							#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)
+CLASS:Beholder Mage	HD:4	TYPE:Prestige	FACT:Abb|BeM	MAXLEVEL:10	SOURCEPAGE:MCMoF30	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:BeholderMageLVL|0	BONUS:VAR|BeholderMageLVL|CL	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1									
+CLASS:Beholder Mage	PRERACE:1,Beholder	PRETEXT:Put out central antimagic eye.																					
+CLASS:Beholder Mage	STARTSKILLPTS:2	CSKILL:Appraise|Concentration|Craft (Alchemy)|Decipher Script|TYPE.Knowledge|Speak Language|Spellcraft|Use Magic Device																					
+CLASS:Beholder Mage	SPELLSTAT:INT	FACT:SpellType|Arcane	SPELLBOOK:YES																				
+1				ABILITY:Beholder Mage Class Feature|AUTOMATIC|Beholder Mage ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BeholderMageProficiencies																			
+#																							
+1				ABILITY:Beholder Mage Class Feature|AUTOMATIC|Beholder Mage ~ Spellcasting|!PREABILITY:1,CATEGORY=ACF,TYPE.BeholderMageSpellcasting																			
+1				ABILITY:Beholder Mage Class Feature|AUTOMATIC|Beholder Mage ~ Spell Components|!PREABILITY:1,CATEGORY=ACF,TYPE.BeholderMageSpellComponents																			
+3				ABILITY:Beholder Mage Class Feature|AUTOMATIC|Beholder Mage ~ Summon Familiar|!PREABILITY:1,CATEGORY=ACF,TYPE.BeholderMageSummonFamiliar																			
+#																							
+1	CAST:6,3																						
+2	CAST:6,5,3																						
+3	CAST:6,6,5,3																						
+4	CAST:6,6,6,5,3																						
+5	CAST:6,6,6,6,5,3																						
+6	CAST:6,6,6,6,6,5,3																						
+7	CAST:6,6,6,6,6,6,5,3																						
+8	CAST:6,6,6,6,6,6,6,5,3																						
+9	CAST:6,6,6,6,6,6,6,6,5,3																						
+10	CAST:6,6,6,6,6,6,6,6,6,5																						
+																							
+CLASS:Banelar	HD:10	TYPE:Monster		MAXLEVEL:7	SOURCEPAGE:MCMoF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:MagicalBeastLVL|0	BONUS:VAR|MagicalBeastLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/3)									
+CLASS:Banelar	PRERACETYPE:Magical Beast	PRERACE:1,Banelar	OUTPUTNAME:Magical Beast	VISIBLE:NO																			
+CLASS:Banelar	STARTSKILLPTS:2	MODTOSKILLS:YES																					
+1	ADD:SPELLCASTER|Cleric	ABILITY:Internal|AUTOMATIC|Cleric Class																					
+1	ADD:SPELLCASTER|Wizard	ABILITY:Internal|AUTOMATIC|Wizard Class																					
+1	BONUS:ABILITYPOOL|Monster Domains|3	BONUS:VAR|EvilDomainAllowed,MagicDomainAllowed,WaterDomainAllowed|1|TYPE=Base																					
+2	BONUS:PCLEVEL|Cleric|1																						
+2	BONUS:PCLEVEL|Wizard|1																						
+3	BONUS:PCLEVEL|Cleric|1																						
+3	BONUS:PCLEVEL|Wizard|1																						
+4	BONUS:PCLEVEL|Cleric|1																						
+4	BONUS:PCLEVEL|Wizard|1																						
+5	BONUS:PCLEVEL|Cleric|1																						
+5	BONUS:PCLEVEL|Wizard|1																						
+6	BONUS:PCLEVEL|Cleric|1																						
+6	BONUS:PCLEVEL|Wizard|1																						
+7																							
+
+CLASS:Choldrith	HD:8	TYPE:Monster		MAXLEVEL:4	SOURCEPAGE:MCMoF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AberrationLVL|0	BONUS:VAR|AberrationLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
+CLASS:Choldrith	PRERACETYPE:Aberration	PRERACE:1,Choldrith	OUTPUTNAME:Aberration	VISIBLE:NO																			
+CLASS:Choldrith	STARTSKILLPTS:2	MODTOSKILLS:YES												
+1	ADD:SPELLCASTER|Cleric	ABILITY:Internal|AUTOMATIC|Cleric Class																					
+1	BONUS:ABILITYPOOL|Monster Domains|3	BONUS:VAR|ChaosDomainAllowed,EvilDomainAllowed,ProtectionDomainAllowed|1|TYPE=Base																					
+2	BONUS:PCLEVEL|Cleric|1																						
+3	BONUS:PCLEVEL|Cleric|1																						
+4	BONUS:PCLEVEL|Cleric|1																						
+
+CLASS:Cloaker Lord	HD:8	TYPE:Monster		MAXLEVEL:4	SOURCEPAGE:MCMoF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AberrationLVL|0	BONUS:VAR|AberrationLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
+CLASS:Cloaker Lord	PRERACETYPE:Aberration	PRERACE:1,Choldrith	OUTPUTNAME:Aberration	VISIBLE:NO																			
+CLASS:Cloaker Lord	STARTSKILLPTS:2	MODTOSKILLS:YES												
+1	ADD:SPELLCASTER|Wizard (Shadower)	ABILITY:Internal|AUTOMATIC|Wizard Shadower Class																					
+2	BONUS:PCLEVEL|Wizard (Shadower)|1																						
+3	BONUS:PCLEVEL|Wizard (Shadower)|1																						
+4	BONUS:PCLEVEL|Wizard (Shadower)|1																						
+5	BONUS:PCLEVEL|Wizard (Shadower)|1																						
+6	BONUS:PCLEVEL|Wizard (Shadower)|1																						
+7	BONUS:PCLEVEL|Wizard (Shadower)|1																						
+8	BONUS:PCLEVEL|Wizard (Shadower)|1																						
+9	BONUS:PCLEVEL|Wizard (Shadower)|1																						
+
+CLASS:Wizard.MOD
+SUBCLASS:Shadower	COST:0	PROHIBITCOST:0	CHOICE:SUBSCHOOL|Shadow	KNOWNSPELLSFROMSPECIALTY:1	VISIBLE:NO	PRERACE:1,Cloaker Lord								
+SUBCLASSLEVEL:1	ABILITY:Wizard Class Feature|AUTOMATIC|Shadower Specialty Spell
+SUBCLASSLEVEL:1	ABILITY:Wizard Class Feature|AUTOMATIC|Shadower Learning Bonus													
+
+CLASS:Wizard (Shadower)	SPELLSTAT:INT	BONUS:CASTERLEVEL|Wizard (Shadower)|CL	SPELLLIST:1|Wizard	DEFINE:ShadowerLVL|0	BONUS:VAR|ShadowerLVL|CL
+
+CLASS:Sharn	HD:8	TYPE:Monster		MAXLEVEL:4	SOURCEPAGE:MCMoF	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AberrationLVL|0	BONUS:VAR|AberrationLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
+CLASS:Sharn	PRERACETYPE:Aberration	PRERACE:1,Sharn	OUTPUTNAME:Aberration	VISIBLE:NO																			
+CLASS:Sharn	STARTSKILLPTS:2	MODTOSKILLS:YES												
+1	ADD:SPELLCASTER|Cleric	ABILITY:Internal|AUTOMATIC|Cleric Class																					
+1	ADD:SPELLCASTER|Sorcerer	ABILITY:Internal|AUTOMATIC|Sorcerer Class																					
+1	BONUS:ABILITYPOOL|Monster Domains|4	BONUS:VAR|ChaosDomainAllowed,DeathDomainAllowed,KnowledgeDomainAllowed,LuckDomainAllowed,MagicDomainAllowed,ProtectionDomainAllowed,TravelDomainAllowed,TrickeryDomainAllowed|1|TYPE=Base																					
+2	BONUS:PCLEVEL|Sorcerer|1	BONUS:PCLEVEL|Sorcerer|1																					
+2	BONUS:PCLEVEL|Cleric|1	BONUS:PCLEVEL|Cleric|1																					
+3	BONUS:PCLEVEL|Cleric|1																						
+3	BONUS:PCLEVEL|Sorcerer|1	BONUS:PCLEVEL|Sorcerer|1																					
+4	BONUS:PCLEVEL|Cleric|1																						
+4	BONUS:PCLEVEL|Sorcerer|1	BONUS:PCLEVEL|Sorcerer|1																					
+5	BONUS:PCLEVEL|Cleric|1
+6	BONUS:PCLEVEL|Sorcerer|1
+7	BONUS:PCLEVEL|Cleric|1
+8	BONUS:PCLEVEL|Sorcerer|1

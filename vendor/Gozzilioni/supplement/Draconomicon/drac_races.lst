@@ -1,4 +1,4 @@
-SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11																																
+SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11
 																																			
 # Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	TYPE:	RACETYPE:	RACESUBTYPE:	MONSTERCLASS:	MOVE:	Combat bonus	NATURALATTACKS:	NATURALATTACKS:	Weapon prof. bonus	Weapon prof. bonus	FACE:	REACH:	Special Ability	Damage Reduction	Spell Res.	Stat bonus						MONCSKILL:	CR:	Required AL	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	Nb Legs	Nb Hands	SOURCEPAGE:		
 #			STARTFEATS:1	SIZE:H	TYPE:Aberration	RACETYPE:Aberration	RACESUBTYPE:Aquatic	MONSTERCLASS:Aberration:8	MOVE:Walk,10,Swim,60	BONUS:COMBAT|AC|7|TYPE=NaturalArmor	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*4,1d6,SPROP=Slime				FACE:15	REACH:10	ABILITY:Internal|AUTOMATIC|Race Traits ~ Aboleth									MONCSKILL:Concentration|TYPE.Knowledge|Listen|Spot|Swim	CR:7		HITDICEADVANCEMENT:16,24		LEGS:0	HANDS:4	SOURCEPAGE:MM1	KIT:1|Aboleth Stats	

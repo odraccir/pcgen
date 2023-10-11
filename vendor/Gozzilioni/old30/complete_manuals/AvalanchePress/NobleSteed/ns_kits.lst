@@ -1,0 +1,19 @@
+SOURCELONG:Noble Steed 3.0	SOURCESHORT:NS30	SOURCEWEB:http://www.avalanchepress.com
+
+STARTPACK:Animal (Elephant/Indian) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Elephant/Indian)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Animal (Elephant/African) Stats	TYPE:DefaultMonster.Animal	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Elephant/Indian)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Augisky Stats	TYPE:DefaultMonster.Magical Beast 	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Elephant/Indian)
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Golem (Iron Horse) Stats	TYPE:DefaultMonster.Construct 	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Golem (Iron Horse)
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Golem (Terracotta Steed) Stats	TYPE:DefaultMonster.Construct 	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Golem (Terracotta Steed)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+
+STARTPACK:Fey Horse Stats	TYPE:DefaultMonster.Fey 	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Fey Horse
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=10|CHA=10

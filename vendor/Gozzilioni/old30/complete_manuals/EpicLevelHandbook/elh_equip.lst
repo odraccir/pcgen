@@ -1,8 +1,0 @@
-SOURCELONG:Epic Level Handbook 3.0	SOURCESHORT:ELH30	SOURCEWEB:http://www.gozzilioni.net
-#																						
-# Equipment Name	Output Name	TYPE:	COST:	WT:	SOURCEPAGE:																	
-Colossus (Stone)		KEY:Colossus ~ Stone	TYPE:Monster.Construct.Container	COST:760000	WT:0	SOURCEPAGE:ELH	CONTAINS:UNLIM|Any	SPROP:CL 25th; Craft Construct (see page 303), Geas/Quest, limited wish, polymorph any object, shatter, caster must be at least 25th level.
-Colossus (Flesh)		KEY:Colossus ~ Flesh	TYPE:Monster.Construct.Container	COST:760000	WT:0	SOURCEPAGE:ELH	CONTAINS:UNLIM|Any	SPROP:CL 29th; Craft Construct (see page 303), magic jar, limited wish, polimorh any object, finger of death, caster must be at least 29th level.
-Colossus (Iron)		KEY:Colossus ~ Iron	TYPE:Monster.Construct.Container	COST:1000000	WT:0	SOURCEPAGE:ELH	CONTAINS:UNLIM|Any	SPROP:CL 35th; Craft Construct (see page 303), cloudkill, geas/quest, limited wish, polymorph any object, caster must be at least 35th level.
-Golem (Mithral)		KEY:Golem ~ Mithral	TYPE:Monster.Construct.Container	COST:250000	WT:0	SOURCEPAGE:ELH	CONTAINS:UNLIM|Any	SPROP:CL 25th; Craft Construct (see page 303), geas/quest, haste, polymorph any object, wish, caster must be at least 25th level.
-Golem (Adamantine)		KEY:Golem ~ Adamantine	TYPE:Monster.Construct.Container	COST:500000	WT:0	SOURCEPAGE:ELH	CONTAINS:UNLIM|Any	SPROP:CL 30th; Craft Construct (see page 303), Bigby's crushing hand, geas/quest, polymorph any object, wish, caster must be at least 30th level.

@@ -1,5 +1,5 @@
-SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11																			
-#																						
+SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11
+#
 #	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:
 Golem (Dragonbone)		KEY:Golem ~ Dragonbone	TYPE:Monster.Construct.Container	COST:115000	WT:0	SOURCEPAGE:Drac	CONTAINS:UNLIM|Any	SPROP:CL 13th; Craft Construct (see page 303 of the Monster Manual), animate dead, cause fear, geas/quest, caster must be at least 13th level.														
 Golem (Drakestone)		KEY:Golem ~ Drakestone	TYPE:Monster.Construct.Container	COST:175000	WT:0	SOURCEPAGE:Drac	CONTAINS:UNLIM|Any	SPROP:CL 16th; Craft Construct (see page 303 of the Monster Manual), animate objects, antimagic field, flesh to stone, geas/quest, caster must be at least 16th level.														

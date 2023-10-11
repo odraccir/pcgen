@@ -1,4 +1,4 @@
-SOURCELONG:Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04						
+SOURCELONG:Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04
 									
 #	SOURCEPAGE:SpellListI.rtf		SPELLLEVEL:DOMAIN|=1||=2||=3||=4||=5||=6||=7||=8||=9|	DESC:					
 Artifice	SOURCEPAGE:DaD	PREMULT:1,[PREVARLT:DomainNotAllowed,1],[PREVAREQ:AllowDomainArtifice,1]	SPELLLEVEL:DOMAIN|Artifice=1|Animate Rope|Artifice=2|Wood Shape|Artifice=3|Stone Shape|Artifice=4|Minor Creation|Artifice=5|Fabricate|Artifice=6|Major Creation|Artifice=7|Hardening|Artifice=8|True Creation|Artifice=9|Prismatic Sphere	DESC:Gain +4 bonus on Craft checks. You cast conjuration (creation) spells at +1 caster level (Those with access to both the Artifice and Creation domains cast conjuration [creation] spells at +3 caster level).		BONUS:SKILL|TYPE.Craft|4	BONUS:CASTERLEVEL|SUBSCHOOL.Creation|1|PRERULE:1,SYS_DOMAIN		

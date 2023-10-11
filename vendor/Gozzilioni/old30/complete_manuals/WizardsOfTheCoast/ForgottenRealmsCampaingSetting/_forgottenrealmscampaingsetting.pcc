@@ -1,0 +1,76 @@
+CAMPAIGN:Forgotten Realms Campaign Setting 3.0
+GAMEMODE:G35e
+RANK:2
+TYPE:Gozzilioni.Partial.Old
+SETTING:Heroes
+BOOKTYPE:Campaign
+SOURCELONG:Forgotten Realms Campaign Setting 3.0
+SOURCESHORT:FRCS30
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2001-06
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+
+PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Guide
+
+# DOMAIN:dotf_domains.lst
+# ABILITY:dotf_feats.lst
+# SPELL:dotf_spells.lst
+#
+ABILITY:frcs_abilities.lst
+ABILITY:frcs_abilities_classes.lst
+ABILITY:frcs_abilities_guilds.lst
+ABILITY:frcs_abilities_MOF.lst|PRECAMPAIGN:1,Magic of Faerun 3.0
+ABILITY:frcs_abilities_races.lst
+ABILITY:frcs_abilities_regions.lst|!PRECAMPAIGN:1,Player's Guide to Faerun
+ABILITY:frcs_abilities_templates.lst
+ABILITYCATEGORY:frcs_abilitycategories.lst
+BIOSET:frcs_biosettings.lst
+CLASS:frcs_classes.lst
+COMPANIONMOD:frcs_companionmods.lst
+DEITY:frcs_deities.lst
+DOMAIN:frcs_domains.lst
+EQUIPMENT:frcs_equip.lst
+# EQUIPMENT:frcs_equip_armors.lst
+# EQUIPMENT:frcs_equip_armors_specific.lst
+EQUIPMENT:frcs_equip_magic_items.lst
+EQUIPMENT:frcs_equip_weapons.lst
+# EQUIPMENT:frcs_equip_weapons_natural.lst
+# EQUIPMENT:frcs_equip_weapons_specific.lst
+# EQUIPMENT:frcs_equip_weapons_natural.lst
+EQUIPMOD:frcs_equipmods.lst
+ABILITY:frcs_feats.lst
+ABILITY:frcs_feats_regions.lst|!PRECAMPAIGN:1,Player's Guide to Faerun
+KIT:frcs_kits.lst
+KIT:frcs_kits_regions.lst|!PRECAMPAIGN:1,Player's Guide to Faerun
+LANGUAGE:frcs_languages.lst
+# ARMORPROF:frcs_profs_armor.lst
+WEAPONPROF:frcs_profs_weapon.lst
+RACE:frcs_races.lst
+# RACE:frcs_races_companion.lst
+SKILL:frcs_skills.lst
+SPELL:frcs_spells.lst
+SPELL:frcs_spells_specific.lst
+ABILITY:frcs_subraces.lst
+TEMPLATE:frcs_templates.lst
+TEMPLATE:frcs_templates_regions.lst|!PRECAMPAIGN:1,Player's Guide to Faerun
+
+HIDETYPE:FEAT|ArcaneDevotee|GuildThief
+
+FORWARDREF:EQUIPMENT|Maul,Scourge
+FORWARDREF:WEAPONPROF|Maul,Scourge
+FORWARDREF:RACE|Bat (Deep/Night Hunter),Beholderkin (Eyeball)
+
+# ENTRY DATE: 2016-07
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

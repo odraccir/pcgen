@@ -1,0 +1,9 @@
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB30	SOURCEWEB:http://www.gozzilioni.net
+# questi incantesimi sono della 3.0 edizione. non dovrebbero probabilmente nemmeno esserci,																										
+# ma sembrano ancora usati in giro per classi e mostri.																										
+																										
+###Block: AB																										
+# Spell Name	Output Name	Spell Variations	Type	Classes of caster	Domains granting the spell	School	Sub-School	Spell Descriptors	Components	Casting Time	Range	Target Area or Effect		Duration	Save Info	Spell Resistance	Description	Source Page	Item	COST:	XPCOST:	PPCOST	Combat bonus	Bonus to HP	Stat bonus	Choose
+Emotion.COPY=Emotion	KEY:Emotion ~ Hate only																								
+Emotion ~ Hate only.MOD	OUTPUTNAME:Emotion	DESC:Hate only.																					
+

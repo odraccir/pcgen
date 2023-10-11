@@ -1,4 +1,4 @@
-SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-10																						
+SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-10
 																									
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	DESC:	Bonus	Bonus
 Avascular Mass				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Death|Evil	CLASSES:Sorcerer=8|Wizard=8	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:Ray.	DURATION:See text.	SAVEINFO:Fort partial and Refelex negates; see text.	SPELLRES:Yes	DESC:Reduce foe to 0 hp and stun foe for 1 round by purging blood vessel, which can trap creatures in 20-ft radius from victim.	SOURCEPAGE:LM								

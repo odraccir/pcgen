@@ -1,4 +1,4 @@
-SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11																														
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11
 #																									
 #	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:			
 Spark Guardian		KEY:Spark Guardian	TYPE:Monster.Construct.Container	COST:10000	WT:0	SOURCEPAGE:CW	CONTAINS:UNLIM|Any	SPROP:CL 7th; Craft Construct (see page 303 of the Monster Manual), lightning bolt, locate creature, minor creation; caster must be at least 7th level. A spark guardian with more than 2 Hit Dice can be created, but each additional Hit Die adds 1,000 gp to the market price, and the price increases by 5,000 gp if the creature's size increases to Medium, modifying the cost to create accordingly.

@@ -82,7 +82,7 @@ STARTPACK:Demodand (Shator) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPB
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
 
 STARTPACK:Demodand (Shator) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Demodand (Shator)
-GEAR:Guisarme	EQMOD:PLUS2W	SIZE:L
+GEAR:Guisarme	SIZE:L	EQMOD:PLUS2W
 
 STARTPACK:Demon (Alkilith) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Alkilith)
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
@@ -94,7 +94,7 @@ STARTPACK:Demon (Kluirichir) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIP
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
 
 STARTPACK:Demon (Kluirichir) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Demon (Kluirichir)
-GEAR:Battleaxe	EQMOD:PLUS3W	SIZE:H
+GEAR:Battleaxe	SIZE:H	EQMOD:PLUS3W
 
 STARTPACK:Demon (Maurezhi) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Maurezhi)
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
@@ -103,7 +103,7 @@ STARTPACK:Demon (Myrmyxicus) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIP
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
 
 STARTPACK:Demon (Myrmyxicus) Standard Equip	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Demon (Myrmyxicus)
-GEAR:Scythe	EQMOD:PLUS3W.UNHOLY_M	SIZE:H	QTY:4
+GEAR:Scythe	QTY:4	SIZE:H	EQMOD:PLUS3W.UNHOLY_M
 
 STARTPACK:Demon (Skulvyn) Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Demon (Skulvyn)
 STAT:STR=10|DEX=10|CON=11|INT=11|WIS=10|CHA=11

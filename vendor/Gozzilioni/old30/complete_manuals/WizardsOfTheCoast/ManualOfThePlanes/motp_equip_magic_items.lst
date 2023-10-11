@@ -1,0 +1,7 @@
+SOURCELONG:Manual of the Planes 3.0	SOURCESHORT:MotP30	SOURCEWEB:http://www.gozzilioni.net
+#																								
+# Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property																
+###Block: Wondrous
+# Amulet of Health +2		TYPE:Wondrous.Amulet	COST:4000	WT:0	SOURCEPAGE:DMG	BONUS:STAT|CON|2|TYPE=Enhancement																		
+Dimensional Sextant		TYPE:Wondrous	COST:21600	WT:2	SOURCEPAGE:MotP30, p.22
+Ethereal Tapestry		TYPE:Wondrous	COST:47520	WT:87	SOURCEPAGE:MotP30, p.59

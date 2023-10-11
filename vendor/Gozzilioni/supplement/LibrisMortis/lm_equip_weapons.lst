@@ -1,4 +1,4 @@
-SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-10												
+SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-10
 
 Holy Water Sprinkler			PROFICIENCY:WEAPON|Mace (Heavy)	TYPE:Weapon.Melee.Simple.Bludgeoning.OneHanded.Mace	COST:62	WT:8	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:LM											
 

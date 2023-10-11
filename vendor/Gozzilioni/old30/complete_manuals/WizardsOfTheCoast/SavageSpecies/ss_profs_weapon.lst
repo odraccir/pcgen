@@ -1,0 +1,23 @@
+SOURCELONG:Savage Species 3.0	SOURCESHORT:SS30	SOURCEWEB:http://www.gozzilioni.net
+#			
+### Weapon/Spell			
+### Simple/Martial/Exotic			
+### Melee/Ranged			
+### Bludgeoning/Piercing/Slashing			
+### Reach/Double/Thrown/Projectile/Ammunition			
+### Unharmed/Light/OneHanded/TwoHanded			
+###Automatic			
+
+###Simple			
+Boulder		TYPE:Simple.Thrown.Rock
+###Martial			
+###Exotic			
+Chain (Barbed)	TYPE:Exotic.Melee.Bludgeoning.Piercing.MeleeBludgeoning.MeleePiercing.OneHanded.Chain
+Tail Blade (Weapon)	TYPE:Exotic.Melee.Slashing.MeleeSlashing.OneHanded.Sword
+Tail Club	TYPE:Exotic.Melee.Bludgeoning.Piercing.MeleeBludgeoning.MeleePiercing.OneHanded.Club
+Chain Lash	TYPE:Exotic.Melee.Bludgeoning.MeleeBloudgeoning.TwoHanded.DoubleWeapon
+Scissor Sword	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.Sword
+Sharktooth Staff	TYPE:Exotic.Melee.Slashing.MeleeSlashing.TwoHanded.Quarterstaff
+Snake Chain	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.TwoHanded.Chain.DoubleWeapon
+Chuul Lasher	TYPE:Exotic.Melee.Slashing.MeleeSlashing.Light.Reach.Whip.Finesseable
+Javelin (Howler)	TYPE:Exotic.Ranged.Thrown.Piercing.RangedPiercing.Javelin

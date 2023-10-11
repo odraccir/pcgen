@@ -1,5 +1,5 @@
-SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net																														
-																																
+SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+
 ###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Mount Traits|PREVARGTEQ:TrainingLevel,1	DEFINE:TrainingLEvel|0																														
 Mount Traits	CATEGORY:Special Ability	TYPE:SubTraitAbility.SpecialQuality																														SOURCEPAGE:H

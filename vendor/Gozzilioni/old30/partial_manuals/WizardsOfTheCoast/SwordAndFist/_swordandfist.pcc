@@ -1,0 +1,30 @@
+CAMPAIGN:Sword and Fist 3.0
+GAMEMODE:G35e
+RANK:3
+TYPE:Gozzilioni.Partial.Old
+SETTING:Heroes
+BOOKTYPE:Accessory
+SOURCELONG:Sword and Fist 3.0
+SOURCESHORT:SF30
+SOURCEWEB:http://www.gozzilioni.net
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+
+PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Guide
+
+ABILITY:sf_feats.lst
+#
+
+# ENTRY DATE: 2016-07
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

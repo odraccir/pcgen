@@ -1,0 +1,18 @@
+SOURCELONG:Noble Steed 3.0	SOURCESHORT:NS30	SOURCEWEB:http://www.avalanchepress.com
+
+Common	VISIBLE:NO	KEY:Common Animal (Horse (Light))																																
+Arabian	VISIBLE:NO	KEY:Arabian Animal (Horse (Light))																															
+Barb	VISIBLE:NO	KEY:Barb Animal (Horse (Light))	BONUS:MOVEADD|TYPE.Walk|-5																														
+Andalusian	VISIBLE:NO	KEY:Andalusian Animal (Horse (Light))
+
+Common	VISIBLE:NO	KEY:Common Animal (Pony)	
+Norvegian Fjord	VISIBLE:NO	KEY:Norvegian Fjord Animal (Pony)	
+Shetland	VISIBLE:NO	KEY:Shetland Animal (Pony)	
+
+Common	VISIBLE:NO	KEY:Common Animal (Horse (Heavy))	
+Brabant	VISIBLE:NO	KEY:Brabant Animal (Horse (Heavy))	
+Percheron	VISIBLE:NO	KEY:Percheron Animal (Horse (Heavy))	
+Shire	VISIBLE:NO	KEY:Shire Animal (Horse (Heavy))	BONUS:MOVEADD|TYPE.Walk|5	
+Breton	VISIBLE:NO	KEY:Breton Animal (Horse (Heavy))	BONUS:MOVEADD|TYPE.Walk|-10	
+
+Exceptional	VISIBLE:NO	SOURCEPAGE:NS	KEY:Breed Classification ~ Exceptional	HITDIE:%up1	

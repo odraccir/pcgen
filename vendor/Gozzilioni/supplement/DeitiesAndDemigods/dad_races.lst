@@ -1,4 +1,4 @@
-SOURCELONG:Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04																															
+SOURCELONG:Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04
 																																		
 # Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	TYPE:	RACETYPE:	RACESUBTYPE:	MONSTERCLASS:	MOVE:	Combat bonus	NATURALATTACKS:	NATURALATTACKS:	Weapon prof. bonus	Weapon prof. bonus	FACE:	REACH:	Special Ability	Damage Reduction	Spell Res.	Stat bonus						MONCSKILL:	CR:	Required AL	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	Nb Legs	Nb Hands	SOURCEPAGE:	
 Cyclops (Lesser)		FAVCLASS:Barbarian	STARTFEATS:1	SIZE:L	TYPE:Giant	RACETYPE:Giant		MONSTERCLASS:Giant:13	MOVE:Walk,40	BONUS:COMBAT|AC|10|TYPE=NaturalArmor					FACE:10	REACH:10	ABILITY:Internal|AUTOMATIC|Race Traits ~ Cyclops (Lesser)			BONUS:STAT|STR|16	BONUS:STAT|DEX|-2	BONUS:STAT|CON|8	BONUS:STAT|INT|-4	BONUS:STAT|WIS|-2	BONUS:STAT|CHA|-4	MONCSKILL:Climb|Jump|Spot	CR:8	KIT:1|CE		LEVELADJUSTMENT:2	LEGS:2	HANDS:2	SOURCEPAGE:DaD	KIT:1|Cyclops (Lesser) Stats

@@ -1,0 +1,11 @@
+SOURCELONG:Magic of Faerun 3.0	SOURCESHORT:MoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
+																												
+###Block: AB																												
+# Spell Name	OUTPUTNAME:	Spell Variations	TYPE:	CLASSES:	DOMAINS:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:		DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	Combat bonus	Bonus to HP	Stat bonus	Choose		
+Camouflage.MOD		CLASSES:Harper Scout=1
+Easy Trail.MOD		CLASSES:Harper Scout=2
+Handfire.MOD		CLASSES:Harper Scout=1
+Herald's Call.MOD		CLASSES:Harper Scout=1
+Living Prints.MOD		CLASSES:Harper Scout=3
+Low-Light Vision.MOD		CLASSES:Harper Scout=1
+Camouflage (Mass).MOD		CLASSES:Harper Scout=4

@@ -1,0 +1,6 @@
+SOURCELONG:Arms and Equipment Guide 3.0	SOURCESHORT:AaEG30	SOURCEWEB:http://www.gozzilioni.net
+#																																																		
+# Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:																																													
+Perform (Buffoonery)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Buffoonery)	SOURCEPAGE:PHB	VISIBLE:DISPLAY																																												
+Perform (Buffoonery)	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Perform ~ Buffoonery	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Perform (Buffoonery).MISC"),var("SKILL.Perform (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Perform (Buffoonery)"),1]																																									
+Perform (Untrained).MOD								BONUS:SKILL|Perform ~ Buffoonery|var("SKILL.Perform (Buffoonery).MISC")	BONUS:SKILLRANK|Perform ~ Buffoonery|skillinfo("TOTALRANK", "Perform (Buffoonery)")																																									

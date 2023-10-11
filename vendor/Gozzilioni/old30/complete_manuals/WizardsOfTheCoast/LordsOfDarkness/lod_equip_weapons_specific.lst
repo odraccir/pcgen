@@ -1,0 +1,45 @@
+SOURCELONG:Lords of Darkness 3.0	SOURCESHORT:LoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-10
+#																									
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:			
+# Simple Weapons																									
+## Unarmed																									
+																									
+## Light																									
+Nightblade			PROFICIENCY:WEAPON|Dagger	TYPE:Enhancement.Weapon.Melee.Ranged.Simple.Piercing.Slashing.Light.Dagger	COST:8702	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:MoF30	SPROP:+2 enhancement bonus against good-aligned target and Will save (DC 16) or take 1 point of temporary damage to a random ability score.						RANGE:10				
+																									
+## OneHanded																									
+																									
+## TwoHanded																									
+																									
+## Ranged																									
+																									
+# Martial Weapons																									
+## Light																									
+																									
+## OneHanded																									
+Banesword			PROFICIENCY:WEAPON|Longsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.OneHanded.Sword	COST:18335	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W.LAW_M	SOURCEPAGE:LoD30											
+Skull Blade			PROFICIENCY:WEAPON|Longsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.OneHanded.Sword	COST:18315	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W.UNHOLY_M	SOURCEPAGE:PHB											
+																									
+## TwoHanded																									
+																									
+## Ranged																									
+																									
+# Exotic Weapons																									
+## Light																									
+																									
+## OneHanded																									
+Ebon Lash			PROFICIENCY:WEAPON|Whip	TYPE:Enhancement.Weapon.Melee.Exotic.Slashing.OneHanded.Whip	COST:4526	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	EQMOD:LEATHER.EQ_COST_ADJ_W.PLUS1W	SOURCEPAGE:LoD30	SPROP:Will DC 10 or be Dazed as per the spell.							REACH:15	BONUS:WEAPON|DAMAGE|min(STR,0)	SPELLS:Ebon Lash|TIMES=1|CASTERLEVEL=7|Charm Person	
+																									
+## TwoHanded																									
+																									
+## Ranged																									
+																									
+# Arrows																									
+																									
+## Intelligent																									
+																									
+## Cursed																									
+																									
+## Artifacts																									
+Storm Star			PROFICIENCY:WEAPON|Morningstar	TYPE:Artifact.Minor.Weapon.Melee.Simple.Bludgeoning.Piercing.OneHanded	COST:0	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS3W.SHOCK_BURST_M	SOURCEPAGE:LoD30										SPELLS:Storm Star|TIMES=3|CASTERLEVEL=20|Lightning Bolt	SPELLS:Storm Star|TIMES=1|CASTERLEVEL=20|Call Lightning
+Magusceptre			PROFICIENCY:WEAPON|Mace (Heavy)	TYPE:Artifact.Minor.Weapon.Melee.Simple.Bludgeoning.OneHanded.Mace	COST:0	WT:8	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS3W	SOURCEPAGE:LoD30	SPROP:bestows one negative level on its target whenever it deals damage (Fort DC 23).										

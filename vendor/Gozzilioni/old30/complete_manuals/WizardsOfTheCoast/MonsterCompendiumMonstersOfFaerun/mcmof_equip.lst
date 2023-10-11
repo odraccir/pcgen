@@ -1,0 +1,7 @@
+SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
+#								
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:			
+Golem (Gemstone/Ruby)		KEY:Golem ~ Gemstone ~ Ruby	TYPE:Monster.Construct.Container	COST:120000	WT:0	SOURCEPAGE:MCMoF	CONTAINS:UNLIM|Any	SPROP:CL 16th; Craft Construct (see page 303), limited wish, move earth, polymorph any object, and stone shape, creator must be 16th level.
+Golem (Gemstone/Emerald)		KEY:Golem ~ Gemstone ~ Emerald	TYPE:Monster.Construct.Container	COST:70000	WT:0	SOURCEPAGE:MCMoF	CONTAINS:UNLIM|Any	SPROP:CL 17th; Craft Construct (see page 303), dimensional anchor, polymorph any object, stone shape, and teleportation circle, creator must be 17th level.
+Golem (Gemstone/Diamond)		KEY:Golem ~ Gemstone ~ Diamond	TYPE:Monster.Construct.Container	COST:140000	WT:0	SOURCEPAGE:MCMoF	CONTAINS:UNLIM|Any	SPROP:CL 16th; Craft Construct (see page 303), dispel magic, limited wish, polymorph any object, stone shape, sunbeam.
+Golem (Thayan)		KEY:Golem ~ Thayan	TYPE:Monster.Construct.Container	COST:25000	WT:0	SOURCEPAGE:MCMoF	CONTAINS:UNLIM|Any	SPROP:CL 11th; Craft Construct (see page 303), shield, geas/quest, shadow conjuration, creator must be 11th level.

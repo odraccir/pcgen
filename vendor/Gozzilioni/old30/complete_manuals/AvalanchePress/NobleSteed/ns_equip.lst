@@ -1,0 +1,23 @@
+SOURCELONG:Noble Steed 3.0	SOURCESHORT:NS30	SOURCEWEB:http://www.avalanchepress.com
+#																									
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:			
+Golem (Iron Horse)		KEY:Golem ~ Iron Horse	TYPE:Monster.Construct.Container	COST:80000	WT:0	SOURCEPAGE:NS	CONTAINS:UNLIM|Any	SPROP:CL 14h; Craft Construct (see page 303), animate objects, geas/quest, limited wish, polymorph any object, caster must be at least 14th level.
+Golem (Terracotta Steed)		KEY:Golem ~ Terracotta Steed	TYPE:Monster.Construct.Container	COST:60000	WT:0	SOURCEPAGE:NS	CONTAINS:UNLIM|Any	SPROP:CL 16h; Craft Construct (see page 303), animate objects, bless, commune, prayer, summon monster III, caster must be at least 16th level.
+
+Saddle (Camel Tack)	OUTPUTNAME:Saddle, [NAME]	TYPE:Goods.Saddle.Container.Resizable	COST:15	WT:16	SOURCEPAGE:NS	CONTAINS:UNLIM|Any		SORTKEY:Saddle (Camel Tack)	
+Caparison		TYPE:Goods.Cape	COST:15	WT:7	SOURCEPAGE:NS	SPROP:A Knight’s horse was often covered with a large ornate cloth called caparison.
+
+Chariot (Riding)	OUTPUTNAME:Chariot, Riding	TYPE:Goods.Transportation	COST:30	WT:75	SOURCEPAGE:NS				SIZE:M		
+Chariot (War)	OUTPUTNAME:Chariot, War	TYPE:Goods.Transportation	COST:50	WT:100	SOURCEPAGE:NS				SIZE:M		
+
+Bronze Horseshoes		TYPE:Wondrous.Boot.Mount	COST:10000	WT:0		SOURCEPAGE:NS		DESC:Hooves are Flaming (+1d5 fire damage). Steed and rider take half damage from fire.	EQMOD:BRONZE
+Caparison of the Sun		TYPE:Wondrous.Cape.Mount	COST:3000	WT:7		SOURCEPAGE:NS	DESC:both steed and rider gain +2 bonus to charisma.		BONUS:STAT|CHA|2
+Earring of the Keen Whisper		TYPE:Wondrous.Mount	COST:6000	WT:0		SOURCEPAGE:NS	
+Golden Bridle		TYPE:Wondrous.Mount	COST:5000	WT:1		SOURCEPAGE:NS	
+Golden Cuffs		TYPE:Wondrous.Boot.Mount	COST:15000	WT:0		SOURCEPAGE:NS	
+Horseshoes of Solid Ground		TYPE:Wondrous.Boot.Mount	COST:12000	WT:0		SOURCEPAGE:NS	
+Ribbon (Speed)		TYPE:Wondrous.Amulet.Mount	COST:15000	WT:0		SOURCEPAGE:NS		BONUS:MOVEADD|TYPE.Walk|10
+Ribbon (Balance)		TYPE:Wondrous.Amulet.Mount	COST:15000	WT:0		SOURCEPAGE:NS		BONUS:SKILL|Balance|3|TYPE=Enhancement
+Ribbon (Protection)		TYPE:Wondrous.Amulet.Mount	COST:15000	WT:0		SOURCEPAGE:NS		BONUS:COMBAT|AC|1|TYPE=Enhancement
+Ribbon (Assault)		TYPE:Wondrous.Amulet.Mount	COST:15000	WT:0		SOURCEPAGE:NS		BONUS:COMBAT|TOHIT|2|TYPE=Enhancement	BONUS:COMBAT|DAMAGE|2|TYPE=Enhancement
+Saddle of Occum		TYPE:Wondrous.Mount.Saddle.Container.Resizable	COST:8000	WT:25	SPROP:While wearing this saddle, the horse is almost unnoticeable by anyone other than its owner.	SOURCEPAGE:NS	CONTAINS:UNLIM|Any

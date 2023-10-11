@@ -1,4 +1,4 @@
-SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11				
+SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11
 							
 #	SOURCEPAGE:SpellListI.rtf		SPELLLEVEL:DOMAIN|=1||=2||=3||=4||=5||=6||=7||=8||=9|	DESC:			
 Domination	SOURCEPAGE:Drac	PREMULT:1,[PREVARLT:DomainNotAllowed,1],[PREVAREQ:AllowDomainDomination,1]	SPELLLEVEL:DOMAIN|Domination=1|Command|Domination=2|Enthrall|Domination=3|Suggestion|Domination=4|Dominate Person|Domination=5|Command (Greater)|Domination=6|Geas/Quest|Domination=7|Suggestion (Mass)|Domination=8|True Domination|Domination=9|Monstrous Thrall	DESC:You gain Spell Focus (enchantment) as a bonus feat.		ABILITY:FEAT|AUTOMATIC|Spell Focus (Enchantment)	

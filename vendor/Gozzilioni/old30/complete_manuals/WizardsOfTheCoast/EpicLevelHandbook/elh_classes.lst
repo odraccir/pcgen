@@ -1,0 +1,81 @@
+SOURCELONG:Epic Level Handbook 3.0	SOURCESHORT:ELH30	SOURCEWEB:http://www.gozzilioni.net																															
+
+CLASS:Ha Naga	HD:8	TYPE:Monster		MAXLEVEL:20	SOURCEPAGE:ELH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AberrationLVL|0	BONUS:VAR|AberrationLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
+CLASS:Ha Naga	PRERACETYPE:Aberration	PRERACE:1,Naga (Ha Naga)	OUTPUTNAME:Aberration	VISIBLE:NO										
+CLASS:Ha Naga	STARTSKILLPTS:2	MODTOSKILLS:YES												
+1	ADD:SPELLCASTER|Sorcerer/Cleric	ABILITY:Internal|AUTOMATIC|Sorcerer/Cleric Class
+1	BONUS:ABILITYPOOL|Monster Domains|2	BONUS:VAR|ChaosDomainAllowed,EvilDomainAllowed|1|TYPE=Base
+1	BONUS:PCLEVEL|Sorcerer/Cleric|1
+2	BONUS:PCLEVEL|Sorcerer/Cleric|1
+3	BONUS:PCLEVEL|Sorcerer/Cleric|1
+4	BONUS:PCLEVEL|Sorcerer/Cleric|1
+5	BONUS:PCLEVEL|Sorcerer/Cleric|1
+6	BONUS:PCLEVEL|Sorcerer/Cleric|1
+7	BONUS:PCLEVEL|Sorcerer/Cleric|1
+8	BONUS:PCLEVEL|Sorcerer/Cleric|1
+9	BONUS:PCLEVEL|Sorcerer/Cleric|1
+10	BONUS:PCLEVEL|Sorcerer/Cleric|1
+11	BONUS:PCLEVEL|Sorcerer/Cleric|1
+12	BONUS:PCLEVEL|Sorcerer/Cleric|1
+13	BONUS:PCLEVEL|Sorcerer/Cleric|1
+14	BONUS:PCLEVEL|Sorcerer/Cleric|1
+15	BONUS:PCLEVEL|Sorcerer/Cleric|1
+16	BONUS:PCLEVEL|Sorcerer/Cleric|1
+17	BONUS:PCLEVEL|Sorcerer/Cleric|1
+18	BONUS:PCLEVEL|Sorcerer/Cleric|1
+19	BONUS:PCLEVEL|Sorcerer/Cleric|1
+20	BONUS:PCLEVEL|Sorcerer/Cleric|1
+
+CLASS:Neh-Thalggu	HD:8	TYPE:Monster		MAXLEVEL:13	SOURCEPAGE:ELH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()*3/4|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:AberrationLVL|0	BONUS:VAR|AberrationLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/4)
+CLASS:Neh-Thalggu	PRERACETYPE:Aberration	PRERACE:1,Neh-Thalggu	OUTPUTNAME:Aberration	VISIBLE:NO										
+CLASS:Neh-Thalggu	STARTSKILLPTS:2	MODTOSKILLS:YES												
+1	ADD:SPELLCASTER|Sorcerer	ABILITY:Internal|AUTOMATIC|Sorcerer Class
+1	BONUS:PCLEVEL|Sorcerer|1
+2	BONUS:PCLEVEL|Sorcerer|1
+3	BONUS:PCLEVEL|Sorcerer|1
+4	BONUS:PCLEVEL|Sorcerer|1
+5	BONUS:PCLEVEL|Sorcerer|1
+6	BONUS:PCLEVEL|Sorcerer|1
+7	BONUS:PCLEVEL|Sorcerer|1
+8	BONUS:PCLEVEL|Sorcerer|1
+9	BONUS:PCLEVEL|Sorcerer|1
+10	BONUS:PCLEVEL|Sorcerer|1
+11	BONUS:PCLEVEL|Sorcerer|1
+12	BONUS:PCLEVEL|Sorcerer|1
+13	BONUS:PCLEVEL|Sorcerer|1
+
+CLASS:Titan (Elder)	HD:8	TYPE:Monster		MAXLEVEL:70	SOURCEPAGE:ELH	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel()|TYPE=Base.REPLACE	FACT:ClassType|Monster	ROLE:Combat	DEFINE:OutsiderLVL|0	BONUS:VAR|OutsiderLVL|CL	BONUS:MISC|CR|floor((HD-BASEHD)/2)
+CLASS:Titan (Elder)	PRERACETYPE:Outsider	PRERACE:1,Titan (Elder)	OUTPUTNAME:Outsider	VISIBLE:NO										
+CLASS:Titan (Elder)	STARTSKILLPTS:8	MODTOSKILLS:YES												
+###TODO: add the possibility to choose arcane or divine spellcaster
+1	
+
+CLASS:Epic Spells (Arcane/INT)	HD:1	TYPE:EpicSpells	FACT:Abb|Epic Spells		SOURCEPAGE:ELH									
+CLASS:Epic Spells (Arcane/INT)	VISIBLE:NO
+CLASS:Epic Spells (Arcane/INT)	SPELLSTAT:INT	FACT:SpellType|Arcane	SPELLBOOK:YES			BONUS:CASTERLEVEL|Epic Spells (Arcane/INT)|Caster_Level_Epic_Arcane_INT	DEFINE:Caster_Level_Epic_Arcane_INT|0	BONUS:VAR|Caster_Level_Epic_Arcane_INT|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Epic_Arcane_INT|0	BONUS:VAR|Caster_Level_BL_Epic_Arcane_INT|charbonusto("PCLEVEL","Epic Spells (Arcane/INT)")	BONUS:VAR|Caster_Level_Highest__Epic_Arcane_INT|Caster_Level_Epic_Arcane_INT+Caster_Level_BL_Epic_Arcane_INT|TYPE=Base	
+1	CAST:0,0,0,0,0,0,0,0,0,0,1
+
+CLASS:Epic Spells (Arcane/WIS)	HD:1	TYPE:EpicSpells	FACT:Abb|Epic Spells		SOURCEPAGE:ELH									
+CLASS:Epic Spells (Arcane/WIS)	VISIBLE:NO
+CLASS:Epic Spells (Arcane/WIS)	SPELLSTAT:WIS	FACT:SpellType|Arcane	SPELLBOOK:YES			BONUS:CASTERLEVEL|Epic Spells (Arcane/WIS)|Caster_Level_Epic_Arcane_WIS	DEFINE:Caster_Level_Epic_Arcane_WIS|0	BONUS:VAR|Caster_Level_Epic_Arcane_WIS|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Epic_Arcane_WIS|0	BONUS:VAR|Caster_Level_BL_Epic_Arcane_WIS|charbonusto("PCLEVEL","Epic Spells (Arcane/WIS)")	BONUS:VAR|Caster_Level_Highest__Epic_Arcane_WIS|Caster_Level_Epic_Arcane_WIS+Caster_Level_BL_Epic_Arcane_WIS|TYPE=Base	
+1	CAST:0,0,0,0,0,0,0,0,0,0,1
+
+CLASS:Epic Spells (Arcane/CHA)	HD:1	TYPE:EpicSpells	FACT:Abb|Epic Spells		SOURCEPAGE:ELH									
+CLASS:Epic Spells (Arcane/CHA)	VISIBLE:NO
+CLASS:Epic Spells (Arcane/CHA)	SPELLSTAT:CHA	FACT:SpellType|Arcane	SPELLBOOK:YES			BONUS:CASTERLEVEL|Epic Spells (Arcane/CHA)|Caster_Level_Epic_Arcane_CHA	DEFINE:Caster_Level_Epic_Arcane_CHA|0	BONUS:VAR|Caster_Level_Epic_Arcane_CHA|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Epic_Arcane_CHA|0	BONUS:VAR|Caster_Level_BL_Epic_Arcane_CHA|charbonusto("PCLEVEL","Epic Spells (Arcane/CHA)")	BONUS:VAR|Caster_Level_Highest__Epic_Arcane_CHA|Caster_Level_Epic_Arcane_CHA+Caster_Level_BL_Epic_Arcane_CHA|TYPE=Base	
+1	CAST:0,0,0,0,0,0,0,0,0,0,1
+
+CLASS:Epic Spells (Divine/INT)	HD:1	TYPE:EpicSpells	FACT:Abb|Epic Spells		SOURCEPAGE:ELH									
+CLASS:Epic Spells (Divine/INT)	VISIBLE:NO
+CLASS:Epic Spells (Divine/INT)	SPELLSTAT:INT	FACT:SpellType|Divine	SPELLBOOK:YES			BONUS:CASTERLEVEL|Epic Spells (Divine/INT)|Caster_Level_Epic_Divine_INT	DEFINE:Caster_Level_Epic_Divine_INT|0	BONUS:VAR|Caster_Level_Epic_Divine_INT|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Epic_Divine_INT|0	BONUS:VAR|Caster_Level_BL_Epic_Divine_INT|charbonusto("PCLEVEL","Epic Spells (Divine/INT)")	BONUS:VAR|Caster_Level_Highest__Epic_Divine_INT|Caster_Level_Epic_Divine_INT+Caster_Level_BL_Epic_Divine_INT|TYPE=Base	
+1	CAST:0,0,0,0,0,0,0,0,0,0,1
+
+CLASS:Epic Spells (Divine/WIS)	HD:1	TYPE:EpicSpells	FACT:Abb|Epic Spells		SOURCEPAGE:ELH									
+CLASS:Epic Spells (Divine/WIS)	VISIBLE:NO
+CLASS:Epic Spells (Divine/WIS)	SPELLSTAT:WIS	FACT:SpellType|Divine	SPELLBOOK:YES			BONUS:CASTERLEVEL|Epic Spells (Divine/WIS)|Caster_Level_Epic_Divine_WIS	DEFINE:Caster_Level_Epic_Divine_WIS|0	BONUS:VAR|Caster_Level_Epic_Divine_WIS|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Epic_Divine_WIS|0	BONUS:VAR|Caster_Level_BL_Epic_Divine_WIS|charbonusto("PCLEVEL","Epic Spells (Divine/WIS)")	BONUS:VAR|Caster_Level_Highest__Epic_Divine_WIS|Caster_Level_Epic_Divine_WIS+Caster_Level_BL_Epic_Divine_WIS|TYPE=Base	
+1	CAST:0,0,0,0,0,0,0,0,0,0,1
+
+CLASS:Epic Spells (Divine/CHA)	HD:1	TYPE:EpicSpells	FACT:Abb|Epic Spells		SOURCEPAGE:ELH									
+CLASS:Epic Spells (Divine/CHA)	VISIBLE:NO
+CLASS:Epic Spells (Divine/CHA)	SPELLSTAT:CHA	FACT:SpellType|Divine	SPELLBOOK:YES			BONUS:CASTERLEVEL|Epic Spells (Divine/CHA)|Caster_Level_Epic_Divine_CHA	DEFINE:Caster_Level_Epic_Divine_CHA|0	BONUS:VAR|Caster_Level_Epic_Divine_CHA|CL+Caster_Level_Bonus	DEFINE:Caster_Level_BL_Epic_Divine_CHA|0	BONUS:VAR|Caster_Level_BL_Epic_Divine_CHA|charbonusto("PCLEVEL","Epic Spells (Divine/CHA)")	BONUS:VAR|Caster_Level_Highest__Epic_Divine_CHA|Caster_Level_Epic_Divine_CHA+Caster_Level_BL_Epic_Divine_CHA|TYPE=Base	
+1	CAST:0,0,0,0,0,0,0,0,0,0,1

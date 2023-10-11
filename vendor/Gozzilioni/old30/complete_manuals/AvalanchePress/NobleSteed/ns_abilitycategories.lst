@@ -1,0 +1,27 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+
+# Subrace Support
+ABILITYCATEGORY:Animal (Horse (Light)) Race Trait	CATEGORY:Special Ability	TYPE:AnimalHorseLightRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Animal (Pony) Race Trait	CATEGORY:Special Ability	TYPE:AnimalPonyRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Animal (Horse (Heavy)) Race Trait	CATEGORY:Special Ability	TYPE:AnimalHorseHeavyRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Steed Class Feature	CATEGORY:Special Ability	TYPE:SteedClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Steed Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Courser Class Feature	CATEGORY:Special Ability	TYPE:CourserClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Courses Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Courses Class Feature	CATEGORY:Special Ability	TYPE:CoursesClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Courses Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups
+ABILITYCATEGORY:Breed Classification	CATEGORY:Internal	TYPE:BreedClass	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO	PLURAL:Breed Classifications	DISPLAYLOCATION:Mount Racial Abilities	
+
+#Feats Ability pools
+ABILITYCATEGORY:Steed Feat	CATEGORY:FEAT	TYPE:SteedFeat	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Steed Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Steed Battle Feat	CATEGORY:FEAT	TYPE:SteedBattleFeat	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Steed Battle Feats			DISPLAYLOCATION:Feats
+
+#Companion Support
+
+#other
+
+#
+# End
+#

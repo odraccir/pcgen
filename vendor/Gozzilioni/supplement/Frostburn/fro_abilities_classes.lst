@@ -1,4 +1,4 @@
-SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09																														
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
 																																	
 ###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
 Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassFeatures.CloudAnchoriteClassFeatures.SpecialQuality	VISIBLE:YES	DESC:Cloud anchorites gain no proficiency with any weapon, armor or shield.	KEY:Cloud Anchorite ~ Weapon and Armor Proficiency																										SORTKEY:Class_Cloud_Anchorite	SOURCEPAGE:Fro	

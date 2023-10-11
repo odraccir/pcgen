@@ -1,0 +1,74 @@
+SOURCELONG:Arms and Equipment Guide 3.0	SOURCESHORT:AaEG30	SOURCEWEB:http://www.gozzilioni.net
+#																									
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:			
+# Simple Weapons																									
+## Unarmed																									
+## Light																									
+## OneHanded																									
+## TwoHanded																									
+## Ranged																									
+																									
+# Martial Weapons																									
+## Light																									
+## OneHanded																									
+## TwoHanded																									
+Lucern Hammer			PROFICIENCY:WEAPON|Lucern Hammer	TYPE:Weapon.Martial.Melee.Piercing.TwoHanded.Hammer	COST:12	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x4	EQMOD:STEEL	SOURCEPAGE:AeEG											
+# Maul			PROFICIENCY:WEAPON|Maul	TYPE:Weapon.Martial.Melee.Bludgeoning.TwoHanded	COST:15	WT:20	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:AeEG											
+## Ranged																									
+																									
+# Exotic Weapons																									
+## Light																									
+Claw (Bracer)			PROFICIENCY:WEAPON|Claw (Bracer)	TYPE:Weapon.Exotic.Melee.Piercing.Light.Claw	COST:30	WT:2	WIELD:Light	SLOTS:1	SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG											
+Claw (Panther)			PROFICIENCY:WEAPON|Claw (Panther)	TYPE:Weapon.Exotic.Melee.Piercing.Slashing.Light.Claw	COST:75	WT:3	WIELD:Light	SLOTS:1	SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:AeEG											
+Claw (Tiger)			PROFICIENCY:WEAPON|Claw (Tiger)	TYPE:Weapon.Exotic.Melee.Piercing.Light.Claw	COST:5	WT:2	WIELD:Light	SLOTS:1	SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG											
+Dagger (Stump)			PROFICIENCY:WEAPON|Dagger (Stump)	TYPE:Weapon.Exotic.Melee.Piercing.Light.Dagger	COST:8	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG											
+Dagger (Triple)			PROFICIENCY:WEAPON|Dagger (Triple)	TYPE:Weapon.Exotic.Melee.Piercing.Light.Dagger	COST:10	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG											
+Gauntlet (Ward Cestus)			PROFICIENCY:WEAPON|Gauntlet (Ward Cestus)	TYPE:Weapon.Exotic.Melee.Bludgeoning.Unarmed.Gauntlet	COST:10	WT:4	WIELD:Light		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG									BONUS:VAR|TotalDefenseAC|1		
+Gauntlet (Bladed)			PROFICIENCY:WEAPON|Gauntlet (Bladed)	TYPE:Weapon.Exotic.Melee.Slashing.Light.Gauntlet	COST:30	WT:4	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG									BONUS:VAR|TotalDefenseAC|1		
+# Sai			PROFICIENCY:WEAPON|Sai	TYPE:Weapon.Exotic.Melee.Piercing.Light	COST:1	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG											
+Sapara			PROFICIENCY:WEAPON|Sapara	TYPE:Weapon.Exotic.Melee.Slashing.Light	COST:15	WT:6	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG											
+Sword (Butterfly)			PROFICIENCY:WEAPON|Sword (Butterfly)	TYPE:Weapon.Exotic.Melee.Slashing.Light.Sword	COST:10	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG											
+Tonfa			PROFICIENCY:WEAPON|Tonfa	TYPE:Weapon.Exotic.Melee.Bludgeoning.Light	COST:0.2	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:AeEG											
+War Fan			PROFICIENCY:WEAPON|War Fan	TYPE:Weapon.Exotic.Melee.Slashing.Light	COST:30	WT:3	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:AeEG											
+## OneHanded																									
+Chain-and-Dagger			PROFICIENCY:WEAPON|Chain-and-Dagger	TYPE:Weapon.Exotic.Melee.Piercing.OneHanded.Dagger	COST:4	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG											
+Khopesh			PROFICIENCY:WEAPON|Khopesh	TYPE:Weapon.Exotic.Melee.Slashing.OneHanded.Sword	COST:20	WT:12	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG											
+Longsword (Mercurial)			PROFICIENCY:WEAPON|Longsword (Mercurial)	TYPE:Weapon.Exotic.Melee.Slashing.OneHanded.Sword	COST:400	WT:6	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x4	EQMOD:STEEL.MWORKW.EQ_COST_ADJ|300	SOURCEPAGE:AeEG											
+## TwoHanded																									
+Battlepick (Gnome)			PROFICIENCY:WEAPON|Battlepick (Gnome)	TYPE:Weapon.Martial.Exotic.Melee.Piercing.TwoHanded.Pick.Gnomish	COST:10	WT:5	WIELD:TwoHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x4	EQMOD:STEEL	SOURCEPAGE:AeEG									BONUS:WEAPON|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Battlepick (Gnome))		
+Duom			PROFICIENCY:WEAPON|Duom	TYPE:Weapon.Martial.Exotic.Melee.Piercing.TwoHanded	COST:20	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD	SOURCEPAGE:AeEG											
+Greatsword (Mercurial)			PROFICIENCY:WEAPON|Greatsword (Mercurial)	TYPE:Weapon.Melee.Exotic.Slashing.TwoHanded.Sword	COST:600	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x4	EQMOD:STEEL.MWORKW.EQ_COST_ADJ|300	SOURCEPAGE:AeEG											
+Gyrspike			PROFICIENCY:WEAPON|Gyrspike	TYPE:Weapon.Melee.Exotic.Bludgeoning.TwoHanded.Double	COST:90	WT:20	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG		ALTTYPE:Weapon.Melee.Exotic.Slashing	ALTDAMAGE:1d8	ALTCRITRANGE:2	ALTCRITMULT:x2	ALTEQMOD:STEEL					
+Mace (Double)			PROFICIENCY:WEAPON|Mace (Double)	TYPE:Weapon.Melee.Exotic.Bludgeoning.TwoHanded.Double.Mace	COST:125	WT:25	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG		ALTTYPE:Weapon.Melee.Exotic.Bludgeoning	ALTDAMAGE:1d8	ALTCRITRANGE:1	ALTCRITMULT:x2	ALTEQMOD:STEEL					
+Scimitar (Double)			PROFICIENCY:WEAPON|Scimitar (Double)	TYPE:Weapon.Melee.Exotic.Slashing.TwoHanded.Double.Scimitar	COST:125	WT:15	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d6	CRITRANGE:3	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG		ALTTYPE:Weapon.Melee.Exotic.Slashing	ALTDAMAGE:1d6	ALTCRITRANGE:3	ALTCRITMULT:x2	ALTEQMOD:STEEL					
+Staff (Three-Section)			PROFICIENCY:WEAPON|Staff (Three-Section)	TYPE:Weapon.Melee.Exotic.Bludgeoning.TwoHanded.Quarterstaff	COST:4	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD	SOURCEPAGE:AeEG											
+Fullblade			PROFICIENCY:WEAPON|Fullblade	TYPE:Weapon.Martial.Exotic.Melee.Slashing.TwoHanded.Sword	COST:100	WT:23	WIELD:TwoHanded		SIZE:L	DAMAGE:2d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG									BONUS:WEAPON|WIELDCATEGORY|-1|PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Fullblade)		
+## Ranged																									
+Fukimi-Bari			PROFICIENCY:WEAPON|Fukimi-Bari	TYPE:Weapon.Exotic.Ranged.Piercing.Light	COST:1	WT:0.1	WIELD:Light		SIZE:M	DAMAGE:1	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG	SPROP:no STR applied to damage.						RANGE:5				
+Skiprock (Halfling)			PROFICIENCY:WEAPON|Skiprock (Halfling)	TYPE:Weapon.Exotic.Ranged.Bludgeoning.Light.Halfling	COST:3	WT:0.25	WIELD:Light		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG	SPROP:second target with -2 to hit penalty on attack roll.						RANGE:10				
+Bolas (Two-Ball)			PROFICIENCY:WEAPON|Bolas (Two-Ball)	TYPE:Weapon.Exotic.Ranged.Bludgeoning.Light.Thrown.Bolas	COST:5	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG							RANGE:10				
+Calculus (Gnome)			PROFICIENCY:WEAPON|Calculus (Gnome)	TYPE:Weapon.Exotic.Ranged.Light.Sling.Gnome.Container	COST:50	WT:2	WIELD:Light		SIZE:M	DAMAGE:0			EQMOD:STEEL	SOURCEPAGE:AeEG	SPROP:damage are based on projectile effects.						RANGE:50		CONTAINS:UNLIM|Total=1|Potion=1|Flask=1		
+Chakram			PROFICIENCY:WEAPON|Chakram	TYPE:Weapon.Exotic.Ranged.Light.Thrown	COST:15	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:AeEG							RANGE:30				
+Throwing Iron			PROFICIENCY:WEAPON|Throwing Iron	TYPE:Weapon.Exotic.Ranged.Slashing.Light.Thrown	COST:8	WT:3	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:AeEG							RANGE:30				
+Whip-Dagger			PROFICIENCY:WEAPON|Whip-Dagger	TYPE:Weapon.Exotic.Melee.Slashing.Light.Reach.Whip	COST:25	WT:3	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:LEATHER	SOURCEPAGE:AeEG								REACH:15	BONUS:WEAPON|DAMAGE|min(STR,0)		
+Gauntlet (Spring Loaded)			PROFICIENCY:WEAPON|Gauntlet (Spring Loaded)	TYPE:Weapon.Exotic.Melee.Ranged.Piercing.OneHanded.Finesseable.Unarmed.Gauntlet.Container	COST:200	WT:3	WIELD:OneHanded	SLOTS:1	SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:AeEG							RANGE:20		CONTAINS:1|Bolt=1		
+Javelin (Spinning)			PROFICIENCY:WEAPON|Javelin (Spinning)	TYPE:Weapon.Exotic.Ranged.Piercing.OneHanded.Thrown.Javelin	COST:2	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:AeEG							RANGE:50				
+Crossbow (Great)			PROFICIENCY:WEAPON|Crossbow (Great)	TYPE:Weapon.Exotic.Ranged.Piercing.TwoHanded.Container.Crossbow	COST:100	WT:15	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d12	CRITRANGE:2	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:AeEG							RANGE:150		CONTAINS:1|Bolt=1		
+Bow (Double/Elven)			PROFICIENCY:WEAPON|Bow (Double/Elven)	TYPE:Weapon.Exotic.Ranged.Piercing.TwoHanded.Container.Bow.Longbow.Elven	COST:1000	WT:3	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD	SOURCEPAGE:AeEG	SPROP:you can fire 2 arrows at once|PREABILITY:1,CATEGORY=Special Ability,Exotic Weapon Proficiency (Bow (Double/Elven))						RANGE:90		CONTAINS:2|Arrow=2	BONUS:WEAPON|DAMAGE|min(STR,0)	
+Bow (Double/Elven/Composite)	OUTPUTNAME:Bow (Double/Elven/Composite STR)		PROFICIENCY:WEAPON|Bow (Double/Elven)	TYPE:Weapon.Exotic.Ranged.Piercing.TwoHanded.Container.Bow.Composite.Longbow.Elven	COST:1000	WT:3	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD	SOURCEPAGE:AeEG	SPROP:you can fire 2 arrows at once|PREABILITY:1,CATEGORY=Special Ability,Exotic Weapon Proficiency(Bow (Double/Elven))						RANGE:90		CONTAINS:2|Arrow=2	BONUS:WEAPON|DAMAGE|min(STR,0)	MODS:REQUIRED
+Bow (Double/Elven/Composite +0)	OUTPUTNAME:Bow (Double/Elven/Composite +0)		PROFICIENCY:WEAPON|Bow (Double/Elven)	TYPE:Weapon.Exotic.Ranged.Piercing.TwoHanded.Container.Bow.Composite.Longbow.Elven	COST:1000	WT:3	WIELD:TwoHanded	SLOTS:2	SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x3	EQMOD:WOOD	SOURCEPAGE:AeEG	SPROP:you can fire 2 arrows at once|PREABILITY:1,CATEGORY=Special Ability,Exotic Weapon Proficiency(Bow (Double/Elven))						RANGE:90		CONTAINS:2|Arrow=2	BONUS:WEAPON|DAMAGE|min(STR,0)	MODS:NO
+Harpoon			PROFICIENCY:WEAPON|Harpoon	TYPE:Weapon.Exotic.Ranged.Piercing.TwoHanded.Thrown	COST:15	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD	SOURCEPAGE:AeEG							RANGE:30				
+Shotput			PROFICIENCY:WEAPON|Shotput	TYPE:Weapon.Exotic.Melee.Standard.Bludgeoning.TwoHanded.Thrown.Orc	COST:10	WT:15	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x3	EQMOD:STEEL	SOURCEPAGE:AeEG							RANGE:10			BONUS:WEAPON|TOHIT|-3	BONUS:WEAPON|TOHIT|+3|PREMULT:2,[PREABILITY:1,CATEGORY=FEAT,Exotic Weapon Proficiency (Shotput)],[PRESIZEGTEQ:M]
+																									
+# Arrows																									
+Arrow (Alchemist's)				TYPE:Ammunition.Arrow	COST:75	WT:0.20							EQMOD:STEEL.WOOD	SOURCEPAGE:PHB	SPROP:Alchemist's fire one round after impact.								MODS:YES		
+Arrow (Blunt)				TYPE:Ammunition.Arrow	COST:0.5	WT:0.20							EQMOD:STEEL.WOOD	SOURCEPAGE:PHB	SPROP:Subdual damage.								MODS:YES		
+Arrow (Flight)				TYPE:Ammunition.Arrow	COST:8	WT:0.20							EQMOD:STEEL.WOOD	SOURCEPAGE:PHB	SPROP:Range increase by 25-ft.								MODS:YES		
+Arrow (Signal)				TYPE:Ammunition.Arrow	COST:0.5	WT:0.20							EQMOD:STEEL.WOOD	SOURCEPAGE:PHB	SPROP:-2 circumstance penalty on attack rolls.								MODS:YES		
+Arrow (Thundering)				TYPE:Ammunition.Arrow	COST:2	WT:0.33							EQMOD:STEEL.WOOD	SOURCEPAGE:PHB	SPROP:Thunderstones effect on target.								MODS:YES		
+Bolt (Tumbling)				TYPE:Ammunition.Bolt	COST:5	WT:0.20							EQMOD:STEEL.WOOD	SOURCEPAGE:PHB	SPROP:+2 damage but one-half range increment.								MODS:YES		
+																									
+Whip (Mighty STR)	OUTPUTNAME:Whip (Mighty STR)		PROFICIENCY:WEAPON|Whip	TYPE:Weapon.Melee.Exotic.Slashing.OneHanded.Whip.Mighty	COST:100	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	EQMOD:LEATHER	SOURCEPAGE:PHB								REACH:15	BONUS:WEAPON|DAMAGE|min(STR,0)	MODS:REQUIRED	
+Whip (Mighty +0)	OUTPUTNAME:Whip (Mighty +0)		PROFICIENCY:WEAPON|Whip	TYPE:Weapon.Melee.Exotic.Slashing.OneHanded.Whip.Mighty	COST:100	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	EQMOD:LEATHER	SOURCEPAGE:PHB								REACH:15	BONUS:WEAPON|DAMAGE|min(STR,0)	MODS:NO	
+Whip-Dagger (Mighty STR)	OUTPUTNAME:Whip-Dagger (Mighty STR)		PROFICIENCY:WEAPON|Whip-Dagger	TYPE:Weapon.Exotic.Melee.Slashing.Light.Reach.Whip.WhipDagger.Mighty	COST:100	WT:3	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:LEATHER	SOURCEPAGE:AeEG								REACH:15	BONUS:WEAPON|DAMAGE|min(STR,0)	MODS:REQUIRED	
+Whip-Dagger (Mighty +0)	OUTPUTNAME:Whip-Dagger (Mighty +0)		PROFICIENCY:WEAPON|Whip-Dagger	TYPE:Weapon.Exotic.Melee.Slashing.Light.Reach.Whip.WhipDagger.Mighty	COST:100	WT:3	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:LEATHER	SOURCEPAGE:AeEG								REACH:15	BONUS:WEAPON|DAMAGE|min(STR,0)	MODS:NO	

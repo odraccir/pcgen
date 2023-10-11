@@ -1,4 +1,4 @@
-SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11					
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11
 								
 #	SOURCEPAGE:SpellListI.rtf		SPELLLEVEL:DOMAIN|=1||=2||=3||=4||=5||=6||=7||=8||=9|	DESC:				
 Courage	SOURCEPAGE:CW	PREMULT:1,[PREVARLT:DomainNotAllowed,1],[PREVAREQ:AllowDomainCourage,1]	SPELLLEVEL:DOMAIN|Courage=1|Remove Fear|Courage=2|Aid|Courage=3|Cloak of Bravery|Courage=4|Heroism|Courage=5|Valiant Fury|Courage=6|Heroes' Feast|Courage=7|Heroism (Greater)|Courage=8|Lion's Roar|Courage=9|Cloak of Bravery (Greater)	DESC:You radiate an aura of courage that grants all allies within 10 feet (including yourself) a +4 morale bonus on saving throws against fear effects. This supernatural ability functions while you are conscious, but not if you are unconscious or dead.		ABILITY:Special Ability|AUTOMATIC|Resistance to Fear	BONUS:VAR|FearResistanceBonus|4|TYPE=Morale	

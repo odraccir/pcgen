@@ -1,5 +1,5 @@
-SOURCELONG:Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04																													
-																																
+SOURCELONG:Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04
+
 ###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 Immortal	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:YES		KEY:Deity ~ Immortal																											SOURCEPAGE:DaD
 Divine Rank	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:YES	DESC:Divine Rank %1.|DivineRank	KEY:Deity ~ Divine Rank				DEFINE:DivineRank|0																							SOURCEPAGE:DaD

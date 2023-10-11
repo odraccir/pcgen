@@ -1,0 +1,9 @@
+SOURCELONG:Noble Steed 3.0	SOURCESHORT:NS30	SOURCEWEB:http://www.avalanchepress.com
+
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+Steed Training	CATEGORY:Internal	TYPE:TrainingLevel.SpecialQuality	VISIBLE:YES	DESC:Access to Breeding and Steed Class.	KEY:Training ~ Steed Training	COST:0	PREABILITY:1,CATEGORY=Internal,Training ~ Rideable				DEFINE:SteedLVL|0			BONUS:VAR|TrainingLevel|1	BONUS:ABILITYPOOL|Breed Classification|1	BONUS:ABILITYPOOL|Breed Quality|1																SOURCEPAGE:NS
+																																
+###Block: Breed Classification																																
+Typical	CATEGORY:Internal	TYPE:BreedClassification	VISIBLE:DISPLAY	DESC:Typical breed of the species, common creature.	KEY:Breed Classification ~ Typical																											SOURCEPAGE:NS
+Purebreed	CATEGORY:Internal	TYPE:BreedClassification	VISIBLE:DISPLAY	DESC:Purebreed, unique beauty and perfect structure.	KEY:Breed Classification ~ Purebreed									BONUS:STAT|CHA|2																		SOURCEPAGE:NS
+Exceptional	CATEGORY:Internal	TYPE:BreedClassification	VISIBLE:DISPLAY	DESC:Exceptional, rare creature amogs the same race.	KEY:Breed Classification ~ Exceptional									BONUS:STAT|CHA|2									TEMPLATE:Breed Classification ~ Exceptional									SOURCEPAGE:NS

@@ -1,0 +1,6 @@
+SOURCELONG:Savage Species 3.0	SOURCESHORT:SS30	SOURCEWEB:http://www.gozzilioni.net
+#																																																		
+# Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:																																													
+Perform (Chant)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Chant)	SOURCEPAGE:SS30	VISIBLE:DISPLAY																																												
+Perform (Chant)	USEUNTRAINED:YES		KEYSTAT:CHA	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Perform ~ Chant	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Perform (Chant).MISC"),var("SKILL.Perform (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Perform (Chant)"),1]																																									
+Perform (Untrained).MOD								BONUS:SKILL|Perform ~ Act|var("SKILL.Perform (Chant).MISC")	BONUS:SKILLRANK|Perform ~ Chant|skillinfo("TOTALRANK", "Perform (Chant)")																																									

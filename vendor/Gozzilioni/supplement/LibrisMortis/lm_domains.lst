@@ -1,4 +1,4 @@
-SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-10			
+SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-10
 						
 #Domain	SOURCEPAGE:SpellListI.rtf			SPELLLEVEL:DOMAIN|Domain=0|Domain=1||Domain=2||Domain=3||Domain=4||Domain=5||Domain=6||Domain=7||Domain=8||Domain=9|	DESC:	
 Deathbound	SOURCEPAGE:LM	PREMULT:1,[PREVARLT:DomainNotAllowed,1],[PREVAREQ:AllowDomainDeathbound,1]	SPELLLEVEL:DOMAIN|Deathbound=1|Chill of the Grave|Deathbound=2|Blade of Pain and Fear|Deathbound=3|Fangs of the Vampire King|Deathbound=4|Wither Limb|Deathbound=5|Revive Undead|Deathbound=6|Awaken Undead|Deathbound=7|Avasculate|Deathbound=8|Avascular Mass|Deathbound=9|Wail of the Banshee	DESC:Your limit for controlling undead animated with spells increases to three times your caster level instead of the normal two times caster level.		ABILITY:FEAT|AUTOMATIC|Spell Focus (Enchantment)

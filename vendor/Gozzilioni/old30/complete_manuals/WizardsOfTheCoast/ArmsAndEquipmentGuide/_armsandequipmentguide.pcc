@@ -1,0 +1,63 @@
+CAMPAIGN:Arms and Equipment Guide 3.0
+GAMEMODE:G35e
+RANK:3
+TYPE:Gozzilioni.Partial.Old
+SETTING:Heroes
+BOOKTYPE:Accessory
+SOURCELONG:Arms and Equipment Guide 3.0
+SOURCESHORT:AaEG30
+SOURCEWEB:http://www.gozzilioni.net
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+
+PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Guide
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:missing.txt
+
+ABILITY:aaeg_abilities.lst
+# ABILITY:motp_abilities_classes.lst
+ABILITY:aaeg_abilities_races.lst
+# ABILITY:motp_abilities_templates.lst
+ABILITYCATEGORY:aaeg_abilitycategories.lst
+# CLASS:motp_classes.lst
+# COMPANIONMOD:ss_companionmods.lst
+# DOMAIN:ss_domains.lst
+EQUIPMENT:aaeg_equip.lst
+EQUIPMENT:aaeg_equip_armors.lst
+EQUIPMENT:aaeg_equip_armors_specific.lst
+EQUIPMENT:aaeg_equip_magic_items.lst
+EQUIPMENT:aaeg_equip_weapons.lst
+EQUIPMENT:aaeg_equip_weapons_specific.lst
+# EQUIPMENT:motp_equip_weapons_natural.lst
+EQUIPMOD:aaeg_equipmods.lst
+ABILITY:aaeg_feats.lst
+KIT:aaeg_kits.lst
+# LANGUAGE:mm2_languages.lst
+ARMORPROF:aaeg_profs_armor.lst
+SHIELDPROF:aaeg_profs_shield.lst
+WEAPONPROF:aaeg_profs_weapon.lst
+RACE:aaeg_races.lst
+# RACE:ss_races_companion.lst
+SKILL:aaeg_skills.lst
+# SPELL:motp_spells.lst
+# ABILITY:motp_subraces.lst
+# TEMPLATE:motp_templates.lst
+#
+FORWARDREF:WEAPONPROF|Maul,Sai
+FORWARDREF:EQUIPMENT|Maul,Sai
+HIDETYPE:SKILL|Perform (Buffoonery)
+# HIDETYPE:FEAT|Wizard
+
+# ENTRY DATE: 2016-07
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

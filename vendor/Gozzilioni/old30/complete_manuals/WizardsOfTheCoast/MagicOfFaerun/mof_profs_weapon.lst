@@ -1,0 +1,14 @@
+SOURCELONG:Magic of Faerun 3.0	SOURCESHORT:MoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
+#			
+### Weapon/Spell			
+Spellfire	TYPE:Spell.Simple.Ranged.Touch.RangedTouch.Spellfire
+### Simple/Martial/Exotic			
+### Melee/Ranged			
+### Bludgeoning/Piercing/Slashing			
+### Reach/Double/Thrown/Projectile/Ammunition			
+### Unharmed/Light/OneHanded/TwoHanded			
+###Automatic			
+###Improvised			
+###Simple			
+###Martial			
+###Exotic			

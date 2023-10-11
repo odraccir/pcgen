@@ -1,9 +1,0 @@
-SOURCELONG:Magic of Faerun 3.0	SOURCESHORT:MoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
-																																
-###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	DESC:Beholder mage neither gain nor lose proficiency with any weapons, armor, or shields by gaining levels in this class.					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
-CATEGORY=Special Ability|Hathran ~ Spells per Day.MOD	SPELLLEVEL:CLASS|SPELLCASTER.Arcane=2|Flame Dagger
-CATEGORY=Special Ability|Hathran ~ Spells per Day.MOD	SPELLLEVEL:CLASS|SPELLCASTER.Arcane=1|Handfire
-CATEGORY=Special Ability|Hathran ~ Spells per Day.MOD	SPELLLEVEL:CLASS|SPELLCASTER.Arcane=4|Land Womb
-CATEGORY=Special Ability|Hathran ~ Spells per Day.MOD	SPELLLEVEL:CLASS|SPELLCASTER.Arcane=1|Low-Light Vision
-CATEGORY=Special Ability|Hathran ~ Spells per Day.MOD	SPELLLEVEL:CLASS|SPELLCASTER.Arcane=0|Naturewatch
-CATEGORY=Special Ability|Hathran ~ Spells per Day.MOD	SPELLLEVEL:CLASS|SPELLCASTER.Arcane=2|One with the Land
