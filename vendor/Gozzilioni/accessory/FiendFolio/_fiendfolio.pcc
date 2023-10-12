@@ -46,7 +46,7 @@ SPELL:ff_spells.lst
 ABILITY:ff_subraces.lst
 TEMPLATE:ff_templates.lst
 #
-SKILL:&/Gozzilioni/old30/complete_manuals/SavageSpecies/ss_skills.lst|!PRECAMPAIGN:1,INCLUDES=Savage Species 3.0
+SKILL:&/Gozzilioni/old30/complete_manuals/WizardsOfTheCoast/SavageSpecies/ss_skills.lst|!PRECAMPAIGN:1,INCLUDES=Savage Species 3.0
 #
 HIDETYPE:SKILL|Profession (Siege Engineer)|Profession (Soldier)|Perform (Melody)|Perform (Ode)|Perform (Storytelling)
 # HIDETYPE:FEAT|AllegianceTier|AnointedKnight|ExaltedArcanist|InitiateOfPistisSophia|CallFlyingMount|VassalOfBahamut|Wonderworker

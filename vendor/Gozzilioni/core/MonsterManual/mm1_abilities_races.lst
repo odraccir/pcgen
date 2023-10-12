@@ -548,7 +548,7 @@ CATEGORY=Internal|Race Traits ~ Dragon (Black).MOD														BONUS:MISC|CR|3|
 #LevelAdj																																	
 CATEGORY=Internal|Race Traits ~ Dragon (Black).MOD														BONUS:VAR|DragonLevelAdjustment|3|PREVARGTEQ:DragonAgeCategory,1|PREVARLTEQ:DragonAgeCategory,3			BONUS:VAR|DragonLevelAdjustment|4|PREVAREQ:DragonAgeCategory,4																
 #size																																	
-CATEGORY=Internal|Race Traits ~ Dragon (Black).MOD														BONUS:VAR|DragonSizeGroup|1|TYPE=Base
+CATEGORY=Internal|Race Traits ~ Dragon (Black).MOD														BONUS:VAR|DragonSizeGroup|1|TYPE=Base																			
 #stats																																	
 CATEGORY=Internal|Race Traits ~ Dragon (Black).MOD															BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,2	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,3	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,4	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,5	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,6	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,7	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,8	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,9	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,10	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,11	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,12								
 CATEGORY=Internal|Race Traits ~ Dragon (Black).MOD																																	
@@ -576,7 +576,7 @@ CATEGORY=Internal|Race Traits ~ Dragon (Blue).MOD														BONUS:MISC|CR|3|P
 #LevelAdj																																	
 CATEGORY=Internal|Race Traits ~ Dragon (Blue).MOD														BONUS:VAR|DragonLevelAdjustment|4|PREVARGTEQ:DragonAgeCategory,1|PREVARLTEQ:DragonAgeCategory,2		BONUS:VAR|DragonLevelAdjustment|5|PREVAREQ:DragonAgeCategory,3																	
 #size																																	
-CATEGORY=Internal|Race Traits ~ Dragon (Blue).MOD														BONUS:VAR|DragonSizeGroup|2|TYPE=Base
+CATEGORY=Internal|Race Traits ~ Dragon (Blue).MOD														BONUS:VAR|DragonSizeGroup|2|TYPE=Base																			
 #stats																																	
 CATEGORY=Internal|Race Traits ~ Dragon (Blue).MOD														BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,1	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,2	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,3	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,4	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,5	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,6	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,7	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,8	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,9	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,10	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,11	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,12								
 CATEGORY=Internal|Race Traits ~ Dragon (Blue).MOD																																	
@@ -604,7 +604,7 @@ CATEGORY=Internal|Race Traits ~ Dragon (Green).MOD														BONUS:MISC|CR|3|
 #LevelAdj																																	
 CATEGORY=Internal|Race Traits ~ Dragon (Green).MOD														BONUS:VAR|DragonLevelAdjustment|5|PREVARGTEQ:DragonAgeCategory,1|PREVARLTEQ:DragonAgeCategory,3			BONUS:VAR|DragonLevelAdjustment|6|PREVAREQ:DragonAgeCategory,4																
 #size																																	
-CATEGORY=Internal|Race Traits ~ Dragon (Green).MOD														BONUS:VAR|DragonSizeGroup|2|TYPE=Base
+CATEGORY=Internal|Race Traits ~ Dragon (Green).MOD														BONUS:VAR|DragonSizeGroup|2|TYPE=Base																			
 #stats																																	
 CATEGORY=Internal|Race Traits ~ Dragon (Green).MOD														BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,1	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,2	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,3	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,4	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,5	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,6	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,7	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,8	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,9	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,10	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,11	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,12								
 CATEGORY=Internal|Race Traits ~ Dragon (Green).MOD																																	
@@ -631,7 +631,7 @@ CATEGORY=Internal|Race Traits ~ Dragon (Red).MOD														BONUS:MISC|CR|4|PR
 #LevelAdj																																	
 CATEGORY=Internal|Race Traits ~ Dragon (Red).MOD														BONUS:VAR|DragonLevelAdjustment|4|PREVAREQ:DragonAgeCategory,1	BONUS:VAR|DragonLevelAdjustment|5|PREVAREQ:DragonAgeCategory,2	BONUS:VAR|DragonLevelAdjustment|6|PREVAREQ:DragonAgeCategory,3																	
 #size																																	
-CATEGORY=Internal|Race Traits ~ Dragon (Red).MOD														BONUS:VAR|DragonSizeGroup|3|TYPE=Base
+CATEGORY=Internal|Race Traits ~ Dragon (Red).MOD														BONUS:VAR|DragonSizeGroup|3|TYPE=Base																			
 #stats																																	
 CATEGORY=Internal|Race Traits ~ Dragon (Red).MOD														BONUS:STAT|STR|6|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,1	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,2	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,3	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,4	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,5	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,6		BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,8	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,9	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,10	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,11	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,12								
 CATEGORY=Internal|Race Traits ~ Dragon (Red).MOD																																	
@@ -657,7 +657,7 @@ CATEGORY=Internal|Race Traits ~ Dragon (White).MOD														BONUS:MISC|CR|2|
 #LevelAdj																																	
 CATEGORY=Internal|Race Traits ~ Dragon (White).MOD														BONUS:VAR|DragonLevelAdjustment|2|PREVAREQ:DragonAgeCategory,1	BONUS:VAR|DragonLevelAdjustment|3|PREVARGTEQ:DragonAgeCategory,2|PREVARLTEQ:DragonAgeCategory,3		BONUS:VAR|DragonLevelAdjustment|5|PREVAREQ:DragonAgeCategory,4																
 #size																																	
-CATEGORY=Internal|Race Traits ~ Dragon (White).MOD														BONUS:VAR|DragonSizeGroup|1|TYPE=Base
+CATEGORY=Internal|Race Traits ~ Dragon (White).MOD														BONUS:VAR|DragonSizeGroup|1|TYPE=Base																			
 #stats																																	
 CATEGORY=Internal|Race Traits ~ Dragon (White).MOD															BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,2	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,3	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,4	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,5	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,6	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,7	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,8	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,9	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,10	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,11	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,12								
 CATEGORY=Internal|Race Traits ~ Dragon (White).MOD																																	
@@ -685,7 +685,7 @@ CATEGORY=Internal|Race Traits ~ Dragon (Brass).MOD														BONUS:MISC|CR|3|
 #LevelAdj																																	
 CATEGORY=Internal|Race Traits ~ Dragon (Brass).MOD														BONUS:VAR|DragonLevelAdjustment|2|PREVAREQ:DragonAgeCategory,1	BONUS:VAR|DragonLevelAdjustment|3|PREVAREQ:DragonAgeCategory,2	BONUS:VAR|DragonLevelAdjustment|4|PREVARGTEQ:DragonAgeCategory,3|PREVARLTEQ:DragonAgeCategory,4																	
 #size																																	
-CATEGORY=Internal|Race Traits ~ Dragon (Brass).MOD														BONUS:VAR|DragonSizeGroup|1|TYPE=Base
+CATEGORY=Internal|Race Traits ~ Dragon (Brass).MOD														BONUS:VAR|DragonSizeGroup|1|TYPE=Base																			
 #stats																																	
 CATEGORY=Internal|Race Traits ~ Dragon (Brass).MOD															BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,2	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,3	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,4	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,5	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,6	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,7	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,8	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,9	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,10	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,11	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,12								
 CATEGORY=Internal|Race Traits ~ Dragon (Brass).MOD																																	
@@ -713,7 +713,7 @@ CATEGORY=Internal|Race Traits ~ Dragon (Bronze).MOD														BONUS:MISC|CR|3
 #LevelAdj																																	
 CATEGORY=Internal|Race Traits ~ Dragon (Bronze).MOD														BONUS:VAR|DragonLevelAdjustment|4|PREVARGTEQ:DragonAgeCategory,1|PREVARLTEQ:DragonAgeCategory,2		BONUS:VAR|DragonLevelAdjustment|6|PREVAREQ:DragonAgeCategory,3																	
 #size																																	
-CATEGORY=Internal|Race Traits ~ Dragon (Bronze).MOD														BONUS:VAR|DragonSizeGroup|2|TYPE=Base
+CATEGORY=Internal|Race Traits ~ Dragon (Bronze).MOD														BONUS:VAR|DragonSizeGroup|2|TYPE=Base																			
 #stats																																	
 CATEGORY=Internal|Race Traits ~ Dragon (Bronze).MOD														BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,1	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,2	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,3	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,4	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,5	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,6	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,7	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,8	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,9	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,10	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,11	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,12								
 CATEGORY=Internal|Race Traits ~ Dragon (Bronze).MOD																																	
@@ -743,7 +743,7 @@ CATEGORY=Internal|Race Traits ~ Dragon (Copper).MOD														BONUS:MISC|CR|3
 #LevelAdj																																	
 CATEGORY=Internal|Race Traits ~ Dragon (Copper).MOD														BONUS:VAR|DragonLevelAdjustment|2|PREVAREQ:DragonAgeCategory,1	BONUS:VAR|DragonLevelAdjustment|3|PREVAREQ:DragonAgeCategory,2	BONUS:VAR|DragonLevelAdjustment|4|PREVARGTEQ:DragonAgeCategory,3|PREVARLTEQ:DragonAgeCategory,4																	
 #size																																	
-CATEGORY=Internal|Race Traits ~ Dragon (Copper).MOD														BONUS:VAR|DragonSizeGroup|1|TYPE=Base
+CATEGORY=Internal|Race Traits ~ Dragon (Copper).MOD														BONUS:VAR|DragonSizeGroup|1|TYPE=Base																			
 #stats																																	
 CATEGORY=Internal|Race Traits ~ Dragon (Copper).MOD															BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,2	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,3	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,4	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,5	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,6	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,7	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,8	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,9	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,10	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,11	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,12								
 CATEGORY=Internal|Race Traits ~ Dragon (Copper).MOD																																	
@@ -770,7 +770,7 @@ CATEGORY=Internal|Race Traits ~ Dragon (Gold).MOD														BONUS:MISC|CR|5|P
 #LevelAdj																																	
 CATEGORY=Internal|Race Traits ~ Dragon (Gold).MOD														BONUS:VAR|DragonLevelAdjustment|4|PREVAREQ:DragonAgeCategory,1	BONUS:VAR|DragonLevelAdjustment|5|PREVAREQ:DragonAgeCategory,2	BONUS:VAR|DragonLevelAdjustment|6|PREVAREQ:DragonAgeCategory,3																	
 #size																																	
-CATEGORY=Internal|Race Traits ~ Dragon (Gold).MOD														BONUS:VAR|DragonSizeGroup|3|TYPE=Base
+CATEGORY=Internal|Race Traits ~ Dragon (Gold).MOD														BONUS:VAR|DragonSizeGroup|3|TYPE=Base																			
 #stats																																	
 CATEGORY=Internal|Race Traits ~ Dragon (Gold).MOD														BONUS:STAT|STR|6|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,1	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,2	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,3	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,4	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,5	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,6	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,7	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,8	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,9	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,10	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,11	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,12								
 CATEGORY=Internal|Race Traits ~ Dragon (Gold).MOD																																	
@@ -800,7 +800,7 @@ CATEGORY=Internal|Race Traits ~ Dragon (Silver).MOD														BONUS:MISC|CR|4
 #LevelAdj																																	
 CATEGORY=Internal|Race Traits ~ Dragon (Silver).MOD														BONUS:VAR|DragonLevelAdjustment|4|PREVARGTEQ:DragonAgeCategory,1|PREVARLTEQ:DragonAgeCategory,2		BONUS:VAR|DragonLevelAdjustment|5|PREVAREQ:DragonAgeCategory,3																	
 #size																																	
-CATEGORY=Internal|Race Traits ~ Dragon (Silver).MOD														BONUS:VAR|DragonSizeGroup|3|TYPE=Base
+CATEGORY=Internal|Race Traits ~ Dragon (Silver).MOD														BONUS:VAR|DragonSizeGroup|3|TYPE=Base																			
 #stats																																	
 CATEGORY=Internal|Race Traits ~ Dragon (Silver).MOD														BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,1	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,2	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,3	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,4	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,5	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,6	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,7	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,8	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,9	BONUS:STAT|STR|2|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,10	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,11	BONUS:STAT|STR|4|TYPE=Racial.STACK|PREVARGTEQ:DragonAgeCategory,12								
 CATEGORY=Internal|Race Traits ~ Dragon (Silver).MOD																																	
@@ -2140,10 +2140,14 @@ Training	CATEGORY:Special Ability	TYPE:AnimalElephantRaceTrait.SpecialQuality	VI
 Race Traits ~ Animal (Hawk)	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=AnimalHawkRaceTrait											BONUS:VAR|Maneuverability|3|TYPE=Base																			
 Skills	CATEGORY:Special Ability	TYPE:AnimalHawkRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Hawks have a +8 racial bonus on Spot checks.	KEY:Animal (Hawk) ~ Skills									BONUS:SKILL|Spot|8|TYPE=Racial																		SOURCEPAGE:MM1	
 																																	
-Race Traits ~ Animal (Horse (Heavy))	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=AnimalHorseHeavyRaceTrait|Scent																														
+# Race Traits ~ Animal (Horse (Heavy))	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=AnimalHorseHeavyRaceTrait|Scent																														
+Race Traits ~ Animal (Horse (Heavy))	CATEGORY:Internal																						ABILITY:Special Ability|AUTOMATIC|Animal (Horse (Heavy)) Racial Traits	ABILITY:Animal (Horse (Heavy)) Subrace|AUTOMATIC|Animal (Horse (Heavy)) ~ Common|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice									
+Animal (Horse (Heavy)) Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:DISPLAY		KEY:Animal (Horse (Heavy)) Racial Traits																											SOURCEPAGE:MM1	
 Training	CATEGORY:Special Ability	TYPE:AnimalHorseHeavyRaceTrait.SpecialQuality	VISIBLE:YES		KEY:Animal (Horse (Heavy)) ~ Training																		ABILITY:Internal|AUTOMATIC|Training ~ Wild									SOURCEPAGE:MM1	
 																																	
-Race Traits ~ Animal (Horse (Light))	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=AnimalHorseLightRaceTrait|Scent																														
+# Race Traits ~ Animal (Horse (Light))	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=AnimalHorseLightRaceTrait|Scent																														
+Race Traits ~ Animal (Horse (Light))	CATEGORY:Internal																						ABILITY:Special Ability|AUTOMATIC|Animal (Horse (Light)) Racial Traits	ABILITY:Animal (Horse (Light)) Subrace|AUTOMATIC|Animal (Horse (Light)) ~ Common|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice									
+Animal (Horse (Light)) Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:DISPLAY		KEY:Animal (Horse (Light)) Racial Traits																											SOURCEPAGE:MM1	
 Training	CATEGORY:Special Ability	TYPE:AnimalHorseLightRaceTrait.SpecialQuality	VISIBLE:YES		KEY:Animal (Horse (Light)) ~ Training																		ABILITY:Internal|AUTOMATIC|Training ~ Wild									SOURCEPAGE:MM1	
 																																	
 Race Traits ~ Animal (Warhorse (Heavy))	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=AnimalWarhorseHeavyRaceTrait|Scent																														
@@ -2200,7 +2204,9 @@ Skills	CATEGORY:Special Ability	TYPE:AnimalOctopusGiantRaceTrait.SpecialQuality	
 Race Traits ~ Animal (Owl)	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=AnimalOwlRaceTrait											BONUS:VAR|Maneuverability|3|TYPE=Base																			
 Skills	CATEGORY:Special Ability	TYPE:AnimalOwlRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Owls have a +8 racial bonus on Listen checks and a +14 racial bonus on Move Silently checks. *They have a +8 racial bonus on Spot checks in areas of shadowy illumination.	KEY:Animal (Owl) ~ Skills									BONUS:SKILL|Listen|8|TYPE=Racial	BONUS:SKILL|Move Silently|14|TYPE=Racial	BONUS:SITUATION|Spot=Shadowy illumination area|8|TYPE=Racial																SOURCEPAGE:MM1	
 																																	
-Race Traits ~ Animal (Pony)	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=AnimalPonyRaceTrait|Scent																														
+# Race Traits ~ Animal (Pony)	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=AnimalPonyRaceTrait|Scent																														
+Race Traits ~ Animal (Pony)	CATEGORY:Internal																						ABILITY:Special Ability|AUTOMATIC|Animal (Pony) Racial Traits	ABILITY:Animal (Pony) Subrace|AUTOMATIC|Animal (Pony) ~ Common|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice									
+Animal (Pony) Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:DISPLAY		KEY:Animal (Pony) Racial Traits																											SOURCEPAGE:MM1	
 Training	CATEGORY:Special Ability	TYPE:AnimalPonyRaceTrait.SpecialQuality	VISIBLE:YES		KEY:Animal (Pony) ~ Training																		ABILITY:Internal|AUTOMATIC|Training ~ Wild									SOURCEPAGE:MM1	
 																																	
 Race Traits ~ Animal (Pony (War))	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=AnimalPonyWarRaceTrait|Scent																														

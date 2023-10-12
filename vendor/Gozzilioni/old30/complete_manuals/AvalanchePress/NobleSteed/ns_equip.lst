@@ -10,12 +10,12 @@ Caparison		TYPE:Goods.Cape	COST:15	WT:7	SOURCEPAGE:NS	SPROP:A Knight’s horse was
 Chariot (Riding)	OUTPUTNAME:Chariot, Riding	TYPE:Goods.Transportation	COST:30	WT:75	SOURCEPAGE:NS				SIZE:M		
 Chariot (War)	OUTPUTNAME:Chariot, War	TYPE:Goods.Transportation	COST:50	WT:100	SOURCEPAGE:NS				SIZE:M		
 
-Bronze Horseshoes		TYPE:Wondrous.Boot.Mount	COST:10000	WT:0		SOURCEPAGE:NS		DESC:Hooves are Flaming (+1d5 fire damage). Steed and rider take half damage from fire.	EQMOD:BRONZE
+Bronze Horseshoes		TYPE:Wondrous.Boot.Mount	COST:10000	WT:0	SLOTS:2	SOURCEPAGE:NS		DESC:Hooves are Flaming (+1d5 fire damage). Steed and rider take half damage from fire.	EQMOD:BRONZE
 Caparison of the Sun		TYPE:Wondrous.Cape.Mount	COST:3000	WT:7		SOURCEPAGE:NS	DESC:both steed and rider gain +2 bonus to charisma.		BONUS:STAT|CHA|2
 Earring of the Keen Whisper		TYPE:Wondrous.Mount	COST:6000	WT:0		SOURCEPAGE:NS	
 Golden Bridle		TYPE:Wondrous.Mount	COST:5000	WT:1		SOURCEPAGE:NS	
-Golden Cuffs		TYPE:Wondrous.Boot.Mount	COST:15000	WT:0		SOURCEPAGE:NS	
-Horseshoes of Solid Ground		TYPE:Wondrous.Boot.Mount	COST:12000	WT:0		SOURCEPAGE:NS	
+Golden Cuffs		TYPE:Wondrous.Boot.Mount	COST:15000	WT:0	SLOTS:2	SOURCEPAGE:NS	
+Horseshoes of Solid Ground		TYPE:Wondrous.Boot.Mount	COST:12000	WT:0	SLOTS:2	SOURCEPAGE:NS	
 Ribbon (Speed)		TYPE:Wondrous.Amulet.Mount	COST:15000	WT:0		SOURCEPAGE:NS		BONUS:MOVEADD|TYPE.Walk|10
 Ribbon (Balance)		TYPE:Wondrous.Amulet.Mount	COST:15000	WT:0		SOURCEPAGE:NS		BONUS:SKILL|Balance|3|TYPE=Enhancement
 Ribbon (Protection)		TYPE:Wondrous.Amulet.Mount	COST:15000	WT:0		SOURCEPAGE:NS		BONUS:COMBAT|AC|1|TYPE=Enhancement

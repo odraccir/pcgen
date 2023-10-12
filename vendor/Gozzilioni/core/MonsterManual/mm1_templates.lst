@@ -123,7 +123,13 @@ Favored Class	KEY:Troll ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter
 Pureblood	VISIBLE:NO	KEY:Pureblood Yuan-Ti	LEVELADJUSTMENT:2																															
 Languages	KEY:Yuan-Ti ~ Pureblood ~ Languages	VISIBLE:NO	AUTO:LANG|Yuan-Ti|Common	LANGBONUS:Abyssal,Draconic																														
 Favored Class	KEY:Yuan-Ti ~ Pureblood ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Fighter																															
-																																		
+
+Horse (Light)	VISIBLE:NO	KEY:Common Animal (Horse (Light))																																
+
+Horse (Heavy)	VISIBLE:NO	KEY:Common Animal (Horse (Heavy))																																
+
+Pony	VISIBLE:NO	KEY:Common Animal (Pony)	
+
 ###Block: Drow Gender																																		
 # Template Name	Visible	Source Page	Required Race	Favored Class	Lock Gender Selection																													
 Drow Male	VISIBLE:NO	SOURCEPAGE:MM1	PRERACE:1,Elf	PREABILITY:1,CATEGORY=Internal,Elf ~ Drow	FAVOREDCLASS:Wizard	GENDERLOCK:Male																												
