@@ -1,0 +1,186 @@
+SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-06
+#															
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE			
+# Class Name req	Requirements	FINE													
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS			
+# Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	SPELLLIST	spell level increases (BONUS:CASTERLEVEL)									
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)					
+CLASS:Arcane Devotee	HD:4	TYPE:Prestige	FACT:Abb|Dev	MAXLEVEL:5	SOURCEPAGE:FRCS30	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ArcaneDevoteeLVL|0	BONUS:VAR|ArcaneDevoteeLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Arcane Devotee	PRETEXT:Ability to cast 4th-level arcane spells.	PRESKILL:2,Knowledge (Religion)=8,Spellcraft=8	PREABILITY:1,CATEGORY=FEAT,Enlarge Spell	PREDEITY:1,Y											
+CLASS:Arcane Devotee	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Spellcraft													
+1				ABILITY:Arcane Devotee Class Feature|AUTOMATIC|Arcane Devotee ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ArcaneDevoteeProficiencies											
+1				ABILITY:Arcane Devotee Class Feature|AUTOMATIC|Arcane Devotee ~ Spells per Day											
+#															
+1				ABILITY:Arcane Devotee Class Feature|AUTOMATIC|Arcane Devotee ~ Enlarge Spell|!PREABILITY:1,CATEGORY=ACF,TYPE.ArcaneDevoteeEnlargeSpell											
+2				ABILITY:Arcane Devotee Class Feature|AUTOMATIC|Arcane Devotee ~ Sacred Defense|!PREABILITY:1,CATEGORY=ACF,TYPE.ArcaneDevoteeSacredDefense											
+2				ABILITY:Arcane Devotee Class Feature|AUTOMATIC|Arcane Devotee ~ Alignment Focus|!PREABILITY:1,CATEGORY=ACF,TYPE.ArcaneDevoteeAlignmentFocus											
+3				ABILITY:Arcane Devotee Class Feature|AUTOMATIC|Arcane Devotee ~ Bonus Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.ArcaneDevoteeBonusFeat											
+5				ABILITY:Arcane Devotee Class Feature|AUTOMATIC|Arcane Devotee ~ Divine Shroud|!PREABILITY:1,CATEGORY=ACF,TYPE.ArcaneDevoteeDivineShroud											
+#															
+1	ADD:SPELLCASTER|Arcane														
+2	ADD:SPELLCASTER|Arcane														
+3	ADD:SPELLCASTER|Arcane														
+4	ADD:SPELLCASTER|Arcane														
+5	ADD:SPELLCASTER|Arcane														
+															
+# CLASS:Archmage															
+															
+CLASS:Divine Champion	HD:10	TYPE:Prestige	FACT:Abb|Chm	MAXLEVEL:5	SOURCEPAGE:FRCS30	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DivineChampionLVL|0	BONUS:VAR|DivineChampionLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Divine Champion	PRETOTALAB:7	PRESKILL:1,Knowledge (Religion)=3	PREABILITY:1,CATEGORY=FEAT,Weapon Focus	PRETEXT:Weapon focus in the deity's favored weapon.	PREDEITY:1,Y										
+CLASS:Divine Champion	STARTSKILLPTS:2	CSKILL:Climb|TYPE.Craft|Handle Animal|Jump|Knowledge (Religion)|Ride|Spot|Swim													
+1				ABILITY:Divine Champion Class Feature|AUTOMATIC|Divine Champion ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineChampionProficiencies											
+#															
+1				ABILITY:Divine Champion Class Feature|AUTOMATIC|Divine Champion ~ Lay on Hands|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineChampionProficiencies											
+2				ABILITY:Divine Champion Class Feature|AUTOMATIC|Divine Champion ~ Fighter Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineChampionFighterFeat											
+2				ABILITY:Divine Champion Class Feature|AUTOMATIC|Divine Champion ~ Sacred Defense|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineChampionSacredDefense											
+3				ABILITY:Divine Champion Class Feature|AUTOMATIC|Divine Champion ~ Smite Infidel|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineChampionSmiteInfidel											
+5				ABILITY:Divine Champion Class Feature|AUTOMATIC|Divine Champion ~ Divine Wrath|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineChampionDivineWrath											
+															
+CLASS:Divine Disciple	HD:8	TYPE:Prestige	FACT:Abb|Dis	MAXLEVEL:5	SOURCEPAGE:FRCS30	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DivineDiscipleLVL|0	BONUS:VAR|DivineDiscipleLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Divine Disciple	PRETEXT:Ability to cast 4th-level divine spells.	PRESKILL:1,Diplomacy=5	PRESKILL:1,Knowledge (Religion)=8	PREDEITY:1,Y											
+CLASS:Divine Disciple	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (Religion)|Knowledge (Nature)|TYPE.Profession|Spellcraft|Survival													
+1				ABILITY:Divine Disciple Class Feature|AUTOMATIC|Divine Disciple ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineDisicpleProficiencies											
+#															
+1				ABILITY:Divine Disciple Class Feature|AUTOMATIC|Divine Disciple ~ New Domain|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineDisicpleNewDomain											
+1				ABILITY:Divine Disciple Class Feature|AUTOMATIC|Divine Disciple ~ Divine Emissary|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineDisicpleDivineEmissary											
+2				ABILITY:Divine Disciple Class Feature|AUTOMATIC|Divine Disciple ~ Sacred Defense|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineDisicpleSacredDefense											
+3				ABILITY:Divine Disciple Class Feature|AUTOMATIC|Divine Disciple ~ Imbue with Spell Ability|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineDisicpleImbueWithSpellAbility											
+5				ABILITY:Divine Disciple Class Feature|AUTOMATIC|Divine Disciple ~ Transcendence|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineDisicpleTranscendence											
+#															
+1	ADD:SPELLCASTER|Divine														
+2	ADD:SPELLCASTER|Divine														
+3	ADD:SPELLCASTER|Divine														
+4	ADD:SPELLCASTER|Divine														
+5	ADD:SPELLCASTER|Divine														
+															
+CLASS:Divine Seeker	HD:6	TYPE:Prestige	FACT:Abb|Skr	MAXLEVEL:5	SOURCEPAGE:FRCS30	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:DivineSeekerLVL|0	BONUS:VAR|DivineSeekerLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Divine Seeker	PRESKILL:1,Hide=10	PRESKILL:1,Knowledge (Religion)=3	PRESKILL:1,Move Silently=8	PRESKILL:1,Spot=5	PREDEITY:1,Y										
+CLASS:Divine Seeker	STARTSKILLPTS:6	CSKILL:Bluff|Climb|TYPE.Craft|Decipher Script|Diplomacy|Disable Device|Jump|Knowledge (Religion)|Listen|Move Silently|Open Lock|Sleight of Hand|TYPE.Profession|Search|Spot|Survival|Tumble|Use Rope													
+1				ABILITY:Divine Seeker Class Feature|AUTOMATIC|Divine Seeker ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineSeekerProficiencies											
+#															
+1				ABILITY:Divine Seeker Class Feature|AUTOMATIC|Divine Seeker ~ Sanctuary|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineSeekerSanctuary											
+1				ABILITY:Divine Seeker Class Feature|AUTOMATIC|Divine Seeker ~ Twart Glyph|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineSeekerTwartGlyph											
+2				ABILITY:Divine Seeker Class Feature|AUTOMATIC|Divine Seeker ~ Sacred Defense|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineSeekerSacredDefense											
+2				ABILITY:Divine Seeker Class Feature|AUTOMATIC|Divine Seeker ~ Sneak Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineSeekerSneackAttack											
+3				ABILITY:Divine Seeker Class Feature|AUTOMATIC|Divine Seeker ~ Locate Object|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineSeekerLocateObject											
+3				ABILITY:Divine Seeker Class Feature|AUTOMATIC|Divine Seeker ~ Obscure Object|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineSeekerObscureObject											
+5				ABILITY:Divine Seeker Class Feature|AUTOMATIC|Divine Seeker ~ Locate Creature|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineSeekerLocateCreature											
+5				ABILITY:Divine Seeker Class Feature|AUTOMATIC|Divine Seeker ~ Divine Perseverance|!PREABILITY:1,CATEGORY=ACF,TYPE.DivineSeekerDivinePerseverance											
+															
+CLASS:Guild Thief	HD:6	TYPE:Prestige	FACT:Abb|Gld	MAXLEVEL:5	SOURCEPAGE:FRCS30	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:GuildThiefLVL|0	BONUS:VAR|GuildThiefLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Guild Thief	PRESKILL:3,Gather Information=3,Intimidate=3,Move Silently=3	PRESKILL:1,Hide=8	PRETEXT:Membership in a thieves' guild.												
+CLASS:Guild Thief	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Climb|TYPE.Craft|Diplomacy|Disable Device|Forgery|Intimidate|Jump|Knowledge (Local)|Listen|Move Silently|Open Lock|Sleight of Hand|TYPE.Profession|Search|Sense Motive|Spot|Use Rope													
+1				ABILITY:Guild Thief Class Feature|AUTOMATIC|Guild Thief ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.GuildThiefProficiencies											
+#															
+1				ABILITY:Guild Thief Class Feature|AUTOMATIC|Guild Thief ~ Sneak Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.GuildThiefSneakAttack											
+1				ABILITY:Guild Thief Class Feature|AUTOMATIC|Guild Thief ~ Doublespeak|!PREABILITY:1,CATEGORY=ACF,TYPE.GuildThiefDoublespeak											
+2				ABILITY:Guild Thief Class Feature|AUTOMATIC|Guild Thief ~ Bonus Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.GuildThiefBonusFeat											
+2				ABILITY:Guild Thief Class Feature|AUTOMATIC|Guild Thief ~ Uncanny Dodge|!PREABILITY:1,CATEGORY=ACF,TYPE.GuildThiefUncannyDodge											
+3				ABILITY:Guild Thief Class Feature|AUTOMATIC|Guild Thief ~ Reputation|!PREABILITY:1,CATEGORY=ACF,TYPE.GuildThiefReputation											
+3				ABILITY:Guild Thief Class Feature|AUTOMATIC|Guild Thief ~ Improved Uncanny Dodge|!PREABILITY:1,CATEGORY=ACF,TYPE.GuildThiefImprovedUncannyDodge											
+															
+CLASS:Harper Scout	HD:6	TYPE:Prestige	FACT:Abb|Hrp	MAXLEVEL:5	SOURCEPAGE:FRCS30	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:HarperScoutLVL|0	BONUS:VAR|HarperScoutLVL|CL	EXCLASS:Ex-Harper Scout	BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Harper Scout	PREALIGN:LG,LN,NG,TN,CG,CN	PRESKILL:2,Bluff=4,Knowledge (Local)=4	PRESKILL:1,Diplomacy=8	PRESKILL:1,TYPE.Perform=5	PRESKILL:2,Sense Motive=2,Survival=2	PREABILITY:2,CATEGORY=FEAT,Alertness,Iron Will	PRETEXT:Sponsoirship by a member of the Harpers, approval of the High Harpers.	PREABILITY:1,CATEGORY=Guild Category,Harper							
+CLASS:Harper Scout	STARTSKILLPTS:4	CSKILL:Appraise|Bluff|Climb|TYPE.Craft|Diplomacy|Disguise|Escape Artist|Gather Information|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|Sleight of Hand|TYPE.Profession|Sense Motive|Speak Language|Swim|Tumble													
+CLASS:Harper Scout	SPELLSTAT:CHA	FACT:SpellType|Arcane	MEMORIZE:NO												
+1				ABILITY:Harper Scout Class Feature|AUTOMATIC|Harper Scout ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperScoutProficiencies											
+1				ABILITY:Harper Scout Class Feature|AUTOMATIC|Harper Scout ~ Spells per Day|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperScoutSpellsPerDay											
+#															
+1				ABILITY:Harper Scout Class Feature|AUTOMATIC|Harper Scout ~ Harper Knowledge|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperScoutHarperKnowledge											
+1				ABILITY:Harper Scout Class Feature|AUTOMATIC|Harper Scout ~ Favored Enemy|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperScoutFavoredEnemy											
+2				ABILITY:Harper Scout Class Feature|AUTOMATIC|Harper Scout ~ Deneir's Eye|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperScoutDeneirSEye											
+2				ABILITY:Harper Scout Class Feature|AUTOMATIC|Harper Scout ~ Skill Focus|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperScoutSkillFocus											
+3				ABILITY:Harper Scout Class Feature|AUTOMATIC|Harper Scout ~ Tymora's Smile|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperScoutTymoraSSmile											
+4				ABILITY:Harper Scout Class Feature|AUTOMATIC|Harper Scout ~ Lliira's Heart|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperScoutLliiraSHeart											
+5				ABILITY:Harper Scout Class Feature|AUTOMATIC|Harper Scout ~ Craft Harper Item|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperScoutCraftHarperItem											
+															
+CLASS:Ex-Harper Scout	HD:6	TYPE:Prestige	FACT:Abb|XHrp	MAXLEVEL:5	SOURCEPAGE:FRCS30	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:HarperScoutLVL|0	BONUS:VAR|HarperScoutLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Ex-Harper Scout	VISIBLE:NO														
+CLASS:Ex-Harper Scout	STARTSKILLPTS:4	CSKILL:Appraise|Bluff|Climb|TYPE.Craft|Diplomacy|Disguise|Escape Artist|Gather Information|Jump|TYPE.Knowledge|Listen|Move Silently|TYPE.Perform|Sleight of Hand|TYPE.Profession|Sense Motive|Speak Language|Swim|Tumble													
+CLASS:Ex-Harper Scout	SPELLSTAT:CHA	FACT:SpellType|Arcane	MEMORIZE:NO												
+1				ABILITY:Harper Scout Class Feature|AUTOMATIC|Harper Scout ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperScoutProficiencies											
+1				ABILITY:Harper Scout Class Feature|AUTOMATIC|Harper Scout ~ Spells per Day|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperScoutSpellsPerDay											
+#															
+1				ABILITY:Harper Scout Class Feature|AUTOMATIC|Harper Scout ~ Harper Knowledge|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperScoutHarperKnowledge											
+1				ABILITY:Harper Scout Class Feature|AUTOMATIC|Harper Scout ~ Favored Enemy|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperScoutFavoredEnemy											
+2				ABILITY:Harper Scout Class Feature|AUTOMATIC|Harper Scout ~ Skill Focus|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperScoutSkillFocus											
+5				ABILITY:Harper Scout Class Feature|AUTOMATIC|Harper Scout ~ Craft Harper Item|!PREABILITY:1,CATEGORY=ACF,TYPE.HarperScoutCraftHarperItem											
+															
+CLASS:Hathran	HD:4	TYPE:Prestige	FACT:Abb|Hth	MAXLEVEL:10	SOURCEPAGE:FRCS30	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:HathranLVL|0	BONUS:VAR|HathranLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Hathran	PREALIGN:LG,LN,NG	PREMULT:2,[PRERACE:1,Human (FR)],[PREREGION:Rashemi]	PREABILITY:1,CATEGORY=FEAT,Ethran	PREDEITY:1,Chauntea,Mielikki,Mystra	PRETEXT:Able to cast 2nd-level arcane spells and 2nd-level divine spells. Member in good standing of the Witches of Rashemen.									
+CLASS:Hathran	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Handle Animal|TYPE.Knowledge|TYPE.Perform|TYPE.Profession|Speak Language|Spellcraft|Survival|Swim													
+1				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranProficiencies											
+1				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Spells per Day|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranSpellsPerDay											
+#															
+1				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Cohort|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranCohort											
+1				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Place Magic|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranPlaceMagic											
+3				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Fear|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranFear											
+4				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Circle Leader|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranCircleLeader											
+10				ABILITY:Hathran Class Feature|AUTOMATIC|Hathran ~ Greater Command|!PREABILITY:1,CATEGORY=ACF,TYPE.HathranGreaterCommand											
+#															
+1	ADD:SPELLCASTER|ANY														
+2	ADD:SPELLCASTER|ANY														
+3	ADD:SPELLCASTER|ANY														
+4	ADD:SPELLCASTER|ANY														
+5	ADD:SPELLCASTER|ANY														
+6	ADD:SPELLCASTER|ANY														
+7	ADD:SPELLCASTER|ANY														
+8	ADD:SPELLCASTER|ANY														
+9	ADD:SPELLCASTER|ANY														
+10	ADD:SPELLCASTER|ANY														
+															
+# CLASS:Hierophant															
+															
+# CLASS:Purple Dragon Knight															
+															
+# CLASS:Red Wizard															
+															
+CLASS:Runecaster	HD:8	TYPE:Prestige	FACT:Abb|Rnc	MAXLEVEL:10	SOURCEPAGE:FRCS30	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:RunecasterLVL|0	BONUS:VAR|RunecasterLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Runecaster	PRETEXT:Ability to cast 3rd-level divine spells.	PRESKILL:1,Spellcraft=8	PRESKILL:1,TYPE.Craft=8	PREABILITY:1,CATEGORY=FEAT,Inscribe Rune											
+CLASS:Runecaster	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Diplomacy|Heal|Knowledge (Arcana)|Knowledge (Religion)|TYPE.Profession|Spellcraft													
+1				ABILITY:Runecaster Class Feature|AUTOMATIC|Runecaster ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.RunecasterProficiencies											
+1				ABILITY:Runecaster Class Feature|AUTOMATIC|Runecaster ~ Spells per Day|!PREABILITY:1,CATEGORY=ACF,TYPE.RunecasterSpellsPerDay											
+#															
+1				ABILITY:Runecaster Class Feature|AUTOMATIC|Runecaster ~ Rune Craft|!PREABILITY:1,CATEGORY=ACF,TYPE.RunecasterRuneCraft											
+2				ABILITY:Runecaster Class Feature|AUTOMATIC|Runecaster ~ Rune Power|!PREABILITY:1,CATEGORY=ACF,TYPE.RunecasterRunePower											
+3				ABILITY:Runecaster Class Feature|AUTOMATIC|Runecaster ~ Improved Runecasting|!PREABILITY:1,CATEGORY=ACF,TYPE.RunecasterImprovedRunecasting											
+6				ABILITY:Runecaster Class Feature|AUTOMATIC|Runecaster ~ Maximize Rune|!PREABILITY:1,CATEGORY=ACF,TYPE.RunecasterMaximizeRune											
+10				ABILITY:Runecaster Class Feature|AUTOMATIC|Runecaster ~ Rune Chant|!PREABILITY:1,CATEGORY=ACF,TYPE.RunecasterRuneChant											
+#															
+1	ADD:SPELLCASTER|Divine														
+2	ADD:SPELLCASTER|Divine														
+3	ADD:SPELLCASTER|Divine														
+4	ADD:SPELLCASTER|Divine														
+5	ADD:SPELLCASTER|Divine														
+6	ADD:SPELLCASTER|Divine														
+7	ADD:SPELLCASTER|Divine														
+8	ADD:SPELLCASTER|Divine														
+9	ADD:SPELLCASTER|Divine														
+10	ADD:SPELLCASTER|Divine														
+															
+CLASS:Shadow Adept	HD:4	TYPE:Prestige	FACT:Abb|Sha	MAXLEVEL:10	SOURCEPAGE:FRCS30	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|Prestige		DEFINE:ShadowAdeptLVL|0	BONUS:VAR|ShadowAdeptLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Shadow Adept	PREALIGN:LN,LE,TN,NE,CN,CE	PRETEXT:Ability to cast 3rd-level arcane or divine spells.	PRESKILL:2,Knowledge (Arcana)=8,Spellcraft=8	PREABILITY:1,CATEGORY=FEAT,Shadow Weave Magic	PREABILITY:1,CATEGORY=FEAT,TYPE=Metamagic										
+CLASS:Shadow Adept	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Disguise|Hide|TYPE.Knowledge|TYPE.Profession|Spellcraft													
+1				ABILITY:Shadow Adept Class Feature|AUTOMATIC|Shadow Adept ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowAdeptProficiencies											
+1				ABILITY:Shadow Adept Class Feature|AUTOMATIC|Shadow Adept ~ Spells per Day|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowAdeptSpellsPerDay											
+#															
+1				ABILITY:Shadow Adept Class Feature|AUTOMATIC|Shadow Adept ~ Shadow Feats|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowAdeptShadowFeats											
+2				ABILITY:Shadow Adept Class Feature|AUTOMATIC|Shadow Adept ~ Low-Light Vision|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowAdeptLowLightVision											
+2				ABILITY:Shadow Adept Class Feature|AUTOMATIC|Shadow Adept ~ Shadow Defense|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowAdeptShadowDefense											
+3				ABILITY:Shadow Adept Class Feature|AUTOMATIC|Shadow Adept ~ Spell Power|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowAdeptSpellPower											
+4				ABILITY:Shadow Adept Class Feature|AUTOMATIC|Shadow Adept ~ Shield of Shadows|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowAdeptShieldOfShadows											
+5				ABILITY:Shadow Adept Class Feature|AUTOMATIC|Shadow Adept ~ Metamagic Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowAdeptMetamagicFeat											
+7				ABILITY:Shadow Adept Class Feature|AUTOMATIC|Shadow Adept ~ Shadow Walk|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowAdeptShadowWalk											
+7				ABILITY:Shadow Adept Class Feature|AUTOMATIC|Shadow Adept ~ Darkvision|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowAdeptDarkvision											
+10				ABILITY:Shadow Adept Class Feature|AUTOMATIC|Shadow Adept ~ Shadow Double|!PREABILITY:1,CATEGORY=ACF,TYPE.ShadowAdeptShadowDouble											
+#															
+1	ADD:SPELLCASTER|ANY														
+2	ADD:SPELLCASTER|ANY														
+3	ADD:SPELLCASTER|ANY														
+4	ADD:SPELLCASTER|ANY														
+5	ADD:SPELLCASTER|ANY														
+6	ADD:SPELLCASTER|ANY														
+7	ADD:SPELLCASTER|ANY														
+8	ADD:SPELLCASTER|ANY														
+9	ADD:SPELLCASTER|ANY														
+10	ADD:SPELLCASTER|ANY														

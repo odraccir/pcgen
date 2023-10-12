@@ -1,0 +1,5 @@
+SOURCELONG:Noble Steed 3.0	SOURCESHORT:NS30	SOURCEWEB:http://www.avalanchepress.com
+#																																																		
+# Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:																																													
+Handle Animal.MOD	BONUS:SKILL|Animal Husbandry|SynergyBonus|PRESKILL:1,Handle Animal=5|TYPE=Synergy.STACK
+Animal Husbandry	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Animal Husbandry	SOURCEPAGE:NS		BONUS:SKILL|Ride|SynergyBonus|PRESKILL:1,Animal Husbandry=5|TYPE=Synergy.STACK																																											

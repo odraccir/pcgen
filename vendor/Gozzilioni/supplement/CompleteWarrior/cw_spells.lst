@@ -1,4 +1,4 @@
-SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11																							
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11
 #																										
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus	
 Augment Familiar				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Sorcerer=2|Wizard=2	COMPS:V, S	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:Your familiar.	DURATION:Concentration + 1 round/level	SAVEINFO:Fortitude negates (harmless)	SPELLRES:Yes	DESC:This spell grants your familiar a +4 enhancement bonus to Strength, Dexterity and Constitution, damage reduction 5/magic, and a +2 resistance bonus on saving throws.	SOURCEPAGE:CW							TEMPBONUS:ANYPC|STAT|STR,DEX,CON|4|TYPE=Enhancement	TEMPBONUS:ANYPC|SAVE|ALL|2|TYPE=Resistance	TEMPBONUS:ANYPC|DR|Magic|5

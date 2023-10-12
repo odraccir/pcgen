@@ -1,5 +1,0 @@
-SOURCELONG:Magic of Faerun 3.0	SOURCESHORT:MoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
-																																	
-###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
-###BLOCK:Organizations																																	
-Watchful Order of Magistis and Protectors	CATEGORY:Guild Category	TYPE:SpecialQuality.GuildAffiliation	VISIBLE:YES	DESC:The Watchful Order of Magists and Protectors is one of the most powerful guilds in Waterdeep, but most Waterdhavians are barely aware of its existence.																													SOURCEPAGE:MOF30

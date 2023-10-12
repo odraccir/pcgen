@@ -1,0 +1,51 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+
+# Subrace Support
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Gnome Artificer Class Feature	CATEGORY:Special Ability	TYPE:GnomeArtificerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Gnome Artificer Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Guild Wizard of Waterdeep Class Feature	CATEGORY:Special Ability	TYPE:GuildWizardOfWaterdeepClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Guild Wizard of Waterdeep Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Harper Mage Class Feature	CATEGORY:Special Ability	TYPE:HarperMageClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Harper Mage Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Harper Priest Class Feature	CATEGORY:Special Ability	TYPE:HarperPriestClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Harper Priest Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Mage-Killer Class Feature	CATEGORY:Special Ability	TYPE:MageKillerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Mage-Killer Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Master Alchemist Class Feature	CATEGORY:Special Ability	TYPE:MasterAlchemistClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Master Alchemist Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Mystic Wanderer Class Feature	CATEGORY:Special Ability	TYPE:MysticWandererClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Mystic Wanderer Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Spelldancer Class Feature	CATEGORY:Special Ability	TYPE:SpelldancerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Spelldancer Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Spellfire Channeler Class Feature	CATEGORY:Special Ability	TYPE:SpellfireChannelerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Spellfire Channeler Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:War Wizard of Cormyr Class Feature	CATEGORY:Special Ability	TYPE:WarWizardOfCormyrClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:War Wizard of Cormyr Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups
+ABILITYCATEGORY:Guild Wizard of Waterdeep Feat	CATEGORY:FEAT	TYPE:ItemCreation.GuildWizardOfWaterdeep	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Guild Wizard of Waterdeep Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Guild Wizard of Waterdeep Language	CATEGORY:Special Ability	TYPE:GuildWizardOfWaterdeepLanguage	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Guild Wizard of Waterdeep Languages				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Harper Skill Focus	CATEGORY:Special Ability	TYPE:HarperSkillFocus	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Harper Skill Focuses				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Harper Blessing	CATEGORY:Special Ability	TYPE:HarperBlessing	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Harper Blessings				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Mage-Killer Improved Save	CATEGORY:Special Ability	TYPE:MageKillerImprovedSave	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Mage-Killer Improved Saves				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Mage-Killer Spell Focus	CATEGORY:Special Ability	TYPE:MageKillerSpellFocus	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Mage-Killer Spell focus				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:War Wizard of Cormyr Weapon Focus	CATEGORY:Special Ability	TYPE:WarWizardOfCormyrWeaponFocus	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:War Wizard of Cormyr Weapon Focus			DISPLAYLOCATION:Class Features								
+# ABILITYCATEGORY:Foe Hunter	CATEGORY:Special Ability	TYPE:FoeHunter	VISIBLE:QUALIFY	EDITABLE:YES	POOL:FoeHunterCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Foe Hunters				DISPLAYLOCATION:Class Features
+# ABILITYCATEGORY:Arcane Devotee Alignment Focus	CATEGORY:Special Ability	TYPE:AlignmentFocus	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Arcane Devotee Alignment Foci				DISPLAYLOCATION:Class Features
+# ABILITYCATEGORY:Harper Enemy	CATEGORY:Special Ability	TYPE:HarperEnemy	VISIBLE:QUALIFY	EDITABLE:YES	POOL:HarperEnemyCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Harper Enemies				DISPLAYLOCATION:Class Features
+# ABILITYCATEGORY:Harper Enemy Bonus	CATEGORY:Special Ability	TYPE:HarperEnemyBonus	VISIBLE:QUALIFY	EDITABLE:YES	POOL:HarperEnemyBonusCount	EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Harper Enemy Bonuses			DISPLAYLOCATION:Class Features
+# ABILITYCATEGORY:Harper Scout Skill Focus	CATEGORY:Special Ability	TYPE:HarperScoutSkillFocus	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Harper Scout Skill Foci			DISPLAYLOCATION:Class Features
+# ABILITYCATEGORY:Turn Lycanthrope	CATEGORY:Special Ability	TYPE:TurnLycanthrope.RebukeLycanthrope	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Turn Lycanthrope			DISPLAYLOCATION:Class Features
+# ABILITYCATEGORY:Turn Reptile	CATEGORY:Special Ability	TYPE:TurnReptile.RebukeReptile	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Turn Reptile			DISPLAYLOCATION:Class Features
+# ABILITYCATEGORY:Turn Ooze	CATEGORY:Special Ability	TYPE:TurnOoze.RebukeOoze	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Turn Ooze			DISPLAYLOCATION:Class Features
+# ABILITYCATEGORY:Turn Spider	CATEGORY:Special Ability	TYPE:TurnSpider.RebukeSpider	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Turn Spider			DISPLAYLOCATION:Class Features
+#
+#Feats Ability pools
+ABILITYCATEGORY:War Wizard of Cormyr Feat	CATEGORY:FEAT	TYPE:Metamagic.WarWizardOfCormyr	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:War Wizard of Cormyr Feats			DISPLAYLOCATION:Feats
+
+#Companion Support
+ABILITYCATEGORY:Summon Undead I Selection	CATEGORY:Internal	TYPE:SummonUndeadISelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Summon Undead I Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Summon Undead II Selection	CATEGORY:Internal	TYPE:SummonUndeadIISelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Summon Undead II Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Summon Undead III Selection	CATEGORY:Internal	TYPE:SummonUndeadIIISelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Summon Undead III Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Summon Undead IV Selection	CATEGORY:Internal	TYPE:SummonUndeadIVSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Summon Undead IV Choice			DISPLAYLOCATION:Misc
+ABILITYCATEGORY:Summon Undead V Selection	CATEGORY:Internal	TYPE:SummonUndeadVSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Summon Undead V Choice			DISPLAYLOCATION:Misc
+
+#
+# End
+#
+
+#
+#

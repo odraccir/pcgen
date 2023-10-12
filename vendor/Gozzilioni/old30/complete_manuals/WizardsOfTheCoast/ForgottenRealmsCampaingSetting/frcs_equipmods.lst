@@ -1,0 +1,23 @@
+SOURCELONG:Forgotten Realms Campaign Setting 3.0	SOURCESHORT:FRCS30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-06
+#																																																																																																																			
+# Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property																																																																																																											
+###Block: Runes
+|Inscribe Rune (Single Use/Use Activated)						KEY:RUNE_DIVINE_1USE				TYPE:Goods.Headgear.Eyegear.Amulet.Shirt.Robe.Belt.Cape.Bracer.Glove.Ring.Boot.Art.Gem	COST:(100*(max((%SPELLLEVEL),(1/2)))*%CASTERLEVEL)+%SPELLCOST																VISIBLE:QUALIFY	ITYPE:Rune.Divine	SOURCEPAGE:FRCS30								CHOOSE:EQBUILDER.SPELL|Divine|0|9
+|Inscribe Rune (Runecaster/Single Use/Use Activated)						KEY:RUNECST_DIVINE_1USE				TYPE:Goods.Headgear.Eyegear.Amulet.Shirt.Robe.Belt.Cape.Bracer.Glove.Ring.Boot.Art.Gem	COST:(50*(max((%SPELLLEVEL),(1/2)))*%CASTERLEVEL)+%SPELLCOST																VISIBLE:QUALIFY	ITYPE:Rune.Divine	SOURCEPAGE:FRCS30								CHOOSE:EQBUILDER.SPELL|Divine|0|9
+|Inscribe Rune (Runecaster 3rd/50 Charges/Spell Trigger)						KEY:RUNECST_DIVINE_CHRG				TYPE:Goods.Headgear.Eyegear.Amulet.Shirt.Robe.Belt.Cape.Bracer.Glove.Ring.Boot.Art.Gem	COST:((50*(max((%SPELLLEVEL),(1/2)))*%CASTERLEVEL)+%SPELLCOST)*CHARGES																VISIBLE:QUALIFY		SOURCEPAGE:FRCS30								CHOOSE:EQBUILDER.SPELL|Divine|0|9	CHARGES:1|50
+|Inscribe Rune (Runecaster/Command Word)						KEY:RUNECST_DIVINE_CMD				TYPE:Goods.Headgear.Eyegear.Amulet.Shirt.Robe.Belt.Cape.Bracer.Glove.Ring.Boot.Art.Gem	COST:((400*(max((%SPELLLEVEL),(1/2)))*%CASTERLEVEL)+%SPELLCOST)*CHARGES																VISIBLE:QUALIFY		SOURCEPAGE:FRCS30								CHOOSE:EQBUILDER.SPELL|Divine|0|9	CHARGES:1|5
+|Inscribe Rune (Runecaster/Use Activated)						KEY:RUNECST_DIVINE_ACT				TYPE:Goods.Headgear.Eyegear.Amulet.Shirt.Robe.Belt.Cape.Bracer.Glove.Ring.Boot.Art.Gem	COST:((2000*(max((%SPELLLEVEL),(1/2)))*%CASTERLEVEL)+%SPELLCOST)*CHARGES																VISIBLE:QUALIFY		SOURCEPAGE:FRCS30								CHOOSE:EQBUILDER.SPELL|Divine|0|9
+|Works when read or passed						KEY:RUNE_READ_OR_PASS				TYPE:Goods.Headgear.Eyegear.Amulet.Shirt.Robe.Belt.Cape.Bracer.Glove.Ring.Boot.Art.Gem	COST:BASECOST																VISIBLE:QUALIFY		SOURCEPAGE:FRCS30	PRETYPE:2,Rune,Divine							
+|Works when touched						KEY:RUNE_TOUCH				TYPE:Goods.Headgear.Eyegear.Amulet.Shirt.Robe.Belt.Cape.Bracer.Glove.Ring.Boot.Art.Gem	COST:2*BASECOST																VISIBLE:QUALIFY		SOURCEPAGE:FRCS30	PRETYPE:2,Rune,Divine							
+###Block: Portals
+|Create Portal						KEY:PORTAL_CONTINUOUS				TYPE:Portal	COST:50000	ITYPE:Base																VISIBLE:QUALIFY		SOURCEPAGE:FRCS30	PRETYPE:1,Portal	REPLACES:PORTAL_LIMITED,PORTAL_LIMITED_DAY						
+|Limited Use (use per day)						KEY:PORTAL_LIMITED				TYPE:Portal	COST:10000*CHARGES	ITYPE:Base																VISIBLE:QUALIFY		SOURCEPAGE:FRCS30	PRETYPE:1,Portal	REPLACES:PORTAL_CONTINUOUS,PORTAL_LIMITED_DAY						CHARGES:1|4
+|Limited Use (use every days)						KEY:PORTAL_LIMITED_DAY				TYPE:Portal	COST:10000/CHARGES	ITYPE:Base																VISIBLE:QUALIFY		SOURCEPAGE:FRCS30	PRETYPE:1,Portal	REPLACES:PORTAL_CONTINUOUS,PORTAL_LIMITED						CHARGES:1|10
+|Two Way						KEY:PORTAL_2W				TYPE:Portal	COST:BASECOST/4																	VISIBLE:QUALIFY		SOURCEPAGE:FRCS30	PRETYPE:2,Portal,Base							
+|Huge Portal						KEY:PORTAL_HUGE				TYPE:Portal	COST:BASECOST	ITYPE:PortalSize																VISIBLE:QUALIFY		SOURCEPAGE:FRCS30	PRETYPE:2,Portal,Base	REPLACES:PORTAL_GARGANTUAN,PORTAL_COLOSSAL						
+|Gargantuan Portal						KEY:PORTAL_GARGANTUAN				TYPE:Portal	COST:2*BASECOST	ITYPE:PortalSize																VISIBLE:QUALIFY		SOURCEPAGE:FRCS30	PRETYPE:2,Portal,Base	REPLACES:PORTAL_HUGE,PORTAL_COLOSSAL						
+|Colossal Portal						KEY:PORTAL_COLOSSAL				TYPE:Portal	COST:3*BASECOST	ITYPE:PortalSize																VISIBLE:QUALIFY		SOURCEPAGE:FRCS30	PRETYPE:2,Portal,Base	REPLACES:PORTAL_HUGE,PORTAL_GARGANTUAN						
+|Keyed Portal						KEY:PORTAL_KEYED				TYPE:Portal	COST:0	ITYPE:PortalSpecial																VISIBLE:QUALIFY		SOURCEPAGE:FRCS30	PRETYPE:2,Portal,Base							
+|Random Portal						KEY:PORTAL_RANDOM				TYPE:Portal	COST:0	ITYPE:PortalSpecial																VISIBLE:QUALIFY		SOURCEPAGE:FRCS30	PRETYPE:2,Portal,Base							
+|Variable Portal						KEY:PORTAL_VARIABLE				TYPE:Portal	COST:(BASECOST/4)*CHARGES	ITYPE:PortalSpecial																VISIBLE:QUALIFY		SOURCEPAGE:FRCS30	PRETYPE:2,Portal,Base							CHARGES:1|50
+|Creature-only Portal						KEY:PORTAL_CREATURE				TYPE:Portal	COST:(2*BASECOST)+((BASECOST/4)*(CHARGES-1))	ITYPE:PortalSpecial																VISIBLE:QUALIFY		SOURCEPAGE:FRCS30	PRETYPE:2,Portal,Base							CHARGES:1|2

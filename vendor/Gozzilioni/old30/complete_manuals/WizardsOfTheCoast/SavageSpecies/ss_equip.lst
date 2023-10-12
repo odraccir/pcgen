@@ -1,0 +1,14 @@
+SOURCELONG:Savage Species 3.0	SOURCESHORT:SS30	SOURCEWEB:http://www.gozzilioni.net
+#									
+Aboleth Mucus (Vial)		TYPE:Goods.Special.Consumable.Vial.Liquid	COST:20	WT:1	SOURCEPAGE:SS30				
+#Breathing Mask
+#Cable (Metal/100 Ft.)
+#Cablespool
+Delver Slime (Vial)		TYPE:Goods.Special.Consumable.Vial.Liquid	COST:150	WT:1	SOURCEPAGE:SS30				
+Poison (Drow Arrow Poison)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:120	WT:0.25	SOURCEPAGE:SS30	SPROP:Injury DC 17, Init.:Unconscius, Sec.:Unconscious for 2d4 hour.
+Flash Tube		TYPE:Goods.Alchemy.Consumable.Vial.Liquid	COST:30	WT:1	SOURCEPAGE:SS30				
+#Frostfire
+#Harness
+Sculptor's Slime (Vial)		TYPE:Goods.Special.Consumable.Vial.Liquid	COST:700	WT:4	SOURCEPAGE:SS30				
+Spore Flask		TYPE:Goods.Special.Liquid.Flask.Consumable	COST:1000	WT:1	SOURCEPAGE:SS30
+Lantern (Sun)	OUTPUTNAME:Sun Lantern	TYPE:Goods.Special.Container.LightSource	COST:162	WT:3	SOURCEPAGE:SS30	CONTAINS:1|Sunrod=1	QUALITY:Bright Illumination|30 ft.	QUALITY:Shadowy Illumination|20 ft.	QUALITY:Duration|6 hr.

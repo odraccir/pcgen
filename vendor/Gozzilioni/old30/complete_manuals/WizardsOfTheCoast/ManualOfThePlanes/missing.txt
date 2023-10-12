@@ -1,0 +1,19 @@
+- astral carracks
+- petitioners:
+Ysgard: Fire and acid immunity; electricity resistance 10, sonic resistance 10.
+Limbo: Fire and cold immunity; electricity resistance 10, acid resistance 10; morphic stability (as the planeshifter’s class feature) within 40 feet.
+Pandemonium: Electricity and sonic immunity; cold resistance 10, acid resistance 10.
+Abyss: Electricity and poison immunity; fire resistance 10, acid resistance 10; acidic vapor, no planar commitment (as described in Manual of the Planes).
+Carceri: Cold and acid immunity; electricity resistance 10, fire resistance 10; +10 racial bonus on Bluff checks. 
+Hades: Cold and fire immunity; electricity resistance 10, acid resistance 10; wounding, disease, no planar commitment (as described in Manual of the Planes).
+Gehenna: Poison and acid immunity; fire resistance 10, cold resistance 10; +10 racial bonus on Climb checks.
+Nine Hells: Cold resistance 10, fire resistance 10; petitioners native to Cania have immunity to cold and no resistance to fire.
+Acheron: Electricity and sonic immunity; cold resistance 10, fire resistance 10; Hearten (as described in Manual of the Planes).
+Mechanus: Fire and cold immunity. 
+Arcadia: Sonic and acid immunity; cold resistance 10, electricity resistance 10; at-will detect good or detect chaos as 5th-level caster.
+Celestia: As lantern archons, described in the Monster Manual. 
+Bytopia: Fire and cold immunity; electricity resistance 10; at will magic circle against evil as 5th-level caster.
+Elysium: Electricity and cold immunity; fire resistance 10; retain up to four character levels acquired before becoming a petitioner.
+Beastlands: Electricity and poison immunity; cold resistance 10, fire resistance 10; fast healing 2.
+Arborea: Electricity and poison immunity; cold resistance 10, fire resistance 10; damage reduction 5/magic. Bacchae additionally have acid resistance 10 and the entice supernatural ability (as described in Manual of the Planes). 
+Outlands: Electricity immunity; polymorph and petrification immunity; acid resistance 10; damage reduction 5/magic.

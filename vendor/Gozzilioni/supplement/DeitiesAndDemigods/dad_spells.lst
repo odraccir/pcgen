@@ -1,4 +1,4 @@
-SOURCELONG:Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04																						
+SOURCELONG:Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04
 #																									
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus
 Status (Greater)				TYPE:Spell	SCHOOL:Divination				COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:One creature touched/3 levels.	DURATION:1 hour/level	SAVEINFO:Will negates (harmless)	SPELLRES:Yes	DESC:As status (described in the Player's Handbook), but you can also cast a limited selection of spells through the link, as if you were touching the target.	SOURCEPAGE:DaD								

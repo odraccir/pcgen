@@ -1,4 +1,4 @@
-SOURCELONG:Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04																													
+SOURCELONG:Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04
 	
 STARTPACK:Cyclops (Lesser) Stats	TYPE:DefaultMonster.Giant	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Cyclops (Lesser)
 STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10

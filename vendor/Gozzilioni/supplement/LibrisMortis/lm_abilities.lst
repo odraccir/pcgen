@@ -1,4 +1,4 @@
-SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-10																													
+SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-10
 																																
 ###Block: Exalted Spellcasting																																
 Necrotic Spellcaster (Arcane/INT Spellstat)	CATEGORY:Special Ability	TYPE:NecroticSpells	VISIBLE:DISPLAY																ADD:SPELLCASTER|Necrotic (Arcane/INT)													SOURCEPAGE:LM

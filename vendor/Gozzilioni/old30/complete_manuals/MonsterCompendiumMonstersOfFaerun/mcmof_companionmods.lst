@@ -1,8 +1,0 @@
-SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
-#										
-###Block: Standard Companions										
-###Block:Familiar										
-# FOLLOWER:FamiliarLVL=1	TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~				
-										
-###Block:Familiar Bonus to Master										
-MASTERBONUSRACE:Beholderkin (Eyeball)	TYPE:Familiar					ABILITY:Special Ability|AUTOMATIC|Beholderkin (Eyeball) ~ Spellray				

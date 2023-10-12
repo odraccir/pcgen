@@ -1,5 +1,5 @@
-SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09																													
-																																
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
+
 ###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 CATEGORY=Internal|Standard Selection ~ Animal Companion (Druid).MOD	COMPANIONLIST:Animal Companion|Terror Bird|FOLLOWERADJUSTMENT:-6																															
 CATEGORY=Internal|Standard Selection ~ Animal Companion (Druid).MOD	COMPANIONLIST:Animal Companion|Dire Animal (Dire Rhinoceros),Megatherium|FOLLOWERADJUSTMENT:-15																															

@@ -1,0 +1,15 @@
+SOURCELONG:Epic Level Handbook 3.0	SOURCESHORT:ELH30	SOURCEWEB:http://www.gozzilioni.net
+
+#																																																		
+# Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:																																													
+Craft (Dreamweaving)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Dreamweaving)	SOURCEPAGE:ELH30	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Dreamweaving)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=DreamweavingTools																																										
+Craft (Dreamweaving)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Craft ~ Dreamweaving	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Dreamweaving).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Dreamweaving)"),1]																																									
+Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Dreamweaving|var("SKILL.Craft (Dreamweaving).MISC")	BONUS:SKILLRANK|Craft ~ Dreamweaving|skillinfo("TOTALRANK", "Craft (Dreamweaving)")																																									
+Craft (Gemcutting)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Gemcutting)	SOURCEPAGE:ELH30	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Gemcutting)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=GemcuttingTools																																										
+Craft (Gemcutting)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Craft ~ Gemcutting	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Gemcutting).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Gemcutting)"),1]																																									
+Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Gemcutting|var("SKILL.Craft (Gemcutting).MISC")	BONUS:SKILLRANK|Craft ~ Gemcutting|skillinfo("TOTALRANK", "Craft (Gemcutting)")																																									
+Knowledge (Dreams)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Dreams)	SOURCEPAGE:ELH30		BONUS:SKILL|Gather Information|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Knowledge (Dreams)=5																																											
+
+###Block: Situation Skills for output only																																																		
+Intimidate.MOD	SITUATION:Draconic Creatures																																																	
+Spellcraft.MOD	SITUATION:Cast epic spells

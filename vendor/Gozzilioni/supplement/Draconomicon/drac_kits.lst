@@ -1,5 +1,5 @@
 SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11
-	
+
 STARTPACK:Abyssal Drake Stats	TYPE:DefaultMonster.Outsider	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Abyssal Drake
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
 

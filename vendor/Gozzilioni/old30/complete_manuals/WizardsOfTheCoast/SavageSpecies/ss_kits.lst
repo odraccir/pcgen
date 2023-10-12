@@ -1,0 +1,21 @@
+SOURCELONG:Savage Species 3.0	SOURCESHORT:SS30	SOURCEWEB:http://www.gozzilioni.net
+#
+###Block: Awakened Animal and Tree
+STARTPACK:Awakened Undead	VISIBLE:NO	APPLY:INSTANT
+STAT:INT=roll("1d6")+2+var("STAT.3.BASE")-var("STAT.3")
+
+STARTPACK:Hippocampus Stats	TYPE:DefaultMonster.Magical Beast	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Hippocampus
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+
+STARTPACK:Hippocampus Companion	TYPE:DefaultMonster.Magical Beast	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Hippocampus
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=11
+ABILITY:CATEGORY=FEAT|Iron Will
+ABILITY:CATEGORY=FEAT|Alertness
+SKILL:Listen	RANK:5
+SKILL:Sense Motive	RANK:3
+SKILL:Spot	RANK:5
+SKILL:Survival	RANK:1
+
+
+STARTPACK:Half-Ogre Stats	TYPE:DefaultMonster.Humanoid	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Half-Ogre
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10

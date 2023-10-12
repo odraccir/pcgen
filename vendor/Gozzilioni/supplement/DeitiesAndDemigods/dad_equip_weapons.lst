@@ -1,26 +1,26 @@
-SOURCELONG:Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04																													
+SOURCELONG:Deities and Demigods	SOURCESHORT:DaD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2002-04
 #																									
 #	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:			
 Giant Rock (Large)	KEY:Giant Rock ~ Lesser Cyclope	PROFICIENCY:WEAPON|Giant Rock	TYPE:Weapon.Ranged.Thrown.Bludgeoning.Rock					SIZE:L	DAMAGE:2d6	CRITRANGE:1	CRITMULT:x2		RANGE:140	BONUS:WEAPON|ATTACKSPROGRESS|-3
 Giant Rock (Huge)	KEY:Giant Rock ~ Greater Cyclope	PROFICIENCY:WEAPON|Giant Rock	TYPE:Weapon.Ranged.Thrown.Bludgeoning.Rock					SIZE:H	DAMAGE:2d8	CRITRANGE:1	CRITMULT:x2		RANGE:140	BONUS:WEAPON|ATTACKSPROGRESS|-3
 
-# Simple Weapons																									
-## Unarmed																									
-## Light																									
-## OneHanded																									
-## TwoHanded																									
-## Ranged																									
+# Simple Weapons
+## Unarmed
+## Light
+## OneHanded
+## TwoHanded
+## Ranged
 
-# Martial Weapons																									
-## Light																									
-## OneHanded																									
-## TwoHanded																									
-## Ranged																									
+# Martial Weapons
+## Light
+## OneHanded
+## TwoHanded
+## Ranged
 
-# Exotic Weapons																									
-## Light																									
-## OneHanded																									
-## TwoHanded																									
-## Ranged																									
-																									
-### Arrows																									
+# Exotic Weapons
+## Light
+## OneHanded
+## TwoHanded
+## Ranged
+
+### Arrows

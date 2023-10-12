@@ -1,0 +1,5 @@
+SOURCELONG:Manual of the Planes 3.0	SOURCESHORT:MotP30	SOURCEWEB:http://www.gozzilioni.net
+#																										
+# Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property																		
+###Block: Poisons																										
+Poison (Sinmaker's Surprise)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:4400	WT:0	SOURCEPAGE:MotP30	SPROP:Injury DC 24 or Ingested DC 18, Init.:2d6 CON and 1d6 acid damage/roud for 3 round, Sec.:2d6 CON.																				

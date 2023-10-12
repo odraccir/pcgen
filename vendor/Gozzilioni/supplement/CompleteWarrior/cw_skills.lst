@@ -1,4 +1,4 @@
-SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11																														
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11
 #																																																		
 # Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:																																													
 Perform (Weapon Drill)	USEUNTRAINED:NO		KEYSTAT:CHA	TYPE:Skill.Charisma.Perform.Perform (Weapon Drill)	SOURCEPAGE:PHB	VISIBLE:DISPLAY	BONUS:SKILL|Perform (Weapon Drill)|BAB/2|TYPE=Circumstance	BONUS:SKILL|Perform (Weapon Drill)|2|PREABILITY:1,CATEGORY=FEAT,Combat Expertise	BONUS:SKILL|Perform (Weapon Drill)|2|PREABILITY:1,CATEGORY=FEAT,Greater Weapon Focus	BONUS:SKILL|Perform (Weapon Drill)|2|PREABILITY:1,CATEGORY=FEAT,Quick Draw	BONUS:SKILL|Perform (Weapon Drill)|2|PREABILITY:1,CATEGORY=FEAT,Two-Weapon Fighting	BONUS:SKILL|Perform (Weapon Drill)|2|PREABILITY:1,CATEGORY=FEAT,Weapon Focus	BONUS:SKILL|Perform (Weapon Drill)|2|PREABILITY:1,CATEGORY=FEAT,Whirlwind Attack

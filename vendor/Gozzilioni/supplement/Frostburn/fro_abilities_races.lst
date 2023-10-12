@@ -1,4 +1,4 @@
-SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09																															
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
 																																		
 ###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page		
 Race Traits ~ Neanderthal	CATEGORY:Internal				BONUS:VAR|AdvancementByClass|1																		ABILITY:Special Ability|AUTOMATIC|Neanderthal Racial Traits	ABILITY:Neanderthal Subrace|AUTOMATIC|Neanderthal ~ Common|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice										

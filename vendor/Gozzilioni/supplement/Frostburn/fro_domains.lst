@@ -1,4 +1,4 @@
-SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09					
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
 								
 #	SOURCEPAGE:SpellListI.rtf		SPELLLEVEL:DOMAIN|=1||=2||=3||=4||=5||=6||=7||=8||=9|	DESC:				
 Cold	SOURCEPAGE:Fro	PREMULT:1,[PREVARLT:DomainNotAllowed,1],[PREVAREQ:AllowDomainCold,1]	SPELLLEVEL:DOMAIN|Cold=1|Chill Touch|Cold=2|Chill Metal|Cold=3|Sleet Storm|Cold=4|Ice Storm|Cold=5|Wall of Ice|Cold=6|Cone of Cold|Cold=7|Control Weather|Cold=8|Polar Ray|Cold=9|Obedient Avalanche	DESC:Turn or destroy fire creatures as a good cleric turns undead. Rebuke, command, or bolster cold creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.		BONUS:ABILITYPOOL|Turn Fire Frostfell|1|TYPE=ClassAbility	ABILITY:Special Ability|AUTOMATIC|Basic Turning	BONUS:VAR|TurnLevelBase,TurnDamagePlusBase|ClericLVL|TYPE=Level.REPLACE

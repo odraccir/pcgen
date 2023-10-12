@@ -1,4 +1,4 @@
-SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-10												
+SOURCELONG:Libris Mortis	SOURCESHORT:LM	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-10
 
 STARTPACK:Awakened Undead	VISIBLE:NO	APPLY:INSTANT
 STAT:INT=roll("3d6")+var("STAT.3.BASE")-var("STAT.3")|CHA=roll("1d3")+var("STAT.5.BASE")

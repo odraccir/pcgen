@@ -1,4 +1,4 @@
-SOURCELONG:Book of Exalted Deeds	SOURCESHORT:BoED	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10						
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:BoED	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
 									
 #	SOURCEPAGE:SpellListI.rtf	SPELLLEVEL:DOMAIN|=1||=2||=3||=4||=5||=6||=7||=8||=9|	DESC:						
 Celestial	SOURCEPAGE:BoED	PREMULT:1,[PREVARLT:DomainNotAllowed,1],[PREVAREQ:AllowDomainCelestial,1]	SPELLLEVEL:DOMAIN|Celestial=1|Vision of Heaven|Celestial=2|Consecrate|Celestial=3|Blessed Sight|Celestial=4|Planar Ally (Lesser)|Celestial=5|Heavenly Lightning|Celestial=6|Call Faithful Servants|Celestial=7|Heavenly Lightning Storm|Celestial=8|Holy Aura|Celestial=9|Gate	DESC:You gain the supernatural ability to smite evil once per day. Add a +4 bonus to your melee attack roll and your cleric level to your damage. You must declare the smite before making the attack, and the attempt is wasted if the target is not evil.		ABILITY:Special Ability|AUTOMATIC|Smite Evil	BONUS:VAR|SmiteEvilToHit|4	BONUS:VAR|SmiteEvilDamage|ClericLVL	BONUS:VAR|SmiteEvil|1

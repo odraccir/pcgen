@@ -1,4 +1,4 @@
-SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11																														
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11
 #										
 ###Block:Guardian Familiar
 FOLLOWER:FamiliarLVL=1	TYPE:Guardian Familiar	COPYMASTERBAB:MASTER	COPYMASTERCHECK:MASTER	COPYMASTERHP:max(1,MASTER/2)	USEMASTERSKILL:YES					

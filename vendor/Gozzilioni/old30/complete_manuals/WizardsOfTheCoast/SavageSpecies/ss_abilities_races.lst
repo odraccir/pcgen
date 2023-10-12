@@ -1,0 +1,28 @@
+SOURCELONG:Savage Species 3.0	SOURCESHORT:SS30	SOURCEWEB:http://www.gozzilioni.net
+																																
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
+																																
+###Block: Race Traits																																
+Race Traits ~ Half-Ogre	CATEGORY:Internal													BONUS:VAR|AdvancementByClass|1									ABILITY:Special Ability|AUTOMATIC|Half-Ogre Racial Traits	ABILITY:Half-Ogre Subrace|AUTOMATIC|Half-Ogre ~ Half-Ogre|!PREABILITY:1,CATEGORY=Internal,TYPE.AltSubraceChoice								
+Half-Ogre Racial Traits	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:DISPLAY		KEY:Half-Ogre Racial Traits																											
+# Half-Ogre ~ Half-Ogre																																
+Darkvision	CATEGORY:Special Ability	TYPE:HalfOgreRaceTrait.RaceTrait.SpecialQuality	VISIBLE:YES	DESC:Half-ogres have darkvision with a range of 60 feet.	KEY:Half-Ogre ~ Darkvision									BONUS:VAR|DarkvisionRange|60|TYPE=Base																		SOURCEPAGE:SS30
+Natural Armor	CATEGORY:Special Ability	TYPE:HalfOgreRaceTrait.RaceTrait.SpecialQuality	VISIBLE:YES	DESC:Half-ogres have +4 natural armor due to their tough, thick skin.	KEY:Half-Ogre ~ Natural Armor									BONUS:COMBAT|AC|4|TYPE=NaturalArmor																		SOURCEPAGE:SS30
+Giant Blood	CATEGORY:Special Ability	TYPE:HalfOgreRaceTrait.RaceTrait.SpecialQuality	VISIBLE:YES	DESC:For all special abilities and effects, a half-ogre is considered a giant. Half-ogres can use giant weapons and magic items with racially specific giant powers as if they were giants.	KEY:Half-Ogre ~ Giant Blood									BONUS:VAR|HasGiantBlood|1|TYPE=Racial																		SOURCEPAGE:SS30
+Languages	CATEGORY:Special Ability	TYPE:HalfOgreRaceTrait.RaceTrait.SpecialQuality	VISIBLE:YES	DESC:Giant and Common. Bonus Languages: Draconic, Gnoll, Goblin, Orc, and Abyssal. Smart half-ogres (who are rare) may know the languages of their allies or rivals.	KEY:Half-Ogre ~ Languages																		TEMPLATE:Half-Ogre ~ Half-Ogre ~ Languages									SOURCEPAGE:SS30
+Favored Class	CATEGORY:Special Ability	TYPE:HalfOgreRaceTrait.RaceTrait.SpecialQuality	VISIBLE:YES	DESC:Barbarian. A multiclass half-ogre's barbarian class does not count when determining whether he takes an experience point penalty (see Experience for Multiclass Characters in Chapter 3 of the Player's Handbook).	KEY:Half-Ogre ~ Favored Class																		TEMPLATE:Half-Ogre ~ Half-Ogre ~ Favored Class									SOURCEPAGE:SS30
+																																
+###Block: Subtype Traits																																
+# Elements																																
+# Alignments																																
+# Racial																																
+																																
+# Race Groups Subtype																																
+																																
+# Race Groups																																
+																																
+###Block: Tracker																																
+																																
+###Block: Races Traits																																
+Race Traits ~ Hippocampus	CATEGORY:Internal	TYPE:Special	ABILITY:Special Ability|AUTOMATIC|TYPE=HippocampusRaceTrait	AUTO:LANG|Aquan																												
+Training	CATEGORY:Special Ability	TYPE:HippocampusRaceTrait.SpecialQuality	VISIBLE:YES	DESC:Training a hippocampus as a mount requires a successful Handle Animal check (DC 22 foal, DC 29 adult).	KEY:Hippocampus ~ Training																		ABILITY:Internal|AUTOMATIC|Training ~ Wild									SOURCEPAGE:SS30

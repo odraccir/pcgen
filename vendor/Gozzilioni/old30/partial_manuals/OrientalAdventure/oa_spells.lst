@@ -1,4 +1,0 @@
-SOURCELONG:Oriental adventure3.0	SOURCESHORT:OA30	SOURCEWEB:http://www.gozzilioni.net
-#																										
-# Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus	
-Master of the Rolling River				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Water		COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One or more creatures in a 20-ft-radius burst.	DURATION:Instantaneous	SAVEINFO:Reflex half	SPELLRES:No	DESC:When you cast this spell, you create a huge wave of water that slams into oneor more targets within range.	SOURCEPAGE:OA									

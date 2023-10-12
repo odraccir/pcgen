@@ -1,14 +1,14 @@
-SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11																				
-#			
-### Weapon/Spell			
-### Simple/Martial/Exotic			
-### Melee/Ranged			
-### Bludgeoning/Piercing/Slashing			
-### Reach/Double/Thrown/Projectile/Ammunition			
-### Unharmed/Light/OneHanded/TwoHanded			
-###Automatic			
+SOURCELONG:Complete Divine	SOURCESHORT:CD	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-05
+#
+### Weapon/Spell
+### Simple/Martial/Exotic
+### Melee/Ranged
+### Bludgeoning/Piercing/Slashing
+### Reach/Double/Thrown/Projectile/Ammunition
+### Unharmed/Light/OneHanded/TwoHanded
+###Automatic
 
-###Improvised			
+###Improvised
 
 ###Simple			
 Musperule	TYPE:Simple.Melee.Bludgeoning.MeleeBludgeoning.Light.Club		

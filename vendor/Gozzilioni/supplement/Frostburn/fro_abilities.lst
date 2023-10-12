@@ -1,5 +1,5 @@
-SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09																													
-																																
+SOURCELONG:Frostburn	SOURCESHORT:Fro	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-09
+
 ###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 CATEGORY=Internal|Standard Selection ~ Animal Companion (Druid).MOD	COMPANIONLIST:Animal Companion|Animal (Bear/Black),Branta,Companion ~ Animal (Shark (Large)),Companion ~ Animal (Leopard (Snow)),Animal (Wolverine)|FOLLOWERADJUSTMENT:-3	COMPANIONLIST:Animal Companion|Animal (Bear/Brown),Dire Animal (Dire Wolf),Dire Animal (Dire Wolverine),Megaloceros|FOLLOWERADJUSTMENT:-6	COMPANIONLIST:Animal Companion|Animal (Bear/Polar),Glyptodon,Smilodon,Companion ~ Animal (Shark (Huge)),Animal (Whale (Orca))|FOLLOWERADJUSTMENT:-9	COMPANIONLIST:Animal Companion|Dire Animal (Dire Bear),Animal (Octopus (Giant)),Wolly Mammoth|FOLLOWERADJUSTMENT:-12	COMPANIONLIST:Animal Companion|Dire Animal (Dire Shark),Dire Animal (Dire Tiger),Companion ~ Animal (Squid (Giant)),Zeuglodon|FOLLOWERADJUSTMENT:-15																											
 CATEGORY=Internal|Standard Selection ~ Familiar.MOD	COMPANIONLIST:Familiar|Animal (Arctic Fox),Animal (Gyrfalcon),Animal (Lemming),Animal (Owl (Snow)),Animal (Penguin),Animal (Puffin)																															

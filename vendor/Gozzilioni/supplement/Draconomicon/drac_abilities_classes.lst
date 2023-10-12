@@ -1,4 +1,4 @@
-SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11																															
+SOURCELONG:Draconomicon	SOURCESHORT:Drac	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11
 																																		
 ###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page		
 Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassFeatures.BloodscaledFuryClassFeatures.SpecialQuality	VISIBLE:YES	DESC:A bloodscaled fury gains no proficiency with any weapons, armor, or shields.	KEY:Bloodscaled Fury ~ Weapon and Armor Proficiency																										SORTKEY:Class_Bloodscaled_Fury	SOURCEPAGE:Drac		

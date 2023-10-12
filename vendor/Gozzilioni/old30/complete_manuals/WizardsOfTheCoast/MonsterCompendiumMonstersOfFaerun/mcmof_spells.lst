@@ -1,0 +1,12 @@
+SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2001-02
+#																									
+# Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:|!PRERULE:1,DisplayFullSpell	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	Desc	Bonus	Bonus	
+Create Undead.MOD	DESC:A cleric of at least 14th level can create a baneguard using the create undead spell.																								
+#																									
+Chosen One				TYPE:Spell	SCHOOL:Alteration			CLASSES:Sorcerer=5|Wizard=5	COMPS:V, S, M	CASTTIME:1 hour.	RANGE:Touch	TARGETAREA:One human	DURATION:Instantaneous	SAVEINFO:Will negates	SPELLRES:Yes	DESC:Casting the spell involves a series of magical rituals intended to turn a normal human (of up to 3rd level) into a maddened, murderous creature.	SOURCEPAGE:MCMoF30								PREALIGN:LE,NE,CE
+Create Crawling Claw				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Evil	CLASSES:Sorcerer=3|Wizard=3	COMPS:V, S, M	CASTTIME:1 hour.	RANGE:Close	TARGETAREA:Severed left hands within a 5-foot-radius circle.	DURATION:Instantaneous	SAVEINFO:None	SPELLRES:Yes	DESC:You may create a number of crawling claws up to twice your caster Level. Material Components: Clippings from a ghoul's fingernails, and a ring that someone else lost.	SOURCEPAGE:MCMoF30								
+
+Summon Nature's Ally VII.COPY=Summon Nature's Ally VII	KEY:Air ~ Summon Nature's Ally VII																																						
+Air ~ Summon Nature's Ally VII.MOD	OUTPUTNAME:Summon Nature's Ally VII	DESCRIPTOR:.CLEAR	DESCRIPTOR:Air	DESC:Cast as a Air spell only.
+Summon Nature's Ally VIII.COPY=Summon Nature's Ally VIII	KEY:Air ~ Summon Nature's Ally VIII																																						
+Air ~ Summon Nature's Ally VIII.MOD	OUTPUTNAME:Summon Nature's Ally VIII	DESCRIPTOR:.CLEAR	DESCRIPTOR:Air	DESC:Cast as a Air spell only.

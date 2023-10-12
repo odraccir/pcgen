@@ -1,0 +1,13 @@
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:BoED	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+#																			
+# Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property											
+### Materials																			
+																			
+#Special Ability																			
+###Block: Armors and Shields																			
+Beautiful	KEY:BEAUTY_B	TYPE:Armor	COST:BASECOST	VISIBLE:QUALIFY	SOURCEPAGE:NS	SPROP:It never rusts, grows dirty, or rips. It always appears to be in top condition, regardless of the damage it has taken.	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor],[PRETYPE:1,Barding]									ASSIGNTOALL:YES			
+Featherlight	KEY:FEATHER_B	TYPE:Armor	COST:BASECOST:2	VISIBLE:QUALIFY	SOURCEPAGE:NS	SPROP:Featherlike armor has no weight.	PREMULT:2,[PRETYPE:1,Enhancement],[PRETYPE:1,Armor],[PRETYPE:1,Barding]	 BONUS:EQM|WEIGHTMULT|0								ASSIGNTOALL:YES			
+#Special Ability																			
+###Block: Weapons																			
+																			
+### Intelligent																			

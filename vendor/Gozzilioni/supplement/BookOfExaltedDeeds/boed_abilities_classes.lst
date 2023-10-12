@@ -1,4 +1,4 @@
-SOURCELONG:Book of Exalted Deeds	SOURCESHORT:BoED	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10																														
+SOURCELONG:Book of Exalted Deeds	SOURCESHORT:BoED	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
 																																	
 ###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
 Weapon and Armor Proficiency	CATEGORY:Special Ability	TYPE:ClassFeatures.AnointedKnightClassFeatures.SpecialQuality	VISIBLE:YES	DESC:An anointed knight is proficient with all simple and martial weapons, all types of armor, and shields.	KEY:Anointed Knight ~ Weapon and Armor Proficiency																		ABILITY:Internal|AUTOMATIC|TYPE=WeaponProfMartial	ABILITY:Internal|AUTOMATIC|TYPE=ArmorProfHeavy	ABILITY:Internal|AUTOMATIC|TYPE=ShieldProf						SORTKEY:Class_Anointed_Knight	SOURCEPAGE:BoED	

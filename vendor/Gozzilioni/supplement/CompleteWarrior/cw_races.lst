@@ -1,4 +1,4 @@
-SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11																															
+SOURCELONG:Complete Warrior	SOURCESHORT:CW	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-11
 																																		
 # Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	TYPE:	RACETYPE:	RACESUBTYPE:	MONSTERCLASS:	MOVE:	Combat bonus	NATURALATTACKS:	NATURALATTACKS:	Weapon prof. bonus	Weapon prof. bonus	FACE:	REACH:	Special Ability	Damage Reduction	Spell Res.	Stat bonus						MONCSKILL:	CR:	Required AL	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	Nb Legs	Nb Hands	SOURCEPAGE:	
 Spark Guardian				SIZE:T	TYPE:Construct	RACETYPE:Construct		MONSTERCLASS:Construct (Mindless):2	MOVE:Walk,20,Fly,20	BONUS:COMBAT|AC|4|TYPE=NaturalArmor	NATURALATTACKS:Talon,Weapon.Natural.Finesseable.Melee.Piercing.Slashing,*1,1d2				FACE:2.5	REACH:0	ABILITY:Internal|AUTOMATIC|Race Traits ~ Spark Guardian	DR:5/-		BONUS:STAT|STR|-2	BONUS:STAT|DEX|4				BONUS:STAT|CHA|-10		CR:3	KIT:1|TN	HITDICEADVANCEMENT:4,6		LEGS:2	HANDS:0	SOURCEPAGE:CW	KIT:1|Spark Guardian Stats
