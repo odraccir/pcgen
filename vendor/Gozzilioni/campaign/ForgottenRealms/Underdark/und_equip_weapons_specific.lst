@@ -1,0 +1,32 @@
+SOURCELONG:Underdark	SOURCESHORT:Und	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+#																									
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:			
+
+# Simple Weapons																									
+## Unarmed																									
+## Light																									
+## OneHanded																									
+Nature's Wrath			PROFICIENCY:WEAPON|Club	TYPE:Enhancement.Weapon.Melee.Ranged.Simple.Bludgeoning.OneHanded.Ranged.Club	COST:50300	WT:3	WIELD:OneHanded		SIZE:M	DAMAGE:1d6	CRITRANGE:1	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS2W.BANE_M|Aberration.BANE_M|Construct.BANE_M|Undead	SOURCEPAGE:PHB							RANGE:10				
+## TwoHanded																									
+## Ranged																									
+
+# Martial Weapons																									
+## Light																									
+Drow Mission Blade			PROFICIENCY:WEAPON|Sword (Short)	TYPE:Enhancement.Weapon.Melee.Martial.Piercing.Light.Sword	COST:15270	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W.DROWCRAFT_M.FIND_M	SOURCEPAGE:Und	SPELLS:Drow Mission Blade|TIMES=1|CASTERLEVEL=4|Blindsight										
+## OneHanded																									
+Everchanging Blade			PROFICIENCY:WEAPON|Longsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.OneHanded.Sword	COST:50315	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W.METALLINE_M.MORPH_M.SIZE_M	SOURCEPAGE:Und											
+Final Rest			PROFICIENCY:WEAPON|Longsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.OneHanded.Sword	COST:28035	WT:4	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS1W.MORPH_M.BANE_M|Undead	SOURCEPAGE:Und	SPELLS:Final Rest|TIMES=ATWILL|CASTERLEVEL=9|Hide from Undead										
+King's Knife			PROFICIENCY:WEAPON|Sword (Short)	TYPE:Enhancement.Weapon.Melee.Martial.Piercing.Light.Sword	COST:13170	WT:2	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:Und, pag 153	SPELLS:King's Knife|TIMES=2|CASTERLEVEL=6|Enlarge Person|Invisibility|PRERACE:1,Drawf (Gray),Dwarf (Duergar)									
+## TwoHanded																									
+Trespasser (Illithid)			PROFICIENCY:WEAPON|Greatsword	TYPE:Enhancement.Weapon.Melee.Martial.Slashing.TwoHanded.Sword	COST:177350	WT:8	WIELD:TwoHanded		SIZE:M	DAMAGE:2d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.PLUS2W.KEEN.ILLITHIDWRIGHT_M.ILLITHIDWRIGHT_TENTACLE_M	SOURCEPAGE:Und	SPELLS:Trespasser (Illithid)|TIMES=3|CASTERLEVEL=15|Death Knell										
+## Ranged																									
+
+# Exotic Weapons																									
+## Light																									
+## OneHanded																									
+## TwoHanded																									
+Spiderbane			PROFICIENCY:WEAPON|Chain (Spiked)	TYPE:Enhancement.Weapon.Melee.Exotic.Piercing.TwoHanded.Chain	COST:18325	WT:10	WIELD:TwoHanded		SIZE:M	DAMAGE:2d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.BANE_M_SPD|Spiderkind	SOURCEPAGE:Und								REACHMULT:2			
+## Ranged																									
+Hand Spinneret (Drow)			PROFICIENCY:WEAPON|Crossbow (Hand)	TYPE:Enhancement.Weapon.Ranged.Exotic.Piercing.Crossbow.Container	COST:45400	WT:2			SIZE:M	DAMAGE:1d4	CRITRANGE:2	CRITMULT:x2	EQMOD:WOOD.EQ_COST_ADJ_W.PLUS3W.UNHOLY_R.DROWCRAFT_R	SOURCEPAGE:Und							RANGE:30		CONTAINS:UNLIM|Bolt|SpecificBolt		
+
+# Arrows																									

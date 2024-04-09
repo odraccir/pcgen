@@ -1,0 +1,30 @@
+SOURCELONG:Underdark	SOURCESHORT:Und	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+#			
+### Weapon/Spell			
+### Simple/Martial/Exotic			
+### Melee/Ranged			
+### Bludgeoning/Piercing/Slashing			
+### Reach/Double/Thrown/Projectile/Ammunition			
+### Unharmed/Light/OneHanded/TwoHanded			
+###Automatic			
+#			
+# Fake Auto	TYPE:Auto		
+# Fake Simple	TYPE:Simple.Melee		
+# Fake Martial	TYPE:Martial.Melee		
+# Fake Exotic	TYPE:Exotic.Melee		
+#			
+Razored Armor	TYPE:Martial.Melee.Piercing.MeleePiercing.Light.LightMartial
+Buoyancied Armor	TYPE:Martial.Melee.Light.LightMartial
+Camouflaged Armor	TYPE:Martial.Melee.Light.LightMartial
+Muffled Armor	TYPE:Martial.Melee.Light.LightMartial
+Stabilized Armor	TYPE:Martial.Melee.Light.LightMartial
+
+###Improvised			
+###Simple			
+###Martial			
+###Exotic			
+Nekode	TYPE:Exotic.Melee.Piercing.MeleePiercing.Light.Nekode
+Steel Fins	TYPE:Exotic.Melee.Slashing.MeleeSlashing.Light.SteelFins
+Flutter Blade	TYPE:Exotic.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing.OneHanded.Sword
+###Ranged
+Dart Thruster	TYPE:Martial.Ranged.Piercing.Thrown.Light.RangedPiercing.DartThruster	HANDS:2

@@ -2,6 +2,8 @@ SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
 #																																																		
 # Skill name	USEUNTRAINED:	ACHECK:	KEYSTAT:	TYPE:	SOURCEPAGE:																																													
 Knowledge (Underdark)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Underdark)	SOURCEPAGE:H
+Knowledge (Underdark Local)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Knowledge.Knowledge (Local)	SOURCEPAGE:H		BONUS:SKILL|Gather Information|SynergyBonus|TYPE=Synergy.STACK|PRESKILL:1,Knowledge (Local)=5																																											
+
 Craft (Poisonmaking)	USEUNTRAINED:NO		KEYSTAT:INT	TYPE:Skill.Intelligence.Craft.Craft (Poisonmaking)	SOURCEPAGE:H	VISIBLE:DISPLAY	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty If improvised tools are used	TEMPBONUS:PC|SKILL|Craft (Poisonmaking)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=PoisonmakingTools																																										
 Craft (Poisonmaking)	USEUNTRAINED:YES		KEYSTAT:INT	TYPE:SkillDisplay		VISIBLE:EXPORT	KEY:Craft ~ Poisonmaking	CLASSES:ALL	PREMULT:1,[PREVARNEQ:var("SKILL.Craft (Poisonmaking).MISC"),var("SKILL.Craft (Untrained).MISC")],[PREVARGTEQ:skillinfo("TOTALRANK","Craft (Poisonmaking)"),1]																																									
 Craft (Untrained).MOD								BONUS:SKILL|Craft ~ Poisonmaking|var("SKILL.Craft (Poisonmaking).MISC")	BONUS:SKILLRANK|Craft ~ Poisonmaking|skillinfo("TOTALRANK", "Craft (Poisonmaking)")																																									

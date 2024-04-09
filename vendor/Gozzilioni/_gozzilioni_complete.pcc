@@ -73,12 +73,12 @@ PCC:old30/partial_manuals/WizardsOfTheCoast/TomeAndBlood/_tomeandblood.pcc
 PCC:old30/partial_manuals/WizardsOfTheCoast/OrientalAdventure/_orientaladventure.pcc
 
 ###Forgotten Realms
-PCC:campaign/ForgottenRealms/PlayerSGuideToFaerun/_playersguidetofaerun.pcc
-PCC:campaign/ForgottenRealms/Underdark/_underdark.pcc
-PCC:old30/complete_manuals/WizardsOfTheCoast/ForgottenRealmsCampaingSetting/_forgottenrealmscampaingsetting.pcc
 PCC:old30/complete_manuals/WizardsOfTheCoast/MonsterCompendiumMonstersOfFaerun/_monstercompendiummonstersoffaerun.pcc
 PCC:old30/complete_manuals/WizardsOfTheCoast/MagicOfFaerun/_magicoffaerun.pcc
+PCC:old30/complete_manuals/WizardsOfTheCoast/ForgottenRealmsCampaingSetting/_forgottenrealmscampaingsetting.pcc
 PCC:old30/complete_manuals/WizardsOfTheCoast/LordsOfDarkness/_lordsofdarkness.pcc
+PCC:campaign/ForgottenRealms/PlayerSGuideToFaerun/_playersguidetofaerun.pcc
+PCC:campaign/ForgottenRealms/Underdark/_underdark.pcc
 
 PCC:errata/MagicOfFaerun/_magicoffaerun_errata.pcc
 

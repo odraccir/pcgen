@@ -1,0 +1,70 @@
+SOURCELONG:Underdark	SOURCESHORT:Und	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+#																		
+##Block: Rings																								
+Ring of Antivenom		TYPE:Ring	COST:60000	WT:0	SOURCEPAGE:Und	BONUS:VAR|PoisonResistance|5|TYPE=Resistance	ABILITY:Special Ability|VIRTUAL|Resistance to Poison
+Ring of Antivenom (Frugal)		TYPE:Ring	COST:10000	WT:0	SOURCEPAGE:Und	SPELLS:Ring of Antivenom (Frugal)|TIMES=1|CASTERLEVEL=7|Neutralize Poison
+Ring of Detect Thoughts		TYPE:Ring	COST:27000	WT:0	SOURCEPAGE:Und	SPELLS:Ring of Detect Thoughts|TIMES=ATWILL|CASTERLEVEL=7|Detect Thoughts																		
+Ring of Enslavement (Master)		TYPE:Ring	COST:20000	WT:0	SOURCEPAGE:Und	SPELLS:Ring of Enslavement (Master)|TIMES=ATWILL|CASTERLEVEL=7|Detect Thoughts																		
+Ring of Enslavement (Slave)		TYPE:Ring.Cursed	COST:20000	WT:0	SOURCEPAGE:Und	SPROP:-10 penalty on all saves against divination spells. While wearing this ring, the wearer is not permitted a saving throw against the detect thoughts ability of the master ring. When donned, and each tenday thereafter, the ring exerts a dominate person effect upon the wearer, granting control to the wearer of the master ring. The dominate person effect ends if the ring is removed.
+
+##Block: Rods																								
+Rod of Dead		TYPE:Rod	COST:75000	WT:5	SOURCEPAGE:Und	EQMOD:CHARGED_ITEM_50|CHARGES[50]	BONUS:VAR|TurnLevelBase,TurnDamagePlusBase|4
+Dowsing Rod		TYPE:Rod	COST:12000	WT:1	SOURCEPAGE:Und	EQMOD:CHARGED_ITEM_50|CHARGES[50]
+Rod of Faerzress Negation		TYPE:Rod	COST:50000	WT:5	SOURCEPAGE:Und	SPROP:At will, the wielder can negate the effects of faerzress in a 10- foot radius for up to 1 hour per day. (This duration need not be continuous).
+Portal Finder		TYPE:Rod	COST:36000	WT:5	SOURCEPAGE:Und	EQMOD:CHARGED_ITEM_50|CHARGES[50]
+Portal Finder		TYPE:Rod	COST:36000	WT:5	SOURCEPAGE:Und	EQMOD:CHARGED_ITEM_50|CHARGES[50]
+Rod of Webspinning		TYPE:Rod	COST:90000	WT:5	SOURCEPAGE:Und	SPROP:continuos Spiderskin. Movement as if under Freedom of Movement effects, except that it applies only to webs.	BONUS:COMBAT|AC|2|TYPE=NaturalArmor	BONUS:VAR|PoisonResistanceBonus|2|TYPE=Enhancement	ABILITY:Special Ability|VIRTUAL|Resistance to Poison	BONUS:SKILL|Hide|2|TYPE=Racial	SPELLS:Rod of Webspinning|TIMES=3|CASTERLEVEL=7|Web
+
+###Block: Staff																								
+Staff of Portals	KEY:Staff (Portals)	TYPE:Staff	COST:12000	WT:5	SOURCEPAGE:Und	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Analyze portal (FRCS) (1 charge)/Portal view (1 charge)/Dimension door (2 charges)/Portal barricade (2 charges)/Portal-to-portal redirect (2 charges)/Etherealness (3 charges)/Portal reformat (3 charges).
+Staff of Shadow (Lesser)	KEY:Staff (Shadow/Lesser)	TYPE:Staff	COST:48500	WT:5	SOURCEPAGE:Und	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Shadow conjuration (1 charge)/Shadow evocation (2 charges)/Shadow walk (3 charges).
+Staff of Shadow (Greater)	KEY:Staff (Shadow/Greater)	TYPE:Staff	COST:113000	WT:5	SOURCEPAGE:Und	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Shadow walk (1 charge)/Shadow conjuration, greater (2 charges)/Shadow image (2 charges)/Shadow evocation, greater (2 charges).
+Staff of Stone	KEY:Staff (Stone)	TYPE:Staff	COST:71250	WT:5	SOURCEPAGE:Und	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Stone shape (1 charge)/Stone metamorphosis (1 charge)/Wall of stone (2 charges)/Stone shape, greater (2 charges)/Stone metamorphosis, greater (3 charges).
+Staff of Spider (Und)	KEY:Staff (Spider/Und)	TYPE:Staff	COST:33000	WT:5	SOURCEPAGE:Und	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Spider climb (1 charge)/Summon swarm (1 charge)/Spiderskin (1 charge).
+Staff of Underdark	KEY:Staff (Underdark)	TYPE:Staff	COST:48500	WT:5	SOURCEPAGE:Und	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Amorphous form (1 charge)/Passwall (2 charges)/Find the path (3 charges).
+Staff of Watery Grave	KEY:Staff (Watery Grave)	TYPE:Staff	COST:100000	WT:5	SOURCEPAGE:Und	EQMOD:CHARGED_ITEM_50|CHARGES[50]	SPROP:Dehydrate (1 charge)/Rushing waters (1 charge)/Drown (2 charges)/Contagious fog* (2 charges).
+
+###Block: Wondrous																								
+Antimagic Toc		TYPE:Wondrous.Amulet	COST:25000	WT:0	SOURCEPAGE:Und	SPELLS:Antimagic Toc|TIMES=1|CASTERLEVEL=11|Antimagic Field																		
+Boots of Tremorsense		TYPE:Wondrous.Boot	COST:45000	WT:1	SOURCEPAGE:Und	SLOTS:2
+Cephalometer (Illithid)		TYPE:Wondrous.Headgear	COST:36450	WT:1	SOURCEPAGE:Und	SPELLS:Cephalometer (Illithid)|TIMES=1|CASTERLEVEL=9|Dominate Person|Feeblemind,17
+Cloak of Stone		TYPE:Wondrous.Cape	COST:20800	WT:2	SOURCEPAGE:Und	SPELLS:Cloak of Stone|TIMES=2|CASTERLEVEL=5|Meld into Stone	BONUS:SKILL|Hide,Move Silently|5|TYPE=Circumstance
+Daylight Pellet		TYPE:Wondrous	COST:750	WT:0	SOURCEPAGE:Und	SPROP:on impact and activates a daylight spell.
+Driftdisc		TYPE:Wondrous	COST:113760	WT:1500	SOURCEPAGE:Und
+Figurine of Illusory Escort		TYPE:Wondrous	COST:6500	WT:0	SOURCEPAGE:Und																			
+Figurine of Wondrous Power (Jasper Spider)	OUTPUTNAME:Figurine of Wondrous Power, [NAME]	TYPE:Wondrous	COST:5000	WT:0	SOURCEPAGE:Und																			
+Figurine of Wondrous Power (Sardonix Stone Flyer)	OUTPUTNAME:Figurine of Wondrous Power, [NAME]	TYPE:Wondrous	COST:16500	WT:0	SOURCEPAGE:Und																			
+Gauntlets of Disintegration		TYPE:Wondrous.Glove	COST:27650	WT:4	SOURCEPAGE:Und	SLOTS:2	SPELLS:Gauntlets of Disintegration|TIMES=1|CASTERLEVEL=11|Disintegrate,19
+Gloves of Venom		TYPE:Wondrous.Glove	COST:31500	WT:0	SOURCEPAGE:Und	SLOTS:2	SPELLS:Gauntlets of Venom|TIMES=3|CASTERLEVEL=7|Poison,16
+Gloves of Burrowing		TYPE:Wondrous.Glove	COST:14400	WT:0	SOURCEPAGE:Und	SLOTS:2
+Lens of Clarity		TYPE:Wondrous.Eyegear	COST:12000	WT:0	SOURCEPAGE:Und	BONUS:VAR|CharmResistanceBonus,CompulsionResistanceBonus,GlamerResistanceBonus|4|TYPE=Insight	BONUS:SITUATION|Survival=Find or follow tracks|5	ABILITY:Special Ability|VIRTUAL|Resistance to Charm|Resistance to Compulsion|Resistance to Glamer																
+Lurker Cloak		TYPE:Wondrous.Cape	COST:10000	WT:1	SOURCEPAGE:Und	
+Mantle of Energy Resistance (Acid)		TYPE:Wondrous.Cape	COST:18000	WT:0	SOURCEPAGE:Und	BONUS:VAR|AcidResistanceBonus|10|TYPE=Resistance	ABILITY:Special Ability|VIRTUAL|Resistance to Acid
+Mantle of Energy Resistance (Cold)		TYPE:Wondrous.Cape	COST:18000	WT:0	SOURCEPAGE:Und	BONUS:VAR|ColdResistanceBonus|10|TYPE=Resistance	ABILITY:Special Ability|VIRTUAL|Resistance to Cold
+Mantle of Energy Resistance (Electricity)		TYPE:Wondrous.Cape	COST:18000	WT:0	SOURCEPAGE:Und	BONUS:VAR|ElectricityResistanceBonus|10|TYPE=Resistance	ABILITY:Special Ability|VIRTUAL|Resistance to Electricity
+Mantle of Energy Resistance (Fire)		TYPE:Wondrous.Cape	COST:18000	WT:0	SOURCEPAGE:Und	BONUS:VAR|FireResistanceBonus|10|TYPE=Resistance	ABILITY:Special Ability|VIRTUAL|Resistance to Fire
+Mantle of Energy Resistance (Sonic)		TYPE:Wondrous.Cape	COST:18000	WT:0	SOURCEPAGE:Und	BONUS:VAR|SonicResistanceBonus|10|TYPE=Resistance	ABILITY:Special Ability|VIRTUAL|Resistance to Sonic
+Messenger Medallion		TYPE:Wondrous.Amulet	COST:10000	WT:0	SOURCEPAGE:Und	
+Rope of Climbing (Superior/50 Ft.)		TYPE:Wondrous.Rope	COST:5500	WT:3	SOURCEPAGE:Und	BONUS:SKILL|Climb|5|TYPE=Enhancement																		
+Spider Mask		TYPE:Wondrous.Headgear	COST:16000	WT:1	SOURCEPAGE:Und	BONUS:VAR|DarkvisionRange|60|TYPE=Base																		
+Sun Flash Pellet		TYPE:Wondrous	COST:6000	WT:0	SOURCEPAGE:Und	SPROP:on impact and activates a Sunburst spell.
+Tentacle Extension (Illithid)		TYPE:Wondrous.Glove	COST:32000	WT:2	SOURCEPAGE:Und	SLOTS:2	BONUS:WEAPONPROF=Tentacle|TOHIT,DAMAGE|2|TYPE=Enhancement
+Web Choker (Drow)		TYPE:Wondrous.Amulet	COST:2700	WT:0	SOURCEPAGE:Und
+Gorothir's Girdle		TYPE:Wondrous.Clothing	COST:120500	WT:3	SOURCEPAGE:Und, pag 134	BONUS:COMBAT|AC|5|TYPE=Deflection	SPELLS:Gorothir's Girdle|TIMES=1|CASTERLEVEL=14|Aberrate|Damning Darkness|Fiendish Clarity|Slow Consumption	SPROP:A creature of good alignment takes 3d6 points of damage for each round that it remains in contact with the girdle.|PREALIGN:LG,NG,CG
+Uskura		TYPE:Wondrous.Amulet	COST:36000	WT:0	SOURCEPAGE:Und, pag 140	SPELLS:Uskura|TIMES=ATWILL|CASTERLEVEL=10|Unseen Servant
+Braincap		TYPE:Wondrous.Headgear	COST:22000	WT:0	SOURCEPAGE:Und, pag 151	BONUS:VAR|EnhancementResistanceBonus|4|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance to Enhancement
+
+
+## Artifacts																								
+#Minor Artifacts																								
+Book of Perfect Balance		TYPE:Artifact.Minor.Book	COST:0	WT:3	SOURCEPAGE:Und																			
+Portal Demolisher		TYPE:Artifact.Minor	COST:0	WT:3	SOURCEPAGE:Und																			
+Talisman of Pure Neutrality		TYPE:Artifact.Minor	COST:0	WT:0
+Tome of Books		TYPE:Artifact.Minor.Book.Container	COST:0	WT:3	SOURCEPAGE:Und	CONTAINS:UNLIM|Book=250|Spellbook=250
+Underdark Map (Lesser)		TYPE:Artifact.Minor	COST:0	WT:0	SOURCEPAGE:Und
+Universal Key		TYPE:Artifact.Minor	COST:0	WT:0	SOURCEPAGE:Und
+Third Imaskarcana		TYPE:Artifact.Major.Book	COST:0	WT:10	SOURCEPAGE:Und	SR:27	SPELLS:Third Imaskarcana|TIMES=1|CASTERLEVEL=18|Dominate Monster|Imprisonment|Meteor Swarm,23|Time Stop
+Underdark Map (Greater)		TYPE:Artifact.Minor	COST:0	WT:1	SOURCEPAGE:Und
+
+## Cursed Items
+Headband of Idiocy		TYPE:Wondrous.Headband	COST:5500	WT:0	SOURCEPAGE:Und, pag 130	EQMOD:CURSED_ITEM.HEAD_CURSED	BONUS:STAT|INT,WIS|-10																	

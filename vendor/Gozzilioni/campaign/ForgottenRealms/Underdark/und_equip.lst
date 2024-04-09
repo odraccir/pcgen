@@ -1,0 +1,29 @@
+SOURCELONG:Underdark	SOURCESHORT:Und	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+#																		
+###Block: Goods									
+Darkvision-Invisible Paint		TYPE:Goods.General.Writing.Liquid.Jug	COST:20	WT:0.5	SOURCEPAGE:Und				
+
+###Block: Alchemical									
+Alchemist Mineral Acid (Flask)		TYPE:Goods.Alchemical.Consumable.Flask.Liquid	COST:20	WT:1	SOURCEPAGE:Und				
+Blackwater (Flask)		TYPE:Goods.Alchemical.Consumable.Flask.Liquid	COST:100	WT:1	SOURCEPAGE:Und				
+Darkoil (Vial)		TYPE:Goods.Alchemical.Consumable.Vial.Liquid	COST:25		SOURCEPAGE:Und				
+Shriek Paste (Flask)		TYPE:Goods.Alchemical.Consumable.Flask.Liquid	COST:50	WT:1	SOURCEPAGE:Und				
+
+###Block: Tools									
+Musical Instrument (Caveharp)		TYPE:Goods.Tools.Instrument.String.Resizable	COST:150	WT:3	SOURCEPAGE:Und	BONUS:SKILL|Perform (String Instruments)|2	EQMOD:MWORKI
+Spelunker's Kit		TYPE:Goods.Tools.Masterwork.Resizable.Consumable	COST:80	WT:5	SOURCEPAGE:Und	BONUS:SKILL|Balance,Climb,Escape Artist,Survival|2|TYPE=Circumstance			
+
+###Block: Poisons									
+Poison (Cave Terror)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:200	WT:0	SOURCEPAGE:Und	SPROP:Ingestion DC 20, Init.:Confusion, Sec.:1d4 INT. Craft (Alchemy) DC 25.																				
+Poison (Drow Knockout)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:75	WT:0	SOURCEPAGE:Und	SPROP:Injury DC 13, Init.:Unconscious (1 min), Sec.:Unconscious (2d4 hour).																				
+Poison (Sickstone Unguent)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:Und	SPROP:Injury DC 19, Init.:1d4 CON, Sec.:1d4 CON drain. Craft (Alchemy) DC 25.																				
+Poison (Stun Gas)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:40	WT:0	SOURCEPAGE:Und	SPROP:Inhaled DC 12, Init.:Stunning (1 round), Sec.:Stunning (1d4 round).																				
+Poison (Virile Madness)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:1200	WT:0	SOURCEPAGE:Und	SPROP:Ingested DC 20, Init.:increase 1d2 STR, increase 1d2 CON, 1d4 INT damage, 1d4 WIS damage, Sec.:increase 1d2 STR, 1d4 INT damage, 1d4 WIS damage. Craft (Alchemy) DC 25.																				
+
+###Block:Illithid Graft
+Graft (Humanoid Skin)		TYPE:Graft.Illithid	COST:5000	WT:0	SOURCEPAGE:Und	SPROP:The graft recipient's skin is stripped off in a painful flensing operation, then replaced with a layer of still-living humanoid skin carefully selected from a donor of the same general height, weight, and frame. After the skin graft, an average viewer would assume the recipient is a humanoid of the donor's race (usually a human, elf, or half-elf). The recipient gains a +10 circumstance bonus on Disguise checks made to appear as either a humanoid of the appropriate race or the specific donor humanoid.	BONUS:SKILL|Disguise|10|TYPE=Circumstance
+Graft (Brainmate)		TYPE:Graft.Illithid.IllithidBrainMate	COST:10000	WT:0	SOURCEPAGE:Und	SPROP:The brainmate is a 5-inch-diameter bud of gray matter protected by a layer of thick mucous. To function, the graft must be placed on the recipient's skull.	MODS:YES
+Graft (Grabbing Tentacle)		TYPE:Graft.Illithid	COST:20000	WT:0	SOURCEPAGE:Und	SPROP:The tentacle deals base damage of 1d4 points if grafted to a Medium creature, or 1d3 points if grafted to a Small creature, or 1d6 points if grafted to a Large creature. If it hits with the tentacle, the grafted creature may attempt to start a grapple without provoking an attack of opportunity, as if it possessed the Improved Grab special attack (see Chapter 7 of the Monster Manual) with that limb. The grabbing tentacle also extends the creature's natural reach by 5 feet, but it cannot be used to wield a weapon or perform any fine manipulation.
+Graft (Extracting Tentacle)		TYPE:Graft.Illithid	COST:45000	WT:0	SOURCEPAGE:Und	SPROP:This tentacle can be grafted to a Small, Medium, or Large recipient in place of its own arm or forelimb. The recipient can then use the tentacle to make one primary natural attack per round (or a secondary natural attack if it uses a weapon in its other hand as a primary weapon). The tentacle deals base piercing damage of 1d6 points if grafted to a Medium creature, or 1d4 points if grafted to a Small creature, or 1d8 points if grafted to a Large creature. If the grafted creature successfully grapples its foe by any means and maintains the grapple during the next round, the extracting tentacle automatically extracts the foe's brain (or heart), instantly killing that creature. The victim is entitled to a Fortitude save (DC 10 + 1/2 the grafted creature's HD + the grafted creature's Con modifier) to negate the extraction.
+
+

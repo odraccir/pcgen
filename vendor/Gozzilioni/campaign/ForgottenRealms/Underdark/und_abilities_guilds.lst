@@ -1,0 +1,6 @@
+SOURCELONG:Underdark	SOURCESHORT:Und	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+																																	
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
+Affiliated Merchants of the Underdark	CATEGORY:Guild Category	TYPE:SpecialQuality.Organization	VISIBLE:YES	DESC:This interspecies mercantile group is devoted to trade and profit, and it finds slavery especially profitable.																													SOURCEPAGE:Und
+Guild of Underdark Guides	CATEGORY:Guild Category	TYPE:SpecialQuality.Organization	VISIBLE:YES	DESC:The Underdark is a dangerous place, even for natives. A skilled guide can mean the difference between death and life.																													SOURCEPAGE:Und
+Underdark Anarchists' Fellowship	CATEGORY:Guild Category	TYPE:SpecialQuality.Organization	VISIBLE:YES	DESC:To many, an organization of anarchists seems like an oxymoron. However, this loose fellowship of mayhem-wreakers is indeed highly organized, even if only a few outside its membership realize that fact.																													SOURCEPAGE:Und

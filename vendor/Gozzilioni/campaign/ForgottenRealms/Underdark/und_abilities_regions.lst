@@ -1,0 +1,4 @@
+SOURCELONG:Underdark	SOURCESHORT:Und	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+																																	
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page	
+Underdark (Gloaming)	CATEGORY:Regional	TYPE:FaerunRegion	VISIBLE:YES		KEY:Underdark (Gloaming) ~ Gloaming	PRERACE:1,Gloaming													TEMPLATE:Underdark (Gloaming) ~ Gloaming				CSKILL:Knowledge (Underdark (Earthroot))									SOURCEPAGE:Und

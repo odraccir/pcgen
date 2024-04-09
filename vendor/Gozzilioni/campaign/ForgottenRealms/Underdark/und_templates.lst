@@ -1,0 +1,48 @@
+SOURCELONG:Underdark	SOURCESHORT:Und	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+																																		
+Common	VISIBLE:NO	KEY:Common Deep Imaskari																																
+Languages	KEY:Deep Imaskari ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Roushoum	LANGBONUS:Aquan,Dwarven,Elven,Terran,Undercommon																														
+Favored Class	KEY:Deep Imaskari ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Wizard																															
+
+Common	VISIBLE:NO	KEY:Common Gloaming	LEVELADJUSTMENT:2
+Languages	KEY:Gloaming ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Undercommon	LANGBONUS:ALL																														
+Favored Class	KEY:Gloaming ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Sorcerer																															
+
+Common	VISIBLE:NO	KEY:Common Slyth	LEVELADJUSTMENT:2																															
+Languages	KEY:Slyth ~ Common ~ Languages	VISIBLE:NO	AUTO:LANG|Common|Undercommon	LANGBONUS:Aquan,Elven,Gnome,Terran																														
+Favored Class	KEY:slyth ~ Common ~ Favored Class	VISIBLE:NO	FAVOREDCLASS:Druid																															
+
+Shadow Self	VISIBLE:NO	KEY:Shadowcrafter ~ Shadow Self	RACETYPE:Outsider	RACESUBTYPE:Native	DR:10/Magic
+
+Arachnoid	VISIBLE:YES	TYPE:Inherited	PRERACE:1,RACETYPE=Animal,RACETYPE=Magical Beast	RACETYPE:Aberration	MOVECLONE:Walk,Climb,/2	ABILITY:Special Ability|AUTOMATIC|Arachnoid ~ Skills|Immunity to Mind-Affecting	DEFINE:ArachnoidAC|0	BONUS:COMBAT|AC|ArachnoidAC|TYPE=NaturalArmor.STACK	BONUS:VAR|ArachnoidAC|1|PRESIZEGTEQ:M	BONUS:VAR|ArachnoidAC|1|PRESIZEGTEQ:L	BONUS:VAR|ArachnoidAC|3|PRESIZEGTEQ:H	BONUS:VAR|ArachnoidAC|4|PRESIZEGTEQ:G	BONUS:VAR|ArachnoidAC|6|PRESIZEGTEQ:C	TEMPLATE:CHOOSE:Arachnoid ~ Fine|Arachnoid ~ Diminutive|Arachnoid ~ Tiny|Arachnoid ~ Small|Arachnoid ~ Medium|Arachnoid ~ Large|Arachnoid ~ Huge|Arachnoid ~ Gargantuan|Arachnoid ~ Colossal	BONUS:STAT|DEX|4	BONUS:STAT|INT|-4	BONUS:SKILL|Hide|4|TYPE=Racial	BONUS:SKILL|Jump,Spot|6|TYPE=Racial	CR:1	KIT:1|NE
+Arachnoid ~ Fine	VISIBLE:NO	PRESIZEEQ:F	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,1,SPROP=Poison	ABILITY:Special Ability|AUTOMATIC|Arachnoid ~ Poison ~ F
+Arachnoid ~ Diminutive	VISIBLE:NO	PRESIZEEQ:D	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,1d2,SPROP=Poison	ABILITY:Special Ability|AUTOMATIC|Arachnoid ~ Poison ~ D
+Arachnoid ~ Tiny	VISIBLE:NO	PRESIZEEQ:T	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,1d3,SPROP=Poison	ABILITY:Special Ability|AUTOMATIC|Arachnoid ~ Poison ~ T
+Arachnoid ~ Small	VISIBLE:NO	PRESIZEEQ:S	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,1d4,SPROP=Poison	ABILITY:Special Ability|AUTOMATIC|Arachnoid ~ Poison ~ S
+Arachnoid ~ Medium	VISIBLE:NO	PRESIZEEQ:M	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,1d6,SPROP=Poison	ABILITY:Special Ability|AUTOMATIC|Arachnoid ~ Poison ~ M
+Arachnoid ~ Large	VISIBLE:NO	PRESIZEEQ:L	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,1d8,SPROP=Poison	ABILITY:Special Ability|AUTOMATIC|Arachnoid ~ Poison ~ L
+Arachnoid ~ Huge	VISIBLE:NO	PRESIZEEQ:H	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,2d6,SPROP=Poison	ABILITY:Special Ability|AUTOMATIC|Arachnoid ~ Poison ~ H
+Arachnoid ~ Gargantuan	VISIBLE:NO	PRESIZEEQ:G	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,2d8,SPROP=Poison	ABILITY:Special Ability|AUTOMATIC|Arachnoid ~ Poison ~ G
+Arachnoid ~ Colossal	VISIBLE:NO	PRESIZEEQ:C	NATURALATTACKS:Bite,Weapon.Natural.Finesseable.Melee.Piercing.Slashing.Bludgeoning,*1,4d6,SPROP=Poison	ABILITY:Special Ability|AUTOMATIC|Arachnoid ~ Poison ~ C
+Chameleon	VISIBLE:YES	TYPE:Inherited	!PRERACE:1,RACETYPE=Construct,RACETYPE=Undead,RACETYPE=Elemental	!PRERACE:1,RACESUBTYPE=Corporeal	RACESUBTYPE:Reptilian	MOVECLONE:Walk,Climb,/2	BONUS:VAR|HasLowLightVision|1|TYPE=Racial	BONUS:SKILL|Hide|10|TYPE=Racial	BONUS:SKILL|Move Silently|4|TYPE=Racial	ABILITY:Special Ability|AUTOMATIC|Chameleon ~ Skills	CR:1	LEVELADJUSTMENT:1
+
+Faerzress-Infused	VISIBLE:YES	TYPE:Acquired.Inherited	!PRERACE:1,RACESUBTYPE=Incorporeal	ABILITY:Special Ability|AUTOMATIC|Faerzress-Infused ~ Detect Faerzress|Faerzress-Infused ~ Infused Power|Resistance to Divination	BONUS:VAR|DivinationResistanceBonus|4|TYPE=Resistance	CR:1	LEVELADJUSTMENT:1
+
+Half-Illithid	VISIBLE:YES	TYPE:Inherited	!PRERACE:1,RACETYPE=Construct	!PRERACE:1,RACESUBTYPE=Incorporeal	RACETYPE:Aberration	BONUS:COMBAT|AC|1|TYPE=NaturalArmor.STACK	TEMPLATE:CHOOSE:Half-Illithid ~ Fine|Half-Illithid ~ Diminutive|Half-Illithid ~ Tiny|Half-Illithid ~ Small|Half-Illithid ~ Medium|Half-Illithid ~ Large|Half-Illithid ~ Huge|Half-Illithid ~ Gargantuan|Half-Illithid ~ Colossal	ABILITY:Special Ability|AUTOMATIC|Half-Illithid ~ Extract|Half-Illithid ~ Improved Grab|Half-Illithid ~ Mind Blast	ABILITY:Special Ability|AUTOMATIC|Half-Illithid ~ Psionics|PRESTAT:1,WIS=8,INT=8	BONUS:VAR|DarkvisionRange|60|TYPE=Base	DEFINE:HalfIllithidSR|0	BONUS:VAR|HalfIllithidSR|HD|TYPE=Base	SR:HalfIllithidSR	BONUS:STAT|INT|4	BONUS:STAT|WIS|4	BONUS:STAT|CHA|4	CR:3	KIT:1|LE|NE|CE
+Half-Illithid ~ Fine	
+Half-Illithid ~ Diminutive	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*4,1
+Half-Illithid ~ Tiny	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*4,1d2
+Half-Illithid ~ Small	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*4,1d3
+Half-Illithid ~ Medium	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*4,1d4
+Half-Illithid ~ Large	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*4,1d6
+Half-Illithid ~ Huge	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*4,1d8
+Half-Illithid ~ Gargantuan	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*4,2d6
+Half-Illithid ~ Colossal	NATURALATTACKS:Tentacle,Weapon.Natural.Finesseable.Melee.Bludgeoning.Slashing,*4,2d8
+Mineral Warrior	VISIBLE:YES	TYPE:Aquired	!PRERACE:1,RACETYPE=Construct,RACETYPE=Undead,RACETYPE=Elemental	!PRERACE:1,RACESUBTYPE=Incorporeal	RACESUBTYPE:Earth	MOVECLONE:Burrow,Walk,/2	BONUS:COMBAT|AC|3|TYPE=NaturalArmor.STACK	ABILITY:Special Ability|AUTOMATIC|Mineral Warrior ~ Earth Strike	BONUS:VAR|DarkvisionRange|60|TYPE=Base	DR:8/Adamantine	BONUS:STAT|STR|2	BONUS:STAT|CON|4	BONUS:STAT|INT|-2	BONUS:STAT|WIS|-2	BONUS:STAT|CHA|-2	DEFINESTAT:MINVALUE|INT|1	CR:1	LEVELADJUSTMENT:1
+
+Disease Damage (Lungrot/Con damage)		VISIBLE:NO	SOURCEPAGE:Und	TEMPVALUE:MIN=1|MAX=4|TITLE=Constitution Damage		TEMPDESC:Infection DC 20 (Inhaled), Incubation 1d4 days, Damage 1d4 Con, 1d3 Str (Successful saves do not allow the character to recover Str damage. Only magical healing can save the character.), Apply this temporary bonus for the contitution damage each day the victim takes damage.	TEMPBONUS:ANYPC|STAT|CON|-1*(%CHOICE)																							
+Disease Damage (Lungrot/Str damage)		VISIBLE:NO	SOURCEPAGE:Und	TEMPVALUE:MIN=1|MAX=3|TITLE=Strength Damage		TEMPDESC:Infection DC 20 (Inhaled), Incubation 1d4 days, Damage 1d4 Con, 1d3 Str (Successful saves do not allow the character to recover Str damage. Only magical healing can save the character.), Apply this temporary bonus for the strengt damage each day the victim takes damage.	TEMPBONUS:ANYPC|STAT|STR|-1*(%CHOICE)																							
+Disease Damage (Scaleflake)		VISIBLE:NO	SOURCEPAGE:Und	TEMPVALUE:MIN=1|MAX=4|TITLE=Charisma Damage		TEMPDESC:Infection DC 15 (Contact), Incubation 1d3 days, Damage 1d4 Con, 1d3 Str (Successful saves do not allow the character to recover Str damage. Only magical healing can save the character.), Apply this temporary bonus for the strengt damage each day the victim takes damage.	TEMPBONUS:ANYPC|STAT|STR|-1*(%CHOICE)																							
+Disease Damage (Softpox/Natural Armor damage)		VISIBLE:NO	SOURCEPAGE:Und			TEMPDESC:Infection DC 28 (Contact), Incubation 1 days, Damage -1 Natural Armor or -10 HP, Apply this temporary bonus each day the victim takes damage.	TEMPBONUS:ANYPC|COMBAT|AC|-1|TYPE=NaturalArmor.STACK																							
+Disease Damage (Softpox/HP damage)		VISIBLE:NO	SOURCEPAGE:Und			TEMPDESC:Infection DC 28 (Contact), Incubation 1 days, Damage -1 Natural Armor or -10 HP, Apply this temporary bonus each day the victim takes damage.	TEMPBONUS:ANYPC|HP|CURRENTMAX|-10																							
+
