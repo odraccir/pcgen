@@ -7,3 +7,11 @@ Steed Training	CATEGORY:Internal	TYPE:TrainingLevel.SpecialQuality	VISIBLE:YES	D
 Typical	CATEGORY:Internal	TYPE:BreedClassification	VISIBLE:DISPLAY	DESC:Typical breed of the species, common creature.	KEY:Breed Classification ~ Typical																											SOURCEPAGE:NS
 Purebreed	CATEGORY:Internal	TYPE:BreedClassification	VISIBLE:DISPLAY	DESC:Purebreed, unique beauty and perfect structure.	KEY:Breed Classification ~ Purebreed									BONUS:STAT|CHA|2																		SOURCEPAGE:NS
 Exceptional	CATEGORY:Internal	TYPE:BreedClassification	VISIBLE:DISPLAY	DESC:Exceptional, rare creature amogs the same race.	KEY:Breed Classification ~ Exceptional									BONUS:STAT|CHA|2									TEMPLATE:Breed Classification ~ Exceptional									SOURCEPAGE:NS
+
+###Block: Steed Ability Increases																																
+Strength	CATEGORY:Internal	TYPE:SteedAbilityIncreases	VISIBLE:DISPLAY	DESC:+1 Strength.	KEY:Steed Ability Increases ~ Strength									BONUS:STAT|STR|1					STACK:YES	MULT:YES	CHOOSE:NOCHOICE											SOURCEPAGE:NS
+Dexterity	CATEGORY:Internal	TYPE:SteedAbilityIncreases	VISIBLE:DISPLAY	DESC:+1 Dexterity.	KEY:Steed Ability Increases ~ Dexterity									BONUS:STAT|DEX|1					STACK:YES	MULT:YES	CHOOSE:NOCHOICE											SOURCEPAGE:NS
+Constitution	CATEGORY:Internal	TYPE:SteedAbilityIncreases	VISIBLE:DISPLAY	DESC:+1 Constitution.	KEY:Steed Ability Increases ~ Constitution									BONUS:STAT|CON|1					STACK:YES	MULT:YES	CHOOSE:NOCHOICE											SOURCEPAGE:NS
+Intelligence	CATEGORY:Internal	TYPE:SteedAbilityIncreases	VISIBLE:DISPLAY	DESC:+1 Intelligence.	KEY:Steed Ability Increases ~ Intelligence									BONUS:STAT|INT|1					STACK:YES	MULT:YES	CHOOSE:NOCHOICE											SOURCEPAGE:NS
+Wisdom	CATEGORY:Internal	TYPE:SteedAbilityIncreases	VISIBLE:DISPLAY	DESC:+1 Wisdom.	KEY:Steed Ability Increases ~ Wisdom									BONUS:STAT|WIS|1					STACK:YES	MULT:YES	CHOOSE:NOCHOICE											SOURCEPAGE:NS
+Charisma	CATEGORY:Internal	TYPE:SteedAbilityIncreases	VISIBLE:DISPLAY	DESC:+1 Charisma.	KEY:Steed Ability Increases ~ Charisma									BONUS:STAT|CHA|1					STACK:YES	MULT:YES	CHOOSE:NOCHOICE											SOURCEPAGE:NS

@@ -1,0 +1,10 @@
+SOURCELONG:Underdark	SOURCESHORT:Und	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10																						
+																									
+#																									
+# Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus
+Burrow.MOD	CLASSES:Harper Scout=2
+Burrow (Mass).MOD	CLASSES:Harper Scout=4
+Camouflage.MOD	CLASSES:Harper Scout=1
+Clarity of Mind.MOD	CLASSES:Harper Scout=2
+Darkvision (Mass).MOD	CLASSES:Harper Scout=4
+Tremorsense.MOD	CLASSES:Harper Scout=3

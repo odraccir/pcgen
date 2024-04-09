@@ -16,69 +16,61 @@ PUBNAMEWEB:http://www.gozzilioni.net
 
 PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Guide
 
-# ABILITY:pgtf_abilities.lst
-# ABILITY:pgtf_abilities_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
-# ABILITY:pgtf_abilities_classes.lst
-# ABILITY:pgtf_abilities_classes_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
-# ABILITY:pgtf_abilities_classes_BoVD.lst|PRECAMPAIGN:1,Book of Vile Darkness
-# ABILITY:pgtf_abilities_classes_EPH.lst|PRECAMPAIGN:1,Expanded Psionics Handbook
-# ABILITY:pgtf_abilities_FRCS.lst|PRECAMPAIGN:1,Forgotten Realms Campaign Setting 3.0
-# ABILITY:pgtf_abilities_guilds.lst
-# ABILITY:pgtf_abilities_races.lst
-# ABILITY:pgtf_abilities_racetraits.lst
-# ABILITY:pgtf_abilities_regions.lst
-# ABILITY:pgtf_abilities_templates.lst
-# ABILITYCATEGORY:pgtf_abilitycategories.lst
-# BIOSET:pgtf_biosettings.lst
-# CLASS:pgtf_classes.lst
-# CLASS:pgtf_classes_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
-# CLASS:pgtf_classes_BoVD.lst|PRECAMPAIGN:1,Book of Vile Darkness
-# CLASS:pgtf_classes_EPH.lst|PRECAMPAIGN:1,Expanded Psionics Handbook
-# COMPANIONMOD:pgtf_companionmods_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
-# DEITY:pgtf_deities.lst|PRECAMPAIGN:1,Book of Exalted Deeds
-# DEITY:pgtf_deities_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
-# DEITY:pgtf_deities_BoVD.lst|PRECAMPAIGN:1,Book of Vile Darkness
-# DOMAIN:pgtf_domains.lst
-# EQUIPMENT:pgtf_equip.lst
-# EQUIPMENT:pgtf_equip_armors.lst
-# EQUIPMENT:pgtf_equip_armors_specific.lst
-# EQUIPMENT:pgtf_equip_magic_items.lst
-# EQUIPMENT:pgtf_equip_weapons.lst
-# EQUIPMENT:pgtf_equip_weapons_natural.lst
-# EQUIPMENT:pgtf_equip_weapons_specific.lst
-# EQUIPMENT:pgtf_equip_weapons_natural.lst
-# EQUIPMOD:pgtf_equipmods.lst
-# EQUIPMOD:pgtf_equipmods_MoF.lst|PRECAMPAIGN:1,Magic of Faerun 3.0
-# ABILITY:pgtf_feats.lst
-# ABILITY:pgtf_feats_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
-# ABILITY:pgtf_feats_BoVD.lst|PRECAMPAIGN:1,Book of Vile Darkness
-# ABILITY:pgtf_feats_regions.lst
-# KIT:pgtf_kits.lst
-# KIT:pgtf_kits_regions.lst
-# LANGUAGE:pgtf_languages.lst
-# ARMORPROF:pgtf_profs_armor.lst
-# WEAPONPROF:pgtf_profs_weapon.lst
-# RACE:pgtf_races.lst
-# RACE:pgtf_races_companion.lst
-# SKILL:pgtf_skills.lst
-# SKILL:pgtf_skills_regions.lst
+ABILITY:und_abilities.lst
+# ABILITY:und_abilities_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
+ABILITY:und_abilities_classes.lst
+# ABILITY:und_abilities_classes_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
+# ABILITY:und_abilities_classes_BoVD.lst|PRECAMPAIGN:1,Book of Vile Darkness
+# ABILITY:und_abilities_classes_EPH.lst|PRECAMPAIGN:1,Expanded Psionics Handbook
+# ABILITY:und_abilities_FRCS.lst|PRECAMPAIGN:1,Forgotten Realms Campaign Setting 3.0
+ABILITY:und_abilities_guilds.lst
+ABILITY:und_abilities_races.lst
+# ABILITY:und_abilities_racetraits.lst
+ABILITY:und_abilities_regions.lst
+# ABILITY:und_abilities_templates.lst
+ABILITYCATEGORY:und_abilitycategories.lst
+BIOSET:und_biosettings.lst
+CLASS:und_classes.lst
+# CLASS:und_classes_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
+# CLASS:und_classes_BoVD.lst|PRECAMPAIGN:1,Book of Vile Darkness
+# CLASS:und_classes_EPH.lst|PRECAMPAIGN:1,Expanded Psionics Handbook
+COMPANIONMOD:und_companionmods.lst
+# COMPANIONMOD:und_companionmods_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
+DEITY:und_deities.lst
+# DEITY:und_deities.lst|PRECAMPAIGN:1,Book of Exalted Deeds
+# DEITY:und_deities_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
+# DEITY:und_deities_BoVD.lst|PRECAMPAIGN:1,Book of Vile Darkness
+DOMAIN:und_domains.lst
+EQUIPMENT:und_equip.lst
+EQUIPMENT:und_equip_armors.lst
+EQUIPMENT:und_equip_armors_specific.lst
+EQUIPMENT:und_equip_magic_items.lst
+EQUIPMENT:und_equip_weapons.lst
+# EQUIPMENT:und_equip_weapons_natural.lst
+EQUIPMENT:und_equip_weapons_specific.lst
+EQUIPMENT:und_equip_weapons_specific_CW.lst|PRECAMPAIGN:1,Complete Warrior
+# EQUIPMENT:und_equip_weapons_natural.lst
+EQUIPMOD:und_equipmods.lst
+ABILITY:und_feats.lst
+# ABILITY:und_feats_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
+# ABILITY:und_feats_BoVD.lst|PRECAMPAIGN:1,Book of Vile Darkness
+# ABILITY:und_feats_regions.lst
+KIT:und_kits.lst
+KIT:und_kits_regions.lst
+# LANGUAGE:und_languages.lst
+ARMORPROF:und_profs_armor.lst
+ARMORPROF:und_profs_shield.lst
+WEAPONPROF:und_profs_weapon.lst
+RACE:und_races.lst
+# RACE:und_races_companion.lst
+# SKILL:und_skills.lst
+# SKILL:und_skills_regions.lst
 SPELL:und_spells.lst
-# SPELL:pgtf_spells_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
-# SPELL:pgtf_spells_specific.lst
-# ABILITY:pgtf_subraces.lst
-# TEMPLATE:pgtf_templates.lst
-# TEMPLATE:pgtf_templates_regions.lst
-
-# FORWARDREF:EQUIPMENT|Longbow (Aquatic)
-###Unapproachable East
-# FORWARDREF:RACE|Spirit Folk,Volodni
-###Underdark
-# FORWARDREF:SPELL|Clarity of Mind,Contagious Fog,Dehydrate,Drown (Mass),Mark of the Outcast
-# FORWARDREF:SPELL|Rushing Waters,Sanctuary (Mass),Weighed in the Balance,Word of Balance
-
-# FORWARDREF:EQMOD|BOOK_WATER_PRF,BOOK_FIRE_PRF,BOOK_LOCK
-
-# HIDETYPE:FEAT|DivineChampion,ShadowThiefOfAmn,SpellfireHierophant
+SPELL:und_spells_FRCS.lst|PRECAMPAIGN:1,Forgotten Realms Campaign Setting 3.0
+# SPELL:und_spells_specific.lst
+ABILITY:und_subraces.lst
+TEMPLATE:und_templates.lst
+TEMPLATE:und_templates_regions.lst
 
 # ENTRY DATE: 2016-07
 # LST MONKEY: Riccardo

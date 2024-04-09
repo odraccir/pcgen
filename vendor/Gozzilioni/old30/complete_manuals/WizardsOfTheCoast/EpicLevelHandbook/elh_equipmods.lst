@@ -83,7 +83,7 @@ Dread	KEY:DREAD_R	TYPE:Weapon.Ranged	PLUS:7	VISIBLE:QUALIFY	SOURCEPAGE:ELH	SPROP
 BANE_A.MOD																	REPLACES:DREAD_A					
 BANE_R.MOD																	REPLACES:DREAD_R					
 BANE_M.MOD																	REPLACES:DREAD_M					
-Everdancing	KEY:EVERDANCE	TYPE:Weapon.Melee	PLUS:8	VISIBLE:QUALIFY	SOURCEPAGE:ELH	SPROP:Can be loosed to attack on its own as free action.	PRETYPE:2,Enhancement,Wepon	PRETYPE:1,Melee	!PRETYPE:1,Thrown							ASSIGNTOALL:YES	REPLACES:DANCE					
+Everdancing	KEY:EVERDANCE	TYPE:Weapon.Melee	PLUS:8	VISIBLE:QUALIFY	SOURCEPAGE:ELH	SPROP:Can be loosed to attack on its own as free action.	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee	!PRETYPE:1,Thrown							ASSIGNTOALL:YES	REPLACES:DANCE					
 DANCE.MOD																	REPLACES:EVERDANCE					
 Fiery Blast	KEY:FLM_BLAST_A	TYPE:Ammunition	PLUS:6	VISIBLE:QUALIFY	SOURCEPAGE:ELH	SPROP:+3d6 Fire damage. On a critical hit deals +%d6 additional Fire damage|3*CRITMULT-1	PRETYPE:2,Enhancement,Ammunition									ASSIGNTOALL:NO	REPLACES:FLM_A,FLM_BURST_A					
 Fiery Blast	KEY:FLM_BLAST_M	TYPE:Weapon.Melee.Thrown	PLUS:6	VISIBLE:QUALIFY	SOURCEPAGE:ELH	SPROP:+3d6 Fire damage. On a critical hit deals +%d6 additional Fire damage|3*CRITMULT-1	PRETYPE:2,Enhancement,Weapon	PRETYPE:1,Melee,Thrown								ASSIGNTOALL:NO	REPLACES:FLM_M,FLM_BURST_M					

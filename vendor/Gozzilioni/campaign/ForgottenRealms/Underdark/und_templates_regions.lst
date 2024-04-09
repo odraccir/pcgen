@@ -1,0 +1,8 @@
+SOURCELONG:Underdark	SOURCESHORT:Und	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+						
+# Template Name	VISIBLE:	AUTO:LANG|	LANGBONUS:	REGION:		
+###Block: Region						
+Underdark (Gloaming) ~ Gloaming	VISIBLE:NO	AUTO:LANG|Common|Undercommon	LANGBONUS:Aquan,Draconic,Dwarven,Elven,Sylvan,Terran	REGION:Underdark (Gloaming)	PRERACE:1,Gloaming	SOURCEPAGE:Und
+Underdark (Slyth) ~ Slyth	VISIBLE:NO	AUTO:LANG|Common|Undercommon	LANGBONUS:Aquan,Dwarven,Elven,Gnome,Terran	REGION:Underdark (Slyth)	PRERACE:1,Slyth	SOURCEPAGE:Und
+
+###

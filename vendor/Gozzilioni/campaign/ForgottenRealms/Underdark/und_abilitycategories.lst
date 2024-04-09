@@ -1,0 +1,43 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+
+# Subrace Support
+ABILITYCATEGORY:Deep Imaskari Race Trait	CATEGORY:Special Ability	TYPE:DeepImaskariRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Deep Imaskari Subrace	CATEGORY:Internal	TYPE:DeepImaskariSubrace.DeepImaskariSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Gloaming Race Trait	CATEGORY:Special Ability	TYPE:GloamingRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Gloaming Subrace	CATEGORY:Internal	TYPE:GloamingSubrace.GloamingSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Slyth Race Trait	CATEGORY:Special Ability	TYPE:SlythRaceTrait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Slyth Subrace	CATEGORY:Internal	TYPE:SlythSubrace.SlythSubraceDisplay	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO																		DISPLAYLOCATION:Race Traits
+
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Arachnomancer Class Feature	CATEGORY:Special Ability	TYPE:ArachnomancerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Arachnomancer Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Cavelord Class Feature	CATEGORY:Special Ability	TYPE:CavelordClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Cavelord Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Deep Diviner Class Feature	CATEGORY:Special Ability	TYPE:DeepDivinerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Deep Diviner Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Drow Judicator Class Feature	CATEGORY:Special Ability	TYPE:DrowJudicatorClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Drow Judicator Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Illithid Body Tamer Class Feature	CATEGORY:Special Ability	TYPE:IllithidBodyTamerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Illithid Body Tamer Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Imaskari Vengeance Taker Class Feature	CATEGORY:Special Ability	TYPE:ImaskariVengeanceTakerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Imaskari Vengeance Taker Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Inquisitor of the Drowning Goddess Class Feature	CATEGORY:Special Ability	TYPE:InquisitorOfTheDrowningGoddessClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Inquisitor of the Drowning Goddess Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Prime Underdark Guide Class Feature	CATEGORY:Special Ability	TYPE:PrimeUnderdarkGuideClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Prime Underdark Guide Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Sea Mother Whip Class Feature	CATEGORY:Special Ability	TYPE:SeaMotherWhipClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Sea Mother Whip Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Shadowcrafter Class Feature	CATEGORY:Special Ability	TYPE:ShadowcrafterClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Shadowcrafter Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Vermin Keeper Class Feature	CATEGORY:Special Ability	TYPE:VerminKeeperClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Vermin Keeper Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Yathchol Webrider Class Feature	CATEGORY:Special Ability	TYPE:YathcholWebriderClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Yathchol Webrider Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups
+
+#Feats Ability pools
+# ABILITYCATEGORY:Monster Domains	CATEGORY:Internal	VISIBLE:QUALIFY	EDITABLE:YES	TYPE:MonsterDomainGranter	EDITPOOL:YES	FRACTIONALPOOL:NO				DISPLAYLOCATION:Race Traits
+
+#Companion Support
+ABILITYCATEGORY:Spider Servant Selection	CATEGORY:Internal	TYPE:SpiderServantSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Spider Servant Choice			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Vermin Companion Selection	CATEGORY:Internal	TYPE:VerminCompanionSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Vermin Companion Choice			DISPLAYLOCATION:Class Features
+
+ABILITYCATEGORY:Spider Servant Class Feature	CATEGORY:Special Ability	TYPE:SpiderServantClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Spider Servant Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Vermin Companion Class Feature	CATEGORY:Special Ability	TYPE:VerminCompanionClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Vermin Companion Class Features			DISPLAYLOCATION:Class Features
+
+#other
+
+#
+# End
+#

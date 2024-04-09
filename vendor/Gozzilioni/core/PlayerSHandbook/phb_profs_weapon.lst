@@ -70,8 +70,8 @@ Halberd	TYPE:Martial.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing.TwoHand
 Lance	TYPE:Martial.Melee.Piercing.MeleePiercing.TwoHanded.Lance		
 Ranseur	TYPE:Martial.Melee.Piercing.MeleePiercing.TwoHanded.Ranseur		
 Scythe	TYPE:Martial.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing.TwoHanded.Scythe		
-Longbow	TYPE:Martial.Ranged.Piercing.RangedPiercing.Twohanded.Bow	HANDS:2	
-Shortbow	TYPE:Martial.Ranged.Piercing.RangedPiercing.Twohanded.Bow	HANDS:2	
+Longbow	TYPE:Martial.Ranged.Piercing.RangedPiercing.Twohanded.Bow.Longbow	HANDS:2	
+Shortbow	TYPE:Martial.Ranged.Piercing.RangedPiercing.Twohanded.Bow.Shortbow	HANDS:2	
 ###Exotic			
 Kama	TYPE:Exotic.Melee.Slashing.MeleeSlashing.Light.Kama		
 Nunchaku	TYPE:Exotic.Melee.Bludgeoning.MeleeBludgeoning.Light.Nunchaku		

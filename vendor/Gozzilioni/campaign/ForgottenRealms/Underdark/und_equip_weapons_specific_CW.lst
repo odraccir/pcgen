@@ -1,0 +1,25 @@
+SOURCELONG:Underdark	SOURCESHORT:Und	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10
+#																									
+#	OUTPUTNAME:	KEY:	PROFICIENCY:	TYPE:	COST:	WT:	WIELD:	SLOTS:	SIZE:	DAMAGE:	CRITRANGE:	CRITMULT:	EQMOD:	SOURCEPAGE:	SPROP:	ALTTYPE:	ALTDAMAGE:	ALTCRITRANGE:	ALTCRITMULT:	ALTEQMOD:	RANGE:	REACHMULT:			
+
+# Simple Weapons																									
+## Unarmed																									
+## Light																									
+## OneHanded																									
+## TwoHanded																									
+## Ranged																									
+
+# Martial Weapons																									
+## Light																									
+## OneHanded																									
+## TwoHanded																									
+## Ranged																									
+
+# Exotic Weapons																									
+## Light																									
+## OneHanded																									
+Queen's Scourge			PROFICIENCY:WEAPON|Scourge	TYPE:Enhancement.Weapon.Exotic.Melee.Slashing.OneHanded.Whip	COST:47520	WT:2	WIELD:OneHanded		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.EQ_COST_ADJ_W.DROWCRAFT_M	SOURCEPAGE:CW	SPROP:+2 bonus on opposed attack roll when disarming an opponent.	SPELLS:Queen's Scourge|TIMES=1|CASTERLEVEL=12|Inflict Critical Wounds,17
+## TwoHanded																									
+## Ranged																									
+
+# Arrows																									

@@ -22,7 +22,7 @@ Leomund's Trap.COPY=Phantom Trap
 # Temp, replace with Crushing Despair	KEY:Emotion (Despair)	TYPE:OldSpell
 # Temp, replace with Good Hope	KEY:Emotion (Hope)	TYPE:OldSpell
 # Temp, replace with Bear's Endurance	KEY:Endurance	TYPE:OldSpell
-# # Temp, replace with Enlarge Person	KEY:Enlarge	TYPE:OldSpell
+# Temp, replace with Enlarge Person	KEY:Enlarge	TYPE:OldSpell
 # Temp, replace with Dispel Magic (Greater)	KEY:Greater Dispelling	TYPE:OldSpell
 # Temp, replace with Cure Light Wound (Mass)	KEY:Healing Circle	TYPE:OldSpell
 # Temp, replace with Invisibility (Greater)	KEY:Improved Invisibility	TYPE:OldSpell
@@ -33,7 +33,7 @@ Leomund's Trap.COPY=Phantom Trap
 # Temp, replace with Protection from Energy	KEY:Protection from Elements	TYPE:OldSpell
 # Temp, replace with Rage	KEY:Emotion (Rage)	TYPE:OldSpell
 # Temp, replace with Confusion (Lesser)	KEY:Random Action	TYPE:OldSpell
-# # Temp, replace with Reduce Person	KEY:Reduce	TYPE:OldSpell
+# Temp, replace with Reduce Person	KEY:Reduce	TYPE:OldSpell
 # Temp, replace with Resist Energy	KEY:Resist Elements	TYPE:OldSpell
 # Temp, replace with Symbol of Death, Fear, Insanity, Pain, Persuasion, Sleep or Stunning	KEY:Symbol	TYPE:OldSpell
 # Temp, replace with Teleport (Greater)	KEY:Teleport without Error	TYPE:OldSpell

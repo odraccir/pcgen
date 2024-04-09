@@ -1,0 +1,13 @@
+SOURCELONG:Underdark	SOURCESHORT:Und	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2003-10																													
+																																
+###Block:Familiar										
+FOLLOWER:SpiderServantLVL=5	TYPE:SpiderServant	HD:2	COPYMASTERCHECK:MASTER
+FOLLOWER:SpiderServantLVL=5	TYPE:SpiderServant		BONUS:COMBAT|AC|(((mastervar("SpiderServantLVL")-2)/2)*2)|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|2		ABILITY:Special Ability|AUTOMATIC|Spider Servant ~ Improved Evasion|Spider Servant ~ Share Spells				
+FOLLOWER:SpiderServantLVL=6	TYPE:SpiderServant	HD:2			BONUS:STAT|INT|2		ABILITY:Special Ability|AUTOMATIC|Spider Servant ~ Speak with Drow Judicator
+FOLLOWER:SpiderServantLVL=8	TYPE:SpiderServant	HD:2		BONUS:STAT|STR|2	BONUS:STAT|INT|2		ABILITY:Special Ability|AUTOMATIC|Spider Servant ~ Blood Bond
+FOLLOWER:SpiderServantLVL=10	TYPE:SpiderServant	HD:2		BONUS:STAT|STR|2	BONUS:STAT|INT|2		SR:(mastervar("SpiderServantLVL")+15)
+
+FOLLOWER:VerminCompanionLVL=3	TYPE:VerminCompanion	HD:2	BONUS:COMBAT|AC|(((mastervar("VerminCompanionLVL")-1)/2)*2)|TYPE=NaturalArmor.STACK	BONUS:STAT|STR|1	BONUS:STAT|DEX|1	DEFINESTAT:LOCK|INT|2	ABILITY:Special Ability|AUTOMATIC|Vermin Companion ~ Link|Vermin Companion ~ Share Spells	BONUS:ABILITYPOOL|FEAT|1	BONUS:ABILITYPOOL|Animal Trick|2
+FOLLOWER:VerminCompanionLVL=5	TYPE:VerminCompanion	HD:2		BONUS:STAT|STR|1	BONUS:STAT|DEX|1		ABILITY:Special Ability|AUTOMATIC|Vermin Companion ~ Evasion			BONUS:ABILITYPOOL|Animal Trick|1
+FOLLOWER:VerminCompanionLVL=7	TYPE:VerminCompanion	HD:2		BONUS:STAT|STR|1	BONUS:STAT|DEX|1		ABILITY:Special Ability|AUTOMATIC|Vermin Companion ~ Devotion			BONUS:ABILITYPOOL|Animal Trick|1
+FOLLOWER:VerminCompanionLVL=9	TYPE:VerminCompanion	HD:2		BONUS:STAT|STR|1	BONUS:STAT|DEX|1		ABILITY:Special Ability|AUTOMATIC|Vermin Companion ~ Multiattack			BONUS:ABILITYPOOL|Animal Trick|1

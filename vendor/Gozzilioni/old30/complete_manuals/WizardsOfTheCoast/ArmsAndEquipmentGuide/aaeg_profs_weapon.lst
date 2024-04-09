@@ -52,6 +52,6 @@ Whip-Dagger	TYPE:Exotic.Melee.Slashing.MeleeSlashing.Light.Reach.Whip
 Crossbow (Great)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.Crossbow	HANDS:2	
 Gauntlet (Spring Loaded)	TYPE:Exotic.Ranged.Piercing.OneHanded.RangedPiercing.Gauntlet
 Javelin (Spinning)	TYPE:Exotic.Ranged.Piercing.OneHanded.RangedPiercing.Thrown.Javelin
-Bow (Double/Elven)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.TwoHanded.Bow.Elven	HANDS:2
+Bow (Double/Elven)	TYPE:Exotic.Ranged.Piercing.RangedPiercing.TwoHanded.Bow.DoubleBow.Elven	HANDS:2
 Harpoon	TYPE:Exotic.Ranged.Piercing.RangedPiercing.TwoHanded
 Shotput	TYPE:Exotic.Ranged.Bludgeoning.RangedBludgeoning.Thrown.TwoHanded.Orc

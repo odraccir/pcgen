@@ -12,7 +12,7 @@ Tigerskull Club	TYPE:Exotic.Melee.Bludgeoning.Piercing.MeleeBludgeoning.MeleePie
 Goad	TYPE:Exotic.Melee.Bludgeoning.Piercing.MeleeBludgeoning.MeleePiercing.TwoHanded
 Ritiik	TYPE:Exotic.Melee.Piercing.MeleePiercing.TwoHanded
 Sugliin	TYPE:Exotic.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing.TwoHanded
-Bone Bow	TYPE:Martial.Ranged.Piercing.RangedPiercing.Twohanded.Bow	HANDS:2	
+Bone Bow	TYPE:Martial.Ranged.Piercing.RangedPiercing.Twohanded.Bow.Bonebow	HANDS:2	
 Glot	TYPE:Exotic.Ranged.Bludgeoning.RangedBludgeoning.TwoHanded
 Harpoon	TYPE:Exotic.Ranged.Piercing.RangedPiercing.TwoHanded
 Icechucker	TYPE:Exotic.Ranged.Piercing.RangedPiercing.TwoHanded
