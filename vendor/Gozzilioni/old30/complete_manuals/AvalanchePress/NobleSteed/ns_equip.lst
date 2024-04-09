@@ -5,7 +5,7 @@ Golem (Iron Horse)		KEY:Golem ~ Iron Horse	TYPE:Monster.Construct.Container	COST
 Golem (Terracotta Steed)		KEY:Golem ~ Terracotta Steed	TYPE:Monster.Construct.Container	COST:60000	WT:0	SOURCEPAGE:NS	CONTAINS:UNLIM|Any	SPROP:CL 16h; Craft Construct (see page 303), animate objects, bless, commune, prayer, summon monster III, caster must be at least 16th level.
 
 Saddle (Camel Tack)	OUTPUTNAME:Saddle, [NAME]	TYPE:Goods.Saddle.Container.Resizable	COST:15	WT:16	SOURCEPAGE:NS	CONTAINS:UNLIM|Any		SORTKEY:Saddle (Camel Tack)	
-Caparison		TYPE:Goods.Cape	COST:15	WT:7	SOURCEPAGE:NS	SPROP:A Knight’s horse was often covered with a large ornate cloth called caparison.
+Caparison		TYPE:Goods.Cape	COST:15	WT:7	SOURCEPAGE:NS	SPROP:A Knight's horse was often covered with a large ornate cloth called caparison.
 
 Chariot (Riding)	OUTPUTNAME:Chariot, Riding	TYPE:Goods.Transportation	COST:30	WT:75	SOURCEPAGE:NS				SIZE:M		
 Chariot (War)	OUTPUTNAME:Chariot, War	TYPE:Goods.Transportation	COST:50	WT:100	SOURCEPAGE:NS				SIZE:M		

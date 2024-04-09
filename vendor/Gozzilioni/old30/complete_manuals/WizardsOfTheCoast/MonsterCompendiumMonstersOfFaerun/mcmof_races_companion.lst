@@ -3,3 +3,5 @@ SOURCELONG:Monsters of Faerun 3.0	SOURCESHORT:MCMoF30	SOURCEWEB:http://www.gozzi
 # Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	TYPE:	RACETYPE:	RACESUBTYPE:	MONSTERCLASS:	MOVE:	Combat bonus	NATURALATTACKS:	NATURALATTACKS:	Weapon prof. bonus	Weapon prof. bonus	FACE:	REACH:	Special Ability	Damage Reduction	Spell Res.	Stat bonus						MONCSKILL:	CR:	Required AL	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	Nb Legs	Nb Hands	SOURCEPAGE:		
 Unicorn (Black).COPY=Unicorn (Black)	KEY:Companion ~ Unicorn (Black)																																		
 Companion ~ Unicorn (Black).MOD	OUTPUTNAME:Unicorn (Black)	TYPE:Companion	SERVESAS:RACE|Unicorn (Black)
+Subterran Spider (Sword Spider).COPY=Subterran Spider (Sword Spider)	KEY:Companion ~ Subterran Spider (Sword Spider/Fiendish)
+Companion ~ Subterran Spider (Sword Spider/Fiendish)	OUTPUTNAME:Subterran Spider (Sword Spider/Fiendish)	TYPE:Companion	SERVESAS:RACE|Subterran Spider (Sword Spider)	TEMPLATE:Fiendish
