@@ -1,0 +1,417 @@
+SOURCELONG:Complete Arcane	SOURCESHORT:CA	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-11												
+#															
+# Class Name 1	Hit Dice (HD)	Type (TYPE:)	Abbreviation (ABB)	Max Level (MAXLEVEL)	Source Page (SOURCEPAGE)	Save checks bonus (Fortitude) (BONUS:SAVE)	Save checks bonus (Reflex)	Save checks bonus (Will)	Combat bonus	EXCLASS	CONTIGUOUS	FINE			
+# Class Name req	Requirements	FINE													
+# Class Name skill	Skill Pts/Lvl (STARTSKILLPTS)	Class Skill (CSKILL)						define class variables (DEFINE:variable|value	FINE		HASSUBSTITUTIONLEVEL	ALLOWBASECLASS			
+# Class Name spellcast	Spell Statistic (SPELLSTAT)	Spell type (SPELLTYPE)	Spellbook (SPELLBOOK/MEMORIZE)	knowspell (KNOWNSPELLS)	SPELLLIST	spell level increases (BONUS:CASTERLEVEL)									
+#(level number)	ADD:SPELLCASTER o CAST	FEATAUTO proficiency	(FEATAUTO)	(SAB)	(SAB)	(DOMAIN)	(BONUS)			(DEFINE)					
+CLASS:Warlock	HD:6	TYPE:PC.Base	FACT:Abb|Wrl	MAXLEVEL:20	SOURCEPAGE:CA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Warlock	DEFINE:WarlockLVL|0	BONUS:VAR|WarlockLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Warlock	PREALIGN:LE,NE,CE,CN,CB														
+CLASS:Warlock	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Disguise|Intimidate|Jump|Knowledge (Arcana)|Knowledge (The Planes)|Knowledge (Religion)|TYPE.Profession|Sense Motive|Spellcraft|Use Magic Device													
+CLASS:Warlock	SPELLSTAT:CHA	FACT:SpellType|Arcane	MEMORIZE:NO												
+1				ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.WarlockProficiencies											
+1				ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Invocation											
+#															
+1:REPEATLEVEL:1	CAST:0,0,0,0,0,0,0,0,0,0	KNOWN:0,0,0,0,0,0,0,0,0,0													
+#															
+1				ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Eldritch Blast|!PREABILITY:1,CATEGORY=ACF,TYPE.WarlockEldritchBlast											
+2				ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Detect Magic|!PREABILITY:1,CATEGORY=ACF,TYPE.WarlockDetectMagic											
+3				ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Damage Reduction|!PREABILITY:1,CATEGORY=ACF,TYPE.WarlockDamageReduction											
+4				ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Deceive Item|!PREABILITY:1,CATEGORY=ACF,TYPE.WarlockDeceiveItem											
+8				ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Fiendish Resilience|!PREABILITY:1,CATEGORY=ACF,TYPE.WarlockFiendishResilience											
+10				ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Energy Resistance|!PREABILITY:1,CATEGORY=ACF,TYPE.WarlockEnergyResistance											
+12				ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Imbue Item|!PREABILITY:1,CATEGORY=ACF,TYPE.WarlockImbueItem											
+															
+CLASS:Warmage	HD:6	TYPE:PC.Base	FACT:Abb|Wam	MAXLEVEL:20	SOURCEPAGE:CA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Warmage	DEFINE:WarmageLVL|0	BONUS:VAR|WarmageLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Warmage	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Intimidate|Knowledge (Arcana)|Knowledge (History)|TYPE.Profession|Spellcraft													
+CLASS:Warmage	SPELLSTAT:CHA	FACT:SpellType|Arcane	MEMORIZE:NO	KNOWNSPELLS:LEVEL=0|LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9											
+1				ABILITY:Warmage Class Feature|AUTOMATIC|Warmage ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.WarmageProficiencies											
+1				ABILITY:Warmage Class Feature|AUTOMATIC|Warmage ~ Spells											
+#															
+1	CAST:5,3														
+2	CAST:6,4														
+3	CAST:6,5														
+4	CAST:6,6,3														
+5	CAST:6,6,4														
+6	CAST:6,6,5,3														
+7	CAST:6,6,6,4														
+8	CAST:6,6,6,5,3														
+9	CAST:6,6,6,6,4														
+10	CAST:6,6,6,6,5,3														
+11	CAST:6,6,6,6,6,4														
+12	CAST:6,6,6,6,6,5,3														
+13	CAST:6,6,6,6,6,6,4														
+14	CAST:6,6,6,6,6,6,5,3														
+15	CAST:6,6,6,6,6,6,6,4														
+16	CAST:6,6,6,6,6,6,6,5,3														
+17	CAST:6,6,6,6,6,6,6,6,4														
+18	CAST:6,6,6,6,6,6,6,6,5,3														
+19	CAST:6,6,6,6,6,6,6,6,6,4														
+20	CAST:6,6,6,6,6,6,6,6,6,5														
+ #															
+1				ABILITY:Warmage Class Feature|AUTOMATIC|Warmage ~ Armored Mage|!PREABILITY:1,CATEGORY=ACF,TYPE.WarmageArmoredMage											
+1				ABILITY:Warmage Class Feature|AUTOMATIC|Warmage ~ Warmage Edge|!PREABILITY:1,CATEGORY=ACF,TYPE.WarmageWarmageEdge											
+3				ABILITY:Warmage Class Feature|AUTOMATIC|Warmage ~ Advanced Learning|!PREABILITY:1,CATEGORY=ACF,TYPE.WarmageAdvancedLearning											
+7				ABILITY:Warmage Class Feature|AUTOMATIC|Warmage ~ Sudden Empower|!PREABILITY:1,CATEGORY=ACF,TYPE.WarmageSuddenEmpower											
+10				ABILITY:Warmage Class Feature|AUTOMATIC|Warmage ~ Sudden Enlarge|!PREABILITY:1,CATEGORY=ACF,TYPE.WarmageSuddenEnlarge											
+15				ABILITY:Warmage Class Feature|AUTOMATIC|Warmage ~ Sudden Widen|!PREABILITY:1,CATEGORY=ACF,TYPE.WarmageSuddenWiden											
+20				ABILITY:Warmage Class Feature|AUTOMATIC|Warmage ~ Sudden Maximize|!PREABILITY:1,CATEGORY=ACF,TYPE.WarmageSuddenMAximize											
+															
+CLASS:Wu Jen	HD:4	TYPE:PC.Base.Oriental	FACT:Abb|WJe	MAXLEVEL:20	SOURCEPAGE:CA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC	ROLE:Wu Jen	DEFINE:WuJenLVL|0	BONUS:VAR|WuJenLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Wu Jen	PREALIGN:NG,TN,NE,CG,CN,CE														
+CLASS:Wu Jen	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Spellcraft													
+CLASS:Wu Jen	SPELLSTAT:INT	FACT:SpellType|Arcane	SPELLBOOK:YES	KNOWNSPELLS:LEVEL=0											
+1				ABILITY:Wu Jen Class Feature|AUTOMATIC|Wu Jen ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.WuJenProficiencies											
+1				ABILITY:Wu Jen Class Feature|AUTOMATIC|Wu Jen ~ Spells											
+1				ABILITY:Wu Jen Class Feature|AUTOMATIC|Wu Jen ~ Spellbooks											
+#															
+1	CAST:3,1														
+2	CAST:4,2														
+3	CAST:4,2,1														
+4	CAST:4,3,2														
+5	CAST:4,3,2,1														
+6	CAST:4,3,3,2														
+7	CAST:4,4,3,2,1														
+8	CAST:4,4,3,3,2														
+9	CAST:4,4,4,3,2,1														
+10	CAST:4,4,4,3,3,2														
+11	CAST:4,4,4,4,3,2,1														
+12	CAST:4,4,4,4,3,3,2														
+13	CAST:4,4,4,4,4,3,2,1														
+14	CAST:4,4,4,4,4,3,3,2														
+15	CAST:4,4,4,4,4,4,3,2,1														
+16	CAST:4,4,4,4,4,4,3,3,2														
+17	CAST:4,4,4,4,4,4,4,3,2,1														
+18	CAST:4,4,4,4,4,4,4,3,3,2														
+19	CAST:4,4,4,4,4,4,4,4,3,3														
+20	CAST:4,4,4,4,4,4,4,4,4,4														
+#															
+1				ABILITY:Wu Jen Class Feature|AUTOMATIC|Wu Jen ~ Bonus Language|!PREABILITY:1,CATEGORY=A0CF,TYPE.WuJenBonusLanguage											
+1				ABILITY:Wu Jen Class Feature|AUTOMATIC|Wu Jen ~ Watchful Spirit|!PREABILITY:1,CATEGORY=ACF,TYPE.WuJenWatchfulSpirit											
+1				ABILITY:Wu Jen Class Feature|AUTOMATIC|Wu Jen ~ Bonus Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.WuJenBonusFeat											
+1				ABILITY:Wu Jen Class Feature|AUTOMATIC|Wu Jen ~ Taboo|!PREABILITY:1,CATEGORY=ACF,TYPE.WuJenTaboo											
+3				ABILITY:Wu Jen Class Feature|AUTOMATIC|Wu Jen ~ Spell Secret|!PREABILITY:1,CATEGORY=ACF,TYPE.WuJenSpellSecret											
+6				ABILITY:Wu Jen Class Feature|AUTOMATIC|Wu Jen ~ Elemental Mastery|!PREABILITY:1,CATEGORY=ACF,TYPE.WuJenElementalMastery											
+															
+CLASS:Acolyte of the Skin	HD:8	TYPE:PC.Prestige	FACT:Abb|AoS	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:AcolyteOfTheSkinLVL|0	BONUS:VAR|AcolyteOfTheSkinLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Acolyte of the Skin	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:1,Knowledge (The Planes)=6	PRESPELLTYPE:1,Any=5	PRETEXT:Special: Must have made peaceful contact with a summoned evil outsider.											
+CLASS:Acolyte of the Skin	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Intimidate|Knowledge (Arcana)|Knowledge (The Planes)|TYPE.Profession|Spellcraft													
+1				ABILITY:Acolyte of the Skin Class Feature|AUTOMATIC|Acolyte of the Skin ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.AcolyteOfTheSkinProficiencies											
+1				ABILITY:Acolyte of the Skin Class Feature|AUTOMATIC|Acolyte of the Skin ~ Spells per Day											
+#															
+2	ADD:SPELLCASTER|ANY														
+4	ADD:SPELLCASTER|ANY														
+6	ADD:SPELLCASTER|ANY														
+8	ADD:SPELLCASTER|ANY														
+10	ADD:SPELLCASTER|ANY														
+#															
+1				ABILITY:Acolyte of the Skin Class Feature|AUTOMATIC|Acolyte of the Skin ~ Wear Skin|!PREABILITY:1,CATEGORY=ACF,TYPE.AcolyteOfTheSkinWearSkin											
+1				ABILITY:Acolyte of the Skin Class Feature|AUTOMATIC|Acolyte of the Skin ~ Poison|!PREABILITY:1,CATEGORY=ACF,TYPE.AcolyteOfTheSkinPoison											
+2				ABILITY:Acolyte of the Skin Class Feature|AUTOMATIC|Acolyte of the Skin ~ Flame Resistant|!PREABILITY:1,CATEGORY=ACF,TYPE.AcolyteOfTheSkinFlameResistant											
+3				ABILITY:Acolyte of the Skin Class Feature|AUTOMATIC|Acolyte of the Skin ~ Fiendish Glare|!PREABILITY:1,CATEGORY=ACF,TYPE.AcolyteOfTheSkinFiendishGlare											
+5				ABILITY:Acolyte of the Skin Class Feature|AUTOMATIC|Acolyte of the Skin ~ Skin Adaptation|!PREABILITY:1,CATEGORY=ACF,TYPE.AcolyteOfTheSkinSkinAdaptation											
+6				ABILITY:Acolyte of the Skin Class Feature|AUTOMATIC|Acolyte of the Skin ~ Cold Resistant|!PREABILITY:1,CATEGORY=ACF,TYPE.AcolyteOfTheSkinColdResistant											
+7				ABILITY:Acolyte of the Skin Class Feature|AUTOMATIC|Acolyte of the Skin ~ Glare of the Pit|!PREABILITY:1,CATEGORY=ACF,TYPE.AcolyteOfTheSkinGlareOfThePit											
+9				ABILITY:Acolyte of the Skin Class Feature|AUTOMATIC|Acolyte of the Skin ~ Summon Fiend|!PREABILITY:1,CATEGORY=ACF,TYPE.AcolyteOfTheSkinSummonFiend											
+10				ABILITY:Acolyte of the Skin Class Feature|AUTOMATIC|Acolyte of the Skin ~ Fiendish Symbiosis|!PREABILITY:1,CATEGORY=ACF,TYPE.AcolyteOfTheSkinFiendishSymbiosis											
+															
+CLASS:Alienist	HD:4	TYPE:PC.Prestige	FACT:Abb|Ali	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:AlienistLVL|0	BONUS:VAR|AlienistLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Alienist	PREALIGN:NG,TN,NE,CG,CN,CE	PRESKILL:1,Knowledge (The Planes)=8	PREABILITY:1,CATEGORY=FEAT,Augment Summoning	PRESPELLSCHOOLSUB:1,Summoning=3	PRETEXT:Special: Must have made peaceful contact with an alienist or a pseudonatural creature.										
+CLASS:Alienist	STARTSKILLPTS:2	CSKILL:Concentration|Gather Information|TYPE.Knowledge|Listen|TYPE.Profession|Spellcraft|Spot													
+1				ABILITY:Alienist Class Feature|AUTOMATIC|Alienist ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.AlienistProficiencies											
+1				ABILITY:Alienist Class Feature|AUTOMATIC|Alienist ~ Spells per Day											
+#															
+1	ADD:SPELLCASTER|ANY														
+2	ADD:SPELLCASTER|ANY														
+3	ADD:SPELLCASTER|ANY														
+4	ADD:SPELLCASTER|ANY														
+5	ADD:SPELLCASTER|ANY														
+6	ADD:SPELLCASTER|ANY														
+7	ADD:SPELLCASTER|ANY														
+8	ADD:SPELLCASTER|ANY														
+9	ADD:SPELLCASTER|ANY														
+10	ADD:SPELLCASTER|ANY														
+#															
+1				ABILITY:Alienist Class Feature|AUTOMATIC|Alienist ~ Familiar Abilities|!PREABILITY:1,CATEGORY=ACF,TYPE.AlienistFamialirAbilities											
+1				ABILITY:Alienist Class Feature|AUTOMATIC|Alienist ~ Summon Alien|!PREABILITY:1,CATEGORY=ACF,TYPE.AlienistSummonAlien											
+2				ABILITY:Alienist Class Feature|AUTOMATIC|Alienist ~ Alien Blessing|!PREABILITY:1,CATEGORY=ACF,TYPE.AlienistAlienBlessing											
+3				ABILITY:Alienist Class Feature|AUTOMATIC|Alienist ~ Metamagic Secret|!PREABILITY:1,CATEGORY=ACF,TYPE.AlienistMetamagicSecret											
+4				ABILITY:Alienist Class Feature|AUTOMATIC|Alienist ~ Mad Certainty|!PREABILITY:1,CATEGORY=ACF,TYPE.AlienistMadCertainty											
+5				ABILITY:Alienist Class Feature|AUTOMATIC|Alienist ~ Pseudonatural Familiar|!PREABILITY:1,CATEGORY=ACF,TYPE.AlienistPseudonaturalFamiliar											
+6				ABILITY:Alienist Class Feature|AUTOMATIC|Alienist ~ Extra Summoning|!PREABILITY:1,CATEGORY=ACF,TYPE.AlienistExtraSummoning											
+8				ABILITY:Alienist Class Feature|AUTOMATIC|Alienist ~ Insane Certainty|!PREABILITY:1,CATEGORY=ACF,TYPE.AlienistInsanityCertainty											
+9				ABILITY:Alienist Class Feature|AUTOMATIC|Alienist ~ Timeless Body|!PREABILITY:1,CATEGORY=ACF,TYPE.AlienistTimelessBody											
+10				ABILITY:Alienist Class Feature|AUTOMATIC|Alienist ~ Alien Transcendence|!PREABILITY:1,CATEGORY=ACF,TYPE.AlienistTranscendence											
+															
+CLASS:Argent Savant	HD:4	TYPE:PC.Prestige	FACT:Abb|ArS	MAXLEVEL:5	SOURCEPAGE:CA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:ArgentSavantLVL|0	BONUS:VAR|ArgentSavantLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Argent Savant	PRESKILL:1,Knowledge (Arcana)=6	PRESKILL:1,Spellcraft=12	PRESPELLDESCRIPTOR:5,Force=5		PRETEXT:Special: Must have made peaceful contact with an alienist or a pseudonatural creature.										
+CLASS:Argent Savant	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Spellcraft													
+1				ABILITY:Argent Savant Class Feature|AUTOMATIC|Argent Savant ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ArgentSavantProficiencies											
+1				ABILITY:Argent Savant Class Feature|AUTOMATIC|Argent Savant ~ Spells per Day											
+#															
+2	ADD:SPELLCASTER|ANY														
+3	ADD:SPELLCASTER|ANY														
+4	ADD:SPELLCASTER|ANY														
+5	ADD:SPELLCASTER|ANY														
+#															
+1				ABILITY:Argent Savant Class Feature|AUTOMATIC|Argent Savant ~ Force Specialization|!PREABILITY:1,CATEGORY=ACF,TYPE.ArgentSavantForceSpecialization											
+2				ABILITY:Argent Savant Class Feature|AUTOMATIC|Argent Savant ~ Force Armor|!PREABILITY:1,CATEGORY=ACF,TYPE.ArgentSavantForceArmor											
+3				ABILITY:Argent Savant Class Feature|AUTOMATIC|Argent Savant ~ Enduring Force|!PREABILITY:1,CATEGORY=ACF,TYPE.ArgentSavantEnduringForce											
+4				ABILITY:Argent Savant Class Feature|AUTOMATIC|Argent Savant ~ Ablate Force|!PREABILITY:1,CATEGORY=ACF,TYPE.ArgentSavantAblateForce											
+5				ABILITY:Argent Savant Class Feature|AUTOMATIC|Argent Savant ~ Unbinding Force|!PREABILITY:1,CATEGORY=ACF,TYPE.ArgentSavantUnbindingForce											
+															
+CLASS:Blood Magus	HD:6	TYPE:PC.Prestige	FACT:Abb|Blm	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:BloodMagusLVL|0	BONUS:VAR|BloodMagusLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Blood Magus	PREALIGN:LN,LE,NG,TN,NE,CG,CN,CE	PRESKILL:1,Concentration=4	PREABILITY:2,CATEGORY=FEAT,Great Fortitude,Toughness	PRESPELLCAST:TYPE=Arcane	PRECLASS:1,SPELLCASTER.Arcane=5	PRETEXT:Special: The character must have been killed, then returned to life.									
+CLASS:Blood Magus	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Heal|Spellcraft													
+1				ABILITY:Blood Magus Class Feature|AUTOMATIC|Blood Magus ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodMagusProficiencies											
+1				ABILITY:Blood Magus Class Feature|AUTOMATIC|Blood Magus ~ Spells per Day											
+#															
+1	ADD:SPELLCASTER|Arcane														
+2	ADD:SPELLCASTER|Arcane														
+3	ADD:SPELLCASTER|Arcane														
+4	ADD:SPELLCASTER|Arcane														
+6	ADD:SPELLCASTER|Arcane														
+7	ADD:SPELLCASTER|Arcane														
+8	ADD:SPELLCASTER|Arcane														
+9	ADD:SPELLCASTER|Arcane														
+#															
+1				ABILITY:Blood Magus Class Feature|AUTOMATIC|Blood Magus ~ Blood Component|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodMagusBloodComponent											
+1				ABILITY:Blood Magus Class Feature|AUTOMATIC|Blood Magus ~ Durable Casting|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodMagusDurableCasting											
+1				ABILITY:Blood Magus Class Feature|AUTOMATIC|Blood Magus ~ Stanch|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodMagusStanch											
+2				ABILITY:Blood Magus Class Feature|AUTOMATIC|Blood Magus ~ Scarification|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodMagusScarification											
+3				ABILITY:Blood Magus Class Feature|AUTOMATIC|Blood Magus ~ Death Knell|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodMagusDeathKnell											
+4				ABILITY:Blood Magus Class Feature|AUTOMATIC|Blood Magus ~ Blood Draught|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodMagusBloodDraught											
+5				ABILITY:Blood Magus Class Feature|AUTOMATIC|Blood Magus ~ Homunculus|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodMagusHomunculus											
+6				ABILITY:Blood Magus Class Feature|AUTOMATIC|Blood Magus ~ Bloodseeking Spell|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodMagusBloodseekingSpell											
+7				ABILITY:Blood Magus Class Feature|AUTOMATIC|Blood Magus ~ Thicker Than Water|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodMagusThickerThanWater											
+8				ABILITY:Blood Magus Class Feature|AUTOMATIC|Blood Magus ~ Awaken Blood|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodMagusAwakenBlood											
+9				ABILITY:Blood Magus Class Feature|AUTOMATIC|Blood Magus ~ Infusion|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodMagusInfusion											
+10				ABILITY:Blood Magus Class Feature|AUTOMATIC|Blood Magus ~ Bloodwalk|!PREABILITY:1,CATEGORY=ACF,TYPE.BloodMagusBloodwalk											
+															
+CLASS:Effigy Master	HD:4	TYPE:PC.Prestige	FACT:Abb|EfM	MAXLEVEL:5	SOURCEPAGE:CA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:EffigyMasterLVL|0	BONUS:VAR|EffigyMasterLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Effigy Master	PRESKILL:1,Craft (Leatherworing)=10,Craft (Metalworking)=10,Craft (Woodworking)=10	PRESKILL:2,Knowledge (Arcana)=5,Spellcraft=5	PRESKILL:1,Use Magid Device=2	PREABILITY:1,CATEGORY=FEAT,Craft Wondrous Item	PRETEXT:Special: Must have the simulacrum spell on a class spell list, whether or not the character is able to cast it.										
+CLASS:Effigy Master	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|TYPE.Knowledge|TYPE.Profession|Spellcraft													
+1				ABILITY:Effigy Master Class Feature|AUTOMATIC|Effigy Master ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.EffigyMasterProficiencies											
+1				ABILITY:Effigy Magus Class Feature|AUTOMATIC|Effigy Magus ~ Spells per Day											
+#															
+2	ADD:SPELLCASTER|ANY														
+3	ADD:SPELLCASTER|ANY														
+4	ADD:SPELLCASTER|ANY														
+5	ADD:SPELLCASTER|ANY														
+#															
+1				ABILITY:Effigy Master Class Feature|AUTOMATIC|Effigy Master ~ Craft Effigy|!PREABILITY:1,CATEGORY=ACF,TYPE.EffigyMasterCraftEffigy											
+3				ABILITY:Effigy Master Class Feature|AUTOMATIC|Effigy Master ~ Improved Effigy|!PREABILITY:1,CATEGORY=ACF,TYPE.EffigyMasterImprovedEffigy											
+5				ABILITY:Effigy Master Class Feature|AUTOMATIC|Effigy Master ~ Effigy Link|!PREABILITY:1,CATEGORY=ACF,TYPE.EffigyMasterEffigyLink											
+															
+CLASS:Elemental Savant	HD:4	TYPE:PC.Prestige	FACT:Abb|ElS	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:ElementalSavantLVL|0	BONUS:VAR|ElementalSavantLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Elemental Savant	PRESKILL:1,Knowledge (Arcana)=8	PRESKILL:1,Knowledge (The Planes)=4	PREABILITY:1,CATEGORY=FEAT,Energy Substitution	PRESPELLDESCRIPTOR:3,Acid=1,Cold=1,Electricity=1,Fire=1	PRESPELLDESCRIPTOR:1,Acid=3,Cold=3,Electricity=3,Fire=3	PRETEXT:Special: Must have made peaceful contact with an elemental or outsider that has an elemental subtype (air, earth, fi re, or water).									
+CLASS:Elemental Savant	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Knowledge (Arcana)|Knowledge (The Planes)|TYPE.Profession|Spellcraft													
+1				ABILITY:Elemental Savant Class Feature|AUTOMATIC|Elemental Savant ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalSavantProficiencies											
+1				ABILITY:Elemental Savant Class Feature|AUTOMATIC|Elemental Savant ~ Spells per Day											
+#															
+1	ADD:SPELLCASTER|ANY														
+2	ADD:SPELLCASTER|ANY														
+3	ADD:SPELLCASTER|ANY														
+4	ADD:SPELLCASTER|ANY														
+6	ADD:SPELLCASTER|ANY														
+7	ADD:SPELLCASTER|ANY														
+8	ADD:SPELLCASTER|ANY														
+9	ADD:SPELLCASTER|ANY														
+#															
+SUBCLASS:Air Savant	COST:1		CHOICE:DESCRIPTOR:Electricity	PREABILITY:1,CATEGORY=FEAT,Energy Substitution (Air)											
+SUBCLASSLEVEL:1				ABILITY:Elemental Savant Class Feature|AUTOMATIC|Elemental Savant ~ Resistance to Electricity|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalSavantResistanceToElectricity											
+SUBCLASSLEVEL:10				ABILITY:Elemental Savant Class Feature|AUTOMATIC|Elemental Savant ~ Energy Immunity ~ Air|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalSavantEnergyImmunity											
+SUBCLASS:Earth Savant	COST:1		CHOICE:DESCRIPTOR:Acid	PREABILITY:1,CATEGORY=FEAT,Energy Substitution (Acid)											
+SUBCLASSLEVEL:1				ABILITY:Elemental Savant Class Feature|AUTOMATIC|Elemental Savant ~ Resistance to Acid|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalSavantResistanceToAcid											
+SUBCLASSLEVEL:10				ABILITY:Elemental Savant Class Feature|AUTOMATIC|Elemental Savant ~ Energy Immunity ~ Earth|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalSavantEnergyImmunity											
+SUBCLASS:Fire Savant	COST:1		CHOICE:DESCRIPTOR:Fire	PREABILITY:1,CATEGORY=FEAT,Energy Substitution (Fire)											
+SUBCLASSLEVEL:1				ABILITY:Elemental Savant Class Feature|AUTOMATIC|Elemental Savant ~ Resistance to Fire|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalSavantResistanceToFire											
+SUBCLASSLEVEL:10				ABILITY:Elemental Savant Class Feature|AUTOMATIC|Elemental Savant ~ Energy Immunity ~ Fire|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalSavantEnergyImmunity											
+SUBCLASS:Water Savant	COST:1		CHOICE:DESCRIPTOR:Cold	PREABILITY:1,CATEGORY=FEAT,Energy Substitution (Water)											
+SUBCLASSLEVEL:1				ABILITY:Elemental Savant Class Feature|AUTOMATIC|Elemental Savant ~ Resistance to Cold|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalSavantResistanceToCold											
+SUBCLASSLEVEL:10				ABILITY:Elemental Savant Class Feature|AUTOMATIC|Elemental Savant ~ Energy Immunity ~ Water|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalSavantEnergyImmunity											
+#															
+1				ABILITY:Elemental Savant Class Feature|AUTOMATIC|Elemental Savant ~ Elemental Specialty|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalSavantElementalSpecialty											
+2				ABILITY:Elemental Savant Class Feature|AUTOMATIC|Elemental Savant ~ Immunity to Sleep|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalSavantImmunityToSleep											
+3				ABILITY:Elemental Savant Class Feature|AUTOMATIC|Elemental Savant ~ Energy Penetration|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalSavantEnergyPenetration											
+5				ABILITY:Elemental Savant Class Feature|AUTOMATIC|Elemental Savant ~ Energy Focus|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalSavantEnergyFocus											
+6				ABILITY:Elemental Savant Class Feature|AUTOMATIC|Elemental Savant ~ Darkvision|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalSavantDarkvision											
+9				ABILITY:Elemental Savant Class Feature|AUTOMATIC|Elemental Savant ~ Immunity to Paralysis and Poison|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalSavantImmunityToParalysysAndPoison											
+10				ABILITY:Elemental Savant Class Feature|AUTOMATIC|Elemental Savant ~ Elemental Perfection|!PREABILITY:1,CATEGORY=ACF,TYPE.ElementalSavantElementalPerfection											
+															
+###TODO CONTIGUOUS:Monk|TYPE.Arcane															
+CLASS:Enlightened Fist	HD:8	TYPE:PC.Prestige	FACT:Abb|EnF	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:EnlightenedFistLVL|0	BONUS:VAR|EnlightenedFistLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Enlightened Fist	PRESKILL:1,Concentration=8	PRESKILL:2,Knowledge (Arcana)=4,Spellcraft=4	PREABILITY:3,Combat Casting,Improved Unarmed Strike,Stunning Fist	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=3										
+CLASS:Enlightened Fist	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE.Craft|Escape Artist|Hide|Jump|Knowledge (Arcana)|Knowledge (Religion)|Listen|Move Silently|TYPE.Profession|Spellcraft|Spot|Swim|Tumble													
+1				ABILITY:Enlightened Fist Class Feature|AUTOMATIC|Enlightened Fist ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.EnlightenedFistProficiencies											
+1				ABILITY:Enlightened Fist Class Feature|AUTOMATIC|Enlightened Fist ~ Spells per Day											
+#															
+1		UDAM:1d1,1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6	UMULT:2												
+2	ADD:SPELLCASTER|Arcane	UDAM:1d1,1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6													
+3	ADD:SPELLCASTER|Arcane	UDAM:1d1,1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6													
+4	ADD:SPELLCASTER|Arcane	UDAM:1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,6d6													
+5	ADD:SPELLCASTER|Arcane	UDAM:1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,6d6													
+6		UDAM:1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,6d6													
+7	ADD:SPELLCASTER|Arcane	UDAM:1d2,1d3,1d4,1d6,1d8,2d6,3d6,4d6,6d6													
+8	ADD:SPELLCASTER|Arcane	UDAM:1d3,1d4,1d6,1d8,1d10,2d8,3d8,4d8,6d8													
+9	ADD:SPELLCASTER|Arcane	UDAM:1d3,1d4,1d6,1d8,1d10,2d8,3d8,4d8,6d8													
+10	ADD:SPELLCASTER|Arcane	UDAM:1d3,1d4,1d6,1d8,1d10,2d8,3d8,4d8,6d8													
+#															
+1				ABILITY:Enlightened Fist Class Feature|AUTOMATIC|Enlightened Fist ~ Ki Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.EnlightenedFistKiStrike											
+1				ABILITY:Enlightened Fist Class Feature|AUTOMATIC|Enlightened Fist ~ Monk Abilities|!PREABILITY:1,CATEGORY=ACF,TYPE.EnlightenedFistMonkAbilities											
+2				ABILITY:Enlightened Fist Class Feature|AUTOMATIC|Enlightened Fist ~ Fist of Energy|!PREABILITY:1,CATEGORY=ACF,TYPE.EnlightenedFistFistOfEnergy											
+3				ABILITY:Enlightened Fist Class Feature|AUTOMATIC|Enlightened Fist ~ Arcane Fist|!PREABILITY:1,CATEGORY=ACF,TYPE.EnlightenedFistArcaneFist											
+5				ABILITY:Enlightened Fist Class Feature|AUTOMATIC|Enlightened Fist ~ Arcane Rejuvenation|!PREABILITY:1,CATEGORY=ACF,TYPE.EnlightenedFistArcaneRejuvenation											
+7				ABILITY:Enlightened Fist Class Feature|AUTOMATIC|Enlightened Fist ~ Hold Ray|!PREABILITY:1,CATEGORY=ACF,TYPE.EnlightenedFistHoldRay											
+9				ABILITY:Enlightened Fist Class Feature|AUTOMATIC|Enlightened Fist ~ Diamond Soul|!PREABILITY:1,CATEGORY=ACF,TYPE.EnlightenedFistDiamondSoul											
+															
+CLASS:Fatespinner	HD:4	TYPE:PC.Prestige	FACT:Abb|Fte	MAXLEVEL:5	SOURCEPAGE:CA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:FatespinnerLVL|0	BONUS:VAR|FatespinnerLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Fatespinner	PRESKILL:1,Knowledge (Arcana)=10	PRESKILL:1,Profession (Gambler)=5	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=4	PRESPELLSCHOOL:1,Divination=1										
+CLASS:Fatespinner	STARTSKILLPTS:2	CSKILL:Appraise|Concentration|Knowledge (Arcana)|TYPE.Profession|Sleight of Hand|Spellcraft													
+1				ABILITY:Fatespinner Class Feature|AUTOMATIC|Fatespinner ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.FatespinnerProficiencies											
+1				ABILITY:Fatespinner Class Feature|AUTOMATIC|Fatespinner ~ Spells per Day											
+#															
+1	ADD:SPELLCASTER|ANY														
+2	ADD:SPELLCASTER|ANY														
+3	ADD:SPELLCASTER|ANY														
+4	ADD:SPELLCASTER|ANY														
+#															
+1				ABILITY:Fatespinner Class Feature|AUTOMATIC|Fatespinner ~ Spin Fate|!PREABILITY:1,CATEGORY=ACF,TYPE.FatespinnerSpinFate											
+2				ABILITY:Fatespinner Class Feature|AUTOMATIC|Fatespinner ~ Fickle Finger of Fate|!PREABILITY:1,CATEGORY=ACF,TYPE.FatespinnerFickleFingerOfFate											
+3				ABILITY:Fatespinner Class Feature|AUTOMATIC|Fatespinner ~ Spin Destiny|!PREABILITY:1,CATEGORY=ACF,TYPE.FatespinnerSpinDestiny											
+4				ABILITY:Fatespinner Class Feature|AUTOMATIC|Fatespinner ~ Deny Fate|!PREABILITY:1,CATEGORY=ACF,TYPE.FatespinnerDenyFate											
+4				ABILITY:Fatespinner Class Feature|AUTOMATIC|Fatespinner ~ Resist Fate|!PREABILITY:1,CATEGORY=ACF,TYPE.FatespinnerResistFate											
+5				ABILITY:Fatespinner Class Feature|AUTOMATIC|Fatespinner ~ Seal Fate|!PREABILITY:1,CATEGORY=ACF,TYPE.FatespinnerSealFate											
+															
+CLASS:Geometer	HD:4	TYPE:PC.Prestige	FACT:Abb|Gmt	MAXLEVEL:5	SOURCEPAGE:CA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:GeometerLVL|0	BONUS:VAR|GeometerLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Geometer	PRESKILL:2,Decipher Script=9,Knowledge (Arcana)=9	PRESKILL:2,Disable Device=4,Search=4	PREABILITY:1,CATEGORY=FEAT,Scribe Scroll	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=3										
+CLASS:Geometer	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Script|Disable Device|TYPE.Knowledge|TYPE.Profession|Search|Spellcraft													
+1				ABILITY:Geometer Class Feature|AUTOMATIC|Geometer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.GeometerProficiencies											
+1				ABILITY:Geometer Class Feature|AUTOMATIC|Geometer ~ Spells per Day											
+#															
+1	ADD:SPELLCASTER|Arcane														
+2	ADD:SPELLCASTER|Arcane														
+3	ADD:SPELLCASTER|Arcane														
+4	ADD:SPELLCASTER|Arcane														
+5	ADD:SPELLCASTER|Arcane														
+#															
+1				ABILITY:Geometer Class Feature|AUTOMATIC|Geometer ~ Glypf of Warding|!PREABILITY:1,CATEGORY=ACF,TYPE.GeometerGlyphOfWarding											
+1				ABILITY:Geometer Class Feature|AUTOMATIC|Geometer ~ Spellglyph|!PREABILITY:1,CATEGORY=ACF,TYPE.GeometerSpellglyph											
+2				ABILITY:Geometer Class Feature|AUTOMATIC|Geometer ~ Book of Geometry|!PREABILITY:1,CATEGORY=ACF,TYPE.GeometerBookOfGeometry											
+3				ABILITY:Geometer Class Feature|AUTOMATIC|Geometer ~ Sigilsight|!PREABILITY:1,CATEGORY=ACF,TYPE.GeometerSigilsight											
+3				ABILITY:Geometer Class Feature|AUTOMATIC|Geometer ~ Pass Sigil|!PREABILITY:1,CATEGORY=ACF,TYPE.GeometerPassSigil											
+5				ABILITY:Geometer Class Feature|AUTOMATIC|Geometer ~ Powerful Spellglyph|!PREABILITY:1,CATEGORY=ACF,TYPE.GeometerPowerfulSpellglyph											
+5				ABILITY:Geometer Class Feature|AUTOMATIC|Geometer ~ Greater Glyph of Warding|!PREABILITY:1,CATEGORY=ACF,TYPE.GeometerGreaterGlyphOfWarding											
+															
+CLASS:Green Star Adept	HD:8	TYPE:PC.Prestige	FACT:Abb|GSA	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:GreenStarAdeptLVL|0	BONUS:VAR|GreenStarAdeptLVL|CL		BONUS:VAR|ClassBABAverage|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Green Star Adept	PREATT:4	PRESKILL:4,Decipher Script=2,Knowledge (Architecture and Engineering)=2,Knowledge (Geeography)=2,Knowledge (History)=2	PRESKILL:1,Knowledge (Arcana)=8	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=1	PREABILITY:1,CATEGORY=FEAT,Combat Casting	PRETEXT:Special: Must acquire a piece of starmetal weighing at least 2 ounces, powder it, and consume it by drinking it in a specially prepared infusion. This infusion requires arcane reagents costing 1,000 gp and takes one week to prepare.								
+CLASS:Green Star Adept	STARTSKILLPTS:2	CSKILL:Appraise|Concentration|TYPE.Craft|Decipher Script|Knowledge (Arcana)|Knowledge (Architecture and Engineering)|Knowledge (Geography)|Knowledge (History)|TYPE.Profession|Spellcraft													
+1				ABILITY:Green Star Adept Class Feature|AUTOMATIC|Green Star Adept ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.GreenStarAdeptProficiencies											
+1				ABILITY:Green Star Adept Class Feature|AUTOMATIC|Green Star Adept ~ Spells per Day											
+#															
+2	ADD:SPELLCASTER|Arcane														
+4	ADD:SPELLCASTER|Arcane														
+6	ADD:SPELLCASTER|Arcane														
+8	ADD:SPELLCASTER|Arcane														
+10	ADD:SPELLCASTER|Arcane														
+#															
+1				ABILITY:Green Star Adept Class Feature|AUTOMATIC|Green Star Adept ~ Damage Reduction|!PREABILITY:1,CATEGORY=ACF,TYPE.GreenStarAdeptDamageReduction											
+1				ABILITY:Green Star Adept Class Feature|AUTOMATIC|Green Star Adept ~ Improved Caster Level|!PREABILITY:1,CATEGORY=ACF,TYPE.GreenStarAdeptImprovedCasterLevel											
+1				ABILITY:Green Star Adept Class Feature|AUTOMATIC|Green Star Adept ~ Starmetal Dependency|!PREABILITY:1,CATEGORY=ACF,TYPE.GreenStarAdeptStarmetalDependency											
+1				ABILITY:Green Star Adept Class Feature|AUTOMATIC|Green Star Adept ~ Starmetal Rigor|!PREABILITY:1,CATEGORY=ACF,TYPE.GreenStarAdeptStarmetalRigor											
+2				ABILITY:Green Star Adept Class Feature|AUTOMATIC|Green Star Adept ~ Natural Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.GreenStarAdeptNaturalAttack											
+2				ABILITY:Green Star Adept Class Feature|AUTOMATIC|Green Star Adept ~ Unnatural Metabolism|!PREABILITY:1,CATEGORY=ACF,TYPE.GreenStarAdeptUnnaturalMetabolism											
+3				ABILITY:Green Star Adept Class Feature|AUTOMATIC|Green Star Adept ~ Fortification|!PREABILITY:1,CATEGORY=ACF,TYPE.GreenStarAdeptFortification											
+4				ABILITY:Green Star Adept Class Feature|AUTOMATIC|Green Star Adept ~ Otherworldly Vision|!PREABILITY:1,CATEGORY=ACF,TYPE.GreenStarAdeptOtherworldlyVision											
+7				ABILITY:Green Star Adept Class Feature|AUTOMATIC|Green Star Adept ~ Null Metabolism|!PREABILITY:1,CATEGORY=ACF,TYPE.GreenStarAdeptNullMetabolism											
+10				ABILITY:Green Star Adept Class Feature|AUTOMATIC|Green Star Adept ~ Emerald Perfection|!PREABILITY:1,CATEGORY=ACF,TYPE.GreenStarAdeptEmeraldPerfection											
+10				ABILITY:Green Star Adept Class Feature|AUTOMATIC|Green Star Adept ~ Rapid Repair|!PREABILITY:1,CATEGORY=ACF,TYPE.GreenStarAdeptRapidRepair											
+															
+CLASS:Initiate of the Sevenfold Veil	HD:4	TYPE:PC.Prestige	FACT:Abb|ISV	MAXLEVEL:7	SOURCEPAGE:CA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:InitiateOfTheSevenfoldVeilLVL|0	BONUS:VAR|InitiateOfTheSevenfoldVeilLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Initiate of the Sevenfold Veil	PRESKILL:2,Knowledge (Arcana)=12,Spellcraft=12	PRESKILL:1,Knowledge (Nature)=4	PREABILITY:3,Greater Spell Focus (Abjuration),Spell Focus (Abjuration),Skill Focus (Spellcraft)	PRESPELLSCHOOL:5,Abjuration=1	PRESPELLSCHOOL:4,Abjuration=2										
+CLASS:Initiate of the Sevenfold Veil	STARTSKILLPTS:2	CSKILL:Appraise|Concentration|TYPE.Craft|Decipher Script|TYPE.Knowledge|TYPE.Profession|Spellcraft													
+1				ABILITY:Initiate of the Seven Veil Class Feature|AUTOMATIC|Initiate of the Seven Veil ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfTheSevenVeilProficiencies											
+1				ABILITY:Initiate of the Seven Veil Class Feature|AUTOMATIC|Initiate of the Seven Veil ~ Spells per Day											
+#															
+1	ADD:SPELLCASTER|Arcane														
+2	ADD:SPELLCASTER|Arcane														
+3	ADD:SPELLCASTER|Arcane														
+4	ADD:SPELLCASTER|Arcane														
+5	ADD:SPELLCASTER|Arcane														
+6	ADD:SPELLCASTER|Arcane														
+7	ADD:SPELLCASTER|Arcane														
+#															
+1				ABILITY:Initiate of the Sevenfold Veil Class Feature|AUTOMATIC|Initiate of the Sevenfold Veil ~ Warding|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfTheSevenfoldVeilWarding											
+1				ABILITY:Initiate of the Sevenfold Veil Class Feature|AUTOMATIC|Initiate of the Sevenfold Veil ~ Veil|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfTheSevenfoldVeilVeil											
+1				ABILITY:Initiate of the Sevenfold Veil Class Feature|AUTOMATIC|Initiate of the Sevenfold Veil ~ Unimpeachable Abjuration|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfTheSevenfoldVeilUnimpeachableAbjuration											
+2				ABILITY:Initiate of the Sevenfold Veil Class Feature|AUTOMATIC|Initiate of the Sevenfold Veil ~ Unanswerable Strike|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfTheSevenfoldVeilUnanswerableStrike											
+4				ABILITY:Initiate of the Sevenfold Veil Class Feature|AUTOMATIC|Initiate of the Sevenfold Veil ~ Reactive Warding|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfTheSevenfoldVeilReactiveWarding											
+6				ABILITY:Initiate of the Sevenfold Veil Class Feature|AUTOMATIC|Initiate of the Sevenfold Veil ~ Double Warding|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfTheSevenfoldVeilDoubleWarding											
+7				ABILITY:Initiate of the Sevenfold Veil Class Feature|AUTOMATIC|Initiate of the Sevenfold Veil ~ Kaleidoscopic Doom|!PREABILITY:1,CATEGORY=ACF,TYPE.InitiateOfTheSevenfoldVeilKaleidoscopicDoom											
+															
+CLASS:Mage of the Arcane Order	HD:4	TYPE:PC.Prestige	FACT:Abb|Mao	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:MageOfTheArcaneOrderLVL|0	BONUS:VAR|MageOfTheArcaneOrderLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Mage of the Arcane Order	PRESKILL:1,Knowledge (Arcana)=8	PREABILITY:1,CATEGORY=FEAT,Cooperative Spell	PREABILITY:2,CATEGORY=FEAT,TYPE.Metamagic	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=2	PRETEXT:Special: Prospective members must pay an initiation fee of 750 gp.									
+CLASS:Mage of the Arcane Order	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Craft|Decipher Script|TYPE.Knowledge|TYPE.Profession|Speak Language|Spellcraft													
+1				ABILITY:Mage of the Arcane Order Class Feature|AUTOMATIC|Mage of the Arcane Order ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MageOfTheArcaneOrderProficiencies											
+1				ABILITY:Mage of the Arcane Order Class Feature|AUTOMATIC|Mage of the Arcane Order ~ Spells per Day											
+#															
+1	ADD:SPELLCASTER|Arcane														
+2	ADD:SPELLCASTER|Arcane														
+3	ADD:SPELLCASTER|Arcane														
+4	ADD:SPELLCASTER|Arcane														
+5	ADD:SPELLCASTER|Arcane														
+6	ADD:SPELLCASTER|Arcane														
+7	ADD:SPELLCASTER|Arcane														
+8	ADD:SPELLCASTER|Arcane														
+9	ADD:SPELLCASTER|Arcane														
+10	ADD:SPELLCASTER|Arcane														
+#															
+1				ABILITY:Mage of the Arcane Order Class Feature|AUTOMATIC|Mage of the Arcane Order ~ Guild Member|!PREABILITY:1,CATEGORY=ACF,TYPE.MageOfTheArcaneOrderGuildMember											
+1				ABILITY:Mage of the Arcane Order Class Feature|AUTOMATIC|Mage of the Arcane Order ~ Spellpool|!PREABILITY:1,CATEGORY=ACF,TYPE.MageOfTheArcaneOrderSpellpool											
+2				ABILITY:Mage of the Arcane Order Class Feature|AUTOMATIC|Mage of the Arcane Order ~ Bonus Metamagic Feat|!PREABILITY:1,CATEGORY=ACF,TYPE.MageOfTheArcaneOrderBonusMetamagicFeat											
+3				ABILITY:Mage of the Arcane Order Class Feature|AUTOMATIC|Mage of the Arcane Order ~ Bonus Languages|!PREABILITY:1,CATEGORY=ACF,TYPE.MageOfTheArcaneOrderBonusLanguages											
+5				ABILITY:Mage of the Arcane Order Class Feature|AUTOMATIC|Mage of the Arcane Order ~ New Spell|!PREABILITY:1,CATEGORY=ACF,TYPE.MageOfTheArcaneOrderNewSpell											
+10				ABILITY:Mage of the Arcane Order Class Feature|AUTOMATIC|Mage of the Arcane Order ~ Regent|!PREABILITY:1,CATEGORY=ACF,TYPE.MageOfTheArcaneOrderRegent											
+															
+CLASS:Master Transmogrif	HD:4	TYPE:PC.Prestige	FACT:Abb|Mtr	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:MasterTransmogrifLVL|0	BONUS:VAR|MasterTransmogrifLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Master Transmogrif	PREALIGN:NG,TN,NE,CG,CN,CE	PRESKILL:1,Bluff=2	PRESKILL:1,Disguise=5	PREABILITY:1,CATEGORY=FEAT,Eschew Materials	PRESPELL:2,Alter Self,Polymorph										
+CLASS:Master Transmogrif	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE.Craft|Disguise|Knowledge (Arcana)|TYPE.Profession|Spellcraft													
+1				ABILITY:Master Transmogrif Class Feature|AUTOMATIC|Master Transmogrif ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterTransmogrifProficiencies											
+1				ABILITY:Master Transmogrif Class Feature|AUTOMATIC|Master Transmogrif ~ Spells per Day											
+#															
+2	ADD:SPELLCASTER|Arcane														
+3	ADD:SPELLCASTER|Arcane														
+5	ADD:SPELLCASTER|Arcane														
+6	ADD:SPELLCASTER|Arcane														
+8	ADD:SPELLCASTER|Arcane														
+9	ADD:SPELLCASTER|Arcane														
+#															
+1				ABILITY:Master Transmogrif Class Feature|AUTOMATIC|Master Transmogrif ~ Extended Change|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterTransmogrifExtendedChange											
+1				ABILITY:Master Transmogrif Class Feature|AUTOMATIC|Master Transmogrif ~ Favored Shape|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterTransmogrifFavoredShape											
+2				ABILITY:Master Transmogrif Class Feature|AUTOMATIC|Master Transmogrif ~ Manifest Senses|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterTransmogrifManifestSenses											
+3				ABILITY:Master Transmogrif Class Feature|AUTOMATIC|Master Transmogrif ~ Battle Mastery|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterTransmogrifBattleMastery											
+4				ABILITY:Master Transmogrif Class Feature|AUTOMATIC|Master Transmogrif ~ Effortless Change|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterTransmogrifEffortlessChange											
+5				ABILITY:Master Transmogrif Class Feature|AUTOMATIC|Master Transmogrif ~ Shapechanger|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterTransmogrifShapechanger											
+7				ABILITY:Master Transmogrif Class Feature|AUTOMATIC|Master Transmogrif ~ Reflective Change|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterTransmogrifReflectiveChange											
+8				ABILITY:Master Transmogrif Class Feature|AUTOMATIC|Master Transmogrif ~ Manifest Qualities|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterTransmogrifManifestQualities											
+10				ABILITY:Master Transmogrif Class Feature|AUTOMATIC|Master Transmogrif ~ Infinite Variety|!PREABILITY:1,CATEGORY=ACF,TYPE.MasterTransmogrifManifestVariety											
+															
+CLASS:Mindbender	HD:4	TYPE:PC.Prestige	FACT:Abb|Mnd	MAXLEVEL:10	SOURCEPAGE:CA	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")/2|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,0	FACT:ClassType|PC		DEFINE:MindbenderLVL|0	BONUS:VAR|MindbenderLVL|CL		BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseFractionalBAB,1
+CLASS:Mindbender	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:4,Bluff=4,Diplomacy=4,Intimidate=4,Sense Motive=4	PRESPELL:1,Charm Person,Invocation ~ Charm	PRESPELLTYPE:1,Arcane=4	PRESPELLCAST:TYPE=Arcane										
+CLASS:Mindbender	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Intimidate|TYPE.Knowledge|TYPE.Profession|Sense Motive|Spellcraft													
+1				ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.MindbenderProficiencies											
+1				ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Spells per Day											
+#															
+1	ADD:SPELLCASTER|Arcane														
+3	ADD:SPELLCASTER|Arcane														
+5	ADD:SPELLCASTER|Arcane														
+7	ADD:SPELLCASTER|Arcane														
+9	ADD:SPELLCASTER|Arcane														
+#															
+1				ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Telepathy|!PREABILITY:1,CATEGORY=ACF,TYPE.MindbenderTelepathy											
+2				ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Skill Boost|!PREABILITY:1,CATEGORY=ACF,TYPE.MindbenderSkillBost											
+2				ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Push the Weak Mind|!PREABILITY:1,CATEGORY=ACF,TYPE.MindbenderPushTheWeakMind											
+3				ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Mindread|!PREABILITY:1,CATEGORY=ACF,TYPE.MindbenderMindread											
+4				ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Eternal Charm|!PREABILITY:1,CATEGORY=ACF,TYPE.MindbenderEternalCharm											
+6				ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Enchantment Spellpower|!PREABILITY:1,CATEGORY=ACF,TYPE.MindbenderEnchantmentSpellpower											
+7				ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Dominate|!PREABILITY:1,CATEGORY=ACF,TYPE.MindbenderDominate											

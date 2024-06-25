@@ -1,0 +1,178 @@
+SOURCELONG:Complete Arcane	SOURCESHORT:CA	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-05																																	
+
+Animal (Dog).COPY=Animal (Dog)	KEY:Companion ~ Animal (Dog/Pseudonatural)
+Companion ~ Animal (Dog/Pseudonatural).MOD	OUTPUTNAME:Animal (Dog/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Dog)	TEMPLATE:Pseudonatural
+Animal (Owl).COPY=Animal (Owl)	KEY:Companion ~ Animal (Owl/Pseudonatural)
+Companion ~ Animal (Owl/Pseudonatural).MOD	OUTPUTNAME:Animal (Owl/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Owl)	TEMPLATE:Pseudonatural
+Giant Fire Beetle.COPY=Giant Fire Beetle	KEY:Companion ~ Giant Fire Beetle (Pseudonatural)
+Companion ~ Giant Fire Beetle (Pseudonatural).MOD	OUTPUTNAME:Giant Fire Beetle (Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Giant Fire Beetle	TEMPLATE:Pseudonatural
+Animal (Porpoise).COPY=Animal (Porpoise)	KEY:Companion ~ Animal (Porpoise/Pseudonatural)
+Companion ~ Animal (Porpoise/Pseudonatural).MOD	OUTPUTNAME:Animal (Porpoise/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Porpoise)	TEMPLATE:Pseudonatural
+Animal (Badger).COPY=Animal (Badger)	KEY:Companion ~ Animal (Badger/Pseudonatural)
+Companion ~ Animal (Badger/Pseudonatural).MOD	OUTPUTNAME:Animal (Badger/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Badger)	TEMPLATE:Pseudonatural
+Animal (Monkey).COPY=Animal (Monkey)	KEY:Companion ~ Animal (Monkey/Pseudonatural)
+Companion ~ Animal (Monkey/Pseudonatural).MOD	OUTPUTNAME:Animal (Monkey/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Monkey)	TEMPLATE:Pseudonatural
+Dire Animal (Dire Rat).COPY=Dire Animal (Dire Rat)	KEY:Companion ~ Dire Animal (Dire Rat/Pseudonatural)
+Companion ~ Dire Animal (Dire Rat/Pseudonatural).MOD	OUTPUTNAME:Dire Animal (Dire Rat/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Rat)	TEMPLATE:Pseudonatural
+Animal (Raven).COPY=Animal (Raven)	KEY:Companion ~ Animal (Raven/Pseudonatural)
+Companion ~ Animal (Raven/Pseudonatural).MOD	OUTPUTNAME:Animal (Raven/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Raven)	TEMPLATE:Pseudonatural
+Monstrous Centipede (Medium).COPY=Monstrous Centipede (Medium)	KEY:Companion ~ Monstrous Centipede (Medium/Pseudonatural)
+Companion ~ Monstrous Centipede (Medium/Pseudonatural).MOD	OUTPUTNAME:Monstrous Centipede (Medium/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Medium)	TEMPLATE:Pseudonatural
+Monstrous Scorpion (Small).COPY=Monstrous Scorpion (Small)	KEY:Companion ~ Monstrous Scorpion (Small/Pseudonatural)
+Companion ~ Monstrous Scorpion (Small/Pseudonatural).MOD	OUTPUTNAME:Monstrous Scorpion (Small/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Small)	TEMPLATE:Pseudonatural
+Animal (Hawk).COPY=Animal (Hawk)	KEY:Companion ~ Animal (Hawk/Pseudonatural)
+Companion ~ Animal (Hawk/Pseudonatural).MOD	OUTPUTNAME:Animal (Hawk/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Hawk)	TEMPLATE:Pseudonatural
+Monstrous Spider (Small).COPY=Monstrous Spider (Small)	KEY:Companion ~ Monstrous Spider (Small/Pseudonatural)
+Companion ~ Monstrous Spider (Small/Pseudonatural).MOD	OUTPUTNAME:Monstrous Spider (Small/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Small)	TEMPLATE:Pseudonatural
+Animal (Octopus).COPY=Animal (Octopus)	KEY:Companion ~ Animal (Octopus/Pseudonatural)
+Companion ~ Animal (Octopus/Pseudonatural).MOD	OUTPUTNAME:Animal (Octopus/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Octopus)	TEMPLATE:Pseudonatural
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Pseudonatural))
+Companion ~ Animal (Snake (Viper/Pseudonatural)).MOD	OUTPUTNAME:Animal (Snake (Viper/Pseudonatural))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	TEMPLATE:Pseudonatural
+
+Giant Bee.COPY=Giant Bee	KEY:Companion ~ Giant Bee (Pseudonatural)
+Companion ~ Giant Bee (Pseudonatural).MOD	OUTPUTNAME:Giant Bee (Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Giant Bee	TEMPLATE:Pseudonatural
+Giant Bombardier Beetle.COPY=Giant Bombardier Beetle	KEY:Companion ~ Giant Bombardier Beetle (Pseudonatural)
+Companion ~ Giant Bombardier Beetle (Pseudonatural).MOD	OUTPUTNAME:Giant Bombardier Beetle (Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Giant Bombardier Beetle	TEMPLATE:Pseudonatural
+Animal (Dog (Riding)).COPY=Animal (Dog (Riding))	KEY:Companion ~ Animal (Dog (Riding/Pseudonatural))
+Companion ~ Animal (Dog (Riding/Pseudonatural)).MOD	OUTPUTNAME:Animal (Dog (Riding/Pseudonatural))	TYPE:Companion	SERVESAS:RACE|Animal (Dog (Riding))	TEMPLATE:Pseudonatural
+Animal (Eagle).COPY=Animal (Eagle)	KEY:Companion ~ Animal (Eagle/Pseudonatural)
+Companion ~ Animal (Eagle/Pseudonatural).MOD	OUTPUTNAME:Animal (Eagle/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Eagle)	TEMPLATE:Pseudonatural
+Animal (Squid).COPY=Animal (Squid)	KEY:Companion ~ Animal (Squid (Pseudonatural))
+Companion ~ Animal (Squid (Pseudonatural)).MOD	OUTPUTNAME:Animal (Squid (Pseudonatural))	TYPE:Companion	SERVESAS:RACE|Animal (Squid)	TEMPLATE:Pseudonatural
+Animal (Wolf).COPY=Animal (Wolf)	KEY:Companion ~ Animal (Wolf/Pseudonatural)
+Companion ~ Animal (Wolf/Pseudonatural).MOD	OUTPUTNAME:Animal (Wolf/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Wolf)	TEMPLATE:Pseudonatural
+Monstrous Centipede (Large).COPY=Monstrous Centipede (Large)	KEY:Companion ~ Monstrous Centipede (Large/Pseudonatural)
+Companion ~ Monstrous Centipede (Large/Pseudonatural).MOD	OUTPUTNAME:Monstrous Centipede (Large/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Large)	TEMPLATE:Pseudonatural
+Monstrous Scorpion (Medium).COPY=Monstrous Scorpion (Medium)	KEY:Companion ~ Monstrous Scorpion (Medium/Pseudonatural)
+Companion ~ Monstrous Scorpion (Medium/Pseudonatural).MOD	OUTPUTNAME:Monstrous Scorpion (Medium/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Medium)	TEMPLATE:Pseudonatural
+Animal (Shark).COPY=Animal (Shark)	KEY:Companion ~ Animal (Shark (Medium/Pseudonatural))
+Companion ~ Animal (Shark (Medium/Pseudonatural)).MOD	OUTPUTNAME:Animal (Shark (Medium/Pseudonatural))	TYPE:Companion	SERVESAS:RACE|Animal (Shark)	TEMPLATE:Pseudonatural
+Monstrous Spider (Medium).COPY=Monstrous Spider (Medium)	KEY:Companion ~ Monstrous Spider (Medium/Pseudonatural)
+Companion ~ Monstrous Spider (Medium/Pseudonatural).MOD	OUTPUTNAME:Monstrous Spider (Medium/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Medium)	TEMPLATE:Pseudonatural
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Medium))
+Companion ~ Animal (Snake (Viper/Medium)).MOD	OUTPUTNAME:Snake (Viper/Medium)	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	KIT:1|Animal (Snake (Viper/Medium)) Companion
+
+Animal (Bear/Black).COPY=Animal (Bear/Black)	KEY:Companion ~ Animal (Bear/Black/Pseudonatural)
+Companion ~ Animal (Bear/Black/Pseudonatural).MOD	OUTPUTNAME:Animal (Bear/Black/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Bear/Black)	TEMPLATE:Pseudonatural
+Animal (Bison).COPY=Animal (Bison)	KEY:Companion ~ Animal (Bison/Pseudonatural)
+Companion ~ Animal (Bison/Pseudonatural).MOD	OUTPUTNAME:Animal (Bison/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Bison)	TEMPLATE:Pseudonatural
+Dire Animal (Dire Badger).COPY=Dire Animal (Dire Badger)	KEY:Companion ~ Dire Animal (Dire Badger/Pseudonatural)
+Companion ~ Dire Animal (Dire Badger/Pseudonatural).MOD	OUTPUTNAME:Dire Animal (Dire Badger/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Badger)	TEMPLATE:Pseudonatural
+Hippogriff.COPY=Hippogriff	KEY:Companion ~ Hippogriff (Pseudonatural)
+Companion ~ Hippogriff (Pseudonatural).MOD	OUTPUTNAME:Hippogriff (Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Hippogriff	TEMPLATE:Pseudonatural
+Animal (Ape).COPY=Animal (Ape)	KEY:Companion ~ Animal (Ape/Pseudonatural)
+Companion ~ Animal (Ape/Pseudonatural).MOD	OUTPUTNAME:Animal (Ape/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Ape)	TEMPLATE:Pseudonatural
+Dire Animal (Dire Weasel).COPY=Dire Animal (Dire Weasel)	KEY:Companion ~ Dire Animal (Dire Weasel/Pseudonatural)
+Companion ~ Dire Animal (Dire Weasel/Pseudonatural).MOD	OUTPUTNAME:Dire Animal (Dire Weasel/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Weasel)	TEMPLATE:Pseudonatural
+Animal (Snake (Constrictor)).COPY=Animal (Snake (Constrictor))	KEY:Companion ~ Animal (Snake (Constrictor/Pseudonatural))
+Companion ~ Animal (Snake (Constrictor/Pseudonatural)).MOD	OUTPUTNAME:Animal (Snake (Constrictor))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Constrictor))	TEMPLATE:Pseudonatural
+Animal (Boar).COPY=Animal (Boar)	KEY:Companion ~ Animal (Boar/Pseudonatural)
+Companion ~ Animal (Boar/Pseudonatural).MOD	OUTPUTNAME:Animal (Boar/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Boar)	TEMPLATE:Pseudonatural
+Dire Animal (Dire Bat).COPY=Dire Animal (Dire Bat)	KEY:Companion ~ Dire Animal (Dire Bat/Pseudonatural)
+Companion ~ Dire Animal (Dire Bat/Pseudonatural).MOD	OUTPUTNAME:Dire Animal (Dire Bat/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Bat)	TEMPLATE:Pseudonatural
+Monstrous Centipede (Huge).COPY=Monstrous Centipede (Huge)	KEY:Companion ~ Monstrous Centipede (Huge/Pseudonatural)
+Companion ~ Monstrous Centipede (Huge/Pseudonatural).MOD	OUTPUTNAME:Monstrous Centipede (Huge/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Huge)	TEMPLATE:Pseudonatural
+Animal (Crocodile).COPY=Animal (Crocodile)	KEY:Companion ~ Animal (Crocodile/Pseudonatural)
+Companion ~ Animal (Crocodile/Pseudonatural).MOD	OUTPUTNAME:Animal (Crocodile/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Crocodile)	TEMPLATE:Pseudonatural
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Large))
+Companion ~ Animal (Snake (Viper/Large)).MOD	OUTPUTNAME:Snake (Viper/Large)	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	KIT:1|Animal (Snake (Viper/Large)) Companion
+Animal (Wolverine).COPY=Animal (Wolverine)	KEY:Companion ~ Animal (Wolverine/Pseudonatural)
+Companion ~ Animal (Wolverine/Pseudonatural).MOD	OUTPUTNAME:Animal (Wolverine/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Wolverine)	TEMPLATE:Pseudonatural
+
+Owl (Giant).COPY=Owl (Giant)	KEY:Companion ~ Owl (Giant/Pseudonatural)
+Companion ~ Owl (Giant/Pseudonatural).MOD	OUTPUTNAME:Owl (Giant/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Owl (Giant)	TEMPLATE:Pseudonatural
+Eagle (Giant).COPY=Eagle (Giant)	KEY:Companion ~ Eagle (Giant/Pseudonatural)
+Companion ~ Eagle (Giant/Pseudonatural).MOD	OUTPUTNAME:Eagle (Giant/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Eagle (Giant)	TEMPLATE:Pseudonatural
+Animal (Lion).COPY=Animal (Lion)	KEY:Companion ~ Animal (Lion/Pseudonatural))
+Companion ~ Animal (Lion/Pseudonatural)).MOD	OUTPUTNAME:Lion (Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Lion)	TEMPLATE:Pseudonatural
+Dire Animal (Dire Wolf).COPY=Dire Animal (Dire Wolf)	KEY:Companion ~ Dire Animal (Dire Wolf/Pseudonatural)
+Companion ~ Dire Animal (Dire Wolf/Pseudonatural).MOD	OUTPUTNAME:Dire Animal (Dire Wolf/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Wolf)	TEMPLATE:Pseudonatural
+Giant Wasp.COPY=Giant Wasp	KEY:Companion ~ Giant Wasp (Pseudonatural)
+Companion ~ Giant Wasp (Pseudonatural).MOD	OUTPUTNAME:Giant Wasp (Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Giant Wasp	TEMPLATE:Pseudonatural
+Giant Praying Mantis.COPY=Giant Praying Mantis	KEY:Companion ~ Giant Praying Mantis (Pseudonatural)
+Companion ~ Giant Praying Mantis (Pseudonatural).MOD	OUTPUTNAME:Giant Praying Mantis (Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Giant Praying Mantis	TEMPLATE:Pseudonatural
+Animal (Shark).COPY=Animal (Shark)	KEY:Companion ~ Animal (Shark (Large))
+Companion ~ Animal (Shark (Large)).MOD	OUTPUTNAME:Animal (Shark (Large))	TYPE:Companion	SERVESAS:RACE|Animal (Shark)	KIT:1|Animal (Shark/Large) Companion
+Animal (Snake (Viper)).COPY=Animal (Snake (Viper))	KEY:Companion ~ Animal (Snake (Viper/Huge))
+Companion ~ Animal (Snake (Viper/Huge)).MOD	OUTPUTNAME:Snake (Viper/Huge)	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Viper))	KIT:1|Animal (Snake (Viper/Huge)) Companion
+
+Animal (Bear/Brown).COPY=Animal (Bear/Brown)	KEY:Companion ~ Animal (Bear/Brown/Pseudonatural)
+Companion ~ Animal (Bear/Brown/Pseudonatural).MOD	OUTPUTNAME:Animal (Bear/Brown/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Bear/Brown)	TEMPLATE:Pseudonatural
+Giant Stag Beetle.COPY=Giant Stag Beetle	KEY:Companion ~ Giant Stag Beetle (Pseudonatural)
+Companion ~ Giant Stag Beetle (Pseudonatural).MOD	OUTPUTNAME:Giant Stag Beetle (Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Giant Stag Beetle	TEMPLATE:Pseudonatural
+Sea Cat.COPY=Sea Cat	KEY:Companion ~ Sea Cat (Pseudonatural)
+Companion ~ Sea Cat (Pseudonatural).MOD	OUTPUTNAME:Sea Cat (Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Sea Cat	TEMPLATE:Pseudonatural
+Griffon.COPY=Griffon	KEY:Companion ~ Griffon (Pseudonatural)
+Companion ~ Griffon (Pseudonatural).MOD	OUTPUTNAME:Griffon (Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Griffon	TEMPLATE:Pseudonatural
+Dinosaur (Deinonychus).COPY=Dinosaur (Deinonychus	KEY:Companion ~ Dinosaur (Deinonychus/Pseudonatural)
+Companion ~ Dinosaur (Deinonychus/Pseudonatural).MOD	OUTPUTNAME:Dinosaur (Deinonychus/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Deinonychus)	TEMPLATE:Pseudonatural
+Dire Animal (Dire Ape).COPY=Dire Animal (Dire Ape)	KEY:Companion ~ Dire Animal (Dire Ape/Pseudonatural)
+Companion ~ Dire Animal (Dire Ape/Pseudonatural).MOD	OUTPUTNAME:Dire Animal (Dire Ape/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Ape)	TEMPLATE:Pseudonatural
+Dire Animal (Dire Boar).COPY=Dire Animal (Dire Boar)	KEY:Companion ~ Dire Animal (Dire Boar/Pseudonatural)
+Companion ~ Dire Animal (Dire Boar/Pseudonatural).MOD	OUTPUTNAME:Dire Animal (Dire Boar/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Boar)	TEMPLATE:Pseudonatural
+Animal (Shark).COPY=Animal (Shark)	KEY:Companion ~ Animal (Shark (Huge/Pseudonatural))
+Companion ~ Animal (Shark (Huge/Pseudonatural)).MOD	OUTPUTNAME:Animal (Shark (Huge/Pseudonatural))	TYPE:Companion	SERVESAS:RACE|Animal (Shark)	TEMPLATE:Pseudonatural	KIT:1|Animal (Shark/Huge) Companion
+Monstrous Scorpion (Large).COPY=Monstrous Scorpion (Large)	KEY:Companion ~ Monstrous Scorpion (Large/Pseudonatural)
+Companion ~ Monstrous Scorpion (Large/Pseudonatural).MOD	OUTPUTNAME:Monstrous Scorpion (Large/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Large)	TEMPLATE:Pseudonatural
+Dire Animal (Dire Wolverine).COPY=Dire Animal (Dire Wolverine)	KEY:Companion ~ Dire Animal (Dire Wolverine/Pseudonatural)
+Companion ~ Dire Animal (Dire Wolverine/Pseudonatural).MOD	OUTPUTNAME:Dire Animal (Dire Wolverine/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Wolverine)	TEMPLATE:Pseudonatural
+Animal (Crocodile (Giant)).COPY=Animal (Crocodile (Giant))	KEY:Companion ~ Animal (Crocodile (Giant/Pseudonatural))
+Companion ~ Animal (Crocodile (Giant/Pseudonatural)).MOD	OUTPUTNAME:Animal (Crocodile (Giant/Pseudonatural))	TYPE:Companion	SERVESAS:RACE|Animal (Crocodile (Giant))	TEMPLATE:Pseudonatural
+Animal (Tiger).COPY=Animal (Tiger)	KEY:Companion ~ Animal (Tiger/Pseudonatural)
+Companion ~ Animal (Tiger/Pseudonatural).MOD	OUTPUTNAME:Animal (Tiger/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Tiger)	TEMPLATE:Pseudonatural
+
+Animal (Bear/Polar).COPY=Animal (Bear/Polar)	KEY:Companion ~ Animal (Bear/Polar/Pseudonatural)
+Companion ~ Animal (Bear/Polar/Pseudonatural).MOD	OUTPUTNAME:Animal (Bear/Polar/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Bear/Polar)	TEMPLATE:Pseudonatural
+Animal (Whale (Orca)).COPY=Animal (Whale (Orca))	KEY:Companion ~ Animal (Whale (Orca/Pseudonatural))
+Companion ~ Animal (Whale (Orca/Pseudonatural)).MOD	OUTPUTNAME:Animal (Whale (Orca/Pseudonatural))	TYPE:Companion	SERVESAS:RACE|Animal (Whale (Orca))	TEMPLATE:Pseudonatural
+Dire Animal (Dire Lion).COPY=Dire Animal (Dire Lion)	KEY:Companion ~ Dire Animal (Dire Lion/Pseudonatural)
+Companion ~ Dire Animal (Dire Lion/Pseudonatural).MOD	OUTPUTNAME:Dire Animal (Dire Lion/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Lion)	TEMPLATE:Pseudonatural
+Monstrous Centipede (Gargantuan).COPY=Monstrous Centipede (Gargantuan)	KEY:Companion ~ Monstrous Centipede (Gargantuan/Pseudonatural)
+Companion ~ Monstrous Centipede (Gargantuan/Pseudonatural).MOD	OUTPUTNAME:Monstrous Centipede (Gargantuan/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Gargantuan)	TEMPLATE:Pseudonatural
+Animal (Rhinoceros).COPY=Animal (Rhinoceros)	KEY:Companion ~ Animal (Rhinoceros/Pseudonatural)
+Companion ~ Animal (Rhinoceros/Pseudonatural).MOD	OUTPUTNAME:Animal (Rhinoceros/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Rhinoceros)	TEMPLATE:Pseudonatural
+Dinosaur (Elasmosaurus).COPY=Dinosaur (Elasmosaurus	KEY:Companion ~ Dinosaur (Elasmosaurus/Pseudonatural)
+Companion ~ Dinosaur (Elasmosaurus/Pseudonatural).MOD	OUTPUTNAME:Dinosaur (Elasmosaurus/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Elasmosaurus)	TEMPLATE:Pseudonatural
+Monstrous Spider (Huge).COPY=Monstrous Spider (Huge)	KEY:Companion ~ Monstrous Spider (Huge/Pseudonatural)
+Companion ~ Monstrous Spider (Huge/Pseudonatural).MOD	OUTPUTNAME:Monstrous Spider (Huge/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Huge)	TEMPLATE:Pseudonatural
+Animal (Snake (Constrictor)).COPY=Animal (Snake (Constrictor))	KEY:Companion ~ Animal (Snake (Constrictor/Giant/Pseudonatural))
+Companion ~ Animal (Snake (Constrictor/Giant/Pseudonatural)).MOD	OUTPUTNAME:Animal (Snake (Constrictor/Giant/Pseudonatural))	TYPE:Companion	SERVESAS:RACE|Animal (Snake (Constrictor))	KIT:1|Animal (Snake (Constrictor/Giant)) Companion	TEMPLATE:Pseudonatural
+
+Animal (Elephant).COPY=Animal (Elephant)	KEY:Companion ~ Animal (Elephant/Pseudonatural)
+Companion ~ Animal (Elephant/Pseudonatural).MOD	OUTPUTNAME:Animal (Elephant/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Animal (Elephant)	TEMPLATE:Pseudonatural
+Animal (Whale (Baleen)).COPY=Animal (Whale (Baleen))	KEY:Companion ~ Animal (Whale (Baleen/Pseudonatural))
+Companion ~ Animal (Whale (Baleen/Pseudonatural)).MOD	OUTPUTNAME:Animal (Whale (Baleen/Pseudonatural))	TYPE:Companion	SERVESAS:RACE|Animal (Whale (Baleen))	TEMPLATE:Pseudonatural
+Dinosaur (Megaraptor).COPY=Dinosaur (Megaraptor)	KEY:Companion ~ Dinosaur (Megaraptor/Pseudonatural)
+Companion ~ Dinosaur (Megaraptor/Pseudonatural).MOD	OUTPUTNAME:Dinosaur (Megaraptor/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Megaraptor)	TEMPLATE:Pseudonatural
+Monstrous Scorpion (Huge).COPY=Monstrous Scorpion (Huge)	KEY:Companion ~ Monstrous Scorpion (Huge/Pseudonatural)
+Companion ~ Monstrous Scorpion (Huge/Pseudonatural).MOD	OUTPUTNAME:Monstrous Scorpion (Huge/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Huge)	TEMPLATE:Pseudonatural
+Animal (Octopus (Giant)).COPY=Animal (Octopus (Giant/Pseudonatural))	KEY:Companion ~ Animal (Octopus (Giant/Pseudonatural))
+Companion ~ Animal (Octopus (Giant/Pseudonatural)).MOD	OUTPUTNAME:Animal (Octopus (Giant/Pseudonatural))	TYPE:Companion	SERVESAS:RACE|Animal (Octopus (Giant))	TEMPLATE:Pseudonatural
+Girallon.COPY=Girallon	KEY:Companion ~ Girallon (Pseudonatural)
+Companion ~ Girallon (Pseudonatural).MOD	OUTPUTNAME:Girallon (Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Girallon	TEMPLATE:Pseudonatural
+
+Dire Animal (Dire Bear).COPY=Dire Animal (Dire Bear)	KEY:Companion ~ Dire Animal (Dire Bear/Pseudonatural)
+Companion ~ Dire Animal (Dire Bear/Pseudonatural).MOD	OUTPUTNAME:Dire Animal (Dire Bear/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Bear)	TEMPLATE:Pseudonatural
+Animal (Whale (Cachalot)).COPY=Animal (Whale (Cachalot))	KEY:Companion ~ Animal (Whale (Cachalot/Pseudonatural))
+Companion ~ Animal (Whale (Cachalot/Pseudonatural)).MOD	OUTPUTNAME:Animal (Whale (Cachalot/Pseudonatural))	TYPE:Companion	SERVESAS:RACE|Animal (Whale (Cachalot))	TEMPLATE:Pseudonatural
+Dinosaur (Triceratops).COPY=Dinosaur (Triceratops)	KEY:Companion ~ Dinosaur (Triceratops/Pseudonatural)
+Companion ~ Dinosaur (Triceratops/Pseudonatural).MOD	OUTPUTNAME:Dinosaur (Triceratops/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Triceratops)	TEMPLATE:Pseudonatural
+Animal (Squid).COPY=Animal (Squid)	KEY:Companion ~ Animal (Squid (Giant/Pseudonatural))
+Companion ~ Animal (Squid (Giant/Pseudonatural)).MOD	OUTPUTNAME:Animal (Squid (Giant/Pseudonatural))	TYPE:Companion	SERVESAS:RACE|Animal (Squid)	KIT:1|Animal (Squid (Giant)) Companion	TEMPLATE:Pseudonatural	
+Monstrous Centipede (Colossal).COPY=Monstrous Centipede (Colossal)	KEY:Companion ~ Monstrous Centipede (Colossal/Pseudonatural)
+Companion ~ Monstrous Centipede (Colossal/Pseudonatural).MOD	OUTPUTNAME:Monstrous Centipede (Colossal/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Monstrous Centipede (Colossal)	TEMPLATE:Pseudonatural
+Dire Animal (Dire Tiger).COPY=Dire Animal (Dire Tiger)	KEY:Companion ~ Dire Animal (Dire Tiger/Pseudonatural)
+Companion ~ Dire Animal (Dire Tiger/Pseudonatural).MOD	OUTPUTNAME:Dire Animal (Dire Tiger/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Tiger)	TEMPLATE:Pseudonatural
+Monstrous Spider (Gargantuan).COPY=Monstrous Spider (Gargantuan)	KEY:Companion ~ Monstrous Spider (Gargantuan/Pseudonatural)
+Companion ~ Monstrous Spider (Gargantuan/Pseudonatural).MOD	OUTPUTNAME:Monstrous Spider (Gargantuan/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Gargantuan)	TEMPLATE:Pseudonatural
+Dinosaur (Tyrannosaurus).COPY=Dinosaur (Tyrannosaurus)	KEY:Companion ~ Dinosaur (Tyrannosaurus/Pseudonatural)
+Companion ~ Dinosaur (Tyrannosaurus/Pseudonatural).MOD	OUTPUTNAME:Dinosaur (Tyrannosaurus/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Dinosaur (Tyrannosaurus)	TEMPLATE:Pseudonatural
+
+Roc.COPY=Roc	KEY:Companion ~ Roc (Pseudonatural)
+Companion ~ Roc (Pseudonatural).MOD	OUTPUTNAME:Roc (Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Roc	TEMPLATE:Pseudonatural
+Dire Animal (Dire Shark).COPY=Dire Animal (Dire Shark)	KEY:Companion ~ Dire Animal (Dire Shark/Pseudonatural)
+Companion ~ Dire Animal (Dire Shark/Pseudonatural).MOD	OUTPUTNAME:Dire Animal (Dire Shark/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Dire Animal (Dire Shark)	TEMPLATE:Pseudonatural
+Monstrous Scorpion (Gargantuan).COPY=Monstrous Scorpion (Gargantuan)	KEY:Companion ~ Monstrous Scorpion (Gargantuan/Pseudonatural)
+Companion ~ Monstrous Scorpion (Gargantuan/Pseudonatural).MOD	OUTPUTNAME:Monstrous Scorpion (Gargantuan/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Monstrous Scorpion (Gargantuan)	TEMPLATE:Pseudonatural
+Monstrous Spider (Colossal).COPY=Monstrous Spider (Colossal)	KEY:Companion ~ Monstrous Spider (Colossal/Pseudonatural)
+Companion ~ Monstrous Spider (Colossal/Pseudonatural).MOD	OUTPUTNAME:Monstrous Spider (Colossal/Pseudonatural)	TYPE:Companion	SERVESAS:RACE|Monstrous Spider (Colossal)	TEMPLATE:Pseudonatural

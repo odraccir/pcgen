@@ -1,0 +1,18 @@
+SOURCELONG:Complete Arcane	SOURCESHORT:CA	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-05
+
+###Block: Standard Companions										
+FOLLOWER:PseudonaturalFamiliar=1	TYPE:Familiar	TEMPLATE:Pseudonatural
+
+FOLLOWER:HomunculusLVL=1	TYPE:Homunculus	HD:1
+FOLLOWER:HomunculusLVL=2	TYPE:Homunculus	HD:1
+FOLLOWER:HomunculusLVL=3	TYPE:Homunculus	HD:1
+FOLLOWER:HomunculusLVL=4	TYPE:Homunculus	HD:1
+FOLLOWER:HomunculusLVL=5	TYPE:Homunculus	HD:1
+
+MASTERBONUSRACE:Homunculus	TYPE:Homunculus																											
+
+FOLLOWER:EffigyLVL=1	TYPE:Effigy	HD:1	TEMPLATE:Effigy
+FOLLOWER:EffigyLVL=2	TYPE:Effigy	HD:1
+FOLLOWER:EffigyLVL=3	TYPE:Effigy	HD:1	BONUS:COMBAT|TOHIT|2|TYPE=Competence	BONUS:COMBAT|DAMAGE|2|TYPE=Competence	BONUS:SAVE|ALL|2|TYPE=Competence
+FOLLOWER:EffigyLVL=4	TYPE:Effigy	HD:1
+FOLLOWER:EffigyLVL=5	TYPE:Effigy	HD:1

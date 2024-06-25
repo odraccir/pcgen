@@ -1,0 +1,8 @@
+SOURCELONG:Complete Arcane	SOURCESHORT:CA	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-05																																	
+
+Summon Monster I.COPY=Summon Monster I	KEY:Summon Monster ~ Babau
+Summon Monster ~ Babau.MOD	OUTPUTNAME:Summon Fiend	TYPE:SpellLike	DURATION:1 Hour.	DESC:Summon only a Babau.
+Summon Monster I.COPY=Summon Monster I	KEY:Summon Monster ~ Chain Devil
+Summon Monster ~ Chain Devil.MOD	OUTPUTNAME:Summon Fiend	TYPE:SpellLike	DURATION:1 Hour.	DESC:Summon only a Chain Devil.
+Summon Monster I.COPY=Summon Monster I	KEY:Summon Monster ~ Mezzoloth
+Summon Monster ~ Mezzoloth.MOD	OUTPUTNAME:Summon Fiend	TYPE:SpellLike	DURATION:1 Hour.	DESC:Summon only a Mezzoloth.

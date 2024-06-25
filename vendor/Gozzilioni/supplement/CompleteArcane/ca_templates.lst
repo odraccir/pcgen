@@ -1,0 +1,22 @@
+SOURCELONG:Complete Arcane	SOURCESHORT:CA	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2004-05																																	
+
+Warlock	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Warlock=1
+Warmage	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Warmage=1
+Wu Jen	VISIBLE:NO	TYPE:BaseClass	REMOVABLE:NO	PRECLASS:1,Wu Jen=1
+
+Languages	KEY:Wu Jen ~ Bonus Languages	VISIBLE:NO	LANGBONUS:Draconic,Giant
+
+Acolyte of the Skin ~ Fiendish Symbiosis	TYPE:Hidden	VISIBLE:DISPLAY	RACETYPE:Outsider	DR:10/Good	
+
+Timeless Body	KEY:Alienist ~ Timeless Body	PRECLASS:1,Alienist=9	VISIBLE:NO	TEMPLATE:CHOOSE:Timeless Body ~ Adult|Timeless Body ~ Middle Age|Timeless Body ~ Old|Timeless Body ~ Venerable
+
+Alienist ~ Alien Trancendence	VISIBLE:NO	RACETYPE:Outsider	DR:10/Magic	BONUS:VAR|AcidResistanceBonus,ElectricityResistanceBonus|10|TYPE=Resistance	ABILITY:Special Ability|AUTOMATIC|Resistance to Acid|Resistance to Electricity	BONUS:SKILL|Disguise|-10	
+Elemental Savant ~ Elemental Perfection	VISIBLE:NO	RACETYPE:Elemental	ABILITY:Special Ability|AUTOMATIC|Immunity to Stunning
+
+Green Star Adept ~ Natural Attack	VISIBLE:NO	TEMPLATE:CHOOSE:Green Star Adept ~ Natural Attack ~ Small|Green Star Adept ~ Natural Attack ~ Medium|Green Star Adept ~ Natural Attack ~ Large
+Green Star Adept ~ Natural Attack ~ Small	VISIBLE:NO	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d4
+Green Star Adept ~ Natural Attack ~ Medium	VISIBLE:NO	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d6
+Green Star Adept ~ Natural Attack ~ Large	VISIBLE:NO	NATURALATTACKS:Slam,Weapon.Natural.Finesseable.Melee.Bludgeoning,*1,1d8
+Green Star Adept ~ Emerald Perfection	VISIBLE:NO	RACETYPE:Construct	DEFINESTAT:CON|10	
+
+Master Transmogrif ~ Shapechanger	VISIBLE:NO	RACESUBTYPE:Shapechanger

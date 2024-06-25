@@ -1,0 +1,55 @@
+###Block: New Racial Trait Blocks
+# Ability Category					Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object						Specific choices list									Plural description for UI		Display Location
+
+# Subrace Support
+
+#Abilitygroup:Class Ability categories																						
+ABILITYCATEGORY:Warlock Class Feature	CATEGORY:Special Ability	TYPE:WarlockClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Warlock Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Warmage Class Feature	CATEGORY:Special Ability	TYPE:WarmageClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Warmage Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Wu Jen Class Feature	CATEGORY:Special Ability	TYPE:WuJenClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Wu Jen Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Acolyte of the Skin Class Feature	CATEGORY:Special Ability	TYPE:AcolyteOfTheSkinClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Acolyte of the Skin Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Alienist Class Feature	CATEGORY:Special Ability	TYPE:AlienistClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Alienist Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Argent Savage Class Feature	CATEGORY:Special Ability	TYPE:ArgentSavantClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Argent Savant Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Blood Magus Class Feature	CATEGORY:Special Ability	TYPE:BloodMagusClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Blood Magus Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Effigy Master Class Feature	CATEGORY:Special Ability	TYPE:EffigyMasterClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Effigy Master Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Elemental Savant Class Feature	CATEGORY:Special Ability	TYPE:ElementalSavantClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Elemental Savant Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Enlightened Fist Class Feature	CATEGORY:Special Ability	TYPE:EnlightenedFistClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Enlightened Fist Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Fatespinner Class Feature	CATEGORY:Special Ability	TYPE:FatespinnerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Fatespinner Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Geometer Class Feature	CATEGORY:Special Ability	TYPE:GeometerClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Geometer Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Green Star Adept Class Feature	CATEGORY:Special Ability	TYPE:GreenStarAdeptClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Green Star Adept Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Initiate of the Sevenfold Veil Class Feature	CATEGORY:Special Ability	TYPE:InitiateOfTheSevenfoldVeilClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Initiate of the Sevenfold Veil Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Mage of the Arcane Order Class Feature	CATEGORY:Special Ability	TYPE:MageOfTheArcaneOrderClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Mage of the Arcane Order Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Master Transmogrif Class Feature	CATEGORY:Special Ability	TYPE:MasterTransmogrifClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Master Transmogrif Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Mindbender Class Feature	CATEGORY:Special Ability	TYPE:MindbenderClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Mindbender Class Features			DISPLAYLOCATION:Class Features
+
+#Other Abilitygroups
+ABILITYCATEGORY:Warlock Invocation	CATEGORY:Special Ability	TYPE:WarlockInvocation	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Warlock Invocations				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Warlock Energy Resistance	CATEGORY:Special Ability	TYPE:WarlockEnergyResistance	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Warlock Energy Resistances				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Warlock Least Invocation	CATEGORY:Special Ability	TYPE:WarlockLeastInvocation	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Least Invocations				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Warlock Lesser Invocation	CATEGORY:Special Ability	TYPE:WarlockLesserInvocation	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Lesser Invocations				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Warlock Greater Invocation	CATEGORY:Special Ability	TYPE:WarlockGreaterInvocation	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Greater Invocations				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Warlock Dark Invocation	CATEGORY:Special Ability	TYPE:WarlockDarkInvocation	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Dark Invocations				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Warmage Advanced Learning	CATEGORY:Special Ability	TYPE:WarmageAdvancedLearning	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Warmage Advanced Learning				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Warmage Sudden Empower	CATEGORY:Special Ability	TYPE:WarmageSuddenEmpower	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Warmage Sudden Empower				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Warmage Sudden Enlarge	CATEGORY:Special Ability	TYPE:WarmageSuddenEnlarge	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Warmage Sudden Enlarge				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Warmage Sudden Widen	CATEGORY:Special Ability	TYPE:WarmageSuddenWiden	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Warmage Sudden Widen				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Warmage Sudden Maximize	CATEGORY:Special Ability	TYPE:WarmageSuddenMaximize	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Warmage Sudden Maximize				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Wu Jen Spell Secret	CATEGORY:Special Ability	TYPE:WuJenSpellSecret	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Wu Jen Spell Secret				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Wu Jen Elemental Mastery	CATEGORY:Special Ability	TYPE:WuJenElementalMastery	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Wu Jen Elemental Mastery				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Wu Jen Taboo	CATEGORY:Special Ability	TYPE:WuJenTaboo	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Wu Jen Taboo				DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Acolyte of the Skin Wear Fiend	CATEGORY:Special Ability	TYPE:AcolyteOfTheSkinWearFiend	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Wu Jen Elemental Mastery				DISPLAYLOCATION:Class Features
+
+#Feats Ability pools
+# ABILITYCATEGORY:Hexblade Feat	CATEGORY:FEAT	TYPE:Hexblade	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Hexblade Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Warmage Metamagic	CATEGORY:FEAT	TYPE:Warmage.Metamagic	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Warmage Metamagic				DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Wu Jen Metamagic	CATEGORY:FEAT	TYPE:WuJen.Metamagic	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Wu Jen Metamagic				DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Alienist Metamagic	CATEGORY:FEAT	TYPE:Alienist.Metamagic	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Alienist Metamagic				DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Mage of the Arcane Order Metamagic	CATEGORY:FEAT	TYPE:MageOfTheArcaneOrder.Metamagic	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Alienist Metamagic				DISPLAYLOCATION:Feats
+
+#Companion Support
+ABILITYCATEGORY:Homunculus Companion Selection	CATEGORY:Internal	TYPE:HomunculusCompanionSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Homunculus Companion Choice			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Effigy Companion Selection	CATEGORY:Internal	TYPE:EffigyCompanionSelection	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Effigy Companion Choice			DISPLAYLOCATION:Class Features
+
+#
+# End
+#

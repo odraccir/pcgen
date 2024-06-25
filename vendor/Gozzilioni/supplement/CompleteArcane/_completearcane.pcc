@@ -1,0 +1,95 @@
+CAMPAIGN:Complete Arcane
+GAMEMODE:G35e
+RANK:3
+TYPE:Gozzilioni.Partial.Supplement
+SETTING:Heroes
+BOOKTYPE:Supplement
+SOURCELONG:Complete Arcane
+SOURCESHORT:CA
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2004-11
+ISOGL:NO
+COPYRIGHT:My Campaign, Copyright 2015 by me
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+
+PRECAMPAIGN:4,Core Ruleset,Player's Handbook,Monster Manual,Dungeon Master's Guide
+
+# ABILITY:ca_abilities.lst
+# ABILITY:ca_abilities_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
+ABILITY:ca_abilities_classes.lst
+# ABILITY:ca_abilities_classes_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
+# ABILITY:ca_abilities_classes_BoVD.lst|PRECAMPAIGN:1,Book of Vile Darkness
+# ABILITY:ca_abilities_classes_EPH.lst|PRECAMPAIGN:1,Expanded Psionics Handbook
+# ABILITY:ca_abilities_FRCS.lst|PRECAMPAIGN:1,Forgotten Realms Campaign Setting 3.0
+# ABILITY:ca_abilities_guilds.lst
+# ABILITY:ca_abilities_races.lst
+# ABILITY:ca_abilities_racetraits.lst
+# ABILITY:ca_abilities_regions.lst
+# ABILITY:ca_abilities_templates.lst
+ABILITYCATEGORY:ca_abilitycategories.lst
+# BIOSET:ca_biosettings.lst
+CLASS:ca_classes.lst
+# CLASS:ca_classes_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
+# CLASS:ca_classes_BoVD.lst|PRECAMPAIGN:1,Book of Vile Darkness
+# CLASS:ca_classes_EPH.lst|PRECAMPAIGN:1,Expanded Psionics Handbook
+# COMPANIONMOD:ca_companionmods.lst
+# DEITY:ca_deities.lst
+# DEITY:ca_deities_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
+# DEITY:ca_deities_BoVD.lst|PRECAMPAIGN:1,Book of Vile Darkness
+# DOMAIN:ca_domains.lst
+# EQUIPMENT:ca_equip.lst
+# EQUIPMENT:ca_equip_armors.lst
+# EQUIPMENT:ca_equip_armors_specific.lst
+# EQUIPMENT:ca_equip_magic_items.lst
+# EQUIPMENT:ca_equip_weapons.lst
+# EQUIPMENT:ca_equip_weapons_natural.lst
+# EQUIPMENT:ca_equip_weapons_specific.lst
+# EQUIPMENT:ca_equip_weapons_natural.lst
+# EQUIPMOD:ca_equipmods.lst
+# EQUIPMOD:ca_equipmods_MoF.lst|PRECAMPAIGN:1,Magic of Faerun 3.0
+# ABILITY:ca_feats.lst
+# ABILITY:ca_feats_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
+# ABILITY:ca_feats_BoVD.lst|PRECAMPAIGN:1,Book of Vile Darkness
+# ABILITY:ca_feats_regions.lst
+# KIT:ca_kits.lst
+# KIT:ca_kits_regions.lst
+# LANGUAGE:ca_languages.lst
+# ARMORPROF:ca_profs_armor.lst
+# WEAPONPROF:ca_profs_weapon.lst
+# RACE:ca_races.lst
+# RACE:ca_races_companion.lst
+# SKILL:ca_skills.lst
+# SKILL:ca_skills_regions.lst
+# SPELL:ca_spells.lst
+# SPELL:ca_spells_BoED.lst|PRECAMPAIGN:1,Book of Exalted Deeds
+# SPELL:ca_spells_specific.lst
+# ABILITY:ca_subraces.lst
+# TEMPLATE:ca_templates.lst
+# TEMPLATE:ca_templates_regions.lst
+
+# FORWARDREF:EQUIPMENT|Longbow (Aquatic)
+###Unapproachable East
+# FORWARDREF:RACE|Spirit Folk,Volodni
+###Underdark
+# FORWARDREF:SPELL|Clarity of Mind,Contagious Fog,Dehydrate,Drown (Mass),Mark of the Outcast
+# FORWARDREF:SPELL|Rushing Waters,Sanctuary (Mass),Weighed in the Balance,Word of Balance
+
+# FORWARDREF:EQMOD|BOOK_WATER_PRF,BOOK_FIREPRF,BOOK_LOCK
+
+# HIDETYPE:FEAT|DivineChampion,ShadowThiefOfAmn,SpellfireHierophant
+
+# ENTRY DATE: 2016-07
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:
+
+# MINDEVVER:6.04.1
+# COMMENTS:
