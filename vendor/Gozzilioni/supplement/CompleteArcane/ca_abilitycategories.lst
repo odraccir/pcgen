@@ -21,6 +21,7 @@ ABILITYCATEGORY:Initiate of the Sevenfold Veil Class Feature	CATEGORY:Special Ab
 ABILITYCATEGORY:Mage of the Arcane Order Class Feature	CATEGORY:Special Ability	TYPE:MageOfTheArcaneOrderClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Mage of the Arcane Order Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Master Transmogrif Class Feature	CATEGORY:Special Ability	TYPE:MasterTransmogrifClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Master Transmogrif Class Features			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Mindbender Class Feature	CATEGORY:Special Ability	TYPE:MindbenderClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Mindbender Class Features			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Seeker of the Song Class Feature	CATEGORY:Special Ability	TYPE:SeekerOfTheSongClassFeatures	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO	FRACTIONALPOOL:NO												PLURAL:Seeker of the Song Class Features			DISPLAYLOCATION:Class Features
 
 #Other Abilitygroups
 ABILITYCATEGORY:Warlock Invocation	CATEGORY:Special Ability	TYPE:WarlockInvocation	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO												PLURAL:Warlock Invocations				DISPLAYLOCATION:Class Features
