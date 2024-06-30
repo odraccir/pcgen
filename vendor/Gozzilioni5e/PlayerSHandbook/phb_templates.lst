@@ -1,0 +1,30 @@
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2014-08
+
+Subrace ~ Hill Dwarf	VISIBLE:NO	SUBRACE:Hill
+Subrace ~ Mountain Dwarf	VISIBLE:NO	SUBRACE:Mountain
+Subrace ~ Gray Dwarf	VISIBLE:NO	SUBRACE:Gray
+Subrace ~ High Elf	VISIBLE:NO	SUBRACE:High
+Subrace ~ Wood Elf	VISIBLE:NO	SUBRACE:Wood
+Subrace ~ Drow Elf	VISIBLE:NO	SUBRACE:Drow
+Subrace ~ Lightfoot Halfling	VISIBLE:NO	SUBRACE:Lightfoot
+Subrace ~ Stout Halfling	VISIBLE:NO	SUBRACE:Stout
+Subrace ~ Calishite Human	VISIBLE:NO	SUBRACE:Calishite
+
+# Determines First Level Class and Benefits for Class.
+# Template Name	Template
+First Level		VISIBLE:NO	TEMPLATE:CHOOSE:TYPE=FirstLevel	DEFINE:AllClassLvl|0
+
+###Block: First Level Base Classes
+# Template Name			Required Class		Bonus Ability Pool				Modify VAR									Ability																																																	Type
+Barbarian	TYPE:FirstLevel	VISIBLE:NO	PRECLASS:1,Barbarian=1	BONUS:VAR|AllClassLvl|BarbarianLVL
+Bard	TYPE:FirstLevel	VISIBLE:NO	PRECLASS:1,Bard=1	BONUS:VAR|AllClassLvl|BardLVL
+Cleric	TYPE:FirstLevel	VISIBLE:NO	PRECLASS:1,Cleric=1	BONUS:VAR|AllClassLvl|ClericLVL
+Druid	TYPE:FirstLevel	VISIBLE:NO	PRECLASS:1,Druid=1	BONUS:VAR|AllClassLvl|DruidLVL
+Fighter	TYPE:FirstLevel	VISIBLE:NO	PRECLASS:1,Fighter=1	BONUS:VAR|AllClassLvl|FighterLVL
+Monk	TYPE:FirstLevel	VISIBLE:NO	PRECLASS:1,Monk=1	BONUS:VAR|AllClassLvl|MonkLVL
+Paladin	TYPE:FirstLevel	VISIBLE:NO	PRECLASS:1,Paladin=1	BONUS:VAR|AllClassLvl|PaladinLVL
+Ranger	TYPE:FirstLevel	VISIBLE:NO	PRECLASS:1,Ranger=1	BONUS:VAR|AllClassLvl|RangerLVL
+Rogue	TYPE:FirstLevel	VISIBLE:NO	PRECLASS:1,Rogue=1	BONUS:VAR|AllClassLvl|RogueLVL
+Sorcerer	TYPE:FirstLevel	VISIBLE:NO	PRECLASS:1,Sorcerer=1	BONUS:VAR|AllClassLvl|SorcererLVL
+Warlock	TYPE:FirstLevel	VISIBLE:NO	PRECLASS:1,Warlock=1	BONUS:VAR|AllClassLvl|WarlockLVL
+Wizard	TYPE:FirstLevel	VISIBLE:NO	PRECLASS:1,Wizard=1	BONUS:VAR|AllClassLvl|WizardLVL

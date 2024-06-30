@@ -1,0 +1,7 @@
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net																															
+																																	
+# Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	TYPE:	RACETYPE:	RACESUBTYPE:	MONSTERCLASS:	MOVE:	Combat bonus	NATURALATTACKS:	NATURALATTACKS:	Weapon prof. bonus	Weapon prof. bonus	FACE:	REACH:	Special Ability	Damage Reduction	Spell Res.	Stat bonus						MONCSKILL:	CR:	Required AL	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	Nb Legs	Nb Hands	SOURCEPAGE:
+Dwarf				SIZE:M	TYPE:Humanoid	RACETYPE:Humanoid	RACESUBTYPE:Dwarf		MOVE:Walk,25								ABILITY:Race|AUTOMATIC|Dwarf					BONUS:STAT|CON|2|TYPE=Racial									LEGS:2	HANDS:2	SOURCEPAGE:PHB
+Elf				SIZE:M	TYPE:Humanoid	RACETYPE:Humanoid	RACESUBTYPE:Elf		MOVE:Walk,30								ABILITY:Race|AUTOMATIC|Elf				BONUS:STAT|DEX|2|TYPE=Racial										LEGS:2	HANDS:2	SOURCEPAGE:PHB
+Halfling				SIZE:S	TYPE:Humanoid	RACETYPE:Humanoid	RACESUBTYPE:Halfling		MOVE:Walk,25								ABILITY:Race|AUTOMATIC|Halfling				BONUS:STAT|DEX|2|TYPE=Racial										LEGS:2	HANDS:2	SOURCEPAGE:PHB
+Human				SIZE:M	TYPE:Humanoid	RACETYPE:Humanoid	RACESUBTYPE:Human		MOVE:Walk,30								ABILITY:Race|AUTOMATIC|Human														LEGS:2	HANDS:2	SOURCEPAGE:PHB
