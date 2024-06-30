@@ -20,7 +20,7 @@
 
 use 5.008_001;				# Perl 5.8.1 or better is now mandantory
 use strict;
- use warnings;
+use warnings;
 use Fatal qw( open close );		# Force some built-ins to die on error
 use English qw( -no_match_vars );	# No more funky punctuation variables
 
@@ -498,6 +498,7 @@ if ( $cl_options{convert} ) {
 		$conversion_enable{'Missing spell DC'} = 1;
 		$conversion_enable{'System pcc in data'} = 1;
 		$conversion_enable{'BIOSET:generate the new files'} = 1;
+		$conversion_enable{'SOURCE line replacement'} = 1;
 	}
 		else {
 			$error_message .= "\nUnknown convertion option: $cl_options{convert}\n";
@@ -583,7 +584,7 @@ if ($cl_options{output_error}) {
 # List of default for values defined in system files
 my @valid_system_alignments  = qw( LG  LN  LE  NG  TN  NE  CG  CN  CE  NONE  Deity );
 
-my @valid_system_check_names = qw( Fortitude Reflex Will );
+my @valid_system_check_names = qw( Fortitude Reflex Will Strength Dexterity Constitution Intelligence Wisdom Charisma);
 
 
 my @valid_system_game_modes  = do { no warnings 'qw'; qw(
@@ -627,6 +628,7 @@ my @valid_system_game_modes  = do { no warnings 'qw'; qw(
 	SovereignStoneD20
 # Gozzilioni
 	G35e
+	G5e
 
 ); };
 
@@ -719,6 +721,7 @@ my %valid_game_modes = map { $_ => 1 } (
 	'Traveller20',
 	'Starfinder',
 	'G35e',
+	'G5e',
 
 );
 
@@ -5222,7 +5225,7 @@ if ($cl_options{input_path}) {
 		# Needed to find the full path
 		my $currentbasedir = File::Basename::dirname($pcc_file_name);
 
-		my $must_write		= NO;
+		my $must_write		= YES;
 		my $BOOKTYPE_found	= NO;
 		my $GAMEMODE_found	= q{};		# For the PCC export list
 		my $SOURCELONG_found	= q{};		#
@@ -5520,7 +5523,7 @@ if ($cl_options{input_path}) {
 			my $new_pcc_file = $pcc_file_name;
 			$new_pcc_file =~ s/$cl_options{input_path}/$cl_options{output_path}/i;
 
-			# print qq{Not written $new_pcc_file \n};
+			print qq{Not written $new_pcc_file \n};
 			if (!$cl_options{output_path} ) {
 				$logging->ewarn( DEBUG, qq{Not written because of output_path option $cl_options{output_path}}, $pcc_file_name );
 			}

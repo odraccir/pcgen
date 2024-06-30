@@ -41,12 +41,11 @@ pcgen_low_mem.bat
 pcgen-batch-convert.jar
 pcgen-convert_hi_mem.bat
 release
-
 !system/gameModes/35e/**
 !data/35e/wizards_of_the_coast/**
 !system/gameModes/G35e/**
+!system/gameModes/G5e/**
 !vendor/**
-
 #system/gameModes/35e/**
 #system/gameModes/Darwins_World_2/**
 #system/gameModes/default/**
