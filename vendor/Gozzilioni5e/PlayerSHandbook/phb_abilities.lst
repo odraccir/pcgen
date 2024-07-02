@@ -34,7 +34,6 @@ Choose Language	CATEGORY:Language		TYPE:Language.Spoken.Choice	MULT:YES	CHOOSE:U
 #		Proficiencies			#
 #-----------------------------------------#
 
-
 # Handles the Proficiency Bonus for Classes, to avoid the inherent overlap PCGen will allow if the tag is not an exact match.
 ###Block: Weapon Proficiency Bonus
 # Ability Name		Category of Ability	Type							Auto Weapon Prof					Weapon prof. bonus
@@ -247,3 +246,33 @@ Shield Proficiency		KEY:Shield Proficiency			CATEGORY:Internal		TYPE:ShieldProf	
 #Equipment
 Starting Equipment	CATEGORY:Internal	TYPE:Starting Equipment
 
+###Block: Determines if first class qualifies for Multiclass Requirements. First Class uses its own requirements to determine if to activate this ability, which then enables the multiclass options.
+# Ability Name				Category of Ability
+Multiclass Allowed			CATEGORY:Internal
+Multiclass Allowed ~ Barbarian	CATEGORY:Internal
+Multiclass Allowed ~ Bard		CATEGORY:Internal
+Multiclass Allowed ~ Cleric		CATEGORY:Internal
+Multiclass Allowed ~ Druid		CATEGORY:Internal
+Multiclass Allowed ~ Fighter		CATEGORY:Internal
+Multiclass Allowed ~ Monk		CATEGORY:Internal
+Multiclass Allowed ~ Paladin		CATEGORY:Internal
+Multiclass Allowed ~ Ranger		CATEGORY:Internal
+Multiclass Allowed ~ Rogue		CATEGORY:Internal
+Multiclass Allowed ~ Sorcerer		CATEGORY:Internal
+Multiclass Allowed ~ Warlock		CATEGORY:Internal
+Multiclass Allowed ~ Wizard		CATEGORY:Internal
+
+###Block: Grants Ability to tell each class if they qualify for Multiclassing after firct class taken.
+# Ability Name					Ability
+CATEGORY=Internal|Multiclass Allowed.MOD	ABILITY:Internal|AUTOMATIC|Multiclass Allowed ~ Barbarian|PRESTAT:1,STR=13
+CATEGORY=Internal|Multiclass Allowed.MOD	ABILITY:Internal|AUTOMATIC|Multiclass Allowed ~ Bard|PRESTAT:1,CHA=13
+CATEGORY=Internal|Multiclass Allowed.MOD	ABILITY:Internal|AUTOMATIC|Multiclass Allowed ~ Cleric|PRESTAT:1,WIS=13
+CATEGORY=Internal|Multiclass Allowed.MOD	ABILITY:Internal|AUTOMATIC|Multiclass Allowed ~ Druid|PRESTAT:1,WIS=13
+CATEGORY=Internal|Multiclass Allowed.MOD	ABILITY:Internal|AUTOMATIC|Multiclass Allowed ~ Fighter|PRESTAT:1,STR=13,DEX=13
+CATEGORY=Internal|Multiclass Allowed.MOD	ABILITY:Internal|AUTOMATIC|Multiclass Allowed ~ Monk|PRESTAT:2,WIS=13,DEX=13
+CATEGORY=Internal|Multiclass Allowed.MOD	ABILITY:Internal|AUTOMATIC|Multiclass Allowed ~ Paladin|PRESTAT:2,STR=13,CHA=13
+CATEGORY=Internal|Multiclass Allowed.MOD	ABILITY:Internal|AUTOMATIC|Multiclass Allowed ~ Ranger|PRESTAT:2,DEX=13,WIS=13
+CATEGORY=Internal|Multiclass Allowed.MOD	ABILITY:Internal|AUTOMATIC|Multiclass Allowed ~ Rogue|PRESTAT:1,DEX=13
+CATEGORY=Internal|Multiclass Allowed.MOD	ABILITY:Internal|AUTOMATIC|Multiclass Allowed ~ Sorcerer|PRESTAT:1,CHA=13
+CATEGORY=Internal|Multiclass Allowed.MOD	ABILITY:Internal|AUTOMATIC|Multiclass Allowed ~ Warlock|PRESTAT:1,CHA=13
+CATEGORY=Internal|Multiclass Allowed.MOD	ABILITY:Internal|AUTOMATIC|Multiclass Allowed ~ Wizard|PRESTAT:1,INT=13

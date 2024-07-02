@@ -5,10 +5,30 @@ Subrace ~ Mountain Dwarf	VISIBLE:NO	SUBRACE:Mountain
 Subrace ~ Gray Dwarf	VISIBLE:NO	SUBRACE:Gray
 Subrace ~ High Elf	VISIBLE:NO	SUBRACE:High
 Subrace ~ Wood Elf	VISIBLE:NO	SUBRACE:Wood
-Subrace ~ Drow Elf	VISIBLE:NO	SUBRACE:Drow
+Subrace ~ Dark Elf	VISIBLE:NO	SUBRACE:Dark
 Subrace ~ Lightfoot Halfling	VISIBLE:NO	SUBRACE:Lightfoot
 Subrace ~ Stout Halfling	VISIBLE:NO	SUBRACE:Stout
 Subrace ~ Calishite Human	VISIBLE:NO	SUBRACE:Calishite
+Subrace ~ Chondathan Human	VISIBLE:NO	SUBRACE:Chondathan
+Subrace ~ Damaran Human	VISIBLE:NO	SUBRACE:Damaran
+Subrace ~ Illuskan Human	VISIBLE:NO	SUBRACE:Illuskan
+Subrace ~ Mulan Human	VISIBLE:NO	SUBRACE:Mulan
+Subrace ~ Rashemi Human	VISIBLE:NO	SUBRACE:Rashemi
+Subrace ~ Shou Human	VISIBLE:NO	SUBRACE:Shou
+Subrace ~ Thetyrian Human	VISIBLE:NO	SUBRACE:Thetyrian
+Subrace ~ Turami Human	VISIBLE:NO	SUBRACE:Turami
+Subrace ~ Black Dragonborn	VISIBLE:NO	SUBRACE:Black
+Subrace ~ Blue Dragonborn	VISIBLE:NO	SUBRACE:Blue
+Subrace ~ Brass Dragonborn	VISIBLE:NO	SUBRACE:Brass
+Subrace ~ Bronze Dragonborn	VISIBLE:NO	SUBRACE:Bronze
+Subrace ~ Copper Dragonborn	VISIBLE:NO	SUBRACE:Copper
+Subrace ~ Gold Dragonborn	VISIBLE:NO	SUBRACE:Gold
+Subrace ~ Green Dragonborn	VISIBLE:NO	SUBRACE:Green
+Subrace ~ Red Dragonborn	VISIBLE:NO	SUBRACE:Red
+Subrace ~ Silver Dragonborn	VISIBLE:NO	SUBRACE:Silver
+Subrace ~ White Dragonborn	VISIBLE:NO	SUBRACE:White
+Subrace ~ Forest Gnome	VISIBLE:NO	SUBRACE:Forest
+Subrace ~ Rock Gnome	VISIBLE:NO	SUBRACE:Rock
 
 # Determines First Level Class and Benefits for Class.
 # Template Name	Template
@@ -16,7 +36,7 @@ First Level		VISIBLE:NO	TEMPLATE:CHOOSE:TYPE=FirstLevel	DEFINE:AllClassLvl|0
 
 ###Block: First Level Base Classes
 # Template Name			Required Class		Bonus Ability Pool				Modify VAR									Ability																																																	Type
-Barbarian	TYPE:FirstLevel	VISIBLE:NO	PRECLASS:1,Barbarian=1	BONUS:VAR|AllClassLvl|BarbarianLVL
+Barbarian	TYPE:FirstLevel	VISIBLE:NO	PRECLASS:1,Barbarian=1	BONUS:VAR|AllClassLvl|BarbarianLVL	BONUS:VAR|POOL_Barbarian_Skill|2	ABILITY:Internal|AUTOMATIC|Saving Throw ~ Con|Saving Throw ~ Str|TYPE=ArmorProfMedium|TYPE=ShieldProf|TYPE=WeaponProfMartial	ABILITY:Internal|AUTOMATIC|Multiclass Allowed|PRESTAT:1,STR=13
 Bard	TYPE:FirstLevel	VISIBLE:NO	PRECLASS:1,Bard=1	BONUS:VAR|AllClassLvl|BardLVL
 Cleric	TYPE:FirstLevel	VISIBLE:NO	PRECLASS:1,Cleric=1	BONUS:VAR|AllClassLvl|ClericLVL
 Druid	TYPE:FirstLevel	VISIBLE:NO	PRECLASS:1,Druid=1	BONUS:VAR|AllClassLvl|DruidLVL

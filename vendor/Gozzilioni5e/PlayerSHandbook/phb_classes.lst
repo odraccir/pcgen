@@ -1,0 +1,164 @@
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2014-08				
+							
+# Class Name	Hit Dice	Type	Max Level	Define	Modify VAR		
+# Class Name	Multiple Requirements						
+CLASS:Barbarian	HD:12	TYPE:PC.BASE	MAXLEVEL:20	DEFINE:BarbarianLVL|0	BONUS:VAR|BarbarianLVL|CL		
+CLASS:Barbarian	PREMULT:1,[!PRETEMPLATE:1,First Level],[PREABILITY:1,CATEGORY=Internal,Multiclass Allowed ~ Barbarian],[PRECLASS:1,Barbarian=1]						
+1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS						
+1			ABILITY:Class|AUTOMATIC|Barbarian				
+1			ABILITY:Barbarian Class Feature|AUTOMATIC|Barbarian ~ Rage				
+1			ABILITY:Barbarian Class Feature|AUTOMATIC|Barbarian ~ Unarmored Defense				
+2			ABILITY:Barbarian Class Feature|AUTOMATIC|Barbarian ~ Reckless Attack				
+2			ABILITY:Barbarian Class Feature|AUTOMATIC|Barbarian ~ Danger Sense				
+3			ABILITY:Barbarian Class Feature|AUTOMATIC|Barbarian ~ Primal Path				
+4			ABILITY:Barbarian Class Feature|AUTOMATIC|Barbarian ~ Ability Score Improvement				
+5			ABILITY:Barbarian Class Feature|AUTOMATIC|Barbarian ~ Extra Attack				
+5			ABILITY:Barbarian Class Feature|AUTOMATIC|Barbarian ~ Fast Movement				
+7			ABILITY:Barbarian Class Feature|AUTOMATIC|Barbarian ~ Feral Instinct				
+9			ABILITY:Barbarian Class Feature|AUTOMATIC|Barbarian ~ Brutal Critical				
+11			ABILITY:Barbarian Class Feature|AUTOMATIC|Barbarian ~ Relentless Rage				
+15			ABILITY:Barbarian Class Feature|AUTOMATIC|Barbarian ~ Persistent Rage				
+18			ABILITY:Barbarian Class Feature|AUTOMATIC|Barbarian ~ Indomitable Might				
+20			ABILITY:Barbarian Class Feature|AUTOMATIC|Barbarian ~ Primal Champion				
+							
+CLASS:Bard	HD:8	TYPE:PC.BASE	MAXLEVEL:20	DEFINE:BardLVL|0	BONUS:VAR|BardLVL|CL		
+CLASS:Bard	PREMULT:1,[!PRETEMPLATE:1,First Level],[PREABILITY:1,CATEGORY=Internal,Multiclass Allowed ~ Bard],[PRECLASS:1,Bard=1]						
+CLASS:Bard	SPELLSTAT:CHA	MEMORIZE:NO	BONUS:CASTERLEVEL|Bard|CL	BONUS:VAR|SpellCasterTotalLVL|BardLVL	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|Arcane	
+1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS						
+1	CAST:1,1	KNOWN:0,4					
+2	CAST:1,1	KNOWN:0,5					
+3	CAST:1,1,0	KNOWN:0,4,2					
+4	CAST:1,1,0	KNOWN:0,3,4					
+5	CAST:1,1,0,0	KNOWN:0,2,4,2					
+6	CAST:1,1,0,0	KNOWN:0,1,4,4					
+7	CAST:1,1,0,0,0	KNOWN:0,0,4,4,2					
+8	CAST:1,1,0,0,0	KNOWN:0,0,3,4,4					
+9	CAST:1,1,0,0,0,0	KNOWN:0,0,2,4,4,2					
+10	CAST:1,1,0,0,0,0	KNOWN:0,0,1,4,4,3					
+11	CAST:1,1,0,0,0,0,0	KNOWN:0,0,0,4,4,3,2					
+12	CAST:1,1,0,0,0,0,0	KNOWN:0,0,0,3,4,3,3					
+13	CAST:1,1,0,0,0,0,0,0	KNOWN:0,0,0,2,4,3,3,2					
+14	CAST:1,1,0,0,0,0,0,0	KNOWN:0,0,0,1,4,3,3,3					
+15	CAST:1,1,0,0,0,0,0,0,0	KNOWN:0,0,0,0,4,3,3,3,2					
+16	CAST:1,1,0,0,0,0,0,0,0	KNOWN:0,0,0,0,3,3,3,3,3					
+17	CAST:1,1,0,0,0,0,0,0,0,0	KNOWN:0,0,0,0,2,3,3,3,3,2					
+18	CAST:1,1,0,0,0,0,0,0,0,0	KNOWN:0,0,0,0,1,3,3,3,3,3					
+19	CAST:1,1,0,0,0,0,0,0,0,0	KNOWN:0,0,0,0,0,3,3,3,3,4					
+20	CAST:1,1,0,0,0,0,0,0,0,0	KNOWN:0,0,0,0,0,2,3,3,3,5					
+#							
+1			ABILITY:Class|AUTOMATIC|Bard				
+1			ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Spellcasting				
+1			ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Cantrips				
+1			ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Bardic Inspiration				
+2			ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Jack of All Trades				
+2			ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Song of Rest				
+3			ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Bard College				
+3			ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Expertise				
+4			ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Ability Score Improvement				
+5			ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Font of Inspiration				
+6			ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Countercharm				
+10			ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Magical Secrets				
+20			ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Superior Inspiration				
+							
+CLASS:Cleric	HD:8	TYPE:PC.Base	DEFINE:ClericLVL|0	BONUS:VAR|ClericLVL|CL			
+CLASS:Cleric	PREMULT:1,[!PRETEMPLATE:1,First Level],[PREABILITY:1,CATEGORY=Internal,Multiclass Allowed ~ Cleric],[PRECLASS:1,Cleric=1]						
+CLASS:Cleric	SPELLSTAT:WIS	MEMORIZE:YES	KNOWNSPELLS:LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9	BONUS:CASTERLEVEL|Cleric|CL	BONUS:VAR|SpellCasterTotalLVL|ClericLVL	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|Divine
+1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS						
+1	CAST:0,2						
+2	CAST:0,3						
+3	CAST:0,4,2						
+4	CAST:0,4,3						
+5	CAST:0,4,3,2						
+6	CAST:0,4,3,3						
+7	CAST:0,4,3,3,1						
+8	CAST:0,4,3,3,2						
+9	CAST:0,4,3,3,3,1						
+10	CAST:0,4,3,3,3,2						
+11	CAST:0,4,3,3,3,2,1						
+12	CAST:0,4,3,3,3,2,1						
+13	CAST:0,4,3,3,3,2,1,1						
+14	CAST:0,4,3,3,3,2,1,1						
+15	CAST:0,4,3,3,3,2,1,1,1						
+16	CAST:0,4,3,3,3,2,1,1,1						
+17	CAST:0,4,3,3,3,2,1,1,1,1						
+18	CAST:0,4,3,3,3,3,1,1,1,1						
+19	CAST:0,4,3,3,3,3,2,1,1,1						
+20	CAST:0,4,3,3,3,3,2,2,1,1						
+#							
+1			ABILITY:Class|AUTOMATIC|Cleric				
+1			ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Cantrips				
+1			ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Spellcasting Ability				
+1			ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Divine Domain				
+2			ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Channel Divinity				
+4			ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Ability Score Improvement				
+5			ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Destroy Undead				
+10			ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Divine Intervention				
+							
+CLASS:Druid	HD:8	TYPE:PC.Base	DEFINE:DruidLVL|0	AUTO:LANG|Druidic	BONUS:VAR|DruidLVL|CL		
+CLASS:Druid	PREMULT:1,[!PRETEMPLATE:1,First Level],[PREABILITY:1,CATEGORY=Internal,Multiclass Allowed ~ Druid],[PRECLASS:1,Druid=1]						
+CLASS:Druid	SPELLSTAT:WIS	MEMORIZE:YES	KNOWNSPELLS:LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9	BONUS:CASTERLEVEL|Druid|CL	BONUS:VAR|SpellCasterTotalLVL|DruidLVL	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|Divine
+1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS						
+1	CAST:0,2						
+2	CAST:0,3						
+3	CAST:0,4,2						
+4	CAST:0,4,3						
+5	CAST:0,4,3,2						
+6	CAST:0,4,3,3						
+7	CAST:0,4,3,3,1						
+8	CAST:0,4,3,3,2						
+9	CAST:0,4,3,3,3,1						
+10	CAST:0,4,3,3,3,2						
+11	CAST:0,4,3,3,3,2,1						
+12	CAST:0,4,3,3,3,2,1						
+13	CAST:0,4,3,3,3,2,1,1						
+14	CAST:0,4,3,3,3,2,1,1						
+15	CAST:0,4,3,3,3,2,1,1,1						
+16	CAST:0,4,3,3,3,2,1,1,1						
+17	CAST:0,4,3,3,3,2,1,1,1,1						
+18	CAST:0,4,3,3,3,3,1,1,1,1						
+19	CAST:0,4,3,3,3,3,2,1,1,1						
+20	CAST:0,4,3,3,3,3,2,2,1,1						
+#							
+1			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Druidic				
+1			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Spellcasting				
+1			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Cantrips				
+1			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Ritual Casting				
+1			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Spellcasting Focus				
+2			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Wild Shape				
+2			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Druid Circle				
+4			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Ability Score Improvement				
+18			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Timeless Body				
+18			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Beast Spells				
+20			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Archdruid				
+							
+CLASS:Fighter	HD:10	TYPE:PC.Base	DEFINE:FighterLVL|0	BONUS:VAR|FighterLVL|CL	FACT:SpellType|Arcane		
+CLASS:Fighter	PREMULT:1,[!PRETEMPLATE:1,First Level],[PREABILITY:1,CATEGORY=Internal,Multiclass Allowed ~ Fighter],[PRECLASS:1,Fighter=1]						
+CLASS:Fighter	SPELLSTAT:INT	MEMORIZE:NO	BONUS:CASTERLEVEL|Fighter|CL	SPELLLIST:1|Fighter			
+1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS						
+3	CAST:0,1						
+4	CAST:0,1						
+5	CAST:0,1						
+6	CAST:0,1						
+7	CAST:0,1,1						
+8	CAST:0,1,1						
+9	CAST:0,1,1						
+10	CAST:0,1,1						
+11	CAST:0,1,1						
+12	CAST:0,1,1						
+13	CAST:0,1,1,1						
+14	CAST:0,1,1,1						
+15	CAST:0,1,1,1						
+16	CAST:0,1,1,1						
+17	CAST:0,1,1,1						
+18	CAST:0,1,1,1						
+19	CAST:0,1,1,1,1						
+20	CAST:0,1,1,1,1						
+#							
+1			ABILITY:Class|AUTOMATIC|Fighter				
+1			ABILITY:Fighter Class Feature|AUTOMATIC|Fighter ~ Fighting Style				
+1			ABILITY:Fighter Class Feature|AUTOMATIC|Fighter ~ Second Wind				
+2			ABILITY:Fighter Class Feature|AUTOMATIC|Fighter ~ Action Surge				
+3			ABILITY:Fighter Class Feature|AUTOMATIC|Fighter ~ Martial Archetype				
+4			ABILITY:Fighter Class Feature|AUTOMATIC|Fighter ~ Ability Score Improvement				
+5			ABILITY:Fighter Class Feature|AUTOMATIC|Fighter ~ Extra Attack				
+9			ABILITY:Fighter Class Feature|AUTOMATIC|Fighter ~ Indomitable				

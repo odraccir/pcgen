@@ -23,13 +23,15 @@ LOGO:../../../../_artwork/logo_wotc.png
 INFOTEXT:D&D 5e Player's Handbook
 
 ALIGNMENT:0phb_align.lst
+DATACONTROL:0phb_datacontrols.lst
 SAVE:0phb_saves.lst
 STAT:0phb_stats.lst
-DATACONTROL:0phb_datacontrols.lst
 
 ABILITY:phb_abilities.lst
+ABILITY:phb_abilities_classes.lst
 ABILITY:phb_abilities_races.lst
 ABILITYCATEGORY:phb_abilitycategories.lst
+CLASS:phb_classes.lst
 LANGUAGE:phb_languages.lst
 ARMORPROF:phb_profs_armor.lst
 SHIELDPROF:phb_profs_shield.lst

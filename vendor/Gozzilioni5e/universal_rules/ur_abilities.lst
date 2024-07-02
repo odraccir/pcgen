@@ -13,6 +13,15 @@ CATEGORY=Internal|Default.MOD	BONUS:VAR|Proficiency_Bonus|(TL+7)/4|TYPE=Base|!PR
 
 Background			CATEGORY:Internal
 
+###Block: Shared
+# Ability Name			Unique Key					Category of Ability	Type									Multiple?	Choose									Auto Armor Prof					Auto Shield Prof		Ability						Save bonus
+Strength				KEY:Saving Throw ~ Str			CATEGORY:Internal	BONUS:SAVE|BASE.Strength|Proficiency_Bonus|TYPE=Class
+Dexterity				KEY:Saving Throw ~ Dex			CATEGORY:Internal	BONUS:SAVE|BASE.Dexterity|Proficiency_Bonus|TYPE=Class
+Constitution			KEY:Saving Throw ~ Con			CATEGORY:Internal	BONUS:SAVE|BASE.Constitution|Proficiency_Bonus|TYPE=Class
+Intelligence			KEY:Saving Throw ~ Int			CATEGORY:Internal	BONUS:SAVE|BASE.Intelligence|Proficiency_Bonus|TYPE=Class
+Wisdom				KEY:Saving Throw ~ Wis			CATEGORY:Internal	BONUS:SAVE|BASE.Wisdom|Proficiency_Bonus|TYPE=Class
+Charisma				KEY:Saving Throw ~ Cha			CATEGORY:Internal	BONUS:SAVE|BASE.Charisma|Proficiency_Bonus|TYPE=Class
+
 ###Block: Multiclass Support
 # Ability Name			Category of Ability	Template
 First Level Proficiencies	CATEGORY:Internal		TEMPLATE:First Level
@@ -358,3 +367,24 @@ Movement Mode ~ Swim	CATEGORY:Internal		BONUS:MOVEADD|TYPE.Swim|Move_Swim
 Movement Mode ~ Fly	CATEGORY:Internal		BONUS:MOVEADD|TYPE.Fly|Move_Fly
 Movement Mode ~ Climb	CATEGORY:Internal		BONUS:MOVEADD|TYPE.Climb|Move_Climb
 Movement Mode ~ Burrow	CATEGORY:Internal		BONUS:MOVEADD|TYPE.Burrow|Move_Burrow
+
+###Block: Class Progressions
+# Ability Name	Unique Key					SORTKEY			Category of Ability	Type								Var. Must Be Lower	Define			Stackable?	Multiple?	Choose		Bonus Ability Pool		Combat bonus				Stat bonus		Modify VAR				Cost
++1 Strength		KEY:Ability Score Increase +1 ~ STR	SORTKEY:AbilityScore_1	CATEGORY:Internal		TYPE:StatIncrease+1.Ability Score Increase				PREVARLT:STRSCORE,StatCapStr					STACK:YES	MULT:YES	CHOOSE:NOCHOICE												BONUS:STAT|STR|1						COST:1
++1 Dexterity	KEY:Ability Score Increase +1 ~ DEX	SORTKEY:AbilityScore_2	CATEGORY:Internal		TYPE:StatIncrease+1.Ability Score Increase				PREVARLT:DEXSCORE,StatCapDex					STACK:YES	MULT:YES	CHOOSE:NOCHOICE												BONUS:STAT|DEX|1						COST:1
++1 Constitution	KEY:Ability Score Increase +1 ~ CON	SORTKEY:AbilityScore_3	CATEGORY:Internal		TYPE:StatIncrease+1.Ability Score Increase				PREVARLT:CONSCORE,StatCapCon					STACK:YES	MULT:YES	CHOOSE:NOCHOICE												BONUS:STAT|CON|1						COST:1
++1 Intelligence	KEY:Ability Score Increase +1 ~ INT	SORTKEY:AbilityScore_4	CATEGORY:Internal		TYPE:StatIncrease+1.Ability Score Increase				PREVARLT:INTSCORE,StatCapInt					STACK:YES	MULT:YES	CHOOSE:NOCHOICE												BONUS:STAT|INT|1						COST:1
++1 Wisdom		KEY:Ability Score Increase +1 ~ WIS	SORTKEY:AbilityScore_5	CATEGORY:Internal		TYPE:StatIncrease+1.Ability Score Increase				PREVARLT:WISSCORE,StatCapWis					STACK:YES	MULT:YES	CHOOSE:NOCHOICE												BONUS:STAT|WIS|1						COST:1
++1 Charisma		KEY:Ability Score Increase +1 ~ CHA	SORTKEY:AbilityScore_6	CATEGORY:Internal		TYPE:StatIncrease+1.Ability Score Increase				PREVARLT:CHASCORE,StatCapCha					STACK:YES	MULT:YES	CHOOSE:NOCHOICE												BONUS:STAT|CHA|1						COST:1
+
++2 Strength		KEY:Ability Score Increase +2 ~ STR	SORTKEY:AbilityScore_1	CATEGORY:Internal		TYPE:StatIncrease+2.Ability Score Increase	PREVARLT:STRSCORE,StatCapStr-1					STACK:YES	MULT:YES	CHOOSE:NOCHOICE												BONUS:STAT|STR|2						COST:2
++2 Dexterity	KEY:Ability Score Increase +2 ~ DEX	SORTKEY:AbilityScore_2	CATEGORY:Internal		TYPE:StatIncrease+2.Ability Score Increase	PREVARLT:DEXSCORE,StatCapDex-1					STACK:YES	MULT:YES	CHOOSE:NOCHOICE												BONUS:STAT|DEX|2						COST:2
++2 Constitution	KEY:Ability Score Increase +2 ~ CON	SORTKEY:AbilityScore_3	CATEGORY:Internal		TYPE:StatIncrease+2.Ability Score Increase	PREVARLT:CONSCORE,StatCapCon-1					STACK:YES	MULT:YES	CHOOSE:NOCHOICE												BONUS:STAT|CON|2						COST:2
++2 Intelligence	KEY:Ability Score Increase +2 ~ INT	SORTKEY:AbilityScore_4	CATEGORY:Internal		TYPE:StatIncrease+2.Ability Score Increase	PREVARLT:INTSCORE,StatCapInt-1					STACK:YES	MULT:YES	CHOOSE:NOCHOICE												BONUS:STAT|INT|2						COST:2
++2 Wisdom		KEY:Ability Score Increase +2 ~ WIS	SORTKEY:AbilityScore_5	CATEGORY:Internal		TYPE:StatIncrease+2.Ability Score Increase	PREVARLT:WISSCORE,StatCapWis-1					STACK:YES	MULT:YES	CHOOSE:NOCHOICE												BONUS:STAT|WIS|2						COST:2
++2 Charisma		KEY:Ability Score Increase +2 ~ CHA	SORTKEY:AbilityScore_6	CATEGORY:Internal		TYPE:StatIncrease+2.Ability Score Increase	PREVARLT:CHASCORE,StatCapCha-1					STACK:YES	MULT:YES	CHOOSE:NOCHOICE												BONUS:STAT|CHA|2						COST:2
+
+# Extra Attack Limit
+Extra Attack ~ 1											CATEGORY:Internal														DEFINE:ExtraAttacks|0													BONUS:COMBAT|ATTACKS|ExtraAttacks				BONUS:VAR|ExtraAttacks|1
+Extra Attack ~ 2											CATEGORY:Internal																																							BONUS:VAR|ExtraAttacks|1
+Extra Attack ~ 3											CATEGORY:Internal																																							BONUS:VAR|ExtraAttacks|1
