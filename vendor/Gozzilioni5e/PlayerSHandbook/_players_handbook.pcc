@@ -1,4 +1,3 @@
-# CVS $Revision$ $Author$ -- Fri May  3 14:36:53 2013 -- reformated by prettylst.pl v1.50 (build 19967)
 CAMPAIGN:Player's Handbook
 KEY:Player's Handbook
 BOOKTYPE:Core Rules
@@ -16,9 +15,9 @@ PUBNAMEWEB:http://www.wizards.com
 COPYRIGHT:Copyright 2014, Wizards of the Coast, Inc.
 
 # COVER should be cover_gameMode_pub_book.file
-COVER:../../../../_artwork/cover_5e_wotc_ph.jpg
+COVER:&/_artwork/cover_5e_wotc_ph.jpg
 # LOGO should be logo_pub.file
-LOGO:../../../../_artwork/logo_wotc.png
+LOGO:&/_artwork/logo_wotc.png
 
 INFOTEXT:D&D 5e Player's Handbook
 
@@ -31,7 +30,12 @@ ABILITY:phb_abilities.lst
 ABILITY:phb_abilities_classes.lst
 ABILITY:phb_abilities_races.lst
 ABILITYCATEGORY:phb_abilitycategories.lst
+BIOSET:phb_biosettings.lst
 CLASS:phb_classes.lst
+DEITY:phb_deities.lst
+DOMAIN:phb_domains.lst
+EQUIPMOD:phb_equipmods.lst
+KIT:phb_kits.lst
 LANGUAGE:phb_languages.lst
 ARMORPROF:phb_profs_armor.lst
 SHIELDPROF:phb_profs_shield.lst

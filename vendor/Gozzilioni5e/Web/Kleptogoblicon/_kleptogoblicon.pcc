@@ -1,0 +1,27 @@
+CAMPAIGN:Kleptogoblicon
+KEY:Kleptogoblicon
+BOOKTYPE:Web Book
+GAMEMODE:G5e
+TYPE:Web.Kloptogoblicon
+SOURCELONG:Kleptogoblicon
+SOURCESHORT:KG
+SOURCEWEB:https://www.patreon.com/CardboardAnvil
+SOURCEDATE:2024-06
+RANK:202406
+PUBNAMELONG:CardboardAnvil
+PUBNAMESHORT:CardboardAnvil
+PUBNAMEWEB:https://www.patreon.com/CardboardAnvil
+COPYRIGHT:Copyright 2024, CardboardAnvil
+
+# COVER should be cover_gameMode_pub_book.file
+COVER:../../../../_artwork/cover_5e_cardboardAnvil_kg.png
+# LOGO should be logo_pub.file
+LOGO:../../../../_artwork/logo_cardboardanvil.webp
+
+INFOTEXT:Kleptogoblicon
+
+EQUIPMENT:kg_equip.lst
+
+# KIT:ph_kits.lst
+
+INFOTEXT:Supports 6.4.1

@@ -9,6 +9,14 @@ SOURCELONG:Gozzilioni Campaing Full Set
 SOURCESHORT:G
 SOURCEWEB:http://www.gozzilioni.net
 SOURCEDATE:2007-01
+
+# COVER should be cover_gameMode_pub_book.file
+COVER:&/_artwork/banner_gozzilioni.jpg
+# LOGO should be logo_pub.file
+LOGO:&/_artwork/logo_gozzilioni.jpg
+
+INFOTEXT:D&D 5e Universal Rules
+
 DATACONTROL:0ur_datacontrols.lst
 SIZE:0ur_sizes.lst
 

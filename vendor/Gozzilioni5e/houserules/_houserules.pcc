@@ -1,0 +1,35 @@
+CAMPAIGN:Houserules Ruleset
+GAMEMODE:G5e
+RANK:1
+TYPE:Gozzilioni.Houserules
+BOOKTYPE:Houserules
+SOURCELONG:Houserules
+SOURCESHORT:H
+SOURCEWEB:http://www.gozzilioni.net
+ISOGL:NO
+COPYRIGHT:Copyright 2024, Gozzilioni 
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+
+# COVER should be cover_gameMode_pub_book.file
+COVER:&/_artwork/banner_gozzilioni.jpg
+# LOGO should be logo_pub.file
+LOGO:&/_artwork/logo_gozzilioni.jpg
+
+INFOTEXT:D&D 5e Gozzilioni Houserules (include implication not written in official manuals)
+
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+
+EQUIPMOD:h_equipmods.lst
+
+# ENTRY DATE: 2015-08
+# LST MONKEY: Riccardo
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.04.01
+# Updated to work with version: -
+# MINVER:6.4
+# MINDEVVER:6.04.1
+# COMMENTS:

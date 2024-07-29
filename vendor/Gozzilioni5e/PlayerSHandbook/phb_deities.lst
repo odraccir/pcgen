@@ -1,0 +1,228 @@
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2014-08					
+								
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Auril	ALIGN:NE		DESC:Nature, Tempest Six-pointed snowflake	DOMAINS:ANY	KEY:Auril		FACT:Title|Auril, goddess of winter	FACTSET:Pantheon|Forgotten Realms
+Azuth	ALIGN:LN		DESC:Knowledge Left hand pointing upward, outlined in fire	DOMAINS:ANY	KEY:Azuth		FACT:Title|Azuth, god of wizards	FACTSET:Pantheon|Forgotten Realms
+Bane	ALIGN:LE		DESC:War Upright black right hand, thumb and fingers together	DOMAINS:ANY	KEY:Bane		FACT:Title|Bane, god of tyranny	FACTSET:Pantheon|Forgotten Realms
+Beshaba	ALIGN:CE		DESC:Trickery Black antlers	DOMAINS:ANY	KEY:Beshaba		FACT:Title|Beshaba, goddess of misfortune	FACTSET:Pantheon|Forgotten Realms
+Bhaal	ALIGN:NE		DESC:Death Skull surrounded by a ring of blood droplets	DOMAINS:ANY	KEY:Bhaal		FACT:Title|Bhaal, god of murder	FACTSET:Pantheon|Forgotten Realms
+Chauntea	ALIGN:NG		DESC:Life Sheaf of grain or a blooming rose over grain	DOMAINS:ANY	KEY:Chauntea		FACT:Title|Chauntea, goddess of agriculture	FACTSET:Pantheon|Forgotten Realms
+Cyric	ALIGN:CE		DESC:Trickery White jawless skull on black or purple sunburst	DOMAINS:ANY	KEY:Cyric		FACT:Title|Cyric, god of lies	FACTSET:Pantheon|Forgotten Realms
+Deneir	ALIGN:NG		DESC:Knowledge Lit candle above an open eye	DOMAINS:ANY	KEY:Deneir		FACT:Title|Deneir, god of writing	FACTSET:Pantheon|Forgotten Realms
+Eldath	ALIGN:NG		DESC:Life, Nature Waterfall plunging into still pool	DOMAINS:ANY	KEY:Eldath		FACT:Title|Eldath, goddess of peace	FACTSET:Pantheon|Forgotten Realms
+Gond	ALIGN:TN		DESC:Knowledge Toothed cog with four spokes	DOMAINS:ANY	KEY:Gond		FACT:Title|Gond, god of craft	FACTSET:Pantheon|Forgotten Realms
+Helm	ALIGN:LN		DESC:Life, Light Staring eye on upright left gauntlet	DOMAINS:ANY	KEY:Helm		FACT:Title|Helm, god of protection	FACTSET:Pantheon|Forgotten Realms
+Ilmater	ALIGN:LG		DESC:Life Hands bound at the wrist with red cord	DOMAINS:ANY	KEY:Ilmater		FACT:Title|Ilmater, god of endurance	FACTSET:Pantheon|Forgotten Realms
+Kelemvor	ALIGN:LN		DESC:Death Upright skeletal arm holding balanced scales	DOMAINS:ANY	KEY:Kelemvor		FACT:Title|Kelemvor, god of the dead	FACTSET:Pantheon|Forgotten Realms
+Lathander	ALIGN:NG		DESC:Life, Light Road traveling into a sunrise	DOMAINS:ANY	KEY:Lathander		FACT:Title|Lathander, god of birth and renewal	FACTSET:Pantheon|Forgotten Realms
+Leira	ALIGN:CN		DESC:Trickery Point-down triangle containing a swirl of mist	DOMAINS:ANY	KEY:Leira		FACT:Title|Leira, goddess of illusion	FACTSET:Pantheon|Forgotten Realms
+Lliira	ALIGN:CG		DESC:Life Triangle of three six-pointed stars	DOMAINS:ANY	KEY:Lliira		FACT:Title|Lliira, goddess of joy	FACTSET:Pantheon|Forgotten Realms
+Loviatar	ALIGN:LE		DESC:Death Nine-tailed barbed scourge	DOMAINS:ANY	KEY:Loviatar		FACT:Title|Loviatar, goddess of pain	FACTSET:Pantheon|Forgotten Realms
+Malar	ALIGN:CE		DESC:Nature Clawed paw	DOMAINS:ANY	KEY:Malar		FACT:Title|Malar, god of the hunt	FACTSET:Pantheon|Forgotten Realms
+Mask	ALIGN:CN		DESC:Trickery Black mask	DOMAINS:ANY	KEY:Mask		FACT:Title|Mask, god of thieves	FACTSET:Pantheon|Forgotten Realms
+Mielikki	ALIGN:NG		DESC:Nature Unicorn's head	DOMAINS:ANY	KEY:Mielikki		FACT:Title|Mielikki, goddess of forests	FACTSET:Pantheon|Forgotten Realms
+Milil	ALIGN:NG		DESC:Light Five-stringed harp made of leaves	DOMAINS:ANY	KEY:Milil		FACT:Title|Milil, god of poetry and song	FACTSET:Pantheon|Forgotten Realms
+Myrkul	ALIGN:NE		DESC:Death White human skull	DOMAINS:ANY	KEY:Myrkul		FACT:Title|Myrkul, god of death	FACTSET:Pantheon|Forgotten Realms
+Mystra	ALIGN:NG		DESC:Knowledge Circle of seven stars, or nine stars encircling a flowing red mist, or a single star	DOMAINS:ANY	KEY:Mystra		FACT:Title|Mystra, goddess of magic	FACTSET:Pantheon|Forgotten Realms
+Oghma	ALIGN:TN		DESC:Knowledge Blank scroll	DOMAINS:ANY	KEY:Oghma		FACT:Title|Oghma, god of knowledge	FACTSET:Pantheon|Forgotten Realms
+Savras	ALIGN:LN		DESC:Knowledge Crystal ball containing many kinds of eyes	DOMAINS:ANY	KEY:Savras		FACT:Title|Savras, god of divination and fate	FACTSET:Pantheon|Forgotten Realms
+Selune	ALIGN:CG		DESC:Knowledge, Life Pair of eyes surrounded by seven stars	DOMAINS:ANY	KEY:Selune		FACT:Title|Selune, goddess of the moon	FACTSET:Pantheon|Forgotten Realms
+Shar	ALIGN:NE		DESC:Death, Trickery Black disk encircled with a border	DOMAINS:ANY	KEY:Shar		FACT:Title|Shar, goddess of darkness and loss	FACTSET:Pantheon|Forgotten Realms
+Silvanus	ALIGN:TN		DESC:Nature Oak leaf	DOMAINS:ANY	KEY:Silvanus		FACT:Title|Silvanus, god of wild nature	FACTSET:Pantheon|Forgotten Realms
+Sune	ALIGN:CG		DESC:Life, Light Face of a beautiful red-haired woman	DOMAINS:ANY	KEY:Sune		FACT:Title|Sune, goddess of love and beauty	FACTSET:Pantheon|Forgotten Realms
+Talona	ALIGN:CE		DESC:Death Three teardrops on a triangle	DOMAINS:ANY	KEY:Talona		FACT:Title|Talona, goddess of disease and poison	FACTSET:Pantheon|Forgotten Realms
+Talos	ALIGN:CE		DESC:Tempest Three lightning bolts radiating from a central point	DOMAINS:ANY	KEY:Talos		FACT:Title|Talos, god of storms	FACTSET:Pantheon|Forgotten Realms
+Tempus	ALIGN:TN		DESC:War Upright flaming sword	DOMAINS:ANY	KEY:Tempus		FACT:Title|Tempus, god of war	FACTSET:Pantheon|Forgotten Realms
+Torm	ALIGN:LG		DESC:War White right gauntlet	DOMAINS:ANY	KEY:Torm		FACT:Title|Torm, god of courage and self-sacrifice	FACTSET:Pantheon|Forgotten Realms
+Tymora	ALIGN:CG		DESC:Trickery Face-up coin	DOMAINS:ANY	KEY:Tymora		FACT:Title|Tymora, goddess of good fortune	FACTSET:Pantheon|Forgotten Realms
+Tyr	ALIGN:LG		DESC:War Balanced scales resting on a warhammer	DOMAINS:ANY	KEY:Tyr		FACT:Title|Tyr, god of justice	FACTSET:Pantheon|Forgotten Realms
+Umberlee	ALIGN:CE		DESC:Tempest Wave curling left and right	DOMAINS:ANY	KEY:Umberlee		FACT:Title|Umberlee, goddess of the sea	FACTSET:Pantheon|Forgotten Realms
+Waukeen	ALIGN:TN		DESC:Knowledge, Trickery Upright coin with Waukeen's profile facing left	DOMAINS:ANY	KEY:Waukeen		FACT:Title|Waukeen, goddess of trade	FACTSET:Pantheon|Forgotten Realms
+								
+# Deities of Greyhawk								
+#Deity Alignment Suggested Domains Symbol								
+Beory	ALIGN:TN		DESC:Nature Green disk	DOMAINS:ANY	KEY:Beory		FACT:Title|Beory, goddess of nature	FACTSET:Pantheon|Greyhawk
+Boccob	ALIGN:TN		DESC:Knowledge Eye within a pentagram	DOMAINS:ANY	KEY:Boccob		FACT:Title|Boccob, god of magic	FACTSET:Pantheon|Greyhawk
+Celestian	ALIGN:TN		DESC:Knowledge Arc of seven stars inside a circle	DOMAINS:ANY	KEY:Celestian		FACT:Title|Celestian, god of stars and wanderers	FACTSET:Pantheon|Greyhawk
+Ehlonna	ALIGN:NG		DESC:Life, Nature Unicorn horn	DOMAINS:ANY	KEY:Ehlonna		FACT:Title|Ehlonna, goddess of woodlands	FACTSET:Pantheon|Greyhawk
+Erythnul	ALIGN:CE		DESC:War Blood drop	DOMAINS:ANY	KEY:Erythnul		FACT:Title|Erythnul, god of envy and slaughter	FACTSET:Pantheon|Greyhawk
+Fharlanghn	ALIGN:NG		DESC:Knowledge, Trickery Circle crossed by a curved horizon line	DOMAINS:ANY	KEY:Fharlanghn		FACT:Title|Fharlanghn, god of horizons and travel	FACTSET:Pantheon|Greyhawk
+Heironeous	ALIGN:LG		DESC:War Lightning bolt	DOMAINS:ANY	KEY:Heironeous		FACT:Title|Heironeous, god of chivalry and valor	FACTSET:Pantheon|Greyhawk
+Hextor	ALIGN:LE		DESC:War Six arrows facing downward in a fan	DOMAINS:ANY	KEY:Hextor		FACT:Title|Hextor, god of war and discord	FACTSET:Pantheon|Greyhawk
+Kord	ALIGN:CG		DESC:Tempest, War Four spears and four maces radiating out from a central point	DOMAINS:ANY	KEY:Kord		FACT:Title|Kord, god of athletics and sport	FACTSET:Pantheon|Greyhawk
+Incabulos	ALIGN:NE		DESC:Death Reptilian eye with a horizontal diamond	DOMAINS:ANY	KEY:Incabulos		FACT:Title|Incabulos, god of plague and famine	FACTSET:Pantheon|Greyhawk
+Istus	ALIGN:TN		DESC:Knowledge Weaver's spindle with three strands	DOMAINS:ANY	KEY:Istus		FACT:Title|Istus, goddess of fate and destiny	FACTSET:Pantheon|Greyhawk
+luz	ALIGN:CE		DESC:Death Grinning human skull	DOMAINS:ANY	KEY:luz		FACT:Title|luz, god of pain and oppression	FACTSET:Pantheon|Greyhawk
+Nerull	ALIGN:NE		DESC:Death Skull with either a sickle or a scythe	DOMAINS:ANY	KEY:Nerull		FACT:Title|Nerull, god of death	FACTSET:Pantheon|Greyhawk
+Obad-Hai	ALIGN:TN		DESC:Nature Oak leaf and acorn	DOMAINS:ANY	KEY:Obad-Hai		FACT:Title|Obad-Hai, god of nature	FACTSET:Pantheon|Greyhawk
+Olidammara	ALIGN:CN		DESC:Trickery Laughing mask	DOMAINS:ANY	KEY:Olidammara		FACT:Title|Olidammara, god of revelry	FACTSET:Pantheon|Greyhawk
+Pelor	ALIGN:NG		DESC:Life, Light Sun	DOMAINS:ANY	KEY:Pelor		FACT:Title|Pelor, god of the sun and healing	FACTSET:Pantheon|Greyhawk
+Pholtus	ALIGN:LG		DESC:Light Silver sun or full moon partially eclipsed by a smaller crescent moon	DOMAINS:ANY	KEY:Pholtus		FACT:Title|Pholtus, god of light and law	FACTSET:Pantheon|Greyhawk
+Ralishaz	ALIGN:CN		DESC:Trickery Three bone fate-casting sticks	DOMAINS:ANY	KEY:Ralishaz		FACT:Title|Ralishaz, god of ill luck and insanity	FACTSET:Pantheon|Greyhawk
+Rao	ALIGN:LG		DESC:Knowledge White heart	DOMAINS:ANY	KEY:Rao		FACT:Title|Rao, god of peace and reason	FACTSET:Pantheon|Greyhawk
+St. Cuthbert	ALIGN:LN		DESC:Knowledge Circle at the center of a starburst of lines	DOMAINS:ANY	KEY:St. Cuthbert		FACT:Title|St. Cuthbert, god of common sense and zeal	FACTSET:Pantheon|Greyhawk
+Tharizdun	ALIGN:CE		DESC:Trickery Dark spiral or inverted ziggurat	DOMAINS:ANY	KEY:Tharizdun		FACT:Title|Tharizdun, god of eternal darkness	FACTSET:Pantheon|Greyhawk
+Trithereon	ALIGN:CG		DESC:War Triskelion	DOMAINS:ANY	KEY:Trithereon		FACT:Title|Trithereon, god of liberty and retribution	FACTSET:Pantheon|Greyhawk
+Ulaa	ALIGN:LG		DESC:Life, War Mountain with a circle at its heart	DOMAINS:ANY	KEY:Ulaa		FACT:Title|Ulaa, goddess of hills and mountains	FACTSET:Pantheon|Greyhawk
+Vecna	ALIGN:NE		DESC:Knowledge Hand with eye in the palm	DOMAINS:ANY	KEY:Vecna		FACT:Title|Vecna, god of evil secrets	FACTSET:Pantheon|Greyhawk
+Wee Jas	ALIGN:LN		DESC:Death, Knowledge Red skull in front of fireball	DOMAINS:ANY	KEY:Wee Jas		FACT:Title|Wee Jas, goddess of magic and death	FACTSET:Pantheon|Greyhawk
+								
+# Deities of Dragonlance								
+#The Cods of Good Alignment Suggested Domains Symbol								
+Paladine	ALIGN:LG		DESC:War Silver triangle	DOMAINS:ANY	KEY:Paladine		FACT:Title|Paladine, god of rulers and guardians	FACTSET:Pantheon|Dragonlance
+Branchala	ALIGN:NG		DESC:Light Bard's harp	DOMAINS:ANY	KEY:Branchala		FACT:Title|Branchala, god of music	FACTSET:Pantheon|Dragonlance
+Habbakuk	ALIGN:NG		DESC:Nature, Tempest Blue bird	DOMAINS:ANY	KEY:Habbakuk		FACT:Title|Habbakuk, god of animal life and the sea	FACTSET:Pantheon|Dragonlance
+Kiri-Jolith	ALIGN:LG		DESC:War Bison's horns	DOMAINS:ANY	KEY:Kiri-Jolith		FACT:Title|Kiri-Jolith, god of honor and war	FACTSET:Pantheon|Dragonlance
+Majere	ALIGN:LG		DESC:Knowledge Copper spider	DOMAINS:ANY	KEY:Majere		FACT:Title|Majere, god of meditation and order	FACTSET:Pantheon|Dragonlance
+Mishakal	ALIGN:LG		DESC:Knowledge, Life Blue infinity sign	DOMAINS:ANY	KEY:Mishakal		FACT:Title|Mishakal, goddess of healing	FACTSET:Pantheon|Dragonlance
+Solinari	ALIGN:LG		DESC:no clerics White circle or sphere	DOMAINS:ANY	KEY:Solinari		FACT:Title|Solinari, god of good magic	FACTSET:Pantheon|Dragonlance
+#The Gods of Neutrality Alignment Suggested Domains Symbol								
+Gilean	ALIGN:TN		DESC:Knowledge Open book	DOMAINS:ANY	KEY:Gilean		FACT:Title|Gilean, god of knowledge	FACTSET:Pantheon|Dragonlance
+Chislev	ALIGN:TN		DESC:Nature Feather	DOMAINS:ANY	KEY:Chislev		FACT:Title|Chislev, goddess of nature	FACTSET:Pantheon|Dragonlance
+Reorx	ALIGN:TN		DESC:Knowledge Forging hammer	DOMAINS:ANY	KEY:Reorx		FACT:Title|Reorx, god of craft	FACTSET:Pantheon|Dragonlance
+Shinare	ALIGN:TN		DESC:Knowledge, Trickery Griffon's wing	DOMAINS:ANY	KEY:Shinare		FACT:Title|Shinare, goddess of wealth and trade	FACTSET:Pantheon|Dragonlance
+Sirrion	ALIGN:TN		DESC:Nature Multi-colored fire	DOMAINS:ANY	KEY:Sirrion		FACT:Title|Sirrion, god of fire and change	FACTSET:Pantheon|Dragonlance
+Zivilyn	ALIGN:TN		DESC:Knowledge Great green or gold tree	DOMAINS:ANY	KEY:Zivilyn		FACT:Title|Zivilyn, god of wisdom	FACTSET:Pantheon|Dragonlance
+Lunitari	ALIGN:TN		DESC:no clerics Red circle or sphere	DOMAINS:ANY	KEY:Lunitari		FACT:Title|Lunitari, goddess of neutral magic	FACTSET:Pantheon|Dragonlance
+#The Gods of Evil Alignment Suggested Domains Symbol								
+Takhisis	ALIGN:LE		DESC:Death Black crescent	DOMAINS:ANY	KEY:Takhisis		FACT:Title|Takhisis, goddess of night and hatred	FACTSET:Pantheon|Dragonlance
+Chemosh	ALIGN:LE		DESC:Death Yellow skull	DOMAINS:ANY	KEY:Chemosh		FACT:Title|Chemosh, god of the undead	FACTSET:Pantheon|Dragonlance
+Hiddukel	ALIGN:CE		DESC:Trickery Broken merchant's scales	DOMAINS:ANY	KEY:Hiddukel		FACT:Title|Hiddukel, god of lies and greed	FACTSET:Pantheon|Dragonlance
+Morgion	ALIGN:NE		DESC:Death Hood with two red eyes	DOMAINS:ANY	KEY:Morgion		FACT:Title|Morgion, god of disease and secrecy	FACTSET:Pantheon|Dragonlance
+Sargonnas	ALIGN:LE		DESC:War Stylized red condor	DOMAINS:ANY	KEY:Sargonnas		FACT:Title|Sargonnas, god of vengeance and fire	FACTSET:Pantheon|Dragonlance
+Zeboim	ALIGN:CE		DESC:Tempest Turtle shell	DOMAINS:ANY	KEY:Zeboim		FACT:Title|Zeboim, goddess of the sea and storms	FACTSET:Pantheon|Dragonlance
+Nuitari	ALIGN:LE		DESC:no clerics Black circle or sphere	DOMAINS:ANY	KEY:Nuitari		FACT:Title|Nuitari, god of evil magic	FACTSET:Pantheon|Dragonlance
+								
+# Deities of Eberron								
+# The Sovereign Host Alignment Suggested Domains Symbol								
+Arawai	ALIGN:NG		DESC:Life, Nature Sheaf of wheat tied with green ribbon	DOMAINS:ANY	KEY:Arawai		FACT:Title|Arawai, goddess of fertility	FACTSET:Pantheon|Eberron
+Aureon	ALIGN:LN		DESC:Knowledge Open tome	DOMAINS:ANY	KEY:Aureon		FACT:Title|Aureon, god of law and knowledge	FACTSET:Pantheon|Eberron
+Balinor	ALIGN:TN		DESC:Life, Nature Pair of antlers	DOMAINS:ANY	KEY:Balinor		FACT:Title|Balinor, god of beasts and the hunt	FACTSET:Pantheon|Eberron
+Boldrei	ALIGN:LG		DESC:Life Fire in a stone hearth	DOMAINS:ANY	KEY:Boldrei		FACT:Title|Boldrei, goddess of community and home	FACTSET:Pantheon|Eberron
+Dol Arrah	ALIGN:LG		DESC:Light, War Rising sun	DOMAINS:ANY	KEY:Dol Arrah		FACT:Title|Dol Arrah, goddess of sunlight and honor	FACTSET:Pantheon|Eberron
+Dol Dorn	ALIGN:CG		DESC:War Longsword crossed over a shield	DOMAINS:ANY	KEY:Dol Dorn		FACT:Title|Dol Dorn, god of strength at arms	FACTSET:Pantheon|Eberron
+Kol Korran	ALIGN:TN		DESC:Trickery Nine-sided gold coin	DOMAINS:ANY	KEY:Kol Korran		FACT:Title|Kol Korran, god of trade and wealth	FACTSET:Pantheon|Eberron
+Olladra	ALIGN:NG		DESC:Life, Trickery Domino	DOMAINS:ANY	KEY:Olladra		FACT:Title|Olladra, goddess of good fortune	FACTSET:Pantheon|Eberron
+Onatar	ALIGN:NG		DESC:Knowledge Crossed hammer and tongs	DOMAINS:ANY	KEY:Onatar		FACT:Title|Onatar, god of craft	FACTSET:Pantheon|Eberron
+#The Dark Six Alignment Suggested Domains Symbol								
+The Devourer	ALIGN:NE		DESC:Tempest Bundle of five sharpened bones	DOMAINS:ANY	KEY:The Devourer		FACT:Title|The Devourer, god of nature's wrath	FACTSET:Pantheon|Eberron
+The Fury	ALIGN:NE		DESC:War Winged wyrm with woman's head and upper body	DOMAINS:ANY	KEY:The Fury		FACT:Title|The Fury, goddess of wrath and madness	FACTSET:Pantheon|Eberron
+The Keeper	ALIGN:NE		DESC:Death Dragonshard stone in the shape of a fang	DOMAINS:ANY	KEY:The Keeper		FACT:Title|The Keeper, god of greed and death	FACTSET:Pantheon|Eberron
+The Mockery	ALIGN:NE		DESC:War Five blood-spattered tools	DOMAINS:ANY	KEY:The Mockery		FACT:Title|The Mockery, god of violence and treachery	FACTSET:Pantheon|Eberron
+The Shadow	ALIGN:CE		DESC:Knowledge Obsidian tower	DOMAINS:ANY	KEY:The Shadow		FACT:Title|The Shadow, god of dark magic	FACTSET:Pantheon|Eberron
+The Traveler	ALIGN:CN		DESC:Knowledge, Trickery Four crossed, rune-inscribed bones	DOMAINS:ANY	KEY:The Traveler		FACT:Title|The Traveler, deity of chaos and change	FACTSET:Pantheon|Eberron
+#Other Faiths of Eberron Alignment Suggested Domains Symbol								
+The Silver Flame	ALIGN:LG		DESC:Life, Light, War Flame drawn on silver or molded from silver	DOMAINS:ANY	KEY:The Silver Flame		FACT:Title|The Silver Flame, deity of protection and good	FACTSET:Pantheon|Eberron
+The Blood of Vol	ALIGN:LN		DESC:Death, Life Stylized dragon skull on red teardrop gem	DOMAINS:ANY	KEY:The Blood of Vol		FACT:Title|The Blood of Vol, philosophy of immortality and undeath	FACTSET:Pantheon|Eberron
+Cults of the Dragon Below	ALIGN:NE		DESC:Trickery Varies	DOMAINS:ANY	KEY:Cults of the Dragon Below		FACT:Title|Cults of the Dragon Below, deities of madness	FACTSET:Pantheon|Eberron
+The Path of Light	ALIGN:LN		DESC:Life, Light Brilliant crystal	DOMAINS:ANY	KEY:The Path of Light		FACT:Title|The Path of Light, philosophy of light and self-improvement	FACTSET:Pantheon|Eberron
+The Undying Court	ALIGN:NG		DESC:Knowledge, Life Varies	DOMAINS:ANY	KEY:The Undying Court		FACT:Title|The Undying Court, elven ancestors	FACTSET:Pantheon|Eberron
+The Spirits of the Past	ALIGN:CG		DESC:War Varies	DOMAINS:ANY	KEY:The Spirits of the Past		FACT:Title|The Spirits of the Past, elven ancestors	FACTSET:Pantheon|Eberron
+								
+# Nonhuman Deities								
+#Deity Alignment Suggested Domains Symbol								
+Bahamut	ALIGN:LG		DESC:Life, War Dragon's head in profile	DOMAINS:ANY	KEY:Bahamut		FACT:Title|Bahamut, dragon god of good	FACTSET:Pantheon|Nonhuman Deities
+Blibdoolpoolp	ALIGN:NE		DESC:Death Lobster head or black pearl	DOMAINS:ANY	KEY:Blibdoolpoolp		FACT:Title|Blibdoolpoolp, kuo-toa goddess	FACTSET:Pantheon|Nonhuman Deities
+Corellon Larethian	ALIGN:CG		DESC:Light Quarter moon or starburst	DOMAINS:ANY	KEY:Corellon Larethian		FACT:Title|Corellon Larethian, elf deity of art and magic	FACTSET:Pantheon|Nonhuman Deities
+Deep Sashelas	ALIGN:CG		DESC:Nature, Tempest Dolphin	DOMAINS:ANY	KEY:Deep Sashelas		FACT:Title|Deep Sashelas, elf god of the sea	FACTSET:Pantheon|Nonhuman Deities
+Eadro	ALIGN:TN		DESC:Nature, Tempest Spiral design	DOMAINS:ANY	KEY:Eadro		FACT:Title|Eadro, merfolk deity of the sea	FACTSET:Pantheon|Nonhuman Deities
+Garl Glittergold	ALIGN:LG		DESC:Trickery Gold nugget	DOMAINS:ANY	KEY:Garl Glittergold		FACT:Title|Garl Glittergold, gnome god of trickery and wiles	FACTSET:Pantheon|Nonhuman Deities
+Grolantor	ALIGN:CE		DESC:War Wooden club	DOMAINS:ANY	KEY:Grolantor		FACT:Title|Grolantor, hill giant god of war	FACTSET:Pantheon|Nonhuman Deities
+Gruumsh	ALIGN:CE		DESC:Tempest, War Unblinking eye	DOMAINS:ANY	KEY:Gruumsh		FACT:Title|Gruumsh, orc god of storms and war	FACTSET:Pantheon|Nonhuman Deities
+Hruggek	ALIGN:CE		DESC:War Morningstar	DOMAINS:ANY	KEY:Hruggek		FACT:Title|Hruggek, bugbear god of violence	FACTSET:Pantheon|Nonhuman Deities
+Kurtulmak	ALIGN:LE		DESC:War Gnome skull	DOMAINS:ANY	KEY:Kurtulmak		FACT:Title|Kurtulmak, kobold god of war and mining	FACTSET:Pantheon|Nonhuman Deities
+Laogzed	ALIGN:CE		DESC:Death Image of the lizard/toad god	DOMAINS:ANY	KEY:Laogzed		FACT:Title|Laogzed, troglodyte god of hunger	FACTSET:Pantheon|Nonhuman Deities
+Lolth	ALIGN:CE		DESC:Trickery Spider	DOMAINS:ANY	KEY:Lolth		FACT:Title|Lolth, drow goddess of spiders	FACTSET:Pantheon|Nonhuman Deities
+Maglubiyet	ALIGN:LE		DESC:War Bloody axe	DOMAINS:ANY	KEY:Maglubiyet		FACT:Title|Maglubiyet, goblinoid god of war	FACTSET:Pantheon|Nonhuman Deities
+Moradin	ALIGN:LG		DESC:Knowledge Hammer and anvil	DOMAINS:ANY	KEY:Moradin		FACT:Title|Moradin, dwarf god of creation	FACTSET:Pantheon|Nonhuman Deities
+Rillifane Rallathil	ALIGN:CG		DESC:Nature Oak	DOMAINS:ANY	KEY:Rillifane Rallathil		FACT:Title|Rillifane Rallathil, wood elf god of nature	FACTSET:Pantheon|Nonhuman Deities
+Sehanine Moonbow	ALIGN:CG		DESC:Knowledge Crescent moon	DOMAINS:ANY	KEY:Sehanine Moonbow		FACT:Title|Sehanine Moonbow, elf goddess of the moon	FACTSET:Pantheon|Nonhuman Deities
+Sekolah	ALIGN:LE		DESC:Nature, Tempest Shark	DOMAINS:ANY	KEY:Sekolah		FACT:Title|Sekolah, sahuagin god of the hunt	FACTSET:Pantheon|Nonhuman Deities
+Semuanya	ALIGN:TN		DESC:Life Egg	DOMAINS:ANY	KEY:Semuanya		FACT:Title|Semuanya, lizardfolk deity of survival	FACTSET:Pantheon|Nonhuman Deities
+Skerrit	ALIGN:TN		DESC:Nature Oak growing from acorn	DOMAINS:ANY	KEY:Skerrit		FACT:Title|Skerrit, centaur and satyr god of nature	FACTSET:Pantheon|Nonhuman Deities
+Skoraeus Stonebones	ALIGN:TN		DESC:Knowledge Stalactite	DOMAINS:ANY	KEY:Skoraeus Stonebones		FACT:Title|Skoraeus Stonebones, god of stone giants and art	FACTSET:Pantheon|Nonhuman Deities
+Surtur	ALIGN:LE		DESC:Knowledge, War Flaming sword	DOMAINS:ANY	KEY:Surtur		FACT:Title|Surtur, god of fire giants and craft	FACTSET:Pantheon|Nonhuman Deities
+Thrym	ALIGN:CE		DESC:War White double-bladed axe	DOMAINS:ANY	KEY:Thrym		FACT:Title|Thrym, god of frost giants and strength	FACTSET:Pantheon|Nonhuman Deities
+Tiamat	ALIGN:LE		DESC:Trickery Dragon head with five claw marks	DOMAINS:ANY	KEY:Tiamat		FACT:Title|Tiamat, dragon goddess of evil	FACTSET:Pantheon|Nonhuman Deities
+Yondalla	ALIGN:LG		DESC:Life Shield	DOMAINS:ANY	KEY:Yondalla		FACT:Title|Yondalla, halfling goddess of fertility and protection	FACTSET:Pantheon|Nonhuman Deities
+								
+# Celtic Deities								
+#Deity Alignment Suggested Domains Symbol								
+The Daghdha	ALIGN:CG		DESC:Nature, Trickery Bubbling cauldron or shield	DOMAINS:ANY	KEY:Celtic ~ The Daghdha		FACT:Title|The Daghdha, god of weather and crops	FACTSET:Pantheon|Celtic
+Arawn	ALIGN:NE		DESC:Life, Death Black star on gray background	DOMAINS:ANY	KEY:Celtic ~ Arawn		FACT:Title|Arawn, god of life and death	FACTSET:Pantheon|Celtic
+Belenus	ALIGN:NG		DESC:Light Solar disk and standing stones	DOMAINS:ANY	KEY:Celtic ~ Belenus		FACT:Title|Belenus, god of sun, light, and warmth	FACTSET:Pantheon|Celtic
+Brigantia	ALIGN:NG		DESC:Life Footbridge	DOMAINS:ANY	KEY:Celtic ~ Brigantia		FACT:Title|Brigantia, goddess of rivers and livestock	FACTSET:Pantheon|Celtic
+Diancecht	ALIGN:LG		DESC:Life Crossed oak and mistletoe branches	DOMAINS:ANY	KEY:Celtic ~ Diancecht		FACT:Title|Diancecht, god of medicine and healing	FACTSET:Pantheon|Celtic
+Dunatis	ALIGN:TN		DESC:Nature Red sun-capped mountain peak	DOMAINS:ANY	KEY:Celtic ~ Dunatis		FACT:Title|Dunatis, god of mountains and peaks	FACTSET:Pantheon|Celtic
+Goibhniu	ALIGN:NG		DESC:Knowledge, Life Giant mallet over sword	DOMAINS:ANY	KEY:Celtic ~ Goibhniu		FACT:Title|Goibhniu, god of smiths and healing	FACTSET:Pantheon|Celtic
+Lugh	ALIGN:CN		DESC:Knowledge, Life Pair of long hands	DOMAINS:ANY	KEY:Celtic ~ Lugh		FACT:Title|Lugh, god of arts, travel, and commerce	FACTSET:Pantheon|Celtic
+Manannan mac Lir	ALIGN:LN		DESC:Nature, Tempest Wave of white water on green	DOMAINS:ANY	KEY:Celtic ~ Manannan mac Lir		FACT:Title|Manannan mac Lir, god of oceans and sea creatures	FACTSET:Pantheon|Celtic
+Math Mathonwy	ALIGN:NE		DESC:Knowledge Staff	DOMAINS:ANY	KEY:Celtic ~ Math Mathonwy		FACT:Title|Math Mathonwy, god of magic	FACTSET:Pantheon|Celtic
+Morrigan	ALIGN:CE		DESC:War Two crossed spears	DOMAINS:ANY	KEY:Celtic ~ Morrigan		FACT:Title|Morrigan, goddess of battle	FACTSET:Pantheon|Celtic
+Nuada	ALIGN:TN		DESC:War Silver hand on black background	DOMAINS:ANY	KEY:Celtic ~ Nuada		FACT:Title|Nuada, god of war and warriors	FACTSET:Pantheon|Celtic
+Oghma	ALIGN:NG		DESC:Knowledge Unfurled scroll	DOMAINS:ANY	KEY:Celtic ~ Oghma		FACT:Title|Oghma, god of speech and writing	FACTSET:Pantheon|Celtic
+Silvanus	ALIGN:TN		DESC:Nature Summer oak tree	DOMAINS:ANY	KEY:Celtic ~ Silvanus		FACT:Title|Silvanus, god of nature and forests	FACTSET:Pantheon|Celtic
+								
+# Greek Deities								
+#Deity Alignment Suggested Domains Symbol								
+Zeus	ALIGN:TN		DESC:Tempest Fist full of lightning bolts	DOMAINS:ANY	KEY:Zeus		FACT:Title|Zeus, god of the sky, ruler of the gods	FACTSET:Pantheon|Greek
+Aphrodite	ALIGN:CG		DESC:Light Sea shell	DOMAINS:ANY	KEY:Aphrodite		FACT:Title|Aphrodite, goddess of love and beauty	FACTSET:Pantheon|Greek
+Apollo	ALIGN:CG		DESC:Knowledge, Life, Light Lyre	DOMAINS:ANY	KEY:Apollo		FACT:Title|Apollo, god of light, music, and healing	FACTSET:Pantheon|Greek
+Ares	ALIGN:CE		DESC:War Spear	DOMAINS:ANY	KEY:Ares		FACT:Title|Ares, god of war and strife	FACTSET:Pantheon|Greek
+Artemis	ALIGN:NG		DESC:Life, Nature Bow and arrow on lunar disk	DOMAINS:ANY	KEY:Artemis		FACT:Title|Artemis, goddess of hunting and childbirth	FACTSET:Pantheon|Greek
+Athena	ALIGN:LG		DESC:Knowledge, War Owl	DOMAINS:ANY	KEY:Athena		FACT:Title|Athena, goddess of wisdom and civilization	FACTSET:Pantheon|Greek
+Demeter	ALIGN:NG		DESC:Life Mare's head	DOMAINS:ANY	KEY:Demeter		FACT:Title|Demeter, goddess of agriculture	FACTSET:Pantheon|Greek
+Dionysus	ALIGN:CN		DESC:Life Thyrsus (staff tipped with pine cone)	DOMAINS:ANY	KEY:Dionysus		FACT:Title|Dionysus, god of mirth and wine	FACTSET:Pantheon|Greek
+Hades	ALIGN:LE		DESC:Death Black ram	DOMAINS:ANY	KEY:Hades		FACT:Title|Hades, god of the underworld	FACTSET:Pantheon|Greek
+Hecate	ALIGN:CE		DESC:Knowledge, Trickery Setting moon	DOMAINS:ANY	KEY:Hecate		FACT:Title|Hecate, goddess of magic and the moon	FACTSET:Pantheon|Greek
+Hephaestus	ALIGN:NG		DESC:Knowledge Hammer and anvil	DOMAINS:ANY	KEY:Hephaestus		FACT:Title|Hephaestus, god of smithing and craft	FACTSET:Pantheon|Greek
+Hera	ALIGN:CN		DESC:Trickery Fan of peacock feathers	DOMAINS:ANY	KEY:Hera		FACT:Title|Hera, goddess of marriage and intrigue	FACTSET:Pantheon|Greek
+Hercules	ALIGN:CG		DESC:Tempest, War Lion's head	DOMAINS:ANY	KEY:Hercules		FACT:Title|Hercules, god of strength and adventure	FACTSET:Pantheon|Greek
+Hermes	ALIGN:CG		DESC:Trickery Caduceus (winged staff and serpents)	DOMAINS:ANY	KEY:Hermes		FACT:Title|Hermes, god of travel and commerce	FACTSET:Pantheon|Greek
+Hestia	ALIGN:NG		DESC:Life Hearth	DOMAINS:ANY	KEY:Hestia		FACT:Title|Hestia, goddess of home and family	FACTSET:Pantheon|Greek
+Nike	ALIGN:LN		DESC:War Winged woman	DOMAINS:ANY	KEY:Nike		FACT:Title|Nike, goddess of victory	FACTSET:Pantheon|Greek
+Pan	ALIGN:CN		DESC:Nature Syrinx (pan pipes)	DOMAINS:ANY	KEY:Pan		FACT:Title|Pan, god of nature	FACTSET:Pantheon|Greek
+Poseidon	ALIGN:CN		DESC:Tempest Trident	DOMAINS:ANY	KEY:Poseidon		FACT:Title|Poseidon, god of the sea and earthquakes	FACTSET:Pantheon|Greek
+Tyche	ALIGN:TN		DESC:Trickery Red pentagram	DOMAINS:ANY	KEY:Tyche		FACT:Title|Tyche, goddess of good fortune	FACTSET:Pantheon|Greek
+								
+# Egyptian Deities								
+#Deity Alignment Suggested Domains Symbol								
+Re-Horakhty	ALIGN:LG		DESC:Life, Light Solar disk encircled by serpent	DOMAINS:ANY	KEY:Re-Horakhty		FACT:Title|Re-Horakhty, god of the sun, ruler of the gods	FACTSET:Pantheon|Egyptian
+Anubis	ALIGN:LN		DESC:Death Black jackal	DOMAINS:ANY	KEY:Anubis		FACT:Title|Anubis, god of judgment and death	FACTSET:Pantheon|Egyptian
+Apep	ALIGN:NE		DESC:Trickery Flaming snake	DOMAINS:ANY	KEY:Apep		FACT:Title|Apep, god of evil, fire, and serpents	FACTSET:Pantheon|Egyptian
+Bast	ALIGN:CG		DESC:War Cat	DOMAINS:ANY	KEY:Bast		FACT:Title|Bast, goddess of cats and vengeance	FACTSET:Pantheon|Egyptian
+Bes	ALIGN:CN		DESC:Trickery Image of the misshapen deity	DOMAINS:ANY	KEY:Bes		FACT:Title|Bes, god of luck and music	FACTSET:Pantheon|Egyptian
+Hathor	ALIGN:NG		DESC:Life, Light Horned cow's head with lunar disk	DOMAINS:ANY	KEY:Hathor		FACT:Title|Hathor, goddess of love, music, and motherhood	FACTSET:Pantheon|Egyptian
+Imhotep	ALIGN:NG		DESC:Knowledge Step pyramid	DOMAINS:ANY	KEY:Imhotep		FACT:Title|Imhotep, god of crafts and medicine	FACTSET:Pantheon|Egyptian
+Isis	ALIGN:NG		DESC:Knowledge, Life Ankh and star	DOMAINS:ANY	KEY:Isis		FACT:Title|Isis, goddess of fertility and magic	FACTSET:Pantheon|Egyptian
+Nephthys	ALIGN:CG		DESC:Death Horns around a lunar disk	DOMAINS:ANY	KEY:Nephthys		FACT:Title|Nephthys, goddess of death and grief	FACTSET:Pantheon|Egyptian
+Osiris	ALIGN:LG		DESC:Life, Nature Crook and flail	DOMAINS:ANY	KEY:Osiris		FACT:Title|Osiris, god of nature and the underworld	FACTSET:Pantheon|Egyptian
+Ptah	ALIGN:LN		DESC:Knowledge Bull	DOMAINS:ANY	KEY:Ptah		FACT:Title|Ptah, god of crafts, knowledge, and secrets	FACTSET:Pantheon|Egyptian
+Set	ALIGN:CE		DESC:Death, Tempest, Trickery Coiled cobra	DOMAINS:ANY	KEY:Set		FACT:Title|Set, god of darkness and desert storms	FACTSET:Pantheon|Egyptian
+Sobek	ALIGN:LE		DESC:Nature, Tempest Crocodile head with horns and plumes	DOMAINS:ANY	KEY:Sobek		FACT:Title|Sobek, god of water and crocodiles	FACTSET:Pantheon|Egyptian
+Thoth	ALIGN:TN		DESC:Knowledge Ibis	DOMAINS:ANY	KEY:Thoth		FACT:Title|Thoth, god of knowledge and wisdom	FACTSET:Pantheon|Egyptian
+								
+# Norse Deities								
+#Deity Alignment Suggested Domains Symbol								
+Odin	ALIGN:NG		DESC:Knowledge, War Watching blue eye	DOMAINS:ANY	KEY:Norse ~ Odin		FACT:Title|Odin, god of knowledge and war	FACTSET:Pantheon|Norse
+Aegir	ALIGN:NE		DESC:Tempest Rough ocean waves	DOMAINS:ANY	KEY:Norse ~ Aegir		FACT:Title|Aegir, god of the sea and storms	FACTSET:Pantheon|Norse
+Balder	ALIGN:NG		DESC:Life, Light Gem-encrusted silver chalice	DOMAINS:ANY	KEY:Norse ~ Balder		FACT:Title|Balder, god of beauty and poetry	FACTSET:Pantheon|Norse
+Forseti	ALIGN:TN		DESC:Light Head of a bearded man	DOMAINS:ANY	KEY:Norse ~ Forseti		FACT:Title|Forseti, god of justice and law	FACTSET:Pantheon|Norse
+Frey	ALIGN:NG		DESC:Life, Light Ice-blue greatsword	DOMAINS:ANY	KEY:Norse ~ Frey		FACT:Title|Frey, god of fertility and the sun	FACTSET:Pantheon|Norse
+Freya	ALIGN:NG		DESC:Life Falcon	DOMAINS:ANY	KEY:Norse ~ Freya		FACT:Title|Freya, goddess of fertility and love	FACTSET:Pantheon|Norse
+Frigga	ALIGN:TN		DESC:Life, Light Cat	DOMAINS:ANY	KEY:Norse ~ Frigga		FACT:Title|Frigga, goddess of birth and fertility	FACTSET:Pantheon|Norse
+Heimdall	ALIGN:LG		DESC:Light, War Curling musical horn	DOMAINS:ANY	KEY:Norse ~ Heimdall		FACT:Title|Heimdall, god of watchfulness and loyalty	FACTSET:Pantheon|Norse
+Hel	ALIGN:NE		DESC:Death Woman's face, rotting on one side	DOMAINS:ANY	KEY:Norse ~ Hel		FACT:Title|Hel, goddess of the underworld	FACTSET:Pantheon|Norse
+Hermod	ALIGN:CN		DESC:Trickery Winged scroll	DOMAINS:ANY	KEY:Norse ~ Hermod		FACT:Title|Hermod, god of luck	FACTSET:Pantheon|Norse
+Loki	ALIGN:CE		DESC:Trickery Flame	DOMAINS:ANY	KEY:Norse ~ Loki		FACT:Title|Loki, god of thieves and trickery	FACTSET:Pantheon|Norse
+Njord	ALIGN:NG		DESC:Nature, Tempest Gold coin	DOMAINS:ANY	KEY:Norse ~ Njord		FACT:Title|Njord, god of sea and wind	FACTSET:Pantheon|Norse
+Odur	ALIGN:CG		DESC:Light Solar disk	DOMAINS:ANY	KEY:Norse ~ Odur		FACT:Title|Odur, god of light and the sun	FACTSET:Pantheon|Norse
+Sif	ALIGN:CG		DESC:War Upraised sword	DOMAINS:ANY	KEY:Norse ~ Sif		FACT:Title|Sif, goddess of war	FACTSET:Pantheon|Norse
+Skadi	ALIGN:TN		DESC:Nature Mountain peak	DOMAINS:ANY	KEY:Norse ~ Skadi		FACT:Title|Skadi, god of earth and mountains	FACTSET:Pantheon|Norse
+Surtur	ALIGN:LE		DESC:War Flaming sword	DOMAINS:ANY	KEY:Norse ~ Surtur		FACT:Title|Surtur, god of fire giants and war	FACTSET:Pantheon|Norse
+Thor	ALIGN:CG		DESC:Tempest, War Hammer	DOMAINS:ANY	KEY:Norse ~ Thor		FACT:Title|Thor, god of storms and thunder	FACTSET:Pantheon|Norse
+Thrym	ALIGN:CE		DESC:War White double-bladed axe	DOMAINS:ANY	KEY:Norse ~ Thrym		FACT:Title|Thrym, god of fire giants and cold	FACTSET:Pantheon|Norse
+Tyr	ALIGN:LN		DESC:Knowledge, War Sword	DOMAINS:ANY	KEY:Norse ~ Tyr		FACT:Title|Tyr, god of courage and strategy	FACTSET:Pantheon|Norse
+Uller	ALIGN:CN		DESC:Nature Longbow	DOMAINS:ANY	KEY:Norse ~ Uller		FACT:Title|Uller, god of hunting and winter	FACTSET:Pantheon|Norse
+								
+None	FACT:Symbol|None	DEITYWEAP:ANY	GROUP:UNSELECTED					
