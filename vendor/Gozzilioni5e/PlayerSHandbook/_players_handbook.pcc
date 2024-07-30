@@ -32,9 +32,12 @@ ABILITY:phb_abilities_races.lst
 ABILITYCATEGORY:phb_abilitycategories.lst
 BIOSET:phb_biosettings.lst
 CLASS:phb_classes.lst
+COMPANIONMOD:phb_companionmods.lst
 DEITY:phb_deities.lst
 DOMAIN:phb_domains.lst
+EQUIPMENT:phb_equip.lst
 EQUIPMOD:phb_equipmods.lst
+ABILITY:phb_feats.lst
 KIT:phb_kits.lst
 LANGUAGE:phb_languages.lst
 ARMORPROF:phb_profs_armor.lst
@@ -42,6 +45,7 @@ SHIELDPROF:phb_profs_shield.lst
 WEAPONPROF:phb_profs_weapon.lst
 RACE:phb_races.lst
 SKILL:phb_skills.lst
+SPELL:phb_spells.lst
 TEMPLATE:phb_templates.lst
 
 # BIOSET:ph_biosettings.lst

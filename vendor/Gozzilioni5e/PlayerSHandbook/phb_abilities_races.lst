@@ -1,5 +1,5 @@
-SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2014-08
-
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2014-08																													
+																																
 ###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										Source Page
 Dwarf	CATEGORY:Race	TYPE:Special		ABILITY:Dwarf Race Trait|AUTOMATIC|TYPE=Base Dwarf Trait										BONUS:ABILITYPOOL|Dwarf Subrace|1																		SOURCEPAGE:PHB
 Ability Score Increase	CATEGORY:Special Ability	TYPE:Race Trait.Dwarf Race Trait.Base Dwarf Trait.SpecialQuality	VISIBLE:YES	DESC:Your Constitution score increases by 2.	KEY:Dwarf ~ Ability Score Increase																										SORTKEY:1_Race	SOURCEPAGE:PHB
@@ -120,7 +120,7 @@ Speak with Small Beasts	CATEGORY:Special Ability	TYPE:Race Trait.Gnome Race Trai
 																																
 Rock	CATEGORY:Internal	TYPE:GnomeSubrace			KEY:Gnome Subrace ~ Rock																		TEMPLATE:Subrace ~ Rock Gnome	ABILITY:Gnome Race Trait|AUTOMATIC|Rock Gnome ~ Ability Score Increase								
 Ability Score Increase	CATEGORY:Special Ability	TYPE:Race Trait.Gnome Race Trait.SpecialQuality	VISIBLE:YES	DESC:Your Constitution score increases by 1.	KEY:Rock Gnome ~ Ability Score Increase									BONUS:STAT|CON|1|TYPE=Racial																	SORTKEY:2_Race	SOURCEPAGE:PHB
-Artificer’s Lore	CATEGORY:Special Ability	TYPE:Race Trait.Gnome Race Trait.SpecialQuality	VISIBLE:YES	DESC:Whenever you make an Intelligence (History) check related to magic items, alchemical objects, ar technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally appIy. Bonus +%1.|2*Proficiency_Bonus	KEY:Rock Gnome ~ Artificer’s Lore																										SORTKEY:2_Race	SOURCEPAGE:PHB
+Artificer's Lore	CATEGORY:Special Ability	TYPE:Race Trait.Gnome Race Trait.SpecialQuality	VISIBLE:YES	DESC:Whenever you make an Intelligence (History) check related to magic items, alchemical objects, ar technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally appIy. Bonus +%1.|2*Proficiency_Bonus	KEY:Rock Gnome ~ Artificer's Lore																										SORTKEY:2_Race	SOURCEPAGE:PHB
 Tinker	CATEGORY:Special Ability	TYPE:Race Trait.Gnome Race Trait.SpecialQuality	VISIBLE:YES	DESC:You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materiaIs to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materiaIs used to create it. You can have up to three such devices active at a time.	KEY:Rock Gnome ~ Tinker									BONUS:ABILITYPOOL|Gnome Artisan's Tool Proficiency|1																	SORTKEY:2_Race	SOURCEPAGE:PHB
 																																
 																																
@@ -154,3 +154,14 @@ Smith's Tools	CATEGORY:Special Ability	TYPE:DwarfToolProficiency.SpecialQuality	
 Brewer's Supplies	CATEGORY:Special Ability	TYPE:DwarfToolProficiency.SpecialQuality	VISIBLE:YES	DESC:Proficient with Artisan Brewer's Supplies.	KEY:Tool Proficiency ~ Brewer's Supplies																										SORTKEY:1_Race	SOURCEPAGE:PHB
 Mason's Tools	CATEGORY:Special Ability	TYPE:DwarfToolProficiency.SpecialQuality	VISIBLE:YES	DESC:Proficient with Artisan Mason's Tools.	KEY:Tool Proficiency ~ Mason's Tools																										SORTKEY:1_Race	SOURCEPAGE:PHB
 Tinker's Tools	CATEGORY:Special Ability	TYPE:GnomeToolProficiency.SpecialQuality	VISIBLE:YES	DESC:Proficient with Artisan Tinker's Tools.	KEY:Tool Proficiency ~ Tinker's Tools																										SORTKEY:1_Race	SOURCEPAGE:PHB
+																																
+																																
+###Block:Creatures																																
+Racial Traits ~ Bat	CATEGORY:Internal	ABILITY:Special Ability|AUTOMATIC|TYPE=Bat Race Trait																														
+Echolocation	CATEGORY:Special Ability	TYPE:Race Trait.Bat Race Trait.Special Quality	VISIBLE:YES	DESC:While it can’t hear, the bat has no blindsight.	KEY:Animal (Bat) ~ Echolocation									BONUS:VAR|BlindsightRange|60																	SORTKEY:1_Race	SOURCEPAGE:PHB
+Keen Hearing	CATEGORY:Special Ability	TYPE:Race Trait.Bat Race Trait.Special Quality	VISIBLE:YES	DESC:The bat has advantage on Wisdom (Perception) checks that rely on hearing.	KEY:Animal (Bat) ~ Keen Hearing																											
+																																
+Racial Traits ~ Black Bear	CATEGORY:Internal	ABILITY:Special Ability|AUTOMATIC|TYPE=Black Bear Race Trait																														
+Skills	CATEGORY:Special Ability	TYPE:Race Trait.Black Bear Race Trait.Special Quality	VISIBLE:YES	DESC:Perception.	KEY:Animal (Black Bear) ~ Skills																		ABILITY:SKILL|AUTOMATIC|Perception								SORTKEY:1_Race	SOURCEPAGE:PHB
+Keen Smell	CATEGORY:Special Ability	TYPE:Race Trait.Black Bear Race Trait.Special Quality	VISIBLE:YES	DESC:The bear has advantage on Wisdom (Perception) checks that rely on smell.	KEY:Animal (Black Bear) ~ Keen Smell																										SORTKEY:1_Race	SOURCEPAGE:PHB
+Multiattack	CATEGORY:Special Ability	TYPE:Race Trait.Black Bear Race Trait.Special Attack	VISIBLE:YES	DESC:The bear makes two attacks, one with its bite and one with its claws.	KEY:Animal (Black Bear) ~ Multiattack																										SORTKEY:1_Race	SOURCEPAGE:PHB

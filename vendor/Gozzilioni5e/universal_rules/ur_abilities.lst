@@ -366,11 +366,11 @@ CATEGORY=Internal|Movement Mode.MOD	ABILITY:Internal|AUTOMATIC|Movement Mode ~ B
 
 ###Block - For setting up correct display of movement. Do not use PREMOVE to detect these movements. It does not detect movement from BONUS tags.
 # Ability Name		Category of Ability	Add to base move
-Movement Mode ~ Walk	CATEGORY:Internal		BONUS:MOVEADD|TYPE.Walk|Move_Walk
-Movement Mode ~ Swim	CATEGORY:Internal		BONUS:MOVEADD|TYPE.Swim|Move_Swim
-Movement Mode ~ Fly	CATEGORY:Internal		BONUS:MOVEADD|TYPE.Fly|Move_Fly
-Movement Mode ~ Climb	CATEGORY:Internal		BONUS:MOVEADD|TYPE.Climb|Move_Climb
-Movement Mode ~ Burrow	CATEGORY:Internal		BONUS:MOVEADD|TYPE.Burrow|Move_Burrow
+Movement Mode ~ Walk	CATEGORY:Internal	MOVE:Walk,0	BONUS:MOVEADD|TYPE.Walk|Move_Walk
+Movement Mode ~ Swim	CATEGORY:Internal	MOVE:Swim,0	BONUS:MOVEADD|TYPE.Swim|Move_Swim
+Movement Mode ~ Fly	CATEGORY:Internal	MOVE:Fly,0	BONUS:MOVEADD|TYPE.Fly|Move_Fly
+Movement Mode ~ Climb	CATEGORY:Internal	MOVE:Climb,0	BONUS:MOVEADD|TYPE.Climb|Move_Climb
+Movement Mode ~ Burrow	CATEGORY:Internal	MOVE:Burrow,0	BONUS:MOVEADD|TYPE.Burrow|Move_Burrow
 
 ###Block: Class Progressions
 # Ability Name	Unique Key					SORTKEY			Category of Ability	Type								Var. Must Be Lower	Define			Stackable?	Multiple?	Choose		Bonus Ability Pool		Combat bonus				Stat bonus		Modify VAR				Cost

@@ -6,18 +6,18 @@ Stuffshot Arrow	TYPE:Ammunition.Standard.Arrow	COST:0.05	WT:0.15							EQMOD:STE
 
 ##Block:Goods
 Sangria of Salvation	TYPE:Goods.Vial.Consumable	WT:0.5	SPROP:A small bottle of deep crimson sangria, corked with a stopper of polished ebony. [Effect] Upon consumption, roll 1d20. [1-19] Nothing happens. [20] Cures vampirism.	SOURCEPAGE:KG
-Bedlamic Barrel	TPE:Goods.Consumable	WT:1	SPROP:A small, sealed barrel. Roll 1d4 as you open the barrel to determine what is inside. [1] Angry wasps. [2] Polyhedral dice. [3] Holy water. [4] Spoilt milk.	SOURCEPAGE:KG
+Bedlamic Barrel	TYPE:Goods.Consumable	WT:1	SPROP:A small, sealed barrel. Roll 1d4 as you open the barrel to determine what is inside. [1] Angry wasps. [2] Polyhedral dice. [3] Holy water. [4] Spoilt milk.	SOURCEPAGE:KG
 Apiarist's Amber Amulet	TYPE:Amulet	WT:0	SPROP:The Apiarist's Amber Amulet features a delicate honeycomb perfectly preserved within a golden drop of amber, hanging from a waxed leather cord. [Effect] Communicate with bees using yes/no questions.	SOURCEPAGE:KG
 Volatile Vial of Postalpyro	TYPE:Goods.Vial.Consumable	WT:0.5	SPROP:As you examine the murky contents, doubts about the potion's reliability creep into your mind. Roll 1d20 as you drink the potion to determine the effect. [1-10] All quills within a 5-mile radius ignite & any inks turn to water. [11-20] You can teleport an envelope to a desired location on touch. (1 day).	SOURCEPAGE:KG
 Bottleax Vial	TYPE:Goods.Vial.Consumable	WT:0.5	SPROP:A small vial with an even smaller hatchet wedged inside of it. [Effect] If the vial is smashed, the hatchet enlarges to a full-size hatchet.	SOURCEPAGE:KG
 Liquiflux Crystal	TYPE:Goods.Gem	WT:0.5	SPROP:A large turquoise gemstone. A liquid core sloshes around inside of it.	SOURCEPAGE:KG
 Frostbite Fryer Skiller	TYPE:Goods	WT:0.5	SPROP:A blue cast iron skillet. [Effect] The more heat that is applied, the colder it gets. [Duration] 6 minutes.	SOURCEPAGE:KG	EQMOD:CHARGED_ITEM_12|12
 Draught of Deathless Descent	TYPE:Goods.Vial.Poison	WT:0.5	SPROP:A potion encased in a smooth, obsidian bottle. A cushion is affixed to the base of the bottle. [Effect] You cannot die from fall damage. A would-be fatal fall instead reduces you to 1HP. [Duration] 1 day.
-Tinytide Traveler	TPE:Goods.Consumable	WT:0.5	SPROP:A small figurine of a rowboat. [Effect] Upon activation, permanently turns into a full-sized rowboat.	EQMOD:CHARGED_ITEM_1|1
+Tinytide Traveler	TYPE:Goods.Consumable	WT:0.5	SPROP:A small figurine of a rowboat. [Effect] Upon activation, permanently turns into a full-sized rowboat.	EQMOD:CHARGED_ITEM_1|1
 Pile O'Rancid Sausages	TYPE:Goods	WT:0.5	SPROP:5d20 rancid sausages	
 
 ##Block:Wondrous
-Sizzlecaster Rod	TYPE:Wondrous.Goods	WT:1	SPROP:A sleek, metallic fishing rod adorned with fiery red accents, it emits a faint heat. [Effect] Instantly cooks fish as they are reeled in. [Duration] 1 hour.	SOURCEPQAGE:KG	EQMOD:CHARGED_ITEM_20|20
+Sizzlecaster Rod	TYPE:Wondrous.Goods	WT:1	SPROP:A sleek, metallic fishing rod adorned with fiery red accents, it emits a faint heat. [Effect] Instantly cooks fish as they are reeled in. [Duration] 1 hour.	SOURCEPAGE:KG	EQMOD:CHARGED_ITEM_20|20
 Friendship Bracelet	TYPE:Wondrous	WT:0	SPROP:A bracelet made from woven dark crimson threads that shimmer with a faint, unsettling glow. [Effect] Instantly befriends a demon if you can manage to get it on their wrist. [Duration] Until the thin threads wear down and break.	SOURCEPAGE:KG
 Geoscriber Gloves	TYPE:Wondrous.Glove	WT:0	SPROP:A pair of snug-fitting gardening gloves, each with a steel-capped index finger. [Effect] Etch into any natural surface like it was wet clay. [Duration] 2 Minutes.	EQMOD:CHARGED_ITEM_12|12
 Everfull Pickle Pot	TYPE:Wondrous	WT:1	SPROP:A jar of 12 pickled gherkins. [Effect] Refills with pickles every dawn.

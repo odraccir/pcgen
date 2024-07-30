@@ -21,7 +21,7 @@ SHOWINMENU:YES
 RACE:*/_universal/races.lst
 
 PCC:universal_rules/_universal_rules.pcc
-PCC.houserules/_houserules.pcc
+PCC:houserules/_houserules.pcc
 PCC:PlayerSHandbook/_players_handbook.pcc
 
 PCC:Web/Kleptogoblicon/_kleptogoblicon.pcc

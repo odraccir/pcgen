@@ -250,6 +250,11 @@ Medium Armor Proficiency	KEY:Armor Proficiency ~ Medium	CATEGORY:Internal		TYPE:
 Heavy Armor Proficiency		KEY:Armor Proficiency ~ Heavy		CATEGORY:Internal		TYPE:ArmorProfHeavy																		AUTO:ARMORPROF|ARMORTYPE=HeavyArmor																																																																																																																																																											
 Shield Proficiency		KEY:Shield Proficiency			CATEGORY:Internal		TYPE:ShieldProf																										AUTO:SHIELDPROF|Shield																																																																																																																																																		
 
+Skill Disadvantage ~ Stealth	CATEGORY:Internal	ASPECT:SkillBonus|Armor - Disadvantage on Stealth
+Skill Disadvantage ~ Stealth (Medium Armor)	CATEGORY:Internal	ASPECT:SkillBonus|Armor - Disadvantage on Stealth
+Unproficient Armor	CATEGORY:Internal	ASPECT:SkillBonus|Armor - Disadvantage on STR and DEX skill checks, saving throws, and attacks. Can't cast spells.
+
+
 Weapon Proficiency		KEY:Weapon Proficiency			CATEGORY:Internal		TYPE:Weapon Proficiency						MULT:YES	CHOOSE:ABILITYSELECTION|Weapon|!PC[TYPE=Weapon Proficiency]												ABILITY:WEAPON|AUTOMATIC|%LIST
 
 #Equipment																																																																																																																																																																																			
