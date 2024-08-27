@@ -265,5 +265,5 @@ Holy Symbol (Emblem)		KIT:1|Holy Symbol (Emblem)
 Holy Symbol (Reliquary)		KIT:1|Holy Symbol (Reliquary)	
 
 Awaken	TYPE:Spell Effect	TEMPLATE:CHOOSE:Awakened Beast|Awakened Plant	VISIBLE:YES	SUBRACE:Awakened	!PRESTAT:1,INT=3	PRESIZELTEQ:H	BONUS:ABILITYPOOL|Language Selection|1	
-Awakened Beast	PRERACE:1,RACETYPE=Beast	DEFINESTAT:STAT|INT	
-Awakened Plant	PRERACE:1,RACETYPE=Plant	DEFINESTAT:STAT|INT	
+Awakened Beast	VISIBLE:NO	PRERACE:1,RACETYPE=Beast	DEFINESTAT:STAT|INT
+Awakened Plant	VISIBLE:NO	PRERACE:1,RACETYPE=Plant	DEFINESTAT:STAT|INT	

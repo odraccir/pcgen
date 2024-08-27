@@ -7,7 +7,7 @@ SOURCELONG:Houserules
 SOURCESHORT:H
 SOURCEWEB:http://www.gozzilioni.net
 ISOGL:NO
-COPYRIGHT:Copyright 2024, Gozzilioni 
+COPYRIGHT:Copyright 2024, Gozzilioni
 PUBNAMELONG:Gozzilioni
 PUBNAMESHORT:Gozzilioni
 PUBNAMEWEB:http://www.gozzilioni.net
@@ -21,6 +21,7 @@ INFOTEXT:D&D 5e Gozzilioni Houserules (include implication not written in offici
 
 PRECAMPAIGN:1,BOOKTYPE=Core Rules
 
+ABILITY:h_abilities.lst
 EQUIPMOD:h_equipmods.lst
 
 # ENTRY DATE: 2015-08

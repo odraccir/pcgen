@@ -1,5 +1,5 @@
-SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2014-08					
-								
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2014-08
+
 # Class Name	HD:	TYPE:PC.Base	DEFINE:	BONUS:VAR|				
 # Class Name	Multiple Requirements							
 # Class Name	SPELLSTAT:	MEMORIZE:	KNOWNSPELLS:	BONUS:CASTERLEVEL|	BONUS:VAR|SpellCasterTotalLVL|	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|	BONUS:DOMAIN|NUMBER|

@@ -1,5 +1,5 @@
-SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2014-08					
-								
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2014-08
+
 #	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		PANTHEON:Greyhawk	SOURCEPAGE:CD	
 Auril	ALIGN:NE		DESC:Nature, Tempest Six-pointed snowflake	DOMAINS:ANY	KEY:Auril		FACT:Title|Auril, goddess of winter	FACTSET:Pantheon|Forgotten Realms
 Azuth	ALIGN:LN		DESC:Knowledge Left hand pointing upward, outlined in fire	DOMAINS:ANY	KEY:Azuth		FACT:Title|Azuth, god of wizards	FACTSET:Pantheon|Forgotten Realms

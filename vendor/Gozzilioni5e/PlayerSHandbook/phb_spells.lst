@@ -1,5 +1,5 @@
-SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2014-08																							
-																										
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2014-08
+
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus	
 Acid Splash				TYPE:Spell	SCHOOL:Conjuration				COMPS:V, S	CASTTIME:1 action	RANGE:60 feet		DURATION:Instantaneous	SAVEINFO:Dexterity		DESC:You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet o f each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage. This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).	SOURCEPAGE:PHB									
 Aid				TYPE:Spell	SCHOOL:Abjuration				COMPS:V, S, M	CASTTIME:1 action	RANGE:30 feet		DURATION:8 hours			DESC:Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration. &nl; At Higher Levels. When you cast this spell using a spell slot o f 3rd level or higher, a target's hit points increase by an additional 5 for each slot level above 2nd. &nl; Material components: a tiny strip of white cloth.	SOURCEPAGE:PHB									

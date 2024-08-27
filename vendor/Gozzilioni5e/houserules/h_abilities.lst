@@ -1,0 +1,8 @@
+SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+
+CATEGORY=Internal|Default.MOD	DEFINE:BardingAllowed|0	BONUS:VAR|BardingAllowed|1|TYPE=Base|PRERACE:1,RACESUBTYPE=Mount
+
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Passive Investigation|PREABILITY:1,CATEGORY=Skill,Investigation
+Passive Investigation																CATEGORY:Special Ability																																																			DEFINE:Passive_Investigation|0																																																																																																																																																																																																																																																																																							BONUS:VAR|Passive_Investigation|10+INT+SkillProf_Investigation																																																																																																																															ASPECT:SkillBonus|Passive Investigation is %1|Passive_Investigation
+
+CATEGORY=Internal|Racial Traits ~ Rat.MOD	BONUS:COMBAT|TOHIT.Natural|2|TYPE=Racial

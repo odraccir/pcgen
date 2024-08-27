@@ -18,9 +18,9 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 
 SHOWINMENU:YES
 
+PCC:universal_rules/_universal_rules.pcc
 RACE:*/_universal/races.lst
 
-PCC:universal_rules/_universal_rules.pcc
 PCC:houserules/_houserules.pcc
 PCC:PlayerSHandbook/_players_handbook.pcc
 

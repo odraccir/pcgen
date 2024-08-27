@@ -1,4 +1,4 @@
-# CVS $Revision: $ $Author: $ -- Mon Feb 22 22:56:28 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2014-08
 
 # Equipment Name	Required Armor Proficiency	Required Shield Proficiency	Type	Cost	Weight	Maximum DEX Bonus	Ability	Combat bonus	Add to base move	Modify VAR	Quality and value
 Coin (Platinum)	TYPE:Coin.Money	COST:10	WT:0.02
@@ -547,3 +547,14 @@ Staff	KEY:Staff	TYPE:Extras	COST:5	WT:4
 little bag of sand	KEY:little bag of sand	TYPE:Extras
 book of lore	KEY:book of lore	TYPE:Extras	
 
+###Block: Barding
+# Light Armor	Dex Mod -/+ no max
+Barding (Leather)	PROFICIENCY:ARMOR|Leather	TYPE:Armor.BardingLightArmor.Leather	COST:10	WT:10	ABILITY:Internal|AUTOMATIC|Unproficient Armor|!PREPROFWITHARMOR:1,TYPE.BardingLightArmor	BONUS:COMBAT|AC|1|TYPE=Armor	BONUS:VAR|AC_Armor|1	PREVARGTEQ:BardingAllowed,1
+Barding (Studded Leather)	PROFICIENCY:ARMOR|Studded Leather	TYPE:Armor.BardingLightArmor.Studded Leather	COST:45	WT:13	ABILITY:Internal|AUTOMATIC|Unproficient Armor|!PREPROFWITHARMOR:1,TYPE.BardingLightArmor	BONUS:COMBAT|AC|2|TYPE=Armor	BONUS:VAR|AC_Armor|2	PREVARGTEQ:BardingAllowed,1
+# Heavy Armor	No Dex Modifier at all
+Barding (Ring Mail)	PROFICIENCY:ARMOR|Ring Mail	TYPE:Armor.BardingHeavyArmor.Ring Mail	COST:30	WT:40	MAXDEX:0	ABILITY:Internal|AUTOMATIC|Unproficient Armor|!PREPROFWITHARMOR:1,TYPE.HeavyArmor	ABILITY:Internal|AUTOMATIC|Skill Disadvantage ~ Stealth	BONUS:COMBAT|AC|4|TYPE=Armor	BONUS:VAR|AC_Armor|4	QUALITY:Stealth|Disadvantage|PREVAREQ:NegateSkillDisvantageStealthMediumArmor,0	PREVARGTEQ:BardingAllowed,1
+Barding (Scale Mail)	PROFICIENCY:ARMOR|Scale Mail	TYPE:Armor.BardingMediumArmor.Scale Mail	COST:50	WT:45	MAXDEX:2	ABILITY:Internal|AUTOMATIC|Unproficient Armor|!PREPROFWITHARMOR:1,TYPE.MediumArmor	ABILITY:Internal|AUTOMATIC|Skill Disadvantage ~ Stealth (Medium Armor)|PREVAREQ:NegateSkillDisvantageStealthMediumArmor,0	BONUS:COMBAT|AC|4|TYPE=Armor	BONUS:VAR|AC_Armor|4	QUALITY:Stealth|Disadvantage|PREVAREQ:NegateSkillDisvantageStealthMediumArmor,0	PREVARGTEQ:BardingAllowed,1
+# Heavy Armor	No Dex Modifier at all
+Barding (Chain Mail)	PROFICIENCY:ARMOR|Chain Mail	TYPE:Armor.BardingHeavyArmor.Chain Mail	COST:75	WT:55	MAXDEX:0	ABILITY:Internal|AUTOMATIC|Unproficient Armor|!PREPROFWITHARMOR:1,TYPE.HeavyArmor	ABILITY:Internal|AUTOMATIC|Skill Disadvantage ~ Stealth	BONUS:COMBAT|AC|6|TYPE=Armor	BONUS:MOVEADD|TYPE.Walk|-10|PREVARLT:STRSCORE,13	BONUS:VAR|AC_Armor|6	QUALITY:Stealth|Disadvantage	PREVARGTEQ:BardingAllowed,1
+Barding (Splint)	PROFICIENCY:ARMOR|Splint	TYPE:Armor.BardingHeavyArmor.Splint	COST:200	WT:60	MAXDEX:0	ABILITY:Internal|AUTOMATIC|Unproficient Armor|!PREPROFWITHARMOR:1,TYPE.HeavyArmor	ABILITY:Internal|AUTOMATIC|Skill Disadvantage ~ Stealth	BONUS:COMBAT|AC|7|TYPE=Armor	BONUS:MOVEADD|TYPE.Walk|-10|PREVARLT:STRSCORE,15	BONUS:VAR|AC_Armor|7	QUALITY:Stealth|Disadvantage	PREVARGTEQ:BardingAllowed,1
+Barding (Plate)	PROFICIENCY:ARMOR|Plate	TYPE:Armor.BardingHeavyArmor.Plate	COST:1500	WT:65	MAXDEX:0	ABILITY:Internal|AUTOMATIC|Unproficient Armor|!PREPROFWITHARMOR:1,TYPE.HeavyArmor	ABILITY:Internal|AUTOMATIC|Skill Disadvantage ~ Stealth	BONUS:COMBAT|AC|8|TYPE=Armor	BONUS:MOVEADD|TYPE.Walk|-10|PREVARLT:STRSCORE,15	BONUS:VAR|AC_Armor|8	QUALITY:Stealth|Disadvantage	PREVARGTEQ:BardingAllowed,1
