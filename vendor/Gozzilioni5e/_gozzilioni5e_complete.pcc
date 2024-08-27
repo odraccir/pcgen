@@ -18,11 +18,11 @@ COPYRIGHT:My Campaign, Copyright 2005 by me
 
 SHOWINMENU:YES
 
-PCC:universal_rules/_universal_rules.pcc
+PCC:WizardsOfTheCoast/Core/universal_rules/_universal_rules.pcc
 RACE:*/_universal/races.lst
 
 PCC:houserules/_houserules.pcc
-PCC:PlayerSHandbook/_players_handbook.pcc
+PCC:WizardsOfTheCoast/Core/PlayerSHandbook/_players_handbook.pcc
 
 PCC:Web/Kleptogoblicon/_kleptogoblicon.pcc
 
