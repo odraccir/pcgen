@@ -732,100 +732,100 @@ STARTPACK:Awakened Tree	VISIBLE:NO	APPLY:INSTANT
 STAT:INT=10
 
 ###Block: Appendix D: Creature Statistics
-STARTPACK:Default Creature ~ Bat
+STARTPACK:Default Creature ~ Bat	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Bat)
 STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
 
-STARTPACK:Default Creature ~ Black Bear
+STARTPACK:Default Creature ~ Black Bear	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Black Bear)
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=11
 
-STARTPACK:Default Creature ~ Boar
+STARTPACK:Default Creature ~ Boar	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Boar)
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=11
 
-STARTPACK:Default Creature ~ Brown Bear
+STARTPACK:Default Creature ~ Brown Bear	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Brown Boar)
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
 
-STARTPACK:Default Creature ~ Cat
+STARTPACK:Default Creature ~ Cat	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Cat)
 STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=11
 
-STARTPACK:Default Creature ~ Constrictor Snake
+STARTPACK:Default Creature ~ Constrictor Snake	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Constrictor Snake)
 STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=11
 
-STARTPACK:Default Creature ~ Crocodile
+STARTPACK:Default Creature ~ Crocodile	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Crocodile)
 STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
 
-STARTPACK:Default Creature ~ Dire Wolf
+STARTPACK:Default Creature ~ Dire Wolf	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Dire Wolf)
 STAT:STR=11|DEX=11|CON=11|INT=11|WIS=10|CHA=11
 
-STARTPACK:Default Creature ~ Frog
+STARTPACK:Default Creature ~ Frog	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Frog)
 STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=11
 
-STARTPACK:Default Creature ~ Giant Eagle
+STARTPACK:Default Creature ~ Giant Eagle	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Giant Eagle)
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
-STARTPACK:Default Creature ~ Giant Spider
+STARTPACK:Default Creature ~ Giant Spider	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Giant Spider)
 STAT:STR=10|DEX=10|CON=10|INT=10|WIS=11|CHA=10
 
-STARTPACK:Default Creature ~ Hawk (Falcon)
+STARTPACK:Default Creature ~ Hawk (Falcon)	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Hawk (Falcon))
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=10
 
-STARTPACK:Default Creature ~ Imp
+STARTPACK:Default Creature ~ Imp	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Imp
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
-STARTPACK:Default Creature ~ Lion
+STARTPACK:Default Creature ~ Lion	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Lion)
 STAT:STR=11|DEX=11|CON=11|INT=11|WIS=10|CHA=10
 
-STARTPACK:Default Creature ~ Mastiff
+STARTPACK:Default Creature ~ Mastiff	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Mastiff)
 STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=11
 
-STARTPACK:Default Creature ~ Mule
+STARTPACK:Default Creature ~ Mule	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Mule)
 STAT:STR=10|DEX=10|CON=11|INT=10|WIS=10|CHA=11
 
-STARTPACK:Default Creature ~ Owl
+STARTPACK:Default Creature ~ Owl	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Owl)
 STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
 
-STARTPACK:Default Creature ~ Panther
+STARTPACK:Default Creature ~ Panther	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Panther)
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
 
-STARTPACK:Default Creature ~ Poisonous Snake
+STARTPACK:Default Creature ~ Poisonous Snake	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Poisonous Snake)
 STAT:STR=10|DEX=10|CON=11|INT=11|WIS=10|CHA=11
 
-STARTPACK:Default Creature ~ Pseudodragon
+STARTPACK:Default Creature ~ Pseudodragon	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Pseudodragon
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
-STARTPACK:Default Creature ~ Quasit
+STARTPACK:Default Creature ~ Quasit	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Quasit
 STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
 
-STARTPACK:Default Creature ~ Rat
+STARTPACK:Default Creature ~ Rat	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Rat)
 STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=10
 
-STARTPACK:Default Creature ~ Raven
+STARTPACK:Default Creature ~ Raven	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Raven)
 STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
 
-STARTPACK:Default Creature ~ Reef Shark
+STARTPACK:Default Creature ~ Reef Shark	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Reef Shark)
 STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
 
-STARTPACK:Default Creature ~ Riding Horse
+STARTPACK:Default Creature ~ Riding Horse	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Riding Horse)
 STAT:STR=10|DEX=10|CON=10|INT=10|WIS=11|CHA=11
 
-STARTPACK:Default Creature ~ Skeleton
+STARTPACK:Default Creature ~ Skeleton	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Skeleton
 STAT:STR=10|DEX=10|CON=11|INT=10|WIS=10|CHA=11
 GEAR:Shortsword 
 GEAR:Shortbow 
 
-STARTPACK:Default Creature ~ Sprite
+STARTPACK:Default Creature ~ Sprite	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Sprite
 STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
 GEAR:Leather	SIZE:T
 GEAR:Longsword
 GEAR:Shortbow
 
-STARTPACK:Default Creature ~ Tiger
+STARTPACK:Default Creature ~ Tiger	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Tiger)
 STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
 
-STARTPACK:Default Creature ~ Warhorse
+STARTPACK:Default Creature ~ Warhorse	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Warhorse)
 STAT:STR=10|DEX=10|CON=11|INT=10|WIS=10|CHA=11
 
-STARTPACK:Default Creature ~ Wolf
+STARTPACK:Default Creature ~ Wolf	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Animal (Wolf)
 STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10
 
-STARTPACK:Default Creature ~ Zombie
+STARTPACK:Default Creature ~ Zombie	TYPE:DefaultMonster	VISIBLE:NO	EQUIPBUY:0	PRERACE:1,Zombie
 STAT:STR=11|DEX=10|CON=10|INT=11|WIS=10|CHA=11

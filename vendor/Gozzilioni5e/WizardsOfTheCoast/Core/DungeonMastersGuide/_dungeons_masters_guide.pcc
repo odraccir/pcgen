@@ -1,52 +1,55 @@
-CAMPAIGN:Player's Handbook
-KEY:Player's Handbook
+CAMPAIGN:Dungeon Master's Guide
+KEY:Dungeon Master's Guide
 BOOKTYPE:Core Rules
-!PRECAMPAIGN:1,BOOKTYPE=Core Rules,[Player's Handbook]
+!PRECAMPAIGN:1,BOOKTYPE=Core Rules,[Dungeon Master's Guide]
 GAMEMODE:G5e
 TYPE:Wizards of the Coast.Core
-SOURCELONG:Player's Handbook
-SOURCESHORT:PHB
+SOURCELONG:Dungeon Master's Guide
+SOURCESHORT:DMG
 SOURCEWEB:http://www.gozzilioni.net
-SOURCEDATE:2014-08
-RANK:201408
+SOURCEDATE:2014-12
+RANK:201412
 PUBNAMELONG:Wizards of the Coast
 PUBNAMESHORT:WotC
 PUBNAMEWEB:http://www.wizards.com
 COPYRIGHT:Copyright 2014, Wizards of the Coast, Inc.
 
 # COVER should be cover_gameMode_pub_book.file
-COVER:&/_artwork/cover_5e_wotc_ph.jpg
+COVER:&/gozzilioni5e/_artwork/cover_5e_wotc_dm.jpg
 # LOGO should be logo_pub.file
-LOGO:&/_artwork/logo_wotc.png
+LOGO:&/gozzilioni5e/_artwork/logo_wotc.png
 
-INFOTEXT:D&D 5e Player's Handbook
+INFOTEXT:D&D 5e Dungeon Master's Guide
 
-ALIGNMENT:0phb_align.lst
-DATACONTROL:0phb_datacontrols.lst
-SAVE:0phb_saves.lst
-STAT:0phb_stats.lst
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:missing.txt
 
-ABILITY:phb_abilities.lst
-ABILITY:phb_abilities_classes.lst
-ABILITY:phb_abilities_races.lst
-ABILITYCATEGORY:phb_abilitycategories.lst
-BIOSET:phb_biosettings.lst
-CLASS:phb_classes.lst
-COMPANIONMOD:phb_companionmods.lst
-DEITY:phb_deities.lst
-DOMAIN:phb_domains.lst
-EQUIPMENT:phb_equip.lst
-EQUIPMOD:phb_equipmods.lst
-ABILITY:phb_feats.lst
-KIT:phb_kits.lst
-LANGUAGE:phb_languages.lst
-ARMORPROF:phb_profs_armor.lst
-SHIELDPROF:phb_profs_shield.lst
-WEAPONPROF:phb_profs_weapon.lst
-RACE:phb_races.lst
-SKILL:phb_skills.lst
-SPELL:phb_spells.lst
-TEMPLATE:phb_templates.lst
+# ALIGNMENT:0dmg_align.lst
+# DATACONTROL:0dmg_datacontrols.lst
+# SAVE:0dmg_saves.lst
+# STAT:0dmg_stats.lst
+
+ABILITY:dmg_abilities.lst
+ABILITY:dmg_abilities_classes.lst
+ABILITY:dmg_abilities_races.lst
+ABILITYCATEGORY:dmg_abilitycategories.lst
+# BIOSET:dmg_biosettings.lst
+# CLASS:dmg_classes.lst
+# COMPANIONMOD:dmg_companionmods.lst
+DEITY:dmg_deities.lst
+DOMAIN:dmg_domains.lst
+EQUIPMENT:dmg_equip.lst
+EQUIPMOD:dmg_equipmods.lst
+# ABILITY:dmg_feats.lst
+KIT:dmg_kits.lst
+# LANGUAGE:dmg_languages.lst
+# ARMORPROF:dmg_profs_armor.lst
+# SHIELDPROF:dmg_profs_shield.lst
+# WEAPONPROF:dmg_profs_weapon.lst
+RACE:dmg_races.lst
+# SKILL:dmg_skills.lst
+# SPELL:dmg_spells.lst
+# TEMPLATE:dmg_templates.lst
 
 # BIOSET:ph_biosettings.lst
 # CLASS:ph_classes.lst
@@ -62,28 +65,14 @@ TEMPLATE:phb_templates.lst
 
 
 
-RACE:phb_races.lst
+# RACE:dmg_races.lst
 
 # SKILL:ph_skills.lst
 
 # SPELL:ph_spells.lst
 # TEMPLATE:ph_templates.lst
 
-COMPANIONLIST:Mount|ANY
-COMPANIONLIST:Follower|ANY
-
-
-###Block: Revisions
-# BD - 0.01 Initial update
+# COMPANIONLIST:Mount|ANY
+# COMPANIONLIST:Follower|ANY
 
 INFOTEXT:Supports 6.4.1
-# ENTRY DATE: 2015-01 (Unknown)
-# LST MONKEY: Bahamut
-# RELEASE REVIEW #
-# BETA:
-# RELEASE:
-# Built for PCGen Version: 6.04.01
-# Updated to work with version: -
-# MINVER:6.4
-# MINDEVVER:6.04.1
-# COMMENTS:

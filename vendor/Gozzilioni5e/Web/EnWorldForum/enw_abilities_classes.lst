@@ -1,0 +1,3 @@
+SOURCELONG:EnWorld Forum	SOURCESHORT:EWF	SOURCEWEB:https://www.enworld.com.org/forum/-/?skip=1	SOURCEDATE:2013-12
+
+Apprentice	CATEGORY:Special Ability	TYPE:Expert Class Feature.SpecialQuality.Class Feature	DESC:At levels 1 and 2, gain proficiency with any one skill, tool, armour or weapon of your choice.								BONUS:VAR|POOL_Expert_Proficiency|1+(ExpertLVL>=2)																			SOURCEPAGE:EWF						

@@ -1,0 +1,40 @@
+Level Prof Class Features
+1 1 Apprentice
+2 1 Apprentice
+3 2 Specialisation: Journeyman
+4 2 Ability Score Improvement
+5 2 Master
+6 2
+7 3
+8 3
+9 3 Ability Score Improvement
+10 3
+
+Class Features:
+Hit Points: 1d6 per NPC level
+Hit Points: 6 + the NPC's Constitution modifier
+Hit Points at Higher Levels: 1d6 (or 4) + the NPC's Constitution modifier per level after 1st
+
+Multiclass: to multiclass expert charachter must have INT, WIS or CHA
+
+Proficiencies:
+Armour: Light
+Weapons: All Simple Weapons
+Tools: None
+Saving throws: None
+Skills: None
+
+Apprentice:
+At levels 1 and 2, gain proficiency with any one skill, tool, armour or weapon of your choice
+
+Specialisation (subclass):
+Expert:
+
+At Level 3:
+Journeyman:
+Gain proficiency with any one skill or tool of your choice
+Gain Expertise (+5) with any mix of two of your skills or tool proficiencies.
+
+At Level 5:
+Master:
+Choose one skill or tool with which you are proficient. When you make an ability check that involves that skill or tool, treat a d20 roll of 9 or lower as a 10.

@@ -2091,6 +2091,8 @@ my @Global_FACT_Tags = (
 	'FACT:Appearance',
 	'FACT:RateOfFire',
 	'FACT:CompMaterial',
+	'FACT:PC',
+	'FACT:NPC',
 	'FACT:*',
 );
 
@@ -2200,7 +2202,8 @@ my %master_order = (
 		# 'LANGAUTO:.CLEAR',	# Deprecated - 6.0
 		# 'LANGAUTO:*',		# Deprecated - 6.0
 #		'SPELLPOINTCOST:*',
-		@TEMP_Tags,
+		@TEMP_Tags
+		@FACT_Tags,
 	],
 
 	'ABILITYCATEGORY' => [
@@ -13741,6 +13744,7 @@ BEGIN {
 			my $sourcepage = "";
 			$sourcepage = $line_ref->{'SOURCEPAGE'}[0] if exists $line_ref->{'SOURCEPAGE'};
 			my $type = "";
+			my $school = "";
 			my $spellclass = "";
 			my $spelldomains = "";
 			my $spelldesc = "";
@@ -13751,6 +13755,8 @@ BEGIN {
 				if exists $line_ref->{'SOURCEPAGE'};
 			$type  = ( $line_ref->{'TYPE'}[0] =~ /^TYPE:(.*)/ )[0] 
 				if exists $line_ref->{'TYPE'};
+			$school  = ( $line_ref->{'SCHOOL'}[0] =~ /^SCHOOL:(.*)/ )[0] 
+				if exists $line_ref->{'SCHOOL'};
 			$spellclass  = ( $line_ref->{'CLASSES'}[0] =~ /^CLASSES:(.*)/ )[0]
 				if exists $line_ref->{'CLASSES'};
 			$spelldomains = ( $line_ref->{'DOMAINS'}[0] =~ /^DOMAINS:(.*)/ )[0]
@@ -13763,7 +13769,7 @@ BEGIN {
 				if exists $line_ref->{'DESCRIPTOR'};
 			# Write to file
 			print { $filehandle_for{SPELL} }
-				qq{"$spellname","$spellclass","$spelldomains","$descriptor","$type","$sourcepage","$line_for_error","$filename","$spelldesc","$spellsave"\n};
+				qq{"$spellname","$spellclass","$spelldomains","$school","$descriptor","$type","$sourcepage","$line_for_error","$filename","$spelldesc","$spellsave"\n};
 		}
 		if ( $filetype eq 'CLASS' ) {
 			my $class = ( $line_ref->{'000ClassName'}[0] =~ /^CLASS:(.*)/ )[0];

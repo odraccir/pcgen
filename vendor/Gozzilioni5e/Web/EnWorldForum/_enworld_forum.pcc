@@ -1,0 +1,32 @@
+CAMPAIGN:EnWorld Forum
+KEY:EnWorld_Forum
+BOOKTYPE:Web Book
+GAMEMODE:G5e
+TYPE:Web.EnWorld Forum
+SOURCELONG:EnWorld Forum
+SOURCESHORT:EWF
+SOURCEWEB:https://www.enworld.com.org/forum/-/?skip=1
+SOURCEDATE:2013-12
+RANK:201312
+PUBNAMELONG:EnWorld
+PUBNAMESHORT:EnWorld
+PUBNAMEWEB:https://www.enworld.com.org/forum/-/?skip=1
+# COPYRIGHT:Copyright 2024, EnWorld
+
+# COVER should be cover_gameMode_pub_book.file
+# COVER:../../../../_artwork/cover_5e_cardboardAnvil_kg.png
+# LOGO should be logo_pub.file
+LOGO:../../../../_artwork/logo_enworld.png
+
+INFOTEXT:EnWorld Forum
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:expert.txt
+
+ABILITYCATEGORY:enw_expert.lst
+CLASS:enw_classes.lst
+ABILITY:enw_abilities_classes.lst
+
+# KIT:ph_kits.lst
+
+INFOTEXT:Supports 6.4.1

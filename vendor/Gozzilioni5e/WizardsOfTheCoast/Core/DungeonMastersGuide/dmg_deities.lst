@@ -1,0 +1,23 @@
+SOURCELONG:Dungeon Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2014-12
+
+#	ALIGN:	DEITYWEAP:	DESC: ()	DOMAINS:		PANTHEON:Greyhawk	SOURCEPAGE:CD	
+Asmodeus	ALIGN:LE		DESC:Trickery, Three triangles in tight formation.	DOMAINS:ANY	KEY:Asmodeus		FACT:Title|Asmodeus, god of tyranny	FACTSET:Pantheon|Dawn War
+Avandra	ALIGN:CG		DESC:Trickery, Three stacked wavy lines.	DOMAINS:ANY	KEY:Avandra		FACT:Title|Avandra, goddess of changee and luck	FACTSET:Pantheon|Dawn War
+Bahamut.MOD	FACTSET:Pantheon|Dawn War
+Bane.MOD	FACTSET:Pantheon|Dawn War
+Corellon Larethian.MOD	FACTSET:Pantheon|Dawn War
+Erathis	ALIGN:LN		DESC:Knowledge, Upper half og a clockwork gear.	DOMAINS:ANY	KEY:Erathis		FACT:Title|Erathis, goddess of civilization and invention	FACTSET:Pantheon|Dawn War
+Gruumsh.MOD	FACTSET:Pantheon|Dawn War
+Ioun	ALIGN:TN		DESC:Knowledge, Crook shaped like a stylized eye.	DOMAINS:ANY	KEY:Ioun		FACT:Title|Ioun, goddess of knowledge	FACTSET:Pantheon|Dawn War
+Kord.MOD	FACTSET:Pantheon|Dawn War
+Lolth.MOD	FACTSET:Pantheon|Dawn War
+Melora	ALIGN:TN		DESC:Nature, Tempest, Wavelike swirl.	DOMAINS:ANY	KEY:Melora		FACT:Title|Melora, goddess of wilderness and the sea	FACTSET:Pantheon|Dawn War
+Moradin.MOD	FACTSET:Pantheon|Dawn War
+Pelor.MOD	FACTSET:Pantheon|Dawn War
+Raven Queen	ALIGN:LN		DESC:Life, Death, Raven's head, in profile, facing left.	DOMAINS:ANY	KEY:Raven Queen		FACT:Title|Raven Queen, goddess of death	FACTSET:Pantheon|Dawn War
+Sehanine Moonbow.MOD	FACTSET:Pantheon|Dawn War
+Tharizdun.MOD	FACTSET:Pantheon|Dawn War
+Tiamat.MOD	FACTSET:Pantheon|Dawn War
+Torog	ALIGN:NE		DESC:Death, T attached to a circular shackle.	DOMAINS:ANY	KEY:Torog	FACT:Title|Torog, god of the Underdark	FACTSET:Pantheon|Dawn War
+Vecna.MOD	FACTSET:Pantheon|Dawn War
+Zehir	ALIGN:CE		DESC:Trickeery, Death, Snake in the shape if a dagger.	DOMAINS:ANY	KEY:Zehir	FACT:Title|Zehir, god of darkness and poison	FACTSET:Pantheon|Dawn War

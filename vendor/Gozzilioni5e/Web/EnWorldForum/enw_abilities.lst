@@ -1,0 +1,12 @@
+SOURCELONG:EnWorld Forum	SOURCESHORT:EWF	SOURCEWEB:https://www.enworld.com.org/forum/-/?skip=1	SOURCEDATE:2013-12																													
+																																
+###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										SOURCEPAGE:
+Multiclass Allowed ~ Expert	CATEGORY:Internal																															
+CATEGORY=Internal|Multiclass Allowed.MOD	ABILITY:Internal|AUTOMATIC|Multiclass Allowed ~ Expert|PRESTAT:1,INT=13,WIS,13,CHA,13																															
+																																
+Expert	CATEGORY:CLASS								DEFINE:POOL_Expert_Proficiency|0	DEFINE:POOL_Expert_Tool_Proficiency|0	DEFINE:POOL_Expert_Ability_Proficiency|0	DEFINE:POOL_Expert_Weapon_Proficiency|0	DEFINE:POOL_Expert_Armor_Proficiency|0																			
+																																
+Tool	CATEGORY:Special Ability	TYPE:Expert Proficiency	VISIBLE:YES		KEY:Expert ~ Expert Proficiency ~ Tool									BONUS:VAR|POOL_Expert_Tool_Proficiency|1																		SOURCEPAGE:EWF
+Ability	CATEGORY:Special Ability	TYPE:Expert Proficiency	VISIBLE:YES		KEY:Expert ~ Expert Proficiency ~ Ability									BONUS:VAR|POOL_Expert_Ability_Proficiency|1																		SOURCEPAGE:EWF
+Weapon	CATEGORY:Special Ability	TYPE:Expert Proficiency	VISIBLE:YES		KEY:Expert ~ Expert Proficiency ~ Weapon									BONUS:VAR|POOL_Expert_Weapon_Proficiency|1																		SOURCEPAGE:EWF
+Armor	CATEGORY:Special Ability	TYPE:Expert Proficiency	VISIBLE:YES		KEY:Expert ~ Expert Proficiency ~ Armor									BONUS:VAR|POOL_Expert_Armor_Proficiency|1																		SOURCEPAGE:EWF

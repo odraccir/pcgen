@@ -1,0 +1,66 @@
+SOURCELONG:Dungeon Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2014-12
+
+Gem Value	KEY:GEM		NAMEOPT:NOTHING	TYPE:Gem	COST:0	VISIBLE:QUALIFY	PRETYPE:1,Gem	BONUS:ITEMCOST|TYPE.Gem|%CHOICE	TEMPVALUE:MIN=1|MAX=8000|TITLE=Gem Value
+Art Value	KEY:ART		NAMEOPT:NOTHING	TYPE:Art	COST:0	VISIBLE:QUALIFY	PRETYPE:1,Art	BONUS:ITEMCOST|TYPE.Art|%CHOICE	TEMPVALUE:MIN=10|MAX=12000|TITLE=Art Value
+
+Flask	KEY:POTION_FLASK		NAMEOPT:NORMAL	TYPE:Potion	COST:0	VISIBLE:QUALIFY	PRETYPE:1,Potion	ITYPE:Flask
+Vial	KEY:POTION_VIAL		NAMEOPT:NORMAL	TYPE:Potion	COST:0	VISIBLE:QUALIFY	PRETYPE:1,Potion	ITYPE:Vial
+
+Attune Item	KEY:ATTUNE	NAMEOPT:NOLIST	TYPE:Enhancement.Magic	COST:0	VISIBLE:QUALIFY	PRETYPE:1,Enhancement,Magic
+
+###Block: Scrolls
+# Modifier Name					Unique Key		Naming Option	Type					Cost													Visible		Type granted				Source Page			Required Type				Prohibited Type			Choose
+Divine						KEY:SCROLL_DIVINE				TYPE:Scroll																	VISIBLE:QUALIFY	ITYPE:Divine														!PRETYPE:1,Divine,Arcane
+Arcane						KEY:SCROLL_ARCANE				TYPE:Scroll																	VISIBLE:QUALIFY	ITYPE:Arcane														!PRETYPE:1,Divine,Arcane
+Common							KEY:SCROLL_COMMON				TYPE:Scroll																	VISIBLE:QUALIFY	ITYPE:Common									PRETYPE:1,Arcane,Divine			!PRETYPE:1,Uncommon,Rare,Very Rare,Legendary
+Uncommon						KEY:SCROLL_UNCOMMON				TYPE:Scroll																	VISIBLE:QUALIFY	ITYPE:Uncommon								PRETYPE:1,Arcane,Divine			!PRETYPE:1,Common,Rare,Very Rare,Legendary
+Rare							KEY:SCROLL_RARE				TYPE:Scroll																	VISIBLE:QUALIFY	ITYPE:Rare									PRETYPE:1,Arcane,Divine			!PRETYPE:1,Common,Uncommon,Very Rare,Legendary
+Very Rare							KEY:SCROLL_VERY_RARE				TYPE:Scroll																	VISIBLE:QUALIFY	ITYPE:Very Rare									PRETYPE:1,Arcane,Divine			!PRETYPE:1,Common,Uncommon,Rare,Legendary
+Legendary							KEY:SCROLL_Legendary				TYPE:Scroll																	VISIBLE:QUALIFY	ITYPE:Legendary									PRETYPE:1,Arcane,Divine			!PRETYPE:1,Common,Uncommon,Rare,Very Rare
+
+|Spell Effect (Single Use/Completion)	KEY:A_1USECO	NAMEOPT:SPELL	TYPE:Scroll		VISIBLE:QUALIFY	ITYPE:Wondrous Item.Common.Consumable	SOURCEPAGE:DMG	PRETYPE:3,Scroll,Arcane,Common							CHOOSE:EQBUILDER.SPELL|Arcane|0|1
+|Spell Effect (Single Use/Completion)	KEY:A_1USEUN	NAMEOPT:SPELL	TYPE:Scroll		VISIBLE:QUALIFY	ITYPE:Wondrous Item.Uncommon.Consumable	SOURCEPAGE:DMG	PRETYPE:3,Scroll,Arcane,Uncommon						CHOOSE:EQBUILDER.SPELL|Arcane|2|3
+|Spell Effect (Single Use/Completion)	KEY:A_1USERA	NAMEOPT:SPELL	TYPE:Scroll		VISIBLE:QUALIFY	ITYPE:Wondrous Item.Rare.Consumable	SOURCEPAGE:DMG	PRETYPE:3,Scroll,Arcane,Rare							CHOOSE:EQBUILDER.SPELL|Arcane|4|5
+|Spell Effect (Single Use/Completion)	KEY:A_1USEMR	NAMEOPT:SPELL	TYPE:Scroll		VISIBLE:QUALIFY	ITYPE:Wondrous Item.Very Rare.Consumable	SOURCEPAGE:DMG	PRETYPE:3,Scroll,Arcane,Very Rare							CHOOSE:EQBUILDER.SPELL|Arcane|6|8
+|Spell Effect (Single Use/Completion)	KEY:A_1USELE	NAMEOPT:SPELL	TYPE:Scroll		VISIBLE:QUALIFY	ITYPE:Wondrous Item.Legendary.Consumable	SOURCEPAGE:DMG	PRETYPE:3,Scroll,Arcane,Legendary							CHOOSE:EQBUILDER.SPELL|Arcane|9|9
+|Spell Effect (Single Use/Completion)	KEY:D_1USECO	NAMEOPT:SPELL	TYPE:Scroll		VISIBLE:QUALIFY	ITYPE:Wondrous Item.Common.Consumable	SOURCEPAGE:DMG	PRETYPE:3,Scroll,Divine,Common							CHOOSE:EQBUILDER.SPELL|Divine|0|1
+|Spell Effect (Single Use/Completion)	KEY:D_1USEUN	NAMEOPT:SPELL	TYPE:Scroll		VISIBLE:QUALIFY	ITYPE:Wondrous Item.Uncommon.Consumable	SOURCEPAGE:DMG	PRETYPE:3,Scroll,Divine,Uncommon						CHOOSE:EQBUILDER.SPELL|Divine|2|3
+|Spell Effect (Single Use/Completion)	KEY:D_1USERA	NAMEOPT:SPELL	TYPE:Scroll		VISIBLE:QUALIFY	ITYPE:Wondrous Item.Rare.Consumable	SOURCEPAGE:DMG	PRETYPE:3,Scroll,Divine,Rare							CHOOSE:EQBUILDER.SPELL|Divine|4|5
+|Spell Effect (Single Use/Completion)	KEY:D_1USEMR	NAMEOPT:SPELL	TYPE:Scroll		VISIBLE:QUALIFY	ITYPE:Wondrous Item.Very Rare.Consumable	SOURCEPAGE:DMG	PRETYPE:3,Scroll,Divine,Very Rare							CHOOSE:EQBUILDER.SPELL|Divine|6|8
+|Spell Effect (Single Use/Completion)	KEY:D_1USELE	NAMEOPT:SPELL	TYPE:Scroll		VISIBLE:QUALIFY	ITYPE:Wondrous Item.Legendary.Consumable	SOURCEPAGE:DMG	PRETYPE:3,Scroll,Divine,Legendary							CHOOSE:EQBUILDER.SPELL|Divine|9|9
+
+# Common 1st or higher 50-100 gp
+# Uncommon 1st or higher 101-500 gp
+# Rare 5th or higher 501 -5,000 gp
+# Very rare 11th or higher 5,001 - 50,000 gp
+# Legendary 17th or higher 50,001+ gp
+
+Adamantine Armor	KEY:Adamantine Armor	TYPE:HeavyArmor.MediumArmor	SOURCEPAGE:DMG	!PRETYPE:1,Hide	SPROP:Any Critical Hit Against You Becomes A Normal Hit
+Ammunition +1	KEY:PLUS1AMMO	TYPE:Ammunition	REPLACES:PLUS2AMMO,PLUS3AMMO	ITYPE:Uncommon	SOURCEPAGE:DMG	BONUS:WEAPON|TOHIT,DAMAGE|1	SPROP:You have a bonus to attack and damage rolls made with this piece of magic ammunition. Once it hit a target, the ammunition is no longer magical.
+Ammunition +2	KEY:PLUS2AMMO	TYPE:Ammunition	REPLACES:PLUS1AMMO,PLUS3AMMO	ITYPE:Rare	SOURCEPAGE:DMG	BONUS:WEAPON|TOHIT,DAMAGE|2	SPROP:You have a bonus to attack and damage rolls made with this piece of magic ammunition. Once it hit a target, the ammunition is no longer magical.
+Ammunition +3	KEY:PLUS3AMMO	TYPE:Ammunition	REPLACES:PLUS1AMMO,PLUS2AMMO	ITYPE:Very Rare	SOURCEPAGE:DMG	BONUS:WEAPON|TOHIT,DAMAGE|3	SPROP:You have a bonus to attack and damage rolls made with this piece of magic ammunition. Once it hit a target, the ammunition is no longer magical.
++1 (Enhancement to Armor)	KEY:PLUS1A	TYPE:Armor	VISIBLE:QUALIFY	SOURCEPAGE:DMG		PRETYPE:1,Armor	ITYPE:Rare.Plus1					FORMATCAT:MIDDLE	NAMEOPT:TEXT=+1	SORTKEY:01PLUSA	ASSIGNTOALL:NO	REPLACES:PLUS2A,PLUS3A	BONUS:COMBAT|AC|1|TYPE=Armor.STACK	BONUS:VAR|AC_Armor_Enhancement|1
++2 (Enhancement to Armor)	KEY:PLUS2A	TYPE:Armor	VISIBLE:QUALIFY	SOURCEPAGE:DMG		PRETYPE:1,Armor	ITYPE:Very Rare.Plus2					FORMATCAT:MIDDLE	NAMEOPT:TEXT=+2	SORTKEY:02PLUSA	ASSIGNTOALL:NO	REPLACES:PLUS1A,PLUS3A	BONUS:COMBAT|AC|2|TYPE=Armor.STACK	BONUS:VAR|AC_Armor_Enhancement|2
++3 (Enhancement to Armor)	KEY:PLUS3A	TYPE:Armor	VISIBLE:QUALIFY	SOURCEPAGE:DMG		PRETYPE:1,Armor	ITYPE:Legendary.Plus3					FORMATCAT:MIDDLE	NAMEOPT:TEXT=+3	SORTKEY:03PLUSA	ASSIGNTOALL:NO	REPLACES:PLUS1A,PLUS2A	BONUS:COMBAT|AC|3|TYPE=Armor.STACK	BONUS:VAR|AC_Armor_Enhancement|3
+
+Cursed Item	KEY:CURSED_ITEM	NAMEOPT:TEXT=Cursed	TYPE:Magic	COST:0	VISIBLE:QUALIFY	ITYPE:Cursed	SOURCEPAGE:DMG	!PRETYPE:1,Cursed		SPROP:Cursed Item.
+Cursed Amulet	KEY:AMLT_CURSED	NAMEOPT:NOTHING	TYPE:Amulet		COST:0	VISIBLE:QUALIFY	ITYPE:CursedAmulet			SOURCEPAGE:DMG	PRETYPE:2,Cursed,Amulet
+Cursed Armor	KEY:ARMR_CURSED	NAMEOPT:NOTHING	TYPE:Armor		COST:0	VISIBLE:QUALIFY	ITYPE:CursedArmor			SOURCEPAGE:DMG	PRETYPE:2,Cursed,Armor
+Cursed Ammunition	KEY:AMMO_CURSED	NAMEOPT:NOTHING	TYPE:Ammunition		COST:0	VISIBLE:QUALIFY	ITYPE:CursedAmmunition			SOURCEPAGE:DMG	PRETYPE:2,Cursed,Ammunition
+Cursed Belt	KEY:BELT_CURSED	NAMEOPT:NOTHING	TYPE:Belt		COST:0	VISIBLE:QUALIFY	ITYPE:CursedBelt			SOURCEPAGE:DMG	PRETYPE:2,Cursed,Belt
+Cursed Boot	KEY:BOOT_CURSED	NAMEOPT:NOTHING	TYPE:Boot		COST:0	VISIBLE:QUALIFY	ITYPE:CursedBoot			SOURCEPAGE:DMG	PRETYPE:2,Cursed,Boot
+Cursed Bracer	KEY:BRCR_CURSED	NAMEOPT:NOTHING	TYPE:Bracer		COST:0	VISIBLE:QUALIFY	ITYPE:CursedBracer			SOURCEPAGE:DMG	PRETYPE:2,Cursed,Bracer
+Cursed Cape	KEY:CAPE_CURSED	NAMEOPT:NOTHING	TYPE:Cape		COST:0	VISIBLE:QUALIFY	ITYPE:CursedCape			SOURCEPAGE:DMG	PRETYPE:2,Cursed,Cape
+Cursed Eyegear	KEY:EYEG_CURSED	NAMEOPT:NOTHING	TYPE:Eyegear		COST:0	VISIBLE:QUALIFY	ITYPE:CursedEyegear			SOURCEPAGE:DMG	PRETYPE:2,Cursed,Eyegear
+Cursed Glove	KEY:GLVE_CURSED	NAMEOPT:NOTHING	TYPE:Glove		COST:0	VISIBLE:QUALIFY	ITYPE:CursedGlove			SOURCEPAGE:DMG	PRETYPE:2,Cursed,Glove
+Cursed Goods	KEY:GOOD_CURSED	NAMEOPT:NOTHING	TYPE:Goods		COST:0	VISIBLE:QUALIFY	ITYPE:CursedGoods			SOURCEPAGE:DMG	PRETYPE:2,Cursed,Goods
+Cursed Headgear	KEY:HEAD_CURSED	NAMEOPT:NOTHING	TYPE:Headgear		COST:0	VISIBLE:QUALIFY	ITYPE:CursedHeadgear			SOURCEPAGE:DMG	PRETYPE:2,Cursed,Headgear
+Cursed Instrument	KEY:INST_CURSED	NAMEOPT:NOTHING	TYPE:Instrument		COST:0	VISIBLE:QUALIFY	ITYPE:CursedInstrument			SOURCEPAGE:DMG	PRETYPE:2,Cursed,Instrument
+Cursed Mantle	KEY:MNTL_CURSED	NAMEOPT:NOTHING	TYPE:Mantle		COST:0	VISIBLE:QUALIFY	ITYPE:CursedMantle			SOURCEPAGE:DMG	PRETYPE:2,Cursed,Mantle
+Cursed Ring	KEY:RING_CURSED	NAMEOPT:NOTHING	TYPE:Ring		COST:0	VISIBLE:QUALIFY	ITYPE:CursedRing			SOURCEPAGE:DMG	PRETYPE:2,Cursed,Ring
+Cursed Robe	KEY:ROBE_CURSED	NAMEOPT:NOTHING	TYPE:Robe		COST:0	VISIBLE:QUALIFY	ITYPE:CursedRobe			SOURCEPAGE:DMG	PRETYPE:2,Cursed,Robe
+Cursed Shirt	KEY:SHRT_CURSED	NAMEOPT:NOTHING	TYPE:Shirt		COST:0	VISIBLE:QUALIFY	ITYPE:CursedShirt			SOURCEPAGE:DMG	PRETYPE:2,Cursed,Shirt
+Cursed Shield	KEY:SHLD_CURSED	NAMEOPT:NOTHING	TYPE:Shield		COST:0	VISIBLE:QUALIFY	ITYPE:CursedShield			SOURCEPAGE:DMG	PRETYPE:2,Cursed,Shield
+Cursed Spellbook	KEY:SPLB_CURSED	NAMEOPT:NOTHING	TYPE:Spellbook		COST:0	VISIBLE:QUALIFY	ITYPE:CursedSpellbook			SOURCEPAGE:DMG	PRETYPE:2,Cursed,Spellbook
+Cursed Tool	KEY:TOOL_CURSED	NAMEOPT:NOTHING	TYPE:Tool		COST:0	VISIBLE:QUALIFY	ITYPE:CursedTool			SOURCEPAGE:DMG	PRETYPE:2,Cursed,Tool
+Cursed Weapon	KEY:WEAP_CURSED	NAMEOPT:NOTHING	TYPE:Weapon		COST:0	VISIBLE:QUALIFY	ITYPE:CursedWeapon			SOURCEPAGE:DMG	PRETYPE:2,Cursed,Weapon

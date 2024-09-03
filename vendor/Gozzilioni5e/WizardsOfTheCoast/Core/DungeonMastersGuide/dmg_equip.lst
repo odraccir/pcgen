@@ -1,0 +1,134 @@
+SOURCELONG:Dungeon Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2014-12
+
+Trade Bar (Silver Bar/10)	TYPE:Coin	WT:2	COST:10	SOURCEPAGE:DMG
+Trade Bar (Silver Bar/25)	TYPE:Coin	WT:5	COST:25	SOURCEPAGE:DMG
+Trade Bar (Gold Bar/250)	TYPE:Coin	WT:5	COST:250	SOURCEPAGE:DMG
+Trade Bar (Black Iron Spindle/10)	TYPE:Coin	WT:2	COST:10	SOURCEPAGE:DMG
+Trade Bar (Gond Bells/10)	TYPE:Coin	WT:2	COST:10	SOURCEPAGE:DMG
+Trade Bar (Shar Rings/3)	TYPE:Coin	WT:1	COST:3	SOURCEPAGE:DMG
+
+Airship	TYPE:Transportation.Container	WT:0	COST:20000	SOURCEPAGE:DMG	CONTAINS:2200
+
+Gem (Azurite)	TYPE:Gem	WT:0	COST:10	SOURCEPAGE:DMG
+Gem (Banded Agate)	TYPE:Gem	WT:0	COST:10	SOURCEPAGE:DMG
+Gem (Blue Quartz)	TYPE:Gem	WT:0	COST:10	SOURCEPAGE:DMG
+Gem (Eye Agate)	TYPE:Gem	WT:0	COST:10	SOURCEPAGE:DMG
+Gem (Hematite)	TYPE:Gem	WT:0	COST:10	SOURCEPAGE:DMG
+Gem (Lapis Lazuli)	TYPE:Gem	WT:0	COST:10	SOURCEPAGE:DMG
+Gem (Malachite)	TYPE:Gem	WT:0	COST:10	SOURCEPAGE:DMG
+Gem (Moss Agate)	TYPE:Gem	WT:0	COST:10	SOURCEPAGE:DMG
+Gem (Obsidian)	TYPE:Gem	WT:0	COST:10	SOURCEPAGE:DMG
+Gem (Rhodochrosite)	TYPE:Gem	WT:0	COST:10	SOURCEPAGE:DMG
+Gem (Tiger Eye)	TYPE:Gem	WT:0	COST:10	SOURCEPAGE:DMG
+Gem (Turquoise)	TYPE:Gem	WT:0	COST:10	SOURCEPAGE:DMG
+Gem (Bloodstone)	TYPE:Gem	WT:0	COST:50	SOURCEPAGE:DMG
+Gem (Carnelian)	TYPE:Gem	WT:0	COST:50	SOURCEPAGE:DMG
+Gem (Chalcedony)	TYPE:Gem	WT:0	COST:50	SOURCEPAGE:DMG
+Gem (Chrysoprase)	TYPE:Gem	WT:0	COST:50	SOURCEPAGE:DMG
+Gem (Citrine)	TYPE:Gem	WT:0	COST:50	SOURCEPAGE:DMG
+Gem (Jasper)	TYPE:Gem	WT:0	COST:50	SOURCEPAGE:DMG
+Gem (Moonstone)	TYPE:Gem	WT:0	COST:50	SOURCEPAGE:DMG
+Gem (Onyx)	TYPE:Gem	WT:0	COST:50	SOURCEPAGE:DMG
+Gem (Quartz)	TYPE:Gem	WT:0	COST:50	SOURCEPAGE:DMG
+Gem (Sardonix)	TYPE:Gem	WT:0	COST:50	SOURCEPAGE:DMG
+Gem (Star Rose Quartz)	TYPE:Gem	WT:0	COST:50	SOURCEPAGE:DMG
+Gem (Zircon)	TYPE:Gem	WT:0	COST:50	SOURCEPAGE:DMG
+Gem (Amber)	TYPE:Gem	WT:0	COST:100	SOURCEPAGE:DMG
+Gem (Amethyst)	TYPE:Gem	WT:0	COST:100	SOURCEPAGE:DMG
+Gem (Chrysoberyl)	TYPE:Gem	WT:0	COST:100	SOURCEPAGE:DMG
+Gem (Coral)	TYPE:Gem	WT:0	COST:100	SOURCEPAGE:DMG
+Gem (Garnet)	TYPE:Gem	WT:0	COST:100	SOURCEPAGE:DMG
+Gem (Jade)	TYPE:Gem	WT:0	COST:100	SOURCEPAGE:DMG
+Gem (Jet)	TYPE:Gem	WT:0	COST:100	SOURCEPAGE:DMG
+Gem (Pearl)	TYPE:Gem	WT:0	COST:100	SOURCEPAGE:DMG
+Gem (Spinel)	TYPE:Gem	WT:0	COST:100	SOURCEPAGE:DMG
+Gem (Tourmaline)	TYPE:Gem	WT:0	COST:100	SOURCEPAGE:DMG
+Gem (Alexandrite)	TYPE:Gem	WT:0	COST:500	SOURCEPAGE:DMG
+Gem (Acquamarine)	TYPE:Gem	WT:0	COST:500	SOURCEPAGE:DMG
+Gem (Black Pearl)	TYPE:Gem	WT:0	COST:500	SOURCEPAGE:DMG
+Gem (Blue Spinel)	TYPE:Gem	WT:0	COST:500	SOURCEPAGE:DMG
+Gem (Peridot)	TYPE:Gem	WT:0	COST:500	SOURCEPAGE:DMG
+Gem (Topaz)	TYPE:Gem	WT:0	COST:500	SOURCEPAGE:DMG
+Gem (Black Opal)	TYPE:Gem	WT:0	COST:1000	SOURCEPAGE:DMG
+Gem (Blue Sapphire)	TYPE:Gem	WT:0	COST:1000	SOURCEPAGE:DMG
+Gem (Emerald)	TYPE:Gem	WT:0	COST:1000	SOURCEPAGE:DMG
+Gem (Fire Opal)	TYPE:Gem	WT:0	COST:1000	SOURCEPAGE:DMG
+Gem (Opal)	TYPE:Gem	WT:0	COST:1000	SOURCEPAGE:DMG
+Gem (Star Ruby)	TYPE:Gem	WT:0	COST:1000	SOURCEPAGE:DMG
+Gem (Star Sapphire)	TYPE:Gem	WT:0	COST:1000	SOURCEPAGE:DMG
+Gem (Yellow Sapphire)	TYPE:Gem	WT:0	COST:1000	SOURCEPAGE:DMG
+Gem (Black Sapphire)	TYPE:Gem	WT:0	COST:5000	SOURCEPAGE:DMG
+Gem (Diamond)	TYPE:Gem	WT:0	COST:5000	SOURCEPAGE:DMG
+Gem (Jacinth)	TYPE:Gem	WT:0	COST:5000	SOURCEPAGE:DMG
+Gem (Ruby)	TYPE:Gem	WT:0	COST:5000	SOURCEPAGE:DMG
+
+Art (Silver Ewer)	TYPE:Art	WT:0	COST:25	SOURCEPAGE:DMG
+Art (Statuette (Carved Bone))	TYPE:Art	WT:0	COST:25	SOURCEPAGE:DMG
+Art (Bracelet (Small/Gold))	TYPE:Art	WT:0	COST:25	SOURCEPAGE:DMG
+Art (Vestments (Cloth of Gold))	TYPE:Art	WT:0	COST:25	SOURCEPAGE:DMG
+Art (Mask (Black Velvet))	TYPE:Art	WT:0	COST:25	SOURCEPAGE:DMG
+Art (Chalice (Copper))	TYPE:Art	WT:0	COST:25	SOURCEPAGE:DMG
+Art (Bone Dice)	TYPE:Art	WT:0	COST:25	SOURCEPAGE:DMG
+Art (Mirror (Small/Wood))	TYPE:Art	WT:0	COST:25	SOURCEPAGE:DMG
+Art (Handkerchief (Silk))	TYPE:Art	WT:0	COST:25	SOURCEPAGE:DMG
+Art (Gold Locket with portrait inside)	TYPE:Art	WT:0	COST:25	SOURCEPAGE:DMG
+Art (Ring (Gold/Bloodstones))	TYPE:Art	WT:0	COST:250	SOURCEPAGE:DMG
+Art (Statuette (Carved Ivory))	TYPE:Art	WT:0	COST:250	SOURCEPAGE:DMG
+Art (Bracelet (Large/Gold))	TYPE:Art	WT:0	COST:250	SOURCEPAGE:DMG
+Art (Necklace (Silver with gemstone))	TYPE:Art	WT:0	COST:250	SOURCEPAGE:DMG
+Art (Crown (Bronze))	TYPE:Art	WT:0	COST:250	SOURCEPAGE:DMG
+Art (Robe (Silk with gold embroidery))	TYPE:Art	WT:0	COST:250	SOURCEPAGE:DMG
+Art (Tapestry (Large))	TYPE:Art	WT:0	COST:250	SOURCEPAGE:DMG
+Art (Mug (Brass with jade inlay))	TYPE:Art	WT:0	COST:250	SOURCEPAGE:DMG
+Art (Box (Turquoise animal figurines))	TYPE:Art	WT:0	COST:250	SOURCEPAGE:DMG
+Art (Gold bird cage)	TYPE:Art	WT:0	COST:250	SOURCEPAGE:DMG
+Art (Chalice (Silver))	TYPE:Art	WT:0	COST:750	SOURCEPAGE:DMG
+Art (Silver-plated Sword)	TYPE:Art	WT:0	COST:750	SOURCEPAGE:DMG
+Art (Harp (exotic wood/ivory)	TYPE:Art	WT:0	COST:750	SOURCEPAGE:DMG
+Art (Idol (Small/Gold))	TYPE:Art	WT:0	COST:750	SOURCEPAGE:DMG
+Art (Gold dragon com set)	TYPE:Art	WT:0	COST:750	SOURCEPAGE:DMG
+Art (Bottle stopper cork)	TYPE:Art	WT:0	COST:750	SOURCEPAGE:DMG
+Art (Cerimonial electrum dagger)	TYPE:Art	WT:0	COST:750	SOURCEPAGE:DMG
+Art (Silver and gold brooch)	TYPE:Art	WT:0	COST:750	SOURCEPAGE:DMG
+Art (Statuette (Obsidian and gold))	TYPE:Art	WT:0	COST:750	SOURCEPAGE:DMG
+Art (Mask (painted gold))	TYPE:Art	WT:0	COST:750	SOURCEPAGE:DMG
+Art (Fine gold chain set)	TYPE:Art	WT:0	COST:2500	SOURCEPAGE:DMG
+Art (Old masterpiece painting)	TYPE:Art	WT:0	COST:2500	SOURCEPAGE:DMG
+Art (Embroidery silk and velvet mantle set)	TYPE:Art	WT:0	COST:2500	SOURCEPAGE:DMG
+Art (Bracelet (Platinum))	TYPE:Art	WT:0	COST:2500	SOURCEPAGE:DMG
+Art (Glove (Embroidered with jewels))	TYPE:Art	WT:0	COST:2500	SOURCEPAGE:DMG
+Art (Anklet (Jeweled))	TYPE:Art	WT:0	COST:2500	SOURCEPAGE:DMG
+Art (Gold music box)	TYPE:Art	WT:0	COST:2500	SOURCEPAGE:DMG
+Art (Circlet (Gold))	TYPE:Art	WT:0	COST:2500	SOURCEPAGE:DMG
+Art (Eyepatch with mock eye)	TYPE:Art	WT:0	COST:2500	SOURCEPAGE:DMG
+Art (Necklace (small pink pearls))	TYPE:Art	WT:0	COST:2500	SOURCEPAGE:DMG
+Art (Crown (Gold/Jeweled))	TYPE:Art	WT:0	COST:7500	SOURCEPAGE:DMG
+Art (Ring (Platinum/Jeweled))	TYPE:Art	WT:0	COST:7500	SOURCEPAGE:DMG
+Art (Statuette (Small/Gold))	TYPE:Art	WT:0	COST:7500	SOURCEPAGE:DMG
+Art (Cup (Gold with emerald))	TYPE:Art	WT:0	COST:7500	SOURCEPAGE:DMG
+Art (Gold jewelry box with platinum filigree)	TYPE:Art	WT:0	COST:7500	SOURCEPAGE:DMG
+Art (Painted gold child's sarcophagus)	TYPE:Art	WT:0	COST:7500	SOURCEPAGE:DMG
+Art (Jade game board with solid gold playing pieces)	TYPE:Art	WT:0	COST:7500	SOURCEPAGE:DMG
+Art (Bejeweled ivory drinking horn with gold filigree)	TYPE:Art	WT:0	COST:7500	SOURCEPAGE:DMG
+
+Potion		TYPE:Potion.Consumable	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Rod		TYPE:Rod	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Scroll		TYPE:Scroll.Consumable	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Staff		TYPE:Staff	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+Wand		TYPE:Wand	COST:0	WT:0	SOURCEPAGE:DMG	MODS:REQUIRED																				
+
+# Common 1st or higher 50-100 gp
+# Uncommon 1st or higher 101-500 gp
+# Rare 5th or higher 501 -5,000 gp
+# Very rare 11th or higher 5,001 - 50,000 gp
+# Legendary 17th or higher 50,001+ gp
+
+Alchemy Jug		TYPE:Wondrous Item.Uncommon	COST:0	WT:12	SOURCEPAGE:DMG	SPROP:This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty.
+Amulet of Health	TYPE:Wondrous Item.Rare.Attunement	COST:0	WT:0	SOURCEPAGE:DMG	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	SPROP:Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution is already 19 or higher.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
+Amulet of Proof Against Detection and Location	TYPE:Wondrous Item.Rare.Attunement	COST:0	WT:0	SOURCEPAGE:DMG	DEFINE:Attunement_Amulet_Of_Proof_Against_Detection_And_Location|0	BONUS:VAR|Attunement_Amulet_Of_Proof_Against_Detection_And_Location|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Proof Against Detection and Location	SPROP:While wearing this amulet, you are hidden from divination magic. You can't be targeted by such magic or perceived through magical scrying sensors.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Proof Against Detection and Location
+Amulet of the Planes	TYPE:Wondrous Item.Very Rare.Attunement	COST:0	WT:0	SOURCEPAGE:DMG	DEFINE:Attunement_Amulet_Of_The_Planes|0	BONUS:VAR|Attunement_Amulet_Of_The_Planes|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet of the Planes	SPROP:While wearing this amulet, you are hidden from divination magic. You can't be targeted by such magic or perceived through magical scrying sensors.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Proof Against Detection and Location
+Shield.COPY=Animated Shield	KEY:Animated Shield	OUTPUTNAME:Animated Shield
+Animated Shield.MOD		TYPE:Very Rare.Attunement	COST:0		SOURCEPAGE:DMG	DEFINE:Attunement_Animated_Shield|0	BONUS:VAR|Attunement_Animated_Shield|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Animated Shield	SPROP:While holding this shield, you can speak its command word as a bonus action to cause it to animate. The shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The shield remains animated for 1 minute, until you use a bonus action to end this effect, or until you are incapacitated or die, at which point the shield falls to the ground or into your hand if you have one free.|PREABILITY:1,CATEGORY=Attunement,Animated Shield
+Apparatus of Kwalish	TYPE:Wondrous Item.Legendary	COST:0	WT:500	SOURCEPAGE:DMG		DEFINE:Attunement_Apparatus_of_Kwalish|0	BONUS:VAR|Attunement_Apparatus_Of_Kwalish|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Apparatus of Kwalish	SPROP:This item first appears to be a Large sealed iron barrel weighing 500 pounds. The barrel has a hidden catch, which can be found with a successful DC 20 Intelligence (Investigation) check. Releasing the catch unlocks a hatch at one end of the barrel, allowing two Medium or smaller creatures to crawl inside. Ten levers are set in a row at the far end, each in a neutral position, able to move either up or down. When certain levers are used, the apparatus transforms to resemble a giant lobster.|PREABILITY:1,CATEGORY=Attunement,Apparatus of Kwalish
+Plate.COPY=Armor of Invulnerability	KEY:Armor of Invulnerability	OUTPUTNAME:Armor of Invulnerability
+Armor of Invulnerability.MOD	TYPE:Legendary.Attunement	COST:0	SOURCEPAGE:DMG	DEFINE:Attunement_Armor_of_Invulnerability|0		BONUS:VAR|Attunement_Armor_of_Invulnerability|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Armor of Invulnerability	SPROP:While wearing this armor, you have resistance to one of the following damage types: bludgeoning, piercing, or slashing. The DM chooses the type or determines it randomly.|PREABILITY:1,CATEGORY=Attunement,Armor of Invulnerability	EQMOD:CURSED_ITEM.ARMR_CURSED

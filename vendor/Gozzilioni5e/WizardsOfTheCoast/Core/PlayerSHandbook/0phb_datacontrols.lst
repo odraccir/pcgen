@@ -1,4 +1,3 @@
-SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2014-08
 
 # Standard Method to remove Tiefling Traits
 FACTDEF:ABILITY|Tiefling_Trait_AbilityScoreIncrease	DATAFORMAT:BOOLEAN	REQUIRED:NO	SELECTABLE:NO	VISIBLE:YES	DISPLAYNAME:Remove Trait Ability Score Increase

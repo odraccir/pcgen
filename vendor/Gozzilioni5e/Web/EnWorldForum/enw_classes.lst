@@ -1,0 +1,14 @@
+SOURCELONG:EnWorld Forum	SOURCESHORT:EWF	SOURCEWEB:https://www.enworld.com.org/forum/-/?skip=1	SOURCEDATE:2013-12
+
+# Class Name	HD:	TYPE:PC.Base	DEFINE:	BONUS:VAR|				
+# Class Name	Multiple Requirements							
+# Class Name	SPELLSTAT:	MEMORIZE:	KNOWNSPELLS:	BONUS:CASTERLEVEL|	BONUS:VAR|SpellCasterTotalLVL|	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|	BONUS:DOMAIN|NUMBER|
+# Class Level	CAST:	KNOWN:0,	ABILITY:					
+CLASS:Expert	HD:6	TYPE:PNG.BASE	MAXLEVEL:10	DEFINE:ExpertLVL|0	BONUS:VAR|ExpertLVL|CL			
+CLASS:Expert	PREMULT:1,[!PRETEMPLATE:1,First Level],[PREABILITY:1,CATEGORY=Internal,Multiclass Allowed ~ Expert],[PRECLASS:1,Expert=1]							
+1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS							
+1			ABILITY:Class|AUTOMATIC|Expert					
+1			ABILITY:Expert Class Feature|AUTOMATIC|Expert ~ Apprentice
+3			ABILITY:Expert Class Feature|AUTOMATIC|Expert ~ Journeyman
+4			ABILITY:Expert Class Feature|AUTOMATIC|Expert ~ Ability Score Improvement					
+5			ABILITY:Expert Class Feature|AUTOMATIC|Expert ~ Master					

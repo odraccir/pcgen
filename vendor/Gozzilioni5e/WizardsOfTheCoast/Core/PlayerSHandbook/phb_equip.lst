@@ -139,9 +139,12 @@ Abacus	KEY:Abacus	TYPE:Gear	COST:2	WT:2
 Acid (vial)	KEY:Acid (vial)	TYPE:Gear	COST:25	WT:1
 Alchemist's fire (flask)	KEY:Alchemist's fire (flask)	TYPE:Gear	COST:50	WT:1
 # Ammunition
+Arrow	KEY:Arrow	TYPE:Gear.Ammunition.Arrow	COST:0.02	WT:0	BASEQTY:1
 Arrows (20)	KEY:Arrows (20)	TYPE:Gear.Ammunition.Arrow	COST:1	WT:1	BASEQTY:20
 Blowgun needles (50)	KEY:Blowgun needles (50)	TYPE:Gear.Ammunition.Blowgun Needle	COST:1	WT:1	BASEQTY:50
+Crossbow bolt	KEY:Crossbow bolt	TYPE:Gear.Ammunition.Crossbow Bolt	COST:0.02	WT:0	BASEQTY:1
 Crossbow bolts (20)	KEY:Crossbow bolts (20)	TYPE:Gear.Ammunition.Crossbow Bolt	COST:1	WT:1.5	BASEQTY:20
+Sling bullet	KEY:Sling bullet	TYPE:Gear.Ammunition.Sling Bullet	COST:0	WT:0	BASEQTY:20
 Sling bullets (20)	KEY:Sling bullets (20)	TYPE:Gear.Ammunition.Sling Bullet	COST:0.04	WT:1.5	BASEQTY:20
 #
 Antitoxin (vial)	KEY:Antitoxin (vial)	TYPE:Gear	COST:50	WT:0
