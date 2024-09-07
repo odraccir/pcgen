@@ -19,7 +19,7 @@ Pile O'Rancid Sausages	TYPE:Goods	WT:0.5	SPROP:5d20 rancid sausages
 ##Block:Wondrous
 Sizzlecaster Rod	TYPE:Wondrous Item.Goods	WT:1	SPROP:A sleek, metallic fishing rod adorned with fiery red accents, it emits a faint heat. [Effect] Instantly cooks fish as they are reeled in. [Duration] 1 hour.	SOURCEPAGE:KG	EQMOD:CHARGED_ITEM_20|20
 Friendship Bracelet	TYPE:Wondrous Item	WT:0	SPROP:A bracelet made from woven dark crimson threads that shimmer with a faint, unsettling glow. [Effect] Instantly befriends a demon if you can manage to get it on their wrist. [Duration] Until the thin threads wear down and break.	SOURCEPAGE:KG
-Geoscriber Gloves	TYPE:Wondrous Item.Glove	WT:0	SPROP:A pair of snug-fitting gardening gloves, each with a steel-capped index finger. [Effect] Etch into any natural surface like it was wet clay. [Duration] 2 Minutes.	EQMOD:CHARGED_ITEM_12|12
+Geoscriber Gloves	TYPE:Wondrous Item.Glove	WT:0	SPROP:A pair of snug-fitting gardening gloves, each with a steel-capped index finger. [Effect] Etch into any natural surface like it was wet clay. [Duration] 2 Minutes.	EQMOD:CHARGED_ITEM_12|12	SLOTS:2
 Everfull Pickle Pot	TYPE:Wondrous Item	WT:1	SPROP:A jar of 12 pickled gherkins. [Effect] Refills with pickles every dawn.
 
 

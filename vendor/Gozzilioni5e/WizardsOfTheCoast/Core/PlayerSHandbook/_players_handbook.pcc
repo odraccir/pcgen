@@ -15,9 +15,9 @@ PUBNAMEWEB:http://www.wizards.com
 COPYRIGHT:Copyright 2014, Wizards of the Coast, Inc.
 
 # COVER should be cover_gameMode_pub_book.file
-COVER:&/gozzilioni5e/_artwork/cover_5e_wotc_ph.jpg
+COVER:&/_artwork/cover_5e_wotc_ph.jpg
 # LOGO should be logo_pub.file
-LOGO:&/gozzilioni5e/_artwork/logo_wotc.png
+LOGO:&/_artwork/logo_wotc.png
 
 INFOTEXT:D&D 5e Player's Handbook
 

@@ -1,0 +1,28 @@
+CAMPAIGN:Core Rules
+KEY:55e - Core Rules
+TYPE:Core_Rule_Universal
+#GAMEMODE:5e	Leave commented out, this is loaded by the Core Rules of the System
+DATACONTROL:*/_universal/datacontrols_no_align.lst
+RACE:*/_universal/races.lst
+SOURCELONG:Gozzilioni Campaing Full Set
+SOURCESHORT:G
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2024-09
+
+# COVER should be cover_gameMode_pub_book.file
+COVER:&/_artwork/banner_gozzilioni.jpg
+# LOGO should be logo_pub.file
+LOGO:&/_artwork/logo_gozzilioni.jpg
+
+INFOTEXT:D&D 55e Universal Rules
+
+DATACONTROL:0ur_datacontrols.lst
+SIZE:0ur_sizes.lst
+
+ABILITY:ur_abilities.lst
+ABILITYCATEGORY:ur_abilitycategories.lst
+CLASS:ur_classes.lst
+DEITY:ur_deities.lst
+TEMPLATE:ur_templates.lst
+
+INFOTEXT:Supports 6.06.00

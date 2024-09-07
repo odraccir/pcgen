@@ -1,0 +1,28 @@
+CAMPAIGN:Houserules Ruleset
+GAMEMODE:G55e
+RANK:1
+TYPE:Gozzilioni.Houserules
+BOOKTYPE:Houserules
+SOURCELONG:Houserules
+SOURCESHORT:H
+SOURCEWEB:http://www.gozzilioni.net
+ISOGL:NO
+COPYRIGHT:Copyright 2024, Gozzilioni
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+ISOGL:YES
+
+# COVER should be cover_gameMode_pub_book.file
+COVER:&/_artwork/banner_gozzilioni.jpg
+# LOGO should be logo_pub.file
+LOGO:&/_artwork/logo_gozzilioni.jpg
+
+INFOTEXT:D&D 55e Gozzilioni Houserules (include implication not written in official manuals)
+
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+
+ABILITY:h_abilities.lst
+EQUIP:h_equip.lst
+EQUIPMOD:h_equipmods.lst
+

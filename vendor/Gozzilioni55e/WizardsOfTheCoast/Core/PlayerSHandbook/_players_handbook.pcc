@@ -1,0 +1,76 @@
+CAMPAIGN:Player's Handbook
+KEY:Player's Handbook
+BOOKTYPE:Core Rules
+!PRECAMPAIGN:1,BOOKTYPE=Core Rules,[Player's Handbook]
+GAMEMODE:G55e
+TYPE:Wizards of the Coast.Core
+SOURCELONG:Player's Handbook
+SOURCESHORT:PHB
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2014-09
+RANK:201409
+PUBNAMELONG:Wizards of the Coast
+PUBNAMESHORT:WotC
+PUBNAMEWEB:http://www.wizards.com
+COPYRIGHT:Copyright 2014, Wizards of the Coast, Inc.
+ISOGL:NO
+
+# COVER should be cover_gameMode_pub_book.file
+COVER:&/_artwork/cover_5e_wotc_ph.jpg
+# LOGO should be logo_pub.file
+LOGO:&/_artwork/logo_wotc.png
+
+INFOTEXT:D&D 5e Player's Handbook
+
+ALIGNMENT:0phb_align.lst
+DATACONTROL:0phb_datacontrols.lst
+SAVE:0phb_saves.lst
+STAT:0phb_stats.lst
+
+ABILITY:phb_abilities.lst
+# ABILITY:phb_abilities_classes.lst
+# ABILITY:phb_abilities_races.lst
+# ABILITYCATEGORY:phb_abilitycategories.lst
+# BIOSET:phb_biosettings.lst
+# CLASS:phb_classes.lst
+# COMPANIONMOD:phb_companionmods.lst
+# DEITY:phb_deities.lst
+# DOMAIN:phb_domains.lst
+# EQUIPMENT:phb_equip.lst
+# EQUIPMOD:phb_equipmods.lst
+# ABILITY:phb_feats.lst
+# KIT:phb_kits.lst
+# LANGUAGE:phb_languages.lst
+# ARMORPROF:phb_profs_armor.lst
+# SHIELDPROF:phb_profs_shield.lst
+# WEAPONPROF:phb_profs_weapon.lst
+# RACE:phb_races.lst
+# SKILL:phb_skills.lst
+# SPELL:phb_spells.lst
+# TEMPLATE:phb_templates.lst
+
+# BIOSET:ph_biosettings.lst
+# CLASS:ph_classes.lst
+# COMPANIONMOD:ph_companionmods.lst
+# DEITY:ph_deities.lst
+# DOMAIN:ph_domains.lst
+# EQUIPMENT:ph_equip.lst
+# EQUIPMOD:ph_equipmods.lst
+# ABILITY:ph_feats.lst
+
+# KIT:ph_kits.lst
+# LANGUAGE:ph_languages.lst
+
+
+
+# RACE:phb_races.lst
+
+# SKILL:ph_skills.lst
+
+# SPELL:ph_spells.lst
+# TEMPLATE:ph_templates.lst
+
+COMPANIONLIST:Mount|ANY
+COMPANIONLIST:Follower|ANY
+
+INFOTEXT:Supports 6.4.1

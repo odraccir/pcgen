@@ -23,9 +23,10 @@ INFOTEXT:EnWorld Forum
 # Do not remove the EXTRAFILE comment.
 #EXTRAFILE:expert.txt
 
-ABILITYCATEGORY:enw_expert.lst
-CLASS:enw_classes.lst
+ABILITY:enw_abilities.lst
 ABILITY:enw_abilities_classes.lst
+ABILITYCATEGORY:enw_abilitycategories.lst
+CLASS:enw_classes.lst
 
 # KIT:ph_kits.lst
 

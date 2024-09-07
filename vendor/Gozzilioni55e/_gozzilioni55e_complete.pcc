@@ -1,0 +1,30 @@
+CAMPAIGN:5.5 Gozzilioni Campaing Full Set
+RANK:1
+GAMEMODE:G55e
+GENRE:Fantasy
+BOOKTYPE:Campaign
+SETTING:Heroes
+TYPE:Gozzilioni.Complete
+!PRECAMPAIGN:1,BOOKTYPE=Core Rules
+PUBNAMELONG:Gozzilioni
+PUBNAMESHORT:Gozzilioni
+PUBNAMEWEB:http://www.gozzilioni.net
+SOURCELONG:Gozzilioni Campaing Full Set
+SOURCESHORT:G
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2024-09
+COPYRIGHT:My Campaign, Copyright 2005 by me
+
+SHOWINMENU:YES
+
+LOGO:&/_artwork/logo_gozzilioni.jpg
+
+
+PCC:universal_rules/_universal_rules.pcc
+RACE:*/_universal/races.lst
+
+PCC:houserules/_houserules.pcc
+# PCC:WizardsOfTheCoast/Core/PlayerSHandbook/_players_handbook.pcc
+# PCC:WizardsOfTheCoast/Core/DungeonMastersGuide/_dungeons_masters_guide.pcc
+
+# PCC:Web/Kleptogoblicon/_kleptogoblicon.pcc

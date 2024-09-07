@@ -51,7 +51,7 @@ Spear	KEY:Spear	PROFICIENCY:WEAPON|Spear	TYPE:Weapon.Resizable.Melee.Manufacture
 #MODIFY:RangeLongMult|SET|3
 Unarmed Strike	KEY:Unarmed Strike	PROFICIENCY:WEAPON|Unarmed Strike	TYPE:Weapon.Resizable.Melee.Natural.Simple.Unarmed.Weapon_Melee.Bludgeoning	COST:0	WT:0	CRITRANGE:1	CRITMULT:x2	DAMAGE:1	WIELD:OneHanded	SIZE:M
 # Simple Ranged Weapons
-Crossbow, Light	KEY:Crossbow (Light)	PROFICIENCY:WEAPON|Crossbow (Light)	TYPE:Weapon.Resizable.Ranged.Manufactured.Weapon_Ranged.Piercing.Increment4.Container.Simple	CONTAINS:UNLIM|Crossbow Bolt	COST:25	WT:5	CRITRANGE:1	CRITMULT:x2	DAMAGE:1d8	RANGE:80	SIZE:M	QUALITY:RangeLongMult|4	QUALITY:ShortRange|80	QUALITY:LongRange|320
+Crossbow (Light)	KEY:Crossbow (Light)	PROFICIENCY:WEAPON|Crossbow (Light)	TYPE:Weapon.Resizable.Ranged.Manufactured.Weapon_Ranged.Piercing.Increment4.Container.Simple	CONTAINS:UNLIM|Crossbow Bolt	COST:25	WT:5	CRITRANGE:1	CRITMULT:x2	DAMAGE:1d8	RANGE:80	SIZE:M	QUALITY:RangeLongMult|4	QUALITY:ShortRange|80	QUALITY:LongRange|320
 #MODIFY:RangeLongMult|SET|4
 Dart	KEY:Dart	PROFICIENCY:WEAPON|Dart	TYPE:Weapon.Resizable.Ranged.Manufactured.Weapon_Finesse.Piercing.Increment3.Simple	COST:.05	WT:0.25	CRITRANGE:1	CRITMULT:x2	DAMAGE:1d4	RANGE:20	SIZE:M	QUALITY:RangeLongMult|3	QUALITY:ShortRange|20	QUALITY:LongRange|60
 #MODIFY:RangeLongMult|SET|3
@@ -83,9 +83,9 @@ Whip	KEY:Whip	PROFICIENCY:WEAPON|Whip	TYPE:Weapon.Resizable.Melee.Manufactured.W
 # Martial Ranged Weapons
 Blowgun	KEY:Blowgun	PROFICIENCY:WEAPON|Blowgun	TYPE:Weapon.Resizable.Ranged.Manufactured.Weapon_Ranged.Piercing.Increment4.Container.Martial	CONTAINS:UNLIM|Blowgun Needle	COST:10	WT:1	CRITRANGE:1	CRITMULT:x2	DAMAGE:1	RANGE:25	SIZE:M	QUALITY:RangeLongMult|4	QUALITY:ShortRange|25	QUALITY:LongRange|100
 #MODIFY:RangeLongMult|SET|4
-Crossbow, Hand	KEY:Crossbow (Hand)	PROFICIENCY:WEAPON|Crossbow (Hand)	TYPE:Weapon.Resizable.Ranged.Manufactured.Weapon_Ranged.Piercing.Increment4.Container.Martial	CONTAINS:UNLIM|Crossbow Bolt	COST:75	WT:3	CRITRANGE:1	CRITMULT:x2	DAMAGE:1d6	RANGE:30	SIZE:M	QUALITY:RangeLongMult|4	QUALITY:ShortRange|30	QUALITY:LongRange|120
+Crossbow (Hand)	KEY:Crossbow (Hand)	PROFICIENCY:WEAPON|Crossbow (Hand)	TYPE:Weapon.Resizable.Ranged.Manufactured.Weapon_Ranged.Piercing.Increment4.Container.Martial	CONTAINS:UNLIM|Crossbow Bolt	COST:75	WT:3	CRITRANGE:1	CRITMULT:x2	DAMAGE:1d6	RANGE:30	SIZE:M	QUALITY:RangeLongMult|4	QUALITY:ShortRange|30	QUALITY:LongRange|120
 #MODIFY:RangeLongMult|SET|4
-Crossbow, Heavy	KEY:Crossbow (Heavy)	PROFICIENCY:WEAPON|Crossbow (Heavy)	TYPE:Weapon.Ranged.Manufactured.Weapon_Ranged.Piercing.Increment4.Container.Martial	CONTAINS:UNLIM|Crossbow Bolt	COST:50	WT:18	CRITRANGE:1	CRITMULT:x2	DAMAGE:1d10	WIELD:TwoHanded	RANGE:100	SIZE:M	QUALITY:RangeLongMult|4	QUALITY:ShortRange|100	QUALITY:LongRange|400	EQMOD:HEAVY
+Crossbow (Heavy)	KEY:Crossbow (Heavy)	PROFICIENCY:WEAPON|Crossbow (Heavy)	TYPE:Weapon.Ranged.Manufactured.Weapon_Ranged.Piercing.Increment4.Container.Martial	CONTAINS:UNLIM|Crossbow Bolt	COST:50	WT:18	CRITRANGE:1	CRITMULT:x2	DAMAGE:1d10	WIELD:TwoHanded	RANGE:100	SIZE:M	QUALITY:RangeLongMult|4	QUALITY:ShortRange|100	QUALITY:LongRange|400	EQMOD:HEAVY
 #MODIFY:RangeLongMult|SET|4
 Longbow	KEY:Longbow	PROFICIENCY:WEAPON|Longbow	TYPE:Weapon.Ranged.Manufactured.Weapon_Ranged.Piercing.Increment4.Container	CONTAINS:UNLIM|Arrow.Martial	COST:50	WT:2	CRITRANGE:1	CRITMULT:x2	DAMAGE:1d8	WIELD:TwoHanded	RANGE:150	SIZE:M	QUALITY:RangeLongMult|4	QUALITY:ShortRange|150	QUALITY:LongRange|600	EQMOD:HEAVY
 #MODIFY:RangeLongMult|SET|4
@@ -153,7 +153,7 @@ Crystal	KEY:Arcane Focus (Crystal)	TYPE:Gear.Arcane Focus	COST:10	WT:1
 Orb	KEY:Arcane Focus (Orb)	TYPE:Gear.Arcane Focus	COST:20	WT:3
 Rod	KEY:Arcane Focus (Rod)	TYPE:Gear.Arcane Focus	COST:10	WT:2
 Staff	KEY:Arcane Focus (Staff)	TYPE:Gear.Arcane Focus	COST:5	WT:4
-Wand	KEY:Arcane Focus (Wand)	TYPE:Gear.Arcane Focus	COST:10	WT:1
+Wand	KEY:Arcane Focus (Wand)	TYPE:Gear.Arcane Focus	COST:10	WT:1	EQMOD:YES
 #
 Backpack	KEY:Backpack	TYPE:Gear.Container	CONTAINS:30	COST:2	WT:5
 Ball bearings (bag of 1,000)	KEY:Ball bearings (bag of 1000)	TYPE:Gear	COST:1	WT:2

@@ -582,9 +582,9 @@ if ($cl_options{output_error}) {
 }
 
 # List of default for values defined in system files
-my @valid_system_alignments  = qw( LG  LN  LE  NG  TN  NE  CG  CN  CE  NONE  Deity );
+my @valid_system_alignments  = qw( LG  LN  LE  NG  TN  NE  CG  CN  CE  UA  NONE  Deity );
 
-my @valid_system_check_names = qw( Fortitude Reflex Will Strength Dexterity Constitution Intelligence Wisdom Charisma);
+my @valid_system_check_names = qw(Strength Dexterity Constitution Intelligence Wisdom Charisma);
 
 
 my @valid_system_game_modes  = do { no warnings 'qw'; qw(
@@ -2202,8 +2202,8 @@ my %master_order = (
 		# 'LANGAUTO:.CLEAR',	# Deprecated - 6.0
 		# 'LANGAUTO:*',		# Deprecated - 6.0
 #		'SPELLPOINTCOST:*',
-		@TEMP_Tags
-		@FACT_Tags,
+		@TEMP_Tags,
+		@Global_FACT_Tags,
 	],
 
 	'ABILITYCATEGORY' => [
@@ -4049,6 +4049,8 @@ my %token_FACT_tag = map { $_ => 1 } (
 	'Appearance',
 	'RateOfFire',
 	'CompMaterial',
+	'PC',
+	'NPC',
 );
 
 my %token_FACTSET_tag = map { $_ => 1 } (
