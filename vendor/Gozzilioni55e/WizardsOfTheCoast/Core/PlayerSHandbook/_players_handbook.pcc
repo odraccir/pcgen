@@ -9,7 +9,7 @@ SOURCESHORT:PHB
 SOURCEWEB:http://www.gozzilioni.net
 SOURCEDATE:2014-09
 RANK:201409
-PUBNAMELONG:Wizards of the Coast
+PUBNAMELONG:Wizard	s of the Coast
 PUBNAMESHORT:WotC
 PUBNAMEWEB:http://www.wizards.com
 COPYRIGHT:Copyright 2014, Wizards of the Coast, Inc.
@@ -28,26 +28,26 @@ SAVE:0phb_saves.lst
 STAT:0phb_stats.lst
 
 ABILITY:phb_abilities.lst
-# ABILITY:phb_abilities_classes.lst
+ABILITY:phb_abilities_classes.lst
 # ABILITY:phb_abilities_races.lst
-# ABILITYCATEGORY:phb_abilitycategories.lst
+ABILITYCATEGORY:phb_abilitycategories.lst
 # BIOSET:phb_biosettings.lst
-# CLASS:phb_classes.lst
+CLASS:phb_classes.lst
 # COMPANIONMOD:phb_companionmods.lst
 # DEITY:phb_deities.lst
 # DOMAIN:phb_domains.lst
-# EQUIPMENT:phb_equip.lst
+EQUIPMENT:phb_equip.lst
 # EQUIPMOD:phb_equipmods.lst
 # ABILITY:phb_feats.lst
-# KIT:phb_kits.lst
-# LANGUAGE:phb_languages.lst
+KIT:phb_kits.lst
+LANGUAGE:phb_languages.lst
 # ARMORPROF:phb_profs_armor.lst
 # SHIELDPROF:phb_profs_shield.lst
 # WEAPONPROF:phb_profs_weapon.lst
 # RACE:phb_races.lst
-# SKILL:phb_skills.lst
+SKILL:phb_skills.lst
 # SPELL:phb_spells.lst
-# TEMPLATE:phb_templates.lst
+TEMPLATE:phb_templates.lst
 
 # BIOSET:ph_biosettings.lst
 # CLASS:ph_classes.lst

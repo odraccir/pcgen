@@ -1,0 +1,39 @@
+Level	Profic.	Class Features
+1	2 	Freshman
+2	2 	Apprentice
+3	2 	Specialisation: Journeyman
+4	2 	Ability Score Improvement
+5	3 	Master
+
+Class Features:
+Hit Points: 1d6 per NPC level
+Hit Points: 6 + the NPC's Constitution modifier
+Hit Points at Higher Levels: 1d6 (or 4) + the NPC's Constitution modifier per level after 1st
+
+Multiclass: to multiclass expert charachter must have INT, WIS or CHA at 13
+
+Proficiencies:
+Armour: None
+Weapons: None
+Tools: None
+Saving throws: None
+Skills: None
+
+Freshman:
+At levels 1 gain proficiency with any one artisan tool of your choice
+
+Apprentice:
+At levels 2 can add half the proficiency bonus as gold piece to the amount of advancement when creating an object
+
+Specialisation (subclass):
+Expert Artisan:
+
+At Level 3:
+Journeyman:
+Gain Expertise (+2) with use of your tool proficiencies.
+also can add half the expertise bonus as gold piece to the amount of advancement when creating an object
+
+At Level 5:
+Master:
+Choose one skill or tool with which you are proficient. When you make an ability check that involves that skill or tool, treat a d20 roll of 9 or lower as a 10.
+also can add half the level as gold piece to the amount of advancement when creating an object

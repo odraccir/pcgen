@@ -14,3 +14,5 @@ Reduce Max HP	TEMPBONUS:ANYPC|HP|CURRENTMAX|-1*(%CHOICE)	TEMPVALUE:MIN=1|MAX=300
 # Racial Size Selections
 Racial Size is Small		SIZE:S	VISIBLE:NO
 Racial Size is Medium		SIZE:M	VISIBLE:NO
+
+First Level	TYPE:Internal

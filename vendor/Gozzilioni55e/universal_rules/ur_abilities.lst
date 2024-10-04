@@ -12,7 +12,6 @@ CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Telepathy|PREVAR
 CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|First Level Proficiencies|PREPCLEVEL:MIN=1	
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Spellcaster Spell Slots|PREVARGTEQ:SpellCasterClassCount,1	
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Passive Perception
-CATEGORY=Internal|Default.MOD	ABILITY:SkillExport|AUTOMATIC|TYPE=SkillExport
 CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|Background|!PRECLASS:1,Hit Die=1
 CATEGORY=Internal|Default.MOD	BONUS:VAR|Proficiency_Bonus|(TL+7)/4|TYPE=Base|!PRECLASS:1,Hit Die=1|!PREFACT:1,ABILITIES,NoProfBonus=True	
 

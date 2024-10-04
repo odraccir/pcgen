@@ -1,0 +1,22 @@
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2014-08
+
+Common	TYPE:Common
+Common Sign	TYPE:Common
+Draconic	TYPE:Draconic
+Dwarvish	TYPE:Dwarvish
+Elvish	TYPE:Elvish
+Giant	TYPE:Dwarvish
+Gnomish	TYPE:Dwarvish
+Goblin	TYPE:Dwarvish
+Halfling	TYPE:Common
+Orc	TYPE:Dwarvish
+Abyssal	TYPE:Infernal
+Celestial	TYPE:Celestial
+Deep Speech	TYPE:No Script
+Druidic	TYPE:Elvish
+Infernal	TYPE:Infernal
+Primordial	TYPE:Dwarvish
+Sylvan	TYPE:Elvish
+Thieves' Cant	TYPE:No Script
+Undercommon	TYPE:Elvish
+

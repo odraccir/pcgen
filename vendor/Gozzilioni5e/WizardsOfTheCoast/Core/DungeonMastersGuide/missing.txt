@@ -1,1 +1,2 @@
 Attunement
+ 	used an EQMOD to Attune, but not count against a maximun number

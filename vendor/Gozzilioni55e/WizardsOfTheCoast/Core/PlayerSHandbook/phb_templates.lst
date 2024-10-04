@@ -1,0 +1,10 @@
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2014-08
+
+# Determines First Level Class and Benefits for Class.
+# Template Name	Template
+First Level.MOD		VISIBLE:NO	TEMPLATE:CHOOSE:TYPE=FirstLevel	DEFINE:AllClassLvl|0
+
+###Block: First Level Base Classes
+# Template Name			Required Class		Bonus Ability Pool				Modify VAR									Ability																																																	Type
+Barbarian		VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Barbarian=1	BONUS:VAR|AllClassLvl|BarbarianLVL	BONUS:VAR|POOL_Barbarian_Skill|2	ABILITY:Internal|AUTOMATIC|Saving Throw ~ Con|Saving Throw ~ Str|TYPE=ArmorProfMedium|TYPE=ShieldProf|TYPE=WeaponProfMartial	ABILITY:Internal|AUTOMATIC|Multiclass Allowed|PRESTAT:1,STR=13
+Bard		VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Bard=1	BONUS:VAR|AllClassLvl|BardLVL	BONUS:VAR|POOL_Bard_Skill|2	ABILITY:Internal|AUTOMATIC|Saving Throw ~ Dex|Saving Throw ~ Cha|TYPE=ArmorProfLight|TYPE=WeaponProfSimple	ABILITY:Internal|AUTOMATIC|Multiclass Allowed|PRESTAT:1,STR=13

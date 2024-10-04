@@ -19,10 +19,15 @@ COVER:&/_artwork/banner_gozzilioni.jpg
 LOGO:&/_artwork/logo_gozzilioni.jpg
 
 INFOTEXT:D&D 55e Gozzilioni Houserules (include implication not written in official manuals)
+#EXTRAFILE:expert.txt
+#EXTRAFILE:expert_v2.txt
 
 PRECAMPAIGN:1,BOOKTYPE=Core Rules
 
 ABILITY:h_abilities.lst
-EQUIP:h_equip.lst
+EQUIPMENT:h_equip.lst
 EQUIPMOD:h_equipmods.lst
+
+#GROUP:Class Expert.
+#ABILITYCATEGORY:h1_abilitycategories.lst
 
