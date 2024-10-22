@@ -149,6 +149,7 @@ Shield	PROFICIENCY:SHIELD|Shield	TYPE:Shield	COST:10	WT:6	ABILITY:Internal|AUTOM
 # NOTES: Range is 2 Increments - Thrown Long Range is x3, Projectile Long Range is x4
 
 Unarmed Strike (Monk)	KEY:Unarmed Strike (Monk)	PROFICIENCY:WEAPON|Unarmed Strike (monk)	TYPE:Weapon.Monk.Resizable.Melee.Bludgeoning.Unarmed.Weapon_Melee.Simple	COST:0	WT:0	CRITRANGE:1	CRITMULT:x2	DAMAGE:1d4	WIELD:OneHanded	SIZE:M
+Unarmed Strike (Bard)	KEY:Unarmed Strike (Bard)	PROFICIENCY:WEAPON|Unarmed Strike (bard)	TYPE:Weapon.Bard.Resizable.Melee.Bludgeoning.Unarmed.Weapon_Melee.Simple	COST:0	WT:0	CRITRANGE:1	CRITMULT:x2	DAMAGE:1d12	WIELD:OneHanded	SIZE:M
 
 # Simple Melee Weapons
 # Equipment Name	Unique Key	Required Weapon Proficiency	Type	Contains	Cost	Weight	Base Quantity	Crit Range	Crit Multiplier	Damage	Modifier	Wield Category	Range	Size	Quality and value	Special Property

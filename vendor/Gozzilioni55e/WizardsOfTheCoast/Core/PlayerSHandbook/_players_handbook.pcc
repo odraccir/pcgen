@@ -24,7 +24,7 @@ INFOTEXT:D&D 5e Player's Handbook
 
 ALIGNMENT:0phb_align.lst
 DATACONTROL:0phb_datacontrols.lst
-SAVE:0phb_saves.lst
+# SAVE:0phb_saves.lst
 STAT:0phb_stats.lst
 
 ABILITY:phb_abilities.lst
@@ -57,9 +57,6 @@ TEMPLATE:phb_templates.lst
 # EQUIPMENT:ph_equip.lst
 # EQUIPMOD:ph_equipmods.lst
 # ABILITY:ph_feats.lst
-
-# KIT:ph_kits.lst
-# LANGUAGE:ph_languages.lst
 
 
 

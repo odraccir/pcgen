@@ -108,13 +108,17 @@ CLASS:Cleric	SPELLSTAT:WIS	MEMORIZE:YES	KNOWNSPELLS:LEVEL=1|LEVEL=2|LEVEL=3|LEVE
 20	CAST:99,ClericCast1,ClericCast2,ClericCast3,ClericCast4,ClericCast5,ClericCast6,ClericCast7,ClericCast8,ClericCast9							
 #								
 1			ABILITY:Class|AUTOMATIC|Cleric					
-1			ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Cantrips					
+1			ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Spellcasting Ability					
 1			ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Spellcasting Ability					
 1			ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Divine Domain					
 2			ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Channel Divinity					
+3			ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Cleric Subclass					
 4			ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Ability Score Improvement					
-5			ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Destroy Undead					
+5			ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Sear Undead					
+7			ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Blessed Strike					
 10			ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Divine Intervention					
+19			ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Epic Boon					
+20			ABILITY:Cleric Class Feature|AUTOMATIC|Cleric ~ Greater Divine Intervention					
 								
 CLASS:Druid	HD:8	TYPE:PC.Base	DEFINE:DruidLVL|0	AUTO:LANG|Druidic	BONUS:VAR|DruidLVL|CL			
 CLASS:Druid	PREMULT:1,[!PRETEMPLATE:1,First Level],[PREABILITY:1,CATEGORY=Internal,Multiclass Allowed ~ Druid],[PRECLASS:1,Druid=1]							

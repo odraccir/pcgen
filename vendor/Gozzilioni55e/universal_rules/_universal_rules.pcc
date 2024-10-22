@@ -26,6 +26,7 @@ ABILITY:ur_abilities.lst
 ABILITYCATEGORY:ur_abilitycategories.lst
 CLASS:ur_classes.lst
 DEITY:ur_deities.lst
+RACE:ur_races.lst
 TEMPLATE:ur_templates.lst
 
 INFOTEXT:Supports 6.06.00

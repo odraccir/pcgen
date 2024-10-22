@@ -46,15 +46,10 @@ AC Tracker																		CATEGORY:Internal																																			
 
 CATEGORY=Internal|AC Tracker.MOD																																																																					DEFINE:POOL_AC_Tracker|0																																																																																																																																																																																																																																																																																							BONUS:VAR|POOL_AC_Tracker|1|!PREABILITY:1,CATEGORY=Special Ability,TYPE.AC_Tracker_Choice
 
-###Block
+###Block: Armor Class
 Base AC 10 + DEX or Armor				KEY:AC Tracker ~ Default			CATEGORY:Special Ability	TYPE:AC_Tracker	VISIBLE:NO								DESC:This is the standard Method	BONUS:VAR|AC_Total|AC_Base	BONUS:VAR|AC_Total|AC_Shield|PREVAREQ:AC_ShieldDisabled,0	BONUS:VAR|AC_Total|AC_Armor|PREVAREQ:AC_ArmorDisabled,0	BONUS:VAR|DisableDexForAC|1|PREEQUIP:1,TYPE.HeavyArmor
 #
 Default							KEY:AC Tracker ~ No Choice			CATEGORY:Special Ability	TYPE:AC_Tracker.AC_Tracker_Choice																																																		COST:0
-Mage Armor + DEX						KEY:AC Tracker ~ Mage Armor			CATEGORY:Special Ability	TYPE:AC_Tracker.AC_Tracker_Choice.AC_Tracker_SelectionMade			PREMULT:1,[!PREABILITY:1,CATEGORY=Special Ability,TYPE.AC_Tracker_Choice],[PREABILITY:1,CATEGORY=Special Ability,AC Tracker ~ Mage Armor]				BONUS:VAR|AC_Base|3														COST:0
-Barbarian Unarmored Defense				KEY:AC Tracker ~ Barbarian			CATEGORY:Special Ability	TYPE:AC_Tracker.AC_Tracker_Choice.AC_Tracker_SelectionMade			PREMULT:2,[!PREABILITY:1,CATEGORY=Special Ability,TYPE.AC_Tracker_Choice],[PREABILITY:1,CATEGORY=Special Ability,Barbarian ~ Unarmored Defense]			BONUS:VAR|AC_Total|AC_Shield|PREVAREQ:AC_ShieldDisabled,0	BONUS:VAR|AC_Ability_Score_Bonus|CON	COST:0
-Monk Unarmored Defense					KEY:AC Tracker ~ Monk				CATEGORY:Special Ability	TYPE:AC_Tracker.AC_Tracker_Choice.AC_Tracker_SelectionMade			PREMULT:2,[!PREABILITY:1,CATEGORY=Special Ability,TYPE.AC_Tracker_Choice],[PREABILITY:1,CATEGORY=Special Ability,Monk ~ Unarmored Defense]			BONUS:VAR|AC_Ability_Score_Bonus|WIS											COST:0
-Sorcerer Draconic Resilience				KEY:AC Tracker ~ Sorcerer			CATEGORY:Special Ability	TYPE:AC_Tracker.AC_Tracker_Choice.AC_Tracker_SelectionMade			PREMULT:2,[!PREABILITY:1,CATEGORY=Special Ability,TYPE.AC_Tracker_Choice],[PREABILITY:1,CATEGORY=Special Ability,Draconic Bloodline ~ Draconic Resilience]	BONUS:VAR|AC_Base|3|!PREEQUIP:1,TYPE.Armor										COST:0
-
 #
 
 CATEGORY=Internal|Default.MOD	DEFINE:SpellCasterFull|0
@@ -392,3 +387,10 @@ Movement Mode ~ Burrow	CATEGORY:Internal	MOVE:Burrow,0	BONUS:MOVEADD|TYPE.Burrow
 Extra Attack ~ 1	CATEGORY:Internal				DEFINE:ExtraAttacks|0				BONUS:COMBAT|ATTACKS|ExtraAttacks	BONUS:VAR|ExtraAttacks|1
 Extra Attack ~ 2	CATEGORY:Internal								BONUS:VAR|ExtraAttacks|1
 Extra Attack ~ 3	CATEGORY:Internal								BONUS:VAR|ExtraAttacks|1
+
+# Evasion
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Evasion ~ Base|PREABILITY:1,CATEGORY=Special Ability,TYPE.Evasion																																																																																																																																																																																																																																																																																																																						
+Evasion ~ Base	CATEGORY:Special Ability	TYPE:Internal.ClassFeatures	VISIBLE:NO	DEFINE:EvasionTracker|0	ABILITY:Special Ability|AUTOMATIC|Evasion|PREVARGTEQ:EvasionTracker,1	ABILITY:Special Ability|AUTOMATIC|Improved Evasion|PREVARGTEQ:EvasionTracker,2	BONUS:VAR|EvasionTracker|count("ABILITIES","CATEGORY=Special Ability","TYPE=Evasion")																																																																																																																																																																																																																																																																																																																
+Evasion	CATEGORY:Special Ability	TYPE:ClassFeatures.Evasion	VISIBLE:NO																																																																																																																																																																																																																																																																																																																				
+Improved Evasion	CATEGORY:Special Ability	TYPE:ClassFeatures.ImprovedEvasion	VISIBLE:NO																																																																																																																																																																																																																																																																																																																				
+
