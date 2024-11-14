@@ -1,25 +1,18 @@
-CAMPAIGN:Core Rules
-GAMEMODE:G55e
-KEY:55e - Core Rules
+CAMPAIGN:Universal Rules
+KEY:Universal Rules
 TYPE:Core_Rule_Universal
-#GAMEMODE:5e	Leave commented out, this is loaded by the Core Rules of the System
-DATACONTROL:*/_universal/datacontrols_no_align.lst
-RACE:*/_universal/races.lst
-SOURCELONG:Gozzilioni Campaing Full Set
-SOURCESHORT:G
+GAMEMODE:G55e
+SOURCELONG:Universal Rules
+SOURCESHORT:UR
 SOURCEWEB:http://www.gozzilioni.net
-SOURCEDATE:2024-09
+SOURCEDATE:2024-00
+RANK:202400
 
-# COVER should be cover_gameMode_pub_book.file
-COVER:&/_artwork/banner_gozzilioni.jpg
-# LOGO should be logo_pub.file
-LOGO:&/_artwork/logo_gozzilioni.jpg
-
-INFOTEXT:D&D 55e Universal Rules
+DATACONTROL:*/_universal/datacontrols_no_align.lst
+# RACE:*/_universal/races.lst
 
 DATACONTROL:0ur_datacontrols.lst
 ALIGNMENT:0ur_align.lst
-SAVE:0ur_saves.lst
 SIZE:0ur_sizes.lst
 
 ABILITY:ur_abilities.lst
@@ -29,4 +22,16 @@ DEITY:ur_deities.lst
 RACE:ur_races.lst
 TEMPLATE:ur_templates.lst
 
+
+
 INFOTEXT:Supports 6.06.00
+# ENTRY DATE: 2016-01-12
+# LST MONKEY: Bahamut Dragon (Original set), Andrew Maitland (srd5)
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.06.00
+# Updated to work with version: -
+# MINVER:6.6
+# MINDEVVER:6.06.00
+# COMMENTS: Contributors: Andrew "Legacyking" Maitland, Wemes, Quonic, NGuill, Bahamut Dragon

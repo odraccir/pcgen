@@ -1,0 +1,6 @@
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-08
+
+Life Domain	SPELLLEVEL:DOMAIN|Life Domain=2|Aid,Bless,Cure Wounds,Lesser Restoration|Life Domain=3|Mass Healing Word,Revivify|Life Domain=4|Aura of Life,Death Ward|Life Domain=5|Greater Restoration,Mass Cure Wounds	SOURCEPAGE:PHB
+Light Domain	SPELLLEVEL:DOMAIN|Light Domain=2|Burning Hands,Faerie Fire,Scorching Ray,See Invisibility|Light Domain=3|Daylight,Fireball|Light Domain=4|Arcane Eye,Wall of Fire|Light Domain=5|Flame Strike,Scrying	SOURCEPAGE:PHB
+Trickery Domain	SPELLLEVEL:DOMAIN|Trickery Domain=2|Charm Person,Disguise Self,Invisibility,Pass Without Trace|Trickery Domain=3|Hypnotic Pattern,Nondetection|Trickery Domain=4|Confusion,Dimension Door|Trickery Domain=5|Dominate Person,Modify Memory	SOURCEPAGE:PHB
+War Domain	SPELLLEVEL:DOMAIN|War Domain=2|Guiding Bolt,Shield of Faith,Spiritual Weapon|War Domain=3|Crusader's Mantle,Spirit Guardians|War Domain=4|Fire Shield,Freedom of movement|War Domain=5|Hold Monster,Steel Wind Strike	SOURCEPAGE:PHB

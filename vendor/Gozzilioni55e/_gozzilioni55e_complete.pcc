@@ -12,7 +12,8 @@ PUBNAMEWEB:http://www.gozzilioni.net
 SOURCELONG:Gozzilioni Campaing Full Set
 SOURCESHORT:G
 SOURCEWEB:http://www.gozzilioni.net
-SOURCEDATE:2024-09
+SOURCEDATE:2024-00
+RANK:202400
 COPYRIGHT:My Campaign, Copyright 2005 by me
 
 SHOWINMENU:YES
@@ -20,10 +21,8 @@ SHOWINMENU:YES
 LOGO:&/_artwork/logo_gozzilioni.jpg
 
 PCC:universal_rules/_universal_rules.pcc
-RACE:*/_universal/races.lst
-
-PCC:houserules/_houserules.pcc
-# PCC:WizardsOfTheCoast/Core/PlayerSHandbook/_players_handbook.pcc
+# PCC:srd5/_system_reference_document_5.0.pcc
+# PCC:houserules/_houserules.pcc
+PCC:WizardsOfTheCoast/Core/PlayerSHandbook/_players_handbook.pcc
 # PCC:WizardsOfTheCoast/Core/DungeonMastersGuide/_dungeons_masters_guide.pcc
-
 # PCC:Web/Kleptogoblicon/_kleptogoblicon.pcc

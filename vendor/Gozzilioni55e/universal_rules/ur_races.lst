@@ -1,3 +1,5 @@
+SOURCELONG:Gozzilioni Campaing Full Set	SOURCESHORT:G	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-09
+
 #COMMENT: This is to replace the UI 'None Selected'. This is a core assumption race, this MUST be used in every system.
 # Race Name		Unique Key		Base size		Type			GROUP
-<none selected>	KEY:None Selected	FACT:BaseSize|M	TYPE:Humanoid	GROUP:UNSELECTED
+<none selected>	KEY:None Selected	FACT:BaseSize|M	TYPE:Humanoid	GROUP:UNSELECTED	LEGS:2

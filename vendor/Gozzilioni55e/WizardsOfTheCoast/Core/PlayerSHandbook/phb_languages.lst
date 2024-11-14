@@ -1,22 +1,23 @@
-SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2014-08
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-08
 
-Common	TYPE:Common
-Common Sign	TYPE:Common
-Draconic	TYPE:Draconic
-Dwarvish	TYPE:Dwarvish
-Elvish	TYPE:Elvish
-Giant	TYPE:Dwarvish
-Gnomish	TYPE:Dwarvish
-Goblin	TYPE:Dwarvish
-Halfling	TYPE:Common
-Orc	TYPE:Dwarvish
-Abyssal	TYPE:Infernal
-Celestial	TYPE:Celestial
-Deep Speech	TYPE:No Script
-Druidic	TYPE:Elvish
-Infernal	TYPE:Infernal
-Primordial	TYPE:Dwarvish
-Sylvan	TYPE:Elvish
-Thieves' Cant	TYPE:No Script
-Undercommon	TYPE:Elvish
+# Standard
+# Language	Type						Var. Min. Value
+Common	TYPE:Spoken.Common
+Dwarvish	TYPE:Spoken.Dwarvish
+Elvish	TYPE:Spoken.Elvish
+Giant		TYPE:Spoken.Dwarvish
+Gnomish	TYPE:Spoken.Dwarvish
+Goblin	TYPE:Spoken.Dwarvish
+Halfling	TYPE:Spoken.Common
+Orc		TYPE:Spoken.Dwarvish
+#Exotic Languages
+Abyssal	TYPE:Spoken.Infernal
+Celestial	TYPE:Spoken.Celestial
+Draconic	TYPE:Spoken.Draconic
+Deep Speech	TYPE:Spoken.NoScript
+Infernal	TYPE:Spoken.Infernal
+Primordial	TYPE:Spoken.Dwarvish
+Sylvan	TYPE:Spoken.Elvish
+Undercommon	TYPE:Spoken.Elvish
 
+Druidic	TYPE:Spoken.Druid.Secret.Druidic	PREVARGTEQ:DruidicLanguage,1
