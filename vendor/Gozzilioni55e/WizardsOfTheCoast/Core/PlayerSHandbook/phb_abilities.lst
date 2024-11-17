@@ -21,6 +21,8 @@ CATEGORY=Internal|Default.MOD	DEFINE:POOL_Divine_Order|0
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Blessed_Strike|0
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Druid_Skill|0
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Primal_Order|0																																			
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Elemental_Fury|0																																			
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Circle_Of_The_Land_Spell|0																																			
 
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Human_size|0																																			
 

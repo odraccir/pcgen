@@ -113,10 +113,12 @@ CLASS:Druid	PREMULT:1,[!PRETEMPLATE:1,First Level],[PREABILITY:1,CATEGORY=Intern
 CLASS:Druid	SPELLSTAT:WIS	MEMORIZE:YES	KNOWNSPELLS:LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4|LEVEL=5|LEVEL=6|LEVEL=7|LEVEL=8|LEVEL=9	BONUS:CASTERLEVEL|Druid|CL	BONUS:VAR|SpellCasterTotalLVL|DruidLVL	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|Divine	BONUS:DOMAIN|NUMBER|1|PREABILITY:1,CATEGORY=Special Ability,TYPE.Nature Domain
 1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS							
 #BLOCK: Domain support for subclass								
-0	DOMAIN:Life Domain|PREABILITY:1,CATEGORY=Special Ability,Life Domain ~ Life Domain Spells							
-0	DOMAIN:Light Domain|PREABILITY:1,CATEGORY=Special Ability,Light Domain ~ Light Domain Spells							
-0	DOMAIN:Trickery Domain|PREABILITY:1,CATEGORY=Special Ability,Trickery Domain ~ Trickery Domain Spells							
-0	DOMAIN:War Domain|PREABILITY:1,CATEGORY=Special Ability,War Domain ~ War Domain Spells							
+0	DOMAIN:Arid Land|PREABILITY:1,CATEGORY=Special Ability,Circle of the Land ~ Circle of the Land Spells ~ Arid Land							
+0	DOMAIN:Polar Land|PREABILITY:1,CATEGORY=Special Ability,Circle of the Land ~ Circle of the Land Spells ~ Polar Land							
+0	DOMAIN:Temperate Land|PREABILITY:1,CATEGORY=Special Ability,Circle of the Land ~ Circle of the Land Spells ~ Temperate Land							
+0	DOMAIN:Tropical Land|PREABILITY:1,CATEGORY=Special Ability,Circle of the Land ~ Circle of the Land Spells ~ Tropical Land							
+0	DOMAIN:Circle of the Moon|PREABILITY:1,CATEGORY=Special Ability,Circle of the Moon ~ Circle of the Moon Spells							
+0	DOMAIN:Circle of the Sea|PREABILITY:1,CATEGORY=Special Ability,Circle of the Sea ~ Circle of the Sea Spells							
 #								
 1	CAST:99,DruidCast1							
 2	CAST:99,DruidCast1							
@@ -147,3 +149,8 @@ CLASS:Druid	SPELLSTAT:WIS	MEMORIZE:YES	KNOWNSPELLS:LEVEL=1|LEVEL=2|LEVEL=3|LEVEL
 2			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Wild Companion					
 3			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Druid Subclass					
 4			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Ability Score Improvement					
+5			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Wild Resurgence					
+7			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Elemental Fury					
+18			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Beast Spell					
+19			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Epic Boon					
+20			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Archdruid					
