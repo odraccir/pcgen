@@ -29,5 +29,5 @@ EQUIPMENT:h_equip.lst
 EQUIPMOD:h_equipmods.lst
 
 #GROUP:Class Expert.
-#ABILITYCATEGORY:h1_abilitycategories.lst
+ABILITYCATEGORY:h1_abilitycategories.lst
 

@@ -1,0 +1,9 @@
+SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+
+CLASS:Commoner	HD:8	TYPE:NPC.BASE	MAXLEVEL:20	DEFINE:CommonerLVL|0	BONUS:VAR|CommonerLVL|CL			
+CLASS:Commoner	PREMULT:1,[!PRETEMPLATE:1,First Level],[PREABILITY:1,CATEGORY=Internal,Multiclass Allowed ~ Commoner],[PRECLASS:1,Commoner=1]							
+1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS							
+1			ABILITY:Class|AUTOMATIC|Commoner
+1			ABILITY:Commoner Class Feature|AUTOMATIC|Commoner ~ Favored Save
+
+

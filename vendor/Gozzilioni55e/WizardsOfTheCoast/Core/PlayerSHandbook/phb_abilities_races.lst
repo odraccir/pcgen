@@ -1,12 +1,13 @@
-SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-08
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-08																													
 																																 
+Small	CATEGORY:Internal	TYPE:Racial Trait	VISIBLE:YES	DESC:Small (about 2-4 feet tall).	KEY:Racial Size ~ Small									BONUS:SIZEMOD|NUMBER|-1																		SOURCEPAGE:PHB 
+Medium	CATEGORY:Internal	TYPE:Racial Trait	VISIBLE:YES	DESC:Medium (about 4-7 feet tall).	KEY:Racial Size ~ Medium																											SOURCEPAGE:PHB 
+																																
 ###Block:Abilities	CATEGORY:	TYPE:	VISIBLE:	Special ABility					Define					Bonus					Stackable?	Multiple?	Choose	select										SOURCEPAGE: 
 Racial Trait ~ Human	CATEGORY:Internal																						ABILITY:Human Trait|AUTOMATIC|Human ~ Human Size|Human ~ Resourceful|Human ~ Skillful|Human ~ Versatile									SOURCEPAGE:PHB 
 																																
 # Default Human																																
-Human size	CATEGORY:Special Ability	TYPE:Human Trait	VISIBLE:YES	DESC:Medium (about 4-7 feet tall) or Small (about 2-4 feet tall), chosen when you select this species	KEY:Human ~ Human Size									BONUS:VAR|POOL_Human_Size|1																		SOURCEPAGE:PHB 
-Small	CATEGORY:Internal	TYPE:Human Trait	VISIBLE:YES	DESC:Small (about 2-4 feet tall).	KEY:Human ~ Human Size ~ Small									BONUS:SIZEMOD|NUMBER|-1																		SOURCEPAGE:PHB 
-Medium	CATEGORY:Internal	TYPE:Human Trait	VISIBLE:YES	DESC:Medium (about 4-7 feet tall).	KEY:Human ~ Human Size ~ Medium																											SOURCEPAGE:PHB 
+Human size	CATEGORY:Special Ability	TYPE:Human Trait	VISIBLE:YES	DESC:Medium (about 4-7 feet tall) or Small (about 2-4 feet tall), chosen when you select this species	KEY:Human ~ Human Size									BONUS:VAR|POOL_Racial_Size|1																		SOURCEPAGE:PHB 
 Resourceful	CATEGORY:Special Ability	TYPE:Human Trait	VISIBLE:YES	DESC:You gain Heroic Inspiration whenever you finish a Long Rest.	KEY:Human ~ Resourceful																											SOURCEPAGE:PHB 
 Skillful	CATEGORY:Special Ability	TYPE:Human Trait	VISIBLE:YES	DESC:You gain proficiency in one skill of your choice.	KEY:Human ~ Skillful									BONUS:VAR|POOL_Skill_Proficiency|1																		SOURCEPAGE:PHB 
 Versatile	CATEGORY:Special Ability	TYPE:Human Trait	VISIBLE:YES	DESC:You gain an Origin feat of your choice (see chapter 5). Skilled is recommended.	KEY:Human ~ Versatile									BONUS:ABILITYPOOL|Origin Feat|1																		SOURCEPAGE:PHB 

@@ -154,3 +154,9 @@ CLASS:Druid	SPELLSTAT:WIS	MEMORIZE:YES	KNOWNSPELLS:LEVEL=1|LEVEL=2|LEVEL=3|LEVEL
 18			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Beast Spell					
 19			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Epic Boon					
 20			ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Archdruid					
+								
+CLASS:Fighter	HD:10	TYPE:PC.BASE	MAXLEVEL:20	DEFINE:FighterLVL|0	BONUS:VAR|FighterLVL|CL			
+CLASS:Fighter	PREMULT:1,[!PRETEMPLATE:1,First Level],[PREABILITY:1,CATEGORY=Internal,Multiclass Allowed ~ Fighter],[PRECLASS:1,Fighter=1]							
+CLASS:Fighter	SPELLSTAT:INT	MEMORIZE:NO		BONUS:CASTERLEVEL|Fighter|CL	BONUS:VAR|SpellCasterTotalLVL|FighterLVL	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|Arcane	
+1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS							
+1			ABILITY:Class|AUTOMATIC|Fighter					
