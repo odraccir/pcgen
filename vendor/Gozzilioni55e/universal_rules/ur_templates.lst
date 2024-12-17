@@ -12,4 +12,4 @@ Set Hit Die ~ d20	HITDIE:20	VISIBLE:NO
 Racial Size is Small		SIZE:S	VISIBLE:NO
 Racial Size is Medium		SIZE:M	VISIBLE:NO
 
-First Level	TYPE:Internal
+First Level	TYPE:Internal	VISIBLE:NO

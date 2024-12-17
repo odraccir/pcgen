@@ -1,0 +1,14 @@
+SOURCELONG:Of Animals and Beasts	SOURCESHORT:OA&B	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-11
+
+###Block: Appendix D: Creature Statistics
+STARTPACK:Default Creature ~ Blue Ringed Octopus	PRERACE:1,Blue Ringed Octopus
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Default Creature ~ Octopus	PRERACE:1,Octopus
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Default Creature ~ Giant Octopus	PRERACE:1,Giant Octopus
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Default Creature ~ Giant Octopus	PRERACE:1,Giant Octopus++
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10

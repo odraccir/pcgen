@@ -1,0 +1,43 @@
+CAMPAIGN:Of Animals and Beasts
+KEY:Of Animals and Beasts
+BOOKTYPE:Homebrew
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+GAMEMODE:G55e
+TYPE:Homebrew
+SOURCELONG:Of Animals and Beasts
+SOURCESHORT:OA&B
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2024-11
+RANK:202411
+PUBNAMELONG:Of Animals and Beasts
+PUBNAMESHORT:OA&B
+PUBNAMEWEB:http://www.www.gozzilioni.com
+COPYRIGHT:Copyright 2024, Wizards of the Coast, Inc.
+ISOGL:NO
+
+# COVER should be cover_gameMode_pub_book.file
+# COVER:&/Gozzilioni55e/_artwork/cover_5e2024_wotc_ph.png
+# LOGO should be logo_pub.file
+# LOGO:&/Gozzilioni55e/_artwork/logo_wotc.png
+
+INFOTEXT:Hombrew manual of Animals and Beasts
+
+# ABILITY:oaab_abilities.lst
+# ABILITY:oaab_abilities_class.lst
+ABILITY:oaab_abilities_races.lst
+# ABILITYCATEGORY:oaab_abilitycategories.lst
+# BIOSET:oaab_biosettings.lst
+# CLASS:oaab_classes.lst
+# COMPANIONMOD:oaab_companionmods.lst
+# DOMAIN:oaab_domains.lst
+# EQUIPMOD:oaab_eqmods.lst
+KIT:oaab_kits.lst
+# LANGUAGE:oaab_languages.lst
+# ARMORPROF:oaab_profs_armor.lst
+# SHIELDPROF:oaab_profs_shield.lst
+# WEAPONPROF:oaab_profs_weapon.lst
+RACE:oaab_races.lst
+# SKILL:oaab_skills.lst
+# TEMPLATE:oaab_templates.lst
+
+INFOTEXT:Supports 6.4.1

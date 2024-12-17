@@ -10,27 +10,30 @@ CATEGORY=Internal|Default.MOD	DEFINE:POOL_Skill_Proficiency|0
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Expertise|0																																			
 																																				
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Barbarian_Skill|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Bard_Cantrip|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Bard_Skill|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Bard_Tool|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Bard_Magical_Secrets|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Bard_Magical_Discovery|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Cleric_Skill|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Cleric_Cantrip|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Divine_Order|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Blessed_Strike|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Druid_Skill|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Primal_Order|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Elemental_Fury|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Circle_Of_The_Land_Spell|0																																			
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Maneuvers|0																																			
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Fighter_Skill|0																																			
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Fighting_Style|0																																			
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Monk_Skill|0																																			
 																																				
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Racial_size|0																																			
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Bard_Cantrip|0																																			
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Cleric_Cantrip|0																																			
+
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Racial_Size|0																																			
 																																				
 CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_CHA|0	BONUS:VAR|SpellDC_CHA|CHA+8+Proficiency_Bonus																																		
 CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_WIS|0	BONUS:VAR|SpellDC_WIS|WIS+8+Proficiency_Bonus																																		
 CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_INT|0	BONUS:VAR|SpellDC_INT|INT+8+Proficiency_Bonus																																		
-																																				
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Background|0																																			
 																																				
 CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|First Level Proficiencies|PREPCLEVEL:MIN=1																																			
 CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|AC Tracker																																			
@@ -43,7 +46,8 @@ CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|Background|!PRECLASS:1,
 CATEGORY=Internal|Default.MOD	BONUS:VAR|Proficiency_Bonus|(TL+7)/4|TYPE=Base|!PRECLASS:1,Hit Die=1|!PREFACT:1,ABILITIES,NoProfBonus=True																																			
 CATEGORY=Internal|Default.MOD	BONUS:ABILITYPOOL|Starting Equipment|1|PRECLASS:1,TYPE.PC=1|PRERACE:1,%																																			
 																																				
-Background		CATEGORY:Internal	BONUS:ABILITYPOOL|Background|1																																	
+Background		CATEGORY:Internal	DEFINE:POOL_Background|0	BONUS:VAR|POOL_Background|1																																	
+																																				
 																																				
 ###Block																																				
 Blindsight	CATEGORY:Special Ability	DESC:A creature with blindsight can perceive its surroundings without relying on sight, within a specific radius. Creatures without eyes, such as oozes, and creatures with echolocation or heightened senses, such as bats and true dragons, have this sense.	VISION:Blindsight (BlindsightRange)																																	
@@ -128,9 +132,12 @@ Charisma	CATEGORY:Internal	TYPE:Save	VISIBLE:DISPLAY		KEY:Saving Throw ~ Cha	BON
 # Weapon Profs																																				
 Simple Weapon Proficiency	CATEGORY:Internal	TYPE:WeaponProfSimple.WeaponProfMartial			KEY:Weapon Proficiency ~ Simple	ABILITY:Weapon|AUTOMATIC|TYPE=Simple																														
 Martial Weapon Proficiency	CATEGORY:Internal	TYPE:WeaponProfMartial			KEY:Weapon Proficiency ~ Martial	ABILITY:Weapon|AUTOMATIC|TYPE=Martial																														
+Monk Weapon Proficiency	CATEGORY:Internal	TYPE:WeaponProfMartialMonk			KEY:Weapon Proficiency ~ Martial Monk	ABILITY:Weapon|AUTOMATIC|TYPE=LightMartial																														
+# Armor Profs
 Light Armor Proficiency	CATEGORY:Internal	TYPE:ArmorProfLight.ArmorProfMedium.ArmorProfHeavy			KEY:Armor Proficiency ~ Light	AUTO:ARMORPROF|ARMORTYPE=LightArmor																														
 Medium Armor Proficiency	CATEGORY:Internal	TYPE:ArmorProfMedium.ArmorProfHeavy			KEY:Armor Proficiency ~ Medium	AUTO:ARMORPROF|ARMORTYPE=MediumArmor																														
 Heavy Armor Proficiency	CATEGORY:Internal	TYPE:ArmorProfHeavy			KEY:Armor Proficiency ~ Heavy	AUTO:ARMORPROF|ARMORTYPE=HeavyArmor																														
+#Shield Prof
 Shield Proficiency	CATEGORY:Internal	TYPE:ShieldProf			KEY:Shield Proficiency	AUTO:SHIELDPROF|Shield																														
 																																				
 ###Block: Tool Proficiency																																				
@@ -178,10 +185,10 @@ Tool Proficiency ~ Vehicles (Water)	CATEGORY:Internal	TYPE:Tool Proficiency		DEF
 ###Block: Rules																																				
 # Ability Name						Category of Ability		Type		Description								Stackable?	Multiple?	Choose		Bonus Ability Pool				Modify VAR										
 Bypass Background Restrictions	CATEGORY:Special Ability	TYPE:Rules	DESC:Allows the PC to take any Background desired.																																	
-Add additional Background Personality Trait	CATEGORY:Special Ability	TYPE:Rules	DESC:Adds additional background personality trait	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|POOL_Background_PersonalityTrait|1	COST:0																												
-Add additional Background Ideal	CATEGORY:Special Ability	TYPE:Rules	DESC:Adds additional background ideal	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|POOL_Background_Ideal|1	COST:0																												
-Add additional Background Bond	CATEGORY:Special Ability	TYPE:Rules	DESC:Adds additional background bond	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|POOL_Background_Bond|1	COST:0																												
-Add additional Background Flaw	CATEGORY:Special Ability	TYPE:Rules	DESC:Adds additional background flaw	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|POOL_Background_Flaw|1	COST:0																												
+# Add additional Background Personality Trait	CATEGORY:Special Ability	TYPE:Rules	DESC:Adds additional background personality trait	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|POOL_Background_PersonalityTrait|1	COST:0																												
+# Add additional Background Ideal	CATEGORY:Special Ability	TYPE:Rules	DESC:Adds additional background ideal	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|POOL_Background_Ideal|1	COST:0																												
+# Add additional Background Bond	CATEGORY:Special Ability	TYPE:Rules	DESC:Adds additional background bond	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|POOL_Background_Bond|1	COST:0																												
+# Add additional Background Flaw	CATEGORY:Special Ability	TYPE:Rules	DESC:Adds additional background flaw	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|POOL_Background_Flaw|1	COST:0																												
 																																				
 Add additional Skill Proficiency	CATEGORY:Special Ability	TYPE:Rules	DESC:Adds additional Skill Proficiency	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:ABILITYPOOL|Skill Proficiency|1	COST:0																												
 Add additional Weapon Proficiency	CATEGORY:Special Ability	TYPE:Rules	DESC:Adds additional Weapon Proficiency	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:ABILITYPOOL|Weapon Proficiency|1	COST:0																												

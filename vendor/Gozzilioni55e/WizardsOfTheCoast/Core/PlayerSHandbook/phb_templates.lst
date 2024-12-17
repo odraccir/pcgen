@@ -2,7 +2,7 @@ SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net
 
 # Determines First Level Class and Benefits for Class.
 # Template Name	Template
-First Level	VISIBLE:NO	TEMPLATE:CHOOSE:TYPE=FirstLevel	
+First Level.MOD	TEMPLATE:CHOOSE:TYPE=FirstLevel	
 
 ###Block: First Level Base Classes
 # Template Name	Required Class		Bonus Ability Pool				Modify VAR									Ability																																																	Type
