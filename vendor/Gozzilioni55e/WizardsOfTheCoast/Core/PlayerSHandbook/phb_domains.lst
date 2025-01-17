@@ -11,3 +11,5 @@ Temperate Land	SPELLLEVEL:DOMAIN|Temperate Land=2|Misty Step,Shocking Grasp,Slee
 Tropical Land	SPELLLEVEL:DOMAIN|Tropical Land=2|Acid Splash,Ray of Sickness,Web|Tropical Land=3|Stinking Cloud|Tropical Land=4|Polymorph|Tropical Land=5|Insect Plague	SOURCEPAGE:PHB
 Circle of the Moon	SPELLLEVEL:DOMAIN|Circle of the Moon=2|Cure Wounds,Moonbeam,Starry Wisp|Circle of the Moon=3|Conjure Animals|Circle of the Moon=4|Fount of Moonlight|Circle of the Moon=5|Mass Cure Wounds	SOURCEPAGE:PHB
 Circle of the Sea	SPELLLEVEL:DOMAIN|Circle of the Sea=2|Fog Cloud,Gust of Wind,Ray of Frost,Shatter,Thunderweave|Circle of the Sea=3|Lightning Bolt,Water Breathing|Circle of the Sea=4|Control Water,Ice Storm|Circle of the Sea=5|Conjure Elemental,Hold Monster	SOURCEPAGE:PHB
+
+Devotion Domain	SPELLLEVEL:DOMAIN|Devotion Domain=2|Protection from Evil and Good,Shield of Faith|Devotion Domain=3|Aid,Zone of Truth|Devotion Domain=4|Beacon of Hope,Dispel Magic|Devotion Domain=5|Freedom of movement,Guardian of Faith|Devotion Domain=6|Commune,Flame Strike	SOURCEPAGE:PHB

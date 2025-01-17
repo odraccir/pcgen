@@ -25,9 +25,12 @@ CATEGORY=Internal|Default.MOD	DEFINE:POOL_Maneuvers|0
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Fighter_Skill|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Fighting_Style|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Monk_Skill|0																																			
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Elemental_Epitome|0																																			
 																																				
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Bard_Cantrip|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Cleric_Cantrip|0																																			
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Druid_Cantrip|0																																			
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Paladin_Cantrip|0																																			
 
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Racial_Size|0																																			
 																																				
@@ -36,7 +39,7 @@ CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_WIS|0	BONUS:VAR|SpellDC_WIS|WIS+8+P
 CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_INT|0	BONUS:VAR|SpellDC_INT|INT+8+Proficiency_Bonus																																		
 																																				
 CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|First Level Proficiencies|PREPCLEVEL:MIN=1																																			
-CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|AC Tracker																																			
+CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|AC Tracker	DEFINE:DisableDexForAC|0	DEFINE:AC_ArmorDisabled|0	DEFINE:AC_ShieldDisabled|0	DEFINE:Use_AC_Output|0	DEFINE:POOL_Expertise|0
 																																				
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Spellcaster Spell Slots|PREVARGTEQ:SpellCasterClassCount,1																																			
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Passive Perception																																			
@@ -64,8 +67,7 @@ Caster Spell Slots ~ Full	CATEGORY:Internal	DEFINE:FullSpellProgression|0	BONUS:
 Starting Equipment	CATEGORY:Internal	TYPE:Starting Equipment	DESC:Add this once the character for first level is finished. As the selections will be based upon the current Proficiencies. Also, this will only trigger for the initial first level character.	TEMPLATE:CHOOSE:TYPE=Starting Equipment																																
 Skip Starting Equipment	CATEGORY:Internal	TYPE:Starting Equipment		DESC:Choose this if you are not wanting to be granted starting equipment for this character.																																
 																																				
-AC Tracker	CATEGORY:Internal	ABILITY:Armor Class Method|AUTOMATIC|AC Tracker ~ Default|!PREABILITY:1,CATEGORY=Special Ability,TYPE.AC_Tracker_SelectionMade																																		
-																																				
+AC Tracker	CATEGORY:Internal	ABILITY:Armor Class Method|AUTOMATIC|AC Tracker ~ Default|!PREABILITY:1,CATEGORY=Special Ability,TYPE.AC_Tracker_SelectionMade	DEFINE:AC_Ability_Score_Bonus|0
 CATEGORY=Internal|AC Tracker.MOD	DEFINE:POOL_AC_Tracker|0	BONUS:VAR|POOL_AC_Tracker|1|!PREABILITY:1,CATEGORY=Special Ability,TYPE.AC_Tracker_Choice																																		
 																																				
 #																																				
@@ -73,6 +75,7 @@ Base AC 10 + DEX or Armor	CATEGORY:Special Ability	TYPE:AC_Tracker	VISIBLE:NO	DE
 #																																				
 Default	CATEGORY:Special Ability	TYPE:AC_Tracker.AC_Tracker_Choice	KEY:AC Tracker ~ No Choice	COST:0																																
 Barbarian Unarmored Defense	CATEGORY:Special Ability	TYPE:AC_Tracker.AC_Tracker_Choice.AC_Tracker_SelectionMade	KEY:AC Tracker ~ Barbarian	COST:0	PREMULT:2,[!PREABILITY:1,CATEGORY=Special Ability,TYPE.AC_Tracker_Choice],[PREABILITY:1,CATEGORY=Special Ability,Barbarian ~ Unarmored Defense]	BONUS:VAR|AC_Total|AC_Shield|PREVAREQ:AC_ShieldDisabled,0	BONUS:VAR|AC_Ability_Score_Bonus|CON	SOURCEPAGE:PHB																												
+Monk Unarmored Defense	CATEGORY:Special Ability	TYPE:AC_Tracker.AC_Tracker_Choice.AC_Tracker_SelectionMade	KEY:AC Tracker ~ Monk	COST:0	PREMULT:2,[!PREABILITY:1,CATEGORY=Special Ability,TYPE.AC_Tracker_Choice],[PREABILITY:1,CATEGORY=Special Ability,Monk ~ Unarmored Defense]	BONUS:VAR|AC_Ability_Score_Bonus|WIS	SOURCEPAGE:PHB																												
 																																				
 ###Block: Skill Proficiencies & Skill Proficiency Bonus																																				
 # Ability Name	Category of Ability	Type				Prohibited Class SKill		Modify VAR										Class Skill																		
@@ -132,7 +135,7 @@ Charisma	CATEGORY:Internal	TYPE:Save	VISIBLE:DISPLAY		KEY:Saving Throw ~ Cha	BON
 # Weapon Profs																																				
 Simple Weapon Proficiency	CATEGORY:Internal	TYPE:WeaponProfSimple.WeaponProfMartial			KEY:Weapon Proficiency ~ Simple	ABILITY:Weapon|AUTOMATIC|TYPE=Simple																														
 Martial Weapon Proficiency	CATEGORY:Internal	TYPE:WeaponProfMartial			KEY:Weapon Proficiency ~ Martial	ABILITY:Weapon|AUTOMATIC|TYPE=Martial																														
-Monk Weapon Proficiency	CATEGORY:Internal	TYPE:WeaponProfMartialMonk			KEY:Weapon Proficiency ~ Martial Monk	ABILITY:Weapon|AUTOMATIC|TYPE=LightMartial																														
+Monk Weapon Proficiency	CATEGORY:Internal	TYPE:WeaponProfMonk			KEY:Weapon Proficiency ~ Monk	ABILITY:Weapon|AUTOMATIC|TYPE=LightMartial																														
 # Armor Profs
 Light Armor Proficiency	CATEGORY:Internal	TYPE:ArmorProfLight.ArmorProfMedium.ArmorProfHeavy			KEY:Armor Proficiency ~ Light	AUTO:ARMORPROF|ARMORTYPE=LightArmor																														
 Medium Armor Proficiency	CATEGORY:Internal	TYPE:ArmorProfMedium.ArmorProfHeavy			KEY:Armor Proficiency ~ Medium	AUTO:ARMORPROF|ARMORTYPE=MediumArmor																														
@@ -246,3 +249,15 @@ Wild Companion (Base)	CATEGORY:Internal								DEFINE:WildCompanionLVL|0	DEFINE:
 Wild Companion	CATEGORY:Internal	TYPE:WildCompanionSelection	VISIBLE:NO																													SOURCEPAGE:PHB				
 Expanded Selection	CATEGORY:Internal	TYPE:WildCompanionSelection.WildCompanionAlternate		KEY:Expanded Selection ~ Wild Companion																			COST:0	COMPANIONLIST:Wild Companion|ANY								SOURCEPAGE:PHB				
 Wild Companion (Default)	CATEGORY:Internal	TYPE:WildCompanionSelection.WildCompanionBase		KEY:Standard Selection ~ Wild Companion	!PREABILITY:1,CATEGORY=Internal,TYPE.WildCompanionAlternate																		COST:0	COMPANIONLIST:Wild Companion|RACESUBTYPE=Animal								SOURCEPAGE:PHB				
+
+# Evasion
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Evasion ~ Base|PREABILITY:1,CATEGORY=Special Ability,TYPE.Evasion																																																																																																																																																																																																																																																																																																																						
+Evasion ~ Base	CATEGORY:Special Ability	TYPE:Internal.ClassFeatures	VISIBLE:NO	DEFINE:EvasionTracker|0	ABILITY:Special Ability|AUTOMATIC|Evasion|PREVARGTEQ:EvasionTracker,1	ABILITY:Special Ability|AUTOMATIC|Improved Evasion|PREVARGTEQ:EvasionTracker,2	BONUS:VAR|EvasionTracker|count("ABILITIES","CATEGORY=Special Ability","TYPE=Evasion")																																																																																																																																																																																																																																																																																																																
+Evasion	CATEGORY:Special Ability	TYPE:ClassFeatures.Evasion	VISIBLE:NO																																																																																																																																																																																																																																																																																																																				
+Improved Evasion	CATEGORY:Special Ability	TYPE:ClassFeatures.ImprovedEvasion	VISIBLE:NO																																																																																																																																																																																																																																																																																																																				
+
+# Lay on Hands
+Lay on Hands	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialQuality	VISIBLE:YES	DEFINE:LayOnHands|0	DESC:%1 hp/day|LayOnHands																																																																																																																																																																																																																																																																																																															
+
+# Fighting Style
+Blessed Warrior	CATEGORY:Special Ability	TYPE:Fighting Style	VISIBLE:YES	DESC:You learn two Cleric cantrips of your choice (see the Cleric class's section for a list of Cleric spells). Guidance and Sacred Flame are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.	KEY:Fighting Style ~ Blessed Warrior	PRECLASS:1,Paladin=2								BONUS:VAR|POOL_Paladin_Cantrip|2																		SOURCEPAGE:PHB
