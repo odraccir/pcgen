@@ -1,2 +1,4 @@
 
-FOLLOWER:Familiar=1		TYPE:Familiar
+FOLLOWER:Wild Companion=1		TYPE:Wild Companion
+
+FOLLOWER:Primal Companion=1		TYPE:Primal Companion

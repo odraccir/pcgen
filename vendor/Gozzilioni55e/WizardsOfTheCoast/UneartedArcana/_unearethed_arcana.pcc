@@ -1,0 +1,53 @@
+CAMPAIGN:Unearthed Arcana
+KEY:Unearthed Arcana
+BOOKTYPE:Web Enhancement
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+GAMEMODE:G55e
+TYPE:Wizards of the Coast.WebEnhancement
+SOURCELONG:Unearthed Arcana
+SOURCESHORT:UA
+SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua
+SOURCEDATE:2015-01
+RANK:201501
+PUBNAMELONG:Wizard	s of the Coast
+PUBNAMESHORT:WotC
+PUBNAMEWEB:http://www.wizards.com
+COPYRIGHT:Copyright 2014, Wizards of the Coast, Inc.
+ISOGL:NO
+
+# COVER should be cover_gameMode_pub_book.file
+COVER:&/Gozzilioni55e/_artwork/cover_5e2024_wotc_UA.png
+# LOGO should be logo_pub.file
+LOGO:&/Gozzilioni55e/_artwork/logo_wotc.png
+
+INFOTEXT:D&D Unearthed Arcana 
+
+CLASS:ua_classes.lst
+DOMAIN:ua_domains.lst
+
+# ALIGNMENT:0phb_align.lst
+# DATACONTROL:0phb_datacontrols.lst
+# SAVE:0phb_saves.lst
+# STAT:0phb_stats.lst
+
+ABILITY:phb_abilities.lst
+ABILITY:phb_abilities_class.lst
+ABILITY:phb_abilities_races.lst
+ABILITYCATEGORY:phb_abilitycategories.lst
+BIOSET:phb_biosettings.lst
+CLASS:phb_classes.lst
+COMPANIONMOD:phb_companionmods.lst
+DOMAIN:phb_domains.lst
+EQUIPMOD:phb_eqmods.lst
+KIT:phb_kits.lst
+LANGUAGE:phb_languages.lst
+ARMORPROF:phb_profs_armor.lst
+SHIELDPROF:phb_profs_shield.lst
+WEAPONPROF:phb_profs_weapon.lst
+RACE:phb_races.lst
+SKILL:phb_skills.lst
+TEMPLATE:phb_templates.lst
+
+
+
+INFOTEXT:Supports 6.4.1

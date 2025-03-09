@@ -253,13 +253,16 @@ CLASS:Paladin	SPELLSTAT:CHA	MEMORIZE:YES		BONUS:CASTERLEVEL|Paladin|CL	BONUS:VAR
 20	CAST:99,PaladinCast1,PaladinCast2,PaladinCast3,PaladinCast4,PaladinCast5							
 #								
 0	DOMAIN:Devotion Domain|PREABILITY:1,CATEGORY=Special Ability,Oath of Devotion ~ Spells							
+0	DOMAIN:Glory Domain|PREABILITY:1,CATEGORY=Special Ability,Oath of Glory ~ Spells							
+0	DOMAIN:Ancient Domain|PREABILITY:1,CATEGORY=Special Ability,Oath of the Ancients ~ Spells							
+0	DOMAIN:Vengeance Domain|PREABILITY:1,CATEGORY=Special Ability,Oath of Vengeance ~ Spells							
 #								
 1			ABILITY:Class|AUTOMATIC|Paladin					
 1			ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Lay on Hands					
 1			ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Spellcasting					
 1			ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Weapon Mastery					
 2			ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Fighting Style					
-2			ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Paladin’s Smite					
+2			ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Paladin's Smite					
 3			ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Channel Divinity					
 3			ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Paladin Subclass					
 4			ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Ability Score Improvement					
@@ -270,5 +273,51 @@ CLASS:Paladin	SPELLSTAT:CHA	MEMORIZE:YES		BONUS:CASTERLEVEL|Paladin|CL	BONUS:VAR
 10			ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Aura of Courage					
 11			ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Radiant Strikes					
 14			ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Restoring Touch					
-18			ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Aura Espansion					
+18			ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Aura Expansion					
 19			ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Epic Boon					
+								
+CLASS:Ranger	HD:10	TYPE:PC.BASE	MAXLEVEL:20	DEFINE:RangerLVL|0	BONUS:VAR|RangerLVL|CL			
+CLASS:Ranger	PREMULT:1,[!PRETEMPLATE:1,First Level],[PREABILITY:1,CATEGORY=Internal,Multiclass Allowed ~ Ranger],[PRECLASS:1,Ranger=1]							
+CLASS:Ranger	SPELLSTAT:WIS	MEMORIZE:NO		BONUS:CASTERLEVEL|Ranger|CL	BONUS:VAR|SpellCasterTotalLVL|RangerLVL	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|Divine	
+0	DOMAIN:Fey Spells|PREABILITY:1,CATEGORY=Special Ability,Fey Wanderer ~ Spells							
+0	DOMAIN:Gloom Spells|PREABILITY:1,CATEGORY=Special Ability,Gloom Stalker ~ Spells							
+###Block								
+2	CAST:99,RangerCast1	KNOWN:0,RangerKnown1						
+3	CAST:99,RangerCast1	KNOWN:0,RangerKnown1						
+4	CAST:99,RangerCast1	KNOWN:0,RangerKnown1						
+5	CAST:99,RangerCast1,RangerCast2	KNOWN:0,RangerKnown1,RangerKnown2						
+6	CAST:99,RangerCast1,RangerCast2	KNOWN:0,RangerKnown1,RangerKnown2						
+7	CAST:99,RangerCast1,RangerCast2	KNOWN:0,RangerKnown1,RangerKnown2						
+8	CAST:99,RangerCast1,RangerCast2	KNOWN:0,RangerKnown1,RangerKnown2						
+9	CAST:99,RangerCast1,RangerCast2,RangerCast3	KNOWN:0,RangerKnown1,RangerKnown2,RangerKnown3						
+10	CAST:99,RangerCast1,RangerCast2,RangerCast3	KNOWN:0,RangerKnown1,RangerKnown2,RangerKnown3						
+11	CAST:99,RangerCast1,RangerCast2,RangerCast3	KNOWN:0,RangerKnown1,RangerKnown2,RangerKnown3						
+12	CAST:99,RangerCast1,RangerCast2,RangerCast3	KNOWN:0,RangerKnown1,RangerKnown2,RangerKnown3						
+13	CAST:99,RangerCast1,RangerCast2,RangerCast3,RangerCast4	KNOWN:0,RangerKnown1,RangerKnown2,RangerKnown3,RangerKnown4						
+14	CAST:99,RangerCast1,RangerCast2,RangerCast3,RangerCast4	KNOWN:0,RangerKnown1,RangerKnown2,RangerKnown3,RangerKnown4						
+15	CAST:99,RangerCast1,RangerCast2,RangerCast3,RangerCast4	KNOWN:0,RangerKnown1,RangerKnown2,RangerKnown3,RangerKnown4						
+16	CAST:99,RangerCast1,RangerCast2,RangerCast3,RangerCast4	KNOWN:0,RangerKnown1,RangerKnown2,RangerKnown3,RangerKnown4						
+17	CAST:99,RangerCast1,RangerCast2,RangerCast3,RangerCast4,RangerCast5	KNOWN:0,RangerKnown1,RangerKnown2,RangerKnown3,RangerKnown4,RangerKnown5						
+18	CAST:99,RangerCast1,RangerCast2,RangerCast3,RangerCast4,RangerCast5	KNOWN:0,RangerKnown1,RangerKnown2,RangerKnown3,RangerKnown4,RangerKnown5						
+19	CAST:99,RangerCast1,RangerCast2,RangerCast3,RangerCast4,RangerCast5	KNOWN:0,RangerKnown1,RangerKnown2,RangerKnown3,RangerKnown4,RangerKnown5						
+20	CAST:99,RangerCast1,RangerCast2,RangerCast3,RangerCast4,RangerCast5	KNOWN:0,RangerKnown1,RangerKnown2,RangerKnown3,RangerKnown4,RangerKnown5						
+#								
+1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS							
+1			ABILITY:Class|AUTOMATIC|Ranger					
+1			ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Spellcasting					
+1			ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Favored Enemy					
+1			ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Weapon Mastery					
+2			ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Deft Explorer					
+2			ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Fighting Style					
+3			ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Ranger Subclass					
+4			ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Ability Score Improvement					
+5			ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Extra Attack					
+6			ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Roving					
+9			ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Expertise					
+10			ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Tireless					
+13			ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Relentless Hunter					
+14			ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Nature's Veil					
+17			ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Precise Hunter					
+18			ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Feral Senses					
+19			ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Epic Boon					
+20			ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Foe Slayer					

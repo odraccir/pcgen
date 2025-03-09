@@ -1,0 +1,47 @@
+SOURCELONG:Unearthed Arcana	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2015-01
+
+# Class Name	HD:	TYPE:PC.Base	DEFINE:	BONUS:VAR|				
+# Class Name	Multiple Requirements							
+# Class Name	SPELLSTAT:	MEMORIZE:	KNOWNSPELLS:	BONUS:CASTERLEVEL|	BONUS:VAR|SpellCasterTotalLVL|	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|	BONUS:DOMAIN|NUMBER|
+# Class Level	CAST:	KNOWN:0,	ABILITY:					
+CLASS:Artificer	HD:8	TYPE:PC.BASE	MAXLEVEL:20	DEFINE:ArtificerLVL|0	BONUS:VAR|ArtificerLVL|CL 
+CLASS:Artificer	PREMULT:1,[!PRETEMPLATE:1,First Level],[PREABILITY:1,CATEGORY=Internal,Multiclass Allowed ~ Artificer],[PRECLASS:1,Artificer=1]							
+CLASS:Paladin	SPELLSTAT:INT	MEMORIZE:YES		BONUS:CASTERLEVEL|Artificer|CL	BONUS:VAR|SpellCasterTotalLVL|PaladinLVL	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|Arcane
+1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS							
+1	CAST:99,ArtificerCast1							
+2	CAST:99,ArtificerCast1							
+3	CAST:99,ArtificerCast1							
+4	CAST:99,ArtificerCast1							
+5	CAST:99,ArtificerCast1,ArtificerCast2							
+6	CAST:99,ArtificerCast1,ArtificerCast2							
+7	CAST:99,ArtificerCast1,ArtificerCast2							
+8	CAST:99,ArtificerCast1,ArtificerCast2							
+9	CAST:99,ArtificerCast1,ArtificerCast2,ArtificerCast3							
+10	CAST:99,ArtificerCast1,ArtificerCast2,ArtificerCast3							
+11	CAST:99,ArtificerCast1,ArtificerCast2,ArtificerCast3							
+12	CAST:99,ArtificerCast1,ArtificerCast2,ArtificerCast3							
+13	CAST:99,ArtificerCast1,ArtificerCast2,ArtificerCast3,ArtificerCast4							
+14	CAST:99,ArtificerCast1,ArtificerCast2,ArtificerCast3,ArtificerCast4							
+15	CAST:99,ArtificerCast1,ArtificerCast2,ArtificerCast3,ArtificerCast4							
+16	CAST:99,ArtificerCast1,ArtificerCast2,ArtificerCast3,ArtificerCast4							
+17	CAST:99,ArtificerCast1,ArtificerCast2,ArtificerCast3,ArtificerCast4,ArtificerCast5							
+18	CAST:99,ArtificerCast1,ArtificerCast2,ArtificerCast3,ArtificerCast4,ArtificerCast5							
+19	CAST:99,ArtificerCast1,ArtificerCast2,ArtificerCast3,ArtificerCast4,ArtificerCast5							
+20	CAST:99,ArtificerCast1,ArtificerCast2,ArtificerCast3,ArtificerCast4,ArtificerCast5							
+#
+0	DOMAIN:Alchemist Domain|PREABILITY:1,CATEGORY=Special Ability,Alchemist ~ Alchemist Spells							
+#
+1			ABILITY:Class|AUTOMATIC|Artificer
+1			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Magical Tinkering
+1			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Spellcasting
+2			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Replicate Magic Item
+3			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Artificer Subclass
+3			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Right Tool for the Job
+4			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Ability Score Improvement
+6			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Magic Item Tinker
+7			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Flash of Genius
+10			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Magic Item Adept
+11			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Spell-Storing Item
+14			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Magic Item Savant
+18			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Magic Item Master
+20			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Soul of Artifice

@@ -13,3 +13,9 @@ Circle of the Moon	SPELLLEVEL:DOMAIN|Circle of the Moon=2|Cure Wounds,Moonbeam,S
 Circle of the Sea	SPELLLEVEL:DOMAIN|Circle of the Sea=2|Fog Cloud,Gust of Wind,Ray of Frost,Shatter,Thunderweave|Circle of the Sea=3|Lightning Bolt,Water Breathing|Circle of the Sea=4|Control Water,Ice Storm|Circle of the Sea=5|Conjure Elemental,Hold Monster	SOURCEPAGE:PHB
 
 Devotion Domain	SPELLLEVEL:DOMAIN|Devotion Domain=2|Protection from Evil and Good,Shield of Faith|Devotion Domain=3|Aid,Zone of Truth|Devotion Domain=4|Beacon of Hope,Dispel Magic|Devotion Domain=5|Freedom of movement,Guardian of Faith|Devotion Domain=6|Commune,Flame Strike	SOURCEPAGE:PHB
+Glory Domain	SPELLLEVEL:DOMAIN|Glory Domain=2|Guiding Bolt,Heroism|Glory Domain=3|Enhance Ability,Magic Weapon|Glory Domain=4|Haste,Protection from Energy|Glory Domain=5|Compulsion,Freedom of Movement|Glory Domain=6|Legend Lore,Yolande's Regal Presence	SOURCEPAGE:PHB
+Ancients Domain	SPELLLEVEL:DOMAIN|Ancients Domain=2|Ensnaring Strike,Speak with Animals|Ancients Domain=3|Misty Step,Moonbeam|Ancients Domain=4|Plant Growth,Protection from Energy|Ancients Domain=5|Ice Storm,Stoneskin|Ancients Domain=6|Commune with Nature,Tree Stride	SOURCEPAGE:PHB
+Vengeance Domain	SPELLLEVEL:DOMAIN|Vengeance Domain=2|Bane,Hunter's Mark|Vengeance Domain=3|Hold Person,Misty Step|Vengeance Domain=4|Haste,Protection from Energy|Vengeance Domain=5|Banishment,Dimension Door|Vengeance Domain=6|Hold Monster,Scrying	SOURCEPAGE:PHB
+
+Fey Spells	SPELLLEVEL:DOMAIN|Fey Spells=2|Charm Person|Fey Spells=3|Misty Step|Fey Spells=4|Summon Fey|Fey Spells=5|Dimension Door|Fey Spells=6|Mislead	SOURCEPAGE:PHB
+Gloom Spells	SPELLLEVEL:DOMAIN|Gloom Spells=2|Disguise Self|Gloom Spells=3|Rope Trick|Gloom Spells=4|Fear|Gloom Spells=5|Greater Invisibility|Gloom Spells=6|Seeming	SOURCEPAGE:PHB

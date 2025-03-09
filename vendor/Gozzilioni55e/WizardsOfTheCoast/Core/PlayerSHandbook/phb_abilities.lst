@@ -26,6 +26,11 @@ CATEGORY=Internal|Default.MOD	DEFINE:POOL_Fighter_Skill|0
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Fighting_Style|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Monk_Skill|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Elemental_Epitome|0																																			
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Ranger_Skill|0																																			
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Fey_Gift|0																																			
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Otherworldly_Glamour|0																																			
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Iron_Mind|0																																			
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Hunter_S_Prey|0																																			
 																																				
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Bard_Cantrip|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Cleric_Cantrip|0																																			
@@ -250,6 +255,13 @@ Wild Companion	CATEGORY:Internal	TYPE:WildCompanionSelection	VISIBLE:NO									
 Expanded Selection	CATEGORY:Internal	TYPE:WildCompanionSelection.WildCompanionAlternate		KEY:Expanded Selection ~ Wild Companion																			COST:0	COMPANIONLIST:Wild Companion|ANY								SOURCEPAGE:PHB				
 Wild Companion (Default)	CATEGORY:Internal	TYPE:WildCompanionSelection.WildCompanionBase		KEY:Standard Selection ~ Wild Companion	!PREABILITY:1,CATEGORY=Internal,TYPE.WildCompanionAlternate																		COST:0	COMPANIONLIST:Wild Companion|RACESUBTYPE=Animal								SOURCEPAGE:PHB				
 
+#Block:Primal Companion																																				
+Primal Companion	CATEGORY:Internal	ABILITY:Internal|AUTOMATIC|Primal Companion (Base)|Primal Companion																																		
+Primal Companion (Base)	CATEGORY:Internal								DEFINE:PrimalCompanionLVL|0	DEFINE:PrimalCompanionDetermination|0													FOLLOWERS:Primal Companion|1	ABILITY:Primal Companion Selection|AUTOMATIC|Standard Selection ~ Primal Companion|!PREABILITY:1,CATEGORY=Internal,TYPE.PrimalCompanionAlternate								SOURCEPAGE:PHB				
+Primal Companion	CATEGORY:Internal	TYPE:PrimalCompanionSelection	VISIBLE:NO																													SOURCEPAGE:PHB				
+Expanded Selection	CATEGORY:Internal	TYPE:PrimalCompanionSelection.PrimalCompanionAlternate		KEY:Expanded Selection ~ Primal Companion																			COST:0	COMPANIONLIST:Primal Companion|ANY								SOURCEPAGE:PHB				
+Primal Companion (Default)	CATEGORY:Internal	TYPE:PrimalCompanionSelection.PrimalCompanionBase		KEY:Standard Selection ~ Primal Companion	!PREABILITY:1,CATEGORY=Internal,TYPE.PrimalCompanionAlternate																		COST:0	COMPANIONLIST:Primal Companion|RACESUBTYPE=Animal								SOURCEPAGE:PHB				
+
 # Evasion
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Evasion ~ Base|PREABILITY:1,CATEGORY=Special Ability,TYPE.Evasion																																																																																																																																																																																																																																																																																																																						
 Evasion ~ Base	CATEGORY:Special Ability	TYPE:Internal.ClassFeatures	VISIBLE:NO	DEFINE:EvasionTracker|0	ABILITY:Special Ability|AUTOMATIC|Evasion|PREVARGTEQ:EvasionTracker,1	ABILITY:Special Ability|AUTOMATIC|Improved Evasion|PREVARGTEQ:EvasionTracker,2	BONUS:VAR|EvasionTracker|count("ABILITIES","CATEGORY=Special Ability","TYPE=Evasion")																																																																																																																																																																																																																																																																																																																
@@ -261,3 +273,4 @@ Lay on Hands	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialQuality	VISIBLE:
 
 # Fighting Style
 Blessed Warrior	CATEGORY:Special Ability	TYPE:Fighting Style	VISIBLE:YES	DESC:You learn two Cleric cantrips of your choice (see the Cleric class's section for a list of Cleric spells). Guidance and Sacred Flame are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.	KEY:Fighting Style ~ Blessed Warrior	PRECLASS:1,Paladin=2								BONUS:VAR|POOL_Paladin_Cantrip|2																		SOURCEPAGE:PHB
+Druidic Warrior	CATEGORY:Special Ability	TYPE:Fighting Style	VISIBLE:YES	DESC:You learn two Druid cantrips of your choice (see the Druid class's section for a list of Druid spells). Guidance and Starry Wisp are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip.	KEY:Fighting Style ~ Druidic Warrior	PRECLASS:1,Ranger=2								BONUS:VAR|POOL_Ranger_Cantrip|2																		SOURCEPAGE:PHB

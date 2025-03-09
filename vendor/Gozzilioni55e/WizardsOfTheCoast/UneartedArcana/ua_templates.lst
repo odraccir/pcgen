@@ -1,0 +1,18 @@
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-08																																																														
+																																																																	
+###Block: First Level Base Classes																																																																	
+# Template Name	Required Class		Bonus Ability Pool				Modify VAR									Ability																																																	Type
+Artificer	VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Artificer=1	BONUS:VAR|POOL_Artificer_Skill|1	BONUS:ABILITYPOOL|Artisan's Tools Proficiency|1	ABILITY:Internal|AUTOMATIC|Saving Throw ~ Str|Saving Throw ~ Con	ABILITY:Internal|AUTOMATIC|TYPE=WeaponProfMartial		ABILITY:Internal|AUTOMATIC|Multiclass Allowed|PRESTAT:1,STR=13	BONUS:ABILITYPOOL|Thieves's Tools Proficiency|1																																																							
+																																																																	
+# How to set up Multiclass support for BASE classes. All three of these must be present for Multiclass to work properly.																																																																	
+#	!PRETEMPLATE:1,FirstLevel																																																																
+#	establishes if this is a new character without any classes. This is a paired swap condition with PRECLASS. (See below)																																																																
+#	PREABILITY:1,CATEGORY=Internal,<class> Multiclass Allowed																																																																
+#	determines if the class qualifies for Multiclass if not first class taken																																																																
+#	PRECLASS:1,<class>=1																																																																
+#	takes over after first level is established to allow continued progression in first class. This is a paired swap condition with !PRETEMPLATE. (See above)																																																																
+																																																																	
+																																																																	
+###Block - Starting Equipment by Class - Autoselects based off the first class taken.																																																																	
+# Template Name				Visible	Template																																							Required Template		Apply Kit												Type							
+Starting Equipment ~ Artificer	VISIBLE:NO	TEMPLATE:CHOOSE:Greataxe|Any Martial Melee Weapon	TEMPLATE:CHOOSE:Two Handaxes|Any simple weapon																								PRETEMPLATE:1,Barbarian	KIT:1|Starting gold ~ Barbarian	KIT:2|Explorer's Pack|four javelins		TYPE:Starting Equipment																																		

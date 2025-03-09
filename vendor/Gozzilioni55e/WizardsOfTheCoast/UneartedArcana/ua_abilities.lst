@@ -1,0 +1,36 @@
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-08																																	
+																																				
+###Block:																																				
+# Ability Name			Define							Ability															Bonus Ability Pool									Modify VAR		
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Artificer_Skill|0																																			
+																																				
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Artificer_Cantrip|0																																			
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Replicate_Magic_Item|0																																			
+
+# Artificer Replicate Magic Item Plans
+Alchemy Jug	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ Alchemy Jub	SOURCEPAGE:UA
+Bag Of Holding	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ Alchemy Jub	SOURCEPAGE:UA
+Cap of Water Breathing	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ Cap of Water Breathing	PREVARGTEQ:ArtificerLVL,2	SOURCEPAGE:UA
+Goggles of Night	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ Goggles of Night	PREVARGTEQ:ArtificerLVL,2	SOURCEPAGE:UA
+Rope of Climbing	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ Rope of Climbing	PREVARGTEQ:ArtificerLVL,2	SOURCEPAGE:UA
+Sending Stones	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ Sending Stones	PREVARGTEQ:ArtificerLVL,2	SOURCEPAGE:UA
+Shield +1	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ Shield +1	PREVARGTEQ:ArtificerLVL,2	SOURCEPAGE:UA
+Wand of Magic Detection	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ Wand of Magic Detection	PREVARGTEQ:ArtificerLVL,2	SOURCEPAGE:UA
+Wand of Secrets	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ Wand of Secrets	PREVARGTEQ:ArtificerLVL,2	SOURCEPAGE:UA
+Wand of the War Mage +1	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ Wand of the War Mage +1	PREVARGTEQ:ArtificerLVL,2	SOURCEPAGE:UA
+Weapon +1	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ Weapon +1	PREVARGTEQ:ArtificerLVL,2	SOURCEPAGE:UA
+{Common Magic Item}	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ {Common Magic Item}	PREVARGTEQ:ArtificerLVL,2	SOURCEPAGE:UA	DESC:Common magic item that isn’t a Potion, a Scroll, or cursed (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)	STACK:YES	MULT:YES	CHOICE:NOCHOICE
+Armor +1	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ Armor +1	PREVARGTEQ:ArtificerLVL,6	SOURCEPAGE:UA
+Boots of Elvenkind	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ Boots of Elvenkind	PREVARGTEQ:ArtificerLVL,6	SOURCEPAGE:UA
+Cloak of Elvenkind	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ Cloak of Elvenkind	PREVARGTEQ:ArtificerLVL,6	SOURCEPAGE:UA
+Cloak of the Manta Ray	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ Cloak of the Manta Ray	PREVARGTEQ:ArtificerLVL,6	SOURCEPAGE:UA
+Eyes of Charming	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ Eyes of Charming	PREVARGTEQ:ArtificerLVL,6	SOURCEPAGE:UA
+Gloves of Thievery	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ Gloves of Thievery	PREVARGTEQ:ArtificerLVL,6	SOURCEPAGE:UA
+Lantern of Revealing	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ Lantern of RevealingPREVARGTEQ:ArtificerLVL,6	SOURCEPAGE:UA
+Pipes of Haunting	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ Pipes of Haunting	PREVARGTEQ:ArtificerLVL,6	SOURCEPAGE:UA
+{Uncommon Armor}	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ {Uncommon Armor}	PREVARGTEQ:ArtificerLVL,6	SOURCEPAGE:UA	DESC:Uncommon Armor that isn’t cursed (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)	STACK:YES	MULT:YES	CHOICE:NOCHOICE
+{Uncommon Wand}	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ {Uncommon Wand}	PREVARGTEQ:ArtificerLVL,6	SOURCEPAGE:UA	DESC:Uncommon Wand that isn’t cursed (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)	STACK:YES	MULT:YES	CHOICE:NOCHOICE
+{Uncommon Weapon}	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ {Uncommon Weapon}	PREVARGTEQ:ArtificerLVL,6	SOURCEPAGE:UA	DESC:Uncommon Weapon that isn’t cursed (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)	STACK:YES	MULT:YES	CHOICE:NOCHOICE
+{Uncommon Ring}	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ {Uncommon Wondrous Item}	PREVARGTEQ:ArtificerLVL,10	SOURCEPAGE:UA	DESC:Uncommon Ring that isn’t cursed (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)	STACK:YES	MULT:YES	CHOICE:NOCHOICE
+{Uncommon Wondrous Item}	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ {Uncommon Wondrous Item}	PREVARGTEQ:ArtificerLVL,10	SOURCEPAGE:UA	DESC:Uncommon Wondrous Item that isn’t cursed (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)	STACK:YES	MULT:YES	CHOICE:NOCHOICE
+{Rare Armor}	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ {Rare Armor}	PREVARGTEQ:ArtificerLVL,14	SOURCEPAGE:UA	DESC:Rare Armor that isn’t cursed (you can learn this option multiple times and must select a different item each time; each item selected counts as a different plan)	STACK:YES	MULT:YES	CHOICE:NOCHOICE

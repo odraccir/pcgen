@@ -1,0 +1,17 @@
+
+# Class Features
+ABILITYCATEGORY:Artificer Class Feature	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	CATEGORY:Special Ability	TYPE:Artificer Class Feature	DISPLAYLOCATION:Character
+
+# Class Subclass
+ABILITYCATEGORY:Artificer Subclass	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	CATEGORY:Special Ability	TYPE:Artificer Subclass	DISPLAYLOCATION:Character
+
+# Class Spell known
+ABILITYCATEGORY:Artificer Known Progression Selection	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	CATEGORY:Internal	TYPE:Artificer Known Progression	DISPLAYLOCATION:Character
+ABILITYCATEGORY:Artificer Known	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	CATEGORY:Internal	TYPE:Artificer Known	DISPLAYLOCATION:Character
+
+# Class Skills
+ABILITYCATEGORY:Artificer Skill	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	POOL:POOL_Artificer_Skill	CATEGORY:Skill	ABILITYLIST:Arcana|History|Investigation|Medicine|Nature|Perception|Sleight of Hand	DISPLAYLOCATION:Character
+ABILITYCATEGORY:Replicate Magic Item	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	POOL:POOL_Replicate_Magic_Item	CATEGORY:Internal	TYPE:Magic Item Plan	DISPLAYLOCATION:Character
+
+# Cantrip
+ABILITYCATEGORY:Artificer Cantrip	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	POOL:POOL_Artificer_Cantrip	CATEGORY:Internal	TYPE:Artificer Cantrip	DISPLAYLOCATION:Character
