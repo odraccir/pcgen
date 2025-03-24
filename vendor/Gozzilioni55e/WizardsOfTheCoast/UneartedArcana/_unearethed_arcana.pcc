@@ -22,8 +22,22 @@ LOGO:&/Gozzilioni55e/_artwork/logo_wotc.png
 
 INFOTEXT:D&D Unearthed Arcana 
 
+#EXTRAFILE:missing.txt
+
+ABILITY:ua_abilities_class.lst
+ABILITY:ua_abilities_racial.lst
+ABILITY:ua_abilities.lst
+ABILITYCATEGORY:ua_abilitycategories.lst
 CLASS:ua_classes.lst
+COMPANIONMOD:ua_companionmods.lst
 DOMAIN:ua_domains.lst
+EQUIPMENT:ua_equip_arms_and_armor.lst
+EQUIPMENT:ua_equip_magic.lst
+EQUIPMENT:ua_equip.lst
+EQUIPMOD:ua_equipmods.lst
+RACE:ua_races.lst
+SPELL:ua_spells.lst
+TEMPLATE:ua_templates.lst
 
 # ALIGNMENT:0phb_align.lst
 # DATACONTROL:0phb_datacontrols.lst

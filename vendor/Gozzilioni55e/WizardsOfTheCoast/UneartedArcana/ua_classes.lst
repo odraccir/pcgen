@@ -1,12 +1,12 @@
-SOURCELONG:Unearthed Arcana	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2015-01
-
+SOURCELONG:Unearthed Arcana	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2015-01					
+								
 # Class Name	HD:	TYPE:PC.Base	DEFINE:	BONUS:VAR|				
 # Class Name	Multiple Requirements							
 # Class Name	SPELLSTAT:	MEMORIZE:	KNOWNSPELLS:	BONUS:CASTERLEVEL|	BONUS:VAR|SpellCasterTotalLVL|	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|	BONUS:DOMAIN|NUMBER|
 # Class Level	CAST:	KNOWN:0,	ABILITY:					
-CLASS:Artificer	HD:8	TYPE:PC.BASE	MAXLEVEL:20	DEFINE:ArtificerLVL|0	BONUS:VAR|ArtificerLVL|CL 
+CLASS:Artificer	HD:8	TYPE:PC.BASE	MAXLEVEL:20	DEFINE:ArtificerLVL|0	BONUS:VAR|ArtificerLVL|CL 			
 CLASS:Artificer	PREMULT:1,[!PRETEMPLATE:1,First Level],[PREABILITY:1,CATEGORY=Internal,Multiclass Allowed ~ Artificer],[PRECLASS:1,Artificer=1]							
-CLASS:Paladin	SPELLSTAT:INT	MEMORIZE:YES		BONUS:CASTERLEVEL|Artificer|CL	BONUS:VAR|SpellCasterTotalLVL|PaladinLVL	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|Arcane
+CLASS:Paladin	SPELLSTAT:INT	MEMORIZE:YES		BONUS:CASTERLEVEL|Artificer|CL	BONUS:VAR|SpellCasterTotalLVL|PaladinLVL	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|Arcane	
 1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS							
 1	CAST:99,ArtificerCast1							
 2	CAST:99,ArtificerCast1							
@@ -28,20 +28,23 @@ CLASS:Paladin	SPELLSTAT:INT	MEMORIZE:YES		BONUS:CASTERLEVEL|Artificer|CL	BONUS:V
 18	CAST:99,ArtificerCast1,ArtificerCast2,ArtificerCast3,ArtificerCast4,ArtificerCast5							
 19	CAST:99,ArtificerCast1,ArtificerCast2,ArtificerCast3,ArtificerCast4,ArtificerCast5							
 20	CAST:99,ArtificerCast1,ArtificerCast2,ArtificerCast3,ArtificerCast4,ArtificerCast5							
-#
-0	DOMAIN:Alchemist Domain|PREABILITY:1,CATEGORY=Special Ability,Alchemist ~ Alchemist Spells							
-#
-1			ABILITY:Class|AUTOMATIC|Artificer
-1			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Magical Tinkering
-1			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Spellcasting
-2			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Replicate Magic Item
-3			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Artificer Subclass
-3			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Right Tool for the Job
-4			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Ability Score Improvement
-6			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Magic Item Tinker
-7			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Flash of Genius
-10			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Magic Item Adept
-11			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Spell-Storing Item
-14			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Magic Item Savant
-18			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Magic Item Master
-20			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Soul of Artifice
+#								
+0	DOMAIN:Alchemist Domain|PREABILITY:1,CATEGORY=Special Ability,Artificer ~ Alchemist Spells							
+0	DOMAIN:Armorer Domain|PREABILITY:1,CATEGORY=Special Ability,Artificer ~ Armorer Spells							
+0	DOMAIN:Artillerist Domain|PREABILITY:1,CATEGORY=Special Ability,Artificer ~ Artillerist Spells							
+0	DOMAIN:Battle Smith Domain|PREABILITY:1,CATEGORY=Special Ability,Battle Smith ~ Battle Smith Spells							
+#								
+1			ABILITY:Class|AUTOMATIC|Artificer					
+1			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Magical Tinkering					
+1			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Spellcasting					
+2			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Replicate Magic Item					
+3			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Artificer Subclass					
+3			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Right Tool for the Job					
+4			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Ability Score Improvement					
+6			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Magic Item Tinker					
+7			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Flash of Genius					
+10			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Magic Item Adept					
+11			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Spell-Storing Item					
+14			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Magic Item Savant					
+18			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Magic Item Master					
+20			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Soul of Artifice					

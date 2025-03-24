@@ -1,3 +1,6 @@
 SOURCELONG:Unearthed Arcana	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2015-01
 
 Alchemist Domain	SPELLLEVEL:DOMAIN|Alchemist Domain=2|Healing word,Ray of Sickness|Alchemist Domain=3|Flaming Sphere,Melf's Acid Arrow|Alchemist Domain=4|Gaseous Form,Mass Healing Word|Alchemist Domain=5|Death Ward,Vitriolic Sphere|Alchemist Domain=6|Cloudkill,Raise Dead	SOURCEPAGE:UA
+Armorer Domain	SPELLLEVEL:DOMAIN|Armorer Domain=2|Magic Missile,Thunderweave|Armorer Domain=3|Mirror Image,Shatter|Armorer Domain=4|Hypnotic Pattern,Lightning Bolt|Armorer Domain=5|Fire Shield,Greater Invisibility|Armorer Domain=6|Passwall,Wall of Force	SOURCEPAGE:UA
+Artillerist Domain	SPELLLEVEL:DOMAIN|Artillerist Domain=2|Shield,Thunderweave|Artillerist Domain=3|Scorching Ray,Shatter|Artillerist Domain=4|Fireball,Wind Wall|Artillerist Domain=5|Ice Storm,Wall of Fire|Artillerist Domain=6|Cone of Cold,Wall of Force	SOURCEPAGE:UA
+Battle Smith Domain	SPELLLEVEL:DOMAIN|Battle Smith Domain=2|Heroism,Shield|Battle Smith Domain=3|Shining Smite,Warding Bond|Battle Smith Domain=4|Aura of Vitality,Conjure Barrage|Battle Smith Domain=5|Aura of Purity,Fire Shield|Battle Smith Domain=6|Banishing Smite,Mass Cure Wounds	SOURCEPAGE:UA
