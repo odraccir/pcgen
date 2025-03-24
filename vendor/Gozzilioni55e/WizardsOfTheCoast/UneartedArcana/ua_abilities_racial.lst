@@ -1,0 +1,4 @@
+SOURCELONG:Unearthed Arcana	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2015-01
+
+Racial Trait ~ Eldritch Cannon	CATEGORY:Internal																						ABILITY:Special Ability|AUTOMATIC|Eldritch Cannon ~ Activate Cannon									SOURCEPAGE:PHB 
+Activate Cannon	CATEGORY:Special Ability	TYPE:RacialTrait.EldritchCannonRaceTrait.SpecialQuality	VISIBLE:YES	DESC:As a Bonus Action, you order the cannon to use the Flamethrower, Force Ballista, or Protector option below; you can direct the cannon to move up to 15 feet before or after that option KEY:Eldritch Cannon ~ Activate Cannon																											SOURCEPAGE:UA 
