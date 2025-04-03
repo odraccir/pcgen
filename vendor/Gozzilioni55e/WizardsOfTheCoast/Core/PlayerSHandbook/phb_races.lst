@@ -1,4 +1,11 @@
 SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-08
-																																																																	
+
+###BLOCK: Races																																																																	
 # Race Name	Output Name	Favored Class	STARTFEATS:	SIZE:	MOVE:	FACE:	REACH:	Vision		Required AL	Automatic Languages	Bonus Languages	Combat bonus		Bonus to skill				Stat bonus								MONCSKILL:	Automaticaly Gained Shield Prof.		Automaticaly Gained Weapon Prof.		Virtual Feat		Feat		Nb Legs	Nb Hands	Weapon prof. bonus			Natural Attacks		Special Ability						Spell Res.	Damage Reduction		MONSTERCLASS:	RACETYPE:	RACESUBTYPE:	TYPE:	Template			Hit Dice	HITDICEADVANCEMENT:	LEVELADJUSTMENT:	CR:	SOURCEPAGE:	Innate Spells	
 Human				SIZE:M	MOVE:Walk,30																															LEGS:2	HANDS:2						ABILITY:Internal|AUTOMATIC|Racial Trait ~ Human										RACETYPE:Humanoid	RACESUBTYPE:Human	TYPE:Humanoid.PC								SOURCEPAGE:PHB		SORTKEY:Base_PC
+
+###BLOCK:Ranger beasts
+Beast of the Land				SIZE:M	MOVE:Walk,40,Climb,40	MONSTERCLASS:Hit Die:1	BONUS:STAT|STR|4	BONUS:STAT|DEX|4	BONUS:STAT|CON|4	BONUS:STAT|INT|-2	BONUS:STAT|WIS|4																										LEGS:4	HANDS:0						ABILITY:Internal|AUTOMATIC|Racia Trait ~ Beast of the Land										RACETYPE:Beast		TYPE:Beast	KIT:1|TN						CR:0	SOURCEPAGE:UA		SORTKEY:Beast of the Land
+Beast of the Sky				SIZE:S	MOVE:Walk,10,Fly,60	MONSTERCLASS:Hit Die:1	BONUS:STAT|STR|-4	BONUS:STAT|DEX|6	BONUS:STAT|CON|2	BONUS:STAT|INT|-2	BONUS:STAT|WIS|4																										LEGS:2	HANDS:0						ABILITY:Internal|AUTOMATIC|Racia Trait ~ Beast of the Sky										RACETYPE:Beast		TYPE:Beast	KIT:1|TN						CR:0	SOURCEPAGE:UA		SORTKEY:Beast of the Sky		
+Beast of the Sea				SIZE:M	MOVE:Walk,5,Swim,60	MONSTERCLASS:Hit Die:1	BONUS:STAT|STR|4	BONUS:STAT|DEX|4	BONUS:STAT|CON|4	BONUS:STAT|INT|-2	BONUS:STAT|WIS|4																										LEGS:2	HANDS:0						ABILITY:Internal|AUTOMATIC|Racia Trait ~ Beast of the Sea										RACETYPE:Beast		TYPE:Beast	KIT:1|TN						CR:0	SOURCEPAGE:UA		SORTKEY:Beast of the Sea
+

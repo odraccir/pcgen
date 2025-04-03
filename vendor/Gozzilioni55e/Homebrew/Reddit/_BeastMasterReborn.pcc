@@ -1,0 +1,43 @@
+CAMPAIGN:Beast Master Reborn
+KEY:Beast Master Reborn
+BOOKTYPE:Homebrew
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+GAMEMODE:G55e
+TYPE:Homebrew
+SOURCELONG:Beast Master Reborn
+SOURCESHORT:BMR
+SOURCEWEB:http://www.reddit.com
+SOURCEDATE:2024-11
+RANK:202411
+PUBNAMELONG:Beast MAster Reborn
+PUBNAMESHORT:BMR
+PUBNAMEWEB:http://www.reddit.com
+COPYRIGHT:Copyright 2024, Wizards of the Coast, Inc.
+ISOGL:YES
+
+# COVER should be cover_gameMode_pub_book.file
+# COVER:&/Gozzilioni55e/_artwork/cover_5e2024_wotc_ph.png
+# LOGO should be logo_pub.file
+# LOGO:&/Gozzilioni55e/_artwork/logo_wotc.png
+
+INFOTEXT:Hombrew Beast Master Reborn as Ranger subclass
+
+ABILITY:bmr_abilities.lst
+ABILITY:bmr_abilities_class.lst
+# ABILITY:bmr_abilities_races.lst
+# ABILITYCATEGORY:bmr_abilitycategories.lst
+# BIOSET:bmr_biosettings.lst
+# CLASS:bmr_classes.lst
+COMPANIONMOD:bmr_companionmods.lst
+# DOMAIN:bmr_domains.lst
+# EQUIPMOD:bmr_eqmods.lst
+# KIT:bmr_kits.lst
+# LANGUAGE:bmr_languages.lst
+# ARMORPROF:bmr_profs_armor.lst
+# SHIELDPROF:bmr_profs_shield.lst
+# WEAPONPROF:bmr_profs_weapon.lst
+# RACE:bmr_races.lst
+# SKILL:bmr_skills.lst
+# TEMPLATE:bmr_templates.lst
+
+INFOTEXT:Supports 6.4.1

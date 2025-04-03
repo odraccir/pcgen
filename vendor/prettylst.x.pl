@@ -24,7 +24,7 @@ use warnings;
 use Fatal qw( open close );		# Force some built-ins to die on error
 use English qw( -no_match_vars );	# No more funky punctuation variables
 
-my $VERSION		= "6.08.00G";
+my $VERSION		= "6.08.01G";
 my $VERSION_DATE	= "2018-11-16";
 my ($PROGRAM_NAME)	= "PCGen PrettyLST";
 my ($SCRIPTNAME)	= ( $PROGRAM_NAME =~ m{ ( [^/\\]* ) \z }xms );
@@ -403,91 +403,89 @@ if ( $cl_options{convert} ) {
 	#	$conversion_enable{'RACE:Fix PREDEFAULTMONSTER bonuses'} = 1;
 
 	}
-		elsif ( $cl_options{convert} eq 'pcgen595' ) {
+	elsif ( $cl_options{convert} eq 'pcgen595' ) {
 	#		$conversion_enable{'ALL:PRERACE needs a ,'} = 1;
-		}
-		elsif ( $cl_options{convert} eq 'pcgen580' ) {
-			$conversion_enable{'ALL:PREALIGN conversion'} = 1;
-		}
-		elsif ( $cl_options{convert} eq 'pcgen5713' ) {
-			$conversion_enable{'ALL:Convert SPELL to SPELLS'}	= 1;
-			$conversion_enable{'TEMPLATE:HITDICESIZE to HITDIE'} = 1;
-			$conversion_enable{'ALL:PRECLASS needs a ,'}		= 1;
-		}
-		elsif ( $cl_options{convert} eq 'pcgen574' ) {
-			$conversion_enable{'CLASS:CASTERLEVEL for all casters'} = 1;
-			$conversion_enable{'ALL:MOVE:nn to MOVE:Walk,nn'}		= 1;
-		}
+	}
+	elsif ( $cl_options{convert} eq 'pcgen580' ) {
+		$conversion_enable{'ALL:PREALIGN conversion'} = 1;
+	}
+	elsif ( $cl_options{convert} eq 'pcgen5713' ) {
+		$conversion_enable{'ALL:Convert SPELL to SPELLS'}	= 1;
+		$conversion_enable{'TEMPLATE:HITDICESIZE to HITDIE'} = 1;
+		$conversion_enable{'ALL:PRECLASS needs a ,'}		= 1;
+	}
+	elsif ( $cl_options{convert} eq 'pcgen574' ) {
+		$conversion_enable{'CLASS:CASTERLEVEL for all casters'} = 1;
+		$conversion_enable{'ALL:MOVE:nn to MOVE:Walk,nn'}		= 1;
+	}
 		#  elsif($cl_options{convert} eq 'pcgen56') {
 		#	$conversion_enable{'ALL:EQMOD has new keys'} = 1;
 		#  }
-		elsif ( $cl_options{convert} eq 'pcgen555' ) {
-			$conversion_enable{'EQUIP:no more MOVE'} = 1;
-		}
-		elsif ( $cl_options{convert} eq 'pcgen541' ) {
-			$conversion_enable{'WEAPONPROF:No more SIZE'} = 1;
-		}
-		elsif ( $cl_options{convert} eq 'pcgen54' ) {
-			$conversion_enable{'PCC:GAMEMODE DnD to 3e'}	= 1;
-			$conversion_enable{'PCC:GAME to GAMEMODE'}	= 1;
-			$conversion_enable{'ALL:Add TYPE=Base.REPLACE'} = 1;
-			$conversion_enable{'RACE:CSKILL to MONCSKILL'}  = 1;
-		}
-		elsif ( $cl_options{convert} eq 'pcgen54cmp' ) {
-			$conversion_enable{'PCC:GAME to GAMEMODE'}	= 1;
-			$conversion_enable{'ALL:Add TYPE=Base.REPLACE'} = 1;
-			$conversion_enable{'RACE:CSKILL to MONCSKILL'}  = 1;
-		}
-		elsif ( $cl_options{convert} eq 'pcgen534' ) {
-			#	$conversion_enable{'ALL:COUNT[FEATTYPE=...'} = 1;
-			$conversion_enable{'PCC:GAME to GAMEMODE'}	= 1;
-			$conversion_enable{'ALL:Add TYPE=Base.REPLACE'} = 1;
-			#	$conversion_enable{'CLASS: SPELLLIST from Spell.MOD'} = 1;
-		}
-		elsif ( $cl_options{convert} eq 'pcgen511' ) {
-			$conversion_enable{'ALL: , to | in VISION'}  = 1;
-			$conversion_enable{'ALL:PRECLASS needs a ,'} = 1;
-		}
-		elsif ( $cl_options{convert} eq 'pcgen438' ) {
-			$conversion_enable{'ALL:PRESTAT needs a ,'}		= 1;
-			$conversion_enable{'EQUIPMENT: remove ATTACKS'}	= 1;
-			$conversion_enable{'EQUIPMENT: SLOTS:2 for plurals'} = 1;
-		}
-		elsif ( $cl_options{convert} eq 'pcgen433' ) {
-			$conversion_enable{'ALL: 4.3.3 Weapon name change'} = 1;
-		}
-		elsif ( $cl_options{convert} eq 'rmprealign' ) {
-			$conversion_enable{'ALL:CMP remove PREALIGN'} = 1;
-		}
-		elsif ( $cl_options{convert} eq 'natattackfix' ) {
-			$conversion_enable{'ALL:CMP NatAttack fix'} = 1;
-		}
-		elsif ( $cl_options{convert} eq 'skillbonusfix' ) {
-			$conversion_enable{'RACE:BONUS SKILL Climb and Swim'} = 1;
-		}
-		elsif ( $cl_options{convert} eq 'noprofreq' ) {
-
-			# [ 832164 ] Adding NoProfReq to AUTO:WEAPONPROF for most races
-			$conversion_enable{'RACE:NoProfReq'} = 1;
-		}
-		elsif ( $cl_options{convert} eq 'classspell' ) {
-			$conversion_enable{'CLASSSPELL convertion to SPELL'} = 1;
-		}
-		elsif ( $cl_options{convert} eq 'classskill' ) {
-			$conversion_enable{'CLASSSKILL convertion to CLASS'} = 1;
-		}
-		elsif ( $cl_options{convert} eq 'notready' ) {
-			$conversion_enable{'ALL:BONUS:MOVE convertion'} = 1;
-		}
-		elsif ($cl_options{convert} eq 'foldbacklines'
-			|| $cl_options{convert} eq 'ml21' )
-		{
-			$conversion_enable{'ALL:Multiple lines to one'} = 1;
-		}
-		elsif ( $cl_options{convert} eq 'gmconv' ) {
-			$conversion_enable{'PCC:GAMEMODE Add to the CMP DnD_'} = 1;
-		}
-	elsif ( $cl_options{convert} eq 'Gozzilioni' ) {
+	elsif ( $cl_options{convert} eq 'pcgen555' ) {
+		$conversion_enable{'EQUIP:no more MOVE'} = 1;
+	}
+	elsif ( $cl_options{convert} eq 'pcgen541' ) {
+		$conversion_enable{'WEAPONPROF:No more SIZE'} = 1;
+	}
+	elsif ( $cl_options{convert} eq 'pcgen54' ) {
+		$conversion_enable{'PCC:GAMEMODE DnD to 3e'}	= 1;
+		$conversion_enable{'PCC:GAME to GAMEMODE'}	= 1;
+		$conversion_enable{'ALL:Add TYPE=Base.REPLACE'} = 1;
+		$conversion_enable{'RACE:CSKILL to MONCSKILL'}  = 1;
+	}
+	elsif ( $cl_options{convert} eq 'pcgen54cmp' ) {
+		$conversion_enable{'PCC:GAME to GAMEMODE'}	= 1;
+		$conversion_enable{'ALL:Add TYPE=Base.REPLACE'} = 1;
+		$conversion_enable{'RACE:CSKILL to MONCSKILL'}  = 1;
+	}
+	elsif ( $cl_options{convert} eq 'pcgen534' ) {
+		#	$conversion_enable{'ALL:COUNT[FEATTYPE=...'} = 1;
+		$conversion_enable{'PCC:GAME to GAMEMODE'}	= 1;
+		$conversion_enable{'ALL:Add TYPE=Base.REPLACE'} = 1;
+		#	$conversion_enable{'CLASS: SPELLLIST from Spell.MOD'} = 1;
+	}
+	elsif ( $cl_options{convert} eq 'pcgen511' ) {
+		$conversion_enable{'ALL: , to | in VISION'}  = 1;
+		$conversion_enable{'ALL:PRECLASS needs a ,'} = 1;
+	}
+	elsif ( $cl_options{convert} eq 'pcgen438' ) {
+		$conversion_enable{'ALL:PRESTAT needs a ,'}		= 1;
+		$conversion_enable{'EQUIPMENT: remove ATTACKS'}	= 1;
+		$conversion_enable{'EQUIPMENT: SLOTS:2 for plurals'} = 1;
+	}
+	elsif ( $cl_options{convert} eq 'pcgen433' ) {
+		$conversion_enable{'ALL: 4.3.3 Weapon name change'} = 1;
+	}
+	elsif ( $cl_options{convert} eq 'rmprealign' ) {
+		$conversion_enable{'ALL:CMP remove PREALIGN'} = 1;
+	}
+	elsif ( $cl_options{convert} eq 'natattackfix' ) {
+		$conversion_enable{'ALL:CMP NatAttack fix'} = 1;
+	}
+	elsif ( $cl_options{convert} eq 'skillbonusfix' ) {
+		$conversion_enable{'RACE:BONUS SKILL Climb and Swim'} = 1;
+	}
+	elsif ( $cl_options{convert} eq 'noprofreq' ) {
+		# [ 832164 ] Adding NoProfReq to AUTO:WEAPONPROF for most races
+		$conversion_enable{'RACE:NoProfReq'} = 1;
+	}
+	elsif ( $cl_options{convert} eq 'classspell' ) {
+		$conversion_enable{'CLASSSPELL convertion to SPELL'} = 1;
+	}
+	elsif ( $cl_options{convert} eq 'classskill' ) {
+		$conversion_enable{'CLASSSKILL convertion to CLASS'} = 1;
+	}
+	elsif ( $cl_options{convert} eq 'notready' ) {
+		$conversion_enable{'ALL:BONUS:MOVE convertion'} = 1;
+	}
+	elsif ($cl_options{convert} eq 'foldbacklines'
+		|| $cl_options{convert} eq 'ml21' )	{
+		$conversion_enable{'ALL:Multiple lines to one'} = 1;
+	}
+	elsif ( $cl_options{convert} eq 'gmconv' ) {
+		$conversion_enable{'PCC:GAMEMODE Add to the CMP DnD_'} = 1;
+	}
+	elsif ( $cl_options{convert} eq 'gozzilioni' ) {
 		$conversion_enable{'EQUIPMENT: SLOTS:2 for plurals'} = 1;
 		$conversion_enable{'ALL:PRESTAT needs a ,'} = 1;
 		$conversion_enable{'ALL:Add TYPE=Base.REPLACE'} = 1;
@@ -500,12 +498,14 @@ if ( $cl_options{convert} ) {
 		$conversion_enable{'BIOSET:generate the new files'} = 1;
 		$conversion_enable{'SOURCE line replacement'} = 1;
 	}
-		else {
-			$error_message .= "\nUnknown convertion option: $cl_options{convert}\n";
-			$cl_options{help} = 1;
-		}
+	else {
+		$error_message .= "\nUnknown convertion option: $cl_options{convert}\n";
+		$cl_options{help} = 1;
+	}
 }
 
+
+print qq{$cl_options{convert}\n};
 while ( my ($conversion,$enabled) = each %conversion_enable) {
    if ($enabled == 1) {
 	  print qq{$conversion: active\n}
@@ -547,6 +547,10 @@ if ( !$cl_options{input_path}
 	$error_message .= "\n-inputpath parameter is missing\n";
 	$cl_options{help} = 1;
 }
+else {
+	print qq{\nInput Path: $cl_options{input_path}\n};
+}
+
 
 #####################################
 # vendor path options
@@ -558,6 +562,9 @@ if ( !$cl_options{vendor_path}
 	$error_message .= "\n-vendorpath parameter is missing\n";
 	$cl_options{help} = 1;
 }
+else {
+	print qq{\nVendor Path: $cl_options{vendor_path}\n};
+}
 
 #####################################
 # -basepath option
@@ -567,6 +574,9 @@ if ( !$cl_options{vendor_path}
 
 if ( $cl_options{basepath} eq q{} ) {
 	$cl_options{basepath} = $cl_options{input_path};
+}
+else {
+	print qq{\nBase  Path: $cl_options{basepath}\n};
 }
 
 $cl_options{basepath} =~ tr{\\}{/};
@@ -629,7 +639,7 @@ my @valid_system_game_modes  = do { no warnings 'qw'; qw(
 # Gozzilioni
 	G35e
 	G5e
-
+	G55e
 ); };
 
 my @valid_system_stats		= qw(
@@ -15112,6 +15122,8 @@ sub embedded_coma_split {
 
 		# Get the Unix direcroty separator even in a Windows environment
 		$system_file_path =~ tr{\\}{/};
+
+		print qq{Parsing system files in "$system_file_path"\n};
 
 		# Verify if the gameModes directory is present
 		if ( !-d "$system_file_path/gameModes" ) {

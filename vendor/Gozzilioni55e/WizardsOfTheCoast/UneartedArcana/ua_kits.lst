@@ -1,0 +1,9 @@
+SOURCELONG:Unearthed Arcana	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua
+
+#Races
+STARTPACK:Steel Defender Stats	TYPE:DefaultMonster	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Steel Defender
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+
+STARTPACK:Homunculus Servant Stats	TYPE:DefaultMonster	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Homunculus Servant
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+

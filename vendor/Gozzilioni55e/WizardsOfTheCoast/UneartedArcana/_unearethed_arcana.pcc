@@ -35,6 +35,7 @@ EQUIPMENT:ua_equip_arms_and_armor.lst
 EQUIPMENT:ua_equip_magic.lst
 EQUIPMENT:ua_equip.lst
 EQUIPMOD:ua_equipmods.lst
+KIT:ua_kits.lst
 RACE:ua_races.lst
 SPELL:ua_spells.lst
 TEMPLATE:ua_templates.lst

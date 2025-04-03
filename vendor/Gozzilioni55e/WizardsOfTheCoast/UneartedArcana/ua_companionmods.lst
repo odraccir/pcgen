@@ -1,9 +1,9 @@
 SOURCELONG:Unearthed Arcana	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2015-01
 
-FOLLOWER:EldritchCannonLVL,1  TYPE:Eldritch Cannon  BONUS:COMBAT|AC|8 BONUS:HP|CURRENTMAX|5*ArtisanLVL  DEFINESTAT:STRLOCK|STR|10 DEFINESTAT:STRLOCK|DEX|10 DEFINESTAT:STRLOCK|CON|10 DEFINESTAT:STRLOCK|INT|10 DEFINESTAT:STRLOCK|WIS|10 DEFINESTAT:STRLOCK|CHA|10 ABILITY:Special Ability|AUTOMATIC|Eldritch Cannon ~ Flamethrower|Eldritch Cannon ~  Force Ballista|Eldritch Cannon ~ Protector DEFINE:EldritchCannonDamage|0 BONUS:VAR|EldritchCannonDamage|2
+FOLLOWER:EldritchCannonLVL,1  TYPE:Eldritch Cannon	BONUS:COMBAT|AC|8 BONUS:HP|CURRENTMAX|5*mastervar("ArtificerLVL")  DEFINESTAT:STRLOCK|STR|10 DEFINESTAT:STRLOCK|DEX|10 DEFINESTAT:STRLOCK|CON|10 DEFINESTAT:STRLOCK|INT|10 DEFINESTAT:STRLOCK|WIS|10 DEFINESTAT:STRLOCK|CHA|10 ABILITY:Special Ability|AUTOMATIC|Eldritch Cannon ~ Flamethrower|Eldritch Cannon ~  Force Ballista|Eldritch Cannon ~ Protector DEFINE:EldritchCannonDamage|0 BONUS:VAR|EldritchCannonDamage|2
 FOLLOWER:EldritchCannonLVL,9  TYPE:Eldritch Cannon  ABILITY:Special Ability|AUTOMATIC|Eldritch Cannon ~ Detonate|Eldtrict Cannon ~ Firepower  BONUS:VAR|EldritchCannonDamage|1
 FOLLOWER:EldritchCannonLVL,15  TYPE:Eldritch Cannon   ABILITY:Special Ability|AUTOMATIC|Eldritch Cannon ~ Double Firepower|Eldritch Cannon ~ Shimmering Field Protection
 
-FOLLOWER:SteelDefenderLVL,1  TYPE:Steel Defender  HD:(ArtificerLVL - 1) BONUS:HP|CURRENTMAX|5*ArtisanLVL
-FOLLOWER:SteelDefenderLVL,9 TYPE:Steel Defender ABILITY:Special Ability|AUTOMATIC|Steel Defender ~ Arcane Jolt
-FOLLOWER:SteelDefenderLVL,15 TYPE:Steel Defender  ABILITY:Special Ability|AUTOMATIC|Steel Defender ~ Improved Arcane Jolt BONUS:COMBAT|AC|4
+FOLLOWER:SteelDefenderLVL,1 TYPE:Steel Defender HD:mastervar("ArtificerLVL")-1	BONUS:HP|CURRENTMAX|5*mastervar("ArtificerLVL")	BONUS:COMBAT|TOHIT|mastervar("INT")
+FOLLOWER:SteelDefenderLVL,9 TYPE:Steel Defender		ABILITY:Special Ability|AUTOMATIC|Steel Defender ~ Arcane Jolt
+FOLLOWER:SteelDefenderLVL,15 TYPE:Steel Defender	BONUS:COMBAT|AC|4	ABILITY:Special Ability|AUTOMATIC|Steel Defender ~ Improved Arcane Jolt

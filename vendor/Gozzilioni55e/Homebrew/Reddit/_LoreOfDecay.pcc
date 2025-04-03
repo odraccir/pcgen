@@ -1,0 +1,43 @@
+CAMPAIGN:Lore of Decay
+KEY:Lore of DecayBOOKTYPE:Homebrew
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+GAMEMODE:G55e
+TYPE:Homebrew
+SOURCELONG:Lore of Decay
+SOURCESHORT:LoD
+SOURCEWEB:http://www.reddit.com
+SOURCEDATE:2024-11
+RANK:202411
+PUBNAMELONG:Lore of Decay
+PUBNAMESHORT:LoD
+PUBNAMEWEB:http://www.reddit.com
+COPYRIGHT:Copyright 2024, Wizards of the Coast, Inc.
+ISOGL:YES
+
+# COVER should be cover_gameMode_pub_book.file
+# COVER:&/Gozzilioni55e/_artwork/cover_5e2024_wotc_ph.png
+# LOGO should be logo_pub.file
+# LOGO:&/Gozzilioni55e/_artwork/logo_wotc.png
+
+INFOTEXT:Hombrew Lore of Decay spells
+
+# ABILITY:lod_abilities.lst
+# ABILITY:lod_abilities_class.lst
+# ABILITY:lod_abilities_races.lst
+# ABILITYCATEGORY:lod_abilitycategories.lst
+# BIOSET:lod_biosettings.lst
+# CLASS:lod_classes.lst
+# COMPANIONMOD:lod_companionmods.lst
+# DOMAIN:lod_domains.lst
+# EQUIPMOD:lod_eqmods.lst
+# KIT:lod_kits.lst
+# LANGUAGE:lod_languages.lst
+# ARMORPROF:lod_profs_armor.lst
+# SHIELDPROF:lod_profs_shield.lst
+# WEAPONPROF:lod_profs_weapon.lst
+# RACE:lod_races.lst
+# SKILL:lod_skills.lst
+SPELLS:lod_spells.lst
+# TEMPLATE:lod_templates.lst
+
+INFOTEXT:Supports 6.4.1

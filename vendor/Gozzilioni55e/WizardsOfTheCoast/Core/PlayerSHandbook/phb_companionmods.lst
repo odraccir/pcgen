@@ -1,4 +1,5 @@
 
 FOLLOWER:Wild Companion=1		TYPE:Wild Companion
 
-FOLLOWER:Primal Companion=1		TYPE:Primal Companion
+FOLLOWER:Primal Companion=1		TYPE:Primal Companion	HD:mastervar("RangerLVL")-1	BONUS:HP|CURRENTMAX|5*mastervar("RangerLVL")	BONUS:COMBAT|AC|mastervar("WIS")|TYPE=Bonus
+FOLLOWER:Primal Companion=1		TYPE:Primal Companion	BONUS:VAR|Proficiency_Bonus|mastervar("Proficiency_Bonus")	BONUS:SAVE|ALL|mastervar("Proficiency Bonus")

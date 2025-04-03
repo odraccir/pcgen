@@ -1,4 +1,74 @@
 SOURCELONG:Unearthed Arcana	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2015-01
 
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus														
-Homunculus Servant				TYPE:Spell	SCHOOL:Conjuration				COMPS:V, S, M	CASTTIME:1 hour	RANGE:10 feet.		DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:You summon a special homunculus in an unoccupied space within range. This creature uses the Homunculus Servant stat block. If you already have a homunculus from this spell, the homunculus is replaced by the new one. You determine the homunculus’s appearance, such as a mechanical-looking bird; winged vials; or miniature, animate cauldrons. &nl; Combat. The homunculus is an ally to you and your allies. In combat, it shares your Initiative count, but it takes its turn immediately after yours. It obeys your commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its movement to avoid danger. &nl; Using a Higher-Level Spell Slot. Use the spell slot’s level for the spell’s level in the stat block. Material Component: A gem or crystal worth 100+ GP, which the spell consumes.	SOURCEPAGE:UA																						
+Homunculus Servant				TYPE:Spell	SCHOOL:Conjuration	SUBSCHOOL:Ritual			COMPS:V, S, M	CASTTIME:1 hour	RANGE:10 feet.		DURATION:Instantaneous	SAVEINFO:None	SPELLRES:No	DESC:You summon a special homunculus in an unoccupied space within range. This creature uses the Homunculus Servant stat block. If you already have a homunculus from this spell, the homunculus is replaced by the new one. You determine the homunculus’s appearance, such as a mechanical-looking bird; winged vials; or miniature, animate cauldrons. &nl; Combat. The homunculus is an ally to you and your allies. In combat, it shares your Initiative count, but it takes its turn immediately after yours. It obeys your commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its movement to avoid danger. &nl; Using a Higher-Level Spell Slot. Use the spell slot’s level for the spell’s level in the stat block. Material Component: A gem or crystal worth 100+ GP, which the spell consumes.	SOURCEPAGE:UA																						
+
+###BLOCK:Spelllist
+Alarm.MOD	CLASSES:Artificer=1
+Cure Wounds.MOD	CLASSES:Artificer=1
+Detect Magic.MOD	CLASSES:Artificer=1
+Disguise Self.MOD	CLASSES:Artificer=1
+Expeditious Retreat.MOD	CLASSES:Artificer=1
+Faerie Fire.MOD	CLASSES:Artificer=1
+False Life.MOD	CLASSES:Artificer=1
+Feather Fall.MOD	CLASSES:Artificer=1
+Grease.MOD	CLASSES:Artificer=1
+Identify.MOD	CLASSES:Artificer=1
+Jump.MOD	CLASSES:Artificer=1
+Longstrider.MOD	CLASSES:Artificer=1
+Purify Food and Drink.MOD	CLASSES:Artificer=1
+Sanctuary.MOD	CLASSES:Artificer=1
+
+Aid.MOD	CLASSES:Artificer=2
+Alter Self.MOD	CLASSES:Artificer=2
+Arcane Lock.MOD	CLASSES:Artificer=2
+Arcane Vigor.MOD	CLASSES:Artificer=2
+Blur.MOD	CLASSES:Artificer=2
+Continual Flame.MOD	CLASSES:Artificer=2
+Darkvision.MOD	CLASSES:Artificer=2
+Dragon’s BreathSchool.MOD	CLASSES:Artificer=2
+Transmutation.MOD	CLASSES:Artificer=2
+Enhance Ability.MOD	CLASSES:Artificer=2
+Enlarge/Reduce.MOD	CLASSES:Artificer=2
+Heat Metal.MOD	CLASSES:Artificer=2
+Homunculus Servant.MOD	CLASSES:Artificer=2
+Invisibility.MOD	CLASSES:Artificer=2
+Lesser Restoration.MOD	CLASSES:Artificer=2
+Levitate.MOD	CLASSES:Artificer=2
+Magic Mouth.MOD	CLASSES:Artificer=2
+Magic Weapon.MOD	CLASSES:Artificer=2
+Protection from Poison.MOD	CLASSES:Artificer=2
+Rope Trick.MOD	CLASSES:Artificer=2
+See Invisibility.MOD	CLASSES:Artificer=2
+Spider Climb.MOD	CLASSES:Artificer=2
+Web.MOD	CLASSES:Artificer=2
+
+Blink.MOD	CLASSES:Artificer=3
+Create Food and Water.MOD	CLASSES:Artificer=3
+Dispel Magic.MOD	CLASSES:Artificer=3
+Elemental Weapon.MOD	CLASSES:Artificer=3
+Fly.MOD	CLASSES:Artificer=3
+Glyph of Warding
+Haste.MOD	CLASSES:Artificer=3
+Protection from Energy.MOD	CLASSES:Artificer=3
+Revivify.MOD	CLASSES:Artificer=3
+Water Breathing.MOD	CLASSES:Artificer=3
+Water Walk.MOD	CLASSES:Artificer=3
+
+Arcane Eye.MOD	CLASSES:Artificer=4
+Fabricate.MOD	CLASSES:Artificer=4
+Freedom of Movement.MOD	CLASSES:Artificer=4
+Leomund’s Secret Chest.MOD	CLASSES:Artificer=4
+Mordenkainen’s Faithful Hound.MOD	CLASSES:Artificer=4
+Mordenkainen’s Private Sanctum.MOD	CLASSES:Artificer=4
+Otiluke’s Resilient Sphere.MOD	CLASSES:Artificer=4
+Stone Shape.MOD	CLASSES:Artificer=4
+Stoneskin.MOD	CLASSES:Artificer=4
+Summon Construct.MOD	CLASSES:Artificer=4
+
+Animate Objects.MOD	CLASSES:Artificer=5
+Bigby’s Hand.MOD	CLASSES:Artificer=5
+Circle of Power.MOD	CLASSES:Artificer=5
+Creation.MOD	CLASSES:Artificer=5
+Greater Restoration.MOD	CLASSES:Artificer=5
+Wall of Stone.MOD	CLASSES:Artificer=5

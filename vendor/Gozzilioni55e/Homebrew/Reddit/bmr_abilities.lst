@@ -1,0 +1,8 @@
+SOURCELONG:Beast Master Reborn	SOURCESHORT:BMR	SOURCEWEB:http://www.reddit.com	SOURCEDATE:2024-11
+
+#Block:Beast Companion																																				
+Beast Companion	CATEGORY:Internal	ABILITY:Internal|AUTOMATIC|Beast Companion (Base)|Beast Companion																																		
+Beast Companion (Base)	CATEGORY:Internal								DEFINE:BeastCompanionLVL|0	DEFINE:BeastCompanionDetermination|0													FOLLOWERS:Beast Companion|1	ABILITY:Beast Companion Selection|AUTOMATIC|Standard Selection ~ Beast Companion|!PREABILITY:1,CATEGORY=Internal,TYPE.BeastCompanionAlternate								SOURCEPAGE:BMR				
+Beast Companion	CATEGORY:Internal	TYPE:BeastCompanionSelection	VISIBLE:NO																													SOURCEPAGE:BMR				
+Expanded Selection	CATEGORY:Internal	TYPE:BeastCompanionSelection.BeastCompanionAlternate		KEY:Expanded Selection ~ Beast Companion																			COST:0	COMPANIONLIST:Beast Companion|ANY								SOURCEPAGE:BMR				
+Beast Companion (Default)	CATEGORY:Internal	TYPE:BeastCompanionSelection.BeastCompanionBase		KEY:Standard Selection ~ Beast Companion	!PREABILITY:1,CATEGORY=Internal,TYPE.BeastCompanionAlternate																		COST:0	COMPANIONLIST:Beast Companion|RACETYPE=Beast								SOURCEPAGE:BMR				

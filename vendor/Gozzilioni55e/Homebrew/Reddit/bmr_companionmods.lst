@@ -1,0 +1,9 @@
+SOURCELONG:Beast Master Reborn	SOURCESHORT:BMR	SOURCEWEB:http://www.reddit.com	SOURCEDATE:2024-11
+
+FOLLOWER:Beast Companion=1		TYPE:Beast Companion	HD:mastervar("RangerLVL")-1	BONUS:HP|CURRENTMAX|4*mastervar("RangerLVL")+CON*mastervar("RangerLVL")
+FOLLOWER:Beast Companion=1		TYPE:Beast Companion	BONUS:COMBAT|AC|mastervar("Proficiency_Bonus")|TYPE=Bonus
+FOLLOWER:Beast Companion=1		TYPE:Beast Companion	BONUS:COMBAT|TOHIT,DAMAGE|mastervar("Proficiency_Bonus")	BONUS:COMBAT|INITIATIVE|mastervar("Proficiency_Bonus")
+# FOLLOWER:Beast Companion=1		TYPE:Beast Companion	BONUS:VAR|Proficiency_Bonus|mastervar("Proficiency_Bonus")	
+FOLLOWER:Beast Companion=1		TYPE:Beast Companion	BONUS:SAVE|ALL|mastervar("Proficiency Bonus")
+FOLLOWER:Beast Companion=1		TYPE:Beast Companion	BONUS:SKILL|ALL|mastervar("Proficiency_Bonus")
+FOLLOWER:Beast Companion=1		TYPE:Beast Companion	NATURALATTACKS:Attack,Weaon.Natural.Melee.Bludgeoning.Slashing.Piercing,*1,2d4
