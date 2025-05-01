@@ -1,5 +1,5 @@
-SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-08																																																														
-																																																																	
+SOURCELONG:Unearthed Arcana - Artificer	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2015-01
+
 ###Block: First Level Base Classes																																																																	
 # Template Name	Required Class		Bonus Ability Pool				Modify VAR									Ability																																																	Type
 Artificer	VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Artificer=1	BONUS:VAR|POOL_Artificer_Skill|1	BONUS:ABILITYPOOL|Artisan's Tools Proficiency|1	ABILITY:Internal|AUTOMATIC|Saving Throw ~ Str|Saving Throw ~ Con	ABILITY:Internal|AUTOMATIC|TYPE=WeaponProfMartial		ABILITY:Internal|AUTOMATIC|Multiclass Allowed|PRESTAT:1,STR=13	BONUS:ABILITYPOOL|Thieves's Tools Proficiency|1																																																							

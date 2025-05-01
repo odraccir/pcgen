@@ -24,7 +24,7 @@ settings/**/*
 system/**/*
 vendor_file/**/*
 vendordata/**/*
-vendor/**/*.tsv
+vendor/**/*.csv
 autobuild.properties
 config.ini
 LICENSE

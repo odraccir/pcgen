@@ -1,4 +1,4 @@
-SOURCELONG:Unearthed Arcana	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2015-01
+SOURCELONG:Unearthed Arcana - Artificer	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2015-01
 
 Boots of the Winding Path	TYPE:Wondrous Items.Uncommon.Attunement	COST:0	SLOTS:2	SOURCEPAGE:UA	DEFINE:Attunement_boots_of_winding_speed|0	BONUS:VAR|Attunement_boots_of_winding_speed|1					SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Boots of Winding Speed	SPROP:Attuned to Item - While wearing these boots, you can take a Bonus Action to teleport up to 15 feet to an unoccupied space you can see. You must have occupied that space at some point during the current turn.|PREABILITY:1,CATEGORY=Attunement,Boots of Winding Speed
 Helm of Awareness	TYPE:Wondrous Items.Uncommon.Attunement	COST:0		SOURCEPAGE:UA	DEFINE:Attunement_helm_of_awareness|0	BONUS:VAR|Attunement_helm_of_awareness|1					SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Helm of Awareness	SPROP:Attuned to Item - While wearing this helmet, you have Advantage on Initiative rolls.|PREABILITY:1,CATEGORY=Attunement,Helm of Awareness

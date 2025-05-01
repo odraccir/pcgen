@@ -1,5 +1,5 @@
-SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-08																													
-																																
+SOURCELONG:Unearthed Arcana - Artificer	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2015-01
+
 ###Block:									DEFINE					BONUS									ABILITY									SOURCEPAGE
 ###Block: Determines if first class qualifies for Multiclass Requirements. First Class uses its own requirements to determine if to activate this ability, which then enables the multiclass options.																																
 # Ability Name				Category of Ability																												

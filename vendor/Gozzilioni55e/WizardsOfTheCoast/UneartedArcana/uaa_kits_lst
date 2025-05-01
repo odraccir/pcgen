@@ -1,4 +1,4 @@
-SOURCELONG:Unearthed Arcana	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua
+SOURCELONG:Unearthed Arcana - Artificer	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2015-01
 
 #Races
 STARTPACK:Steel Defender Stats	TYPE:DefaultMonster	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Steel Defender

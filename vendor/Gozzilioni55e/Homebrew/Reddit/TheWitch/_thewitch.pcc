@@ -1,0 +1,25 @@
+CAMPAIGN:The Witch class
+GAMEMODE:G55e
+RANK:9
+TYPE:Gozzilioni.Web
+BOOKTYPE:Houserules
+SOURCELONG:The Witch
+SOURCESHORT:TW
+SOURCEWEB:https://homebrewery.naturalcrit.com/share/UriSoqTdeZ5Y
+ISOGL:YES
+COPYRIGHT:Copyright 2024, Gozzilioni
+PUBNAMELONG:Reddit user
+PUBNAMESHORT:Reddit user
+PUBNAMEWEB:https://www.reddit.com
+
+INFOTEXT:The Witch
+
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+
+ABILITY:tw_abilities.lst
+ABILITY:tw_abilities_class.lst
+ABILITYCATEGORY:tw_abilitycategories.lst
+CLASS:tw_classes.lst
+DOMAIN:tw_domains.lst
+SPELL:tw_spells.lst
+

@@ -1,0 +1,47 @@
+SOURCELONG:The Witch	SOURCESHORT:TW	SOURCEWEB:https://homebrewery.naturalcrit.com/share/UriSoqTdeZ5Y
+
+# Class Name	HD:	TYPE:PC.Base	DEFINE:	BONUS:VAR|				
+# Class Name	Multiple Requirements							
+# Class Name	SPELLSTAT:	MEMORIZE:	KNOWNSPELLS:	BONUS:CASTERLEVEL|	BONUS:VAR|SpellCasterTotalLVL|	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|	BONUS:DOMAIN|NUMBER|
+# Class Level	CAST:	KNOWN:0,	ABILITY:					
+CLASS:Witch	HD:8	TYPE:PC.BASE	MAXLEVEL:20	DEFINE:WitchLVL|0	BONUS:VAR|WitchLVL|CL 
+CLASS:Witch	PREMULT:1,[!PRETEMPLATE:1,First Level],[PREABILITY:1,CATEGORY=Internal,Multiclass Allowed ~ Witch],[PRECLASS:1,Witch=1]							
+CLASS:Paladin	SPELLSTAT:INT	MEMORIZE:YES		BONUS:CASTERLEVEL|Witch|CL	BONUS:VAR|SpellCasterTotalLVL|PaladinLVL	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|Arcane
+1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS							
+1	CAST:99,WitchCast1							
+2	CAST:99,WitchCast1							
+3	CAST:99,WitchCast1							
+4	CAST:99,WitchCast1							
+5	CAST:99,WitchCast1,WitchCast2							
+6	CAST:99,WitchCast1,WitchCast2							
+7	CAST:99,WitchCast1,WitchCast2							
+8	CAST:99,WitchCast1,WitchCast2							
+9	CAST:99,WitchCast1,WitchCast2,WitchCast3							
+10	CAST:99,WitchCast1,WitchCast2,WitchCast3							
+11	CAST:99,WitchCast1,WitchCast2,WitchCast3							
+12	CAST:99,WitchCast1,WitchCast2,WitchCast3							
+13	CAST:99,WitchCast1,WitchCast2,WitchCast3,WitchCast4							
+14	CAST:99,WitchCast1,WitchCast2,WitchCast3,WitchCast4							
+15	CAST:99,WitchCast1,WitchCast2,WitchCast3,WitchCast4							
+16	CAST:99,WitchCast1,WitchCast2,WitchCast3,WitchCast4							
+17	CAST:99,WitchCast1,WitchCast2,WitchCast3,WitchCast4,WitchCast5							
+18	CAST:99,WitchCast1,WitchCast2,WitchCast3,WitchCast4,WitchCast5							
+19	CAST:99,WitchCast1,WitchCast2,WitchCast3,WitchCast4,WitchCast5							
+20	CAST:99,WitchCast1,WitchCast2,WitchCast3,WitchCast4,WitchCast5							
+#
+0	DOMAIN:Alchemist Domain|PREABILITY:1,CATEGORY=Special Ability,Alchemist ~ Alchemist Spells							
+#
+1			ABILITY:Class|AUTOMATIC|Witch
+1			ABILITY:Witch Class Feature|AUTOMATIC|Witch ~ Magical Tinkering
+1			ABILITY:Witch Class Feature|AUTOMATIC|Witch ~ Spellcasting
+2			ABILITY:Witch Class Feature|AUTOMATIC|Witch ~ Replicate Magic Item
+3			ABILITY:Witch Class Feature|AUTOMATIC|Witch ~ Witch Subclass
+3			ABILITY:Witch Class Feature|AUTOMATIC|Witch ~ Right Tool for the Job
+4			ABILITY:Witch Class Feature|AUTOMATIC|Witch ~ Ability Score Improvement
+6			ABILITY:Witch Class Feature|AUTOMATIC|Witch ~ Magic Item Tinker
+7			ABILITY:Witch Class Feature|AUTOMATIC|Witch ~ Flash of Genius
+10			ABILITY:Witch Class Feature|AUTOMATIC|Witch ~ Magic Item Adept
+11			ABILITY:Witch Class Feature|AUTOMATIC|Witch ~ Spell-Storing Item
+14			ABILITY:Witch Class Feature|AUTOMATIC|Witch ~ Magic Item Savant
+18			ABILITY:Witch Class Feature|AUTOMATIC|Witch ~ Magic Item Master
+20			ABILITY:Witch Class Feature|AUTOMATIC|Witch ~ Soul of Artifice

@@ -1,0 +1,29 @@
+CAMPAIGN:Unearthed Arcana - Modern Magic
+KEY:Unearthed Arcana
+BOOKTYPE:Web Enhancement
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+GAMEMODE:G55e
+TYPE:Wizards of the Coast.WebEnhancement
+SOURCELONG:Unearthed Arcana - Modern Magic
+SOURCESHORT:UA
+SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua
+SOURCEDATE:2015-01
+RANK:201501
+PUBNAMELONG:Wizard	s of the Coast
+PUBNAMESHORT:WotC
+PUBNAMEWEB:http://www.wizards.com
+COPYRIGHT:Copyright 2014, Wizards of the Coast, Inc.
+ISOGL:NO
+
+# COVER should be cover_gameMode_pub_book.file
+COVER:&/Gozzilioni55e/_artwork/cover_5e2024_wotc_UA.png
+# LOGO should be logo_pub.file
+LOGO:&/Gozzilioni55e/_artwork/logo_wotc.png
+
+INFOTEXT:D&D Unearthed Arcana
+
+#EXTRAFILE:uam_missing.txt
+
+SPELL:uam_spells.lst
+
+INFOTEXT:Supports 6.4.1

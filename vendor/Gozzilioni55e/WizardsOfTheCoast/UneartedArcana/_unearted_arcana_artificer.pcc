@@ -1,0 +1,43 @@
+CAMPAIGN:Unearthed Arcana - Artificer
+KEY:Unearthed Arcana
+BOOKTYPE:Web Enhancement
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+GAMEMODE:G55e
+TYPE:Wizards of the Coast.WebEnhancement
+SOURCELONG:Unearthed Arcana - Artificer
+SOURCESHORT:UA
+SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua
+SOURCEDATE:2015-01
+RANK:201501
+PUBNAMELONG:Wizard	s of the Coast
+PUBNAMESHORT:WotC
+PUBNAMEWEB:http://www.wizards.com
+COPYRIGHT:Copyright 2014, Wizards of the Coast, Inc.
+ISOGL:NO
+
+# COVER should be cover_gameMode_pub_book.file
+COVER:&/Gozzilioni55e/_artwork/cover_5e2024_wotc_UA.png
+# LOGO should be logo_pub.file
+LOGO:&/Gozzilioni55e/_artwork/logo_wotc.png
+
+INFOTEXT:D&D Unearthed Arcana
+
+#EXTRAFILE:uaa_missing.txt
+
+ABILITY:uaa_abilities_class.lst
+ABILITY:uaa_abilities_racial.lst
+ABILITY:uaa_abilities.lst
+ABILITYCATEGORY:uaa_abilitycategories.lst
+CLASS:uaa_classes.lst
+COMPANIONMOD:uaa_companionmods.lst
+DOMAIN:uaa_domains.lst
+EQUIPMENT:uaa_equip_arms_and_armor.lst
+EQUIPMENT:uaa_equip_magic.lst
+EQUIPMENT:uaa_equip.lst
+EQUIPMOD:uaa_equipmods.lst
+KIT:uaa_kits.lst
+RACE:uaa_races.lst
+SPELL:uaa_spells.lst
+TEMPLATE:uaa_templates.lst
+
+INFOTEXT:Supports 6.4.1

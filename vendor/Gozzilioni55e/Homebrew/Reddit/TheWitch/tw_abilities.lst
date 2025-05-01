@@ -1,0 +1,8 @@
+SOURCELONG:The Witch	SOURCESHORT:TW	SOURCEWEB:https://homebrewery.naturalcrit.com/share/UriSoqTdeZ5Y
+																																				
+###Block:																																				
+# Ability Name			Define							Ability															Bonus Ability Pool									Modify VAR		
+CATEGORY=Internal|Default.Witch	DEFINE:POOL_Witch_Skill|0																																			
+																																				
+CATEGORY=Internal|Default.Witch	DEFINE:POOL_Witch_Cantrip|0																																			
+

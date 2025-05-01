@@ -1,11 +1,11 @@
-SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-08																																	
-																																				
-###Block:																																				
-# Ability Name			Define							Ability															Bonus Ability Pool									Modify VAR		
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Artificer_Skill|0																																			
-																																				
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Artificer_Cantrip|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Replicate_Magic_Item|0																																			
+SOURCELONG:Unearthed Arcana - Artificer	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2015-01
+
+###Block:
+# Ability Name			Unique Key													Category of Ability		Type											Visible	Restricted Ability								Var. Min. Value			Define											Description																																																																																																													Stackable?	Multiple?	Ability																							Allow Follower			Allowed Companions									Cost		Source Page		CHOICE
+CATEGORY=Internal|Default.MOD																																																	DEFINE:POOL_Artificer_Skill|0
+
+CATEGORY=Internal|Default.MOD																																																	DEFINE:POOL_Artificer_Cantrip|0
+CATEGORY=Internal|Default.MOD																																																	DEFINE:POOL_Replicate_Magic_Item|0
 
 # Artificer Replicate Magic Item Plans
 Alchemy Jug	CATEGORY:Internal	TYPE:Magic Item Plan	VISIBLE:YES		KEY:Replicate Magic Item Plans ~ Alchemy Jub	SOURCEPAGE:UA

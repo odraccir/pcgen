@@ -1,5 +1,5 @@
-SOURCELONG:Unearthed Arcana	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2015-01					
-								
+SOURCELONG:Unearthed Arcana - Artificer	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2015-01
+
 # Class Name	HD:	TYPE:PC.Base	DEFINE:	BONUS:VAR|				
 # Class Name	Multiple Requirements							
 # Class Name	SPELLSTAT:	MEMORIZE:	KNOWNSPELLS:	BONUS:CASTERLEVEL|	BONUS:VAR|SpellCasterTotalLVL|	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|	BONUS:DOMAIN|NUMBER|
