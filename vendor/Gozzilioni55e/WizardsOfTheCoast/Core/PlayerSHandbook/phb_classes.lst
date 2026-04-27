@@ -321,3 +321,48 @@ CLASS:Ranger	SPELLSTAT:WIS	MEMORIZE:NO		BONUS:CASTERLEVEL|Ranger|CL	BONUS:VAR|Sp
 18			ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Feral Senses					
 19			ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Epic Boon					
 20			ABILITY:Ranger Class Feature|AUTOMATIC|Ranger ~ Foe Slayer					
+								
+CLASS:Rogue	HD:8	TYPE:PC.BASE	MAXLEVEL:20	DEFINE:RogueLVL|0	BONUS:VAR|RogueLVL|CL			
+CLASS:Rogue	PREMULT:1,[!PRETEMPLATE:1,First Level],[PREABILITY:1,CATEGORY=Internal,Multiclass Allowed ~ Rogue],[PRECLASS:1,Rogue=1]							
+CLASS:Rogue	SPELLSTAT:INT	MEMORIZE:NO		BONUS:CASTERLEVEL|Rogue|CL	BONUS:VAR|SpellCasterTotalLVL|RogueLVL	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|Arcane	
+###Block								
+2	CAST:99,RogueCast1	KNOWN:0,RogueKnown1						
+3	CAST:99,RogueCast1	KNOWN:0,RogueKnown1						
+4	CAST:99,RogueCast1	KNOWN:0,RogueKnown1						
+5	CAST:99,RogueCast1,RogueCast2	KNOWN:0,RogueKnown1,RogueKnown2						
+6	CAST:99,RogueCast1,RogueCast2	KNOWN:0,RogueKnown1,RogueKnown2						
+7	CAST:99,RogueCast1,RogueCast2	KNOWN:0,RogueKnown1,RogueKnown2						
+8	CAST:99,RogueCast1,RogueCast2	KNOWN:0,RogueKnown1,RogueKnown2						
+9	CAST:99,RogueCast1,RogueCast2,RogueCast3	KNOWN:0,RogueKnown1,RogueKnown2,RogueKnown3						
+10	CAST:99,RogueCast1,RogueCast2,RogueCast3	KNOWN:0,RogueKnown1,RogueKnown2,RogueKnown3						
+11	CAST:99,RogueCast1,RogueCast2,RogueCast3	KNOWN:0,RogueKnown1,RogueKnown2,RogueKnown3						
+12	CAST:99,RogueCast1,RogueCast2,RogueCast3	KNOWN:0,RogueKnown1,RogueKnown2,RogueKnown3						
+13	CAST:99,RogueCast1,RogueCast2,RogueCast3,RogueCast4	KNOWN:0,RogueKnown1,RogueKnown2,RogueKnown3,RogueKnown4						
+14	CAST:99,RogueCast1,RogueCast2,RogueCast3,RogueCast4	KNOWN:0,RogueKnown1,RogueKnown2,RogueKnown3,RogueKnown4						
+15	CAST:99,RogueCast1,RogueCast2,RogueCast3,RogueCast4	KNOWN:0,RogueKnown1,RogueKnown2,RogueKnown3,RogueKnown4						
+16	CAST:99,RogueCast1,RogueCast2,RogueCast3,RogueCast4	KNOWN:0,RogueKnown1,RogueKnown2,RogueKnown3,RogueKnown4						
+17	CAST:99,RogueCast1,RogueCast2,RogueCast3,RogueCast4,RogueCast5	KNOWN:0,RogueKnown1,RogueKnown2,RogueKnown3,RogueKnown4,RogueKnown5						
+18	CAST:99,RogueCast1,RogueCast2,RogueCast3,RogueCast4,RogueCast5	KNOWN:0,RogueKnown1,RogueKnown2,RogueKnown3,RogueKnown4,RogueKnown5						
+19	CAST:99,RogueCast1,RogueCast2,RogueCast3,RogueCast4,RogueCast5	KNOWN:0,RogueKnown1,RogueKnown2,RogueKnown3,RogueKnown4,RogueKnown5						
+20	CAST:99,RogueCast1,RogueCast2,RogueCast3,RogueCast4,RogueCast5	KNOWN:0,RogueKnown1,RogueKnown2,RogueKnown3,RogueKnown4,RogueKnown5						
+#								
+1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS							
+1			ABILITY:Class|AUTOMATIC|Rogue					
+1			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Expertise					
+1			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Sneak Attack					
+1			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Thieves’ Cant					
+1			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Weapon Mastery					
+2			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Cunning Action					
+3			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Rogue Subclass					
+3			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Steady Aim					
+4			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Ability Score Improvement					
+5			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Cunning Strike					
+5			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Uncanny Dodge					
+7			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Evasion					
+7			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Reliable Talent					
+11			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Improved Cunning Strike					
+14			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Devious Strike					
+15			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Slippery Mind					
+18			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Elusive					
+19			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Epic Boon					
+20			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Stroke of Luck					

@@ -31,17 +31,22 @@ CATEGORY=Internal|Default.MOD	DEFINE:POOL_Fey_Gift|0
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Otherworldly_Glamour|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Iron_Mind|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Hunter_S_Prey|0																																			
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Rogue_Skill|0																																			
 																																				
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Bard_Cantrip|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Cleric_Cantrip|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Druid_Cantrip|0																																			
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Paladin_Cantrip|0																																			
+CATEGORY=Internal|Default.MOD	DEFINE:POOL_Rogue_Cantrip|0																																			
 
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Racial_Size|0																																			
-																																				
-CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_CHA|0	BONUS:VAR|SpellDC_CHA|CHA+8+Proficiency_Bonus																																		
+
+CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_STR|0	BONUS:VAR|SpellDC_STR|STR+8+Proficiency_Bonus																																		
+CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_DEX|0	BONUS:VAR|SpellDC_DEX|DEX+8+Proficiency_Bonus																																		
+CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_CON|0	BONUS:VAR|SpellDC_CON|CON+8+Proficiency_Bonus																																		
 CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_WIS|0	BONUS:VAR|SpellDC_WIS|WIS+8+Proficiency_Bonus																																		
 CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_INT|0	BONUS:VAR|SpellDC_INT|INT+8+Proficiency_Bonus																																		
+CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_CHA|0	BONUS:VAR|SpellDC_CHA|CHA+8+Proficiency_Bonus																																		
 																																				
 CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|First Level Proficiencies|PREPCLEVEL:MIN=1																																			
 CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|AC Tracker	DEFINE:DisableDexForAC|0	DEFINE:AC_ArmorDisabled|0	DEFINE:AC_ShieldDisabled|0	DEFINE:Use_AC_Output|0	DEFINE:POOL_Expertise|0
@@ -141,6 +146,7 @@ Charisma	CATEGORY:Internal	TYPE:Save	VISIBLE:DISPLAY		KEY:Saving Throw ~ Cha	BON
 Simple Weapon Proficiency	CATEGORY:Internal	TYPE:WeaponProfSimple.WeaponProfMartial			KEY:Weapon Proficiency ~ Simple	ABILITY:Weapon|AUTOMATIC|TYPE=Simple																														
 Martial Weapon Proficiency	CATEGORY:Internal	TYPE:WeaponProfMartial			KEY:Weapon Proficiency ~ Martial	ABILITY:Weapon|AUTOMATIC|TYPE=Martial																														
 Monk Weapon Proficiency	CATEGORY:Internal	TYPE:WeaponProfMonk			KEY:Weapon Proficiency ~ Monk	ABILITY:Weapon|AUTOMATIC|TYPE=LightMartial																														
+Rogue Weapon Proficiency	CATEGORY:Internal	TYPE:WeaponProfRogue			KEY:Weapon Proficiency ~ Rogue	ABILITY:Weapon|AUTOMATIC|TYPE=FinesseSimple|TYPE=LightSimple|TYPE=FinesseMartial|TYPE=LightMartial																														
 # Armor Profs
 Light Armor Proficiency	CATEGORY:Internal	TYPE:ArmorProfLight.ArmorProfMedium.ArmorProfHeavy			KEY:Armor Proficiency ~ Light	AUTO:ARMORPROF|ARMORTYPE=LightArmor																														
 Medium Armor Proficiency	CATEGORY:Internal	TYPE:ArmorProfMedium.ArmorProfHeavy			KEY:Armor Proficiency ~ Medium	AUTO:ARMORPROF|ARMORTYPE=MediumArmor																														
@@ -268,9 +274,38 @@ Evasion ~ Base	CATEGORY:Special Ability	TYPE:Internal.ClassFeatures	VISIBLE:NO	D
 Evasion	CATEGORY:Special Ability	TYPE:ClassFeatures.Evasion	VISIBLE:NO																																																																																																																																																																																																																																																																																																																				
 Improved Evasion	CATEGORY:Special Ability	TYPE:ClassFeatures.ImprovedEvasion	VISIBLE:NO																																																																																																																																																																																																																																																																																																																				
 
-# Lay on Hands
+###Block: Uncanny Dodge																																																																																																																																																																																																																																																																																																																							
+CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base|PREABILITY:1,CATEGORY=Special Ability,TYPE.Uncanny Dodge																																																																																																																																																																																																																																																																																																																						
+Uncanny Dodge ~ Base	CATEGORY:Special Ability	TYPE:Internal.ClassFeatures	VISIBLE:NO	DEFINE:UncannyDodgeFlankingLevel|0	DEFINE:UncannyDodgeLVL|0	DEFINE:UncannyDodgeTracker|0	ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge|PREVARGTEQ:UncannyDodgeTracker,1	ABILITY:Special Ability|AUTOMATIC|Improved Uncanny Dodge|PREVARGTEQ:UncannyDodgeTracker,2	BONUS:VAR|UncannyDodgeTracker|count("ABILITIES","CATEGORY=Special Ability","TYPE=Uncanny Dodge")|TYPE=Base	BONUS:VAR|UncannyDodgeTracker|UncannyDodgeLVL																																																																																																																																																																																																																																																																																																													
+Uncanny Dodge	CATEGORY:Special Ability	TYPE:ClassFeatures.SpecialQuality.Extraordinary																																																																																																																																																																																																																																																																																																																			
+Improved Uncanny Dodge	CATEGORY:Special Ability	TYPE:Extraordinary.ImprovedUncannyDodge.ClassFeatures.SpecialQuality																																																																																																																																																																																																																																																																																																																		
+
+# Placeholder Abilities shared by the cass abilities
 Lay on Hands	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialQuality	VISIBLE:YES	DEFINE:LayOnHands|0	DESC:%1 hp/day|LayOnHands																																																																																																																																																																																																																																																																																																															
+Sneak Attack	CATEGIRY:Special Ability	TYPE:SharedAbility.SpecialQuality	VISIBLE:YES	DEFINE:SneakAttack|0	DESC:%1d6|Sneak Attack
 
 # Fighting Style
 Blessed Warrior	CATEGORY:Special Ability	TYPE:Fighting Style	VISIBLE:YES	DESC:You learn two Cleric cantrips of your choice (see the Cleric class's section for a list of Cleric spells). Guidance and Sacred Flame are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.	KEY:Fighting Style ~ Blessed Warrior	PRECLASS:1,Paladin=2								BONUS:VAR|POOL_Paladin_Cantrip|2																		SOURCEPAGE:PHB
 Druidic Warrior	CATEGORY:Special Ability	TYPE:Fighting Style	VISIBLE:YES	DESC:You learn two Druid cantrips of your choice (see the Druid class's section for a list of Druid spells). Guidance and Starry Wisp are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip.	KEY:Fighting Style ~ Druidic Warrior	PRECLASS:1,Ranger=2								BONUS:VAR|POOL_Ranger_Cantrip|2																		SOURCEPAGE:PHB
+
+# Languages
+Common	CATEGORY:Language	TYPE:Language	VISIBLE:YES		DESC:Common.	KEY:Language ~ Common																AUTO:LANG|Common											SOURCEPAGE:PHB								
+Common Sign Language	CATEGORY:Language	TYPE:Language	VISIBLE:YES		DESC:Common Sign Language.	KEY:Language ~ Common Sign Language																AUTO:LANG|Common Sign Language											SOURCEPAGE:PHB								
+Draconic	CATEGORY:Language	TYPE:Language	VISIBLE:YES		DESC:Draconic.	KEY:Language ~ Draconic																AUTO:LANG|Draconic											SOURCEPAGE:PHB
+Dwarvish	CATEGORY:Language	TYPE:Language	VISIBLE:YES		DESC:Dwarvish.	KEY:Language ~ Dwarvish																AUTO:LANG|Dwarvish											SOURCEPAGE:PHB
+Elvish	CATEGORY:Language	TYPE:Language	VISIBLE:YES		DESC:Elvish.	KEY:Language ~ Elvish																AUTO:LANG|Elvish											SOURCEPAGE:PHB
+Giant	CATEGORY:Language	TYPE:Language	VISIBLE:YES		DESC:Giant.	KEY:Language ~ Giant																AUTO:LANG|Giant											SOURCEPAGE:PHB
+Gnomish	CATEGORY:Language	TYPE:Language	VISIBLE:YES		DESC:Gnomish.	KEY:Language ~ Gnomish																AUTO:LANG|Gnomish											SOURCEPAGE:PHB	
+Goblin	CATEGORY:Language	TYPE:Language	VISIBLE:YES		DESC:Goblin.	KEY:Language ~ Goblin																AUTO:LANG|Goblin											SOURCEPAGE:PHB
+Halfling	CATEGORY:Language	TYPE:Language	VISIBLE:YES		DESC:Halfling.	KEY:Language ~ Halfling																AUTO:LANG|Halfling											SOURCEPAGE:PHB
+Orc	CATEGORY:Language	TYPE:Language	VISIBLE:YES		DESC:Orc.	KEY:Language ~ Orc																AUTO:LANG|Orc											SOURCEPAGE:PHB
+# Rare Languages
+Abyssal	CATEGORY:Language	TYPE:Rare Language	VISIBLE:YES		DESC:Abyssal.	KEY:Language ~ Abyssal																AUTO:LANG|Abyssal											SOURCEPAGE:PHB
+Celestial	CATEGORY:Language	TYPE:Rare Language	VISIBLE:YES		DESC:Celestial.	KEY:Language ~ Celestial																AUTO:LANG|Celestial											SOURCEPAGE:PHB
+Deep Speech	CATEGORY:Language	TYPE:Rare Language	VISIBLE:YES		DESC:Deep Speech.	KEY:Language ~ Deep Speech																AUTO:LANG|Deep Speech											SOURCEPAGE:PHB
+Druidic	CATEGORY:Language	TYPE:Rare Language	VISIBLE:YES		DESC:Druidic.	KEY:Language ~ Druidic	PREVARGTEQ:DruidicLanguage,1															AUTO:LANG|Druidic											SOURCEPAGE:PHB
+Infernal	CATEGORY:Language	TYPE:Rare Language	VISIBLE:YES		DESC:Infernal.	KEY:Language ~ Infernal																AUTO:LANG|Infernal											SOURCEPAGE:PHB
+Primordial	CATEGORY:Language	TYPE:Rare Language	VISIBLE:YES		DESC:Primordial.	KEY:Language ~ Primordial																AUTO:LANG|Primordial											SOURCEPAGE:PHB
+Sylvan	CATEGORY:Language	TYPE:Rare Language	VISIBLE:YES		DESC:Sylvan.	KEY:Language ~ Sylvan																AUTO:LANG|Sylvan											SOURCEPAGE:PHB
+Thieves' Cant	CATEGORY:Language	TYPE:Rare Language	VISIBLE:YES		DESC:Thieves' Cant.	KEY:Language ~ Thieves' Cant	PREVARGTEQ:RogueLanguage,1															AUTO:LANG|Thieves' Cant											SOURCEPAGE:PHB
+Undercommon	CATEGORY:Language	TYPE:Rare Language	VISIBLE:YES		DESC:Undercommon.	KEY:Language ~ Undercommon																AUTO:LANG|Undercommon											SOURCEPAGE:PHB

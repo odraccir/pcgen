@@ -3,21 +3,22 @@ SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net
 # Standard
 # Language	Type						Var. Min. Value
 Common	TYPE:Spoken.Common
+Draconic	TYPE:Spoken.Draconic
 Dwarvish	TYPE:Spoken.Dwarvish
 Elvish	TYPE:Spoken.Elvish
-Giant		TYPE:Spoken.Dwarvish
-Gnomish	TYPE:Spoken.Dwarvish
-Goblin	TYPE:Spoken.Dwarvish
-Halfling	TYPE:Spoken.Common
-Orc		TYPE:Spoken.Dwarvish
+Giant		TYPE:Spoken.Giants
+Gnomish	TYPE:Spoken.Gnomes
+Goblin	TYPE:Spoken.Goblinoids
+Halfling	TYPE:Spoken.Halfling
+Orc		TYPE:Spoken.Orc
 #Exotic Languages
-Abyssal	TYPE:Spoken.Infernal
+Abyssal	TYPE:Spoken.Demons
 Celestial	TYPE:Spoken.Celestial
-Draconic	TYPE:Spoken.Draconic
-Deep Speech	TYPE:Spoken.NoScript
-Infernal	TYPE:Spoken.Infernal
-Primordial	TYPE:Spoken.Dwarvish
-Sylvan	TYPE:Spoken.Elvish
-Undercommon	TYPE:Spoken.Elvish
+Deep Speech	TYPE:Spoken.Aberration
+Druidic	TYPE:Spoken.Druid.Secret	PREVARGTEQ:DruidicLanguage,1
+Infernal	TYPE:Spoken.Devils
+Primordial	TYPE:Spoken.Elementals
+Sylvan	TYPE:Spoken.Feywilds
+Thieves' Cant	TYPE:Spoken.Rogue.Secret	PREVARGTEQ:RogueLanguage,1
+Undercommon	TYPE:Spoken.Underdark
 
-Druidic	TYPE:Spoken.Druid.Secret.Druidic	PREVARGTEQ:DruidicLanguage,1

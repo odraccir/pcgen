@@ -5,6 +5,13 @@ SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net
 First Level.MOD	TEMPLATE:CHOOSE:TYPE=FirstLevel																																																																
 																																																																	
 ###Block: First Level Base Classes																																																																	
+# How to set up Multiclass support for BASE classes. All three of these must be present for Multiclass to work properly.																																																																	
+#	!PRETEMPLATE:1,FirstLevel																																																																
+#	establishes if this is a new character without any classes. This is a paired swap condition with PRECLASS. (See below)																																																																
+#	PREABILITY:1,CATEGORY=Internal,<class> Multiclass Allowed																																																																
+#	determines if the class qualifies for Multiclass if not first class taken																																																																
+#	PRECLASS:1,<class>=1																																																																
+#	takes over after first level is established to allow continued progression in first class. This is a paired swap condition with !PRETEMPLATE. (See above)																																																																
 # Template Name	Required Class		Bonus Ability Pool				Modify VAR									Ability																																																	Type
 Barbarian	VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Barbarian=1	BONUS:VAR|POOL_Barbarian_Skill|2		ABILITY:Internal|AUTOMATIC|Saving Throw ~ Str|Saving Throw ~ Con	ABILITY:Internal|AUTOMATIC|TYPE=WeaponProfMartial		ABILITY:Internal|AUTOMATIC|Multiclass Allowed|PRESTAT:1,STR=13																																																								
 Bard	VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Bard=1	BONUS:VAR|POOL_Bard_Skill|2	BONUS:VAR|POOL_Bard_Tool|2	ABILITY:Internal|AUTOMATIC|Saving Throw ~ Dex|Saving Throw ~ Cha	ABILITY:Internal|AUTOMATIC|TYPE=WeaponProfSimple		ABILITY:Internal|AUTOMATIC|Multiclass Allowed|PRESTAT:1,CHA=13																																																								
@@ -14,20 +21,10 @@ Fighter	VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Fighter=1	BONUS:VAR|POOL_Fighter_S
 Monk	VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Monk=1	BONUS:VAR|POOL_Monk_Skill|2	BONUS:VAR|POOL_Monk_Tool|1	ABILITY:Internal|AUTOMATIC|Saving Throw ~ Dex|Saving Throw ~ Str	ABILITY:Internal|AUTOMATIC|TYPE=WeaponProfSimple|TYPE=WeaponProfMonk		ABILITY:Internal|AUTOMATIC|Multiclass Allowed|PRESTAT:2,DEX=13,WIS=13																																																								
 Paladin	VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Paladin=1	BONUS:VAR|POOL_Paladin_Skill|2		ABILITY:Internal|AUTOMATIC|Saving Throw ~ Wis|Saving Throw ~ Cha	ABILITY:internal|AUTOMATIC|TYPE=ArmorProfHeavy		ABILITY:Internal|AUTOMATIC|Multiclass Allowed|PRESTAT:2,STR=13,CHA=13																																																								
 Ranger	VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Ranger=1	BONUS:VAR|POOL_Ranger_Skill|2		ABILITY:Internal|AUTOMATIC|Saving Throw ~ Str|Saving Throw ~ Dex			ABILITY:Internal|AUTOMATIC|Multiclass Allowed|PRESTAT:2,DEX=13,WIS=13																																																								
-# Rogue	VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Rogue=1	BONUS:VAR|POOL_Rogue_Skill|3		ABILITY:Internal|AUTOMATIC|Saving Throw ~ Dex|Saving Throw ~ Int|TYPE=ArmorProfLight|TYPE=WeaponProfSimple	ABILITY:Weapon|AUTOMATIC|Crossbow (Hand)|Longsword|Rapier|Shortsword		ABILITY:Internal|AUTOMATIC|Multiclass Allowed|PRESTAT:1,DEX=13																																																								
+Rogue	VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Rogue=1	BONUS:VAR|POOL_Rogue_Skill|2		ABILITY:Internal|AUTOMATIC|Saving Throw ~ Dex|Saving Throw ~ Int	ABILITY:Internal|AUTOMATIC|TYPE=ArmorProfLight			ABILITY:Internal|AUTOMATIC|Tool Proficiency ~ Thieves' Tools	ABILITY:Internal|AUTOMATIC|Multiclass Allowed|PRESTAT:1,DEX=13																																																								
 # Sorcerer	VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Sorcerer=1	BONUS:VAR|POOL_Sorcerer_Skill|2		ABILITY:Internal|AUTOMATIC|Saving Throw ~ Cha|Saving Throw ~ Con	ABILITY:Weapon|AUTOMATIC|Crossbow (Light)|Dagger|Dart|Quarterstaff|Sling		ABILITY:Internal|AUTOMATIC|Multiclass Allowed|PRESTAT:1,CHA=13																																																								
 # Warlock	VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Warlock=1	BONUS:VAR|POOL_Warlock_Skill|2		ABILITY:Internal|AUTOMATIC|Saving Throw ~ Cha|Saving Throw ~ Wis|TYPE=ArmorProfLight|TYPE=WeaponProfSimple	ABILITY:Weapon|AUTOMATIC|TYPE=Simple		ABILITY:Internal|AUTOMATIC|Multiclass Allowed|PRESTAT:1,CHA=13																																																								
 # Wizard	VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Wizard=1	BONUS:VAR|POOL_Wizard_Skill|2		ABILITY:Internal|AUTOMATIC|Saving Throw ~ Int|Saving Throw ~ Wis	ABILITY:Weapon|AUTOMATIC|Crossbow (Light)|Dagger|Dart|Quarterstaff|Sling		ABILITY:Internal|AUTOMATIC|Multiclass Allowed|PRESTAT:1,INT=13																																																								
-																																																																	
-																																																																	
-# How to set up Multiclass support for BASE classes. All three of these must be present for Multiclass to work properly.																																																																	
-#	!PRETEMPLATE:1,FirstLevel																																																																
-#	establishes if this is a new character without any classes. This is a paired swap condition with PRECLASS. (See below)																																																																
-#	PREABILITY:1,CATEGORY=Internal,<class> Multiclass Allowed																																																																
-#	determines if the class qualifies for Multiclass if not first class taken																																																																
-#	PRECLASS:1,<class>=1																																																																
-#	takes over after first level is established to allow continued progression in first class. This is a paired swap condition with !PRETEMPLATE. (See above)																																																																
-																																																																	
 																																																																	
 ###Block - Starting Equipment by Class - Autoselects based off the first class taken.																																																																	
 # Template Name				Visible	Template																																							Required Template		Apply Kit												Type							

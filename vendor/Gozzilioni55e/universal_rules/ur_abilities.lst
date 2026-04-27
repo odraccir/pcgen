@@ -130,6 +130,8 @@ CATEGORY=Internal|Default.MOD					DEFINE:AbilityScoreLimit|0									BONUS:VAR|A
 
 CATEGORY=Internal|Default.MOD																				BONUS:VAR|AC_Ability_Score_Bonus|DEX|PREVAREQ:DisableDexForAC,0
 
+CATEGORY=Internal|Default.MOD				DEFINE:Attuned_Item_Count|0	DEFINE:Attuned_Item_Max|0	BONUS:VAR|Attuned_Item_Max|3|TYPE=Base
+
 CATEGORY=Internal|Default.MOD													ABILITY:Internal|AUTOMATIC|Movement Mode
 Movement Mode			CATEGORY:Internal
 
