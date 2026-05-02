@@ -5395,24 +5395,26 @@ if ($cl_options{input_path}) {
 					}
 				}
 				elsif ( $tag eq 'GAMEMODE' ) {
-
+					
 					# Verify that the GAMEMODEs are valid
 					# and match the filer.
+					$value =~ s/\s+//g; # Rimuove tutti i tipi di spazi bianchi e ritorni a capo
 					$GAMEMODE_found = $value;	# The GAMEMODE tag we found
 					my @modes = split /[|]/, $value;
+					
 					my $gamemode_regex =
 						$cl_options{gamemode}
 						? qr{ \A (?: $cl_options{gamemode} ) \z }xmsi
 						: qr{ . }xms;
 					my $valid_game_mode = $cl_options{gamemode} ? 0 : 1;
-
+					
 					# First the filter is applied
 					for my $mode (@modes) {
 						if ( $mode =~ $gamemode_regex ) {
 							$valid_game_mode = 1;
 						}
 					}
-
+					
 					# Then we check if the game mode is valid only if
 					# the game modes have not been filtered out
 					if ($valid_game_mode) {
