@@ -41,13 +41,6 @@ CATEGORY=Internal|Default.MOD	DEFINE:POOL_Rogue_Cantrip|0
 
 CATEGORY=Internal|Default.MOD	DEFINE:POOL_Racial_Size|0																																			
 
-CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_STR|0	BONUS:VAR|SpellDC_STR|STR+8+Proficiency_Bonus																																		
-CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_DEX|0	BONUS:VAR|SpellDC_DEX|DEX+8+Proficiency_Bonus																																		
-CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_CON|0	BONUS:VAR|SpellDC_CON|CON+8+Proficiency_Bonus																																		
-CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_WIS|0	BONUS:VAR|SpellDC_WIS|WIS+8+Proficiency_Bonus																																		
-CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_INT|0	BONUS:VAR|SpellDC_INT|INT+8+Proficiency_Bonus																																		
-CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_CHA|0	BONUS:VAR|SpellDC_CHA|CHA+8+Proficiency_Bonus																																		
-																																				
 CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|First Level Proficiencies|PREPCLEVEL:MIN=1																																			
 CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|AC Tracker	DEFINE:DisableDexForAC|0	DEFINE:AC_ArmorDisabled|0	DEFINE:AC_ShieldDisabled|0	DEFINE:Use_AC_Output|0	DEFINE:POOL_Expertise|0
 																																				
@@ -67,13 +60,23 @@ Blindsight	CATEGORY:Special Ability	DESC:A creature with blindsight can perceive
 Darkvision	CATEGORY:Special Ability	DESC:Many creatures in the worlds of D&D, especially those that dwell underground, have darkvision. Within a specified range, a creature with darkvision can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that creature is concerned. However, the creature can't discern color in darkness, only shades of gray.	VISION:Darkvision (DarkvisionRange)																																	
 Truesight	CATEGORY:Special Ability	DESC:A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceive the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the creature can see into the Ethereal Plane.	VISION:Truesight (TruesightRange)																																	
 Passive Perception	CATEGORY:Special Ability	DEFINE:Passive_Perception|0	BONUS:VAR|Passive_Perception|10+WIS+SkillProf_Perception	ASPECT:SkillBonus|Passive Perception is %1|Passive_Perception																																
-																																				
+
+###Block: Spell																																				
 Spellcaster Spell Slots	CATEGORY:Special Ability	TYPE:SpecialQuality		DESC:1st = %1, 2nd = %2, 3rd = %3, 4th = %4, 5th = %5, 6th = %6, 7th = %7, 8th = %8, 9th = %9|SpellSlotsLVL1|SpellSlotsLVL2|SpellSlotsLVL3|SpellSlotsLVL4|SpellSlotsLVL5|SpellSlotsLVL6|SpellSlotsLVL7|SpellSlotsLVL8|SpellSlotsLVL9	KEY:Spellcaster Spell Slots	DEFINE:SpellSlotsLVL1|0	DEFINE:SpellSlotsLVL2|0	DEFINE:SpellSlotsLVL3|0	DEFINE:SpellSlotsLVL4|0	DEFINE:SpellSlotsLVL5|0	DEFINE:SpellSlotsLVL6|0	DEFINE:SpellSlotsLVL7|0	DEFINE:SpellSlotsLVL8|0	DEFINE:SpellSlotsLVL9|0	ABILITY:Internal|AUTOMATIC|Caster Spell Slots ~ Full|PREMULT:1,[PRECLASS:1,Wizard=1,Sorcerer=1,Druid=1,Cleric=1,Bard=1],[PREVARGTEQ:SpellCasterClassCount,2],[PREVARGTEQ:SpellCasterFull,1]	ABILITY:Internal|AUTOMATIC|Caster Spell Slots ~ Moderate|PREMULT:2,[PRECLASS:1,Paladin,Ranger],[PREVAREQ:SpellCasterClassCount,1],[PREVARGTEQ:SpellCasterModerate,1]	ABILITY:Internal|AUTOMATIC|Caster Spell Slots ~ Limited|PREMULT:2,[PREABILITY:1,CATEGORY=Special Ability,Eldritch Knight ~ Spellcasting,Arcane Trickster ~ Spellcasting],[PREVAREQ:SpellCasterClassCount,1]	ASPECT:NAME|Spellcaster Spell Slots|PREVAREQ:SpellCasterClassCount,1	ASPECT:NAME|Multiclass Spellcaster Spell Slots|PREVARGTEQ:SpellCasterClassCount,2	SORTKEY:0_1																
 																																				
 Caster Spell Slots ~ Limited	CATEGORY:Internal	DEFINE:LimitedSpellProgression|0	BONUS:VAR|LimitedSpellProgression|FighterLVL|PREABILITY:1,CATEGORY=Special Ability,Eldritch Knight ~ Spellcasting	BONUS:VAR|LimitedSpellProgression|RogueLVL|PREABILITY:1,CATEGORY=Special Ability,Arcane Trickster ~ Spellcasting	BONUS:VAR|SpellSlotsLVL1|2+(LimitedSpellProgression>3)+(LimitedSpellProgression>6)	BONUS:VAR|SpellSlotsLVL2|(LimitedSpellProgression>6)+(LimitedSpellProgression>6)+(LimitedSpellProgression>9)	BONUS:VAR|SpellSlotsLVL3|(LimitedSpellProgression>12)+(LimitedSpellProgression>12)+(LimitedSpellProgression>15)	BONUS:VAR|SpellSlotsLVL4|(LimitedSpellProgression>18)																												
 Caster Spell Slots ~ Moderate	CATEGORY:Internal	DEFINE:ModerateSpellProgression|0	BONUS:VAR|ModerateSpellProgression|RangerLVL+PaladinLVL	BONUS:VAR|SpellSlotsLVL1|(2*(ModerateSpellProgression>=2))+(ModerateSpellProgression>=3)+(ModerateSpellProgression>=5)	BONUS:VAR|SpellSlotsLVL2|(2*(ModerateSpellProgression>=5))+(ModerateSpellProgression>=7)	BONUS:VAR|SpellSlotsLVL3|(2*(ModerateSpellProgression>=9))+(ModerateSpellProgression>=11)	BONUS:VAR|SpellSlotsLVL4|(ModerateSpellProgression>=13)+(ModerateSpellProgression>=15)+(ModerateSpellProgression>=17)	BONUS:VAR|SpellSlotsLVL5|(ModerateSpellProgression>=17)+(ModerateSpellProgression>=19)																												
 Caster Spell Slots ~ Full	CATEGORY:Internal	DEFINE:FullSpellProgression|0	BONUS:VAR|FullSpellProgression|BardLVL+ClericLVL+DruidLVL+SocererLVL+WizardLVL	BONUS:VAR|SpellSlotsLVL1|2+(SpellCasterTotalLVL>=2)+(SpellCasterTotalLVL>=3)	BONUS:VAR|SpellSlotsLVL2|(SpellCasterTotalLVL>=3)+(SpellCasterTotalLVL>=3)+(SpellCasterTotalLVL>=4)	BONUS:VAR|SpellSlotsLVL3|(SpellCasterTotalLVL>=5)+(SpellCasterTotalLVL>=5)+(SpellCasterTotalLVL>=6)	BONUS:VAR|SpellSlotsLVL4|(SpellCasterTotalLVL>=7)+(SpellCasterTotalLVL>=8)+(SpellCasterTotalLVL>=9)	BONUS:VAR|SpellSlotsLVL5|(SpellCasterTotalLVL>=9)+(SpellCasterTotalLVL>=10)+(SpellCasterTotalLVL>=18)	BONUS:VAR|SpellSlotsLVL6|(SpellCasterTotalLVL>=11)+(SpellCasterTotalLVL>=19)	BONUS:VAR|SpellSlotsLVL7|(SpellCasterTotalLVL>=13)+(SpellCasterTotalLVL>=20)	BONUS:VAR|SpellSlotsLVL8|(SpellCasterTotalLVL>=15)	BONUS:VAR|SpellSlotsLVL9|(SpellCasterTotalLVL>=17)																								
-																																				
+
+CATEGORY=Internal|Default.MOD	DEFINE:BardSpellDC|0		BONUS:VAR|BardSpellDC|SpellDC_CHA
+CATEGORY=Internal|Default.MOD	DEFINE:SorcererSpellDC|0	BONUS:VAR|SorcererSpellDC|SpellDC_CHA
+CATEGORY=Internal|Default.MOD	DEFINE:WarlockSpellDC|0		BONUS:VAR|WarlockSpellDC|SpellDC_CHA
+CATEGORY=Internal|Default.MOD	DEFINE:ClericSpellDC|0		BONUS:VAR|ClericSpellDC|SpellDC_WIS
+CATEGORY=Internal|Default.MOD	DEFINE:RangerSpellDC|0		BONUS:VAR|RangerSpellDC|SpellDC_WIS
+CATEGORY=Internal|Default.MOD	DEFINE:PaladinSpellDC|0		BONUS:VAR|PaladinSpellDC|SpellDC_WIS
+CATEGORY=Internal|Default.MOD	DEFINE:WizardSpellDC|0		BONUS:VAR|WizardSpellDC|SpellDC_INT
+
+###Block: Proficiencies
 Starting Equipment	CATEGORY:Internal	TYPE:Starting Equipment	DESC:Add this once the character for first level is finished. As the selections will be based upon the current Proficiencies. Also, this will only trigger for the initial first level character.	TEMPLATE:CHOOSE:TYPE=Starting Equipment																																
 Skip Starting Equipment	CATEGORY:Internal	TYPE:Starting Equipment		DESC:Choose this if you are not wanting to be granted starting equipment for this character.																																
 																																				
@@ -209,7 +212,8 @@ Add additional Weapon Proficiency	CATEGORY:Special Ability	TYPE:Rules	DESC:Adds 
 Add additional Tool Proficiency	CATEGORY:Special Ability	TYPE:Rules	DESC:Adds additional Tool Proficiency	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:ABILITYPOOL|Tools Proficiency|1	COST:0																												
 Add additional Language	CATEGORY:Special Ability	TYPE:Rules	DESC:Adds additional Language	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|POOL_Language|1	COST:0																												
 Add additional Feat	CATEGORY:Special Ability	TYPE:Rules	DESC:Adds additional Feat	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:ABILITYPOOL|Feat|1	COST:0																												
-																																				
+
+###Block: Skills																																				
 # Ability Name		Category of Ability		Type		Modify VAR																														
 Add Athletics +1	CATEGORY:Special Ability	TYPE:Rules	BONUS:VAR|GMAward_Athletics|1	CHOOSE:NOCHOICE	MULT:YES	STACK:YES	DESC:Adds +1 to the listed skill.	COST:0																												
 Add Acrobatics +1	CATEGORY:Special Ability	TYPE:Rules	BONUS:VAR|GMAward_Acrobatics|1	CHOOSE:NOCHOICE	MULT:YES	STACK:YES	DESC:Adds +1 to the listed skill.	COST:0																												
@@ -309,3 +313,6 @@ Primordial	CATEGORY:Language	TYPE:Rare Language	VISIBLE:YES		DESC:Primordial.	KE
 Sylvan	CATEGORY:Language	TYPE:Rare Language	VISIBLE:YES		DESC:Sylvan.	KEY:Language ~ Sylvan																AUTO:LANG|Sylvan											SOURCEPAGE:PHB
 Thieves' Cant	CATEGORY:Language	TYPE:Rare Language	VISIBLE:YES		DESC:Thieves' Cant.	KEY:Language ~ Thieves' Cant	PREVARGTEQ:RogueLanguage,1															AUTO:LANG|Thieves' Cant											SOURCEPAGE:PHB
 Undercommon	CATEGORY:Language	TYPE:Rare Language	VISIBLE:YES		DESC:Undercommon.	KEY:Language ~ Undercommon																AUTO:LANG|Undercommon											SOURCEPAGE:PHB
+
+###Block: Temporary Abilities
+Innate Sorcery    CATEGORY:Special Ability	TYPE:Temporary Ability	VISIBLE:YES	DESC:Innate Sorcery. KEY:Temporary Ability ~ Innate Sorcery	PRECLASS:1,Sorcerer=1	TEMPBONUS:PC|VAR|SorcererSpellDC|1|TYPE=Temporary	SOURCEPAGE:PHB

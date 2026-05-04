@@ -161,3 +161,12 @@ Movement Mode ~ Swim	CATEGORY:Internal		BONUS:MOVEADD|TYPE.Swim|Move_Swim
 Movement Mode ~ Fly	CATEGORY:Internal		BONUS:MOVEADD|TYPE.Fly|Move_Fly
 Movement Mode ~ Climb	CATEGORY:Internal		BONUS:MOVEADD|TYPE.Climb|Move_Climb
 Movement Mode ~ Burrow	CATEGORY:Internal		BONUS:MOVEADD|TYPE.Burrow|Move_Burrow
+
+
+#Block: Spell DC
+CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_STR|0		BONUS:VAR|SpellDC_STR|STR+8+Proficiency_Bonus|TYPE=Base
+CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_DEX|0		BONUS:VAR|SpellDC_DEX|DEX+8+Proficiency_Bonus|TYPE=Base
+CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_CON|0		BONUS:VAR|SpellDC_CON|CON+8+Proficiency_Bonus|TYPE=Base
+CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_CHA|0		BONUS:VAR|SpellDC_CHA|CHA+8+Proficiency_Bonus|TYPE=Base
+CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_WIS|0		BONUS:VAR|SpellDC_WIS|WIS+8+Proficiency_Bonus|TYPE=Base
+CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_INT|0		BONUS:VAR|SpellDC_INT|INT+8+Proficiency_Bonus|TYPE=Base
