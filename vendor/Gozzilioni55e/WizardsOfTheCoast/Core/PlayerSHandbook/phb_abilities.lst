@@ -89,7 +89,8 @@ Base AC 10 + DEX or Armor	CATEGORY:Special Ability	TYPE:AC_Tracker	VISIBLE:NO	DE
 Default	CATEGORY:Special Ability	TYPE:AC_Tracker.AC_Tracker_Choice	KEY:AC Tracker ~ No Choice	COST:0																																
 Barbarian Unarmored Defense	CATEGORY:Special Ability	TYPE:AC_Tracker.AC_Tracker_Choice.AC_Tracker_SelectionMade	KEY:AC Tracker ~ Barbarian	COST:0	PREMULT:2,[!PREABILITY:1,CATEGORY=Special Ability,TYPE.AC_Tracker_Choice],[PREABILITY:1,CATEGORY=Special Ability,Barbarian ~ Unarmored Defense]	BONUS:VAR|AC_Total|AC_Shield|PREVAREQ:AC_ShieldDisabled,0	BONUS:VAR|AC_Ability_Score_Bonus|CON	SOURCEPAGE:PHB																												
 Monk Unarmored Defense	CATEGORY:Special Ability	TYPE:AC_Tracker.AC_Tracker_Choice.AC_Tracker_SelectionMade	KEY:AC Tracker ~ Monk	COST:0	PREMULT:2,[!PREABILITY:1,CATEGORY=Special Ability,TYPE.AC_Tracker_Choice],[PREABILITY:1,CATEGORY=Special Ability,Monk ~ Unarmored Defense]	BONUS:VAR|AC_Ability_Score_Bonus|WIS	SOURCEPAGE:PHB																												
-																																				
+Sorcerer Unarmored Defense	CATEGORY:Special Ability	TYPE:AC_Tracker.AC_Tracker_Choice.AC_Tracker_SelectionMade	KEY:AC Tracker ~ Sorcerer	COST:0	PREMULT:2,[!PREABILITY:1,CATEGORY=Special Ability,TYPE.AC_Tracker_Choice],[PREABILITY:1,CATEGORY=Special Ability,Draconic Sorcery ~ Draconic Resilience]	BONUS:VAR|AC_Ability_Score_Bonus|CHA	SOURCEPAGE:PHB
+
 ###Block: Skill Proficiencies & Skill Proficiency Bonus																																				
 # Ability Name	Category of Ability	Type				Prohibited Class SKill		Modify VAR										Class Skill																		
 Athletics	CATEGORY:Skill	TYPE:Skill Proficiency		!PRECSKILL:1,Athletics	BONUS:VAR|SkillProf_Athletics|Proficiency_Bonus|TYPE=Class	CSKILL:Athletics																														
