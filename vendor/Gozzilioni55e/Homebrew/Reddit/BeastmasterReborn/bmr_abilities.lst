@@ -6,3 +6,5 @@ Beast Companion (Base)	CATEGORY:Internal								DEFINE:BeastCompanionLVL|0	DEFIN
 Beast Companion	CATEGORY:Internal	TYPE:BeastCompanionSelection	VISIBLE:NO																													SOURCEPAGE:BMR				
 Expanded Selection	CATEGORY:Internal	TYPE:BeastCompanionSelection.BeastCompanionAlternate		KEY:Expanded Selection ~ Beast Companion																			COST:0	COMPANIONLIST:Beast Companion|ANY								SOURCEPAGE:BMR				
 Beast Companion (Default)	CATEGORY:Internal	TYPE:BeastCompanionSelection.BeastCompanionBase		KEY:Standard Selection ~ Beast Companion	!PREABILITY:1,CATEGORY=Internal,TYPE.BeastCompanionAlternate																		COST:0	COMPANIONLIST:Beast Companion|RACETYPE=Beast								SOURCEPAGE:BMR				
+
+Natural Attack	CATEGORY:Internal	TYPE:Beast Companion.SpecialAttack	KEY:Beast Companion ~ Special Attack	VISIBLE:YES	NATURALATTACKS:Attack,Weaon.Natural.Melee.Bludgeoning.Slashing.Piercing,*1,2d4

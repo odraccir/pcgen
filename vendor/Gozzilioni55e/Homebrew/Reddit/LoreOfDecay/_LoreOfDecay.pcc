@@ -37,7 +37,7 @@ INFOTEXT:Hombrew Lore of Decay spells
 # WEAPONPROF:lod_profs_weapon.lst
 # RACE:lod_races.lst
 # SKILL:lod_skills.lst
-SPELLS:lod_spells.lst
+SPELL:lod_spells.lst
 # TEMPLATE:lod_templates.lst
 
 INFOTEXT:Supports 6.4.1

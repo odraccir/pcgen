@@ -287,7 +287,7 @@ Improved Uncanny Dodge	CATEGORY:Special Ability	TYPE:Extraordinary.ImprovedUncan
 
 # Placeholder Abilities shared by the cass abilities
 Lay on Hands	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialQuality	VISIBLE:YES	DEFINE:LayOnHands|0	DESC:%1 hp/day|LayOnHands																																																																																																																																																																																																																																																																																																															
-Sneak Attack	CATEGIRY:Special Ability	TYPE:SharedAbility.SpecialQuality	VISIBLE:YES	DEFINE:SneakAttack|0	DESC:%1d6|Sneak Attack
+Sneak Attack	CATEGORY:Special Ability	TYPE:SharedAbility.SpecialQuality	VISIBLE:YES	DEFINE:SneakAttack|0	DESC:%1d6|Sneak Attack
 
 # Fighting Style
 Blessed Warrior	CATEGORY:Special Ability	TYPE:Fighting Style	VISIBLE:YES	DESC:You learn two Cleric cantrips of your choice (see the Cleric class's section for a list of Cleric spells). Guidance and Sacred Flame are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.	KEY:Fighting Style ~ Blessed Warrior	PRECLASS:1,Paladin=2								BONUS:VAR|POOL_Paladin_Cantrip|2																		SOURCEPAGE:PHB
@@ -316,4 +316,4 @@ Thieves' Cant	CATEGORY:Language	TYPE:Rare Language	VISIBLE:YES		DESC:Thieves' Ca
 Undercommon	CATEGORY:Language	TYPE:Rare Language	VISIBLE:YES		DESC:Undercommon.	KEY:Language ~ Undercommon																AUTO:LANG|Undercommon											SOURCEPAGE:PHB
 
 ###Block: Temporary Abilities
-Innate Sorcery    CATEGORY:Special Ability	TYPE:Temporary Ability	VISIBLE:YES	DESC:Innate Sorcery. KEY:Temporary Ability ~ Innate Sorcery	PRECLASS:1,Sorcerer=1	TEMPBONUS:PC|VAR|SorcererSpellDC|1|TYPE=Temporary	SOURCEPAGE:PHB
+Innate Sorcery	CATEGORY:Special Ability	TYPE:Temporary Ability	VISIBLE:YES	DESC:Innate Sorcery. KEY:Temporary Ability ~ Innate Sorcery	PRECLASS:1,Sorcerer=1	TEMPBONUS:PC|VAR|SorcererSpellDC|1|TYPE=Temporary	SOURCEPAGE:PHB

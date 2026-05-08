@@ -6,4 +6,4 @@ FOLLOWER:Beast Companion=1		TYPE:Beast Companion	BONUS:COMBAT|TOHIT,DAMAGE|maste
 # FOLLOWER:Beast Companion=1		TYPE:Beast Companion	BONUS:VAR|Proficiency_Bonus|mastervar("Proficiency_Bonus")	
 FOLLOWER:Beast Companion=1		TYPE:Beast Companion	BONUS:SAVE|ALL|mastervar("Proficiency Bonus")
 FOLLOWER:Beast Companion=1		TYPE:Beast Companion	BONUS:SKILL|ALL|mastervar("Proficiency_Bonus")
-FOLLOWER:Beast Companion=1		TYPE:Beast Companion	NATURALATTACKS:Attack,Weaon.Natural.Melee.Bludgeoning.Slashing.Piercing,*1,2d4
+FOLLOWER:Beast Companion=1		TYPE:Beast Companion	ABILITY:Internal|AUTOMATIC|Beast Companion ~ Natural Attack
