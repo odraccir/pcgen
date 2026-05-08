@@ -1,4 +1,5 @@
 .~lock.*
+.github/**/*
 *.~lock.*
 *.~lock.*.*
 *.ini
@@ -20,11 +21,14 @@ libs/**/*
 outputsheets/**/*
 plugins/**/*
 preview/**/*
+PCGen-Formula/**/*
+PCGen-base/**/*
 settings/**/*
 system/**/*
+code/**/*
 vendor_file/**/*
 vendordata/**/*
-vendor/**/*.tsv
+vendor/**/*.csv
 autobuild.properties
 config.ini
 LICENSE
@@ -65,3 +69,9 @@ release
 #system/icons/**
 #system/outputFilters/**
 #system/sponsors/**
+crowdin.yml
+gradlew
+gradlew.bat
+ruleset.xml
+settings.gradle
+spotbugs-excludes.xml
