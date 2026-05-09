@@ -350,7 +350,7 @@ CLASS:Rogue	SPELLSTAT:INT	MEMORIZE:NO		BONUS:CASTERLEVEL|Rogue|CL	BONUS:VAR|Spel
 1			ABILITY:Class|AUTOMATIC|Rogue					
 1			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Expertise					
 1			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Sneak Attack					
-1			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Thieves’ Cant					
+1			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Thieves' Cant					
 1			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Weapon Mastery					
 2			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Cunning Action					
 3			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Rogue Subclass					
@@ -425,3 +425,61 @@ CLASS:Sorcerer	SPELLSTAT:CHA	MEMORIZE:NO	BONUS:CASTERLEVEL|Sorcerer|CL
 7	ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Sorcery Incarnate
 19	ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Epic Boon
 20	ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Arcane Apotheosys
+
+CLASS:Warlock	HD:6		TYPE:PC.Base	DEFINE:WarlockLVL|0	BONUS:VAR|WarlockLVL|CL	BONUS:VAR|SpellCasterTotalLVL|WarlockLVL	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|Arcane
+CLASS:Warlock	PREMULT:1,[!PRETEMPLATE:1,First Level],[PREABILITY:1,CATEGORY=Internal,Multiclass Allowed ~ Warlock],[PRECLASS:1,Warlock=1]
+CLASS:Warlock	SPELLSTAT:CHA	MEMORIZE:NO	BONUS:CASTERLEVEL|Warlock|CL
+###Block
+1	CAST:99,WarlockCast1
+2	CAST:99,WarlockCast1
+3	CAST:99,WarlockCast1,WarlockCast2
+4	CAST:99,WarlockCast1,WarlockCast2
+5	CAST:99,WarlockCast1,WarlockCast2,WarlockCast3
+6	CAST:99,WarlockCast1,WarlockCast2,WarlockCast3
+7	CAST:99,WarlockCast1,WarlockCast2,WarlockCast3,WarlockCast4
+8	CAST:99,WarlockCast1,WarlockCast2,WarlockCast3,WarlockCast4
+9	CAST:99,WarlockCast1,WarlockCast2,WarlockCast3,WarlockCast4,WarlockCast5
+10	CAST:99,WarlockCast1,WarlockCast2,WarlockCast3,WarlockCast4,WarlockCast5
+11	CAST:99,WarlockCast1,WarlockCast2,WarlockCast3,WarlockCast4,WarlockCast5
+12	CAST:99,WarlockCast1,WarlockCast2,WarlockCast3,WarlockCast4,WarlockCast5
+13	CAST:99,WarlockCast1,WarlockCast2,WarlockCast3,WarlockCast4,WarlockCast5
+14	CAST:99,WarlockCast1,WarlockCast2,WarlockCast3,WarlockCast4,WarlockCast5
+15	CAST:99,WarlockCast1,WarlockCast2,WarlockCast3,WarlockCast4,WarlockCast5
+16	CAST:99,WarlockCast1,WarlockCast2,WarlockCast3,WarlockCast4,WarlockCast5
+17	CAST:99,WarlockCast1,WarlockCast2,WarlockCast3,WarlockCast4,WarlockCast5
+18	CAST:99,WarlockCast1,WarlockCast2,WarlockCast3,WarlockCast4,WarlockCast5
+19	CAST:99,WarlockCast1,WarlockCast2,WarlockCast3,WarlockCast4,WarlockCast5
+20	CAST:99,WarlockCast1,WarlockCast2,WarlockCast3,WarlockCast4,WarlockCast5
+###Block
+1	KNOWN:99,WarlockKnown1
+2	KNOWN:99,WarlockKnown1
+3	KNOWN:99,WarlockKnown1,WarlockKnown2
+4	KNOWN:99,WarlockKnown1,WarlockKnown2
+5	KNOWN:99,WarlockKnown1,WarlockKnown2,WarlockKnown3
+6	KNOWN:99,WarlockKnown1,WarlockKnown2,WarlockKnown3
+7	KNOWN:99,WarlockKnown1,WarlockKnown2,WarlockKnown3,WarlockKnown4
+8	KNOWN:99,WarlockKnown1,WarlockKnown2,WarlockKnown3,WarlockKnown4
+9	KNOWN:99,WarlockKnown1,WarlockKnown2,WarlockKnown3,WarlockKnown4,WarlockKnown5
+10	KNOWN:99,WarlockKnown1,WarlockKnown2,WarlockKnown3,WarlockKnown4,WarlockKnown5
+11	KNOWN:99,WarlockKnown1,WarlockKnown2,WarlockKnown3,WarlockKnown4,WarlockKnown5
+12	KNOWN:99,WarlockKnown1,WarlockKnown2,WarlockKnown3,WarlockKnown4,WarlockKnown5
+13	KNOWN:99,WarlockKnown1,WarlockKnown2,WarlockKnown3,WarlockKnown4,WarlockKnown5
+14	KNOWN:99,WarlockKnown1,WarlockKnown2,WarlockKnown3,WarlockKnown4,WarlockKnown5
+15	KNOWN:99,WarlockKnown1,WarlockKnown2,WarlockKnown3,WarlockKnown4,WarlockKnown5
+16	KNOWN:99,WarlockKnown1,WarlockKnown2,WarlockKnown3,WarlockKnown4,WarlockKnown5
+17	KNOWN:99,WarlockKnown1,WarlockKnown2,WarlockKnown3,WarlockKnown4,WarlockKnown5
+18	KNOWN:99,WarlockKnown1,WarlockKnown2,WarlockKnown3,WarlockKnown4,WarlockKnown5
+19	KNOWN:99,WarlockKnown1,WarlockKnown2,WarlockKnown3,WarlockKnown4,WarlockKnown5
+20	KNOWN:99,WarlockKnown1,WarlockKnown2,WarlockKnown3,WarlockKnown4,WarlockKnown5
+#
+1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS
+1	ABILITY:Class|AUTOMATIC|Warlock
+1	ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ E£ldritch Invocations
+1	ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Pact Magic
+2	ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Magical Cunning
+3	ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Warlock Subclass
+4	ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Ability Score Improvement
+9	ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Contact Patron
+11	ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Mystic Arcanum
+19	ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Epic Boon
+20	ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Eldritch Master
