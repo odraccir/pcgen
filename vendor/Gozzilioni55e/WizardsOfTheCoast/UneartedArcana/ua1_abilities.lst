@@ -1,0 +1,3 @@
+SOURCELONG:Unearthed Arcana - Modern Magic	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2015-01
+
+Tool Proficiency ~ Hacking Tools		CATEGORY:Internal		TYPE:Tool Proficiency.Tool Proficiency Artisan's Tools	DEFINE:ProfBonus_Hacking_Tools|0				BONUS:VAR|ProfBonus_Hacking_Tools|Proficiency_Bonus		ASPECT:SkillBonus|+%1 Hacking Tools|ProfBonus_Hacking_Tools

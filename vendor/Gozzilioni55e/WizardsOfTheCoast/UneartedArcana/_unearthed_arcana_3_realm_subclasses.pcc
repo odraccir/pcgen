@@ -1,0 +1,33 @@
+CAMPAIGN:Unearthed Arcana - Realm subclasses
+KEY:Unearthed Arcana
+BOOKTYPE:Web Enhancement
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+GAMEMODE:G55e
+TYPE:Wizards of the Coast.WebEnhancement
+SOURCELONG:Unearthed Arcana - Artificer
+SOURCESHORT:UA
+SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua
+SOURCEDATE:2024-01
+RANK:202401
+PUBNAMELONG:Wizard	s of the Coast
+PUBNAMESHORT:WotC
+PUBNAMEWEB:http://www.wizards.com
+COPYRIGHT:Copyright 2024, Wizards of the Coast, Inc.
+ISOGL:NO
+
+# COVER should be cover_gameMode_pub_book.file
+COVER:&/Gozzilioni55e/_artwork/cover_5e2024_wotc_UA.png
+# LOGO should be logo_pub.file
+LOGO:&/Gozzilioni55e/_artwork/logo_wotc.png
+
+INFOTEXT:D&D Unearthed Arcana
+
+#EXTRAFILE:ua3_missing.txt
+
+ABILITY:ua3_abilities.lst
+ABILITY:ua3_abilities_class.lst
+ABILITYGROUP:ua3_abilitygroups.lst
+COMPANIONMOD:ua3_companionmods.lst
+SPELL:ua3_spells.lst
+
+INFOTEXT:Supports 6.4.1

@@ -24,20 +24,20 @@ INFOTEXT:D&D Unearthed Arcana
 
 #EXTRAFILE:uaa_missing.txt
 
-ABILITY:uaa_abilities_class.lst
-ABILITY:uaa_abilities_racial.lst
-ABILITY:uaa_abilities.lst
-ABILITYCATEGORY:uaa_abilitycategories.lst
-CLASS:uaa_classes.lst
-COMPANIONMOD:uaa_companionmods.lst
-DOMAIN:uaa_domains.lst
-EQUIPMENT:uaa_equip_arms_and_armor.lst
-EQUIPMENT:uaa_equip_magic.lst
-EQUIPMENT:uaa_equip.lst
-EQUIPMOD:uaa_equipmods.lst
-KIT:uaa_kits.lst
-RACE:uaa_races.lst
-SPELL:uaa_spells.lst
-TEMPLATE:uaa_templates.lst
+ABILITY:ua2_abilities_class.lst
+ABILITY:ua2_abilities_racial.lst
+ABILITY:ua2_abilities.lst
+ABILITYCATEGORY:ua2_abilitycategories.lst
+CLASS:ua2_classes.lst
+COMPANIONMOD:ua2_companionmods.lst
+DOMAIN:ua2_domains.lst
+EQUIPMENT:ua2_equip_arms_and_armor.lst
+EQUIPMENT:ua2_equip_magic.lst
+EQUIPMENT:ua2_equip.lst
+EQUIPMOD:ua2_equipmods.lst
+KIT:ua2_kits.lst
+RACE:ua2_races.lst
+SPELL:ua2_spells.lst
+TEMPLATE:ua2_templates.lst
 
 INFOTEXT:Supports 6.4.1

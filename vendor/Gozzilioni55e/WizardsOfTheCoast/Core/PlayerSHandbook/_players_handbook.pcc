@@ -38,8 +38,9 @@ BIOSET:phb_biosettings.lst
 CLASS:phb_classes.lst
 COMPANIONMOD:phb_companionmods.lst
 DOMAIN:phb_domains.lst
-EQUIPMENT:phb_equipment.lst
 EQUIPMOD:phb_eqmods.lst
+EQUIPMENT:phb_equip_arms_and_armor.lst
+EQUIPMENT:phb_equipment.lst
 KIT:phb_kits.lst
 LANGUAGE:phb_languages.lst
 ARMORPROF:phb_profs_armor.lst

@@ -20,10 +20,12 @@ COVER:&/Gozzilioni55e/_artwork/cover_5e2024_wotc_UA.png
 # LOGO should be logo_pub.file
 LOGO:&/Gozzilioni55e/_artwork/logo_wotc.png
 
-INFOTEXT:D&D Unearthed Arcana
+INFOTEXT:D&D Unearthed Arcana - Modern Magic
 
-#EXTRAFILE:uam_missing.txt
+#EXTRAFILE:ua1_missing.txt
 
-SPELL:uam_spells.lst
+ABILITY:ua1_abilities.lst
+EQUIP:ua1_equip.lst
+SPELL:ua1_spells.lst
 
 INFOTEXT:Supports 6.4.1

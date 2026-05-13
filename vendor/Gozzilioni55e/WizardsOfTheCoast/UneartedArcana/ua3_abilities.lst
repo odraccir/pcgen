@@ -1,0 +1,8 @@
+SOURCELONG:Unearthed Arcana - Realm Subclasses	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2024-01
+
+#Block:Purple Dragon Companion
+Purple Dragon Companion	CATEGORY:Internal	VISIBLE:NO	ABILITY:Internal|AUTOMATIC|Purple Dragon Companion (Base)|Purple Dragon Companion																																		
+Purple Dragon Companion (Base)	CATEGORY:Internal								DEFINE:PurpleDragonCompanionLVL|0	DEFINE:PurpleDragonCompanionDetermination|0													FOLLOWERS:Purple Dragon Companion|1	ABILITY:Purple Dragon Companion Selection|AUTOMATIC|Standard Selection ~ Purple Dragon Companion|!PREABILITY:1,CATEGORY=Internal,TYPE.PurpleDragonCompanionAlternate								SOURCEPAGE:PHB				
+Purple Dragon Companion	CATEGORY:Internal	TYPE:PurpleDragonCompanionSelection	VISIBLE:NO																													SOURCEPAGE:PHB				
+Expanded Selection	CATEGORY:Internal	TYPE:PurpleDragonCompanionSelection.PurpleDragonCompanionAlternate		KEY:Expanded Selection ~ Purple Dragon Companion																			COST:0	COMPANIONLIST:Purple Dragon Companion|ANY								SOURCEPAGE:PHB				
+Purple Dragon Companion (Default)	CATEGORY:Internal	TYPE:PurpleDragonCompanionSelection.PurpleDragonCompanionBase		KEY:Standard Selection ~ Purple Dragon Companion	!PREABILITY:1,CATEGORY=Internal,TYPE.PurpleDragonCompanionAlternate																		COST:0	COMPANIONLIST:Purple Dragon Companion|Purple Dragon								SOURCEPAGE:PHB				

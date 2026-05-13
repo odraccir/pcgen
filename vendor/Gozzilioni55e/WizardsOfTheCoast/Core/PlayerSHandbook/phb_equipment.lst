@@ -6,11 +6,3 @@ Coin (Gold)		TYPE:Coin.Money		COST:1	WT:0.02
 Coin (Electrum)		TYPE:Coin.Money		COST:0.5	WT:0.02
 Coin (Silver)		TYPE:Coin.Money		COST:0.1	WT:0.02
 Coin (Copper)		TYPE:Coin.Money			COST:0.01	WT:0.02
-
-# need a disable trigger for Dex on the OS.
-# Need the new parser - RangeLongMult will determine final long range value. Set base.xml file in game system folder. Alter range output by type - Increment3, Increment4
-# NOTES: Range is 2 Increments - Thrown Long Range is x3, Projectile Long Range is x4
-
-###Block: Weapons
-# Item Name	Proficiency		Type			Cost	Weight	Properties
-Psychic Blade	VISIBLE:QUALIFY		PROFICIENCY:WEAPON|Psychic Blade	TYPE:Weapon.Melee.Ranged.Simple.Piercing.Slashing.Light.Finesse.Increment3.Psychic Blade	COST:0	WT:0	WIELD:Light		SIZE:M	DAMAGE:1d6	CRITRANGE:2	CRITMULT:x2	EQMOD:STEEL.VEX	SOURCEPAGE:PHB	PREVARGTEQ:PsychicBlade,1						RANGE:60				
