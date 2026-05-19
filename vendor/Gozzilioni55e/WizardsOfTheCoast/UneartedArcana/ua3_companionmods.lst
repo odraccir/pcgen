@@ -1,4 +1,8 @@
 SOURCELONG:Unearthed Arcana - Realm Subclasses	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2024-01
 #										
 ###Block:Purple Dragon Companion										
-FOLLOWER:PurpleDragonCompanionLVL=1	TYPE:Purple Dragon Companion					
+FOLLOWER:PurpleDragonCompanionLVL=1	TYPE:Purple Dragon Companion	HD:PurpleDragonHD	DEFINE:PurpleDragonHD|0	BONUS:VAR|PurpleDragonHD|mastervar("FighterLVL")	BONUS:COMBAT|AC|mastervar("INT")	ABILITY:Special Ability|AUTOMATIC|Purple Dragon ~ Languages|Purple Dragon ~ Stalwarth Bond
+FOLLOWER:PurpleDragonCompanionLVL=1	TYPE:Purple Dragon Companion	BONUS:WEAPONPROF=Rend|TOHIT|mastervar("INT")	BONUS:WEAPONPROF=Rend|DAMAGE|mastervar("INT")
+FOLLOWER:PurpleDragonCompanionLVL=1	TYPE:Purple Dragon Companion	BONUS:VAR|GravityBrathDC|mastervar("INT")+(mastervar("Proficiency_Bonus")/2) 
+FOLLOWER:PurpleDragonCompanionLVL=7	TYPE:Purple Dragon Companion	BONUS:SIZEMOD|NUMBER|1	
+FOLLOWER:PurpleDragonCompanionLVL=12	TYPE:Purple Dragon Companion	BONUS:SIZEMOD|NUMBER|1

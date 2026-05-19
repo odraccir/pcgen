@@ -1,0 +1,5 @@
+SOURCELONG:Unearthed Arcana - Realm Subclasses	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2024-01
+
+#Races
+STARTPACK:Purple Dragon Stats	TYPE:DefaultMonster	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Purple Dragon
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=11|CHA=10

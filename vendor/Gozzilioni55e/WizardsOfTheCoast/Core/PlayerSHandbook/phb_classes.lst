@@ -474,7 +474,7 @@ CLASS:Warlock	SPELLSTAT:CHA	MEMORIZE:NO	BONUS:CASTERLEVEL|Warlock|CL
 #
 1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS
 1	ABILITY:Class|AUTOMATIC|Warlock
-1	ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ E£ldritch Invocations
+1	ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Eldritch Invocations
 1	ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Pact Magic
 2	ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Magical Cunning
 3	ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Warlock Subclass
@@ -483,3 +483,41 @@ CLASS:Warlock	SPELLSTAT:CHA	MEMORIZE:NO	BONUS:CASTERLEVEL|Warlock|CL
 11	ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Mystic Arcanum
 19	ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Epic Boon
 20	ABILITY:Warlock Class Feature|AUTOMATIC|Warlock ~ Eldritch Master
+
+CLASS:Wizard	HD:6		TYPE:PC.Base	DEFINE:WizardLVL|0	BONUS:VAR|WizardLVL|CL	BONUS:VAR|SpellCasterTotalLVL|WizardLVL	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|Arcane
+CLASS:Wizard	PREMULT:1,[!PRETEMPLATE:1,First Level],[PREABILITY:1,CATEGORY=Internal,Multiclass Allowed ~ Wizard],[PRECLASS:1,Wizard=1]
+CLASS:Wizard	SPELLSTAT:INT	MEMORIZE:YES	BONUS:CASTERLEVEL|Wizard|CL
+###Block
+1	CAST:99,WizardCast1
+2	CAST:99,WizardCast1
+3	CAST:99,WizardCast1,WizardCast2
+4	CAST:99,WizardCast1,WizardCast2
+5	CAST:99,WizardCast1,WizardCast2,WizardCast3
+6	CAST:99,WizardCast1,WizardCast2,WizardCast3
+7	CAST:99,WizardCast1,WizardCast2,WizardCast3,WizardCast4
+8	CAST:99,WizardCast1,WizardCast2,WizardCast3,WizardCast4
+9	CAST:99,WizardCast1,WizardCast2,WizardCast3,WizardCast4,WizardCast5
+10	CAST:99,WizardCast1,WizardCast2,WizardCast3,WizardCast4,WizardCast5
+11	CAST:99,WizardCast1,WizardCast2,WizardCast3,WizardCast4,WizardCast5,WizardCast6
+12	CAST:99,WizardCast1,WizardCast2,WizardCast3,WizardCast4,WizardCast5,WizardCast6
+13	CAST:99,WizardCast1,WizardCast2,WizardCast3,WizardCast4,WizardCast5,WizardCast6,WizardCast7
+14	CAST:99,WizardCast1,WizardCast2,WizardCast3,WizardCast4,WizardCast5,WizardCast6,WizardCast7
+15	CAST:99,WizardCast1,WizardCast2,WizardCast3,WizardCast4,WizardCast5,WizardCast6,WizardCast7,WizardCast8
+16	CAST:99,WizardCast1,WizardCast2,WizardCast3,WizardCast4,WizardCast5,WizardCast6,WizardCast7,WizardCast8
+17	CAST:99,WizardCast1,WizardCast2,WizardCast3,WizardCast4,WizardCast5,WizardCast6,WizardCast7,WizardCast8,WizardCast9
+18	CAST:99,WizardCast1,WizardCast2,WizardCast3,WizardCast4,WizardCast5,WizardCast6,WizardCast7,WizardCast8,WizardCast9
+19	CAST:99,WizardCast1,WizardCast2,WizardCast3,WizardCast4,WizardCast5,WizardCast6,WizardCast7,WizardCast8,WizardCast9
+20	CAST:99,WizardCast1,WizardCast2,WizardCast3,WizardCast4,WizardCast5,WizardCast6,WizardCast7,WizardCast8,WizardCast9
+###Block
+1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS
+1	ABILITY:Class|AUTOMATIC|Wizard
+1	ABILITY:Special Ability|AUTOMATIC|Wizard ~ Spellcasting
+1	ABILITY:Special Ability|AUTOMATIC|Wizard ~ Ritual Adept
+1	ABILITY:Special Ability|AUTOMATIC|Wizard ~ Arcane Recovery
+2	ABILITY:Special Ability|AUTOMATIC|Wizard ~ Scholar
+3	ABILITY:Special Ability|AUTOMATIC|Wizard ~ Wizard Subclass
+4	ABILITY:Special Ability|AUTOMATIC|Wizard ~ Ability Score Improvement
+5	ABILITY:Special Ability|AUTOMATIC|Wizard ~ Memorize Spell
+18	ABILITY:Special Ability|AUTOMATIC|Wizard ~ Spell Mastery
+19	ABILITY:Special Ability|AUTOMATIC|Wizard ~ Epic Boon
+20	ABILITY:Special Ability|AUTOMATIC|Wizard ~ Signature Spells

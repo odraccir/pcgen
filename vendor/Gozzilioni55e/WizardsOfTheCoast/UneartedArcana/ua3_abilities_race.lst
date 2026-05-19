@@ -1,0 +1,10 @@
+SOURCELONG:Unearthed Arcana - Realm Subclasses	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2024-01
+
+Racial Traits	CATEGORY:Internal	TYPE:Racial Traits	VISIBLE:DISPLAY	KEY:Racial Traits ~ Purple Dragon	PRERACE:1,Purple Dragon	ABILITY:Special Ability|AUTOMATIC|TYPE=Purple Dragon Race Trait	BONUS:VAR|DarkvisionRange|60|TYPE=Base	BONUS:VAR|TelepathyRange|30|TYPE=Base
+
+Amphibious	CATEGORY:Special Ability	TYPE:Purple Dragon Race Trait.SpecialQuality	VISIBLE:YES	KEY:Purple Dragon ~ Amphibious	DESC:The dragon can breathe both air and water.													SORTKEY:PurpleDragonRaceTrait_1	SOURCEPAGE:UA
+Rend	CATEGORY:Special Ability	TYPE:Purple Dragon Race Trait.SpecialQuality	VISIBLE:YES	KEY:Purple Dragon ~ Rend	DESC:DESC:Melee Weapon Attack: +3 to hit, reach 5 ft., one target.	DESC:&nl;Hit: 3 (1d6) force damage.									NATURALATTACKS:Rend,Weapon.Natural.Melee.Rend,*1,1d6,SPROP=force damage				SORTKEY:PurpleDragonRaceTrait_1	SOURCEPAGE:UA
+Gravity Breath	CATEGORY:Special Ability	TYPE:Purple Dragon Race Trait.SpecialAttack	VISIBLE:YES	KEY:Purple Dragon ~ Gravity Breath	DESC:Constitution Saving Throw: DC %1, each creature in a 15-foot Cone. Failure: The target is either pulled up to 15 feet straight toward the dragon or pushed 15 feet straight away from the dragon (your choice).|GravityBreathDC	DESC:The dragon's Gravity Breath becomes a 30-foot Cone. When a creature fails its saving throw against that Gravity Breath, the creature also takes 2d6 Force damage.|PREVARGTEQ:PurpleDragonCompanionLVL,7	DEFINE:GravityBreathDC|0			BONUS:VAR|GravityBreathDC|SaveDC_CON			SORTKEY:PurpleDragonRaceTrait_4	SOURCEPAGE:UA
+
+Languages	CATEGORY:Special Ability	TYPE:Purple	Dragon Companion	VISIBLE:YES	KEY:Purple Dragon ~ Languages	DESC:Understands the languages you know.													SORTKEY:PurpleDragonRaceTrait_3	SOURCEPAGE:UA
+Stalwarth Bond (2/day)	CATEGORY:Special Ability	TYPE:Purple	Dragon Companion	VISIBLE:YES	KEY:Purple Dragon ~ Stalwarth Bond	DESC:Add half your Proficiency Bonus (round down) to any ability check or saving throw the dragon makes.													SORTKEY:PurpleDragonRaceTrait_2	SOURCEPAGE:UA

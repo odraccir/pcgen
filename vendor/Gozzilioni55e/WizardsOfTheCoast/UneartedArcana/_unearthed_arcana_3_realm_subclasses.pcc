@@ -4,7 +4,7 @@ BOOKTYPE:Web Enhancement
 PRECAMPAIGN:1,BOOKTYPE=Core Rules
 GAMEMODE:G55e
 TYPE:Wizards of the Coast.WebEnhancement
-SOURCELONG:Unearthed Arcana - Artificer
+SOURCELONG:Unearthed Arcana - Realm Subclasses
 SOURCESHORT:UA
 SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua
 SOURCEDATE:2024-01
@@ -26,8 +26,11 @@ INFOTEXT:D&D Unearthed Arcana
 
 ABILITY:ua3_abilities.lst
 ABILITY:ua3_abilities_class.lst
-ABILITYGROUP:ua3_abilitygroups.lst
+ABILITY:ua3_abilities_race.lst
+ABILITYCATEGORY:ua3_abilitygroups.lst
 COMPANIONMOD:ua3_companionmods.lst
+KIT:ua3_kits.lst
+RACE:ua3_races.lst
 SPELL:ua3_spells.lst
 
 INFOTEXT:Supports 6.4.1
