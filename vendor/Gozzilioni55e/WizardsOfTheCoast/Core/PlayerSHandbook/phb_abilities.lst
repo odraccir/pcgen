@@ -3,43 +3,6 @@ SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net
 ###Block:																																				
 # Ability Name			Define							Ability															Bonus Ability Pool									Modify VAR		
 CATEGORY=Internal|Default.MOD	DEFINE:Proficiency_Bonus|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Feat|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Origin_Feat|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Epic_Boon|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Skill_Proficiency|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Expertise|0																																			
-																																				
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Barbarian_Skill|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Bard_Skill|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Bard_Tool|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Bard_Magical_Secrets|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Bard_Magical_Discovery|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Cleric_Skill|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Divine_Order|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Blessed_Strike|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Druid_Skill|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Primal_Order|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Elemental_Fury|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Circle_Of_The_Land_Spell|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Maneuvers|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Fighter_Skill|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Fighting_Style|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Monk_Skill|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Elemental_Epitome|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Ranger_Skill|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Fey_Gift|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Otherworldly_Glamour|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Iron_Mind|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Hunter_S_Prey|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Rogue_Skill|0																																			
-																																				
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Bard_Cantrip|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Cleric_Cantrip|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Druid_Cantrip|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Paladin_Cantrip|0																																			
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Rogue_Cantrip|0																																			
-
-CATEGORY=Internal|Default.MOD	DEFINE:POOL_Racial_Size|0																																			
 
 CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|First Level Proficiencies|PREPCLEVEL:MIN=1																																			
 CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|AC Tracker	DEFINE:DisableDexForAC|0	DEFINE:AC_ArmorDisabled|0	DEFINE:AC_ShieldDisabled|0	DEFINE:Use_AC_Output|0	DEFINE:POOL_Expertise|0
@@ -48,13 +11,12 @@ CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Spellcaster Spel
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Passive Perception																																			
 CATEGORY=Internal|Default.MOD	ABILITY:SkillExport|AUTOMATIC|TYPE=SkillExport																																			
 																																				
-CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|Background|!PRECLASS:1,Hit Die=1																																			
 CATEGORY=Internal|Default.MOD	BONUS:VAR|Proficiency_Bonus|(TL+7)/4|TYPE=Base|!PRECLASS:1,Hit Die=1|!PREFACT:1,ABILITIES,NoProfBonus=True																																			
-CATEGORY=Internal|Default.MOD	BONUS:ABILITYPOOL|Starting Equipment|1|PRECLASS:1,TYPE.PC=1|PRERACE:1,%																																			
-																																				
+# CATEGORY=Internal|Default.MOD	BONUS:ABILITYPOOL|Starting Equipment|1|PRECLASS:1,TYPE.PC=1|PRERACE:1,%																																			
+
+CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|Background|!PRECLASS:1,Hit Die=1																																			
 Background		CATEGORY:Internal	DEFINE:POOL_Background|0	BONUS:VAR|POOL_Background|1																																	
-																																				
-																																				
+
 ###Block																																				
 Blindsight	CATEGORY:Special Ability	DESC:A creature with blindsight can perceive its surroundings without relying on sight, within a specific radius. Creatures without eyes, such as oozes, and creatures with echolocation or heightened senses, such as bats and true dragons, have this sense.	VISION:Blindsight (BlindsightRange)																																	
 Darkvision	CATEGORY:Special Ability	DESC:Many creatures in the worlds of D&D, especially those that dwell underground, have darkvision. Within a specified range, a creature with darkvision can see in darkness as if the darkness were dim light, so areas of darkness are only lightly obscured as far as that creature is concerned. However, the creature can't discern color in darkness, only shades of gray.	VISION:Darkvision (DarkvisionRange)																																	
@@ -344,4 +306,13 @@ Thieves' Cant	CATEGORY:Language	TYPE:Rare Language	VISIBLE:YES		DESC:Thieves' Ca
 Undercommon	CATEGORY:Language	TYPE:Rare Language	VISIBLE:YES		DESC:Undercommon.	KEY:Language ~ Undercommon																AUTO:LANG|Undercommon											SOURCEPAGE:PHB
 
 ###Block: Temporary Abilities
-Innate Sorcery	CATEGORY:Special Ability	TYPE:Temporary Ability	VISIBLE:YES	DESC:Innate Sorcery. KEY:Temporary Ability ~ Innate Sorcery	PRECLASS:1,Sorcerer=1	TEMPBONUS:PC|VAR|SorcererSpellDC|1|TYPE=Temporary	SOURCEPAGE:PHB
+Innate Sorcery	CATEGORY:Special Ability	TYPE:Temporary Ability	VISIBLE:YES	DESC:Innate Sorcery.	KEY:Temporary Ability ~ Innate Sorcery	PRECLASS:1,Sorcerer=1	TEMPBONUS:PC|VAR|SorcererSpellDC|1|TYPE=Temporary	SOURCEPAGE:PHB
+
+###Block: Origin
+No Background	CATEGORY:Special Ability	TYPE:Background	VISIBLE:YES	DESC:No Background.	KEY:Background ~ No Background	
+Acolyte	CATEGORY:Special Ability	TYPE:Background	VISIBLE:YES	KEY:Background ~ Acolyte	BONUS:ABILITYCATEGORY|Acolyte Abilities|2	ABILITY:FEAT|AUTOMATIC|Magic Initiate (Cleric)	ABILITY:Skill|AUTOMATIC|Insight|Religion	ABILITY:Internal|AUTOMATIC|Tool Proficiency ~ Calligrapher's Supplies	KIT:1|Acolyte Equipment (A)|Acolyte Equipment (B)	SOURCEPAGE:PHB
+Artisan	CATEGORY:Special Ability	TYPE:Background	VISIBLE:YES	KEY:Background ~ Artisan	BONUS:ABILITYCATEGORY|Artisan Abilities|2	ABILITY:FEAT|AUTOMATIC|Crafter	ABILITY:Skill|AUTOMATIC|Investigation|Persuasion	BONUS:ABILITYPOOL|Artisan's Tools Proficiency|1	KIT:1|Artisan Equipment (A)|Artisan Equipment (B)	SOURCEPAGE:PHB
+
+
+CATEGORY=Special Ability|Background ~ Acolyte.MOD	DESC:You devoted yourself to service in a temple, either nestled in a town or secluded in a sacred grove. There you performed rites in honor of a god or pantheon. You served under a priest and studied religion . Thanks to your pries t's instruction and your own devotion, you also learned how to channel a modicum of divine power in service to your place of worship and the people who prayed there.
+CATEGORY=Special Ability|Background ~ Artisan.MOD	DESC:You began mopping floors and scrubbing counters in an artisan's workshop for a few coppers per day as soon as you were strong enough to carry a bucket. When you were old enough to apprentice, you learned to create basic crafts of your own, as well as how to sweet-talk the occasional demanding customer. Your trade has also given you a keen eye for detail.
