@@ -1,0 +1,20 @@
+CAMPAIGN:Minor Cantrips
+GAMEMODE:G55e
+RANK:9
+TYPE:Gozzilioni.Web
+BOOKTYPE:Houserules
+SOURCELONG:Minor Cantrips
+SOURCESHORT:MC
+SOURCEWEB:https://www.patreon.com/cw/EldritchE
+SOURCEDATE:202602
+ISOGL:YES
+COPYRIGHT:Copyright 2024, Gozzilioni
+PUBNAMELONG:Reddit user
+PUBNAMESHORT:Reddit user
+PUBNAMEWEB:https://www.reddit.com
+
+INFOTEXT:Minor Cantrips
+
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+
+SPELL:mc_spells.lst
