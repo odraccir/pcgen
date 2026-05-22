@@ -17,4 +17,5 @@ INFOTEXT:Minor Cantrips
 
 PRECAMPAIGN:1,BOOKTYPE=Core Rules
 
+ABILITY:mc_abilities.lst
 SPELL:mc_spells.lst

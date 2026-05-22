@@ -1,0 +1,27 @@
+CAMPAIGN:The Inspired Arcana
+GAMEMODE:G55e
+RANK:9
+TYPE:Gozzilioni.Web
+BOOKTYPE:Houserules
+SOURCELONG:The Inspired Arcana
+SOURCESHORT:IA
+SOURCEWEB:https://www.patreon.com/cw/TheInspiredArcana
+SOURCEDATE:202602
+ISOGL:YES
+COPYRIGHT:Copyright 2024, Gozzilioni
+PUBNAMELONG:Patreon user
+PUBNAMESHORT:Patreon user
+PUBNAMEWEB:https://www.patreon.com/cw/TheInspiredArcana
+
+# COVER should be cover_gameMode_pub_book.file
+# COVER:&/Gozzilioni55e/_artwork/cover_5e2024_wotc_ph.png
+# LOGO should be logo_pub.file
+LOGO:&/Gozzilioni55e/_artwork/banner_InspiredArcana.png
+
+
+INFOTEXT:the Inspired Arcana
+
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+
+ABILITY:ia_abilities.lst
+ABILITYCATEGORY:ia_abilitycategories.lst
