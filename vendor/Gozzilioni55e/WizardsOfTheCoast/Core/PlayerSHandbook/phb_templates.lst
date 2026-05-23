@@ -25,7 +25,41 @@ Rogue	VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Rogue=1	BONUS:VAR|POOL_Rogue_Skill|2
 Sorcerer	VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Sorcerer=1	BONUS:VAR|POOL_Sorcerer_Skill|2		ABILITY:Internal|AUTOMATIC|Saving Throw ~ Con|Saving Throw ~ Cha	ABILITY:Internal|AUTOMATIC|TYPE=WeaponProfSimple		ABILITY:Internal|AUTOMATIC|Multiclass Allowed|PRESTAT:1,CHA=13																																																								
 Warlock	VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Warlock=1	BONUS:VAR|POOL_Warlock_Skill|2		ABILITY:Internal|AUTOMATIC|Saving Throw ~ Cha|Saving Throw ~ Wis	ABILITY:Internal|AUTOMATIC|TYPE=ArmorProfLight	ABILITY:Internal|AUTOMATIC|TYPE=WeaponProfSimple	ABILITY:Internal|AUTOMATIC|Multiclass Allowed|PRESTAT:1,CHA=13																																																								
 Wizard	VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Wizard=1	BONUS:VAR|POOL_Wizard_Skill|2		ABILITY:Internal|AUTOMATIC|Saving Throw ~ Int|Saving Throw ~ Wis	ABILITY:Weapon|AUTOMATIC|TYPE=WeaponProfSimple		ABILITY:Internal|AUTOMATIC|Multiclass Allowed|PRESTAT:1,INT=13																																																								
-																																																																	
+
+### Block: Dragonborn Subraces
+Black	TYPE:Dragonborn Subrace	SUBRACE:Black	SOURCEPAGE:PHB
+Blue	TYPE:Dragonborn Subrace	SUBRACE:Blue	SOURCEPAGE:PHB
+Brass	TYPE:Dragonborn Subrace	SUBRACE:Brass	SOURCEPAGE:PHB
+Bronze	TYPE:Dragonborn Subrace	SUBRACE:Bronze	SOURCEPAGE:PHB
+Copper	TYPE:Dragonborn Subrace	SUBRACE:Copper	SOURCEPAGE:PHB
+Gold	TYPE:Dragonborn Subrace	SUBRACE:Gold	SOURCEPAGE:PHB
+Green	TYPE:Dragonborn Subrace	SUBRACE:Green	SOURCEPAGE:PHB
+Red	TYPE:Dragonborn Subrace	SUBRACE:Red	SOURCEPAGE:PHB
+Silver	TYPE:Dragonborn Subrace	SUBRACE:Silver	SOURCEPAGE:PHB
+White	TYPE:Dragonborn Subrace	SUBRACE:White	SOURCEPAGE:PHB
+
+### Block:Elven Subraces
+Drow	TYPE:Elven Subrace	KEY:Elven Lineage ~ Drow	SUBRACE:Drow	SOURCEPAGE:PHB
+High Elf	TYPE:Elven Subrace	KEY:Elven Lineage ~ High Elf	SUBRACE:High Elf	SOURCEPAGE:PHB
+Wood Elf	TYPE:Elven Subrace	KEY:Elven Lineage ~ Wood Elf	SUBRACE:Wood Elf	SOURCEPAGE:PHB
+
+### Block: Gnomish Subraces
+Forest Gnome	TYPE:Gnomish Subrace	KEY:Gnomish Lineage ~ Forest Gnome	SUBRACE:Forest Gnome	SOURCEPAGE:PHB
+Rock Gnome	TYPE:Gnomish Subrace	KEY:Gnomish Lineage ~ Rock Gnome	SUBRACE:Rock Gnome	SOURCEPAGE:PHB
+
+### Block Goliath Subrace
+Cloud Giant	TYPE:Goliath Subrace	KEY:Giant Ancestry ~ Cloud Giant	SUBRACE:Cloud Giant	SOURCEPAGE:PHB
+Fire Giant	TYPE:Goliath Subrace	KEY:Giant Ancestry ~ Fire Giant	SUBRACE:Fire Giant	SOURCEPAGE:PHB
+Frost Giant	TYPE:Goliath Subrace	KEY:Giant Ancestry ~ Frost Giant	SUBRACE:Frost Giant	SOURCEPAGE:PHB
+Hill Giant	TYPE:Goliath Subrace	KEY:Giant Ancestry ~ Hill Giant	SUBRACE:Hill Giant	SOURCEPAGE:PHB
+Stone Giant	TYPE:Goliath Subrace	KEY:Giant Ancestry ~ Stone Giant	SUBRACE:Stone Giant	SOURCEPAGE:PHB
+Storm Giant	TYPE:Goliath Subrace	KEY:Giant Ancestry ~ Storm Giant	SUBRACE:Storm Giant	SOURCEPAGE:PHB
+
+### Block Tiefling Subraces
+Abyssal	TYPE:Tiefling Subrace	KEY:Fiendish Legacy ~ Abyssal	SUBRACE:Abyssal	SOURCEPAGE:PHB
+Chtonic	TYPE:Tiefling Subrace	KEY:Fiendish Legacy ~ Chthonic	SUBRACE:Chthonic	SOURCEPAGE:PHB
+Infernal	TYPE:Tiefling Subrace	KEY:Fiendish Legacy ~ Infernal	SUBRACE:Infernal	SOURCEPAGE:PHB
+
 ###Block - Starting Equipment by Class - Autoselects based off the first class taken.																																																																	
 # Template Name				Visible	Template																																							Required Template		Apply Kit												Type							
 Starting Equipment ~ Barbarian	VISIBLE:NO	TEMPLATE:CHOOSE:Greataxe|Any Martial Melee Weapon	TEMPLATE:CHOOSE:Two Handaxes|Any simple weapon																								PRETEMPLATE:1,Barbarian	KIT:1|Starting gold ~ Barbarian	KIT:2|Explorer's Pack|four javelins		TYPE:Starting Equipment																																		
@@ -40,7 +74,7 @@ Starting Equipment ~ Rogue		VISIBLE:NO	TEMPLATE:CHOOSE:rapier|shortsword	TEMPLAT
 Starting Equipment ~ Sorcerer		VISIBLE:NO	TEMPLATE:CHOOSE:light crossbow and 20 bolts|any simple weapon	TEMPLATE:CHOOSE:component pouch|arcane focus	TEMPLATE:CHOOSE:dungeoneer's pack|explorer's pack													PRETEMPLATE:1,Sorcerer	KIT:1|Starting gold ~ Sorcerer	KIT:1|Two daggers					TYPE:Starting Equipment																																								
 Starting Equipment ~ Warlock		VISIBLE:NO	TEMPLATE:CHOOSE:light crossbow and 20 bolts|any simple weapon	TEMPLATE:CHOOSE:component pouch|arcane focus	TEMPLATE:CHOOSE:scholar's pack|dungeoneer's pack	TEMPLATE:Leather armor|any simple weapon						PRETEMPLATE:1,Warlock	KIT:1|Starting gold ~ Warlock	KIT:1|two daggers						TYPE:Starting Equipment																																													
 Starting Equipment ~ Wizard		VISIBLE:NO	TEMPLATE:CHOOSE:quarterstaff|dagger	TEMPLATE:CHOOSE:component pouch|arcane focus	TEMPLATE:CHOOSE:scholar's pack|explorer's pack																			PRETEMPLATE:1,Wizard	KIT:1|Starting gold ~ Wizard	KIT:1|spellbook						TYPE:Starting Equipment																																	
-																																																																	
+
 ###Block:																																																																	
 # Template Name				Visible	Template													Required Armor Proficiencies		Prohibited Template			Req. Weapond Prof.			Apply Kit						Type																																	
 Any Martial Melee Weapon		VISIBLE:NO	TEMPLATE:CHOOSE:TYPE=Martial Melee Weapon																																																														
