@@ -484,3 +484,136 @@ Witch Bolt						KEY:Wizard Magic Initiate Spell ~ Witch Bolt				CATEGORY:Interna
 ###Block: Skilled
 Add Skill Proficiency		KEY:Add Skill Proficiency		CATEGORY:Internal		TYPE:Skilled							MULT:YES	CHOOSE:ABILITYSELECTION|Skill|!PC[TYPE=Skill Proficiency]												ABILITY:Skill|AUTOMATIC|%LIST
 Add Tool Proficiency		KEY:Add Tool Proficiency		CATEGORY:Internal		TYPE:Skilled							MULT:YES	CHOOSE:ABILITYSELECTION|Internal|!PC[TYPE=Tool Proficiency]												ABILITY:Internal|AUTOMATIC|%LIST
+###Block: Athlete
+Strength		KEY:Athlete ~ Strength		CATEGORY:Internal		TYPE:Athlete Stats																				BONUS:STAT|STR|1
+Dexterity		KEY:Athlete ~ Dexterity		CATEGORY:Internal		TYPE:Athlete Stats																				BONUS:STAT|DEX|1
+###Block: Charger
+Strength		KEY:Charger ~ Strength		CATEGORY:Internal		TYPE:Charger Stats																				BONUS:STAT|STR|1
+Dexterity		KEY:Charger ~ Dexterity		CATEGORY:Internal		TYPE:Charger Stats																				BONUS:STAT|DEX|1
+###Block: Charger
+Strength		KEY:Charger ~ Strength		CATEGORY:Internal		TYPE:Charger Stats																				BONUS:STAT|STR|1
+Constitution		KEY:Charger ~ Constitution	CATEGORY:Internal		TYPE:Charger Stats																				BONUS:STAT|CON|1
+###Block: Dual Wielder
+Strength		KEY:Dual Wielder ~ Strength		CATEGORY:Internal		TYPE:Dual Wielder Stats																				BONUS:STAT|STR|1
+Dexterity		KEY:Dual Wielder ~ Dexterity		CATEGORY:Internal		TYPE:Dual Wielder Stats																				BONUS:STAT|DEX|1
+###Block: Elemental Adept
+Intelligence		KEY:Elemental Adept ~ Intelligence	CATEGORY:Internal		TYPE:Elemental Adept Stats																				BONUS:STAT|INT|1
+Wisdom		KEY:Elemental Adept ~ Wisdom		CATEGORY:Internal		TYPE:Elemental Adept Stats																				BONUS:STAT|WIS|1
+Charisma		KEY:Elemental Adept ~ Charisma	CATEGORY:Internal		TYPE:Elemental Adept Stats																				BONUS:STAT|CHA|1
+#Elementad Adept Element Types
+Acid			KEY:Elemental Adept ~ Acid		CATEGORY:Internal		TYPE:Elemental Adept
+Cold			KEY:Elemental Adept ~ Cold		CATEGORY:Internal		TYPE:Elemental Adept
+Fire			KEY:Elemental Adept ~ Fire		CATEGORY:Internal		TYPE:Elemental Adept
+Lightning		KEY:Elemental Adept ~ Lightning		CATEGORY:Internal		TYPE:Elemental Adept
+Thunder			KEY:Elemental Adept ~ Thunder		CATEGORY:Internal		TYPE:Elemental Adept
+###Block:Fey-Touched
+Intelligence	KEY:Fey-Touched ~ Intelligence	CATEGORY:Internal		TYPE:Fey-Touched Stats																				BONUS:STAT|INT|1
+Wisdom		KEY:Fey-Touched ~ Wisdom		CATEGORY:Internal		TYPE:Fey-Touched Stats																				BONUS:STAT|WIS|1
+Charisma		KEY:Fey-Touched ~ Charisma	CATEGORY:Internal		TYPE:Fey-Touched Stats																				BONUS:STAT|CHA|1
+#Fey-Touched Spells
+Animal Friendship					KEY:Fey-Touched ~ Animal Friendship			CATEGORY:Internal			TYPE:Fey-Touched Spell																SPELLS:Fey-Touched|TIMES=1|Animal Friendship,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Intelligence	SPELLS:Fey-Touched|TIMES=1|Animal Friendship,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Wisdom	SPELLS:Fey-Touched|TIMES=1|Animal Friendship,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Charisma
+Bane							KEY:Fey-Touched ~ Bane					CATEGORY:Internal			TYPE:Fey-Touched Spell																SPELLS:Fey-Touched|TIMES=1|Bane,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Intelligence	SPELLS:Fey-Touched|TIMES=1|Bane,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Wisdom	SPELLS:Fey-Touched|TIMES=1|Bane,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Charisma
+Bless							KEY:Fey-Touched ~ Bless					CATEGORY:Internal			TYPE:Fey-Touched Spell																SPELLS:Fey-Touched|TIMES=1|Bless,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Intelligence	SPELLS:Fey-Touched|TIMES=1|Bless,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Wisdom	SPELLS:Fey-Touched|TIMES=1|Bless,SpellDC_CHA|PREABILITY:1,CATEGORY:Internal,Fey-Touched ~ Charisma
+Charm Person					KEY:Fey-Touched ~ Charm Person				CATEGORY:Internal			TYPE:Fey-Touched Spell																SPELLS:Fey-Touched|TIMES=1|Charm Person,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Intelligence	SPELLS:Fey-Touched|TIMES=1|Charm Person,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Wisdom	SPELLS:Fey-Touched|TIMES=1|Charm Person,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Charisma
+Command					KEY:Fey-Touched ~ Command				CATEGORY:Internal			TYPE:Fey-Touched Spell																SPELLS:Fey-Touched|TIMES=1|Command,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Intelligence	SPELLS:Fey-Touched|TIMES=1|Command,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Wisdom	SPELLS:Fey-Touched|TIMES=1|Command,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Charisma
+Compelled Duel					KEY:Fey-Touched ~ Compelled Duel			CATEGORY:Internal			TYPE:Fey-Touched Spell																SPELLS:Fey-Touched|TIMES=1|Compelled Duel,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Intelligence	SPELLS:Fey-Touched|TIMES=1|Compelled Duel,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Wisdom	SPELLS:Fey-Touched|TIMES=1|Compelled Duel,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Charisma
+Comprehend Languages				KEY:Fey-Touched ~ Comprehend Languages		CATEGORY:Internal			TYPE:Fey-Touched Spell																SPELLS:Fey-Touched|TIMES=1|Comprehend Languages,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Intelligence	SPELLS:Fey-Touched|TIMES=1|Comprehend Languages,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Wisdom	SPELLS:Fey-Touched|TIMES=1|Comprehend Languages,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Charisma
+Detect Evil and Good				KEY:Fey-Touched ~ Detect Evil and Good		CATEGORY:Internal			TYPE:Fey-Touched Spell																SPELLS:Fey-Touched|TIMES=1|Detect Evil and Good,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Intelligence	SPELLS:Fey-Touched|TIMES=1|Detect Evil and Good,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Wisdom	SPELLS:Fey-Touched|TIMES=1|Detect Evil and Good,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Charisma
+Detect Magic					KEY:Fey-Touched ~ Detect Magic				CATEGORY:Internal			TYPE:Fey-Touched Spell																SPELLS:Fey-Touched|TIMES=1|Detect Magic,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Intelligence	SPELLS:Fey-Touched|TIMES=1|Detect Magic,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Wisdom	SPELLS:Fey-Touched|TIMES=1|Detect Magic,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Charisma
+Detect Poison and Disease			KEY:Fey-Touched ~ Detect Poison and Disease		CATEGORY:Internal			TYPE:Fey-Touched Spell																SPELLS:Fey-Touched|TIMES=1|Detect Poison and Disease,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Intelligence	SPELLS:Fey-Touched|TIMES=1|Detect Poison and Disease,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Wisdom	SPELLS:Fey-Touched|TIMES=1|Detect Poison and Disease,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Charisma
+Dissonant Whispers				KEY:Fey-Touched ~ Dissonant Whispers			CATEGORY:Internal			TYPE:Fey-Touched Spell																SPELLS:Fey-Touched|TIMES=1|Dissonant Whispers,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Intelligence	SPELLS:Fey-Touched|TIMES=1|Dissonant Whispers,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Wisdom	SPELLS:Fey-Touched|TIMES=1|Dissonant Whispers,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Charisma
+Heroism					KEY:Fey-Touched ~ Heroism				CATEGORY:Internal			TYPE:Fey-Touched Spell																SPELLS:Fey-Touched|TIMES=1|Heroism,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Intelligence	SPELLS:Fey-Touched|TIMES=1|Heroism,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Wisdom	SPELLS:Fey-Touched|TIMES=1|Heroism,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Charisma
+Hex							KEY:Fey-Touched ~ Hex					CATEGORY:Internal			TYPE:Fey-Touched Spell																SPELLS:Fey-Touched|TIMES=1|Hex,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Intelligence	SPELLS:Fey-Touched|TIMES=1|Hex,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Wisdom	SPELLS:Fey-Touched|TIMES=1|Hex,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Charisma
+Hunter's MArk				KEY:Fey-Touched ~ Hunter's Mark			CATEGORY:Internal			TYPE:Fey-Touched Spell																SPELLS:Fey-Touched|TIMES=1|Hunter's Mark,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Intelligence	SPELLS:Fey-Touched|TIMES=1|Hunter's Mark,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Wisdom	SPELLS:Fey-Touched|TIMES=1|Hunter's Mark,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Charisma
+Identify						KEY:Fey-Touched ~ Identify				CATEGORY:Internal			TYPE:Fey-Touched Spell																SPELLS:Fey-Touched|TIMES=1|Identify,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Intelligence	SPELLS:Fey-Touched|TIMES=1|Identify,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Wisdom	SPELLS:Fey-Touched|TIMES=1|Identify,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Charisma
+Sleep						KEY:Fey-Touched ~ Sleep					CATEGORY:Internal			TYPE:Fey-Touched Spell																SPELLS:Fey-Touched|TIMES=1|Sleep,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Intelligence	SPELLS:Fey-Touched|TIMES=1|Sleep,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Wisdom	SPELLS:Fey-Touched|TIMES=1|Sleep,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Charisma
+Speak with Animals				KEY:Fey-Touched ~ Speak with Animals		CATEGORY:Internal			TYPE:Fey-Touched Spell																SPELLS:Fey-Touched|TIMES=1|Speak with Animals,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Intelligence	SPELLS:Fey-Touched|TIMES=1|Speak with Animals,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Wisdom	SPELLS:Fey-Touched|TIMES=1|Speak with Animals,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Charisma
+Tasha's Hideous Laughter			KEY:Fey-Touched ~ Tasha's Hideous Laughter		CATEGORY:Internal			TYPE:Fey-Touched Spell																SPELLS:Fey-Touched|TIMES=1|Tasha's Hideous Laughter,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Intelligence	SPELLS:Fey-Touched|TIMES=1|Tasha's Hideous Laughter,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Wisdom	SPELLS:Fey-Touched|TIMES=1|Tasha's Hideous Laughter,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Fey-Touched ~ Charisma
+###Block: Heavily Armored
+Strength		KEY:Heavily Armored ~ Strength		CATEGORY:Internal		TYPE:Heavily Armored Stats																				BONUS:STAT|STR|1
+Constitution	KEY:Heavily Armored ~ Constitution	CATEGORY:Internal		TYPE:Heavily Armored Stats																				BONUS:STAT|CON|1
+###Block: Heavy Armor Master
+Strength		KEY:Heavy Armor Master ~ Strength		CATEGORY:Internal		TYPE:Heavy Armor Master Stats																				BONUS:STAT|STR|1
+Constitution	KEY:Heavy Armor Master ~ Constitution	CATEGORY:Internal		TYPE:Heavy Armor Master Stats																				BONUS:STAT|CON|1
+###Block: Inspiring Leader
+Wisdom		KEY:Inspiring Leader ~ Wisdom		CATEGORY:Internal		TYPE:Inspiring Leader Stats																				BONUS:STAT|WIS|1
+Charisma		KEY:Inspiring Leader ~ Charisma	CATEGORY:Internal		TYPE:Inspiring Leader Stats																				BONUS:STAT|CHA|1
+###Block: Keen Mind
+Arcana Skill Proficiency	KEY:Keen Mind ~ Arcana Skill Proficiency	CATEGORY:Internal		TYPE:Keen Mind Skills	!PRECSKILL:1,Arcana																			ABILITY:Skill|AUTOMATIC|Arcana	
+History Skill Proficiency	KEY:Keen Mind ~ History Skill Proficiency	CATEGORY:Internal		TYPE:Keen Mind Skills	!PRECSKILL:1,History																			ABILITY:Skill|AUTOMATIC|History
+Investigation Skill Proficiency	KEY:Keen Mind ~ Investigation Skill Proficiency	CATEGORY:Internal		TYPE:Keen Mind Skills	!PRECSKILL:1,Investigation																		ABILITY:Skill|AUTOMATIC|Investigation
+Nature Skill Proficiency	KEY:Keen Mind ~ Nature Skill Proficiency	CATEGORY:Internal		TYPE:Keen Mind Skills	!PRECSKILL:1,Nature																			ABILITY:Skill|AUTOMATIC|Nature
+Religion Skill Proficiency	KEY:Keen Mind ~ Religion Skill Proficiency	CATEGORY:Internal		TYPE:Keen Mind Skills	!PRECSKILL:1,Religion																			ABILITY:Skill|AUTOMATIC|Religion
+Arcana Expertise		KEY:Keen Mind ~ Arcana Expertise		CATEGORY:Internal		TYPE:Keen Mind Skills	PREABILITY:1,CATEGORY=Skill|Arcana																			ABILITY:Special Ability|AUTOMATIC|Expertise ~ Arcana
+History Expertise		KEY:Keen Mind ~ History Expertise		CATEGORY:Internal		TYPE:Keen Mind Skills	PREABILITY:1,CATEGORY=Skill|History																			ABILITY:Special Ability|AUTOMATIC|Expertise ~ History
+Investigation Expertise	KEY:Keen Mind ~ Investigation Expertise	CATEGORY:Internal		TYPE:Keen Mind Skills	PREABILITY:1,CATEGORY=Skill|Investigation																			ABILITY:Special Ability|AUTOMATIC|Expertise ~ Investigation
+Nature Expertise		KEY:Keen Mind ~ Nature Expertise		CATEGORY:Internal		TYPE:Keen Mind Skills	PREABILITY:1,CATEGORY=Skill|Nature																			ABILITY:Special Ability|AUTOMATIC|Expertise ~ Nature
+Religion Expertise		KEY:Keen Mind ~ Religion Expertise		CATEGORY:Internal		TYPE:Keen Mind Skills	PREABILITY:1,CATEGORY=Skill|Religion																			ABILITY:Special Ability|AUTOMATIC|Expertise ~ Religion
+###Block: Lightly Armored
+Strength		KEY:Lightly Armored ~ Strength		CATEGORY:Internal		TYPE:Lightly Armored Stats																				BONUS:STAT|STR|1
+Dexterity		KEY:Lightly Armored ~ Dexterity		CATEGORY:Internal		TYPE:Lightly Armored Stats																				BONUS:STAT|DEX|1
+###Block: Mage Slayer
+Strength		KEY:Mage Slayer ~ Strength		CATEGORY:Internal		TYPE:Mage Slayer Stats																				BONUS:STAT|STR|1
+Dexterity		KEY:Mage Slayer ~ Dexterity		CATEGORY:Internal		TYPE:Mage Slayer Stats																				BONUS:STAT|DEX|1
+###Block: Martial Weapon Training
+Strength		KEY:Martial Weapon Training ~ Strength		CATEGORY:Internal		TYPE:Martial Weapon Training Stats																				BONUS:STAT|STR|1
+Dexterity		KEY:Martial Weapon Training ~ Dexterity		CATEGORY:Internal		TYPE:Martial Weapon Training Stats																				BONUS:STAT|DEX|1
+###Block: Medium Armor Master
+Strength		KEY:Medium Armor Master ~ Strength		CATEGORY:Internal		TYPE:Medium Armor Master Stats																				BONUS:STAT|STR|1
+Dexterity		KEY:Medium Armor Master ~ Dexterity		CATEGORY:Internal		TYPE:Medium Armor Master Stats																				B
+###Block: Moderately Armored
+Strength	KEY:Moderately Armored ~ Strength		CATEGORY:Internal		TYPE:Moderately Armored Stats																				BONUS:STAT|STR|1
+Dexterity	KEY:Moderately Armored ~ Dexterity		CATEGORY:Internal		TYPE:Moderately Armored Stats																				BONUS:STAT|DEX|1
+###Block: Mounted Combatant
+Strength		KEY:Mounted Combatant ~ Strength		CATEGORY:Internal		TYPE:Mounted Combatant Stats																				BONUS:STAT|STR|1
+Dexterity		KEY:Mounted Combatant ~ Dexterity		CATEGORY:Internal		TYPE:Mounted Combatant Stats																				BONUS:STAT|DEX|1
+Wisdom		KEY:Mounted Combatant ~ Wisdom		CATEGORY:Internal		TYPE:Mounted Combatant Stats																				BONUS:STAT|WIS|1
+###Block: Observant
+Intelligence	KEY:Observant ~ Intelligence	CATEGORY:Internal		TYPE:Observant Stats																				BONUS:STAT|INT|1
+Wisdom		KEY:Observant ~ Wisdom		CATEGORY:Internal		TYPE:Observant Stats																				BONUS:STAT|WIS|1
+#
+Insight Skill Proficiency	KEY:Observant ~ Insight Skill Proficiency	CATEGORY:Internal		TYPE:Observant Skills	!PRECSKILL:1,Insight																			ABILITY:Skill|AUTOMATIC|Insight	
+Investigation Skill Proficiency	KEY:Observant ~ Investigation Skill Proficiency	CATEGORY:Internal		TYPE:Observant Skills	!PRECSKILL:1,Investigation																		ABILITY:Skill|AUTOMATIC|Investigation
+Perception Skill Proficiency	KEY:Observant ~ Perception Skill Proficiency	CATEGORY:Internal		TYPE:Observant Skills	!PRECSKILL:1,Perception																		ABILITY:Skill|AUTOMATIC|Perception
+Insight Expertise		KEY:Observant ~ Insight Expertise		CATEGORY:Internal		TYPE:Observant Skills	PREABILITY:1,CATEGORY=Skill|Insight																			ABILITY:Special Ability|AUTOMATIC|Expertise ~ Insight
+Investigation Expertise	KEY:Observant ~ Investigation Expertise	CATEGORY:Internal		TYPE:Observant Skills	PREABILITY:1,CATEGORY=Skill|Investigation																			ABILITY:Special Ability|AUTOMATIC|Expertise ~ Investigation
+Perception Expertise		KEY:Observant ~ Perception Expertise		CATEGORY:Internal		TYPE:Observant Skills	PREABILITY:1,CATEGORY=Skill|Perception																			ABILITY:Special Ability|AUTOMATIC|Expertise ~ Perception
+###Block: Piercer
+Strength		KEY:Piercer ~ Strength		CATEGORY:Internal		TYPE:Piercer Stats																				BONUS:STAT|STR|1
+Dexterity		KEY:Piercer ~ Dexterity		CATEGORY:Internal		TYPE:Piercer Stats																				BONUS:STAT|DEX|1
+###Block: Poisoner
+Dexterity		KEY:Poisoner ~ Dexterity		CATEGORY:Internal		TYPE:Poisoner Stats																				BONUS:STAT|DEX|1
+Intelligence	KEY:Poisoner ~ Intelligence	CATEGORY:Internal		TYPE:Poisoner Stats																				BONUS:STAT|INT|1
+###Block: Polearm Master
+Strength		KEY:Polearm Master ~ Strength		CATEGORY:Internal		TYPE:Polearm Master Stats																				BONUS:STAT|STR|1
+Dexterity		KEY:Polearm Master ~ Dexterity		CATEGORY:Internal		TYPE:Polearm Master Stats																				BONUS:STAT|DEX|1
+###Block: Resilient
+Strength		KEY:Resilient ~ Strength		CATEGORY:Internal		TYPE:Resilient Stats	!PREABILITY:1,CATEGORY=Internal,Saving Throw ~ Str																		ABILITY:Inernal|AUTOMATIC|Saving Throw ~ Str	BONUS:STAT|STR|1
+Dexterity		KEY:Resilient ~ Dexterity		CATEGORY:Internal		TYPE:Resilient Stats	!PREABILITY:1,CATEGORY=Internal,Saving Throw ~ Dex																		ABILITY:Inernal|AUTOMATIC|Saving Throw ~ Dex	BONUS:STAT|DEX|1
+Constitution	KEY:Resilient ~ Constitution	CATEGORY:Internal		TYPE:Resilient Stats	!PREABILITY:1,CATEGORY=Internal,Saving Throw ~ Con																			ABILITY:Inernal|AUTOMATIC|Saving Throw ~ Con	BONUS:STAT|CON|1
+Intelligence	KEY:Resilient ~ Intelligence	CATEGORY:Internal		TYPE:Resilient Stats	!PREABILITY:1,CATEGORY=Internal,Saving Throw ~ Int																			ABILITY:Inernal|AUTOMATIC|Saving Throw ~ Int	BONUS:STAT|INT|1
+Wisdom		KEY:Resilient ~ Wisdom		CATEGORY:Internal		TYPE:Resilient Stats	!PREABILITY:1,CATEGORY=Internal,Saving Throw ~ Wis																			ABILITY:Inernal|AUTOMATIC|Saving Throw ~ Wis	BONUS:STAT|WIS|1
+Charisma		KEY:Resilient ~ Charisma		CATEGORY:Internal		TYPE:Resilient Stats	!PREABILITY:1,CATEGORY=Internal,Saving Throw ~ Cha																			ABILITY:Inernal|AUTOMATIC|Saving Throw ~ Cha	BONUS:STAT|CHA|1
+###Block: Ritual Caster
+Intelligence	KEY:Ritual Caster ~ Intelligence	CATEGORY:Internal		TYPE:Ritual Caster Stats																				BONUS:STAT|INT|1
+Wisdom	KEY:Ritual Caster ~ Wisdom		CATEGORY:Internal		TYPE:Ritual Caster Stats																				BONUS:STAT|WIS|1
+Charisma	KEY:Ritual Caster ~ Charisma	CATEGORY:Internal		TYPE:Ritual Caster Stats																				BONUS:STAT|CHA|1
+#
+Alarm	KEY:Ritual Caster ~ Alarm				CATEGORY:Internal			TYPE:Ritual Caster Spell																SPELLS:Ritual Caster|TIMES=ATWILL|Alarm,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Intelligence	SPELLS:Ritual Caster|TIMES=ATWILL|Alarm,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Wisdom	SPELLS:Ritual Caster|TIMES=ATWILL|Alarm,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Charisma
+Comprehend Languages	KEY:Ritual Caster ~ Comprehend Languages		CATEGORY:Internal			TYPE:Ritual Caster Spell																SPELLS:Ritual Caster|TIMES=ATWILL|Comprehend Languages,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Intelligence	SPELLS:Ritual Caster|TIMES=ATWILL|Comprehend Languages,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Wisdom	SPELLS:Ritual Caster|TIMES=ATWILL|Comprehend Languages,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Charisma
+Detect Magic	KEY:Ritual Caster ~ Detect Magic				CATEGORY:Internal			TYPE:Ritual Caster Spell																SPELLS:Ritual Caster|TIMES=ATWILL|Detect Magic,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Intelligence	SPELLS:Ritual Caster|TIMES=ATWILL|Detect Magic,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Wisdom	SPELLS:Ritual Caster|TIMES=ATWILL|Detect Magic,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Charisma
+Find Familiar	KEY:Ritual Caster ~ Find Familiar				CATEGORY:Internal			TYPE:Ritual Caster Spell																SPELLS:Ritual Caster|TIMES=ATWILL|Find Familiar,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Intelligence	SPELLS:Ritual Caster|TIMES=ATWILL|Find Familiar,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Wisdom	SPELLS:Ritual Caster|TIMES=ATWILL|Find Familiar,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Charisma
+Identify	KEY:Ritual Caster ~ Identify				CATEGORY:Internal			TYPE:Ritual Caster Spell																SPELLS:Ritual Caster|TIMES=ATWILL|Identify,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Intelligence	SPELLS:Ritual Caster|TIMES=ATWILL|Identify,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Wisdom	SPELLS:Ritual Caster|TIMES=ATWILL|Identify,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Charisma
+Illusory Script	KEY:Ritual Caster ~ Illusory Script			CATEGORY:Internal			TYPE:Ritual Caster Spell																SPELLS:Ritual Caster|TIMES=ATWILL|Illusory Script,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Intelligence	SPELLS:Ritual Caster|TIMES=ATWILL|Illusory Script,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Wisdom	SPELLS:Ritual Caster|TIMES=ATWILL|Illusory Script,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Charisma
+Purify Food and Drink	KEY:Ritual Caster ~ Purify Food and Drink		CATEGORY:Internal			TYPE:Ritual Caster Spell																SPELLS:Ritual Caster|TIMES=ATWILL|Purify Food and Drink,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Intelligence	SPELLS:Ritual Caster|TIMES=ATWILL|Purify Food and Drink,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Wisdom	SPELLS:Ritual Caster|TIMES=ATWILL|Purify Food and Drink,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Charisma
+Speak with Animals	KEY:Ritual Caster ~ Speak with Animals		CATEGORY:Internal			TYPE:Ritual Caster Spell																SPELLS:Ritual Caster|TIMES=ATWILL|Speak with Animals,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Intelligence	SPELLS:Ritual Caster|TIMES=ATWILL|Speak with Animals,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Wisdom	SPELLS:Ritual Caster|TIMES=ATWILL|Speak with Animals,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Charisma
+Tenser's Floating Disk	KEY:Ritual Caster ~ Tenser's Floating Disk		CATEGORY:Internal			TYPE:Ritual Caster Spell																SPELLS:Ritual Caster|TIMES=ATWILL|Tenser's Floating Disk,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Intelligence	SPELLS:Ritual Caster|TIMES=ATWILL|Tenser's Floating Disk,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Wisdom	SPELLS:Ritual Caster|TIMES=ATWILL|Tenser's Floating Disk,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Charisma
+Unseen Servant	KEY:Ritual Caster ~ Unseen Servant			CATEGORY:Internal			TYPE:Ritual Caster Spell																SPELLS:Ritual Caster|TIMES=ATWILL|Unseen Servant,SpellDC_INT|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Intelligence	SPELLS:Ritual Caster|TIMES=ATWILL|Unseen Servant,SpellDC_WIS|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Wisdom	SPELLS:Ritual Caster|TIMES=ATWILL|Unseen Servant,SpellDC_CHA|PREABILITY:1,CATEGORY=Internal,Ritual Caster ~ Charisma
+###Block: Sentinel
+Strength		KEY:Sentinel ~ Strength		CATEGORY:Internal		TYPE:Sentinel Stats																				BONUS:STAT|STR|1
+Dexterity		KEY:Sentinel ~ Dexterity		CATEGORY:Internal		TYPE:Sentinel Stats																				BONUS:STAT|DEX|1
+###Block: Shadow-Touched
+Intelligence	KEY:Shadow-Touched ~ Intelligence	CATEGORY:Internal		TYPE:Shadow-Touched Stats																				BONUS:STAT|INT|1
+Wisdom		KEY:Shadow-Touched ~ Wisdom		CATEGORY:Internal		TYPE:Shadow-Touched Stats																				BONUS:STAT|WIS|1
+Charisma		KEY:Shadow-Touched ~ Charisma	CATEGORY:Internal		TYPE:Shadow-Touched Stats																				BONUS:STAT|CHA|1
+#Shadow-Touched Spells
