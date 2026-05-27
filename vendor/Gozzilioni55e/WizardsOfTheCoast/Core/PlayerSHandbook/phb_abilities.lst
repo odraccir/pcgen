@@ -632,4 +632,6 @@ Constitution	KEY:Skill Expert ~ Constitution	CATEGORY:Internal		TYPE:Skill Exper
 Intelligence	KEY:Skill Expert ~ Intelligence	CATEGORY:Internal		TYPE:Skill Expert  Stats																				BONUS:STAT|INT|1
 Wisdom		KEY:Skill Expert ~ Wisdom		CATEGORY:Internal		TYPE:Skill Expert Stats																				BONUS:STAT|WIS|1
 Charisma		KEY:Skill Expert ~ Charisma	CATEGORY:Internal		TYPE:Skill Expert Stats																				BONUS:STAT|CHA|1
-#
+###Block: Slasher
+Strength		KEY:Slasher ~ Strength		CATEGORY:Internal		TYPE:Sentinel Stats																				BONUS:STAT|STR|1
+Dexterity		KEY:Slasher ~ Dexterity		CATEGORY:Internal		TYPE:Sentinel Stats																				BONUS:STAT|DEX|1
