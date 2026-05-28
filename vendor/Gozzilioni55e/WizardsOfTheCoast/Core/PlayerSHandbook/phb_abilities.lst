@@ -635,3 +635,61 @@ Charisma		KEY:Skill Expert ~ Charisma	CATEGORY:Internal		TYPE:Skill Expert Stats
 ###Block: Slasher
 Strength		KEY:Slasher ~ Strength		CATEGORY:Internal		TYPE:Sentinel Stats																				BONUS:STAT|STR|1
 Dexterity		KEY:Slasher ~ Dexterity		CATEGORY:Internal		TYPE:Sentinel Stats																				BONUS:STAT|DEX|1
+###Block: Speedy
+Dexterity		KEY:Speedy ~ Dexterity		CATEGORY:Internal		TYPE:Speedy Stats																				BONUS:STAT|DEX|1
+Constitution	KEY:Speedy ~ Constitution	CATEGORY:Internal		TYPE:Speedy Stats																				BONUS:STAT|CON|1
+###Block: Spell Sniper
+Intelligence	KEY:Spell Sniper ~ Intelligence	CATEGORY:Internal		TYPE:Spell Sniper Stats																				BONUS:STAT|INT|1
+Wisdom		KEY:Spell Sniper ~ Wisdom		CATEGORY:Internal		TYPE:Spell Sniper Stats																				BONUS:STAT|WIS|1
+Charisma		KEY:Spell Sniper ~ Charisma	CATEGORY:Internal		TYPE:Spell Sniper Stats																				BONUS:STAT|CHA|1
+###Block: Telekinetic
+Intelligence	KEY:Telekinetic ~ Intelligence	CATEGORY:Internal		TYPE:Telekinetic Stats																				BONUS:STAT|INT|1
+Wisdom		KEY:Telekinetic ~ Wisdom		CATEGORY:Internal		TYPE:Telekinetic Stats																				BONUS:STAT|WIS|1
+Charisma		KEY:Telekinetic ~ Charisma	CATEGORY:Internal		TYPE:Telekinetic Stats																				BONUS:STAT|CHA|1
+###Block: Telepathic
+Intelligence	KEY:Telepathic ~ Intelligence	CATEGORY:Internal		TYPE:Telepathic Stats																				BONUS:STAT|INT|1
+Wisdom		KEY:Telepathic ~ Wisdom		CATEGORY:Internal		TYPE:Telepathic Stats																				BONUS:STAT|WIS|1
+Charisma		KEY:Telepathic ~ Charisma	CATEGORY:Internal		TYPE:Telepathic Stats																				BONUS:STAT|CHA|1
+###Block: War Caster
+Intelligence	KEY:War Caster ~ Intelligence	CATEGORY:Internal		TYPE:War Caster Stats																				BONUS:STAT|INT|1
+Wisdom		KEY:War Caster ~ Wisdom		CATEGORY:Internal		TYPE:War Caster Stats																				BONUS:STAT|WIS|1
+Charisma		KEY:War Caster ~ Charisma	CATEGORY:Internal		TYPE:War Caster Stats																				BONUS:STAT|CHA|1
+#
+Club	KEY:Weapon Mastery ~ Club	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryClub|0	BONUS:VAR|UseWeaponMasteryClub|1	PREWEAPONPROF:1,Club
+Dagger	KEY:Weapon Mastery ~ Dagger	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryDagger|0	BONUS:VAR|UseWeaponMasteryDagger|1	PREWEAPONPROF:1,Dagger
+Greatclub	KEY:Weapon Mastery ~ Greatclub	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryGreatclub|0	BONUS:VAR|UseWeaponMasteryGreatclub|1	PREWEAPONPROF:1,Great Club
+Handaxe	KEY:Weapon Mastery ~ Handaxe	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryHandaxe|0	BONUS:VAR|UseWeaponMasteryHandaxe|1	PREWEAPONPROF:1,Hand Axe
+Javelin	KEY:Weapon Mastery ~ Javelin	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryJavelin|0	BONUS:VAR|UseWeaponMasteryJavelin|1	PREWEAPONPROF:1,Javelin
+Light Hammer	KEY:Weapon Mastery ~ Light Hammer	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryLightHammer|0	BONUS:VAR|UseWeaponMasteryLightHammer|1	PREWEAPONPROF:1,Light Hammer
+Mace	KEY:Weapon Mastery ~ Mace	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryMace|0	BONUS:VAR|UseWeaponMasteryMace|1	PREWEAPONPROF:1,Mace
+Quarterstaff	KEY:Weapon Mastery ~ Quarterstaff	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryQuarterstaff|0	BONUS:VAR|UseWeaponMasteryQuarterstaff|1	PREWEAPONPROF:1,Quarterstaff
+Sickle	KEY:Weapon Mastery ~ Sickle	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasterySickle|0	BONUS:VAR|UseWeaponMasterySickle|1	PREWEAPONPROF:1,Sickle
+Spear	KEY:Weapon Mastery ~ Spear	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasterySpear|0	BONUS:VAR|UseWeaponMasterySpear|1	PREWEAPONPROF:1,Spear
+Dart	KEY:Weapon Mastery ~ Dart	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryDart|0	BONUS:VAR|UseWeaponMasteryDart|1	PREWEAPONPROF:1,Dart
+Light Crossbow	KEY:Weapon Mastery ~ Light Crossbow	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryLightCrossbow|0	BONUS:VAR|UseWeaponMasteryLightCrossbow|1	PREWEAPONPROF:1,Light Crossbow
+Shortbow	KEY:Weapon Mastery ~ Shortbow	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryShortbow|0	BONUS:VAR|UseWeaponMasteryShortbow|1	PREWEAPONPROF:1,Shortbow
+Sling	KEY:Weapon Mastery ~ Sling	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasterySling|0	BONUS:VAR|UseWeaponMasterySling|1	PREWEAPONPROF:1,Sling
+Battleaxe	KEY:Weapon Mastery ~ Battleaxe	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryBattleaxe|0	BONUS:VAR|UseWeaponMasteryBattleaxe|1	PREWEAPONPROF:1,Battle Axe
+Flail	KEY:Weapon Mastery ~ Flail	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryFlail|0	BONUS:VAR|UseWeaponMasteryFlail|1
+Glaive	KEY:Weapon Mastery ~ Glaive	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryGlaive|0	BONUS:VAR|UseWeaponMasteryGlaive|1
+Greataxe	KEY:Weapon Mastery ~ Greataxe	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryGreataxe|0	BONUS:VAR|UseWeaponMasteryGreataxe|1
+Greatsword	KEY:Weapon Mastery ~ Greatsword	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryGreatsword|0	BONUS:VAR|UseWeaponMasteryGreatsword|1
+Halberd	KEY:Weapon Mastery ~ Halberd	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryHalberd|0	BONUS:VAR|UseWeaponMasteryHalberd|1
+Lance	KEY:Weapon Mastery ~ Lance	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryLance|0	BONUS:VAR|UseWeaponMasteryLance|1
+Longsword	KEY:Weapon Mastery ~ Longsword	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryLongsword|0	BONUS:VAR|UseWeaponMasteryLongsword|1
+Maul	KEY:Weapon Mastery ~ Maul	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryMaul|0	BONUS:VAR|UseWeaponMasteryMaul|1
+Morningstar	KEY:Weapon Mastery ~ Morningstar	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryMorningstar|0	BONUS:VAR|UseWeaponMasteryMorningstar|1
+Pike	KEY:Weapon Mastery ~ Pike	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryPike|0	BONUS:VAR|UseWeaponMasteryPike|1
+Rapier	KEY:Weapon Mastery ~ Rapier	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryRapier|0	BONUS:VAR|UseWeaponMasteryRapier|1
+Scimitar	KEY:Weapon Mastery ~ Scimitar	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryScimitar|0	BONUS:VAR|UseWeaponMasteryScimitar|1
+Shortsword	KEY:Weapon Mastery ~ Shortsword	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryShortsword|0	BONUS:VAR|UseWeaponMasteryShortsword|1
+Trident	KEY:Weapon Mastery ~ Trident	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryTrident|0	BONUS:VAR|UseWeaponMasteryTrident|1
+Warhammer	KEY:Weapon Mastery ~ Warhammer	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryWarhammer|0	BONUS:VAR|UseWeaponMasteryWarhammer|1
+War Pick	KEY:Weapon Mastery ~ War Pick	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryWarPick|0	BONUS:VAR|UseWeaponMasteryWarPick|1
+Whip	KEY:Weapon Mastery ~ Whip	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryWhip|0	BONUS:VAR|UseWeaponMasteryWhip|1
+Blowgun	KEY:Weapon Mastery ~ Blowgun	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryBlowgun|0	BONUS:VAR|UseWeaponMasteryBlowgun|1
+Hand Crossbow	KEY:Weapon Mastery ~ Hand Crossbow	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryHandCrossbow|0	BONUS:VAR|UseWeaponMasteryHandCrossbow|1
+Heavy Crossbow	KEY:Weapon Mastery ~ Heavy Crossbow	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryHeavyCrossbow|0	BONUS:VAR|UseWeaponMasteryHeavyCrossbow|1
+Longbow	KEY:Weapon Mastery ~ Longbow	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryLongbow|0	BONUS:VAR|UseWeaponMasteryLongbow|1
+Musket	KEY:Weapon Mastery ~ Musket	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryMusket|0	BONUS:VAR|UseWeaponMasteryMusket|1
+Pistol	KEY:Weapon Mastery ~ Pistol	CATEGORY:Internal	TYPE:Weapon Mastery Weapon	DEFINE:UseWeaponMasteryPistol|0	BONUS:VAR|UseWeaponMasteryPistol|1
