@@ -6,3 +6,5 @@ Coin (Gold)		TYPE:Coin.Money		COST:1	WT:0.02
 Coin (Electrum)		TYPE:Coin.Money		COST:0.5	WT:0.02
 Coin (Silver)		TYPE:Coin.Money		COST:0.1	WT:0.02
 Coin (Copper)		TYPE:Coin.Money			COST:0.01	WT:0.02
+
+
