@@ -170,3 +170,6 @@ CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_CON|0		BONUS:VAR|SpellDC_CON|CON+8+
 CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_CHA|0		BONUS:VAR|SpellDC_CHA|CHA+8+Proficiency_Bonus|TYPE=Base
 CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_WIS|0		BONUS:VAR|SpellDC_WIS|WIS+8+Proficiency_Bonus|TYPE=Base
 CATEGORY=Internal|Default.MOD	DEFINE:SpellDC_INT|0		BONUS:VAR|SpellDC_INT|INT+8+Proficiency_Bonus|TYPE=Base
+
+#Block: Fighting Style
+CATEGORY=Internal|Default.MOD	DEFINE:FightingStyleLVL|0
