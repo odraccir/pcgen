@@ -30,9 +30,9 @@ DATACONTROL:0phb_datacontrols.lst
 SAVE:0phb_saves.lst
 STAT:0phb_stats.lst
 
-ABILITY:phb_abilities.lst
 ABILITY:phb_abilities_class.lst
 ABILITY:phb_abilities_races.lst
+ABILITY:phb_abilities.lst
 ABILITYCATEGORY:phb_abilitycategories.lst
 BIOSET:phb_biosettings.lst
 CLASS:phb_classes.lst
@@ -41,6 +41,7 @@ DOMAIN:phb_domains.lst
 EQUIPMOD:phb_eqmods.lst
 EQUIPMENT:phb_equip_arms_and_armor.lst
 EQUIPMENT:phb_equipment.lst
+ABILITY:phb_feats.lst
 KIT:phb_kits.lst
 LANGUAGE:phb_languages.lst
 ARMORPROF:phb_profs_armor.lst
@@ -49,7 +50,5 @@ WEAPONPROF:phb_profs_weapon.lst
 RACE:phb_races.lst
 SKILL:phb_skills.lst
 TEMPLATE:phb_templates.lst
-
-
 
 INFOTEXT:Supports 6.4.1
