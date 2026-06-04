@@ -1,5 +1,15 @@
 SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
 #																										
 # Equipment Name	Output Name	Type	Cost	Weight	Define	Requires Modification?	Source Page	Special Property																		
-Quiver		TYPE:Goods.Container	COST:0	WT:1	SOURCEPAGE:H	CONTAINS:UNLIM|Total=20|Arrow=20|Bolt=20
+# Quiver		TYPE:Goods.Container	COST:0	WT:1	SOURCEPAGE:H	CONTAINS:UNLIM|Total=20|Arrow=20|Bolt=20
+###Block: Food									
+Ale (Gallon)		TYPE:Goods.Liquid.Food	COST:0.2	WT:8	SOURCEPAGE:H				
+Ale (Mug)		TYPE:Goods.Food	COST:0.04	WT:1	SOURCEPAGE:H				
+Bread (Loaf)		TYPE:Goods.Food.Resizable.Consumable	COST:0.02	WT:0.5	SOURCEPAGE:H				
+Cheese (Hunk)		TYPE:Goods.Food.Resizable.Consumable	COST:0.1	WT:0.5	SOURCEPAGE:H				
+Meat (Chunk)		TYPE:Goods.Food.Consumable	COST:0.3	WT:0.5	SOURCEPAGE:H				
+Wine (Common/Pitcher)		TYPE:Goods.Food	COST:0.2	WT:6	SOURCEPAGE:H				
+Wine (Fine/Bottle)		TYPE:Goods.Food.Consumable	COST:10	WT:1.5	SOURCEPAGE:H				
+Water (Pint)		TYPE:Goods.Liquid.Food.Resizable	COST:0	WT:1.00	SOURCEPAGE:H
+
 Scabbard		TYPE:Goods.Container	COST:0.1	WT:1	SOURCEPAGE:H	CONTAINS:UNLIM|Total=1|Weapon=1

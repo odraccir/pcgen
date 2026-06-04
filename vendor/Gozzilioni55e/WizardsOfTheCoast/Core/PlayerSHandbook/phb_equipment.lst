@@ -1,7 +1,7 @@
 SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-08																																	
 
 # Equipment Name	Required Armor Proficiency		Required Shield Proficiency	Type							Cost		Weight	Maximum DEX Bonus	Ability																									Combat bonus			Add to base move							Modify VAR			Quality and value
-Coin (Platinum)		TYPE:Coin.Money		COST:10	WT:0.02
+Coin (Platinum)		TYPE:Coin.Money		COST:10	WT:0.02	SOURCEPAGE:PHB
 Coin (Gold)		TYPE:Coin.Money		COST:1	WT:0.02
 Coin (Electrum)		TYPE:Coin.Money		COST:0.5	WT:0.02
 Coin (Silver)		TYPE:Coin.Money		COST:0.1	WT:0.02
@@ -26,3 +26,148 @@ Smith's Tools	TYPE:Tool.Artisan's Tools	COST:20	WT:8
 Tinker's Tools	TYPE:Tool.Artisan's Tools	COST:50	WT:10
 Weaver's Tools	TYPE:Tool.Artisan's Tools	COST:1	WT:5
 Woodcarver's Tools	TYPE:Tool.Artisan's Tools	COST:1	WT:5
+
+###Block: Tools - Other
+Disguise Kit	TYPE:Tool	COST:25	WT:3
+Forgery Kit	TYPE:Tool	COST:15	WT:5
+Gaming Set (Dice)	TYPE:Tool.Gaming Sets	COST:0.1	WT:0
+Gaming Set (Dragonchess)	TYPE:Tool.Gaming Sets	COST:1	WT:0
+Gaming Set (Playing Cards)	TYPE:Tool.Gaming Sets	COST:0.5	WT:0
+Gaming Set (Three-Dragon Ante)	TYPE:Tool.Gaming Sets	COST:1	WT:0
+Herbalism Kit	TYPE:Tool	COST:5	WT:3
+Musical Instrument (Bagpipes)	TYPE:Tool.Musical Instruments	COST:30	WT:6
+Musical Instrument (Drum)	TYPE:Tool.Musical Instruments	COST:6	WT:3
+Musical Instrument (Dulcimer)	TYPE:Tool.Musical Instruments	COST:25	WT:10
+Musical Instrument (Flute)	TYPE:Tool.Musical Instruments	COST:2	WT:1
+Musical Instrument (Horn)	TYPE:Tool.Musical Instruments	COST:3	WT:2
+Musical Instrument (Lute)	TYPE:Tool.Musical Instruments	COST:35	WT:2
+Musical Instrument (Lyre)	TYPE:Tool.Musical Instruments	COST:30	WT:2
+Musical Instrument (Pan Flute)	TYPE:Tool.Musical Instruments	COST:12	WT:2
+Musical Instrument (Shawm)	TYPE:Tool.Musical Instruments	COST:2	WT:1
+Musical Instrument (Viol)	TYPE:Tool.Musical Instruments	COST:30	WT:1
+Navigator's Tools	TYPE:Tool	COST:25	WT:2
+Poisoner's Kit	TYPE:Tool	COST:50	WT:2
+Thieves' Tools	TYPE:Tool	COST:25	WT:1
+
+###Block: Adventuring Gear
+Acid	TYPE:Adventuring Gear	COST:25	WT:1
+Alchemist's Fire	TYPE:Adventuring Gear	COST:50	WT:1
+Antitoxin	TYPE:Adventuring Gear	COST:50	WT:0
+Arcane Focus (Crystal)	TYPE:Adventuring Gear.Focus.Arcane Focus	COST:10	WT:1
+Arcane Focus (Orb)	TYPE:Adventuring Gear.Focus.Arcane Focus	COST:20	WT:3
+Arcane Focus (Rod)	TYPE:Adventuring Gear.Focus.Arcane Focus.Rod	COST:10	WT:2
+Arcane Focus (Staff)	TYPE:Adventuring Gear.Focus.Arcane Focus.Staff	COST:5	WT:4
+Arcane Focus (Wand)	TYPE:Adventuring Gear.Focus.Arcane Focus.Wand	COST:10	WT:1
+Backpack	TYPE:Adventuring Gear.Container	COST:2	WT:5	CONTAINS:30|Any
+Ball Bearings	TYPE:Adventuring Gear	COST:1	WT:2
+Barrel	TYPE:Adventuring Gear.Container	COST:2	WT:70	CONTAINS:40
+Basket	TYPE:Adventuring Gear.Container	COST:0.4	WT:1	CONTAINS:40
+Bedroll	TYPE:Adventuring Gear	COST:1	WT:7
+Bell	TYPE:Adventuring Gear	COST:1	WT:0
+Blanket (Winter)	TYPE:Adventuring Gear	COST:0.5	WT:3
+Block and Tackle	TYPE:Adventuring Gear	COST:5	WT:5
+Book	TYPE:Adventuring Gear.Book	COST:25	WT:5	MODS:REQUIRED
+Bottle (Glass/Wine)	TYPE:Adventuring Gear.Container	COST:2	WT:2	CONTAINS:1.5|Liquid=3
+Bucket	TYPE:Adventuring Gear.Container	COST:0.5	WT:2	CONTAINS:UNLIM|Any
+Caltrops	TYPE:Adventuring Gear	COST:1	WT:2
+Candle	TYPE:Adventuring Gear	COST:0.01	WT:0	QUALITY:Bright Illumination|5 ft.	QUALITY:Shadowy Illumination|5 ft.
+Case (Crossbow Bolt)	TYPE:Adventuring Gear.Container	COST:1	WT:0.5	CONTAINS:UNLIM|Bolt=20
+Case (Map or Scroll)	TYPE:Adventuring Gear.Container	COST:1	WT:0.5	CONTAINS:UNLIM|Total=10|Paper=10|Scroll=10|Parchment=5
+Chain (10 Ft.)	TYPE:Adventuring Gear	COST:5	WT:10
+Chest	TYPE:Adventuring Gear.Container	COST:5	WT:25	CONTAINS:UNLIM|Any
+Climber's Kit	TYPE:Adventuring Gear	COST:25	WT:12
+Clothes (Fine)	TYPE:Adventuring Gear.Clothing.Starting	COST:15	WT:6
+Clothes (Traveler)	TYPE:Adventuring Gear.Clothing	COST:2	WT:4
+Component Pouch	TYPE:Adventuring Gear.Container	COST:25	WT:2	CONTAINS:UNLIM|SpellComponent=10
+Costume	TYPE:Adventuring Gear.Clothing	COST:5	WT:4
+Crowbar	TYPE:Adventuring Gear	COST:2	WT:5
+Druidic Focus (Mistletoe)	TYPE:Adventuring Gear.Focus.Druidic Focus	COST:10	WT:0
+Druidic Focus (Staff)	TYPE:Adventuring Gear.Focus.Druidic Focus.Staff	COST:5	WT:4
+Druidic Focus (Yew Wand)	TYPE:Adventuring Gear.Focus.Druidic Focus.Wand	COST:10	WT:1
+Flask (Empty)	TYPE:Adventuring Gear.Flask.Container	COST:0.02	WT:1	CONTAINS:1|Liquid=1|SpellComponent=1|Poison=1
+Grappling Hook	TYPE:Adventuring Gear	COST:2	WT:4
+Healer's Kit	TYPE:Adventuring Gear	COST:5	WT:3	EQMOD:CHARGED_ITEM_10|10
+Holy Symbol (Amulet)	TYPE:Adventuring Gear.Focus.Holy Symbol	COST:5	WT:1
+Holy Symbol (Emblem)	TYPE:Adventuring Gear.Focus.Holy Symbol	COST:5	WT:0
+Holy Symbol (Reliquary)	TYPE:Adventuring Gear.Focus.Holy Symbol.Costly	COST:5	WT:2
+Holy Water (Flask)	TYPE:Adventuring Gear.Flask.Container	COST:0.02	WT:1	CONTAINS:1|Liquid=1|SpellComponent=1|Poison=1
+Hunting Trap	TYPE:Adventuring Gear	COST:5	WT:25
+Ink	TYPE:Adventuring Gear	COST:10	WT:0
+Inkpen	TYPE:Adventuring Gear	COST:0.02	WT:0
+Jug (Clay)	TYPE:Adventuring Gear.Container	COST:0.02	WT:9	CONTAINS:8|Liquid|SpellComponent=1
+Ladder (10 Ft.)	TYPE:Adventuring Gear	COST:0.01	WT:25
+Lamp	TYPE:Adventuring Gear.Container	COST:0.1	WT:1	CONTAINS:1|Liquid=1	QUALITY:Bright Illumination|15 ft.	QUALITY:Shadowy Illumination|30 ft.
+Lantern (Bullseye)	TYPE:Adventuring Gear.Container	COST:12	WT:3	CONTAINS:1|Liquid=1	QUALITY:Bright Illumination|60 ft.	QUALITY:Shadowy Illumination|60 ft.
+Lantern (Hooded)	TYPE:Adventuring Gear.Container	COST:7	WT:2	CONTAINS:1|Liquid=1	QUALITY:Bright Illumination|30 ft.	QUALITY:Shadowy Illumination|30 ft.
+Lock	TYPE:Adventuring Gear	COST:10	WT:0
+Magnifying Glass	TYPE:Adventuring Gear	COST:100	WT:0
+Manacles	TYPE:Adventuring Gear	COST:2	WT:6
+Map	TYPE:Adventuring Gear.Writing.Documents	COST:1	WT:0
+Mirror (Small/Steel)	TYPE:Adventuring Gear	COST:5	WT:0.5
+Net	TYPE:Adventuring Gear	COST:1	WT:3
+Oil (Flask)	TYPE:Adventuring Gear.Flask.Liquid	COST:0.1	WT:1
+Paper (Sheet)	TYPE:Adventuring Gear.Paper	COST:0.2	WT:0
+Parchment (Sheet)	TYPE:Adventuring Gear.Parchment	COST:0.1	WT:0
+Perfume (Vial)	TYPE:Adventuring Gear.Vial	COST:5	WT:0
+Poison (Vial)	TYPE:Adventuring Gear.Vial	COST:100	WT:0	CONTAINS:1|Poison
+Pole (10 Ft.)	TYPE:Adventuring Gear	COST:0.05	WT:7
+Pot (Iron)	TYPE:Adventuring Gear.Container	COST:2	WT:10	CONTAINS:8|Any
+Potion of Healing	TYPE:Adventuring Gear.Potion.Flask	COST:50	WT:0.5	CONTAINS:1|Potion
+Pouch (Belt)	TYPE:Adventuring Gear.Container	COST:0.5	WT:1	CONTAINS:6|Any
+Quiver	TYPE:Adventuring Gear.Container	COST:1	WT:1	CONTAINS:UNLIM|Total=20|Arrow=20
+Ram (Portable)	TYPE:Adventuring Gear	COST:4	WT:35
+Rations (Trail/Per Day)	TYPE:Adventuring Gear	COST:0.5	WT:2
+Robe	TYPE:Adventuring Gear.Clothing	COST:1	WT:4
+Rope	TYPE:Adventuring Gear	COST:1	WT:5
+Sack	TYPE:Adventuring Gear.Container	COST:0.01	WT:0.5	CONTAINS:30|Any
+Shovel	TYPE:Adventuring Gear	COST:2	WT:5
+Signal Whistle	TYPE:Adventuring Gear	COST:0.05	WT:0
+Scroll	TYPE:Adventuring Gear.Scroll	COST:0	WT:0	MODS:REQUIRED
+Spikes (Iron/10)	TYPE:Adventuring Gear	COST:1	WT:5
+Spyglass	TYPE:Adventuring Gear	COST:1000	WT:1
+String (10 Ft.)	TYPE:Adventuring Gear	COST:0.01	WT:0
+Tent	TYPE:Adventuring Gear	COST:2	WT:20
+Tinderbox	TYPE:Adventuring Gear	COST:0.5	WT:1
+Torch	TYPE:Adventuring Gear	COST:0.01	WT:1	QUALITY:Bright Illumination|20 ft.	QUALITY:Shadowy Illumination|20 ft.
+Vial	TYPE:Adventuring Gear.Vial.Container	COST:1	WT:1	CONTAINS:1|Liquid=1|SpellComponent=1|Poison=1|Potion=1
+Waterskin	TYPE:Adventuring Gear.Container	COST:0.2	WT:0	CONTAINS:4|Liquid=4
+
+# Canvas (Sq. Yd.)	TYPE:Adventuring Gear	COST:0.1	WT:1
+# Chalk (1 piece)	TYPE:Adventuring Gear	COST:0.01	WT:0
+# Firewood (Per Day)	TYPE:Adventuring Gear	COST:0.01	WT:20
+# Fishhook	TYPE:Adventuring Gear	COST:0.1	WT:0
+# Flint and Steel	TYPE:Adventuring Gear	COST:1	WT:0
+# Hammer	TYPE:Adventuring Gear	COST:0.5	WT:2
+# Ink (1 Oz. Vial/Black)	TYPE:Adventuring Gear	COST:8	WT:0
+# Ink (1 Oz. Vial/Other Colors)	TYPE:Adventuring Gear	COST:16	WT:0
+# Mug (Clay)	TYPE:Adventuring Gear.Container	COST:0.02	WT:1	CONTAINS:1|Liquid
+# Mug or Tankard (Clay)	TYPE:Adventuring Gear.Container	COST:0.02	WT:1	CONTAINS:1|Liquid
+# Pick (Miner's)	TYPE:Adventuring Gear	COST:3	WT:10
+# Pitcher (Clay)	TYPE:Adventuring Gear.Container	COST:0.02	WT:5	CONTAINS:4|Liquid
+# Piton	TYPE:Adventuring Gear	COST:0.1	WT:0.5
+# Sealing Wax	TYPE:Adventuring Gear	COST:1	WT:1
+# Sewing Needle	TYPE:Adventuring Gear	COST:0.5	WT:0
+# Signet Ring	TYPE:Adventuring Gear	COST:5	WT:0
+# Sledge	TYPE:Adventuring Gear	COST:1	WT:10
+# Soap (Per Lb.)	TYPE:Adventuring Gear	COST:0.5	WT:1
+# Spade or Shovel	TYPE:Adventuring Gear	COST:2	WT:8
+# Whetstone	TYPE:Adventuring Gear	COST:0.02	WT:1
+
+###Block:Pack
+Burglar's Pack	TYPE:Adventuring Gear.Pack	COST:16	WT:0	SPROP:A Burglar's Pack contains the following items: Backpack, Ball Bearings, Bell, 10 Candles , Crowbar, Hooded Lantern, 7 flasks of Oil, 5 days of Rations, Rope, Tinderbox, and Waterskin.	KIT:1|Burglar's Pack
+Diplomat's Pack	TYPE:Adventuring Gear.Pack	COST:39	WT:0	SPROP:A Diplomat's Pack contains the following items: Chest, Fine Clothes, Ink, 5 Ink Pens, Lamp, 2 Map or Scroll Cases, 4 fla sks of Oil, 5 sheets of Paper, 5 sheets of Parchment, Perfume, and Tinderbox.	KIT:1|Diplomat's Pack
+Dungeoneer's Pack	TYPE:Adventuring Gear.Pack	COST:12	WT:0	SPROP:A Dungeoneer's Pack contains the following items: Backpack, Caltrops, Crowbar, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin.	KIT:1|Dungeoneer's Pack
+Entertainer's Pack	TYPE:Adventuring Gear.Pack	COST:40	WT:0	SPROP:A Entertainer's Pack contains the following items: Backpack, Ball Bearings, Bell, 10 Candles , Crowbar, Hooded Lantern, 7 flasks of Oil, 5 days of Rations, Rope, Tinderbox, and Waterskin.	KIT:1|Entertainer's Pack
+Explorer's Pack	TYPE:Adventuring Gear.Pack	COST:10	WT:0	SPROP:An Explorer's Pack contains the following items: Backpack, Bedroll, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin.	KIT:1|Explorer's Pack
+Priest's Pack	TYPE:Adventuring Gear.Pack	COST:33	WT:0	SPROP:A Priest's Pack contains the following items: Backpack, Blanket, Holy Water, Lamp, 7 days of Rations, Robe, and Tinderbox.	KIT:1|Priest's Pack
+Scholar's Pack	TYPE:Adventuring Gear.Pack	COST:40	WT:0	SPROP:A Scholar's Pack contains the following items: Backpack, Book, Ink, Ink Pen, Lamp, 10 flasks of Oil, 10 sheets of Parchment, and Tinderbox.	KIT:1|Scholar's Pack
+
+###Block: Mounts
+Saddle TYPE:Adventuring Gear.Mount	COST:10	WT:25
+Military Saddle	TYPE:Adventuring Gear.Mount	COST:20	WT:30	SPROP:Advantage on any ability check you make to remain mounted.
+Exotic Saddle	TYPE:Adventuring Gear.Mount	COST:60	WT:40
+
+###Block: TACK, AND DRAWN VEHICLES
+Carriage	TYPE:Transport.Vehicle	COST:100	WT:600
+Cart	TYPE:Transport.Vehicle	COST:15	WT:200
+Chariot	TYPE:Transport.Vehicle	COST:250	WT:100
