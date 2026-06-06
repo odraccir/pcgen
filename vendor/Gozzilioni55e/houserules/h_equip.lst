@@ -4,12 +4,38 @@ SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
 # Quiver		TYPE:Goods.Container	COST:0	WT:1	SOURCEPAGE:H	CONTAINS:UNLIM|Total=20|Arrow=20|Bolt=20
 ###Block: Food									
 Ale (Gallon)		TYPE:Goods.Liquid.Food	COST:0.2	WT:8	SOURCEPAGE:H				
-Ale (Mug)		TYPE:Goods.Food	COST:0.04	WT:1	SOURCEPAGE:H				
-Bread (Loaf)		TYPE:Goods.Food.Resizable.Consumable	COST:0.02	WT:0.5	SOURCEPAGE:H				
-Cheese (Hunk)		TYPE:Goods.Food.Resizable.Consumable	COST:0.1	WT:0.5	SOURCEPAGE:H				
 Meat (Chunk)		TYPE:Goods.Food.Consumable	COST:0.3	WT:0.5	SOURCEPAGE:H				
 Wine (Common/Pitcher)		TYPE:Goods.Food	COST:0.2	WT:6	SOURCEPAGE:H				
 Wine (Fine/Bottle)		TYPE:Goods.Food.Consumable	COST:10	WT:1.5	SOURCEPAGE:H				
 Water (Pint)		TYPE:Goods.Liquid.Food.Resizable	COST:0	WT:1.00	SOURCEPAGE:H
+
+# Trade Goods									
+Wheat (Per Lb.)		TYPE:Goods.Trade	COST:0.01	WT:1	SOURCEPAGE:H				
+Flour (Per Lb.)		TYPE:Goods.Trade	COST:0.02	WT:1	SOURCEPAGE:H				
+Chicken		TYPE:Goods.Trade	COST:0.02		SOURCEPAGE:H				
+Iron (Per Lb.)		TYPE:Goods.Trade	COST:0.1	WT:1	SOURCEPAGE:H				
+Tobacco (Per Lb.)		TYPE:Goods.Trade	COST:0.5	WT:1	SOURCEPAGE:H				
+Copper (Per Lb.)		TYPE:Goods.Trade	COST:0.5	WT:1	SOURCEPAGE:H				
+Cinnamon (Per Lb.)		TYPE:Goods.Trade	COST:1	WT:1	SOURCEPAGE:H				
+Goat		TYPE:Goods.Trade	COST:1		SOURCEPAGE:H				
+Ginger (Per Lb.)		TYPE:Goods.Trade	COST:2	WT:1	SOURCEPAGE:H				
+Pepper (Per Lb.)		TYPE:Goods.Trade	COST:2	WT:1	SOURCEPAGE:H				
+Sheep		TYPE:Goods.Trade	COST:2		SOURCEPAGE:H				
+Pig		TYPE:Goods.Trade	COST:3		SOURCEPAGE:H				
+Linen (sq. yard)		TYPE:Goods.Trade	COST:4	WT:1	SOURCEPAGE:H				
+Salt (Per Lb.)		TYPE:Goods.Trade	COST:5	WT:1	SOURCEPAGE:H				
+Silver (Per Lb.)		TYPE:Goods.Trade	COST:5	WT:1	SOURCEPAGE:H				
+Silk (sq. yard)		TYPE:Goods.Trade	COST:10	WT:0.5	SOURCEPAGE:H				
+Cow		TYPE:Goods.Trade	COST:10		SOURCEPAGE:H				
+Saffron (Per Lb.)		TYPE:Goods.Trade	COST:15	WT:1	SOURCEPAGE:H				
+Cloves (Per Lb.)		TYPE:Goods.Trade	COST:15	WT:1	SOURCEPAGE:H				
+Ox		TYPE:Goods.Trade	COST:15		SOURCEPAGE:H				
+
+Inn (Good/Per Day)		TYPE:Service.Lodging	COST:2		SOURCEPAGE:h
+Inn (Common/Per Day)		TYPE:Service.Lodging	COST:0.5		SOURCEPAGE:H
+Inn (Poor/Per Day)		TYPE:Service.Lodging	COST:0.2		SOURCEPAGE:H				
+
+
+Saddlebags		TYPE:Adventuring Gear.Mount.Container	COST:4	WT:8	SOURCEPAGE:H	CONTAINS:UNLIM|Any			
 
 Scabbard		TYPE:Goods.Container	COST:0.1	WT:1	SOURCEPAGE:H	CONTAINS:UNLIM|Total=1|Weapon=1

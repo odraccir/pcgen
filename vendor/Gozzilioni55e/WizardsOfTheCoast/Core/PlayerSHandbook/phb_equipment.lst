@@ -53,7 +53,7 @@ Thieves' Tools	TYPE:Tool	COST:25	WT:1
 Acid	TYPE:Adventuring Gear	COST:25	WT:1
 Alchemist's Fire	TYPE:Adventuring Gear	COST:50	WT:1
 Antitoxin	TYPE:Adventuring Gear	COST:50	WT:0
-Arcane Focus (Crystal)	TYPE:Adventuring Gear.Focus.Arcane Focus	COST:10	WT:1
+Arcane Focus (Crystal)	TYPE:Adventuring Gear.Focus.Arcane Focus	COST:10	WT:1	
 Arcane Focus (Orb)	TYPE:Adventuring Gear.Focus.Arcane Focus	COST:20	WT:3
 Arcane Focus (Rod)	TYPE:Adventuring Gear.Focus.Arcane Focus.Rod	COST:10	WT:2
 Arcane Focus (Staff)	TYPE:Adventuring Gear.Focus.Arcane Focus.Staff	COST:5	WT:4
@@ -132,42 +132,94 @@ Torch	TYPE:Adventuring Gear	COST:0.01	WT:1	QUALITY:Bright Illumination|20 ft.	QU
 Vial	TYPE:Adventuring Gear.Vial.Container	COST:1	WT:1	CONTAINS:1|Liquid=1|SpellComponent=1|Poison=1|Potion=1
 Waterskin	TYPE:Adventuring Gear.Container	COST:0.2	WT:0	CONTAINS:4|Liquid=4
 
-# Canvas (Sq. Yd.)	TYPE:Adventuring Gear	COST:0.1	WT:1
-# Chalk (1 piece)	TYPE:Adventuring Gear	COST:0.01	WT:0
-# Firewood (Per Day)	TYPE:Adventuring Gear	COST:0.01	WT:20
-# Fishhook	TYPE:Adventuring Gear	COST:0.1	WT:0
-# Flint and Steel	TYPE:Adventuring Gear	COST:1	WT:0
-# Hammer	TYPE:Adventuring Gear	COST:0.5	WT:2
-# Ink (1 Oz. Vial/Black)	TYPE:Adventuring Gear	COST:8	WT:0
-# Ink (1 Oz. Vial/Other Colors)	TYPE:Adventuring Gear	COST:16	WT:0
-# Mug (Clay)	TYPE:Adventuring Gear.Container	COST:0.02	WT:1	CONTAINS:1|Liquid
-# Mug or Tankard (Clay)	TYPE:Adventuring Gear.Container	COST:0.02	WT:1	CONTAINS:1|Liquid
-# Pick (Miner's)	TYPE:Adventuring Gear	COST:3	WT:10
-# Pitcher (Clay)	TYPE:Adventuring Gear.Container	COST:0.02	WT:5	CONTAINS:4|Liquid
-# Piton	TYPE:Adventuring Gear	COST:0.1	WT:0.5
-# Sealing Wax	TYPE:Adventuring Gear	COST:1	WT:1
-# Sewing Needle	TYPE:Adventuring Gear	COST:0.5	WT:0
-# Signet Ring	TYPE:Adventuring Gear	COST:5	WT:0
-# Sledge	TYPE:Adventuring Gear	COST:1	WT:10
-# Soap (Per Lb.)	TYPE:Adventuring Gear	COST:0.5	WT:1
-# Spade or Shovel	TYPE:Adventuring Gear	COST:2	WT:8
-# Whetstone	TYPE:Adventuring Gear	COST:0.02	WT:1
-
 ###Block:Pack
-Burglar's Pack	TYPE:Adventuring Gear.Pack	COST:16	WT:0	SPROP:A Burglar's Pack contains the following items: Backpack, Ball Bearings, Bell, 10 Candles , Crowbar, Hooded Lantern, 7 flasks of Oil, 5 days of Rations, Rope, Tinderbox, and Waterskin.	KIT:1|Burglar's Pack
-Diplomat's Pack	TYPE:Adventuring Gear.Pack	COST:39	WT:0	SPROP:A Diplomat's Pack contains the following items: Chest, Fine Clothes, Ink, 5 Ink Pens, Lamp, 2 Map or Scroll Cases, 4 fla sks of Oil, 5 sheets of Paper, 5 sheets of Parchment, Perfume, and Tinderbox.	KIT:1|Diplomat's Pack
-Dungeoneer's Pack	TYPE:Adventuring Gear.Pack	COST:12	WT:0	SPROP:A Dungeoneer's Pack contains the following items: Backpack, Caltrops, Crowbar, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin.	KIT:1|Dungeoneer's Pack
-Entertainer's Pack	TYPE:Adventuring Gear.Pack	COST:40	WT:0	SPROP:A Entertainer's Pack contains the following items: Backpack, Ball Bearings, Bell, 10 Candles , Crowbar, Hooded Lantern, 7 flasks of Oil, 5 days of Rations, Rope, Tinderbox, and Waterskin.	KIT:1|Entertainer's Pack
-Explorer's Pack	TYPE:Adventuring Gear.Pack	COST:10	WT:0	SPROP:An Explorer's Pack contains the following items: Backpack, Bedroll, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin.	KIT:1|Explorer's Pack
-Priest's Pack	TYPE:Adventuring Gear.Pack	COST:33	WT:0	SPROP:A Priest's Pack contains the following items: Backpack, Blanket, Holy Water, Lamp, 7 days of Rations, Robe, and Tinderbox.	KIT:1|Priest's Pack
-Scholar's Pack	TYPE:Adventuring Gear.Pack	COST:40	WT:0	SPROP:A Scholar's Pack contains the following items: Backpack, Book, Ink, Ink Pen, Lamp, 10 flasks of Oil, 10 sheets of Parchment, and Tinderbox.	KIT:1|Scholar's Pack
+Burglar's Pack	TYPE:Adventuring Gear.Pack.Container	COST:16	WT:0	SPROP:A Burglar's Pack contains the following items: Backpack, Ball Bearings, Bell, 10 Candles , Crowbar, Hooded Lantern, 7 flasks of Oil, 5 days of Rations, Rope, Tinderbox, and Waterskin.	CONTAINS:UNLIM|Any	KIT:1|Burglar's Pack
+Diplomat's Pack	TYPE:Adventuring Gear.Pack.Container	COST:39	WT:0	SPROP:A Diplomat's Pack contains the following items: Chest, Fine Clothes, Ink, 5 Ink Pens, Lamp, 2 Map or Scroll Cases, 4 fla sks of Oil, 5 sheets of Paper, 5 sheets of Parchment, Perfume, and Tinderbox.	KIT:1|Diplomat's Pack
+Dungeoneer's Pack	TYPE:Adventuring Gear.Pack.Container	COST:12	WT:0	SPROP:A Dungeoneer's Pack contains the following items: Backpack, Caltrops, Crowbar, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin.	KIT:1|Dungeoneer's Pack
+Entertainer's Pack	TYPE:Adventuring Gear.Pack.Container	COST:40	WT:0	SPROP:A Entertainer's Pack contains the following items: Backpack, Ball Bearings, Bell, 10 Candles , Crowbar, Hooded Lantern, 7 flasks of Oil, 5 days of Rations, Rope, Tinderbox, and Waterskin.	KIT:1|Entertainer's Pack
+Explorer's Pack	TYPE:Adventuring Gear.Pack.Container	COST:10	WT:0	SPROP:An Explorer's Pack contains the following items: Backpack, Bedroll, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin.	KIT:1|Explorer's Pack
+Priest's Pack	TYPE:Adventuring Gear.Pack.Container	COST:33	WT:0	SPROP:A Priest's Pack contains the following items: Backpack, Blanket, Holy Water, Lamp, 7 days of Rations, Robe, and Tinderbox.	KIT:1|Priest's Pack
+Scholar's Pack	TYPE:Adventuring Gear.Pack.Container	COST:40	WT:0	SPROP:A Scholar's Pack contains the following items: Backpack, Book, Ink, Ink Pen, Lamp, 10 flasks of Oil, 10 sheets of Parchment, and Tinderbox.	KIT:1|Scholar's Pack
 
 ###Block: Mounts
-Saddle TYPE:Adventuring Gear.Mount	COST:10	WT:25
+Saddle TYPE:Adventuring Gear.Mount	COST:10	WT:25	SPROP:Include bit and bridle.
 Military Saddle	TYPE:Adventuring Gear.Mount	COST:20	WT:30	SPROP:Advantage on any ability check you make to remain mounted.
 Exotic Saddle	TYPE:Adventuring Gear.Mount	COST:60	WT:40
 
 ###Block: TACK, AND DRAWN VEHICLES
-Carriage	TYPE:Transport.Vehicle	COST:100	WT:600
-Cart	TYPE:Transport.Vehicle	COST:15	WT:200
-Chariot	TYPE:Transport.Vehicle	COST:250	WT:100
+Carriage	TYPE:Transportation.Vehicle.Container	COST:100	WT:600	CONTAINS:UNLIM|Any
+Cart	TYPE:Transportation.Vehicle.Container	COST:15	WT:200	CONTAINS:UNLIM|Any
+Chariot	TYPE:Transportation.Vehicle.Container	COST:250	WT:100	CONTAINS:UNLIM|Any
+Sled	TYPE:Transportation.Vehicle.Container	COST:20	WT:300	CONTAINS:UNLIM|Any
+Wagon	TYPE:Transportation.Vehicle.Container	COST:35	WT:400	CONTAINS:UNLIM|Any
+
+###Block: Services
+Feed (Per Day)	TYPE:Service.Food	COST:0.05	WT:10
+Stabling (Per Day)	TYPE:Service	COSE:0.5	WT:0
+
+###Block: AIRBORNE AND WATERBORNE VEHICLES
+Airship	TYPE:Transportation.Airship.Container	COST:40000	WT:0	CONTAINS:2000|Any
+Galley	TYPE:Transportation.Ship.Container	COST:30000	WT:0	CONTAINS:300000|Any
+Keelboat	TYPE:Transportation.Ship.Container	COST:3000	WT:0	CONTAINS:10000|Any
+Longship	TYPE:Transportation.Ship.Container	COST:10000	WT:0	CONTAINS:20000|Any
+Rowboat		TYPE:Transportation.Ship.Container	COST:50	WT:0	CONTAINS:100|Any
+Sailing Ship	TYPE:Transportation.Ship.Container	COST:10000	WT:0	CONTAINS:200000|Any
+Warship	TYPE:Transportation.Ship.Container	COST:25000	WT:0	CONTAINS:400000|Any
+
+###Block:Lifestyle
+Wretched (per day)	TYPE:Lifestyle	COST:0	WT:0
+Squalid (per day)	TYPE:Lifestyle	COST:0.1	WT:0
+Poor (per day)	TYPE:Lifestyle	COST:0.2	WT:0
+Modest (per day)	TYPE:Lifestyle	COST:1	WT:0
+Comfortable (per day)	TYPE:Lifestyle	COST:2	WT:0
+Wealthy (per day)	TYPE:Lifestyle	COST:4	WT:0
+Aristocratic (per day)	TYPE:Lifestyle	COST:10	WT:0
+
+###Block:Food, Drink and Lodging
+Ale (Mug)		TYPE:Goods.Food.Consumable	COST:0.04	WT:0
+Bread (Loaf)		TYPE:Goods.Food.Consumable	COST:0.02	WT:0
+Cheese (Wedge)		TYPE:Goods.Food.Consumable	COST:0.1	WT:0
+
+Wine (Common/Bottle)	TYPE:Goods.Food.Liquid	COST:0.2
+Wine (Fine/Bottle)	TYPE:Goods.Food.Liquid	COST:10
+Meal (Squalid)	TYPE:Goods.Food	COST:0.01
+Meal (Poor)	TYPE:Goods.Food	COST:0.02
+Meal (Modest)	TYPE:Goods.Food	COST:0.1
+Meal (Comfortable)	TYPE:Goods.Food	COST:0.2
+Meal (Wealthy)	TYPE:Goods.Food	COST:0.3
+Meal (Aristocratic)	TYPE:Goods.Food	COST:0.6
+
+Inn (Squalid/Per Day)		TYPE:Service.Lodging	COST:0.07
+Inn (Poor/Per Day)		TYPE:Service.Lodging	COST:0.1
+Inn (Modest/Per Day)		TYPE:Service.Lodging	COST:0.5
+Inn (Comfortable/Per Day)		TYPE:Service.Lodging	COST:0.8
+Inn (Wealthy/Per Day)		TYPE:Service.Lodging	COST:2
+Inn (Aristocratic/Per Day)		TYPE:Service.Lodging	COST:4
+
+###Block: Travel
+Coach Cab between towns (Per Mile)		TYPE:Service.Transportation	COST:0.03
+Coach Cab within a city (Per Mile)		TYPE:Service.Transportation	COST:0.01
+Road or Gate toll		TYPE:Service.Transportation	COST:0.01
+Ship's Passage (Per Mile)		TYPE:Service.Transportation	COST:0.1
+
+###Block:Hireling
+Hireling (Skilled/per day)		TYPE:Service	COST:2
+Hireling (Untrained/per day)		TYPE:Service	COST:0.2
+Messenger (Per Mile)		TYPE:Service	COST:0.02
+
+Spells (Cantrip/Village, Town or City)		TYPE:Service.SpellServices	COST:30
+Spells (1st level/Village, Town or City)		TYPE:Service.SpellServices	COST:50
+Spells (2nd level/Village, Town or City)		TYPE:Service.SpellServices	COST:200
+Spells (3rd level/Town or City)		TYPE:Service.SpellServices	COST:300
+Spells (4th level/Town or City)		TYPE:Service.SpellServices	COST:2000
+Spells (5th level/Town or City)		TYPE:Service.SpellServices	COST:2000
+Spells (6th level/City)		TYPE:Service.SpellServices	COST:20000
+Spells (7th level/City)		TYPE:Service.SpellServices	COST:20000
+Spells (8th level/City)		TYPE:Service.SpellServices	COST:20000
+Spells (9th level/City)		TYPE:Service.SpellServices	COST:100000
+
+
+
+
+
+

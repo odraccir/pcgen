@@ -42,79 +42,79 @@ STAT:STR=10|DEX=10|CON=11|INT=10|WIS=10|CHA=11
 
 ###Block - Packs
 STARTPACK:Burglar's Pack	VISIBLE:NO	EQUIPBUY:0
-GEAR:Backpack
-GEAR:Ball Bearings
-GEAR:Bell
-GEAR:Candle					QTY:10
-GEAR:Crowbar
-GEAR:Lantern (Hooded)
-GEAR:Oil (Flask)				QTY:7
-GEAR:Rations (Trail/Per Day)			QTY:5
-GEAR:Rope
-GEAR:Tinderbox
-GEAR:Waterskin
+GEAR:Backpack	LOCATION:Burglar's Pack
+GEAR:Ball Bearings	LOCATION:Burglar's Pack
+GEAR:Bell	LOCATION:Burglar's Pack
+GEAR:Candle	LOCATION:Burglar's Pack				QTY:10
+GEAR:Crowbar	LOCATION:Burglar's Pack
+GEAR:Lantern (Hooded)	LOCATION:Burglar's Pack
+GEAR:Oil (Flask)	LOCATION:Burglar's Pack			QTY:7
+GEAR:Rations (Trail/Per Day)	LOCATION:Burglar's Pack		QTY:5
+GEAR:Rope	LOCATION:Burglar's Pack
+GEAR:Tinderbox	LOCATION:Burglar's Pack
+GEAR:Waterskin	LOCATION:Burglar's Pack
 
 STARTPACK:Diplomat's Pack	VISIBLE:NO	EQUIPBUY:0
-GEAR:Chest
-GEAR:Clothes (Fine)
-GEAR:Ink
-GEAR:Inkpen		QTY:5
-GEAR:Lamp
-GEAR:Case (Map or Scroll)	QTY:2
-GEAR:Oil (Flask)			QTY:4
-GEAR:Paper (Sheet)			QTY:5
-GEAR:Parchment (Sheet)		QTY:5
-GEAR:Perfume (Vial)
-GEAR:Tinderbox
+GEAR:Chest	LOCATION:Diplomat's Pack
+GEAR:Clothes (Fine)	LOCATION:Diplomat's Pack
+GEAR:Ink	LOCATION:Diplomat's Pack
+GEAR:Inkpen	LOCATION:Diplomat's Pack	QTY:5
+GEAR:Lamp	LOCATION:Diplomat's Pack
+GEAR:Case (Map or Scroll)	LOCATION:Diplomat's Pack	QTY:2
+GEAR:Oil (Flask)	LOCATION:Diplomat's Pack	QTY:4
+GEAR:Paper (Sheet)	LOCATION:Diplomat's Pack	QTY:5
+GEAR:Parchment (Sheet)	LOCATION:Diplomat's Pack	QTY:5
+GEAR:Perfume (Vial)	LOCATION:Diplomat's Pack
+GEAR:Tinderbox	LOCATION:Diplomat's Pack
 
 STARTPACK:Dungeoneer's Pack	VISIBLE:NO	EQUIPBUY:0
-GEAR:Backpack
-GEAR:Caltrops
-GEAR:Crowbar
-GEAR:Oil (Flask)			QTY:2
-GEAR:Rations (Trail/Per Day)	QTY:10
-GEAR:Rope
-GEAR:Tinderbox
-GEAR:Torch			QTY:10
-GEAR:Waterskin
+GEAR:Backpack	LOCATION:Dungeoneer's Pack
+GEAR:Caltrops	LOCATION:Dungeoneer's Pack
+GEAR:Crowbar	LOCATION:Dungeoneer's Pack
+GEAR:Oil (Flask)	LOCATION:Dungeoneer's Pack		QTY:2
+GEAR:Rations (Trail/Per Day)	LOCATION:Dungeoneer's Pack	QTY:10
+GEAR:Rope	LOCATION:Dungeoneer's Pack
+GEAR:Tinderbox	LOCATION:Dungeoneer's Pack
+GEAR:Torch	LOCATION:Dungeoneer's Pack	QTY:10
+GEAR:Waterskin	LOCATION:Dungeoneer's Pack
 
 STARTPACK:Entertainer's Pack	VISIBLE:NO	EQUIPBUY:0
-GEAR:Backpack
-GEAR:Bedroll
-GEAR:Bell
-GEAR:Lantern (Bullseye)
-GEAR:Costume	QTY:2
-GEAR:Mirror
-GEAR:Oil (Flask)			QTY:8
-GEAR:Rations (Trail/Per Day)	QTY:9
-GEAR:Tinderbox
-GEAR:Waterskin
+GEAR:Backpack	LOCATION:Entertainer's Pack
+GEAR:Bedroll	LOCATION:Entertainer's Pack
+GEAR:Bell	LOCATION:Entertainer's Pack
+GEAR:Lantern (Bullseye)	LOCATION:Entertainer's Pack
+GEAR:Costume	LOCATION:Entertainer's Pack	QTY:2
+GEAR:Mirror	LOCATION:Entertainer's Pack
+GEAR:Oil (Flask)	LOCATION:Entertainer's Pack	QTY:8
+GEAR:Rations (Trail/Per Day)	LOCATION:Entertainer's Pack	QTY:9
+GEAR:Tinderbox	LOCATION:Entertainer's Pack
+GEAR:Waterskin	LOCATION:Entertainer's Pack
 
 STARTPACK:Explorer's Pack	VISIBLE:NO	EQUIPBUY:0
-GEAR:Backpack
-GEAR:Bedroll
-GEAR:Oil (Flask)			QTY:2
-GEAR:Rations (Trail/Per Day)	QTY:10
-GEAR:Rope
-GEAR:Tinderbox
-GEAR:Torch			QTY:10
-GEAR:Waterskin
+GEAR:Backpack	LOCATION:Explorer's Pack
+GEAR:Bedroll	LOCATION:Explorer's Pack
+GEAR:Oil (Flask)	LOCATION:Explorer's Pack		QTY:2
+GEAR:Rations (Trail/Per Day)	LOCATION:Explorer's Pack	QTY:10
+GEAR:Rope	LOCATION:Explorer's Pack
+GEAR:Tinderbox	LOCATION:Explorer's Pack
+GEAR:Torch	LOCATION:Explorer's Pack		QTY:10
+GEAR:Waterskin	LOCATION:Explorer's Pack
 
 STARTPACK:Priest's Pack	VISIBLE:NO	EQUIPBUY:0
-GEAR:Backpack
-GEAR:Blanket (Winter)
-GEAR:Holy Water (Flask)
-GEAR:Lamp
-GEAR:Rations (Trail/Per Day)	QTY:7
-GEAR:Rope
-GEAR:Tinderbox
+GEAR:Backpack	LOCATION:Priest's Pack
+GEAR:Blanket (Winter)	LOCATION:Priest's Pack
+GEAR:Holy Water (Flask)	LOCATION:Priest's Pack
+GEAR:Lamp	LOCATION:Priest's Pack
+GEAR:Rations (Trail/Per Day)	LOCATION:Priest's Pack	QTY:7
+GEAR:Rope	LOCATION:Priest's Pack
+GEAR:Tinderbox	LOCATION:Priest's Pack
 
 STARTPACK:Scholar's Pack	VISIBLE:NO	EQUIPBUY:0
-GEAR:Backpack
-GEAR:Book
-GEAR:Ink
-GEAR:Inkpen
-GEAR:Lamp
-GEAR:Oil (Flask)			QTY:10
-GEAR:Parchment (Sheet)		QTY:10
-GEAR:Tinderbox
+GEAR:Backpack	LOCATION:Scholar's Pack
+GEAR:Book	LOCATION:Scholar's Pack
+GEAR:Ink	LOCATION:Scholar's Pack
+GEAR:Inkpen	LOCATION:Scholar's Pack
+GEAR:Lamp	LOCATION:Scholar's Pack
+GEAR:Oil (Flask)	LOCATION:Scholar's Pack		QTY:10
+GEAR:Parchment (Sheet)	LOCATION:Scholar's Pack	QTY:10
+GEAR:Tinderbox	LOCATION:Scholar's Pack
