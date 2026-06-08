@@ -1,4 +1,4 @@
-SOURCELONG:The Inspired Arcana	SOURCESHORT:IA	SOURCEWEB:https://www.patreon.com/cw/TheInspiredArcana	SOURCEDATE:202602
+SOURCELONG:The Inspired Arcana	SOURCESHORT:IA	SOURCEWEB:https://www.patreon.com/cw/TheInspiredArcana	SOURCEDATE:2026-02
 
 Cultist	CATEGORY:Special Ability	TYPE:Background	VISIBLE:YES	KEY:Background ~ Cultist	BONUS:ABILITYCATEGORY|Cultist Abilities|3	ABILITY:FEAT|AUTOMATIC|Magic Initiate (Wizard)	ABILITY:Skill|AUTOMATIC|Religion|Deception	ABILITY:Internal|AUTOMATIC|Tool Proficiency ~ Forgery Kit	KIT:1|Cultist Equipment (A)|Cultist Equipment (B)	SOURCEPAGE:IA
 Survivor	CATEGORY:Special Ability	TYPE:Background	VISIBLE:YES	KEY:Background ~ Survivor	BONUS:ABILITYCATEGORY|Survivor Abilities|3	ABILITY:FEAT|AUTOMATIC|Lucky	ABILITY:Skill|AUTOMATIC|Investigation|Survival	ABILITY:Internal|AUTOMATIC|Tool Proficiency ~ Cartographer's Tools	KIT:1|Survivor Equipment (A)|Survivor Equipment (B)	SOURCEPAGE:IA

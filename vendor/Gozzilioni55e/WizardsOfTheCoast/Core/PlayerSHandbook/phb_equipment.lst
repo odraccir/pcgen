@@ -155,7 +155,7 @@ Wagon	TYPE:Transportation.Vehicle.Container	COST:35	WT:400	CONTAINS:UNLIM|Any
 
 ###Block: Services
 Feed (Per Day)	TYPE:Service.Food	COST:0.05	WT:10
-Stabling (Per Day)	TYPE:Service	COSE:0.5	WT:0
+Stabling (Per Day)	TYPE:Service	COST:0.5	WT:0
 
 ###Block: AIRBORNE AND WATERBORNE VEHICLES
 Airship	TYPE:Transportation.Airship.Container	COST:40000	WT:0	CONTAINS:2000|Any

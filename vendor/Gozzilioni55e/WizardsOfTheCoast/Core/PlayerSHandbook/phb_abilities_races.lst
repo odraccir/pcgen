@@ -1,5 +1,5 @@
 SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-08																													
-																																 
+																																	
 Small	CATEGORY:Internal	TYPE:Racial Trait	VISIBLE:YES	DESC:Small (about 2-4 feet tall).	KEY:Racial Size ~ Small									BONUS:SIZEMOD|NUMBER|-1																		SOURCEPAGE:PHB 
 Medium	CATEGORY:Internal	TYPE:Racial Trait	VISIBLE:YES	DESC:Medium (about 4-7 feet tall).	KEY:Racial Size ~ Medium																											SOURCEPAGE:PHB 
 																																
@@ -15,7 +15,7 @@ Celestial Revelation	CATEGORY:Special Ability	TYPE:Aasimar Trait	VISIBLE:YES	DES
 
 Heavenly Wings	CATEGORY:Internal	TYPE:Celestial Revelation	VISIBLE:YES	DESC:Two spectral wings sprout from your back temporarily. Until the transformation ends, you have a Fly Speed equal to your Speed.	KEY:Celestial Revelation ~ Heavenly Wings													MOVECLONE:Walk,Fly,*1														SOURCEPAGE:PHB
 Inner Radiance	CATEGORY:Internal	TYPE:Celestial Revelation	VISIBLE:YES	DESC:Searing light temporarily radiates from your eyes and mouth. For the duration , you shed Bright Light in a 10-foot radius and Dim Light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes Radiant damage equal to your Proficiency Bonus.	KEY:Celestial Revelation ~ Inner Radiance																									SOURCEPAGE:PHB
-Necrotic Shroud	CATEGORY:Internal	TYPE:Celestial Revelation	VISIBLE:YES	DESC:Your eyes briefly become pools of darkness, and flightless wings sprout from your back temporarily. Creatures other than your allies within 10 feet of you must succeed on a Charisma saving throw (DC 8 plus your Charisma modifier and Proficiency Bonus) or have the Frightened condition until the end of your next turn.	KEY:Celestial Revelation ~ Necrotic Shroud	DESC:DC %1.|NecroticShroudDC	DEFINE:NecroticShroudDC				BONUS:VAR|NecroticShroudDC|SpellDC_CHA																			SOURCEPAGE:PHB
+Necrotic Shroud	CATEGORY:Internal	TYPE:Celestial Revelation	VISIBLE:YES	DESC:Your eyes briefly become pools of darkness, and flightless wings sprout from your back temporarily. Creatures other than your allies within 10 feet of you must succeed on a Charisma saving throw (DC 8 plus your Charisma modifier and Proficiency Bonus) or have the Frightened condition until the end of your next turn.	KEY:Celestial Revelation ~ Necrotic Shroud	DESC:DC %1.|NecroticShroudDC	DEFINE:NecroticShroudDC|0				BONUS:VAR|NecroticShroudDC|SpellDC_CHA																			SOURCEPAGE:PHB
 
 # Default Dragonborn
 Racial Trait ~ Dragonborn	CATEGORY:Internal																						ABILITY:Dragonborn Trait|AUTOMATIC|Dragonborn ~ Draconic Ancestry|Dragonborn ~ Darkvision	ABILITY:Dragonborn Trait|AUTOMATIC|Dragonborn ~ Draconic Flight|PRECLASS:1,TYPE.Base=5								SOURCEPAGE:PHB
@@ -57,7 +57,7 @@ Racial Trait ~ Dwarf	CATEGORY:Internal																						ABILITY:Dwarf Trait|
 
 Darkvision	CATEGORY:Special Ability	TYPE:Dwarf Trait	VISIBLE:YES	DESC:You have Darkvision with a range of 120 feet.	KEY:Dwarf ~ Darkvision									BONUS:VAR|DarkvisionRange|120|TYPE=Base						SOURCEPAGE:PHB
 Dwarven Resilience	CATEGORY:Special Ability	TYPE:Dwarf Trait	VISIBLE:YES	DESC:You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.	KEY:Dwarf ~ Dwarven Resilience																											SOURCEPAGE:PHB
-Dwarven Toughness	CATEGORY:Special Ability	TYPE:Dwarf Trait	VISIBLE:YES	DESC:Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.	KEY:Dwarf ~ Dwarven Toughness									BONUS:VAR|DwarvenToughnessHPBonus|NUMBER|1|TYPE=Base	LEVELUPBONUS:1,TYPE=Base|Dwarf ~ Dwarven Toughness						BONUS:HP|CURRENTMAX|HD																					SOURCEPAGE:PHB
+Dwarven Toughness	CATEGORY:Special Ability	TYPE:Dwarf Trait	VISIBLE:YES	DESC:Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.	KEY:Dwarf ~ Dwarven Toughness																BONUS:HP|CURRENTMAX|HD																					SOURCEPAGE:PHB
 Stonecunning	CATEGORY:Special Ability	TYPE:Dwarf Trait	VISIBLE:YES	DESC:As a Bonus Action , you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked. You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.	KEY:Dwarf ~ Stonecunning																											SOURCEPAGE:PHB
 
 # Default Elf																																
@@ -152,3 +152,6 @@ Language	CATEGORY:Special Ability	TYPE:Racial Traits.BeastOfTheSeaRacialTrait.Sp
 Amphibious	CATEGORY:Special Ability	TYPE:Racial Traits.BeastOfTheSeaRacialTrait.SpecialQuality	VISIBLE:YES	DESC:The Beast can breathe air and water.	KEY:Beast of the Sea ~ Amphibious																											SOURCEPAGE:PHB
 Primal Bond	CATEGORY:Special Ability	TYPE:Racial Traits.BeastOfTheSeaRacialTrait.SpecialQuality	VISIBLE:YES	DESC:Add Ranger Proficiency Bonus to any ability check or saving throw the beast makes.	KEY:Beast of the Sea ~ Primal Bond																											SOURCEPAGE:PHB
 Beast's Strike	CATEGORY:Special Ability	TYPE:Racial Traits.BeastOfTheSeaRacialTrait.SpecialAttack	VISIBLE:YES	DESC:Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft. Hit: 1d6 + 2 plus your Wisdom modifier Bludgeoning or Piercing damage (your choice when you summon the beast), and the target has the Grappled condition (escape DC equals your spell save DC).	KEY:Beast of the Sea ~ Beast's Strike																											SOURCEPAGE:PHB
+
+Racial Trait ~ Animated Objects	CATEGORY:Internal																						ABILITY:Special Ability|AUTOMATIC|Animated Objects ~ Immunities			BONUS:VAR|BlindsightRange|30|TYPE=Base						SOURCEPAGE:PHB
+Immunities	CATEGORY:Special Ability	TYPE:Racial Traits.AnimatedObjectsRacialTrait.SpecialQuality	VISIBLE:YES	DESC:Poison, Psychic; Charmed, Exhaustion, Frightened, Paralyzed, Poisoned.	KEY:Animated Objects ~ Immunities																											SOURCEPAGE:PHB

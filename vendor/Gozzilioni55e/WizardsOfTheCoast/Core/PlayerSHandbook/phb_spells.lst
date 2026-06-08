@@ -1,0 +1,18 @@
+SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-08
+
+# Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus														
+Acid Splash				TYPE:Spell	SCHOOL:Evocation			CLASSES:Sorcerer=0|Wizard=0	COMPS:V,S	CASTTIME:1 action	RANGE:60 ft.		DURATION:Instantaneous	SAVEINFO:DEX Save			SOURCEPAGE:PHB
+Aid				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Bard=2|Cleric=2|Druid=2|Paladin=2|Ranger=2	COMPS:V,S, M	CASTTIME:1 action	RANGE:30 ft.		DURATION:8 hours				SOURCEPAGE:PHB	
+Alarm				TYPE:Spell	SCHOOL:Abjuration		DESCRIPTOR:Ritual	CLASSES:Ranger=1|Wizard=1	COMPS:V,S, M	CASTTIME:1 minute	RANGE:30 ft.		DURATION:8 hours				SOURCEPAGE:PHB
+Alter Self				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Sorcerer=2|Wizard=2	COMPS:V,S	CASTTIME:1 action	RANGE:Self		DURATION:1 hour				SOURCEPAGE:PHB
+Animal Friendship				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=1|Druid=1|Ranger=1	COMPS:V,S, M	CASTTIME:1 action	RANGE:30 ft.		DURATION:24 hours			SOURCEPAGE:PHB
+Animal Messenger				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=2|Druid=2|Ranger=2	COMPS:V,S, M	CASTTIME:1 action	RANGE:30 ft.		DURATION:24 hours			SOURCEPAGE:PHB
+Animal Shapes				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Druid=8	COMPS:V,S	CASTTIME:1 action	RANGE:30 ft.		DURATION:24 hours			SOURCEPAGE:PHB
+Animate Dead				TYPE:Spell	SCHOOL:Necromancy			CLASSES:Cleric=3|Wizard=3	COMPS:V,S, M	CASTTIME:1 minute	RANGE:10 ft.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Animate Objects				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Bard=5|Sorcerer=5|Wizard=5	COMPS:V,S	CASTTIME:1 action	RANGE:120 ft.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+
+
+###Block: Long Descriptions, if you wish to include them
+Acid Splash.MOD	DESC:You create an acidic bubble at a point within range, where it explodes in a 5-foot-radius Sphere. Each creature in that Sphere must succeed on a Dexterity saving throw or take ld6 Acid damage. &nl; Cantrip Upgrade. The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).|!PRERULE:1,DisplayFullSpell
+Aid.MOD	DESC:Choose up to three creatures within range. Each target's Hit Point maximum and current Hit Points increase by 5 for the duration. &nl; Using a Higher-Level Spell Slot. Each target's Hit Points increase by 5 for each spell slot level above 2.|!PRERULE:1,DisplayFullSpell	DESC:&nl; Material Component: a strip of white cloth.
+Alarm.MOD	DESC:DESC:You create a magical alarm around a point within range. The spell alerts you when a creature enters the area of the spell.|!PRERULE:1,DisplayFullSpell

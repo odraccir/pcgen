@@ -25,7 +25,7 @@ INFOTEXT:D&D Unearthed Arcana - Modern Magic
 #EXTRAFILE:ua1_missing.txt
 
 ABILITY:ua1_abilities.lst
-EQUIP:ua1_equip.lst
+EQUIPMENT:ua1_equip.lst
 SPELL:ua1_spells.lst
 
 INFOTEXT:Supports 6.4.1

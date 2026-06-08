@@ -1,4 +1,4 @@
-SOURCELONG:Minor Cantrips	SOURCESHORT:MC	SOURCEWEB:https://www.patreon.com/cw/EldritchE	SOURCEDATE:202602
+SOURCELONG:Minor Cantrips	SOURCESHORT:MC	SOURCEWEB:https://www.patreon.com/cw/EldritchE	SOURCEDATE:2026-02
 
 BLOCK:Magical Secrets / Wizard
 Minor Divination	CATEGORY:Internal	TYPE:Bard Magical Secret			KEY:Bard Magical Secret ~ Minor Divination	PRECLASS:1,Bard=1																	SPELLKNOWN:CLASS|Bard=0|Minor Divination									SOURCEPAGE:MC

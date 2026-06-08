@@ -49,6 +49,7 @@ SHIELDPROF:phb_profs_shield.lst
 WEAPONPROF:phb_profs_weapon.lst
 RACE:phb_races.lst
 SKILL:phb_skills.lst
+SPELL:phb_spells.lst
 TEMPLATE:phb_templates.lst
 
 INFOTEXT:Supports 6.4.1

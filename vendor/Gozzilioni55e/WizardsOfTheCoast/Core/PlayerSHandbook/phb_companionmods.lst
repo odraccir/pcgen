@@ -1,5 +1,24 @@
 
 FOLLOWER:Wild Companion=1		TYPE:Wild Companion
 
-FOLLOWER:Primal Companion=1		TYPE:Primal Companion	HD:mastervar("RangerLVL")-1	BONUS:HP|CURRENTMAX|5*mastervar("RangerLVL")	BONUS:COMBAT|AC|mastervar("WIS")|TYPE=Bonus
+FOLLOWER:Primal Companion=1		TYPE:Primal Companion	BONUS:HP|CURRENTMAX|5*mastervar("RangerLVL")	BONUS:COMBAT|AC|mastervar("WIS")|TYPE=Bonu
 FOLLOWER:Primal Companion=1		TYPE:Primal Companion	BONUS:VAR|Proficiency_Bonus|mastervar("Proficiency_Bonus")	BONUS:SAVE|ALL|mastervar("Proficiency Bonus")
+FOLLOWER:Primal Companion=2		TYPE:Primal Companion	HD:1
+FOLLOWER:Primal Companion=3		TYPE:Primal Companion	HD:1
+FOLLOWER:Primal Companion=4		TYPE:Primal Companion	HD:1
+FOLLOWER:Primal Companion=5		TYPE:Primal Companion	HD:1
+FOLLOWER:Primal Companion=6		TYPE:Primal Companion	HD:1
+FOLLOWER:Primal Companion=7		TYPE:Primal Companion	HD:1
+FOLLOWER:Primal Companion=8		TYPE:Primal Companion	HD:1
+FOLLOWER:Primal Companion=9		TYPE:Primal Companion	HD:1
+FOLLOWER:Primal Companion=10		TYPE:Primal Companion	HD:1
+FOLLOWER:Primal Companion=11		TYPE:Primal Companion	HD:1
+FOLLOWER:Primal Companion=12		TYPE:Primal Companion	HD:1
+FOLLOWER:Primal Companion=13		TYPE:Primal Companion	HD:1
+FOLLOWER:Primal Companion=14		TYPE:Primal Companion	HD:1
+FOLLOWER:Primal Companion=15		TYPE:Primal Companion	HD:1
+FOLLOWER:Primal Companion=16		TYPE:Primal Companion	HD:1
+FOLLOWER:Primal Companion=17		TYPE:Primal Companion	HD:1
+FOLLOWER:Primal Companion=18		TYPE:Primal Companion	HD:1
+FOLLOWER:Primal Companion=19		TYPE:Primal Companion	HD:1
+FOLLOWER:Primal Companion=20		TYPE:Primal Companion	HD:1
