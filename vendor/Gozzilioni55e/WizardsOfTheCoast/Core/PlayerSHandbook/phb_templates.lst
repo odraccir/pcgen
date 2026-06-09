@@ -67,3 +67,7 @@ Awakened Beast	VISIBLE:NO	DEFINESTAT:LOCK|INT|10		ADD:LANGUAGE|TYPE=Spoken
 Familiar ~ Celestial	VISIBLE:NO	RACETYPE:Celestial	RACESUBTYPE:Augmented Beast
 Familiar ~ Fey	VISIBLE:NO	RACETYPE:Fey	RACESUBTYPE:Augmented Beast
 Familiar ~ Fiend	VISIBLE:NO	RACETYPE:Fiend	RACESUBTYPE:Augmented Beast
+
+Steed ~ Celestial	VISIBLE:NO	RACETYPE:Celestial	NATURALATTACKS:Otherwordly Slam,Weapon.Natural.Melee.Radiant,*1,1d8	ABILITY:Special Ability|AUTOMATIC|Otherwordly Steed ~ Fell Glare
+Steed ~ Fey	VISIBLE:NO	RACETYPE:Fey	NATURALATTACKS:Otherwordly Slam,Weapon.Natural.Melee.Psychic,*1,1d8	ABILITY:Special Ability|AUTOMATIC|Otherwordly Steed ~ Fey Step
+Steed ~ Fiend	VISIBLE:NO	RACETYPE:Fiend	NATURALATTACKS:Otherwordly Slam,Weapon.Natural.Melee.Necrotic,*1,1d8	ABILITY:Special Ability|AUTOMATIC|Otherwordly Steed ~ Healing Touch
