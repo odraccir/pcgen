@@ -30,6 +30,263 @@ ALIGN:CE
 STARTPACK:UA	VISIBLE:NO	APPLY:INSTANT
 ALIGN:UA
 
+###block:Background Starting Equipment
+STARTPACK:Acolyte Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+GEAR:Calligrapher's Supplies
+GEAR:Book (Prayers)
+GEAR:Parchment (Sheet)	QTY:10
+GEAR:Robe
+FUNDS:gp	QTY:8
+
+STARTPACK:Acolyte Equipment (B)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+FUNDS:gp	QTY:50
+
+STARTPACK:Artisan Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+GEAR:Pouch (Belt)	QTY:2
+GEAR:Clothes (Traveler)
+FUNDS:gp	QTY:32
+
+STARTPACK:Artisan Equipment (B)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+FUNDS:gp	QTY:50
+
+STARTPACK:Charlatan Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+GEAR:Forgery Kit
+GEAR:Costume
+GEAR:Clothes (Fine)
+FUNDS:gp	QTY:15
+
+STARTPACK:Charlatan Equipment (B)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+FUNDS:gp	QTY:50
+
+STARTPACK:Criminal Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+GEAR:Dagger	QTY:2
+GEAR:Thieves' Tools
+GEAR:Crowbar
+GEAR:Pouch	QTY:2
+GEAR:Clothes (Traveler)
+FUNDS:gp	QTY:16
+
+STARTPACK:Criminal Equipment (B)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+FUNDS:gp	QTY:50
+
+STARTPACK:Entertainer Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+GEAR:Costume	QTY:2
+GEAR:Mirror (Small/Steel)
+GEAR:Perfume (Vial)
+GEAR:Clothes (Traveler)
+FUNDS:gp	QTY:11
+
+STARTPACK:Entertainer Equipment (B)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+FUNDS:gp	QTY:50
+
+STARTPACK:Farmer Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+GEAR:Sickle
+GEAR:Carpenter's Tools
+GEAR:Healer's Kit
+GEAR:Pot (Iron)
+GEAR:Shovel
+GEAR:Clothes (Traveler)
+FUNDS:gp	QTY:30
+
+STARTPACK:Farmer Equipment (B)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+FUNDS:gp	QTY:50
+
+STARTPACK:Guard Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+GEAR:Spear
+GEAR:Light Crossbow
+GEAR:Bolts (20)
+GEAR:Lantern (Hooded)
+GEAR:Manacles
+GEAR:Quiver
+GEAR:Clothes (Traveler)
+FUNDS:gp	QTY:12
+
+STARTPACK:Guard Equipment (B)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+FUNDS:gp	QTY:50
+
+STARTPACK:Guide Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+GEAR:Shortbow
+GEAR:Arrows (20)
+GEAR:Cartographer's Tools
+GEAR:Bedroll
+GEAR:Quiver
+GEAR:Tent
+GEAR:Clothes (Traveler)
+FUNDS:gp	QTY:3
+
+STARTPACK:Guide Equipment (B)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+FUNDS:gp	QTY:50
+
+STARTPACK:Hermit Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+GEAR:Quarterstaff
+GEAR:Herbalism Kit
+GEAR:Bedroll
+GEAR:Book (Philosophy)
+GEAR:Lamp
+GEAR:Oil (Flask)	QTY:3
+GEAR:Clothes (Traveler)
+FUNDS:gp	QTY:16
+
+STARTPACK:Hermit Equipment (B)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+FUNDS:gp	QTY:50
+
+STARTPACK:Merchant Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+GEAR:Navigtor's Tools
+GEAR:Pouch	QTY:2
+GEAR:Clothes (Traveler)
+FUNDS:gp	QTY:22
+
+STARTPACK:Merchant Equipment (B)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+FUNDS:gp	QTY:50
+
+STARTPACK:Noble Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+GEAR:Clothes (Fine)
+GEAR:Perfume (Vial)
+FUNDS:gp	QTY:29
+
+STARTPACK:Noble Equipment (B)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+FUNDS:gp	QTY:50
+
+STARTPACK:Sage Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+GEAR:Quarterstaff
+GEAR:Calligrapher's Supplies
+GEAR:Book (History)
+GEAR:Parchment (Sheet)
+GEAR:Robe
+FUNDS:gp	QTY:8
+
+STARTPACK:Sage Equipment (B)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+FUNDS:gp	QTY:50
+
+STARTPACK:Sailor Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+GEAR:Dagger
+GEAR:Navigator's Tools
+GEAR:Rope
+GEAR:Clothes (Traveler)
+FUNDS:gp	QTY:20
+
+STARTPACK:Sailor Equipment (B)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+FUNDS:gp	QTY:50
+
+STARTPACK:Scribe Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+GEAR:Calligrapher's Supplies
+GEAR:Clothes (Fine)
+GEAR:Lamp
+GEAR:Oil (Flask)	QTY:3
+GEAR:Parchment (Sheet)	QTY:12
+FUNDS:gp	QTY:23
+
+STARTPACK:Scribe Equipment (B)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+FUNDS:gp	QTY:50
+
+STARTPACK:Soldier Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+GEAR:Spear
+GEAR:Shortbow
+GEAR:Arrows (20)
+GEAR:Healer's Kit
+GEAR:Quiver
+GEAR:Clothes (Traveler)
+FUNDS:gp	QTY:14
+
+STARTPACK:Soldier Equipment (B)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+FUNDS:gp	QTY:50
+
+STARTPACK:Wayfarer Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+GEAR:Dagger	QTY:2
+GEAR:Thieves' Tools
+GEAR:Bedroll
+GEAR:Pouch	QTY:2
+GEAR:Clothes (Traveler)
+FUNDS:gp	QTY:16
+
+STARTPACK:Wayfarer Equipment (B)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+FUNDS:gp	QTY:50
+
+
+
+
+
+
+#Holy Symbols
+STARTPACK:Holy Symbol (Amulet)	EQUIPBUY:0
+GEAR:Holy Symbol (Amulet)
+STARTPACK:Holy Symbol (Emblem)	EQUIPBUY:0
+GEAR:Holy Symbol (Emblem)
+STARTPACK:Holy Symbol (Reliquary)	EQUIPBUY:0
+GEAR:Holy Symbol (Reliquary)
+
+#Artisan's Tools
+STARTPACK:Alchemist's Supplies	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Alchemist's Supplies
+GEAR:Alchemist's Supplies
+STARTPACK:Brewer's Supplies	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Brewer's Supplies
+GEAR:Brewer's Supplies
+STARTPACK:Calligrapher's Supplies	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Calligrapher Supplies
+GEAR:Calligrapher's Supplies
+STARTPACK:Carpenter's Tools	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Carpenter's Tools
+GEAR:Carpenter's Tools
+STARTPACK:Cartographer's Tools	EQUIPBUY:0		PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Cartographer's Tools
+GEAR:Cartographer's Tools
+STARTPACK:Cobbler's Tools	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Cobbler's Tools
+GEAR:Cobbler's Tools
+STARTPACK:Cook's Utensils	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Cook's Utensils
+GEAR:Cook's Utensils
+STARTPACK:Glassblower's Tools	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Glassblower's Tools
+GEAR:Glassblower's Tools
+STARTPACK:Jeweler's Tools	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Jeweler's Tools
+GEAR:Jeweler's Tools
+STARTPACK:Leatherworker's Tools	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Leatherworker's Tools
+GEAR:Leatherworker's Tools
+STARTPACK:Mason's Tools	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Mason's Tools
+GEAR:Mason's Tools
+STARTPACK:Painter's Supplies	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Painter's Supplies
+GEAR:Painter's Supplies
+STARTPACK:Potter's Tools	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Potter's Tools
+GEAR:Potter's Tools
+STARTPACK:Smith's Tools	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Smith's Tools
+GEAR:Smith's Tools
+STARTPACK:Tinker's Tools	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Tinker's Tools
+GEAR:Tinker's Tools
+STARTPACK:Weaver's Tools	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Weaver's Tools
+GEAR:Weaver's Tools
+STARTPACK:Woodcarver's Tools	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Woodcarver's Tools
+GEAR:Woodcarver's Tools
+
+#Musical Instruments
+STARTPACK:Musical Instrument (Bagpipes)	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Bagpipes
+GEAR:Musical Instrument (Bagpipes)
+STARTPACK:Musical Instrument (Bagpipes)    EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Bagpipes
+GEAR:Musical Instrument (Bagpipes)
+STARTPACK:Musical Instrument (Drum)    EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Drum
+GEAR:Musical Instrument (Drum)
+STARTPACK:Musical Instrument (Dulcimer)    EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Dulcimer
+GEAR:Musical Instrument (Dulcimer)
+STARTPACK:Musical Instrument (Flute)    EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Flute
+GEAR:Musical Instrument (Flute)
+STARTPACK:Musical Instrument (Horn)    EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Horn
+GEAR:Musical Instrument (Horn)
+STARTPACK:Musical Instrument (Lute)    EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Lute
+GEAR:Musical Instrument (Lute)
+STARTPACK:Musical Instrument (Lyre)    EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Lyre
+GEAR:Musical Instrument (Lyre)
+STARTPACK:Musical Instrument (Pan Flute)    EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Pan Flute
+GEAR:Musical Instrument (Pan Flute)
+STARTPACK:Musical Instrument (Shawm)    EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Shawm
+GEAR:Musical Instrument (Shawm)
+STARTPACK:Musical Instrument (Viol)    EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Viol
+GEAR:Musical Instrument (Viol)
+
+#Gaming Set
+STARTPACK:Gaming Set (Dice)	EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Dice Set
+GEAR:Gaming Set (Dice)
+STARTPACK:Gaming Set (Dragonchess)	EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Dragonchess
+GEAR:Gaming Set (Dragonchess)
+STARTPACK:Gaming Set (Playing Cards)	EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Playing Card
+GEAR:Gaming Set (Playing Cards)
+STARTPACK:Gaming Set (Three-Dragon Ante)	EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Three-Dragon Ante
+GEAR:Gaming Set (Three-Dragon Ante)
+
+
+
 ###BLOCK:Races
 STARTPACK:Beast of the Land Stats	TYPE:DefaultMonster	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Beast of the Land
 STAT:STR=10|DEX=10|CON=11|INT=10|WIS=10|CHA=11

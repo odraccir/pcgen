@@ -66,7 +66,7 @@ Bedroll	TYPE:Adventuring Gear	COST:1	WT:7
 Bell	TYPE:Adventuring Gear	COST:1	WT:0
 Blanket (Winter)	TYPE:Adventuring Gear	COST:0.5	WT:3
 Block and Tackle	TYPE:Adventuring Gear	COST:5	WT:5
-Book	TYPE:Adventuring Gear.Book	COST:25	WT:5	MODS:REQUIRED
+Book	TYPE:Adventuring Gear.Book	COST:25	WT:5
 Bottle (Glass/Wine)	TYPE:Adventuring Gear.Container	COST:2	WT:2	CONTAINS:1.5|Liquid=3
 Bucket	TYPE:Adventuring Gear.Container	COST:0.5	WT:2	CONTAINS:UNLIM|Any
 Caltrops	TYPE:Adventuring Gear	COST:1	WT:2
@@ -142,7 +142,7 @@ Priest's Pack	TYPE:Adventuring Gear.Pack.Container	COST:33	WT:0	SPROP:A Priest's
 Scholar's Pack	TYPE:Adventuring Gear.Pack.Container	COST:40	WT:0	SPROP:A Scholar's Pack contains the following items: Backpack, Book, Ink, Ink Pen, Lamp, 10 flasks of Oil, 10 sheets of Parchment, and Tinderbox.	KIT:1|Scholar's Pack
 
 ###Block: Mounts
-Saddle TYPE:Adventuring Gear.Mount	COST:10	WT:25	SPROP:Include bit and bridle.
+Saddle	TYPE:Adventuring Gear.Mount	COST:10	WT:25	SPROP:Include bit and bridle.
 Military Saddle	TYPE:Adventuring Gear.Mount	COST:20	WT:30	SPROP:Advantage on any ability check you make to remain mounted.
 Exotic Saddle	TYPE:Adventuring Gear.Mount	COST:60	WT:40
 
@@ -207,9 +207,9 @@ Hireling (Skilled/per day)		TYPE:Service	COST:2
 Hireling (Untrained/per day)		TYPE:Service	COST:0.2
 Messenger (Per Mile)		TYPE:Service	COST:0.02
 
-Spells (Cantrip/Village, Town or City)		TYPE:Service.SpellServices	COST:30
-Spells (1st level/Village, Town or City)		TYPE:Service.SpellServices	COST:50
-Spells (2nd level/Village, Town or City)		TYPE:Service.SpellServices	COST:200
+Spells (Cantrip/Village or Town or City)		TYPE:Service.SpellServices	COST:30
+Spells (1st level/Village or Town or City)		TYPE:Service.SpellServices	COST:50
+Spells (2nd level/Village or Town or City)		TYPE:Service.SpellServices	COST:200
 Spells (3rd level/Town or City)		TYPE:Service.SpellServices	COST:300
 Spells (4th level/Town or City)		TYPE:Service.SpellServices	COST:2000
 Spells (5th level/Town or City)		TYPE:Service.SpellServices	COST:2000
@@ -218,7 +218,9 @@ Spells (7th level/City)		TYPE:Service.SpellServices	COST:20000
 Spells (8th level/City)		TYPE:Service.SpellServices	COST:20000
 Spells (9th level/City)		TYPE:Service.SpellServices	COST:100000
 
-
+Book.COPY=Book (Prayers)	KEY:Book (Prayers)	OUTPUTNAME:Book (Prayers)
+Book.COPY=Book (Philosophy)	KEY:Book (Philosophy)	OUTPUTNAME:Book (Philosophy)
+Book.COPY=Book (History)	KEY:Book (History)	OUTPUTNAME:Book (History)
 
 
 

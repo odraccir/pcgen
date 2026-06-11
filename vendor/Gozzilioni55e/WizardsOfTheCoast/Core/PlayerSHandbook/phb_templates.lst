@@ -27,16 +27,16 @@ Warlock	VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Warlock=1	BONUS:VAR|POOL_Warlock_S
 Wizard	VISIBLE:NO	TYPE:FirstLevel	PRECLASS:1,Wizard=1	BONUS:VAR|POOL_Wizard_Skill|2		ABILITY:Internal|AUTOMATIC|Saving Throw ~ Int|Saving Throw ~ Wis	ABILITY:Weapon|AUTOMATIC|TYPE=WeaponProfSimple		ABILITY:Internal|AUTOMATIC|Multiclass Allowed|PRESTAT:1,INT=13																																																								
 
 ### Block: Dragonborn Subraces
-Black	TYPE:Dragonborn Subrace	VISIBLE:NO	SUBRACE:Black	SOURCEPAGE:PHB
-Blue	TYPE:Dragonborn Subrace	VISIBLE:NO	SUBRACE:Blue	SOURCEPAGE:PHB
-Brass	TYPE:Dragonborn Subrace	VISIBLE:NO	SUBRACE:Brass	SOURCEPAGE:PHB
-Bronze	TYPE:Dragonborn Subrace	VISIBLE:NO	SUBRACE:Bronze	SOURCEPAGE:PHB
-Copper	TYPE:Dragonborn Subrace	VISIBLE:NO	SUBRACE:Copper	SOURCEPAGE:PHB
-Gold	TYPE:Dragonborn Subrace	VISIBLE:NO	SUBRACE:Gold	SOURCEPAGE:PHB
-Green	TYPE:Dragonborn Subrace	VISIBLE:NO	SUBRACE:Green	SOURCEPAGE:PHB
-Red	TYPE:Dragonborn Subrace	VISIBLE:NO	SUBRACE:Red	SOURCEPAGE:PHB
-Silver	TYPE:Dragonborn Subrace	VISIBLE:NO	SUBRACE:Silver	SOURCEPAGE:PHB
-White	TYPE:Dragonborn Subrace	VISIBLE:NO	SUBRACE:White	SOURCEPAGE:PHB
+Black	TYPE:Dragonborn Subrace	VISIBLE:NO	KEY:Draconic Ancestry ~ Black	SUBRACE:Black	SOURCEPAGE:PHB
+Blue	TYPE:Dragonborn Subrace	VISIBLE:NO	KEY:Draconic Ancestry ~ Blue	SUBRACE:Blue	SOURCEPAGE:PHB
+Brass	TYPE:Dragonborn Subrace	VISIBLE:NO	KEY:Draconic Ancestry ~ Brass	SUBRACE:Brass	SOURCEPAGE:PHB
+Bronze	TYPE:Dragonborn Subrace	VISIBLE:NO	KEY:Draconic Ancestry ~ Bronze	SUBRACE:Bronze	SOURCEPAGE:PHB
+Copper	TYPE:Dragonborn Subrace	VISIBLE:NO	KEY:Draconic Ancestry ~ Copper	SUBRACE:Copper	SOURCEPAGE:PHB
+Gold	TYPE:Dragonborn Subrace	VISIBLE:NO	KEY:Draconic Ancestry ~ Gold	SUBRACE:Gold	SOURCEPAGE:PHB
+Green	TYPE:Dragonborn Subrace	VISIBLE:NO	KEY:Draconic Ancestry ~ Green	SUBRACE:Green	KEY:Draconic Ancestry ~ Green	SOURCEPAGE:PHB
+Red	TYPE:Dragonborn Subrace	VISIBLE:NO	SUBRACE:Red	KEY:Draconic Ancestry ~ Red	SOURCEPAGE:PHB
+Silver	TYPE:Dragonborn Subrace	VISIBLE:NO	KEY:Draconic Ancestry ~ Silver	SUBRACE:Silver	SOURCEPAGE:PHB
+White	TYPE:Dragonborn Subrace	VISIBLE:NO	KEY:Draconic Ancestry ~ White	SUBRACE:White	SOURCEPAGE:PHB
 
 ### Block:Elven Subraces
 Drow	TYPE:Elven Subrace	KEY:Elven Lineage ~ Drow	VISIBLE:NO	SUBRACE:Drow	SOURCEPAGE:PHB

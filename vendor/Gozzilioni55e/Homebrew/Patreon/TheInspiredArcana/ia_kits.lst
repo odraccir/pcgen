@@ -1,0 +1,25 @@
+SOURCELONG:The Inspired Arcana	SOURCESHORT:IA	SOURCEWEB:https://www.patreon.com/cw/TheInspiredArcana	SOURCEDATE:2026-02
+
+STARTPACK:Cultist Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+GEAR:Bedroll
+GEAR:Candle
+GEAR:Forgery Kit
+GEAR:Book (Occult)
+GEAR:Robe
+FUNDS:gp	QTY:7
+
+STARTPACK:Cultist Equipment (B)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+FUNDS:gp	QTY:50
+
+STARTPACK:Survivor Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+GEAR:Backpack
+GEAR:Cartographer's Tools
+GEAR
+GEAR:Tent
+GEAR:Torch
+GEAR:GEAR:Clothes (Traveler)
+GEAR:Explorer's Pack
+FUNDS:gp	QTY:18
+
+STARTPACK:Survivor Equipment (B)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+FUNDS:gp	QTY:50

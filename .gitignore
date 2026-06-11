@@ -1,3 +1,122 @@
+# Local PCGen configuration files (these are created when you run PCGen from the root dir)
+/pcgen.ini
+/config.ini
+/config.ini.junit
+.settings/
+/settings/
+
+# Batch converter
+batch-convert.jar
+
+# Plugins
+plugins/*.jar
+plugins/*plugins/
+
+# characters that you might create, see the .gitignore file in that folder
+characters/*
+!characters/CodeMonkey.pcg
+!characters/Everything.pcg
+!characters/Sorcerer.pcg
+!characters/SpecialWizard.pcg
+
+# Binary locations
+bin/
+code/bin/
+code/build/
+code/comp-manifest
+code/manifest
+
+# JVM Error log if Java craches
+hs_err_*.log
+
+# Checkstyle configuration
+checkstyle-cachefile
+.checkstyle
+
+# Exclude most? equipment and party sheets (which are generated?)
+outputsheets/d20/*/htmlxml/eqsheet*.htm
+outputsheets/d20/*/htmlxml/psheet*.htm
+!outputsheets/d20/fantasy_craft/htmlxml/psheet_fantasy_std.htm
+!outputsheets/d20/fantasy_craft/htmlxml/eqsheet_fantasy_std.htm
+!outputsheets/d20/fantasy/htmlxml/eqsheet_fantasy_consumables.htm
+!outputsheets/d20/fantasy/htmlxml/eqsheet_fantasy_std.htm
+!outputsheets/d20/fantasy/htmlxml/psheet_fantasy_std.htm
+!outputsheets/d20/fantasy/htmlxml/psheet_fantasy_std_PFRPG.htm
+!outputsheets/d20/modern/htmlxml/psheet_modern_std.htm
+!outputsheets/d20/modern/htmlxml/eqsheet_modern_std.htm
+
+# Custom shell and batch scripts
+/pcgen.sh
+pcgen_low_mem.bat
+Trunk.bat
+
+# Generated Logs
+pcgen.log
+pcgen.log.*
+variable_report.csv
+variable_report.html
+
+# Binaries / Binary folders produced by the build
+pcgen.exe
+pcgen.jar
+/output/
+/build/
+/libs/
+output/
+build/
+libs/
+code/testsuite/output/
+.gradle/
+pcgen-batch-convert.jar
+.metadata
+target/
+
+# Data we want to exclude, see .gitignore files within
+data/customsources/*
+!data/customsources/readme-customsources.txt
+!data/homebrew/readme.txt
+!data/homebrew/conversion_support/
+!data/homebrew/my_pathfinder_campaign/
+
+# Installers
+installers/win-installer/project.nsh
+installers/win-installer/includes/constants.nsh
+installers/win-installer/includes/data.nsh
+
+# Netbeans IDE
+.nb-gradle/
+.nb-gradle-properties
+
+# Eclipse IDE
+.classpath
+.project
+code/build.eclipse/
+
+# IntelliJ IDE
+.idea/
+out/
+pcgendev.iml
+pcgen.iml
+pcgen.ipr
+pcgen.iws
+
+# VS Code IDE
+.vscode/
+
+# jenv local version
+.java-version
+
+# pmd
+/.pmd
+/.ruleset
+
+# Misc
+jre/
+mods/
+code/manifest-tests
+.DS_Store
+
+# 
 .~lock.*
 .github/**/*
 *.~lock.*
@@ -14,6 +133,7 @@ conf/**/*
 data/**/*
 docs/**/*
 include/**/*
+installers/**/*
 legal/**/*
 jre/**/*
 lib/**/*
@@ -29,6 +149,14 @@ code/**/*
 vendor_file/**/*
 vendordata/**/*
 vendor/**/*.csv
+xdocs/**/*
+AGENTS.md
+README.md
+apex-ruleset.xml
+appveyor.yml
+build-gradle.xml
+build.gradle
+checkstyle.xml
 autobuild.properties
 config.ini
 LICENSE
@@ -47,8 +175,11 @@ pcgen-convert_hi_mem.bat
 release
 !system/gameModes/35e/**
 !data/35e/wizards_of_the_coast/**
+!system/gameModes/5e/**
+!data/5e/wizards_of_the_coast/**
 !system/gameModes/G35e/**
 !system/gameModes/G5e/**
+!system/gameModes/G55e/**
 !vendor/**
 #system/gameModes/35e/**
 #system/gameModes/Darwins_World_2/**
