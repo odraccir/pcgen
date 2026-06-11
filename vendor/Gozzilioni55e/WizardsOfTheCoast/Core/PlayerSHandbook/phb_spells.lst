@@ -138,6 +138,99 @@ Feather Fall				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Bard=1|Sorcerer=1|Wiza
 Feign Death				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Ritual	CLASSES:Bard=3|Cleric=3|Druid=3|Wizard=3	COMPS:V, S, M	CASTTIME:Action	RANGE:Touch.		DURATION:1 hour			SOURCEPAGE:PHB
 Find Familiar				TYPE:Spell	SCHOOL:Conjuration		DESCRIPTOR:Ritual	CLASSES:Wizard=1	COMPS:V, S, M	CASTTIME:1 hour	RANGE:10 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB		COST:10
 Find Steed				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Paladin=2	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Find the Path				TYPE:Spell	SCHOOL:Divination			CLASSES:Bard=6|Cleric=6|Druid=6	COMPS:V, S, M	CASTTIME:1 minute	RANGE:Self.		DURATION:Concentration, up to 1 day			SOURCEPAGE:PHB		COST:100
+Find Traps				TYPE:Spell	SCHOOL:Divination			CLASSES:Cleric=2|Druid=2|Ranger=2	COMPS:V, S	CASTTIME:Action	RANGE:120 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Finger of Death				TYPE:Spell	SCHOOL:Necromancy			CLASSES:Sorcerer=7|Warlock=7|Wizard=7	COMPS:V, S	CASTTIME:Action	RANGE:60 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Fireball				TYPE:Spell	SCHOOL:Evocation			CLASSES:Sorcerer=3|Wizard=3	COMPS:V, S, M	CASTTIME:Action	RANGE:150 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Fire Bolt				TYPE:Spell	SCHOOL:Evocation			CLASSES:Sorcerer=0|Wizard=0	COMPS:V, S	CASTTIME:Action	RANGE:120 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Fire Shield				TYPE:Spell	SCHOOL:Evocation			CLASSES:Druid=4|Sorcerer=4|Wizard=4	COMPS:V, S, M	CASTTIME:Action	RANGE:Self.		DURATION:10 minutes			SOURCEPAGE:PHB
+Fire Storm				TYPE:Spell	SCHOOL:Evocation			CLASSES:Cleric=7|Druid=7|Sorcerer=7	COMPS:V, S	CASTTIME:Action	RANGE:150 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Flame Blade				TYPE:Spell	SCHOOL:Evocation			CLASSES:Druid=2|Sorcerer=2	COMPS:V, S, M	CASTTIME:Bonus Action	RANGE:Self.		DURATION:Concentration, up to 10 minutes			SOURCEPAGE:PHB
+Flame Strike				TYPE:Spell	SCHOOL:Evocation			CLASSES:Cleric=5	COMPS:V, S, M	CASTTIME:Action	RANGE:60 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Flaming Sphere				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Druid=2|Sorcerer=2|Wizard=2	COMPS:V, S, M	CASTTIME:Action	RANGE:60 feet.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Flesh to Stone				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Druid=6|Sorcerer=6|Wizard=6	COMPS:V, S, M	CASTTIME:Action	RANGE:60 feet.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Fly				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Sorcerer=3|Warlock=3|Wizard=3	COMPS:V, S, M	CASTTIME:Action	RANGE:Touch.		DURATION:Concentration, up to 10 minutes			SOURCEPAGE:PHB
+Fog Cloud				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Druid=1|Ranger=1|Sorcerer=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:120 feet.		DURATION:Concentration up to 1 hour			SOURCEPAGE:PHB
+Forbiddance				TYPE:Spell	SCHOOL:Abjuration		DESCRIPTOR:Ritual	CLASSES:Cleric=6	COMPS:V, S, M	CASTTIME:10 minutes	RANGE:Touch.		DURATION:1 day			SOURCEPAGE:PHB		COST:1000
+Forcecage				TYPE:Spell	SCHOOL:Evocation			CLASSES:Bard=7|Warlock=7|Wizard=7	COMPS:V, S, M	CASTTIME:Action	RANGE:100 feet.		DURATION:Concentration, up to 1 hour			SOURCEPAGE:PHB		COST:1500
+Foresight				TYPE:Spell	SCHOOL:Divination			CLASSES:Bard=9|Druid=9|Warlock=7|Wizard=7	COMPS:V, S, M	CASTTIME:1 minute	RANGE:Touch.		DURATION:8 hours			SOURCEPAGE:PHB
+Fount of Moonlight				TYPE:Spell	SCHOOL:Evocation			CLASSES:Bard=4|Druid=4	COMPS:V, S	CASTTIME:Action	RANGE:Self.		DURATION:Concentration, up to 10 minutes			SOURCEPAGE:PHB
+Freedom of Movement				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Bard=4|Cleric=4|Druid=4|Ranger=4	COMPS:V, S, M	CASTTIME:Action	RANGE:Touch.		DURATION:1 hour			SOURCEPAGE:PHB
+Friends				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=0|Sorcerer=0|Warlock=0|Wizard=0	COMPS:S, M	CASTTIME:Action	RANGE:10 feet.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Gaseous Form				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Sorcerer=3|Warlock=3|Wizard=3	COMPS:V, S, M	CASTTIME:Action	RANGE:Touch.		DURATION:Concentration, up to 1 hour			SOURCEPAGE:PHB
+Gate				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Cleric=9|Sorcerer=9|Warlock=9|Wizard=9	COMPS:V, S, M	CASTTIME:Action	RANGE:60 feet.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB		COST:5000
+Geas				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=5|Cleric=5|Druid=5|Paladin=5|Wizard=5	COMPS:V	CASTTIME:1 minute	RANGE:60 feet.		DURATION:30 days			SOURCEPAGE:PHB
+Gentle Repose				TYPE:Spell	SCHOOL:Necromancy		DESCRIPTOR:Ritual	CLASSES:Cleric=2|Paladin=2|Wizard=2	COMPS:V, S, M	CASTTIME:Action	RANGE:Touch.		DURATION:10 days			SOURCEPAGE:PHB		COST:0.02
+Giant Insect				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Druid=4	COMPS:V, S	CASTTIME:Action	RANGE:60 feet.		DURATION:Concentration, up to 10 minutes			SOURCEPAGE:PHB
+Glibness				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=8|Warlock=8	COMPS:V	CASTTIME:Action	RANGE:Self.		DURATION:1 hour			SOURCEPAGE:PHB
+Globe of Invulnerability				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Sorcerer=6|Wizard=6	COMPS:V, S, M	CASTTIME:Action	RANGE:Self.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Glyph of Warding				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Bard=3|Cleric=3|Wizard=3	COMPS:V, S, M	CASTTIME:1 hour	RANGE:Touch.		DURATION:Until dispelled ot triggered			SOURCEPAGE:PHB		COST:200
+Goodberry				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Druid=1|Ranger=1	COMPS:V, S, M	CASTTIME:Action	RANGE:Self.		DURATION:24 hours			SOURCEPAGE:PHB
+Grasping Vine				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Druid=4|Ranger=4	COMPS:V, S	CASTTIME:Bonus Action	RANGE:60 feet.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Grease				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Sorcerer=1|Wizard=1	COMPS:V, S, M	CASTTIME:Action	RANGE:60 feet.		DURATION:1 minute			SOURCEPAGE:PHB
+Greater Invisibility				TYPE:Spell	SCHOOL:Illusion			CLASSES:Bard=4|Sorcerer=4|Wizard=4	COMPS:V, S	CASTTIME:Action	RANGE:Touch.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Greater Restoration				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Bard=5|Cleric=5|Druid=5|Paladin=5|Ranger=5	COMPS:V, S, M	CASTTIME:Action	RANGE:Touch.		DURATION:Instantaneous			SOURCEPAGE:PHB		COST:100
+Guardian of Faith				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Cleric=4	COMPS:V	CASTTIME:Action	RANGE:30 feet.		DURATION:8 hours			SOURCEPAGE:PHB
+Guards and Wards				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Bard=6|Wizard=6	COMPS:V, S, M	CASTTIME:1 hour	RANGE:Touch.		DURATION:24 hours			SOURCEPAGE:PHB		COST:10
+Guidance				TYPE:Spell	SCHOOL:Divination			CLASSES:Cleric=0|Druid=0	COMPS:V, S	CASTTIME:Action	RANGE:Touch.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Guiding Bolt				TYPE:Spell	SCHOOL:Evocation			CLASSES:Cleric=1	COMPS:V, S	CASTTIME:Action	RANGE:120 feet.		DURATION:1 round			SOURCEPAGE:PHB
+Gust of Wind				TYPE:Spell	SCHOOL:Evocation			CLASSES:Druid=2|Ranger=2|Sorcerer=2|Wizard=2	COMPS:V, S, M	CASTTIME:Action	RANGE:Self.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Hail of Thorns				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Ranger=1	COMPS:V	CASTTIME:Bonus Action, which you take immediately after hitting a creature with a Ranged weapon	RANGE:Self.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Hallow				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Cleric=5	COMPS:V, S, M	CASTTIME:24 hours	RANGE:Touch.		DURATION:Until dispelled			SOURCEPAGE:PHB		COST:1000
+Hallucinatory Terrain				TYPE:Spell	SCHOOL:Illusion			CLASSES:Bard=4|Druid=4|Warlock=4|Wizard=4	COMPS:V, S, M	CASTTIME:10 minutes	RANGE:300 feet.		DURATION:24 hours			SOURCEPAGE:PHB
+Harm				TYPE:Spell	SCHOOL:Necromancy			CLASSES:Cleric=6	COMPS:V, S	CASTTIME:Action	RANGE:60 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Haste				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Sorcerer=3|Wizard=3	COMPS:V, S, M	CASTTIME:Action	RANGE:30 feet.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Heal				TYPE:Spell	SCHOOL:abjuration			CLASSES:Cleric=6|Druid=6	COMPS:V, S	CASTTIME:Action	RANGE:60 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Healing Word				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Bard=1|Cleric=1|Druid=1	COMPS:V	CASTTIME:Bonus Action	RANGE:60 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Heat Metal				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Bard=2|Druid=2	COMPS:V, S, M	CASTTIME:Action	RANGE:60 feet.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Hellish Rebuke				TYPE:Spell	SCHOOL:Evocation			CLASSES:Warlock=1	COMPS:V, S	CASTTIME:Reaction , which you take in response to taking damage from a creature that you can see within 60 feet of yourself	RANGE:60 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Heroes' Feast				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Bard=6|Cleric=6|Druid=6	COMPS:V, S, M	CASTTIME:10 minutes	RANGE:Self.		DURATION:Instantaneous			SOURCEPAGE:PHB		COST:1000
+Heroism				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=1|Paladin=1	COMPS:V, S	CASTTIME:Action	RANGE:Touch.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Hex				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Warlock=1	COMPS:V, S, M	CASTTIME:Bonus Action	RANGE:90 feet.		DURATION:Concentration, up to 1 hour			SOURCEPAGE:PHB
+Hold Monster				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=5|Sorcerer=5|Warlock=5|Wizard=5	COMPS:V, S, M	CASTTIME:Action	RANGE:90 feet.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Hold Person				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=2|Cleric=2|Druid=2|Sorcerer=2|Warlock=2|Wizard=2	COMPS:V, S, M	CASTTIME:Action	RANGE:60 feet.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Holy Aura				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Cleric=8	COMPS:V, S, M	CASTTIME:Action	RANGE:Self.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB		COST:1000
+Hunger of Hadar				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Warlock=3	COMPS:V, S, M	CASTTIME:Action	RANGE:150 feet.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Hunter's Mark				TYPE:Spell	SCHOOL:Divination			CLASSES:Ranger=1	COMPS:V	CASTTIME:Bonus Action	RANGE:90 feet.		DURATION:Concentration, up to 1 hour			SOURCEPAGE:PHB
+Hypnotic Pattern				TYPE:Spell	SCHOOL:Illusion			CLASSES:Bard=3|Sorcerer=3|Warlock=3|Wizard=3	COMPS:S, M	CASTTIME:Action	RANGE:120 feet.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Ice Knife				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Druid=1|Sorcerer=1|Wizard=1	COMPS:S, M	CASTTIME:Action	RANGE:60 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Ice Storm				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Druid=4|Sorcerer=4|Wizard=4	COMPS:V, S, M	CASTTIME:Action	RANGE:300 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Identify				TYPE:Spell	SCHOOL:Divination		DESCRIPTOR:Ritual	CLASSES:Bard=1|Wizard=1	COMPS:V, S	CASTTIME:1 minute	RANGE:Touch.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Illusory Script				TYPE:Spell	SCHOOL:Illusion		DESCRIPTOR:Ritual	CLASSES:Bard=1|Warlock=1|Wizard=1	COMPS:S, M	CASTTIME:1 minute	RANGE:Touch.		DURATION:10 days			SOURCEPAGE:PHB		COST:10
+Imprisonment				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Warlock=9|Wizard=9	COMPS:V, S, M	CASTTIME:1 minute	RANGE:30 feet.		DURATION:Until Dispelled			SOURCEPAGE:PHB		COST:5000
+Incendiary Cloud				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Druid=8|Sorcerer=8|Wizard=8	COMPS:V, S	CASTTIME:Action	RANGE:150 feet.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Inflict Wounds				TYPE:Spell	SCHOOL:Necromancy			CLASSES:Cleric=1	COMPS:V, S	CASTTIME:Action	RANGE:Touch.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Insect Plague				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Cleric=5|Druid=5|Sorcerer=5	COMPS:V, S, M	CASTTIME:Action	RANGE:300 feet.		DURATION:Concentration, up to 10 minutes			SOURCEPAGE:PHB
+Invisibility				TYPE:Spell	SCHOOL:Illusion			CLASSES:Bard=2|Sorcerer=2|Warlock=2|Wizard=2	COMPS:V, S, M	CASTTIME:Action	RANGE:Touch.		DURATION:Concentration, up to 1 hour			SOURCEPAGE:PHB
+Jallarzi's Storm of Radiance				TYPE:Spell	SCHOOL:Evocation			CLASSES:Warlock=5|Wizard=5	COMPS:V, S, M	CASTTIME:Action	RANGE:120 feet.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Jump				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Druid=1|Ranger=1|Sorcerer=1|Wizard=1	COMPS:V, S, M	CASTTIME:Bonus Action	RANGE:Touch.		DURATION:1 minute			SOURCEPAGE:PHB
+Knock				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Bard=2|Sorcerer=2|Wizard=2	COMPS:V	CASTTIME:Action	RANGE:60 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Legend Lore				TYPE:Spell	SCHOOL:Divination			CLASSES:Bard=5|Cleric=5|Wizard=5	COMPS:V, S, M	CASTTIME:10 minutes	RANGE:Self.		DURATION:Instantaneous			SOURCEPAGE:PHB		COST:450
+Leomund's Secret Chest				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Wizard=4	COMPS:V, S, M	CASTTIME:Action	RANGE:Touch.		DURATION:Until Dispelled			SOURCEPAGE:PHB		COST:5050
+Leomund's Tiny Hut				TYPE:Spell	SCHOOL:Evocation		DESCRIPTOR:Ritual	CLASSES:Bard=3|Wizard=3	COMPS:V, S, M	CASTTIME:1 minute	RANGE:Self.		DURATION:8 hour			SOURCEPAGE:PHB
+Lesser Restoration				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Bard=2|Cleric=2|Druid=2|Paladin=2|Ranger=2	COMPS:V, S	CASTTIME:Bonus Action	RANGE:Touch.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Levitate				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Sorcerer=2|Wizard=2	COMPS:V, S, M	CASTTIME:Action	RANGE:60 feet.		DURATION:Concentration, up to 10 minutes			SOURCEPAGE:PHB
+Light				TYPE:Spell	SCHOOL:Evocation			CLASSES:Bard=0|Cleric=0|Sorcerer=0|Wizard=0	COMPS:V, M	CASTTIME:Action	RANGE:Touch.		DURATION:1 hour			SOURCEPAGE:PHB
+Lightning Arrow				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Ranger=3	COMPS:V, S	CASTTIME:Bonus Action, which you take immediately after hitting or missing a target with a ranged attack using a weapon	RANGE:Self.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Lightning Bolt				TYPE:Spell	SCHOOL:Evocation			CLASSES:Sorcerer=3|Wizard=3	COMPS:V, S, M	CASTTIME:Action	RANGE:Self.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Locate Animals or Plant				TYPE:Spell	SCHOOL:Divination		DESCRIPTOR:Ritual	CLASSES:Bard=2|Druid=2|Ranger=2	COMPS:V, S, M	CASTTIME:Action	RANGE:Self.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Locate Creature				TYPE:Spell	SCHOOL:Divination			CLASSES:Bard=4|Druid=4|Paladin=4|Ranger=4|Wizard=4	COMPS:V, S, M	CASTTIME:Action	RANGE:Self.		DURATION:Concentration, up to 1 hour			SOURCEPAGE:PHB
+Locate Object				TYPE:Spell	SCHOOL:Divination			CLASSES:Bard=2|Cleric=2|Druid=2|Paladin=2|Ranger=2|Wizard=2	COMPS:V, S, M	CASTTIME:Action	RANGE:Self.		DURATION:Concentration, up to 10 minutes			SOURCEPAGE:PHB
+Longstrider				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Bard=1|Druid=1|Ranger=1|Wizard=1	COMPS:V, S, M	CASTTIME:Action	RANGE:Touch.		DURATION:1 hour			SOURCEPAGE:PHB
+Mage Armor				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Sorcerer=1|Wizard=1	COMPS:V, S, M	CASTTIME:Action	RANGE:Touch.		DURATION:8 hours			SOURCEPAGE:PHB
+Mage Hand				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Bard=0|Sorcerer=0|Warlock=0|Wizard=0	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:1 minute			SOURCEPAGE:PHB
+Magic Circle				TYPE:Spell	SCHOOL:Anjuration			CLASSES:Cleric=3|Paladin=3|Warlock=3|Wizard=3	COMPS:V, S, M	CASTTIME:1 minute	RANGE:10 feet.		DURATION:1 hour			SOURCEPAGE:PHB		COST:100
+Magic Jar				TYPE:Spell	SCHOOL:Necromancy			CLASSES:Wizard=6	COMPS:V, S, M	CASTTIME:1 minute	RANGE:Self.		DURATION:Until dispelled			SOURCEPAGE:PHB		COST:500
+Magic Missile				TYPE:Spell	SCHOOL:Evocation			CLASSES:Sorcerer=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:120 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Magic Mouth				TYPE:Spell	SCHOOL:Illusion		DESCRIPTOR:Ritual	CLASSES:Bard=2|Wizard=2	COMPS:V, S, M	CASTTIME:1 minute	RANGE:30 feet.		DURATION:Until dispelled			SOURCEPAGE:PHB		COST:10
+Magic Weapon				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Paladin=2|Ranger=2|Sorcerer=2|Wizard=2	COMPS:V, S	CASTTIME:Bonus Action	RANGE:Touch.		DURATION:1 hour			SOURCEPAGE:PHB
+Major Image				TYPE:Spell	SCHOOL:Illusion			CLASSES:Bard=3|Sorcerer=3|Warlock=3|Wizard=3	COMPS:V, S, M	CASTTIME:Action	RANGE:120 feet.		DURATION:Concentration, up to 10 minutes			SOURCEPAGE:PHB
+Mass Cure Wound				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Bard=5|Cleric=5|Druid=5	COMPS:V, S	CASTTIME:Action	RANGE:60 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Mass Heal				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Cleric=9	COMPS:V, S	CASTTIME:Action	RANGE:60 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Mass Healing Word				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Bard=3|Cleric=3|Sorcerer=1|Warlock=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB
+#				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=1|Druid=1|Sorcerer=1|Warlock=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB
+#				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=1|Druid=1|Sorcerer=1|Warlock=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB
+#				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=1|Druid=1|Sorcerer=1|Warlock=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB
 #				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=1|Druid=1|Sorcerer=1|Warlock=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB
 #				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=1|Druid=1|Sorcerer=1|Warlock=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB
 #				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=1|Druid=1|Sorcerer=1|Warlock=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB
