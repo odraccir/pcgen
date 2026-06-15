@@ -43,14 +43,25 @@ FOLLOWER:SteedSlot=8	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1
 FOLLOWER:SteedSlot=9	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1
 
 FOLLOWER:GiantInsectLVL=1	TYPE:Giant Insect	BONUS:VAR|Proficiency_Bonus|mastervar("Proficiency_Bonus")
-FOLLOWER:GiantInsectSlot=1	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1	BONUS:WEAPONPROF=Poison Jab|ATTACKS|(GiantInsectSlot-1)	BONUS:WEAPONPROF=Poison Jab|DAMAGE|GiantInsectSlot	BONUS:WEAPONPROF=Web Bolt|ATTACKS|(GiantInsectSlot-1)	BONUS:WEAPONPROF=Web Bolt|DAMAGE|GiantInsectSlot
-FOLLOWER:GiantInsectSlot=2	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1	
-FOLLOWER:GiantInsectSlot=3	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1
-FOLLOWER:GiantInsectSlot=4	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1
-FOLLOWER:GiantInsectSlot=5	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1
-FOLLOWER:GiantInsectSlot=6	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1
-FOLLOWER:GiantInsectSlot=7	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1
-FOLLOWER:GiantInsectSlot=8	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1
-FOLLOWER:GiantInsectSlot=9	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1
+FOLLOWER:GiantInsectSlot=1	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1	BONUS:WEAPONPROF=Poison Jab|ATTACKS|(GiantInsectSlot-1)	BONUS:WEAPONPROF=Poison Jab|DAMAGE|GiantInsectSlot	BONUS:WEAPONPROF=Web Bolt|ATTACKS|(GiantInsectSlot-1)	BONUS:WEAPONPROF=Web Bolt|DAMAGE|GiantInsectSlot
+FOLLOWER:GiantInsectSlot=2	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1	
+FOLLOWER:GiantInsectSlot=3	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1
+FOLLOWER:GiantInsectSlot=4	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1
+FOLLOWER:GiantInsectSlot=5	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1
+FOLLOWER:GiantInsectSlot=6	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1
+FOLLOWER:GiantInsectSlot=7	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1
+FOLLOWER:GiantInsectSlot=8	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1
+FOLLOWER:GiantInsectSlot=9	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1
 
 FOLLOWER:PhantomSteedLVL=1	TYPE:Phantom Steed	RACESUBTYPE:Quasi-real	MOVE:Walk,100
+
+FOLLOWER:SummonAberrationLVL=1	TYPE:Summon Aberration	BONUS:VAR|Proficiency_Bonus|mastervar("Proficiency_Bonus")
+FOLLOWER:SummonAberrationSlot=1	TYPE:Summon Aberration		BONUS:COMBAT|AC|1
+FOLLOWER:SummonAberrationSlot=2	TYPE:Summon Aberration		BONUS:COMBAT|AC|1	
+FOLLOWER:SummonAberrationSlot=3	TYPE:Summon Aberration		BONUS:COMBAT|AC|1
+FOLLOWER:SummonAberrationSlot=4	TYPE:Summon Aberration		BONUS:COMBAT|AC|1
+FOLLOWER:SummonAberrationSlot=5	TYPE:Summon Aberration	HD:2	BONUS:COMBAT|AC|1
+FOLLOWER:SummonAberrationSlot=6	TYPE:Summon Aberration	HD:2	BONUS:COMBAT|AC|1
+FOLLOWER:SummonAberrationSlot=7	TYPE:Summon Aberration	HD:2	BONUS:COMBAT|AC|1
+FOLLOWER:SummonAberrationSlot=8	TYPE:Summon Aberration	HD:2	BONUS:COMBAT|AC|1
+FOLLOWER:SummonAberrationSlot=9	TYPE:Summon Aberration	HD:2	BONUS:COMBAT|AC|1
