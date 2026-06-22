@@ -43,25 +43,72 @@ FOLLOWER:SteedSlot=8	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1
 FOLLOWER:SteedSlot=9	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1
 
 FOLLOWER:GiantInsectLVL=1	TYPE:Giant Insect	BONUS:VAR|Proficiency_Bonus|mastervar("Proficiency_Bonus")
-FOLLOWER:GiantInsectSlot=1	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1	BONUS:WEAPONPROF=Poison Jab|ATTACKS|(GiantInsectSlot-1)	BONUS:WEAPONPROF=Poison Jab|DAMAGE|GiantInsectSlot	BONUS:WEAPONPROF=Web Bolt|ATTACKS|(GiantInsectSlot-1)	BONUS:WEAPONPROF=Web Bolt|DAMAGE|GiantInsectSlot
-FOLLOWER:GiantInsectSlot=2	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1	
-FOLLOWER:GiantInsectSlot=3	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1
-FOLLOWER:GiantInsectSlot=4	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1
-FOLLOWER:GiantInsectSlot=5	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1
-FOLLOWER:GiantInsectSlot=6	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1
-FOLLOWER:GiantInsectSlot=7	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1
-FOLLOWER:GiantInsectSlot=8	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1
-FOLLOWER:GiantInsectSlot=9	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1
+FOLLOWER:GiantInsectSlot=1	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1		BONUS:WEAPONPROF=Poison Jab|DAMAGE|GiantInsectSlot	BONUS:WEAPONPROF=Web Bolt|DAMAGE|GiantInsectSlot
+FOLLOWER:GiantInsectSlot=2	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:GiantInsectSlot=3	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:GiantInsectSlot=4	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:GiantInsectSlot=5	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:GiantInsectSlot=6	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:GiantInsectSlot=7	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:GiantInsectSlot=8	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:GiantInsectSlot=9	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
 
-FOLLOWER:PhantomSteedLVL=1	TYPE:Phantom Steed	RACESUBTYPE:Quasi-real	MOVE:Walk,100
+FOLLOWER:PhantomSteedLVL=1	TYPE:Phantom Steed	TEMPLATE:Quasi-real	MOVE:Walk,100
 
 FOLLOWER:SummonAberrationLVL=1	TYPE:Summon Aberration	BONUS:VAR|Proficiency_Bonus|mastervar("Proficiency_Bonus")
-FOLLOWER:SummonAberrationSlot=1	TYPE:Summon Aberration		BONUS:COMBAT|AC|1
-FOLLOWER:SummonAberrationSlot=2	TYPE:Summon Aberration		BONUS:COMBAT|AC|1	
+FOLLOWER:SummonAberrationSlot=1	TYPE:Summon Aberration		BONUS:COMBAT|AC|1	BONUS:WEAPONPROF=Natural|DAMAGE|SummonAberrationSlot
+FOLLOWER:SummonAberrationSlot=2	TYPE:Summon Aberration		BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
 FOLLOWER:SummonAberrationSlot=3	TYPE:Summon Aberration		BONUS:COMBAT|AC|1
-FOLLOWER:SummonAberrationSlot=4	TYPE:Summon Aberration		BONUS:COMBAT|AC|1
+FOLLOWER:SummonAberrationSlot=4	TYPE:Summon Aberration		BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
 FOLLOWER:SummonAberrationSlot=5	TYPE:Summon Aberration	HD:2	BONUS:COMBAT|AC|1
-FOLLOWER:SummonAberrationSlot=6	TYPE:Summon Aberration	HD:2	BONUS:COMBAT|AC|1
+FOLLOWER:SummonAberrationSlot=6	TYPE:Summon Aberration	HD:2	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
 FOLLOWER:SummonAberrationSlot=7	TYPE:Summon Aberration	HD:2	BONUS:COMBAT|AC|1
-FOLLOWER:SummonAberrationSlot=8	TYPE:Summon Aberration	HD:2	BONUS:COMBAT|AC|1
+FOLLOWER:SummonAberrationSlot=8	TYPE:Summon Aberration	HD:2	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
 FOLLOWER:SummonAberrationSlot=9	TYPE:Summon Aberration	HD:2	BONUS:COMBAT|AC|1
+
+FOLLOWER:SummonBeastLVL=1	TYPE:Summon Beast	BONUS:VAR|Proficiency_Bonus|mastervar("Proficiency_Bonus")
+FOLLOWER:SummonBeastSlot=1	TYPE:Summon Beast		BONUS:COMBAT|AC|1		BONUS:WEAPONPROF=Natural|DAMAGE|SummonBeastSlot
+FOLLOWER:SummonBeastSlot=2	TYPE:Summon Beast		BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:SummonBeastSlot=3	TYPE:Summon Beast	HD:1	BONUS:COMBAT|AC|1
+FOLLOWER:SummonBeastSlot=4	TYPE:Summon Beast	HD:1	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:SummonBeastSlot=5	TYPE:Summon Beast	HD:1	BONUS:COMBAT|AC|1
+FOLLOWER:SummonBeastSlot=6	TYPE:Summon Beast	HD:1	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:SummonBeastSlot=7	TYPE:Summon Beast	HD:1	BONUS:COMBAT|AC|1
+FOLLOWER:SummonBeastSlot=8	TYPE:Summon Beast	HD:1	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:SummonBeastSlot=9	TYPE:Summon Beast	HD:1	BONUS:COMBAT|AC|1
+
+
+FOLLOWER:SummonCelestialLVL=1	TYPE:Summon Celestial	BONUS:VAR|Proficiency_Bonus|mastervar("Proficiency_Bonus")
+FOLLOWER:SummonCelestialSlot=1	TYPE:Summon Celestial		BONUS:COMBAT|AC|1	BONUS:WEAPONPROF=Natural|DAMAGE|SummonCelestialSlot	BONUS:VAR|HealingTouchBonus|SummonCelestialSlot
+FOLLOWER:SummonCelestialSlot=2	TYPE:Summon Celestial		BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:SummonCelestialSlot=3	TYPE:Summon Celestial		BONUS:COMBAT|AC|1
+FOLLOWER:SummonCelestialSlot=4	TYPE:Summon Celestial		BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:SummonCelestialSlot=5	TYPE:Summon Celestial		BONUS:COMBAT|AC|1
+FOLLOWER:SummonCelestialSlot=6	TYPE:Summon Celestial	HD:2	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:SummonCelestialSlot=7	TYPE:Summon Celestial	HD:2	BONUS:COMBAT|AC|1
+FOLLOWER:SummonCelestialSlot=8	TYPE:Summon Celestial	HD:2	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:SummonCelestialSlot=9	TYPE:Summon Celestial	HD:2	BONUS:COMBAT|AC|1
+
+FOLLOWER:SummonConstructLVL=1	TYPE:Summon Construct	BONUS:VAR|Proficiency_Bonus|mastervar("Proficiency_Bonus")
+FOLLOWER:SummonConstructSlot=1	TYPE:Summon Construct		BONUS:COMBAT|AC|1	BONUS:WEAPONPROF=Natural|DAMAGE|SummonConstructSlot
+FOLLOWER:SummonConstructSlot=2	TYPE:Summon Construct		BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:SummonConstructSlot=3	TYPE:Summon Construct		BONUS:COMBAT|AC|1
+FOLLOWER:SummonConstructSlot=4	TYPE:Summon Construct		BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:SummonConstructSlot=5	TYPE:Summon Construct	HD:2	BONUS:COMBAT|AC|1
+FOLLOWER:SummonConstructSlot=6	TYPE:Summon Construct	HD:2	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:SummonConstructSlot=7	TYPE:Summon Construct	HD:2	BONUS:COMBAT|AC|1
+FOLLOWER:SummonConstructSlot=8	TYPE:Summon Construct	HD:2	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:SummonConstructSlot=9	TYPE:Summon Construct	HD:2	BONUS:COMBAT|AC|1
+
+FOLLOWER:SummonDragonLVL=1	TYPE:Summon Dragon	BONUS:VAR|Proficiency_Bonus|mastervar("Proficiency_Bonus")
+FOLLOWER:SummonDragonSlot=1	TYPE:Summon Dragon		BONUS:COMBAT|AC|1	BONUS:WEAPONPROF=Natural|DAMAGE|SummonDragonSlot
+FOLLOWER:SummonDragonSlot=2	TYPE:Summon Dragon		BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:SummonDragonSlot=3	TYPE:Summon Dragon		BONUS:COMBAT|AC|1
+FOLLOWER:SummonDragonSlot=4	TYPE:Summon Dragon		BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:SummonDragonSlot=5	TYPE:Summon Dragon	HD:2	BONUS:COMBAT|AC|1
+FOLLOWER:SummonDragonSlot=6	TYPE:Summon Dragon	HD:2	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:SummonDragonSlot=7	TYPE:Summon Dragon	HD:2	BONUS:COMBAT|AC|1
+FOLLOWER:SummonDragonSlot=8	TYPE:Summon Dragon	HD:2	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:SummonDragonSlot=9	TYPE:Summon Dragon	HD:2	BONUS:COMBAT|AC|1
+
+MASTERBONUSRACE:Draconic Spirit	TYPE:Summon Dragon	BONUS:ABILITYPOOL|Shared Resistancies|1

@@ -62,7 +62,7 @@ STARTPACK:Criminal Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
 GEAR:Dagger	QTY:2
 GEAR:Thieves' Tools
 GEAR:Crowbar
-GEAR:Pouch	QTY:2
+GEAR:Pouch (Belt)	QTY:2
 GEAR:Clothes (Traveler)
 FUNDS:gp	QTY:16
 
@@ -131,8 +131,8 @@ STARTPACK:Hermit Equipment (B)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
 FUNDS:gp	QTY:50
 
 STARTPACK:Merchant Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
-GEAR:Navigtor's Tools
-GEAR:Pouch	QTY:2
+GEAR:Navigator's Tools
+GEAR:Pouch (Belt)	QTY:2
 GEAR:Clothes (Traveler)
 FUNDS:gp	QTY:22
 
@@ -195,7 +195,7 @@ STARTPACK:Wayfarer Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
 GEAR:Dagger	QTY:2
 GEAR:Thieves' Tools
 GEAR:Bedroll
-GEAR:Pouch	QTY:2
+GEAR:Pouch (Belt)	QTY:2
 GEAR:Clothes (Traveler)
 FUNDS:gp	QTY:16
 
@@ -238,6 +238,8 @@ STARTPACK:Leatherworker's Tools	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool P
 GEAR:Leatherworker's Tools
 STARTPACK:Mason's Tools	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Mason's Tools
 GEAR:Mason's Tools
+STARTPACK:Navigator's Tools	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Navigator's Tools
+GEAR:Navigator's Tools
 STARTPACK:Painter's Supplies	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Painter's Supplies
 GEAR:Painter's Supplies
 STARTPACK:Potter's Tools	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Potter's Tools
@@ -254,35 +256,33 @@ GEAR:Woodcarver's Tools
 #Musical Instruments
 STARTPACK:Musical Instrument (Bagpipes)	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Bagpipes
 GEAR:Musical Instrument (Bagpipes)
-STARTPACK:Musical Instrument (Bagpipes)    EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Bagpipes
-GEAR:Musical Instrument (Bagpipes)
-STARTPACK:Musical Instrument (Drum)    EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Drum
+STARTPACK:Musical Instrument (Drum)	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Drum
 GEAR:Musical Instrument (Drum)
-STARTPACK:Musical Instrument (Dulcimer)    EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Dulcimer
+STARTPACK:Musical Instrument (Dulcimer)	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Dulcimer
 GEAR:Musical Instrument (Dulcimer)
-STARTPACK:Musical Instrument (Flute)    EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Flute
+STARTPACK:Musical Instrument (Flute)	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Flute
 GEAR:Musical Instrument (Flute)
-STARTPACK:Musical Instrument (Horn)    EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Horn
+STARTPACK:Musical Instrument (Horn)	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Horn
 GEAR:Musical Instrument (Horn)
-STARTPACK:Musical Instrument (Lute)    EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Lute
+STARTPACK:Musical Instrument (Lute)	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Lute
 GEAR:Musical Instrument (Lute)
-STARTPACK:Musical Instrument (Lyre)    EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Lyre
+STARTPACK:Musical Instrument (Lyre)	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Lyre
 GEAR:Musical Instrument (Lyre)
-STARTPACK:Musical Instrument (Pan Flute)    EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Pan Flute
+STARTPACK:Musical Instrument (Pan Flute)	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Pan Flute
 GEAR:Musical Instrument (Pan Flute)
-STARTPACK:Musical Instrument (Shawm)    EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Shawm
+STARTPACK:Musical Instrument (Shawm)	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Shawm
 GEAR:Musical Instrument (Shawm)
-STARTPACK:Musical Instrument (Viol)    EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Viol
+STARTPACK:Musical Instrument (Viol)	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Viol
 GEAR:Musical Instrument (Viol)
 
 #Gaming Set
-STARTPACK:Gaming Set (Dice)	EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Dice Set
+STARTPACK:Gaming Set (Dice)	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Dice Set
 GEAR:Gaming Set (Dice)
-STARTPACK:Gaming Set (Dragonchess)	EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Dragonchess
+STARTPACK:Gaming Set (Dragonchess)	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Dragonchess
 GEAR:Gaming Set (Dragonchess)
-STARTPACK:Gaming Set (Playing Cards)	EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Playing Card
+STARTPACK:Gaming Set (Playing Cards)	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Playing Card
 GEAR:Gaming Set (Playing Cards)
-STARTPACK:Gaming Set (Three-Dragon Ante)	EQUIPBUY:0    PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Three-Dragon Ante
+STARTPACK:Gaming Set (Three-Dragon Ante)	EQUIPBUY:0	PREABILITY:1,CATEGORY=Internal,Tool Proficiency ~ Three-Dragon Ante
 GEAR:Gaming Set (Three-Dragon Ante)
 
 
@@ -353,7 +353,7 @@ GEAR:Bedroll	LOCATION:Entertainer's Pack
 GEAR:Bell	LOCATION:Entertainer's Pack
 GEAR:Lantern (Bullseye)	LOCATION:Entertainer's Pack
 GEAR:Costume	LOCATION:Entertainer's Pack	QTY:2
-GEAR:Mirror	LOCATION:Entertainer's Pack
+GEAR:Mirror (Small/Steel)	LOCATION:Entertainer's Pack
 GEAR:Oil (Flask)	LOCATION:Entertainer's Pack	QTY:8
 GEAR:Rations (Trail/Per Day)	LOCATION:Entertainer's Pack	QTY:9
 GEAR:Tinderbox	LOCATION:Entertainer's Pack

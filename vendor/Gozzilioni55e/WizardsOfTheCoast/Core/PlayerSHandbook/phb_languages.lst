@@ -22,3 +22,4 @@ Sylvan	TYPE:Spoken.Feywilds
 Thieves' Cant	TYPE:Spoken.Rogue.Secret	PREVARGTEQ:RogueLanguage,1
 Undercommon	TYPE:Spoken.Underdark
 
+Common Sign Language	TYPE:Spoken

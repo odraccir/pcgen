@@ -12,7 +12,7 @@ Quarterstaff	TYPE:Weapon.Simple.Monk
 Sickle		TYPE:Weapon.Simple.Monk
 Spear			TYPE:Weapon.Simple.Monk
 Unarmed Strike	TYPE:Weapon.Simple.Monk
-Crossbow (Light)	TYPE:Weapon.Simple
+Light Crossbow	TYPE:Weapon.Simple
 Dart			TYPE:Weapon.Simple
 Shortbow		TYPE:Weapon.Simple
 Sling			TYPE:Weapon.Simple
@@ -36,7 +36,12 @@ War Pick		TYPE:Weapon.Martial
 Warhammer		TYPE:Weapon.Martial
 Whip			TYPE:Weapon.Martial
 Blowgun		TYPE:Weapon.Martial
-Crossbow (Hand)	TYPE:Weapon.Martial
-Crossbow (Heavy)	TYPE:Weapon.Martial
+Hand Crossbow	TYPE:Weapon.Martial
+Heavy Crossbow	TYPE:Weapon.Martial
 Longbow		TYPE:Weapon.Martial
 Net			TYPE:Weapon.Martial
+
+Musket	TYPE:Weapon.Martial
+Pistol	TYPE:Weapon.Martial
+
+Psychic Blade	TYPE:Weapon.Simple

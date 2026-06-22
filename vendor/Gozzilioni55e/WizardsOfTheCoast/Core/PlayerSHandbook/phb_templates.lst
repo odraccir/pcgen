@@ -60,6 +60,7 @@ Abyssal	TYPE:Tiefling Subrace	KEY:Fiendish Legacy ~ Abyssal	VISIBLE:NO	SUBRACE:A
 Chtonic	TYPE:Tiefling Subrace	KEY:Fiendish Legacy ~ Chthonic	VISIBLE:NO	SUBRACE:Chthonic	SOURCEPAGE:PHB
 Infernal	TYPE:Tiefling Subrace	KEY:Fiendish Legacy ~ Infernal	VISIBLE:NO	SUBRACE:Infernal	SOURCEPAGE:PHB
 
+###Block: Spells
 Awaken	TYPE:Spell Effect	TEMPLATE:CHOOSE:Awakened Beast|Awakened Plant	VISIBLE:YES	SUBRACE:Awakened	!PRESTAT:1,INT=4
 Awakened Plant	VISIBLE:NO	DEFINESTAT:LOCK|INT|10	PRERACE:1,Awakened Shrub,Awakened Tree	ADD:LANGUAGE|TYPE=Spoken
 Awakened Beast	VISIBLE:NO	DEFINESTAT:LOCK|INT|10		ADD:LANGUAGE|TYPE=Spoken
@@ -71,3 +72,5 @@ Familiar ~ Fiend	VISIBLE:NO	RACETYPE:Fiend	RACESUBTYPE:Augmented Beast
 Steed ~ Celestial	VISIBLE:NO	RACETYPE:Celestial	NATURALATTACKS:Otherwordly Slam,Weapon.Natural.Melee.Radiant,*1,1d8	ABILITY:Special Ability|AUTOMATIC|Otherwordly Steed ~ Fell Glare
 Steed ~ Fey	VISIBLE:NO	RACETYPE:Fey	NATURALATTACKS:Otherwordly Slam,Weapon.Natural.Melee.Psychic,*1,1d8	ABILITY:Special Ability|AUTOMATIC|Otherwordly Steed ~ Fey Step
 Steed ~ Fiend	VISIBLE:NO	RACETYPE:Fiend	NATURALATTACKS:Otherwordly Slam,Weapon.Natural.Melee.Necrotic,*1,1d8	ABILITY:Special Ability|AUTOMATIC|Otherwordly Steed ~ Healing Touch
+
+Quasi-real	VISIBLE:NO	RACESUBTYPE:Quasi-real

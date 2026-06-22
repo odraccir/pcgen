@@ -520,4 +520,4 @@ CLASS:Wizard	SPELLSTAT:INT	MEMORIZE:YES	BONUS:CASTERLEVEL|Wizard|CL
 5	ABILITY:Special Ability|AUTOMATIC|Wizard ~ Memorize Spell
 18	ABILITY:Special Ability|AUTOMATIC|Wizard ~ Spell Mastery
 19	ABILITY:Special Ability|AUTOMATIC|Wizard ~ Epic Boon
-20	ABILITY:Special Ability|AUTOMATIC|Wizard ~ Signature Spells
+20	ABILITY:Special Ability|AUTOMATIC|Wizard ~ Signature Spell
