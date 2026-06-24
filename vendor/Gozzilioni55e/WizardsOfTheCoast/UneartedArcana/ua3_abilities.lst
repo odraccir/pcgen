@@ -6,3 +6,24 @@ Purple Dragon Companion (Base)	CATEGORY:Internal								DEFINE:PurpleDragonCompa
 Purple Dragon Companion	CATEGORY:Internal	TYPE:PurpleDragonCompanionSelection	VISIBLE:NO																													SOURCEPAGE:PHB				
 Expanded Selection	CATEGORY:Internal	TYPE:PurpleDragonCompanionSelection.PurpleDragonCompanionAlternate		KEY:Expanded Selection ~ Purple Dragon Companion																			COST:0	COMPANIONLIST:Purple Dragon Companion|ANY								SOURCEPAGE:PHB				
 Purple Dragon Companion (Default)	CATEGORY:Internal	TYPE:PurpleDragonCompanionSelection.PurpleDragonCompanionBase		KEY:Standard Selection ~ Purple Dragon Companion	!PREABILITY:1,CATEGORY=Internal,TYPE.PurpleDragonCompanionAlternate																		COST:0	COMPANIONLIST:Purple Dragon Companion|Purple Dragon								SOURCEPAGE:PHB				
+
+###Block: Temporary Abilities																																																																																																																																																																																																																			
+Bladesong (Agility)	CATEGORY:Special Ability	TYPE:Temporary Ability	VISIBLE:YES	DESC:Bladesong Agility.	KEY:Temporary Ability ~ Bladesong ~ Agility	PRECLASS:1,Wizard=1	TEMPBONUS:PC|COMBAT|AC|max(INT,1)|TYPE=Temporary	TEMPBONUS:PC|MOVEADD|TYPE.Walk|10|TTYPE=Temporary	SOURCEPAGE:PHB
+Bladesong (Bladework)	CATEGORY:Special Ability	TYPE:Temporary Ability	VISIBLE:YES	DESC:Bladesong Bladework.	KEY:Temporary Ability ~ Bladesong ~ Bladework	PRECLASS:1,Wizard=1	TEMPBONUS:PC|COMBAT|TOHIT.Melee|max(INT,STR)-STR|TYPE=Temporary	TEMPBONUS:PC|COMBAT|TOHIT.Ranged|max(INT,DEX)-DEX|TYPE=Temporary	TEMPBONUS:PC|COMBAT|DAMAGE.Melee|max(INT,STR)-STR|TYPE=Temporary	TEMPBONUS:PC|COMBAT|TOHIT.Ranged|max(INT,DEX)-DEX|TYPE=Temporary	SOURCEPAGE:PHB
+Bladesong (Focus)	CATEGORY:Special Ability	TYPE:Temporary Ability	VISIBLE:YES	DESC:Bladesong Focus.	KEY:Temporary Ability ~ Bladesong ~ Focus	PRECLASS:1,Wizard=1	TEMPBONUS:PC|SKILL|Concentration|INT|TYPE=Temporary	SOURCEPAGE:PHB
+
+# Weapon Profs																																																																																																																																																																																																																			
+Bladesinger Weapon Proficiency	CATEGORY:Internal	TYPE:WeaponProfBladesinger			KEY:Weapon Proficiency ~ Bladesinger	ABILITY:Weapon|AUTOMATIC|TYPE=BladesingerMartialMeleeWeapon																																																																																																																																																																																																													
+
+CATEGORY=Weapon|Battleaxe.MOD	TYPE:BladesingerMartialMeleeWeapon
+CATEGORY=Weapon|Flail.MOD	TYPE:BladesingerMartialMeleeWeapon
+CATEGORY=Weapon|Longsword.MOD	TYPE:BladesingerMartialMeleeWeapon
+CATEGORY=Weapon|Morningstar.MOD	TYPE:BladesingerMartialMeleeWeapon
+CATEGORY=Weapon|Rapier.MOD	TYPE:BladesingerMartialMeleeWeapon
+CATEGORY=Weapon|Scimitar.MOD	TYPE:BladesingerMartialMeleeWeapon
+CATEGORY=Weapon|Shortsword.MOD	TYPE:BladesingerMartialMeleeWeapon
+CATEGORY=Weapon|Trident.MOD	TYPE:BladesingerMartialMeleeWeapon
+CATEGORY=Weapon|Warhammer.MOD	TYPE:BladesingerMartialMeleeWeapon
+CATEGORY=Weapon|War Pick.MOD	TYPE:BladesingerMartialMeleeWeapon
+CATEGORY=Weapon|Whip.MOD	TYPE:BladesingerMartialMeleeWeapon
+

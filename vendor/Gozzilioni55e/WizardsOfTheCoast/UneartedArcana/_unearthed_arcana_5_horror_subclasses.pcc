@@ -1,18 +1,18 @@
-CAMPAIGN:Unearthed Arcana - Modern Magic
+CAMPAIGN:Unearthed Arcana - Horror subclasses
 KEY:Unearthed Arcana
 BOOKTYPE:Web Enhancement
 PRECAMPAIGN:1,BOOKTYPE=Core Rules
 GAMEMODE:G55e
 TYPE:Wizards of the Coast.WebEnhancement
-SOURCELONG:Unearthed Arcana - Modern Magic
+SOURCELONG:Unearthed Arcana - Horror Subclasses
 SOURCESHORT:UA
 SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua
-SOURCEDATE:2015-01
-RANK:201501
+SOURCEDATE:2025-01
+RANK:202501
 PUBNAMELONG:Wizard's of the Coast
 PUBNAMESHORT:WotC
 PUBNAMEWEB:http://www.wizards.com
-COPYRIGHT:Copyright 2014, Wizards of the Coast, Inc.
+COPYRIGHT:Copyright 2024, Wizards of the Coast, Inc.
 ISOGL:NO
 
 # COVER should be cover_gameMode_pub_book.file
@@ -20,12 +20,15 @@ COVER:&/Gozzilioni55e/_artwork/cover_5e2024_wotc_UA.png
 # LOGO should be logo_pub.file
 LOGO:&/Gozzilioni55e/_artwork/logo_wotc.png
 
-INFOTEXT:D&D Unearthed Arcana - Modern Magic
+INFOTEXT:D&D Unearthed Arcana
 
-#EXTRAFILE:ua1_missing.txt
-
-ABILITY:ua1_abilities.lst
-EQUIPMENT:ua1_equip.lst
-SPELL:ua1_spells.lst
+ABILITY:ua5_abilities.lst
+ABILITY:ua5_abilities_class.lst
+ABILITY:ua5_abilities_race.lst
+ABILITYCATEGORY:ua5_abilitygroups.lst
+COMPANIONMOD:ua5_companionmods.lst
+KIT:ua5_kits.lst
+RACE:ua5_races.lst
+SPELL:ua5_spells.lst
 
 INFOTEXT:Supports 6.4.1

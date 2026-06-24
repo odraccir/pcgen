@@ -9,7 +9,7 @@ SOURCESHORT:UA
 SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua
 SOURCEDATE:2024-01
 RANK:202401
-PUBNAMELONG:Wizard	s of the Coast
+PUBNAMELONG:Wizard's of the Coast
 PUBNAMESHORT:WotC
 PUBNAMEWEB:http://www.wizards.com
 COPYRIGHT:Copyright 2024, Wizards of the Coast, Inc.
@@ -21,8 +21,6 @@ COVER:&/Gozzilioni55e/_artwork/cover_5e2024_wotc_UA.png
 LOGO:&/Gozzilioni55e/_artwork/logo_wotc.png
 
 INFOTEXT:D&D Unearthed Arcana
-
-#EXTRAFILE:ua3_missing.txt
 
 ABILITY:ua3_abilities.lst
 ABILITY:ua3_abilities_class.lst

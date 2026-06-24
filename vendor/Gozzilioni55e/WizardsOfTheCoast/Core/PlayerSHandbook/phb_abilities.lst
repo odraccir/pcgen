@@ -39,6 +39,7 @@ CATEGORY=Internal|Default.MOD	DEFINE:ClericSpellDC|0		BONUS:VAR|ClericSpellDC|Sp
 CATEGORY=Internal|Default.MOD	DEFINE:RangerSpellDC|0		BONUS:VAR|RangerSpellDC|SpellDC_WIS																																																																																																																																																																																																																
 CATEGORY=Internal|Default.MOD	DEFINE:PaladinSpellDC|0		BONUS:VAR|PaladinSpellDC|SpellDC_WIS																																																																																																																																																																																																																
 CATEGORY=Internal|Default.MOD	DEFINE:WizardSpellDC|0		BONUS:VAR|WizardSpellDC|SpellDC_INT																																																																																																																																																																																																																
+CATEGORY=Internal|Default.MOD	DEFINE:RogueSpellDC|0		BONUS:VAR|RogueSpellDC|SpellDC_INT																																																																																																																																																																																																																
 																																																																																																																																																																																																																			
 AC Tracker	CATEGORY:Internal	ABILITY:Armor Class Method|AUTOMATIC|AC Tracker ~ Default|!PREABILITY:1,CATEGORY=Special Ability,TYPE.AC_Tracker_SelectionMade	DEFINE:AC_Ability_Score_Bonus|0																																																																																																																																																																																																																
 CATEGORY=Internal|AC Tracker.MOD	DEFINE:POOL_AC_Tracker|0	BONUS:VAR|POOL_AC_Tracker|1|!PREABILITY:1,CATEGORY=Special Ability,TYPE.AC_Tracker_Choice																																																																																																																																																																																																																	
@@ -130,7 +131,7 @@ Charisma	CATEGORY:Internal	TYPE:Save	VISIBLE:DISPLAY		KEY:Saving Throw ~ Cha	BON
 # Weapon Profs																																																																																																																																																																																																																			
 Simple Weapon Proficiency	CATEGORY:Internal	TYPE:WeaponProfSimple.WeaponProfMartial			KEY:Weapon Proficiency ~ Simple	ABILITY:Weapon|AUTOMATIC|TYPE=Simple																																																																																																																																																																																																													
 Martial Weapon Proficiency	CATEGORY:Internal	TYPE:WeaponProfMartial			KEY:Weapon Proficiency ~ Martial	ABILITY:Weapon|AUTOMATIC|TYPE=Martial																																																																																																																																																																																																													
-Monk Weapon Proficiency	CATEGORY:Internal	TYPE:WeaponProfMonk			KEY:Weapon Proficiency ~ Monk	ABILITY:Weapon|AUTOMATIC|TYPE=LightMartial																																																																																																																																																																																																													
+Monk Weapon Proficiency	CATEGORY:Internal	TYPE:WeaponProfMonk			KEY:Weapon Proficiency ~ Monk	ABILITY:Weapon|AUTOMATIC|TYPE=LightMartial|TYPE=Monk																																																																																																																																																																																																													
 Rogue Weapon Proficiency	CATEGORY:Internal	TYPE:WeaponProfRogue			KEY:Weapon Proficiency ~ Rogue	ABILITY:Weapon|AUTOMATIC|TYPE=FinesseSimple|TYPE=LightSimple|TYPE=FinesseMartial|TYPE=LightMartial																																																																																																																																																																																																													
 # Armor Profs																																																																																																																																																																																																																			
 Light Armor Proficiency	CATEGORY:Internal	TYPE:ArmorProfLight.ArmorProfMedium.ArmorProfHeavy			KEY:Armor Proficiency ~ Light	AUTO:ARMORPROF|ARMORTYPE=LightArmor																																																																																																																																																																																																													
@@ -235,8 +236,8 @@ CATEGORY=Internal|Default.MOD	BONUS:VAR|SkillProf_Intimidation|GMAward_Intimidat
 CATEGORY=Internal|Default.MOD	BONUS:VAR|SkillProf_Performance|GMAward_Performance	DEFINE:GMAward_Performance|0																																																																																																																																																																																																																	
 CATEGORY=Internal|Default.MOD	BONUS:VAR|SkillProf_Persuasion|GMAward_Persuasion	DEFINE:GMAward_Persuasion|0																																																																																																																																																																																																																	
 																																																																																																																																																																																																																			
-# Extra Attack Limit																																																																																																																																																																																																																			
-Extra Attack ~ 1	CATEGORY:Internal	DEFINE:ExtraAttacks|0	BONUS:COMBAT|ATTACKS|ExtraAttacks	BONUS:VAR|ExtraAttacks|1																																																																																																																																																																																																															
+# Extra Attack Limit
+Extra Attack ~ 1	CATEGORY:Internal	DEFINE:ExtraAttacks|0	BONUS:COMBAT|ATTACKS|ExtraAttacks	BONUS:VAR|ExtraAttacks|1|TYPE=Base																																																																																																																																																																																																															
 Extra Attack ~ 2	CATEGORY:Internal		BONUS:VAR|ExtraAttacks|1																																																																																																																																																																																																																
 Extra Attack ~ 3	CATEGORY:Internal		BONUS:VAR|ExtraAttacks|1																																																																																																																																																																																																																
 
@@ -753,7 +754,51 @@ Charisma		KEY:Telepathic ~ Charisma	CATEGORY:Internal		TYPE:Telepathic Stats				
 Intelligence	KEY:War Caster ~ Intelligence	CATEGORY:Internal		TYPE:War Caster Stats																				BONUS:STAT|INT|1																																																																																																																																																																																											
 Wisdom		KEY:War Caster ~ Wisdom		CATEGORY:Internal		TYPE:War Caster Stats																				BONUS:STAT|WIS|1																																																																																																																																																																																									
 Charisma		KEY:War Caster ~ Charisma	CATEGORY:Internal		TYPE:War Caster Stats																				BONUS:STAT|CHA|1																																																																																																																																																																																										
-																																																																																																																																																																																																																			
+	
+###Block:Weapon Proficiency	
+# Handles the Proficiency Bonus for Classes, to avoid the inherent overlap PCGen will allow if the tag is not an exact match.
+# Ability Name	Category of Ability	Type	Auto Weapon Prof	Weapon prof. bonus
+Unarmed Strike	CATEGORY:Weapon	TYPE:Weapon Proficiency.Monk	AUTO:WEAPONPROF|Unarmed Strike	BONUS:WEAPONPROF=Unarmed Strike|TOHIT|Proficiency_Bonus|TYPE=Class
+# Ability Name	Category of Ability	Type	Auto Weapon Prof	Weapon prof. bonus
+Club	CATEGORY:Weapon	TYPE:Weapon Proficiency.Simple.LightSimple	AUTO:WEAPONPROF|Club	BONUS:WEAPONPROF=Club|TOHIT|Proficiency_Bonus|TYPE=Class
+Dagger	CATEGORY:Weapon	TYPE:Weapon Proficiency.Simple.LightSimple.FinesseSimple	AUTO:WEAPONPROF|Dagger	BONUS:WEAPONPROF=Dagger|TOHIT|Proficiency_Bonus|TYPE=Class
+Greatclub	CATEGORY:Weapon	TYPE:Weapon Proficiency.Simple	AUTO:WEAPONPROF|Greatclub	BONUS:WEAPONPROF=Greatclub|TOHIT|Proficiency_Bonus|TYPE=Class
+Handaxe	CATEGORY:Weapon	TYPE:Weapon Proficiency.Simple.LightSimple	AUTO:WEAPONPROF|Handaxe	BONUS:WEAPONPROF=Handaxe|TOHIT|Proficiency_Bonus|TYPE=Class
+Javelin	CATEGORY:Weapon	TYPE:Weapon Proficiency.Simple	AUTO:WEAPONPROF|Javelin	BONUS:WEAPONPROF=Javelin|TOHIT|Proficiency_Bonus|TYPE=Class
+Light Hammer	CATEGORY:Weapon	TYPE:Weapon Proficiency.Simple.LightSimple	AUTO:WEAPONPROF|Light Hammer	BONUS:WEAPONPROF=Light Hammer|TOHIT|Proficiency_Bonus|TYPE=Class
+Mace	CATEGORY:Weapon	TYPE:Weapon Proficiency.Simple	AUTO:WEAPONPROF|Mace	BONUS:WEAPONPROF=Mace|TOHIT|Proficiency_Bonus|TYPE=Class
+Quarterstaff	CATEGORY:Weapon	TYPE:Weapon Proficiency.Simple	AUTO:WEAPONPROF|Quarterstaff	BONUS:WEAPONPROF=Quarterstaff|TOHIT|Proficiency_Bonus|TYPE=Class
+Sickle	CATEGORY:Weapon	TYPE:Weapon Proficiency.Simple.LightSimple	AUTO:WEAPONPROF|Sickle	BONUS:WEAPONPROF=Sickle|TOHIT|Proficiency_Bonus|TYPE=Class
+Spear	CATEGORY:Weapon	TYPE:Weapon Proficiency.Simple	AUTO:WEAPONPROF|Spear	BONUS:WEAPONPROF=Spear|TOHIT|Proficiency_Bonus|TYPE=Class
+Crossbow (Light)	CATEGORY:Weapon	TYPE:Weapon Proficiency.Simple	AUTO:WEAPONPROF|Crossbow (Light)	BONUS:WEAPONPROF=Crossbow (Light)|TOHIT|Proficiency_Bonus|TYPE=Class
+Dart	CATEGORY:Weapon	TYPE:Weapon Proficiency.Simple.FinesseSimple	AUTO:WEAPONPROF|Dart	BONUS:WEAPONPROF=Dart|TOHIT|Proficiency_Bonus|TYPE=Class
+Shortbow	CATEGORY:Weapon	TYPE:Weapon Proficiency.Simple	AUTO:WEAPONPROF|Shortbow	BONUS:WEAPONPROF=Shortbow|TOHIT|Proficiency_Bonus|TYPE=Class
+Sling	CATEGORY:Weapon	TYPE:Weapon Proficiency.Simple	AUTO:WEAPONPROF|Sling	BONUS:WEAPONPROF=Sling|TOHIT|Proficiency_Bonus|TYPE=Class
+#
+Battleaxe	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial	AUTO:WEAPONPROF|Battleaxe	BONUS:WEAPONPROF=Battleaxe|TOHIT|Proficiency_Bonus|TYPE=Class
+Flail	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial	AUTO:WEAPONPROF|Flail	BONUS:WEAPONPROF=Flail|TOHIT|Proficiency_Bonus|TYPE=Class
+Glaive	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial	AUTO:WEAPONPROF|Glaive	BONUS:WEAPONPROF=Glaive|TOHIT|Proficiency_Bonus|TYPE=Class
+Greataxe	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial	AUTO:WEAPONPROF|Greataxe	BONUS:WEAPONPROF=Greataxe|TOHIT|Proficiency_Bonus|TYPE=Class
+Greatsword	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial	AUTO:WEAPONPROF|Greatsword	BONUS:WEAPONPROF=Greatsword|TOHIT|Proficiency_Bonus|TYPE=Class
+Halberd	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial	AUTO:WEAPONPROF|Halberd	BONUS:WEAPONPROF=Halberd|TOHIT|Proficiency_Bonus|TYPE=Class
+Lance	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial	AUTO:WEAPONPROF|Lance	BONUS:WEAPONPROF=Lance|TOHIT|Proficiency_Bonus|TYPE=Class
+Longsword	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial	AUTO:WEAPONPROF|Longsword	BONUS:WEAPONPROF=Longsword|TOHIT|Proficiency_Bonus|TYPE=Class
+Maul	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial	AUTO:WEAPONPROF|Maul	BONUS:WEAPONPROF=Maul|TOHIT|Proficiency_Bonus|TYPE=Class
+Morningstar	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial	AUTO:WEAPONPROF|Morningstar	BONUS:WEAPONPROF=Morningstar|TOHIT|Proficiency_Bonus|TYPE=Class
+Pike	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial	AUTO:WEAPONPROF|Pike	BONUS:WEAPONPROF=Pike|TOHIT|Proficiency_Bonus|TYPE=Class
+Rapier	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial.FinesseMartial	AUTO:WEAPONPROF|Rapier	BONUS:WEAPONPROF=Rapier|TOHIT|Proficiency_Bonus|TYPE=Class
+Scimitar	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial.LightMartial.FinesseMartial	AUTO:WEAPONPROF|Scimitar	BONUS:WEAPONPROF=Scimitar|TOHIT|Proficiency_Bonus|TYPE=Class
+Shortsword	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial.LightMartial.FinesseMartial	AUTO:WEAPONPROF|Shortsword	BONUS:WEAPONPROF=Shortsword|TOHIT|Proficiency_Bonus|TYPE=Class
+Trident	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial	AUTO:WEAPONPROF|Trident	BONUS:WEAPONPROF=Trident|TOHIT|Proficiency_Bonus|TYPE=Class
+War Pick	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial	AUTO:WEAPONPROF|War Pick	BONUS:WEAPONPROF=War Pick|TOHIT|Proficiency_Bonus|TYPE=Class
+Warhammer	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial	AUTO:WEAPONPROF|Warhammer	BONUS:WEAPONPROF=Warhammer|TOHIT|Proficiency_Bonus|TYPE=Class
+Whip	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial.FinesseMartial	AUTO:WEAPONPROF|Whip	BONUS:WEAPONPROF=Whip|TOHIT|Proficiency_Bonus|TYPE=Class
+Blowgun	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial	AUTO:WEAPONPROF|Blowgun	BONUS:WEAPONPROF=Blowgun|TOHIT|Proficiency_Bonus|TYPE=Class
+Crossbow (Hand)	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial	AUTO:WEAPONPROF|Crossbow (Hand)	BONUS:WEAPONPROF=Crossbow (Hand)|TOHIT|Proficiency_Bonus|TYPE=Class
+Crossbow (Heavy)	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial	AUTO:WEAPONPROF|Crossbow (Heavy)	BONUS:WEAPONPROF=Crossbow (Heavy)|TOHIT|Proficiency_Bonus|TYPE=Class
+Longbow	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial	AUTO:WEAPONPROF|Longbow	BONUS:WEAPONPROF=Longbow|TOHIT|Proficiency_Bonus|TYPE=Class
+Net	CATEGORY:Weapon	TYPE:Weapon Proficiency.Martial	AUTO:WEAPONPROF|Net	BONUS:WEAPONPROF=Net|TOHIT|Proficiency_Bonus|TYPE=Class
+
 ###Block:Weapon Mastery																																																																																																																																																																																																																			
 Club	CATEGORY:Internal	TYPE:Weapon Mastery	VISIBLE:YES	DESC:Weapon Mastery with Club	KEY:Weapon Mastery ~ Club		PREWEAPONPROF:1,Club		DEFINE:WeaponMasteryClub|0					BONUS:VAR|WeaponMasteryClub|1																	SORTKEY:Weapon_Mastery_01c1	SOURCEPAGE:PHB																																																																																																																																																																																			
 Dagger	CATEGORY:Internal	TYPE:Weapon Mastery	VISIBLE:YES	DESC:Weapon Mastery with Dagger	KEY:Weapon Mastery ~ Dagger		PREWEAPONPROF:1,Dagger		DEFINE:WeaponMasteryDagger|0					BONUS:VAR|WeaponMasteryDagger|1																	SORTKEY:Weapon_Mastery_01c2	SOURCEPAGE:PHB																																																																																																																																																																																			

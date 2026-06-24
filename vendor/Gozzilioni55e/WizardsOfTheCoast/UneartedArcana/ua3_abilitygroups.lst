@@ -1,2 +1,5 @@
 ABILITYCATEGORY:Bard Primal Lorist Druidic Cantrip	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	POOL:POOL_Bard_Druidic_Cantrip	CATEGORY:Internal	TYPE:Bard Druidic Cantrip	DISPLAYLOCATION:Character
 ABILITYCATEGORY:Bard Primal Lorist Skill	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	POOL:POOL_Bard_Primal_Lorist_Skill	CATEGORY:Skill	ABILITYLIST:Animal Handling,Insight,Medicine,Nature,Perception,Survival	DISPLAYLOCATION:Character
+ABILITYCATEGORY:Paladin Genie's Splendor Skill	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	POOL:POOL_Paladin_Genie_Splendor_Skill	CATEGORY:Skill	ABILITYLIST:Acrobatics|Intimidation|Performance|Persuasion	DISPLAYLOCATION:Character
+ABILITYCATEGORY:Dread Allegiance	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	POOL:POOL_Dread_Allegiance	CATEGORY:Special Ability	TYPE:DreadAlliance	DISPLAYLOCATION:Character
+ABILITYCATEGORY:Bladesinger Skill	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	POOL:POOL_Bladesinger_Skill	CATEGORY:Skill	ABILITYLIST:Acrobatics|Athletics|Performance|Persuasion	DISPLAYLOCATION:Character
