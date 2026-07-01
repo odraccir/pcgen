@@ -415,7 +415,7 @@ CLASS:Sorcerer	SPELLSTAT:CHA	MEMORIZE:NO	BONUS:CASTERLEVEL|Sorcerer|CL
 #
 1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS
 1	ABILITY:Class|AUTOMATIC|Sorcerer
-1	ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Spell Casting
+1	ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Spellcasting
 1	ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Innate Sorcery
 1	ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Font of Magic
 2	ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Metamagic
@@ -424,7 +424,7 @@ CLASS:Sorcerer	SPELLSTAT:CHA	MEMORIZE:NO	BONUS:CASTERLEVEL|Sorcerer|CL
 5	ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Sorcerous Restoration
 7	ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Sorcery Incarnate
 19	ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Epic Boon
-20	ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Arcane Apotheosys
+20	ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Arcane Apotheosis
 
 CLASS:Warlock	HD:6		TYPE:PC.Base	DEFINE:WarlockLVL|0	BONUS:VAR|WarlockLVL|CL	BONUS:VAR|SpellCasterTotalLVL|WarlockLVL	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|Arcane
 CLASS:Warlock	PREMULT:1,[!PRETEMPLATE:1,First Level],[PREABILITY:1,CATEGORY=Internal,Multiclass Allowed ~ Warlock],[PRECLASS:1,Warlock=1]

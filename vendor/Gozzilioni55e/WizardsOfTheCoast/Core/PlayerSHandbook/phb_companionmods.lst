@@ -31,16 +31,16 @@ FOLLOWER:AnimatedObjectLVL=1	TYPE:Animated Object		BONUS:VAR|DamageBonus|CHA|PRE
 FOLLOWER:FamiliarLVL=1	TYPE:Familiar	ABILITY:Special Ability|AUTOMATIC|Familiar ~ Telepathic Connection
 FOLLOWER:FamiliarLVL=1	TYPE:Familiar	TEMPLATE:CHOOSE:Familiar ~ Celestial|Familiar ~ Fey|Familiar ~ Fiend
 
-FOLLOWER:SteedLVL=1	TYPE:Steed	TEMPLATE:CHOOSE:Steed ~ Celestial|Steed ~ Fey|Steed ~ Fiend	BONUS:VAR|Proficiency_Bonus|mastervar("Proficiency_Bonus")
-FOLLOWER:SteedSlot=1	TYPE:Steed		BONUS:COMBAT|AC|1
-FOLLOWER:SteedSlot=2	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1
-FOLLOWER:SteedSlot=3	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1
-FOLLOWER:SteedSlot=4	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1	MOVE:Fly,60
-FOLLOWER:SteedSlot=5	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1
-FOLLOWER:SteedSlot=6	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1
-FOLLOWER:SteedSlot=7	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1
-FOLLOWER:SteedSlot=8	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1
-FOLLOWER:SteedSlot=9	TYPE:Steed	HD:1	BONUS:COMBAT|AC|1
+FOLLOWER:FindSteedLVL=1	TYPE:Find Steed	TEMPLATE:CHOOSE:Steed ~ Celestial|Steed ~ Fey|Steed ~ Fiend	BONUS:VAR|Proficiency_Bonus|mastervar("Proficiency_Bonus")
+FOLLOWER:SteedSlot=1	TYPE:Find Steed		BONUS:COMBAT|AC|1
+FOLLOWER:SteedSlot=2	TYPE:Find Steed	HD:1	BONUS:COMBAT|AC|1
+FOLLOWER:SteedSlot=3	TYPE:Find Steed	HD:1	BONUS:COMBAT|AC|1
+FOLLOWER:SteedSlot=4	TYPE:Find Steed	HD:1	BONUS:COMBAT|AC|1	MOVE:Fly,60
+FOLLOWER:SteedSlot=5	TYPE:Find Steed	HD:1	BONUS:COMBAT|AC|1
+FOLLOWER:SteedSlot=6	TYPE:Find Steed	HD:1	BONUS:COMBAT|AC|1
+FOLLOWER:SteedSlot=7	TYPE:Find Steed	HD:1	BONUS:COMBAT|AC|1
+FOLLOWER:SteedSlot=8	TYPE:Find Steed	HD:1	BONUS:COMBAT|AC|1
+FOLLOWER:SteedSlot=9	TYPE:Find Steed	HD:1	BONUS:COMBAT|AC|1
 
 FOLLOWER:GiantInsectLVL=1	TYPE:Giant Insect	BONUS:VAR|Proficiency_Bonus|mastervar("Proficiency_Bonus")
 FOLLOWER:GiantInsectSlot=1	TYPE:Giant Insect	HD:1	BONUS:COMBAT|AC|1		BONUS:WEAPONPROF=Poison Jab|DAMAGE|GiantInsectSlot	BONUS:WEAPONPROF=Web Bolt|DAMAGE|GiantInsectSlot

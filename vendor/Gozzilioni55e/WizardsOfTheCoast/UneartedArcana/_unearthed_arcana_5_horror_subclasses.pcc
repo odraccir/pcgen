@@ -22,13 +22,15 @@ LOGO:&/Gozzilioni55e/_artwork/logo_wotc.png
 
 INFOTEXT:D&D Unearthed Arcana
 
-ABILITY:ua5_abilities.lst
-ABILITY:ua5_abilities_class.lst
-ABILITY:ua5_abilities_race.lst
-ABILITYCATEGORY:ua5_abilitygroups.lst
-COMPANIONMOD:ua5_companionmods.lst
-KIT:ua5_kits.lst
-RACE:ua5_races.lst
-SPELL:ua5_spells.lst
+ABILITY:ua5_abilities.lst|PRECAMPAIGN:1,Unearthed Arcana - Artificer
+ABILITY:ua5_abilities_class.lst|PRECAMPAIGN:1,Unearthed Arcana - Artificer
+# ABILITY:ua5_abilities.lst
+# ABILITY:ua5_abilities_class.lst
+# ABILITY:ua5_abilities_race.lst
+# ABILITYCATEGORY:ua5_abilitygroups.lst
+# COMPANIONMOD:ua5_companionmods.lst
+# KIT:ua5_kits.lst
+# RACE:ua5_races.lst
+# SPELL:ua5_spells.lst
 
 INFOTEXT:Supports 6.4.1
