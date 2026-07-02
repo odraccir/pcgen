@@ -1,0 +1,3 @@
+ABILITYCATEGORY:Strange Modification	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	ABILITYLIST:Reanimated Companion ~ Arcane Conduit|Reanimated Companion ~ Ferocity	DISPLAYLOCATION:Character
+ABILITYCATEGORY:Improved Modification	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	ABILITYLIST:Reanimated Companion ~ Bloated|Reanimated Companion ~ Gaunt|Reanimated Companion ~ Moist	DISPLAYLOCATION:Character
+ABILITYCATEGORY:Reanimator Companion Size	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	ABILITYLIST:Reanimated Companion ~ Bloated ~ Medium|Reanimated Companion ~ Bloated ~ Large	DISPLAYLOCATION:Character

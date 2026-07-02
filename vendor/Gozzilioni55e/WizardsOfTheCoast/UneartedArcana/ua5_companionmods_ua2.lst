@@ -1,0 +1,27 @@
+SOURCELONG:Unearthed Arcana - Realm Subclasses	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2024-01
+#										
+###Block:Reanimated Companion										
+FOLLOWER:ReanimatedCompanionLVL=1	TYPE:Reanimated Companion		DEFINE:PurpleDragonHD|0	BONUS:COMBAT|AC|mastervar("INT")
+FOLLOWER:ReanimatedCompanionLVL=2	TYPE:Reanimated Companion	HD:1	
+FOLLOWER:ReanimatedCompanionLVL=3	TYPE:Reanimated Companion	HD:1
+FOLLOWER:ReanimatedCompanionLVL=4	TYPE:Reanimated Companion	HD:1
+FOLLOWER:ReanimatedCompanionLVL=5	TYPE:Reanimated Companion	HD:1
+FOLLOWER:ReanimatedCompanionLVL=6	TYPE:Reanimated Companion	HD:1
+FOLLOWER:ReanimatedCompanionLVL=7	TYPE:Reanimated Companion	HD:1
+FOLLOWER:ReanimatedCompanionLVL=8	TYPE:Reanimated Companion	HD:1
+FOLLOWER:ReanimatedCompanionLVL=9	TYPE:Reanimated Companion	HD:1
+FOLLOWER:ReanimatedCompanionLVL=10	TYPE:Reanimated Companion	HD:1
+FOLLOWER:ReanimatedCompanionLVL=11	TYPE:Reanimated Companion	HD:1
+FOLLOWER:ReanimatedCompanionLVL=12	TYPE:Reanimated Companion	HD:1
+FOLLOWER:ReanimatedCompanionLVL=13	TYPE:Reanimated Companion	HD:1
+FOLLOWER:ReanimatedCompanionLVL=14	TYPE:Reanimated Companion	HD:1
+FOLLOWER:ReanimatedCompanionLVL=15	TYPE:Reanimated Companion	HD:1
+FOLLOWER:ReanimatedCompanionLVL=16	TYPE:Reanimated Companion	HD:1
+FOLLOWER:ReanimatedCompanionLVL=17	TYPE:Reanimated Companion	HD:1
+FOLLOWER:ReanimatedCompanionLVL=18	TYPE:Reanimated Companion	HD:1
+FOLLOWER:ReanimatedCompanionLVL=19	TYPE:Reanimated Companion	HD:1
+FOLLOWER:ReanimatedCompanionLVL=20	TYPE:Reanimated Companion	HD:1
+FOLLOWER:StrangeModificationLVL=20	TYPE:Reanimated Companion	BONUS:ABILITYPOOL|Strange Modification|1
+FOLLOWER:PrometheianReanimationLVL=20	TYPE:Reanimated Companion	ABILITY:Special Ability|AUTOMATIC|Reanimated Companion ~ Improved Companion
+
+	

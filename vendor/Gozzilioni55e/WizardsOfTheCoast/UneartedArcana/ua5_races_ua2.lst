@@ -1,0 +1,3 @@
+SOURCELONG:Unearthed Arcana - Realm Subclasses	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2024-01
+
+Reanimated Companion			SIZE:S	TYPE:Undead	RACETYPE:Undead		MONSTERCLASS:Hit Die:1	BONUS:VAR|RaceBase_Walk|30									ABILITY:Internal|AUTOMATIC|Racial Traits ~ Reanimated Companion			BONUS:STAT|STR|2|TYPE=Racial	BONUS:STAT|DEX|0|TYPE=Racial	BONUS:STAT|CON|6|TYPE=Racial	BONUS:STAT|INT|-6|TYPE=Racial	BONUS:STAT|WIS|0|TYPE=Racial	BONUS:STAT|CHA|-4|TYPE=Racial		CR:0	KIT:1|TN			LEGS:4		SOURCEPAGE:UA	KIT:1|Default Creature ~ Reanimated Companion	SORTKEY:Reanimated Companion	FACT:NoProfBonus|True

@@ -1,5 +1,6 @@
 CAMPAIGN:Lore of Decay
-KEY:Lore of DecayBOOKTYPE:Homebrew
+KEY:Lore of Decay
+BOOKTYPE:Homebrew
 PRECAMPAIGN:1,BOOKTYPE=Core Rules
 GAMEMODE:G55e
 TYPE:Homebrew

@@ -1,0 +1,5 @@
+SOURCELONG:Unearthed Arcana - Horror Subclasses	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2025-01
+
+#Races
+STARTPACK:Reanimated Companion Stats	TYPE:DefaultMonster	VISIBLE:QUALIFY	EQUIPBUY:0	PRERACE:1,Reanimated Companion
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
