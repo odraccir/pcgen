@@ -338,7 +338,7 @@ Summon Beast				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Druid=2|Ranger=2	COMPS:V
 Summon Celestial				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Cleric=5|Paladin=5	COMPS:V, S, M	CASTTIME:Action	RANGE:90 feet.		DURATION:Concentration, up to 1 hour			SOURCEPAGE:PHB		COST:500
 Summon Construct				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Wizard=4	COMPS:V, S, M	CASTTIME:Action	RANGE:90 feet.		DURATION:Concentration, up to 1 hour			SOURCEPAGE:PHB		COST:400
 Summon Dragon				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Wizard=5	COMPS:V, S, M	CASTTIME:Action	RANGE:60 feet.		DURATION:Concentration, up to 1 hour			SOURCEPAGE:PHB		COST:500
-#				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=1|Druid=1|Sorcerer=1|Warlock=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB
+Summon Elemental				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Druid=4|Ranger=4|Wizard=4	COMPS:V, S, M	CASTTIME:Action	RANGE:90 feet.		DURATION:Concentration, up to 1 hour			SOURCEPAGE:PHB		COST:400
 #				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=1|Druid=1|Sorcerer=1|Warlock=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB
 #				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=1|Druid=1|Sorcerer=1|Warlock=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB
 #				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=1|Druid=1|Sorcerer=1|Warlock=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB

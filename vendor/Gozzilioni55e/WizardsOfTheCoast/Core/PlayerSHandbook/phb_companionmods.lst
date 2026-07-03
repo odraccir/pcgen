@@ -112,3 +112,14 @@ FOLLOWER:SummonDragonSlot=8	TYPE:Summon Dragon	HD:2	BONUS:COMBAT|AC|1	BONUS:COMB
 FOLLOWER:SummonDragonSlot=9	TYPE:Summon Dragon	HD:2	BONUS:COMBAT|AC|1
 
 MASTERBONUSRACE:Draconic Spirit	TYPE:Summon Dragon	BONUS:ABILITYPOOL|Shared Resistancies|1
+
+FOLLOWER:SummonElementalLVL=1	TYPE:Summon Elemental	BONUS:VAR|Proficiency_Bonus|mastervar("Proficiency_Bonus")
+FOLLOWER:SummonElementalSlot=1	TYPE:Summon Elemental		BONUS:COMBAT|AC|1	BONUS:WEAPONPROF=Natural|DAMAGE|SummonElementalSlot
+FOLLOWER:SummonElementalSlot=2	TYPE:Summon Elemental		BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:SummonElementalSlot=3	TYPE:Summon Elemental		BONUS:COMBAT|AC|1	
+FOLLOWER:SummonElementalSlot=4	TYPE:Summon Elemental		BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:SummonElementalSlot=5	TYPE:Summon Elemental	HD:2	BONUS:COMBAT|AC|1	
+FOLLOWER:SummonElementalSlot=6	TYPE:Summon Elemental	HD:2	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:SummonElementalSlot=7	TYPE:Summon Elemental	HD:2	BONUS:COMBAT|AC|1	
+FOLLOWER:SummonElementalSlot=8	TYPE:Summon Elemental	HD:2	BONUS:COMBAT|AC|1	BONUS:COMBAT|ATTACKS|1
+FOLLOWER:SummonElementalSlot=9	TYPE:Summon Elemental	HD:2	BONUS:COMBAT|AC|1	
