@@ -248,6 +248,7 @@ ABILITYCATEGORY:Summon Celestial Selection	CATEGORY:Internal	TYPE:SummonCelestia
 ABILITYCATEGORY:Summon Construct Selection	CATEGORY:Internal	TYPE:SummonConstructSelection	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO	PLURAL:Summon Construct Choice	DISPLAYLOCATION:Character
 ABILITYCATEGORY:Summon Dragon Selection	CATEGORY:Internal	TYPE:SummonDragonSelection	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO	PLURAL:Summon Dragon Choice	DISPLAYLOCATION:Character
 ABILITYCATEGORY:Summon Elemental Selection	CATEGORY:Internal	TYPE:SummonElementalSelection	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO	PLURAL:Summon Elemental Choice	DISPLAYLOCATION:Character
+ABILITYCATEGORY:Summon Fey Selection	CATEGORY:Internal	TYPE:SummonFeySelection	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	FRACTIONALPOOL:NO	PLURAL:Summon Fey Choice	DISPLAYLOCATION:Character
 
 ABILITYCATEGORY:Wild Companion Class Feature	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	CATEGORY:Special Ability	TYPE:Primal Companion Class Feature	DISPLAYLOCATION:Character
 ABILITYCATEGORY:Primal Companion Class Feature	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	CATEGORY:Special Ability	TYPE:Primal Companion Class Feature	DISPLAYLOCATION:Character
@@ -262,6 +263,7 @@ ABILITYCATEGORY:Summon Celestial Class Feature	VISIBLE:QUALIFY	EDITABLE:YES	EDIT
 ABILITYCATEGORY:Summon Construct Class Feature	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	CATEGORY:Special Ability	TYPE:Summon Construct Feature	DISPLAYLOCATION:Character
 ABILITYCATEGORY:Summon Dragon Class Feature	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	CATEGORY:Special Ability	TYPE:Summon Dragon Feature	DISPLAYLOCATION:Character
 ABILITYCATEGORY:Summon Elemental Class Feature	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	CATEGORY:Special Ability	TYPE:Summon Elemental Feature	DISPLAYLOCATION:Character
+ABILITYCATEGORY:Summon Fey Class Feature	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	CATEGORY:Special Ability	TYPE:Summon Fey Feature	DISPLAYLOCATION:Character
 
 ###Block: Feat Support
 # Ability Category	Visible	Editable?	Change Pool?	Category of Object	Type of Object	Specific choices list	Display Location
