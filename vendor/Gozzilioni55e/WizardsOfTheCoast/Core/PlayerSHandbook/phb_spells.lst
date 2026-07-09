@@ -380,13 +380,18 @@ Wall of Stone				TYPE:Spell	SCHOOL:Evocation			CLASSES:Druid=5|Sorcerer=5|Wizard
 Wall of Thorns				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Druid=6	COMPS:V, S, M	CASTTIME:Action	RANGE:120 feet.		DURATION:Concentration, up to 10 minutes			SOURCEPAGE:PHB
 Warding Bond				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Cleric=2|Paladin=2	COMPS:V, S, M	CASTTIME:Action	RANGE:Touch.		DURATION:1 hour			SOURCEPAGE:PHB		COST:50
 Water Breathing				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Ritual	CLASSES:Druid=3|Ranger=3|Sorcerer=3|Wizard=3	COMPS:V, S, M	CASTTIME:Action	RANGE:30 feet.		DURATION:24 hours			SOURCEPAGE:PHB
-Water Walk				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Bard=1|Druid=1|Sorcerer=1|Warlock=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB
-#				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=1|Druid=1|Sorcerer=1|Warlock=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB
-#				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=1|Druid=1|Sorcerer=1|Warlock=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB
-#				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=1|Druid=1|Sorcerer=1|Warlock=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB
-
-
-
+Water Walk				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Ritual	CLASSES:Cleric=3|Druid=3|Ranger=3|Sorcerer=3	COMPS:V, S, M	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB
+Web				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Sorcerer=2|Wizard=2	COMPS:V, S, M	CASTTIME:Action	RANGE:60 feet.		DURATION:Concentration, up to 1 hour			SOURCEPAGE:PHB
+Weird				TYPE:Spell	SCHOOL:Illusion			CLASSES:Warlock=9|Wizard=9	COMPS:V, S	CASTTIME:Action	RANGE:120 feet.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Wind Walk				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Druid=6	COMPS:V, S, M	CASTTIME:1 minute	RANGE:30 feet.		DURATION:8 hours			SOURCEPAGE:PHB
+Wind Wall				TYPE:Spell	SCHOOL:Evocation			CLASSES:Druid=3|Ranger=3	COMPS:V, S, M	CASTTIME:Action	RANGE:120 feet.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Wish				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Sorcerer=9|Wizard=9	COMPS:V	CASTTIME:Action	RANGE:Self.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Witch Bolt				TYPE:Spell	SCHOOL:Evocation			CLASSES:Sorcerer=1|Warlock=1|Wizard=1	COMPS:V, S, M	CASTTIME:Action	RANGE:60 feet.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Word of Radiance				TYPE:Spell	SCHOOL:Evocation			CLASSES:Cleric=0	COMPS:V, M	CASTTIME:Action	RANGE:Self.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Word of Recall				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Cleric=6	COMPS:V	CASTTIME:Action	RANGE:5 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Wrathful Smite				TYPE:Spell	SCHOOL:Necromancy			CLASSES:Paladin=1	COMPS:V	CASTTIME:Bonus Action, which you take immediately after hitting a creature with a Melee weapon or an Unarmed Strike	RANGE:Self.		DURATION:1 minute			SOURCEPAGE:PHB
+Yolande's Regal Presence				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=5|Wizard=5	COMPS:V, S, M	CASTTIME:Action	RANGE:Self.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Zone of Truth				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=2|Cleric=2|Paladin=2	COMPS:V, S	CASTTIME:Action	RANGE:60 feet.		DURATION:10 minutes			SOURCEPAGE:PHB
 
 ###Block:Class spells.
 Beast Sense.COPY=Beast Sense(Ritual)	KEY:Beast Sense(Ritual)	OUTPUTNAME:Beast Sense
