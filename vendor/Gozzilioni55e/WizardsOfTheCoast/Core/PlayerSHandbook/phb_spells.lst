@@ -356,7 +356,7 @@ Teleportation Circle				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Bard=5|Sorcerer=
 Tenser's Floating Disk				TYPE:Spell	SCHOOL:Conjuration		DESCRIPTOR:Ritual	CLASSES:Wizard=1	COMPS:V, S, M	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB
 Thaumaturgy				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Cleric=0	COMPS:V	CASTTIME:Action	RANGE:30 feet.		DURATION:Up to 1 minute			SOURCEPAGE:PHB
 Thorn Whip				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Druid=0	COMPS:V, S, M	CASTTIME:Action	RANGE:30 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
-Thunderclap				TYPE:Spell	SCHOOL:Evocation			CLASSES:Bard=0|Druid=0|Sorcerer=0|Warlock=0|Wizard=0	COMPS:S	CASTTIME:Action	RANGE:Self.		DURATION:Instanta			SOURCEPAGE:PHB
+Thunderclap				TYPE:Spell	SCHOOL:Evocation			CLASSES:Bard=0|Druid=0|Sorcerer=0|Warlock=0|Wizard=0	COMPS:S	CASTTIME:Action	RANGE:Self.		DURATION:Instantaneous			SOURCEPAGE:PHB
 Thunderous Smite				TYPE:Spell	SCHOOL:Evocation			CLASSES:Paladin=1	COMPS:V	CASTTIME:Bonus Action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike	RANGE:Self.		DURATION:Instantaneous			SOURCEPAGE:PHB
 Thunderwave				TYPE:Spell	SCHOOL:Evocation			CLASSES:Bard=1|Druid=1|Sorcerer=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:Self.		DURATION:Instantaneous			SOURCEPAGE:PHB
 Time Stop				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Sorcerer=9|Wizard=9	COMPS:V	CASTTIME:Action	RANGE:Self.		DURATION:Instantaneous			SOURCEPAGE:PHB
@@ -364,6 +364,24 @@ Toll the Dead				TYPE:Spell	SCHOOL:Necromancy			CLASSES:Cleric=0|Warlock=0|Wizar
 Tongues				TYPE:Spell	SCHOOL:Divination			CLASSES:Bard=3|Cleric=3|Sorcerer=3|Warlock=3|Wizard=3	COMPS:V, M	CASTTIME:Action	RANGE:Touch.		DURATION:1 hour			SOURCEPAGE:PHB
 Transport via Plants				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Druid=6	COMPS:V, S	CASTTIME:Action	RANGE:10 feet.		DURATION:1 minute			SOURCEPAGE:PHB
 Tree Stride				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Druid=5|Ranger=5	COMPS:V, S	CASTTIME:Action	RANGE:Self.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+True Polymorph				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Bard=9|Warlock=9|Wizard=9	COMPS:V, S, M	CASTTIME:Action	RANGE:30 feet.		DURATION:Concentration, up to 1 hour			SOURCEPAGE:PHB
+True Resurrection				TYPE:Spell	SCHOOL:Necromancy			CLASSES:Cleric=9|Druid=9	COMPS:V, S, M	CASTTIME:1 hour	RANGE:Touch.		DURATION:Instantaneous			SOURCEPAGE:PHB		COST:25000
+True Seeing				TYPE:Spell	SCHOOL:Divination			CLASSES:Bard=6|Cleric=6|Druid=6|Sorcerer=6|Warlock=6|Wizard=6	COMPS:V, S, M	CASTTIME:Action	RANGE:Touch.		DURATION:1 hour			SOURCEPAGE:PHB		COST:25
+True Strike				TYPE:Spell	SCHOOL:Divination			CLASSES:Bard=0|Sorcerer=0|Warlock=0|Wizard=0	COMPS:S, M	CASTTIME:Action	RANGE:Self.		DURATION:Instantaneous			SOURCEPAGE:PHB		COST:0.01
+Tsunami				TYPE:Spell	SCHOOL:Conjuuration			CLASSES:Druid=8	COMPS:V, S	CASTTIME:1 minute	RANGE:1 mile.		DURATION:Concentration, up to 6 rounds			SOURCEPAGE:PHB
+Unseen Servant				TYPE:Spell	SCHOOL:Conjuration		DESCRIPTOR:Ritual	CLASSES:Bard=1|Warlock=1|Wizard=1	COMPS:V, S, M	CASTTIME:Action	RANGE:60 feet.		DURATION:1 hour			SOURCEPAGE:PHB
+Vampiric Touch				TYPE:Spell	SCHOOL:Necromancy			CLASSES:Sorcerer=3|Warlock=3|Wizard=3	COMPS:V, S	CASTTIME:Action	RANGE:Self.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Vicious Mockery				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=0	COMPS:V	CASTTIME:Action	RANGE:60 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Vitriolic Sphere				TYPE:Spell	SCHOOL:Evocation			CLASSES:Sorcerer=4|Wizard=4	COMPS:V, S, M	CASTTIME:Action	RANGE:150 feet.		DURATION:Instantaneous			SOURCEPAGE:PHB
+Wall of Fire				TYPE:Spell	SCHOOL:Evocation			CLASSES:Druid=4|Sorcerer=4|Wizard=4	COMPS:V, S, M	CASTTIME:Action	RANGE:120 feet.		DURATION:Concentration, up to 1 minute			SOURCEPAGE:PHB
+Wall of Force				TYPE:Spell	SCHOOL:Evocation			CLASSES:Wizard=5	COMPS:V, S, M	CASTTIME:Action	RANGE:120 feet.		DURATION:Concentration, up to 10 minute			SOURCEPAGE:PHB
+Wall of Ice				TYPE:Spell	SCHOOL:Evocation			CLASSES:Wizard=6	COMPS:V, S, M	CASTTIME:Action	RANGE:120 feet.		DURATION:Concentration, up to 10 minutes			SOURCEPAGE:PHB
+Wall of Stone				TYPE:Spell	SCHOOL:Evocation			CLASSES:Druid=5|Sorcerer=5|Wizard=5	COMPS:V, S, M	CASTTIME:Action	RANGE:120 feet.		DURATION:Concentration, up to 10 minutes			SOURCEPAGE:PHB
+Wall of Thorns				TYPE:Spell	SCHOOL:Conjuration			CLASSES:Druid=6	COMPS:V, S, M	CASTTIME:Action	RANGE:120 feet.		DURATION:Concentration, up to 10 minutes			SOURCEPAGE:PHB
+Warding Bond				TYPE:Spell	SCHOOL:Abjuration			CLASSES:Cleric=2|Paladin=2	COMPS:V, S, M	CASTTIME:Action	RANGE:Touch.		DURATION:1 hour			SOURCEPAGE:PHB		COST:50
+Water Breathing				TYPE:Spell	SCHOOL:Transmutation		DESCRIPTOR:Ritual	CLASSES:Druid=3|Ranger=3|Sorcerer=3|Wizard=3	COMPS:V, S, M	CASTTIME:Action	RANGE:30 feet.		DURATION:24 hours			SOURCEPAGE:PHB
+Water Walk				TYPE:Spell	SCHOOL:Transmutation			CLASSES:Bard=1|Druid=1|Sorcerer=1|Warlock=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB
+#				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=1|Druid=1|Sorcerer=1|Warlock=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB
 #				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=1|Druid=1|Sorcerer=1|Warlock=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB
 #				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=1|Druid=1|Sorcerer=1|Warlock=1|Wizard=1	COMPS:V, S	CASTTIME:Action	RANGE:30 feet.		DURATION:1 hour			SOURCEPAGE:PHB
 
