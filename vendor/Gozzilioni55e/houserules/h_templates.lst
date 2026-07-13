@@ -1,3 +1,14 @@
 SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
 
-Mount	TYPE:Animal	VISIBLE:NO	RACESUBTYPE:Mount
+Mount	TYPE:Internal	VISIBLE:NO	RACESUBTYPE:Mount
+
+###TODO: create Dire Animals...
+# increase Size
+# bonus to abilities for size change
+# increase hit dice/hp
+# increase damage die size
+Dire	TYPE:Inherited	VISIBLE:QUALIFY	PRERACE:1,RACETYPE=Animal	!PRERACE:1,RACESUBTYPE=Dire	RACESUBTYPE:Dire
+
+###TODO: create Giant Animals...
+# bonus to abilities for size change/AC?
+Giant	TYPE:Inherited	VISIBLE:QUALIFY	PRERACE:1,RACETYPE=Animal	!PRERACE:1,RACESUBTYPE=Giant	PRESIZELTEQ:T	RACESUBTYPE:Giant	BONUS:SIZEMOD|NUMBER|2	ADDLEVEL:Hit Die|2	BONUS:STAT|STR|2	BONUS:COMBAT|AC|3|TYPE=NaturalArmor	BONUS:WEAPONPROF=TYPE.Natural|DAMAGESIZE|2
