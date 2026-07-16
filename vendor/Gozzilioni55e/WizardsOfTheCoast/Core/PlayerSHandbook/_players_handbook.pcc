@@ -9,10 +9,10 @@ SOURCESHORT:PHB
 SOURCEWEB:http://www.gozzilioni.net
 SOURCEDATE:2024-08
 RANK:202408
-PUBNAMELONG:Wizard	s of the Coast
+PUBNAMELONG:Wizard's of the Coast
 PUBNAMESHORT:WotC
 PUBNAMEWEB:http://www.wizards.com
-COPYRIGHT:Copyright 2014, Wizards of the Coast, Inc.
+COPYRIGHT:Copyright 2024, Wizards of the Coast, Inc.
 ISOGL:NO
 
 # COVER should be cover_gameMode_pub_book.file
@@ -20,7 +20,7 @@ COVER:&/Gozzilioni55e/_artwork/cover_5e2024_wotc_ph.png
 # LOGO should be logo_pub.file
 LOGO:&/Gozzilioni55e/_artwork/logo_wotc.png
 
-INFOTEXT:D&D 5e Player's Handbook
+INFOTEXT:D&D 5.5e Player's Handbook
 
 COMPANIONLIST:Mount|ANY
 COMPANIONLIST:Follower|ANY

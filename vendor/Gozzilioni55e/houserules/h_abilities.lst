@@ -4,3 +4,5 @@ CATEGORY=Internal|Default.MOD	DEFINE:BardingAllowed|0	BONUS:VAR|BardingAllowed|1
 
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Passive Investigation|PREABILITY:1,CATEGORY=Skill,Investigation
 Passive Investigation	CATEGORY:Special Ability	DEFINE:Passive_Investigation|0	BONUS:VAR|Passive_Investigation|10+INT+SkillProf_Investigation																																																																																																																															ASPECT:SkillBonus|Passive Investigation is %1|Passive_Investigation
+
+Slaad	CATEGORY:Language	TYPE:Hidden Language	VISIBLE:YES		DESC:Slaad.	KEY:Slaad																AUTO:LANG|Slaad											SOURCEPAGE:H																																																																																																																																																																																		

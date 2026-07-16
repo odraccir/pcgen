@@ -1,0 +1,14 @@
+SOURCELONG:Dungeon Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-11
+
+###Block:Copy of normal objects
+Shield.COPY=Animated Shield	KEY:Animated Shield
+Plate Armor.COPY=Armor of Invulnerability
+
+###Block: Magic Items
+Alchemy Jug		TYPE:Wondrous Item.Container.Jug		WT:0.5	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON
+Amulet of Health		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution is already 19 or higher.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
+Amulet of Proof against Detection and Location		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON	SPROP:While wearing this amulet, you can’t be targeted by Divination spells or perceived through magical serying sensors unless you allow it.|PREABILITY:1,CATEGORY=Attunement,Amulet of Proof against Detection and Location	DEFINE:Attunement_Amulet_Of_Proof_Against_Detection|0	BONUS:VAR|Attunement_Amulet_Of_Proof_Against_Detection|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Proof against Detection and Location
+Amulet of the Planes		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE	SPROP:While wearing this amulet, you can take a Magic action to name a location that you are familiar with on another plane of existence.|PREABILITY:1,CATEGORY=Attunement,Amulet Of the Planes	DEFINE:Attunement_Amulet_Of_The_Planes|0	BONUS:VAR|Attunement_Amulet_Of_The_Planes|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of the Planes
+Animated Shield.MOD	EQMOD:MAGIC_ITEM_VERY_RARE	SPROP:While holding this Shield, you can take a Bonus Action to cause it to animate.|PREABILITY:1,CATEGORY=Attunement,Animated Shield	DEFINE:Attunement_Animated_Shield|0	BONUS:VAR|Attunement_Animated_Shield|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Animated Shield
+Apparatus of Kwalish		TYPE:Wondrous Item		WT:500	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_LEGENDARY
+Armor of Invlunerability.MOD	EQMOD:MAGIC_ITEM_LEGENDARY	SPROP:You have resistance to Bludgeoning, Piercing amd Slashing damage.|PREABILITY:1,CATEGORY=Attunement,Armor of Invulnerability	DEFINE:Attunement_Armor_Of_Invulnerability|0	BONUS:VAR|Attunement_Armor_Of_Invulnerability|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Armor of Invulnerability

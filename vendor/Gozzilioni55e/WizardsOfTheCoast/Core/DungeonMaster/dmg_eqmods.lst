@@ -1,0 +1,54 @@
+SOURCELONG:Dungeon Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-11
+
+Range			KEY:R_RANGE_2		NAMEOPT:NONAME	TYPE:Weapon.Ranged.Increment2	COST:0	VISIBLE:QUALIFY	ITYPE:Ranged	SOURCEPAGE:PHB	QUALITY:RangeLongMult|2
+Loading (2)			KEY:R_LOADING_5	NAMEOPT:NONAME	TYPE:Weapon.Ranged	COST:0	VISIBLE:QUALIFY	ITYPE:Loading.Container	SOURCEPAGE:DMG	SPROP:Reload (2 shots).
+Loading (5)			KEY:R_LOADING_5	NAMEOPT:NONAME	TYPE:Weapon.Ranged	COST:0	VISIBLE:QUALIFY	ITYPE:Loading.Container	SOURCEPAGE:DMG	SPROP:Reload (5 shots).
+Loading (6)			KEY:R_LOADING_5	NAMEOPT:NONAME	TYPE:Weapon.Ranged	COST:0	VISIBLE:QUALIFY	ITYPE:Loading.Container	SOURCEPAGE:DMG	SPROP:Reload (6 shots).
+Loading (15)			KEY:R_LOADING_5	NAMEOPT:NONAME	TYPE:Weapon.Ranged	COST:0	VISIBLE:QUALIFY	ITYPE:Loading.Container	SOURCEPAGE:DMG	SPROP:Reload (15 shots).
+Loading (30)			KEY:R_LOADING_30	NAMEOPT:NONAME	TYPE:Weapon.Ranged	COST:0	VISIBLE:QUALIFY	ITYPE:Loading.Container	SOURCEPAGE:DMG	SPROP:Reload (30 shots).
+Loading (50)			KEY:R_LOADING_50	NAMEOPT:NONAME	TYPE:Weapon.Ranged	COST:0	VISIBLE:QUALIFY	ITYPE:Loading.Container	SOURCEPAGE:DMG	SPROP:Reload (50 shots).
+Burst Fire			KEY:R_BURST_FIRE	NAMEOPT:NONAME	TYPE:Weapon.Ranged	COST:0	VISIBLE:QUALIFY	ITYPE:Burst Fire	SOURCEPAGE:DMG	SPROP:Burst Fire.
+
+|Charm	KEY:CHARM_1USE	NAMEOPT:SPELL	TYPE:Charm	COST:0	VISIBLE:QUALIFY	ITYPE:Charm.Magic.Consumable	SORUCEPAGE:DMG	CHOOSE:EQBUILDER.SPELL
+
+# Modifier Name		Unique Key		Naming Option	Type		Plus		Cost					Visible		Type granted				Keys to replace	Source Page					Multiple Requirements							Required Type				Prohibited Type										Spell Res.	Bonus Equip Mods						Bonus Armor Mods																																												Modify the item cost																																				Weapon prop. bonus																	Special Property									Change Armor Type						Choose																	Apply to both heads
+Gem Value			KEY:GEM		NAMEOPT:NOTHING	TYPE:Gem			COST:0				VISIBLE:QUALIFY																										PRETYPE:1,Gem																																																																								BONUS:ITEMCOST|TYPE.GEM|%CHOICE																																																																									CHOOSE:NUMBER|MIN=1|MAX=10000|TITLE=Gem Value	CHOOSE:NUMBER|MIN=1|MAX=10000|TITLE=Gem Value
+Art Value			KEY:ART		NAMEOPT:NOTHING	TYPE:Art			COST:0				VISIBLE:QUALIFY																										PRETYPE:1,Art																																																																								BONUS:ITEMCOST|TYPE.ART|%CHOICE																																																																									CHOOSE:NUMBER|MIN=10|MAX=12000|TITLE=Art Value	CHOOSE:NUMBER|MIN=10|MAX=12000|TITLE=Art Value
+
+###
+#Macic Item Rarities AND VALUES
+# Rarity Value   | Rarity Value
+# Common 100GP   | Very Rare 40,000GP
+# Uncommon 400GP | Legendary 200,000 GP
+# Rare 4000GP    | Artifact Priceless
+###
+Common	KEY_MAGIC_ITEM_COMMON	TYPE:Armor.Weapon.Ammonition.Adventuring Gear	COST:100	VISIBLE:QUALIFY	ITYPE:Common	SOURCEPAGE:DMG	ASSIGNTOALL:YES	REPLACES:MAGIC_ITEM_UNCOMMON,MAGIC_ITEM_RARE,MAGIC_ITEM_VERY_RARE,MAGIC_ITEM_LEGENDARY,MAGIC_ITEM_ARTIFACT	DEFINE:RarityLVL:0	BONUS:VAR|RarityLVL|1
+Uncommon	KEY_MAGIC_ITEM_UNCOMMON	TYPE:Armor.Weapon.Ammonition.Adventuring Gear	COST:400	VISIBLE:QUALIFY	ITYPE:Uncommon	SOURCEPAGE:DMG	ASSIGNTOALL:YES	REPLACES:MAGIC_ITEM_COMMON,MAGIC_ITEM_RARE,MAGIC_ITEM_VERY_RARE,MAGIC_ITEM_LEGENDARY,MAGIC_ITEM_ARTIFACT	DEFINE:RarityLVL:0	BONUS:VAR|RarityLVL|2
+Rare	KEY_MAGIC_ITEM_RARE	TYPE:Armor.Weapon.Ammonition.Adventuring Gear	COST:4000	VISIBLE:QUALIFY	ITYPE:Rare	SOURCEPAGE:DMG	ASSIGNTOALL:YES	REPLACES:MAGIC_ITEM_COMMON,MAGIC_ITEM_UNCOMMON,MAGIC_ITEM_VERY_RARE,MAGIC_ITEM_LEGENDARY,MAGIC_ITEM_ARTIFACT	DEFINE:RarityLVL:0	BONUS:VAR|RarityLVL|3
+Very Rare	KEY_MAGIC_ITEM_VERY_RARE	TYPE:Armor.Weapon.Ammonition.Adventuring Gear	COST:4000	VISIBLE:QUALIFY	ITYPE:Very Rare	SOURCEPAGE:DMG	ASSIGNTOALL:YES	REPLACES:MAGIC_ITEM_COMMON,MAGIC_ITEM_UNCOMMON,MAGIC_ITEM_RARE,MAGIC_ITEM_LEGENDARY,MAGIC_ITEM_ARTIFACT	DEFINE:RarityLVL:0	BONUS:VAR|RarityLVL|4
+Legendary	KEY_MAGIC_ITEM_LEGENDARY	TYPE:Armor.Weapon.Ammonition.Adventuring Gear	COST:200000	VISIBLE:QUALIFY	ITYPE:Legendary	SOURCEPAGE:DMG	ASSIGNTOALL:YES	REPLACES:MAGIC_ITEM_COMMON,MAGIC_ITEM_UNCOMMON,MAGIC_ITEM_RARE,MAGIC_ITEM_VERY_RARE,MAGIC_ITEM_ARTIFACT	DEFINE:RarityLVL:0	BONUS:VAR|RarityLVL|5
+Artifact	KEY_MAGIC_ITEM_ARTIFACT	TYPE:Armor.Weapon.Ammonition.Adventuring Gear	COST:0	VISIBLE:QUALIFY	ITYPE:Artifact	SOURCEPAGE:DMG	ASSIGNTOALL:YES	REPLACES:MAGIC_ITEM_COMMON,MAGIC_ITEM_UNCOMMON,MAGIC_ITEM_RARE,MAGIC_ITEM_VERY_RARE,MAGIC_ITEM_LEGENDARY	DEFINE:RarityLVL:0	BONUS:VAR|RarityLVL|6
+
+###Block: Modifiche
+# Modifier Name					Unique Key	Naming Format	Naming Option	Type				Plus		Visible		Type granted					Keys to replace						Source Page					Required Type			Combat bonus					Bonus Armor Mods												Modify the item cost																																								Weapon prop. bonus					Apply to both heads	SORTKEY
++1 (Enhancement to Weapon or Ammunition)	KEY:PLUS1W	FORMATCAT:MIDDLE	NAMEOPT:TEXT=+1	TYPE:Ammunition.Weapon	PLUS:1	VISIBLE:QUALIFY	ITYPE:Enhancement.Plus1	REPLACES:PLUS2W,PLUS3W,PLUS4W	SOURCEPAGE:DMG	PRETYPE:1,Ammunition,Weapon	PREVARGTEQ:RarityLVL,2																					BONUS:WEAPON|DAMAGE,TOHIT|1|TYPE=Enhancement	ASSIGNTOALL:NO		SORTKEY:01PLUSW
++1 (Enhancement to Armor)	KEY:PLUS1A	FORMATCAT:MIDDLE	NAMEOPT:TEXT=+1	TYPE:Armor			PLUS:1	VISIBLE:QUALIFY	ITYPE:Enhancement.Plus1	REPLACES:PLUS2A,PLUS3A,PLUS4A	SOURCEPAGE:DMG	PRETYPE:1,Armor	PREVARGTEQ:RarityLVL,3																					BONUS:COMBAT|AC|1|TYPE=ArmorEnhancement	ASSIGNTOALL:NO		SORTKEY:01PLUSA
++1 (Enhancement to Shield)	KEY:PLUS1S	FORMATCAT:MIDDLE	NAMEOPT:TEXT=+1	TYPE:Shield			PLUS:1	VISIBLE:QUALIFY	ITYPE:Enhancement.Plus1	REPLACES:PLUS2S,PLUS3S,PLUS4S,PLUS5S,MWORKA	SOURCEPAGE:DMG	PRETYPE:1,Shield	PREVARGTEQ:RarityLVL,2																					BONUS:COMBAT|AC|1|TYPE=ShieldEnhancement	ASSIGNTOALL:NO		SORTKEY:01PLUSS
++2 (Enhancement to Weapon or Ammunition)	KEY:PLUS2W	FORMATCAT:MIDDLE	NAMEOPT:TEXT=+2	TYPE:Ammunition.Weapon	PLUS:2	VISIBLE:QUALIFY	ITYPE:Enhancement.Plus2	REPLACES:PLUS1W,PLUS3W,PLUS4W	SOURCEPAGE:DMG	PRETYPE:1,Ammunition,Weapon	PREVARGTEQ:RarityLVL,3																					BONUS:WEAPON|DAMAGE,TOHIT|2|TYPE=Enhancement	ASSIGNTOALL:NO		SORTKEY:02PLUSW
++2 (Enhancement to Armor)	KEY:PLUS2A	FORMATCAT:MIDDLE	NAMEOPT:TEXT=+2	TYPE:Armor			PLUS:2	VISIBLE:QUALIFY	ITYPE:Enhancement.Plus2	REPLACES:PLUS1A,PLUS3A,PLUS4A	SOURCEPAGE:DMG	PRETYPE:1,Armor	PREVARGTEQ:RarityLVL,4																					BONUS:COMBAT|AC|2|TYPE=ArmorEnhancement	ASSIGNTOALL:NO		SORTKEY:02PLUSA
++2 (Enhancement to Shield)	KEY:PLUS2S	FORMATCAT:MIDDLE	NAMEOPT:TEXT=+2	TYPE:Shield			PLUS:2	VISIBLE:QUALIFY	ITYPE:Enhancement.Plus2	REPLACES:PLUS1S,PLUS3S,PLUS4S,PLUS5S,MWORKA	SOURCEPAGE:DMG	PRETYPE:1,Shield	PREVARGTEQ:RarityLVL,3																					BONUS:COMBAT|AC|2|TYPE=ShieldEnhancement	ASSIGNTOALL:NO		SORTKEY:02PLUSS
++3 (Enhancement to Weapon or Ammunition)	KEY:PLUS3W	FORMATCAT:MIDDLE	NAMEOPT:TEXT=+3	TYPE:Ammunition.Weapon	PLUS:3	VISIBLE:QUALIFY	ITYPE:Enhancement.Plus3	REPLACES:PLUS1W,PLUS2W,PLUS4W	SOURCEPAGE:DMG	PRETYPE:1,Ammunition,Weapon	PREVARGTEQ:RarityLVL,4																					BONUS:WEAPON|DAMAGE,TOHIT|3|TYPE=Enhancement	ASSIGNTOALL:NO		SORTKEY:03PLUSW
++3 (Enhancement to Armor)	KEY:PLUS3A	FORMATCAT:MIDDLE	NAMEOPT:TEXT=+3	TYPE:Armor			PLUS:3	VISIBLE:QUALIFY	ITYPE:Enhancement.Plus3	REPLACES:PLUS1A,PLUS2A,PLUS4A	SOURCEPAGE:DMG	PRETYPE:1,Armor	PREVARGTEQ:RarityLVL,5																					BONUS:COMBAT|AC|3|TYPE=ArmorEnhancement	ASSIGNTOALL:NO		SORTKEY:03PLUSA
++3 (Enhancement to Shield)	KEY:PLUS3S	FORMATCAT:MIDDLE	NAMEOPT:TEXT=+3	TYPE:Shield			PLUS:3	VISIBLE:QUALIFY	ITYPE:Enhancement.Plus3	REPLACES:PLUS1S,PLUS2S,PLUS4S,PLUS5S,MWORKA	SOURCEPAGE:DMG	PRETYPE:1,Shield	PREVARGTEQ:RarityLVL,4																					BONUS:COMBAT|AC|3|TYPE=ShieldEnhancement	ASSIGNTOALL:NO		SORTKEY:03PLUSS
+
+###Block:Materials
+Adamantine		KEY:ADAMANT_AMMO	TYPE:BaseMaterial.Ammunition	PREVARGTEQ:RarityLVL,2	VISIBLE:QUALIFY	ITYPE:Metal.Adamantine	SOURCEPAGE:DMG	PRETYPE:1,Metal	SPROP:Whenever this ammunition hits an object, the hit is a Critical Hit.		ASSIGNTOALL:NO
+Adamantine		KEY:ADAMANT_ARMR_HVY	TYPE:BaseMaterial.Armor		PREVARGTEQ:RarityLVL,2	VISIBLE:QUALIFY	ITYPE:Metal.Adamantine	SOURCEPAGE:DMG	PRETYPE:2,Metal,Heavy	!PRETYPE:1,Hide	SPROP:critical hits against you becomes normal hits.	ASSIGNTOALL:NO
+Adamantine		KEY:ADAMANT_ARMR_MED	TYPE:BaseMaterial.Armor		PREVARGTEQ:RarityLVL,2	VISIBLE:QUALIFY	ITYPE:Metal.Adamantine	SOURCEPAGE:DMG	PRETYPE:2,Metal,Medium	!PRETYPE:1,Hide	SPROP:critical hits against you becomes normal hits.	ASSIGNTOALL:NO
+Adamantine		KEY:ADAMANT_WEAP	TYPE:BaseMaterial.Weapon	PREVARGTEQ:RarityLVL,2	VISIBLE:QUALIFY	ITYPE:Metal.Adamantine	SOURCEPAGE:DMG	PRETYPE:1,Metal	SPROP:Whenever this weapon hits an object, the hit is a Critical Hit.		ASSIGNTOALL:NO
+
+Slaying	KEY:SLAY_AMMO	TYPE:Ammunition	PREVARGTEQ:RarityLVL,4	VISIBLE:QUALIFY	SOURCEPAGE:DMG	PRETYPE:1,Ammunition	ASSIGNTOALL:NO	SPROP:On hit vs %CHOICE, target makes a DC 17 Constitution saving throw, taking an extra 6d10 Force damage ona failed save or half as much extra damage on a successful one.	CHOOSE:STRING|Aberrations|Beasts|Celestials|Constructs|Dragons|Elementals|Humanoids|Fey|Fiends|Giants|Monstrosities|Oozes|Plants|Undeads|TITLE=Designated Foe
+
+Gleaning	KEY:GLEAN_ARMR	TYPE:Armor	PREVARGTEQ:RarityLVL,1	VISIBLE:QUALIFY	SOURCEPAGE:DMG	PRETYPE:1,Armor	ASSIGNTOALL:NO	SPROP:This armor never gets dirty
+
+Resistance	KEY:RESIST_ARMR	TYPE:Armor	PREVARGTEQ:RarityLVL,3	VISIBLE:QUALIFY	SOURCEPAGE:DMG	PRETYPE:1,Armor	ASSIGNTOALL:NO	SPROP:You have resistance against %CHOICE.	CHOOSE:STRING|Acid|Cold|Fire|Force|Lightning|Necrotic|Poison|Psychic|Radiant|Thunder|TITLE=Resistance

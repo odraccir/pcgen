@@ -1,0 +1,226 @@
+SOURCELONG:Dungeon Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-11
+
+###Block: Placeholder object
+Charm	TYPE:Charm.Consumable	COST:0	WT:0		SOURCEPAGE:DMG	EQMOD:REQUIRED	SORTKEY:!00
+Gem	TYPE:Gem	COST:0	WT:0		SOURCEPAGE:DMG	EQMOD:REQUIRED	SORTKEY:!00
+Art	TYPE:Art	COST:0	WT:0		SOURCEPAGE:DMG	EQMOD:REQUIRED	SORTKEY:!00
+
+###Block: Explosives
+Bomb	TYPE:Adventuring Gear.Explosive	COST:100	WT:1		SOURCEPAGE:DMG
+Dynamite Stick	TYPE:Adventuring Gear.Explosive	COST:0	WT:1		SOURCEPAGE:DMG
+Grenade (Fragmentation)	TYPE:Adventuring Gear.Explosive	COST:0	WT:1		SOURCEPAGE:DMG
+Grenade (Launcher)	TYPE:Adventuring Gear.Explosive	COST:0	WT:7		SOURCEPAGE:DMG
+Grenade (Smoke)	TYPE:Adventuring Gear.Explosive	COST:0	WT:20		SOURCEPAGE:DMG
+Gunpowder (Keg)		TYPE:Adventuring Gear.Keg.Powder	COST:250	WT:20	SOURCEPAGE:DMG																					
+Gunpowder (Horn)		TYPE:Adventuring Gear.Keg.Powder	COST:35	WT:2	SOURCEPAGE:DMG																					
+
+###Block: Poisons																										
+Poison (Assassin's Blood)	TYPE:Adventuring Gear.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:DMG	SPROP:Ingested DC 10, 6 (1d12) Poison damage and Poisoned condition 24 hours.
+Poison (Burnt Othur Fumes)	TYPE:Adventuring Gear.Poison.Consumable	COST:500	WT:0	SOURCEPAGE:DMG	SPROP:Inhaled DC 13, 10 (3d6) Poison damage.
+Poison (Carrion Crawler Mucus)	TYPE:Adventuring Gear.Poison.Consumable	COST:200	WT:0	SOURCEPAGE:DMG	SPROP:Contact DC 13, Poisoned 1 minute and Paralyzed condition.
+Poison (Essence of Ether)	TYPE:Adventuring Gear.Poison.Consumable	COST:300	WT:0	SOURCEPAGE:DMG	SPROP:Inhaled DC 15, Poisoned 8 hours and Unconscious condition.
+Poison (Lolt's Sting)	TYPE:Adventuring Gear.Poison.Consumable	COST:200	WT:0	SOURCEPAGE:DMG	SPROP:Injury DC 13, Poisoned 1 hour.
+Poison (Malice)	TYPE:Adventuring Gear.Poison.Consumable	COST:250	WT:0	SOURCEPAGE:DMG	SPROP:Inhaled DC 15, Poisoned 1 hour and Blinded condition.
+Poison (Midnight Tears)	TYPE:Adventuring Gear.Poison.Consumable	COST:1500	WT:0	SOURCEPAGE:DMG	SPROP:Ingested DC 17, 31 (9d6) Poison damage.
+Poison (Oil of Taggit)	TYPE:Adventuring Gear.Poison.Consumable	COST:400	WT:0	SOURCEPAGE:DMG	SPROP:Contact DC 13, Poisoned for 24 hours and Unconscious condition.
+Poison (Pale Tincture)	TYPE:Adventuring Gear.Poison.Consumable	COST:250	WT:0	SOURCEPAGE:DMG	SPROP:Ingested DC 16, 3 (1d6) Poison damage and Poisoned condition 24 hours.
+Poison (Purple Worm Poison)	TYPE:Adventuring Gear.Poison.Consumable	COST:2000	WT:0	SOURCEPAGE:DMG	SPROP:Injury DC 21, 35 (10d6) Poison damage.
+Poison (Serpent Venom)	TYPE:Adventuring Gear.Poison.Consumable	COST:200	WT:0	SOURCEPAGE:DMG	SPROP:Injury DC 11, 10 (3d6) Poison damage.
+Poison (Torpor)	TYPE:Adventuring Gear.Poison.Consumable	COST:600	WT:0	SOURCEPAGE:DMG	SPROP:Ingested DC 15, Poisoned condition 4d6 hours.
+Poison (Truth Serum)	TYPE:Adventuring Gear.Poison.Consumable	COST:150	WT:0	SOURCEPAGE:DMG	SPROP:Ingested DC 11, Poisoned condition 1 hour.
+Poison (Wyvern Poison)	TYPE:Adventuring Gear.Poison.Consumable	COST:1200	WT:0	SOURCEPAGE:DMG	SPROP:Injury DC 14, 24 (7d6) Poison damage.
+
+###Block:Siege equipment
+Ballista	TYPE:Siege Engine	COST:0	SOURCEPAGE:DMG	SPROP:AC 15, HP 50, Ballista Bolt (Requires Load and Aim). Ranged Attack Roll: +6, range 120/480 ft. Hit: 16 (3d10) Piercing damage.
+Cannon	TYPE:Siege Engine	COST:0	SOURCEPAGE:DMG	SPROP:AC 19, HP 75, Cannonball (Requires Load and Aim). Ranged Attack Roll: +6, range 600/2,400 ft. Hit: 44 (8d10) Bludgeoning damage.
+Flamethrower Coach	TYPE:Siege Engine	COST:0	SOURCEPAGE:DMG	SPROP:AC 19, HP 100, Flamethrower. Dexterity Saving Throw: DC 15, each creature in a 60-foot-long, 5-foot-wide Line. Failure: 14 (4d6) Fire damage, and the creature starts burning. Success: Half damage only.
+Keg Launcher	TYPE:Siege Engine	COST:0	SOURCEPAGE:DMG	SPROP:AC 15, HP 30, Toxic Keg (Requires Load and Aim). Constitution Saving Throw: DC 15, each creature in a 20-foot-radius Sphere centered on a point 30 to 300 feet from the launcher. Failure: 14 (4d6) Poison damage. Success: Half damage.
+Lightning Cannon	TYPE:Siege Engine	COST:0	SOURCEPAGE:DMG	SPROP:AC 19, HP 30, Lightning Ball (Requires Aim). Ranged Attack Roll: +6, range 300/1,200 ft. Hit: 22 (4d10) Lightning damage.
+Mangonel	TYPE:Siege Engine	COST:0	SOURCEPAGE:DMG	SPROP:AC 15, HP 100, Mangonel Stone (Requires Load and Aim). Ranged Attack Roll: +5, range 200/800 ft. (can't hit targets within 60 feet of itself). Hit: 27 (5410) Bludgeoning damage.
+Ram	TYPE:Siege Engine	COST:0	SOURCEPAGE:DMG	SPROP:AC 15, HP 100, Ram (Requires Position). Melee Attack Roll: +8, reach ft. Hit: 16 (3d10) Bludgeoning damage.
+Siege Tower	TYPE:Siege Engine	COST:0	SOURCEPAGE:DMG	SPROP:AC 15, HP 200
+Suspended Cauldron	TYPE:Siege Engine	COST:0	SOURCEPAGE:DMG	SPROP:AC 19, HP 20, Spill (Requires a Full Cauldron). Dexterity Saving Throw: DC 15, each creature in a 10-foot square directly below the cauldron. Failure: 10 (346) Fire damage. Success: Half damage.
+Trebuchet	TYPE:Siege Engine	COST:0	SOURCEPAGE:DMG	SPROP:AC 15, HP 150, Trebuchet Stone (Requires Load and Aim). Ranged Attack Roll: +5, range 300/1,200 ft. (can’t hit targets within 60 feet of itself). Hit: 44 (8d10) Bludgeoning damage.
+
+###Block:Treasure
+###Trade Bars
+Silver Bar (2 pound)	TYPE:Coin	COST:10	WT:2
+Silver Bar (5 pound)	TYPE:Coin	COST:25	WT:5
+Gold Bar (5 pound)	TYPE:Coin	COST:250	WT:5
+
+##Trade Goods
+Wheat (Per Lb.)	TYPE:Goods.Trade	COST:0.01	WT:1	SOURCEPAGE:DMG
+Flour (Per Lb.)	TYPE:Goods.Trade	COST:0.02	WT:1	SOURCEPAGE:DMG
+Salt (Per Lb.)	TYPE:Goods.Trade	COST:0.05	WT:1	SOURCEPAGE:DMG
+Canvas (1 sq. yd.)	TYPE:Goods.Trade	COST:0.1	WT:0	SOURCEPAGE:DMG
+Cotton Cloth (1 sq. yd.)	TYPE:Goods.Trade	COST:0.5	WT:0	SOURCEPAGE:DMG
+Ginger (Per Lb.)	TYPE:Goods.Trade	COST:1	WT:1	SOURCEPAGE:DMG
+Cinnamon (Per Lb.)	TYPE:Goods.Trade	COST:2	WT:1	SOURCEPAGE:DMG
+Pepper (Per Lb.)	TYPE:Goods.Trade	COST:2	WT:1	SOURCEPAGE:DMG
+Cloves (Per Lb.)	TYPE:Goods.Trade	COST:3	WT:1	SOURCEPAGE:DMG
+Linen Cloth (1 sq. yd.)	TYPE:Goods.Trade	COST:5	WT:0	SOURCEPAGE:DMG
+Silk Cloth (1 sq. yd.)	TYPE:Goods.Trade	COST:10	WT:0	SOURCEPAGE:DMG
+Saffron (Per Lb.)	TYPE:Goods.Trade	COST:15	WT:1	SOURCEPAGE:DMG
+
+Chicken	TYPE:Goods.Trade	COST:0.02	WT:0	SOURCEPAGE:DMG
+Goat	TYPE:Goods.Trade	COST:1	WT:0	SOURCEPAGE:DMG
+Sheep	TYPE:Goods.Trade	COST:2	WT:0	SOURCEPAGE:DMG
+Pig	TYPE:Goods.Trade	COST:3	WT:0	SOURCEPAGE:DMG
+Cow	TYPE:Goods.Trade	COST:10	WT:0	SOURCEPAGE:DMG
+Ox	TYPE:Goods.Trade	COST:15	WT:0	SOURCEPAGE:DMG
+
+Iron (Per Lb.)	TYPE:Goods.Trade.Ore	COST:0.1	WT:1	SOURCEPAGE:DMG
+Copper (Per Lb.)	TYPE:Goods.Trade.Ore	COST:0.5	WT:1	SOURCEPAGE:DMG
+Silver (Per Lb.)	TYPE:Goods.Trade.Ore	COST:5	WT:1	SOURCEPAGE:DMG
+Gold (Per Lb.)	TYPE:Goods.Trade.Ore	COST:50	WT:1	SOURCEPAGE:DMG
+Platinum (Per Lb.)	TYPE:Goods.Trade.Ore	COST:500	WT:1	SOURCEPAGE:DMG
+
+###Block:Gems
+# Equipment Name				SORTKEY			Output Name						Type			Cost		Weight	Source Page
+#Agate (Banded)				SORTKEY:Gem_Standard	OUTPUTNAME:[NAME] Agate				TYPE:Goods.Gem	COST:10	WT:0		SOURCEPAGE:Treasure
+Gem (Azurite (mottled deep blue)	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Banded Agate (Striped brown))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Banded Agate (Blue))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Banded Agate (White))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Banded Agate (Red))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Blue Quartz (Pale blue))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Eye Agate (Circles of gray))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Eye Agate (White))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Eye Agate (Brown))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Eye Agate (Blue))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Eye Agate (Green))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Hematite (Grey black))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Lapis Lazuli (Light and dark blue with yellow flecks))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Malachite (Striated light and dark green))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Moss Agate (Pink with mossy gray markings))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Moss Agate (Yellow white with mossy gray markings))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Moss Agate (Pink with mossy green markings))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Moss Agate (Yellow white with mossy green markings))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Obsidian (Black))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Rhodochrosite (Light Pink))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Tiger Eye (Brown with golden center))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+Gem (Turquoise (Light blue green))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:10	WT:0	SOURCEPAGE:DMG
+
+Gem (Bloodstone (dark grey with red flecks))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:50	WT:0	SOURCEPAGE:DMG
+Gem (Carnelian (Orange to red brown))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:50	WT:0	SOURCEPAGE:DMG
+Gem (Calchedony (White))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:50	WT:0	SOURCEPAGE:DMG
+Gem (Chrysoprase (Green))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:50	WT:0	SOURCEPAGE:DMG
+Gem (Citrine (Pale yellow brown))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:50	WT:0	SOURCEPAGE:DMG
+Gem (Jasper (Blue))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:50	WT:0	SOURCEPAGE:DMG
+Gem (Jasper (Black))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:50	WT:0	SOURCEPAGE:DMG
+Gem (Jasper (Brown))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:50	WT:0	SOURCEPAGE:DMG
+Gem (Moonstone (White with pale-blue glow))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:50	WT:0	SOURCEPAGE:DMG
+Gem (Onyx (Band of black and white))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:50	WT:0	SOURCEPAGE:DMG
+Gem (Onyx (Pure black))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:50	WT:0	SOURCEPAGE:DMG
+Gem (Onyx (White))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:50	WT:0	SOURCEPAGE:DMG
+Gem (Quartz (White))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:50	WT:0	SOURCEPAGE:DMG
+Gem (Quartz (Smoky gray))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:50	WT:0	SOURCEPAGE:DMG
+Gem (Quartz (Yellow))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:50	WT:0	SOURCEPAGE:DMG
+Gem (Sardonyx (Band of red and white))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:50	WT:0	SOURCEPAGE:DMG
+Gem (Star Rose Quartz (Rosy stone with white star-shaped center))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:50	WT:0	SOURCEPAGE:DMG
+Gem (Zircon (Pale blue green))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:50	WT:0	SOURCEPAGE:DMG
+
+Gem (Amber (Watery gold to rich gold))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Amethyst (Deep purple))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Chrysoberyl (Yellow green to pale green))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Coral (Crimson))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Garnet (Red))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Garnet (Brown))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Garnet (Green))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Garnet (Violet))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Jade (Light green))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Jade (Deep green))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Jade (White))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Jet (Deep black))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Pearl (Lustruous white))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Pearl (Yellow))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Pearl (Pink))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Spinel (Red))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Spinel (Red brown))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Spinel (Deep green))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Tourmaline (Pale green))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Tourmaline (Blue))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Tourmaline (Brown))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+Gem (Tourmaline (Red))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:100	WT:0	SOURCEPAGE:DMG
+
+Gem (Alexandrite (Dark green))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:500	WT:0	SOURCEPAGE:DMG
+Gem (Aquamarine (Pale blue green))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:500	WT:0	SOURCEPAGE:DMG
+Gem (Black Pearl (Pure black))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:500	WT:0	SOURCEPAGE:DMG
+Gem (Blue Spinel (Deep blue))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:500	WT:0	SOURCEPAGE:DMG
+Gem (Peridot (Rich olive green))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:500	WT:0	SOURCEPAGE:DMG
+Gem (Topaz (Golden yellow))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:500	WT:0	SOURCEPAGE:DMG
+
+Gem (Black Opal (dark green with with black mottling and golden frecks))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:1000	WT:0	SOURCEPAGE:DMG
+Gem (Blue Sapphire (Medium blue))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:1000	WT:0	SOURCEPAGE:DMG
+Gem (Emerald (Deep bright green))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:1000	WT:0	SOURCEPAGE:DMG
+Gem (Fire Opal (Fiery red))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:1000	WT:0	SOURCEPAGE:DMG
+Gem (Opal (pale blue with green and golden mottling))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:1000	WT:0	SOURCEPAGE:DMG
+Gem (Star Ruby (Ruby with white star-shaped center))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:1000	WT:0	SOURCEPAGE:DMG
+Gem (Star Sapphire (Blue sapphire with white star-shaped center))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:1000	WT:0	SOURCEPAGE:DMG
+Gem (Sapphire (Fiery yellow))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:1000	WT:0	SOURCEPAGE:DMG
+Gem (Sapphire (Yellow green))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:1000	WT:0	SOURCEPAGE:DMG
+
+Gem (Black Sapphire (Lustrous black with glowing highlights))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:5000	WT:0	SOURCEPAGE:DMG
+Gem (Diamond (Blue white))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:5000	WT:0	SOURCEPAGE:DMG
+Gem (Diamond (Canary))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:5000	WT:0	SOURCEPAGE:DMG
+Gem (Diamond (Pink))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:5000	WT:0	SOURCEPAGE:DMG
+Gem (Diamond (Brown))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:5000	WT:0	SOURCEPAGE:DMG
+Gem (Diamond (Blue))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:5000	WT:0	SOURCEPAGE:DMG
+Gem (Jacinth (Fiery orange))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:5000	WT:0	SOURCEPAGE:DMG
+Gem (Ruby (Clear red to deep crimson))	SORTKEY:Gem_Standard	TYPE:Goods.Gem	COST:5000	WT:0	SOURCEPAGE:DMG
+
+Art (Silver ewer)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:25	WT:0	SOURCEPAGE:DMG
+Art (Carved bone statuette)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:25	WT:0	SOURCEPAGE:DMG
+Art (Gold bracelet)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:25	WT:0	SOURCEPAGE:DMG
+Art (Cloth-of-gold vestments)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:25	WT:0	SOURCEPAGE:DMG
+Art (Black velvet mask stitched with silver thread)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:25	WT:0	SOURCEPAGE:DMG
+Art (Copper chalice with silver filigree)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:25	WT:0	SOURCEPAGE:DMG
+Art (Pair of engraved bone dice)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:25	WT:0	SOURCEPAGE:DMG
+Art (Handheld mirror set in painted wooden frame)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:25	WT:0	SOURCEPAGE:DMG
+Art (Embroidered silk handkerchief)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:25	WT:0	SOURCEPAGE:DMG
+Art (Gold locket with painted portrait inside)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:25	WT:0	SOURCEPAGE:DMG
+
+Art (Gold ring set with bloodstones)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:250	WT:0	SOURCEPAGE:DMG
+Art (Carved ivory statuette)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:250	WT:0	SOURCEPAGE:DMG
+Art (Bejewled gold bracelet)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:250	WT:0	SOURCEPAGE:DMG
+Art (Silver neckalce with a gemstone pendant)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:250	WT:0	SOURCEPAGE:DMG
+Art (Bronze crown)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:250	WT:0	SOURCEPAGE:DMG
+Art (Silver vestment with gold embroidery)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:250	WT:0	SOURCEPAGE:DMG
+Art (Well-made tapestry 10' by 10')	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:250	WT:0	SOURCEPAGE:DMG
+Art (Brass mug with jade inlay)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:250	WT:0	SOURCEPAGE:DMG
+Art (Box of turquoise animal figurines)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:250	WT:0	SOURCEPAGE:DMG
+Art (Gold birdcage with electrum filigree)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:250	WT:0	SOURCEPAGE:DMG
+
+Art (Silver chalice set with moonstones)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:750	WT:0	SOURCEPAGE:DMG
+Art (Bundle of sheet music representing the lost dirges of a famous composer)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:750	WT:0	SOURCEPAGE:DMG
+Art (Carved wooden harp with ivory inlay and zircon gems)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:750	WT:0	SOURCEPAGE:DMG
+Art (Gold idol)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:750	WT:0	SOURCEPAGE:DMG
+Art (Gold comb shaped like a dragon with red garnets as eyes)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:750	WT:0	SOURCEPAGE:DMG
+Art (Bottle stopper cork embossed with gold leaf and set with amethysts)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:750	WT:0	SOURCEPAGE:DMG
+Art (Detailed, life-sized dragonborn skulls cast in electrum)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:750	WT:0	SOURCEPAGE:DMG
+Art (Silver and gold brooch)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:750	WT:0	SOURCEPAGE:DMG
+Art (Obsidian statuette with gold fitting and inlay)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:750	WT:0	SOURCEPAGE:DMG
+Art (Painted gold war mask)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:750	WT:0	SOURCEPAGE:DMG
+
+Art (Fine gold chain set with a fire opal)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:2500	WT:0	SOURCEPAGE:DMG
+Art (Old masterpiece painting)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:2500	WT:0	SOURCEPAGE:DMG
+Art (Embroidered silk and velvet mantle set with numerous moonstones)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:2500	WT:0	SOURCEPAGE:DMG
+Art (Platinum bracelet set with an emerald)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:2500	WT:0	SOURCEPAGE:DMG
+Art (Embroidered glove with jewel chips)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:2500	WT:0	SOURCEPAGE:DMG
+Art (Jeweled anklet)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:2500	WT:0	SOURCEPAGE:DMG
+Art (Gold music box)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:2500	WT:0	SOURCEPAGE:DMG
+Art (Gold circlet set with four aquamarines)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:2500	WT:0	SOURCEPAGE:DMG
+Art (Eye patch decorated with tiny blue sapphires and moonstones)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:2500	WT:0	SOURCEPAGE:DMG
+Art (A neckalce string of small pearls)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:2500	WT:0	SOURCEPAGE:DMG
+
+Art (Jeweled gold crown)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:7500	WT:0	SOURCEPAGE:DMG
+Art (Jeweled platinum ring)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:7500	WT:0	SOURCEPAGE:DMG
+Art (Gold statuette set with rubies)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:7500	WT:0	SOURCEPAGE:DMG
+Art (Gold cup set with emeralds)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:7500	WT:0	SOURCEPAGE:DMG
+Art (Gold jewelery box with platinum filigree)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:7500	WT:0	SOURCEPAGE:DMG
+Art (Set of gold nesting dolls)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:7500	WT:0	SOURCEPAGE:DMG
+Art (Jade game board with gold playing pieces)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:7500	WT:0	SOURCEPAGE:DMG
+Art (Bejeweled ivory drinking horn with gold filigree)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:7500	WT:0	SOURCEPAGE:DMG
+Art (Gilded royal coach)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:7500	WT:0	SOURCEPAGE:DMG
+Art (Gilded funeral barge)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:7500	WT:0	SOURCEPAGE:DMG
+Art (Ceremonial gold armor with black pearls)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:7500	WT:0	SOURCEPAGE:DMG

@@ -1,0 +1,47 @@
+CAMPAIGN:Dungeon Master's Guide
+KEY:Dungeon Master's Guide
+BOOKTYPE:Core Rules
+!PRECAMPAIGN:1,BOOKTYPE=Core Rules,[Dungeon Master's Guide]
+GAMEMODE:G55e
+TYPE:Wizards of the Coast.Core
+SOURCELONG:Dungeon Master's Guide
+SOURCESHORT:DMG
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2024-11
+RANK:202411
+PUBNAMELONG:Wizard's of the Coast
+PUBNAMESHORT:WotC
+PUBNAMEWEB:http://www.wizards.com
+COPYRIGHT:Copyright 2024, Wizards of the Coast, Inc.
+ISOGL:NO
+
+# COVER should be cover_gameMode_pub_book.file
+COVER:&/Gozzilioni55e/_artwork/cover_5e2024_wotc_dmg.png
+# LOGO should be logo_pub.file
+LOGO:&/Gozzilioni55e/_artwork/logo_wotc.png
+
+INFOTEXT:D&D 5.5e Dungeon Master's Guide
+
+#ABILITY:dmg_abilities_class.lst
+#ABILITY:dmg_abilities_races.lst
+#ABILITY:dmg_abilities.lst
+ABILITYCATEGORY:dmg_abilitycategories.lst
+#BIOSET:dmg_biosettings.lst
+#CLASS:dmg_classes.lst
+#COMPANIONMOD:dmg_companionmods.lst
+#DOMAIN:dmg_domains.lst
+EQUIPMOD:dmg_eqmods.lst
+EQUIPMENT:dmg_equip_arms_and_armor.lst
+EQUIPMENT:dmg_equipment.lst
+ABILITY:dmg_feats.lst
+KIT:dmg_kits.lst
+#LANGUAGE:dmg_languages.lst
+#ARMORPROF:dmg_profs_armor.lst
+#SHIELDPROF:dmg_profs_shield.lst
+#WEAPONPROF:dmg_profs_weapon.lst
+#RACE:dmg_races.lst
+#SKILL:dmg_skills.lst
+#SPELL:dmg_spells.lst
+#TEMPLATE:dmg_templates.lst
+
+INFOTEXT:Supports 6.4.1

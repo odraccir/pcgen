@@ -1,0 +1,266 @@
+SOURCELONG:Dungeon Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-11
+
+STARTPACK:Custom Equipment (B)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
+FUNDS:gp	QTY:50
+
+STARTPACK:Individual Treasure - CR 0 - 4	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)		QTY:roll("3d6")
+
+STARTPACK:Individual Treasure - CR 5 - 10	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)		QTY:roll("2d8")*10
+
+STARTPACK:Individual Treasure - CR 11 - 16	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Platinum)		QTY:roll("2d10")*10
+
+STARTPACK:Individual Treasure - CR 17+	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Platinum)		QTY:roll("2d8")*100
+
+STARTPACK:Random Treasure Hoard - CR 0 - 4	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)		QTY:roll("2d4")*100
+#1d4-1
+
+STARTPACK:Random Trasure Hoard - CR 5 - 10	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)		QTY:roll("8d10")*100
+#1d3
+
+STARTPACK:Random Trasure Hoard - CR 11 - 16	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)		QTY:roll("8d8")*10000
+#1d4
+
+STARTPACK:Random Trasure Hoard - CR 17+	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+GEAR:Coin (Gold)		QTY:roll("6d10")*10000
+#1d6
+
+
+STARTPACK:10GP Gemstones	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d12")
+GEAR:Gem (Azurite (mottled deep blue)			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:1
+KIT:Specific Gem - Banded Agate		OPTION:2
+GEAR:Gem (Blue Quartz (Pale blue))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:3
+KIT:Specific Gem - Eye Agate		OPTION:4
+GEAR:Gem (Hematite (Grey black))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:5
+GEAR:Gem (Lapis Lazuli (Light and dark blue with yellow flecks))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:6
+GEAR:Gem (Malachite (Striated light and dark green))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:7
+KIT:Specific Gem - Moss Agate		OPTION:8
+GEAR:Gem (Obsidian (Black))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:9
+GEAR:Gem (Rhodochrosite (Light Pink))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:10
+GEAR:Gem (Tiger Eye (Brown with golden center))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:11
+GEAR:Gem (Turquoise (Light blue green))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:11
+
+STARTPACK:Specific Gem - Banded Agate	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d4")
+GEAR:Gem (Banded Agate (Striped brown))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:1
+GEAR:Gem (Banded Agate (Blue))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:2
+GEAR:Gem (Banded Agate (White))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:3
+GEAR:Gem (Banded Agate (Red))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:4
+
+STARTPACK:Specific Gem - Eye Agate	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d5")
+GEAR:Gem (Eye Agate (Circles of gray))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:1
+GEAR:Gem (Eye Agate (White))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:2
+GEAR:Gem (Eye Agate (Brown))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:3
+GEAR:Gem (Eye Agate (Blue))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:4
+GEAR:Gem (Eye Agate (Green))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:5
+
+STARTPACK:Specific Gem - Moss Agate	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d4")
+GEAR:Gem (Moss Agate (Pink with mossy gray markings))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:1
+GEAR:Gem (Moss Agate (Yellow white with mossy gray markings))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:2
+GEAR:Gem (Moss Agate (Pink with mossy green markings))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:3
+GEAR:Gem (Moss Agate (Yellow white with mossy green markings))			EQMOD:GEM|EVAL(roll("4d4"))	OPTION:4
+
+STARTPACK:50GP Gemstones	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d12")
+GEAR:Gem (Bloodstone (dark grey with red flecks))			EQMOD:GEM|EVAL(roll("2d4")*10)	OPTION:1
+GEAR:Gem (Carnelian (Orange to red brown))			EQMOD:GEM|EVAL(roll("2d4")*10)	OPTION:2
+GEAR:Gem (Calchedony (White))			EQMOD:GEM|EVAL(roll("2d4")*10)	OPTION:3
+GEAR:Gem (Chrysoprase (Green))			EQMOD:GEM|EVAL(roll("2d4")*10)	OPTION:4
+GEAR:Gem (Citrine (Pale yellow brown))			EQMOD:GEM|EVAL(roll("2d4")*10)	OPTION:5
+KIT:Specific Gem - Jasper		OPTION:6
+GEAR:Gem (Moonstone (White with pale-blue glow))			EQMOD:GEM|EVAL(roll("2d4")*10)	OPTION:7
+KIT:Specific Gem - Onyx		OPTION:8
+KIT:Specific Gem - Quartz		OPTION:9
+GEAR:Gem (Sardonyx (Band of red and white))			EQMOD:GEM|EVAL(roll("2d4")*10)	OPTION:10
+GEAR:Gem (Star Rose Quartz (Rosy stone with white star-shaped center))			EQMOD:GEM|EVAL(roll("2d4")*10)	OPTION:11
+GEAR:Gem (Zircon (Pale blue green))			EQMOD:GEM|EVAL(roll("2d4")*10)	OPTION:12
+
+STARTPACK:Specific Gem - Jasper	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d3")
+GEAR:Gem (Jasper (Blue))			EQMOD:GEM|EVAL(roll("2d4")*10)	OPTION:1
+GEAR:Gem (Jasper (Black))			EQMOD:GEM|EVAL(roll("2d4")*10)	OPTION:2
+GEAR:Gem (Jasper (Brown))			EQMOD:GEM|EVAL(roll("2d4")*10)	OPTION:3
+
+STARTPACK:Specific Gem - Onyx	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d3")
+GEAR:Gem (Onyx (Band of black and white))			EQMOD:GEM|EVAL(roll("2d4")*10)	OPTION:1
+GEAR:Gem (Onyx (Pure black))			EQMOD:GEM|EVAL(roll("2d4")*10)	OPTION:2
+GEAR:Gem (Onyx (White))			EQMOD:GEM|EVAL(roll("2d4")*10)	OPTION:3
+
+STARTPACK:Specific Gem - Quartz	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d3")
+GEAR:Gem (Quartz (White))			EQMOD:GEM|EVAL(roll("2d4")*10)	OPTION:1
+GEAR:Gem (Quartz (Smoky gray))			EQMOD:GEM|EVAL(roll("2d4")*10)	OPTION:2
+GEAR:Gem (Quartz (Yellow))			EQMOD:GEM|EVAL(roll("2d4")*10)	OPTION:3
+
+STARTPACK:100GP Gemstones	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d10")
+GEAR:Gem (Amber (Watery gold to rich gold))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:1
+GEAR:Gem (Amethyst (Deep purple))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:2
+GEAR:Gem (Chrysoberyl (Yellow green to pale green))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:3
+GEAR:Gem (Coral (Crimson))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:4
+KIT:Specific Gem - Garnet		OPTION:5
+KIT:Specific Gem - Jade		OPTION:6
+GEAR:Gem (Jet (Deep black))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:7
+KIT:Specific Gem - Pearl		OPTION:8
+KIT:Specific Gem - Spinel		OPTION:9
+KIT:Specific Gem - Tourmaline		OPTION:10
+
+STARTPACK:Specific Gem - Garnet	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d4")
+GEAR:Gem (Garnet (Red))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:1
+GEAR:Gem (Garnet (Brown))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:2
+GEAR:Gem (Garnet (Green))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:3
+GEAR:Gem (Garnet (Violet))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:4
+
+STARTPACK:Specific Gem - Jade	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d3")
+GEAR:Gem (Jade (Light green))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:1
+GEAR:Gem (Jade (Deep green))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:2
+GEAR:Gem (Jade (White))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:3
+
+STARTPACK:Specific Gem - Pearl	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d3")
+GEAR:Gem (Pearl (Lustruous white))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:1
+GEAR:Gem (Pearl (Yellow))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:2
+GEAR:Gem (Pearl (Pink))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:3
+
+STARTPACK:Specific Gem - Spinel	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d3")
+GEAR:Gem (Spinel (Red))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:1
+GEAR:Gem (Spinel (Red brown))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:2
+GEAR:Gem (Spinel (Deep green))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:3
+
+STARTPACK:Specific Gem - Tourmaline	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d4")
+GEAR:Gem (Tourmaline (Pale green))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:1
+GEAR:Gem (Tourmaline (Blue))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:2
+GEAR:Gem (Tourmaline (Brown))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:3
+GEAR:Gem (Tourmaline (Red))			EQMOD:GEM|EVAL(roll("4d4")*10)	OPTION:4
+
+STARTPACK:500GP Gemstones	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d6")
+GEAR:Gem (Alexandrite (Dark green))			EQMOD:GEM|EVAL(roll("2d4")*100)	OPTION:1
+GEAR:Gem (Aquamarine (Pale blue green))			EQMOD:GEM|EVAL(roll("2d4")*100)	OPTION:2
+GEAR:Gem (Black Pearl (Pure black))			EQMOD:GEM|EVAL(roll("2d4")*100)	OPTION:3
+GEAR:Gem (Blue Spinel (Deep blue))			EQMOD:GEM|EVAL(roll("2d4")*100)	OPTION:4
+GEAR:Gem (Peridot (Rich olive green))			EQMOD:GEM|EVAL(roll("2d4")*100)	OPTION:5
+GEAR:Gem (Topaz (Golden yellow))			EQMOD:GEM|EVAL(roll("2d4")*100)	OPTION:6
+
+STARTPACK:1000GP Gemstones	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d8")
+GEAR:Gem (Black Opal (dark green with with black mottling and golden frecks))			EQMOD:GEM|EVAL(roll("4d4")*100)	OPTION:1
+GEAR:Gem (Blue Sapphire (Medium blue))			EQMOD:GEM|EVAL(roll("4d4")*100)	OPTION:2
+GEAR:Gem (Emerald (Deep bright green))			EQMOD:GEM|EVAL(roll("4d4")*100)	OPTION:3
+GEAR:Gem (Fire Opal (Fiery red))			EQMOD:GEM|EVAL(roll("4d4")*100)	OPTION:4
+GEAR:Gem (Opal (pale blue with green and golden mottling))			EQMOD:GEM|EVAL(roll("4d4")*100)	OPTION:5
+GEAR:Gem (Star Ruby (Ruby with white star-shaped center))			EQMOD:GEM|EVAL(roll("4d4")*100)	OPTION:6
+GEAR:Gem (Star Sapphire (Blue sapphire with white star-shaped center))			EQMOD:GEM|EVAL(roll("4d4")*100)	OPTION:7
+KIT:Specific Gem - Sapphire		OPTION:8
+
+STARTPACK:Specific Gem - Sapphire	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d2")
+GEAR:Gem (Sapphire (Fiery yellow))			EQMOD:GEM|EVAL(roll("4d4")*100)	OPTION:1
+GEAR:Gem (Sapphire (Yellow green))			EQMOD:GEM|EVAL(roll("4d4")*100)	OPTION:2
+
+STARTPACK:5000GP Gemstones	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d4")
+GEAR:Gem (Black Sapphire (Lustrous black with glowing highlights))			EQMOD:GEM|EVAL(roll("2d4")*1000)	OPTION:1
+KIT:Specific Gem - Diamond		OPTION:2
+GEAR:Gem (Jacinth (Fiery orange))			EQMOD:GEM|EVAL(roll("2d4")*1000)	OPTION:3
+GEAR:Gem (Ruby (Clear red to deep crimson))			EQMOD:GEM|EVAL(roll("2d4")*1000)	OPTION:4
+
+STARTPACK:Specific Gem - Diamond	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d5")
+GEAR:Gem (Diamond (Blue white))			EQMOD:GEM|EVAL(roll("2d4")*1000)	OPTION:1
+GEAR:Gem (Diamond (Canary))			EQMOD:GEM|EVAL(roll("2d4")*1000)	OPTION:2
+GEAR:Gem (Diamond (Pink))			EQMOD:GEM|EVAL(roll("2d4")*1000)	OPTION:3
+GEAR:Gem (Diamond (Brown))			EQMOD:GEM|EVAL(roll("2d4")*1000)	OPTION:4
+GEAR:Gem (Diamond (Blue))			EQMOD:GEM|EVAL(roll("2d4")*1000)	OPTION:5
+
+#Levels Levels Levels Levels item's
+#1-4    5-10   11-16  17-20  Rarity  
+#01-54  01-30  01-11  -      Common
+#55-91  31-81  12-34  -      Uncommon
+#92-00  82-98  35-70  01-20  Rare
+#—      99-00  71-93  21-64  Very Rare
+#—      -      94-00  65-00  Legendary
+
+STARTPACK:25GP Art Objects	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d10")
+GEAR:Art (Silver ewer)			EQMOD:ART|EVAL(roll("1d10")*5)	OPTION:1
+GEAR:Art (Carved bone statuette)			EQMOD:ART|EVAL(roll("1d10")*5)	OPTION:2
+GEAR:Art (Gold bracelet)			EQMOD:ART|EVAL(roll("1d10")*5)	OPTION:3
+GEAR:Art (Cloth-of-gold vestments)			EQMOD:ART|EVAL(roll("1d10")*5)	OPTION:4
+GEAR:Art (Black velvet mask stitched with silver thread)			EQMOD:ART|EVAL(roll("1d10")*5)	OPTION:5
+GEAR:Art (Copper chalice with silver filigree)			EQMOD:ART|EVAL(roll("1d10")*5)	OPTION:6
+GEAR:Art (Pair of engraved bone dice)			EQMOD:ART|EVAL(roll("1d10")*5)	OPTION:7
+GEAR:Art (Handheld mirror set in painted wooden frame)			EQMOD:ART|EVAL(roll("1d10")*5)	OPTION:8
+GEAR:Art (Embroidered silk handkerchief)			EQMOD:ART|EVAL(roll("1d10")*5)	OPTION:9
+GEAR:Art (Gold locket with painted portrait inside)			EQMOD:ART|EVAL(roll("1d10")*5)	OPTION:10
+
+STARTPACK:250GP Art Objects	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d10")
+GEAR:Art (Gold ring set with bloodstones)			EQMOD:ART|EVAL(roll("1d10")*50)	OPTION:1
+GEAR:Art (Carved ivory statuette)			EQMOD:ART|EVAL(roll("1d10")*50)	OPTION:2
+GEAR:Art (Bejewled gold bracelet)			EQMOD:ART|EVAL(roll("1d10")*50)	OPTION:3
+GEAR:Art (Silver neckalce with a gemstone pendant)			EQMOD:ART|EVAL(roll("1d10")*50)	OPTION:4
+GEAR:Art (Bronze crown)			EQMOD:ART|EVAL(roll("1d10")*50)	OPTION:5
+GEAR:Art (Silver vestment with gold embroidery)			EQMOD:ART|EVAL(roll("1d10")*50)	OPTION:6
+GEAR:Art (Well-made tapestry 10' by 10')			EQMOD:ART|EVAL(roll("1d10")*50)	OPTION:7
+GEAR:Art (Brass mug with jade inlay)			EQMOD:ART|EVAL(roll("1d10")*50)	OPTION:8
+GEAR:Art (Box of turquoise animal figurines)			EQMOD:ART|EVAL(roll("1d10")*50)	OPTION:9
+GEAR:Art (Gold birdcage with electrum filigree)			EQMOD:ART|EVAL(roll("1d10")*50)	OPTION:10
+
+STARTPACK:750GP Art Objects	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d10")
+GEAR:Art (Silver chalice set with moonstones)			EQMOD:ART|EVAL(roll("3d4")*100)	OPTION:1
+GEAR:Art (Bundle of sheet music representing the lost dirges of a famous composer)			EQMOD:ART|EVAL(roll("3d4")*100)	OPTION:2
+GEAR:Art (Carved wooden harp with ivory inlay and zircon gems)			EQMOD:ART|EVAL(roll("3d4")*100)	OPTION:3
+GEAR:Art (Gold idol)			EQMOD:ART|EVAL(roll("3d4")*100)	OPTION:4
+GEAR:Art (Gold comb shaped like a dragon with red garnets as eyes)			EQMOD:ART|EVAL(roll("3d4")*100)	OPTION:5
+GEAR:Art (Bottle stopper cork embossed with gold leaf and set with amethysts)			EQMOD:ART|EVAL(roll("3d4")*100)	OPTION:6
+GEAR:Art (Detailed, life-sized dragonborn skulls cast in electrum)			EQMOD:ART|EVAL(roll("3d4")*100)	OPTION:7
+GEAR:Art (Silver and gold brooch)			EQMOD:ART|EVAL(roll("3d4")*100)	OPTION:8
+GEAR:Art (Obsidian statuette with gold fitting and inlay)			EQMOD:ART|EVAL(roll("3d4")*100)	OPTION:9
+GEAR:Art (Painted gold war mask)			EQMOD:ART|EVAL(roll("3d4")*100)	OPTION:10
+
+STARTPACK:2500GP Art Objects	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d10")
+GEAR:Art (Fine gold chain set with a fire opal)			EQMOD:ART|EVAL(roll("1d10")*500)	OPTION:1
+GEAR:Art (Old masterpiece painting)			EQMOD:ART|EVAL(roll("1d10")*500)	OPTION:2
+GEAR:Art (Embroidered silk and velvet mantle set with numerous moonstones)			EQMOD:ART|EVAL(roll("1d10")*500)	OPTION:3
+GEAR:Art (Platinum bracelet set with an emerald)			EQMOD:ART|EVAL(roll("1d10")*500)	OPTION:4
+GEAR:Art (Embroidered glove with jewel chips)			EQMOD:ART|EVAL(roll("1d10")*500)	OPTION:5
+GEAR:Art (Jeweled anklet)			EQMOD:ART|EVAL(roll("1d10")*500)	OPTION:6
+GEAR:Art (Gold music box)			EQMOD:ART|EVAL(roll("1d10")*500)	OPTION:7
+GEAR:Art (Gold circlet set with four aquamarines)			EQMOD:ART|EVAL(roll("1d10")*500)	OPTION:8
+GEAR:Art (Eye patch decorated with tiny blue sapphires and moonstones)			EQMOD:ART|EVAL(roll("1d10")*500)	OPTION:9
+GEAR:Art (A neckalce string of small pearls)			EQMOD:ART|EVAL(roll("1d10")*500)	OPTION:10
+
+STARTPACK:7500GP Art Objects	TYPE:Treasure	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d10")
+GEAR:Art (Jeweled gold crown)			EQMOD:ART|EVAL(roll("3d4")*1000)	OPTION:1
+GEAR:Art (Jeweled platinum ring)			EQMOD:ART|EVAL(roll("3d4")*1000)	OPTION:2
+GEAR:Art (Gold statuette set with rubies)			EQMOD:ART|EVAL(roll("3d4")*1000)	OPTION:3
+GEAR:Art (Gold cup set with emeralds)			EQMOD:ART|EVAL(roll("3d4")*1000)	OPTION:4
+GEAR:Art (Gold jewelery box with platinum filigree)			EQMOD:ART|EVAL(roll("3d4")*1000)	OPTION:5
+GEAR:Art (Set of gold nesting dolls)			EQMOD:ART|EVAL(roll("3d4")*1000)	OPTION:6
+GEAR:Art (Jade game board with gold playing pieces)			EQMOD:ART|EVAL(roll("3d4")*1000)	OPTION:7
+GEAR:Art (Bejeweled ivory drinking horn with gold filigree)			EQMOD:ART|EVAL(roll("3d4")*1000)	OPTION:8
+KIT:Specific Art - Gilded		OPTION:9
+GEAR:Art (Ceremonial gold armor with black pearls)			EQMOD:ART|EVAL(roll("3d4")*1000)	OPTION:10
+
+STARTPACK:Specific Art - Gilded	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d2")
+GEAR:Art (Gilded royal coach)			EQMOD:ART|EVAL(roll("3d4")*1000)	OPTION:1
+GEAR:Art (Gilded funeral barge)			EQMOD:ART|EVAL(roll("3d4")*1000)	OPTION:2

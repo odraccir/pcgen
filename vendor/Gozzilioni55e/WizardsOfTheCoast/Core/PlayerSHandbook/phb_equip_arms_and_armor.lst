@@ -48,11 +48,16 @@ Musket		PROFICIENCY:WEAPON|Musket		TYPE:Weapon.Ranged.Martial.Piercing.Firearm.C
 Pistol		PROFICIENCY:WEAPON|Pistol		TYPE:Weapon.Ranged.Martial.Piercing.Firearm.Container	COST:250	WT:3	WIELD:OneHanded		SIZE:M	DAMAGE:1d10	CRITRANGE:20	CRITMULT:x2	EQMOD:STEEL.R_AMMUNITION.R_RANGE_4.R_LOADING	SOURCEPAGE:PHB	DEFINE:WeaponMasteryPistol|0	SPROP:Weapon Mastery: Vex.|PREVARGTEQ:WeaponMasteryPistol,1	QUALITY:RangeLongMult|4	QUALITY:ShortRange|30	QUALITY:LongRange|90	CONTAINS:UNLIM|FireArmBullet|SpecificFirearmBullet
 
 ###Block: Ammunition
+Arrow				TYPE:Ammunition.Standard.Arrow	COST:0.05	WT:0.05		SIZE:M				EQMOD:STEEL.WOOD	SOURCEPAGE:PHB
 Arrows (20)				TYPE:Ammunition.Standard.Arrow	COST:1	WT:1		SIZE:M				EQMOD:STEEL.WOOD	SOURCEPAGE:PHB	BASEQTY:20	MODS:YES		
+Bolt				TYPE:Ammunition.Standard.Bolt	COST:0.05	WT:0.07		SIZE:M				EQMOD:STEEL	SOURCEPAGE:PHB
 Bolts (20)				TYPE:Ammunition.Standard.Bolt	COST:1	WT:1.5		SIZE:M				EQMOD:STEEL	SOURCEPAGE:PHB	BASEQTY:20	MODS:YES		
-Bullet (20)				TYPE:Ammunition.Standard.Bullet	COST:1	WT:1.5		SIZE:M				EQMOD:STEEL	SOURCEPAGE:PHB	BASEQTY:20	MODS:YES		
-Needle (50)				TYPE:Ammunition.Standard.Needle	COST:1	WT:1		SIZE:M				EQMOD:STEEL	SOURCEPAGE:PHB	BASEQTY:50	MODS:YES		
-Firearm Bullet (10)				TYPE:Ammunition.Standard.FirearmBullet	COST:3	WT:2		SIZE:M				EQMOD:STEEL	SOURCEPAGE:PHB	BASEQTY:10	MODS:YES		
+Bullet				TYPE:Ammunition.Standard.Bullet	COST:0.05	WT:0.07		SIZE:M				EQMOD:STEEL
+Bullets (20)				TYPE:Ammunition.Standard.Bullet	COST:1	WT:1.5		SIZE:M				EQMOD:STEEL	SOURCEPAGE:PHB	BASEQTY:20	MODS:YES		
+Needle				TYPE:Ammunition.Standard.Needle	COST:0.05	WT:0.05		SIZE:M				EQMOD:STEEL	SOURCEPAGE:PHB
+Needles (50)				TYPE:Ammunition.Standard.Needle	COST:1	WT:1		SIZE:M				EQMOD:STEEL	SOURCEPAGE:PHB	BASEQTY:50	MODS:YES		
+Firearm Bullet)				TYPE:Ammunition.Standard.FirearmBullet	COST:3	WT:2		SIZE:M				EQMOD:STEEL	SOURCEPAGE:PHB	BASEQTY:10	MODS:YES		
+Firearm Bullets (10)				TYPE:Ammunition.Standard.FirearmBullet	COST:0.15	WT:0.1		SIZE:M				EQMOD:STEEL	SOURCEPAGE:PHB	BASEQTY:10	MODS:YES		
 
 ###Block: Armors
 Padded Armor		PROFICIENCY:ARMOR|Padded	TYPE:Armor.Light.Padded	COST:5	WT:8	MAXDEX:10	EQMOD:LEATHER	SOURCEPAGE:PHB	ABILITY:Internal|AUTOMATIC|Unproficient Armor|!PREPROFWITHARMOR:1,TYPE.LightArmor	BONUS:COMBAT|AC|1|TYPE=Armor	BONUS:VAR|AC_Armor|1	ABILITY:Internal|AUTOMATIC|Skill Disadvantage ~ Stealth	QUALITY:Stealth|Disadvantage

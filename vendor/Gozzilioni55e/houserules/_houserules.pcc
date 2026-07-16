@@ -27,6 +27,7 @@ PRECAMPAIGN:1,BOOKTYPE=Core Rules
 ABILITY:h_abilities.lst
 EQUIPMENT:h_equip.lst
 EQUIPMOD:h_equipmods.lst
+RACE:h_races.lst
 TEMPLATE:h_templates.lst
 
 #GROUP:Class Expert.

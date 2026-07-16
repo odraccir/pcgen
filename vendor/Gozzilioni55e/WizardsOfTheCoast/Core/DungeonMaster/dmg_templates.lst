@@ -1,0 +1,6 @@
+SOURCELONG:Dungeon Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-11
+
+###Block: Magical Contagion
+Magical Contagion (Cackle Fever)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Infection DC 13 (Ingested), Incubation 1d4 days, Damage 5 (1d10) Psychic damage.	TEMPLATE:Exhaustion	BONUS:VAR|ExaustionLVL|1
+Magical Contagion (Sewer Plague)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Infection DC 11 (Ingested), Incubation 1d4 days.	TEMPLATE:Exhaustion	BONUS:VAR|ExaustionLVL|1
+Magical Contagion (Sight Rot)		VISIBLE:NO	SOURCEPAGE:DMG	TEMPDESC:Infection DC 15 (Ingested), Incubation 0 days.	TEMPLATE:Blinded
