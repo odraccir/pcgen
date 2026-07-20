@@ -14,5 +14,3 @@ Laser Rifle		PROFICIENCY:WEAPON|Laser Rifle		TYPE:Weapon.Ranged.Martial.Piercing
 
 ###Block: Ammunition
 Energy Cell				TYPE:Ammunition.Standard.EnergyCell	COST:0	WT:0.5		SIZE:M				EQMOD:STEEL	SOURCEPAGE:PHB	BASEQTY:1	MODS:YES
-
-###Magic Items
