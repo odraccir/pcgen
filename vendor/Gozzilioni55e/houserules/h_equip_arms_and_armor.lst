@@ -1,0 +1,4 @@
+SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+
+Gauntlet			PROFICIENCY:WEAPON|Gauntlet	TYPE:Weapon.Melee.Unarmed.Bludgeoning.Gauntlet	COST:2	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d3	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:H											
+Gauntlet (Spiked)			PROFICIENCY:WEAPON|Gauntlet (Spiked)	TYPE:Weapon.Melee.Unarmed.Piercing.Gauntlet	COST:2	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d4	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL	SOURCEPAGE:H									BONUS:EQM|WEIGHTADD|-1|PREMULT:3,[PREEQUIP:1,TYPE.Armor],[PREEQUIP:1,TYPE.Medium,TYPE.Heavy],[!PREEQUIP:1,Breastplate]		

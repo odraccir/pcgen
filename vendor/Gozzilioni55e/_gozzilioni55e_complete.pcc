@@ -22,14 +22,20 @@ LOGO:&/_artwork/logo_gozzilioni.jpg
 
 PCC:&/Gozzilioni55e/universal_rules/_universal_rules.pcc
 PCC:&/Gozzilioni55e/WizardsOfTheCoast/Core/PlayerSHandbook/_players_handbook.pcc
+PCC:&/Gozzilioni55e/WizardsOfTheCoast/Core/DungeonMaster/_dungeons_master_s_guide.pcc
 
 PCC:&/Gozzilioni55e/houserules/_houserules.pcc
 
-# PCC:&/Gozzilioni55e/WizardsOfTheCoast/UneartedArcana/_unearthed_arcana_1_modern_magic.pcc
-# PCC:&/Gozzilioni55e/WizardsOfTheCoast/UneartedArcana/_unearthed_arcana_2_artificer.pcc
-# PCC:&/Gozzilioni55e/WizardsOfTheCoast/UneartedArcana/_unearthed_arcana_3_realm_subclasses.pcc
-# PCC:&/Gozzilioni55e/WizardsOfTheCoast/UneartedArcana/_unearthed_arcana_5_horror_subclasses.pcc
+PCC:&/Gozzilioni55e/WizardsOfTheCoast/UneartedArcana/_unearthed_arcana_1_modern_magic.pcc
+PCC:&/Gozzilioni55e/WizardsOfTheCoast/UneartedArcana/_unearthed_arcana_2_artificer.pcc
+PCC:&/Gozzilioni55e/WizardsOfTheCoast/UneartedArcana/_unearthed_arcana_3_realm_subclasses.pcc
+PCC:&/Gozzilioni55e/WizardsOfTheCoast/UneartedArcana/_unearthed_arcana_5_horror_subclasses.pcc
 
-# PCC:&/Gozzilioni55e/Homebrew/Reddit/BeasmasterReborn/_BeastMasterReborn.pcc
-# PCC:&/Gozzilioni55e/Homebrew/Reddit/LoreOfDecay/_LoreOfDecay.pcc
-# PCC:&/Gozzilioni55e/Homebrew/Reddit/TheWitch/_thewitch.pcc
+PCC:&/Gozzilioni55e/Homebrew/Patreon/TheInspiredArcana/_TheInspiredArcana
+
+PCC:&/Gozzilioni55e/Homebrew/Reddit/BeasmasterReborn/_BeastMasterReborn.pcc
+PCC:&/Gozzilioni55e/Homebrew/Reddit/LoreOfDecay/_LoreOfDecay.pcc
+PCC:&/Gozzilioni55e/Homebrew/Reddit/TheWitch/_thewitch.pcc
+
+PCC:&/Gozzilioni55e/Homebrew/Reddit/EldritchEntertainment/_minorcantrip.pcc
+PCC:&/Gozzilioni55e/Homebrew/Reddit/Meowmagic/_Meowmagic.pcc

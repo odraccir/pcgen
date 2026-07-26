@@ -24,7 +24,7 @@ INFOTEXT:D&D 5.5e Dungeon Master's Guide
 
 #ABILITY:dmg_abilities_class.lst
 #ABILITY:dmg_abilities_races.lst
-#ABILITY:dmg_abilities.lst
+ABILITY:dmg_abilities.lst
 ABILITYCATEGORY:dmg_abilitycategories.lst
 #BIOSET:dmg_biosettings.lst
 #CLASS:dmg_classes.lst
@@ -32,16 +32,18 @@ ABILITYCATEGORY:dmg_abilitycategories.lst
 #DOMAIN:dmg_domains.lst
 EQUIPMOD:dmg_eqmods.lst
 EQUIPMENT:dmg_equip_arms_and_armor.lst
-EQUIPMENT:dmg_equipment.lst
-ABILITY:dmg_feats.lst
-KIT:dmg_kits.lst
+EQUIPMENT:dmg_equip_magic_items.lst
+EQUIPMENT:dmg_equipments.lst
+#ABILITY:dmg_feats.lst
+#KIT:dmg_kits.lst
 #LANGUAGE:dmg_languages.lst
 #ARMORPROF:dmg_profs_armor.lst
 #SHIELDPROF:dmg_profs_shield.lst
-#WEAPONPROF:dmg_profs_weapon.lst
+WEAPONPROF:dmg_profs_weapon.lst
 #RACE:dmg_races.lst
 #SKILL:dmg_skills.lst
 #SPELL:dmg_spells.lst
-#TEMPLATE:dmg_templates.lst
+TEMPLATE:dmg_templates.lst
 
+HIDETYPE:EQUIP|Berserker|Dancing|
 INFOTEXT:Supports 6.4.1

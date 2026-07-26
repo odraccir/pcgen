@@ -1,0 +1,5 @@
+SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+
+# Weapon Name	Type
+Gauntlet			TYPE:Weapon.Unarmed
+Gauntlet (Spiked)			TYPE:Weapon.Unarmed
