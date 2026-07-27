@@ -1,10 +1,10 @@
 SOURCELONG:The Inspired Arcana	SOURCESHORT:IA	SOURCEWEB:https://www.patreon.com/cw/TheInspiredArcana	SOURCEDATE:2026-02
 
-Cultist	CATEGORY:Special Ability	TYPE:Background	VISIBLE:YES	KEY:Background ~ Cultist	BONUS:ABILITYCATEGORY|Cultist Abilities|3	ABILITY:FEAT|AUTOMATIC|Magic Initiate (Wizard)	ABILITY:Skill|AUTOMATIC|Religion|Deception	ABILITY:Internal|AUTOMATIC|Tool Proficiency ~ Forgery Kit	BONUS:ABILITYPOOL|Cultist Kit|1	SOURCEPAGE:IA
+Cultist	CATEGORY:Special Ability	TYPE:Background	VISIBLE:YES	KEY:Background ~ Cultist	BONUS:ABILITYPOOL|Cultist Abilities|3	ABILITY:FEAT|AUTOMATIC|Magic Initiate (Wizard)	ABILITY:Skill|AUTOMATIC|Religion|Deception	ABILITY:Internal|AUTOMATIC|Tool Proficiency ~ Forgery Kit	BONUS:ABILITYPOOL|Cultist Kit|1	SOURCEPAGE:IA
 Cultist Kit (A)	CATEGORY:Special Ability	TYPE:Cultist Background	KEY:Cultist Kit (A)	KIT:1|Cultist Equipment (A)	KIT:1|Holy Symbol (Amulet)|Holy Symbol (Emblem)|Holy Symbol (Reliquary)
 Cultist Kit (B)	CATEGORY:Special Ability	TYPE:Cultist Background	KEY:Cultist Kit (B)	KIT:1|Cultist Equipment (B)
 
-Survivor	CATEGORY:Special Ability	TYPE:Background	VISIBLE:YES	KEY:Background ~ Survivor	BONUS:ABILITYCATEGORY|Survivor Abilities|3	ABILITY:FEAT|AUTOMATIC|Lucky	ABILITY:Skill|AUTOMATIC|Investigation|Survival	ABILITY:Internal|AUTOMATIC|Tool Proficiency ~ Cartographer's Tools	BONUS:ABILITYPOOL|Survivor Kit|1	SOURCEPAGE:IA
+Survivor	CATEGORY:Special Ability	TYPE:Background	VISIBLE:YES	KEY:Background ~ Survivor	BONUS:ABILITYPOOL|Survivor Abilities|3	ABILITY:FEAT|AUTOMATIC|Lucky	ABILITY:Skill|AUTOMATIC|Investigation|Survival	ABILITY:Internal|AUTOMATIC|Tool Proficiency ~ Cartographer's Tools	BONUS:ABILITYPOOL|Survivor Kit|1	SOURCEPAGE:IA
 Survivor Kit (A)	CATEGORY:Special Ability	TYPE:Survivor Background	KEY:Survivor Kit (A)	KIT:1|Survivor Equipment (A)
 Survivor Kit (B)	CATEGORY:Special Ability	TYPE:Survivor Background	KEY:Survivor Kit (B)	KIT:1|Survivor Equipment (B)
 

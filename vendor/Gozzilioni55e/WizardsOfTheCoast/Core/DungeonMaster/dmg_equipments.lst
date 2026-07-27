@@ -1,9 +1,9 @@
 SOURCELONG:Dungeon Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-11
 
 ###Block: Placeholder object
-Charm	TYPE:Charm.Consumable	COST:0	WT:0		SOURCEPAGE:DMG	EQMOD:REQUIRED	SORTKEY:!00
-Gem	TYPE:Gem	COST:0	WT:0		SOURCEPAGE:DMG	EQMOD:REQUIRED	SORTKEY:!00
-Art	TYPE:Art	COST:0	WT:0		SOURCEPAGE:DMG	EQMOD:REQUIRED	SORTKEY:!00
+Charm	TYPE:Charm.Consumable	COST:0	WT:0		SOURCEPAGE:DMG	MODS:REQUIRED	SORTKEY:!00
+Gem	TYPE:Gem	COST:0	WT:0		SOURCEPAGE:DMG	MODS:REQUIRED	SORTKEY:!00
+Art	TYPE:Art	COST:0	WT:0		SOURCEPAGE:DMG	MODS:REQUIRED	SORTKEY:!00
 
 ###Block: Explosives
 Bomb	TYPE:Adventuring Gear.Explosive	COST:100	WT:1		SOURCEPAGE:DMG
@@ -197,7 +197,7 @@ Art (Carved wooden harp with ivory inlay and zircon gems)	SORTKEY:Art_Standard	T
 Art (Gold idol)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:750	WT:0	SOURCEPAGE:DMG
 Art (Gold comb shaped like a dragon with red garnets as eyes)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:750	WT:0	SOURCEPAGE:DMG
 Art (Bottle stopper cork embossed with gold leaf and set with amethysts)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:750	WT:0	SOURCEPAGE:DMG
-Art (Detailed, life-sized dragonborn skulls cast in electrum)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:750	WT:0	SOURCEPAGE:DMG
+Art (Detailed life-sized dragonborn skulls cast in electrum)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:750	WT:0	SOURCEPAGE:DMG
 Art (Silver and gold brooch)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:750	WT:0	SOURCEPAGE:DMG
 Art (Obsidian statuette with gold fitting and inlay)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:750	WT:0	SOURCEPAGE:DMG
 Art (Painted gold war mask)	SORTKEY:Art_Standard	TYPE:Goods.Art	COST:750	WT:0	SOURCEPAGE:DMG

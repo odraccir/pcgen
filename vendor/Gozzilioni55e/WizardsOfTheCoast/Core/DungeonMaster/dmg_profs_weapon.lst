@@ -2,3 +2,13 @@ SOURCELONG:Dungeon Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilion
 
 # Weapon Name	Type
 Gauntlet (Clawed)			TYPE:Weapon.Unarmed
+
+Automatic Rifle	TYPE:Weapon.Ranged.Firearm
+Hunting Rifle	TYPE:Weapon.Ranged.Firearm
+Revolver	TYPE:Weapon.Ranged.Firearm
+Semiautomatic Pistol	TYPE:Weapon.Ranged.Firearm
+Shotgun	TYPE:Weapon.Ranged.Firearm
+
+Antimatter Rifle	TYPE:Weapon.Ranged.Firearm
+Laser Pistol	TYPE:Weapon.Ranged.Firearm
+Laser Rifle	TYPE:Weapon.Ranged.Firearm

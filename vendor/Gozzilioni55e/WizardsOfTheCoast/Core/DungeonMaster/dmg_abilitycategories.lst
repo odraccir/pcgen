@@ -2,7 +2,7 @@
 #Background Abilities
 ABILITYCATEGORY:Custom Kit	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	CATEGORY:Special Ability	TYPE:Custom Background	DISPLAYLOCATION:Character
 
-ABILITYCATEGORY:Custom Abilities	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	CATEGORY:Internal	ABILITYLIST:+1 Increase ~ Str|+1 Increase ~ Dex|+1 Increase ~ Con|+1 Increase ~ Int|+1 Increase ~ Wis|+1 Increase ~ Cha	DISPLAYLOCATION:Character
+ABILITYCATEGORY:Custom Abilities	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	CATEGORY:Internal	ABILITYLIST:ASI Increase ~ Str|ASI Increase ~ Dex|ASI Increase ~ Con|ASI Increase ~ Int|ASI Increase ~ Wis|ASI Increase ~ Cha	DISPLAYLOCATION:Character
 
 #Block:GM Awards
 ABILITYCATEGORY:GM Awards				VISIBLE:YES		EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:GM_Award			PLURAL:GM Awards				DISPLAYLOCATION:Misc

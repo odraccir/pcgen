@@ -394,12 +394,12 @@ Yolande's Regal Presence				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=5|Wizar
 Zone of Truth				TYPE:Spell	SCHOOL:Enchantment			CLASSES:Bard=2|Cleric=2|Paladin=2	COMPS:V, S	CASTTIME:Action	RANGE:60 feet.		DURATION:10 minutes			SOURCEPAGE:PHB
 
 ###Block:Class spells.
-Beast Sense.COPY=Beast Sense(Ritual)	KEY:Beast Sense(Ritual)	OUTPUTNAME:Beast Sense
-Beast Sense(Ritual).MOD	TYPE:SpellLike	CLASSES:.CLEARALL	CLASSES:Barbarian=2	CASTTIME:Ritual
-Commune with Nature.COPY=Commune with Nature(Ritual)	KEY:Commune with Nature(Ritual)	OUTPUTNAME:Commune with Nature
-Commune with Nature(Ritual).MOD	TYPE:SpellLike	CLASSES:.CLEARALL	CLASSES:Barbarian=5	CASTTIME:Ritual
-Speak with Animals.COPY=Speak with Animals(Ritual)	KEY:Speak with Animals(Ritual)	OUTPUTNAME:Speak with Animals
-Speak with Animals(Ritual).MOD	TYPE:SpellLike	CLASSES:.CLEARALL	CLASSES:Barbarian=1	CASTTIME:Ritual
+Beast Sense.COPY=Beast Sense	KEY:Beast Sense ~ Ritual
+Beast Sense ~ Ritual.MOD	OUTPUTNAME:Beast Sense	TYPE:SpellLike	CLASSES:.CLEARALL	DESCRIPTOR:.CLEARALL	DESCRIPTOR:Ritual	CASTTIME:Ritual
+Commune with Nature.COPY=Commune with Nature	KEY:Commune with Nature ~ Ritual
+Commune with Nature ~ Ritual.MOD	OUTPUTNAME:Commune with Nature	TYPE:SpellLike	CLASSES:.CLEARALL	DESCRIPTOR:.CLEARALL	DESCRIPTOR:Ritual	CASTTIME:Ritual
+Speak with Animals.COPY=Speak with Animals	KEY:Speak with Animals ~ Ritual
+Speak with Animals ~ Ritual.MOD	OUTPUTNAME:Speak with Animals	TYPE:SpellLike	CLASSES:.CLEARALL	DESCRIPTOR:.CLEARALL	DESCRIPTOR:Ritual	CASTTIME:Ritual
 
 ###Block: Long Descriptions, if you wish to include them
 Acid Splash.MOD	DESC:You create an acidic bubble at a point within range, where it explodes in a 5-foot-radius Sphere. Each creature in that Sphere must succeed on a Dexterity saving throw or take ld6 Acid damage. &nl; Cantrip Upgrade. The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).|!PRERULE:1,DisplayFullSpell

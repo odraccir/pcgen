@@ -1,5 +1,5 @@
 CAMPAIGN:Unearthed Arcana - Realm subclasses
-KEY:Unearthed Arcana
+KEY:Unearthed Arcana - Realm subclasses
 BOOKTYPE:Web Enhancement
 PRECAMPAIGN:1,BOOKTYPE=Core Rules
 GAMEMODE:G55e
@@ -25,7 +25,7 @@ INFOTEXT:D&D Unearthed Arcana
 ABILITY:ua3_abilities.lst
 ABILITY:ua3_abilities_class.lst
 ABILITY:ua3_abilities_race.lst
-ABILITYCATEGORY:ua3_abilitygroups.lst
+ABILITYCATEGORY:ua3_abilitycategories.lst
 COMPANIONMOD:ua3_companionmods.lst
 KIT:ua3_kits.lst
 RACE:ua3_races.lst

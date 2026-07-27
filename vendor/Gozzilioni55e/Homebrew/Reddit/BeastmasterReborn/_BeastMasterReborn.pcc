@@ -25,7 +25,7 @@ INFOTEXT:Hombrew Beast Master Reborn as Ranger subclass
 ABILITY:bmr_abilities.lst
 ABILITY:bmr_abilities_class.lst
 # ABILITY:bmr_abilities_races.lst
-# ABILITYCATEGORY:bmr_abilitycategories.lst
+ABILITYCATEGORY:bmr_abilitycategories.lst
 # BIOSET:bmr_biosettings.lst
 # CLASS:bmr_classes.lst
 COMPANIONMOD:bmr_companionmods.lst

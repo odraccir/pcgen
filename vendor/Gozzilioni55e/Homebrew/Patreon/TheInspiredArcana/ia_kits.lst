@@ -14,10 +14,9 @@ FUNDS:gp	QTY:50
 STARTPACK:Survivor Equipment (A)	TYPE:Starting Equipment	VISIBLE:NO	EQUIPBUY:0
 GEAR:Backpack
 GEAR:Cartographer's Tools
-GEAR
 GEAR:Tent
 GEAR:Torch
-GEAR:GEAR:Clothes (Traveler)
+GEAR:Clothes (Traveler)
 GEAR:Explorer's Pack
 FUNDS:gp	QTY:18
 

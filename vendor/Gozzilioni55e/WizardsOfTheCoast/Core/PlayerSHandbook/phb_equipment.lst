@@ -218,7 +218,10 @@ Spells (7th level/City)		TYPE:Service.SpellServices	COST:20000
 Spells (8th level/City)		TYPE:Service.SpellServices	COST:20000
 Spells (9th level/City)		TYPE:Service.SpellServices	COST:100000
 
-Book.COPY=Book (Prayers)	KEY:Book (Prayers)	OUTPUTNAME:Book (Prayers)
-Book.COPY=Book (Philosophy)	KEY:Book (Philosophy)	OUTPUTNAME:Book (Philosophy)
-Book.COPY=Book (History)	KEY:Book (History)	OUTPUTNAME:Book (History)
+Book.COPY=Book	KEY:Book (Prayers)
+Book (Prayers).MOD	OUTPUTNAME:Book (Prayers)
+Book.COPY=Book	KEY:Book (Philosophy)
+Book (Philosophy).MOD	OUTPUTNAME:Book (Philosophy)
+Book.COPY=Book	KEY:Book (History)
+Book (History).MOD	OUTPUTNAME:Book (History)
 

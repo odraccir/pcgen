@@ -254,7 +254,7 @@ CLASS:Paladin	SPELLSTAT:CHA	MEMORIZE:YES		BONUS:CASTERLEVEL|Paladin|CL	BONUS:VAR
 #								
 0	DOMAIN:Devotion Domain|PREABILITY:1,CATEGORY=Special Ability,Oath of Devotion ~ Spells							
 0	DOMAIN:Glory Domain|PREABILITY:1,CATEGORY=Special Ability,Oath of Glory ~ Spells							
-0	DOMAIN:Ancient Domain|PREABILITY:1,CATEGORY=Special Ability,Oath of the Ancients ~ Spells							
+0	DOMAIN:Ancients Domain|PREABILITY:1,CATEGORY=Special Ability,Oath of the Ancients ~ Spells							
 0	DOMAIN:Vengeance Domain|PREABILITY:1,CATEGORY=Special Ability,Oath of Vengeance ~ Spells							
 #								
 1			ABILITY:Class|AUTOMATIC|Paladin					

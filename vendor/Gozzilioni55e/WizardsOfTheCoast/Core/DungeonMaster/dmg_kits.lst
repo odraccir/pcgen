@@ -229,7 +229,7 @@ GEAR:Art (Carved wooden harp with ivory inlay and zircon gems)			EQMOD:ART|EVAL(
 GEAR:Art (Gold idol)			EQMOD:ART|EVAL(roll("3d4")*100)	OPTION:4
 GEAR:Art (Gold comb shaped like a dragon with red garnets as eyes)			EQMOD:ART|EVAL(roll("3d4")*100)	OPTION:5
 GEAR:Art (Bottle stopper cork embossed with gold leaf and set with amethysts)			EQMOD:ART|EVAL(roll("3d4")*100)	OPTION:6
-GEAR:Art (Detailed, life-sized dragonborn skulls cast in electrum)			EQMOD:ART|EVAL(roll("3d4")*100)	OPTION:7
+GEAR:Art (Detailed life-sized dragonborn skulls cast in electrum)			EQMOD:ART|EVAL(roll("3d4")*100)	OPTION:7
 GEAR:Art (Silver and gold brooch)			EQMOD:ART|EVAL(roll("3d4")*100)	OPTION:8
 GEAR:Art (Obsidian statuette with gold fitting and inlay)			EQMOD:ART|EVAL(roll("3d4")*100)	OPTION:9
 GEAR:Art (Painted gold war mask)			EQMOD:ART|EVAL(roll("3d4")*100)	OPTION:10

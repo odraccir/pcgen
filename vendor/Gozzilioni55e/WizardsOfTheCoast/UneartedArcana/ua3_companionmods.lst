@@ -1,8 +1,25 @@
 SOURCELONG:Unearthed Arcana - Realm Subclasses	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2024-01
 #										
 ###Block:Purple Dragon Companion										
-FOLLOWER:PurpleDragonCompanionLVL=1	TYPE:Purple Dragon Companion	HD:PurpleDragonHD	DEFINE:PurpleDragonHD|0	BONUS:VAR|PurpleDragonHD|mastervar("FighterLVL")	BONUS:COMBAT|AC|mastervar("INT")	ABILITY:Special Ability|AUTOMATIC|Purple Dragon ~ Languages|Purple Dragon ~ Stalwarth Bond
+FOLLOWER:PurpleDragonCompanionLVL=1	TYPE:Purple Dragon Companion	HD:1	BONUS:COMBAT|AC|mastervar("INT")	ABILITY:Special Ability|AUTOMATIC|Purple Dragon ~ Languages|Purple Dragon ~ Stalwarth Bond
 FOLLOWER:PurpleDragonCompanionLVL=1	TYPE:Purple Dragon Companion	BONUS:WEAPONPROF=Rend|TOHIT|mastervar("INT")	BONUS:WEAPONPROF=Rend|DAMAGE|mastervar("INT")
 FOLLOWER:PurpleDragonCompanionLVL=1	TYPE:Purple Dragon Companion	BONUS:VAR|GravityBrathDC|mastervar("INT")+(mastervar("Proficiency_Bonus")/2) 
+FOLLOWER:PurpleDragonCompanionLVL=2	TYPE:Purple Dragon Companion	HD:1
+FOLLOWER:PurpleDragonCompanionLVL=3	TYPE:Purple Dragon Companion	HD:1
+FOLLOWER:PurpleDragonCompanionLVL=4	TYPE:Purple Dragon Companion	HD:1
+FOLLOWER:PurpleDragonCompanionLVL=5	TYPE:Purple Dragon Companion	HD:1
+FOLLOWER:PurpleDragonCompanionLVL=6	TYPE:Purple Dragon Companion	HD:1
 FOLLOWER:PurpleDragonCompanionLVL=7	TYPE:Purple Dragon Companion	BONUS:SIZEMOD|NUMBER|1	
+FOLLOWER:PurpleDragonCompanionLVL=8	TYPE:Purple Dragon Companion	HD:1
+FOLLOWER:PurpleDragonCompanionLVL=9	TYPE:Purple Dragon Companion	HD:1
+FOLLOWER:PurpleDragonCompanionLVL=10	TYPE:Purple Dragon Companion	HD:1
+FOLLOWER:PurpleDragonCompanionLVL=11	TYPE:Purple Dragon Companion	HD:1
 FOLLOWER:PurpleDragonCompanionLVL=12	TYPE:Purple Dragon Companion	BONUS:SIZEMOD|NUMBER|1
+FOLLOWER:PurpleDragonCompanionLVL=13	TYPE:Purple Dragon Companion	HD:1
+FOLLOWER:PurpleDragonCompanionLVL=14	TYPE:Purple Dragon Companion	HD:1
+FOLLOWER:PurpleDragonCompanionLVL=15	TYPE:Purple Dragon Companion	HD:1
+FOLLOWER:PurpleDragonCompanionLVL=16	TYPE:Purple Dragon Companion	HD:1
+FOLLOWER:PurpleDragonCompanionLVL=17	TYPE:Purple Dragon Companion	HD:1
+FOLLOWER:PurpleDragonCompanionLVL=18	TYPE:Purple Dragon Companion	HD:1
+FOLLOWER:PurpleDragonCompanionLVL=19	TYPE:Purple Dragon Companion	HD:1
+FOLLOWER:PurpleDragonCompanionLVL=20	TYPE:Purple Dragon Companion	HD:1

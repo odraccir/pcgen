@@ -1,17 +1,17 @@
 SOURCELONG:Player's Handbook	SOURCESHORT:PHB	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-08
 
 # Armor Name
-Padded	TYPE:LightArmor
-Leather	TYPE:LightArmor
-Studded leather	TYPE:LightArmor
+Padded	TYPE:Armor.LightArmor
+Leather	TYPE:Armor.LightArmor
+Studded leather	TYPE:Armor.LightArmor
 # Medium Armor
-Hide	TYPE:Medium.Armor
-Chain Shirt	TYPE:Medium.Armor
-Scale Mail	TYPE:Medium.Armor
-Breastplate	TYPE:Medium.Armor
-Half Plate	TYPE:Medium.Armor
+Hide	TYPE:Armor.MediumArmor
+Chain Shirt	TYPE:Armor.MediumArmor
+Scale Mail	TYPE:Armor.MediumArmor
+Breastplate	TYPE:Armor.MediumArmor
+Half Plate	TYPE:Armor.MediumArmor
 # Heavy Armor
-Ring Mail	TYPE:HeavyArmor
-Chain Mail	TYPE:HeavyArmor
-Splint Armor	TYPE:HeavyArmor
-Plate Armor	TYPE:HeavyArmor
+Ring Mail	TYPE:Armor.HeavyArmor
+Chain Mail	TYPE:Armor.HeavyArmor
+Splint Armor	TYPE:Armor.HeavyArmor
+Plate Armor	TYPE:Armor.HeavyArmor

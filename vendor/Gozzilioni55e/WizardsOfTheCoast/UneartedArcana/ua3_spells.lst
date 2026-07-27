@@ -3,5 +3,5 @@ SOURCELONG:Unearthed Arcana - Realm Subclasses	SOURCESHORT:UA	SOURCEWEB:https://
 # Spell Name	OUTPUTNAME:	key	VARIANTS:	TYPE:	SCHOOL:	SUBSCHOOL:	DESCRIPTOR:	CLASSES:	COMPS:	CASTTIME:	RANGE:	TARGETAREA:	DURATION:	SAVEINFO:	SPELLRES:	DESC:	SOURCEPAGE:	Item	COST:	XPCOST:	PPCOST	DESC:|!PRERULE:1,DisplayFullSpell	Desc	Bonus	Bonus														
 
 # Modified spells granted by abilities as rituals:
-Comprehend Language.COPY=Comprehend Language	KEY:Comprehend Language ~ Ritual
-Comprehend Language ~ Ritual.MOD	OUTPUTNAME:Comprehend Languages	DESCRIPTOR:Ritual
+Comprehend Languages.COPY=Comprehend Languages	KEY:Comprehend Languages ~ Ritual
+Comprehend Languages ~ Ritual.MOD	OUTPUTNAME:Comprehend Languages	TYPE:SpellLike	CLASSES:.CLEARALL	DESCRIPTOR:.CLEARALL	DESCRIPTOR:Ritual	CASTTIME:Ritual
