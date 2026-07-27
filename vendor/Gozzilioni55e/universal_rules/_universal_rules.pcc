@@ -22,7 +22,7 @@ DEITY:ur_deities.lst
 RACE:ur_races.lst
 TEMPLATE:ur_templates.lst
 
-
+HIDETYPE:EQUIP|Attunement
 
 INFOTEXT:Supports 6.06.00
 # ENTRY DATE: 2016-01-12

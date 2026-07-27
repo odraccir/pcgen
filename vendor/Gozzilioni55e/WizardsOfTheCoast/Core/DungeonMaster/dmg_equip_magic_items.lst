@@ -45,15 +45,15 @@ Armor of Invulnerability.MOD	TYPE:Attunement	EQMOD:MAGIC_ITEM_LEGENDARY	SPROP:Yo
 Arrow-Catching Shield.MOD	EQMOD:MAGIC_ITEM_RARE	SPROP:Attack rolls while you wield this Shield.|PREABILITY:1,CATEGORY=Attunement,Arrow-Catching Shield	DEFINE:Attunement_Arrow_Catching_Shield|0	BONUS:VAR|Attunement_Arrow_Catching_Shield|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Arrow-Catching Shield
 Axe of the Dwarvish Lords.MOD		TYPE:Wondrous Item.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_ARTIFACT.PLUS3W.M_THROWN.R_RANGE_3	QUALITY:RangeLongMult|3	QUALITY:ShortRange|20	QUALITY:LongRange|60	SPROP:The Axe of the Dwarvish Lords is a magic weapon that grants a +3 bonus to attack rolls and damage rolls made with it. &nl; Immunity to Poison damage and resistance to Fire damage. &nl; Conjure Earth Elemental. While holding the axe, you can take a Magic action to summon an Earth Elemental.|PREABILITY:1,CATEGORY=Attunement,Axe of the Dwarvish Lords	DEFINE:Attunement_Axe_Of_The_Dwarvish_Lords|0	BONUS:VAR|Attunement_Axe_Of_The_Dwarvish_Lords|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Axe of the Dwarvish Lords
 Baba Yaga's Dancing Broom		TYPE:Wondrous Item.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON	SPROP:While holding the broom, you can take a Magic action to transform it into an Animated Broom under your control.|PREABILITY:1,CATEGORY=Attunement,Baba Yaga's Dancing Broom	DEFINE:Attunement_Baba_Yaga_s_Dancing_Broom|0	BONUS:VAR|Attunement_Baba_Yaga_s_Dancing_Broom|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Baba Yaga's Dancing Broom
-Bag of Beans		TYPE:Wondrous Items		WT:0		SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE
-Bag of Devouring		TYPE:Wondrous Items.Container		WT:0		SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE	CONTAINS:*30
-Bag of Holding		TYPE:Wondrous Items.Container		WT:5		SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE	CONTAINS:*500
-Bag of Tricks (Grey)		TYPE:Wondrous Items		WT:0		SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON
-Bag of Tricks (Rust)		TYPE:Wondrous Items		WT:0		SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON
-Bag of Tricks (Tan)		TYPE:Wondrous Items		WT:0		SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON
-Bead of Force		TYPE:Wondrous Items		WT:0		SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE
-Bead of Nourishment		TYPE:Wondrous Items		WT:0		SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_COMMON
-Bead of Refreshment		TYPE:Wondrous Items		WT:0		SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_COMMON
+Bag of Beans		TYPE:Wondrous Item		WT:0		SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE
+Bag of Devouring		TYPE:Wondrous Item.Container		WT:0		SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE	CONTAINS:*30
+Bag of Holding		TYPE:Wondrous Item.Container		WT:5		SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE	CONTAINS:*500
+Bag of Tricks (Grey)		TYPE:Wondrous Item		WT:0		SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON
+Bag of Tricks (Rust)		TYPE:Wondrous Item		WT:0		SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON
+Bag of Tricks (Tan)		TYPE:Wondrous Item		WT:0		SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON
+Bead of Force		TYPE:Wondrous Item		WT:0		SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE
+Bead of Nourishment		TYPE:Wondrous Item		WT:0		SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_COMMON
+Bead of Refreshment		TYPE:Wondrous Item		WT:0		SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_COMMON
 Belt of Dwarvenkind		TYPE:Wondrous Item.Belt.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	BONUS:STAT|CON|2	ABILITY:Language|AUTOMATIC|Dwarvish	SPROP:You have Advantage on Charisma (Persuasion) checks made to interact with dwarves and duergar.	SPROP:You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.|PREABILITY:1,CATEGORY=Attunement,Belt of Dwarvenkind	DEFINE:Attunement_Belt_Of_Dwarvenkind|0	BONUS:VAR|Attunement_Belt_Of_Dwarvenkind|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Belt of Dwarvenkind
 Belt of Giant Strength (Hill)		TYPE:Wondrous Item.Belt.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your Strength score is 21 while you wear this belt. It has no effect on you if your Strength is already 21 or higher.|PREABILITY:1,CATEGORY=Attunement,Belt of Giant Strength (Hill)	DEFINE:Attunement_Belt_Of_Giant_Strength_Hill|0	BONUS:VAR|Attunement_Belt_Of_Giant_Strength_Hill|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Belt of Giant Strength (Hill)
 Belt of Giant Strength (Frost)		TYPE:Wondrous Item.Belt.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your Strength score is 23 while you wear this belt. It has no effect on you if your Strength is already 23 or higher.|PREABILITY:1,CATEGORY=Attunement,Belt of Giant Strength (Frost)	DEFINE:Attunement_Belt_Of_Giant_Strength_Frost|0	BONUS:VAR|Attunement_Belt_Of_Giant_Strength_Frost|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Belt of Giant Strength (Frost)

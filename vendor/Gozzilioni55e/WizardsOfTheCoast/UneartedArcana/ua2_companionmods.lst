@@ -1,6 +1,6 @@
 SOURCELONG:Unearthed Arcana - Artificer	SOURCESHORT:UA	SOURCEWEB:https://www.dndbeyond.com/sources/dnd/ua	SOURCEDATE:2015-01
 
-FOLLOWER:EldritchCannonLVL=1	TYPE:Eldritch Cannon	BONUS:COMBAT|AC|8 BONUS:HP|CURRENTMAX|5*mastervar("ArtificerLVL")	DEFINESTAT:LOCK|STR|10	DEFINESTAT:LOCK|DEX|10	DEFINESTAT:LOCK|CON|10	DEFINESTAT:LOCK|INT|10	DEFINESTAT:LOCK|WIS|10	DEFINESTAT:LOCK|CHA|10	ABILITY:Special Ability|AUTOMATIC|Eldritch Cannon ~ Flamethrower|Eldritch Cannon ~  Force Ballista|Eldritch Cannon ~ Protector	DEFINE:EldritchCannonDamage|0	BONUS:VAR|EldritchCannonDamage|2
+FOLLOWER:EldritchCannonLVL=1	TYPE:Eldritch Cannon	BONUS:COMBAT|AC|8 BONUS:HP|CURRENTMAX|5*mastervar("ArtificerLVL")	DEFINESTAT:LOCK|STR|10	DEFINESTAT:LOCK|DEX|10	DEFINESTAT:LOCK|CON|10	DEFINESTAT:LOCK|INT|10	DEFINESTAT:LOCK|WIS|10	DEFINESTAT:LOCK|CHA|10	DEFINE:EldritchCannonDamage|0	BONUS:VAR|EldritchCannonDamage|2
 FOLLOWER:EldritchCannonLVL=9	TYPE:Eldritch Cannon	ABILITY:Special Ability|AUTOMATIC|Eldritch Cannon ~ Explosive Cannon	BONUS:VAR|EldritchCannonDamage|1
 FOLLOWER:EldritchCannonLVL=15	TYPE:Eldritch Cannon	ABILITY:Special Ability|AUTOMATIC|Eldritch Cannon ~ Fortified Position
 
