@@ -1,0 +1,18 @@
+SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+
+###TODO: think on how to revamp to 5.5e attunements.
+Tome of Books		TYPE:Artifact.Minor.Book.Container	COST:0	WT:3	SOURCEPAGE:H (Und)	CONTAINS:UNLIM|Book=250|Spellbook=250
+Blessed Book (Boccob's)		TYPE:Wondrous.Book.Spellbook	COST:12500	WT:1	SOURCEPAGE:DMG	NUMPAGES:1000	PAGEUSAGE:max(SPELLLEVEL,1)																	
+Ioun Stone (Vibrant Purple)	OUTPUTNAME:Ioun Stone, [NAME]	TYPE:Wondrous.IounStone.Spellbook	COST:36000	WT:0	SOURCEPAGE:DMG	NUMPAGES:5	PAGEUSAGE:max(SPELLLEVEL,1)																	
+Last Book		TYPE:Artifact.Major.Book.Spellbook	COST:0	WT:0	SOURCEPAGE:EPH																	
+Book of Blood		TYPE:Wondrous.Tools.Spellbook	COST:21300	WT:3	SOURCEPAGE:MoF30	SPROP:1/day summon Yeth Hound. Finger of death drain 1 hp permanently.	SPELLS:Book of Blood|TIMES=1|CASTERLEVEL=13|Finger of Death	NUMPAGES:45	PAGEUSAGE:1	EQMOD:BOOK_WATER_PRF.BOOK_FIRE_PRF.BOOK_LOCK														
+Kiira		TYPE:Wondrous.Headgear.Spellbook	COST:7500	WT:0	SOURCEPAGE:MoF30	BONUS:SKILL|TYPE.Knowledge|2|TYPE=Competence	NUMPAGES:30	PAGEUSAGE:1																
+Tome of the Stilled Tongue		TYPE:Book.Spellbook.Relic	COST:34850	WT:5	SOURCEPAGE:CD	NUMPAGES:500	PAGEUSAGE:max(SPELLLEVEL,1)	PREDEITY:1,Vecna							
+
+Figurine of Wondrous Power (Jasper Spider)		TYPE:Wondrous Item		WT:0	SOURCEPAGE:H (Und)	EQMOD:MAGIC_ITEM_VERY_RARE
+Figurine of Wondrous Power (Sardonix Stone Flyer)		TYPE:Wondrous Item		WT:0	SOURCEPAGE:H (Und)	EQMOD:MAGIC_ITEM_VERY_RARE
+Figurine of Wondrous Power (Basalt Glyptodon)		TYPE:Wondrous Item		WT:0	SOURCEPAGE:H (Fro)	EQMOD:MAGIC_ITEM_VERY_RARE
+Figurine of Wondrous Power (Coral Zeuglodon)		TYPE:Wondrous Item		WT:0	SOURCEPAGE:H (Fro)	EQMOD:MAGIC_ITEM_VERY_RARE
+Figurine of Wondrous Power (Diamond Ice Toad)		TYPE:Wondrous Item		WT:0	SOURCEPAGE:H (Fro)	EQMOD:MAGIC_ITEM_VERY_RARE
+Figurine of Wondrous Power (Iron Megaloceros)		TYPE:Wondrous Item		WT:0	SOURCEPAGE:H (Fro)	EQMOD:MAGIC_ITEM_VERY_RARE
+Figurine of Wondrous Power (Malachite Smilodon)		TYPE:Wondrous Item		WT:0	SOURCEPAGE:H (Fro)	EQMOD:MAGIC_ITEM_VERY_RARE

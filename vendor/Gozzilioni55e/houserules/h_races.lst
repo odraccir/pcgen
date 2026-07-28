@@ -1,7 +1,7 @@
 SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
 
-Animal (Boar).MOD	TEMPLATE:Mount
-Animal (Giant Goat).MOD	TEMPLATE:Mount
-Animal (Giant Seahorse).MOD	TEMPLATE:Mount
-Animal (Goat).MOD	TEMPLATE:Mount
-Animal (Lizard).MOD	TEMPLATE:Mount
+Animal (Boar).MOD	TEMPLATE:Mount|PRERULE:1,HB_OTHER_MOUNT
+Animal (Giant Goat).MOD	TEMPLATE:Mount|PRERULE:1,HB_OTHER_MOUNT
+Animal (Giant Seahorse).MOD	TEMPLATE:Mount|PRERULE:1,HB_OTHER_MOUNT
+Animal (Goat).MOD	TEMPLATE:Mount|PRERULE:1,HB_OTHER_MOUNT
+Animal (Lizard).MOD	TEMPLATE:Mount|PRERULE:1,HB_OTHER_MOUNT

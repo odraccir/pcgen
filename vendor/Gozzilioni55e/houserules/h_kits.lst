@@ -1,0 +1,5 @@
+SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+
+#Wizard Spell Book
+STARTPACK:Free Spell Book	EQUIPBUY:0	PREMULT:2,[PREPCLEVEL:MAX=1],[PRECLASS:1,SPELLCASTER=1]
+GEAR:Spellbook (Wizard's/Blank)	LOCATION:Carried

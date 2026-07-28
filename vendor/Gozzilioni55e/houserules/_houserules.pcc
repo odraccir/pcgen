@@ -28,6 +28,7 @@ ABILITY:h_abilities.lst
 EQUIPMENT:h_equip_arms_and_armor.lst
 EQUIPMENT:h_equip.lst
 EQUIPMOD:h_equipmods.lst
+KIT:h_kits.lst
 LANGUAGE:h_languages.lst
 WEAPONPROF:h_profs_weapon.lst
 RACE:h_races.lst

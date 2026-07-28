@@ -45,5 +45,5 @@ WEAPONPROF:dmg_profs_weapon.lst
 #SPELL:dmg_spells.lst
 TEMPLATE:dmg_templates.lst
 
-HIDETYPE:EQUIP|Berserker|Dancing
+HIDETYPE:EQUIP|Berserker|Dancing|DragonScale|Elemental Gem|Executioner|Frost Brand
 INFOTEXT:Supports 6.4.1

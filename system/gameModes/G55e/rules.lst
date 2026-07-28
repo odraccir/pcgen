@@ -35,3 +35,10 @@ NAME:InHandEquipped			PARM:EQUIPATTACK		DEFAULT:No					DESC:Treat Weapons In Han
 #NAME:SpellAlignmentRestriction	PARM:PROHIBITSPELLS	DEFAULT:Yes					DESC:Restict Cleric/Druid spells based on alignment
 
 #NAME:AmmoStacksWithWeapon		PARM:AMMOSTACKSWITHWEAPON	DEFAULT:No				DESC:Do ammunition enhancement bonus stack with those of the weapon
+
+# Houserules
+###Block: PHB
+NAME:WizardFreeSpellBook		VAR:HB_FREE_SPELLBOOK		DEFAULT:Yes					DESC:Wizards gets first spellbook for free at 1st level (and no multiclass).
+NAME:MountBardingAllowed		VAR:HB_MOUNT_BARDING_ALLOWED		DEFAULT:Yes					DESC:Mounts can have Barding proficiency
+NAME:PassiveInvestigation		VAR:HB_PASSIVE_INVESTIGATION		DEFAULT:Yes					DESC:Investigation skill can be passive.
+NAME:OtherMount		VAR:HB_OTHER_MOUNT		DEFAULT:Yes					DESC:Other races can be mounted.
