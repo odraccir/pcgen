@@ -26,12 +26,14 @@ PRECAMPAIGN:1,BOOKTYPE=Core Rules
 
 ABILITY:h_abilities.lst
 EQUIPMENT:h_equip_arms_and_armor.lst
+EQUIPMENT:h_equip_magic_items.lst
 EQUIPMENT:h_equip.lst
 EQUIPMOD:h_equipmods.lst
 KIT:h_kits.lst
 LANGUAGE:h_languages.lst
 WEAPONPROF:h_profs_weapon.lst
 RACE:h_races.lst
+SKILL:h_skills.lst
 TEMPLATE:h_templates.lst
 
 #GROUP:Class Expert.

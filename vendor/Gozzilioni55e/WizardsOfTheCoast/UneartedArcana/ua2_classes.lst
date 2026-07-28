@@ -6,7 +6,7 @@ SOURCELONG:Unearthed Arcana - Artificer	SOURCESHORT:UA	SOURCEWEB:https://www.dnd
 # Class Level	CAST:	KNOWN:0,	ABILITY:					
 CLASS:Artificer	HD:8	TYPE:PC.BASE	MAXLEVEL:20	DEFINE:ArtificerLVL|0	BONUS:VAR|ArtificerLVL|CL 			
 CLASS:Artificer	PREMULT:1,[!PRETEMPLATE:1,First Level],[PREABILITY:1,CATEGORY=Internal,Multiclass Allowed ~ Artificer],[PRECLASS:1,Artificer=1]							
-CLASS:Paladin	SPELLSTAT:INT	MEMORIZE:YES		BONUS:CASTERLEVEL|Artificer|CL	BONUS:VAR|SpellCasterTotalLVL|PaladinLVL	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|Arcane	
+CLASS:Paladin	SPELLSTAT:INT	MEMORIZE:YES		BONUS:CASTERLEVEL|Artificer|CL	BONUS:VAR|SpellCasterTotalLVL|PaladinLVL	BONUS:VAR|SpellCasterClassCount|1	FACT:SpellType|Arcane
 1:REPEATLEVEL:1	DONOTADD:SKILLPOINTS							
 1	CAST:99,ArtificerCast1							
 2	CAST:99,ArtificerCast1							
@@ -28,11 +28,6 @@ CLASS:Paladin	SPELLSTAT:INT	MEMORIZE:YES		BONUS:CASTERLEVEL|Artificer|CL	BONUS:V
 18	CAST:99,ArtificerCast1,ArtificerCast2,ArtificerCast3,ArtificerCast4,ArtificerCast5							
 19	CAST:99,ArtificerCast1,ArtificerCast2,ArtificerCast3,ArtificerCast4,ArtificerCast5							
 20	CAST:99,ArtificerCast1,ArtificerCast2,ArtificerCast3,ArtificerCast4,ArtificerCast5							
-#								
-0	DOMAIN:Alchemist Domain|PREABILITY:1,CATEGORY=Special Ability,Artificer ~ Alchemist Spells							
-0	DOMAIN:Armorer Domain|PREABILITY:1,CATEGORY=Special Ability,Artificer ~ Armorer Spells							
-0	DOMAIN:Artillerist Domain|PREABILITY:1,CATEGORY=Special Ability,Artificer ~ Artillerist Spells							
-0	DOMAIN:Battle Smith Domain|PREABILITY:1,CATEGORY=Special Ability,Battle Smith ~ Battle Smith Spells							
 #								
 1			ABILITY:Class|AUTOMATIC|Artificer					
 1			ABILITY:Artificer Class Feature|AUTOMATIC|Artificer ~ Magical Tinkering					

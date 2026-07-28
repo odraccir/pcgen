@@ -1,0 +1,5 @@
+
+
+###Block: Tool Proficiency																																																																																																																																																																																																																			
+# Ability Name						Category of Ability	Type										Define									Modify VAR										Aspects																																																																																																																																																																															
+Tool Proficiency ~ Sculptor's Instruments	CATEGORY:Internal	TYPE:Tool Proficiency.Tool Proficiency Artisan's Tools		DEFINE:ProfBonus_Sculptor_Instruments|0	BONUS:VAR|ProfBonus_Sculptor_Instruments|Proficiency_Bonus	ASPECT:SkillBonus|+%1 Sculptor's Instruments|ProfBonus_Sculptor_Instruments																																																																																																																																																																																																													

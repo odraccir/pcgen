@@ -1,0 +1,5 @@
+SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
+
+# Skill Name	Key Stat	Visible
+# Intelligence
+Forbidden Lore		KEYSTAT:INT	VISIBLE:EXPORT

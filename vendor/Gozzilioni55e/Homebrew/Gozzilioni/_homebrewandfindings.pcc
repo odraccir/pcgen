@@ -1,0 +1,43 @@
+CAMPAIGN:Homebrew and Findings
+KEY:Homebrew and Findings
+BOOKTYPE:Homebrew
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+GAMEMODE:G55e
+TYPE:Homebrew
+SOURCELONG:Homebrew and Findings
+SOURCESHORT:H&F
+SOURCEWEB:http://www.gozzilioni.net
+SOURCEDATE:2025-01
+RANK:202501
+PUBNAMELONG:Homebrew and Findings
+PUBNAMESHORT:H&F
+PUBNAMEWEB:http://www.www.gozzilioni.com
+COPYRIGHT:Copyright 2025, Wizards of the Coast, Inc.
+ISOGL:NO
+
+# COVER should be cover_gameMode_pub_book.file
+# COVER:&/Gozzilioni55e/_artwork/cover_5e2024_wotc_ph.png
+# LOGO should be logo_pub.file
+# LOGO:&/Gozzilioni55e/_artwork/logo_wotc.png
+
+INFOTEXT:Gozzilioni Homebrew and internet Findings we like
+
+ABILITY:haf_abilities.lst
+# ABILITY:haf_abilities_class.lst
+ABILITY:haf_abilities_races.lst
+# ABILITYCATEGORY:haf_abilitycategories.lst
+# BIOSET:haf_biosettings.lst
+# CLASS:haf_classes.lst
+# COMPANIONMOD:haf_companionmods.lst
+# DOMAIN:haf_domains.lst
+# EQUIPMOD:haf_eqmods.lst
+KIT:haf_kits.lst
+# LANGUAGE:haf_languages.lst
+# ARMORPROF:haf_profs_armor.lst
+# SHIELDPROF:haf_profs_shield.lst
+# WEAPONPROF:haf_profs_weapon.lst
+RACE:haf_races.lst
+# SKILL:haf_skills.lst
+# TEMPLATE:haf_templates.lst
+
+INFOTEXT:Supports 6.4.1

@@ -55,8 +55,8 @@ Elven Chain Mail.MOD	OUTPUTNAME:Elven Chain Mail
 
 Longbow.COPY=Longbow	KEY:Energy Longbow
 Energy Longbow.MOD	OUTPUTNAME:Energy Longbow
-Shotbow.COPY=Shotbow	KEY:Energy Shotbow
-Energy Shotbow.MOD	OUTPUTNAME:Energy Shotbow
+Shortbow.COPY=Shortbow	KEY:Energy Shortbow
+Energy Shortbow.MOD	OUTPUTNAME:Energy Shortbow
 
 Battleaxe.MOD	TYPE:Executioner
 Greataxe.MOD	TYPE:Executioner
@@ -189,7 +189,7 @@ Folding Boat		TYPE:Wondrous Item.Transportation.Ship.Container		WT:0	SOURCEPAGE:
 Gauntlet of Ogre Power		TYPE:Wondrous Item.Glove.Attunement		WT:0	SOURCEPAGE:DMG	SLOTS:2	EQMOD:MAGIC_ITEM_UNCOMMON	SPROP:Your Strength score is 19 while you wear these gauntlets. It has no effect on you if your Strength is already 19 or higher.|PREABILITY:1,CATEGORY=Attunement,Gauntlet of Ogre Power	DEFINE:Attunement_Gauntlet_Of_Ogre_Power|0	BONUS:VAR|Attunement_Gauntlet_Of_Ogre_Power|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Gauntlet of Ogre Power
 Gem of Brightness		TYPE:Wondrous Item.Gem.Consumable		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON.CHARGED_ITEM_50|50
 Gem of Seeing		TYPE:Wondrous Item.Gem.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:This gem has 3 charges. As a Magic action, you can expend 1 charge. For the next 10 minutes, you have Truesight out to 120 feet when you peer through the gem. The gem regains 1d3 expended charges daily at dawn.|PREABILITY:1,CATEGORY=Attunement,Gem of Seeing	DEFINE:Attunement_Gem_Of_Seeing|0	BONUS:VAR|Attunement_Gem_Of_Seeing|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Gem of Seeing
-Glamoured Studded Leather.MOD		TYPE:Wondrous Item			SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:While wearing this armor, you gain a +1 bonus to Armor Class. You can also take a Bonus Action to cause the armor to assume the appearance of a normal set of clothing or some other kind of armor.	REPLACES:PLUS1A	BONUS:COMBAT|AC|1|TYPE=Enhancement
+Glamoured Studded Leather.MOD		TYPE:Wondrous Item			SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE.PLUS1A	SPROP:While wearing this armor, you gain a +1 bonus to Armor Class. You can also take a Bonus Action to cause the armor to assume the appearance of a normal set of clothing or some other kind of armor.
 #[name]		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
 #[name]		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
 #[name]		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health

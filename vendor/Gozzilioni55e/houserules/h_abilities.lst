@@ -3,9 +3,26 @@ SOURCELONG:Houserules	SOURCESHORT:H	SOURCEWEB:http://www.gozzilioni.net
 CATEGORY=Internal|Default.MOD	ABILITY:Internal|AUTOMATIC|Barding Allowed|PRERULE:1,HB_MOUNT_BARDING_ALLOWED
 Barding Allowed	CATEGORY:Internal	DEFINE:BardingAllowed|0	BONUS:VAR|BardingAllowed|1|TYPE=Base|PRERACE:1,RACESUBTYPE=Mount
 
+Mount	CATEGORY:Internal	TEMPLATE:Mount
 CATEGORY=Internal|Default.MOD	ABILITY:Special Ability|AUTOMATIC|Passive Investigation|PREABILITY:1,CATEGORY=Skill,Investigation|PRERULE:1,HB_PASSIVE_INVESTIGATION
 Passive Investigation	CATEGORY:Special Ability	DEFINE:Passive_Investigation|0	BONUS:VAR|Passive_Investigation|10+INT+SkillProf_Investigation																																																																																																																															ASPECT:SkillBonus|Passive Investigation is %1|Passive_Investigation
 
 Slaad	CATEGORY:Language	TYPE:Hidden Language	VISIBLE:YES		DESC:Slaad.	KEY:Slaad																AUTO:LANG|Slaad											SOURCEPAGE:H																																																																																																																																																																																		
 
 Free Spell Book	CATEGORY:Internal	TEMPLATE:Spellbook
+
+###Block: Skill Proficiencies & Skill Proficiency Bonus																																																																																																																																																																																																																			
+# Ability Name	Category of Ability	Type				Prohibited Class SKill		Modify VAR										Class Skill																																																																																																																																																																																																	
+Forbidden Lore	CATEGORY:Skill	TYPE:Skill Proficiency		!PRECSKILL:1,Forbidden Lore	BONUS:VAR|SkillProf_Forbidden_Lore|Proficiency_Bonus|TYPE=Class	CSKILL:Forbidden Lore
+
+###Block: Export display skills																																																																																																																																																																																																																			
+# Intelligence																																																																																																																																																																																																																			
+Forbidden Lore	CATEGORY:SkillExport	TYPE:SkillExport	VISIBLE:EXPORT	DEFINE:SKILL_Forbidden_Lore|0	DEFINE:SkillProf_Forbidden_Lore|0	BONUS:VAR|SKILL_Forbidden_Lore|INT+SkillProf_Forbidden_Lore	ASPECT:KEYSTAT|INT	ASPECT:AbilityMod|%1|INT	ASPECT:Total|%1|SKILL_Forbidden_Lore	ASPECT:ProfBonus|%1|SkillProf_Forbidden_Lore
+
+###Block: Expertise Support																																																																																																																																																																																																																			
+# Ability Name			Unique Key						SORTKEY		Category of Ability		Type									Required Ability									Description																																																																										Ability																																																																													Bonus to spell cast/day																		Modify VAR											Source Page
+Forbidden Lore				KEY:Expertise ~ Forbidden Lore						CATEGORY:Special Ability	TYPE:Expertise							PREABILITY:1,CATEGORY=Skill,Forbidden Lore																																																																																																																																																																																			BONUS:VAR|SkillProf_Forbidden_Lore|Proficiency_Bonus|TYPE=Expertise														
+
+###Block:GM Award
+Add Forbidden Lore +1	CATEGORY:Special Ability	TYPE:Rules	BONUS:VAR|GMAward_Forbidden_Lore|1	CHOOSE:NOCHOICE	MULT:YES	STACK:YES	DESC:Adds +1 to the listed skill.	COST:0																																																																																																																																																																																																											
+CATEGORY=Internal|Default.MOD	BONUS:VAR|SkillProf_Forbidden_Lore|GMAward_Forbidden_Lore	DEFINE:GMAward_Forbidden_Lore|0																																																																																																																																																																																																																	
