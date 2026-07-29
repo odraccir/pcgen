@@ -38,8 +38,6 @@ Inn (Poor/Per Day)		TYPE:Service.Lodging	COST:0.2		SOURCEPAGE:H
 
 Saddlebags		TYPE:Adventuring Gear.Mount.Container	COST:4	WT:8	SOURCEPAGE:H (PHB)	CONTAINS:UNLIM|Any			
 
-Scabbard		TYPE:Goods.Container	COST:0.1	WT:1	SOURCEPAGE:H	CONTAINS:UNLIM|Total=1|Weapon=1
+Scabbard		TYPE:Adventuring Gear.Container	COST:0.1	WT:1	SOURCEPAGE:H	CONTAINS:UNLIM|Total=1|Weapon=1
 
 Spellbook (Wizard's/Blank)	TYPE:Adventuring Gear.Spellbook	COST:25	WT:3	SOURCEPAGE:H  (PHB)	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)
-Spellbook (Wizard's/Blank/Waterproof)	TYPE:Adventuring Gear.Spellbook.Waterproof	COST:30	WT:4	SOURCEPAGE:H (PH)	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)		
-Spellbook (Wizard's/Blank/Fireproof)	TYPE:Adventuring Gear.Spellbook.Fireproof	COST:50	WT:5	SOURCEPAGE:H (PH)	NUMPAGES:100	PAGEUSAGE:max(SPELLLEVEL,1)		

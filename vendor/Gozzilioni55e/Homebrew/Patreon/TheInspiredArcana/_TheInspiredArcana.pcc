@@ -25,4 +25,5 @@ PRECAMPAIGN:1,BOOKTYPE=Core Rules
 
 ABILITY:ia_abilities.lst
 ABILITYCATEGORY:ia_abilitycategories.lst
+EQUIPMENT:ia_equipments.lst
 KIT:ia_kits.lst

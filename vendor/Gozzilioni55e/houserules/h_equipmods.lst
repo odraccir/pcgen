@@ -26,7 +26,7 @@ Charges (150)	KEY:CHARGED_ITEM_150	COST:((BASECOST/150)*%CHARGES)-BASECOST	VISIB
 Charges (1000)	KEY:CHARGED_ITEM_1000	COST:((BASECOST/1000)*%CHARGES)-BASECOST	VISIBLE:NO	CHOOSE:NOCHOICE	CHARGES:1|1000
 
 ###TODO: think on how to revamp to 5.5e attunements.
-Forbidden Tomes	KEY:FORBIDDEN_TOMES	TYPE:Spellbook		VISIBLE:QUALIFY	ITYPE:ForbiddenTome			SOURCEPAGE:UA	PRETYPE:1,Spellbook						CHOOSE:STRING|1|2|3|TITLE=Knowledge (Forbidden Lore) gained	BONUS:SKILL|Knowledge (Forbidden Lore)|%CHOICE
+Forbidden Tomes	KEY:FORBIDDEN_TOMES	TYPE:Spellbook		VISIBLE:QUALIFY	ITYPE:ForbiddenTome			SOURCEPAGE:UA	PRETYPE:1,Spellbook						CHOOSE:STRING|1|2|3|TITLE=Knowledge (Forbidden Lore) gained	BONUS:SKILL|Forbidden Lore|%CHOICE
 Forbidden Tomes (1 week)	KEY:FORBIDDEN_TOMES_1WEEK	TYPE:Spellbook		VISIBLE:QUALIFY		REPLACES:FORBIDDEN_TOMES_2WEEK,FORBIDDEN_TOMES_3WEEK		SOURCEPAGE:UA	PRETYPE:2,Spellbook,ForbiddenTome						
 Forbidden Tomes (2 week)	KEY:FORBIDDEN_TOMES_2WEEK	TYPE:Spellbook		VISIBLE:QUALIFY		REPLACES:FORBIDDEN_TOMES_1WEEK,FORBIDDEN_TOMES_3WEEK		SOURCEPAGE:UA	PRETYPE:2,Spellbook,ForbiddenTome						
 Forbidden Tomes (3 week)	KEY:FORBIDDEN_TOMES_3WEEK	TYPE:Spellbook		VISIBLE:QUALIFY		REPLACES:FORBIDDEN_TOMES_1WEEK,FORBIDDEN_TOMES_2WEEK		SOURCEPAGE:UA	PRETYPE:2,Spellbook,ForbiddenTome						
@@ -36,3 +36,44 @@ Forbidden Tomes (Knowledge Arcana DC 30)	KEY:FORBIDDEN_TOMES_KA30	TYPE:Spellbook
 Forbidden Tomes (Initial Sanity)	KEY:FORBIDDEN_TOMES_INISAN	TYPE:Spellbook		VISIBLE:QUALIFY				SOURCEPAGE:UA	PRETYPE:2,Spellbook,ForbiddenTome						CHOOSE:STRING|1|1d4|1d6|1d10|TITLE=Initial Sanity loss	SPROP:% initial sanity loss|%CHOICE
 Forbidden Tomes (Final Sanity)	KEY:FORBIDDEN_TOMES_FINSAN	TYPE:Spellbook		VISIBLE:QUALIFY				SOURCEPAGE:UA	PRETYPE:2,Spellbook,ForbiddenTome						CHOOSE:STRING|1d4|2d6|3d6|2d10|TITLE=Sanity loss upon completion	SPROP:% sanity loss upon completion|%CHOICE
 
+Fireproof	KEY:BOOK_FIRE_PRF	TYPE:Book.Spellbook	VISIBLE:QUALIFY	SOURCEPAGE:UA	COST:BASECOST-100	PRETYPE:1,Common,Uncommon,Rare,Very Rare,Legendary,Artifact	PRETYPE:1,Book,Spellbook	FORMATCAT:FRONT	NAMEOPT:NOLIST
+Waterproof	KEY:BOOK_WATER_PRF	TYPE:Book.Spellbook	VISIBLE:QUALIFY	SOURCEPAGE:UA	COST:BASECOST-100	PRETYPE:1,Common,Uncommon,Rare,Very Rare,Legendary,Artifact	PRETYPE:1,Book,Spellbook	FORMATCAT:FRONT	NAMEOPT:NOLIST
+###
+# Levitante
+# Effetto: Quando il libro viene aperto e rilasciato, rimane sospeso a mezz'aria all'altezza degli occhi del proprietario, 
+# fluttuando immobile. Il libro ignora la gravità fino a quando non viene richiuso o afferrato. Può sopportare solo il proprio
+# peso; se vi si appoggia un oggetto pesante più di pochi grammi, il libro cade a terra.
+Levitating	KEY:BOOK_LEVITATE	TYPE:Book.Spellbook	VISIBLE:QUALIFY	SOURCEPAGE:UA	COST:BASECOST-400	PRETYPE:1,Uncommon,Rare,Very Rare,Legendary,Artifact	PRETYPE:1,Book,Spellbook	FORMATCAT:FRONT	NAMEOPT:NOLIST
+###
+# Mascherato
+# Effetto: Come azione bonus, puoi pronunciare una parola d'ordine per mutare l'aspetto visivo e tattile del libro. Il libro
+# assume la forma di un qualsiasi altro oggetto inanimato di taglia simile (le dimensioni non possono variare più del 25%) 
+# e di peso simile (compreso tra la metà e il doppio del peso originale del libro). Ad esempio, può apparire come un pesante 
+# mattone di pietra, una scatola di legno sigillata o una borsa di cuoio. Ripetendo la parola d'ordine come azione bonus, 
+# l'oggetto torna al suo aspetto normale.
+# Scoprire l'illusione: Una creatura che esamina l'oggetto mascherato può compiere 
+# un'azione per effettuare una prova di Intelligenza (Indagine) con CD 15. In caso di successo, la creatura percepisce una 
+# leggera distorsione magica e capisce che l'oggetto è camuffato, ma non ne rivela la vera forma finché l'incantamento non 
+# viene interrotto.
+Glamered	KEY:BOOK_GLAME	TYPE:Book.Spellbook	VISIBLE:QUALIFY	SOURCEPAGE:UA	COST:BASECOST-400	PRETYPE:1,Uncommon,Rare,Very Rare,Legendary,Artifact	PRETYPE:1,Book,Spellbook	FORMATCAT:FRONT	NAMEOPT:NOLIST
+# Pungent
+# Effetto: Il libro è intriso di un'essenza acre e tossica che tiene lontani i parassiti. Qualsiasi creatura che tocchi 
+# il libro senza aver prima pronunciato la parola d'ordine deve superare un Tiro Salvezza su Costituzione con CD 14.In caso
+# di fallimento: La creatura subisce la condizione di Avvelenato (Poisoned) per 1d4+1 round. Finché è avvelenata in questo 
+# modo, la creatura è sopraffatta dalla nausea: nel suo turno può compiere un'azione o un'azione bonus, ma non entrambe, e
+# non può usare reazioni.
+Pungent	KEY:BOOK_PUNGENT	TYPE:Book.Spellbook	VISIBLE:QUALIFY	SOURCEPAGE:UA	COST:BASECOST-400	PRETYPE:1,Uncommon,Rare,Very Rare,Legendary,Artifact	PRETYPE:1,Book,Spellbook	FORMATCAT:FRONT	NAMEOPT:NOLIST
+# Serratura Meccanica
+# Effetto: Il libro è chiuso saldamente e non può essere aperto senza la sua chiave. Una creatura può tentare di scassinare
+# la serratura utilizzando gli Attrezzi da Scassinatore (Thieves' Tools) superando una prova di Destrezza con CD 20. 
+# Rompere fisicamente il fermaglio richiede una prova di Forza con CD 20 (il fermaglio ha CA 19 e 10 Punti Ferita, ed è 
+# immune ai danni psichici e veleno).
+Lock	KEY:BOOK_LOCK	TYPE:Book.Spellbook	VISIBLE:QUALIFY	SOURCEPAGE:UA	COST:BASECOST-150	PRETYPE:1,Common,Uncommon,Rare,Very Rare,Legendary,Artifact	PRETYPE:1,Book,Spellbook	FORMATCAT:MIDDLE	NAMEOPT:TEXT=With Lock
+# Serratura Magica
+# Effetto: Il libro è sigillato magicamente. Solo le creature designate dal proprietario o chi pronuncia la parola d'ordine
+# possono aprirlo normalmente. Per tutti gli altri, il libro è impossibile da aprire con mezzi normali.
+# Superare il sigillo: La CD per scassinare la serratura fisica con gli Attrezzi da Scassinatore o per forzarla con una 
+# prova di Forza aumenta di +5 (portando la CD base a 25). L'incantesimo Aprire (Knock) non apre automaticamente il 
+# libro, ma ne sospende l'effetto magico per 10 minuti. Un effetto di Dissolvi Magie (Dispel Magic) contro una CD 13 
+# sopprime la magia del sigillo per 1 ora.
+Magic Lock	KEY:BOOK_MAGIC_LOCK	TYPE:Book.Spellbook	VISIBLE:QUALIFY	SOURCEPAGE:UA	COST:BASECOST-400	PRETYPE:1,Uncommon,Rare,Very Rare,Legendary,Artifact	PRETYPE:1,Book,Spellbook	FORMATCAT:MIDDLE	NAMEOPT:TEXT=With Magic Lock
