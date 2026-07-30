@@ -30,7 +30,7 @@ ABILITY:haf_abilities_races.lst
 # CLASS:haf_classes.lst
 # COMPANIONMOD:haf_companionmods.lst
 # DOMAIN:haf_domains.lst
-# EQUIPMOD:haf_eqmods.lst
+# EQUIPMOD:haf_eqmods.lst	
 KIT:haf_kits.lst
 # LANGUAGE:haf_languages.lst
 # ARMORPROF:haf_profs_armor.lst
@@ -38,6 +38,7 @@ KIT:haf_kits.lst
 # WEAPONPROF:haf_profs_weapon.lst
 RACE:haf_races.lst
 # SKILL:haf_skills.lst
+SPELL:haf_spells.lst
 # TEMPLATE:haf_templates.lst
 
 INFOTEXT:Supports 6.4.1

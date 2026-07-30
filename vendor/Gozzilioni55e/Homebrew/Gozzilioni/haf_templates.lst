@@ -1,0 +1,5 @@
+SOURCELONG:Homebrew and Findings	SOURCESHORT:H&F	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2025-01
+
+Celestial	TYPE:Inherited	SUBRACE:Celestial	RACESUBTYPE:Outsider	PREALIGN:1,LG,LN,NG,TN,CG,CN	!PRERACE:1,RACESUBTYPE:Incorporeal	BONUS:VAR|DarkvisionRange|60|TYPE=Base	ABILLITY:Special Ability|AUTOMATIC|Celestial ~ Resistances|Celestial ~ Smite Evil|Celestial ~ Channel Divinity	KIT:1,LB,NB,CB	BONUS:MISC|CR|1
+Fiendish	TYPE:Inherited	SUBRACE:Fiendish	RACESUBTYPE:Outsider	PREALIGN:1,LN,LE,TN,NE,CN,CE	!PRERACE:1,RACESUBTYPE:Incorporeal	BONUS:VAR|DarkvisionRange|60|TYPE=Base	ABILLITY:Special Ability|AUTOMATIC|Fiendish ~ Resistances|Fiendish ~ Smite Good|Fiendish ~ Channel Divinity|Fiendish ~ Sudden Resistance	KIT:1,LE,NE,CE	BONUS:MISC|CR|1
+# Anarchic	TYPE:Inherited	SUBRACE:Anarchich	RACESUBTYPE:Outsider	PREALIGN:1,NG,TN,NE,CG,CN,CE	!PRERACE:1,RACESUBTYPE:Incorporeal	BONUS:VAR|DarkvisionRange|60|TYPE=Base	ABILLITY:Special Ability|AUTOMATIC|Anarchic ~ Resistances|Fiendish ~ Smite Good|Fiendish ~ Channel Divinity|Fiendish ~ Sudden Resistance	KIT:1,LE,NE,CE	BONUS:MISC|CR|1

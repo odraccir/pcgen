@@ -58,7 +58,7 @@ Arcane Focus (Orb)	TYPE:Adventuring Gear.Focus.Arcane Focus	COST:20	WT:3
 Arcane Focus (Rod)	TYPE:Adventuring Gear.Focus.Arcane Focus.Rod	COST:10	WT:2
 Arcane Focus (Staff)	TYPE:Adventuring Gear.Focus.Arcane Focus.Staff	COST:5	WT:4
 Arcane Focus (Wand)	TYPE:Adventuring Gear.Focus.Arcane Focus.Wand	COST:10	WT:1
-Backpack	TYPE:Adventuring Gear.Container	COST:2	WT:5	CONTAINS:30|Any
+Backpack	TYPE:Adventuring Gear.Bag.Container	COST:2	WT:5	CONTAINS:30|Any
 Ball Bearings	TYPE:Adventuring Gear	COST:1	WT:2
 Barrel	TYPE:Adventuring Gear.Container	COST:2	WT:70	CONTAINS:40
 Basket	TYPE:Adventuring Gear.Container	COST:0.4	WT:1	CONTAINS:40
@@ -113,13 +113,13 @@ Poison (Vial)	TYPE:Adventuring Gear.Vial	COST:100	WT:0	CONTAINS:1|Poison
 Pole (10 Ft.)	TYPE:Adventuring Gear	COST:0.05	WT:7
 Pot (Iron)	TYPE:Adventuring Gear.Container	COST:2	WT:10	CONTAINS:8|Any
 Potion of Healing	TYPE:Adventuring Gear.Potion.Flask.Container	COST:50	WT:0.5	CONTAINS:1|Potion
-Pouch (Belt)	TYPE:Adventuring Gear.Container	COST:0.5	WT:1	CONTAINS:6|Any
+Pouch (Belt)	TYPE:Adventuring Gear.Bag.Container	COST:0.5	WT:1	CONTAINS:6|Any
 Quiver	TYPE:Adventuring Gear.Container	COST:1	WT:1	CONTAINS:UNLIM|Total=20|Arrow=20
 Ram (Portable)	TYPE:Adventuring Gear	COST:4	WT:35
 Rations (Trail/Per Day)	TYPE:Adventuring Gear	COST:0.5	WT:2
 Robe	TYPE:Adventuring Gear.Clothing	COST:1	WT:4
 Rope	TYPE:Adventuring Gear	COST:1	WT:5
-Sack	TYPE:Adventuring Gear.Container	COST:0.01	WT:0.5	CONTAINS:30|Any
+Sack	TYPE:Adventuring Gear.Bag.Container	COST:0.01	WT:0.5	CONTAINS:30|Any
 Shovel	TYPE:Adventuring Gear	COST:2	WT:5
 Signal Whistle	TYPE:Adventuring Gear	COST:0.05	WT:0
 Scroll	TYPE:Adventuring Gear.Scroll	COST:0	WT:0	MODS:REQUIRED
