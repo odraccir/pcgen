@@ -99,7 +99,7 @@ Ladder (10 Ft.)	TYPE:Adventuring Gear	COST:0.01	WT:25
 Lamp	TYPE:Adventuring Gear.Container	COST:0.1	WT:1	CONTAINS:1|Liquid=1	QUALITY:Bright Illumination|15 ft.	QUALITY:Shadowy Illumination|30 ft.
 Lantern (Bullseye)	TYPE:Adventuring Gear.Container	COST:12	WT:3	CONTAINS:1|Liquid=1	QUALITY:Bright Illumination|60 ft.	QUALITY:Shadowy Illumination|60 ft.
 Lantern (Hooded)	TYPE:Adventuring Gear.Container	COST:7	WT:2	CONTAINS:1|Liquid=1	QUALITY:Bright Illumination|30 ft.	QUALITY:Shadowy Illumination|30 ft.
-Lock	TYPE:Adventuring Gear	COST:10	WT:0
+Lock	TYPE:Adventuring Gear.Lock	COST:10	WT:0
 Magnifying Glass	TYPE:Adventuring Gear	COST:100	WT:0
 Manacles	TYPE:Adventuring Gear	COST:2	WT:6
 Map	TYPE:Adventuring Gear.Writing.Documents	COST:1	WT:0

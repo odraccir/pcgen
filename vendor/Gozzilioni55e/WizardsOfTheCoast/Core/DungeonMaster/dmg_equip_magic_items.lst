@@ -1,6 +1,56 @@
 SOURCELONG:Dungeon Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-11
 
-###Block:Copy of normal objects
+###Block: Magical Weapon
+Gauntlet (Clawed)			PROFICIENCY:WEAPON|Gauntlet (Clawed)	TYPE:Weapon.Melee.Unarmed.Slashing.Gauntlet	COST:0	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.M_LIGHT.PLUS1W	SOURCEPAGE:DMG									BONUS:EQM|WEIGHTADD|-1|PREEQUIP:1,TYPE.Armor
+
+###Block:Type for EQMOD
+Battleaxe.MOD	TYPE:Berserker
+Greataxe.MOD	TYPE:Berserker
+Halberd.MOD	TYPE:Berserker
+
+Greatsword.MOD	TYPE:Dancing
+Longsword.MOD	TYPE:Dancing
+Rapier.MOD	TYPE:Dancing
+Scimitar.MOD	TYPE:Dancing
+Shortsword.MOD	TYPE:Dancing
+
+Battleaxe.MOD	TYPE:Executioner
+Greataxe.MOD	TYPE:Executioner
+Halberd.MOD	TYPE:Executioner
+Handaxe.MOD	TYPE:Executioner
+
+Glaive.MOD	TYPE:Frost Brand
+Greatsword.MOD	TYPE:Frost Brand
+Longsword.MOD	TYPE:Frost Brand
+Rapier.MOD	TYPE:Frost Brand
+Scimitar.MOD	TYPE:Frost Brand
+Shortsword.MOD	TYPE:Frost Brand
+
+Maul.MOD	TYPE:Thunderbolts
+Warhammer.MOD	TYPE:Thunderbolts
+
+Glaive.MOD	TYPE:Luck Blade
+Greatsword.MOD	TYPE:Luck Blade
+Longsword.MOD	TYPE:Luck Blade
+Rapier.MOD	TYPE:Luck Blade
+Scimitar.MOD	TYPE:Luck Blade
+Sickle.MOD	TYPE:Luck Blade
+Shortsword.MOD	TYPE:Luck Blade
+
+Greatsword.MOD	TYPE:Moonblade
+Longsword.MOD	TYPE:Moonblade
+Rapier.MOD	TYPE:Moonblade
+Scimitar.MOD	TYPE:Moonblade
+Shortsword.MOD	TYPE:Moonblade
+
+Glaive.MOD	TYPE:Moontouched
+Greatsword.MOD	TYPE:Moontouched
+Longsword.MOD	TYPE:Moontouched
+Rapier.MOD	TYPE:Moontouched
+Scimitar.MOD	TYPE:Moontouched
+Shortsword.MOD	TYPE:Moontouched
+
+###Block:Copy of base objects
 Shield.COPY=Shield	KEY:Animated Shield
 Animated Shield.MOD	OUTPUTNAME:Animated Shield
 
@@ -13,26 +63,15 @@ Arrow-Catching Shield.MOD	OUTPUTNAME:Arrow-Catching Shield
 Battleaxe.COPY=Battleaxe	KEY:Axe of the Dwarvish Lords
 Axe of the Dwarvish Lords.MOD	OUTPUTNAME:Axe of the Dwarvish Lords
 
-Battleaxe.MOD	TYPE:Berserker
-Greataxe.MOD	TYPE:Berserker
-Halberd.MOD	TYPE:Berserker
-
 Greatsword.COPY=Greatsword	KEY:Blackrazor
 Greatsword.MOD	OUTPUTNAME:Blackrazor
 
 Dagger.COPY=Dagger	KEY:Dagger of Venom
 Dagger of Venom.MOD	OUTPUTNAME:Dagger of Venom
 
-Greatsword.MOD	TYPE:Dancing
-Longsword.MOD	TYPE:Dancing
-Rapier.MOD	TYPE:Dancing
-Scimitar.MOD	TYPE:Dancing
-Shortsword.MOD	TYPE:Dancing
-
+#NOTE: This type os added to permit the EQMOD to choose type of dragonscale
 Scale Mail.COPY=Scale Mail	KEY:Dragon Scale Mail
 Dragon Scale Mail.MOD	OUTPUTNAME:Dragon Scale Mail	TYPE:DragonScale	MODS:YES
-
-Gauntlet (Clawed)			PROFICIENCY:WEAPON|Gauntlet (Clawed)	TYPE:Weapon.Melee.Unarmed.Slashing.Gauntlet	COST:0	WT:1	WIELD:Light		SIZE:M	DAMAGE:1d8	CRITRANGE:1	CRITMULT:x2	EQMOD:STEEL.M_LIGHT.PLUS1W	SOURCEPAGE:DMG									BONUS:EQM|WEIGHTADD|-1|PREEQUIP:1,TYPE.Armor
 
 Plate Armor.COPY=Plate Armor	KEY:Dwarven Plate
 Dwarven Plate.MOD	OUTPUTNAME:Dwarven Plate
@@ -58,29 +97,27 @@ Energy Longbow.MOD	OUTPUTNAME:Energy Longbow
 Shortbow.COPY=Shortbow	KEY:Energy Shortbow
 Energy Shortbow.MOD	OUTPUTNAME:Energy Shortbow
 
-Battleaxe.MOD	TYPE:Executioner
-Greataxe.MOD	TYPE:Executioner
-Halberd.MOD	TYPE:Executioner
-Handaxe.MOD	TYPE:Executioner
-
-Glaive.MOD	TYPE:Frost Brand
-Greatsword.MOD	TYPE:Frost Brand
-Longsword.MOD	TYPE:Frost Brand
-Rapier.MOD	TYPE:Frost Brand
-Scimitar.MOD	TYPE:Frost Brand
-Shortsword.MOD	TYPE:Frost Brand
-
 Studded Leather Armor.COPY=Studded Leather Armor	KEY:Glamoured Studded Leather
 Glamoured Studded Leather.MOD	OUTPUTNAME:Glamoured Studded Leather
 
-Maul.MOD	TYPE:Thunderbolts
-Warhammer.MOD	TYPE:Thunderbolts
+Javelin.COPY=Javelin	KEY:Javelin of Lightning
+Javelin of Lightning.MOD	OUTPUTNAME:Javelin of Lightning
+
+Club.COPY=Club	KEY:Lute of Thunderous Thumping
+Lute of Thunderous Thumping.MOD	OUTPUTNAME:Lute of Thunderous Thumping
+
+Mace.COPY=Mace	KEY:Mace of Disruption
+Mace of Disruption.MOD	OUTPUTNAME:Mace of Disruption
+Mace.COPY=Mace	KEY:Mace of Smithing
+Mace of Smithing.MOD	OUTPUTNAME:Mace of Smithing
+Mace.COPY=Mace	KEY:Mace of Terror
+Mace of Terror.MOD	OUTPUTNAME:Mace of Terror
 
 ###Block: Magic Items
 Alchemy Jug		TYPE:Wondrous Item.Container.Jug		WT:0.5	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON
-Amulet of Health		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution is already 19 or higher.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
-Amulet of Proof against Detection and Location		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON	SPROP:While wearing this amulet, you can’t be targeted by Divination spells or perceived through magical serying sensors unless you allow it.|PREABILITY:1,CATEGORY=Attunement,Amulet of Proof against Detection and Location	DEFINE:Attunement_Amulet_Of_Proof_Against_Detection|0	BONUS:VAR|Attunement_Amulet_Of_Proof_Against_Detection|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Proof against Detection and Location
-Amulet of the Planes		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE	SPROP:While wearing this amulet, you can take a Magic action to name a location that you are familiar with on another plane of existence.|PREABILITY:1,CATEGORY=Attunement,Amulet Of the Planes	DEFINE:Attunement_Amulet_Of_The_Planes|0	BONUS:VAR|Attunement_Amulet_Of_The_Planes|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of the Planes
+Amulet of Health		TYPE:Wondrous Item.Neckwear.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution is already 19 or higher.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
+Amulet of Proof against Detection and Location		TYPE:Wondrous Item.Neckwear.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON	SPROP:While wearing this amulet, you can’t be targeted by Divination spells or perceived through magical serying sensors unless you allow it.|PREABILITY:1,CATEGORY=Attunement,Amulet of Proof against Detection and Location	DEFINE:Attunement_Amulet_Of_Proof_Against_Detection|0	BONUS:VAR|Attunement_Amulet_Of_Proof_Against_Detection|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Proof against Detection and Location
+Amulet of the Planes		TYPE:Wondrous Item.Neckwear.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE	SPROP:While wearing this amulet, you can take a Magic action to name a location that you are familiar with on another plane of existence.|PREABILITY:1,CATEGORY=Attunement,Amulet Of the Planes	DEFINE:Attunement_Amulet_Of_The_Planes|0	BONUS:VAR|Attunement_Amulet_Of_The_Planes|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of the Planes
 Animated Shield.MOD	TYPE:Wondrous Item.Attunement	EQMOD:MAGIC_ITEM_VERY_RARE	SPROP:While holding this Shield, you can take a Bonus Action to cause it to animate.|PREABILITY:1,CATEGORY=Attunement,Animated Shield	DEFINE:Attunement_Animated_Shield|0	BONUS:VAR|Attunement_Animated_Shield|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Animated Shield
 Apparatus of Kwalish		TYPE:Wondrous Item		WT:500	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_LEGENDARY
 Armor of Invulnerability.MOD	TYPE:Wondrous Item.Attunement	EQMOD:MAGIC_ITEM_LEGENDARY	SPROP:You have resistance to Bludgeoning, Piercing amd Slashing damage.|PREABILITY:1,CATEGORY=Attunement,Armor of Invulnerability	DEFINE:Attunement_Armor_Of_Invulnerability|0	BONUS:VAR|Attunement_Armor_Of_Invulnerability|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Armor of Invulnerability
@@ -115,7 +152,7 @@ Bowl of Commanding Water Elementals		TYPE:Wondrous Item		WT:3	SOURCEPAGE:DMG	EQM
 Bracers of Archery		TYPE:Wondrous Item.Bracer.Attunement		WT:0	SOURCEPAGE:DMG	SLOTS:2	EQMOD:MAGIC_ITEM_UNCOMMON	SPROP:While wearing these bracers, you have proficiency with the Longbow and Shortbow, and you gain a +2 bonus to damage rolls made with such weapons.|PREABILITY:1,CATEGORY=Attunement,Bracers of Archery	DEFINE:Attunement_Bracers_Of_Archery|0	BONUS:VAR|Attunement_Bracers_Of_Archery|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Bracers of Archery
 Bracers of Defence		TYPE:Wondrous Item.Bracer.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:While wearing these bracers, you gain a +2 bonus to Armor Class if you are wearing no armor and using no Shield.|PREABILITY:1,CATEGORY=Attunement,Bracers of Defence	DEFINE:Attunement_Bracers_Of_Defence|0	BONUS:VAR|Attunement_Bracers_Of_Defence|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Bracers of Defense
 Brazier of Commanding Fire Elementals		TYPE:Wondrous Item		WT:3	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:While you are within 5 feet of this brazier, you can take a Magic action to summon a Fire Elemental.
-Brooch of Shielding		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON	SPROP:While wearing this brooch, you have Resistance to Force damage, and you have Immunity to damage from the Magic Missile spell.|PREABILITY:1,CATEGORY=Attunement,Brooch of Shielding	DEFINE:Attunement_Brooch_Of_Shielding|0	BONUS:VAR|Attunement_Brooch_Of_Shielding|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Brooch of Shielding
+Brooch of Shielding		TYPE:Wondrous Item.Neckwear.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON	SPROP:While wearing this brooch, you have Resistance to Force damage, and you have Immunity to damage from the Magic Missile spell.|PREABILITY:1,CATEGORY=Attunement,Brooch of Shielding	DEFINE:Attunement_Brooch_Of_Shielding|0	BONUS:VAR|Attunement_Brooch_Of_Shielding|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Brooch of Shielding
 Broom of Flying		TYPE:Wondrous Item.Container.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON	SPROP:This wooden broom functions like a mundane broom until you stand astride it and take a Magic action to make it hover beneath you, at which time it can be ridden in the air.|PREABILITY:1,CATEGORY=Attunement,Broom of Flying	DEFINE:Attunement_Broom_Of_Flying|0	BONUS:VAR|Attunement_Broom_Of_Flying|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Broom of Flying	CONTAINS:400
 Candle of Invocation		TYPE:Wondrous Item		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE	SPROP:While you are within that light, you have Advantage on D20 Tests. In addition, a Cleric or Druid in the light can cast level 1 spells they have prepared without expending spell slots.|PREABILITY:1,CATEGORY=Attunement,Candle of Invocation	DEFINE:Attunement_Candle_Of_Invocation|0	BONUS:VAR|Attunement_Candle_Of_Invocation|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Candle of Invocation	QUALITY:Bright Illumination|5 ft.	QUALITY:Shadowy Illumination|5 ft.
 Candle of the Deep		TYPE:Wondrous Item		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_COMMON	SPROP:The flame of this candle isn't extinguished when immersed in water.QUALITY:Bright Illumination|5 ft.	QUALITY:Shadowy Illumination|5 ft.
@@ -225,16 +262,47 @@ Instrument of the Bards (Anstruth Harp)		TYPE:Wondrous Item.Musical Instruments.
 Instrument of the Bards (Canaith Mandolin)		TYPE:Wondrous Item.Musical Instruments.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE.INSTR_BARD_INST	SPROP:An Instrument of the Bards is superior to an ordinary strument in every way. Seven types of these instruments exist, each named after a bard college.|PREABILITY:1,CATEGORY=Attunement,Instrument of the Bard (Canaith Mandolin)	DEFINE:Attunement_Instrument_Of_The_Bard_Canaith_Mandolin|0	BONUS:VAR|Attunement_Instrument_Of_The_Bard_Canaith_Mandolin|1	SPROP:Not attuned to Item. Creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 Psychic damage.|!PREABILITY:1,CATEGORY=Attunement,Instrument of the Bard (Canaith Mandolin)
 Instrument of the Bards (Cli Lute)		TYPE:Wondrous Item.Musical Instruments.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE.INSTR_BARD_INST	SPROP:An Instrument of the Bards is superior to an ordinary strument in every way. Seven types of these instruments exist, each named after a bard college.|PREABILITY:1,CATEGORY=Attunement,Instrument of the Bard (Cli Lute)	DEFINE:Attunement_Instrument_Of_The_Bard_Cli_Lute|0	BONUS:VAR|Attunement_Instrument_Of_The_Bard_Cli_Lute|1	SPROP:Not attuned to Item. Creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 Psychic damage.|!PREABILITY:1,CATEGORY=Attunement,Instrument of the Bard (Cli Lute)
 Instrument of the Bards (Doss Lute)		TYPE:Wondrous Item.Musical Instruments.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON.INSTR_BARD_INST	SPROP:An Instrument of the Bards is superior to an ordinary strument in every way. Seven types of these instruments exist, each named after a bard college.|PREABILITY:1,CATEGORY=Attunement,Instrument of the Bard (Doss Lute)	DEFINE:Attunement_Instrument_Of_The_Bard_Doss_Lute|0	BONUS:VAR|Attunement_Instrument_Of_The_Bard_Doss_Lute|1	SPROP:Not attuned to Item. Creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 Psychic damage.|!PREABILITY:1,CATEGORY=Attunement,Instrument of the Bard (Doss Lute)
-#[name]		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
-#[name]		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
-#[name]		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
-#[name]		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
-#[name]		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
-#[name]		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
-#[name]		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
-#[name]		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
-#[name]		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
-#[name]		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
-#[name]		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
-#[name]		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
-#[name]		TYPE:Wondrous Item.Amulet.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
+Instrument of the Bards (Fochlucan Bandore)		TYPE:Wondrous Item.Musical Instruments.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON.INSTR_BARD_INST	SPROP:An Instrument of the Bards is superior to an ordinary strument in every way. Seven types of these instruments exist, each named after a bard college.|PREABILITY:1,CATEGORY=Attunement,Instrument of the Bard (Fochlucan Bandore)	DEFINE:Attunement_Instrument_Of_The_Bard_Fochlucan_Bandore|0	BONUS:VAR|Attunement_Instrument_Of_The_Bard_Fochlucan_Bandore|1	SPROP:Not attuned to Item. Creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 Psychic damage.|!PREABILITY:1,CATEGORY=Attunement,Instrument of the Bard (Fochlucan Bandore)
+Instrument of the Bards (Mac-Fuirmidh Cittern)		TYPE:Wondrous Item.Musical Instruments.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON.INSTR_BARD_INST	SPROP:An Instrument of the Bards is superior to an ordinary strument in every way. Seven types of these instruments exist, each named after a bard college.|PREABILITY:1,CATEGORY=Attunement,Instrument of the Bard (Mac-Fuirmidh Cittern)	DEFINE:Attunement_Instrument_Of_The_Bard_Mac-Fuirmidh_Cittern|0	BONUS:VAR|Attunement_Instrument_Of_The_Bard_Mac-Fuirmidh_Cittern|1	SPROP:Not attuned to Item. Creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 Psychic damage.|!PREABILITY:1,CATEGORY=Attunement,Instrument of the Bard (Mac-Fuirmidh Cittern)
+Instrument of the Bards (Ollamh Harp)		TYPE:Wondrous Item.Musical Instruments.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_LEGENDARY.INSTR_BARD_INST	SPROP:An Instrument of the Bards is superior to an ordinary strument in every way. Seven types of these instruments exist, each named after a bard college.|PREABILITY:1,CATEGORY=Attunement,Instrument of the Bard (Ollamh Harp)	DEFINE:Attunement_Instrument_Of_The_Bard_Ollamh_Harp|0	BONUS:VAR|Attunement_Instrument_Of_The_Bard_Ollamh_Harp|1	SPROP:Not attuned to Item. Creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 Psychic damage.|!PREABILITY:1,CATEGORY=Attunement,Instrument of the Bard (Ollamh Harp)
+Ioun Stone (Absorption)		TYPE:Wondrous Item.Ioun Stone.Attunement.Consumable		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE.CHARGED_ITEM_20	SPROP:You can take a Reaction to cancel a spell of level 4 or lower cast by a creature you can see.|PREABILITY:1,CATEGORY=Attunement,Youn Stone (Absorption)	DEFINE:Attunement_Ioun_Stone_Absorption|0	BONUS:VAR|Attunement_Ioun_Stone_Absorption|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Ioun Stone (Absorption)
+Ioun Stone (Agility)		TYPE:Wondrous Item.Ioun Stone.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE	SPROP:Your Dexterity increases by 2, to a maximum of 20.|PREABILITY:1,CATEGORY=Attunement,Youn Stone (Agility)	DEFINE:Attunement_Ioun_Stone_Agility|0	BONUS:VAR|Attunement_Ioun_Stone_Agility|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Ioun Stone (Agility)
+Ioun Stone (Awareness)		TYPE:Wondrous Item.Ioun Stone.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:While this dark-blue rhomboid orbits your head, you have Advantage on Initiative rolls and Wisdom (Perception) checks.|PREABILITY:1,CATEGORY=Attunement,Youn Stone (Awareness)	DEFINE:Attunement_Ioun_Stone_Awareness|0	BONUS:VAR|Attunement_Ioun_Stone_Awareness|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Ioun Stone (Awareness)
+Ioun Stone (Fortitude)		TYPE:Wondrous Item.Ioun Stone.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE	SPROP:YourYour Constitution increases by 2, to a maximum of 20.|PREABILITY:1,CATEGORY=Attunement,Youn Stone (Fortitude)	DEFINE:Attunement_Ioun_Stone_Fortitude|0	BONUS:VAR|Attunement_Ioun_Stone_Fortitude|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Ioun Stone (Fortitude)
+Ioun Stone (Greater Absorption)		TYPE:Wondrous Item.Ioun Stone.Attunement.Consumable		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_LEGENDARY.CHARGED_ITEM_20	SPROP:You can take a Reaction to cancel a spell of level 8 or lower cast by a creature you can see.|PREABILITY:1,CATEGORY=Attunement,Youn Stone (Greater Absorption)	DEFINE:Attunement_Ioun_Stone_Greater_Absorption|0	BONUS:VAR|Attunement_Ioun_Stone_Greater_Absorption|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Ioun Stone (Greater Absorption)
+Ioun Stone (Insight)		TYPE:Wondrous Item.Ioun Stone.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE	SPROP:Your Wisdom increases by 2, to a maximum of 20.|PREABILITY:1,CATEGORY=Attunement,Youn Stone (Insight)	DEFINE:Attunement_Ioun_Stone_Insight|0	BONUS:VAR|Attunement_Ioun_Stone_Insight|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Ioun Stone (Insight)
+Ioun Stone (Intellect)		TYPE:Wondrous Item.Ioun Stone.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE	SPROP:Your Intelligence increases by 2, to a maximum of 20.|PREABILITY:1,CATEGORY=Attunement,Youn Stone (Intellect)	DEFINE:Attunement_Ioun_Stone_Intellect|0	BONUS:VAR|Attunement_Ioun_Stone_Intellect|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Ioun Stone (Intellect)
+Ioun Stone (Leadership)		TYPE:Wondrous Item.Ioun Stone.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE	SPROP:Your Charisma increases by 2, to a maximum of 20.|PREABILITY:1,CATEGORY=Attunement,Youn Stone (Leadership)	DEFINE:Attunement_Ioun_Stone_Leadership|0	BONUS:VAR|Attunement_Ioun_Stone_Leadership|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Ioun Stone (Leadership)
+Ioun Stone (Mastery)		TYPE:Wondrous Item.Ioun Stone.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_LEGENDARY	SPROP:Your Proficiency Bonus increases by 1.|PREABILITY:1,CATEGORY=Attunement,Youn Stone (Mastery)	DEFINE:Attunement_Ioun_Stone_Mastery|0	BONUS:VAR|Attunement_Ioun_Stone_Mastery|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Ioun Stone (Mastery)
+Ioun Stone (Protection)		TYPE:Wondrous Item.Ioun Stone.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:You gain a +1 bonus to Armor Class.|PREABILITY:1,CATEGORY=Attunement,Youn Stone (Protection)	DEFINE:Attunement_Ioun_Stone_Protection|0	BONUS:VAR|Attunement_Ioun_Stone_Protection|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Ioun Stone (Protection)
+Ioun Stone (Regeneration)		TYPE:Wondrous Item.Ioun Stone.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_LEGENDARY	SPROP:You regain 15 Hit Points at the end of each hour if you have at least 1 Hit Point.|PREABILITY:1,CATEGORY=Attunement,Youn Stone (Regeneration)	DEFINE:Attunement_Ioun_Stone_Regeneration|0	BONUS:VAR|Attunement_Ioun_Stone_Regeneration|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Ioun Stone (Regeneration)
+Ioun Stone (Reserve)		TYPE:Wondrous Item.Ioun Stone.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:This vibrant purple prism stores spells cast into it, holding them until you use them. The stone can store up to 4 levels of spells at a time.|PREABILITY:1,CATEGORY=Attunement,Youn Stone (Reserve)	DEFINE:Attunement_Ioun_Stone_Reserve|0	BONUS:VAR|Attunement_Ioun_Stone_Reserve|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Ioun Stone (Reserve)
+Ioun Stone (Strength)		TYPE:Wondrous Item.Ioun Stone.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE	SPROP:Your Strength increases by 2, to a maximum of 20.|PREABILITY:1,CATEGORY=Attunement,Youn Stone (Strength)	DEFINE:Attunement_Ioun_Stone_Strength|0	BONUS:VAR|Attunement_Ioun_Stone_Strength|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Ioun Stone (Strength)
+Ioun Stone (Sustenance)		TYPE:Wondrous Item.Ioun Stone.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:You don't need to eat or drink while this clear spindle orbits your head.|PREABILITY:1,CATEGORY=Attunement,Youn Stone (Sustenance)	DEFINE:Attunement_Ioun_Stone_Sustenance|0	BONUS:VAR|Attunement_Ioun_Stone_Sustenance|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Ioun Stone (Sustenance)
+Iron Bands of Bilarro		TYPE:Wondrous Item		WT:1	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:You can take a Magic action to throw the sphere at a Huge or smaller creature you can see within 60 feet of yourself. As the sphere moves through the air, it opens into a tangle of metal bands.
+Iron Flask		TYPE:Wondrous Item.Flask.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_LEGENDARY	SPROP:While holding this brass-stoppered iron flask, you can take a Magic action to target a creature that you can see within 60 feet of yourself.
+Javeling of Lightning.MOD		TYPE:Wondrous Item		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON	SPROP:Each time you make an attack roll with this magic weapon and hit, you can have it deal Lightning damage instead of Piercing damage.
+Keoghtom's Ointment		TYPE:Wondrous Item.Liquid.Attunement.Consumable		WT:1	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON.CHARGED_ITEM_5	SPROP:As a Utilize action, you can swallow one dose of the ointment or apply it to a creature within 5 feet of yourself. The creature that receives it regains 2d8 + 2 Hit Points and ceases to have the Poisoned condition.
+Lantern of Revealing		TYPE:Wondrous Item.Container		WT:2	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON	SPROP:While lit, this hooded lantern burns for 6 hours on 1 pint of oil.	CONTAINS:1|Liquid=1	QUALITY:Bright Illumination|30 ft.	QUALITY:Shadowy Illumination|30 ft.
+Lock of Trickery		TYPE:Wondrous Item.Lock.Consumable		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_COMMON.CHARGED_ITEM_3	SPROP:Dexterity checks made to pick the lock have Disadvantage.
+Lute of Thunderous Thumping.MOD		TYPE:Wondrous Item.Musical Instruments			SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE	SPROP:This reinforced lute can be wielded as a magic Club that deals an extra 248 Thunder damage on a hit.	BONUS:WEAPON|TOHIT|max(CHA,STR)-STR
+Mace of Disruption.MOD		TYPE:Wondrous Item.Attunement			SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:When you hit a Fiend or an Undead with this magic weapon.|PREABILITY:1,CATEGORY=Attunement,Mace of Destruction	DEFINE:Attunement_Mace_Of_Destruction|0	BONUS:VAR|Attunement_Mace_Of_Destruction|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Mace of Destruction	QUALITY:Bright Illumination|20 ft.	QUALITY:Shadowy Illumination|20 ft.
+Mace of Smithing.MOD		TYPE:Wondrous Item.Attunement			SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE.PLUS1W	SPROP:You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. The bonus increases to +3 when you use the weapon to attack a Construct.|PREABILITY:1,CATEGORY=Attunement,Mace of Smithing	DEFINE:Attunement_Mace_Of_Smithing|0	BONUS:VAR|Attunement_Mace_Of_Smithing|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Mace of Smithing
+Mace of Terror.MOD		TYPE:Wondrous Item.Attunement			SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE.CHARGED_ITEM_3	SPROP:While holding the weapon, you can take a Magic action and expend 1 charge to release a wave of terror from it. Each creature of your choice within 30 feet of you must succeed on a DC 15 Wisdom saving throw or have the Frightened condition for 1 minute.|PREABILITY:1,CATEGORY=Attunement,Mace of Terror	DEFINE:Attunement_Mace_Of_Terror|0	BONUS:VAR|Attunement_Mace_Of_Terror|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Mace of Terror
+Mantle of Spell Resistance		TYPE:Wondrous Item.Cape.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:You have Advantage on saving throws against spells while you wear this cloak.|PREABILITY:1,CATEGORY=Attunement,Mantle of Spell Resistance	DEFINE:Attunement_Mantle_Of_Resistance|0	BONUS:VAR|Attunement_Mantle_Of_Resistance|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Mantle of Resistance
+Manual of Bodily Health		TYPE:Wondrous Item.Book.Consumable		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE.CHARGED_ITEM_1	SPROP:If you spend 48 hours over a period of 6 days or fewer studying the book’s contents and practicing its guidelines, your Constitution increases by 2, toa maximum of 30. The manual then loses its magic but regains it in a century.	BONUS:STAT|CON|2|!PRESTAT:1,CON=28
+Manual of Gainful Excercise		TYPE:Wondrous Item.Book.Consumable		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE.CHARGED_ITEM_1	SPROP:If you spend 48 hours over a period of 6 days or fewer studying the book’s con- tents and practicing its guidelines, your Strength increases by 2, to a maximum of 30. The manual then loses its magic but regains it in a century.	BONUS:STAT|CON|2|!PRESTAT:1,STR=28
+Manual of Golems (Clay Golems)		TYPE:Wondrous Item.Book.Consumable		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE.CHARGED_ITEM_1	SPROP:Clay Golems, 30 days, 65'000 gp.
+Manual of Golems (Flesh Golems)		TYPE:Wondrous Item.Book.Consumable		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE.CHARGED_ITEM_1	SPROP:Flesh Golems, 60 days, 50'000 gp.
+Manual of Golems (Iron Golems)		TYPE:Wondrous Item.Book.Consumable		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE.CHARGED_ITEM_1	SPROP:Iron Golems, 120 days, 100'000 gp.
+Manual of Golems (Stone Golems)		TYPE:Wondrous Item.Book.Consumable		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE.CHARGED_ITEM_1	SPROP:Stone Golems, 90 days, 80'000 gp.
+Manual of Quickness of Action		TYPE:Wondrous Item.Book.Consumable		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE.CHARGED_ITEM_1	SPROP:If you spend 48 hours over a period of 6 days or fewer studying the book’s contents and practicing its guidelines, your Dexterity increases by 2, to a maximum of 30. The manual then loses its magic but regains it in a century.	BONUS:STAT|DEX|2|!PRESTAT:1,DEX=28
+Medallion of Thoughts		TYPE:Wondrous Item.Neckwear.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON.CHARGED_ITEM_5	SPROP:The medallion has 5 charges. While wearing it, you can expend 1 charge to cast Detect Thoughts (save DC 13) from it. The medallion regains 1d4 expended charges daily at dawn.|PREABILITY:1,CATEGORY=Attunement,Medallion of Thoughts	DEFINE:Attunement_Medallion_of_Thoughts|0	BONUS:VAR|Attunement_Medallion_of_Thoughts|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Medallion of Thoughts
+Mirror of Life Trapping		TYPE:Wondrous Item		WT:50	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_VERY_RARE	SPROP:If the mirror is hanging on a vertical surface and you are within 5 feet of it, you can take a Magic action and use a command word to activate it. It remains activated until you take a Magic action and repeat the command word to deactivate.
+Mistery Key		TYPE:Wondrous Item.Consumable		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_COMMON.CHARGED_ITEM_1	SPROP:A question mark is worked into the head of this key. The key has a 5 percent chance of unlocking any lock into which it’s inserted. Once it unlocks something, the key disappears.
+Nature's Mantle		TYPE:Wondrous Item.Cape.Focus.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON	SPROP:This cloak shifts color and texture to blend with the terrain surrounding you. While wearing the cloak, you can use it as a Spellcasting Focus for your Druid and Ranger spells.|PREABILITY:1,CATEGORY=Attunement,Nature's Mantle	DEFINE:Attunement_Nature_S_Mantle|0	BONUS:VAR|Attunement_Nature_S_Mantle|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Nature's Mantle
+Necklace of Adaptation		TYPE:Wondrous Item.Neckwear.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_UNCOMMON	SPROP:While wearing this necklace, you can breathe normally in any environment, and you have Advantage on saving throws made to avoid or end the Poisoned condition.|PREABILITY:1,CATEGORY=Attunement,Necklace of Adaptation	DEFINE:Attunement_Necklace_Of_Adaptation|0	BONUS:VAR|Attunement_Necklace_Of_Adaptation|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Necklace of Adaptation
+Necklace of Fireballs		TYPE:Wondrous Item.Neckwear		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE.CHARGED_ITEM_9	SPROP:This necklace has 1d6 + 3 beads hanging from it. You can take a Magic action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a level 3 Fireball (save DC 15).
+Necklace of Praer Beads		TYPE:Wondrous Item.Neckwear.Attunement.Container		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	CONTAINS:UNLIM|Prayer Beads=6
+#[name]		TYPE:Wondrous Item.Neckwear.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
+#[name]		TYPE:Wondrous Item.Neckwear.Attunement		WT:0	SOURCEPAGE:DMG	EQMOD:MAGIC_ITEM_RARE	SPROP:Your.|PREABILITY:1,CATEGORY=Attunement,Amulet Of Health	DEFINE:Attunement_Amulet_Of_Health|0	BONUS:VAR|Attunement_Amulet_Of_Health|1	SPROP:Not attuned to Item|!PREABILITY:1,CATEGORY=Attunement,Amulet Of Health
