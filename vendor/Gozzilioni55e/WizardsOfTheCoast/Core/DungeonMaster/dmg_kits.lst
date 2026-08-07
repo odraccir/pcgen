@@ -264,3 +264,43 @@ STARTPACK:Specific Art - Gilded	TYPE:Treasure	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:
 SELECT:roll("1d2")
 GEAR:Art (Gilded royal coach)			EQMOD:ART|EVAL(roll("3d4")*1000)	OPTION:1
 GEAR:Art (Gilded funeral barge)			EQMOD:ART|EVAL(roll("3d4")*1000)	OPTION:2
+
+STARTPACK:Mantle of Prayer Beads - Random Beads	TYPE:Magic item	VISIBLE:YES	APPLY:INSTANT	EQUIPBUY:0	PREEQUIP:1,Mantle of Prayer Beads
+SELECT:roll("1d4+2")
+KIT:Mantle of Prayer Beads - Random Beads	OPTION:1	LOCATION:Necklace of Prayer Beads
+KIT:Mantle of Prayer Beads - Random Beads	OPTION:1,2	LOCATION:Necklace of Prayer Beads
+KIT:Mantle of Prayer Beads - Random Beads	OPTION:1,3	LOCATION:Necklace of Prayer Beads
+KIT:Mantle of Prayer Beads - Random Beads	OPTION:1,4	LOCATION:Necklace of Prayer Beads
+KIT:Mantle of Prayer Beads - Random Beads	OPTION:1,5	LOCATION:Necklace of Prayer Beads
+KIT:Mantle of Prayer Beads - Random Beads	OPTION:1,6	LOCATION:Necklace of Prayer Beads
+
+STARTPACK:Mantle of Prayer Beads - Random Beads	TYPE:Magic item	VISIBLE:NO	APPLY:INSTANT	EQUIPBUY:0
+SELECT:roll("1d20")
+GEAR:Bead of Blessing	OPTION:1,6
+GEAR:Bead of Curing	OPTION:7,12
+GEAR:Bead of Favor	OPTION:13,16
+GEAR:Bead of Smithing	OPTION:17-18
+GEAR:Bead of Summons	OPTION:19
+GEAR:Bead of Wind Walking	OPTION:20
+
+STARTPACK:Quaal's Feather Tokens - Random Tokens	TYPE:Magic item	VISIBLE:YES	APPLY:INSTANT
+SELECT:roll("1d100")
+GEAR:Quaal's Feather Tokens (Anchor)	OPTION:1,20
+GEAR:Quaal's Feather Tokens (Bird)	OPTION:21,35
+GEAR:Quaal's Feather Tokens (Fan)	OPTION:36,50
+GEAR:Quaal's Feather Tokens (Swan Boat)	OPTION:51,65
+GEAR:Quaal's Feather Tokens (Tree)	OPTION:66,90
+GEAR:Quaal's Feather Tokens (Whip)	OPTION:91,00
+
+STARTPACK:Potion of Resistance - Random Potions	TYPE:Magic item	VISIBLE:YES	APPLY:INSTANT
+SELECT:roll("1d10")
+GEAR:Potion of Resistance (Acid)	OPTION:1
+GEAR:Potion of Resistance (Cold)	OPTION:2
+GEAR:Potion of Resistance (Fire)	OPTION:3
+GEAR:Potion of Resistance (Force)	OPTION:4
+GEAR:Potion of Resistance (Lightning)	OPTION:5
+GEAR:Potion of Resistance (Necrotic)	OPTION:6
+GEAR:Potion of Resistance (Poison)	OPTION:7
+GEAR:Potion of Resistance (Psychic)	OPTION:8
+GEAR:Potion of Resistance (Radiant)	OPTION:9
+GEAR:Potion of Resistance (Thunder)	OPTION:10

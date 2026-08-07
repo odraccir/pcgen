@@ -23,7 +23,7 @@ FOLLOWER:PrimalCompanionLVL=18		TYPE:Primal Companion	HD:1
 FOLLOWER:PrimalCompanionLVL=19		TYPE:Primal Companion	HD:1
 FOLLOWER:PrimalCompanionLVL=20		TYPE:Primal Companion	HD:1
 
-FOLLOWER:AnimatedObjectLVL=1	TYPE:Animated Object	DEFINE:ProficiencyBonus|0	DEFINE:DamageBonus|0
+FOLLOWER:AnimatedObjectLVL=1	TYPE:Animated Object	DEFINE:DamageBonus|0
 FOLLOWER:AnimatedObjectLVL=1	TYPE:Animated Object		BONUS:VAR|Proficiency_Bonus|mastervar("Proficiency_Bonus")
 FOLLOWER:AnimatedObjectLVL=1	TYPE:Animated Object		BONUS:VAR|DamageBonus|INT|PRECLASS:1,Wizard|TYPE=Class
 FOLLOWER:AnimatedObjectLVL=1	TYPE:Animated Object		BONUS:VAR|DamageBonus|CHA|PRECLASS:1,Bard|TYPE=Class

@@ -1,0 +1,5 @@
+SOURCELONG:Dungeon Master's Guide	SOURCESHORT:DMG	SOURCEWEB:http://www.gozzilioni.net	SOURCEDATE:2024-11
+
+###Block:Class spells.
+Fear.COPY=Fear	KEY:Fear ~ Beast only
+Fear ~ Beast only.MOD	OUPUTNAME:Fear ~ Beast only	TYPE:SpellLike	CLASSES:.CLEARALL	DESC:Beast only.

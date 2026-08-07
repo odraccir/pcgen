@@ -42,9 +42,9 @@ KIT:dmg_kits.lst
 WEAPONPROF:dmg_profs_weapon.lst
 #RACE:dmg_races.lst
 #SKILL:dmg_skills.lst
-#SPELL:dmg_spells.lst
+SPELL:dmg_spells.lst
 TEMPLATE:dmg_templates.lst
 
-HIDETYPE:EQUIP|Berserker|Dancing|DragonScale|Elemental Gem|Executioner|Frost Brand|Thunderbolts|Luck Blade|Moonblade|Moontouched
+HIDETYPE:EQUIP|Berserker|Dancing|DragonScale|Elemental Gem|Executioner|Frost Brand|Thunderbolts|Luck Blade|Moonblade|Moontouched|Oathbow
 
 INFOTEXT:Supports 6.4.1

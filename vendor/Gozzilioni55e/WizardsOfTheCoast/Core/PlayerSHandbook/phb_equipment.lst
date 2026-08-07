@@ -87,9 +87,9 @@ Druidic Focus (Yew Wand)	TYPE:Adventuring Gear.Focus.Druidic Focus.Wand	COST:10	
 Flask (Empty)	TYPE:Adventuring Gear.Flask.Container	COST:0.02	WT:1	CONTAINS:1|Liquid=1|SpellComponent=1|Poison=1
 Grappling Hook	TYPE:Adventuring Gear	COST:2	WT:4
 Healer's Kit	TYPE:Adventuring Gear	COST:5	WT:3	EQMOD:CHARGED_ITEM_10|10
-Holy Symbol (Amulet)	TYPE:Adventuring Gear.Focus.Holy Symbol	COST:5	WT:1
-Holy Symbol (Emblem)	TYPE:Adventuring Gear.Focus.Holy Symbol	COST:5	WT:0
-Holy Symbol (Reliquary)	TYPE:Adventuring Gear.Focus.Holy Symbol.Costly	COST:5	WT:2
+Holy Symbol (Amulet)	TYPE:Adventuring Gear.Focus.Divine Focus.Holy Symbol	COST:5	WT:1
+Holy Symbol (Emblem)	TYPE:Adventuring Gear.Focus.Divine Focus.Holy Symbol	COST:5	WT:0
+Holy Symbol (Reliquary)	TYPE:Adventuring Gear.Focus.Divine Focus.Holy Symbol	COST:5	WT:2
 Holy Water (Flask)	TYPE:Adventuring Gear.Flask.Container	COST:0.02	WT:1	CONTAINS:1|Liquid=1|SpellComponent=1|Poison=1
 Hunting Trap	TYPE:Adventuring Gear	COST:5	WT:25
 Ink	TYPE:Adventuring Gear	COST:10	WT:0
