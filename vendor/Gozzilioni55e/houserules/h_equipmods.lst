@@ -77,3 +77,6 @@ Lock	KEY:BOOK_LOCK	TYPE:Book.Spellbook	VISIBLE:QUALIFY	SOURCEPAGE:UA	COST:BASECO
 # libro, ma ne sospende l'effetto magico per 10 minuti. Un effetto di Dissolvi Magie (Dispel Magic) contro una CD 13 
 # sopprime la magia del sigillo per 1 ora.
 Magic Lock	KEY:BOOK_MAGIC_LOCK	TYPE:Book.Spellbook	VISIBLE:QUALIFY	SOURCEPAGE:UA	COST:BASECOST-400	PRETYPE:1,Uncommon,Rare,Very Rare,Legendary,Artifact	PRETYPE:1,Book,Spellbook	FORMATCAT:MIDDLE	NAMEOPT:TEXT=With Magic Lock
+
+|Spell Scroll	KEY:A_1USE_ARTF	NAMEOPT:SPELL	TYPE:Scroll.Arcane.Artifact	VISIBLE:QUALIFY	ITYPE:Consumable	SOURCEPAGE:DMG	PRETYPE:3,Scroll,Artifact,Arcane	CHOOSE:EQBUILDER.SPELL|Arcane|10|20
+|Spell Scroll	KEY:D_1USE_ARTF	NAMEOPT:SPELL	TYPE:Scroll.Divine.Artifact	VISIBLE:QUALIFY	ITYPE:Consumable	SOURCEPAGE:DMG	PRETYPE:3,Scroll,Artifact,Divine	CHOOSE:EQBUILDER.SPELL|Divine|10|20
